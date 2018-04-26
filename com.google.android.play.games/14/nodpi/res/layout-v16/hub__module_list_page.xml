@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.play.games.lib.widgets.conductor.ConductorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.play.games.lib.widgets.scrolllock.HorizontalScrollingAwareRecyclerView android:orientation="vertical" android:id="@id/hub__page_recycler_view" android:paddingTop="?actionBarSize" android:paddingBottom="16.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_conductor_behavior="topRecyclerView" app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="?android:windowBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" app:layout_conductor_behavior="floating|offset" app:layout_conductor_maxOffset="?actionBarSize" app:layout_conductor_hideWhen="fullyOffset">
+        <ImageView android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/product_logo_play_games_color_48" android:importantForAccessibility="no" />
+        <TextView android:gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/games__hub__toolbar_title" style="@style/TextStyle.Replay.Headline.6" />
+    </android.support.v7.widget.Toolbar>
+    <View android:id="@id/toolbar_divider" android:layout_marginTop="?actionBarSize" app:layout_conductor_behavior="floating|offset" app:layout_conductor_maxOffset="?actionBarSize" app:layout_conductor_hideWhen="notFloating|fullyOffset" style="@style/GamesCommon.Divider" />
+</com.google.android.apps.play.games.lib.widgets.conductor.ConductorLayout>

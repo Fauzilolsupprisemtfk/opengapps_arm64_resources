@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/episode_item_separator" android:layout_marginLeft="24.0dip" android:layout_marginStart="24.0dip" style="@style/horizontal_bar" />
+    <RelativeLayout android:id="@id/episode_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.apps.gsa.plugins.podcastplayer.BulletView android:id="@id/bullet_view" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="6.0dip" android:layout_alignParentRight="true" android:contentDescription="@string/play_this_episode" android:layout_marginStart="6.0dip" android:layout_marginEnd="12.0dip" android:layout_alignParentEnd="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_toLeftOf="@id/bullet_view" android:layout_alignParentLeft="true" android:layout_marginStart="24.0dip" android:layout_toStartOf="@id/bullet_view" android:layout_alignParentStart="true">
+            <TextView android:id="@id/episode_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="4.0dip" style="@style/episode_title" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@id/episode_date_and_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/episode_title" style="@style/episode_subtitle" />
+                <ImageView android:id="@id/episode_downloaded_mark" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:src="@drawable/quantum_ic_file_download_done_googblue_18" android:tint="@color/episode_downloaded_mark_color" android:contentDescription="@string/downloaded" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <FrameLayout android:id="@id/episode_description_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/download_ui_container" />
+</LinearLayout>

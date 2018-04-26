@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.gsa.staticplugins.quartz.monet.shared.crossfadeimageview.CrossFadeImageView android:id="@id/quartz_ganache_ingredient_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:tint="#6f000000" />
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/quartz_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/quartz_padding_start" android:paddingEnd="@dimen/quartz_padding_end">
+        <com.google.android.apps.gsa.staticplugins.quartz.monet.shared.ui.baselinetextview.BaselineTextView android:textColor="@color/quartz_meals_list_text_color_inactive" android:id="@id/quartz_ganache_ingredient_title" android:paddingBottom="@dimen/quartz_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Quartz.Text.T10" />
+        <FrameLayout android:id="@id/quartz_ganache_ingredient_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uic="http://schemas.android.com/apk/res-auto">
+    <com.google.android.wallet.ui.common.InfoMessageView android:id="@id/top_info_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="?suwMarginSides" android:layout_marginTop="8.0dip" android:layout_marginRight="?suwMarginSides" android:layout_marginBottom="24.0dip" uic:internalUicInfoMessageTextAppearance="@style/TextAppearance.SuwDescription" uic:internalUicInfoMessageTextForceGravity="?suwGlifHeaderGravity" />
+    <LinearLayout android:orientation="vertical" android:id="@id/creatable_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="?uicFormListDivider" android:showDividers="beginning|end|middle" android:layout_marginStart="?suwMarginSides" android:layout_marginEnd="?suwMarginSides" />
+    <FrameLayout android:id="@id/fragment_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="?uicFormStartEndMargin" android:layout_marginRight="?uicFormStartEndMargin" android:layout_marginBottom="@dimen/wallet_spacing_medium" />
+    <com.google.android.wallet.ui.common.ButtonComponent android:layout_gravity="?walletRaisedButtonGravity" android:id="@id/submit_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="?uicFormStartEndMargin" android:layout_marginRight="?uicFormStartEndMargin" style="@style/WalletButton" />
+</LinearLayout>

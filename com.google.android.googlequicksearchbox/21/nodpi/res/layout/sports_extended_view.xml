@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="@dimen/bubble_extended_view_width" android:layout_height="wrap_content">
+        <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/match_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:fontFamily="roboto" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+        <TextView android:textSize="13.0sp" android:textColor="#ff212121" android:ellipsize="end" android:id="@id/league_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:lines="1" android:fontFamily="roboto_regular" android:layout_marginStart="16.0dip" android:layout_toStartOf="@id/match_status" android:layout_alignParentStart="true" />
+        <include android:id="@id/extended_view_pre_match_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/extended_view_pre_match_status" />
+        <TextView android:textSize="30.0sp" android:textColor="@android:color/black" android:id="@id/extended_view_post_and_live_score_separator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-" android:layout_centerInParent="true" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
+        <TextView android:textSize="32.0sp" android:textColor="@android:color/black" android:layout_gravity="start|center" android:id="@id/first_team_score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:fontFamily="roboto_light" android:layout_toStartOf="@id/extended_view_post_and_live_score_separator" />
+        <TextView android:textSize="32.0sp" android:textColor="@android:color/black" android:layout_gravity="end|center" android:id="@id/second_team_score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:fontFamily="roboto_light" android:layout_toEndOf="@id/extended_view_post_and_live_score_separator" />
+        <include android:id="@id/first_team_logo_container" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginTop="12.0dip" android:layout_below="@id/league_name" android:layout_marginStart="16.0dip" android:layout_alignParentStart="true" layout="@layout/team_logo" />
+        <include android:gravity="center" android:id="@id/second_team_logo_container" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginTop="10.0dip" android:layout_below="@id/match_status" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" layout="@layout/team_logo" />
+        <Space android:id="@id/team_names_space" android:layout_width="10.0dip" android:layout_height="wrap_content" android:layout_below="@id/first_team_logo_container" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="12.0sp" android:textColor="#de000000" android:gravity="start" android:id="@id/first_team_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="13.0dip" android:singleLine="true" android:layout_below="@id/first_team_logo_container" android:fontFamily="roboto_medium" android:layout_toStartOf="@id/team_names_space" android:layout_alignStart="@id/first_team_logo_container" />
+        <TextView android:textSize="12.0sp" android:textColor="#de000000" android:gravity="end" android:id="@id/second_team_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="13.0dip" android:singleLine="true" android:layout_below="@id/second_team_logo_container" android:fontFamily="roboto_medium" android:layout_toEndOf="@id/team_names_space" android:layout_alignEnd="@id/second_team_logo_container" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/goals_cards_summary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/separator" />
+            <include layout="@layout/goals_cards_summary" />
+        </LinearLayout>
+    </RelativeLayout>
+    <FrameLayout android:id="@id/more_info_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/separator" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff4285f4" android:gravity="center" android:id="@id/more_info_button" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/more_info_text" android:fontFamily="roboto-medium" android:textAlignment="center" />
+    </FrameLayout>
+</LinearLayout>

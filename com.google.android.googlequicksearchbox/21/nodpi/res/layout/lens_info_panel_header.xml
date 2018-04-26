@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center|top" android:id="@id/panel_handle" android:background="?android:listDivider" android:layout_width="@dimen/lens_info_panel_handle_width" android:layout_height="@dimen/lens_info_panel_handle_height" android:layout_marginTop="6.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/panel_header" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/header_logo" android:layout_width="@dimen/lens_info_panel_logo_size" android:layout_height="@dimen/lens_info_panel_logo_size" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/googlesystem_google_lens_color_24" />
+        <TextView android:textSize="@dimen/lens_info_panel_title_text_size" android:textColor="@color/lens_info_panel_title_color" android:gravity="start|center" android:id="@id/header_title" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/eyes_initial_prompt" android:layout_weight="1.0" android:fontFamily="google-sans" />
+        <com.google.android.libraries.gsa.monet.tools.childstub.ui.ChildStub android:id="@id/microphone_view_child_stub" android:layout_width="@dimen/lens_info_panel_mic_size" android:layout_height="@dimen/lens_info_panel_mic_size" android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.gsa.staticplugins.quartz.monet.shared.ui.card.QuartzCardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/quartz_ripple_background">
+        <LinearLayout android:orientation="vertical" android:background="@android:color/white" android:padding="@dimen/quartz_36sdp" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.apps.gsa.staticplugins.quartz.monet.shared.ui.baselinetextview.BaselineTextView android:gravity="center_vertical" android:id="@id/quartz_home_notification_header" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Quartz.Notification.Header" />
+            <com.google.android.apps.gsa.staticplugins.quartz.monet.shared.ui.baselinetextview.BaselineTextView android:id="@id/quartz_home_notification_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/quartz_12sdp" android:maxLines="2" style="@style/Quartz.Notification.Title" />
+            <com.google.android.apps.gsa.staticplugins.quartz.monet.shared.ui.baselinetextview.BaselineTextView android:id="@id/quartz_home_notification_subtitle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/quartz_12sdp" android:maxLines="1" style="@style/Quartz.Notification.CallToAction" />
+        </LinearLayout>
+    </com.google.android.apps.gsa.staticplugins.quartz.monet.shared.ui.card.QuartzCardView>
+</FrameLayout>

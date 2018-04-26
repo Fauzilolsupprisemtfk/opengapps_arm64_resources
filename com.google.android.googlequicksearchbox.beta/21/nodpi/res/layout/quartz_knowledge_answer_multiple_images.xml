@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout android:id="@id/quartz_knowledge_answer_images_grid" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:rowCount="2" app:columnCount="2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.gsa.staticplugins.quartz.monet.shared.ui.card.QuartzCardView android:id="@id/quartz_knowledge_image_card_view1" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:transitionName="@string/quartz_list_transition_corresponding_view" app:layout_rowWeight="1.0" app:layout_columnSpan="2" app:layout_columnWeight="1.0">
+        <ImageView android:id="@id/quartz_knowledge_answer_image1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    </com.google.android.apps.gsa.staticplugins.quartz.monet.shared.ui.card.QuartzCardView>
+    <com.google.android.apps.gsa.staticplugins.quartz.monet.shared.ui.card.QuartzCardView android:id="@id/quartz_knowledge_image_card_view2" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="@dimen/quartz_default_gap" android:transitionName="@string/quartz_list_transition_image_view" app:layout_rowWeight="1.0" app:layout_columnWeight="1.0">
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    </com.google.android.apps.gsa.staticplugins.quartz.monet.shared.ui.card.QuartzCardView>
+    <com.google.android.apps.gsa.staticplugins.quartz.monet.shared.ui.card.QuartzCardView android:id="@id/quartz_knowledge_image_card_view3" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="@dimen/quartz_default_gap" android:layout_marginStart="@dimen/quartz_default_gap" android:transitionName="@string/quartz_list_transition_image_view" app:layout_rowWeight="1.0" app:layout_columnWeight="1.0">
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    </com.google.android.apps.gsa.staticplugins.quartz.monet.shared.ui.card.QuartzCardView>
+</android.support.v7.widget.GridLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/zero_state_home_automation_card" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/action_coin_list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:divider="@drawable/agent_card_divider" android:layout_weight="1.0" android:showDividers="middle" />
+    <android.support.v7.widget.RecyclerView android:id="@id/suggestion_chips" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</LinearLayout>
