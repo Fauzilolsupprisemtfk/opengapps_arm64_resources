@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/gh_chat_activity_request_error" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:GoogleHelp="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/gh_warning_icon" android:layout_width="@dimen/gh_chat_status_backsplash_icon_size" android:layout_height="@dimen/gh_chat_status_backsplash_icon_size" android:scaleType="fitCenter" android:importantForAccessibility="no" GoogleHelp:srcCompat="@drawable/quantum_ic_warning_vd_black_24" />
+    <TextView android:textSize="@dimen/gh_chat_status_headline_font_size" android:gravity="center" android:layout_width="@dimen/gh_chat_status_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gh_chat_status_headline_vertical_padding" android:layout_marginBottom="@dimen/gh_chat_status_headline_vertical_padding" android:text="@string/gh_chat_request_error" />
+    <TextView android:textSize="@dimen/gh_chat_status_subtext_font_size" android:gravity="center" android:layout_width="@dimen/gh_chat_status_width" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gh_chat_status_subtext_vertical_padding" android:text="@string/gh_chat_request_error_subtext" />
+    <Button android:theme="@style/gh_ChatActivityRequestChatAgainButton" android:id="@id/gh_chat_request_again_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gh_chat_request_again" />
+</LinearLayout>
