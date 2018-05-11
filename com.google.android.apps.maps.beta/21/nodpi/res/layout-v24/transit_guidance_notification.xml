@@ -4,7 +4,7 @@
     <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
         <LinearLayout android:orientation="vertical" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
             <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip">
-                <ImageView android:id="@id/smallIcon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/quantum_ic_directions_transit_googblue_18" android:layout_marginEnd="6.0dip" />
+                <ImageView android:id="@id/smallIcon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/quantum_ic_directions_transit_googblue_24" android:layout_marginEnd="6.0dip" />
                 <TextView android:textSize="12.0sp" android:ellipsize="start" android:id="@id/header_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
             </LinearLayout>
             <include layout="@layout/transit_guidance_content" />

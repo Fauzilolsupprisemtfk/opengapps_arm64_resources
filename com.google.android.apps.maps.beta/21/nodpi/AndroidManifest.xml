@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="27" android:compileSdkVersionCodename="P" android:sharedUserId="com.google.android.apps.maps" package="com.google.android.apps.maps" platformBuildVersionCode="27" platformBuildVersionName="P">
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" android:sharedUserId="com.google.android.apps.maps" package="com.google.android.apps.maps" platformBuildVersionCode="28" platformBuildVersionName="9">
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
@@ -968,6 +968,11 @@
             </intent-filter>
         </receiver>
         <receiver android:exported="false" android:label="Photo taken notification proxy broadcast receiver" android:name="com.google.android.apps.gmm.ugc.clientnotification.phototaken.NotificationIntentProxyReceiver"/>
+        <receiver android:exported="false" android:name="com.google.android.apps.gmm.ugc.clientnotification.phototaken.InlinePtnPostReceiver">
+            <intent-filter>
+                <action android:name="com.google.android.apps.gmm.ugc.clientnotification.phototaken.InlinePtnPostReceiver.POST_ACTION"/>
+            </intent-filter>
+        </receiver>
         <service android:exported="false" android:label="Photo taken notifier service" android:name="com.google.android.apps.gmm.ugc.phototaken.PhotoTakenNotifierService">
             <intent-filter>
                 <action android:name="com.google.android.apps.gmm.ugc.phototaken.PhotoTakenNotifierService.ACTION_PHOTO_PROCESSING_TIMED_OUT"/>
