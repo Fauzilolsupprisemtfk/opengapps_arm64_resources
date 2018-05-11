@@ -49,7 +49,7 @@
     <item type="id" name="cluster_card_menu" />
     <item type="id" name="cml_callback_registry_tag" />
     <item type="id" name="collection_list_image_loader_favicon_property_tag_id" />
-    <item type="id" name="collection_list_image_loader_url_property_tag_id" />
+    <item type="id" name="collections_image_property_id" />
     <item type="id" name="collections_tab" />
     <item type="id" name="column_breaker_span" />
     <item type="id" name="consent_header_opa_header" />
@@ -86,6 +86,9 @@
     <item type="id" name="flm_paddingEnd" />
     <item type="id" name="flm_paddingStart" />
     <item type="id" name="flm_width" />
+    <item type="id" name="get_more_element_app_shortcut" />
+    <item type="id" name="get_more_element_email" />
+    <item type="id" name="get_more_element_screen_context" />
     <item type="id" name="get_notified_button" />
     <item type="id" name="ghost_view" />
     <item type="id" name="google_partners_consent_element" />
@@ -106,6 +109,7 @@
     <item type="id" name="is_sticky_predictive_view" />
     <item type="id" name="is_swipeable" />
     <item type="id" name="item_touch_helper_previous_elevation" />
+    <item type="id" name="kepler_update_tip_top_layout_new_account_drawer" />
     <item type="id" name="left_shift_divider" />
     <item type="id" name="lens_info_panel" />
     <item type="id" name="line1" />
@@ -128,7 +132,9 @@
     <item type="id" name="offline_badge_icon" />
     <item type="id" name="onebox_expander" />
     <item type="id" name="onebox_menu_button" />
+    <item type="id" name="opa_content_container" />
     <item type="id" name="opa_fab_container" />
+    <item type="id" name="opa_header" />
     <item type="id" name="open_offline_search_settings_button" />
     <item type="id" name="optional_opt_in_setting" />
     <item type="id" name="parent_matrix" />
@@ -266,9 +272,9 @@
     <item type="id" name="remote_input_text">false</item>
     <item type="id" name="remote_input_send">false</item>
     <item type="id" name="remote_input_progress">false</item>
+    <item type="id" name="row_view">false</item>
     <item type="id" name="icon_frame">false</item>
-    <item type="id" name="seek_bar">false</item>
-    <item type="id" name="progress_bar">false</item>
+    <item type="id" name="last_updated">false</item>
     <item type="id" name="divider">false</item>
     <item type="id" name="message">false</item>
     <item type="id" name="access_now_promo_image">false</item>
@@ -296,16 +302,12 @@
     <item type="id" name="close_button">false</item>
     <item type="id" name="recent_filter_box_toggle">false</item>
     <item type="id" name="recent_overflow_button">false</item>
-    <item type="id" name="action_title">false</item>
-    <item type="id" name="action_text_box">false</item>
-    <item type="id" name="action_footer">false</item>
     <item type="id" name="app_picker_item">false</item>
     <item type="id" name="app_image_icon">false</item>
     <item type="id" name="app_name">false</item>
     <item type="id" name="argument_label">false</item>
     <item type="id" name="argument_prompt">false</item>
     <item type="id" name="arrow">false</item>
-    <item type="id" name="label">false</item>
     <item type="id" name="text_container">false</item>
     <item type="id" name="large_text">false</item>
     <item type="id" name="centered_text">false</item>
@@ -384,6 +386,13 @@
     <item type="id" name="agent_card">false</item>
     <item type="id" name="event_title">false</item>
     <item type="id" name="day_group_title">false</item>
+    <item type="id" name="overflow_menu_icon">false</item>
+    <item type="id" name="agenda_hub_container">false</item>
+    <item type="id" name="loading_spinner">false</item>
+    <item type="id" name="empty_agenda">false</item>
+    <item type="id" name="agenda_icon">false</item>
+    <item type="id" name="calendar_event_title">false</item>
+    <item type="id" name="agenda_day_group_container">false</item>
     <item type="id" name="agenda_no_result_text">false</item>
     <item type="id" name="agenda_learn_more_button">false</item>
     <item type="id" name="zero_state_agenda_section">false</item>
@@ -493,6 +502,11 @@
     <item type="id" name="expand_summary">false</item>
     <item type="id" name="timeout_title">false</item>
     <item type="id" name="timeout_summary">false</item>
+    <item type="id" name="assistant_currency_widget">false</item>
+    <item type="id" name="assistant_currency_widget_base_currency_value">false</item>
+    <item type="id" name="assistant_currency_widget_base_currency_name">false</item>
+    <item type="id" name="assistant_currency_widget_target_currency_value">false</item>
+    <item type="id" name="assistant_currency_widget_target_currency_name">false</item>
     <item type="id" name="assistant_home_discoverability_example">false</item>
     <item type="id" name="assistant_home_empty_provider_list_refresh_button">false</item>
     <item type="id" name="container">false</item>
@@ -504,6 +518,7 @@
     <item type="id" name="locale_spinner">false</item>
     <item type="id" name="preferences_pane">false</item>
     <item type="id" name="subtitle">false</item>
+    <item type="id" name="supports_video">false</item>
     <item type="id" name="handle">false</item>
     <item type="id" name="description">false</item>
     <item type="id" name="name">false</item>
@@ -550,6 +565,10 @@
     <item type="id" name="floating_action_button">false</item>
     <item type="id" name="action">false</item>
     <item type="id" name="manage">false</item>
+    <item type="id" name="voice_selection_banner">false</item>
+    <item type="id" name="voice_selection_name">false</item>
+    <item type="id" name="voice_selection_triangle">false</item>
+    <item type="id" name="voice_selection_recycler">false</item>
     <item type="id" name="assistant_tooltip_content">false</item>
     <item type="id" name="content_container">false</item>
     <item type="id" name="tooltip_arrow_top_end">false</item>
@@ -616,11 +635,14 @@
     <item type="id" name="media_seek_forward">false</item>
     <item type="id" name="audio_progress_renderer">false</item>
     <item type="id" name="audio_progress_renderer_space">false</item>
+    <item type="id" name="back_button">false</item>
+    <item type="id" name="close_back_of_card_view">false</item>
     <item type="id" name="action_header">false</item>
     <item type="id" name="action_header_inner_linear_layout">false</item>
     <item type="id" name="cap_icon_web">false</item>
     <item type="id" name="cap_icon">false</item>
     <item type="id" name="card_action">false</item>
+    <item type="id" name="label">false</item>
     <item type="id" name="background_notification_title">false</item>
     <item type="id" name="background_notification_subtitle">false</item>
     <item type="id" name="notification_answer_template">false</item>
@@ -683,6 +705,12 @@
     <item type="id" name="bottom_dialog_text">false</item>
     <item type="id" name="bottom_dialog_decline_button">false</item>
     <item type="id" name="bottom_dialog_accept_button">false</item>
+    <item type="id" name="bottom_bar_tooltip_container">false</item>
+    <item type="id" name="bottom_bar_tooltip_content">false</item>
+    <item type="id" name="bottom_bar_tooltip_content_container">false</item>
+    <item type="id" name="tooltip_arrow">false</item>
+    <item type="id" name="bottomsheet_root">false</item>
+    <item type="id" name="bottom_sheet_child">false</item>
     <item type="id" name="browser_actions_menu_view">false</item>
     <item type="id" name="browser_actions_header_text">false</item>
     <item type="id" name="browser_actions_menu_items">false</item>
@@ -691,10 +719,8 @@
     <item type="id" name="bubble_snackbar">false</item>
     <item type="id" name="action_button">false</item>
     <item type="id" name="agenda_calendar_event">false</item>
-    <item type="id" name="calendar_event_title">false</item>
     <item type="id" name="agenda_more_items">false</item>
     <item type="id" name="agenda_content">false</item>
-    <item type="id" name="agenda_icon">false</item>
     <item type="id" name="calendar_event_description">false</item>
     <item type="id" name="agenda_sub_items">false</item>
     <item type="id" name="calls_change_phone_number">false</item>
@@ -702,12 +728,6 @@
     <item type="id" name="calls_use_unlisted_number">false</item>
     <item type="id" name="calls_use_unlisted_number_text">false</item>
     <item type="id" name="assistant_settings_calls_action">false</item>
-    <item type="id" name="camera_container">false</item>
-    <item type="id" name="camera_preview_texture">false</item>
-    <item type="id" name="camera_capture_frame_image">false</item>
-    <item type="id" name="dots_overlay_image">false</item>
-    <item type="id" name="focus_circle">false</item>
-    <item type="id" name="focus_border">false</item>
     <item type="id" name="front_rear_camera_toggle">false</item>
     <item type="id" name="order_card_stub">false</item>
     <item type="id" name="icon_container">false</item>
@@ -767,6 +787,7 @@
     <item type="id" name="chatui_loading_spinner_container">false</item>
     <item type="id" name="chatui_suggestion_container">false</item>
     <item type="id" name="chatui_streaming_text">false</item>
+    <item type="id" name="chatui_webview_container">false</item>
     <item type="id" name="checkable_flip_category">false</item>
     <item type="id" name="checkable_flip_category_no_horizontal_margin">false</item>
     <item type="id" name="checkable_button">false</item>
@@ -774,7 +795,6 @@
     <item type="id" name="promo_chip_container">false</item>
     <item type="id" name="promo_chip_title">false</item>
     <item type="id" name="clear_app_filter_button">false</item>
-    <item type="id" name="back_button">false</item>
     <item type="id" name="minimize_button">false</item>
     <item type="id" name="chrome_os_caption_bar_stub">false</item>
     <item type="id" name="chrome_os_caption_bar">false</item>
@@ -819,6 +839,7 @@
     <item type="id" name="toggle_action_checked">false</item>
     <item type="id" name="cluster_footer">false</item>
     <item type="id" name="first_team_live_score">false</item>
+    <item type="id" name="penalty_score">false</item>
     <item type="id" name="live_match_status">false</item>
     <item type="id" name="second_team_live_score">false</item>
     <item type="id" name="first_team_score">false</item>
@@ -827,6 +848,7 @@
     <item type="id" name="match_start_at_text">false</item>
     <item type="id" name="match_start_time">false</item>
     <item type="id" name="last_added_items">false</item>
+    <item type="id" name="collections_action_bar">false</item>
     <item type="id" name="collections_back_button">false</item>
     <item type="id" name="collections_close_button">false</item>
     <item type="id" name="collections_action_bar_title">false</item>
@@ -844,13 +866,14 @@
     <item type="id" name="cover_picker_recycler_view">false</item>
     <item type="id" name="cover_picker_image">false</item>
     <item type="id" name="cover_picker_picked_icon">false</item>
+    <item type="id" name="collection_item_card">false</item>
     <item type="id" name="collection_item_favicon">false</item>
     <item type="id" name="collection_item_header">false</item>
-    <item type="id" name="collection_item_checkbox">false</item>
     <item type="id" name="collection_item_image">false</item>
     <item type="id" name="collection_item_fixed_ratio_image">false</item>
     <item type="id" name="collection_item_title">false</item>
     <item type="id" name="collection_list_title">false</item>
+    <item type="id" name="collection_item_checkbox">false</item>
     <item type="id" name="swipe_refresh_layout">false</item>
     <item type="id" name="collection_detail_recycler_view">false</item>
     <item type="id" name="collection_detail_header">false</item>
@@ -859,7 +882,9 @@
     <item type="id" name="collection_detail_title_container">false</item>
     <item type="id" name="collection_detail_title">false</item>
     <item type="id" name="collection_detail_info">false</item>
-    <item type="id" name="create_collection_dialog_accept">false</item>
+    <item type="id" name="collection_detail_description">false</item>
+    <item type="id" name="create_collection_dialog_done">false</item>
+    <item type="id" name="create_collection_dialog_cancel">false</item>
     <item type="id" name="create_collection_dialog_display_name">false</item>
     <item type="id" name="move_items_create_new_collection_button">false</item>
     <item type="id" name="move_items_collections_list">false</item>
@@ -869,7 +894,9 @@
     <item type="id" name="collections_remove_items_dialog_remove_button">false</item>
     <item type="id" name="edit_collection_action_bar">false</item>
     <item type="id" name="edit_collection_cover_image">false</item>
+    <item type="id" name="edit_collection_display_name_label">false</item>
     <item type="id" name="edit_collection_display_name">false</item>
+    <item type="id" name="edit_collection_description_label">false</item>
     <item type="id" name="edit_collection_note">false</item>
     <item type="id" name="collections_empty_state">false</item>
     <item type="id" name="collections_empty_state_body">false</item>
@@ -877,6 +904,7 @@
     <item type="id" name="collections_count">false</item>
     <item type="id" name="collections_new_collection">false</item>
     <item type="id" name="collections_list_action_bar">false</item>
+    <item type="id" name="collections_snackbar">false</item>
     <item type="id" name="snackbar_dismiss_touch_interceptor">false</item>
     <item type="id" name="snackbar">false</item>
     <item type="id" name="snackbar_action_button">false</item>
@@ -910,23 +938,30 @@
     <item type="id" name="title_text">false</item>
     <item type="id" name="map">false</item>
     <item type="id" name="map_caption">false</item>
+    <item type="id" name="opa_error_image_with_radiogroup">false</item>
+    <item type="id" name="image_for_radio">false</item>
+    <item type="id" name="opa_error_radio_group">false</item>
+    <item type="id" name="opa_error_second_radio">false</item>
+    <item type="id" name="opa_error_first_radio">false</item>
+    <item type="id" name="opa_error_first_radio_content">false</item>
+    <item type="id" name="opa_error_first_radio_content_expanded">false</item>
+    <item type="id" name="opa_error_first_radio_content_expand_button">false</item>
+    <item type="id" name="opa_error_second_radio_content">false</item>
     <item type="id" name="consent_text">false</item>
     <item type="id" name="consent_subheading">false</item>
     <item type="id" name="consent_ok_button">false</item>
-    <item type="id" name="email_content_container">false</item>
-    <item type="id" name="email_content_message">false</item>
-    <item type="id" name="email_content_additional_text">false</item>
     <item type="id" name="consent_content_description">false</item>
     <item type="id" name="consent_content_additional_text">false</item>
+    <item type="id" name="switch_content_container">false</item>
+    <item type="id" name="switch_content_message">false</item>
+    <item type="id" name="switch_content_additional_text_separator">false</item>
+    <item type="id" name="switch_content_additional_text">false</item>
     <item type="id" name="consent_element_container">false</item>
     <item type="id" name="consent_element_image">false</item>
     <item type="id" name="consent_element_middle_container">false</item>
     <item type="id" name="consent_element_title_text">false</item>
     <item type="id" name="consent_element_main_content">false</item>
     <item type="id" name="consent_element_control">false</item>
-    <item type="id" name="opa_consent_scroll_view">false</item>
-    <item type="id" name="opa_consent_content_container">false</item>
-    <item type="id" name="opa_consent_footer_container">false</item>
     <item type="id" name="contact_app_icon">false</item>
     <item type="id" name="contact_app_label">false</item>
     <item type="id" name="contact_detail_select_item">false</item>
@@ -945,6 +980,10 @@
     <item type="id" name="message_inline_image">false</item>
     <item type="id" name="message_sender_and_time">false</item>
     <item type="id" name="conversation_starters_section">false</item>
+    <item type="id" name="conversation_starters_container">false</item>
+    <item type="id" name="conversation_starters_suggestion">false</item>
+    <item type="id" name="conversation_starters_suggestion_icon">false</item>
+    <item type="id" name="conversation_starters_suggestion_text">false</item>
     <item type="id" name="label_icon">false</item>
     <item type="id" name="primary_action_icon">false</item>
     <item type="id" name="text_1">false</item>
@@ -1006,6 +1045,7 @@
     <item type="id" name="date_picker_day">false</item>
     <item type="id" name="date_picker_year">false</item>
     <item type="id" name="animator">false</item>
+    <item type="id" name="day_button_box">false</item>
     <item type="id" name="deep_shortcut">false</item>
     <item type="id" name="deep_shortcut_icon">false</item>
     <item type="id" name="deep_shortcuts_container">false</item>
@@ -1036,6 +1076,9 @@
     <item type="id" name="prompt">false</item>
     <item type="id" name="secondary_prompt">false</item>
     <item type="id" name="fab_container_separator">false</item>
+    <item type="id" name="smartspace_content">false</item>
+    <item type="id" name="date_text">false</item>
+    <item type="id" name="subtitle_text">false</item>
     <item type="id" name="disambiguation_content">false</item>
     <item type="id" name="assistant_help_category_separator">false</item>
     <item type="id" name="assistant_help_icon">false</item>
@@ -1053,6 +1096,18 @@
     <item type="id" name="dismiss_keyguard_main">false</item>
     <item type="id" name="display_text">false</item>
     <item type="id" name="donate_data_info_button">false</item>
+    <item type="id" name="happy_birthday">false</item>
+    <item type="id" name="dogfood_indicator">false</item>
+    <item type="id" name="top_line">false</item>
+    <item type="id" name="title_leading_truncatable">false</item>
+    <item type="id" name="title_fixed_text">false</item>
+    <item type="id" name="title_trailing_truncatable">false</item>
+    <item type="id" name="subtitle_line">false</item>
+    <item type="id" name="subtitle_icon">false</item>
+    <item type="id" name="subtitle_weather_content">false</item>
+    <item type="id" name="subtitle_separator">false</item>
+    <item type="id" name="subtitle_weather_icon">false</item>
+    <item type="id" name="subtitle_weather_text">false</item>
     <item type="id" name="assistant_settings_secondary_widget_frame">false</item>
     <item type="id" name="download_ui">false</item>
     <item type="id" name="download_icon">false</item>
@@ -1161,13 +1216,18 @@
     <item type="id" name="enter_sms_code">false</item>
     <item type="id" name="entity_disambiguation_margin">false</item>
     <item type="id" name="entity_disambiguation_view">false</item>
-    <item type="id" name="episode_item_separator">false</item>
-    <item type="id" name="episode_container">false</item>
-    <item type="id" name="bullet_view">false</item>
+    <item type="id" name="episode_item">false</item>
+    <item type="id" name="episode_thumbnail">false</item>
     <item type="id" name="episode_title">false</item>
-    <item type="id" name="episode_date_and_duration">false</item>
+    <item type="id" name="episode_subtitle">false</item>
     <item type="id" name="episode_downloaded_mark">false</item>
-    <item type="id" name="episode_description_container">false</item>
+    <item type="id" name="bullet_view">false</item>
+    <item type="id" name="episode_expansion_container">false</item>
+    <item type="id" name="episode_description">false</item>
+    <item type="id" name="mark_as_played_container">false</item>
+    <item type="id" name="played_icon">false</item>
+    <item type="id" name="mark_as_played_button">false</item>
+    <item type="id" name="episode_separator">false</item>
     <item type="id" name="episodes_card">false</item>
     <item type="id" name="episodes_card_title">false</item>
     <item type="id" name="episodes_list">false</item>
@@ -1178,20 +1238,10 @@
     <item type="id" name="web_search_error_message">false</item>
     <item type="id" name="try_again_button">false</item>
     <item type="id" name="root">false</item>
-    <item type="id" name="opa_error_root">false</item>
-    <item type="id" name="opa_error_header_container">false</item>
-    <item type="id" name="opa_error_content_container">false</item>
-    <item type="id" name="opa_error_footer_container">false</item>
     <item type="id" name="opa_error_message_second_paragraph">false</item>
     <item type="id" name="opa_error_annotation">false</item>
+    <item type="id" name="opa_error_content_container">false</item>
     <item type="id" name="opa_error_illustration">false</item>
-    <item type="id" name="opa_error_image_with_radiogroup">false</item>
-    <item type="id" name="image_for_radio">false</item>
-    <item type="id" name="opa_error_radio_group">false</item>
-    <item type="id" name="opa_error_first_radio">false</item>
-    <item type="id" name="opa_error_first_radio_content">false</item>
-    <item type="id" name="opa_error_second_radio">false</item>
-    <item type="id" name="opa_error_second_radio_content">false</item>
     <item type="id" name="opa_error_animation_container">false</item>
     <item type="id" name="opa_error_animation_view">false</item>
     <item type="id" name="opa_error_webview">false</item>
@@ -1240,6 +1290,8 @@
     <item type="id" name="explore_send_feedback">false</item>
     <item type="id" name="explore_section_title">false</item>
     <item type="id" name="explore_section_more">false</item>
+    <item type="id" name="first_team_penalty_score">false</item>
+    <item type="id" name="second_team_penalty_score">false</item>
     <item type="id" name="eyes_debug_output">false</item>
     <item type="id" name="eyes_prefetch_indicator">false</item>
     <item type="id" name="eyes_prefetch_image">false</item>
@@ -1255,6 +1307,7 @@
     <item type="id" name="device_orientation">false</item>
     <item type="id" name="location_information">false</item>
     <item type="id" name="eyes_button">false</item>
+    <item type="id" name="animation">false</item>
     <item type="id" name="onboarding_button">false</item>
     <item type="id" name="eyes_overlay">false</item>
     <item type="id" name="eyes_debug">false</item>
@@ -1346,9 +1399,6 @@
     <item type="id" name="player_activity_root_view">false</item>
     <item type="id" name="show_app_bar">false</item>
     <item type="id" name="feature_show_promotion">false</item>
-    <item type="id" name="background">false</item>
-    <item type="id" name="feed_lure_text">false</item>
-    <item type="id" name="feed_lure_subtext">false</item>
     <item type="id" name="opa_feedback_button_container">false</item>
     <item type="id" name="opa_feedback_badge">false</item>
     <item type="id" name="filter_bar">false</item>
@@ -1420,12 +1470,12 @@
     <item type="id" name="first_team_goals">false</item>
     <item type="id" name="goals_summary_image">false</item>
     <item type="id" name="second_team_goals">false</item>
+    <item type="id" name="section_space">false</item>
     <item type="id" name="cards_summary">false</item>
     <item type="id" name="first_team_cards">false</item>
     <item type="id" name="cards_summary_image">false</item>
     <item type="id" name="second_team_cards">false</item>
     <item type="id" name="logo_header">false</item>
-    <item type="id" name="liteswitch_top_bar_stub">false</item>
     <item type="id" name="srp_doodle">false</item>
     <item type="id" name="logo_header_white_logo_stub">false</item>
     <item type="id" name="logo_header_white_logo">false</item>
@@ -1442,6 +1492,7 @@
     <item type="id" name="group_entrypoint_title">false</item>
     <item type="id" name="group_entrypoint_arrow">false</item>
     <item type="id" name="base_recycler">false</item>
+    <item type="id" name="progress_bar">false</item>
     <item type="id" name="grouped_agent_error_stub">false</item>
     <item type="id" name="grouped_agent_error_content">false</item>
     <item type="id" name="no_results_text">false</item>
@@ -1505,6 +1556,7 @@
     <item type="id" name="monet_corpus_bar_stub">false</item>
     <item type="id" name="top_nav_container_stub">false</item>
     <item type="id" name="search_plate_container">false</item>
+    <item type="id" name="text_search_plate_stub">false</item>
     <item type="id" name="header_query">false</item>
     <item type="id" name="search_suggestions_container">false</item>
     <item type="id" name="help_card_headline">false</item>
@@ -1535,25 +1587,27 @@
     <item type="id" name="order_list_stub">false</item>
     <item type="id" name="order_history_spinner_stub">false</item>
     <item type="id" name="order_history_snackbar_stub">false</item>
+    <item type="id" name="history_bottom_placeholder">false</item>
     <item type="id" name="history_container">false</item>
     <item type="id" name="action_image">false</item>
+    <item type="id" name="action_title">false</item>
     <item type="id" name="home_automation_card_ui">false</item>
     <item type="id" name="card_title">false</item>
     <item type="id" name="trait_icon">false</item>
     <item type="id" name="trait_title">false</item>
+    <item type="id" name="seek_bar_container">false</item>
     <item type="id" name="seekbar_value">false</item>
+    <item type="id" name="seek_bar">false</item>
     <item type="id" name="decrement_button">false</item>
     <item type="id" name="increment_button">false</item>
     <item type="id" name="turn_on_off_button">false</item>
+    <item type="id" name="zero_state_agenda_card">false</item>
     <item type="id" name="zero_state_home_automation_card">false</item>
+    <item type="id" name="ha_card_title">false</item>
     <item type="id" name="action_coin_list">false</item>
     <item type="id" name="suggestion_chips">false</item>
     <item type="id" name="zero_state_home_automation_section">false</item>
     <item type="id" name="ha_section_title">false</item>
-    <item type="id" name="episode_thumbnail">false</item>
-    <item type="id" name="episode_subtitle">false</item>
-    <item type="id" name="episode_description">false</item>
-    <item type="id" name="episode_separator">false</item>
     <item type="id" name="value_text">false</item>
     <item type="id" name="horizontal_value_selector_scroll_view_frame">false</item>
     <item type="id" name="horizontal_value_selector_scroll_item_text">false</item>
@@ -1575,6 +1629,7 @@
     <item type="id" name="start_button">false</item>
     <item type="id" name="hotword_enrollment_intro_summary">false</item>
     <item type="id" name="hotword_enrollment_intro_footer">false</item>
+    <item type="id" name="bottom_scroll_view">false</item>
     <item type="id" name="glif_layout_icon">false</item>
     <item type="id" name="hotword_enrollment_summary_text">false</item>
     <item type="id" name="hotword_enrollment_summary_google_home_use_example">false</item>
@@ -1600,10 +1655,8 @@
     <item type="id" name="scrollable_content">false</item>
     <item type="id" name="editText">false</item>
     <item type="id" name="imageView">false</item>
-    <item type="id" name="keepInMind">false</item>
     <item type="id" name="hotword_enrollment_summary_success_img">false</item>
     <item type="id" name="title_area">false</item>
-    <item type="id" name="bottom_scroll_view">false</item>
     <item type="id" name="hotword_enrollment_trustedvoice_summary_item1">false</item>
     <item type="id" name="hotword_enrollment_trustedvoice_summary_item2">false</item>
     <item type="id" name="hotword_enrollment_trustedvoice_learn_more">false</item>
@@ -1746,6 +1799,7 @@
     <item type="id" name="action_audio_recording_text">false</item>
     <item type="id" name="audio_delete_recorded_audio_button">false</item>
     <item type="id" name="immersive_header_image">false</item>
+    <item type="id" name="immersivecanvas_root">false</item>
     <item type="id" name="in_app_web_view_container">false</item>
     <item type="id" name="in_app_error_card">false</item>
     <item type="id" name="in_app_loading">false</item>
@@ -1773,6 +1827,16 @@
     <item type="id" name="info_entry_image">false</item>
     <item type="id" name="info_entry_action_button">false</item>
     <item type="id" name="inline_edit_text_preference_edit_text">false</item>
+    <item type="id" name="photo_frame">false</item>
+    <item type="id" name="photo_padding">false</item>
+    <item type="id" name="video_black_overlay_for_transition">false</item>
+    <item type="id" name="fallback_message">false</item>
+    <item type="id" name="fallback_message_text">false</item>
+    <item type="id" name="media_icon_fv2_shadow">false</item>
+    <item type="id" name="media_icon_fv2">false</item>
+    <item type="id" name="media_caption_fv2">false</item>
+    <item type="id" name="load_indicator">false</item>
+    <item type="id" name="video_interception_view">false</item>
     <item type="id" name="installed_app_suggestion_icon">false</item>
     <item type="id" name="installed_app_suggestion_title">false</item>
     <item type="id" name="intent_api_main">false</item>
@@ -1798,10 +1862,11 @@
     <item type="id" name="more_from_app_header_link">false</item>
     <item type="id" name="zero_state_keep_track_section">false</item>
     <item type="id" name="keep_track_section_title">false</item>
-    <item type="id" name="awareness_tip_title">false</item>
-    <item type="id" name="awareness_tip_description">false</item>
-    <item type="id" name="awareness_tip_reject_button">false</item>
-    <item type="id" name="awareness_tip_accept_button">false</item>
+    <item type="id" name="update_tip_title">false</item>
+    <item type="id" name="update_tip_description">false</item>
+    <item type="id" name="update_tip_reject_button">false</item>
+    <item type="id" name="update_tip_accept_button">false</item>
+    <item type="id" name="awareness_tip_badge">false</item>
     <item type="id" name="pager">false</item>
     <item type="id" name="language_pack_item_separator">false</item>
     <item type="id" name="language_pack_title">false</item>
@@ -1822,13 +1887,16 @@
     <item type="id" name="minus_one_stub">false</item>
     <item type="id" name="learn_more_text">false</item>
     <item type="id" name="clear_widget">false</item>
-    <item type="id" name="panel_header_content_space">false</item>
+    <item type="id" name="opa_page_layout">false</item>
+    <item type="id" name="opa_container">false</item>
+    <item type="id" name="lens_hats_survey_container">false</item>
     <item type="id" name="panel_content">false</item>
-    <item type="id" name="panel_loading_indicator_container">false</item>
-    <item type="id" name="panel_handle">false</item>
+    <item type="id" name="ghost_animation">false</item>
+    <item type="id" name="panel_bottom_space">false</item>
     <item type="id" name="panel_header">false</item>
-    <item type="id" name="header_logo">false</item>
+    <item type="id" name="panel_handle">false</item>
     <item type="id" name="header_title">false</item>
+    <item type="id" name="header_logo">false</item>
     <item type="id" name="microphone_view">false</item>
     <item type="id" name="license">false</item>
     <item type="id" name="license_activity_scrollview">false</item>
@@ -1841,12 +1909,10 @@
     <item type="id" name="order_list_container">false</item>
     <item type="id" name="list_image">false</item>
     <item type="id" name="list_title">false</item>
-    <item type="id" name="liteswitch_top_bar">false</item>
-    <item type="id" name="liteswitch_top_bar_text">false</item>
-    <item type="id" name="liteswitch_top_bar_border">false</item>
     <item type="id" name="onboarding_loading_icon">false</item>
     <item type="id" name="onboarding_loading_title">false</item>
     <item type="id" name="onboarding_loading_content">false</item>
+    <item type="id" name="lens_results_loading_spinner">false</item>
     <item type="id" name="lobby_tab">false</item>
     <item type="id" name="lobby_tab_icon">false</item>
     <item type="id" name="lobby_tab_value">false</item>
@@ -1858,10 +1924,6 @@
     <item type="id" name="unlock_paused_body">false</item>
     <item type="id" name="mic_off_view">false</item>
     <item type="id" name="unlock_paused_body_bottom">false</item>
-    <item type="id" name="logging_images_reqestor">false</item>
-    <item type="id" name="log_images_checkbox">false</item>
-    <item type="id" name="change_later_text">false</item>
-    <item type="id" name="okay_button">false</item>
     <item type="id" name="feed">false</item>
     <item type="id" name="logo_menu_container">false</item>
     <item type="id" name="logo_buttons">false</item>
@@ -1880,7 +1942,6 @@
     <item type="id" name="magic_pair_lockscreen_notification_title">false</item>
     <item type="id" name="magic_pair_lockscreen_notification_body">false</item>
     <item type="id" name="magic_pair_lockscreen_notification_image">false</item>
-    <item type="id" name="collections_snackbar">false</item>
     <item type="id" name="main_content_back">false</item>
     <item type="id" name="velvet_scrollview_front">false</item>
     <item type="id" name="main_content_front">false</item>
@@ -1917,7 +1978,6 @@
     <item type="id" name="display_prompt">false</item>
     <item type="id" name="modal_state_view_large_summary">false</item>
     <item type="id" name="modal_state_view_small_summary">false</item>
-    <item type="id" name="mode_scroll_item">false</item>
     <item type="id" name="quick_action">false</item>
     <item type="id" name="carousel_root">false</item>
     <item type="id" name="breaker">false</item>
@@ -1984,15 +2044,13 @@
     <item type="id" name="paginator_next_chevron">false</item>
     <item type="id" name="terms_link_url">false</item>
     <item type="id" name="navigation_wrapper">false</item>
-    <item type="id" name="feature_highlight_stub">false</item>
     <item type="id" name="bottom_navigation_bar">false</item>
     <item type="id" name="shadow">false</item>
     <item type="id" name="suggestion_chips_child">false</item>
     <item type="id" name="lobby_tabs">false</item>
     <item type="id" name="navigation_drawer_layout_inner_frame">false</item>
     <item type="id" name="gms_error_stub">false</item>
-    <item type="id" name="update_tip_top_layout">false</item>
-    <item type="id" name="kepler_awareness_tip_layout">false</item>
+    <item type="id" name="awareness_tip_placeholder">false</item>
     <item type="id" name="velour_custom_drawer_items">false</item>
     <item type="id" name="recently">false</item>
     <item type="id" name="saves">false</item>
@@ -2074,6 +2132,7 @@
     <item type="id" name="doodle_share_button">false</item>
     <item type="id" name="doodle_search_button">false</item>
     <item type="id" name="doodle_button_container">false</item>
+    <item type="id" name="background">false</item>
     <item type="id" name="scenery">false</item>
     <item type="id" name="swipe_view">false</item>
     <item type="id" name="logo_phone">false</item>
@@ -2093,8 +2152,13 @@
     <item type="id" name="right_gutter_text">false</item>
     <item type="id" name="info_entry_icon_1">false</item>
     <item type="id" name="info_entry_icon_2">false</item>
-    <item type="id" name="thumbnail">false</item>
     <item type="id" name="onelens_container">false</item>
+    <item type="id" name="oobe_list_element_title_text">false</item>
+    <item type="id" name="oobe_list_element_message_text">false</item>
+    <item type="id" name="opa_payments_scroll_view">false</item>
+    <item type="id" name="opa_payments_content_container">false</item>
+    <item type="id" name="opa_payments_oobe_list_container">false</item>
+    <item type="id" name="opa_payments_footer_container">false</item>
     <item type="id" name="opa_action_confirmation">false</item>
     <item type="id" name="opa_action_confirmation_body">false</item>
     <item type="id" name="opa_action_confirmation_card_image_view">false</item>
@@ -2136,6 +2200,7 @@
     <item type="id" name="opa_persistent_finish_setup_bar_view_stub">false</item>
     <item type="id" name="opa_persistent_finish_setup_bar">false</item>
     <item type="id" name="opa_history_expander">false</item>
+    <item type="id" name="zero_state_hint">false</item>
     <item type="id" name="opa_chat_overlay">false</item>
     <item type="id" name="opa_lock_icon">false</item>
     <item type="id" name="opa_modular_action_card_ui">false</item>
@@ -2150,6 +2215,8 @@
     <item type="id" name="opa_logo">false</item>
     <item type="id" name="opa_disabled_error_summary">false</item>
     <item type="id" name="opa_disabled_error_yes">false</item>
+    <item type="id" name="opa_page_scrollview">false</item>
+    <item type="id" name="opa_footer_container">false</item>
     <item type="id" name="opa_contextual_cards_loading_bars">false</item>
     <item type="id" name="opa_contextual_cards_text_placeholder">false</item>
     <item type="id" name="opa_search_plate">false</item>
@@ -2224,21 +2291,19 @@
     <item type="id" name="account_add_button">false</item>
     <item type="id" name="overflow_menu">false</item>
     <item type="id" name="overflow_menu_action_list">false</item>
-    <item type="id" name="overflow_menu_icon">false</item>
     <item type="id" name="overflow_menu_action_label">false</item>
     <item type="id" name="ondemand_assist_view">false</item>
     <item type="id" name="overlay_view_container">false</item>
     <item type="id" name="card_overlay_shadow">false</item>
+    <item type="id" name="back_button_child">false</item>
+    <item type="id" name="donate_data_info_button_child">false</item>
     <item type="id" name="flash_button_child">false</item>
     <item type="id" name="close_button_child">false</item>
     <item type="id" name="camera_switch_button_child">false</item>
-    <item type="id" name="donate_data_info_button_child">false</item>
     <item type="id" name="wallpaper_button">false</item>
     <item type="id" name="widget_button">false</item>
     <item type="id" name="inactive">false</item>
     <item type="id" name="active">false</item>
-    <item type="id" name="partial_experience_image">false</item>
-    <item type="id" name="partial_experience_intro_title">false</item>
     <item type="id" name="payments_auth_password_dialog">false</item>
     <item type="id" name="payments_auth_password_dialog_content">false</item>
     <item type="id" name="payments_auth_password_title">false</item>
@@ -2342,28 +2407,11 @@
     <item type="id" name="photo_preview_image">false</item>
     <item type="id" name="indeterminate_progress">false</item>
     <item type="id" name="determinate_progress">false</item>
-    <item type="id" name="photo_cropped_to_square">false</item>
-    <item type="id" name="photo_frame">false</item>
-    <item type="id" name="photo_padding">false</item>
-    <item type="id" name="fallback_message">false</item>
-    <item type="id" name="fallback_message_text">false</item>
-    <item type="id" name="media_icon_fv2_shadow">false</item>
+    <item type="id" name="upper_right_image_overlay">false</item>
     <item type="id" name="media_icon">false</item>
-    <item type="id" name="media_icon_fv2">false</item>
     <item type="id" name="media_caption">false</item>
-    <item type="id" name="media_caption_fv2">false</item>
     <item type="id" name="photo_attribution_primary">false</item>
     <item type="id" name="photo_attribution_secondary">false</item>
-    <item type="id" name="load_indicator">false</item>
-    <item type="id" name="video_black_overlay_for_transition">false</item>
-    <item type="id" name="video_interception_view">false</item>
-    <item type="id" name="dimmed_back">false</item>
-    <item type="id" name="gallery_grid">false</item>
-    <item type="id" name="tutorial_grid">false</item>
-    <item type="id" name="top_bar">false</item>
-    <item type="id" name="gallery_title">false</item>
-    <item type="id" name="no_result_linear_layout">false</item>
-    <item type="id" name="no_results_text_view">false</item>
     <item type="id" name="pinned_to_keyboard_container">false</item>
     <item type="id" name="pinned_to_keyboard_container_mask">false</item>
     <item type="id" name="place_autocomplete_search_button">false</item>
@@ -2387,6 +2435,9 @@
     <item type="id" name="related_action_save">false</item>
     <item type="id" name="related_action_save_icon">false</item>
     <item type="id" name="related_action_save_text">false</item>
+    <item type="id" name="related_action_unsave">false</item>
+    <item type="id" name="related_action_unsave_icon">false</item>
+    <item type="id" name="related_action_unsave_text">false</item>
     <item type="id" name="widget_container">false</item>
     <item type="id" name="widget_rows">false</item>
     <item type="id" name="only_tile">false</item>
@@ -2627,6 +2678,7 @@
     <item type="id" name="platform">false</item>
     <item type="id" name="publisher">false</item>
     <item type="id" name="thumbnail_container">false</item>
+    <item type="id" name="thumbnail">false</item>
     <item type="id" name="duration">false</item>
     <item type="id" name="weather_gutter_container">false</item>
     <item type="id" name="current_weather_icon">false</item>
@@ -2652,10 +2704,8 @@
     <item type="id" name="quartz_alarm_weekdays">false</item>
     <item type="id" name="quartz_alarm_remove_btn">false</item>
     <item type="id" name="quartz_ambient_background">false</item>
-    <item type="id" name="quartz_ambient_time_date_and_weather_container">false</item>
-    <item type="id" name="quartz_ambient_time_display">false</item>
-    <item type="id" name="quartz_ambient_date_and_weather">false</item>
-    <item type="id" name="quartz_ambient_connection_problem_indicator">false</item>
+    <item type="id" name="quartz_ambient_time_and_weather_container">false</item>
+    <item type="id" name="quartz_ambient_time_and_weather">false</item>
     <item type="id" name="quartz_ambient_clock_face">false</item>
     <item type="id" name="quartz_ambient_build_info_display">false</item>
     <item type="id" name="quartz_ambient_overlay">false</item>
@@ -2672,10 +2722,11 @@
     <item type="id" name="quartz_ambient_clock_face_click_target">false</item>
     <item type="id" name="quartz_ambient_time_text">false</item>
     <item type="id" name="quartz_ambient_time_alarm">false</item>
-    <item type="id" name="quartz_date_text">false</item>
-    <item type="id" name="quartz_ambient_weather_separator">false</item>
     <item type="id" name="quartz_ambient_weather_condition">false</item>
     <item type="id" name="quartz_ambient_weather_temperature">false</item>
+    <item type="id" name="quartz_ambient_weather_fahrenheit_temperature">false</item>
+    <item type="id" name="quartz_ambient_weather_temperature_space">false</item>
+    <item type="id" name="quartz_ambient_weather_celsius_temperature">false</item>
     <item type="id" name="quartz_ambient_weather_alarm">false</item>
     <item type="id" name="quartz_aog_banner_placeholder">false</item>
     <item type="id" name="quartz_aog_child">false</item>
@@ -2720,6 +2771,15 @@
     <item type="id" name="quartz_completion_banner">false</item>
     <item type="id" name="quartz_dialog_progression_title">false</item>
     <item type="id" name="quartz_dialog_entry_list">false</item>
+    <item type="id" name="quartz_home_module_events_divider">false</item>
+    <item type="id" name="quartz_home_module_left_guideline">false</item>
+    <item type="id" name="quartz_home_module_right_guideline">false</item>
+    <item type="id" name="quartz_home_module_body_center_guideline">false</item>
+    <item type="id" name="quartz_home_module_events_top_title">false</item>
+    <item type="id" name="quartz_home_module_header_bottom_guideline">false</item>
+    <item type="id" name="quartz_home_module_events_top_text">false</item>
+    <item type="id" name="quartz_home_module_events_bottom_title">false</item>
+    <item type="id" name="quartz_home_module_events_bottom_text">false</item>
     <item type="id" name="quartz_explore_list">false</item>
     <item type="id" name="quartz_explore_category_gallery">false</item>
     <item type="id" name="quartz_explore_gallery_tile_img">false</item>
@@ -2730,7 +2790,6 @@
     <item type="id" name="quartz_explore_suggestions">false</item>
     <item type="id" name="quartz_explore_section_suggestion">false</item>
     <item type="id" name="quartz_ganache_layout">false</item>
-    <item type="id" name="quartz_ganache_card">false</item>
     <item type="id" name="quartz_ganache_list_container">false</item>
     <item type="id" name="quartz_ganache_answer_card">false</item>
     <item type="id" name="quartz_ganache_answer_card_title">false</item>
@@ -2741,13 +2800,16 @@
     <item type="id" name="quartz_meals_home_recipe_site_icon">false</item>
     <item type="id" name="quartz_meals_home_subtitle">false</item>
     <item type="id" name="quartz_meals_home_progress_bar">false</item>
+    <item type="id" name="quartz_home_module_background">false</item>
+    <item type="id" name="quartz_meals_home_thumbnail">false</item>
+    <item type="id" name="quartz_meals_home_recipe_progress_subtitle">false</item>
+    <item type="id" name="quartz_meals_home_recipe_name">false</item>
     <item type="id" name="quartz_ganache_ingredient_background">false</item>
-    <item type="id" name="quartz_ganache_ingredient_title">false</item>
+    <item type="id" name="quartz_ganache_ingredient_background_overlay">false</item>
     <item type="id" name="quartz_ganache_ingredient_container">false</item>
     <item type="id" name="quartz_ganache_ingredient_card_bullet">false</item>
     <item type="id" name="quartz_ganache_ingredient_card_selector">false</item>
     <item type="id" name="quartz_ganache_ingredient_card_text">false</item>
-    <item type="id" name="quartz_ganache_instruction_title">false</item>
     <item type="id" name="quartz_ganache_instruction_toggle_ingredients_button">false</item>
     <item type="id" name="quartz_ganache_instruction_toggle_ingredients_button_icon">false</item>
     <item type="id" name="quartz_ganache_instruction_toggle_ingredients_button_label">false</item>
@@ -2757,31 +2819,22 @@
     <item type="id" name="quartz_ganache_instruction_card_bullet">false</item>
     <item type="id" name="quartz_ganache_instruction_card_selector">false</item>
     <item type="id" name="quartz_ganache_instruction_card_text">false</item>
-    <item type="id" name="quartz_ganache_intro_title">false</item>
-    <item type="id" name="quartz_ganache_intro_recipe_site_logo">false</item>
-    <item type="id" name="quartz_ganache_intro_recipe_site">false</item>
-    <item type="id" name="quartz_ganache_rating">false</item>
-    <item type="id" name="quartz_ganache_intro_description">false</item>
-    <item type="id" name="quartz_ganache_intro_serves_label">false</item>
-    <item type="id" name="quartz_ganache_intro_prep_time_label">false</item>
-    <item type="id" name="quartz_ganache_intro_cook_time_label">false</item>
-    <item type="id" name="quartz_ganache_intro_serves">false</item>
-    <item type="id" name="quartz_ganache_intro_prep_time">false</item>
-    <item type="id" name="quartz_ganache_intro_cook_time">false</item>
-    <item type="id" name="quartz_ganache_intro_ingredient_layout">false</item>
-    <item type="id" name="quartz_ganache_intro_ingredient_label">false</item>
-    <item type="id" name="quartz_ganache_intro_ingredients">false</item>
-    <item type="id" name="quartz_ganache_intro_instruction_layout">false</item>
-    <item type="id" name="quartz_ganache_intro_instruction_label">false</item>
-    <item type="id" name="quartz_ganache_intro_instructions">false</item>
-    <item type="id" name="quartz_ganache_intro_image_container">false</item>
-    <item type="id" name="quartz_ganache_intro_image">false</item>
+    <item type="id" name="quartz_ganache_prep_container">false</item>
     <item type="id" name="quartz_ganache_prep_title">false</item>
     <item type="id" name="quartz_ganache_prep_text">false</item>
-    <item type="id" name="quartz_ganache_rating_text">false</item>
-    <item type="id" name="quartz_ganache_rating_bar">false</item>
+    <item type="id" name="quartz_ganache_recipe_site_logo_container">false</item>
+    <item type="id" name="quartz_ganache_recipe_site_logo">false</item>
+    <item type="id" name="quartz_ganache_recipe_site_logo_default">false</item>
+    <item type="id" name="quartz_ganache_recipe_site_title">false</item>
+    <item type="id" name="quartz_anchor_module">false</item>
+    <item type="id" name="quartz_home_scroll_view">false</item>
     <item type="id" name="quartz_home_tiles">false</item>
     <item type="id" name="quartz_home_loading">false</item>
+    <item type="id" name="quartz_home_module_footer_top_guideline">false</item>
+    <item type="id" name="quartz_home_module_icon">false</item>
+    <item type="id" name="quartz_home_module_title">false</item>
+    <item type="id" name="quartz_home_module_bottom_action">false</item>
+    <item type="id" name="quartz_home_module_top_content">false</item>
     <item type="id" name="quartz_home_suggestion_explore_icon">false</item>
     <item type="id" name="quartz_home_suggestion_explore_text">false</item>
     <item type="id" name="quartz_home_suggestion_intent_background">false</item>
@@ -2794,6 +2847,7 @@
     <item type="id" name="quartz_home_tile_content">false</item>
     <item type="id" name="quartz_image_search_view_pager">false</item>
     <item type="id" name="quartz_image_search_web_view">false</item>
+    <item type="id" name="quartz_image_search_related_images_detail">false</item>
     <item type="id" name="quartz_image_search_page_description">false</item>
     <item type="id" name="quartz_image_search_annotation_product_price_availability_brand">false</item>
     <item type="id" name="quartz_image_search_annotation_product_check_website_for_pricing">false</item>
@@ -2839,28 +2893,18 @@
     <item type="id" name="quartz_inventory_list_children">false</item>
     <item type="id" name="quartz_inventory_list_item_checkbox">false</item>
     <item type="id" name="quartz_inventory_list_item_label">false</item>
-    <item type="id" name="quartz_knowledge_answer_title">false</item>
-    <item type="id" name="quartz_knowledge_answer_subtitle">false</item>
-    <item type="id" name="quartz_knowledge_answer_text">false</item>
-    <item type="id" name="quartz_knowledge_answer_images_container">false</item>
-    <item type="id" name="quartz_knowledge_answer_fullscreen_image">false</item>
     <item type="id" name="quartz_knowledge_answer_card_layout">false</item>
     <item type="id" name="quartz_knowledge_answer_card_image_container">false</item>
     <item type="id" name="quartz_knowledge_answer_card_image">false</item>
     <item type="id" name="quartz_knowledge_answer_card_title">false</item>
     <item type="id" name="quartz_knowledge_answer_card_subtitle">false</item>
-    <item type="id" name="quartz_knowledge_answer_images_grid">false</item>
-    <item type="id" name="quartz_knowledge_image_card_view1">false</item>
-    <item type="id" name="quartz_knowledge_answer_image1">false</item>
-    <item type="id" name="quartz_knowledge_image_card_view2">false</item>
-    <item type="id" name="quartz_knowledge_image_card_view3">false</item>
-    <item type="id" name="quartz_knowledge_single_image_wrapper">false</item>
     <item type="id" name="quartz_knowledge_guideline">false</item>
     <item type="id" name="quartz_knowledge_hires_image">false</item>
     <item type="id" name="quartz_knowledge_overlay">false</item>
     <item type="id" name="quartz_knowledge_lowres_card">false</item>
     <item type="id" name="quartz_knowledge_lowres_image">false</item>
     <item type="id" name="quartz_knowledge_sub_feature_container">false</item>
+    <item type="id" name="quartz_knowledge_webview_child">false</item>
     <item type="id" name="quartz_knowledge_entity_guideline">false</item>
     <item type="id" name="quartz_knowledge_entity_title">false</item>
     <item type="id" name="quartz_knowledge_entity_rating_container">false</item>
@@ -2868,10 +2912,11 @@
     <item type="id" name="quartz_knowledge_entity_rating_stars">false</item>
     <item type="id" name="quartz_knowledge_entity_rating_text_value">false</item>
     <item type="id" name="quartz_knowledge_entity_subtitle">false</item>
-    <item type="id" name="quartz_knowledge_entity_first_property_title">false</item>
-    <item type="id" name="quartz_knowledge_entity_first_property_value">false</item>
-    <item type="id" name="quartz_knowledge_entity_second_property_title">false</item>
-    <item type="id" name="quartz_knowledge_entity_second_property_value">false</item>
+    <item type="id" name="quartz_knowledge_entity_property_list">false</item>
+    <item type="id" name="quartz_knowledge_entity_content_attribution">false</item>
+    <item type="id" name="quartz_knowledge_entity_property_title">false</item>
+    <item type="id" name="quartz_knowledge_entity_property_value">false</item>
+    <item type="id" name="quartz_knowledge_entity_property_attribution">false</item>
     <item type="id" name="quartz_list_container">false</item>
     <item type="id" name="quartz_list_title_container">false</item>
     <item type="id" name="quartz_list">false</item>
@@ -2905,10 +2950,10 @@
     <item type="id" name="quartz_local_place_distance_and_locality">false</item>
     <item type="id" name="quartz_local_place_opening_hours_container">false</item>
     <item type="id" name="quartz_local_place_opening_hours">false</item>
-    <item type="id" name="quartz_local_place_address_container">false</item>
-    <item type="id" name="quartz_local_place_address">false</item>
     <item type="id" name="quartz_local_place_phone_number_container">false</item>
     <item type="id" name="quartz_local_place_phone_number">false</item>
+    <item type="id" name="quartz_local_place_address_container">false</item>
+    <item type="id" name="quartz_local_place_address">false</item>
     <item type="id" name="quartz_local_place_summary_container">false</item>
     <item type="id" name="quartz_local_place_summary">false</item>
     <item type="id" name="quartz_local_place_list_card_image_container">false</item>
@@ -2928,7 +2973,6 @@
     <item type="id" name="quartz_local_place_text_overlay">false</item>
     <item type="id" name="quartz_local_place_text_overlay_title">false</item>
     <item type="id" name="quartz_local_place_text_overlay_subtitle">false</item>
-    <item type="id" name="quartz_main_left_edge_swipe_target">false</item>
     <item type="id" name="quartz_main_top_edge_swipe_target">false</item>
     <item type="id" name="quartz_main_content">false</item>
     <item type="id" name="quartz_main_child">false</item>
@@ -2948,6 +2992,8 @@
     <item type="id" name="quartz_meals_card_container">false</item>
     <item type="id" name="quartz_meals_card_content">false</item>
     <item type="id" name="quartz_meals_explore_card_time">false</item>
+    <item type="id" name="quartz_meals_card_thumbnail_bg">false</item>
+    <item type="id" name="quartz_meals_card_thumbnail_card">false</item>
     <item type="id" name="quartz_meals_explore_list_title">false</item>
     <item type="id" name="quartz_media_browse_title_container">false</item>
     <item type="id" name="quartz_media_browse_icon">false</item>
@@ -2959,6 +3005,8 @@
     <item type="id" name="quartz_media_browse_card_load_overlay">false</item>
     <item type="id" name="quartz_media_browse_card_title">false</item>
     <item type="id" name="quartz_media_browse_card_text">false</item>
+    <item type="id" name="quartz_media_home_album_art">false</item>
+    <item type="id" name="quartz_media_home_seek_bar">false</item>
     <item type="id" name="quartz_media_root_actual_feature">false</item>
     <item type="id" name="quartz_media_image">false</item>
     <item type="id" name="quartz_media_text_container">false</item>
@@ -2966,10 +3014,10 @@
     <item type="id" name="quartz_media_controls_text_artist">false</item>
     <item type="id" name="quartz_media_controls_text_dash">false</item>
     <item type="id" name="quartz_media_controls_text_song">false</item>
-    <item type="id" name="quartz_media_home_seek_bar">false</item>
     <item type="id" name="quartz_media_layout">false</item>
     <item type="id" name="quartz_media_overlay">false</item>
     <item type="id" name="quartz_media_controls_layout">false</item>
+    <item type="id" name="quartz_media_controls_text_album_name">false</item>
     <item type="id" name="quartz_album_art_shadow">false</item>
     <item type="id" name="quartz_media_album_art">false</item>
     <item type="id" name="quartz_media_control_buttons_layout">false</item>
@@ -2981,6 +3029,11 @@
     <item type="id" name="quartz_media_play_btn">false</item>
     <item type="id" name="quartz_camera_video_tile">false</item>
     <item type="id" name="quartz_media_tile">false</item>
+    <item type="id" name="quartz_noparse_container">false</item>
+    <item type="id" name="quartz_noparse_query">false</item>
+    <item type="id" name="quartz_noparse_title">false</item>
+    <item type="id" name="quartz_noparse_suggestions">false</item>
+    <item type="id" name="quartz_noparse_suggestion">false</item>
     <item type="id" name="quartz_home_notification_header">false</item>
     <item type="id" name="quartz_home_notification_title">false</item>
     <item type="id" name="quartz_home_notification_subtitle">false</item>
@@ -2991,6 +3044,10 @@
     <item type="id" name="quartz_notification_list_container">false</item>
     <item type="id" name="quartz_notification_list_title">false</item>
     <item type="id" name="quartz_notification_list_username">false</item>
+    <item type="id" name="quartz_home_notification_time">false</item>
+    <item type="id" name="quartz_home_notification_action_divider">false</item>
+    <item type="id" name="quartz_home_notification_action">false</item>
+    <item type="id" name="quartz_home_notification_text">false</item>
     <item type="id" name="quartz_personal_photo_gallery_logo">false</item>
     <item type="id" name="quartz_personal_photo_gallery_album_name">false</item>
     <item type="id" name="quartz_personal_photo_gallery_count">false</item>
@@ -3019,6 +3076,7 @@
     <item type="id" name="quartz_property_answer_subtitle">false</item>
     <item type="id" name="quartz_property_answer_child">false</item>
     <item type="id" name="quartz_recipe_overview_webview">false</item>
+    <item type="id" name="quartz_recipe_guidance">false</item>
     <item type="id" name="quartz_meals_overview_ingredient_layout">false</item>
     <item type="id" name="quartz_meals_overview_ingredient_summary_label">false</item>
     <item type="id" name="quartz_meals_overview_ingredient_label">false</item>
@@ -3047,17 +3105,18 @@
     <item type="id" name="quartz_meals_overview_ingredient_text">false</item>
     <item type="id" name="quartz_meals_overview_instruction_number">false</item>
     <item type="id" name="quartz_meals_overview_instruction_text">false</item>
-    <item type="id" name="quartz_meals_overview_title">false</item>
     <item type="id" name="quartz_meals_overview_recipe_site_container">false</item>
     <item type="id" name="quartz_meals_overview_recipe_site_logo_container">false</item>
     <item type="id" name="quartz_meals_overview_recipe_site_logo">false</item>
     <item type="id" name="quartz_meals_overview_recipe_site_logo_default">false</item>
     <item type="id" name="quartz_meals_overview_recipe_site">false</item>
+    <item type="id" name="quartz_meals_overview_title">false</item>
     <item type="id" name="quartz_meals_overview_rating_container">false</item>
     <item type="id" name="quartz_meals_overview_rating_bar">false</item>
     <item type="id" name="quartz_meals_overview_rating_count">false</item>
     <item type="id" name="quartz_meals_overview_image_container">false</item>
     <item type="id" name="quartz_meals_overview_image">false</item>
+    <item type="id" name="quartz_meals_overview_image_recipe_url_overlay">false</item>
     <item type="id" name="quartz_restscreen_recommended_content_card">false</item>
     <item type="id" name="quartz_restscreen_recommended_content_thumbnail">false</item>
     <item type="id" name="quartz_restscreen_recommended_content_title">false</item>
@@ -3103,8 +3162,8 @@
     <item type="id" name="quartz_shopping_list_children">false</item>
     <item type="id" name="quartz_shopping_list_item_checkbox">false</item>
     <item type="id" name="quartz_shopping_list_item_image_card">false</item>
-    <item type="id" name="quartz_shopping_list_item_image">false</item>
     <item type="id" name="quartz_shopping_list_item_label">false</item>
+    <item type="id" name="quartz_shopping_list_item_image">false</item>
     <item type="id" name="quartz_shopping_list_item_qty_or_price">false</item>
     <item type="id" name="quartz_shopping_offer_images_grid">false</item>
     <item type="id" name="quartz_shopping_offer_card_main">false</item>
@@ -3131,8 +3190,10 @@
     <item type="id" name="quartz_shopping_offer_merchant_name">false</item>
     <item type="id" name="quartz_shopping_offer_delivery_cost">false</item>
     <item type="id" name="quartz_shopping_offer_description">false</item>
+    <item type="id" name="quartz_shopping_offer_fullscreen_image">false</item>
     <item type="id" name="quartz_shopping_offer_list_item_image_container">false</item>
     <item type="id" name="quartz_shopping_offer_list_item_image">false</item>
+    <item type="id" name="quartz_shopping_offer_list_item_image_placeholder_stub">false</item>
     <item type="id" name="quartz_shopping_offer_list_item_price">false</item>
     <item type="id" name="quartz_shopping_offer_list_item_old_price">false</item>
     <item type="id" name="quartz_shopping_offer_list_item_title">false</item>
@@ -3147,9 +3208,17 @@
     <item type="id" name="quartz_suggestion_chip_chip">false</item>
     <item type="id" name="quartz_suggestions_scroll_view">false</item>
     <item type="id" name="quartz_suggestions_layout">false</item>
+    <item type="id" name="quartz_suggestions_home_module_list">false</item>
+    <item type="id" name="quartz_suggestion_home_module_query_icon">false</item>
+    <item type="id" name="quartz_suggestion_home_module_query_text">false</item>
+    <item type="id" name="quartz_text_home_module_text">false</item>
+    <item type="id" name="quartz_home_module_text_with_image_title">false</item>
+    <item type="id" name="quartz_home_module_text_with_image_body_text">false</item>
+    <item type="id" name="quartz_home_module_text_with_image_image">false</item>
     <item type="id" name="quartz_timer_controls_layout">false</item>
     <item type="id" name="quartz_timer_circle_shadow">false</item>
     <item type="id" name="quartz_timer_label">false</item>
+    <item type="id" name="quartz_timer_label_secondary">false</item>
     <item type="id" name="quartz_timer_circle">false</item>
     <item type="id" name="quartz_timer_remaining_time">false</item>
     <item type="id" name="quartz_timer_done">false</item>
@@ -3157,6 +3226,7 @@
     <item type="id" name="quartz_timer_control_btn">false</item>
     <item type="id" name="quartz_timer_remove_btn">false</item>
     <item type="id" name="quartz_timer_home">false</item>
+    <item type="id" name="quartz_timer_module_child">false</item>
     <item type="id" name="quartz_timer_timers_count">false</item>
     <item type="id" name="quartz_transactions_button_text">false</item>
     <item type="id" name="quartz_transactions_two_text_start">false</item>
@@ -3185,6 +3255,26 @@
     <item type="id" name="quartz_voice_plate_user_picture">false</item>
     <item type="id" name="quartz_voice_plate_user_greeting">false</item>
     <item type="id" name="quartz_voice_plate_user_name">false</item>
+    <item type="id" name="quartz_weather_module">false</item>
+    <item type="id" name="quartz_weather_module_background">false</item>
+    <item type="id" name="quartz_weather_module_left_margin">false</item>
+    <item type="id" name="quartz_weather_module_alarm">false</item>
+    <item type="id" name="quartz_weather_module_date_time">false</item>
+    <item type="id" name="quartz_weather_module_temperature">false</item>
+    <item type="id" name="quartz_weather_module_high_low">false</item>
+    <item type="id" name="quartz_weather_module_upcoming_weather_guide_horizontal">false</item>
+    <item type="id" name="quartz_weather_module_upcoming_weather_guide_vertical_1">false</item>
+    <item type="id" name="quartz_weather_module_upcoming_image_1">false</item>
+    <item type="id" name="quartz_weather_module_upcoming_top_1">false</item>
+    <item type="id" name="quartz_weather_module_upcoming_bottom_1">false</item>
+    <item type="id" name="quartz_weather_module_upcoming_weather_guide_vertical_2">false</item>
+    <item type="id" name="quartz_weather_module_upcoming_image_2">false</item>
+    <item type="id" name="quartz_weather_module_upcoming_top_2">false</item>
+    <item type="id" name="quartz_weather_module_upcoming_bottom_2">false</item>
+    <item type="id" name="quartz_weather_module_upcoming_weather_guide_vertical_3">false</item>
+    <item type="id" name="quartz_weather_module_upcoming_image_3">false</item>
+    <item type="id" name="quartz_weather_module_upcoming_top_3">false</item>
+    <item type="id" name="quartz_weather_module_upcoming_bottom_3">false</item>
     <item type="id" name="quartz_webimage_gallery_carousel">false</item>
     <item type="id" name="quartz_webimage_gallery_recyclerview">false</item>
     <item type="id" name="quartz_webimage_gallery_fullscreen_view">false</item>
@@ -3230,6 +3320,7 @@
     <item type="id" name="reaction_question_group">false</item>
     <item type="id" name="reaction_followup_divider">false</item>
     <item type="id" name="reaction_followup_see_less_of">false</item>
+    <item type="id" name="reaction_followup_question_container">false</item>
     <item type="id" name="reaction_followup_question_row">false</item>
     <item type="id" name="question_container">false</item>
     <item type="id" name="question_view_pill_wrapper">false</item>
@@ -3312,8 +3403,6 @@
     <item type="id" name="rename_place_icon">false</item>
     <item type="id" name="rename_place_description">false</item>
     <item type="id" name="location_list">false</item>
-    <item type="id" name="results_webview">false</item>
-    <item type="id" name="results_progress_bar">false</item>
     <item type="id" name="velvet_webview">false</item>
     <item type="id" name="review_histogram_container">false</item>
     <item type="id" name="review_average_value">false</item>
@@ -3340,8 +3429,12 @@
     <item type="id" name="rich_image_suggestion_container">false</item>
     <item type="id" name="image_carousel_stub">false</item>
     <item type="id" name="expand_images_container">false</item>
-    <item type="id" name="bubble_card">false</item>
+    <item type="id" name="collapsed_bubble_error_indicator">false</item>
     <item type="id" name="collapsed_bubble">false</item>
+    <item type="id" name="bubble_extended_card">false</item>
+    <item type="id" name="bubble_extended_card_content">false</item>
+    <item type="id" name="extended_bubble_error_indicator">false</item>
+    <item type="id" name="feedback_link">false</item>
     <item type="id" name="extended_bubble">false</item>
     <item type="id" name="search_box">false</item>
     <item type="id" name="header_hint">false</item>
@@ -3413,13 +3506,11 @@
     <item type="id" name="surface_feed">false</item>
     <item type="id" name="tab_navigation">false</item>
     <item type="id" name="tmp_suggest">false</item>
-    <item type="id" name="tmp_corpus">false</item>
     <item type="id" name="tmp_filter_bar">false</item>
     <item type="id" name="tmp_bottom_sheet">false</item>
     <item type="id" name="cards_view_stub">false</item>
     <item type="id" name="fullscreen_container">false</item>
     <item type="id" name="bottom_bar_container">false</item>
-    <item type="id" name="bottomsheet_container">false</item>
     <item type="id" name="search_scrim">false</item>
     <item type="id" name="search_suggestions_container_scroll_view">false</item>
     <item type="id" name="suggestions_container_stub">false</item>
@@ -3498,6 +3589,9 @@
     <item type="id" name="more_container">false</item>
     <item type="id" name="customization_more_icon">false</item>
     <item type="id" name="search_widget_google_full">false</item>
+    <item type="id" name="search_widget_spark_container">false</item>
+    <item type="id" name="search_widget_spark_icon">false</item>
+    <item type="id" name="search_widget_spark_vertical_divider">false</item>
     <item type="id" name="search_widget_visual_search">false</item>
     <item type="id" name="search_widget_feed_button_container">false</item>
     <item type="id" name="search_widget_feed_vertical_divider">false</item>
@@ -3578,6 +3672,10 @@
     <item type="id" name="selection_ui_coscrollcontainer">false</item>
     <item type="id" name="selection_ui_container">false</item>
     <item type="id" name="selection_overlayview_container">false</item>
+    <item type="id" name="send_to_device_title">false</item>
+    <item type="id" name="device_selection_group">false</item>
+    <item type="id" name="send_to_device_positive_button">false</item>
+    <item type="id" name="send_to_device_negative_button">false</item>
     <item type="id" name="query">false</item>
     <item type="id" name="shape_menu_container">false</item>
     <item type="id" name="shape_selections">false</item>
@@ -3662,6 +3760,10 @@
     <item type="id" name="credential_info_profile_picture">false</item>
     <item type="id" name="credential_primary_label">false</item>
     <item type="id" name="credential_secondary_label">false</item>
+    <item type="id" name="title_weather_content">false</item>
+    <item type="id" name="title_separator">false</item>
+    <item type="id" name="title_weather_icon">false</item>
+    <item type="id" name="title_weather_text">false</item>
     <item type="id" name="slice_icon">false</item>
     <item type="id" name="slice_view">false</item>
     <item type="id" name="slider_setting_card_ui">false</item>
@@ -3681,6 +3783,8 @@
     <item type="id" name="match_status">false</item>
     <item type="id" name="league_name">false</item>
     <item type="id" name="extended_view_pre_match_status">false</item>
+    <item type="id" name="penalty_container">false</item>
+    <item type="id" name="penalties_text">false</item>
     <item type="id" name="extended_view_post_and_live_score_separator">false</item>
     <item type="id" name="first_team_logo_container">false</item>
     <item type="id" name="second_team_logo_container">false</item>
@@ -3688,6 +3792,8 @@
     <item type="id" name="goals_cards_summary">false</item>
     <item type="id" name="more_info_container">false</item>
     <item type="id" name="more_info_button">false</item>
+    <item type="id" name="inactive_state_container">false</item>
+    <item type="id" name="inactive_state_text">false</item>
     <item type="id" name="cards_container_wrapper">false</item>
     <item type="id" name="ipa_container_stub">false</item>
     <item type="id" name="srp_content">false</item>
@@ -3727,6 +3833,10 @@
     <item type="id" name="contact_action_row_scroll_view">false</item>
     <item type="id" name="pager_loading_icon">false</item>
     <item type="id" name="pager_no_suggestion">false</item>
+    <item type="id" name="summer_time_mode_devices_list">false</item>
+    <item type="id" name="summer_time_mode_clarification">false</item>
+    <item type="id" name="device_type_image">false</item>
+    <item type="id" name="device_name">false</item>
     <item type="id" name="suw_pattern_bg">false</item>
     <item type="id" name="suw_layout_sticky_header">false</item>
     <item type="id" name="suw_layout_content">false</item>
@@ -3773,9 +3883,10 @@
     <item type="id" name="welcome_image">false</item>
     <item type="id" name="learn_more">false</item>
     <item type="id" name="video_layout">false</item>
+    <item type="id" name="close">false</item>
     <item type="id" name="video_container">false</item>
-    <item type="id" name="ads_container">false</item>
     <item type="id" name="video_surface">false</item>
+    <item type="id" name="ads_container">false</item>
     <item type="id" name="thumbnail_image">false</item>
     <item type="id" name="title_overlay">false</item>
     <item type="id" name="thumbnail_title_text">false</item>
@@ -3860,10 +3971,6 @@
     <item type="id" name="logo_stub">false</item>
     <item type="id" name="undo_title">false</item>
     <item type="id" name="update_tip_logo">false</item>
-    <item type="id" name="update_tip_title">false</item>
-    <item type="id" name="update_tip_description">false</item>
-    <item type="id" name="update_tip_reject_button">false</item>
-    <item type="id" name="update_tip_accept_button">false</item>
     <item type="id" name="update_tooltip">false</item>
     <item type="id" name="update_tooltip_content">false</item>
     <item type="id" name="update_tooltip_description">false</item>
@@ -3903,6 +4010,7 @@
     <item type="id" name="star_icon">false</item>
     <item type="id" name="average_rating">false</item>
     <item type="id" name="try_it_button">false</item>
+    <item type="id" name="send_to_device_button">false</item>
     <item type="id" name="agent_description">false</item>
     <item type="id" name="agent_description_more">false</item>
     <item type="id" name="suggestions_group">false</item>
@@ -3965,6 +4073,8 @@
     <item type="id" name="udc_consent_checking_spinner">false</item>
     <item type="id" name="opa_consent_value_prop_webview">false</item>
     <item type="id" name="view_pager">false</item>
+    <item type="id" name="explore_icon_container">false</item>
+    <item type="id" name="explore_icon">false</item>
     <item type="id" name="opa_mark">false</item>
     <item type="id" name="valyrian_immersive_actions_cancel_text_button">false</item>
     <item type="id" name="valyrian_immersive_actions_confirm_text_button">false</item>
@@ -3987,56 +4097,12 @@
     <item type="id" name="try_again">false</item>
     <item type="id" name="vertical_search_button">false</item>
     <item type="id" name="vertical_voice_button">false</item>
-    <item type="id" name="close">false</item>
     <item type="id" name="centered_linear_layout">false</item>
     <item type="id" name="video_size_frame">false</item>
     <item type="id" name="video_frame">false</item>
     <item type="id" name="video_black_overlay">false</item>
     <item type="id" name="dividing_line">false</item>
     <item type="id" name="down_arrow">false</item>
-    <item type="id" name="visual_search_activity_view">false</item>
-    <item type="id" name="camera_view">false</item>
-    <item type="id" name="photos_library">false</item>
-    <item type="id" name="lottie_view_frame_layout">false</item>
-    <item type="id" name="lottie_spinner">false</item>
-    <item type="id" name="top_bar_background">false</item>
-    <item type="id" name="flash_toggle_button">false</item>
-    <item type="id" name="front_rear_camera_toggle_arrows">false</item>
-    <item type="id" name="feedback_icon">false</item>
-    <item type="id" name="feedback_loading_panel">false</item>
-    <item type="id" name="bottom_bar">false</item>
-    <item type="id" name="bottom_bar_background">false</item>
-    <item type="id" name="tutorial_button">false</item>
-    <item type="id" name="camera_shutter_button">false</item>
-    <item type="id" name="camera_shutter_button_ring">false</item>
-    <item type="id" name="mode_icon">false</item>
-    <item type="id" name="photos_library_button">false</item>
-    <item type="id" name="mode_selector_zero_state_scroll_view">false</item>
-    <item type="id" name="mode_selector_zero_state_container">false</item>
-    <item type="id" name="mode_selector_suggestions_scroll_view">false</item>
-    <item type="id" name="mode_selector_suggestions_container">false</item>
-    <item type="id" name="visually_similar_frame_layout">false</item>
-    <item type="id" name="similar_images_background">false</item>
-    <item type="id" name="similar_images_arrow">false</item>
-    <item type="id" name="similar_images_text_view">false</item>
-    <item type="id" name="overflow_menu_button_image">false</item>
-    <item type="id" name="visual_search_overlay">false</item>
-    <item type="id" name="visually_similar_expanded_frame_layout">false</item>
-    <item type="id" name="similar_images_background_expanded">false</item>
-    <item type="id" name="similar_images_text_view_expanded">false</item>
-    <item type="id" name="similar_images_view_feedback">false</item>
-    <item type="id" name="similar_images_feedback_loading_panel">false</item>
-    <item type="id" name="results_container">false</item>
-    <item type="id" name="overflow_menu_button">false</item>
-    <item type="id" name="action_card_container">false</item>
-    <item type="id" name="suggestion_thumbnail">false</item>
-    <item type="id" name="details_button">false</item>
-    <item type="id" name="suggestions_overlay">false</item>
-    <item type="id" name="no_connection_found_layout">false</item>
-    <item type="id" name="info_icon">false</item>
-    <item type="id" name="info_text">false</item>
-    <item type="id" name="suggestions_progress_bar">false</item>
-    <item type="id" name="suggestions_recycler_view">false</item>
     <item type="id" name="radio_group_auto_update">false</item>
     <item type="id" name="radio_auto_update_never">false</item>
     <item type="id" name="radio_auto_update_any_time">false</item>
@@ -4118,8 +4184,15 @@
     <item type="id" name="widgets_cell_list">false</item>
     <item type="id" name="widgets_list_view">false</item>
     <item type="id" name="month_text_view">false</item>
-    <item type="id" name="zero_state_agenda_card">false</item>
+    <item type="id" name="your_people_main_container">false</item>
+    <item type="id" name="assistant_settings_your_people_splash_container">false</item>
+    <item type="id" name="assistant_settings_your_people_splash_title_id">false</item>
+    <item type="id" name="assistant_settings_your_people_splash_id">false</item>
+    <item type="id" name="assistant_settings_suggestion_container">false</item>
+    <item type="id" name="assistant_settings_your_people_suggestion_introduction_id">false</item>
+    <item type="id" name="suggestions_chip_container">false</item>
     <item type="id" name="agenda_event_list">false</item>
+    <item type="id" name="see_all_text">false</item>
     <item type="id" name="touch_intercepting_container">false</item>
     <item type="id" name="zero_state_discovery_chevron">false</item>
     <item type="id" name="zero_state_loading_spinner">false</item>
@@ -4131,7 +4204,6 @@
     <item type="id" name="what_can_you_do_header">false</item>
     <item type="id" name="enable_assistant_for_holdback_header">false</item>
     <item type="id" name="background_retry_header">false</item>
-    <item type="id" name="data_saver_header">false</item>
     <item type="id" name="notifications_header">false</item>
     <item type="id" name="now_cards_header">false</item>
     <item type="id" name="launcher_section">false</item>
@@ -4150,7 +4222,6 @@
     <item type="id" name="suggest_header">false</item>
     <item type="id" name="video_preference_screen">false</item>
     <item type="id" name="video_header">false</item>
-    <item type="id" name="visual_search_preference_screen">false</item>
     <item type="id" name="voice_settings_header">false</item>
     <item type="id" name="topdeck_header">false</item>
     <item type="id" name="visible">false</item>
@@ -4164,6 +4235,8 @@
     <item type="id" name="illustration_image">false</item>
     <item type="id" name="half_overlay">false</item>
     <item type="id" name="suggestion_chip_background">false</item>
+    <item type="id" name="checked">false</item>
+    <item type="id" name="unchecked">false</item>
     <item type="id" name="agent_directory_feedback_action_send">false</item>
     <item type="id" name="rating_menu_edit">false</item>
     <item type="id" name="rating_menu_delete">false</item>
@@ -4200,7 +4273,6 @@
     <item type="id" name="opa_menu_settings">false</item>
     <item type="id" name="opa_menu_what_can_you_do">false</item>
     <item type="id" name="opa_menu_my_activity">false</item>
-    <item type="id" name="color_palette">false</item>
     <item type="id" name="assistant_settings_payments_address_menu_edit">false</item>
     <item type="id" name="assistant_settings_payments_address_menu_delete">false</item>
     <item type="id" name="assistant_settings_payments_instrument_menu_edit">false</item>
@@ -4212,6 +4284,7 @@
     <item type="id" name="recent_settings">false</item>
     <item type="id" name="recent_onboarding">false</item>
     <item type="id" name="recent_myactivity">false</item>
+    <item type="id" name="clear_schedule_button">false</item>
     <item type="id" name="menu_settings">false</item>
     <item type="id" name="agent_directory_action_share">false</item>
     <item type="id" name="agent_directory_action_bookmark">false</item>

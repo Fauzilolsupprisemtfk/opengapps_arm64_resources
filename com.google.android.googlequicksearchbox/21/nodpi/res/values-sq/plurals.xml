@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d ditë më parë</item>
+        <item quantity="one">%d ditë më parë</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d minuta më parë</item>
+        <item quantity="one">%d minutë më parë</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d vite më parë</item>
+        <item quantity="one">%d vit më parë</item>
+    </plurals>
     <plurals name="agenda_card_history_desc">
         <item quantity="other">%d ngjarje</item>
         <item quantity="one">%d ngjarje</item>
@@ -35,6 +47,14 @@
     <plurals name="daily_lower">
         <item quantity="other">çdo %d ditë</item>
         <item quantity="one">çdo ditë</item>
+    </plurals>
+    <plurals name="daysAgo">
+        <item quantity="other">%1$d ditë më parë</item>
+        <item quantity="one">%1$d ditë më parë</item>
+    </plurals>
+    <plurals name="days_left_to_remove_downloads">
+        <item quantity="other">Pas %1$d ditësh</item>
+        <item quantity="one">Pas %1$d dite</item>
     </plurals>
     <plurals name="device_count">
         <item quantity="other">%1$d pajisje</item>
@@ -92,6 +112,22 @@
         <item quantity="other">; për %d herë</item>
         <item quantity="one">; për një herë</item>
     </plurals>
+    <plurals name="episode_list_header_full">
+        <item quantity="other">%1$d episode</item>
+        <item quantity="one">%1$d episod</item>
+    </plurals>
+    <plurals name="favoritesSelected">
+        <item quantity="other">%1$d podkaste të zgjedhura</item>
+        <item quantity="one">%1$d podkast i zgjedhur</item>
+    </plurals>
+    <plurals name="hoursAgo">
+        <item quantity="other">%1$d orë më parë</item>
+        <item quantity="one">%1$d orë më parë</item>
+    </plurals>
+    <plurals name="hours_left_to_remove_downloads">
+        <item quantity="other">Pas %1$d orësh</item>
+        <item quantity="one">Pas %1$d ore</item>
+    </plurals>
     <plurals name="items_from_without_colon">
         <item quantity="other">%1$d artikuj nga</item>
         <item quantity="one">%1$d artikull nga</item>
@@ -131,6 +167,14 @@
     <plurals name="mins_delay_more_than_usual">
         <item quantity="other">%1$d minuta më shumë se zakonisht</item>
         <item quantity="one">1 minutë më shumë se zakonisht</item>
+    </plurals>
+    <plurals name="minutesAgo">
+        <item quantity="other">%1$d minuta më parë</item>
+        <item quantity="one">%1$d minutë më parë</item>
+    </plurals>
+    <plurals name="minutes_left">
+        <item quantity="other">Mbeten %1$d minuta</item>
+        <item quantity="one">Mbetet %1$d minutë</item>
     </plurals>
     <plurals name="monthly_interval">
         <item quantity="other">Çdo %1$d muaj</item>
@@ -224,6 +268,10 @@
         <item quantity="other">%1$d Ndenjëse</item>
         <item quantity="one">Ndenjëse</item>
     </plurals>
+    <plurals name="unsubscribed_favorites">
+        <item quantity="other">%1$dAnulove abonimin nga %1$d podkaste</item>
+        <item quantity="one">%1$dAnulove abonimin nga 1 podkast</item>
+    </plurals>
     <plurals name="user_defined_action_task_music_duration_display">
         <item quantity="other">%1$d minuta</item>
         <item quantity="one">%1$d minutë</item>
@@ -231,6 +279,14 @@
     <plurals name="user_defined_action_task_set_temperature_temperature_display">
         <item quantity="other">%1$d°</item>
         <item quantity="one">%1$d°</item>
+    </plurals>
+    <plurals name="user_defined_action_task_set_temperature_temperature_display_c">
+        <item quantity="other">%1$d°C</item>
+        <item quantity="one">%1$d°C</item>
+    </plurals>
+    <plurals name="user_defined_action_task_set_temperature_temperature_display_f">
+        <item quantity="other">%1$d°F</item>
+        <item quantity="one">%1$d°F</item>
     </plurals>
     <plurals name="user_defined_action_workflow_num_actions">
         <item quantity="other">%1$d veprime</item>

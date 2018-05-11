@@ -23,6 +23,8 @@
     <string name="abc_searchview_description_voice">Tìm kiếm bằng giọng nói</string>
     <string name="abc_shareactionprovider_share_with">Chia sẻ với</string>
     <string name="abc_shareactionprovider_share_with_application">Chia sẻ với %s</string>
+    <string name="abc_slice_error">Không thể kết nối</string>
+    <string name="abc_slice_more">Thêm</string>
     <string name="abc_slice_more_content">+ %1$d</string>
     <string name="abc_slice_permission_allow">Cho phép</string>
     <string name="abc_slice_permission_checkbox">Cho phép %1$s hiển thị các lát từ mọi ứng dụng</string>
@@ -30,6 +32,8 @@
     <string name="abc_slice_permission_text_1">- Có thể đọc thông tin từ %1$s</string>
     <string name="abc_slice_permission_text_2">- Có thể thực hiện hành động bên trong %1$s</string>
     <string name="abc_slice_permission_title">Cho phép %1$s hiển thị các lát của %2$s?</string>
+    <string name="abc_slice_show_more">Hiển thị thêm</string>
+    <string name="abc_slice_updated">Đã cập nhật lúc %1$s</string>
     <string name="abc_slices_permission_request">%1$s muốn hiển thị các lát của %2$s</string>
     <string name="abc_toolbar_collapse_description">Thu gọn</string>
     <string name="about">Giới thiệu</string>
@@ -60,7 +64,6 @@
     <string name="accessibility_see_results_on_google">Xem kết quả trên Google</string>
     <string name="accessibility_select">Chọn văn bản từ màn hình</string>
     <string name="accessibility_share">Chia sẻ màn hình</string>
-    <string name="accessibility_visual_search_button">Tìm bằng hình ảnh</string>
     <string name="accessibility_voice_search_button">Tìm kiếm bằng giọng nói</string>
     <string name="account_item">Chuyển sang %1$s</string>
     <string name="account_list">Danh sách tài khoản</string>
@@ -87,6 +90,7 @@
     <string name="action_call_who_timeout_last_eyes_free_tts">Vẫn không nghe thấy. %2$s.</string>
     <string name="action_call_who_title">Bạn muốn gọi cho ai?</string>
     <string name="action_call_who_tts">Bạn muốn gọi cho ai?</string>
+    <string name="action_chat">Trò chuyện</string>
     <string name="action_contact_info_canceling_tts">Đang hủy tra cứu liên hệ</string>
     <string name="action_contact_info_nomatch_1_eyes_free_tts">Không hiểu được. Bạn muốn tra cứu ai?</string>
     <string name="action_contact_info_nomatch_1_tts">Hãy nói tên của liên hệ bạn muốn tra cứu hoặc nói \"%1$s\".</string>
@@ -107,10 +111,12 @@
     <string name="action_decrease_height">Giảm chiều cao</string>
     <string name="action_decrease_width">Giảm chiều rộng</string>
     <string name="action_deep_shortcut">Lối tắt</string>
+    <string name="action_email">Gửi email</string>
     <string name="action_fallback_long_query_eyes_free_tts">Không chắc về cách trợ giúp cho vấn đền này.</string>
     <string name="action_fallback_short_query_eyes_free_tts">Không chắc về cách trợ giúp cho yêu cầu: %1$s.</string>
     <string name="action_generic_canceled_tts">Đã hủy yêu cầu</string>
     <string name="action_generic_timeout_last_eyes_free_tts">%1$s %2$s</string>
+    <string name="action_goto_app">Chuyển đến ứng dụng</string>
     <string name="action_increase_height">Tăng chiều cao</string>
     <string name="action_increase_width">Tăng chiều rộng</string>
     <string name="action_move">Di chuyển mục</string>
@@ -118,6 +124,8 @@
     <string name="action_move_screen_left">Di chuyển màn hình sang trái</string>
     <string name="action_move_screen_right">Di chuyển màn hình sang phải</string>
     <string name="action_move_to_workspace">Di chuyển đến màn hình chính</string>
+    <string name="action_navigate">Điều hướng</string>
+    <string name="action_required">Hành động bắt buộc</string>
     <string name="action_resize">Đổi kích thước</string>
     <string name="action_send">Gửi phản hồi</string>
     <string name="action_sms_canceling_tts">Đang hủy tin nhắn</string>
@@ -154,6 +162,7 @@
     <string name="action_sms_person_disambig_nomatch_last_eyes_free_tts">Không thể tìm thấy tên. Vui lòng thử lại sau.</string>
     <string name="action_sms_person_disambig_nomatch_last_tts">Người bạn đang cố gắng nhắn tin có thể không có trong danh bạ. Nhấn để chọn một liên hệ.</string>
     <string name="action_sms_person_disambig_timeout_last_eyes_free_tts">Vẫn không nghe thấy. %5$s.</string>
+    <string name="action_sms_text">Nhắn tin</string>
     <string name="action_sms_who_timeout_1_eyes_free_tts">Không hiểu được. Bạn muốn gửi tin nhắn đến ai?</string>
     <string name="action_sms_who_timeout_2_eyes_free_tts">Không nghe thấy. Hãy nói tên của liên hệ bạn muốn gửi tin nhắn hoặc nói \"%1$s\".</string>
     <string name="action_sms_who_timeout_last_eyes_free_tts">Vẫn không nghe thấy. %2$s.</string>
@@ -162,6 +171,8 @@
     <string name="action_sound_search_get_song">Tải trên Google Play</string>
     <string name="action_sound_search_result_content_description">%1$s,%2$s,%3$s</string>
     <string name="action_unlock_device_tts">Thực sự là tôi không thể thực hiện thao tác đó khi thiết bị bị khóa. Để tiếp tục, hãy mở khóa thiết bị của bạn.</string>
+    <string name="action_video_call">Cuộc gọi điện video</string>
+    <string name="action_voice_call">Gọi</string>
     <string name="action_who_is_relation_1_tts">Nói tên của liên hệ hoặc nói \"%2$s\".</string>
     <string name="action_who_is_relation_eyes_free_1_tts">Không hiểu được. Ý bạn là ai?</string>
     <string name="action_who_is_relation_eyes_free_last_tts">Không thể tìm thấy tên. Vui lòng thử lại sau.</string>
@@ -173,6 +184,7 @@
     <string name="action_who_is_your_relation_title">%s của bạn là ai?</string>
     <string name="activity_not_available">Ứng dụng không có sẵn</string>
     <string name="activity_not_found">Ứng dụng chưa được cài đặt.</string>
+    <string name="activity_title">Trình phát podcast</string>
     <string name="ad_badge">Quảng cáo</string>
     <string name="add_account">Thêm tài khoản</string>
     <string name="add_contact_display_name">Thêm địa chỉ liên hệ</string>
@@ -182,16 +194,25 @@
     <string name="add_relationship_subject_2_tts_eyes_free">Không hiểu được. Nói \"có\" hoặc nói \"hủy\"</string>
     <string name="add_relationship_subject_last_tts">Để tiếp tục, hãy nhấn Ghi nhớ hoặc Hủy</string>
     <string name="add_relationship_subject_last_tts_eyes_free">Vẫn không nghe thấy. Đang hủy.</string>
+    <string name="add_shortcut_accept">Thêm</string>
+    <string name="add_shortcut_message">Thêm lối tắt Podcast vào màn hình chính</string>
+    <string name="add_shortcut_reject">Không, cảm ơn</string>
     <string name="add_snackbar_action">Thêm</string>
     <string name="add_this_location_to_your_list_snackbar_text">Thêm vị trí này vào danh sách của bạn?</string>
     <string name="add_to_folder">Thêm vào thư mục: %1$s</string>
     <string name="add_to_folder_with_app">Thêm vào thư mục có %1$s</string>
+    <string name="add_to_home_screen">Thêm vào màn hình chính</string>
+    <string name="add_to_home_screen_done">Đã thêm vào màn hình chính</string>
+    <string name="add_to_home_screen_explanation">Thêm lối tắt cho “%1$s” từ màn hình chính</string>
+    <string name="add_to_home_screen_success">Thành công</string>
     <string name="add_your_relationship_subject">Nhớ %2$s là %1$s của bạn?</string>
     <string name="added_to_folder">Đã thêm mục vào thư mục</string>
     <string name="additional_stock_query_string">cổ phiếu</string>
     <string name="address_cancel_button">Để sau</string>
     <string name="address_data_loading">Đang tải…</string>
+    <string name="address_error">Không thể xác minh địa chỉ này.</string>
     <string name="address_explanation">Địa chỉ của bạn được sử dụng cho những dịch vụ như giao hàng, giao thông và thời tiết địa phương</string>
+    <string name="address_hint">Nhập địa chỉ của bạn</string>
     <string name="address_title">Nhập địa chỉ của bạn</string>
     <string name="ads_badge">Quảng cáo</string>
     <string name="agenda_calendar_next_template">Mục lịch tiếp theo của bạn là %1$s vào %2$s.</string>
@@ -210,6 +231,7 @@
     <string name="agenda_eyes_free_list_last_two_items">%1$s và %2$s</string>
     <string name="agenda_eyes_free_timed_event">Vào lúc %1$s, %2$s.</string>
     <string name="agenda_eyes_free_timed_event_with_day">%1$s vào lúc %2$s: %3$s.</string>
+    <string name="agenda_hub_title">Sắp tới</string>
     <string name="agent_bookmark_added">Đã lưu vào dấu trang</string>
     <string name="agent_bookmark_error">Đã xảy ra lỗi. Vui lòng thử lại sau.</string>
     <string name="agent_bookmark_removed">Đã xóa khỏi dấu trang</string>
@@ -238,10 +260,11 @@
     <string name="agent_directory_music_unable_unlink_default">Không thể hủy liên kết nhà cung cấp nhạc mặc định của bạn</string>
     <string name="agent_directory_no_results">Không có kết quả nào cho %1$s</string>
     <string name="agent_directory_no_thanks">Không, cảm ơn</string>
+    <string name="agent_directory_send_to_device_text">Gửi đến thiết bị</string>
     <string name="agent_directory_settings_manage">Thiết lập</string>
     <string name="agent_directory_settings_text">Cài đặt</string>
     <string name="agent_directory_share">Chia sẻ</string>
-    <string name="agent_directory_shortcuts_create">thêm mới</string>
+    <string name="agent_directory_shortcuts_create">Thêm mới</string>
     <string name="agent_directory_shortcuts_manage">Quản lý lối tắt</string>
     <string name="agent_directory_shortcuts_subtitle">Tùy chỉnh lối tắt cho %1$s</string>
     <string name="agent_directory_shortcuts_title">Lối tắt %1$s của bạn</string>
@@ -284,6 +307,8 @@ Chuyển sang tài khoản này trong Trợ lý để tiếp tục."</string>
     <string name="all_chain_locations">Tất cả vị trí</string>
     <string name="all_day">Cả ngày</string>
     <string name="all_day_at_location">Cả ngày ở %1$s</string>
+    <string name="all_day_event_text">Cả ngày</string>
+    <string name="all_downloaded_episodes">Tất cả các tập đã tải xuống</string>
     <string name="all_language_packs">Tất cả</string>
     <string name="allow_bluetooth_button_with_device_locked_notification_body">Khi điện thoại bị khóa, bạn có thể sử dụng giọng nói để thực hiện cuộc gọi và các thao tác khác với thiết bị Bluetooth</string>
     <string name="allow_bluetooth_button_with_device_locked_notification_title">Sử dụng giọng nói với thiết bị Bluetooth</string>
@@ -307,6 +332,7 @@ Chuyển sang tài khoản này trong Trợ lý để tiếp tục."</string>
     <string name="alpha_beta_channel_selection_positive_button">OK</string>
     <string name="alpha_beta_channel_selection_title">Chọn cách bạn muốn thử nghiệm</string>
     <string name="amp_source_header">Từ %1$s</string>
+    <string name="and">và</string>
     <string name="announce_selection">%1$s được chọn</string>
     <string name="answers_suggestion_message">Đây là thông tin nhanh liên quan đến nội dung bạn đang nhập.</string>
     <string name="app_directory_adapter_no_results">Không có kết quả nào</string>
@@ -315,6 +341,9 @@ Chuyển sang tài khoản này trong Trợ lý để tiếp tục."</string>
     <string name="app_name">Ứng dụng Google</string>
     <string name="app_not_available">Ko ứng dụng nào có thể làm điều đó</string>
     <string name="app_result_suggestion_content_description" formatted="false">Mở %s trong %s.</string>
+    <string name="app_shortcut_desc">Thêm Trợ lý vào màn hình chính</string>
+    <string name="app_shortcut_title">Truy cập dễ dàng vào Trợ lý của bạn</string>
+    <string name="app_suggestions_header">ỨNG DỤNG</string>
     <string name="app_waiting_download_title">Đang chờ cài đặt %1$s</string>
     <string name="appointment_time_range">%1$s - %2$s</string>
     <string name="apps_mode_landing_text">Tìm kiếm ứng dụng</string>
@@ -556,7 +585,10 @@ Trợ lý sẽ sử dụng cài đặt này cho các câu hỏi về tuyến đ�
     <string name="assistant_settings_kill_switch_dialog_button">Truy cập Cửa hàng Play</string>
     <string name="assistant_settings_kill_switch_dialog_message">Truy cập Cửa hàng Play và cập nhật ứng dụng Google để nhận những cải tiến mới nhất</string>
     <string name="assistant_settings_kill_switch_dialog_title">Trợ lý của bạn cần một số kỹ năng mới</string>
+    <string name="assistant_settings_language_availability_display_only_text">Trợ lý trên Màn hình thông minh hiện chỉ hỗ trợ %1$s.</string>
+    <string name="assistant_settings_language_availability_display_text">Điện thoại sẽ sử dụng những ngôn ngữ này và ngôn ngữ bạn đặt trong mục %2$s cho thiết bị. Màn hình thông minh chỉ sử dụng %1$s.</string>
     <string name="assistant_settings_language_availability_link">Cài đặt ngôn ngữ của Android</string>
+    <string name="assistant_settings_language_availability_single_language_display_text">Điện thoại sẽ sử dụng ngôn ngữ này và ngôn ngữ bạn đặt trong mục %2$s cho thiết bị. Màn hình thông minh chỉ sử dụng %1$s.</string>
     <string name="assistant_settings_language_availability_single_language_text">Trợ lý trên điện thoại của bạn sẽ sử dụng ngôn ngữ này và %1$s, bạn có thể đặt ngôn ngữ thiết bị trong %2$s.</string>
     <string name="assistant_settings_language_availability_text">Trợ lý trên điện thoại của bạn sẽ sử dụng các ngôn ngữ này và %1$s, bạn có thể đặt ngôn ngữ thiết bị trong %2$s.</string>
     <string name="assistant_settings_languages_dialog_title">Ngôn ngữ</string>
@@ -589,6 +621,7 @@ Trợ lý sẽ sử dụng cài đặt này cho các câu hỏi về tuyến đ�
     <string name="assistant_settings_music_youtube_premium_dialog_text">YouTube Âm nhạc yêu cầu tư cách thành viên YouTube Red để phát trên Google Home. Bạn có thể đăng ký tại <a href="http://youtube.com/red">youtube.com/red</a>.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">Cần có Tư cách thành viên YouTube Red</string>
     <string name="assistant_settings_news_provider_delete_button_description">Xóa %1$s khỏi nguồn tin tức đã bật của bạn</string>
+    <string name="assistant_settings_news_supports_video">Video hiển thị trên Màn hình thông minh</string>
     <string name="assistant_settings_news_title">Tin tức</string>
     <string name="assistant_settings_nick_name_not_pronounceable_message">Biệt hiệu của bạn có chứa ký tự mà Trợ lý không thể phát âm. Hãy đánh vần cách phát âm ký tự đó trong phần tiếp theo.</string>
     <string name="assistant_settings_no_device_linked">Tính năng Voice Match cho phép Trợ lý cung cấp cho bạn thông tin cá nhân khi nhận ra giọng nói của bạn. Tối đa 6 người có thể nhận được thông tin về lịch, nhạc và nhiều nội dung khác.</string>
@@ -658,6 +691,7 @@ Trợ lý sẽ sử dụng cài đặt này khi chỉ đường cho bạn tới 
     <string name="assistant_settings_payments_phone_authentication_frequency_never_description">Trừ khi phát hiện thấy hoạt động bất thường</string>
     <string name="assistant_settings_payments_phone_authentication_frequency_not_required">Không yêu cầu xác nhận</string>
     <string name="assistant_settings_payments_phone_authentication_mechanism_title">Sử dụng vân tay để xác nhận</string>
+    <string name="assistant_settings_payments_phone_authentication_page_header">Điều chỉnh các tùy chọn cài đặt bảo mật cho các giao dịch thanh toán thực hiện qua Trợ lý.</string>
     <string name="assistant_settings_payments_phone_authentication_section_title">Phê duyệt mua hàng</string>
     <string name="assistant_settings_payments_phone_authentication_title">Phê duyệt mua hàng</string>
     <string name="assistant_settings_payments_save_button_text">Lưu</string>
@@ -754,6 +788,8 @@ Trợ lý sẽ sử dụng cài đặt này khi chỉ đường cho bạn tới 
     <string name="assistant_settings_shopping_list_title">Danh sách mua sắm</string>
     <string name="assistant_settings_spell_out_name_not_pronounceable_message">Sử dụng bảng chữ cái tiếng Anh</string>
     <string name="assistant_settings_stocks">Cổ phiếu</string>
+    <string name="assistant_settings_summer_time_mode_availability_clarification" />
+    <string name="assistant_settings_summer_time_mode_availability_description">Chế độ giờ mùa hè sẽ hoạt động sau</string>
     <string name="assistant_settings_summer_time_mode_button_summary">Bật chế độ thời gian mùa hè.</string>
     <string name="assistant_settings_summer_time_mode_button_title">Chế độ thời gian mùa hè</string>
     <string name="assistant_settings_summer_time_mode_title">Chế độ thời gian mùa hè</string>
@@ -820,6 +856,12 @@ Trợ lý sẽ sử dụng cài đặt này khi chỉ đường cho bạn tới 
     <string name="audio_error">Không thể mở micrô.</string>
     <string name="audio_file_access">Quyền truy cập vào âm thanh đã ghi</string>
     <string name="audio_file_access_desc">Có thể truy cập vào các giọng nói âm thanh đã ghi cho các ghi chú của bản thân cũng như cho phân tích âm thanh thô.</string>
+    <string name="audio_player_notification_channel">Trình phát âm thanh</string>
+    <string name="audio_rationale_message">Âm thanh của bạn sẽ được gửi tới Google để cung cấp dịch vụ nhận dạng giọng nói. Một bản ghi âm sẽ được chia sẻ với ứng dụng này.</string>
+    <string name="audio_rationale_message_vaa_enabled">"Âm thanh của bạn sẽ được gửi tới Google để cung cấp dịch vụ nhận dạng giọng nói. Một bản ghi âm sẽ được chia sẻ với ứng dụng này.
+
+%1$s"</string>
+    <string name="author_format">Bởi %1$s</string>
     <string name="auto_add_shortcuts_description">Cho ứng dụng mới</string>
     <string name="auto_add_shortcuts_label">Thêm biểu tượng vào màn hình chính</string>
     <string name="auto_update_any_time">"Tự động cập nhật ngôn ngữ bất cứ lúc nào.
@@ -827,7 +869,9 @@ Có thể mất phí dữ liệu."</string>
     <string name="auto_update_language_packs">T.động cập nhật</string>
     <string name="auto_update_never">Không tự động cập nhật ngôn ngữ</string>
     <string name="auto_update_wifi_only">Chỉ tự động cập nhật ngôn ngữ qua Wi-Fi</string>
+    <string name="available_pick_up">Có sẵn để lấy hàng</string>
     <string name="back">Quay lại</string>
+    <string name="back_of_card_close">Đóng</string>
     <string name="background_notification_onboarding">Bạn đang ngoại tuyến? Không sao. Ứng dụng Google sẽ ghi nhớ tìm kiếm của bạn và gửi cho bạn thông báo khi kết quả đã sẵn sàng.</string>
     <string name="background_notification_onboarding_accept">Ok</string>
     <string name="background_notification_onboarding_decline">Tắt</string>
@@ -847,7 +891,6 @@ Có thể mất phí dữ liệu."</string>
     <string name="barcode_image_description">Ảnh mã vạch</string>
     <string name="batterysaver_off">Đã tắt Trình tiết kiệm pin</string>
     <string name="batterysaver_on">Đã bật Trình tiết kiệm pin</string>
-    <string name="beta_tag">BETA</string>
     <string name="birthday_message">Bạn tròn %1$s giây tuổi hôm nay.</string>
     <string name="birthday_today">Sinh nhật hôm nay</string>
     <string name="bisto_onboarding_chip_text">Hoàn tất thiết lập tai nghe</string>
@@ -882,8 +925,9 @@ Có thể mất phí dữ liệu."</string>
     <string name="button_no">Không</string>
     <string name="button_yes">Có</string>
     <string name="by_author">bởi %1$s</string>
+    <string name="cached_desc">Có thể xem trang này khi ngoại tuyến.</string>
     <string name="calendar_event_during">%1$s bây giờ</string>
-    <string name="calendar_event_pre">%1$s trong %2$s tới</string>
+    <string name="calendar_event_pre">%1$s sau %2$s</string>
     <string name="calendar_event_pre_static">%1$s lúc %2$s</string>
     <string name="calendar_event_time_range">%1$s – %2$s</string>
     <string name="calendar_no_title">(Không có tiêu đề)</string>
@@ -893,6 +937,8 @@ Có thể mất phí dữ liệu."</string>
     <string name="cancel">Hủy</string>
     <string name="cancel_button_text">Hủy</string>
     <string name="cancel_download">Hủy tải xuống</string>
+    <string name="cancel_favorites_selection">Hủy</string>
+    <string name="cancelled">Đã hủy</string>
     <string name="cant_load_suggestions">Không thể tải đề xuất</string>
     <string name="capabilities_discovery_hint">Tìm những việc mà Trợ lý của bạn có thể thực hiện</string>
     <string name="capabilities_search_content_description">Tìm những việc mà Trợ lý của bạn có thể thực hiện</string>
@@ -918,6 +964,9 @@ Có thể mất phí dữ liệu."</string>
     <string name="cast_notification_connecting_message">Đang kết nối với %1$s</string>
     <string name="cast_notification_default_channel_name">Cast</string>
     <string name="cast_notification_disconnect">Ngắt kết nối</string>
+    <string name="cct_account_mismatch_card_button_text">Mở %1$s</string>
+    <string name="cct_account_mismatch_card_header">Xem trang web của bạn</string>
+    <string name="cct_account_mismatch_card_text">Để xem các trang bạn tìm thấy ở đây, hãy cập nhật &lt;b>cài đặt %1$s&lt;/b> và bật tính năng đồng bộ hóa cho &lt;b>%2$s&lt;/b></string>
     <string name="chance_of_precipitation_label">Khả năng có mưa: %s</string>
     <string name="change_wallpaper">THAY ĐỔI HÌNH NỀN</string>
     <string name="checkin_date_today">Ngày nhận phòng là ngày hôm nay</string>
@@ -933,21 +982,28 @@ Có thể mất phí dữ liệu."</string>
     <string name="clock_maybe_wrong_error_card_open_settings_button_text">Cập nhật trong Cài đặt</string>
     <string name="clock_maybe_wrong_error_card_title_text">Đồng hồ có thể không đồng bộ hóa</string>
     <string name="close_button">Đóng</string>
+    <string name="close_button_desc">Thoát</string>
     <string name="closet_offline_warning_title">Không thể truy cập cài đặt vào lúc này</string>
     <string name="cloud_search_history_fetch_failed_toast">Không thể truy xuất cài đặt. Vui lòng thử lại sau.</string>
     <string name="cloud_search_history_summary_fetching">Đang truy xuất cài đặt…</string>
+    <string name="collapse">Thu gọn</string>
     <string name="collapse_time_to_leave">Ẩn các tùy chọn cho chuyến đi này.</string>
+    <string name="collections">Bộ sưu tập</string>
     <string name="comment_hint">Nhận xét bổ sung (Không bắt buộc).</string>
     <string name="common_address_clear_button_label">Xóa</string>
     <string name="common_address_clear_confirm_button">Xóa</string>
     <string name="common_address_edit_title">Chỉnh sửa địa chỉ</string>
     <string name="common_delete">Xóa</string>
     <string name="common_device_assistant_language_title">Ngôn ngữ của trợ lý</string>
-    <string name="common_device_id_personal_info_permission_non_screen_devices_summary">Cho phép kết quả cá nhân trên thiết bị này, chẳng hạn như email, lịch, danh bạ và lời nhắc. Tính năng này cũng cho phép thanh toán trên thiết bị này. <a href="https://support.google.com/assistant/?p=personal_results">Tìm hiểu thêm</a></string>
+    <string name="common_device_id_personal_info_permission_non_screen_devices_summary">Cho phép hiển thị các kết quả cá nhân như email, lịch, danh bạ và lời nhắc lên thiết bị này. Việc này cũng cho phép thanh toán trên thiết bị này. %1$s</string>
+    <string name="common_device_id_personal_info_permission_screenful_devices_summary">Cho phép hiển thị các kết quả cá nhân như ảnh, email, lịch, danh bạ và lời nhắc lên thiết bị này. Việc này cũng cho phép thanh toán trên thiết bị này. %1$s</string>
     <string name="common_device_notification_permission_summary">Nhận thông báo như lời nhắc trên thiết bị này. Ngay cả khi tắt thông báo, bạn sẽ vẫn nghe thấy báo thức và các cập nhật quan trọng.</string>
     <string name="common_device_notification_permission_title">Thông báo</string>
     <string name="common_device_personal_info_permission_title">Kết quả cá nhân</string>
+    <string name="common_device_personal_suggestion_permission_summary">Cho phép hiển thị các kết quả cá nhân, và video đề xuất trên YouTube dành riêng cho cá nhân, trên Màn hình chính hoặc dưới dạng thông báo mà bạn không cần phải yêu cầu. Lưu ý: Những người ở gần cũng có thể nhấn và thao tác trên các kết quả này. %1$s</string>
     <string name="common_device_personal_suggestion_permission_title">Màn hình chính và thông báo</string>
+    <string name="common_device_youtube_restricted_mode_summary">Ẩn các bài hát và video có thể chứa nội dung không phù hợp</string>
+    <string name="common_device_youtube_restricted_mode_title">Chế độ hạn chế trên YouTube</string>
     <string name="common_google_logo">Biểu trưng của Google</string>
     <string name="common_google_play_services_enable_button">Bật</string>
     <string name="common_google_play_services_enable_text">%1$s sẽ không hoạt động nếu bạn không bật dịch vụ của Google Play.</string>
@@ -989,10 +1045,16 @@ Có thể mất phí dữ liệu."</string>
     <string name="confirm_place_query_string">Bạn quan tâm đến thời gian di chuyển tới địa điểm này?</string>
     <string name="confirm_place_set_text">Thiết lập</string>
     <string name="confirm_place_updated">Đã lưu thay đổi. Thẻ giao thông của bạn sẽ được cập nhật vào ngày mai.</string>
+    <string name="confirm_remove_all_dialog_message">Thao tác này sẽ xóa tất cả các tập đã tải xuống. Không thể hoàn tác thao tác này.</string>
+    <string name="confirm_remove_all_dialog_title">Bạn có chắc không?</string>
+    <string name="confirm_unsubscribe_button_label">Hủy đăng ký</string>
+    <string name="confirm_unsubscribe_title">Hủy đăng ký chương trình này?</string>
     <string name="confirm_work_query_string">Dùng địa điểm này để đi làm hàng ngày chứ?</string>
     <string name="confirm_work_yes_text">Đặt làm cơ quan</string>
     <string name="confirmation_number">Số xác nhận</string>
+    <string name="confirmed">Đã xác nhận</string>
     <string name="connection_error_loading_content">Không thể tải trang do không có kết nối mạng.</string>
+    <string name="connection_error_message">Hãy kiểm tra kết nối của bạn và thử lại</string>
     <string name="connection_retrying">Đang thử lại...</string>
     <string name="consent_action_button">Cho phép</string>
     <string name="consent_explanation">"%s
@@ -1029,12 +1091,27 @@ Bạn có thể xem và quản lý những cuộc trò chuyện này trong phầ
     <string name="contact_no_postal_address">Không có địa chỉ cho %1$s</string>
     <string name="contact_no_postal_address_pick_another_contact">Không có địa chỉ cho %1$s. Hãy chọn liên hệ khác</string>
     <string name="contact_photo">Ảnh của liên hệ</string>
+    <string name="contact_removal_body">Thao tác này sẽ xóa &lt;b>%1$s&lt;/b> khỏi danh sách Liên hệ thường xuyên nhất. Bạn vẫn có thể tìm thấy &lt;b>%2$s&lt;/b> bằng cách tìm kiếm.</string>
+    <string name="contact_removal_cancel">HỦY</string>
+    <string name="contact_removal_confirm">ẨN</string>
+    <string name="contact_removal_title">Bạn muốn ẩn %s?</string>
     <string name="contact_select_dialog_find_another_contact">Chọn liên hệ khác</string>
     <string name="contact_select_dialog_find_contact">Chọn liên hệ</string>
     <string name="contact_selected_find_another_contact">%1$s. Hãy chọn liên hệ khác</string>
     <string name="contact_selected_find_another_contact_with_relationship">%1$s, %2$s. Chọn một liên hệ khác</string>
     <string name="contact_suggestion_message">Đây là liên hệ cá nhân khớp với nội dung bạn đang nhập.</string>
+    <string name="contact_suggestions_header">LIÊN HỆ</string>
+    <string name="contact_unhide_body">&lt;b>%1$s&lt;/b> đã bị ẩn. Hãy dùng tính năng Hiện để cho phép &lt;b>%2$s&lt;/b> xuất hiện trong danh sách Liên hệ thường xuyên nhất của bạn.</string>
+    <string name="contact_unhide_cancel">HỦY</string>
+    <string name="contact_unhide_confirm">HIỂN THỊ</string>
+    <string name="contact_unhide_title">Bạn muốn hiển thị %s?</string>
+    <string name="content_chip_desc">Xem tất cả %s.</string>
     <string name="content_stale_ago">Nội dung đã được cập nhật lần cuối %1$s trước</string>
+    <string name="content_with_parentheses">(%s)</string>
+    <string name="continue_listening_footer_title">Tất cả các tập chưa nghe hết</string>
+    <string name="continue_listening_section_title">Tiếp tục nghe</string>
+    <string name="continue_to_enable_storage_permission">Tiếp tục</string>
+    <string name="conversation_group_header">Cuộc trò chuyện</string>
     <string name="copied_to_clipboard">Đã sao chép sang khay nhớ tạm</string>
     <string name="corpus_name_images_animated">GIF</string>
     <string name="corpus_name_images_black_and_white">Đen trắng</string>
@@ -1102,11 +1179,15 @@ Bạn có thể xem và quản lý những cuộc trò chuyện này trong phầ
     <string name="date_at_time">%1$s vào lúc %2$s</string>
     <string name="date_in_the_past">%1$s &lt;font color=#9E9E9E> là ngày trong quá khứ&lt;/font></string>
     <string name="day_picker_description">Lưới ngày theo tháng</string>
+    <string name="deeplink_no_description">Không có mô tả nào</string>
+    <string name="deeplink_not_installed">Ứng dụng không được cài đặt</string>
     <string name="default_error">Đã xảy ra lỗi. Vui lòng thử lại sau.</string>
     <string name="default_image_filename">Hình ảnh đã tải xuống</string>
     <string name="default_location_name">San Francisco</string>
     <string name="default_scroll_format">Trang %1$d / %2$d</string>
+    <string name="delayed">Đã hoãn</string>
     <string name="delete">Xóa</string>
+    <string name="delete_favorites">Xóa podcast đã chọn</string>
     <string name="delete_order_action_title">Xóa biên nhận</string>
     <string name="delete_order_dialog_message">Thao tác này sẽ xóa biên nhận nhưng không thay đổi hoặc hủy đơn đặt hàng của bạn.</string>
     <string name="delete_order_dialog_negative_button">Hủy</string>
@@ -1116,6 +1197,7 @@ Bạn có thể xem và quản lý những cuộc trò chuyện này trong phầ
     <string name="delete_target_label">Xóa</string>
     <string name="delete_target_uninstall_label">Gỡ cài đặt</string>
     <string name="deleted_key">Đã xóa %1$s</string>
+    <string name="delivered">Đã giao hàng</string>
     <string name="depart">Khởi hành</string>
     <string name="departure_station">Từ %1$s</string>
     <string name="departure_time_and_express_class">%1$s (%2$s)</string>
@@ -1126,6 +1208,7 @@ Bạn có thể xem và quản lý những cuộc trò chuyện này trong phầ
     <string name="device_id_device_address_clear_dialog_message">"Thiết bị này cần một vị trí chính xác để cung cấp cho bạn câu trả lời chính xác về doanh nghiệp, tình hình giao thông, thời tiết địa phương và các thông tin khác. Nếu không có địa chỉ chính xác, thiết bị này sẽ không hoạt động như mong đợi.
 Chúng tôi sẽ phải suy ra vị trí gần đúng của bạn bằng thông tin khác như địa chỉ IP của thiết bị để bật các tính năng cơ bản."</string>
     <string name="device_not_linkable">Đã hoàn tất</string>
+    <string name="device_photo_group_header">Ảnh trên thiết bị</string>
     <string name="device_response_suppressed">Đang trả lời trên một thiết bị khác</string>
     <string name="device_setup_cancel_dialog_message">Nhấn quay lại vào thời điểm này sẽ thoát khỏi thiết lập. Bạn có chắc chắn muốn thoát không?</string>
     <string name="device_setup_cancel_dialog_negative_button">Tiếp tục thiết lập</string>
@@ -1144,6 +1227,9 @@ Chúng tôi sẽ phải suy ra vị trí gần đúng của bạn bằng thông 
     <string name="distance_kilometers_accessible">Distance: %1$.1f ki lô mét</string>
     <string name="distance_miles">%1$.1f dặm</string>
     <string name="distance_miles_accessible">Distance: %1$.1f dặm</string>
+    <string name="docs_group_header">Tài liệu</string>
+    <string name="donate">Đóng góp</string>
+    <string name="donate_button_label">Đóng góp</string>
     <string name="donate_screenshot_summary">Cho phép Google lưu trữ ảnh chụp màn hình của bạn và đánh giá các ảnh này để cải thiện tìm kiếm màn hình. Người đánh giá phải tuân thủ quy tắc bảo mật nghiêm ngặt. Ảnh chụp màn hình có thể chứa thông tin cá nhân như email và cuộc trò chuyện, nhưng những thông tin này sẽ được bảo mật.</string>
     <string name="donate_screenshot_title">Cải thiện tìm kiếm màn hình</string>
     <string name="done">XONG</string>
@@ -1154,8 +1240,17 @@ Chúng tôi sẽ phải suy ra vị trí gần đúng của bạn bằng thông 
     <string name="doodle_notifications_setting_summary">Trò chơi, video và trải nghiệm tương tác mới về hình tượng trưng</string>
     <string name="doodle_notifications_setting_title">Hình tượng trưng</string>
     <string name="download">Tải xuống (%1$s)</string>
+    <string name="download_again">Tải xuống lại</string>
     <string name="download_details">Phiên bản %1$s có sẵn, dung lượng tải xuống %2$s</string>
+    <string name="download_episode">Tải xuống tập</string>
+    <string name="download_failed">Không tải xuống được</string>
+    <string name="download_not_found">Không tìm thấy tệp đã tải xuống</string>
     <string name="download_prompt">Tải xuống</string>
+    <string name="download_setting_message">Các tập đã tải xuống sẽ bị xóa sau 30 ngày hoặc 24 giờ sau khi nghe hết</string>
+    <string name="downloaded">Đã tải xuống tập podcast này</string>
+    <string name="downloaded_episodes">Các tập đã tải xuống</string>
+    <string name="downloading">Đang tải xuống...</string>
+    <string name="downloads">Tải nguyên đã tải xuống</string>
     <string name="draw_with_stylus">Vẽ bằng bút cảm ứng của bạn để chọn</string>
     <string name="dsp_error_notification_content">Khởi động lại điện thoại của bạn để khắc phục phát hiện giọng nói.</string>
     <string name="dsp_error_notification_title">\"%1$s\" không khả dụng</string>
@@ -1170,6 +1265,8 @@ Chúng tôi sẽ phải suy ra vị trí gần đúng của bạn bằng thông 
     <string name="e100_reply_command">Trả lời</string>
     <string name="e100_sms_content">Đây là:</string>
     <string name="e100_voice_command_generic_template">Bạn có thể nhấn nút khẩu lệnh và nói: %1$s.</string>
+    <string name="edit">Chỉnh sửa</string>
+    <string name="edit_favorites_title">Chỉnh sửa podcast</string>
     <string name="edit_in_calendar">Chỉnh sửa trong Lịch</string>
     <string name="edit_location">Chỉnh sửa vị trí</string>
     <string name="edit_place_hint">Nhập địa chỉ</string>
@@ -1204,7 +1301,12 @@ Chúng tôi sẽ phải suy ra vị trí gần đúng của bạn bằng thông 
     <string name="enable_video_preview_autoplay_on_mobile_data">Cho phép trên mạng di động</string>
     <string name="enable_web_history_toast">Đã bật Lịch sử web</string>
     <string name="endByDate">; cho đến %s</string>
+    <string name="end_of_recents">Kết thúc tìm kiếm gần đây</string>
     <string name="entity_suggestion_message">Tìm kiếm này có liên quan đến nội dung bạn đang nhập.</string>
+    <string name="entry_desc">Mục %1$d / %2$d.</string>
+    <string name="episode_completed">Đã kết thúc</string>
+    <string name="episode_subtitle_format">%1$s ⸱ %2$s</string>
+    <string name="error">Lỗi</string>
     <string name="error_adding_location_snackbar_text">Lỗi khi thêm vị trí</string>
     <string name="error_authenticating_user">Lỗi đăng nhập</string>
     <string name="error_captive_portal">Hãy kiểm tra kết nối của bạn rồi thử lại.</string>
@@ -1218,6 +1320,7 @@ Chúng tôi sẽ phải suy ra vị trí gần đúng của bạn bằng thông 
     <string name="error_internal">Đã xảy ra lỗi</string>
     <string name="error_learn_more">%1$s &lt;a href=%2$s>Tìm hiểu thêm&lt;/a></string>
     <string name="error_loading_content">Không thể tải trang.</string>
+    <string name="error_message">Tìm kiếm không thành công. Vui lòng thử lại sau.</string>
     <string name="error_network_time">Đồng hồ có thể không đồng bộ hóa. Điều này ngăn kết nối bảo mật đến Google. Hãy cập nhật ngày tháng và thời gian để nguồn cấp dữ liệu của bạn sẽ xuất hiện.</string>
     <string name="error_no_connection_text">"Không có mạng
 Hãy kiểm tra kết nối của bạn và thử lại"</string>
@@ -1236,6 +1339,7 @@ Hãy kiểm tra kết nối của bạn và thử lại"</string>
     <string name="estimated_delivery_date">Ngày đến ước tính: %1$s</string>
     <string name="estimated_delivery_title">Ngày đến ước tính</string>
     <string name="event_end_time">Kết thúc lúc %1$s</string>
+    <string name="event_group_header">Sự kiện</string>
     <string name="event_start_time">Bắt đầu lúc %1$s</string>
     <string name="every_day">Hàng ngày</string>
     <string name="every_week">Mọi %1$s</string>
@@ -1245,6 +1349,8 @@ Hãy kiểm tra kết nối của bạn và thử lại"</string>
     <string name="expand_button_title">Nâng cao</string>
     <string name="expand_time_to_leave">Hiển thị các tùy chọn cho chuyến đi này.</string>
     <string name="expanding_time_to_leave_announcement">Hiển thị chi tiết thời gian xuất phát.</string>
+    <string name="expect_delivery_day">%s</string>
+    <string name="explicit_content_label">Podcast chứa nội dung không phù hợp</string>
     <string name="explore_back_button_content_description">Quay lại</string>
     <string name="explore_bottombar_expand_button_desc">Mở rộng</string>
     <string name="explore_bottombar_header_title">Mọi người cũng xem</string>
@@ -1255,6 +1361,16 @@ Hãy kiểm tra kết nối của bạn và thử lại"</string>
     <string name="explore_review_submit">Gửi</string>
     <string name="explore_review_title">Bài đánh giá của bạn</string>
     <string name="explore_review_view_pager_indicator_dot_description">Trang %1$d / %2$d</string>
+    <string name="eyes_camera_switch_button_description">Bật/tắt hướng máy ảnh</string>
+    <string name="eyes_donate_data_info_button_description">Hiển thị thông tin đóng góp dữ liệu</string>
+    <string name="eyes_donate_data_notification_learn_more">Tìm hiểu thêm</string>
+    <string name="eyes_donate_data_notification_text">Bạn đang đóng góp hình ảnh để cải tiến các sản phẩm của Google.</string>
+    <string name="eyes_donate_data_optin_dogfood_label">Dogfood</string>
+    <string name="eyes_donate_data_optin_message">Cho phép mọi người đánh giá ảnh chụp bằng Ống kính trong Trợ lý nhằm cải tiến các sản phẩm của Google.</string>
+    <string name="eyes_donate_data_optin_no_thanks">Không, cảm ơn</string>
+    <string name="eyes_donate_data_optin_ok">Ok</string>
+    <string name="eyes_donate_data_optin_title">Đóng góp ảnh chụp bằng Ống kính</string>
+    <string name="eyes_flash_button_description">Bật/tắt đèn flash</string>
     <string name="eyes_import_to_keep_suggestion">Nhập vào Keep</string>
     <string name="eyes_improve_lens_suggestion">Giúp cải thiện Google Ống kính</string>
     <string name="eyes_initial_prompt">Chạm vào nội dung mà bạn quan tâm</string>
@@ -1271,6 +1387,9 @@ Hãy kiểm tra kết nối của bạn và thử lại"</string>
     <string name="eyes_onboarding_camera_permission_denied_settings_button">Cài đặt</string>
     <string name="eyes_onboarding_camera_permission_denied_title">Lỗi Ống kính</string>
     <string name="eyes_onboarding_message">Google Ống kính sẽ liên tục phân tích những nội dung mà bạn nhìn thấy để hiển thị thông tin nhanh hơn</string>
+    <string name="eyes_onboarding_title_places">Tìm địa điểm bằng Ống kính</string>
+    <string name="eyes_onboarding_title_products">Tìm sản phẩm bằng Ống kính</string>
+    <string name="eyes_onboarding_title_text">Quét văn bản bằng Ống kính</string>
     <string name="eyes_remember_this_suggestion">Nhớ thông tin này</string>
     <string name="eyes_request_timed_out_message">Rất tiếc, đã xảy ra lỗi</string>
     <string name="eyes_share_suggestion">Chia sẻ</string>
@@ -1289,12 +1408,16 @@ Hãy kiểm tra kết nối của bạn và thử lại"</string>
     <string name="failed">Không thể tải ảnh</string>
     <string name="failed_to_open_webview">Không thể mở trang</string>
     <string name="failure_to_load_cards">Không thể tải thẻ</string>
+    <string name="fast_forward">Tua đi</string>
+    <string name="favorite_images_tag_title">Hình ảnh yêu thích</string>
+    <string name="favorite_pages_tag_title">Trang yêu thích</string>
     <string name="feed_datasaver_details">Khi trình tiết kiệm dữ liệu đang bật, nguồn cấp dữ liệu của bạn sẽ không nhận được nội dung mới nhất.</string>
     <string name="feedback">Gửi phản hồi</string>
     <string name="feedback_composed_legalese_text">Truy cập vào %1$s để yêu cầu thay đổi nội dung vì lý do pháp lý.&lt;br />Thông tin hệ thống của bạn sẽ được gửi tới Google. Xem %2$s và %3$s.</string>
     <string name="feedback_edittext_hint">Phản hồi</string>
     <string name="feedback_legal_help_text">Trang Trợ giúp pháp lý</string>
     <string name="feedback_legal_help_url">https://support.google.com/legal/answer/3110420</string>
+    <string name="feedback_link">Phản hồi</string>
     <string name="feedback_no_text_entered">Vui lòng nhập phản hồi trước khi báo cáo.</string>
     <string name="feedback_privacy_text">chính sách bảo mật</string>
     <string name="feedback_privacy_url">http://www.google.com/intl/%1$s/policies/privacy/</string>
@@ -1370,6 +1493,7 @@ Hãy kiểm tra kết nối của bạn và thử lại"</string>
     <string name="flight_estimated_arrival_label">Thời gian đến ước tính</string>
     <string name="flight_estimated_departure_label">Thời gian khởi hành ước tính</string>
     <string name="flight_gate">Cổng</string>
+    <string name="flight_group_header">Chuyến bay</string>
     <string name="flight_modify">Sửa đổi đặt chỗ</string>
     <string name="flight_number">Chuyến bay %1$s/%2$s</string>
     <string name="flight_reservation">Đặt trước chuyến bay</string>
@@ -1404,22 +1528,26 @@ Hãy kiểm tra kết nối của bạn và thử lại"</string>
     <string name="folder_renamed">Đã đổi tên thư mục thành %1$s</string>
     <string name="folder_tap_to_close">Chạm để đóng thư mục</string>
     <string name="folder_tap_to_rename">Chạm để lưu tên mới</string>
+    <string name="forbid_download_removal">Không thể xóa tập khi đang phát tập này</string>
     <string name="fourth_quarter">15 phút thứ 4</string>
     <string name="fourth_quarter_abbrev">Hiệp 4</string>
+    <string name="full_screen_error">"Không thể tải trình phát podcast.
+Hãy thử tìm kiếm lại podcast."</string>
+    <string name="full_screen_error_button">Quay lại</string>
     <string name="full_time">Kết thúc</string>
-    <string name="full_voice_interaction_service_label">Dịch vụ của Google được cải thiện</string>
+    <string name="full_voice_interaction_service_label">Các dịch vụ nâng cao của Google</string>
     <string name="gadget_error_text">Sự cố khi tải tiện ích con</string>
     <string name="gadget_setup_text">Thiết lập</string>
     <string name="gcm_fallback_notification_channel_label">Khác</string>
     <string name="gdi_add_button">Thêm</string>
     <string name="gdi_add_phone_number">Thêm điện thoại</string>
-    <string name="gdi_add_phone_number_consent_text">"Thêm số điện thoại của bạn để sử dụng trong tin nhắn, đăng nhập, Trợ lý Google và các dịch vụ khác của Google. "</string>
+    <string name="gdi_add_phone_number_consent_text">Thêm số điện thoại của bạn để sử dụng trong tin nhắn, đăng nhập, Trợ lý Google và các dịch vụ khác của Google.</string>
     <string name="gdi_add_phone_number_disclaimer">Google sẽ gửi một tin nhắn văn bản một lần để xác nhận rằng đây là số của bạn. Áp dụng cước phí chuẩn.</string>
     <string name="gdi_add_phone_number_error">Vui lòng thêm điện thoại</string>
     <string name="gdi_add_phone_number_heading">Thêm số điện thoại để tạo một tài khoản với %1$s</string>
     <string name="gdi_add_your_phone">Thêm số điện thoại của bạn</string>
     <string name="gdi_allow">Cho phép</string>
-    <string name="gdi_and_spaced">" và "</string>
+    <string name="gdi_and_spaced">và</string>
     <string name="gdi_app_terms">Điều khoản ứng dụng</string>
     <string name="gdi_back">quay lại</string>
     <string name="gdi_bbb_already_have_account">Tôi đã có tài khoản %1$s</string>
@@ -1435,7 +1563,7 @@ Hãy kiểm tra kết nối của bạn và thử lại"</string>
     <string name="gdi_bbb_trouble_completing_request">Gặp sự cố khi hoàn thành yêu cầu.</string>
     <string name="gdi_bbb_try_again_later">Hãy thử lại sau.</string>
     <string name="gdi_bbb_verification_error">Mã xác minh không đúng</string>
-    <string name="gdi_bbb_verification_message">"Google sẽ gửi mã xác minh để xác nhận số của bạn. "</string>
+    <string name="gdi_bbb_verification_message">Google sẽ gửi mã xác minh để xác nhận số của bạn.</string>
     <string name="gdi_cancel">Hủy</string>
     <string name="gdi_choose_account_title">Để tiếp tục, hãy liên kết %1$s với Tài khoản Google của bạn</string>
     <string name="gdi_close">đóng</string>
@@ -1445,26 +1573,26 @@ Hãy kiểm tra kết nối của bạn và thử lại"</string>
     <string name="gdi_continue_button_text">Tiếp tục</string>
     <string name="gdi_could_not_verify">Chúng tôi không thể xác minh số điện thoại của bạn, vui lòng thử lại</string>
     <string name="gdi_create">Tạo</string>
-    <string name="gdi_create_account_button">Tạo tài khoản</string>
+    <string name="gdi_create_account_button">Tạo tài khoản</string>
     <string name="gdi_create_account_heading">Xác nhận thông tin chi tiết của bạn để tạo một tài khoản với %1$s</string>
     <string name="gdi_current_city_level_location">Vị trí cấp thành phố hiện tại</string>
     <string name="gdi_enter_code_subheading">"Chúng tôi đã gửi mã xác minh tới 
 %1$s"</string>
     <string name="gdi_enter_the_code">Nhập mã</string>
-    <string name="gdi_fine_print_middle">" và đồng ý rằng Google có thể truy cập thông tin tài khoản %1$s của bạn."</string>
-    <string name="gdi_fine_print_preamble">"Bằng cách tiếp tục, bạn đồng ý với %1$s "</string>
+    <string name="gdi_fine_print_middle">và đồng ý rằng Google có thể truy cập thông tin tài khoản %1$s của bạn.</string>
+    <string name="gdi_fine_print_preamble">Bằng cách tiếp tục, bạn đồng ý với %1$s</string>
     <string name="gdi_finish">hoàn tất</string>
     <string name="gdi_invalid_number_error">Số không hợp lệ</string>
-    <string name="gdi_learn_more_link">Tìm hiểu thêm</string>
+    <string name="gdi_learn_more_link">Tìm hiểu thêm</string>
     <string name="gdi_link_accounts">Liên kết tài khoản</string>
     <string name="gdi_location_consent">Vị trí</string>
-    <string name="gdi_next">tiếp theo</string>
+    <string name="gdi_next">tiếp theo</string>
     <string name="gdi_no_code_entered_error">Vui lòng nhập mã xác minh</string>
     <string name="gdi_no_country_code_error">Vui lòng nhập mã quốc gia, chẳng hạn như 1 cho Hoa Kỳ</string>
     <string name="gdi_phone_entry_field_label">Số điện thoại</string>
     <string name="gdi_phone_number">Số điện thoại</string>
     <string name="gdi_please_enter_a_number">Vui lòng nhập số điện thoại</string>
-    <string name="gdi_privacy_policy">Chính sách bảo mật</string>
+    <string name="gdi_privacy_policy">Chính sách bảo mật</string>
     <string name="gdi_profile_picture_description">Ảnh hồ sơ</string>
     <string name="gdi_save_number_consent">Lưu số vào Tài khoản Google</string>
     <string name="gdi_send">gửi</string>
@@ -1484,8 +1612,11 @@ Hãy kiểm tra kết nối của bạn và thử lại"</string>
     <string name="gel_usage_stats_summary">Gửi thống kê của Google về các tương tác của bạn với Trình chạy Google Hiện hành</string>
     <string name="gel_usage_stats_title">Giúp cải thiện Google</string>
     <string name="generic_device_name">thiết bị</string>
+    <string name="generic_error_message">Đã xảy ra lỗi</string>
     <string name="generic_error_snackbar_message">Đã xảy ra lỗi. Vui lòng thử lại.</string>
     <string name="get_directions">Nhận chỉ đường</string>
+    <string name="gmail_update_required">Không hỗ trợ phiên bản GMail trên điện thoại này. Vui lòng cập nhật lên phiên bản mới nhất.</string>
+    <string name="gmscore_update_required">Không hỗ trợ phiên bản dịch vụ của Google Play trên điện thoại này. Vui lòng cập nhật lên phiên bản mới nhất.</string>
     <string name="go">Tìm</string>
     <string name="go_to_settings">Chuyển đến Cài đặt</string>
     <string name="google_account_history">Kiểm soát hoạt động trên Google</string>
@@ -1500,8 +1631,6 @@ Hãy kiểm tra kết nối của bạn và thử lại"</string>
     <string name="google_home_device_change_language_dialog_message">Các thiết bị Google Home của bạn sử dụng cùng một ngôn ngữ. Thao tác này sẽ thay đổi tất cả thành %1$s.</string>
     <string name="google_home_device_change_language_dialog_title">Thay đổi ngôn ngữ trên tất cả thiết bị Google Home?</string>
     <string name="google_home_device_change_language_dialog_yes">Có</string>
-    <string name="google_home_device_youtube_restricted_mode_summary">Ẩn bài hát và video có thể chứa nội dung không phù hợp</string>
-    <string name="google_home_device_youtube_restricted_mode_title">Chế độ hạn chế trên YouTube</string>
     <string name="google_home_hotword_enrollment_bottom_summary_text">Mời cả những người khác đang ở nhà thiết lập tính năng Voice Match</string>
     <string name="google_location_service_required_text">Để xem các thẻ dựa trên vị trí chẳng hạn như thông tin thời tiết địa phương và giao thông của tuyến đường đi làm, hãy bật dịch vụ vị trí của Google</string>
     <string name="google_play_services">Dịch vụ của Google Play</string>
@@ -1518,7 +1647,11 @@ Hãy kiểm tra kết nối của bạn và thử lại"</string>
     <string name="google_play_services_update_required">Để tiếp tục sử dụng nguồn cấp dữ liệu, bạn cần cập nhật các dịch vụ của Google Play</string>
     <string name="google_plus_profile_contact_label">Hồ sơ trên Google+</string>
     <string name="google_search_disabled_toast">Bạn không có quyền sử dụng Google Tìm kiếm.</string>
+    <string name="goto_system_settings">Cài đặt</string>
+    <string name="group_desc">Nhóm %1$d / %2$d.</string>
     <string name="gsa_home">Nhà riêng</string>
+    <string name="gws_fetch_failed">Không kết nối được với máy chủ.</string>
+    <string name="gws_fetch_unauthenticated">Vui lòng đăng nhập để xem thêm nội dung.</string>
     <string name="hands_free_unlock_device_bluetooth">Khi an toàn, trước tiên bạn cần phải nhấn vào thông báo. Sau đó, bạn có thể cho phép thiết bị Bluetooth hoạt động với điện thoại của mình khi điện thoại bị khóa.</string>
     <string name="hands_free_unlock_device_wired_headsets">Khi an toàn, trước tiên bạn cần phải nhấn vào thông báo. Sau đó, bạn có thể cho phép tai nghe hoạt động với điện thoại của mình khi điện thoại bị khóa.</string>
     <string name="hangout_keep_track_justification">Một cuộc trò chuyện Hangout gần đây đã đề cập đến sự kiện này</string>
@@ -1534,9 +1667,22 @@ Hãy kiểm tra kết nối của bạn và thử lại"</string>
     <string name="hide_account_list">Ẩn tài khoản</string>
     <string name="hide_examples_description">Ẩn ví dụ</string>
     <string name="history_action_card_title_default">Đã thực hiện hành động</string>
+    <string name="history_carousel_background_text">Hoạt động tìm kiếm trên web gần đây của bạn từ các thiết bị khác</string>
     <string name="hits_header">Trúng</string>
     <string name="hits_header_full_length">Số lượt đánh trúng</string>
     <string name="home_address_icon_label">Địa chỉ nhà riêng</string>
+    <string name="home_onboarding_personal_results_enabled_explanation">"Bạn đã bật kết quả cá nhân nhưng chưa bật Voice Match. Điều này có nghĩa là Trợ lý sẽ không kiểm tra giọng nói của bạn trước khi cung cấp kết quả cá nhân cho bạn.
+
+Bạn có thể sử dụng mẹo sau: Bật Voice Match trong mục cài đặt Trợ lý sau khi bạn đã thiết lập xong thiết bị này."</string>
+    <string name="home_onboarding_personal_results_enabled_positive_button">Đóng</string>
+    <string name="home_onboarding_personal_results_enabled_title">Tăng cường bảo mật cho kết quả cá nhân</string>
+    <string name="home_personal_results_action_button">Tôi đồng ý</string>
+    <string name="home_personal_results_cancel_button">Không, cảm ơn</string>
+    <string name="home_personal_results_explanation">Bật kết quả cá nhân để truy cập vào lịch, danh bạ, lời nhắc, v.v trên thiết bị này. <a href="https://support.google.com/assistant/?p=personal_results">Tìm hiểu thêm</a>"
+
+Xin lưu ý rằng bất kỳ ai sử dụng thiết bị này cũng có thể nhận kết quả cá nhân của bạn. Bạn có thể tắt kết quả cá nhân trong mục cài đặt Trợ lý."</string>
+    <string name="home_personal_results_title">Nhận kết quả cá nhân</string>
+    <string name="homebase_link_tool_tip_message">Xem đăng ký của bạn ở đây</string>
     <string name="homescreen_settings_action_turn_off">TẮT</string>
     <string name="homescreen_settings_display_feed">Hiển thị nguồn cấp dữ liệu của Google</string>
     <string name="homescreen_settings_header_category">Màn hình chính</string>
@@ -1546,10 +1692,11 @@ Hãy kiểm tra kết nối của bạn và thử lại"</string>
     <string name="hotseat_out_of_space">Không còn chỗ trong khay Mục yêu thích</string>
     <string name="hotword_disabled">\"%1$s\" đã tắt</string>
     <string name="hotword_disabled_motorola_aov">Một tính năng khác đang sử dụng micrô thay cho \"%1$s\". Hãy tắt Moto Voice để bật lại \"%1$s\".</string>
+    <string name="hotword_enrollment_button_more">Xem thêm</string>
     <string name="hotword_enrollment_delete_voice_model">Xóa mẫu giọng nói</string>
     <string name="hotword_enrollment_enroll_again">Nói \"%1$s\" một lần nữa</string>
     <string name="hotword_enrollment_enroll_again_talkback">Rất tuyệt. Hãy nói lại lần nữa.</string>
-    <string name="hotword_enrollment_enroll_cancel_glif">HỦY</string>
+    <string name="hotword_enrollment_enroll_cancel_glif">Hủy</string>
     <string name="hotword_enrollment_enroll_complete">Hoàn thành</string>
     <string name="hotword_enrollment_enroll_glif_footer_text">Trợ lý sử dụng những bản ghi âm này và các yêu cầu bằng giọng nói của bạn để tạo và cập nhật mẫu giọng nói. Mẫu giọng nói này chỉ được lưu trữ trên các thiết bị mà bạn đã bật tính năng Voice Match. Bạn có thể xem hoặc xóa hoạt động giọng nói trong %1$s.</string>
     <string name="hotword_enrollment_enroll_google_home_footer_text">Trợ lý sử dụng những bản ghi âm này và các yêu cầu bằng giọng nói của bạn để tạo và cập nhật mẫu giọng nói của bạn. Mẫu giọng nói này chỉ được lưu trữ trên các thiết bị mà bạn đã bật tính năng Voice Match. Bạn có thể xem hoặc xóa hoạt động giọng nói trong %1$s.</string>
@@ -1567,7 +1714,6 @@ Hãy kiểm tra kết nối của bạn và thử lại"</string>
     <string name="hotword_enrollment_enroll_listening_talkback_assistant_device">Nói cụm từ bắt đầu bằng \"%1$s\"</string>
     <string name="hotword_enrollment_enroll_listening_talkback_assistant_device_again">Hãy nói lại lần nữa</string>
     <string name="hotword_enrollment_enroll_say_prompt">Chỉ cần nói \"%1$s\" ba lần</string>
-    <string name="hotword_enrollment_enroll_skip_glif">Bỏ qua</string>
     <string name="hotword_enrollment_enroll_start">Bắt đầu ghi</string>
     <string name="hotword_enrollment_enroll_text">Để giúp thiết bị phản hồi lại bạn, bạn có thể đào tạo Google làm quen với giọng nói của bạn.</string>
     <string name="hotword_enrollment_enroll_text_opa_talkback">Kích hoạt nút %1$s bên dưới và sau đó nói \"%2$s\" để đào tạo trợ lý ghi nhận giọng nói của bạn.</string>
@@ -1588,6 +1734,9 @@ Lưu ý rằng một giọng nói hoặc bản ghi âm tương tự cũng có th
 
 Trợ lý có thể dùng những bản ghi âm đã có này để tạo mẫu giọng nói trên thiết bị này. Quá trình này mất chưa đến 1 phút."</string>
     <string name="hotword_enrollment_google_home_fast_update_unicorn_header_title">Trợ lý đã có thể nhận dạng giọng nói của con bạn</string>
+    <string name="hotword_enrollment_google_home_fast_update_unicorn_progress_summary">"Có vẻ như bạn đã thiết lập tính năng Voice Match cho Trợ lý Google của con bạn trên một thiết bị khác.
+
+Trợ lý có thể dùng những bản ghi âm đã có này để tạo mẫu giọng nói trên thiết bị này. Quá trình này mất chưa đến 1 phút."</string>
     <string name="hotword_enrollment_google_home_no_enrollment_found_toast_msg">Vui lòng hoàn tất đăng ký từ nóng cho tài khoản %1$s trước.</string>
     <string name="hotword_enrollment_google_home_no_thanks">Không, cảm ơn</string>
     <string name="hotword_enrollment_google_home_non_fast_update_header_title">Đang thiết lập tính năng Voice Match</string>
@@ -1610,7 +1759,7 @@ Bạn cũng có thể nhận câu trả lời chỉ dành cho bạn! Hãy bắt 
     <string name="hotword_enrollment_intro_header_title_glif_non_opa">Tìm kiếm bằng giọng nói bất cứ lúc nào</string>
     <string name="hotword_enrollment_intro_next">Tiếp theo</string>
     <string name="hotword_enrollment_intro_summary_always_on">Nói \"%1$s\" để tìm kiếm, ngay cả khi màn hình tắt hoặc khi bạn đang sử dụng ứng dụng yêu thích</string>
-    <string name="hotword_enrollment_intro_summary_glif_non_opa">Nói \"%1$s\" để trò chuyện với thiết bị của bạn bất cứ lúc nào: ngay cả khi màn hình tắt hoặc bạn đang sử dụng ứng dụng yêu thích.</string>
+    <string name="hotword_enrollment_intro_summary_glif_non_opa">Nói \"%1$s\" để trò chuyện với thiết bị của bạn bất cứ lúc nào: ngay cả khi màn hình tắt hoặc đang sử dụng các ứng dụng yêu thích.&lt;br/>&lt;br/>Một mẫu giọng nói duy nhất của bạn được tạo trên thiết bị này sẽ giúp tính năng Tìm kiếm bằng giọng nói của Google nhận dạng được bạn và phân biệt bạn với những người khác.&lt;br/>&lt;br/>&lt;b>Xin lưu ý:&lt;/b> Một giọng nói hoặc bản ghi âm tương tự cũng có thể truy cập vào tính năng Tìm kiếm bằng giọng nói. Bạn có thể xóa quyền này bằng cách tắt tính năng này trong ứng dụng Google.</string>
     <string name="hotword_enrollment_intro_summary_screen_on">Nói \"%1$s\" để tìm kiếm, ngay cả khi thiết bị của bạn bị khóa hoặc khi bạn đang sử dụng ứng dụng yêu thích</string>
     <string name="hotword_enrollment_local_escalation_google_password_incorrect">Mật khẩu không chính xác.</string>
     <string name="hotword_enrollment_local_escalation_learn_more_link">https://support.google.com/families/answer/7521263</string>
@@ -1629,11 +1778,20 @@ Bạn cũng có thể nhận câu trả lời chỉ dành cho bạn! Hãy bắt 
     <string name="hotword_enrollment_optin_udc_summary_item2">Điều này giúp Google nhận dạng được giọng nói của bạn và cải thiện tính năng nhận dạng giọng nói và âm thanh để cung cấp cho bạn kết quả nhanh hơn và ít phức tạp hơn.</string>
     <string name="hotword_enrollment_optin_udc_summary_item3">Bạn có thể thay đổi cài đặt này hoặc quản lý dữ liệu cá nhân tại %1$s bất cứ khi nào bạn muốn. Lưu ý rằng cài đặt Hoạt động giọng nói và âm thanh đang được bật, dữ liệu này có thể được lưu từ bất kỳ thiết bị đã đăng nhập nào của bạn.</string>
     <string name="hotword_enrollment_optin_udc_title">Lưu hoạt động giọng nói và âm thanh</string>
+    <string name="hotword_enrollment_parent_intro_summary">{GENDER,select, male{Với Trợ lý Google, {PERSON} có thể làm những việc như chơi trò chơi hoặc kiểm tra xem bữa tiệc của lớp mình sẽ diễn ra vào ngày nào trên Lịch. Mặc dù một số trải nghiệm được thiết kế riêng cho trẻ em, nhưng hầu hết nội dung đều phù hợp với mọi đối tượng người dùng. &lt;a href=\"{LINK}\">Tìm hiểu thêm&lt;/a>&lt;br>&lt;br>Voice Match giúp Trợ lý nhận dạng giọng nói của {PERSON} và phân biệt em với những người khác bằng cách tạo một mẫu giọng nói duy nhất của em trên thiết bị này.&lt;br>&lt;br>Lưu ý: Một giọng nói tương tự hoặc bản ghi âm giọng nói đó cũng có thể truy cập vào kết quả cá nhân của {PERSON}. Bạn có thể xóa quyền truy cập vào Voice Match bằng cách tắt quyền này trong mục cài đặt Trợ lý hoặc Family Link.}female{Với Trợ lý Google, {PERSON} có thể làm những việc như chơi trò chơi hoặc kiểm tra xem bữa tiệc của lớp mình sẽ diễn ra vào ngày nào trên Lịch. Mặc dù một số trải nghiệm được thiết kế riêng cho trẻ em, nhưng hầu hết nội dung đều phù hợp với mọi đối tượng người dùng. &lt;a href=\"{LINK}\">Tìm hiểu thêm&lt;/a>&lt;br>&lt;br>Voice Match giúp Trợ lý nhận dạng giọng nói của {PERSON} và phân biệt em với những người khác bằng cách tạo một mẫu giọng nói duy nhất của em trên thiết bị này.&lt;br>&lt;br>Lưu ý: Một giọng nói tương tự hoặc bản ghi âm giọng nói đó cũng có thể truy cập vào kết quả cá nhân của {PERSON}. Bạn có thể xóa quyền truy cập vào Voice Match bằng cách tắt quyền này trong mục cài đặt Trợ lý hoặc Family Link.}other{Với Trợ lý Google, {PERSON} có thể làm những việc như chơi trò chơi hoặc kiểm tra xem bữa tiệc của lớp mình sẽ diễn ra vào ngày nào trên Lịch. Mặc dù một số trải nghiệm được thiết kế riêng cho trẻ em, nhưng hầu hết nội dung đều phù hợp với mọi đối tượng người dùng. &lt;a href=\"{LINK}\">Tìm hiểu thêm&lt;/a>&lt;br>&lt;br>Voice Match giúp Trợ lý nhận dạng giọng nói của {PERSON} và phân biệt các em với những người khác bằng cách tạo một mẫu giọng nói duy nhất của các em trên thiết bị này.&lt;br>&lt;br>Lưu ý: Một giọng nói tương tự hoặc bản ghi âm giọng nói đó cũng có thể truy cập vào kết quả cá nhân của {PERSON}. Bạn có thể xóa quyền truy cập vào Voice Match bằng cách tắt quyền này trong mục cài đặt Trợ lý hoặc Family Link.}}</string>
     <string name="hotword_enrollment_parent_intro_summary_learn_more_link">https://support.google.com/families/answer/7521263</string>
     <string name="hotword_enrollment_parent_intro_title">Hướng dẫn Trợ lý nhận dạng giọng nói của %1$s</string>
     <string name="hotword_enrollment_parent_selector_family_fetch_failed">Lỗi khi tìm nạp gia đình.</string>
     <string name="hotword_enrollment_parent_selector_subtitle">Hãy chọn người ở gần để trợ giúp bạn bắt đầu với loa của Trợ lý Google</string>
     <string name="hotword_enrollment_parent_selector_title">Cần có sự cho phép của cha mẹ</string>
+    <string name="hotword_enrollment_personal_results_action_button">Tôi đồng ý</string>
+    <string name="hotword_enrollment_personal_results_cancel_button">Không, cảm ơn</string>
+    <string name="hotword_enrollment_personal_results_explanation">"Đã thiết lập Voice Match.
+
+Bạn hiện có thể bật kết quả cá nhân để dùng giọng nói của mình truy cập vào lịch, danh bạ, v.v trên thiết bị. "<a href="https://support.google.com/assistant/?p=personal_results">Tìm hiểu thêm</a>"
+
+Bạn có thể tắt kết quả cá nhân trong cài đặt Trợ lý."</string>
+    <string name="hotword_enrollment_personal_results_title">Nhận kết quả cá nhân bằng giọng nói của bạn</string>
     <string name="hotword_enrollment_pref_category_voice_model">Mẫu giọng nói \"Ok Google\"</string>
     <string name="hotword_enrollment_retrain_voice_model">Đào tạo lại mẫu giọng nói</string>
     <string name="hotword_enrollment_retry_enroll">Rất tiếc, đã xảy ra lỗi. Bắt đầu lại.</string>
@@ -1691,8 +1849,7 @@ Bạn cũng có thể nhận câu trả lời chỉ dành cho bạn! Hãy bắt 
     <string name="hotword_pref_subtitle_disabled_os_version">Phiên bản hệ điều hành của bạn không hỗ trợ tính năng này</string>
     <string name="hotword_pref_subtitle_opa_supported_locale">Trò chuyện với Trợ lý Google để hoàn thành công việc</string>
     <string name="hotword_pref_subtitle_opa_unsupported_locale">Trò chuyện để nhận thông tin, gửi tin nhắn, đặt báo thức...</string>
-    <string name="hotword_pref_summary_always_on">Phản hồi giọng nói của bạn. Hoạt động cho dù màn hình bật hay tắt</string>
-    <string name="hotword_pref_summary_always_on_not_default_vis">Để bật tính năng này, chuyển tới Cài đặt > Ngôn ngữ và đầu vào > Nhập bằng giọng nói rồi chọn \"Dịch vụ Google nâng cao\"</string>
+    <string name="hotword_pref_summary_always_on_not_default_vis">Để bật tính năng này, chuyển tới Cài đặt > Ngôn ngữ và đầu vào > Nhập bằng giọng nói rồi chọn \"Các dịch vụ nâng cao của Google\"</string>
     <string name="hotword_pref_summary_during_androidauto_navigation">Hoạt động trong Android Auto</string>
     <string name="hotword_pref_summary_during_gmm_and_androidauto_navigation">Hoạt động trong Google Maps và Android Auto</string>
     <string name="hotword_pref_summary_during_gmm_navigation">Hoạt động trong Google Maps</string>
@@ -1700,16 +1857,12 @@ Bạn cũng có thể nhận câu trả lời chỉ dành cho bạn! Hãy bắt 
     <string name="hotword_pref_summary_homescreen">Nói \"%1$s\" để bắt đầu tìm kiếm bằng giọng nói từ ứng dụng Google hoặc bất kỳ Màn hình chính nào trong Trình chạy Google Hiện hành</string>
     <string name="hotword_pref_summary_lock_personal_results">Cho phép tác vụ và kết quả cá nhân khi điện thoại của bạn được khóa an toàn</string>
     <string name="hotword_pref_summary_mic_permission">Cấp quyền micrô để sử dụng tính năng dò tìm \"%1$s\"</string>
-    <string name="hotword_pref_summary_opa">Thiết bị nhận ra giọng nói của bạn khi bạn nói \"%1$s\", ngay cả khi màn hình tắt hoặc bạn đang sử dụng ứng dụng yêu thích</string>
-    <string name="hotword_pref_summary_opa_non_dsp">Thiết bị sẽ nhận ra giọng nói của bạn khi bạn nói \"%1$s\", ngay cả khi bạn đang sử dụng các ứng dụng yêu thích của mình</string>
     <string name="hotword_pref_summary_voice_unlock">Cho phép \"%1$s\" mở khóa thiết bị khi âm thanh khớp với mẫu giọng nói của bạn</string>
     <string name="hotword_pref_title">Phát hiện \"%1$s\"</string>
     <string name="hotword_pref_title_always_on">Luôn bật</string>
     <string name="hotword_pref_title_during_gmm_navigation">Trong khi lái xe</string>
     <string name="hotword_pref_title_lock_screen_2_opa">Mở khóa bằng tính năng Voice Match</string>
     <string name="hotword_pref_title_locked_personal_results">Kết quả cá nhân</string>
-    <string name="hotword_pref_title_opa">Nói \"%1$s\" bất cứ lúc nào</string>
-    <string name="hotword_prefs_voice_everywhere_subtitle">Phản hồi giọng nói của bạn. Hoạt động khi màn hình đang bật.</string>
     <string name="hotword_prefs_voice_everywhere_subtitle_no_account">Vui lòng đăng nhập bằng tài khoản Google của bạn để bật tính năng này</string>
     <string name="hotword_prefs_voice_everywhere_title">Từ màn hình bất kỳ</string>
     <string name="hotword_setup_wizard_connection_error_message">Kiểm tra kết nối của bạn và thử lại.</string>
@@ -1736,6 +1889,9 @@ Bạn cũng có thể nhận câu trả lời chỉ dành cho bạn! Hãy bắt 
     <string name="hq_selected_tab_unavailable">Không có sẵn %1$s</string>
     <string name="hq_title">Trợ lý Google</string>
     <string name="hq_your_stuff_header">Nội dung của bạn</string>
+    <string name="https_info_close">Đóng</string>
+    <string name="https_info_message">Kết nối của bạn đến trang web podcast được bảo mật.</string>
+    <string name="https_info_title">Kết nối an toàn</string>
     <string name="hyper_local_suggestion_message">Tìm kiếm này liên quan đến vị trí hiện tại của bạn.</string>
     <string name="i18n_address_line1_accessibility_label">Địa chỉ đường phố: dòng 1</string>
     <string name="i18n_address_line1_label">Địa chỉ đường phố</string>
@@ -1775,9 +1931,43 @@ Bạn cũng có thể nhận câu trả lời chỉ dành cho bạn! Hãy bắt 
     <string name="icing_save_pref_failure">Chưa cập nhật cài đặt tìm kiếm trên điện thoại.</string>
     <string name="icing_sms_corpus_description">SMS trên thiết bị</string>
     <string name="icing_sms_corpus_label">SMS</string>
+    <string name="image_action_indicator_product_text">Sản phẩm</string>
+    <string name="image_action_indicator_recipe_text">Công thức</string>
+    <string name="image_action_indicator_video_text">Video</string>
+    <string name="image_card_content_description">Hình ảnh của %s</string>
     <string name="image_carousel_view_all">XEM TẤT CẢ</string>
     <string name="image_copyright_message">Hình ảnh có thể có bản quyền.</string>
+    <string name="image_copyright_message_price_disclaimer">* Xem trang web để biết tính sẵn có và giá mới nhất. Hình ảnh có thể có bản quyền.</string>
     <string name="image_load_fail">Không thể tải hình ảnh</string>
+    <string name="image_viewer_image_description">Hình ảnh có tiêu đề %1$s</string>
+    <string name="image_viewer_more_options">Tùy chọn khác</string>
+    <string name="image_viewer_parentheses">(%s)</string>
+    <string name="image_viewer_product_availability_label">Tính sẵn có</string>
+    <string name="image_viewer_product_brand_label">Nhãn hiệu</string>
+    <string name="image_viewer_product_in_stock">Trong kho</string>
+    <string name="image_viewer_product_price_label">Giá*</string>
+    <string name="image_viewer_product_unavailable">Hết hàng</string>
+    <string name="image_viewer_recipe_cook_time_label">Thời gian nấu</string>
+    <string name="image_viewer_recipe_ingredients">Nguyên liệu</string>
+    <string name="image_viewer_recipe_yield">Khẩu phần</string>
+    <string name="image_viewer_related_image">Mở hình ảnh có liên quan %1$s</string>
+    <string name="image_viewer_related_images_title">Hình ảnh có liên quan</string>
+    <string name="image_viewer_related_products_title">Sản phẩm tương tự</string>
+    <string name="image_viewer_related_searches_title">Tìm kiếm có liên quan</string>
+    <string name="image_viewer_rich_metadata_rating_label">Xếp hạng</string>
+    <string name="image_viewer_saved">Đã lưu</string>
+    <string name="image_viewer_saved_description">Đã lưu. Xóa hình ảnh.</string>
+    <string name="image_viewer_see_more">Xem thêm</string>
+    <string name="image_viewer_share">Chia sẻ</string>
+    <string name="image_viewer_video_comments_label">Lượt nhận xét</string>
+    <string name="image_viewer_video_likes_label">Lượt thích</string>
+    <string name="image_viewer_video_upload_date_label">Đã xuất bản</string>
+    <string name="image_viewer_video_uploaded_by">Người tải lên:</string>
+    <string name="image_viewer_video_view_count_label">Lượt xem</string>
+    <string name="image_viewer_video_watch_label">Xem</string>
+    <string name="image_viewer_view_all_related_images_accessibility">Xem tất cả hình ảnh có liên quan</string>
+    <string name="image_viewer_view_saved">Xem hình ảnh đã lưu</string>
+    <string name="image_viewer_visit_site">Truy cập</string>
     <string name="images_mode_landing_text">Tìm kiếm hình ảnh</string>
     <string name="ime_audio_error">Không thể mở micrô</string>
     <string name="ime_can_not_be_activated">Không kích hoạt được Google Nhập liệu bằng giọng nói trong ngữ cảnh này.</string>
@@ -1791,7 +1981,7 @@ Bạn cũng có thể nhận câu trả lời chỉ dành cho bạn! Hãy bắt 
  Thử nói lại"</string>
     <string name="ime_no_matches_offline_mode">Không thể truy cập Google vào lúc này</string>
     <string name="ime_offline_unavailable_error">Chế độ ngoại tuyến không khả dụng</string>
-    <string name="ime_service_label">Nhập giọng nói của Google</string>
+    <string name="ime_service_label">Nhập bằng giọng nói của Google</string>
     <string name="ime_settings_button">Cài đặt</string>
     <string name="ime_start_speaking">Thử nói gì đó</string>
     <string name="ime_unavailable_low_storage">Google nhập liệu bằng giọng nói không khả dụng do bộ nhớ thấp.</string>
@@ -1808,10 +1998,13 @@ Bạn cũng có thể nhận câu trả lời chỉ dành cho bạn! Hãy bắt 
     <string name="immersive_actions_search_error">Xin lỗi vì đã làm gián đoạn, thiết bị của bạn vừa chuyển sang chế độ ngoại tuyến. Chúng tôi sẽ thử lại khi có kết nối.</string>
     <string name="immersive_actions_unknown_provider_short">\?</string>
     <string name="immersive_contact_disambiguation_header_label">%1$s...</string>
+    <string name="inactive_state_text">Thông tin trò chơi không cập nhật.</string>
+    <string name="indexing_not_ready">Chúng tôi chưa có nội dung để hiển thị cho bạn. Vui lòng kết nối với Internet và quay lại sau vài phút.</string>
     <string name="inferred_event_created">Đã thêm sự kiện vào lịch</string>
     <string name="inferred_event_error">Không tạo được sự kiện</string>
     <string name="inferred_from_gmail">Được giới thiệu là \"%1$s\" trong Gmail</string>
     <string name="info_target_label">Thông tin ứng dụng</string>
+    <string name="installed_app_group_header">Ứng dụng</string>
     <string name="installed_details">Phiên bản %1$s được cài đặt, dung lượng trên đĩa %2$s</string>
     <string name="installed_language_packs">Đã được cài đặt</string>
     <string name="intent_api_hint_tap_to_speak">Nhấn để nói</string>
@@ -1824,13 +2017,29 @@ Bạn cũng có thể nhận câu trả lời chỉ dành cho bạn! Hãy bắt 
     <string name="interest_picker_search_error">Không tải được kết quả tìm kiếm</string>
     <string name="interest_picker_search_hint">Tìm kiếm sở thích của bạn</string>
     <string name="interest_picker_title">Theo dõi các chủ đề</string>
+    <string name="ipa_app_filter_content_description">Kết quả từ %s.</string>
+    <string name="ipa_app_filter_more_description">Xem thêm kết quả từ %s.</string>
+    <string name="ipa_contact_action_app_description">Liên hệ với %1$s trong %2$s</string>
+    <string name="ipa_contact_group_divider_text">Liên hệ khác</string>
     <string name="ipa_error_message">Tìm kiếm không thành công. Vui lòng thử lại sau.</string>
+    <string name="ipa_installed_apps_result_content_description">Mở %s.</string>
+    <string name="ipa_media_result_description">Mở hình ảnh</string>
+    <string name="ipa_message_collapse_icon_description">Thu gọn cuộc trò chuyện</string>
+    <string name="ipa_message_expand_icon_description">Mở rộng cuộc trò chuyện</string>
+    <string name="ipa_message_result_content_description">Mở cuộc trò chuyện với %1$s trong %2$s.</string>
     <string name="ipa_no_results_shown">Không có kết quả nào.</string>
     <string name="ipa_number_of_results_shown">Đang hiển thị %d kết quả.</string>
     <string name="ipa_one_result_shown">Đang hiển thị 1 kết quả.</string>
+    <string name="ipa_people_immersive_contact_action_description">%1$s %2$s bằng %3$s.</string>
+    <string name="ipa_people_immersive_edit_description">Chỉnh sửa %s trong ứng dụng danh bạ.</string>
+    <string name="ipa_people_immersive_navigate_description">Đi đến %1$s bằng cách sử dụng %2$s.</string>
     <string name="ipa_personal_search_sources">Cá nhân</string>
     <string name="ipa_search_result_page_message">%s Google Tìm kiếm.</string>
     <string name="ipa_searchable_items_category_title">Hiển thị nội dung từ</string>
+    <string name="ipa_see_less_about_person_description">Ẩn bớt về %s</string>
+    <string name="ipa_see_more_about_person_description">Hiển thị thêm về %s</string>
+    <string name="ipa_share_dialog_title">Chia sẻ qua</string>
+    <string name="ipa_standard_result_content_description">Mở %1$s trong %2$s.</string>
     <string name="item_added_to_workspace">Đã thêm mục vào màn hình chính</string>
     <string name="item_is_selected">Đã chọn %1$s</string>
     <string name="item_moved">Đã di chuyển mục</string>
@@ -1879,6 +2088,7 @@ Bạn cũng có thể nhận câu trả lời chỉ dành cho bạn! Hãy bắt 
     <string name="last_transit_to_hotel_is_gone">Chuyến cuối cùng tới khách sạch %1$sđã chạy %2$s</string>
     <string name="last_transit_to_hotel_less_than_one_minute">Chuyến cuối cùng tới khách sạn sau %1$sgần 1 phút nữa%2$s</string>
     <string name="last_transit_to_hotel_narrow_widget_header">Chuyến cuối cùng tới khách sạn lúc…</string>
+    <string name="last_visit_text">Lần truy cập cuối:</string>
     <string name="launcher_name">Trình chạy Google Hiện hành</string>
     <string name="launcher_shortcut_recent_short">Gần đây</string>
     <string name="launcher_shortcut_search_in_apps_short">Tìm kiếm cá nhân</string>
@@ -1889,13 +2099,31 @@ Bạn cũng có thể nhận câu trả lời chỉ dành cho bạn! Hãy bắt 
     <string name="leave_alert_scheduled_header">Bạn sẽ được cảnh báo khi đến giờ rời đi.</string>
     <string name="leave_from">Từ</string>
     <string name="legal_documents">Pháp lý</string>
+    <string name="lens_education_card_barcodes_heading">Mã vạch</string>
+    <string name="lens_education_card_barcodes_paragraph">Quét mã vạch và tìm chi tiết sản phẩm</string>
+    <string name="lens_education_card_media_heading">Sách và nội dung đa phương tiện</string>
+    <string name="lens_education_card_media_paragraph">Tra cứu sách, phim, album nhạc và trò chơi điện tử theo bìa</string>
+    <string name="lens_education_card_places_heading">Địa điểm</string>
+    <string name="lens_education_card_places_paragraph">Tìm hiểu thêm về các địa danh, điểm yêu thích và các tòa nhà nổi tiếng</string>
+    <string name="lens_education_card_products_heading">Sản phẩm</string>
+    <string name="lens_education_card_products_paragraph">Tìm các mặt hàng tương tự cho các sản phẩm như đồ nội thất và quần áo</string>
+    <string name="lens_education_card_text_heading">Văn bản</string>
+    <string name="lens_education_card_text_paragraph">Sao chép văn bản như số điện thoại, ngày tháng và địa chỉ</string>
+    <string name="lens_education_card_title">Ứng dụng Ống kính có chức năng gì?</string>
+    <string name="lens_info_panel_live_camera_title">Nhấn vào vị trí bất kỳ để nhận thông tin</string>
+    <string name="lens_info_panel_loading_message">Đang tìm kiếm kết quả…</string>
+    <string name="lens_title">Google Ống kính</string>
+    <string name="less_contact_apps">Ẩn bớt ứng dụng liên hệ</string>
+    <string name="less_than_one_minute_left">Còn chưa đầy 1 phút</string>
     <string name="libraries_material_featurehighlight_dismiss">Đóng</string>
     <string name="license_activity_title">Giấy phép nguồn mở</string>
     <string name="light_traffic">Giao thông thưa thớt</string>
     <string name="line_two_text_separator">" · "</string>
     <string name="link_device_title">Đang kết nối với %s</string>
+    <string name="link_to_show_page">Liên kết để hiển thị trang</string>
     <string name="listen_for_music">Nghe nhạc</string>
     <string name="listening_for_music_status">Đang nghe nhạc…</string>
+    <string name="loading">Đang tải</string>
     <string name="local_results_map_description">Bản đồ về %1$s</string>
     <string name="location_access_required_text_klp">Để xem thẻ dựa trên vị trí chẳng hạn như thời tiết địa phương và giao thông trên đường đi làm, hãy bật truy cập vị trí</string>
     <string name="location_added_snackbar_text">Đã thêm vị trí</string>
@@ -1909,6 +2137,10 @@ Bạn cũng có thể nhận câu trả lời chỉ dành cho bạn! Hãy bắt 
     <string name="lockscreen_mic_promo_notification_title">Mở khóa bằng giọng nói của bạn</string>
     <string name="long_accessible_way_to_add">Nhấn đúp và giữ để chọn tiện ích hoặc sử dụng tác vụ tùy chỉnh.</string>
     <string name="long_press_widget_to_add">Chạm và giữ để chọn tiện ích con.</string>
+    <string name="longpress_menu_download">Tải hình ảnh xuống</string>
+    <string name="longpress_menu_search_by_image">@string/menu_search_by_image</string>
+    <string name="longpress_menu_share">Chia sẻ hình ảnh</string>
+    <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="magic_flashlight_off">Nox</string>
     <string name="magic_flashlight_on">Lumos</string>
     <string name="mall_lookup_hint_text">Tìm cửa hàng và dịch vụ</string>
@@ -1940,22 +2172,34 @@ Bạn cũng có thể nhận câu trả lời chỉ dành cho bạn! Hãy bắt 
     <string name="map_content_description">Bản đồ</string>
     <string name="map_route_content_description">Bản đồ đến %1$s</string>
     <string name="maps_mode_landing_text">Tìm kiếm bản đồ</string>
+    <string name="mark_as_completed">Đánh dấu là đã xong</string>
     <string name="media_content_image">Một hình ảnh liên quan đến nội dung truyền thông sẽ được hiển thị trên thẻ này</string>
     <string name="medium_traffic">Giao thông bình thường</string>
     <string name="menu_download">Tải xuống</string>
+    <string name="menu_get_help">Nhận trợ giúp</string>
     <string name="menu_icon_description">Menu</string>
     <string name="menu_overlay_customize">Tùy chỉnh</string>
     <string name="menu_overlay_feedback">Gửi phản hồi</string>
     <string name="menu_overlay_reset_to_default_style">Đặt lại về kiểu mặc định</string>
     <string name="menu_refresh">Làm mới</string>
+    <string name="menu_search_by_image">Tìm kiếm bằng hình ảnh</string>
     <string name="menu_send_button_content_description">Nút Gửi để gửi phản hồi.</string>
+    <string name="menu_send_feedback">Gửi phản hồi</string>
     <string name="menu_settings">Cài đặt</string>
     <string name="menu_share">Chia sẻ</string>
     <string name="menu_view_in_browser">Xem trong trình duyệt</string>
+    <string name="menu_view_original_image">Xem hình ảnh gốc</string>
     <string name="menu_visit_page">Truy cập trang</string>
     <string name="message_card_feedback">Phản hồi</string>
     <string name="message_card_troubleshoot">Khắc phục sự cố</string>
+    <string name="message_image">Hình ảnh</string>
     <string name="message_no_sound_search_results_tts">Rất tiếc, không nhận dạng được kết quả tìm kiếm âm thanh này.</string>
+    <string name="message_no_text">Không có văn bản</string>
+    <string name="message_sender_text_divider">·</string>
+    <string name="message_sent_by_user_display_name">Bạn</string>
+    <string name="message_sent_from">Từ %s</string>
+    <string name="message_sent_to">Đến %s</string>
+    <string name="message_snippet_font">Roboto</string>
     <string name="message_sound_search_result_tts">Bạn đang nghe %s</string>
     <string name="message_sound_search_result_with_artist_tts" formatted="false">Bạn đang nghe %s của %s</string>
     <string name="mic_fab_content_description">Nhấp để trò chuyện với Trợ lý Google.</string>
@@ -1996,6 +2240,10 @@ Bạn cũng có thể nhận câu trả lời chỉ dành cho bạn! Hãy bắt 
     <string name="mismatching_value_postal_code">Phải phù hợp với địa chỉ</string>
     <string name="mismatching_value_zip_code">Phải phù hợp với địa chỉ</string>
     <string name="momo_tab_description">Tab Google</string>
+    <string name="more">Thêm</string>
+    <string name="more_actions_title">Tác vụ khác</string>
+    <string name="more_contact_apps">Hiển thị thêm ứng dụng liên hệ</string>
+    <string name="more_description">Hiển thị thêm</string>
     <string name="more_info_text">Số liệu thống kê, tin tức và lịch trình</string>
     <string name="more_information">Thông tin khác</string>
     <string name="move_to_empty_cell">Di chuyển đến hàng %1$s cột %2$s</string>
@@ -2026,6 +2274,7 @@ Bạn cũng có thể nhận câu trả lời chỉ dành cho bạn! Hãy bắt 
     <string name="mr_user_route_category_name">Thiết bị</string>
     <string name="msg_disabled_by_admin">Bị tắt bởi quản trị viên của bạn</string>
     <string name="msg_no_phone_permission">%1$s không được phép thực hiện cuộc gọi điện thoại</string>
+    <string name="multi_chip_desc">Xem %1$s từ %2$s.</string>
     <string name="multilingual_promo_content_description">Thay đổi ngôn ngữ tìm kiếm của bạn</string>
     <string name="multilingual_promo_negative_button_text">Không, cảm ơn</string>
     <string name="multilingual_promo_positive_button_text">Thay đổi ngôn ngữ</string>
@@ -2039,6 +2288,13 @@ Bạn cũng có thể nhận câu trả lời chỉ dành cho bạn! Hãy bắt 
     <string name="multiple_transit_lines_limited_service">%1$sDịch vụ hạn chế%2$s trên nhiều tuyến</string>
     <string name="multiple_transit_service_disruptions">Nhiều %1$sgián đoạn%2$s chuyển tuyến</string>
     <string name="multiple_transit_stations_closed">Nhiều %1$sđiểm kết thúc%2$s trạm</string>
+    <string name="music_group_header">Nhạc</string>
+    <string name="my_activity_card_button_text">Chuyển tới Hoạt động của tôi</string>
+    <string name="my_activity_card_button_text_with_search">"Tìm kiếm hoạt động của tôi cho '%s'"</string>
+    <string name="my_activity_card_header">Xem tất cả lịch sử của bạn</string>
+    <string name="my_activity_card_text">"Bạn cần một trang mà bạn đã tìm kiếm cách đây hơn một tuần?
+
+Khám phá và kiểm soát tất cả các tìm kiếm trên Google của bạn và hơn thế nữa trong Hoạt động của tôi."</string>
     <string name="my_flights_query">Chuyến bay của tôi</string>
     <string name="native_search_connection_error">Không thể tải kết quả tìm kiếm</string>
     <string name="nav_suggestion_content_description">Chuyển tới %s.</string>
@@ -2062,7 +2318,11 @@ Bạn cũng có thể nhận câu trả lời chỉ dành cho bạn! Hãy bắt 
     <string name="network_error_try_again">Thử lại</string>
     <string name="network_location_required_text">Để xem các thẻ dựa trên vị trí chẳng hạn như thông tin thời tiết địa phương và giao thông của tuyến đường đi làm, hãy bật vị trí mạng di động và Wi‑Fi</string>
     <string name="network_location_required_text_klp">Để xem thẻ dựa trên vị trí chẳng hạn như thời tiết địa phương và giao thông trên tuyến đường đi làm, hãy chọn chế độ vị trí tiết kiệm pin hoặc độ chính xác cao</string>
+    <string name="never">Không bao giờ</string>
     <string name="nevermind_prompt">Bỏ qua</string>
+    <string name="new_episode">Mới</string>
+    <string name="newest_episodes_footer_title">Tất cả tập mới</string>
+    <string name="newest_episodes_section_title">Các tập mới</string>
     <string name="news_mode_landing_text">Tìm kiếm tin tức</string>
     <string name="next">Tiếp theo</string>
     <string name="nexus_active_edge_settings_dialog_button">Cài đặt Active Edge</string>
@@ -2080,11 +2340,7 @@ Bạn cũng có thể nhận câu trả lời chỉ dành cho bạn! Hãy bắt 
     <string name="nexus_device_google_assistant_title">Trợ lý Google</string>
     <string name="nexus_device_hands_free_preference_title">Cài đặt rảnh tay khác</string>
     <string name="nexus_device_hotword_category_title">Nhận trợ giúp rảnh tay với tính năng Voice Match</string>
-    <string name="nexus_device_hotword_preference_alwayson_summary">Hãy nói \"%1$s\" để truy cập Trợ lý của bạn bất cứ lúc nào</string>
     <string name="nexus_device_hotword_preference_screenon_summary">Hãy nói \"%1$s\" khi màn hình bật để truy cập Trợ lý của bạn bất cứ lúc nào</string>
-    <string name="nexus_device_hotword_preference_title">Phát hiện \"%1$s\"</string>
-    <string name="nexus_device_navigation_popup_message">Bạn vẫn có thể sử dụng tính năng phát hiện \"%1$s\" trong một số ứng dụng hỗ trợ lái xe, chẳng hạn như Google Maps và Android Auto. Bạn có thể tắt tính năng này bất cứ lúc nào trong Cài đặt của các ứng dụng này. %2$s</string>
-    <string name="nexus_device_navigation_popup_settings_link">Cài đặt lái xe</string>
     <string name="nexus_device_navigation_popup_title">Trong khi lái xe</string>
     <string name="nexus_device_use_screen_context_summary">Yêu cầu Google hiển thị thông tin liên quan đến những nội dung trên màn hình khi bạn giữ nút Home hoặc tìm kiếm bằng giọng nói</string>
     <string name="nexus_device_use_screen_context_title">Sử dụng ngữ cảnh trên màn hình</string>
@@ -2102,6 +2358,8 @@ Bạn cũng có thể nhận câu trả lời chỉ dành cho bạn! Hãy bắt 
     <string name="no_cards_greeting_evening">Chào buổi chiều!</string>
     <string name="no_cards_greeting_morning">Chào buổi sáng!</string>
     <string name="no_cards_greeting_night">Chào buổi tối!</string>
+    <string name="no_chip_desc">Xem tất cả kết quả.</string>
+    <string name="no_connection">Không có kết nối</string>
     <string name="no_contact_found">&lt;font color=#9E9E9E>Không thể tìm thấy&lt;/font> %1$s</string>
     <string name="no_contact_found_pick_another_contact">%1$s. không tìm thấy liên hệ nào. Hãy chọn liên hệ khác</string>
     <string name="no_departures_within_the_next_hour">Không có chuyến khởi hành nào trong giờ tiếp theo</string>
@@ -2109,20 +2367,30 @@ Bạn cũng có thể nhận câu trả lời chỉ dành cho bạn! Hãy bắt 
     <string name="no_device_found_explanation">Hãy đảm bảo rằng bạn đã bật Wi-Fi và Trợ lý cũng như các thiết bị %1$s của bạn đang ở trên cùng một mạng, sau đó thử lại</string>
     <string name="no_device_found_generic_explanation">Hãy đảm bảo rằng bạn đã bật Wi-Fi và Trợ lý cũng như các thiết bị của bạn đang ở trên cùng một mạng, sau đó thử lại</string>
     <string name="no_device_found_title">Không tìm thấy thiết bị</string>
+    <string name="no_downloaded_episodes">Không có tập đã tải xuống</string>
     <string name="no_email_guests_intent">Cần có ứng dụng Lịch Google để gửi email cho khách</string>
     <string name="no_info">—</string>
     <string name="no_installable_language_packs">Không có bản tải xuống ngôn ngữ nào cho thiết bị của bạn</string>
     <string name="no_installed_language_packs">Không ngôn ngữ nào được cài đặt</string>
     <string name="no_internet_connection">Không thể truy cập nguồn cấp dữ liệu của bạn vào lúc này</string>
     <string name="no_internet_connection_hq">Không thể truy cập Google vào lúc này</string>
+    <string name="no_longer_available">KHÔNG XEM ĐƯỢC NỮA</string>
     <string name="no_match">Không tìm thấy nội dung nào phù hợp. Thử nói lại.</string>
     <string name="no_matches_offline_mode">Hiện không thể kết nối với Google. Bạn vẫn có thể sử dụng micrô để thực hiện cuộc gọi. Nói \"Gọi\" và tên hoặc số điện thoại.</string>
     <string name="no_matches_offline_mode_explanation">Bạn vẫn có thể sử dụng micrô để thực hiện cuộc gọi. Nói \"Gọi\" và tên hoặc số điện thoại.</string>
     <string name="no_matches_offline_mode_title">Không thể truy cập Google vào lúc này.</string>
     <string name="no_matching_results">Không có kết quả phù hợp</string>
+    <string name="no_newest_episodes">No new episodes</string>
     <string name="no_option_selected_content_description">Vui lòng chọn lý do báo cáo mục này trước khi gửi phản hồi. Nút Gửi.</string>
+    <string name="no_personal_content_ipa">Không tìm thấy nội dung cá nhân nào</string>
+    <string name="no_podcasts_found">Không tìm thấy podcast nào</string>
+    <string name="no_recently_played_episodes">No recently played episodes</string>
+    <string name="no_results_found">Không tìm thấy kết quả nào</string>
+    <string name="no_results_found_link">XEM KẾT QUẢ CÁ NHÂN KHÁC</string>
     <string name="no_results_found_status">Không thể tìm thấy kết quả phù hợp</string>
     <string name="no_results_interest">Không có kết quả.</string>
+    <string name="no_results_snippet">Tìm kiếm của bạn không khớp với bất kỳ nội dung cá nhân nào</string>
+    <string name="no_screenshot_available">Không có ảnh chụp màn hình nào</string>
     <string name="no_speech_tts">Nếu bạn vừa nói điều gì đó, tôi không nghe thấy.</string>
     <string name="no_suggestions_shown">Không có đề xuất nào.</string>
     <string name="no_url_handler">Không tìm thấy ứng dụng nào để mở URL</string>
@@ -2139,6 +2407,8 @@ Bạn cũng có thể nhận câu trả lời chỉ dành cho bạn! Hãy bắt 
     <string name="notification_cancel_title">Đã hủy tìm kiếm</string>
     <string name="notification_set_text">Bạn sẽ được thông báo khi kết quả đã sẵn sàng.</string>
     <string name="notification_set_title">Đã đặt cảnh báo</string>
+    <string name="notification_subtext">Trận đấu đã ghim</string>
+    <string name="notification_title">%1$s đấu với %2$s</string>
     <string name="notifications_enabled_header">Thông báo</string>
     <string name="notifications_ringtone_setting">Nhạc chuông</string>
     <string name="notifications_vibrate_title">Rung</string>
@@ -2191,6 +2461,7 @@ Bạn cũng có thể nhận câu trả lời chỉ dành cho bạn! Hãy bắt 
     <string name="offline_error_card_title_text_no_signal">Không có tín hiệu</string>
     <string name="offline_error_card_title_text_no_sim_card">Không tìm thấy thẻ SIM</string>
     <string name="offline_error_card_title_text_sim_card_error">Lỗi thẻ SIM</string>
+    <string name="offline_error_title">Bạn đang ngoại tuyến</string>
     <string name="offline_eyesfree_install_language_pack_notification_body">Nâng cấp gói ngôn ngữ của bạn.</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">Bật tính năng giọng nói ngoại tuyến</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">Bạn đang ngoại tuyến. Để tiếp tục sử dụng giọng nói khi ngoại tuyến, bạn cần cài đặt gói ngôn ngữ mới nhất. Khi bạn thấy an toàn để sử dụng màn hình, hãy nhấn vào thông báo để thực hiện việc đó.</string>
@@ -2211,6 +2482,7 @@ Bạn cũng có thể nhận câu trả lời chỉ dành cho bạn! Hãy bắt 
     <string name="offline_options_start_hotword_disabled">Bạn vẫn có thể chạm micrô rồi nói</string>
     <string name="offline_searchbox_hint">“%%s... %s”</string>
     <string name="offline_voice_actions_error">Tác vụ thoại ngoại tuyến không khả dụng.</string>
+    <string name="ok">OK</string>
     <string name="ok_prompt">OK</string>
     <string name="omniconsent_action_button_scroll">Thêm</string>
     <string name="omniconsent_confirm_partial_experience_action_button_text">Tiếp tục</string>
@@ -2248,9 +2520,12 @@ Bạn cũng có thể nhận câu trả lời chỉ dành cho bạn! Hãy bắt 
     <string name="opa_assistant_logo_content_description">Tìm kiếm bằng giọng nói</string>
     <string name="opa_consent_check_error_button">ĐÓNG</string>
     <string name="opa_consent_check_error_button_notavailable">CHUYỂN ĐỔI TÀI KHOẢN</string>
-    <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">Trợ lý Google chỉ có thể cung cấp những tính năng như kết quả trên web, thời tiết, truyện cười và thông tin địa phương.</string>
+    <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">Bạn chỉ có thể sử dụng Trợ lý cho những nội dung như kết quả trên web, truyện cười và thông tin địa phương.</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_text">Không, cảm ơn</string>
-    <string name="opa_consent_check_error_confirmreject_personalize_radio_content">Trợ lý cần quyền truy cập vào Hoạt động web và ứng dụng, Thông tin thiết bị và Hoạt động âm thanh và giọng nói để trợ giúp bạn về lịch, lời nhắc, tuyến đường đi làm, chuyến bay, đơn đặt hàng và nhiều nội dung khác.</string>
+    <string name="opa_consent_check_error_confirmreject_personalize_radio_button_show_less">Ẩn bớt</string>
+    <string name="opa_consent_check_error_confirmreject_personalize_radio_button_show_more">Hiển thị thêm</string>
+    <string name="opa_consent_check_error_confirmreject_personalize_radio_content">Trợ lý sẽ cần truy cập vào mục cài đặt Hoạt động web và ứng dụng, Thông tin thiết bị cũng như Hoạt động giọng nói và âm thanh để trợ giúp bạn về lịch, lời nhắc, chuyến bay, v.v.</string>
+    <string name="opa_consent_check_error_confirmreject_personalize_radio_content_expanded">Lưu ý: Dữ liệu mà các mục cài đặt này kiểm soát có thể được lưu và sử dụng trong bất kỳ dịch vụ Google nào mà bạn đã đăng nhập để mang lại cho bạn trải nghiệm cá nhân hóa và các quảng cáo hữu ích. Bạn có thể xem dữ liệu, xóa dữ liệu và thay đổi các mục cài đặt của mình tại account.google.com.</string>
     <string name="opa_consent_check_error_confirmreject_personalize_radio_text">Có, tôi đồng ý</string>
     <string name="opa_consent_check_error_learn_more_link_target_notavailable">https://support.google.com/assistant/?p=gsuite</string>
     <string name="opa_consent_check_error_message">Trợ lý đang gặp phải sự cố khi kiểm tra các quyền Kiểm soát hoạt động của bạn. Hãy thử lại sau.</string>
@@ -2259,7 +2534,7 @@ Bạn cũng có thể nhận câu trả lời chỉ dành cho bạn! Hãy bắt 
     <string name="opa_consent_check_error_message_notavailable">Trợ lý Google cần các quyền Kiểm soát hoạt động mà quản trị viên thiết bị của bạn đã hạn chế trên tài khoản này. Bạn hãy kiểm tra với quản trị viên của mình hoặc chuyển đổi tài khoản và thử lại.</string>
     <string name="opa_consent_check_error_title">Đã xảy ra lỗi</string>
     <string name="opa_consent_check_error_title_autherror">Không thể xác thực tài khoản của bạn</string>
-    <string name="opa_consent_check_error_title_confirmreject">Cấp các quyền này để cải thiện trải nghiệm của bạn</string>
+    <string name="opa_consent_check_error_title_confirmreject">Hoàn thành các mục cài đặt này để tận hưởng mọi tính năng của Trợ lý</string>
     <string name="opa_consent_check_error_title_notavailable">Trợ lý Google không khả dụng cho tài khoản này</string>
     <string name="opa_consent_error_timeout_message">Đã xảy ra lỗi mạng. Hãy kiểm tra kết nối của bạn và thử lại.</string>
     <string name="opa_contextual_cards_found_message">Dưới đây là một số thông tin liên quan đến màn hình này:</string>
@@ -2279,9 +2554,11 @@ Xóa khỏi lịch sử Trợ lý sẽ không ảnh hưởng đến giao dịch 
     <string name="opa_disabled_no_button">Hủy</string>
     <string name="opa_disabled_title">Bật Trợ lý của bạn</string>
     <string name="opa_dismiss_message">Kéo để loại bỏ</string>
+    <string name="opa_email_optin_screen_add_shortcut_explanation">Truy cập dễ dàng vào Trợ lý của bạn</string>
     <string name="opa_email_optin_screen_confirm">Xong</string>
     <string name="opa_email_optin_screen_explanation">Luôn cập nhật email về các tính năng mới nhất và những việc Trợ lý của bạn có thể thực hiện</string>
     <string name="opa_email_optin_screen_next">Tiếp theo</string>
+    <string name="opa_email_optin_screen_sub_toggle_explanation">Thêm Trợ lý vào màn hình chính</string>
     <string name="opa_email_optin_screen_title">Khai thác tối đa Trợ lý Google của bạn</string>
     <string name="opa_email_optin_screen_toggle_explanation">Nhận email với các mẹo mới nhất</string>
     <string name="opa_email_optin_screen_unsubscribe">Bạn có thể hủy đăng ký bất cứ lúc nào bằng cách quản lý các tùy chọn email của mình trong ứng dụng. Google Inc., 1600 Amphitheatre Parkway, Mountain View CA 94043 www.google.com</string>
@@ -2319,8 +2596,10 @@ Xóa khỏi lịch sử Trợ lý sẽ không ảnh hưởng đến giao dịch 
     <string name="opa_eyes_free_udc_opt_in_notification_title">Cấp cho Trợ lý Google quyền trợ giúp bạn</string>
     <string name="opa_eyes_warm_welcome_chip_text">Nhấn để tiếp tục</string>
     <string name="opa_first_screen_hotword_transition_cancel_button_text">Để sau</string>
+    <string name="opa_first_screen_hotword_transition_confirm_agree_button_text">Tôi đồng ý</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text">BẮT ĐẦU</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text_sentence_case">Bắt đầu</string>
+    <string name="opa_first_screen_hotword_transition_no_thanks_button_text">Không, cảm ơn</string>
     <string name="opa_first_screen_hotword_transition_screen_context_pickup_confirm_button_text">XONG</string>
     <string name="opa_first_screen_hotword_transition_screen_context_pickup_confirm_button_text_sentence_case">Xong</string>
     <string name="opa_first_screen_hotword_transition_screen_context_pickup_explanation">Trợ lý có thể cung cấp cho bạn nhiều đề xuất phù hợp hơn và các tác vụ cụ thể liên quan đến nội dung trên màn hình của bạn. Bạn có thể thay đổi cài đặt này trong cài đặt Trợ lý.</string>
@@ -2329,11 +2608,15 @@ Xóa khỏi lịch sử Trợ lý sẽ không ảnh hưởng đến giao dịch 
     <string name="opa_first_screen_hotword_transition_skip_button_text">Bỏ qua</string>
     <string name="opa_first_screen_hotword_transition_summary">Nói \"%1$s\" để trò chuyện với Trợ lý bất cứ lúc nào: ngay cả khi màn hình tắt hay bạn đang sử dụng các ứng dụng yêu thích.</string>
     <string name="opa_first_screen_hotword_transition_summary_no_dsp">Nói \"%1$s\" để trò chuyện với Trợ lý của bạn bất cứ lúc nào miễn là màn hình của bạn bật.</string>
+    <string name="opa_first_screen_hotword_transition_summary_short">Tính năng Voice Match nói cho phép bạn truy cập trực tiếp vào ứng dụng Trợ lý bằng cách sử dụng giọng nói của mình, kể cả khi màn hình đang tắt.</string>
     <string name="opa_first_screen_hotword_transition_summary_short_no_dsp">Tính năng Voice Match cho phép bạn truy cập trực tiếp vào ứng dụng Trợ lý bằng giọng nói của mình.</string>
     <string name="opa_first_screen_hotword_transition_title">Truy cập vào Trợ lý của bạn bằng tính năng Voice Match</string>
     <string name="opa_first_screen_tgoogle_summary">Bạn sẽ có thể truy cập ngay vào Trợ lý của mình bằng cách nói \"%1$s\"</string>
     <string name="opa_first_screen_tgoogle_title">Hướng dẫn Trợ lý của bạn nhận dạng \"%1$s\"</string>
     <string name="opa_fix_user_recoverable_error">KHẮC PHỤC</string>
+    <string name="opa_gdpr_footer">"Một mẫu giọng nói duy nhất của bạn sẽ được tạo trên thiết bị này để giúp Trợ lý nhận dạng được bạn và phân biệt bạn với những người khác. 
+
+"<b>Xin lưu ý:</b> Một giọng nói hoặc bản ghi âm tương tự cũng có thể truy cập vào Trợ lý của bạn. Bạn có thể xóa quyền truy cập vào Voice Match bằng cách tắt quyền này trong mục cài đặt Trợ lý.</string>
     <string name="opa_gearhead_opt_in_notification_body">Khi lái xe, bạn có thể sử dụng giọng nói của mình để nói chuyện với Trợ lý Google</string>
     <string name="opa_gearhead_opt_in_notification_title">Sử dụng Trợ lý Google trong khi lái xe</string>
     <string name="opa_gearhead_opt_in_speech">Khi thấy an toàn, trước tiên bạn sẽ cần phải nhấn vào thông báo. Sau đó, bạn có thể sử dụng Trợ lý Google trong khi lái xe.</string>
@@ -2375,7 +2658,7 @@ từ"</string>
     <string name="opa_marketplace_disclosure_google_partners_description">Đối tác Google là các doanh nghiệp có quan hệ thương mại với Google. Trợ lý Google của bạn có thể làm việc với đối tác Google để giúp bạn hoàn thành mọi việc, cho dù là mua vé xem phim hay sửa bồn rửa. <a href="https://support.google.com/assistant/?p=google_partners">Tìm hiểu thêm</a></string>
     <string name="opa_marketplace_disclosure_google_partners_short_description">Đối tác Google là các doanh nghiệp có quan hệ thương mại với Google.</string>
     <string name="opa_marketplace_disclosure_google_partners_title">Đối tác Google</string>
-    <string name="opa_marketplace_disclosure_service_additional_text">"Bằng cách đó, các dịch vụ vẫn có thể nhớ những nội dung như sở thích của bạn trong khi trò chuyện. Bạn có thể xem và quản lý các cuộc trò chuyện này trong phần &lt;a href=https://myactivity.google.com/>Hoạt động của tôi&lt;/a> trong cài đặt Tài khoản Google. Bạn cũng có thể đặt lại mã cho từng dịch vụ bằng tùy chọn 'Không nhớ cuộc trò chuyện của tôi' trong cài đặt Trợ lý Google."</string>
+    <string name="opa_marketplace_disclosure_service_additional_text">Bằng cách đó, các dịch vụ có thể nhớ những thông tin như tùy chọn của bạn trong các cuộc trò chuyện. Bạn có thể xem, quản lý và đặt lại dữ liệu được gửi tới các dịch vụ trên trang của từng dịch vụ trong phần Khám phá của ứng dụng này. &lt;a href=https://support.google.com/assistant/?p=reset_id>Tìm hiểu thêm&lt;/a></string>
     <string name="opa_marketplace_disclosure_service_short_description">Google sẽ gửi một mã duy nhất tới các dịch vụ mà bạn trò chuyện.</string>
     <string name="opa_marketplace_disclosure_service_title">Dịch vụ và quyền riêng tư của bạn</string>
     <string name="opa_marketplace_disclosure_title">Khai thác thêm sức mạnh của Trợ lý</string>
@@ -2384,6 +2667,12 @@ từ"</string>
     <string name="opa_music_search_suggestion_chip_title">Bài hát gì đây?</string>
     <string name="opa_my_day_query">Nói cho tôi biết về ngày của tôi</string>
     <string name="opa_notification_channel_group_title">Trợ lý</string>
+    <string name="opa_notification_channel_handoff_description">Các thông báo cho phép bạn hoàn tất hành động trên thiết bị khác</string>
+    <string name="opa_notification_channel_handoff_title">Bàn giao</string>
+    <string name="opa_notification_channel_misc_description">Nhiều thông báo khác</string>
+    <string name="opa_notification_channel_misc_title">Khác</string>
+    <string name="opa_notification_channel_proactive_description">Nội dung cập nhật liên quan đến vị trí và hoạt động của bạn</string>
+    <string name="opa_notification_channel_proactive_title">Chủ động</string>
     <string name="opa_notification_channel_recommendations_description">Các tính năng và hành động mà bạn có thể thích theo sở thích của bạn</string>
     <string name="opa_notification_channel_recommendations_title">Đề xuất</string>
     <string name="opa_notification_channel_third_party_description">Thông báo từ các dịch vụ không phải của Google mà bạn sử dụng với Trợ lý</string>
@@ -2433,7 +2722,6 @@ từ"</string>
     <string name="opa_unlock_device_for_response">Mở khóa để tiếp tục...</string>
     <string name="opa_upgrade_promo_tooltip_text">Giữ nút Home</string>
     <string name="opa_value_proposition_cancel">Không, cảm ơn</string>
-    <string name="opa_value_proposition_continue">TIẾP TỤC</string>
     <string name="opa_value_proposition_message_1p">Hãy đặt câu hỏi cho Google Tìm kiếm. Yêu cầu Google Tìm kiếm thực hiện một số việc. Đó là Google cá nhân của riêng bạn, luôn sẵn sàng trợ giúp.</string>
     <string name="opa_value_proposition_message_title">Làm quen với Trợ lý Google</string>
     <string name="opa_value_proposition_next">Tiếp theo</string>
@@ -2460,6 +2748,7 @@ từ"</string>
     <string name="opa_wuwa_notification_action_stop">DỪNG</string>
     <string name="opa_wuwa_notification_content">Báo thức lúc %1$s</string>
     <string name="opa_wuwa_offline_notification_content">Trợ lý của bạn không thể chạy quy trình này khi bạn ngoại tuyến.</string>
+    <string name="opa_zero_state_hint_text">Vuốt để xem thêm</string>
     <string name="open_app_template">Mở %s</string>
     <string name="open_in_google_translate">Mở trong Google Dịch</string>
     <string name="open_in_inbox">MỞ TRONG INBOX</string>
@@ -2505,11 +2794,15 @@ từ"</string>
     <string name="or_list_end">%1$s hoặc %2$s</string>
     <string name="or_list_middle">%1$s, %2$s</string>
     <string name="or_list_start">%1$s, %2$s</string>
+    <string name="order_group_header">Đơn đặt hàng</string>
     <string name="order_history_title">Đơn đặt hàng</string>
     <string name="order_not_found_snackbar_message">Không tìm thấy đơn đặt hàng.</string>
     <string name="other_comment">Lý do (Bắt buộc)</string>
+    <string name="other_group_header">Khác</string>
     <string name="other_reason_not_fill_in_content_description">Vui lòng cung cấp lý do khác khiến bạn báo cáo mục này trước khi gửi phản hồi. Nút Gửi.</string>
+    <string name="out_for_delivery">Đang được giao</string>
     <string name="out_of_space">Không còn chỗ trên Màn hình chính này.</string>
+    <string name="overflow_menu_desc">Tùy chọn khác</string>
     <string name="overtime">Hiệp bù giờ</string>
     <string name="package_location">Vị trí</string>
     <string name="package_pickup_location">Vị trí nhận hàng</string>
@@ -2517,6 +2810,8 @@ từ"</string>
     <string name="package_status">Gói hàng: %1$s</string>
     <string name="package_tracking_card_title">Gói</string>
     <string name="paid">đã thanh toán</string>
+    <string name="past_event_group_header">Trước đây</string>
+    <string name="pause">Tạm dừng</string>
     <string name="pay">Thanh toán</string>
     <string name="pay_site">Thanh toán tại %1$s</string>
     <string name="payments_auth_cancel">Hủy</string>
@@ -2540,11 +2835,14 @@ từ"</string>
     <string name="payments_auth_too_many_fingerprint_retries_should_use_password">Quá nhiều lần thử. Hãy nhập mật khẩu để thay thế.</string>
     <string name="payments_auth_unknown_fingerprint_error">Lỗi khi sử dụng vân tay, vui lòng nhập mật khẩu Google của bạn để tiếp tục.</string>
     <string name="payments_auth_use_fingerprint_checkbox_hint">Hãy sử dụng vân tay để phê duyệt trong tương lai</string>
+    <string name="penalties">Phạt đền</string>
     <string name="pending_searches">Tìm kiếm đang chờ xử lý</string>
     <string name="permdesc_install_shortcut">Cho phép ứng dụng thêm lối tắt mà không cần sự can thiệp của người dùng.</string>
     <string name="permdesc_read_settings">Cho phép ứng dụng đọc cài đặt và lối tắt trên Màn hình chính.</string>
     <string name="permdesc_write_settings">Cho phép ứng dụng thay đổi cài đặt và lối tắt trên Màn hình chính.</string>
     <string name="permission_error">Chúng tôi cần bạn cho phép sử dụng micrô</string>
+    <string name="permission_error_l">Google App không được phép tìm kiếm nội dung trên thiết bị.</string>
+    <string name="permission_error_m">Google App không được phép tìm kiếm nội dung trên thiết bị. Vui lòng cấp cho Google App quyền truy cập Danh bạ và SMS.</string>
     <string name="permission_required_action_notification_body">Bạn cần phải cho phép ứng dụng này</string>
     <string name="permission_required_action_notification_title">Google</string>
     <string name="permission_required_continue_button">Tiếp tục</string>
@@ -2573,6 +2871,7 @@ từ"</string>
     <string name="person_select_item_hangouts_app_name">Hangouts</string>
     <string name="person_select_item_secondary_text_delimiter">", "</string>
     <string name="person_select_item_sms_app_name">SMS</string>
+    <string name="personal_info_and_suggestions_learn_more">Tìm hiểu thêm</string>
     <string name="personal_mode_landing_text">Tìm kiếm nội dung cá nhân</string>
     <string name="personal_results_action_button">Cho phép</string>
     <string name="personal_results_cancel_button">Bỏ qua</string>
@@ -2621,6 +2920,7 @@ Bạn có thể tắt kết quả cá nhân trong cài đặt Trợ lý hoặc F
     <string name="phone_endpoint_type_disambig_timeout_2_eyes_free_tts">Không nghe thấy. Số điện thoại nào? %2$s hoặc nói \"%1$s\".</string>
     <string name="phone_endpoint_type_disambig_timeout_last_eyes_free_tts">Vẫn không nghe thấy. %3$s.</string>
     <string name="photo_details">Chi tiết ảnh</string>
+    <string name="photo_group_header">Ảnh</string>
     <string name="photo_spot_nearby">Điểm chụp ảnh lân cận</string>
     <string name="photo_view_count" formatted="false">%d trong số %d</string>
     <string name="pick_duration_complete">Xong</string>
@@ -2631,13 +2931,22 @@ Bạn có thể tắt kết quả cá nhân trong cài đặt Trợ lý hoặc F
     <string name="pixel_doodle_settings_title">Hiệu ứng Hộp tìm kiếm</string>
     <string name="place_autocomplete_clear_button">Xóa tìm kiếm</string>
     <string name="place_autocomplete_search_hint">Tìm kiếm</string>
+    <string name="place_group_header">Địa điểm</string>
     <string name="places_deletion_message">Để xóa địa điểm này, bạn cần phải xóa địa điểm khỏi các địa điểm riêng tư đã lưu của mình. Nhấp vào Tìm hiểu thêm để quản lý các địa điểm của bạn.</string>
+    <string name="play">Phát</string>
     <string name="play_by_play">Phát liên tiếp</string>
     <string name="play_folder_name">Play</string>
     <string name="play_sample">Phát mẫu</string>
+    <string name="play_this_episode">Phát tập này</string>
     <string name="play_video">Phát video</string>
     <string name="play_video_icon">Phát video.</string>
+    <string name="playback_error_cancel">Hủy</string>
+    <string name="playback_error_retry">Thử lại</string>
+    <string name="playback_error_title">Không thể phát tập được yêu cầu</string>
+    <string name="playback_panel_error">Không thể phát</string>
+    <string name="playback_status_buffering">Đang lưu tạm vào bộ đệm...</string>
     <string name="please_select">Vui lòng chọn</string>
+    <string name="podcasts">Podcast</string>
     <string name="pomo_tab_description">Tab đối tác khác</string>
     <string name="popup_new_content">Nhấn để cập nhật</string>
     <string name="predictive_cards">Nguồn cấp dữ liệu của bạn</string>
@@ -2649,7 +2958,7 @@ Bạn có thể tắt kết quả cá nhân trong cài đặt Trợ lý hoặc F
     <string name="prefSummary_embeddedTranscription">Tắt bố cục đã nhúng</string>
     <string name="prefSummary_inputModeTyping">Bàn phím</string>
     <string name="prefSummary_inputModeVoice">Giọng nói</string>
-    <string name="prefSummary_profanityFilter">Ẩn kết quả lời nói xúc phạm</string>
+    <string name="prefSummary_profanityFilter">Ẩn kết quả lời nói xúc phạm nhận dạng được</string>
     <string name="prefSummary_ttsModeHandsFreeOnly">Chỉ khi rảnh tay</string>
     <string name="prefSummary_ttsModeOn">Bật</string>
     <string name="prefTitle_assistant_speaker_id_devices">Thêm thiết bị</string>
@@ -2685,6 +2994,7 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="preinstalled_details">Phiên bản %1$s được cài đặt trước, dung lượng trên đĩa %2$s</string>
     <string name="previous_balance">Số dư trước</string>
     <string name="price_and_percent_variation">%1$s (%2$s)</string>
+    <string name="price_range_separator">·</string>
     <string name="priority_notifications_description">Khi các thông báo của bạn có mức độ ưu tiên cao, điện thoại sẽ thông báo cho bạn dựa trên cài đặt thông báo ưu tiên của bạn</string>
     <string name="priority_notifications_preferences_category">Thông báo ưu tiên</string>
     <string name="problem_occurred_while_loading_cards">Đã xảy ra sự cố khi tải thẻ</string>
@@ -2698,6 +3008,7 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="qp_hotel_reservation_number">Số đặt trước</string>
     <string name="qp_movie_watch_trailer">Xem đoạn giới thiệu phim</string>
     <string name="qp_precip">Mưa %1$s</string>
+    <string name="qp_precip_today">%1$s hôm nay</string>
     <string name="qp_restaurant_reservation_date">Ngày</string>
     <string name="qp_restaurant_reservation_time">Thời gian</string>
     <string name="qp_soccer_time">Phút %1$d</string>
@@ -2716,14 +3027,79 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="qp_weather_unit_abbrev_fahrenheit">F</string>
     <string name="qp_wind_speed">Gió %1$d%2$s</string>
     <string name="qpf_label">Dự báo lượng mưa: %s</string>
+    <string name="query_desc">Truy vấn: %s.</string>
+    <string name="query_people_group_header">Danh bạ</string>
     <string name="query_suggestion_content_description">Tìm kiếm %s.</string>
+    <string name="quoted_query">\"%1$s\"</string>
     <string name="rating_accessible">Rating: %1$s ngôi sao</string>
     <string name="rating_source_imdb">IMDb</string>
     <string name="reached_max_locations_removal_dialog_title">Bạn có thể lưu tối đa 8 vị trí. Để lưu vị trí mới, hãy xóa một vị trí.</string>
     <string name="reaction_close">Đóng cửa sổ phản ứng bật lên</string>
     <string name="reaction_text_less">Bớt</string>
     <string name="reaction_text_more">Thêm</string>
+    <string name="recent_docs_group_header">Tài liệu gần đây</string>
+    <string name="recent_group_header">Hoạt động gần đây</string>
+    <string name="recent_music_group_header">Bản nhạc gần đây</string>
+    <string name="recent_myactivity">Hoạt động của tôi</string>
+    <string name="recent_onboarding">Hướng dẫn</string>
+    <string name="recent_screenshot_category">Ảnh chụp màn hình</string>
+    <string name="recent_screenshot_title_prefix">Ảnh chụp màn hình cho</string>
+    <string name="recent_search_result_url">google.com.vn</string>
+    <string name="recent_settings">Cài đặt</string>
+    <string name="recent_srp_category">Kết quả tìm kiếm</string>
+    <string name="recent_srp_title_prefix">Kết quả tìm kiếm cho</string>
+    <string name="recent_unknown_category">Không xác định</string>
+    <string name="recent_video_group_header">Video gần đây</string>
+    <string name="recent_web_history_group_header">Trang web gần đây</string>
+    <string name="recent_webpage_category">Trang web</string>
     <string name="recently">Gần đây</string>
+    <string name="recently_app_name">Gần đây</string>
+    <string name="recently_disabled_card_button_text">Đi đến cài đặt</string>
+    <string name="recently_disabled_card_header">Theo dõi lịch sử gần đây của bạn</string>
+    <string name="recently_disabled_card_text">Hãy bật tính năng Gần đây trong Cài đặt để ghi lại các trang mà bạn đã truy cập và tìm nhanh các trang này sau đó.</string>
+    <string name="recently_entry_interaction_offline">Không thể mở trang được yêu cầu khi ngoại tuyến.</string>
+    <string name="recently_feed_entry">Nguồn cấp dữ liệu</string>
+    <string name="recently_onboarding_compare_message">Bạn không thể quyết định sẽ mua gì? So sánh các tùy chọn mà bạn đã tìm thấy cạnh nhau.</string>
+    <string name="recently_onboarding_compare_title">So sánh</string>
+    <string name="recently_onboarding_find_that_page_message">Bạn muốn tìm công thức nấu ăn, bài viết hoặc trang web đó cách đây một vài ngày? Tiết kiệm thời gian tìm kiếm và tìm nội dung đó ở đây trước tiên.</string>
+    <string name="recently_onboarding_find_that_page_title">Tìm trang đó</string>
+    <string name="recently_onboarding_query">Giới thiệu về Gần đây</string>
+    <string name="recently_onboarding_recent_message">"Khám phá lại những chủ đề bạn đã tìm kiếm gần đây trong ứng dụng Google.
+
+Mở nhóm trang này để xem nội dung khác."</string>
+    <string name="recently_onboarding_recent_message_2">"Khám phá lại những chủ đề bạn đã tìm kiếm gần đây trong ứng dụng Google.
+
+Bạn có thể đóng nhóm bằng thao tác chụm."</string>
+    <string name="recently_onboarding_recent_title">Xem nội dung bạn đã tìm</string>
+    <string name="recently_onboarding_search_on_message">"Các trang ở đây là những trang bạn đã thấy trên thiết bị này. Các trang từ cùng một tìm kiếm sẽ được nhóm lại cùng nhau với trang mới nhất ở vị trí đầu tiên.
+
+Tiếp tục tìm kiếm và khám phá lại các tìm kiếm của bạn tại đây."</string>
+    <string name="recently_onboarding_search_on_title">Tìm kiếm trên</string>
+    <string name="recently_onboarding_swipe_up_message">"Bạn muốn xóa các trang gần đây? Chỉ cần vuốt lên để xóa.
+
+Thao tác này sẽ không xóa các trang đó khỏi Tài khoản Google của bạn."</string>
+    <string name="recently_onboarding_swipe_up_title">Vuốt lên</string>
+    <string name="recently_removed_item_dialog_message">"Tìm kiếm của bạn chỉ bị xóa khỏi thiết bị này. Bạn có thể quản lý Lịch sử trên Google của mình trong Hoạt động của tôi.
+
+"<a href="http://myactivity.google.com">myactivity.google.com</a></string>
+    <string name="recently_removed_item_dialog_ok">OK</string>
+    <string name="recently_removed_item_dialog_title">Đã xóa khỏi các trang gần đây</string>
+    <string name="recently_search_history_authenticating_cancel">Hủy</string>
+    <string name="recently_search_history_authenticating_message">Đang đăng nhập với tên %1$s...</string>
+    <string name="recently_search_history_authenticating_title">Đang đăng nhập</string>
+    <string name="recently_sharebear_subtitle">Ảnh chụp màn hình</string>
+    <string name="recently_simple_onboarding_pinch_message">Mẹo: Các nhóm sẽ đóng khi bạn cuộn qua chúng</string>
+    <string name="recently_simple_onboarding_pinch_title">Chụm để đóng nhóm</string>
+    <string name="recently_simple_onboarding_recent_message">Mở nhóm trang này để xem thêm</string>
+    <string name="recently_simple_onboarding_recent_message_2">Mẹo: Mọi thứ bạn tìm kiếm sẽ chờ bạn</string>
+    <string name="recently_simple_onboarding_recent_title">Xem nội dung bạn đã tìm</string>
+    <string name="recently_simple_onboarding_swipe_up_message">Mẹo: Thao tác này sẽ không xóa chúng khỏi tài khoản Google của bạn</string>
+    <string name="recently_simple_onboarding_swipe_up_title">Vuốt lên để xóa</string>
+    <string name="recently_timeline_days_ago">%d ngày trước</string>
+    <string name="recently_timeline_just_now">Vừa xong</string>
+    <string name="recently_timeline_yesterday">Hôm qua</string>
+    <string name="recents_result_group_header">Web</string>
+    <string name="recents_result_separate_group_header">Tìm kiếm gần đây</string>
     <string name="recognizer_service_label">Nh.dạng cơ bản của Google</string>
     <string name="reconnecting_loading_results">"Đang tải kết quả của bạn
 "</string>
@@ -2741,6 +3117,7 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="regular_app_suggestion_message">Đây là một ứng dụng có liên quan đến nội dung bạn đang nhập.</string>
     <string name="regular_query_suggestion_message">Thuật ngữ này có liên quan đến nội dung bạn đang nhập.</string>
     <string name="regular_url_suggestion_message">Đây là một trang web có liên quan đến nội dung bạn đang nhập.</string>
+    <string name="reject_storage_permission">Để sau</string>
     <string name="relationship_removal_dialog_message" formatted="false">Biệt hiệu \"%s\" sẽ không được gán cho %s nữa</string>
     <string name="relationship_removal_dialog_negative_button_text">Hủy</string>
     <string name="relationship_removal_dialog_positive_button_text">Xóa</string>
@@ -2781,15 +3158,23 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="reminders_watch">XEM</string>
     <string name="reminders_work">Cơ quan</string>
     <string name="remove">Xóa</string>
+    <string name="remove_all">Xóa tất cả</string>
     <string name="remove_button_text">Xóa</string>
+    <string name="remove_completed_episodes">Xóa các tập đã nghe hết</string>
+    <string name="remove_downloaded_episode">Xóa tập đã tải xuống</string>
     <string name="remove_from_history_failed">Không thể xóa mục khỏi lịch sử.</string>
     <string name="remove_pnav_title">Xóa URL khỏi lịch sử của bạn?</string>
     <string name="remove_psuggest_message">Trước đây bạn đã tìm kiếm nội dung này. Việc xóa &lt;b>%s&lt;/b> khỏi lịch sử sẽ xóa vĩnh viễn truy vấn đó khỏi tài khoản của bạn trên tất cả các thiết bị</string>
     <string name="remove_psuggest_title">Xóa tìm kiếm này khỏi lịch sử của bạn?</string>
+    <string name="remove_unfinished_episodes">Xóa các tập chưa nghe hết</string>
     <string name="remove_url_history_message">Đây là URL mà bạn đã truy cập trước đó có liên quan đến nội dung bạn đang nhập. Xóa URL này sẽ loại bỏ nó khỏi tài khoản của bạn trên tất cả các thiết bị.</string>
     <string name="renter_name">Tên</string>
     <string name="report_other_reason">Khác</string>
     <string name="report_this">Báo cáo thông tin này</string>
+    <string name="request_storage_message">Để tải các tập xuống, hãy cho phép ứng dụng truy cập vào bộ nhớ trên thiết bị của bạn</string>
+    <string name="request_storage_permission_dialog_message">Để tải các tập xuống, Google cần có quyền truy cập vào bộ nhớ trên thiết bị của bạn</string>
+    <string name="request_storage_permission_dialog_title">Cho phép truy cập bộ nhớ</string>
+    <string name="reservation_group_header">Chỗ đặt trước</string>
     <string name="reset">Đặt lại</string>
     <string name="reset_now_preferences">Đặt lại tùy chọn nguồn cấp dữ liệu?</string>
     <string name="reset_now_preferences_summary">Bạn có chắc chắn muốn đặt lại tùy chọn nguồn cấp dữ liệu của mình không?</string>
@@ -2802,9 +3187,13 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="results_from_ago">Kết quả từ %1$s trước</string>
     <string name="retry">Thử lại</string>
     <string name="retry_button_text">Thử lại</string>
+    <string name="retry_failed_download">Thử tải xuống lại</string>
+    <string name="returned">Đã trả lại</string>
+    <string name="review_count_text">(%d)</string>
     <string name="review_feedback_menu">menu mục bổ sung để đánh dấu là spam hoặc không phù hợp</string>
     <string name="reviewer_avatar">Ảnh hồ sơ của người đánh giá</string>
     <string name="reviewer_comment_date">Đã đánh giá vào %1$s</string>
+    <string name="rewind">Tua lại</string>
     <string name="room_picker_add_custom_room">Thêm phòng tùy chỉnh</string>
     <string name="room_picker_cancel_button">Bỏ qua</string>
     <string name="room_picker_create_new">Tạo mới</string>
@@ -2827,11 +3216,23 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="safemode_widget_error">Tiện ích con bị vô hiệu hóa ở chế độ an toàn</string>
     <string name="save_action">Lưu</string>
     <string name="save_button">Lưu</string>
+    <string name="save_carousel_view_all">Xem tất cả</string>
+    <string name="save_dialog_cancel">Hủy</string>
+    <string name="save_dialog_create">Tạo</string>
     <string name="save_generic_error">Đã xảy ra lỗi. Vui lòng thử lại.</string>
     <string name="save_in_progress">Đang lưu…</string>
     <string name="save_label">Xong</string>
+    <string name="save_loading_lists">Đang tải danh sách</string>
+    <string name="save_new_list">Danh sách mới</string>
+    <string name="save_new_list_hint">Tên danh sách</string>
+    <string name="save_not_signed_in">Bạn phải đăng nhập để sử dụng tính năng này.</string>
+    <string name="save_save_confirmation">Đã lưu</string>
     <string name="save_save_network_error">Không thể lưu mục này. Vui lòng kiểm tra kết nối Internet rồi thử lại.</string>
+    <string name="save_save_to_list">Lưu vào danh sách</string>
+    <string name="save_saved_to">Đã lưu vào</string>
+    <string name="save_tray_change_list">Thay đổi</string>
     <string name="save_unsave_action">Bỏ lưu</string>
+    <string name="save_unsave_confirmation">Chưa lưu</string>
     <string name="save_unsave_network_error">Không thể xóa mục đã lưu. Vui lòng kiểm tra kết nối Internet rồi thử lại.</string>
     <string name="save_view_collections_action">Xem bộ sưu tập</string>
     <string name="save_view_saved_action">Xem mục đã lưu</string>
@@ -2857,7 +3258,12 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="screen_assist_share_title">Chỉnh sửa hoặc chia sẻ ảnh chụp màn hình này</string>
     <string name="screen_assist_sharing_screenshot">Chia sẻ ảnh chụp màn hình</string>
     <string name="screen_assist_translate">Dịch</string>
+    <string name="screen_context_desc">Xem đề xuất liên quan đến nội dung trên màn hình từ Trợ lý của bạn</string>
+    <string name="screen_context_title">Nhận thông tin về nội dung trên màn hình</string>
     <string name="screen_moved">Đã di chuyển màn hình</string>
+    <string name="screenshot_srp_desc">Tìm kiếm %s.</string>
+    <string name="screenshot_srp_pending_desc">Tìm kiếm %s đang chờ xử lý</string>
+    <string name="screenshot_web_desc">Truy cập %s.</string>
     <string name="scroll_left">Cuộn sang trái</string>
     <string name="scroll_right">Cuộn sang phải</string>
     <string name="search_activity_name">Google</string>
@@ -2865,6 +3271,9 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="search_apps_web_and_more">Tìm kiếm ứng dụng, web và các nội dung khác...</string>
     <string name="search_box_hint">Tìm kiếm…</string>
     <string name="search_box_hint_for_places_and_web">Tìm địa điểm hoặc web</string>
+    <string name="search_contact_on_web">"Tìm kiếm '%s' trên web"</string>
+    <string name="search_error_message">"Đã xảy ra sự cố.
+Hãy thử tìm kiếm lại podcast đó."</string>
     <string name="search_for">tìm kiếm \"%1$s\"</string>
     <string name="search_gesture">Vuốt để tìm kiếm</string>
     <string name="search_gesture_corpus_dialog_title">Vuốt để tìm kiếm</string>
@@ -2913,8 +3322,12 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="search_sources_tablet">Tìm kiếm trên máy tính bảng</string>
     <string name="search_storage_label">Bộ nhớ Google Tìm kiếm</string>
     <string name="search_tablet">Tìm kiếm bằng máy tính bảng</string>
+    <string name="search_the_web">Tìm kiếm trên web cho %1$s</string>
     <string name="search_the_web_menu_text">Tìm kiếm trên web</string>
+    <string name="search_the_web_suggestion">Tìm kiếm trên web</string>
     <string name="search_widget_customization">Tùy chỉnh tiện ích con</string>
+    <string name="searchbar_hint">Tìm kiếm podcast</string>
+    <string name="searchbox_hint">Tìm kiếm gần đây</string>
     <string name="searching_as_account">Đang tìm kiếm bằng %1$s</string>
     <string name="second_half">Hiệp 2</string>
     <string name="second_period">Hiệp 2</string>
@@ -2943,7 +3356,14 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="selection_mode_promo">Nhấn vào đây để chọn văn bản</string>
     <string name="selection_prompt">Nhấn để chọn văn bản bất kỳ</string>
     <string name="selection_retry_ocr">Thử lại</string>
+    <string name="send_feedback">Gửi phản hồi</string>
+    <string name="send_to_device_negative_button">Hủy</string>
+    <string name="send_to_device_positive_button">Gửi</string>
+    <string name="send_to_device_snackbar_text">Đã gửi tới %1$s</string>
+    <string name="send_to_device_title">Gửi đến thiết bị</string>
+    <string name="sender_says_message">%1$s nói: %2$s.</string>
     <string name="sending_audio_to_account_toast">Đang gửi âm thanh đến %1$s…</string>
+    <string name="separator">-</string>
     <string name="server_error">Không thể truy cập Google vào lúc này.</string>
     <string name="server_error_fetching_weather_data_status_text">Đã xảy ra lỗi. Vui lòng thử lại sau.</string>
     <string name="set_duration">Đặt thời gian</string>
@@ -2985,6 +3405,7 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="sharebear_done_button_description">Xong</string>
     <string name="sharebear_edit_undo_no_effect">Không có gì để hoàn tác</string>
     <string name="sharebear_link">Ảnh chụp màn hình từ %s</string>
+    <string name="sharebear_screenshot_not_found">Không tìm thấy ảnh chụp màn hình</string>
     <string name="sharebear_screenshotter_activity_label">Chia sẻ ảnh chụp màn hình</string>
     <string name="sharebear_share_saved_screenshot_chooser_title">Chỉnh sửa và chia sẻ ảnh chụp màn hình</string>
     <string name="sharebear_share_subject">Ảnh chụp màn hình được chia sẻ từ Google</string>
@@ -2993,8 +3414,13 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="sharebear_storage_permission_request_info_part1">Bạn có nhiều ảnh chụp màn hình không?</string>
     <string name="sharebear_storage_permission_request_info_part2">Hãy để ứng dụng Google giúp bạn chỉnh sửa và chia sẻ ảnh chụp màn hình</string>
     <string name="sharebear_storage_permission_request_info_yes">Vâng, tôi đồng ý</string>
-    <string name="shared_links_desc">Liên kết được gửi và nhận qua email hoặc tin nhắn</string>
+    <string name="shared_links_desc">Bản xem trước liên kết gửi và nhận qua email hoặc tin nhắn</string>
+    <string name="shared_links_group_header">Liên kết được chia sẻ</string>
     <string name="shared_links_title">Liên kết được chia sẻ</string>
+    <string name="shared_links_via">%1$s, qua %2$s</string>
+    <string name="shared_photo_group_header">Hình ảnh được chia sẻ</string>
+    <string name="shipped">Đã vận chuyển</string>
+    <string name="shipped_with_estimation">Đã vận chuyển, ngày dự kiến giao hàng là %s</string>
     <string name="shootout_abbreviation">Luân lưu</string>
     <string name="shopping_mode_landing_text">Tìm kiếm mua sắm</string>
     <string name="short_google_play_services_enable_required">Cần bật dịch vụ của Google Play</string>
@@ -3013,16 +3439,22 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="show_all_packages">Hiển thị tất cả các gói</string>
     <string name="show_all_reminders">Hiển thị tất cả nhắc nhở</string>
     <string name="show_contact_information_edit_contact">Chỉnh sửa chi tiết</string>
+    <string name="show_error_message">"Đã xảy ra lỗi.
+Hiện không tải được chương trình này."</string>
     <string name="show_examples_description">Hiển thị ví dụ</string>
     <string name="show_full_agenda">Hiển thị chương trình làm việc đầy đủ</string>
     <string name="show_less">Ẩn bớt</string>
     <string name="show_more">Hiển thị thêm</string>
+    <string name="show_more_search_results">Hiển thị thêm kết quả tìm kiếm</string>
     <string name="show_more_suggestions_footer">Hiển thị thêm</string>
     <string name="show_starts_at">Thời gian chiếu vào lúc %1$s</string>
     <string name="showtimes_today">Lịch chiếu hôm nay</string>
     <string name="sidekick_network_error">Lỗi mạng. Kiểm tra kết nối mạng của bạn và thử lại.</string>
     <string name="sign_in">Đăng nhập</string>
+    <string name="sign_in_accept">Đăng nhập</string>
     <string name="sign_in_error_description">Có vẻ như đã xảy ra lỗi khi đăng nhập vào tài khoản của bạn</string>
+    <string name="sign_in_message">Hãy đăng nhập để đăng ký podcast và truy cập lịch sử nghe của bạn trên các thiết bị khác.</string>
+    <string name="sign_in_reject">Để sau</string>
     <string name="sign_in_required_continue_button">ĐĂNG NHẬP</string>
     <string name="sign_in_required_for_device_info_message">Để giúp Google hiểu danh bạ, ứng dụng của bạn và hơn thế nữa, hãy đăng nhập vào Tài khoản Google</string>
     <string name="sign_in_required_for_now_cards_message">Để nhận bản cập nhật và lời nhắc kịp thời, hãy đăng nhập vào Tài khoản Google của bạn</string>
@@ -3039,6 +3471,7 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="single_transit_line_delayed">%1$s bị %2$strễ%3$s</string>
     <string name="single_transit_line_limited_service">%1$sDịch vụ hạn chế%2$s trên %3$s</string>
     <string name="single_transit_station_closed">%1$s đã %2$sđóng%3$s</string>
+    <string name="slice_suggestion_message">Nội dung này bắt nguồn từ một ứng dụng đã cài đặt và có liên quan đến nội dung bạn đang nhập.</string>
     <string name="smartspace_calendar_summary">Thông báo về cuộc họp sắp tới</string>
     <string name="smartspace_calendar_title">Sự kiện trên lịch</string>
     <string name="smartspace_commute_summary">Thông báo về thay đổi giao thông bất thường</string>
@@ -3049,6 +3482,8 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="smartspace_settings_title">Xem nhanh</string>
     <string name="sms_display_name">Nhắn tin</string>
     <string name="sms_provider_title">SMS</string>
+    <string name="snackbar_action_undo">Hoàn tác</string>
+    <string name="snackbar_message_removed_from_recently">Đã xóa khỏi các trang gần đây</string>
     <string name="snackbar_talkback">nút hiển thị ở cuối màn hình.</string>
     <string name="snooze_button">Báo lại</string>
     <string name="snooze_fail">Không thể báo lại. Hãy thử lại sau.</string>
@@ -3060,6 +3495,8 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="solid">Đồng nhất</string>
     <string name="sound_search_hint">Bài hát gì đây?</string>
     <string name="sound_search_unavailable">Tính năng Tìm kiếm âm thanh không khả dụng tại quốc gia của bạn</string>
+    <string name="source_chip_desc">Xem nội dung từ %s.</string>
+    <string name="space">﻿</string>
     <string name="spoken_cancel_command_tts">hủy</string>
     <string name="spoken_edit_sms_command_tts">chỉnh sửa nội dung</string>
     <string name="spoken_language_selected">%s được chọn làm ngôn ngữ chính</string>
@@ -3116,6 +3553,8 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="stocks_update_time_text">Đã cập nhật %1$s</string>
     <string name="stop_download_prompt">Dừng tải xuống</string>
     <string name="streaming_text_recognizing">Đang nhận dạng…</string>
+    <string name="street_address_label">Địa chỉ đường phố</string>
+    <string name="subscribe_button_label">Đăng ký</string>
     <string name="suggest">Tự động hoàn tất</string>
     <string name="suggest_contact_removal_body" formatted="false">Thao tác này sẽ xóa &lt;b>%s&lt;/b> khỏi danh sách Liên hệ thường xuyên nhất của bạn. Bạn vẫn có thể tìm thấy &lt;b>%s&lt;/b> bằng cách tìm kiếm.</string>
     <string name="suggest_contact_removal_cancel">HỦY</string>
@@ -3153,6 +3592,7 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="tab_title_tomorrow">Ngày mai</string>
     <string name="tap_mic_to_speak">Nhấn vào micrô để bắt đầu nói</string>
     <string name="temperature_display">%1$s %2$s</string>
+    <string name="text_selection_menu_translate_action">Dịch</string>
     <string name="thank_you_dialog_body">Phản hồi của bạn sẽ giúp cải thiện trải nghiệm Google Tìm kiếm.</string>
     <string name="thank_you_dialog_tilte">Cảm ơn phản hồi của bạn.</string>
     <string name="things_to_do">Những điều cần thực hiện</string>
@@ -3213,14 +3653,18 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="titles" formatted="false">%s, %s</string>
     <string name="toast_custom_tabs_account">Đã đăng nhập bằng %1$s</string>
     <string name="toast_custom_tabs_first_run_experience">Bạn có thể thay đổi cài đặt web trong Chrome</string>
-    <string name="today">Hôm nay</string>
+    <string name="toast_hide">Đã ẩn %s thành công.</string>
+    <string name="toast_hide_fail">Đã xảy ra lỗi! %s không bị ẩn.</string>
+    <string name="toast_unhide">Đã hiển thị %s thành công.</string>
+    <string name="today">hôm nay</string>
     <string name="today_afternoon">Chiều nay</string>
     <string name="today_at_time">Hôm nay vào lúc %1$s</string>
     <string name="today_evening">Tối nay</string>
+    <string name="today_event_group_header">Hôm nay</string>
     <string name="today_morning">Sáng nay</string>
     <string name="today_night">Tối nay</string>
     <string name="today_time">Hôm nay, %1$s</string>
-    <string name="tomorrow">Ngày mai</string>
+    <string name="tomorrow">ngày mai</string>
     <string name="tomorrow_afternoon">Chiều mai</string>
     <string name="tomorrow_at_time">Ngày mai vào lúc %1$s</string>
     <string name="tomorrow_evening">Tối mai</string>
@@ -3229,6 +3673,7 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="tomorrow_time">Ngày mai, %1$s</string>
     <string name="too_many_locations_snackbar_text">Bạn có thể lưu tối đa 8 vị trí. Nhấn và giữ một vị trí để xóa vị trí đó.</string>
     <string name="toolbar_navigation_icon_description">Quay lại</string>
+    <string name="top_contacts_group_header">Liên hệ thường xuyên nhất</string>
     <string name="topdeck">Tiện ích</string>
     <string name="topdeck_show_all_cards_summary">Xem nội dung cập nhật trên đường đi làm, thời tiết và thông tin địa phương trong tiện ích màn hình chính</string>
     <string name="topdeck_show_all_cards_title">Hiển thị nội dung cập nhật</string>
@@ -3261,6 +3706,7 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="transit_departure_summary">khởi hành từ %1$s (đi bộ %2$s)</string>
     <string name="transit_enroute_last_walking_step">Đi bộ tới điểm đến</string>
     <string name="transit_enroute_trip_time_summary">"Đang trên đường đi ·  Đến nơi lúc %1$s"</string>
+    <string name="transit_eta_msg">%1$s lúc %2$s</string>
     <string name="transit_line_direction">Đi theo %1$s (%2$s)</string>
     <string name="transit_line_direction_in_time">Đi theo %1$s (%2$s) trong %3$s</string>
     <string name="transit_next_line_departure_subtext_no_time">Sân ga %1$s %2$s</string>
@@ -3285,6 +3731,7 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="transportation_platform">Sân ga</string>
     <string name="transportation_pnr_number">Số PNR</string>
     <string name="transportation_reservation_number">Mã số đặt vé xe</string>
+    <string name="transportation_title">%1$s đến %2$s</string>
     <string name="travel_time_home_notification_title">Thời gian về đến nhà</string>
     <string name="travel_time_notification_title">Thời gian tới %1$s</string>
     <string name="travel_time_to_destination">&lt;b>%1$s&lt;/b> đến %2$s</string>
@@ -3329,7 +3776,7 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="uninstall_or_update">Gỡ cài đặt hoặc cập nhật (%1$s)</string>
     <string name="uninstall_prompt">Gỡ cài đặt</string>
     <string name="uninstall_system_app_text">Đây là ứng dụng hệ thống và không thể gỡ cài đặt.</string>
-    <string name="unknown">Không xác định</string>
+    <string name="unknown">Không xác định</string>
     <string name="unknown_entry">Mục nhập không hợp lệ</string>
     <string name="unknown_error_loading_cards">Không thể truy cập nguồn cấp dữ liệu của bạn vào lúc này.</string>
     <string name="unlabeled_place">Địa điểm chưa được gắn nhãn tại %1$f, %2$f</string>
@@ -3337,6 +3784,10 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="unrecognized_format_pin_code">Nhập Mã PIN hợp lệ</string>
     <string name="unrecognized_format_postal_code">Nhập mã hợp lệ</string>
     <string name="unrecognized_format_zip_code">Nhập mã ZIP hợp lệ</string>
+    <string name="unreplied_emails_group_header">Email ưu tiên</string>
+    <string name="unreplied_group_header">Cuộc trò chuyện ưu tiên</string>
+    <string name="unreplied_messages_group_header">Tin nhắn ưu tiên</string>
+    <string name="unsubscribe_button_label">Đã đăng ký</string>
     <string name="unsupported_action">Thiết bị này không thể thực hiện tác vụ bạn đã yêu cầu</string>
     <string name="uos_account_picker_content_description">%1$s. Lựa chọn tài khoản thả xuống.</string>
     <string name="uos_account_picker_header_text">Chọn một tài khoản</string>
@@ -3349,7 +3800,9 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="uos_sign_in_button_text">Đăng nhập</string>
     <string name="uos_sign_in_description">Nhận nội dung cập nhật và kết quả tìm kiếm tùy chỉnh về chủ đề mà bạn quan tâm</string>
     <string name="uos_sign_in_intro">Đăng nhập để bắt đầu</string>
+    <string name="up">Điều hướng lên</string>
     <string name="upcoming_bills">%1$s hóa đơn sắp tới</string>
+    <string name="upcoming_event_group_header">Sắp tới</string>
     <string name="update_available">Đã có bản cập nhật (%1$s)</string>
     <string name="update_cards">Cập nhật</string>
     <string name="update_google_play_services_eyes_free_tts">Xin lỗi vì sự bất tiện này, nhưng chúng tôi đã thực hiện một số cải tiến. Bạn cần mở khóa điện thoại và chấp nhận bản nâng cấp. Sau đó, bạn có thể sử dụng giọng nói của mình để thực hiện cuộc gọi, gửi tin nhắn và nhiều hơn thế nữa.</string>
@@ -3396,9 +3849,12 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="user_defined_action_add_ends_with_action">Thêm nội dung giải trí</string>
     <string name="user_defined_action_add_ends_with_action_no_selection_message">Vui lòng chọn nội dung giải trí để phát.</string>
     <string name="user_defined_action_add_ends_with_action_what_media">Bạn muốn phát nội dung giải trí gì?</string>
+    <string name="user_defined_action_delete_confirmation_cancel_text">Hủy</string>
+    <string name="user_defined_action_delete_confirmation_delete_text">Xóa</string>
     <string name="user_defined_action_delete_confirmation_text">Bạn có chắc chắn muốn xóa tác vụ này không?</string>
     <string name="user_defined_action_ends_with_category_title">Sau đó phát…</string>
     <string name="user_defined_action_follow_up_trigger_phrase_title">Hoặc khi tôi nói…</string>
+    <string name="user_defined_action_menu_clear_schedule">Xóa lịch biểu</string>
     <string name="user_defined_action_menu_delete_button">Xóa</string>
     <string name="user_defined_action_menu_save_button">Lưu</string>
     <string name="user_defined_action_original_action_alarm_title">Sau khi tôi loại bỏ báo thức…</string>
@@ -3406,6 +3862,17 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="user_defined_action_popular_shortcuts_title">Phím tắt phổ biến</string>
     <string name="user_defined_action_reorder_description">Kéo để thay đổi thứ tự hành động trong quy trình này.</string>
     <string name="user_defined_action_reorder_title">Thay đổi thứ tự</string>
+    <string name="user_defined_action_schedule_back_confirmation_message">Quy trình của bạn sẽ không bắt đầu trừ khi bạn đã chọn tất cả thông tin thời gian, mẫu ngày và người nói.</string>
+    <string name="user_defined_action_schedule_back_confirmation_title">Lịch trình này chưa hoàn chỉnh</string>
+    <string name="user_defined_action_schedule_editor_clear_message">Lịch biểu này sẽ bị xóa khỏi lịch trình của bạn.</string>
+    <string name="user_defined_action_schedule_editor_clear_title">Xóa lịch biểu này?</string>
+    <string name="user_defined_action_schedule_editor_days_of_week">Chọn các ngày sẽ lặp lại</string>
+    <string name="user_defined_action_schedule_editor_notify">Bạn sẽ được thông báo trên điện thoại khi lịch trình bắt đầu</string>
+    <string name="user_defined_action_schedule_editor_select_speaker">Chọn loa</string>
+    <string name="user_defined_action_schedule_editor_select_time">Chọn thời gian trong ngày</string>
+    <string name="user_defined_action_schedule_editor_speaker">Chọn loa sẽ phát theo lịch trình này</string>
+    <string name="user_defined_action_schedule_editor_time">Chọn thời gian cho lịch trình này</string>
+    <string name="user_defined_action_schedule_editor_title">Đặt giờ và ngày</string>
     <string name="user_defined_action_target_command_hint">Trợ lý Google sẽ thực hiện</string>
     <string name="user_defined_action_task_custom_query_abandon_button">Hủy thay đổi</string>
     <string name="user_defined_action_task_custom_query_query_required">Bạn phải nhập lệnh cho Trợ lý Google rồi mới lưu được hành động này.</string>
@@ -3455,17 +3922,23 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="user_defined_action_task_volume_notification_summary">Thao tác này chỉ hiệu quả khi bạn sử dụng quy trình này trên điện thoại Android</string>
     <string name="user_defined_action_task_volume_notification_title">Âm lượng nhạc chuông và thông báo</string>
     <string name="user_defined_action_task_volume_title">Đặt âm lượng</string>
+    <string name="user_defined_action_trigger_multiple_title">Khi…</string>
+    <string name="user_defined_action_trigger_multiple_title_phrases">Tôi nói %1$s</string>
+    <string name="user_defined_action_trigger_multiple_title_time_and_day">Hoặc lúc %1$s ngày %2$s</string>
     <string name="user_defined_action_trigger_phrase_in_use">\"%1$s\" đã tồn tại.</string>
     <string name="user_defined_action_trigger_phrase_title">Khi tôi nói…</string>
     <string name="user_defined_action_trigger_phrase_validation_failed">Không thể kiểm tra cụm từ kích hoạt này. Vui lòng thử lại.</string>
     <string name="user_defined_action_workflow_deleting">Đang xóa lịch trình hàng ngày</string>
     <string name="user_defined_action_workflow_duplicate_command_phrase">Lệnh \"%1$s\" hiện đã được sử dụng. Vui lòng chọn một lệnh khác.</string>
     <string name="user_defined_action_workflow_edit_command_phrases">Chỉnh sửa lệnh</string>
+    <string name="user_defined_action_workflow_empty_schedule">Đặt giờ và ngày (tùy chọn)</string>
     <string name="user_defined_action_workflow_many_command_phrases">\"%1$s\", \"%2$s\" hoặc …</string>
     <string name="user_defined_action_workflow_new">Quy trình mới</string>
     <string name="user_defined_action_workflow_no_actions">Không có hành động nào</string>
+    <string name="user_defined_action_workflow_no_command_phrases">Thêm lệnh (bắt buộc)</string>
     <string name="user_defined_action_workflow_one_command_phrase">\"%1$s\"</string>
     <string name="user_defined_action_workflow_saving">Đang lưu lịch trình hàng ngày</string>
+    <string name="user_defined_action_workflow_schedule_day_name_separator">", "</string>
     <string name="user_defined_action_workflow_two_command_phrases">\"%1$s\" hoặc \"%2$s\"</string>
     <string name="user_review_histogram_ic_user_rating">Tổng số người xếp hạng</string>
     <string name="user_reviews_read_all_header">Đọc tất cả</string>
@@ -3494,6 +3967,7 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="verify_device_sub_heading">Hãy xác nhận mã này có trên thiết bị của bạn. Điều này có nghĩa là bạn đang thiết lập đúng thiết bị.</string>
     <string name="verify_device_title">Bạn thấy mã này?</string>
     <string name="versus">đấu với</string>
+    <string name="video_group_header">Video</string>
     <string name="video_preference_title">Video</string>
     <string name="video_preview_autoplay_on_mobile_data_title">Mạng</string>
     <string name="video_preview_autoplay_on_wifi_preference_desc">Tự động phát bản xem trước video trên Wi-Fi</string>
@@ -3502,10 +3976,11 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="video_suggestion_message">Bạn đã xem video này trước đây và video có liên quan đến nội dung bạn đang nhập. Hãy đi đến &lt;b>%s&lt;/b> để xóa video khỏi lịch sử xem và lịch sử tìm kiếm trên tất cả thiết bị của bạn.</string>
     <string name="video_watch_on_youtube">Xem trên Youtube</string>
     <string name="videos_mode_landing_text">Tìm kiếm video</string>
+    <string name="view_all_items_a11y_action">xem tất cả các mục</string>
     <string name="view_all_of_interest_button">Xem tất cả (%1$d)</string>
     <string name="view_email">Xem email</string>
     <string name="violent">Bạo lực</string>
-    <string name="visual_search">Tìm bằng hình ảnh</string>
+    <string name="visit_website">Truy cập vào trang web</string>
     <string name="voiceSearchPreferences">Cài đặt Tìm kiếm thoại</string>
     <string name="voice_ime_language_auto">Tự động</string>
     <string name="voice_language_preference_change">Ngôn ngữ dùng cho khẩu lệnh cũng đã bị thay đổi thành %s</string>
@@ -3522,6 +3997,9 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="vs_hint_tap_to_cancel">Nhấn để hủy</string>
     <string name="vs_hint_tap_to_finish">Nhấn để kết thúc</string>
     <string name="vs_hint_tap_to_speak">Nhấn vào nút tìm kiếm bằng giọng nói để nói</string>
+    <string name="waa_in_accept">Cài đặt</string>
+    <string name="waa_in_message">Bật Hoạt động web và ứng dụng để nhận đề xuất được cá nhân hóa dựa trên lịch sử nghe của bạn.</string>
+    <string name="waa_in_reject">Loại bỏ</string>
     <string name="wallet_buy_button_place_holder">Mua hàng bằng Google</string>
     <string name="wallpaper_accessibility_name">Hình nền %1$d / %2$d</string>
     <string name="wallpaper_button_text">Hình nền</string>
@@ -3538,6 +4016,7 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="weather_title">%1$s ở %2$s</string>
     <string name="weather_title_for_alias">%1$s tại %2$s</string>
     <string name="web_display_name">Trang web</string>
+    <string name="web_history_group_header">Lịch sử web</string>
     <string name="web_mode_landing_text">Tìm kiếm trên web</string>
     <string name="web_search_connection_error">Không thể tải kết quả tìm kiếm</string>
     <string name="web_suggest_updating">Đang cập nhật...</string>
@@ -3579,6 +4058,7 @@ Nếu thực hiện thay đổi này, bạn sẽ nhận được:"</string>
     <string name="yesterday_morning">Sáng hôm qua</string>
     <string name="yesterday_night">Đêm qua</string>
     <string name="yesterday_time">Hôm qua, %1$s</string>
+    <string name="you_are_offline">Bạn đang ngoại tuyến. Hãy chuyển sang chế độ trực tuyến để có thêm kết quả.</string>
     <string name="your_bus_reservation">Đặt vé xe buýt của bạn</string>
     <string name="your_location_search_menu_text">Vị trí của bạn</string>
     <string name="your_train_reservation">Đặt vé tàu của bạn</string>

@@ -14,9 +14,8 @@
                 </FrameLayout>
             </com.google.android.apps.gsa.shared.ui.CoScrollContainer>
         </com.google.android.apps.gsa.sidekick.shared.overlay.NowClientCardsView>
-        <FrameLayout android:id="@id/fullscreen_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/fullscreen_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
         <FrameLayout android:layout_gravity="bottom" android:id="@id/bottom_bar_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-        <FrameLayout android:id="@id/bottomsheet_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
         <FrameLayout android:id="@id/search_scrim" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
         <com.google.android.apps.gsa.search.shared.ui.ReverseDrawRestrictedLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/search_container" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
             <com.google.android.apps.gsa.search.shared.overlay.OverlaySearchPlateContainer android:layout_gravity="center|top" android:id="@id/search_plate_container" android:clipChildren="@bool/clip_children_and_to_padding" android:clipToPadding="@bool/clip_children_and_to_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">

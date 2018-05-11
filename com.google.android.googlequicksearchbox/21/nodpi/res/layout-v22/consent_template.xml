@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/quantum_white_100" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ScrollView android:id="@id/opa_consent_scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0" android:scrollIndicators="bottom|top">
-        <LinearLayout android:orientation="vertical" android:id="@id/opa_consent_content_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    </ScrollView>
-    <com.google.android.apps.gsa.opaonboarding.ui.FooterLayout android:id="@id/opa_consent_footer_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</LinearLayout>

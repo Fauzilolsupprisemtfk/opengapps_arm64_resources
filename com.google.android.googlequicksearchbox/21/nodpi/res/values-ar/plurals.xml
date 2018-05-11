@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">قبل %d يوم</item>
+        <item quantity="zero">قبل %d يوم</item>
+        <item quantity="one">قبل %d يوم</item>
+        <item quantity="two">قبل يومين (%d)</item>
+        <item quantity="few">قبل %d أيام</item>
+        <item quantity="many">قبل %d يومًا</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">قبل %d دقيقة</item>
+        <item quantity="zero">قبل %d دقيقة</item>
+        <item quantity="one">قبل %d دقيقة</item>
+        <item quantity="two">قبل دقيقتين (%d)</item>
+        <item quantity="few">قبل %d دقائق</item>
+        <item quantity="many">قبل %d دقيقة</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">قبل %d سنة</item>
+        <item quantity="zero">قبل %d سنة</item>
+        <item quantity="one">قبل %d سنة</item>
+        <item quantity="two">قبل سنتين (%d)</item>
+        <item quantity="few">قبل %d سنوات</item>
+        <item quantity="many">قبل %d سنة</item>
+    </plurals>
     <plurals name="agenda_card_history_desc">
         <item quantity="other">%d حدث</item>
         <item quantity="zero">%d حدث</item>
@@ -71,6 +95,22 @@
         <item quantity="two">كل يومين %d</item>
         <item quantity="few">كل %d أيام</item>
         <item quantity="many">كل %d يومًا</item>
+    </plurals>
+    <plurals name="daysAgo">
+        <item quantity="other">قبل %1$d يوم</item>
+        <item quantity="zero">قبل %1$d أيام</item>
+        <item quantity="one">قبل %1$d يوم</item>
+        <item quantity="two">قبل يومين (%1$d)</item>
+        <item quantity="few">قبل %1$d أيام</item>
+        <item quantity="many">قبل %1$d يومًا</item>
+    </plurals>
+    <plurals name="days_left_to_remove_downloads">
+        <item quantity="other">بعد %1$d يوم</item>
+        <item quantity="zero">بعد %1$d يوم</item>
+        <item quantity="one">بعد %1$d يوم</item>
+        <item quantity="two">بعد يومين (%1$d)</item>
+        <item quantity="few">بعد %1$d أيام</item>
+        <item quantity="many">بعد %1$d يومًا</item>
     </plurals>
     <plurals name="device_count">
         <item quantity="other">%1$d جهاز</item>
@@ -184,6 +224,38 @@
         <item quantity="few">؛ لـ %d مرات</item>
         <item quantity="many">؛ لـ %d مرة</item>
     </plurals>
+    <plurals name="episode_list_header_full">
+        <item quantity="other">%1$d حلقة</item>
+        <item quantity="zero">%1$d حلقات</item>
+        <item quantity="one">%1$d حلقة</item>
+        <item quantity="two">حلقتان (%1$d)</item>
+        <item quantity="few">%1$d حلقات</item>
+        <item quantity="many">%1$d حلقة</item>
+    </plurals>
+    <plurals name="favoritesSelected">
+        <item quantity="other">تم اختيار %1$d ملف بودكاست</item>
+        <item quantity="zero">تم اختيار %1$d ملف بودكاست</item>
+        <item quantity="one">تم اختيار ملف بودكاست (%1$d)</item>
+        <item quantity="two">تم اختيار ملفي (%1$d) بودكاست</item>
+        <item quantity="few">تم اختيار %1$d ملفات بودكاست</item>
+        <item quantity="many">تم اختيار %1$d ملف بودكاست</item>
+    </plurals>
+    <plurals name="hoursAgo">
+        <item quantity="other">قبل %1$d ساعة</item>
+        <item quantity="zero">قبل %1$d ساعات</item>
+        <item quantity="one">قبل %1$d ساعة</item>
+        <item quantity="two">قبل ساعتين (%1$d)</item>
+        <item quantity="few">قبل %1$d ساعات</item>
+        <item quantity="many">قبل %1$d ساعة</item>
+    </plurals>
+    <plurals name="hours_left_to_remove_downloads">
+        <item quantity="other">بعد %1$d ساعة</item>
+        <item quantity="zero">بعد %1$d ساعة</item>
+        <item quantity="one">بعد %1$d ساعة</item>
+        <item quantity="two">بعد ساعتين (%1$d)</item>
+        <item quantity="few">بعد %1$d ساعات</item>
+        <item quantity="many">بعد %1$d ساعة</item>
+    </plurals>
     <plurals name="items_from_without_colon">
         <item quantity="other">يوجد %1$d من العناصر من</item>
         <item quantity="zero">لا توجد عناصر %1$d من</item>
@@ -263,6 +335,22 @@
         <item quantity="two">دقيقتان (%1$d) أكثر من المعتاد</item>
         <item quantity="few">%1$d دقائق أكثر من المعتاد</item>
         <item quantity="many">%1$d دقيقة أكثر من المعتاد</item>
+    </plurals>
+    <plurals name="minutesAgo">
+        <item quantity="other">قبل %1$d دقيقة</item>
+        <item quantity="zero">قبل %1$d دقائق</item>
+        <item quantity="one">قبل %1$d دقيقة</item>
+        <item quantity="two">قبل دقيقتين (%1$d)</item>
+        <item quantity="few">قبل %1$d دقائق</item>
+        <item quantity="many">قبل %1$d دقيقة</item>
+    </plurals>
+    <plurals name="minutes_left">
+        <item quantity="other">يتبقى %1$d دقيقة</item>
+        <item quantity="zero">يتبقى %1$d دقيقة</item>
+        <item quantity="one">يتبقى %1$d دقيقة</item>
+        <item quantity="two">يتبقى دقيقتان (%1$d)</item>
+        <item quantity="few">يتبقى %1$d دقائق</item>
+        <item quantity="many">يتبقى %1$d دقيقة</item>
     </plurals>
     <plurals name="monthly_interval">
         <item quantity="other">كل %1$d شهر</item>
@@ -448,6 +536,14 @@
         <item quantity="few">%1$d مقاعد</item>
         <item quantity="many">%1$d مقعدًا</item>
     </plurals>
+    <plurals name="unsubscribed_favorites">
+        <item quantity="other">‏%1$dلقد ألغيت الاشتراك في %1$d ملف بودكاست</item>
+        <item quantity="zero">‏%1$dلقد ألغيت الاشتراك في %1$d ملف بودكاست</item>
+        <item quantity="one">%1$dلقد ألغيت الاشتراك في ملف بودكاست واحد</item>
+        <item quantity="two">‏%1$dلقد ألغيت الاشتراك في ملفي (%1$d) بودكاست</item>
+        <item quantity="few">‏%1$dلقد ألغيت الاشتراك في %1$d ملفات بودكاست</item>
+        <item quantity="many">‏%1$dلقد ألغيت الاشتراك في %1$d ملف بودكاست</item>
+    </plurals>
     <plurals name="user_defined_action_task_music_duration_display">
         <item quantity="other">%1$d دقيقة</item>
         <item quantity="zero">%1$d دقيقة</item>
@@ -463,6 +559,22 @@
         <item quantity="two">درجتان مئويتان (%1$d)</item>
         <item quantity="few">%1$d درجات مئوية</item>
         <item quantity="many">%1$d درجة مئوية</item>
+    </plurals>
+    <plurals name="user_defined_action_task_set_temperature_temperature_display_c">
+        <item quantity="other">درجة الحرارة المئوية: %1$d</item>
+        <item quantity="zero">درجة الحرارة المئوية: %1$d</item>
+        <item quantity="one">درجة الحرارة المئوية: %1$d</item>
+        <item quantity="two">درجة الحرارة المئوية: %1$d</item>
+        <item quantity="few">درجة الحرارة المئوية: %1$d</item>
+        <item quantity="many">درجة الحرارة المئوية: %1$d</item>
+    </plurals>
+    <plurals name="user_defined_action_task_set_temperature_temperature_display_f">
+        <item quantity="other">درجة الحرارة بوحدة فهرنهايت: %1$d</item>
+        <item quantity="zero">درجة الحرارة بوحدة فهرنهايت: %1$d</item>
+        <item quantity="one">درجة الحرارة بوحدة فهرنهايت: %1$d</item>
+        <item quantity="two">درجة الحرارة بوحدة فهرنهايت: %1$d</item>
+        <item quantity="few">درجة الحرارة بوحدة فهرنهايت: %1$d</item>
+        <item quantity="many">درجة الحرارة بوحدة فهرنهايت: %1$d</item>
     </plurals>
     <plurals name="user_defined_action_workflow_num_actions">
         <item quantity="other">%1$d إجراء</item>

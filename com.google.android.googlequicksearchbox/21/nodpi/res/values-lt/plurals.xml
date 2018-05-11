@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">Prieš %d d.</item>
+        <item quantity="one">Prieš %d d.</item>
+        <item quantity="few">Prieš %d d.</item>
+        <item quantity="many">Prieš %d d.</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">Prieš %d min.</item>
+        <item quantity="one">Prieš %d min.</item>
+        <item quantity="few">Prieš %d min.</item>
+        <item quantity="many">Prieš %d min.</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">Prieš %d m.</item>
+        <item quantity="one">Prieš %d m.</item>
+        <item quantity="few">Prieš %d m.</item>
+        <item quantity="many">Prieš %d m.</item>
+    </plurals>
     <plurals name="agenda_card_history_desc">
         <item quantity="other">%d įvykių</item>
         <item quantity="one">%d įvykis</item>
@@ -53,6 +71,18 @@
         <item quantity="one">kas %d dieną</item>
         <item quantity="few">kas %d dienas</item>
         <item quantity="many">kas %d dienos</item>
+    </plurals>
+    <plurals name="daysAgo">
+        <item quantity="other">Prieš %1$d d.</item>
+        <item quantity="one">Prieš %1$d d.</item>
+        <item quantity="few">Prieš %1$d d.</item>
+        <item quantity="many">Prieš %1$d d.</item>
+    </plurals>
+    <plurals name="days_left_to_remove_downloads">
+        <item quantity="other">Po %1$d dienų</item>
+        <item quantity="one">Po %1$d dienos</item>
+        <item quantity="few">Po %1$d dienų</item>
+        <item quantity="many">Po %1$d dienos</item>
     </plurals>
     <plurals name="device_count">
         <item quantity="other">%1$d įrenginių</item>
@@ -138,6 +168,30 @@
         <item quantity="few">; %d kartus</item>
         <item quantity="many">; %d karto</item>
     </plurals>
+    <plurals name="episode_list_header_full">
+        <item quantity="other">%1$d serijų</item>
+        <item quantity="one">%1$d serija</item>
+        <item quantity="few">%1$d serijos</item>
+        <item quantity="many">%1$d serijos</item>
+    </plurals>
+    <plurals name="favoritesSelected">
+        <item quantity="other">Pasirinkta %1$d tinklalaidžių</item>
+        <item quantity="one">Pasirinkta %1$d tinklalaidė</item>
+        <item quantity="few">Pasirinktos %1$d tinklalaidės</item>
+        <item quantity="many">Pasirinkta %1$d tinklalaidės</item>
+    </plurals>
+    <plurals name="hoursAgo">
+        <item quantity="other">Prieš %1$d val.</item>
+        <item quantity="one">Prieš %1$d val.</item>
+        <item quantity="few">Prieš %1$d val.</item>
+        <item quantity="many">Prieš %1$d val.</item>
+    </plurals>
+    <plurals name="hours_left_to_remove_downloads">
+        <item quantity="other">Po %1$d valandų</item>
+        <item quantity="one">Po %1$d valandos</item>
+        <item quantity="few">Po %1$d valandų</item>
+        <item quantity="many">Po %1$d valandos</item>
+    </plurals>
     <plurals name="items_from_without_colon">
         <item quantity="other">%1$d elementų iš</item>
         <item quantity="one">%1$d elementas iš</item>
@@ -197,6 +251,18 @@
         <item quantity="one">%1$d min. daugiau nei įprastai</item>
         <item quantity="few">%1$d min. daugiau nei įprastai</item>
         <item quantity="many">%1$d min. daugiau nei įprastai</item>
+    </plurals>
+    <plurals name="minutesAgo">
+        <item quantity="other">Prieš %1$d min.</item>
+        <item quantity="one">Prieš %1$d min.</item>
+        <item quantity="few">Prieš %1$d min.</item>
+        <item quantity="many">Prieš %1$d min.</item>
+    </plurals>
+    <plurals name="minutes_left">
+        <item quantity="other">Liko %1$d min.</item>
+        <item quantity="one">Liko %1$d min.</item>
+        <item quantity="few">Liko %1$d min.</item>
+        <item quantity="many">Liko %1$d min.</item>
     </plurals>
     <plurals name="monthly_interval">
         <item quantity="other">Kas %1$d mėnesių</item>
@@ -336,6 +402,12 @@
         <item quantity="few">%1$d vietos</item>
         <item quantity="many">%1$d vietos</item>
     </plurals>
+    <plurals name="unsubscribed_favorites">
+        <item quantity="other">%1$dAtšaukėte %1$d tinklalaidžių prenumeratą</item>
+        <item quantity="one">%1$dAtšaukėte %1$d tinklalaidės prenumeratą</item>
+        <item quantity="few">%1$dAtšaukėte %1$d tinklalaidžių prenumeratą</item>
+        <item quantity="many">%1$dAtšaukėte %1$d tinklalaidės prenumeratą</item>
+    </plurals>
     <plurals name="user_defined_action_task_music_duration_display">
         <item quantity="other">%1$d minučių</item>
         <item quantity="one">%1$d minutė</item>
@@ -347,6 +419,18 @@
         <item quantity="one">%1$d°</item>
         <item quantity="few">%1$d°</item>
         <item quantity="many">%1$d°</item>
+    </plurals>
+    <plurals name="user_defined_action_task_set_temperature_temperature_display_c">
+        <item quantity="other">%1$d °C</item>
+        <item quantity="one">%1$d °C</item>
+        <item quantity="few">%1$d °C</item>
+        <item quantity="many">%1$d °C</item>
+    </plurals>
+    <plurals name="user_defined_action_task_set_temperature_temperature_display_f">
+        <item quantity="other">%1$d °F</item>
+        <item quantity="one">%1$d °F</item>
+        <item quantity="few">%1$d °F</item>
+        <item quantity="many">%1$d °F</item>
     </plurals>
     <plurals name="user_defined_action_workflow_num_actions">
         <item quantity="other">%1$d veiksmų</item>

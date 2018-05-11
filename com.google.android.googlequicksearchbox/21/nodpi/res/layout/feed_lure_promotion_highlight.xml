@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="@dimen/lobby_feed_lure_size" android:layout_height="@dimen/lobby_feed_lure_size"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:thegoogle="http://schemas.android.com/apk/res-auto">
-    <com.google.android.apps.gsa.shared.ui.CircleCutoutView android:id="@id/background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <LinearLayout android:orientation="vertical" android:id="@id/text_container" android:paddingLeft="@dimen/lobby_feed_lure_text_block_start_padding" android:paddingTop="@dimen/lobby_feed_lure_text_block_top_padding" android:layout_width="@dimen/lobby_feed_lure_text_block_width" android:layout_height="wrap_content" android:paddingStart="@dimen/lobby_feed_lure_text_block_start_padding">
-        <TextView android:textSize="@dimen/lobby_feed_lure_text_size" android:textColor="@color/promotion_text" android:id="@id/feed_lure_text" android:paddingBottom="@dimen/lobby_feed_lure_text_bottom_padding" android:layout_width="@dimen/lobby_feed_lure_text_width" android:layout_height="wrap_content" android:fontFamily="sans-serif" android:textAlignment="viewStart" />
-        <TextView android:textSize="@dimen/lobby_feed_lure_subtext_size" android:textColor="@color/promotion_subtext" android:id="@id/feed_lure_subtext" android:layout_width="@dimen/lobby_feed_lure_subtext_width" android:layout_height="wrap_content" android:fontFamily="sans-serif" android:textAlignment="viewStart" />
-    </LinearLayout>
-</FrameLayout>

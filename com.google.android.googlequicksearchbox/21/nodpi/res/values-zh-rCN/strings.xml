@@ -23,6 +23,8 @@
     <string name="abc_searchview_description_voice">语音搜索</string>
     <string name="abc_shareactionprovider_share_with">分享方式</string>
     <string name="abc_shareactionprovider_share_with_application">使用%s分享</string>
+    <string name="abc_slice_error">无法连接</string>
+    <string name="abc_slice_more">更多</string>
     <string name="abc_slice_more_content">+ %1$d</string>
     <string name="abc_slice_permission_allow">允许</string>
     <string name="abc_slice_permission_checkbox">允许“%1$s”显示任何应用的图块</string>
@@ -30,6 +32,8 @@
     <string name="abc_slice_permission_text_1">- 可以读取“%1$s”中的信息</string>
     <string name="abc_slice_permission_text_2">- 可以在“%1$s”内执行操作</string>
     <string name="abc_slice_permission_title">要允许“%1$s”显示“%2$s”图块吗？</string>
+    <string name="abc_slice_show_more">显示更多</string>
+    <string name="abc_slice_updated">更新时间：%1$s</string>
     <string name="abc_slices_permission_request">“%1$s”想要显示“%2$s”图块</string>
     <string name="abc_toolbar_collapse_description">收起</string>
     <string name="about">应用信息</string>
@@ -60,7 +64,6 @@
     <string name="accessibility_see_results_on_google">查看 Google 上的搜索结果</string>
     <string name="accessibility_select">选择屏幕上的文字</string>
     <string name="accessibility_share">共享屏幕</string>
-    <string name="accessibility_visual_search_button">按图片搜索</string>
     <string name="accessibility_voice_search_button">语音搜索</string>
     <string name="account_item">切换到%1$s</string>
     <string name="account_list">帐号列表</string>
@@ -87,6 +90,7 @@
     <string name="action_call_who_timeout_last_eyes_free_tts">还是没听清楚。%2$s。</string>
     <string name="action_call_who_title">您想给谁打电话？</string>
     <string name="action_call_who_tts">您想给谁打电话？</string>
+    <string name="action_chat">聊天</string>
     <string name="action_contact_info_canceling_tts">正在取消查找联系人</string>
     <string name="action_contact_info_nomatch_1_eyes_free_tts">没听清楚。您想查找哪个联系人？</string>
     <string name="action_contact_info_nomatch_1_tts">请说您想查找哪个联系人，或者说“%1$s”。</string>
@@ -107,10 +111,12 @@
     <string name="action_decrease_height">减小高度</string>
     <string name="action_decrease_width">减小宽度</string>
     <string name="action_deep_shortcut">快捷方式</string>
+    <string name="action_email">发送电子邮件</string>
     <string name="action_fallback_long_query_eyes_free_tts">对不起，系统不确定如何回答这个问题。</string>
     <string name="action_fallback_short_query_eyes_free_tts">对不起，系统不确定如何回答%1$s这个问题。</string>
     <string name="action_generic_canceled_tts">操作已取消</string>
     <string name="action_generic_timeout_last_eyes_free_tts">%1$s%2$s</string>
+    <string name="action_goto_app">前往应用</string>
     <string name="action_increase_height">增加高度</string>
     <string name="action_increase_width">增加宽度</string>
     <string name="action_move">移动项目</string>
@@ -118,6 +124,8 @@
     <string name="action_move_screen_left">将屏幕向左移动</string>
     <string name="action_move_screen_right">将屏幕向右移动</string>
     <string name="action_move_to_workspace">移至主屏幕</string>
+    <string name="action_navigate">导航</string>
+    <string name="action_required">需要执行操作</string>
     <string name="action_resize">调整大小</string>
     <string name="action_send">提交反馈</string>
     <string name="action_sms_canceling_tts">正在取消短信</string>
@@ -154,6 +162,7 @@
     <string name="action_sms_person_disambig_nomatch_last_eyes_free_tts">找不到该姓名，请稍后重试。</string>
     <string name="action_sms_person_disambig_nomatch_last_tts">您要向其发短信的人可能不在您的通讯录中。点按即可选择联系人。</string>
     <string name="action_sms_person_disambig_timeout_last_eyes_free_tts">还是没听清楚。%5$s。</string>
+    <string name="action_sms_text">发送短信</string>
     <string name="action_sms_who_timeout_1_eyes_free_tts">没听清楚。您想给谁发短信？</string>
     <string name="action_sms_who_timeout_2_eyes_free_tts">没听清楚。请说您想给谁发短信，或者说“%1$s”。</string>
     <string name="action_sms_who_timeout_last_eyes_free_tts">还是没听清楚。%2$s。</string>
@@ -162,6 +171,8 @@
     <string name="action_sound_search_get_song">前往 Google Play 下载</string>
     <string name="action_sound_search_result_content_description">《%1$s》，《%2$s》，%3$s</string>
     <string name="action_unlock_device_tts">抱歉，无法在设备处于锁定状态时执行该操作。要继续操作，请先解锁您的设备。</string>
+    <string name="action_video_call">视频通话</string>
+    <string name="action_voice_call">通话</string>
     <string name="action_who_is_relation_1_tts">请说联系人的姓名，或者说“%2$s”。</string>
     <string name="action_who_is_relation_eyes_free_1_tts">没听清楚。您想联系的人是谁？</string>
     <string name="action_who_is_relation_eyes_free_last_tts">找不到该姓名，请稍后重试。</string>
@@ -173,6 +184,7 @@
     <string name="action_who_is_your_relation_title">谁是您的%s？</string>
     <string name="activity_not_available">应用不可用</string>
     <string name="activity_not_found">未安装该应用。</string>
+    <string name="activity_title">播客播放器</string>
     <string name="ad_badge">广告</string>
     <string name="add_account">添加帐号</string>
     <string name="add_contact_display_name">添加联系人</string>
@@ -182,16 +194,25 @@
     <string name="add_relationship_subject_2_tts_eyes_free">没听清楚。请说“是”或“取消”。</string>
     <string name="add_relationship_subject_last_tts">要继续，请点按“记住”或“取消”</string>
     <string name="add_relationship_subject_last_tts_eyes_free">还是没听清楚。正在取消。</string>
+    <string name="add_shortcut_accept">添加</string>
+    <string name="add_shortcut_message">在主屏幕上添加“播客”快捷方式</string>
+    <string name="add_shortcut_reject">不用了</string>
     <string name="add_snackbar_action">添加</string>
     <string name="add_this_location_to_your_list_snackbar_text">要将此地点添加到您的列表中吗？</string>
     <string name="add_to_folder">添加到“%1$s”文件夹</string>
     <string name="add_to_folder_with_app">添加到“%1$s”所在文件夹</string>
+    <string name="add_to_home_screen">添加到主屏幕</string>
+    <string name="add_to_home_screen_done">已添加到主屏幕</string>
+    <string name="add_to_home_screen_explanation">在主屏幕上添加“%1$s”的快捷方式</string>
+    <string name="add_to_home_screen_success">成功</string>
     <string name="add_your_relationship_subject">要记住%2$s是您的“%1$s”吗？</string>
     <string name="added_to_folder">项目已添加到文件夹</string>
     <string name="additional_stock_query_string">股票</string>
     <string name="address_cancel_button">以后再说</string>
     <string name="address_data_loading">正在加载…</string>
+    <string name="address_error">无法验证此地址。</string>
     <string name="address_explanation">系统将会使用您的地址信息来提供递送、路况和当地天气等服务</string>
+    <string name="address_hint">请输入您的地址</string>
     <string name="address_title">请输入您的地址</string>
     <string name="ads_badge">广告</string>
     <string name="agenda_calendar_next_template">您的下一项日历活动的时间是%1$s%2$s。</string>
@@ -210,6 +231,7 @@
     <string name="agenda_eyes_free_list_last_two_items">%1$s和%2$s</string>
     <string name="agenda_eyes_free_timed_event">%1$s%2$s。</string>
     <string name="agenda_eyes_free_timed_event_with_day">%1$s%2$s%3$s。</string>
+    <string name="agenda_hub_title">近期</string>
     <string name="agent_bookmark_added">已保存到书签</string>
     <string name="agent_bookmark_error">发生错误，请稍后重试。</string>
     <string name="agent_bookmark_removed">已从书签中移除</string>
@@ -238,6 +260,7 @@
     <string name="agent_directory_music_unable_unlink_default">无法取消关联您的默认音乐提供方</string>
     <string name="agent_directory_no_results">没有与“%1$s”相符的结果</string>
     <string name="agent_directory_no_thanks">不用了</string>
+    <string name="agent_directory_send_to_device_text">发送到设备</string>
     <string name="agent_directory_settings_manage">设置</string>
     <string name="agent_directory_settings_text">设置</string>
     <string name="agent_directory_share">分享</string>
@@ -284,6 +307,8 @@
     <string name="all_chain_locations">所有分店</string>
     <string name="all_day">全天</string>
     <string name="all_day_at_location">全天，地点是%1$s</string>
+    <string name="all_day_event_text">全天</string>
+    <string name="all_downloaded_episodes">所有已下载的剧集</string>
     <string name="all_language_packs">全部</string>
     <string name="allow_bluetooth_button_with_device_locked_notification_body">当手机处于锁定状态时，您可以借助蓝牙设备，使用语音拨打电话及执行其他操作</string>
     <string name="allow_bluetooth_button_with_device_locked_notification_title">借助蓝牙设备使用语音操作</string>
@@ -307,6 +332,7 @@
     <string name="alpha_beta_channel_selection_positive_button">确定</string>
     <string name="alpha_beta_channel_selection_title">选择您想要的测试方式</string>
     <string name="amp_source_header">来源：%1$s</string>
+    <string name="and">和</string>
     <string name="announce_selection">已选择%1$s</string>
     <string name="answers_suggestion_message">此快捷信息与您现在输入的内容有关。</string>
     <string name="app_directory_adapter_no_results">没有结果可显示</string>
@@ -315,6 +341,9 @@
     <string name="app_name">Google 应用</string>
     <string name="app_not_available">没有任何可执行此操作的应用</string>
     <string name="app_result_suggestion_content_description" formatted="false">在%s中打开%s。</string>
+    <string name="app_shortcut_desc">将助理添加到主屏幕</string>
+    <string name="app_shortcut_title">轻松访问您的助理</string>
+    <string name="app_suggestions_header">应用</string>
     <string name="app_waiting_download_title">%1$s正在等待安装</string>
     <string name="appointment_time_range">%1$s - %2$s</string>
     <string name="apps_mode_landing_text">搜索应用</string>
@@ -556,7 +585,10 @@
     <string name="assistant_settings_kill_switch_dialog_button">转到 Play 商店</string>
     <string name="assistant_settings_kill_switch_dialog_message">转至 Play 商店并更新 Google 应用，以享用最新的改进功能</string>
     <string name="assistant_settings_kill_switch_dialog_title">请更新您的智能助理以使用新功能</string>
+    <string name="assistant_settings_language_availability_display_only_text">您智能显示屏上的 Google 助理仅支持%1$s。</string>
+    <string name="assistant_settings_language_availability_display_text">您的手机将会使用这些语言以及您在%2$s中设置的设备语言。您的智能显示屏将只使用%1$s。</string>
     <string name="assistant_settings_language_availability_link">Android 语言设置</string>
+    <string name="assistant_settings_language_availability_single_language_display_text">您的手机将会使用该语言以及您在%2$s中设置的设备语言。您的智能显示屏将只使用%1$s。</string>
     <string name="assistant_settings_language_availability_single_language_text">您手机上的智能助理将会使用该语言以及您在“%2$s”中设置的设备语言（%1$s）。</string>
     <string name="assistant_settings_language_availability_text">您手机上的智能助理将会使用这些语言以及您在 %2$s中设置的设备语言（%1$s）。</string>
     <string name="assistant_settings_languages_dialog_title">语言</string>
@@ -589,6 +621,7 @@
     <string name="assistant_settings_music_youtube_premium_dialog_text">您需要具备 YouTube Red 会员资格才能在 Google Home 上播放 YouTube 音乐。您可以前往 <a href="http://youtube.com/red">youtube.com/red</a> 进行注册。</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">需要 YouTube Red 会员资格</string>
     <string name="assistant_settings_news_provider_delete_button_description">从您已启用的新闻媒体中移除%1$s</string>
+    <string name="assistant_settings_news_supports_video">支持智能显示屏的视频</string>
     <string name="assistant_settings_news_title">新闻</string>
     <string name="assistant_settings_nick_name_not_pronounceable_message">您的昵称包含智能助理无法发音的字符。请在下一部分将其拼读出来。</string>
     <string name="assistant_settings_no_device_linked">借助 Voice Match 功能，您的智能助理可以在识别出您的声音时为您提供个人信息。最多 6 人可以获取自己的日历、音乐等。</string>
@@ -658,6 +691,7 @@
     <string name="assistant_settings_payments_phone_authentication_frequency_never_description">除非检测到异常活动</string>
     <string name="assistant_settings_payments_phone_authentication_frequency_not_required">不需要确认</string>
     <string name="assistant_settings_payments_phone_authentication_mechanism_title">使用指纹确认</string>
+    <string name="assistant_settings_payments_phone_authentication_page_header">针对通过 Google 助理进行付款的方式调整安全设置。</string>
     <string name="assistant_settings_payments_phone_authentication_section_title">购买交易批准设置</string>
     <string name="assistant_settings_payments_phone_authentication_title">购买交易批准设置</string>
     <string name="assistant_settings_payments_save_button_text">保存</string>
@@ -754,6 +788,8 @@
     <string name="assistant_settings_shopping_list_title">购物清单</string>
     <string name="assistant_settings_spell_out_name_not_pronounceable_message">使用英语字母</string>
     <string name="assistant_settings_stocks">股票</string>
+    <string name="assistant_settings_summer_time_mode_availability_clarification" />
+    <string name="assistant_settings_summer_time_mode_availability_description">夏令时模式开始时间：</string>
     <string name="assistant_settings_summer_time_mode_button_summary">启用夏令时模式。</string>
     <string name="assistant_settings_summer_time_mode_button_title">夏令时模式</string>
     <string name="assistant_settings_summer_time_mode_title">夏令时模式</string>
@@ -820,6 +856,12 @@
     <string name="audio_error">无法打开麦克风。</string>
     <string name="audio_file_access">对已录制语音的访问权限</string>
     <string name="audio_file_access_desc">可访问录制的语音以便进行自我提醒和原始音频分析。</string>
+    <string name="audio_player_notification_channel">音频播放器</string>
+    <string name="audio_rationale_message">系统会将您的音频发送给 Google，以便提供语音识别服务。转录内容将会与此应用分享。</string>
+    <string name="audio_rationale_message_vaa_enabled">"系统会将您的音频发送给 Google，以便提供语音识别服务。转录内容将会与此应用分享。
+
+%1$s"</string>
+    <string name="author_format">作者：%1$s</string>
     <string name="auto_add_shortcuts_description">适用于新应用</string>
     <string name="auto_add_shortcuts_label">将图标添加到主屏幕</string>
     <string name="auto_update_any_time">"随时自动更新语言包
@@ -827,7 +869,9 @@
     <string name="auto_update_language_packs">自动更新</string>
     <string name="auto_update_never">不要自动更新语言包</string>
     <string name="auto_update_wifi_only">仅通过WLAN自动更新语言包</string>
-    <string name="back">返回</string>
+    <string name="available_pick_up">可取货</string>
+    <string name="back">后退</string>
+    <string name="back_of_card_close">关闭</string>
     <string name="background_notification_onboarding">处于离线状态？没关系。Google 应用会记住您的搜索内容，并在搜索结果就绪后向您发送通知。</string>
     <string name="background_notification_onboarding_accept">确定</string>
     <string name="background_notification_onboarding_decline">关闭</string>
@@ -847,7 +891,6 @@
     <string name="barcode_image_description">条形码图片</string>
     <string name="batterysaver_off">省电模式已关闭</string>
     <string name="batterysaver_on">省电模式已开启</string>
-    <string name="beta_tag">测试版</string>
     <string name="birthday_message">您来到这个世界上有%1$s秒啦！</string>
     <string name="birthday_today">今天生日</string>
     <string name="bisto_onboarding_chip_text">完成头戴式耳机设置</string>
@@ -882,8 +925,9 @@
     <string name="button_no">否</string>
     <string name="button_yes">是</string>
     <string name="by_author">作者：%1$s</string>
+    <string name="cached_desc">此页面可以离线访问。</string>
     <string name="calendar_event_during">%1$s已开始</string>
-    <string name="calendar_event_pre">%1$s将于 %2$s后开始</string>
+    <string name="calendar_event_pre">%1$s于%2$s后开始</string>
     <string name="calendar_event_pre_static">%1$s（时间：%2$s）</string>
     <string name="calendar_event_time_range">%1$s - %2$s</string>
     <string name="calendar_no_title">（无标题）</string>
@@ -893,6 +937,8 @@
     <string name="cancel">取消</string>
     <string name="cancel_button_text">取消</string>
     <string name="cancel_download">取消下载</string>
+    <string name="cancel_favorites_selection">取消</string>
+    <string name="cancelled">已取消</string>
     <string name="cant_load_suggestions">无法加载建议</string>
     <string name="capabilities_discovery_hint">了解智能助理具备的功能</string>
     <string name="capabilities_search_content_description">了解智能助理具备的功能</string>
@@ -918,6 +964,9 @@
     <string name="cast_notification_connecting_message">正在连接到%1$s</string>
     <string name="cast_notification_default_channel_name">Cast</string>
     <string name="cast_notification_disconnect">断开连接</string>
+    <string name="cct_account_mismatch_card_button_text">打开%1$s</string>
+    <string name="cct_account_mismatch_card_header">查看您的网页</string>
+    <string name="cct_account_mismatch_card_text">要查看您在此处找到的网页，请更新&lt;b>%1$s设置&lt;/b>并开启&lt;b>%2$s&lt;/b>的同步功能</string>
     <string name="chance_of_precipitation_label">降水概率：%s</string>
     <string name="change_wallpaper">更换壁纸</string>
     <string name="checkin_date_today">今天入住</string>
@@ -933,21 +982,28 @@
     <string name="clock_maybe_wrong_error_card_open_settings_button_text">在“设置”中更新</string>
     <string name="clock_maybe_wrong_error_card_title_text">时钟可能未同步</string>
     <string name="close_button">关闭</string>
+    <string name="close_button_desc">退出</string>
     <string name="closet_offline_warning_title">暂时无法连接到设置</string>
     <string name="cloud_search_history_fetch_failed_toast">无法检索设置，请稍后重试。</string>
     <string name="cloud_search_history_summary_fetching">正在检索设置...</string>
+    <string name="collapse">收起</string>
     <string name="collapse_time_to_leave">隐藏此行程的相关选项。</string>
+    <string name="collections">收藏</string>
     <string name="comment_hint">其他评论（可选）。</string>
     <string name="common_address_clear_button_label">清除</string>
     <string name="common_address_clear_confirm_button">删除</string>
     <string name="common_address_edit_title">修改地址</string>
     <string name="common_delete">删除</string>
     <string name="common_device_assistant_language_title">智能助理的语言</string>
-    <string name="common_device_id_personal_info_permission_non_screen_devices_summary">允许在此设备上显示个性化搜索结果，例如电子邮件、日历、通讯录和提醒。这样一来，付款信息也会显示在这个设备上。<a href="https://support.google.com/assistant/?p=personal_results">了解详情</a></string>
+    <string name="common_device_id_personal_info_permission_non_screen_devices_summary">允许在此设备上显示个人信息相关结果，例如电子邮件、日历、通讯录和提醒，同时还允许通过此设备进行付款。%1$s</string>
+    <string name="common_device_id_personal_info_permission_screenful_devices_summary">允许在此设备上显示个人信息相关结果，例如照片、电子邮件、日历、通讯录和提醒，同时还允许通过此设备进行付款。%1$s</string>
     <string name="common_device_notification_permission_summary">通过这台设备接收各种通知（例如提醒）。即使关闭通知功能，您仍然会听到闹钟铃响和重要动态通知。</string>
     <string name="common_device_notification_permission_title">通知</string>
     <string name="common_device_personal_info_permission_title">个性化搜索结果</string>
+    <string name="common_device_personal_suggestion_permission_summary">允许在主屏幕上或以通知形式显示个人信息相关结果和个性化 YouTube 推荐视频，而无需您主动要求显示。注意：设备附近的人也可以点按这些结果并执行相关操作。%1$s</string>
     <string name="common_device_personal_suggestion_permission_title">主屏幕和通知</string>
+    <string name="common_device_youtube_restricted_mode_summary">隐藏可能包含不当内容的歌曲和视频</string>
+    <string name="common_device_youtube_restricted_mode_title">YouTube 受限模式</string>
     <string name="common_google_logo">Google 徽标</string>
     <string name="common_google_play_services_enable_button">启用</string>
     <string name="common_google_play_services_enable_text">您必须先启用 Google Play 服务，然后才能运行%1$s。</string>
@@ -972,7 +1028,7 @@
     <string name="common_signin_button_text">登录</string>
     <string name="common_signin_button_text_long">使用 Google 帐号登录</string>
     <string name="common_yes">确定</string>
-    <string name="commute_eta_msg">预计 %1$s后到达%2$s</string>
+    <string name="commute_eta_msg">预计%1$s后到%2$s</string>
     <string name="commute_eta_time_hour_minute">%1$s 小时 %2$s 分钟</string>
     <string name="commute_eta_time_minute">%1$s 分钟</string>
     <string name="commute_summary_template">预计路程时间：%1$s分钟（%2$s）</string>
@@ -989,10 +1045,16 @@
     <string name="confirm_place_query_string">想了解前往此地的行程时间吗？</string>
     <string name="confirm_place_set_text">设置</string>
     <string name="confirm_place_updated">更改已保存。您的交通信息即时贴将在明天更新。</string>
+    <string name="confirm_remove_all_dialog_message">这将移除所有您已下载的剧集。此操作无法撤消。</string>
+    <string name="confirm_remove_all_dialog_title">确定吗？</string>
+    <string name="confirm_unsubscribe_button_label">退订</string>
+    <string name="confirm_unsubscribe_title">要退订此节目吗？</string>
     <string name="confirm_work_query_string">将此地点设为您每日的通勤目的地？</string>
     <string name="confirm_work_yes_text">设为单位地址</string>
     <string name="confirmation_number">确认码</string>
+    <string name="confirmed">已确认</string>
     <string name="connection_error_loading_content">没有连接到网络，因此无法加载网页。</string>
+    <string name="connection_error_message">请检查您的网络连接，然后重试</string>
     <string name="connection_retrying">正在重试…</string>
     <string name="consent_action_button">允许</string>
     <string name="consent_explanation">"%s
@@ -1029,12 +1091,27 @@
     <string name="contact_no_postal_address">找不到%1$s的地址</string>
     <string name="contact_no_postal_address_pick_another_contact">找不到%1$s的地址，请选择其他联系人</string>
     <string name="contact_photo">联系人照片</string>
+    <string name="contact_removal_body">该操作会从您的“主要联系人”列表中移除&lt;b>%1$s&lt;/b>。您仍可通过搜索来查找&lt;b>%2$s&lt;/b>。</string>
+    <string name="contact_removal_cancel">取消</string>
+    <string name="contact_removal_confirm">隐藏</string>
+    <string name="contact_removal_title">隐藏%s？</string>
     <string name="contact_select_dialog_find_another_contact">选择其他联系人</string>
     <string name="contact_select_dialog_find_contact">选择联系人</string>
     <string name="contact_selected_find_another_contact">%1$s。请选择其他联系人</string>
     <string name="contact_selected_find_another_contact_with_relationship">%1$s，%2$s。请选择其他联系人</string>
     <string name="contact_suggestion_message">这是与您现在输入的内容相匹配的个人联系人。</string>
+    <string name="contact_suggestions_header">通讯录</string>
+    <string name="contact_unhide_body">&lt;b>%1$s&lt;/b>已隐藏。取消隐藏即可在“主要联系人”中显示&lt;b>%2$s&lt;/b>。</string>
+    <string name="contact_unhide_cancel">取消</string>
+    <string name="contact_unhide_confirm">取消隐藏</string>
+    <string name="contact_unhide_title">取消隐藏%s？</string>
+    <string name="content_chip_desc">查看所有%s。</string>
     <string name="content_stale_ago">内容上次更新时间：%1$s前</string>
+    <string name="content_with_parentheses">（%s）</string>
+    <string name="continue_listening_footer_title">所有未收听完毕的剧集</string>
+    <string name="continue_listening_section_title">继续收听</string>
+    <string name="continue_to_enable_storage_permission">继续</string>
+    <string name="conversation_group_header">对话</string>
     <string name="copied_to_clipboard">已复制到剪贴板</string>
     <string name="corpus_name_images_animated">GIF</string>
     <string name="corpus_name_images_black_and_white">黑白</string>
@@ -1102,11 +1179,15 @@
     <string name="date_at_time">%1$s%2$s</string>
     <string name="date_in_the_past">%1$s&lt;font color=#9E9E9E>是过去的日期&lt;/font></string>
     <string name="day_picker_description">按月份划分的日期网格</string>
+    <string name="deeplink_no_description">无相关说明</string>
+    <string name="deeplink_not_installed">应用未安装</string>
     <string name="default_error">出了点问题，请稍后重试。</string>
     <string name="default_image_filename">下载的图片</string>
     <string name="default_location_name">旧金山</string>
     <string name="default_scroll_format">第%1$d页，共%2$d页</string>
+    <string name="delayed">延迟</string>
     <string name="delete">删除</string>
+    <string name="delete_favorites">删除所选播客</string>
     <string name="delete_order_action_title">删除收据</string>
     <string name="delete_order_dialog_message">此操作会删除收据，但不会更改或取消您的订单。</string>
     <string name="delete_order_dialog_negative_button">取消</string>
@@ -1116,6 +1197,7 @@
     <string name="delete_target_label">移除</string>
     <string name="delete_target_uninstall_label">卸载</string>
     <string name="deleted_key">已删除 %1$s</string>
+    <string name="delivered">已送达</string>
     <string name="depart">出发站</string>
     <string name="departure_station">出发站点：%1$s</string>
     <string name="departure_time_and_express_class">%1$s（%2$s）</string>
@@ -1126,6 +1208,7 @@
     <string name="device_id_device_address_clear_dialog_message">"该设备需要获取精确的位置信息，以便为您提供本地天气、路况、商家等方面的准确资讯。如果您不提供精确地址，该设备便无法发挥预期的作用。
 我们将不得不使用其他信息（例如该设备的 IP 地址）来推断您的大致位置，以便您可以使用基本功能。"</string>
     <string name="device_not_linkable">已完成</string>
+    <string name="device_photo_group_header">设备上的照片</string>
     <string name="device_response_suppressed">在其他设备上回应</string>
     <string name="device_setup_cancel_dialog_message">此时点按“返回”按钮将离开设置部分。确定要离开吗？</string>
     <string name="device_setup_cancel_dialog_negative_button">继续设置</string>
@@ -1144,6 +1227,9 @@
     <string name="distance_kilometers_accessible">Distance: %1$.1f 公里</string>
     <string name="distance_miles">%1$.1f英里</string>
     <string name="distance_miles_accessible">Distance: %1$.1f 英里</string>
+    <string name="docs_group_header">文档</string>
+    <string name="donate">捐款</string>
+    <string name="donate_button_label">捐款</string>
     <string name="donate_screenshot_summary">允许 Google 存储您的屏幕截图并评估这些屏幕截图，从而改善“屏幕搜索”功能。审核人员会遵守严格的保密规则。屏幕截图中可能包含电子邮件和聊天记录等私人信息，不过 Google 会对这些信息予以保密。</string>
     <string name="donate_screenshot_title">协助改善“屏幕搜索”功能</string>
     <string name="done">完成</string>
@@ -1154,8 +1240,17 @@
     <string name="doodle_notifications_setting_summary">新的涂鸦游戏、视频和互动体验</string>
     <string name="doodle_notifications_setting_title">涂鸦</string>
     <string name="download">下载 (%1$s)</string>
+    <string name="download_again">重新下载</string>
     <string name="download_details">可用版本：%1$s，下载文件大小：%2$s</string>
+    <string name="download_episode">下载剧集</string>
+    <string name="download_failed">下载失败</string>
+    <string name="download_not_found">找不到下载内容</string>
     <string name="download_prompt">下载</string>
+    <string name="download_setting_message">系统会在 30 天后或收听完毕后的 24 小时后移除已下载的剧集</string>
+    <string name="downloaded">已下载此播客剧集</string>
+    <string name="downloaded_episodes">已下载的剧集</string>
+    <string name="downloading">正在下载…</string>
+    <string name="downloads">下载内容</string>
     <string name="draw_with_stylus">使用触控笔绘图以进行选择</string>
     <string name="dsp_error_notification_content">请重启手机以修正语音检测功能。</string>
     <string name="dsp_error_notification_title">不支持“%1$s”指令</string>
@@ -1170,6 +1265,8 @@
     <string name="e100_reply_command">回复</string>
     <string name="e100_sms_content">短信内容为：</string>
     <string name="e100_voice_command_generic_template">您可以按语音按钮，然后说：%1$s。</string>
+    <string name="edit">修改</string>
+    <string name="edit_favorites_title">修改播客</string>
     <string name="edit_in_calendar">在日历中修改</string>
     <string name="edit_location">编辑位置</string>
     <string name="edit_place_hint">输入地址</string>
@@ -1204,7 +1301,12 @@
     <string name="enable_video_preview_autoplay_on_mobile_data">允许使用移动网络播放</string>
     <string name="enable_web_history_toast">网络历史记录已启用</string>
     <string name="endByDate">；直至 %s</string>
+    <string name="end_of_recents">最后一条最近搜索记录</string>
     <string name="entity_suggestion_message">此搜索查询与您现在输入的内容有关。</string>
+    <string name="entry_desc">第 %1$d 项，共 %2$d 项。</string>
+    <string name="episode_completed">已结束</string>
+    <string name="episode_subtitle_format">%1$s ⸱ %2$s</string>
+    <string name="error">错误</string>
     <string name="error_adding_location_snackbar_text">添加地点时出错</string>
     <string name="error_authenticating_user">登录错误</string>
     <string name="error_captive_portal">请检查您的网络连接，然后重试。</string>
@@ -1218,6 +1320,7 @@
     <string name="error_internal">出了点问题</string>
     <string name="error_learn_more">%1$s&lt;a href=%2$s>了解详情&lt;/a></string>
     <string name="error_loading_content">无法加载网页。</string>
+    <string name="error_message">搜索失败，请稍后再试。</string>
     <string name="error_network_time">时钟可能未保持同步，这将导致您无法与 Google 建立安全连接。请更新日期和时间，以便显示您的动态消息。</string>
     <string name="error_no_connection_text">"没有可用的网络连接
 请考虑检查您的网络连接，然后重试"</string>
@@ -1236,6 +1339,7 @@
     <string name="estimated_delivery_date">预计送达时间：%1$s</string>
     <string name="estimated_delivery_title">预计送达时间</string>
     <string name="event_end_time">结束时间：%1$s</string>
+    <string name="event_group_header">活动</string>
     <string name="event_start_time">开始时间：%1$s</string>
     <string name="every_day">每天</string>
     <string name="every_week">每个%1$s</string>
@@ -1245,6 +1349,8 @@
     <string name="expand_button_title">高级</string>
     <string name="expand_time_to_leave">显示此行程的相关选项。</string>
     <string name="expanding_time_to_leave_announcement">目前显示的是出发时间详情。</string>
+    <string name="expect_delivery_day">%s</string>
+    <string name="explicit_content_label">播客包含露骨内容</string>
     <string name="explore_back_button_content_description">返回</string>
     <string name="explore_bottombar_expand_button_desc">展开</string>
     <string name="explore_bottombar_header_title">其他人还查看了：</string>
@@ -1255,6 +1361,16 @@
     <string name="explore_review_submit">提交</string>
     <string name="explore_review_title">您的评价</string>
     <string name="explore_review_view_pager_indicator_dot_description">第 %1$d 页，共 %2$d 页</string>
+    <string name="eyes_camera_switch_button_description">切换摄像头方向</string>
+    <string name="eyes_donate_data_info_button_description">显示数据贡献信息</string>
+    <string name="eyes_donate_data_notification_learn_more">了解详情</string>
+    <string name="eyes_donate_data_notification_text">您正在贡献图片以协助改进 Google 产品。</string>
+    <string name="eyes_donate_data_optin_dogfood_label">Dogfood</string>
+    <string name="eyes_donate_data_optin_message">允许人工审核您在 Google 助理中使用智能镜头拍摄的图片，以协助改进 Google 产品。</string>
+    <string name="eyes_donate_data_optin_no_thanks">不用了</string>
+    <string name="eyes_donate_data_optin_ok">确定</string>
+    <string name="eyes_donate_data_optin_title">贡献使用智能镜头拍摄的图片</string>
+    <string name="eyes_flash_button_description">切换闪光灯</string>
     <string name="eyes_import_to_keep_suggestion">导入到 Keep</string>
     <string name="eyes_improve_lens_suggestion">协助改进 Google 智能镜头</string>
     <string name="eyes_initial_prompt">点按您感兴趣的内容</string>
@@ -1271,6 +1387,9 @@
     <string name="eyes_onboarding_camera_permission_denied_settings_button">设置</string>
     <string name="eyes_onboarding_camera_permission_denied_title">智能镜头发生错误</string>
     <string name="eyes_onboarding_message">Google 智能镜头会持续分析您看到的内容，以便更快速地向您显示信息</string>
+    <string name="eyes_onboarding_title_places">使用智能镜头查找地点</string>
+    <string name="eyes_onboarding_title_products">使用智能镜头查找产品</string>
+    <string name="eyes_onboarding_title_text">使用智能镜头扫描文字</string>
     <string name="eyes_remember_this_suggestion">记住此设置</string>
     <string name="eyes_request_timed_out_message">抱歉，出了点问题</string>
     <string name="eyes_share_suggestion">分享</string>
@@ -1289,12 +1408,16 @@
     <string name="failed">无法加载图片</string>
     <string name="failed_to_open_webview">无法打开网页</string>
     <string name="failure_to_load_cards">无法加载即时贴</string>
+    <string name="fast_forward">快进</string>
+    <string name="favorite_images_tag_title">喜爱的图片</string>
+    <string name="favorite_pages_tag_title">喜爱的网页</string>
     <string name="feed_datasaver_details">开启流量节省程序后，您的资讯流将无法获得最新内容。</string>
     <string name="feedback">发送反馈</string>
     <string name="feedback_composed_legalese_text">要基于法律方面的原因而要求更改内容，请转到%1$s。&lt;br />我们会将您的系统信息发送给 Google。请参阅%2$s和%3$s。</string>
     <string name="feedback_edittext_hint">反馈</string>
     <string name="feedback_legal_help_text">法律帮助页面</string>
     <string name="feedback_legal_help_url">https://support.google.com/legal/answer/3110420</string>
+    <string name="feedback_link">反馈</string>
     <string name="feedback_no_text_entered">在举报之前，请先输入反馈。</string>
     <string name="feedback_privacy_text">隐私权政策</string>
     <string name="feedback_privacy_url">http://www.google.com/intl/%1$s/policies/privacy/</string>
@@ -1370,6 +1493,7 @@
     <string name="flight_estimated_arrival_label">预计抵达时间</string>
     <string name="flight_estimated_departure_label">预计起飞时间</string>
     <string name="flight_gate">登机口</string>
+    <string name="flight_group_header">航班</string>
     <string name="flight_modify">修改预订</string>
     <string name="flight_number">第 %1$s 航段（共 %2$s 段）</string>
     <string name="flight_reservation">航班预订</string>
@@ -1404,8 +1528,12 @@
     <string name="folder_renamed">已将文件夹重命名为“%1$s”</string>
     <string name="folder_tap_to_close">触摸可关闭文件夹</string>
     <string name="folder_tap_to_rename">触摸可保存新名称</string>
+    <string name="forbid_download_removal">无法移除正在播放的剧集</string>
     <string name="fourth_quarter">第4节</string>
     <string name="fourth_quarter_abbrev">第4节</string>
+    <string name="full_screen_error">"无法加载播客播放器。
+请尝试重新搜索相关播客。"</string>
+    <string name="full_screen_error_button">返回</string>
     <string name="full_time">已结束</string>
     <string name="full_voice_interaction_service_label">强化的 Google 服务</string>
     <string name="gadget_error_text">加载微件时出现问题</string>
@@ -1413,13 +1541,13 @@
     <string name="gcm_fallback_notification_channel_label">其他</string>
     <string name="gdi_add_button">添加</string>
     <string name="gdi_add_phone_number">添加电话号码</string>
-    <string name="gdi_add_phone_number_consent_text">"请添加您的电话号码，以用于发送短信、登录帐号、使用 Google 智能助理以及其他 Google 服务。 "</string>
-    <string name="gdi_add_phone_number_disclaimer">Google 将会通过发送一条一次性短信来确认此号码确实是您的电话号码，您需要按标准费率支付相应费用。</string>
+    <string name="gdi_add_phone_number_consent_text">请添加您的电话号码，以用于发送短信、登录帐号、使用 Google 智能助理以及其他 Google 服务。</string>
+    <string name="gdi_add_phone_number_disclaimer">Google 将给您发送一条一次性短信，以确认此电话号码归您所有。您需要支付标准资费。</string>
     <string name="gdi_add_phone_number_error">请添加电话号码</string>
     <string name="gdi_add_phone_number_heading">添加电话号码以便创建%1$s帐号</string>
     <string name="gdi_add_your_phone">添加您的电话号码</string>
     <string name="gdi_allow">允许</string>
-    <string name="gdi_and_spaced">" 和 "</string>
+    <string name="gdi_and_spaced">和</string>
     <string name="gdi_app_terms">应用条款</string>
     <string name="gdi_back">上一步</string>
     <string name="gdi_bbb_already_have_account">我已有%1$s帐号</string>
@@ -1435,11 +1563,11 @@
     <string name="gdi_bbb_trouble_completing_request">无法完成请求。</string>
     <string name="gdi_bbb_try_again_later">请稍后重试。</string>
     <string name="gdi_bbb_verification_error">验证码不正确</string>
-    <string name="gdi_bbb_verification_message">"Google 将会通过发送一个验证码来确认此号码确实是您的电话号码。 "</string>
+    <string name="gdi_bbb_verification_message">Google 将会通过发送一个验证码来确认此号码确实是您的电话号码。</string>
     <string name="gdi_cancel">取消</string>
     <string name="gdi_choose_account_title">要继续操作，请将%1$s与您的 Google 帐号关联</string>
     <string name="gdi_close">关闭</string>
-    <string name="gdi_confirm_sms_title">Google 将会通过发送一条一次性短信来确认 %1$s 是不是您的电话号码。</string>
+    <string name="gdi_confirm_sms_title">Google 将会给 %1$s 发送一条一次性短信，以确认此电话号码归您所有。</string>
     <string name="gdi_consent_cancel">取消</string>
     <string name="gdi_consent_confirm">关联</string>
     <string name="gdi_continue_button_text">继续</string>
@@ -1451,8 +1579,8 @@
     <string name="gdi_enter_code_subheading">"我们已将验证码发送到您的手机 
 %1$s"</string>
     <string name="gdi_enter_the_code">输入验证码</string>
-    <string name="gdi_fine_print_middle">" 并同意 Google 访问您的%1$s帐号信息。"</string>
-    <string name="gdi_fine_print_preamble">"继续即表示您同意%1$s的 "</string>
+    <string name="gdi_fine_print_middle">并同意 Google 访问您的%1$s帐号信息。</string>
+    <string name="gdi_fine_print_preamble">继续即表示您同意%1$s的</string>
     <string name="gdi_finish">完成</string>
     <string name="gdi_invalid_number_error">电话号码无效</string>
     <string name="gdi_learn_more_link">了解详情</string>
@@ -1484,8 +1612,11 @@
     <string name="gel_usage_stats_summary">将您与Google即时桌面的互动情况统计信息发送给Google</string>
     <string name="gel_usage_stats_title">帮助改进Google产品和服务</string>
     <string name="generic_device_name">设备</string>
+    <string name="generic_error_message">出了点问题</string>
     <string name="generic_error_snackbar_message">出了点问题，请重试。</string>
     <string name="get_directions">查询路线</string>
+    <string name="gmail_update_required">系统不支持这部手机上的 Gmail 版本，请将其更新到最新版本。</string>
+    <string name="gmscore_update_required">系统不支持这部手机上的 Google Play 服务版本，请将其更新到最新版本。</string>
     <string name="go">开始</string>
     <string name="go_to_settings">转至“设置”</string>
     <string name="google_account_history">Google 活动控件</string>
@@ -1500,8 +1631,6 @@
     <string name="google_home_device_change_language_dialog_message">您的 Google Home 设备会采用相同的语言。这会将所有设备的语言都更改为%1$s。</string>
     <string name="google_home_device_change_language_dialog_title">要更改所有 Google Home 设备的语言吗？</string>
     <string name="google_home_device_change_language_dialog_yes">是</string>
-    <string name="google_home_device_youtube_restricted_mode_summary">隐藏可能包含不当内容的歌曲和视频</string>
-    <string name="google_home_device_youtube_restricted_mode_title">Youtube 受限模式</string>
     <string name="google_home_hotword_enrollment_bottom_summary_text">邀请其他家庭成员一起设置 Voice Match 功能</string>
     <string name="google_location_service_required_text">要查看基于位置的即时贴（例如本地天气和上下班交通路况），请启用 Google 的位置服务</string>
     <string name="google_play_services">Google Play服务</string>
@@ -1518,7 +1647,11 @@
     <string name="google_play_services_update_required">要继续使用 Feed，您需要更新 Google Play 服务</string>
     <string name="google_plus_profile_contact_label">Google+ 个人资料</string>
     <string name="google_search_disabled_toast">您无权使用Google搜索。</string>
+    <string name="goto_system_settings">设置</string>
+    <string name="group_desc">第 %1$d 组，共 %2$d 组。</string>
     <string name="gsa_home">家</string>
+    <string name="gws_fetch_failed">无法连接到服务器。</string>
+    <string name="gws_fetch_unauthenticated">请登录以查看更多内容。</string>
     <string name="hands_free_unlock_device_bluetooth">在安全的情况下，您必须先点按通知，然后才能将蓝牙设备与处于锁定状态的手机配合使用。</string>
     <string name="hands_free_unlock_device_wired_headsets">在安全的情况下，您必须先点按通知，然后才能将耳机与处于锁定状态的手机配合使用。</string>
     <string name="hangout_keep_track_justification">最近参与的环聊对话中提到这项活动</string>
@@ -1547,9 +1680,22 @@
     <string name="hide_account_list">隐藏帐号</string>
     <string name="hide_examples_description">隐藏示例</string>
     <string name="history_action_card_title_default">执行的操作</string>
+    <string name="history_carousel_background_text">您最近通过其他设备进行的网页搜索活动</string>
     <string name="hits_header">安打</string>
     <string name="hits_header_full_length">安打数</string>
     <string name="home_address_icon_label">家庭住址</string>
+    <string name="home_onboarding_personal_results_enabled_explanation">"您已开启个性化搜索结果功能，但未开启 Voice Match 功能。这意味着，您的助理将无法在提供个性化搜索结果前检查您的声音。
+
+提示：设置好此设备后，请在助理设置中开启 Voice Match 功能。"</string>
+    <string name="home_onboarding_personal_results_enabled_positive_button">关闭</string>
+    <string name="home_onboarding_personal_results_enabled_title">进一步确保个性化搜索结果安全</string>
+    <string name="home_personal_results_action_button">我同意</string>
+    <string name="home_personal_results_cancel_button">不用了</string>
+    <string name="home_personal_results_explanation">开启个性化搜索结果功能，即可在此设备上访问您的日历、通讯录、提醒等内容。<a href="https://support.google.com/assistant/?p=personal_results">了解详情</a>"
+
+请注意，使用此设备的任何人都能获取您的个性化搜索结果。您可以在助理设置中关闭个性化搜索结果功能。"</string>
+    <string name="home_personal_results_title">获取个性化搜索结果</string>
+    <string name="homebase_link_tool_tip_message">在此查看您的订阅内容</string>
     <string name="homescreen_settings_action_turn_off">关闭</string>
     <string name="homescreen_settings_display_feed">显示 Google 动态消息</string>
     <string name="homescreen_settings_header_category">主屏幕</string>
@@ -1559,6 +1705,7 @@
     <string name="hotseat_out_of_space">收藏栏已满</string>
     <string name="hotword_disabled">“%1$s”已关闭</string>
     <string name="hotword_disabled_motorola_aov">另一项功能正在使用麦克风，因此目前无法使用“%1$s”。关闭“Moto Voice”即可重新开启“%1$s”。</string>
+    <string name="hotword_enrollment_button_more">更多</string>
     <string name="hotword_enrollment_delete_voice_model">删除语音模型</string>
     <string name="hotword_enrollment_enroll_again">请再说一遍“%1$s”</string>
     <string name="hotword_enrollment_enroll_again_talkback">很好，请再说一遍。</string>
@@ -1580,7 +1727,6 @@
     <string name="hotword_enrollment_enroll_listening_talkback_assistant_device">请说以“%1$s”开头的词句</string>
     <string name="hotword_enrollment_enroll_listening_talkback_assistant_device_again">再说一遍</string>
     <string name="hotword_enrollment_enroll_say_prompt">只需说三遍“%1$s”即可</string>
-    <string name="hotword_enrollment_enroll_skip_glif">跳过</string>
     <string name="hotword_enrollment_enroll_start">开始录制</string>
     <string name="hotword_enrollment_enroll_text">您可以让 Google 记住您的声音，以便设备对您的语音指令做出响应。</string>
     <string name="hotword_enrollment_enroll_text_opa_talkback">激活以下“%1$s”按钮，然后说“%2$s”即可调校您的助理熟悉您的声音。</string>
@@ -1601,6 +1747,9 @@
 
 这些先前的录音可用于在此设备上创建语音模型。这个过程应该不到一分钟即可完成。"</string>
     <string name="hotword_enrollment_google_home_fast_update_unicorn_header_title">智能助理已经可以识别您孩子的声音了</string>
+    <string name="hotword_enrollment_google_home_fast_update_unicorn_progress_summary">"您似乎已在另一台设备上为18孩子的 Google 助理设置了 Voice Match 功能。
+
+这些先前的录音可用于在此设备上创建语音模型。这个过程应该不到一分钟即可完成。"</string>
     <string name="hotword_enrollment_google_home_no_enrollment_found_toast_msg">请先为帐号 %1$s 完成启动指令注册流程。</string>
     <string name="hotword_enrollment_google_home_no_thanks">不用了</string>
     <string name="hotword_enrollment_google_home_non_fast_update_header_title">正在设置 Voice Match 功能</string>
@@ -1623,7 +1772,7 @@
     <string name="hotword_enrollment_intro_header_title_glif_non_opa">随时使用语音进行搜索</string>
     <string name="hotword_enrollment_intro_next">下一步</string>
     <string name="hotword_enrollment_intro_summary_always_on">在使用您喜爱的应用时（甚至在屏幕关闭时），说“%1$s”即可进行搜索</string>
-    <string name="hotword_enrollment_intro_summary_glif_non_opa">即使屏幕处于关闭状态，或您正在使用喜爱的应用，只要说“%1$s”即可随时与设备交谈。</string>
+    <string name="hotword_enrollment_intro_summary_glif_non_opa">即使您的屏幕处于关闭状态，或您正在使用喜爱的应用，只要说%1$s也可随时与设备交谈。&lt;br/>&lt;br/>系统会在此设备上为您的声音创建独一无二的语音模型，以便 Google 语音搜索识别您的声音。&lt;br/>&lt;br/>&lt;b>请注意&lt;/b>：如果有人与您的声音相似或拥有您的声音录音，可能也能够使用语音搜索功能。日后，如果您想撤消相应权限，可以转到 Google 应用中将其关闭。</string>
     <string name="hotword_enrollment_intro_summary_screen_on">在使用您喜爱的应用时（甚至在设备锁定时），说“%1$s”即可进行搜索</string>
     <string name="hotword_enrollment_local_escalation_google_password_incorrect">密码不正确。</string>
     <string name="hotword_enrollment_local_escalation_learn_more_link">https://support.google.com/families/answer/7521263</string>
@@ -1642,11 +1791,20 @@
     <string name="hotword_enrollment_optin_udc_summary_item2">这有助于 Google 识别您所说的内容，并提升语音和音频识别精确度，从而让您更快速、更轻松地获得所需的结果。</string>
     <string name="hotword_enrollment_optin_udc_summary_item3">您随时可以转到 %1$s 更改这项设置或管理您的私人数据。请注意，启用“语音和音频活动记录”功能后，系统可能会从您已登录的任何设备收集这些数据并将保存下来。</string>
     <string name="hotword_enrollment_optin_udc_title">保存语音和音频活动记录</string>
+    <string name="hotword_enrollment_parent_intro_summary">{GENDER,select, male{借助 Google 助理，{PERSON}可以执行各种事务，例如玩游戏或在日历上查看其班级聚会时间。虽然部分体验是针对儿童设计的，但大多数内容都是针对普通受众群体的。&lt;a href=\"{LINK}\">了解详情&lt;/a>&lt;br>&lt;br>Voice Match 可在此设备上为{PERSON}的声音创建独一无二的语音模型，以便助理识别他的声音。&lt;br>&lt;br>请注意：如果有人与{PERSON}的声音相似或拥有他的声音录音，可能也能够访问他的个性化搜索结果。日后，如果您想移除 Voice Match 权限，可以前往助理设置或 Family Link 中关闭这项权限。}female{借助 Google 助理，{PERSON}可以执行各种事务，例如玩游戏或在日历上查看其班级聚会时间。虽然部分体验是针对儿童设计的，但大多数内容都是针对普通受众群体的。&lt;a href=\"{LINK}\">了解详情&lt;/a>&lt;br>&lt;br>Voice Match 可在此设备上为{PERSON}的声音创建独一无二的语音模型，以便助理识别她的声音。&lt;br>&lt;br>请注意：如果有人与{PERSON}的声音相似或拥有她的声音录音，可能也能够访问她的个性化搜索结果。日后，如果您想移除 Voice Match 权限，可以前往助理设置或 Family Link 中关闭这项权限。}other{借助 Google 助理，{PERSON}可以执行各种事务，例如玩游戏或在日历上查看其班级聚会时间。虽然部分体验是针对儿童设计的，但大多数内容都是针对普通受众群体的。&lt;a href=\"{LINK}\">了解详情&lt;/a>&lt;br>&lt;br>Voice Match 可在此设备上为{PERSON}的声音创建独一无二的语音模型，以便助理识别其声音。&lt;br>&lt;br>请注意：如果有人与{PERSON}的声音相似或拥有其声音录音，可能也能够访问其个性化搜索结果。日后，如果您想移除 Voice Match 权限，可以前往助理设置或 Family Link 中关闭这项权限。}}</string>
     <string name="hotword_enrollment_parent_intro_summary_learn_more_link">https://support.google.com/families/answer/7521263</string>
     <string name="hotword_enrollment_parent_intro_title">训练您的智能助理识别%1$s的声音</string>
     <string name="hotword_enrollment_parent_selector_family_fetch_failed">获取家庭结构信息时出错。</string>
     <string name="hotword_enrollment_parent_selector_subtitle">选择附近的用户，协助您开始使用 Google 智能助理音响设备</string>
     <string name="hotword_enrollment_parent_selector_title">需要家长同意</string>
+    <string name="hotword_enrollment_personal_results_action_button">我同意</string>
+    <string name="hotword_enrollment_personal_results_cancel_button">不用了</string>
+    <string name="hotword_enrollment_personal_results_explanation">"Voice Match 功能已设置完毕。
+
+现在，您可以开启个性化搜索结果功能，以便在此设备上使用您的声音访问日历、通讯录、提醒等内容。"<a href="https://support.google.com/assistant/?p=personal_results">了解详情</a>"
+
+您可以在助理设置中关闭个性化搜索结果功能。"</string>
+    <string name="hotword_enrollment_personal_results_title">通过您的声音获取个性化搜索结果</string>
     <string name="hotword_enrollment_pref_category_voice_model">“Ok Google”语音模型</string>
     <string name="hotword_enrollment_retrain_voice_model">重新调校语音模型</string>
     <string name="hotword_enrollment_retry_enroll">抱歉，出了点问题，正在重新开始。</string>
@@ -1704,7 +1862,6 @@
     <string name="hotword_pref_subtitle_disabled_os_version">您的操作系统版本不支持此功能</string>
     <string name="hotword_pref_subtitle_opa_supported_locale">向 Google 智能助理发出语音指令，让其协助您完成各项工作</string>
     <string name="hotword_pref_subtitle_opa_unsupported_locale">向 Google 智能助理发出语音指令，即可获取所需信息、发送短信、设置闹钟及执行其他操作</string>
-    <string name="hotword_pref_summary_always_on">回应您的语音指令。屏幕开启或关闭时都能使用</string>
     <string name="hotword_pref_summary_always_on_not_default_vis">要开启此服务，请依次打开“设置”>“语言和输入法”>“语音输入”，然后选择“强化的 Google 服务”</string>
     <string name="hotword_pref_summary_during_androidauto_navigation">支持 Android Auto</string>
     <string name="hotword_pref_summary_during_gmm_and_androidauto_navigation">支持 Google 地图和 Android Auto</string>
@@ -1713,16 +1870,12 @@
     <string name="hotword_pref_summary_homescreen">在“Google”应用或 Google 即时桌面的任一主屏幕中说“%1$s”即可启动语音搜索</string>
     <string name="hotword_pref_summary_lock_personal_results">当您的手机被安全锁定时，允许显示个性化搜索结果和进行相关操作</string>
     <string name="hotword_pref_summary_mic_permission">授予麦克风权限以便使用“%1$s”检测功能</string>
-    <string name="hotword_pref_summary_opa">即使屏幕处于关闭状态，或您正在使用喜爱的应用，只要说“%1$s”，您的设备就会识别出您的声音</string>
-    <string name="hotword_pref_summary_opa_non_dsp">即使您正在使用喜爱的应用，只要说“%1$s”，设备就会识别出您的声音</string>
     <string name="hotword_pref_summary_voice_unlock">当说“%1$s”的声音与您的语音模型相匹配时，设备即可解锁。</string>
     <string name="hotword_pref_title">“%1$s”检测</string>
     <string name="hotword_pref_title_always_on">始终开启</string>
     <string name="hotword_pref_title_during_gmm_navigation">驾驶时</string>
     <string name="hotword_pref_title_lock_screen_2_opa">使用 Voice Match 功能解锁</string>
     <string name="hotword_pref_title_locked_personal_results">个性化搜索结果</string>
-    <string name="hotword_pref_title_opa">随时说“%1$s”</string>
-    <string name="hotword_prefs_voice_everywhere_subtitle">回应您的语音指令。可在屏幕开启时运行。</string>
     <string name="hotword_prefs_voice_everywhere_subtitle_no_account">请使用您的 Google 帐号登录以启用该功能</string>
     <string name="hotword_prefs_voice_everywhere_title">在任一屏幕中</string>
     <string name="hotword_setup_wizard_connection_error_message">请检查您的网络连接，然后重试。</string>
@@ -1749,6 +1902,9 @@
     <string name="hq_selected_tab_unavailable">无法使用%1$s</string>
     <string name="hq_title">Google 智能助理</string>
     <string name="hq_your_stuff_header">您的内容</string>
+    <string name="https_info_close">关闭</string>
+    <string name="https_info_message">您与该播客网站之间的连接是私密连接。</string>
+    <string name="https_info_title">安全连接</string>
     <string name="hyper_local_suggestion_message">此搜索查询与您当前所在的位置有关。</string>
     <string name="i18n_address_line1_accessibility_label">街道地址第 1 行</string>
     <string name="i18n_address_line1_label">街道地址</string>
@@ -1788,9 +1944,43 @@
     <string name="icing_save_pref_failure">无法更新手机搜索设置。</string>
     <string name="icing_sms_corpus_description">设备上的短信</string>
     <string name="icing_sms_corpus_label">短信</string>
+    <string name="image_action_indicator_product_text">产品</string>
+    <string name="image_action_indicator_recipe_text">食谱</string>
+    <string name="image_action_indicator_video_text">视频</string>
+    <string name="image_card_content_description">%s的图片</string>
     <string name="image_carousel_view_all">查看全部</string>
     <string name="image_copyright_message">图片可能受版权保护。</string>
+    <string name="image_copyright_message_price_disclaimer">* 请访问网站以了解最新的价格和供货情况。图片可能受版权保护。</string>
     <string name="image_load_fail">无法加载图片</string>
+    <string name="image_viewer_image_description">标题为“%1$s”的图片</string>
+    <string name="image_viewer_more_options">更多选项</string>
+    <string name="image_viewer_parentheses">(%s)</string>
+    <string name="image_viewer_product_availability_label">库存状况</string>
+    <string name="image_viewer_product_brand_label">品牌</string>
+    <string name="image_viewer_product_in_stock">有货</string>
+    <string name="image_viewer_product_price_label">价格*</string>
+    <string name="image_viewer_product_unavailable">缺货</string>
+    <string name="image_viewer_recipe_cook_time_label">烹饪时间</string>
+    <string name="image_viewer_recipe_ingredients">食材</string>
+    <string name="image_viewer_recipe_yield">份量</string>
+    <string name="image_viewer_related_image">打开相关图片%1$s</string>
+    <string name="image_viewer_related_images_title">相关图片</string>
+    <string name="image_viewer_related_products_title">类似产品</string>
+    <string name="image_viewer_related_searches_title">相关搜索</string>
+    <string name="image_viewer_rich_metadata_rating_label">评分</string>
+    <string name="image_viewer_saved">已保存</string>
+    <string name="image_viewer_saved_description">已保存。移除图片。</string>
+    <string name="image_viewer_see_more">查看更多</string>
+    <string name="image_viewer_share">分享</string>
+    <string name="image_viewer_video_comments_label">评论数</string>
+    <string name="image_viewer_video_likes_label">顶的次数</string>
+    <string name="image_viewer_video_upload_date_label">发布日期</string>
+    <string name="image_viewer_video_uploaded_by">上传者：</string>
+    <string name="image_viewer_video_view_count_label">观看次数</string>
+    <string name="image_viewer_video_watch_label">观看</string>
+    <string name="image_viewer_view_all_related_images_accessibility">查看所有相关图片</string>
+    <string name="image_viewer_view_saved">查看已保存的图片</string>
+    <string name="image_viewer_visit_site">访问</string>
     <string name="images_mode_landing_text">寻找图片</string>
     <string name="ime_audio_error">无法打开麦克风</string>
     <string name="ime_can_not_be_activated">在这种情况下无法启用 Google 语音输入。</string>
@@ -1821,10 +2011,13 @@
     <string name="immersive_actions_search_error">抱歉打断一下，您的设备刚才断开了网络连接。系统必须等到连接到网络后重试。</string>
     <string name="immersive_actions_unknown_provider_short">？</string>
     <string name="immersive_contact_disambiguation_header_label">%1$s…</string>
+    <string name="inactive_state_text">游戏信息不是最新的。</string>
+    <string name="indexing_not_ready">尚无任何可向您显示的内容。请连接到互联网，并在几分钟后再试一次。</string>
     <string name="inferred_event_created">已将活动添加到日历</string>
     <string name="inferred_event_error">无法创建活动</string>
     <string name="inferred_from_gmail">在Gmail中称为“%1$s”</string>
     <string name="info_target_label">应用信息</string>
+    <string name="installed_app_group_header">应用</string>
     <string name="installed_details">已安装版本：%1$s，占用的存储空间：%2$s</string>
     <string name="installed_language_packs">已安装</string>
     <string name="intent_api_hint_tap_to_speak">点按即可说话</string>
@@ -1837,13 +2030,29 @@
     <string name="interest_picker_search_error">无法加载搜索结果</string>
     <string name="interest_picker_search_hint">搜索您感兴趣的内容</string>
     <string name="interest_picker_title">关注主题</string>
+    <string name="ipa_app_filter_content_description">来自%s的结果。</string>
+    <string name="ipa_app_filter_more_description">查看来自%s的更多结果。</string>
+    <string name="ipa_contact_action_app_description">通过%2$s与%1$s联系</string>
+    <string name="ipa_contact_group_divider_text">更多联系人</string>
     <string name="ipa_error_message">搜索失败，请稍后再试。</string>
+    <string name="ipa_installed_apps_result_content_description">打开%s。</string>
+    <string name="ipa_media_result_description">打开图片</string>
+    <string name="ipa_message_collapse_icon_description">收起对话</string>
+    <string name="ipa_message_expand_icon_description">展开对话</string>
+    <string name="ipa_message_result_content_description">在%2$s中打开与%1$s的对话。</string>
     <string name="ipa_no_results_shown">没有结果可显示。</string>
     <string name="ipa_number_of_results_shown">目前显示了 %d 个结果。</string>
     <string name="ipa_one_result_shown">目前显示了 1 个结果。</string>
+    <string name="ipa_people_immersive_contact_action_description">通过%3$s与%2$s%1$s。</string>
+    <string name="ipa_people_immersive_edit_description">在“通讯录”应用中修改%s的信息。</string>
+    <string name="ipa_people_immersive_navigate_description">使用%2$s导航到%1$s。</string>
     <string name="ipa_personal_search_sources">个性化</string>
     <string name="ipa_search_result_page_message">%s，Google 搜索。</string>
     <string name="ipa_searchable_items_category_title">显示以下来源的内容：</string>
+    <string name="ipa_see_less_about_person_description">收起关于%s的信息</string>
+    <string name="ipa_see_more_about_person_description">展开关于%s的信息</string>
+    <string name="ipa_share_dialog_title">分享方式：</string>
+    <string name="ipa_standard_result_content_description">在%2$s中打开%1$s。</string>
     <string name="item_added_to_workspace">已将项目添加到主屏幕</string>
     <string name="item_is_selected">已选择 %1$s</string>
     <string name="item_moved">已移动项目</string>
@@ -1892,6 +2101,7 @@
     <string name="last_transit_to_hotel_is_gone">开往酒店的末班交通工具%1$s已开走%2$s</string>
     <string name="last_transit_to_hotel_less_than_one_minute">开往酒店的末班交通工具将在%1$s1分钟内%2$s出发</string>
     <string name="last_transit_to_hotel_narrow_widget_header">开往酒店的末班交通工具出发时间为…</string>
+    <string name="last_visit_text">上次访问时间：</string>
     <string name="launcher_name">Google 即时桌面</string>
     <string name="launcher_shortcut_recent_short">最近</string>
     <string name="launcher_shortcut_search_in_apps_short">个性化搜索</string>
@@ -1902,13 +2112,31 @@
     <string name="leave_alert_scheduled_header">将在该出发时提醒您。</string>
     <string name="leave_from">出发地点</string>
     <string name="legal_documents">法律许可</string>
+    <string name="lens_education_card_barcodes_heading">条形码</string>
+    <string name="lens_education_card_barcodes_paragraph">扫描条形码并查找商品详情</string>
+    <string name="lens_education_card_media_heading">图书和媒体</string>
+    <string name="lens_education_card_media_paragraph">通过封面查找图书、影片、音乐专辑和视频游戏</string>
+    <string name="lens_education_card_places_heading">地点</string>
+    <string name="lens_education_card_places_paragraph">详细了解地标、感兴趣的地点和著名建筑</string>
+    <string name="lens_education_card_products_heading">产品</string>
+    <string name="lens_education_card_products_paragraph">查找与家具和服装等产品相似的商品</string>
+    <string name="lens_education_card_text_heading">文字</string>
+    <string name="lens_education_card_text_paragraph">复制电话号码、日期和地址等文字</string>
+    <string name="lens_education_card_title">智能镜头有哪些功能？</string>
+    <string name="lens_info_panel_live_camera_title">点按屏幕上任一处即可获取信息</string>
+    <string name="lens_info_panel_loading_message">正在查找结果…</string>
+    <string name="lens_title">Google 智能镜头</string>
+    <string name="less_contact_apps">隐藏部分“通讯录”应用</string>
+    <string name="less_than_one_minute_left">还剩不到 1 分钟</string>
     <string name="libraries_material_featurehighlight_dismiss">关闭</string>
     <string name="license_activity_title">开放源代码许可</string>
     <string name="light_traffic">交通畅通</string>
     <string name="line_two_text_separator">" · "</string>
     <string name="link_device_title">正在与%s相关联</string>
+    <string name="link_to_show_page">链接到节目页面</string>
     <string name="listen_for_music">听声音搜音乐</string>
     <string name="listening_for_music_status">正在识别音乐…</string>
+    <string name="loading">正在加载</string>
     <string name="local_results_map_description">%1$s的地图</string>
     <string name="location_access_required_text_klp">要查看基于地点的即时贴（例如本地天气和上下班交通路况），请启用位置信息使用权</string>
     <string name="location_added_snackbar_text">已添加该地点</string>
@@ -1922,6 +2150,10 @@
     <string name="lockscreen_mic_promo_notification_title">通过语音解锁</string>
     <string name="long_accessible_way_to_add">点按两次并按住微件即可选择微件，您也可以使用自定义操作。</string>
     <string name="long_press_widget_to_add">触摸并按住微件即可选择。</string>
+    <string name="longpress_menu_download">下载图片</string>
+    <string name="longpress_menu_search_by_image">@string/menu_search_by_image</string>
+    <string name="longpress_menu_share">分享图片</string>
+    <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="magic_flashlight_off">Nox</string>
     <string name="magic_flashlight_on">Lumos</string>
     <string name="mall_lookup_hint_text">查找商店和服务点</string>
@@ -1953,22 +2185,34 @@
     <string name="map_content_description">地图</string>
     <string name="map_route_content_description">前往%1$s的路线地图</string>
     <string name="maps_mode_landing_text">搜索地图</string>
+    <string name="mark_as_completed">标记为已完成</string>
     <string name="media_content_image">与此即时贴中所显示的媒体内容相关的图片</string>
     <string name="medium_traffic">交通正常</string>
     <string name="menu_download">下载</string>
+    <string name="menu_get_help">获取帮助</string>
     <string name="menu_icon_description">菜单</string>
     <string name="menu_overlay_customize">自定义</string>
     <string name="menu_overlay_feedback">发送反馈</string>
     <string name="menu_overlay_reset_to_default_style">重置为默认样式</string>
     <string name="menu_refresh">刷新</string>
+    <string name="menu_search_by_image">按图片搜索</string>
     <string name="menu_send_button_content_description">用于提交反馈的“发送”按钮。</string>
+    <string name="menu_send_feedback">发送反馈</string>
     <string name="menu_settings">设置</string>
     <string name="menu_share">分享</string>
     <string name="menu_view_in_browser">在浏览器中查看</string>
+    <string name="menu_view_original_image">查看原始图片</string>
     <string name="menu_visit_page">访问页面</string>
     <string name="message_card_feedback">反馈</string>
     <string name="message_card_troubleshoot">问题排查</string>
+    <string name="message_image">图片</string>
     <string name="message_no_sound_search_results_tts">抱歉，无法识别此曲目。</string>
+    <string name="message_no_text">没有文字</string>
+    <string name="message_sender_text_divider">·</string>
+    <string name="message_sent_by_user_display_name">您</string>
+    <string name="message_sent_from">发送者：%s</string>
+    <string name="message_sent_to">接收者：%s</string>
+    <string name="message_snippet_font">Roboto</string>
     <string name="message_sound_search_result_tts">您当前正在聆听的是《%s》</string>
     <string name="message_sound_search_result_with_artist_tts" formatted="false">您当前正在聆听的是%s的《%s》</string>
     <string name="mic_fab_content_description">点击即可与 Google 智能助理交谈。</string>
@@ -2009,6 +2253,10 @@
     <string name="mismatching_value_postal_code">必须匹配地址</string>
     <string name="mismatching_value_zip_code">必须匹配地址</string>
     <string name="momo_tab_description">Google 标签</string>
+    <string name="more">更多</string>
+    <string name="more_actions_title">更多操作</string>
+    <string name="more_contact_apps">显示更多“通讯录”应用</string>
+    <string name="more_description">展开</string>
     <string name="more_info_text">统计信息、新闻和时间轴</string>
     <string name="more_information">详细信息</string>
     <string name="move_to_empty_cell">移至第 %1$s 行第 %2$s 列</string>
@@ -2039,6 +2287,7 @@
     <string name="mr_user_route_category_name">设备</string>
     <string name="msg_disabled_by_admin">已被您的管理员停用</string>
     <string name="msg_no_phone_permission">不允许使用“%1$s”拨打电话</string>
+    <string name="multi_chip_desc">查看%2$s中的%1$s。</string>
     <string name="multilingual_promo_content_description">更改您的搜索语言</string>
     <string name="multilingual_promo_negative_button_text">不用了</string>
     <string name="multilingual_promo_positive_button_text">更改语言</string>
@@ -2052,6 +2301,13 @@
     <string name="multiple_transit_lines_limited_service">多条线路%1$s部分停运%2$s</string>
     <string name="multiple_transit_service_disruptions">多个站点/线路%1$s暂停服务%2$s</string>
     <string name="multiple_transit_stations_closed">多个站点%1$s关闭%2$s</string>
+    <string name="music_group_header">音乐</string>
+    <string name="my_activity_card_button_text">转到“我的活动记录”</string>
+    <string name="my_activity_card_button_text_with_search">在“我的活动记录”中搜索“%s”</string>
+    <string name="my_activity_card_header">查看您的所有历史记录</string>
+    <string name="my_activity_card_text">"需要查看您在超过一周前找到的网页吗？
+
+您可以在“我的活动记录”中查看和控制您所有的 Google 搜索记录等内容。"</string>
     <string name="my_flights_query">我的航班</string>
     <string name="native_search_connection_error">无法加载搜索结果</string>
     <string name="nav_suggestion_content_description">转到 %s。</string>
@@ -2075,7 +2331,11 @@
     <string name="network_error_try_again">重试</string>
     <string name="network_location_required_text">要查看基于位置的即时贴（例如本地天气和上下班交通路况），请开启WLAN和移动网络位置信息</string>
     <string name="network_location_required_text_klp">要查看基于地点的即时贴（例如本地天气和上下班交通路况），请选择“高精确度”或“节电”位置信息模式</string>
+    <string name="never">永不</string>
     <string name="nevermind_prompt">继续下载</string>
+    <string name="new_episode">新</string>
+    <string name="newest_episodes_footer_title">所有新剧集</string>
+    <string name="newest_episodes_section_title">新剧集</string>
     <string name="news_mode_landing_text">搜索新闻</string>
     <string name="next">下一页</string>
     <string name="nexus_active_edge_settings_dialog_button">Active Edge 设置</string>
@@ -2093,11 +2353,7 @@
     <string name="nexus_device_google_assistant_title">Google 智能助理</string>
     <string name="nexus_device_hands_free_preference_title">其他免触摸操作设置</string>
     <string name="nexus_device_hotword_category_title">借助 Voice Match 功能，您无需动手即可获取帮助</string>
-    <string name="nexus_device_hotword_preference_alwayson_summary">只要说“%1$s”即可随时访问您的智能助理</string>
     <string name="nexus_device_hotword_preference_screenon_summary">在屏幕处于开启状态时，只要说“%1$s”即可随时访问您的智能助理</string>
-    <string name="nexus_device_hotword_preference_title">“%1$s”启动指令检测</string>
-    <string name="nexus_device_navigation_popup_message">您依然可以在某些驾驶应用（例如 Google 地图和 Android Auto）中使用“%1$s”启动指令检测功能。您随时可以在这些应用的“设置”中关闭此功能。%2$s</string>
-    <string name="nexus_device_navigation_popup_settings_link">驾驶设置</string>
     <string name="nexus_device_navigation_popup_title">驾驶时</string>
     <string name="nexus_device_use_screen_context_summary">要求 Google 在您按住主屏幕按钮或进行语音搜索时，根据屏幕上的内容显示相关信息</string>
     <string name="nexus_device_use_screen_context_title">使用屏幕上的内容</string>
@@ -2115,6 +2371,8 @@
     <string name="no_cards_greeting_evening">晚上好！</string>
     <string name="no_cards_greeting_morning">早上好！</string>
     <string name="no_cards_greeting_night">晚上好！</string>
+    <string name="no_chip_desc">查看所有结果。</string>
+    <string name="no_connection">没有网络连接</string>
     <string name="no_contact_found">&lt;font color=#9E9E9E>找不到&lt;/font>%1$s</string>
     <string name="no_contact_found_pick_another_contact">找不到叫%1$s的联系人，请选择其他联系人</string>
     <string name="no_departures_within_the_next_hour">在接下来的一个小时内没有发车班次</string>
@@ -2122,20 +2380,30 @@
     <string name="no_device_found_explanation">请确保 WLAN 已开启，并且智能助理和%1$s设备已连接到同一个网络，然后重试</string>
     <string name="no_device_found_generic_explanation">请确保 WLAN 已开启，并且智能助理和设备已连接到同一个网络，然后重试</string>
     <string name="no_device_found_title">找不到设备</string>
+    <string name="no_downloaded_episodes">没有任何已下载的剧集</string>
     <string name="no_email_guests_intent">必须启用 Google 日历，才能向邀请对象发送电子邮件</string>
     <string name="no_info">—</string>
     <string name="no_installable_language_packs">没有适合您设备的语言包可供下载</string>
     <string name="no_installed_language_packs">没有安装任何语言包</string>
     <string name="no_internet_connection">暂时无法连接到您的 Feed</string>
     <string name="no_internet_connection_hq">暂时无法连接到 Google</string>
+    <string name="no_longer_available">不再提供</string>
     <string name="no_match">没听明白，请再说一遍。</string>
     <string name="no_matches_offline_mode">暂时无法连接到Google。不过，您仍然可以使用麦克风拨打电话。请说“拨打”，然后再说出一个名字或一个号码。</string>
     <string name="no_matches_offline_mode_explanation">您仍然可以使用麦克风拨打电话。请说“呼叫”，然后再说出一个名字或一个号码。</string>
     <string name="no_matches_offline_mode_title">暂时无法连接到 Google。</string>
     <string name="no_matching_results">找不到相符的搜索结果</string>
+    <string name="no_newest_episodes">No new episodes</string>
     <string name="no_option_selected_content_description">请选择举报这项内容的原因，然后再发送反馈。“发送”按钮。</string>
+    <string name="no_personal_content_ipa">找不到任何个人内容</string>
+    <string name="no_podcasts_found">找不到任何播客</string>
+    <string name="no_recently_played_episodes">No recently played episodes</string>
+    <string name="no_results_found">找不到任何结果</string>
+    <string name="no_results_found_link">查看其他个性化搜索结果</string>
     <string name="no_results_found_status">找不到相近的匹配内容</string>
     <string name="no_results_interest">无结果。</string>
+    <string name="no_results_snippet">找不到任何与您的搜索条件相符的个人内容</string>
+    <string name="no_screenshot_available">没有可用的屏幕截图</string>
     <string name="no_speech_tts">没听清您说的话。</string>
     <string name="no_suggestions_shown">没有任何建议。</string>
     <string name="no_url_handler">未找到用于打开网址的应用</string>
@@ -2152,6 +2420,8 @@
     <string name="notification_cancel_title">已取消搜索</string>
     <string name="notification_set_text">搜索结果就绪后，系统将向您发送通知。</string>
     <string name="notification_set_title">已设置提醒</string>
+    <string name="notification_subtext">已置顶比赛</string>
+    <string name="notification_title">%1$s对阵%2$s</string>
     <string name="notifications_enabled_header">通知</string>
     <string name="notifications_ringtone_setting">铃声</string>
     <string name="notifications_vibrate_title">振动</string>
@@ -2204,6 +2474,7 @@
     <string name="offline_error_card_title_text_no_signal">无信号</string>
     <string name="offline_error_card_title_text_no_sim_card">未找到 SIM 卡</string>
     <string name="offline_error_card_title_text_sim_card_error">SIM 卡错误</string>
+    <string name="offline_error_title">您已离线</string>
     <string name="offline_eyesfree_install_language_pack_notification_body">升级您的语言包。</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">启用离线语音功能</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">您目前处于离线状态。要在离线状态下继续使用语音功能，您需要安装最新版的语言包。请在不影响安全的情况下，在屏幕上点按相关通知进行安装。</string>
@@ -2224,6 +2495,7 @@
     <string name="offline_options_start_hotword_disabled">您仍然可以点按麦克风，然后说</string>
     <string name="offline_searchbox_hint">“%%s…%s”</string>
     <string name="offline_voice_actions_error">不能进行离线语音操作。</string>
+    <string name="ok">确定</string>
     <string name="ok_prompt">确定</string>
     <string name="omniconsent_action_button_scroll">更多</string>
     <string name="omniconsent_confirm_partial_experience_action_button_text">继续</string>
@@ -2261,9 +2533,12 @@
     <string name="opa_assistant_logo_content_description">语音搜索</string>
     <string name="opa_consent_check_error_button">关闭</string>
     <string name="opa_consent_check_error_button_notavailable">切换帐号</string>
-    <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">您的 Google 智能助理将只能提供网络搜索结果、天气、游戏、笑话和本地信息等功能。</string>
+    <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">您的 Google 助理将只能提供网络搜索结果、笑话和本地信息等服务。</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_text">不用了</string>
-    <string name="opa_consent_check_error_confirmreject_personalize_radio_content">如需智能助理为您提供日历、提醒、通勤和航班资讯以及协助您处理订单等事宜，您需要向智能助理授予“网络与应用活动记录”、“设备信息”和“语音和音频活动记录”等权限。</string>
+    <string name="opa_consent_check_error_confirmreject_personalize_radio_button_show_less">收起</string>
+    <string name="opa_consent_check_error_confirmreject_personalize_radio_button_show_more">展开</string>
+    <string name="opa_consent_check_error_confirmreject_personalize_radio_content">如需 Google 助理为您提供日历、提醒和航班资讯等信息，您需要向 Google 助理授予“网络与应用活动记录”、“设备信息”和“语音和音频活动记录”设置的访问权限。</string>
+    <string name="opa_consent_check_error_confirmreject_personalize_radio_content_expanded">注意：系统可能会保存这些设置所控制的数据，并将相应数据用于您登录的所有 Google 服务，以便向您提供个性化服务和符合您需求的广告。您可以前往 account.google.com 查看、删除您的数据以及更改您的设置。</string>
     <string name="opa_consent_check_error_confirmreject_personalize_radio_text">授予权限</string>
     <string name="opa_consent_check_error_learn_more_link_target_notavailable">https://support.google.com/assistant/?p=gsuite</string>
     <string name="opa_consent_check_error_message">智能助理无法查看您的活动控件。请稍后再使用该功能。</string>
@@ -2272,7 +2547,7 @@
     <string name="opa_consent_check_error_message_notavailable">Google 智能助理需要访问这个帐号的活动控件，而您的设备管理员已对此设置限制。请与您的管理员联系或切换帐号，然后重试。</string>
     <string name="opa_consent_check_error_title">出了点问题</string>
     <string name="opa_consent_check_error_title_autherror">无法对您的帐号进行身份验证</string>
-    <string name="opa_consent_check_error_title_confirmreject">授予这些权限可改善您的使用体验</string>
+    <string name="opa_consent_check_error_title_confirmreject">完成这些设置，以便获享完整的 Google 助理体验</string>
     <string name="opa_consent_check_error_title_notavailable">此帐号无法使用 Google 智能助理</string>
     <string name="opa_consent_error_timeout_message">出现网络错误。请检查您的网络连接状态，然后重试。</string>
     <string name="opa_contextual_cards_found_message">以下是与此屏幕相关的部分信息：</string>
@@ -2292,9 +2567,11 @@
     <string name="opa_disabled_no_button">取消</string>
     <string name="opa_disabled_title">启用您的智能助理</string>
     <string name="opa_dismiss_message">拖动即可关闭</string>
+    <string name="opa_email_optin_screen_add_shortcut_explanation">轻松访问您的助理</string>
     <string name="opa_email_optin_screen_confirm">完成</string>
     <string name="opa_email_optin_screen_explanation">通过电子邮件随时掌握最新功能以及智能助理可执行的操作</string>
     <string name="opa_email_optin_screen_next">下一步</string>
+    <string name="opa_email_optin_screen_sub_toggle_explanation">将助理添加到主屏幕</string>
     <string name="opa_email_optin_screen_title">充分利用您的 Google 智能助理</string>
     <string name="opa_email_optin_screen_toggle_explanation">接收包含最新提示的电子邮件</string>
     <string name="opa_email_optin_screen_unsubscribe">您可以随时退订，只需在应用中更改电子邮件偏好设置即可。Google Inc., 1600 Amphitheatre Parkway, Mountain View CA 94043 www.google.com</string>
@@ -2332,8 +2609,10 @@
     <string name="opa_eyes_free_udc_opt_in_notification_title">授权给 Google 智能助理以便获取帮助</string>
     <string name="opa_eyes_warm_welcome_chip_text">点按即可继续</string>
     <string name="opa_first_screen_hotword_transition_cancel_button_text">以后再说</string>
+    <string name="opa_first_screen_hotword_transition_confirm_agree_button_text">我同意</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text">开始使用</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text_sentence_case">开始使用</string>
+    <string name="opa_first_screen_hotword_transition_no_thanks_button_text">不用了</string>
     <string name="opa_first_screen_hotword_transition_screen_context_pickup_confirm_button_text">完成</string>
     <string name="opa_first_screen_hotword_transition_screen_context_pickup_confirm_button_text_sentence_case">完成</string>
     <string name="opa_first_screen_hotword_transition_screen_context_pickup_explanation">您的智能助理可根据您屏幕上的内容，提供更贴近您需求的建议以及具体操作。您可以在智能助理的设置中更改此设置。</string>
@@ -2342,11 +2621,15 @@
     <string name="opa_first_screen_hotword_transition_skip_button_text">跳过</string>
     <string name="opa_first_screen_hotword_transition_summary">即使屏幕处于关闭状态，或您正在使用喜爱的应用，只需说“%1$s”即可随时与智能助理交谈。</string>
     <string name="opa_first_screen_hotword_transition_summary_no_dsp">只要屏幕处于开启状态，您随时都可以说“%1$s”来与智能助理交谈。</string>
+    <string name="opa_first_screen_hotword_transition_summary_short">Voice Match 功能可让您直接通过语音访问智能助理（即使屏幕处于关闭状态也是如此）。</string>
     <string name="opa_first_screen_hotword_transition_summary_short_no_dsp">Voice Match 功能可让您直接使用语音访问智能助理。</string>
     <string name="opa_first_screen_hotword_transition_title">通过 Voice Match 功能访问您的智能助理</string>
     <string name="opa_first_screen_tgoogle_summary">您将可以通过说出“%1$s”直接访问智能助理</string>
     <string name="opa_first_screen_tgoogle_title">训练智能助理识别“%1$s”</string>
     <string name="opa_fix_user_recoverable_error">解决问题</string>
+    <string name="opa_gdpr_footer">"系统会在此设备上为您的声音创建独一无二的语音模型，以便 Google 助理识别您的声音。
+
+"<b>请注意</b>：如果有人与您的声音相似或拥有您的声音录音，可能也能够访问您的 Google 助理。日后，如果您想移除 Voice Match 权限，可以前往 Google 助理设置中关闭这项权限。</string>
     <string name="opa_gearhead_opt_in_notification_body">驾车时，您可以使用语音与 Google 智能助理对话</string>
     <string name="opa_gearhead_opt_in_notification_title">在驾车时使用 Google 智能助理</string>
     <string name="opa_gearhead_opt_in_speech">您必须先在不影响安全的情况下点按通知，然后才能在驾车时使用 Google 智能助理。</string>
@@ -2388,7 +2671,7 @@
     <string name="opa_marketplace_disclosure_google_partners_description">Google 合作伙伴是指与 Google 建立了商业关系的商家。Google 智能助理可以与 Google 合作伙伴密切配合来协助您处理各种事务；无论是购买电影票，还是修理水槽，都没有问题。<a href="https://support.google.com/assistant/?p=google_partners">了解详情</a></string>
     <string name="opa_marketplace_disclosure_google_partners_short_description">Google 合作伙伴是指与 Google 建立了商业关系的商家。</string>
     <string name="opa_marketplace_disclosure_google_partners_title">Google 合作伙伴</string>
-    <string name="opa_marketplace_disclosure_service_additional_text">这样一来，相应服务便可在语音交互期间记住您的一些设置（例如您的偏好设置）。您既可在 Google 帐号设置的&lt;a href=https://myactivity.google.com/>我的活动记录&lt;/a>部分中查看和管理这些语音交互内容，也可通过 Google 智能助理设置中的“不再保存”选项为每项服务重置相应代码。</string>
+    <string name="opa_marketplace_disclosure_service_additional_text">这样一来，这些服务便可在语音交互期间记住一些数据（例如您的偏好）。在此应用的“探索”部分中，您可以分别在各项服务的页面上查看、管理和重置发送至相应服务的数据。&lt;a href=https://support.google.com/assistant/?p=reset_id>了解详情&lt;/a></string>
     <string name="opa_marketplace_disclosure_service_short_description">Google 会向您用语音操控的服务发送一个独一无二的代码。</string>
     <string name="opa_marketplace_disclosure_service_title">服务与您的隐私</string>
     <string name="opa_marketplace_disclosure_title">充分利用您的智能助理</string>
@@ -2397,6 +2680,12 @@
     <string name="opa_music_search_suggestion_chip_title">这是什么歌？</string>
     <string name="opa_my_day_query">我今天有哪些日程安排？</string>
     <string name="opa_notification_channel_group_title">智能助理</string>
+    <string name="opa_notification_channel_handoff_description">可让您在其他设备上完成操作的通知</string>
+    <string name="opa_notification_channel_handoff_title">Handoff</string>
+    <string name="opa_notification_channel_misc_description">各种其他通知</string>
+    <string name="opa_notification_channel_misc_title">其他</string>
+    <string name="opa_notification_channel_proactive_description">与您的位置和活动相关的最新动态</string>
+    <string name="opa_notification_channel_proactive_title">主动</string>
     <string name="opa_notification_channel_recommendations_description">根据您的兴趣，显示您可能会喜欢的功能和操作</string>
     <string name="opa_notification_channel_recommendations_title">推荐</string>
     <string name="opa_notification_channel_third_party_description">搭配智能助理使用的非 Google 服务所发送的通知</string>
@@ -2446,7 +2735,6 @@
     <string name="opa_unlock_device_for_response">解锁即可继续…</string>
     <string name="opa_upgrade_promo_tooltip_text">按住主屏幕按钮</string>
     <string name="opa_value_proposition_cancel">不用了</string>
-    <string name="opa_value_proposition_continue">继续</string>
     <string name="opa_value_proposition_message_1p">Google 智能助理可以回答您的问题，处理您交代的事务，就像专门为您配置的 Google 助手，随时听候您的差遣。</string>
     <string name="opa_value_proposition_message_title">认识一下 Google 智能助理</string>
     <string name="opa_value_proposition_next">下一步</string>
@@ -2473,6 +2761,7 @@
     <string name="opa_wuwa_notification_action_stop">停止</string>
     <string name="opa_wuwa_notification_content">%1$s 的闹钟</string>
     <string name="opa_wuwa_offline_notification_content">您的智能助理无法在离线状态下执行这项日常事务。</string>
+    <string name="opa_zero_state_hint_text">滑动可查看更多内容</string>
     <string name="open_app_template">打开%s</string>
     <string name="open_in_google_translate">在Google翻译中打开</string>
     <string name="open_in_inbox">在 Inbox 中打开</string>
@@ -2518,11 +2807,15 @@
     <string name="or_list_end">%1$s或%2$s</string>
     <string name="or_list_middle">%1$s、%2$s</string>
     <string name="or_list_start">%1$s、%2$s</string>
+    <string name="order_group_header">订单</string>
     <string name="order_history_title">订单</string>
     <string name="order_not_found_snackbar_message">找不到订单。</string>
     <string name="other_comment">原因（必填）</string>
+    <string name="other_group_header">其他</string>
     <string name="other_reason_not_fill_in_content_description">请提供举报这项内容的其他原因，然后再发送反馈。“发送”按钮。</string>
+    <string name="out_for_delivery">派送中</string>
     <string name="out_of_space">此主屏幕上已没有空间。</string>
+    <string name="overflow_menu_desc">更多选项</string>
     <string name="overtime">加时赛</string>
     <string name="package_location">位置</string>
     <string name="package_pickup_location">取件地点</string>
@@ -2530,6 +2823,8 @@
     <string name="package_status">包裹状态：%1$s</string>
     <string name="package_tracking_card_title">包裹</string>
     <string name="paid">已支付</string>
+    <string name="past_event_group_header">过往</string>
+    <string name="pause">暂停</string>
     <string name="pay">支付</string>
     <string name="pay_site">支付网址：%1$s</string>
     <string name="payments_auth_cancel">取消</string>
@@ -2553,11 +2848,14 @@
     <string name="payments_auth_too_many_fingerprint_retries_should_use_password">尝试次数太多，请改为输入密码。</string>
     <string name="payments_auth_unknown_fingerprint_error">使用指纹时出错，请输入您的 Google 密码继续操作。</string>
     <string name="payments_auth_use_fingerprint_checkbox_hint">以后使用指纹进行批准</string>
+    <string name="penalties">点球大战</string>
     <string name="pending_searches">待处理的搜索</string>
     <string name="permdesc_install_shortcut">允许应用自行添加快捷方式。</string>
     <string name="permdesc_read_settings">允许应用读取主屏幕中的设置和快捷方式。</string>
     <string name="permdesc_write_settings">允许应用更改主屏幕中的设置和快捷方式。</string>
     <string name="permission_error">我们需要获得您授予权限才能使用麦克风</string>
+    <string name="permission_error_l">Google 应用无权搜索设备上的内容。</string>
+    <string name="permission_error_m">Google 应用无权搜索设备上的内容。请向 Google 应用授予访问通讯录和短信的权限。</string>
     <string name="permission_required_action_notification_body">此应用需要获得您的许可</string>
     <string name="permission_required_action_notification_title">Google</string>
     <string name="permission_required_continue_button">继续</string>
@@ -2586,6 +2884,7 @@
     <string name="person_select_item_hangouts_app_name">环聊</string>
     <string name="person_select_item_secondary_text_delimiter">"、 "</string>
     <string name="person_select_item_sms_app_name">短信</string>
+    <string name="personal_info_and_suggestions_learn_more">了解详情</string>
     <string name="personal_mode_landing_text">搜索个人内容</string>
     <string name="personal_results_action_button">允许</string>
     <string name="personal_results_cancel_button">跳过</string>
@@ -2634,6 +2933,7 @@
     <string name="phone_endpoint_type_disambig_timeout_2_eyes_free_tts">没听清楚。要选择哪个电话号码？%2$s？或者说“%1$s”。</string>
     <string name="phone_endpoint_type_disambig_timeout_last_eyes_free_tts">还是没听清楚。%3$s。</string>
     <string name="photo_details">照片详情</string>
+    <string name="photo_group_header">照片</string>
     <string name="photo_spot_nearby">附近的拍照景点</string>
     <string name="photo_view_count" formatted="false">第 %d 张，共 %d 张</string>
     <string name="pick_duration_complete">完成</string>
@@ -2644,13 +2944,22 @@
     <string name="pixel_doodle_settings_title">搜索框效果</string>
     <string name="place_autocomplete_clear_button">清除搜索内容</string>
     <string name="place_autocomplete_search_hint">搜索</string>
+    <string name="place_group_header">地点</string>
     <string name="places_deletion_message">要移除该地点，您需要将其从已保存的私密地点中移除。点击“了解详情”即可管理您的地点。</string>
+    <string name="play">播放</string>
     <string name="play_by_play">比赛实况</string>
     <string name="play_folder_name">Play</string>
     <string name="play_sample">播放示例</string>
+    <string name="play_this_episode">播放这一集</string>
     <string name="play_video">播放视频</string>
     <string name="play_video_icon">播放视频。</string>
+    <string name="playback_error_cancel">取消</string>
+    <string name="playback_error_retry">重试</string>
+    <string name="playback_error_title">无法播放请求的剧集</string>
+    <string name="playback_panel_error">无法播放</string>
+    <string name="playback_status_buffering">正在缓冲…</string>
     <string name="please_select">请选择</string>
+    <string name="podcasts">播客</string>
     <string name="pomo_tab_description">其他标签</string>
     <string name="popup_new_content">点按即可更新</string>
     <string name="predictive_cards">您的资讯卡</string>
@@ -2698,6 +3007,7 @@
     <string name="preinstalled_details">预装版本：%1$s，占用的存储空间：%2$s</string>
     <string name="previous_balance">上期余额</string>
     <string name="price_and_percent_variation">%1$s (%2$s)</string>
+    <string name="price_range_separator">·</string>
     <string name="priority_notifications_description">当您的通知优先级较高时，您的手机会根据优先级通知设置发出提醒</string>
     <string name="priority_notifications_preferences_category">优先通知</string>
     <string name="problem_occurred_while_loading_cards">加载即时贴时出现问题</string>
@@ -2711,6 +3021,7 @@
     <string name="qp_hotel_reservation_number">预订号</string>
     <string name="qp_movie_watch_trailer">观看电影预告片</string>
     <string name="qp_precip">降水概率：%1$s</string>
+    <string name="qp_precip_today">%1$s（今天）</string>
     <string name="qp_restaurant_reservation_date">日期</string>
     <string name="qp_restaurant_reservation_time">时间</string>
     <string name="qp_soccer_time">"%1$d'"</string>
@@ -2729,14 +3040,79 @@
     <string name="qp_weather_unit_abbrev_fahrenheit">F</string>
     <string name="qp_wind_speed">风速：%1$d%2$s</string>
     <string name="qpf_label">定量降水预测：%s</string>
+    <string name="query_desc">查询：%s。</string>
+    <string name="query_people_group_header">联系人</string>
     <string name="query_suggestion_content_description">搜索“%s”。</string>
+    <string name="quoted_query">“%1$s”</string>
     <string name="rating_accessible">Rating: %1$s 星</string>
     <string name="rating_source_imdb">IMDb</string>
     <string name="reached_max_locations_removal_dialog_title">您最多可以保存 8 个地点。要保存新的地点，请先移除一个已存地点。</string>
     <string name="reaction_close">关闭反应弹出式窗口</string>
     <string name="reaction_text_less">较少</string>
     <string name="reaction_text_more">更多</string>
+    <string name="recent_docs_group_header">近期的文档</string>
+    <string name="recent_group_header">近期活动</string>
+    <string name="recent_music_group_header">近期的音乐</string>
+    <string name="recent_myactivity">我的活动记录</string>
+    <string name="recent_onboarding">教程</string>
+    <string name="recent_screenshot_category">屏幕截图</string>
+    <string name="recent_screenshot_title_prefix">以下项的屏幕截图：</string>
+    <string name="recent_search_result_url">google.com</string>
+    <string name="recent_settings">设置</string>
+    <string name="recent_srp_category">搜索结果</string>
+    <string name="recent_srp_title_prefix">针对以下项的搜索结果：</string>
+    <string name="recent_unknown_category">未知</string>
+    <string name="recent_video_group_header">近期的视频</string>
+    <string name="recent_web_history_group_header">近期的网页</string>
+    <string name="recent_webpage_category">网页</string>
     <string name="recently">最近</string>
+    <string name="recently_app_name">最近</string>
+    <string name="recently_disabled_card_button_text">转到设置</string>
+    <string name="recently_disabled_card_header">跟踪您近期的历史记录</string>
+    <string name="recently_disabled_card_text">在“设置”中开启“最近”，即可记录您访问过的网页，并方便以后快速找到这些网页。</string>
+    <string name="recently_entry_interaction_offline">无法在离线状态下打开请求的网页。</string>
+    <string name="recently_feed_entry">资讯流</string>
+    <string name="recently_onboarding_compare_message">不确定要买哪个？您可以并排比较找到的商品选项。</string>
+    <string name="recently_onboarding_compare_title">比较</string>
+    <string name="recently_onboarding_find_that_page_message">想要重新查看几天前看过的食谱、文章或网站吗？您可以先在这里查找以节省时间。</string>
+    <string name="recently_onboarding_find_that_page_title">查找该网页</string>
+    <string name="recently_onboarding_query">“最近”简介</string>
+    <string name="recently_onboarding_recent_message">"重新探索您最近在 Google 应用中查找过的主题。
+
+打开这个网页群组即可查看更多内容。"</string>
+    <string name="recently_onboarding_recent_message_2">"重新探索您最近在 Google 应用中查找过的主题。
+
+您可以通过双指张合来关闭群组。"</string>
+    <string name="recently_onboarding_recent_title">查看您找到的内容</string>
+    <string name="recently_onboarding_search_on_message">"此处的网页是您在此设备上查看过的网页。在同一搜索中找到的网页会先和最新搜索到的网页放在一起。
+
+请继续搜索并在此处重新探索您找到的网页。"</string>
+    <string name="recently_onboarding_search_on_title">搜索功能已开启</string>
+    <string name="recently_onboarding_swipe_up_message">"想要删除最近浏览过的网页吗？只需向上滑动即可移除这些网页。
+
+此操作不会从您的 Google 帐号中删除这些网页。"</string>
+    <string name="recently_onboarding_swipe_up_title">向上滑动</string>
+    <string name="recently_removed_item_dialog_message">"系统已移除您的搜索记录（只从这个设备中移除）。您可以在“我的活动记录”中管理您的 Google 历史记录。
+
+"<a href="http://myactivity.google.com">myactivity.google.com</a></string>
+    <string name="recently_removed_item_dialog_ok">知道了</string>
+    <string name="recently_removed_item_dialog_title">已从最近浏览过的网页中移除</string>
+    <string name="recently_search_history_authenticating_cancel">取消</string>
+    <string name="recently_search_history_authenticating_message">正在使用帐号 %1$s 登录…</string>
+    <string name="recently_search_history_authenticating_title">正在登录</string>
+    <string name="recently_sharebear_subtitle">屏幕截图</string>
+    <string name="recently_simple_onboarding_pinch_message">提示：只要滚动经过群组即可将群组关闭</string>
+    <string name="recently_simple_onboarding_pinch_title">双指张合即可关闭群组</string>
+    <string name="recently_simple_onboarding_recent_message">打开这个网页群组即可查看更多内容</string>
+    <string name="recently_simple_onboarding_recent_message_2">提示：您随时都能查看自己搜索的所有内容</string>
+    <string name="recently_simple_onboarding_recent_title">查看您找到的内容</string>
+    <string name="recently_simple_onboarding_swipe_up_message">提示：这并不会将它们从您的 Google 帐号中删除</string>
+    <string name="recently_simple_onboarding_swipe_up_title">向上滑动即可移除</string>
+    <string name="recently_timeline_days_ago">%d 天前</string>
+    <string name="recently_timeline_just_now">刚刚</string>
+    <string name="recently_timeline_yesterday">昨天</string>
+    <string name="recents_result_group_header">网络</string>
+    <string name="recents_result_separate_group_header">最近的搜索</string>
     <string name="recognizer_service_label">基本的Google语音识别</string>
     <string name="reconnecting_loading_results">"正在加载您的结果
 "</string>
@@ -2754,6 +3130,7 @@
     <string name="regular_app_suggestion_message">此应用与您现在输入的内容有关。</string>
     <string name="regular_query_suggestion_message">此字词与您现在输入的内容有关。</string>
     <string name="regular_url_suggestion_message">此网页与您现在输入的内容有关。</string>
+    <string name="reject_storage_permission">以后再说</string>
     <string name="relationship_removal_dialog_message" formatted="false">昵称“%s”将不再分配给%s</string>
     <string name="relationship_removal_dialog_negative_button_text">取消</string>
     <string name="relationship_removal_dialog_positive_button_text">移除</string>
@@ -2794,15 +3171,23 @@
     <string name="reminders_watch">观看</string>
     <string name="reminders_work">单位</string>
     <string name="remove">删除</string>
+    <string name="remove_all">全部移除</string>
     <string name="remove_button_text">移除</string>
+    <string name="remove_completed_episodes">移除已收听完毕的剧集</string>
+    <string name="remove_downloaded_episode">移除已下载的剧集</string>
     <string name="remove_from_history_failed">无法从历史记录中删除该条目。</string>
     <string name="remove_pnav_title">要将此网址从您的记录中删除吗？</string>
     <string name="remove_psuggest_message">您之前曾搜索过这项内容。将&lt;b>%s&lt;/b>从您的历史记录中删除后，这项查询将从您所有设备上的帐号中永久移除</string>
     <string name="remove_psuggest_title">要将这项搜索从您的历史记录中删除吗？</string>
+    <string name="remove_unfinished_episodes">移除未收听完毕的剧集</string>
     <string name="remove_url_history_message">这是您之前曾访问过的网址，而该网址与您现在输入的内容有关。如果将该网址删除，那么该网址将从您所有设备上的帐号中移除。</string>
     <string name="renter_name">姓名</string>
     <string name="report_other_reason">其他</string>
     <string name="report_this">举报此内容</string>
+    <string name="request_storage_message">要下载剧集，请先将设备存储空间的访问权限授予应用</string>
+    <string name="request_storage_permission_dialog_message">要下载剧集，Google 需要获得您设备存储空间的访问权限</string>
+    <string name="request_storage_permission_dialog_title">授予对存储空间的访问权限</string>
+    <string name="reservation_group_header">预订</string>
     <string name="reset">重置</string>
     <string name="reset_now_preferences">要重置资讯流偏好设置吗？</string>
     <string name="reset_now_preferences_summary">确定要重置您的资讯流偏好设置吗？</string>
@@ -2815,9 +3200,13 @@
     <string name="results_from_ago">%1$s前的搜索结果</string>
     <string name="retry">重试</string>
     <string name="retry_button_text">重试</string>
+    <string name="retry_failed_download">重新尝试下载</string>
+    <string name="returned">已退货</string>
+    <string name="review_count_text">(%d)</string>
     <string name="review_feedback_menu">用于标记垃圾内容或不当内容的菜单</string>
     <string name="reviewer_avatar">评价者的个人资料图片</string>
     <string name="reviewer_comment_date">评价日期：%1$s</string>
+    <string name="rewind">回放</string>
     <string name="room_picker_add_custom_room">添加自定义房间</string>
     <string name="room_picker_cancel_button">跳过</string>
     <string name="room_picker_create_new">新建</string>
@@ -2840,11 +3229,23 @@
     <string name="safemode_widget_error">安全模式下不允许使用微件</string>
     <string name="save_action">保存</string>
     <string name="save_button">保存</string>
+    <string name="save_carousel_view_all">查看全部</string>
+    <string name="save_dialog_cancel">取消</string>
+    <string name="save_dialog_create">创建</string>
     <string name="save_generic_error">发生错误，请重试。</string>
     <string name="save_in_progress">正在保存…</string>
     <string name="save_label">完成</string>
+    <string name="save_loading_lists">正在加载列表</string>
+    <string name="save_new_list">新建列表</string>
+    <string name="save_new_list_hint">列表名称</string>
+    <string name="save_not_signed_in">您需要登录才能使用此功能。</string>
+    <string name="save_save_confirmation">已保存</string>
     <string name="save_save_network_error">无法保存这项内容，请检查您的互联网连接是否正常，然后重试。</string>
+    <string name="save_save_to_list">保存到列表</string>
+    <string name="save_saved_to">已保存到</string>
+    <string name="save_tray_change_list">更改</string>
     <string name="save_unsave_action">取消保存</string>
+    <string name="save_unsave_confirmation">已取消保存</string>
     <string name="save_unsave_network_error">无法移除这项已保存的内容，请检查您的互联网连接是否正常，然后重试。</string>
     <string name="save_view_collections_action">查看收藏内容</string>
     <string name="save_view_saved_action">查看已保存的内容</string>
@@ -2870,7 +3271,12 @@
     <string name="screen_assist_share_title">编辑或分享此屏幕截图</string>
     <string name="screen_assist_sharing_screenshot">正在分享屏幕截图</string>
     <string name="screen_assist_translate">翻译</string>
+    <string name="screen_context_desc">查看助理提供的与屏幕内容相关的建议</string>
+    <string name="screen_context_title">获取屏幕内容的相关信息</string>
     <string name="screen_moved">屏幕已移动</string>
+    <string name="screenshot_srp_desc">搜索%s。</string>
+    <string name="screenshot_srp_pending_desc">“%s”的待处理搜索</string>
+    <string name="screenshot_web_desc">访问%s。</string>
     <string name="scroll_left">向左滚动</string>
     <string name="scroll_right">向右滚动</string>
     <string name="search_activity_name">Google</string>
@@ -2878,6 +3284,9 @@
     <string name="search_apps_web_and_more">搜索应用、网络等…</string>
     <string name="search_box_hint">搜索…</string>
     <string name="search_box_hint_for_places_and_web">搜索地点或网页</string>
+    <string name="search_contact_on_web">在网络上搜索“%s”</string>
+    <string name="search_error_message">"出了点问题。
+请尝试重新搜索此播客。"</string>
     <string name="search_for">搜索“%1$s”</string>
     <string name="search_gesture">滑动即可搜索</string>
     <string name="search_gesture_corpus_dialog_title">滑动即可搜索</string>
@@ -2926,8 +3335,12 @@
     <string name="search_sources_tablet">平板电脑搜索</string>
     <string name="search_storage_label">Google搜索存储空间</string>
     <string name="search_tablet">在平板电脑上搜索</string>
+    <string name="search_the_web">在网络上搜索“%1$s”</string>
     <string name="search_the_web_menu_text">搜索网页</string>
+    <string name="search_the_web_suggestion">在网络上搜索</string>
     <string name="search_widget_customization">自定义微件</string>
+    <string name="searchbar_hint">搜索播客</string>
+    <string name="searchbox_hint">搜索近期内容</string>
     <string name="searching_as_account">正在以%1$s的身份搜索</string>
     <string name="second_half">下半场</string>
     <string name="second_period">第2局</string>
@@ -2956,7 +3369,14 @@
     <string name="selection_mode_promo">点按此处即可选择文字</string>
     <string name="selection_prompt">点按即可选择任何文字</string>
     <string name="selection_retry_ocr">重试</string>
+    <string name="send_feedback">发送反馈</string>
+    <string name="send_to_device_negative_button">取消</string>
+    <string name="send_to_device_positive_button">发送</string>
+    <string name="send_to_device_snackbar_text">已发送到%1$s</string>
+    <string name="send_to_device_title">发送到设备</string>
+    <string name="sender_says_message">%1$s说：%2$s。</string>
     <string name="sending_audio_to_account_toast">正在将音频发送到 %1$s…</string>
+    <string name="separator">-</string>
     <string name="server_error">暂时无法连接到Google。</string>
     <string name="server_error_fetching_weather_data_status_text">出了点问题，请稍后重试。</string>
     <string name="set_duration">设置时长</string>
@@ -2998,6 +3418,7 @@
     <string name="sharebear_done_button_description">完成</string>
     <string name="sharebear_edit_undo_no_effect">没有可撤消的操作</string>
     <string name="sharebear_link">来自 %s 的屏幕截图</string>
+    <string name="sharebear_screenshot_not_found">未找到屏幕截图</string>
     <string name="sharebear_screenshotter_activity_label">分享屏幕截图</string>
     <string name="sharebear_share_saved_screenshot_chooser_title">编辑并分享屏幕截图</string>
     <string name="sharebear_share_subject">通过 Google 分享的屏幕截图</string>
@@ -3006,8 +3427,13 @@
     <string name="sharebear_storage_permission_request_info_part1">您会截取很多屏幕截图吗？</string>
     <string name="sharebear_storage_permission_request_info_part2">让 Google 应用协助您编辑和分享屏幕截图吧</string>
     <string name="sharebear_storage_permission_request_info_yes">立即启用</string>
-    <string name="shared_links_desc">通过电子邮件或消息收发的链接</string>
+    <string name="shared_links_desc">通过电子邮件或消息收发的链接的预览</string>
+    <string name="shared_links_group_header">分享链接</string>
     <string name="shared_links_title">分享的链接</string>
+    <string name="shared_links_via">%1$s，通过%2$s</string>
+    <string name="shared_photo_group_header">分享的图片</string>
+    <string name="shipped">已发货</string>
+    <string name="shipped_with_estimation">已发货，预计%s送达</string>
     <string name="shootout_abbreviation">点球</string>
     <string name="shopping_mode_landing_text">搜索购物</string>
     <string name="short_google_play_services_enable_required">需要启用 Google Play 服务</string>
@@ -3026,16 +3452,22 @@
     <string name="show_all_packages">显示所有包裹</string>
     <string name="show_all_reminders">显示所有提醒</string>
     <string name="show_contact_information_edit_contact">修改详细信息</string>
+    <string name="show_error_message">"出了点问题。
+目前无法观看此节目。"</string>
     <string name="show_examples_description">显示示例</string>
     <string name="show_full_agenda">显示完整日程</string>
     <string name="show_less">收起</string>
     <string name="show_more">显示更多</string>
+    <string name="show_more_search_results">显示更多搜索结果</string>
     <string name="show_more_suggestions_footer">显示更多建议</string>
     <string name="show_starts_at">电影将于%1$s开始放映</string>
     <string name="showtimes_today">今日放映场次</string>
     <string name="sidekick_network_error">网络错误，请检查您的网络连接并重试。</string>
     <string name="sign_in">登录</string>
+    <string name="sign_in_accept">登录</string>
     <string name="sign_in_error_description">登录帐号时可能发生错误</string>
+    <string name="sign_in_message">登录即可订阅播客并访问其他设备上的聆听记录。</string>
+    <string name="sign_in_reject">以后再说</string>
     <string name="sign_in_required_continue_button">登录</string>
     <string name="sign_in_required_for_device_info_message">要让 Google 获取您的通讯录、应用等信息，请登录 Google 帐号</string>
     <string name="sign_in_required_for_now_cards_message">要获取最新动态和提醒，请登录 Google 帐号</string>
@@ -3052,6 +3484,7 @@
     <string name="single_transit_line_delayed">%1$s%2$s晚点%3$s</string>
     <string name="single_transit_line_limited_service">%3$s%1$s部分停运%2$s</string>
     <string name="single_transit_station_closed">%1$s已%2$s关闭%3$s</string>
+    <string name="slice_suggestion_message">此内容来自一个已安装的应用，并且与您现在输入的内容有关。</string>
     <string name="smartspace_calendar_summary">下一个近期的会议提醒</string>
     <string name="smartspace_calendar_title">日历活动</string>
     <string name="smartspace_commute_summary">路况异常变更提醒</string>
@@ -3062,6 +3495,8 @@
     <string name="smartspace_settings_title">一目了然</string>
     <string name="sms_display_name">短信</string>
     <string name="sms_provider_title">短信</string>
+    <string name="snackbar_action_undo">撤消</string>
+    <string name="snackbar_message_removed_from_recently">已从最近浏览过的网页中移除</string>
     <string name="snackbar_talkback">按钮位于屏幕底部。</string>
     <string name="snooze_button">稍后再提醒</string>
     <string name="snooze_fail">未能将提醒延后，请稍后重试。</string>
@@ -3073,6 +3508,8 @@
     <string name="solid">纯色</string>
     <string name="sound_search_hint">这是什么歌？</string>
     <string name="sound_search_unavailable">您所在的国家/地区无法使用“声音搜索”功能</string>
+    <string name="source_chip_desc">查看来自%s的内容。</string>
+    <string name="space">﻿</string>
     <string name="spoken_cancel_command_tts">取消</string>
     <string name="spoken_edit_sms_command_tts">修改短信内容</string>
     <string name="spoken_language_selected">已选择%s作为主要语言</string>
@@ -3129,6 +3566,8 @@
     <string name="stocks_update_time_text">更新时间：%1$s</string>
     <string name="stop_download_prompt">停止下载</string>
     <string name="streaming_text_recognizing">正在识别…</string>
+    <string name="street_address_label">街道地址</string>
+    <string name="subscribe_button_label">订阅</string>
     <string name="suggest">自动填充</string>
     <string name="suggest_contact_removal_body" formatted="false">该操作会从您的主要联系人列表中移除&lt;b>%s&lt;/b>。您仍可通过搜索来查找&lt;b>%s&lt;/b>。</string>
     <string name="suggest_contact_removal_cancel">取消</string>
@@ -3166,6 +3605,7 @@
     <string name="tab_title_tomorrow">明天</string>
     <string name="tap_mic_to_speak">点按麦克风图标，开始说话</string>
     <string name="temperature_display">%1$s %2$s</string>
+    <string name="text_selection_menu_translate_action">翻译</string>
     <string name="thank_you_dialog_body">您的回复将帮助我们改善 Google 搜索使用体验。</string>
     <string name="thank_you_dialog_tilte">感谢您提供反馈。</string>
     <string name="things_to_do">可参观游玩的景点</string>
@@ -3226,14 +3666,18 @@
     <string name="titles" formatted="false">%s，%s</string>
     <string name="toast_custom_tabs_account">当前登录的帐号为 %1$s</string>
     <string name="toast_custom_tabs_first_run_experience">您可以在 Chrome 中更改网络设置</string>
-    <string name="today">今天</string>
+    <string name="toast_hide">已成功隐藏%s。</string>
+    <string name="toast_hide_fail">出了点问题！无法隐藏%s。</string>
+    <string name="toast_unhide">已成功取消隐藏%s。</string>
+    <string name="today">今日</string>
     <string name="today_afternoon">今天下午</string>
     <string name="today_at_time">今天%1$s</string>
     <string name="today_evening">今天傍晚</string>
+    <string name="today_event_group_header">今天</string>
     <string name="today_morning">今天上午</string>
     <string name="today_night">今天晚上</string>
     <string name="today_time">今天%1$s</string>
-    <string name="tomorrow">明天</string>
+    <string name="tomorrow">明日</string>
     <string name="tomorrow_afternoon">明天下午</string>
     <string name="tomorrow_at_time">明天%1$s</string>
     <string name="tomorrow_evening">明天傍晚</string>
@@ -3242,6 +3686,7 @@
     <string name="tomorrow_time">明天%1$s</string>
     <string name="too_many_locations_snackbar_text">您最多可以保存 8 个地点。点按并按住某个地点即可将其移除。</string>
     <string name="toolbar_navigation_icon_description">返回</string>
+    <string name="top_contacts_group_header">主要联系人</string>
     <string name="topdeck">微件</string>
     <string name="topdeck_show_all_cards_summary">在主屏幕微件中查看有关您的通勤、天气和本地信息的动态</string>
     <string name="topdeck_show_all_cards_title">显示动态</string>
@@ -3274,6 +3719,7 @@
     <string name="transit_departure_summary">从%1$s发车（步行%2$s）</string>
     <string name="transit_enroute_last_walking_step">步行到目的地</string>
     <string name="transit_enroute_trip_time_summary">在路上 · 将于%1$s到达</string>
+    <string name="transit_eta_msg">%1$s（%2$s）</string>
     <string name="transit_line_direction">乘坐%1$s（开往%2$s方向）</string>
     <string name="transit_line_direction_in_time">%3$s后乘坐%1$s（开往%2$s方向）</string>
     <string name="transit_next_line_departure_subtext_no_time">%1$s %2$s号站台</string>
@@ -3298,6 +3744,7 @@
     <string name="transportation_platform">站台</string>
     <string name="transportation_pnr_number">PNR 编号</string>
     <string name="transportation_reservation_number">预订号</string>
+    <string name="transportation_title">从%1$s到%2$s</string>
     <string name="travel_time_home_notification_title">到家所需时间</string>
     <string name="travel_time_notification_title">到%1$s所需的时间</string>
     <string name="travel_time_to_destination">到达%2$s需 &lt;b>%1$s&lt;/b></string>
@@ -3350,6 +3797,10 @@
     <string name="unrecognized_format_pin_code">请输入有效的邮政编码</string>
     <string name="unrecognized_format_postal_code">请输入有效的邮政编码</string>
     <string name="unrecognized_format_zip_code">请输入有效的邮政编码</string>
+    <string name="unreplied_emails_group_header">优先电子邮件</string>
+    <string name="unreplied_group_header">优先对话</string>
+    <string name="unreplied_messages_group_header">优先消息</string>
+    <string name="unsubscribe_button_label">已订阅</string>
     <string name="unsupported_action">此设备无法执行您请求的操作</string>
     <string name="uos_account_picker_content_description">%1$s。帐号选择下拉菜单。</string>
     <string name="uos_account_picker_header_text">选择帐号</string>
@@ -3362,7 +3813,9 @@
     <string name="uos_sign_in_button_text">登录</string>
     <string name="uos_sign_in_description">获取关于您感兴趣的主题的自定义搜索结果和动态资讯</string>
     <string name="uos_sign_in_intro">登录即可开始使用</string>
+    <string name="up">转到上一层级</string>
     <string name="upcoming_bills">%1$s份即将到期的帐单</string>
+    <string name="upcoming_event_group_header">近期</string>
     <string name="update_available">有更新 (%1$s)</string>
     <string name="update_cards">更新</string>
     <string name="update_google_play_services_eyes_free_tts">我们做出了一些改进，但需要您完成几步操作，不便之处敬请谅解。请将手机解锁并接受升级，然后即可使用语音功能轻松完成打电话、发短信等操作。</string>
@@ -3409,9 +3862,12 @@
     <string name="user_defined_action_add_ends_with_action">添加媒体</string>
     <string name="user_defined_action_add_ends_with_action_no_selection_message">请选择要播放的媒体。</string>
     <string name="user_defined_action_add_ends_with_action_what_media">您想要播放什么媒体？</string>
+    <string name="user_defined_action_delete_confirmation_cancel_text">取消</string>
+    <string name="user_defined_action_delete_confirmation_delete_text">删除</string>
     <string name="user_defined_action_delete_confirmation_text">确定要删除此操作吗？</string>
     <string name="user_defined_action_ends_with_category_title">然后播放…</string>
     <string name="user_defined_action_follow_up_trigger_phrase_title">或当我说以下内容时…</string>
+    <string name="user_defined_action_menu_clear_schedule">删除日程表</string>
     <string name="user_defined_action_menu_delete_button">删除</string>
     <string name="user_defined_action_menu_save_button">保存</string>
     <string name="user_defined_action_original_action_alarm_title">在我关闭闹钟之后…</string>
@@ -3419,6 +3875,17 @@
     <string name="user_defined_action_popular_shortcuts_title">常用快捷方式</string>
     <string name="user_defined_action_reorder_description">拖动即可更改此日常事务中操作的顺序。</string>
     <string name="user_defined_action_reorder_title">更改顺序</string>
+    <string name="user_defined_action_schedule_back_confirmation_message">除非时间、日期模式和扬声器都已全部选择，否则您的日常事务不会启动。</string>
+    <string name="user_defined_action_schedule_back_confirmation_title">此日程表不完整</string>
+    <string name="user_defined_action_schedule_editor_clear_message">此日程表将从您的日常事务中移除。</string>
+    <string name="user_defined_action_schedule_editor_clear_title">要删除此日程表吗？</string>
+    <string name="user_defined_action_schedule_editor_days_of_week">请选择要重复执行该日常事务的日子</string>
+    <string name="user_defined_action_schedule_editor_notify">开始执行该日常事务时在手机上显示通知</string>
+    <string name="user_defined_action_schedule_editor_select_speaker">请选择扬声器</string>
+    <string name="user_defined_action_schedule_editor_select_time">选择一天中的时段</string>
+    <string name="user_defined_action_schedule_editor_speaker">请选择要播放该日常事务的扬声器</string>
+    <string name="user_defined_action_schedule_editor_time">请为此日常事务选择时间</string>
+    <string name="user_defined_action_schedule_editor_title">设置时间和星期几</string>
     <string name="user_defined_action_target_command_hint">Google 智能助理应执行的操作</string>
     <string name="user_defined_action_task_custom_query_abandon_button">放弃更改</string>
     <string name="user_defined_action_task_custom_query_query_required">您必须先下达一条 Google 智能助理指令，然后才能保存此操作。</string>
@@ -3468,17 +3935,23 @@
     <string name="user_defined_action_task_volume_notification_summary">此操作仅适用于您通过 Android 手机使用此日常事务的情况</string>
     <string name="user_defined_action_task_volume_notification_title">振铃和通知音量</string>
     <string name="user_defined_action_task_volume_title">设置音量</string>
+    <string name="user_defined_action_trigger_multiple_title">触发条件…</string>
+    <string name="user_defined_action_trigger_multiple_title_phrases">当我说出“%1$s”</string>
+    <string name="user_defined_action_trigger_multiple_title_time_and_day">或者时间为%2$s%1$s</string>
     <string name="user_defined_action_trigger_phrase_in_use">“%1$s”已存在。</string>
     <string name="user_defined_action_trigger_phrase_title">当我说以下内容时…</string>
     <string name="user_defined_action_trigger_phrase_validation_failed">无法检查此触发词组，请重试。</string>
     <string name="user_defined_action_workflow_deleting">正在删除日常事务</string>
     <string name="user_defined_action_workflow_duplicate_command_phrase">指令“%1$s”已被使用。请选择其他指令。</string>
     <string name="user_defined_action_workflow_edit_command_phrases">修改指令</string>
+    <string name="user_defined_action_workflow_empty_schedule">设置时间和星期几（可选）</string>
     <string name="user_defined_action_workflow_many_command_phrases">“%1$s”、“%2$s”或…</string>
     <string name="user_defined_action_workflow_new">新建日常事务</string>
     <string name="user_defined_action_workflow_no_actions">没有任何操作</string>
+    <string name="user_defined_action_workflow_no_command_phrases">添加指令（必需）</string>
     <string name="user_defined_action_workflow_one_command_phrase">“%1$s”</string>
     <string name="user_defined_action_workflow_saving">正在保存日常事务</string>
+    <string name="user_defined_action_workflow_schedule_day_name_separator">"、 "</string>
     <string name="user_defined_action_workflow_two_command_phrases">“%1$s”或“%2$s”</string>
     <string name="user_review_histogram_ic_user_rating">总评分人数</string>
     <string name="user_reviews_read_all_header">全部阅读</string>
@@ -3507,6 +3980,7 @@
     <string name="verify_device_sub_heading">确认设备上是否有该代码。如果有，则说明您设置的是正确的设备。</string>
     <string name="verify_device_title">看到该代码了吗？</string>
     <string name="versus">v</string>
+    <string name="video_group_header">视频</string>
     <string name="video_preference_title">视频</string>
     <string name="video_preview_autoplay_on_mobile_data_title">网络</string>
     <string name="video_preview_autoplay_on_wifi_preference_desc">连接到 WLAN 时自动播放视频预览</string>
@@ -3515,10 +3989,11 @@
     <string name="video_suggestion_message">您之前曾查看过这项内容，而该内容与您现在输入的内容有关。转到&lt;b>%s&lt;/b>即可从所有设备的观看记录和搜索记录中将其移除。</string>
     <string name="video_watch_on_youtube">在 YouTube 上观看</string>
     <string name="videos_mode_landing_text">搜索视频</string>
+    <string name="view_all_items_a11y_action">查看所有内容</string>
     <string name="view_all_of_interest_button">查看全部（%1$d 项）</string>
     <string name="view_email">查看电子邮件</string>
     <string name="violent">暴力内容</string>
-    <string name="visual_search">按图片搜索</string>
+    <string name="visit_website">访问网站</string>
     <string name="voiceSearchPreferences">语音搜索设置</string>
     <string name="voice_ime_language_auto">自动</string>
     <string name="voice_language_preference_change">您的语音命令语言也已改为%s</string>
@@ -3535,6 +4010,9 @@
     <string name="vs_hint_tap_to_cancel">点按即可取消</string>
     <string name="vs_hint_tap_to_finish">点按即可完成</string>
     <string name="vs_hint_tap_to_speak">语音搜索按钮，点按即可说话</string>
+    <string name="waa_in_accept">设置</string>
+    <string name="waa_in_message">开启“网络与应用活动记录”即可获取系统根据您的聆听记录提供的个性化推荐内容。</string>
+    <string name="waa_in_reject">关闭</string>
     <string name="wallet_buy_button_place_holder">通过 Google 购买</string>
     <string name="wallpaper_accessibility_name">第%1$d张壁纸，共%2$d张</string>
     <string name="wallpaper_button_text">壁纸</string>
@@ -3551,6 +4029,7 @@
     <string name="weather_title">%2$s的气温为 %1$s</string>
     <string name="weather_title_for_alias">%2$s的气温为 %1$s</string>
     <string name="web_display_name">网站</string>
+    <string name="web_history_group_header">网络历史记录</string>
     <string name="web_mode_landing_text">搜索网络</string>
     <string name="web_search_connection_error">无法加载搜索结果</string>
     <string name="web_suggest_updating">正在更新...</string>
@@ -3592,6 +4071,7 @@
     <string name="yesterday_morning">昨天上午</string>
     <string name="yesterday_night">昨天晚上</string>
     <string name="yesterday_time">昨天%1$s</string>
+    <string name="you_are_offline">您目前处于离线状态。联网可查看更多结果。</string>
     <string name="your_bus_reservation">您预订的公共汽车票</string>
     <string name="your_location_search_menu_text">您所在的位置</string>
     <string name="your_train_reservation">您预订的火车票</string>

@@ -31,7 +31,6 @@
     <string name="accessibility_see_results_on_google">იხილეთ შედეგები Google-ში</string>
     <string name="accessibility_select">ეკრანიდან ტექსტის არჩევა</string>
     <string name="accessibility_share">ეკრანის გაზიარება</string>
-    <string name="accessibility_visual_search_button">ვიზუალური ძიება</string>
     <string name="accessibility_voice_search_button">ხმოვანი ძიება</string>
     <string name="account_item">%1$s-ზე გადართვა</string>
     <string name="account_list">ანგარიშების სია</string>
@@ -142,7 +141,9 @@
     <string name="add_your_relationship_subject">გსურთ, %2$s-ის დამახსოვრება თქვენს „%1$s“-ად?</string>
     <string name="additional_stock_query_string">აქციები</string>
     <string name="address_cancel_button">ახლა არა</string>
+    <string name="address_error">ეს მისამართი ვერ დადასტურდა.</string>
     <string name="address_explanation">თქვენი მისამართი გამოყენებული იქნება ისეთი სერვისებისთვის, როგორიცაა შეკვეთების მიწოდებასთან, გზებზე არსებულ მდგომარეობასთან და ადგილობრივ ამინდთან დაკავშირებული ინფორმაციის ჩვენება</string>
+    <string name="address_hint">შეიყვანეთ თქვენი მისამართი</string>
     <string name="address_title">შეიყვანეთ თქვენი მისამართი</string>
     <string name="ads_badge">რეკლამები</string>
     <string name="agenda_calendar_next_template">თქვენი კალენდრის შემდეგი შენატანი არის %1$s, %2$s-ზე.</string>
@@ -161,6 +162,7 @@
     <string name="agenda_eyes_free_list_last_two_items">%1$s და %2$s</string>
     <string name="agenda_eyes_free_timed_event">%1$s-ზე, %2$s.</string>
     <string name="agenda_eyes_free_timed_event_with_day">%1$s, %2$s-ზე: %3$s.</string>
+    <string name="agenda_hub_title">მომავალი</string>
     <string name="agent_bookmark_added">შენახულია სანიშნეებში</string>
     <string name="agent_bookmark_error">წარმოიქმნა შეცდომა. გთხოვთ, ცადოთ მოგვიანებით.</string>
     <string name="agent_bookmark_removed">ამოშლილია სანიშნეებიდან</string>
@@ -189,6 +191,7 @@
     <string name="agent_directory_music_unable_unlink_default">მუსიკის ნაგულისხმევი პროვაიდერის მიბმის გაუქმება ვერ ხერხდება</string>
     <string name="agent_directory_no_results">მოთხოვნაზე „%1$s“ შედეგები არ არის</string>
     <string name="agent_directory_no_thanks">არა, გმადლობთ</string>
+    <string name="agent_directory_send_to_device_text">მოწყობილობაში გაგზავნა</string>
     <string name="agent_directory_settings_manage">დაყენება</string>
     <string name="agent_directory_settings_text">პარამეტრები</string>
     <string name="agent_directory_share">გაზიარება</string>
@@ -258,6 +261,9 @@
     <string name="app_name">Google App</string>
     <string name="app_not_available">ამის გაკეთება არცერთ აპს არ შეუძლია</string>
     <string name="app_result_suggestion_content_description" formatted="false">%s %s-ში გახსნა.</string>
+    <string name="app_shortcut_desc">დაამატეთ ასისტენტი მთავარ ეკრანზე</string>
+    <string name="app_shortcut_title">მარტივი წვდომა თქვენს ასისტენტზე</string>
+    <string name="app_suggestions_header">აპები</string>
     <string name="appointment_time_range">%1$s – %2$s</string>
     <string name="apps_mode_landing_text">აპების ძიება</string>
     <string name="arrival_time">მისვლა</string>
@@ -489,7 +495,10 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="assistant_settings_kill_switch_dialog_button">Play Store-ზე გადასვლა</string>
     <string name="assistant_settings_kill_switch_dialog_message">უახლესი გაუმჯობესებების მისაღებად, გადადით Play Store-ზე და განაახლეთ Google აპი</string>
     <string name="assistant_settings_kill_switch_dialog_title">თქვენს ასისტენტს ახალი უნარების დახვეწა სჭირდება</string>
+    <string name="assistant_settings_language_availability_display_only_text">ასისტენტი და ჭვკიანი ეკრანი ხელმისაწვდომია მხოლოდ %1$s ენაზე.</string>
+    <string name="assistant_settings_language_availability_display_text">თქვენი ტელეფონი გამოიყენებს ამ ენებსა და მოწყობილობის იმ ენას, რომელიც %2$s-ში დააყენეთ, თქვენი გონიერი ეკრანი კი მხოლოდ %1$s-ს გამოიყენებს.</string>
     <string name="assistant_settings_language_availability_link">Android-ის ენის პარამეტრები</string>
+    <string name="assistant_settings_language_availability_single_language_display_text">თქვენი ტელეფონი გამოიყენებს ამ ენასა და მოწყობილობის იმ ენას, რომელიც %2$s-ში დააყენეთ, თქვენი გონიერი ეკრანი კი მხოლოდ %1$s-ს გამოიყენებს.</string>
     <string name="assistant_settings_language_availability_single_language_text">თქვენს ტელეფონზე არსებული ასისტენტი ამ ენას და %1$s-ს გამოიყენებს, რომელი ენაც თქვენ %2$s-ში დააყენეთ.</string>
     <string name="assistant_settings_language_availability_text">თქვენს ტელეფონზე არსებული ასისტენტი ამ ენებს და %1$s-ს გამოიყენებს, რომელი ენაც თქვენ %2$s-ში დააყენეთ.</string>
     <string name="assistant_settings_languages_dialog_title">ენები</string>
@@ -522,6 +531,7 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="assistant_settings_music_youtube_premium_dialog_text">Google Home-ზე YouTube Music-ის დასაკრავად საჭიროა YouTube Red წევრობა. რეგისტრაცია შეგიძლიათ მისამართზე: <a href="http://youtube.com/red">youtube.com/red</a>.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">საჭიროა YouTube Red წევრობა</string>
     <string name="assistant_settings_news_provider_delete_button_description">%1$s-ის ახალი ამბების ჩართული წყაროებიდან ამოშლა</string>
+    <string name="assistant_settings_news_supports_video">ვიდეო ხელმისაწვდომია გონიერ ეკრანებზე</string>
     <string name="assistant_settings_news_title">სიახლეები</string>
     <string name="assistant_settings_nick_name_not_pronounceable_message">თქვენი მეტსახელი შეიცავს სიმბოლოს, რომელსაც ასისტენტი ვერ წარმოთქვამს. შემდეგ სექციაში მისი წარმოთქმის დამარცვლა შეგიძლიათ.</string>
     <string name="assistant_settings_no_device_linked">Voice Match-ის მეშვეობით ასისტენტი ამოიცნობს თქვენს ხმას და მოგაწვდით პერსონალურ ინფორმაციას. საკუთარ კალენდარზე, მუსიკაზე და სხვა კონტენტზე წვდომა შეუძლია 6-მდე სხვადასხვა მომხმარებელს.</string>
@@ -591,6 +601,7 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="assistant_settings_payments_phone_authentication_frequency_never_description">თუ უჩვეულო აქტივობა არ გამოვლინდა</string>
     <string name="assistant_settings_payments_phone_authentication_frequency_not_required">დადასტურება არ მოითხოვებოდეს</string>
     <string name="assistant_settings_payments_phone_authentication_mechanism_title">დასადასტურებლად, გამოიყენეთ თითის ანაბეჭდი</string>
+    <string name="assistant_settings_payments_phone_authentication_page_header">უსაფრთხოების პარამეტრების დარეგულირება თქვენი ასისტენტით განხორციელებადი გადახდებისთვის.</string>
     <string name="assistant_settings_payments_phone_authentication_section_title">შეძენის დადასტურება</string>
     <string name="assistant_settings_payments_phone_authentication_title">შეძენის დადასტურება</string>
     <string name="assistant_settings_payments_save_button_text">შენახვა</string>
@@ -687,6 +698,8 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="assistant_settings_shopping_list_title">საყიდლების სია</string>
     <string name="assistant_settings_spell_out_name_not_pronounceable_message">გამოიყენეთ ინგლისური ანბანი</string>
     <string name="assistant_settings_stocks">აქციები</string>
+    <string name="assistant_settings_summer_time_mode_availability_clarification" />
+    <string name="assistant_settings_summer_time_mode_availability_description">ზაფხულის დროის რეჟიმი ხელმისაწვდომი იქნება:</string>
     <string name="assistant_settings_summer_time_mode_button_summary">ჩართავს ზაფხულის დროის რეჟიმს.</string>
     <string name="assistant_settings_summer_time_mode_button_title">ზაფხულის დროის რეჟიმი</string>
     <string name="assistant_settings_summer_time_mode_title">ზაფხულის დროის რეჟიმი</string>
@@ -753,12 +766,17 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="audio_error">მიკროფონის გახსნა ვერ მოხერხდა.</string>
     <string name="audio_file_access">წვდომა აუდიო ჩანაწერებზე</string>
     <string name="audio_file_access_desc">წვდომა სესაძლებელია პირადი შენიშვნებისთვის ჩაწერილ აუდიო გამოთქმებზე და დაუმუშავებელი ხმის ანალიზზე.</string>
+    <string name="audio_rationale_message">მეტყველების ამოცნობის სერვისით თქვენს უზრუნველსაყოფად, აუდიო-ფაილი Google-ს გაეგზავნება, მისი ტრანსკრიპტი კი გაუზიარდება ამ აპს.</string>
+    <string name="audio_rationale_message_vaa_enabled">"მეტყველების ამოცნობის სერვისით თქვენს უზრუნველსაყოფად, აუდიო-ფაილი Google-ს გაეგზავნება, მისი ტრანსკრიპტი კი გაუზიარდება ამ აპს.
+
+%1$s"</string>
     <string name="auto_update_any_time">"ენების ნებისმიერ დროს ავტომატური განახლება.
 შესაძლოა წარმოიშვას მონაცემთა გადაცემის ხარჯები."</string>
     <string name="auto_update_language_packs">ავტო-განახლება</string>
     <string name="auto_update_never">ენები ავტომატურად არ განახლდეს</string>
     <string name="auto_update_wifi_only">ენების ავტომატური განახლება მხოლოდ Wi-Fi კავშირზე</string>
     <string name="back">უკან</string>
+    <string name="back_of_card_close">დახურვა</string>
     <string name="background_notification_onboarding">ხაზგარეშე რეჟიმში ხართ? არაუშავს. Google აპი დაიმახსოვრებს თქვენს ძიებას და გამოგიგზავნით შეტყობინებას, როცა შედეგები მზად იქნება.</string>
     <string name="background_notification_onboarding_accept">კარგი</string>
     <string name="background_notification_onboarding_decline">გამორთვა</string>
@@ -778,7 +796,6 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="barcode_image_description">შტრიხკოდის გამოსახულება</string>
     <string name="batterysaver_off">ბატარეის დამზოგი გამორთულია</string>
     <string name="batterysaver_on">ბატარეის დამზოგი ჩართულია</string>
-    <string name="beta_tag">ბეტა</string>
     <string name="birthday_message">თქვენ %1$s წამის ხართ დღეს.</string>
     <string name="birthday_today">დღეს დაბადების დღეა.</string>
     <string name="bisto_onboarding_chip_text">ყურსასმენების დაყენების პროცესის დასრულება</string>
@@ -814,7 +831,7 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="button_yes">დიახ</string>
     <string name="by_author">ავტორი: %1$s</string>
     <string name="calendar_event_during">%1$s — ახლა</string>
-    <string name="calendar_event_pre">%1$s-ს დაწყებამდე დარჩა: %2$s</string>
+    <string name="calendar_event_pre">%1$s-ის დაწყებამდე დარჩა: %2$s</string>
     <string name="calendar_event_pre_static">%1$s, %2$s-ზე</string>
     <string name="calendar_event_time_range">%1$s — %2$s</string>
     <string name="calendar_no_title">(უსათაურო)</string>
@@ -864,17 +881,22 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="cloud_search_history_fetch_failed_toast">პარამეტრების მიღება ვერ მოხერხდა. გთხოვთ, მოგვიანებით ცადოთ.</string>
     <string name="cloud_search_history_summary_fetching">პარამეტრების ჩატვირთვა…</string>
     <string name="collapse_time_to_leave">ამ მოგზაურობის ვარიანტების დამალვა.</string>
+    <string name="collections">კოლექციები</string>
     <string name="comment_hint">დამატებითი კომენტარები (არასავალდებულო).</string>
     <string name="common_address_clear_button_label">გასუფთავება</string>
     <string name="common_address_clear_confirm_button">წაშლა</string>
     <string name="common_address_edit_title">მისამართის რედაქტირება</string>
     <string name="common_delete">წაშლა</string>
     <string name="common_device_assistant_language_title">ასისტენტის ენა</string>
-    <string name="common_device_id_personal_info_permission_non_screen_devices_summary">ამ მოწყობილობაზე პერსონალური შედეგების (მაგ. ელფოსტიდან, კალენდრიდან, კონტაქტებიდან და შეხსენებებიდან მიღებული ინფორმაცია) დაშვება. ეს ქმედება ასევე დაუშვებს ამ მოწყობილობის მეშვეობით გადახდის შესაძლებლობას. <a href="https://support.google.com/assistant/?p=personal_results">შეიტყვეთ მეტ</a></string>
+    <string name="common_device_id_personal_info_permission_non_screen_devices_summary">ამ მოწყობილობაზე პერსონალური შედეგების (მაგ. ელფოსტიდან, კალენდრიდან, კონტაქტებიდან და შეხსენებებიდან მიღებული ინფორმაცია) დაშვება. ეს ქმედება ასევე დაუშვებს ამ მოწყობილობის მეშვეობით გადახდის შესაძლებლობას. %1$s</string>
+    <string name="common_device_id_personal_info_permission_screenful_devices_summary">ამ მოწყობილობაზე პერსონალური შედეგების (მაგ. ფოტოები, ელფოსტა, კალენდარი, კონტაქტები და შეხსენებები) დაშვება. ეს ქმედება ასევე დაუშვებს ამ მოწყობილობის მეშვეობით გადახდის შესაძლებლობას. %1$s</string>
     <string name="common_device_notification_permission_summary">ამ მოწყობილობაზე შეგიძლიათ სხვადასხვა შეტყობინების მიღება, როგორიც არის, მაგალითად, შეხსენებები. მაღვიძარებსა და მნიშვნელოვან განახლებებს შეტყობინებების გათიშვის შემთხვევაშიც მიიღებთ.</string>
     <string name="common_device_notification_permission_title">შეტყობინებები</string>
     <string name="common_device_personal_info_permission_title">პერსონალური შედეგები</string>
+    <string name="common_device_personal_suggestion_permission_summary">პერსონალური შედეგებისა და YouTube-ის პერსონალიზებული ვიდეო-რეკომენდაციების ჩვენების დაშვება მთავარ ეკრანზე, ან მათი შეტყობინებების სახით მიღება (თქვენი მოთხოვნის გარეშე). გაითვალისწინეთ, რომ ახლოს მყოფი პირები ასევე შეძლებენ ამ შედეგებზე შეხებას და მათთან ინტერაქციას. %1$s</string>
     <string name="common_device_personal_suggestion_permission_title">მთავარი ეკრანი და შეტყობინებები</string>
+    <string name="common_device_youtube_restricted_mode_summary">არასათანადო შიგთავსის შემცველი სიმღერებისა და ვიდეოების დამალვა</string>
+    <string name="common_device_youtube_restricted_mode_title">YouTube-ის შეზღუდული რეჟიმი</string>
     <string name="common_google_logo">Google-ის ლოგო</string>
     <string name="common_google_search_hint">Google ძიება</string>
     <string name="common_google_search_label">Google</string>
@@ -944,6 +966,7 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="contact_selected_find_another_contact">%1$s. აირჩიეთ სხვა კონტაქტი</string>
     <string name="contact_selected_find_another_contact_with_relationship">%1$s, %2$s. აირჩიეთ სხვა კონტაქტი</string>
     <string name="contact_suggestion_message">ეს არის პირადი კონტაქტი, რომელიც თქვენ მიერ აკრეფილ ტექსტს ემთხვევა.</string>
+    <string name="contact_suggestions_header">კონტაქტები</string>
     <string name="content_stale_ago">ქონთენთი ბოლოს განახლდა %1$s-ს წინ</string>
     <string name="copied_to_clipboard">დაკოპირდა გაცვლის ბუფერში</string>
     <string name="corpus_name_images_animated">GIF</string>
@@ -1153,6 +1176,16 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="explore_review_submit">გაგზავნა</string>
     <string name="explore_review_title">თქვენი მიმოხილვა</string>
     <string name="explore_review_view_pager_indicator_dot_description">გვერდი %1$d / %2$d-დან</string>
+    <string name="eyes_camera_switch_button_description">კამერის მიმართულების გადართვა</string>
+    <string name="eyes_donate_data_info_button_description">მონაცემების შეწირვაზე ინფორმაციის ჩვენება</string>
+    <string name="eyes_donate_data_notification_learn_more">შეიტყვეთ მეტი</string>
+    <string name="eyes_donate_data_notification_text">თქვენ მიერ შეწირული სურათები Google-ის პროდუქტებს გააუმჯობესებს.</string>
+    <string name="eyes_donate_data_optin_dogfood_label">პროგრამის წინასწარი პილოტირება</string>
+    <string name="eyes_donate_data_optin_message">Google პროდუქტების გასაუმჯობესებლად, დაუშვით ასისტენტში Lens-ით გადაღებული სურათების ადამიანების მიერ მიმოხილვა.</string>
+    <string name="eyes_donate_data_optin_no_thanks">არა, გმადლობთ</string>
+    <string name="eyes_donate_data_optin_ok">კარგი</string>
+    <string name="eyes_donate_data_optin_title">Lens-ის სურათების შემოწირულობის სახით გაღება</string>
+    <string name="eyes_flash_button_description">ბლიცის გადართვა</string>
     <string name="eyes_import_to_keep_suggestion">მოახდინეთ იმპორტირება შესანახად</string>
     <string name="eyes_improve_lens_suggestion">დაგვეხმარეთ Google Lens-ის გაუმჯობესებაში</string>
     <string name="eyes_initial_prompt">შეეხეთ იმას, რაც გაინტერესებთ</string>
@@ -1169,6 +1202,9 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="eyes_onboarding_camera_permission_denied_settings_button">პარამეტრები</string>
     <string name="eyes_onboarding_camera_permission_denied_title">შეცდომა Lens-თან დაკავშირებით</string>
     <string name="eyes_onboarding_message">Google Lens მუდმივად გააანალიზებს, თუ რას ხედავთ, რათა სათანადო ინფორმაცია უფრო სწრაფად გაჩვენოთ</string>
+    <string name="eyes_onboarding_title_places">აღმოაჩინეთ ადგილები Lens-ით</string>
+    <string name="eyes_onboarding_title_products">იპოვეთ პროდუქტები Lens-ით</string>
+    <string name="eyes_onboarding_title_text">დაასკანირეთ ტექსტები Lens-ით</string>
     <string name="eyes_remember_this_suggestion">ამის დამახსოვრება</string>
     <string name="eyes_request_timed_out_message">სამწუხაროდ, წარმოიქმნა შეფერხება</string>
     <string name="eyes_share_suggestion">გაზიარება</string>
@@ -1193,6 +1229,7 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="feedback_edittext_hint">გამოხმაურება</string>
     <string name="feedback_legal_help_text">იურიდიული დახმარების გვერდი</string>
     <string name="feedback_legal_help_url">https://support.google.com/legal/answer/3110420</string>
+    <string name="feedback_link">გამოხმაურება</string>
     <string name="feedback_no_text_entered">გთხოვთ, შეიყვანოთ შეფასება შეტყობინების წარდგენამდე.</string>
     <string name="feedback_privacy_text">კონფიდენციალურობის დებულება</string>
     <string name="feedback_privacy_url">http://www.google.com/intl/%1$s/policies/privacy/</string>
@@ -1321,8 +1358,6 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="google_home_device_change_language_dialog_message">თქვენს Google Home მოწყობილობებზე ერთი და იგივე ენა გამოიყენება. ეს ქმედება შეცვლის ენას, რის შედეგადაც ყველა მათგანზე %1$s იქნება გამოყენებული.</string>
     <string name="google_home_device_change_language_dialog_title">გსურთ ენის ყველა Google Home მოწყობილობაში შეცვლა?</string>
     <string name="google_home_device_change_language_dialog_yes">დიახ</string>
-    <string name="google_home_device_youtube_restricted_mode_summary">არასათანადო შიგთავსის შემცველი სიმღერებისა და ვიდეოების დამალვა</string>
-    <string name="google_home_device_youtube_restricted_mode_title">YouTube-ის შეზღუდული რეჟიმი</string>
     <string name="google_home_hotword_enrollment_bottom_summary_text">მოიწვიეთ თქვენს სახლში მყოფი სხვა პირებიც Voice Match-ის დასაყენებლად</string>
     <string name="google_location_service_required_text">მდებარეობაზე დაფუძნებული ბარათების სანახავად, როგორიც არის ადგილობრივი ამინდი და ტრანსპორტის დატვირთულობა, ჩართეთ Google-ის მდებარეობის სერვისი</string>
     <string name="google_play_services">Google Play Services</string>
@@ -1355,9 +1390,21 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="hide_account_list">ანგარიშების დამალვა</string>
     <string name="hide_examples_description">მაგალითების დამალვა</string>
     <string name="history_action_card_title_default">შესრულდა ქმედება</string>
+    <string name="history_carousel_background_text">თქვენი ბოლოდროინდელი ვებ-ძიების აქტივობები სხვა მოწყობილობებზე</string>
     <string name="hits_header">H</string>
     <string name="hits_header_full_length">ჰიტები</string>
     <string name="home_address_icon_label">სახლის მისამართი</string>
+    <string name="home_onboarding_personal_results_enabled_explanation">"თქვენ ჩართეთ პერსონალიზებული შედეგები, მაგრამ არა Voice Match. ეს იმას ნიშნავს, რომ ასისტენტი არ გადაამოწმებს თქვენს ხმას, სანამ შედეგებს მოგაწვდიდეთ.
+
+რჩევა: ჩართეთ Voice Match ასისტენტის პარამეტრებში მას შემდეგ, რაც ამ მოწყობილობის დაყენებას დაასრულებთ."</string>
+    <string name="home_onboarding_personal_results_enabled_positive_button">დახურვა</string>
+    <string name="home_onboarding_personal_results_enabled_title">კიდევ უფრო მეტად დაიცავით პერსონალიზებული შედეგები</string>
+    <string name="home_personal_results_action_button">ვეთანხმები</string>
+    <string name="home_personal_results_cancel_button">არა, გმადლობთ</string>
+    <string name="home_personal_results_explanation">ჩართეთ პერსონალიზებული შედეგები, რათა წვდომა იქონიოთ თქვენს კალენდარზე, კონტაქტებზე, შეხსენებებზე და ამ მოწყობილობაზე შენახულ სხვა კონტენტზე. <a href="https://support.google.com/assistant/?p=personal_results">შეიტყვეთ მეტი</a>"
+
+გაითვალისწინეთ, რომ ნებისმიერი პირი, ვინც მოწყობილობას გამოიყენებს, შეძლებს თქვენს პერსონალიზებულ შედეგებზე წვდომას. პერსონალიზებული შედეგების გამორთვა ასისტენტის პარამეტრებში შეგიძლიათ."</string>
+    <string name="home_personal_results_title">მიიღეთ პერსონალიზებული შედეგები</string>
     <string name="homescreen_settings_action_turn_off">გამორთვა</string>
     <string name="homescreen_settings_display_feed">Google-ის სიახლეთა ზოლის ჩვენება</string>
     <string name="homescreen_settings_header_category">მთავარი ეკრანი</string>
@@ -1366,6 +1413,7 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="homescreen_settings_title_predictions_prompt">გსურთ აპების შეთავაზებების გამორთვა?</string>
     <string name="hotword_disabled">„%1$s“ გამორთულია</string>
     <string name="hotword_disabled_motorola_aov">„%1$s“-ის სანაცვლოდ, მიკროფონს სხვა ფუნქცია იყენებს. გამორთეთ Moto Voice, რათა ისევ ჩართოთ „%1$s“.</string>
+    <string name="hotword_enrollment_button_more">მეტი</string>
     <string name="hotword_enrollment_delete_voice_model">ხმოვანი მოდელის წაშლა</string>
     <string name="hotword_enrollment_enroll_again">ხელახლა თქვით „%1$s“</string>
     <string name="hotword_enrollment_enroll_again_talkback">მშვენიერია. თქვით ხელახლა.</string>
@@ -1387,7 +1435,6 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="hotword_enrollment_enroll_listening_talkback_assistant_device">თქვით ფრაზა, რომელიც შემდეგით იწყება: „%1$s“</string>
     <string name="hotword_enrollment_enroll_listening_talkback_assistant_device_again">გაიმეორეთ</string>
     <string name="hotword_enrollment_enroll_say_prompt">უბრალოდ, სამჯერ თქვით „%1$s“</string>
-    <string name="hotword_enrollment_enroll_skip_glif">გამოტოვება</string>
     <string name="hotword_enrollment_enroll_start">ჩაწერის დაწყება</string>
     <string name="hotword_enrollment_enroll_text">იმისთვის, რომ თქვენი მოწყობილობა უკეთ რეაგირებდეს თქვენს ბრძანებებზე, შეგიძლიათ Google-ს თქვენი ხმის ჟღერადობის ამოცნობა ასწავლოთ.</string>
     <string name="hotword_enrollment_enroll_text_opa_talkback">გაააქტიურეთ ქვემოთ მოცემული ღილაკი „%1$s“ და თქვით „%2$s“, რათა ასისტენტს თქვენი ხმის ამოცნობა ასწავლოთ.</string>
@@ -1408,6 +1455,9 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
 
 აღნიშნული ჩანაწერები გამოყენებული იქნება ამ მოწყობილობაზე ხმის მოდელის შესაქმნელად. ამას წუთზე ნაკლები დრო დასჭირდება."</string>
     <string name="hotword_enrollment_google_home_fast_update_unicorn_header_title">ახლა ასისტენტს შეუძლია თქვენი შვილის ხმის ამოცნობა</string>
+    <string name="hotword_enrollment_google_home_fast_update_unicorn_progress_summary">"როგორც ჩანს, სხვა მოწყობილობაზე Google ასისტენტით უკვე დააყენეთ Voice Match.
+
+ხმის არსებული ჩანაწერები გამოყენებული იქნება ამ მოწყობილობაზე ხმის მოდელის შესაქმნელად, რასაც წუთზე ნაკლები დრო დასჭირდება."</string>
     <string name="hotword_enrollment_google_home_no_enrollment_found_toast_msg">გთხოვთ, პირველ რიგში, ანგარიშისთვის — %1$s ჯადოსნური სიტყვის რეგისტრაცია დაასრულოთ.</string>
     <string name="hotword_enrollment_google_home_no_thanks">არა, გმადლობთ</string>
     <string name="hotword_enrollment_google_home_non_fast_update_header_title">მიმდინარეობს Voice Match-ის დაყენება</string>
@@ -1430,7 +1480,7 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="hotword_enrollment_intro_header_title_glif_non_opa">განახორციელეთ ხმოვანი ძიება ნებისმიერ დროს</string>
     <string name="hotword_enrollment_intro_next">შემდეგი</string>
     <string name="hotword_enrollment_intro_summary_always_on">თქვით „%1$s“, რათა განახორციელოთ ძიება, მაშინაც კი, როცა თქვენი მოწყობილობის ეკრანი გამორთულია, ან თქვენს საყვარელ აპს იყენებთ</string>
-    <string name="hotword_enrollment_intro_summary_glif_non_opa">თქვით „%1$s“ და ნებისმიერ დროს გაესაუბრეთ თქვენს მოწყობილობას — მაშინაც კი, როცა ეკრანი გამორთულია ან რომელიმე საყვარელ აპს იყენებთ.</string>
+    <string name="hotword_enrollment_intro_summary_glif_non_opa">თქვით „%1$s“ და ნებისმიერ დროს გაესაუბრეთ თქვენს მოწყობილობას — მაშინაც კი, როცა ეკრანი გამორთულია ან რომელიმე საყვარელ აპს იყენებთ..&lt;br/>&lt;br/>ამ მოწყობილობაზე შეიქმნება თქვენი ხმის უნიკალური მოდელი, რომელიც დაეხმარება Google Voice Search-ს თქვენს იდენტიფიცირებასა და სხვებისგან გამორჩევაში.&lt;br/>&lt;br/>&lt;b>გაითვალისწინეთ:&lt;/b>Voice Search-ზე წვდომა მსგავსი ხმით ან ჩანაწერითაც არის შესაძლებელი. ამ ნებართვის ამოშლას მოგვიანებით, Google აპში შეძლებთ.</string>
     <string name="hotword_enrollment_intro_summary_screen_on">თქვით „%1$s“, რათა განახორციელოთ ძიება, მაშინაც კი, როცა თქვენი მოწყობილობის ეკრანი დაბლოკილია, ან თქვენს საყვარელ აპს იყენებთ</string>
     <string name="hotword_enrollment_local_escalation_google_password_incorrect">პაროლი არასწორია.</string>
     <string name="hotword_enrollment_local_escalation_learn_more_link">https://support.google.com/families/answer/7521263</string>
@@ -1449,11 +1499,20 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="hotword_enrollment_optin_udc_summary_item2">ეს Google-ს თქვენი ხმის ამოცნობაში და ზოგადად, მეტყველებისა და აუდიოს ამოცნობის გაუმჯობესებაში ეხმარება, რათა შედეგები სწრაფად და ნაკლები ძალისხმევით მოგაწოდოთ.</string>
     <string name="hotword_enrollment_optin_udc_summary_item3">ამ პარამეტრის შეცვლა ან თქვენი პირადი მონაცემების მართვა შეგიძლიათ მისამართზე: %1$s. გახსოვდეთ, რომ როცა ხმოვანი და აუდიო აქტივობა ჩართულია, ამ მონაცემთა შენახვა შეიძლება თქვენი სისტემაში შესული ნებისმიერი მოწყობილობიდან მოხდეს.</string>
     <string name="hotword_enrollment_optin_udc_title">ხმოვანი და აუდიო აქტივობის შენახვა</string>
+    <string name="hotword_enrollment_parent_intro_summary">{GENDER,select, male{Google ასისტენტის მეშვეობით {PERSON} შეძლებს ისეთი ოპერაციების შესრულებას, როგორიცაა თამაშებში ჩაბმა, ან კალენდარში იმის შემოწმება, თუ როდისაა მისი კლასის წვეულება. მიუხედავად იმისა, რომ გარკვეული ფუნქციები შექმნილია ბავშვებისთვის, კონტენტის უმეტესობა გათვლილია ფართო საზოგადოებაზე. &lt;a href=\"{LINK}\">შეიტყვეთ მეტი&lt;/a>&lt;br>&lt;br>Voice Match ეხმარება ასისტენტს {PERSON}-ის ხმის ამოცნობასა და სხვებისგან გამორჩევაში ამ მოწყობილობაზე მისი ხმის უნიკალური მოდელის შექმნით.&lt;br>&lt;br>გაითვალისწინეთ: {PERSON}-ის პერსონალიზებულ შედეგებზე წვდომა მსგავსი ხმით ან ჩანაწერითაც არის შესაძლებელი. Voice Match-ის ნებართვის გაუქმება შესაძლებელი იქნება მოგვიანებით, ასისტენტის პარამეტრებში ან Family Link-ში მისი გამორთვით.}female{Google ასისტენტის მეშვეობით {PERSON} შეძლებს ისეთი ოპერაციების შესრულებას, როგორიცაა თამაშებში ჩაბმა, ან კალენდარში იმის შემოწმება, თუ როდისაა მისი კლასის წვეულება. მიუხედავად იმისა, რომ გარკვეული ფუნქციები შექმნილია ბავშვებისთვის, კონტენტის უმეტესობა გათვლილია ფართო საზოგადოებაზე. &lt;a href=\"{LINK}\">შეიტყვეთ მეტი&lt;/a>&lt;br>&lt;br>Voice Match ეხმარება ასისტენტს {PERSON}-ის ხმის ამოცნობასა და სხვებისგან გამორჩევაში ამ მოწყობილობაზე მისი ხმის უნიკალური მოდელის შექმნით.&lt;br>&lt;br>nგაითვალისწინეთ: {PERSON}-ის პერსონალიზებულ შედეგებზე წვდომა მსგავსი ხმით ან ჩანაწერითაც არის შესაძლებელი. Voice Match-ის ნებართვის გაუქმება შესაძლებელი იქნება მოგვიანებით, ასისტენტის პარამეტრებში ან Family Link-ში მისი გამორთვით.}other{Google ასისტენტის მეშვეობით {PERSON} შეძლებს ისეთი ოპერაციების შესრულებას, როგორიცაა თამაშებში ჩაბმა, ან კალენდარში იმის შემოწმება, თუ როდისაა მისი კლასის წვეულება. მიუხედავად იმისა, რომ გარკვეული ფუნქციები შექმნილია ბავშვებისთვის, კონტენტის უმეტესობა გათვლილია ფართო საზოგადოებაზე. &lt;a href=\"{LINK}\">შეიტყვეთ მეტი&lt;/a>&lt;br>&lt;br>Voice Match ეხმარება ასისტენტს {PERSON}-ის ხმის ამოცნობასა და სხვებისგან გამორჩევაში ამ მოწყობილობაზე მისი ხმის უნიკალური მოდელის შექმნით.&lt;br>&lt;br>nგაითვალისწინეთ: {PERSON}-ის პერსონალიზებულ შედეგებზე წვდომა მსგავსი ხმით ან ჩანაწერითაც არის შესაძლებელი. Voice Match-ის ნებართვის გაუქმება შესაძლებელი იქნება მოგვიანებით, ასისტენტის პარამეტრებში ან Family Link-ში მისი გამორთვით.}}</string>
     <string name="hotword_enrollment_parent_intro_summary_learn_more_link">https://support.google.com/families/answer/7521263</string>
     <string name="hotword_enrollment_parent_intro_title">ასწავლეთ ასისტენტს %1$s-ის ხმის ამოცნობა</string>
     <string name="hotword_enrollment_parent_selector_family_fetch_failed">ოჯახის პარამეტრების მიღებისას შეცდომა წარმოიქმნა.</string>
     <string name="hotword_enrollment_parent_selector_subtitle">აირჩიეთ მახლობლად მყოფი მშობელი, რათა შეძლოთ Google ასისტენტიანი დინამიკის გამოყენების დაწყება</string>
     <string name="hotword_enrollment_parent_selector_title">საჭიროა მშობლის ნებართვა</string>
+    <string name="hotword_enrollment_personal_results_action_button">ვეთანხმები</string>
+    <string name="hotword_enrollment_personal_results_cancel_button">არა, გმადლობთ</string>
+    <string name="hotword_enrollment_personal_results_explanation">"Voice Match დაყენებულია.
+
+ახლა შეგიძლიათ ჩართოთ პერსონალიზებული შედეგები, რის შემდეგაც ხმის მეშვეობით შეძლებთ წვდომას თქვენს კალენდარზე, კონტაქტებზე, შეხსენებებზე და ამ მოწყობილობაზე შენახულ სხვა კონტენტზე. "<a href="https://support.google.com/assistant/?p=personal_results">შეიტყვეთ მეტი</a>"
+
+პერსონალიზებული შედეგების გამორთვა ასისტენტის პარამეტრებში შეგიძლიათ."</string>
+    <string name="hotword_enrollment_personal_results_title">მიიღეთ პერსონალური შედეგები ხმის მეშვეობით</string>
     <string name="hotword_enrollment_pref_category_voice_model">„Ok Google“-ის ხმოვანი მოდელი</string>
     <string name="hotword_enrollment_retrain_voice_model">ხმოვანი მოდელის ხელახლა მომზადება</string>
     <string name="hotword_enrollment_retry_enroll">უკაცრავად, რაღაც შეცდომაა. მიმდინარეობს თავიდან დაწყება.</string>
@@ -1511,7 +1570,6 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="hotword_pref_subtitle_disabled_os_version">თქვენი ოპერაციული სისტემის მიერ ეს ფუნქცია მხარდაუჭერელია</string>
     <string name="hotword_pref_subtitle_opa_supported_locale">უთხარით Google ასისტენტს, რით დაგეხმაროთ</string>
     <string name="hotword_pref_subtitle_opa_unsupported_locale">ხმოვანი ბრძანებებით შეგიძლიათ მიიღოთ ინფორმაცია, გააგზავნოთ SMS, დააყენოთ მაღვიძარები და სხვა</string>
-    <string name="hotword_pref_summary_always_on">ეხმიანება თქვენს ხმას. მუშაობს, როდესაც ეკრანი ჩართულია ან გამორთული</string>
     <string name="hotword_pref_summary_always_on_not_default_vis">ამის ჩასართავად, შედით პარამეტრებში > ენა &amp; შეყვანა > ხმოვანი შეყვანა და აირჩიეთ \"გაძლიერებული Google მომსახურება\"</string>
     <string name="hotword_pref_summary_during_androidauto_navigation">მუშაობს Android Auto-ში</string>
     <string name="hotword_pref_summary_during_gmm_and_androidauto_navigation">მუშაობს Google Maps-სა და Android Auto-ში</string>
@@ -1520,16 +1578,12 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="hotword_pref_summary_homescreen">Google აპლიკაციიდან ხმოვანი ძიების ან Google Now გამშვებში ნებისმიერი მთავარი ეკრანის დაწყებისათვის წარმოთქვით \"%1$s\"</string>
     <string name="hotword_pref_summary_lock_personal_results">წვდომას აძლევს პერსონალურ შედეგებსა და ქმედებებს, როდესაც ტელეფონი საიმედოდ დაბლოკილია</string>
     <string name="hotword_pref_summary_mic_permission">მიეცით ნებართვა მიკროფონს, ამოიცნოს „%1$s“</string>
-    <string name="hotword_pref_summary_opa">„%1$s“-ის წარმოთქმისას თქვენი მოწყობილობა ამოიცნობს თქვენს ხმას, მაშინაც კი, როცა ეკრანი გამორთულია ან საყვარელ აპებს იყენებთ</string>
-    <string name="hotword_pref_summary_opa_non_dsp">„%1$s“-ის წარმოთქმისას თქვენი მოწყობილობა ამოიცნობს თქვენს ხმას, მაშინაც კი, როცა საყვარელ აპებს იყენებთ</string>
     <string name="hotword_pref_summary_voice_unlock">მიეცით \"%1$s\"-ს საშუალება განბლოკოს თქვენი მოწყობილობა, როდესაც ხმა შეესაბამება თქვენი ხმის მოდელს</string>
     <string name="hotword_pref_title">\"%1$s\" გამოვლენა</string>
     <string name="hotword_pref_title_always_on">მუდამ ჩართული</string>
     <string name="hotword_pref_title_during_gmm_navigation">მანქანის მართვისას</string>
     <string name="hotword_pref_title_lock_screen_2_opa">განბლოკვა Voice Match-ის მეშვეობით</string>
     <string name="hotword_pref_title_locked_personal_results">პერსონალური შედეგები</string>
-    <string name="hotword_pref_title_opa">ნებისმიერ დროს თქვით „%1$s“</string>
-    <string name="hotword_prefs_voice_everywhere_subtitle">რეაგირებს თქვენს ხმაზე. მუშაობს, როცა ეკრანი ჩართულია.</string>
     <string name="hotword_prefs_voice_everywhere_subtitle_no_account">ამ ფუნქციის ჩასართავად, გთხოვთ, შეხვიდეთ თქვენი Google ანგარიშის მეშვეობით</string>
     <string name="hotword_prefs_voice_everywhere_title">ნებისმიერი ეკრანიდან</string>
     <string name="hotword_setup_wizard_connection_error_message">შეამოწმეთ თქვენი კავშირი და ხელახლა ცადეთ.</string>
@@ -1597,6 +1651,7 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="immersive_actions_search_error">უკაცრავად, რომ გაწყვეტინებთ, მაგრამ თქვენი მოწყობილობა ხაზგარეშე რეჟიმზე გადავიდა. ინტერნეტთან კავშირი აღდგენის შემდეგ მცდელობა გამეორდება.</string>
     <string name="immersive_actions_unknown_provider_short">\?</string>
     <string name="immersive_contact_disambiguation_header_label">%1$s...</string>
+    <string name="inactive_state_text">თამაშის ინფორმაცია არაა განახლებული.</string>
     <string name="inferred_event_created">მოვლენა დაემატა კალენდარს</string>
     <string name="inferred_event_error">მოვლენის შექმნა ვერ მოხერხდა</string>
     <string name="inferred_from_gmail">Gmail-ში ეწოდება „%1$s“</string>
@@ -1673,12 +1728,27 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="leave_alert_scheduled_header">შეტყობინებას მიიღებთ, როდესაც გასვლის დრო დადგება.</string>
     <string name="leave_from">საიდან:</string>
     <string name="legal_documents">გამოყენების პირობები</string>
+    <string name="lens_education_card_barcodes_heading">შტრიხკოდები</string>
+    <string name="lens_education_card_barcodes_paragraph">დაასკანირეთ შტრიხკოდები პროდუქტის დეტალური ინფორმაციის გასაგებად</string>
+    <string name="lens_education_card_media_heading">წიგნები და მედია</string>
+    <string name="lens_education_card_media_paragraph">მოიძიეთ წიგნები, ფილმები, მუსიკალური ალბომები და ვიდეო თამაშები ყდების მიხედვით</string>
+    <string name="lens_education_card_places_heading">ადგილები</string>
+    <string name="lens_education_card_places_paragraph">შეიტყვეთ მეტი ღირსშესანიშნაობების, საინტერესო ადგილებისა და მნიშვნელოვანი შენობების შესახებ</string>
+    <string name="lens_education_card_products_heading">საყიდლებს</string>
+    <string name="lens_education_card_products_paragraph">აღმოაჩინეთ მსგავსი ერთეულები ისეთი პროდუქტებისთვის, როგორიცაა ავეჯი და ტანსაცმელი</string>
+    <string name="lens_education_card_text_heading">SMS</string>
+    <string name="lens_education_card_text_paragraph">დააკოპირეთ ისეთი ტექსტები, როგორიცაა ტელეფონის ნომრები, თარიღები და მისამართები</string>
+    <string name="lens_education_card_title">Lens-ის შესაძლებლობები</string>
+    <string name="lens_info_panel_live_camera_title">შეეხეთ ნებისმიერ რამეს ინფორმაციის მისაღებად</string>
+    <string name="lens_info_panel_loading_message">მიმდინარეობს შედეგების ძიება…</string>
+    <string name="lens_title">Google Lens</string>
     <string name="license_activity_title">ღია კოდის ლიცენზიები</string>
     <string name="light_traffic">ნაკლებად გადატვირთული მოძრაობა</string>
     <string name="line_two_text_separator">" · "</string>
     <string name="link_device_title">მიმდინარეობს %s-სთან დაკავშირება</string>
     <string name="listen_for_music">მუსიკის მოსმენა</string>
     <string name="listening_for_music_status">ისმინება მუსიკა…</string>
+    <string name="loading">იტვირთება</string>
     <string name="local_results_map_description">%1$s-ის რუკა</string>
     <string name="location_access_required_text_klp">მდებარეობაზე დაფუძნებული ბარათების სანახავად, როგორიც არის ადგილობრივი ამინდი და ტრანსპორტის დატვირთულობა, ჩართეთ მდებარეობაზე წვდომა</string>
     <string name="location_added_snackbar_text">მდებარეობა დაემატა</string>
@@ -1826,11 +1896,7 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="nexus_device_google_assistant_title">Google ასისტენტი</string>
     <string name="nexus_device_hands_free_preference_title">უხელო რეჟიმის სხვა პარამეტრები</string>
     <string name="nexus_device_hotword_category_title">მიიღეთ უკონტაქტო დახმარება Voice Match-ის მეშვეობით</string>
-    <string name="nexus_device_hotword_preference_alwayson_summary">იქონიეთ ასისტენტზე წვდომა „%1$s“-ის წარმოთქმით</string>
     <string name="nexus_device_hotword_preference_screenon_summary">იქონიეთ ასისტენტზე წვდომა „%1$s“-ის წარმოთქმით, როცა ეკრანი ჩართულია</string>
-    <string name="nexus_device_hotword_preference_title">„%1$s“-ის ამოცნობა</string>
-    <string name="nexus_device_navigation_popup_message">თქვენ ისევ შეგიძლიათ გამოიყენოთ „%1$s“-ის ამოცნობა მართვისთვის გათვლილ გარკვეულ აპებში, როგორიცაა Google Maps და Android Auto. ამის გამორთვა ნებისმიერ დროს, ამ აპების პარამეტრებშია შესაძლებელი. %2$s</string>
-    <string name="nexus_device_navigation_popup_settings_link">მართვის პარამეტრები</string>
     <string name="nexus_device_navigation_popup_title">მანქანის მართვისას</string>
     <string name="nexus_device_use_screen_context_summary">მთავარ ღილაკზე ხანგრძლივად შეხებისას ან ხმოვანი ძიებისას, Google თქვენს ეკრანზე არსებულ კონტენტთან დაკავშირებულ ინფორმაციას გიჩვენებთ</string>
     <string name="nexus_device_use_screen_context_title">ეკრანის კონტექსტის გამოყენება</string>
@@ -1885,6 +1951,8 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="notification_cancel_title">ძიება გაუქმდა</string>
     <string name="notification_set_text">როცა შედეგები მზად იქნება, შეტყობინებას მიიღებთ.</string>
     <string name="notification_set_title">გაფრთხილება დაყენებულია</string>
+    <string name="notification_subtext">ჩამაგრებული შესატყვისობა</string>
+    <string name="notification_title">%1$s - %2$s</string>
     <string name="notifications_enabled_header">შეტყობინებები</string>
     <string name="notifications_ringtone_setting">ზარი</string>
     <string name="notifications_vibrate_title">ვიბრაცია</string>
@@ -1994,9 +2062,12 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="opa_assistant_logo_content_description">ხმოვანი ძიება</string>
     <string name="opa_consent_check_error_button">დახურვა</string>
     <string name="opa_consent_check_error_button_notavailable">ანგარიშების გადართვა</string>
-    <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">Google ასისტენტი შემოგთავაზებთ მხოლოდ შეზღუდულ კონტენტს, როგორიცაა ვებ-შედეგები, ამინდი, თამაშები, ხუმრობები და ადგილობრივი ინფორმაცია.</string>
+    <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">ასისტენტი შემოგთავაზებთ მხოლოდ შეზღუდულ კონტენტს, როგორიცაა ვებ-შედეგები, ხუმრობები და ადგილობრივი ინფორმაცია.</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_text">არა, გმადლობთ</string>
-    <string name="opa_consent_check_error_confirmreject_personalize_radio_content">თქვენი კალენდრის, შეხსენებების, სამსახურის მარშრუტის, ფრენების, შეკვეთების და სხვა საქმეების ორგანიზებაში დახმარებისთვის, თქვენს ასისტენტს სჭირდება ისეთი ნებართვები, როგორიცაა ვებსა და აპებში აქტივობა, მოწყობილობის ინფორმაცია და ხმოვანი და აუდიო აქტივობა.</string>
+    <string name="opa_consent_check_error_confirmreject_personalize_radio_button_show_less">ნაკლების ჩვენება</string>
+    <string name="opa_consent_check_error_confirmreject_personalize_radio_button_show_more">მეტის ჩვენება</string>
+    <string name="opa_consent_check_error_confirmreject_personalize_radio_content">თქვენი კალენდრის, შეხსენებების, ფრენების და სხვა საქმეების ორგანიზებაში დახმარებისთვის, თქვენს ასისტენტს სჭირდება ნებართვები, როგორიცაა ვებსა და აპებში აქტივობა, მოწყობილობის ინფორმაცია და ხმოვანი და აუდიო აქტივობა.</string>
+    <string name="opa_consent_check_error_confirmreject_personalize_radio_content_expanded">გაითვალისწინეთ: ამ პარამეტრებით მართული მონაცემების შენახვა და გამოყენება შესაძლოა მოხდეს Google-ის რომელიმე სერვისის მიერ, სარგებლობის პერსონალიზებისა და სასარგებლო რეკლამების ჩვენების მიზნით. თქვენ შეძლებთ საკუთარი მონაცემების ნახვასა და წაშლას, ისევე როგორც პარამეტრების შეცვლას ბმულზე: account.google.com.</string>
     <string name="opa_consent_check_error_confirmreject_personalize_radio_text">დიახ, თანახმა ვარ</string>
     <string name="opa_consent_check_error_learn_more_link_target_notavailable">https://support.google.com/assistant/?p=gsuite</string>
     <string name="opa_consent_check_error_message">ასისტენტი თქვენი აქტივობის მართვის საშუალებებს ვერ ამოწმებს. ცადეთ მისი მოგვიანებით გამოყენება.</string>
@@ -2005,7 +2076,7 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="opa_consent_check_error_message_notavailable">Google ასისტენტი საჭიროებს აქტივობის მართვის საშუალებებს, რომლებიც ამ ანგარიშზე თქვენი მოწყობილობის ადმინისტრატორის მიერ შეიზღუდა. მიმართეთ თქვენს ადმინისტრატორს, ან გადართეთ ანგარიშები, ხოლო შემდეგ, ხელახლა ცადეთ.</string>
     <string name="opa_consent_check_error_title">წარმოიქმნა შეფერხება</string>
     <string name="opa_consent_check_error_title_autherror">თქვენი ანგარიშის ავტორიზაცია ვერ მოხერხდა</string>
-    <string name="opa_consent_check_error_title_confirmreject">გაიუმჯობესეთ მოხმარება ამ ნებართვების მეშვეობით</string>
+    <string name="opa_consent_check_error_title_confirmreject">მაქსიმალურად ისარგებლეთ ასისტენტით ამ პარამეტრების მეშვეობით</string>
     <string name="opa_consent_check_error_title_notavailable">Google ასისტენტი ამ ანგარიშისთვის მიუწვდომელია</string>
     <string name="opa_consent_error_timeout_message">წარმოიქმნა ქსელთან დაკავშირებული შეცდომა. შეამოწმეთ კავშირი და ხელახლა ცადეთ.</string>
     <string name="opa_contextual_cards_found_message">ქვემოთ მოცემულია ამ ეკრანთან დაკავშირებული გარკვეული ინფორმაცია:</string>
@@ -2025,9 +2096,11 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="opa_disabled_no_button">გაუქმება</string>
     <string name="opa_disabled_title">ჩართეთ თქვენი ასისტენტი</string>
     <string name="opa_dismiss_message">დასახურად, ჩავლებით გადააადგილეთ</string>
+    <string name="opa_email_optin_screen_add_shortcut_explanation">მარტივი წვდომა თქვენს ასისტენტზე</string>
     <string name="opa_email_optin_screen_confirm">მზადაა</string>
     <string name="opa_email_optin_screen_explanation">იყავით საქმის კურსში — მიიღეთ ელფოსტა თქვენი ასისტენტის უახლესი ფუნქციებისა და შესაძლებლობების შესახებ</string>
     <string name="opa_email_optin_screen_next">შემდეგი</string>
+    <string name="opa_email_optin_screen_sub_toggle_explanation">დაამატეთ ასისტენტი მთავარ ეკრანზე</string>
     <string name="opa_email_optin_screen_title">მიიღეთ მაქსიმუმი თქვენი Google ასისტენტისგან</string>
     <string name="opa_email_optin_screen_toggle_explanation">უახლესი მინიშნებების შემცველი ელფოსტის მიღება</string>
     <string name="opa_email_optin_screen_unsubscribe">გამოწერის გაუქმება შეგიძლიათ ნებისმიერ დროს, აპის ელფოსტის პარამეტრებიდან. Google Inc., 1600 Amphitheatre Parkway, Mountain View CA 94043 www.google.com</string>
@@ -2065,8 +2138,10 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="opa_eyes_free_udc_opt_in_notification_title">მიეცით Google ასისტენტს თქვენი დახმარების ნებართვა</string>
     <string name="opa_eyes_warm_welcome_chip_text">შეეხეთ გასაგრძელებლად</string>
     <string name="opa_first_screen_hotword_transition_cancel_button_text">მოგვიანებით გაკეთება</string>
+    <string name="opa_first_screen_hotword_transition_confirm_agree_button_text">ვეთანხმები</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text">დაწყება</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text_sentence_case">დაწყება</string>
+    <string name="opa_first_screen_hotword_transition_no_thanks_button_text">არა, გმადლობთ</string>
     <string name="opa_first_screen_hotword_transition_screen_context_pickup_confirm_button_text">მზადაა</string>
     <string name="opa_first_screen_hotword_transition_screen_context_pickup_confirm_button_text_sentence_case">მზადაა</string>
     <string name="opa_first_screen_hotword_transition_screen_context_pickup_explanation">ასისტენტს თქვენზე უფრო მეტად მორგებული შემოთავაზებებისა და თქვენს ეკრანზე არსებულ კონტენტთან დაკავშირებული კონკრეტული ქმედებების ჩვენება შეუძლია. ამის შეცვლა ასისტენტის პარამეტრებში შეგიძლიათ.</string>
@@ -2075,11 +2150,15 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="opa_first_screen_hotword_transition_skip_button_text">გამოტოვება</string>
     <string name="opa_first_screen_hotword_transition_summary">თქვით „%1$s“ და ნებისმიერ დროს გაესაუბრეთ თქვენს ასისტენტს — მაშინაც კი, როცა ეკრანი გამორთულია ან რომელიმე საყვარელ აპს იყენებთ.</string>
     <string name="opa_first_screen_hotword_transition_summary_no_dsp">თქვით „%1$s“ და გაესაუბრეთ თქვენს ასისტენტს ნებისმიერ დროს, როცა ეკრანი ჩართულია.</string>
+    <string name="opa_first_screen_hotword_transition_summary_short">Voice Match-ით თქვენ პირდაპირ შეძლებთ წვდომას ასისტენტზე, მაშინაც კი, როცა ეკრანი გამორთულია.</string>
     <string name="opa_first_screen_hotword_transition_summary_short_no_dsp">Voice Match-ის საშუალებით თქვენი ხმით პირდაპირ შეძლებთ წვდომას ასისტენტზე.</string>
     <string name="opa_first_screen_hotword_transition_title">იქონიეთ წვდომა თქვენს ასისტენტზე Voice Match-ის მეშვეობით</string>
     <string name="opa_first_screen_tgoogle_summary">თქვენ შეძლებთ პირდაპირ ასისტენტზე წვდომას „%1$s“-ის თქმით</string>
     <string name="opa_first_screen_tgoogle_title">ასწავლეთ ასისტენტს „%1$s“-ის ამოცნობა</string>
     <string name="opa_fix_user_recoverable_error">მოგვარება</string>
+    <string name="opa_gdpr_footer">"ამ მოწყობილობაზე შეიქმნება ხმის უნიკალური მოდელი, რომელიც დაეხმარება ასისტენტს თქვენს ამოცნობასა და სხვებისგან გამორჩევაში. 
+
+"<b>გაითვალისწინეთ:</b> თქვენს ასისტენტზე წვდომა ასევე შესაძლებელია მსგავსი ხმით ან ჩანაწერით. Voice Match-ის ნებართვის ამოშლა მოგვიანებით, ასისტენტის პარამეტრებში მისი გამორთვით შეგიძლიათ.</string>
     <string name="opa_gearhead_opt_in_notification_body">მანქანის მართვისას Google ასისტენტთან ხმის მეშვეობით საუბარი შეგიძლიათ</string>
     <string name="opa_gearhead_opt_in_notification_title">Google ასისტენტის მანქანის მართვისას გამოყენება</string>
     <string name="opa_gearhead_opt_in_speech">როცა ამის გაკეთება უსაფრთხო იქნება, პირველ რიგში, შეტყობინებას უნდა შეეხოთ. შემდეგ კი, მანქანის მართვისას Google ასისტენტის გამოყენება შეგეძლებათ.</string>
@@ -2121,7 +2200,7 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="opa_marketplace_disclosure_google_partners_description">Google-ის პარტნიორები არის ბიზნესები, რომლებსაც Google-თან კომერციული ურთიერთობები აკავშირებთ. Google ასისტენტს შეუძლია იმუშაოს Google-ის პარტნიორებთან, რათა საქმეების მოგვარებაში დაგეხმაროთ, იქნება ეს კინოთეატრის ბილეთების ყიდვა თუ სამზარეულოს ნიჟარის შეკეთება. <a href="https://support.google.com/assistant/?p=google_partners">შეიტყვეთ მეტი</a></string>
     <string name="opa_marketplace_disclosure_google_partners_short_description">Google-ის პარტნიორები არის ბიზნესები, რომლებსაც Google-თან კომერციული ურთიერთობები აკავშირებთ.</string>
     <string name="opa_marketplace_disclosure_google_partners_title">Google Partners</string>
-    <string name="opa_marketplace_disclosure_service_additional_text">ამგვარად, სერვისებს ისევ შეეძლება დაიმახსოვროს ისეთი დეტალები, როგორიცაა საუბრების დროს თქვენი პარამეტრები. ამ საუბრების ნახვა და მართვა შეგიძლიათ თქვენი Google ანგარიშის პარამეტრების სექციაში &lt;a href=https://myactivity.google.com/>„ჩემი აქტივობა“&lt;/a>. ასევე შეგიძლიათ გადააყენოთ თითოეული სერვისის კოდი თქვენი Google ასისტენტის პარამეტრებში, ინსტრუქციით — „დამივიწყე“.</string>
+    <string name="opa_marketplace_disclosure_service_additional_text">ამგვარად, სერვისებს შეეძლება ისეთი დეტალების დამახსოვრება, როგორიცაა საუბრების დროს გამოყენებული პარამეტრები. ამ სერვისებისთვის გაგზავნილი მონაცემების ნახვა, მართვა და გადაყენება შეგიძლიათ თითოეული შესაბამისი სერვისის გვერდზე, ამ აპის „დათვალიერების“ სექციაში. &lt;a href=https://support.google.com/assistant/?p=reset_id>შეიტყვეთ მეტი&lt;/a></string>
     <string name="opa_marketplace_disclosure_service_short_description">Google უნიკალურ კოდს უგზავნის ხმოვანი ინტერაქციის სერვისებს.</string>
     <string name="opa_marketplace_disclosure_service_title">სერვისები და თქვენი კონფიდენციალურობა</string>
     <string name="opa_marketplace_disclosure_title">მიიღეთ მეტი თქვენი Google ასისტენტისგან</string>
@@ -2130,6 +2209,12 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="opa_music_search_suggestion_chip_title">რა სიმღერაა?</string>
     <string name="opa_my_day_query">მიამბე ჩემი დღის შესახებ</string>
     <string name="opa_notification_channel_group_title">ასისტენტი</string>
+    <string name="opa_notification_channel_handoff_description">შეტყობინებები, რომელთა მეშვეობითაც თქვენი ქმედებების სხვა მოწყობილობაზე დასრულებას შეძლებთ</string>
+    <string name="opa_notification_channel_handoff_title">დისტანციური ფუნქციები</string>
+    <string name="opa_notification_channel_misc_description">სხვადასხვა დამატებითი შეტყობინებები</string>
+    <string name="opa_notification_channel_misc_title">სხვადასხვა</string>
+    <string name="opa_notification_channel_proactive_description">თქვენს მდებარეობასა და აქტივობებებთან დაკავშირებული განახლებები</string>
+    <string name="opa_notification_channel_proactive_title">პროაქტიული</string>
     <string name="opa_notification_channel_recommendations_description">ფუნქციები და ქმედებები, რომლებიც შეიძლება მოგეწონოთ, თქვენი ინტერესების გათვალისწინებით</string>
     <string name="opa_notification_channel_recommendations_title">რეკომენდაციები</string>
     <string name="opa_notification_channel_third_party_description">ასისტენტის მეშვეობით შეტყობინებების მიღება თქვენ მიერ გამოყენებული არა-Google-ის სერვისებიდან</string>
@@ -2179,7 +2264,6 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="opa_unlock_device_for_response">გასაგრძელებლად განბლოკეთ...</string>
     <string name="opa_upgrade_promo_tooltip_text">ხანგრძლივად შეეხეთ მთავარ ეკრანზე გადასვლის ღილაკს</string>
     <string name="opa_value_proposition_cancel">არა, გმადლობთ</string>
-    <string name="opa_value_proposition_continue">გაგრძელება</string>
     <string name="opa_value_proposition_message_1p">დაუსვით მას შეკითხვები ან სთხოვეთ რამის გაკეთება — თქვენი პირადი Google ასისტენტი თქვენს დასახმარებლად ყოველთვის მზად იქნება.</string>
     <string name="opa_value_proposition_message_title">გაიცანით Google ასისტენტი</string>
     <string name="opa_value_proposition_next">შემდეგი</string>
@@ -2206,6 +2290,7 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="opa_wuwa_notification_action_stop">შეწყვეტა</string>
     <string name="opa_wuwa_notification_content">მაღვიძარა ჩაირთვება %1$s-ზე</string>
     <string name="opa_wuwa_offline_notification_content">თქვენი ასისტენტი ამ რუტინის გაშვებას ვერ მოახერხებს, როცა ხაზგარეშე რეჟიმში ხართ.</string>
+    <string name="opa_zero_state_hint_text">გადაფურცლეთ მეტის სანახავად</string>
     <string name="open_app_template">%s-ის გახსნა</string>
     <string name="open_in_google_translate">Translate-ში გახსნა</string>
     <string name="open_settings">პარამეტრები</string>
@@ -2282,6 +2367,7 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="payments_auth_too_many_fingerprint_retries_should_use_password">დაფიქსირდა ზედმეტად ბევრი მცდელობა. შეიყვანეთ პაროლი, ამის ნაცვლად.</string>
     <string name="payments_auth_unknown_fingerprint_error">თითის ანაბეჭდის გამოყენებისას წარმოიქმნა შეცდომა. გასაგრძელებლად, გთხოვთ, შეიყვანოთ თქვენი Google პაროლი.</string>
     <string name="payments_auth_use_fingerprint_checkbox_hint">შემდგომი დამტკიცებისთვის თითის ანაბეჭდის გამოყენება</string>
+    <string name="penalties">ჯარიმები</string>
     <string name="pending_searches">მომლოდინე ძიებები</string>
     <string name="permission_error">მიკროფონის გამოსაყენებლად თქვენი ნებართვა გვესაჭიროება</string>
     <string name="permission_required_action_notification_body">ამ აპს თქვენი ნებართვა სჭირდება</string>
@@ -2309,6 +2395,7 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="person_select_item_hangouts_app_name">Hangouts</string>
     <string name="person_select_item_secondary_text_delimiter">", "</string>
     <string name="person_select_item_sms_app_name">SMS</string>
+    <string name="personal_info_and_suggestions_learn_more">შეიტყვეთ მეტი</string>
     <string name="personal_mode_landing_text">პერსონალური კონტენტის ძიება</string>
     <string name="personal_results_action_button">დაშვება</string>
     <string name="personal_results_cancel_button">გამოტოვება</string>
@@ -2427,6 +2514,7 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="qp_hotel_reservation_number">ჯავშნის ნომერი</string>
     <string name="qp_movie_watch_trailer">ფილმის ტრეილერის ყურება</string>
     <string name="qp_precip">ნალექი %1$s</string>
+    <string name="qp_precip_today">%1$s დღეს</string>
     <string name="qp_restaurant_reservation_date">თარიღი</string>
     <string name="qp_restaurant_reservation_time">დრო</string>
     <string name="qp_soccer_time">%1$d წთ.</string>
@@ -2543,6 +2631,8 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="screen_assist_share_title">ეკრანის ამ ანაბეჭდის რედაქტირება ან გაზიარება</string>
     <string name="screen_assist_sharing_screenshot">ეკრანის ანაბეჭდის გაზიარება</string>
     <string name="screen_assist_translate">თარგმნა</string>
+    <string name="screen_context_desc">იხილეთ რელევანტური შემოთავაზებები ასისტენტისგან, იქედან გამომდინარე, თუ რა არის გამოსახული თქვენს ეკრანზე</string>
+    <string name="screen_context_title">მიიღეთ ინფორმაცია იმაზე, თუ რა არის გამოსახული თქვენს ეკრანზე</string>
     <string name="scroll_left">გადაადგილება მარცხნივ</string>
     <string name="scroll_right">გადაადგილება მარჯვნივ</string>
     <string name="search_activity_name">Google</string>
@@ -2623,7 +2713,13 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="selection_mode_promo">დააწკაპუნეთ აქ ტექსტის ასარჩევად</string>
     <string name="selection_prompt">დააწკაპუნეთ ნებისმიერი ტექსტის ასარჩევად</string>
     <string name="selection_retry_ocr">ხელახლა ცდა</string>
+    <string name="send_to_device_negative_button">გაუქმება</string>
+    <string name="send_to_device_positive_button">გაგზავნა</string>
+    <string name="send_to_device_snackbar_text">გაეგზავნა %1$s-ს</string>
+    <string name="send_to_device_title">მოწყობილობაში გაგზავნა</string>
+    <string name="sender_says_message">%1$s ამბობს: %2$s.</string>
     <string name="sending_audio_to_account_toast">აუდიოს გაგზავნა %1$s-ში…</string>
+    <string name="separator">-</string>
     <string name="server_error">ამ დროისთვის Google-თან დაკავშირება ვერ ხერხდება.</string>
     <string name="server_error_fetching_weather_data_status_text">რაღაც შეცდომაა. გთხოვთ, მოგვიანებით ცადოთ.</string>
     <string name="set_duration">ხანგრძლივობის მითითება</string>
@@ -2672,7 +2768,7 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="sharebear_storage_permission_request_info_part1">ეკრანის ბევრ ანაბეჭდს იღებთ ხოლმე?</string>
     <string name="sharebear_storage_permission_request_info_part2">ნება დართეთ Google აპს დაგეხმაროთ ეკრანის ანაბეჭდების რედაქტირებასა და გაზიარებაში</string>
     <string name="sharebear_storage_permission_request_info_yes">დიახ, თანახმა ვარ</string>
-    <string name="shared_links_desc">ელფოსტით ან შეტყობინებებით გაგზავნილი და მიღებული ბმულები</string>
+    <string name="shared_links_desc">ელფოსტით ან შეტყობინებებით გაგზავნილი და მიღებული ბმულების გადახედვა</string>
     <string name="shared_links_title">გაზიარებული ბმულები</string>
     <string name="shootout_abbreviation">პენლ.</string>
     <string name="shopping_mode_landing_text">მაღაზიების ძიება</string>
@@ -2715,6 +2811,7 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="single_transit_line_delayed">%1$s-ზე %2$sდაყოვნებაა%3$s</string>
     <string name="single_transit_line_limited_service">%1$sშეზღუდულად ფუნქციონირებს%2$s %3$s</string>
     <string name="single_transit_station_closed">%1$s %2$sდახურულია%3$s</string>
+    <string name="slice_suggestion_message">ეს კონტენტი მომდინარეობს ინსტალირებული აპიდან და თქვენ მიერ აკრეფილ ტექსტს უკავშირდება.</string>
     <string name="smartspace_calendar_summary">გაფრთხილებები მომდევნო შეხვედრის შესახებ</string>
     <string name="smartspace_calendar_title">კალენდრის მოვლენები</string>
     <string name="smartspace_commute_summary">ტრაფიკის უჩვეულო ცვლილების გაფრთხილებები</string>
@@ -2791,6 +2888,7 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="stocks_update_time_text">განახლდა %1$s</string>
     <string name="stop_download_prompt">ჩამოტვირთვის შეჩერება</string>
     <string name="streaming_text_recognizing">ამოცნობა…</string>
+    <string name="street_address_label">ქუჩის მისამართი</string>
     <string name="suggest">ავტომატური დასრულება</string>
     <string name="suggest_contact_removal_body" formatted="false">ამ ქმედების შედეგად &lt;b>%s&lt;/b> ამოიშლება პოპულარული კონტაქტებიდან. &lt;b>%s&lt;/b> კვლავ იქნება ხელმისაწვდომი ძიების მეშვეობით.</string>
     <string name="suggest_contact_removal_cancel">გაუქმება</string>
@@ -2824,6 +2922,7 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="tab_title_tomorrow">ხვალ</string>
     <string name="tap_mic_to_speak">შეეხეთ მიკროფონს საუბრის დასაწყებად</string>
     <string name="temperature_display">%1$s %2$s</string>
+    <string name="text_selection_menu_translate_action">თარგმნა</string>
     <string name="thank_you_dialog_body">თქვენი პასუხები აუმჯობესებს Google ძიების გამოცდილებას.</string>
     <string name="thank_you_dialog_tilte">გმადლობთ გამოხმაურებისთვის.</string>
     <string name="things_to_do">საქმეები</string>
@@ -2932,6 +3031,7 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="transit_departure_summary">გადის სადგურიდან %1$s (ფეხით %2$s)</string>
     <string name="transit_enroute_last_walking_step">მიდით ფეხით დანიშნულებამდე</string>
     <string name="transit_enroute_trip_time_summary">გზაში · ადგილზე მისვლა: %1$s</string>
+    <string name="transit_eta_msg">%1$s, %2$s-ზე</string>
     <string name="transit_line_direction">იმგზავრეთ %1$s-ით (%2$s)</string>
     <string name="transit_line_direction_in_time">იმგზავრეთ %1$s-ით (%2$s) %3$s-ში</string>
     <string name="transit_next_line_departure_subtext_no_time">%1$s, პლატფორმა %2$s</string>
@@ -3061,9 +3161,12 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="user_defined_action_add_ends_with_action">მედია-კონტენტის დამატება</string>
     <string name="user_defined_action_add_ends_with_action_no_selection_message">გთხოვთ, აირჩიოთ დასაკრავი მედია-კონტენტი.</string>
     <string name="user_defined_action_add_ends_with_action_what_media">რა მედია-კონტენტის დაკვრა გსურთ?</string>
+    <string name="user_defined_action_delete_confirmation_cancel_text">გაუქმება</string>
+    <string name="user_defined_action_delete_confirmation_delete_text">წაშლა</string>
     <string name="user_defined_action_delete_confirmation_text">დარწმუნებული ხართ, რომ გსურთ ამ ქმედების წაშლა?</string>
     <string name="user_defined_action_ends_with_category_title">შემდეგ კი დაუკრას…</string>
     <string name="user_defined_action_follow_up_trigger_phrase_title">ან როცა ვიტყვი…</string>
+    <string name="user_defined_action_menu_clear_schedule">განრიგის წაშლა</string>
     <string name="user_defined_action_menu_delete_button">წაშლა</string>
     <string name="user_defined_action_menu_save_button">შენახვა</string>
     <string name="user_defined_action_original_action_alarm_title">ჩემ მიერ მაღვიძარის გათიშვის შემდეგ…</string>
@@ -3071,6 +3174,17 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="user_defined_action_popular_shortcuts_title">ხშირად გამოყენებული მალსახმობები</string>
     <string name="user_defined_action_reorder_description">ჩავლებით გადაიტანეთ ქმედებათა მიმდევრობა ამ რუტინაში.</string>
     <string name="user_defined_action_reorder_title">მიმდევრობის შეცვლა</string>
+    <string name="user_defined_action_schedule_back_confirmation_message">თქვენი რუტინა არ დაიწყება, თუ დრო, დღეების განრიგი და დინამიკი არჩეული არ არის.</string>
+    <string name="user_defined_action_schedule_back_confirmation_title">ეს განრიგი არასრულია</string>
+    <string name="user_defined_action_schedule_editor_clear_message">ეს განრიგი ამოიშლება თქვენი რუტინიდან.</string>
+    <string name="user_defined_action_schedule_editor_clear_title">ამ განრიგის წაშლა გსურთ?</string>
+    <string name="user_defined_action_schedule_editor_days_of_week">არჩევა, რომელ დღეებში უნდა განმეორდეს</string>
+    <string name="user_defined_action_schedule_editor_notify">მიიღეთ შეტყობინება ტელეფონზე, როცა ის დაიწყება</string>
+    <string name="user_defined_action_schedule_editor_select_speaker">აირჩიეთ დინამიკი</string>
+    <string name="user_defined_action_schedule_editor_select_time">დღის დროის არჩევა</string>
+    <string name="user_defined_action_schedule_editor_speaker">აირჩიეთ, რომელმა დინამიკმა უნდა დაიწყოს</string>
+    <string name="user_defined_action_schedule_editor_time">ამ რუტინისთვის დროის არჩევა</string>
+    <string name="user_defined_action_schedule_editor_title">დროის და დღის დაყენება</string>
     <string name="user_defined_action_target_command_hint">Google ასისტენტმა უნდა გააკეთოს</string>
     <string name="user_defined_action_task_custom_query_abandon_button">ცვლილებების გაუქმება</string>
     <string name="user_defined_action_task_custom_query_query_required">ამ ქმედების შენახვამდე Google ასისტენტის ბრძანება უნდა შეიყვანოთ.</string>
@@ -3120,17 +3234,23 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="user_defined_action_task_volume_notification_summary">ეს მოქმედება მხოლოდ მაშინ განხორციელდება, თუ ამ რუტინას თქვენს Android ტელეფონზე გამოიყენებთ</string>
     <string name="user_defined_action_task_volume_notification_title">მრეკავის და შეტყობინებების ხმა</string>
     <string name="user_defined_action_task_volume_title">ხმის დაყენება</string>
+    <string name="user_defined_action_trigger_multiple_title">როდის…</string>
+    <string name="user_defined_action_trigger_multiple_title_phrases">მე ვამბობ %1$s</string>
+    <string name="user_defined_action_trigger_multiple_title_time_and_day">ან როცა %1$s-ია, %2$s-ს</string>
     <string name="user_defined_action_trigger_phrase_in_use">„%1$s“ უკვე არსებობს.</string>
     <string name="user_defined_action_trigger_phrase_title">როცა ვიტყვი…</string>
     <string name="user_defined_action_trigger_phrase_validation_failed">მოქმედებაში მომყვანი ფრაზის შემოწმება ვერ მოხერხდა. გთხოვთ, ცადოთ ხელახლა.</string>
     <string name="user_defined_action_workflow_deleting">მიმდინარეობს რუტინის წაშლა</string>
     <string name="user_defined_action_workflow_duplicate_command_phrase">ბრძანება „%1$s“ უკვე გამოიყენება. გთხოვთ, აირჩიოთ სხვა.</string>
     <string name="user_defined_action_workflow_edit_command_phrases">ბრძანებების რედაქტირება</string>
+    <string name="user_defined_action_workflow_empty_schedule">დროის და დღის დაყენება (ნებაყოფლობითი)</string>
     <string name="user_defined_action_workflow_many_command_phrases">„%1$s“ ან „%2$s“ ან …</string>
     <string name="user_defined_action_workflow_new">ახალი რუტინა</string>
     <string name="user_defined_action_workflow_no_actions">ქმედებები არ არის</string>
+    <string name="user_defined_action_workflow_no_command_phrases">ბრძანებების დამატება (სავალდებულო)</string>
     <string name="user_defined_action_workflow_one_command_phrase">„%1$s“</string>
     <string name="user_defined_action_workflow_saving">მიმდინარეობს რუტინის შენახვა</string>
+    <string name="user_defined_action_workflow_schedule_day_name_separator">", "</string>
     <string name="user_defined_action_workflow_two_command_phrases">„%1$s“ ან „%2$s“</string>
     <string name="user_review_histogram_ic_user_rating">შემფასებელ ადამიანთა ჯამური რაოდენობა</string>
     <string name="user_reviews_read_all_header">ყველას წაკითხვა</string>
@@ -3168,7 +3288,6 @@ Google-ის მიერ თქვენს ეკრანზე ძიებ
     <string name="view_all_of_interest_button">ყველას ნახვა (%1$d)</string>
     <string name="view_email">ელფოსტის ნახვა</string>
     <string name="violent">ძალადობრივი</string>
-    <string name="visual_search">ვიზუალური ძიება</string>
     <string name="voiceSearchPreferences">ხმოვანი ძებნის პარამეტრები</string>
     <string name="voice_ime_language_auto">ავტომატური</string>
     <string name="voice_language_preference_change">თქვენი ენა ხმოვანი ბრძანებებისათვის ასევე შეიცვალა %s -ზე</string>

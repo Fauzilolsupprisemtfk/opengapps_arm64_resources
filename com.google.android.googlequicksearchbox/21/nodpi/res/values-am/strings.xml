@@ -23,6 +23,8 @@
     <string name="abc_searchview_description_voice">የድምፅ ፍለጋ</string>
     <string name="abc_shareactionprovider_share_with">ከሚከተለው ጋር ያጋሩ</string>
     <string name="abc_shareactionprovider_share_with_application">ከ%s ጋር አጋራ</string>
+    <string name="abc_slice_error">መገናኘት አልተቻለም</string>
+    <string name="abc_slice_more">ተጨማሪ</string>
     <string name="abc_slice_more_content">+ %1$d</string>
     <string name="abc_slice_permission_allow">ፍቀድ</string>
     <string name="abc_slice_permission_checkbox">%1$s ከማንኛውም መተግበሪያ የመጡ ቁራጮችን እንዲያሳይ ፍቀድለት</string>
@@ -30,6 +32,8 @@
     <string name="abc_slice_permission_text_1">- ከ%1$s የመጣ መረጃን ማንበብ ይችላል</string>
     <string name="abc_slice_permission_text_2">- በ%1$s ውስጥ እርምጃዎችን መውሰድ ይችላል</string>
     <string name="abc_slice_permission_title">%1$s የ%2$s ቁራጮችን እንዲያሳይ ይፈቀድለት?</string>
+    <string name="abc_slice_show_more">ተጨማሪ አሳይ</string>
+    <string name="abc_slice_updated">የተዘመነው %1$s ላይ</string>
     <string name="abc_slices_permission_request">%1$s የ%2$s ቁራጮችን ማሳየት ይፈልጋል</string>
     <string name="abc_toolbar_collapse_description">ሰብስብ</string>
     <string name="about">ስለ</string>
@@ -60,7 +64,6 @@
     <string name="accessibility_see_results_on_google">በGoogle ላይ ውጤቶችን ይመልከቱ</string>
     <string name="accessibility_select">ከማያ ገጽ ጽሑፍ ይምረጡ</string>
     <string name="accessibility_share">ማያ ገጽን ያጋሩ</string>
-    <string name="accessibility_visual_search_button">ምስላዊ ፍለጋ</string>
     <string name="accessibility_voice_search_button">የድምፅ ፍለጋ</string>
     <string name="account_item">ወደ %1$s ቀይር</string>
     <string name="account_list">የመለያ ዝርዝር</string>
@@ -87,6 +90,7 @@
     <string name="action_call_who_timeout_last_eyes_free_tts">አሁንም አልሰማሁትም። %2$s።</string>
     <string name="action_call_who_title">ለማን ነው መደወል የሚፈልጉት?</string>
     <string name="action_call_who_tts">ለማን ነው መደወል የሚፈልጉት?</string>
+    <string name="action_chat">ውይይት</string>
     <string name="action_contact_info_canceling_tts">የእውቂያ ፍለጋን በመተው ላይ</string>
     <string name="action_contact_info_nomatch_1_eyes_free_tts">አልገባኝም። ማንን ነው የሚፈልጉት?</string>
     <string name="action_contact_info_nomatch_1_tts">የሚፈልጉትን የእውቂያ ስም ይናገሩ ወይም ደግሞ «%1$s» ይበሉ።</string>
@@ -107,10 +111,12 @@
     <string name="action_decrease_height">ቁመት ይቀንሱ</string>
     <string name="action_decrease_width">ስፋት ይቀንሱ</string>
     <string name="action_deep_shortcut">አቋራጮች</string>
+    <string name="action_email">ኢሜይል</string>
     <string name="action_fallback_long_query_eyes_free_tts">እዚህ ላይ እንዴት መርዳት እንዳለብን አናውቅም።</string>
     <string name="action_fallback_short_query_eyes_free_tts">በሚከተለው ላይ እንዴት መርዳት እንዳለብን አናውቅም፦ %1$s።</string>
     <string name="action_generic_canceled_tts">ጥያቄ ተትቷል</string>
     <string name="action_generic_timeout_last_eyes_free_tts">%1$s %2$s</string>
+    <string name="action_goto_app">ወደ መተግበሪያ ሂድ</string>
     <string name="action_increase_height">ቁመት ጨምር</string>
     <string name="action_increase_width">ስፋት ጨምር</string>
     <string name="action_move">ንጥልን አንቀሳቅስ</string>
@@ -118,6 +124,8 @@
     <string name="action_move_screen_left">ማያ ገጽን ወደ ግራ አንቀሳቅስ</string>
     <string name="action_move_screen_right">ማያ ገጽን ወደ ቀኝ አንቀሳቅስ</string>
     <string name="action_move_to_workspace">ወደ መነሻ ማያ ገጽ አንቀሳቅስ</string>
+    <string name="action_navigate">አስስ</string>
+    <string name="action_required">እርምጃ መውሰድ ያስፈልጋል</string>
     <string name="action_resize">መጠን ቀይር</string>
     <string name="action_send">ግብረመልስ ያስገቡ</string>
     <string name="action_sms_canceling_tts">ጽሑፍን በመተው ላይ</string>
@@ -154,6 +162,7 @@
     <string name="action_sms_person_disambig_nomatch_last_eyes_free_tts">ስሙን ማግኘት አልተቻለም። እባክዎ ቆይተው እንደገና ይሞክሩ።</string>
     <string name="action_sms_person_disambig_nomatch_last_tts">ጽሑፍ ሊልኩለት እየሞከሩ ያለው ግለሰብ በእርስዎ እውቂያዎች ውስጥ ላይሆን ይችላል። እውቂያ ለመምረጥ መታ ያድርጉ።</string>
     <string name="action_sms_person_disambig_timeout_last_eyes_free_tts">አሁንም አልሰማሁትም። %5$s።</string>
+    <string name="action_sms_text">ጽሑፍ</string>
     <string name="action_sms_who_timeout_1_eyes_free_tts">አልሰማሁትም። ለማን ነው ጽሑፍ መላክ የሚፈልጉት?</string>
     <string name="action_sms_who_timeout_2_eyes_free_tts">አልሰማሁትም። ጽሑፍ ሊልኩለት የሚፈልጉት የእውቂያ ስም ይናገሩ ወይም «%1$s» ይበሉ።</string>
     <string name="action_sms_who_timeout_last_eyes_free_tts">አሁንም አልሰማሁትም። %2$s።</string>
@@ -162,6 +171,8 @@
     <string name="action_sound_search_get_song">Google Playን ያግኙ</string>
     <string name="action_sound_search_result_content_description">%1$s፣%2$s፣%3$s</string>
     <string name="action_unlock_device_tts">በእርግጥ፣ መሣሪያው ተቆልፎ ሳለ ያንን ማድረግ አልችልም። ወደፊት ለመቀጠል ይቀጥሉ እና የእርስዎን መሣሪያ እንዲከፈት ያድርጉ።</string>
+    <string name="action_video_call">የቪዲዮ ጥሪ</string>
+    <string name="action_voice_call">ደውል</string>
     <string name="action_who_is_relation_1_tts">የእውቂያውን ስም ይናገሩ ወይም %2$s ይበሉ።</string>
     <string name="action_who_is_relation_eyes_free_1_tts">አልሰማሁትም። ማንን ማለትዎ ነው?</string>
     <string name="action_who_is_relation_eyes_free_last_tts">ስሙን ማግኘት አልተቻለም። እባክዎ ቆይተው እንደገና ይሞክሩ።</string>
@@ -173,6 +184,7 @@
     <string name="action_who_is_your_relation_title">የእርስዎ %s ማን ነው?</string>
     <string name="activity_not_available">መተግበሪያ አይገኝም</string>
     <string name="activity_not_found">መተግበሪያ አልተጫነም።</string>
+    <string name="activity_title">የፖድካስት ማጫወቻ</string>
     <string name="ad_badge">ማስታወቂያ</string>
     <string name="add_account">መለያ አክል</string>
     <string name="add_contact_display_name">እውቂያ አክል</string>
@@ -182,16 +194,25 @@
     <string name="add_relationship_subject_2_tts_eyes_free">አልሰማሁትም። «አዎ» ይሉ ወይም «ተወው» ይበሉ</string>
     <string name="add_relationship_subject_last_tts">ለመቀጠል «አስታውስ»ን ወይም «ይቅር»ን መታ ያድርጉ</string>
     <string name="add_relationship_subject_last_tts_eyes_free">አሁንም አልሰማሁትም። በመተው ላይ።</string>
+    <string name="add_shortcut_accept">አክል</string>
+    <string name="add_shortcut_message">የፖድካስት አቋራጭ በመነሻ ማያ ገጽዎ ላይ ያክሉ</string>
+    <string name="add_shortcut_reject">አይ፣ አመሰግናለሁ</string>
     <string name="add_snackbar_action">አክል</string>
     <string name="add_this_location_to_your_list_snackbar_text">ይሄ አካባቢ ወደ የእርስዎ ዝርዝር ይታከል?</string>
     <string name="add_to_folder">ወደ አቃፊ አክል፦ %1$s</string>
     <string name="add_to_folder_with_app">ወደ አቃፊ አክል ከ%1$s</string>
+    <string name="add_to_home_screen">ወደ መነሻ ማያ ገጽ አክል</string>
+    <string name="add_to_home_screen_done">ወደ የመነሻ ማያ ገጽ ታክሏል</string>
+    <string name="add_to_home_screen_explanation">ከመነሻ ገጽዎ ሆነው ወደ «%1$s» የሚወስድ አቋራጭ ያክሉ</string>
+    <string name="add_to_home_screen_success">ተሳክቷል</string>
     <string name="add_your_relationship_subject">%2$s እንደ የእርስዎ %1$s ተደርጎ ይታወስ?</string>
     <string name="added_to_folder">ንጥል ወደ አቃፊ ታክሏል</string>
     <string name="additional_stock_query_string">ክምችት</string>
     <string name="address_cancel_button">አሁን አይደለም</string>
     <string name="address_data_loading">በመጫን ላይ…</string>
+    <string name="address_error">ይህን አድራሻ ማረጋገጥ አልተቻለም።</string>
     <string name="address_explanation">የእርስዎ አድራሻ እንደ ማድረሶች፣ ትራፊክ እና አካባቢያዊ የአየር ሁኔታ ላሉ አገልግሎቶች ሥራ ላይ የሚውል ነው</string>
+    <string name="address_hint">አድራሻዎን ያስገቡ</string>
     <string name="address_title">አድራሻዎን ያስገቡ</string>
     <string name="ads_badge">ማስታወቂያዎች</string>
     <string name="agenda_calendar_next_template">የእርስዎ ቀጣይ የቀን መቁጠሪያ ግቤት %1$s በ%2$s ላይ ነው።</string>
@@ -210,6 +231,7 @@
     <string name="agenda_eyes_free_list_last_two_items">%1$s እና %2$s</string>
     <string name="agenda_eyes_free_timed_event">በ%1$s፣ %2$s።</string>
     <string name="agenda_eyes_free_timed_event_with_day">%1$s በ %2$s: %3$s።</string>
+    <string name="agenda_hub_title">በቅርቡ የሚመጡ</string>
     <string name="agent_bookmark_added">ወደ ዕልባቶች ተቀምጠዋል</string>
     <string name="agent_bookmark_error">አንድ ስህተት ተፈጥሯል። እባክዎ በኋላ እንደገና ይሞክሩ።</string>
     <string name="agent_bookmark_removed">ከዕልባቶች የተወገደ</string>
@@ -238,6 +260,7 @@
     <string name="agent_directory_music_unable_unlink_default">ነባሪው የሙዚቃ አቅራቢዎን ግንኙነት እንዳይገናኝ ማድረግ አይቻልም</string>
     <string name="agent_directory_no_results">ምንም የ«%1$s» ውጤት የለም</string>
     <string name="agent_directory_no_thanks">አይ፣ አመሰግናለሁ</string>
+    <string name="agent_directory_send_to_device_text">ወደ መሳሪያ ላክ</string>
     <string name="agent_directory_settings_manage">አዋቅር</string>
     <string name="agent_directory_settings_text">ቅንብሮች</string>
     <string name="agent_directory_share">አጋራ</string>
@@ -284,6 +307,8 @@
     <string name="all_chain_locations">ሁሉም አካባቢዎች</string>
     <string name="all_day">ሙሉ ቀን</string>
     <string name="all_day_at_location">ሙሉ ቀን በ%1$s</string>
+    <string name="all_day_event_text">ሙሉ ቀን</string>
+    <string name="all_downloaded_episodes">ሁሉም የወረዱ ክፍሎች</string>
     <string name="all_language_packs">ሁሉም</string>
     <string name="allow_bluetooth_button_with_device_locked_notification_body">ስልክ በሚቆለፍበት ጊዜ ጥሪዎችን ለማድረግ እና ሌላም ተጨማሪ ነገሮችን ከብሉቱዝ መሳሪያ ጋር ለማድረግ የእርስዎን ድምጽ መጠቀም ይችላሉ</string>
     <string name="allow_bluetooth_button_with_device_locked_notification_title">ከብሉቱዝ መሳሪያ ጋር ድምጽ ይጠቀሙ</string>
@@ -307,6 +332,7 @@
     <string name="alpha_beta_channel_selection_positive_button">እሺ</string>
     <string name="alpha_beta_channel_selection_title">እንዴት መሞከር እንደሚፈልጉ ይምረጡ</string>
     <string name="amp_source_header">ከ%1$s</string>
+    <string name="and">እና</string>
     <string name="announce_selection">%1$s ተመርጧል</string>
     <string name="answers_suggestion_message">ይህ ፈጣን መረጃ እየተየቡት ካለው ነገር ጋር የሚዛመድ ነው።</string>
     <string name="app_directory_adapter_no_results">ምንም ውጤቶች አይገኙም</string>
@@ -315,6 +341,9 @@
     <string name="app_name">የGoogle መተግበሪያ</string>
     <string name="app_not_available">ምንም ያንን ማድረግ የሚችሉ መተግበሪያዎች የሉም</string>
     <string name="app_result_suggestion_content_description" formatted="false">%sን በ%s ውስጥ ይክፈቱ።</string>
+    <string name="app_shortcut_desc">ረዳቱን ወደ መነሻ ማያ ገጽዎን ያክሉት</string>
+    <string name="app_shortcut_title">ቀላል የረዳትዎ መዳረሻ</string>
+    <string name="app_suggestions_header">መተግበሪያዎች</string>
     <string name="app_waiting_download_title">%1$s ለመጫን በመጠበቅ ላይ</string>
     <string name="appointment_time_range">%1$s – %2$s</string>
     <string name="apps_mode_landing_text">መተግበሪያዎችን ይፈልጉ</string>
@@ -556,7 +585,10 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="assistant_settings_kill_switch_dialog_button">ወደ play መደብር ይሂዱ</string>
     <string name="assistant_settings_kill_switch_dialog_message">የቅርብ ጊዜዎቹን ማሻሻያዎች ለማግኘት ወደ Play መደብር ይሂዱና የGoogle መተግበሪያውን ያዘምኑት</string>
     <string name="assistant_settings_kill_switch_dialog_title">የእርስዎ ረዳት አንዳንድ አዲስ ችሎታዎች ያስፈልጉታል</string>
+    <string name="assistant_settings_language_availability_display_only_text">በእርስዎ ዘመናዊ ማሳያ ላይ ያለው ረዳት በ%1$s ብቻ ነው የሚገኘው።</string>
+    <string name="assistant_settings_language_availability_display_text">የእርስዎ ስልክ እነዚህን ቋንቋዎች እና እርስዎ በ%2$s ያቀናበሩትን የመሣሪያ ቋንቋ ይጠቀማል። የእርስዎ ዘመናዊ ማሳያ %1$sን ብቻ ነው የሚጠቀመው።</string>
     <string name="assistant_settings_language_availability_link">የAndroid ቋንቋ ቅንብሮች</string>
+    <string name="assistant_settings_language_availability_single_language_display_text">የእርስዎ ስልክ ይህን ቋንቋ እና እርስዎ በ%2$s ያቀናበሩትን የመሣሪያ ቋንቋ ይጠቀማል። የእርስዎ ዘመናዊ ማሳያ %1$s ብቻ ነው የሚጠቀመው።</string>
     <string name="assistant_settings_language_availability_single_language_text">በስልክዎ ላይ ያለው ረዳት ይህን ቋንቋ፣ እና %1$sን፣ እና በ%2$s ውስጥ ያቀናበሩትን ቋንቋ ይጠቀማል።</string>
     <string name="assistant_settings_language_availability_text">በእርስዎ ስልክ ላይ ያለው ረዳት እነዚህን ቋንቋዎች እና በ%2$s ውስጥ ያቀናበሩትን የመሣሪያ ቋንቋ %1$s ይጠቀማል።</string>
     <string name="assistant_settings_languages_dialog_title">ቋንቋዎች</string>
@@ -589,6 +621,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="assistant_settings_music_youtube_premium_dialog_text">በGoogle Home ላይ YouTube ሙዚቃን ለማጫወት የYouTube Red አባልነት ያስፈልጋል። <a href="http://youtube.com/red">youtube.com/red</a> ላይ መመዝገብ ይችላሉ።</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">የYouTube Red አባልነት ያስፈልጋል</string>
     <string name="assistant_settings_news_provider_delete_button_description">%1$sን ከነቁ የዜና ምንጮችዎ ያስወግዱት</string>
+    <string name="assistant_settings_news_supports_video">ቪዲዮ በዘመናዊ ማሳያዎች ላይ ይገኛል</string>
     <string name="assistant_settings_news_title">ዜና</string>
     <string name="assistant_settings_nick_name_not_pronounceable_message">የእርስዎ ቅጽል ስም ረዳቱ ሊነገረው የማይችለው ቁምፊን ይዟል። በሚቀጥለው ክፍል ውስጥ እንዴት ድምፁ እንደሚወጣ በፊደል ይጻፉት።</string>
     <string name="assistant_settings_no_device_linked">Voice Match ድምጽዎን ለይቶ ሲያውቅ ረዳትዎ ለእርስዎ የግል መረጃን እንዲሰጥ ያስችለዋል። እስከ 6 ሰዎች ድረስ የራሳቸውን ቀን መቁጠሪያ፣ ሙዚቃ እና ተጨማሪ ነገሮች ማግኘት ይችላሉ።</string>
@@ -658,6 +691,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="assistant_settings_payments_phone_authentication_frequency_never_description">ያልተለመደ እንቅስቃሴ ካልተገኘ በስተቀር</string>
     <string name="assistant_settings_payments_phone_authentication_frequency_not_required">ማረጋገጫን አትጠይቅ</string>
     <string name="assistant_settings_payments_phone_authentication_mechanism_title">ለማረጋገጥ የጣት አሻራን ይጠቀሙ</string>
+    <string name="assistant_settings_payments_phone_authentication_page_header">በእርስዎ ረዳት ለተፈጸሙ ክፍያዎች የደህንነት ቅንብሮችን ያስተካክሉ።</string>
     <string name="assistant_settings_payments_phone_authentication_section_title">የግዢ ጽድቆች</string>
     <string name="assistant_settings_payments_phone_authentication_title">የግዢ ጽድቆች</string>
     <string name="assistant_settings_payments_save_button_text">አስቀምጥ</string>
@@ -697,7 +731,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="assistant_settings_phone_verify_countdown_one_second">1 ሰከንድ ይጠብቁ።</string>
     <string name="assistant_settings_phone_verify_country_select_directions">የአገርዎ ኮድ ይምረጡ</string>
     <string name="assistant_settings_phone_verify_discoverability_text">ረዳቱ እንደ ቦታ ማስያዣ ባሉ ነገሮች ላይ እንዲያግዘዎት የእርስዎን ስልክ ቁጥር ያክሉ። ይህ ቁጥር እንዲሁም ወደ መለያ ለመግባት እና ሰዎች በሁሉም የGoogle አገልግሎቶች ላይ ከእርስዎ ጋር መገናኘት እንዲችሉ ያግዛል።</string>
-    <string name="assistant_settings_phone_verify_explanation">ይህ የእርስዎ ቁጥር ለሌሎች እንዲታይ አያደርገውም። Google የእርስዎን ቁጥር ትክክለኛነት ለማረጋገጥ የጽሑፍ መልእክት ይልክልዎታል። መደበኛ የክፍያ ተመኖች ተፈጻሚነት ሊኖራቸው ይችላል።</string>
+    <string name="assistant_settings_phone_verify_explanation">ይህ የእርስዎ ቁጥር ለሌሎች እንዲታይ አያደርገውም። Google የእርስዎን ቁጥር ትክክለኛነት ለማረጋገጥ የጽሑፍ መልዕክት ይልክልዎታል። መደበኛ የክፍያ ተመኖች ተፈጻሚነት ሊኖራቸው ይችላል።</string>
     <string name="assistant_settings_phone_verify_instruction_text">ወደ %1$s የተላከውን ኮድ ያስገቡ። ኮድ አልተቀበሉም? %2$s</string>
     <string name="assistant_settings_phone_verify_number_title">ስልክ ቁጥር ያረጋግጡ</string>
     <string name="assistant_settings_phone_verify_send_new_code">አዲስ ኮድ ላክ</string>
@@ -754,6 +788,8 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="assistant_settings_shopping_list_title">የሚገዙ ነገሮች ዝርዝር</string>
     <string name="assistant_settings_spell_out_name_not_pronounceable_message">የእንግሊዝኛ ፊደል ይጠቀሙ</string>
     <string name="assistant_settings_stocks">ክምችት</string>
+    <string name="assistant_settings_summer_time_mode_availability_clarification" />
+    <string name="assistant_settings_summer_time_mode_availability_description">የበጋ ጊዜ ሁነታ በሚከተለው ውስጥ የሚገኝ ይሆናል</string>
     <string name="assistant_settings_summer_time_mode_button_summary">የበጋ ጊዜ ሁነታን ያነቃል።</string>
     <string name="assistant_settings_summer_time_mode_button_title">የበጋ ጊዜ ሁነታ</string>
     <string name="assistant_settings_summer_time_mode_title">የበጋ ጊዜ ሁነታ</string>
@@ -820,6 +856,12 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="audio_error">ማይክሮፎን መክፈት አልተቻለም።</string>
     <string name="audio_file_access">የተቀዳ ድምፅ መድረሻ</string>
     <string name="audio_file_access_desc">ለራስ የተተወ የተቀዳ የድምፅ ንግግርና የጥሬ ድምፅ ትንታኔ መድረስ ይችላል።</string>
+    <string name="audio_player_notification_channel">የኦዲዮ አጫዋች</string>
+    <string name="audio_rationale_message">የንግግር ማውቅ አገልግሎትን ለማቅረብ የእርስዎ ኦዲዮ ወደ Google ይላካል። ወደ ጽሑፍ የተገለበጠ ንግግር ከዚህ መተግበሪያ ጋር ያጋራል።</string>
+    <string name="audio_rationale_message_vaa_enabled">"የንግግር ማውቅ አገልግሎትን ለማቅረብ የእርስዎ ኦዲዮ ወደ Google ይላካል። ወደ ጽሑፍ የተገለበጠ ንግግር ከዚህ መተግበሪያ ጋር ያጋራል 
+
+%1$s"</string>
+    <string name="author_format">በ%1$s</string>
     <string name="auto_add_shortcuts_description">ለአዲስ መተግበሪያዎች</string>
     <string name="auto_add_shortcuts_label">አዶ ወደ የመነሻ ማያ ገጽ አክል</string>
     <string name="auto_update_any_time">"የቋንቋዎችን በማንኛውም ጊዜ ላይ በራስ-ያዘምኑ።
@@ -827,7 +869,9 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="auto_update_language_packs">በራስ-አዘምን</string>
     <string name="auto_update_never">ቋንቋዎችን በራስ ሰር አታዘምን</string>
     <string name="auto_update_wifi_only">ቋንቋዎችን በWi-Fi ብቻ በራስ ሰር አዘምን</string>
+    <string name="available_pick_up">ለመወሰድ ዝግጁ</string>
     <string name="back">ተመለስ</string>
+    <string name="back_of_card_close">ዝጋ</string>
     <string name="background_notification_onboarding">ከመስመር ውጭ ነዎት? ችግር የለም። የGoogle መተግበሪያው የእርስዎን ፍለጋ ያስታውስና ውጤቶች ዝግጁ ሲሆኑ ለእርስዎ ማሳወቂያ ይልክልዎታል።</string>
     <string name="background_notification_onboarding_accept">እሺ</string>
     <string name="background_notification_onboarding_decline">አጥፋ</string>
@@ -847,7 +891,6 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="barcode_image_description">የባርኮድ ምስል</string>
     <string name="batterysaver_off">ባትሪ ቆጣቢ ጠፍቷል</string>
     <string name="batterysaver_on">ባትሪ ቆጣቢ በርቷል</string>
-    <string name="beta_tag">ቅድመ-ይሁንታ</string>
     <string name="birthday_message">ዛሬ የ%1$s ሰከንዶች ዕድሜ ነዎት።</string>
     <string name="birthday_today">የዛሬ ልደት ቀን</string>
     <string name="bisto_onboarding_chip_text">የጆሮ ማዳመጫዎችን ማዋቀር ጨርስ</string>
@@ -882,6 +925,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="button_no">አይ</string>
     <string name="button_yes">አዎ</string>
     <string name="by_author">በ%1$s</string>
+    <string name="cached_desc">ይህ ገጽ ከመስመር ውጭ ይገኛል።</string>
     <string name="calendar_event_during">%1$s አሁን</string>
     <string name="calendar_event_pre">%1$s በ%2$s ውስጥ</string>
     <string name="calendar_event_pre_static">%1$s በ%2$s ላይ</string>
@@ -893,6 +937,8 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="cancel">ይቅር</string>
     <string name="cancel_button_text">ተወው</string>
     <string name="cancel_download">ማውረድ ይቅር</string>
+    <string name="cancel_favorites_selection">ይቅር</string>
+    <string name="cancelled">ተትቷል</string>
     <string name="cant_load_suggestions">የጥቆማ አስተያየቶችን መጫን አልተቻለም</string>
     <string name="capabilities_discovery_hint">የእርስዎ ረዳት ሊያደርጋቸው የሚችሉ ነገሮችን ያግኙ</string>
     <string name="capabilities_search_content_description">የእርስዎ ረዳት ሊያደርጋቸው የሚችሉ ነገሮችን ያግኙ</string>
@@ -918,6 +964,9 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="cast_notification_connecting_message">ከ%1$s ጋር በመገናኘት ላይ</string>
     <string name="cast_notification_default_channel_name">Cast</string>
     <string name="cast_notification_disconnect">ግንኙነት አቋርጥ</string>
+    <string name="cct_account_mismatch_card_button_text">%1$sን ይክፈቱ</string>
+    <string name="cct_account_mismatch_card_header">ድረ-ገጾችዎን ይመልከቱ</string>
+    <string name="cct_account_mismatch_card_text">እዚህ የሚያገኟቸውን ገጾች ለመመልከት &lt;b>የ%1$s ቅንብሮች&lt;/b>ን ያዘምኑና ለ&lt;b>%2$s&lt;/b> ስምረትን ያብሩ</string>
     <string name="chance_of_precipitation_label">የመዝነብ ዕድል፦ %s</string>
     <string name="change_wallpaper">የግድግዳ ወረቀት ለውጥ</string>
     <string name="checkin_date_today">ተመዝግቦ መግቢያ ዛሬ ነው</string>
@@ -933,21 +982,28 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="clock_maybe_wrong_error_card_open_settings_button_text">በቅንብሮች ውስጥ አዘምን</string>
     <string name="clock_maybe_wrong_error_card_title_text">ሰዓት ከስምረት ውጭ ሊሆን ይችላል</string>
     <string name="close_button">ዝጋ</string>
+    <string name="close_button_desc">ውጣ</string>
     <string name="closet_offline_warning_title">ለጊዜው ቅንብሮችን መድረስ አልተቻለም</string>
     <string name="cloud_search_history_fetch_failed_toast">ቅንብሮችን ሰርስሮ ማውጣት አልተቻለም። እባክዎ ቆይተው እንደገና ይሞክሩ።</string>
     <string name="cloud_search_history_summary_fetching">ቅንብሮችን በማምጣት ላይ…</string>
+    <string name="collapse">ሰብስብ</string>
     <string name="collapse_time_to_leave">የዚህ ጉዞ አማራጮችን ደብቅ።</string>
+    <string name="collections">ስብስቦች</string>
     <string name="comment_hint">ተጨማሪ አስተያየቶች (ከተፈለጉ)።</string>
     <string name="common_address_clear_button_label">አጽዳ</string>
     <string name="common_address_clear_confirm_button">ሰርዝ</string>
     <string name="common_address_edit_title">አድራሻን አርትዕ ያድርጉ</string>
     <string name="common_delete">ሰርዝ</string>
     <string name="common_device_assistant_language_title">የረዳት ቋንቋ</string>
-    <string name="common_device_id_personal_info_permission_non_screen_devices_summary">በዚህ መሣሪያ ላይ እንደ ኢሜይል፣ የቀን መቁጠሪያ፣ እውቂያዎች እና አስታወሾች ያሉ የግል ውጤቶችን ይፍቀዱ። ይህ እንዲሁም በዚህ መሣሪያ ላይ ክፍያዎችን ይፈቅዳል። <a href="https://support.google.com/assistant/?p=personal_results">የበለጠ ለመረዳት</a></string>
+    <string name="common_device_id_personal_info_permission_non_screen_devices_summary">በዚህ መሣሪያ ላይ እንደ ኢሜይል፣ የቀን መቁጠሪያ፣ እውቂያዎች እና አስታወሾች ያሉ የግል ውጤቶችን ይፍቀዱ። ይህ እንዲሁም በዚህ መሣሪያ ላይ ክፍያዎችን ይፈቅዳል። %1$s</string>
+    <string name="common_device_id_personal_info_permission_screenful_devices_summary">በዚህ መሣሪያ ላይ እንደ ኢሜይል፣ የቀን መቁጠሪያ፣ እውቂያዎች እና አስታወሾች ያሉ የግል ውጤቶችን ይፍቀዱ። ይህ እንዲሁም በዚህ መሣሪያ ላይ ክፍያዎችን ይፈቅዳል። %1$s</string>
     <string name="common_device_notification_permission_summary">እንደ አስታዋሾች ያሉ ዝማኔዎችን በዚህ መሣሪያ ላይ ይቀበሉ። ሌላው ሳይቀር ማሳወቂያዎች ጠፍተው እንኳ እያለ ማንቂያዎችን እና አስፈላጊ ዝማኔዎችን ይሰማሉ።</string>
     <string name="common_device_notification_permission_title">ማሳወቂያዎች</string>
     <string name="common_device_personal_info_permission_title">የግል ውጤቶች</string>
+    <string name="common_device_personal_suggestion_permission_summary">ግላዊነት የተላበሰ የYouTube ቪድዮ ምክሮችን ጨምሮ የግል ውጤቶችን በመነሻ ማያ ገጽ ላይ ወይም እርስዎ መጠየቅ ሳይኖርብዎት እንደ ማሳወቂያዎች እንዲታዩ ይፍቀዱ። ማስታወሻ፦ በአቅራቢያ ያሉት እንዲሁም እነዚህን ውጤቶች መታ አድርገው ተመሳሳይ ድርጊትን መፈጸም ይችላሉ። %1$s</string>
     <string name="common_device_personal_suggestion_permission_title">የመነሻ ማያ ገጽ እና ማሳወቂያዎች</string>
+    <string name="common_device_youtube_restricted_mode_summary">አግባብ ያልሆነ ይዘት ይዘው ሊሆኑ የሚችሉ ዘፈኖችን እና ቪዲዮዎችን ደብቅ</string>
+    <string name="common_device_youtube_restricted_mode_title">YouTube የተገደበ ሁነታ</string>
     <string name="common_google_logo">የGoogle አርማ</string>
     <string name="common_google_play_services_enable_button">አንቃ</string>
     <string name="common_google_play_services_enable_text">Google Play አገልግሎቶችን ካላነቁ በስተቀር %1$s አይሰራም።</string>
@@ -989,10 +1045,16 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="confirm_place_query_string">ወደዚህ ቦታ ስለሚደረጉ የጉዞ ጊዜዎች ያሳስበዎታል?</string>
     <string name="confirm_place_set_text">አስቀምጥ</string>
     <string name="confirm_place_updated">ለውጦች ተቀምጠዋል። የትራፊክ ካርድህ ነገ ይዘመናል።</string>
+    <string name="confirm_remove_all_dialog_message">ይህ ሁሉንም የወረዱ የእርስዎ ትዕይንት ክፍሎች ያስወግዳል። ይህ እርምጃ ሊቀለበስ አይችልም።</string>
+    <string name="confirm_remove_all_dialog_title">እርግጠኛ ነዎት?</string>
+    <string name="confirm_unsubscribe_button_label">ከደንበኝነት ምዝገባ ውጣ</string>
+    <string name="confirm_unsubscribe_title">ከዚህ ትዕይንት የደንበኝነት ምዝገባ ይወጣ?</string>
     <string name="confirm_work_query_string">ይሄ ቦታ እንደ ዕለታዊ መሄጃዎ ይሁን?</string>
     <string name="confirm_work_yes_text">እንደ ስራ አስቀምጥ</string>
     <string name="confirmation_number">ማረጋገጫ #</string>
+    <string name="confirmed">ተረጋግጧል</string>
     <string name="connection_error_loading_content">ምንም የአውታረ መረብ ግንኙነት ስለሌለ ገጹን መጫን አልተቻለም።</string>
+    <string name="connection_error_message">ግንኙነትዎን ይፈትሹትና እንደገና ይሞክሩ</string>
     <string name="connection_retrying">እንደገና በመሞከር ላይ…</string>
     <string name="consent_action_button">ፍቀድ</string>
     <string name="consent_explanation">"%s
@@ -1029,12 +1091,27 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="contact_no_postal_address">ለ%1$s ምንም አድራሻ አልተገኘም</string>
     <string name="contact_no_postal_address_pick_another_contact">ለ%1$s ምንም አድራሻ አልተገኘም። ሌላ እውቂያ ይምረጡ</string>
     <string name="contact_photo">የእውቂያ ፎቶ</string>
+    <string name="contact_removal_body">ይህ &lt;b>%1$s&lt;/b>ን ከእርስዎ ከፍተኛ ዕውቂያዎች ዝርዝር ላይ ያስወግዳል። አሁንም ድረስ &lt;b>%2$s&lt;/b> በመፈለግ ሊያገኙ ይችላሉ።</string>
+    <string name="contact_removal_cancel">ይቅር</string>
+    <string name="contact_removal_confirm">ደብቅ</string>
+    <string name="contact_removal_title">%s ይደበቅ?</string>
     <string name="contact_select_dialog_find_another_contact">ሌላ እውቂያ ይምረጡ</string>
     <string name="contact_select_dialog_find_contact">እውቂያ ይምረጡ</string>
     <string name="contact_selected_find_another_contact">%1$s። ሌላ እውቂያ ይምረጡ</string>
     <string name="contact_selected_find_another_contact_with_relationship">%1$s፣ %2$s። ሌላ እውቂያ ይምረጡ</string>
     <string name="contact_suggestion_message">ይህ እርስዎ ከሚተይቡት ጋር የሚዛመድ የግል እውቂያ ነው።</string>
+    <string name="contact_suggestions_header">እውቂያዎች</string>
+    <string name="contact_unhide_body">&lt;b>%1$s&lt;/b> ተደብቋል። &lt;b>%2$s&lt;/b>ን በእርስዎ ከፍተኛ እውቂያዎች ውስጥ ብቅ እንዲል ለመፍቀድ እንዳይደበቅ ያድርጉ።</string>
+    <string name="contact_unhide_cancel">ይቅር</string>
+    <string name="contact_unhide_confirm">አትደብቅ</string>
+    <string name="contact_unhide_title">%s አይደበቅ?</string>
+    <string name="content_chip_desc">ሁሉንም %s ይመልከቱ።</string>
     <string name="content_stale_ago">ይዘት መጨረሻ ላይ የተዘመነው ከ%1$s በፊት</string>
+    <string name="content_with_parentheses">(%s)</string>
+    <string name="continue_listening_footer_title">ሁሉም ያልተጠናቀቁ ተከታታይ ትዕይንቶች</string>
+    <string name="continue_listening_section_title">ማዳመጥ ይቀጥሉ</string>
+    <string name="continue_to_enable_storage_permission">ቀጥል</string>
+    <string name="conversation_group_header">ውይይቶች</string>
     <string name="copied_to_clipboard">ወደ ቅንጥብ ሰሌዳ ተገልብጧል</string>
     <string name="corpus_name_images_animated">GIF</string>
     <string name="corpus_name_images_black_and_white">ጥቁር እና ነጭ</string>
@@ -1102,11 +1179,15 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="date_at_time">%1$s %2$s ላይ</string>
     <string name="date_in_the_past">%1$s &lt;font color=#9E9E9E> ያለፈ ነው&lt;/font></string>
     <string name="day_picker_description">የቀናት የወር ፍርግርግ</string>
+    <string name="deeplink_no_description">ምንም መግለጫ አይገኝም</string>
+    <string name="deeplink_not_installed">መተግበሪያ አልተጫነም</string>
     <string name="default_error">የሆነ ስህተት ተፈጥሯል። እባክዎ ቆይተው እንደገና ይሞክሩ።</string>
     <string name="default_image_filename">ምስል አውርድ</string>
     <string name="default_location_name">ሳን ፍራንሲስኮ</string>
     <string name="default_scroll_format">ገጽ %1$d ከ%2$d</string>
+    <string name="delayed">ዘግይቷል</string>
     <string name="delete">ሰርዝ</string>
+    <string name="delete_favorites">የተመረጡ ፖድካስቶችን ይሰርዙ</string>
     <string name="delete_order_action_title">ደረሰኝ ይሰርዙ</string>
     <string name="delete_order_dialog_message">ይሄ ደረሰኙን ይሰርዘዋል፣ ነገር ግን ትዕዛዝዎን አይሰርዘውም።</string>
     <string name="delete_order_dialog_negative_button">ይቅር</string>
@@ -1116,6 +1197,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="delete_target_label">አስወግድ</string>
     <string name="delete_target_uninstall_label">አራግፍ</string>
     <string name="deleted_key">%1$s ተሰርዟል</string>
+    <string name="delivered">ደርሷል</string>
     <string name="depart">መነሻ</string>
     <string name="departure_station">ከ%1$s</string>
     <string name="departure_time_and_express_class">%1$s (%2$s)</string>
@@ -1126,6 +1208,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="device_id_device_address_clear_dialog_message">"ይህ መሣሪያ ስለአየር ሁኔታ፣ ትራፊክ፣ ንግዶች እና ተጨማሪ ነገሮች ትክክለኛ መልስ ለእርስዎ መስጠት እንዲችል ትክክለኛ አካባቢ ያስፈልገዋል። ይህ መሣሪያ ያለትክክለኛ አድራሻ እንደተጠበቀው አይሠራም።
 መሠረታዊ የሆኑ ባህሪዎችን ለማንቃት እንደ የመሣሪያዎ አይፒ አድራሻ ያሉ ሌሎች መረጃዎችን በመጠቀም አካባቢዎን መገመት ይኖርብናል።"</string>
     <string name="device_not_linkable">ተጠናቅቋል</string>
+    <string name="device_photo_group_header">በመሣሪያ ላይ ያሉ መሣሪያዎች</string>
     <string name="device_response_suppressed">በሌላ መሣሪያ ላይ ጥሪን በማንሳት ላይ</string>
     <string name="device_setup_cancel_dialog_message">እዚህ ላይ ተመለስን መታ ማድረግ ከማዋቀር ያስወጣል። እርግጠኛ ነዎት መውጣት ይፈልጋሉ?</string>
     <string name="device_setup_cancel_dialog_negative_button">ማዋቀር ቀጥል</string>
@@ -1144,6 +1227,9 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="distance_kilometers_accessible">Distance: %1$.1f ኪሎሜትር</string>
     <string name="distance_miles">%1$.1f ማይል</string>
     <string name="distance_miles_accessible">Distance: %1$.1f ማይል</string>
+    <string name="docs_group_header">ሰነዶች</string>
+    <string name="donate">ይለግሱ</string>
+    <string name="donate_button_label">ይለግሱ</string>
     <string name="donate_screenshot_summary">Google የማያ ገጽ ፍለጋን እንዲያሻሽል የእርስዎን ቅጽበታዊ ገጽ እይታዎች እንዲያከማች እና እንዲገመግማቸው ይፍቀዱለት። ገምጋሚዎች ጥብቅ ለሆነ የምሥጢር ጥበቃ ደንቦች ተገዢዎች ናቸው። ቅጽበታዊ ገጽ እይታዎች እንደ ኢሜይሎች እና ውይይቶች ያለ የግል መረጃ ሊኖራቸው ይችላል፣ ነገር ግን ምሥጢራዊ እንደሆኑ ይቆያሉ።</string>
     <string name="donate_screenshot_title">የማያ ገጽ ፍለጋ እንዲሻሻል ያግዙ</string>
     <string name="done">ተከናውኗል</string>
@@ -1154,8 +1240,17 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="doodle_notifications_setting_summary">አዳዲስ የDoodle ጨዋታዎች፣ ቪዲዮዎች እና መስተጋብራዊ ተሞክሮዎች</string>
     <string name="doodle_notifications_setting_title">Doodles</string>
     <string name="download">ያውርዱ (%1$s)</string>
+    <string name="download_again">እንደገና አውርድ</string>
     <string name="download_details">ስሪት %1$s ሊገኝ ይችላል፣ የማውረድ መጠን %2$s</string>
+    <string name="download_episode">ተከታታይ ትዕይንት ያውርዱ</string>
+    <string name="download_failed">ማውረድ አልተሳካም</string>
+    <string name="download_not_found">ውርድ አልተገኘም</string>
     <string name="download_prompt">አውርድ</string>
+    <string name="download_setting_message">የወረዱ ክፍሎች ከተጠናቀቁ ከ30 ቀኖች ወይም ከ24 ሰዓቶች በኋላ ይወገዳሉ</string>
+    <string name="downloaded">ይህ ፖድካስት ተከታታይ ትዕይንት ወርዷል</string>
+    <string name="downloaded_episodes">የወረዱ ክፍሎች</string>
+    <string name="downloading">በማውረድ ላይ...</string>
+    <string name="downloads">ውርዶች</string>
     <string name="draw_with_stylus">ለመምረጥ በእርስዎ ስታይለስ ይሳሉ</string>
     <string name="dsp_error_notification_content">የድምፅ ማወቅን ለማስተካከል ስልክዎን ዳግም ያስጀምሩት።</string>
     <string name="dsp_error_notification_title">«%1$s» አይገኝም</string>
@@ -1165,11 +1260,13 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="duo_preference_title">የDuo ቪዲዮ ጥሪ</string>
     <string name="duration_hours_and_minutes">%1$s እና %2$s</string>
     <string name="e100_intro_tts">ሠላም፣ ጥሪዎችን ከማድረግ በተጨማሪ ማድረግ የሚችሏቸውን አንዳንድ ተጨማሪ ነገሮች እነኚሁና። ድምጽዎን ተጠቅመው ጽሑፎችን መላክ፣ አቅጣጫዎችን ማግኘት ወይም እንዲያውም አቅራቢያ ያለ ንግድ ማግኘት ይችላሉ። እና እንደ ሁልጊዜው ደውል ብለው ስሙን ወይም ቁጥሩን ማስከተል ይችላሉ።</string>
-    <string name="e100_message_announcement_template">ከ%s የተላከ አዲስ መልእክት አለ።</string>
+    <string name="e100_message_announcement_template">ከ%s የተላከ አዲስ መልዕክት አለ።</string>
     <string name="e100_message_announcement_with_contents_template">አዲስ መልዕክት ከ%s፦</string>
     <string name="e100_reply_command">ምላሽ ስጥ</string>
     <string name="e100_sms_content">ይኸውና፦</string>
     <string name="e100_voice_command_generic_template">የድምጽ አዝራሩን መጫን እና የሚከተለውን ማለት ይችላሉ፦ %1$s።</string>
+    <string name="edit">አርትዕ</string>
+    <string name="edit_favorites_title">ፖድካስቶችን አርትዕ ያድርጉ</string>
     <string name="edit_in_calendar">በቀን መቁጠሪያ ውስጥ አርትዕ</string>
     <string name="edit_location">አካባቢ አርትዕ</string>
     <string name="edit_place_hint">አድራሻ ያስገቡ</string>
@@ -1204,7 +1301,12 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="enable_video_preview_autoplay_on_mobile_data">በተንቀሳቃሽ ስልክ አውታረ መረቦች ላይ ፍቀድ</string>
     <string name="enable_web_history_toast">የድር ታሪክ ነቅቷል</string>
     <string name="endByDate">፤ እስከ %s ድረስ</string>
+    <string name="end_of_recents">የቅርብ ጊዜ ፍለጋዎች ማብቂያ</string>
     <string name="entity_suggestion_message">ይህ ቃል እየተየቡት ካለው ነገር ጋር ይዛመዳል፦</string>
+    <string name="entry_desc">ግቤት %1$d ከ%2$d.</string>
+    <string name="episode_completed">ተጠናቅቋል</string>
+    <string name="episode_subtitle_format">%1$s ⸱ %2$s</string>
+    <string name="error">ስህተት</string>
     <string name="error_adding_location_snackbar_text">አካባቢን ማከል ላይ ስህተት</string>
     <string name="error_authenticating_user">የመግባት ስህተት</string>
     <string name="error_captive_portal">ግንኙነትዎን ይፈትሹትና እንደገና ይሞክሩ።</string>
@@ -1218,6 +1320,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="error_internal">የሆነ ችግር ተፈጥሯል</string>
     <string name="error_learn_more">%1$s &lt;a href=%2$s>ተጨማሪ ለመረዳት&lt;/a></string>
     <string name="error_loading_content">ገጹን መጫን አልተቻለም።</string>
+    <string name="error_message">ፍለጋ አልተሳካም። እባክዎ ቆይተው እንደገና ይሞክሩ።</string>
     <string name="error_network_time">ሰዓቱ አልሰመረም ሊሆን ይችላል። ይሄ ከGoogle ጋር ደህንነቱ የተጠበቀ ግንኙነትን ይከለክላል። ምግብዎ እንዲታይ ቀኑን እና ሰዓቱን ያዘምኑት።</string>
     <string name="error_no_connection_text">"ምንም አውታረ መረብ አይገኝም
 የእርስዎን ግንኙነት መፈተሽን እና እንደገና መሞከርን ከግምት ያስገቡ"</string>
@@ -1236,6 +1339,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="estimated_delivery_date">ግምታዊ መድረሻ፦ %1$s</string>
     <string name="estimated_delivery_title">ግምታዊ የመድረሻ ጊዜ</string>
     <string name="event_end_time">%1$s ላይ ያበቃል</string>
+    <string name="event_group_header">ክስተቶች</string>
     <string name="event_start_time">%1$s ላይ ይጀመራል</string>
     <string name="every_day">በየቀኑ</string>
     <string name="every_week">በየ%1$s</string>
@@ -1245,6 +1349,8 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="expand_button_title">የላቀ</string>
     <string name="expand_time_to_leave">የዚህ ጉዞ አማራጮችን አሳይ።</string>
     <string name="expanding_time_to_leave_announcement">ዝርዝሮችን ለመተው ሰዓት ማሳየት።</string>
+    <string name="expect_delivery_day">%s</string>
+    <string name="explicit_content_label">ፖድካስት ልቅነት ያለው ይዘት ይዟል</string>
     <string name="explore_back_button_content_description">ተመለስ</string>
     <string name="explore_bottombar_expand_button_desc">ዘርጋ</string>
     <string name="explore_bottombar_header_title">ሰዎች በተጨማሪም እነዚህን ያያሉ</string>
@@ -1255,6 +1361,16 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="explore_review_submit">አስገባ</string>
     <string name="explore_review_title">የእርስዎ ግምገማ</string>
     <string name="explore_review_view_pager_indicator_dot_description">ገጽ %1$d ከ%2$d</string>
+    <string name="eyes_camera_switch_button_description">የካሜራ አቅጣጫን ይቀይሩ</string>
+    <string name="eyes_donate_data_info_button_description">የውሂብ ልገሳ መረጃን አሳይ</string>
+    <string name="eyes_donate_data_notification_learn_more">የበለጠ ለመረዳት</string>
+    <string name="eyes_donate_data_notification_text">የGoogle ምርቶችን ለማሻሻል ምስሎችን እየለገሱ ነው።</string>
+    <string name="eyes_donate_data_optin_dogfood_label">የሙከራ ስሪት</string>
+    <string name="eyes_donate_data_optin_message">የGoogle ምርቶችን ለማሻሻል በረዳት ውስጥ በሌንስ የተነሱ ምስሎች በሰዎች እንዲገመገሙ ይፍቀዱ።</string>
+    <string name="eyes_donate_data_optin_no_thanks">አይ፣ አመሰግናለሁ</string>
+    <string name="eyes_donate_data_optin_ok">እሺ</string>
+    <string name="eyes_donate_data_optin_title">የሌንስ ምስሎችን ይለግሱ</string>
+    <string name="eyes_flash_button_description">ፍላሽ ቀይር</string>
     <string name="eyes_import_to_keep_suggestion">ወደ Keep አስመጣ</string>
     <string name="eyes_improve_lens_suggestion">Google ሌንስ እንዲሻሻል ያግዙ</string>
     <string name="eyes_initial_prompt">ዝንባሌው ባለዎት ነገር ላይ መታ ያድርጉ</string>
@@ -1271,6 +1387,9 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="eyes_onboarding_camera_permission_denied_settings_button">ቅንብሮች</string>
     <string name="eyes_onboarding_camera_permission_denied_title">የሌንስ ስህተት</string>
     <string name="eyes_onboarding_message">Google ሌንስ መረጃ ለእርስዎ በበለጠ ፍጥነት እንዲያሳየዎት ቀጣይነት ባለው መልኩ የሚመለከቱትን ነገር ይተነትናል</string>
+    <string name="eyes_onboarding_title_places">ቦታዎችን በሌንስ ያግኙ</string>
+    <string name="eyes_onboarding_title_products">ምርቶችን በሌንስ ያግኙ</string>
+    <string name="eyes_onboarding_title_text">ጽሑፍን በሌንስ ይቃኙ</string>
     <string name="eyes_remember_this_suggestion">ይህን ያስታውሱ</string>
     <string name="eyes_request_timed_out_message">ይቅርታ፣ የሆነ ችግር ተፈጥሯል</string>
     <string name="eyes_share_suggestion">አጋራ</string>
@@ -1289,12 +1408,16 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="failed">ምስል መጫን አልተቻለም</string>
     <string name="failed_to_open_webview">ገጹን መክፈት አልተቻለም</string>
     <string name="failure_to_load_cards">ካርዶችን መስቀል አልተሳካም</string>
+    <string name="fast_forward">ወደ ፊት አፍጥን</string>
+    <string name="favorite_images_tag_title">ተወዳጅ ምስሎች</string>
+    <string name="favorite_pages_tag_title">ተወዳጅ ገጾች</string>
     <string name="feed_datasaver_details">የውሂብ ቆጣቢ ሲበራ የእርስዎ ምግብ የቅርብ ጊዜውን ይዘት አያገኝም።</string>
     <string name="feedback">ግብረ-መልስ ላክ</string>
     <string name="feedback_composed_legalese_text">በህጋዊ ምክንያቶች የይዘት ለውጦችን ለመጠየቅ ወደ %1$s ይሂዱ።&lt;br />የእርስዎ ስርዓት መረጃ ወደ Google ይላካል። %2$s እና %3$s ይመልከቱ።</string>
     <string name="feedback_edittext_hint">ግብረመልስ</string>
     <string name="feedback_legal_help_text">የህግ እገዛ ገጽ</string>
     <string name="feedback_legal_help_url">https://support.google.com/legal/answer/3110420</string>
+    <string name="feedback_link">ግብረመልስ</string>
     <string name="feedback_no_text_entered">ሪፖርት ከማድረግዎ በፊት እባክዎ ግብረመልስ ያስገቡ።</string>
     <string name="feedback_privacy_text">የግላዊነት መመሪያ</string>
     <string name="feedback_privacy_url">http://www.google.com/intl/%1$s/policies/privacy/</string>
@@ -1370,6 +1493,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="flight_estimated_arrival_label">የተገመተው መድረሻ ጊዜ</string>
     <string name="flight_estimated_departure_label">የሚገመተው መድረሻ ጊዜ</string>
     <string name="flight_gate">በር</string>
+    <string name="flight_group_header">በረራዎች</string>
     <string name="flight_modify">የተያዘውን ቦታ ቀይር</string>
     <string name="flight_number">በረራ %1$s ከ%2$s</string>
     <string name="flight_reservation">የበረራ ቦታ ማስያዝ</string>
@@ -1404,8 +1528,12 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="folder_renamed">አቃፊ %1$s ተብሎ ዳግም ተሰይሟል</string>
     <string name="folder_tap_to_close">አቃፊን ለመዝጋት ይንኩ</string>
     <string name="folder_tap_to_rename">ዳግም የተሰየመውን ለማስቀመጥ ይንኩ</string>
+    <string name="forbid_download_removal">ተከታታይ ትዕይንት እየተጫወተ እያለ ማስወገድ አይቻልም</string>
     <string name="fourth_quarter">አራተኛ ሩብ</string>
     <string name="fourth_quarter_abbrev">4ኛ ሩብ</string>
+    <string name="full_screen_error">"የፖድካስት ማጫወቻውን መጫን አልተቻለም።
+ፖድካስቱን እንደገና ፈልገው ለማግኘት ይሞክሩ።"</string>
+    <string name="full_screen_error_button">ወደ ኋላ ተመለስ</string>
     <string name="full_time">ሙሉ ሰዓት</string>
     <string name="full_voice_interaction_service_label">የተሻሻሉ የGoogle አገልግሎቶች</string>
     <string name="gadget_error_text">ፍርግም የመጫን ችግር</string>
@@ -1413,13 +1541,13 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="gcm_fallback_notification_channel_label">የተለያዩ</string>
     <string name="gdi_add_button">ያክሉ</string>
     <string name="gdi_add_phone_number">ስልክ ያክሉ</string>
-    <string name="gdi_add_phone_number_consent_text">"በመልእክት መላላክ፣ በመለያ መግባት በGoogle ረዳት እና በሌሎች የGoogle አገልግሎቶች ላይ ለመጠቀም እንዲችሉ የእርስዎን ስልክ ያክሉ። "</string>
+    <string name="gdi_add_phone_number_consent_text">በመልእክት መላላክ፣ በመለያ መግባት በGoogle ረዳት እና በሌሎች የGoogle አገልግሎቶች ላይ ለመጠቀም እንዲችሉ የእርስዎን ስልክ ያክሉ።</string>
     <string name="gdi_add_phone_number_disclaimer">ይሄ የእርስዎ ቁጥር መሆንዎን ለማረጋገጥ Google የአንድ ጊዜ የጽሑፍ መልዕክት ይልክልዎታል። መደበኛ ተመኖች ተፈጻሚ ናቸው።</string>
     <string name="gdi_add_phone_number_error">እባክዎ ስልክ ያክሉ</string>
     <string name="gdi_add_phone_number_heading">%1$s ጋር መለያ ለመፍጠር ስልክ ቁጥር ያክሉ</string>
     <string name="gdi_add_your_phone">ስልክ ቁጥርዎን ያክሉ</string>
     <string name="gdi_allow">ፍቀድ</string>
-    <string name="gdi_and_spaced">" እና "</string>
+    <string name="gdi_and_spaced">እና</string>
     <string name="gdi_app_terms">የመተግበሪያ ውሎች</string>
     <string name="gdi_back">ተመለስ</string>
     <string name="gdi_bbb_already_have_account">ቀደም ብሎ የ%1$s መለያ አለኝ</string>
@@ -1435,11 +1563,11 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="gdi_bbb_trouble_completing_request">ጥያቄን ማጠናቀቅ ላይ ችግር።</string>
     <string name="gdi_bbb_try_again_later">ቆይተው እንደገና ይሞክሩ።</string>
     <string name="gdi_bbb_verification_error">ትክክል ያልሆነ የማረጋገጫ ኮድ</string>
-    <string name="gdi_bbb_verification_message">"Google የእርስዎ ቁጥር ለማረጋገጥ የማረጋገጫ ኮድ ይልካል። "</string>
+    <string name="gdi_bbb_verification_message">Google የእርስዎ ቁጥር ለማረጋገጥ የማረጋገጫ ኮድ ይልካል።</string>
     <string name="gdi_cancel">ተወው</string>
     <string name="gdi_choose_account_title">ለመቀጠል፣ %1$s ወደ የእርስዎ የGoogle መለያ ያገናኙት</string>
     <string name="gdi_close">ዝጋ</string>
-    <string name="gdi_confirm_sms_title">Google %1$sየእርስዎ መሆኑን ለማረጋገጥ የአንድ ጊዜ የጽሑፍ መልእክት ይልክልዎታል።</string>
+    <string name="gdi_confirm_sms_title">Google %1$sየእርስዎ መሆኑን ለማረጋገጥ የአንድ ጊዜ የጽሑፍ መልዕክት ይልክልዎታል።</string>
     <string name="gdi_consent_cancel">ተወው</string>
     <string name="gdi_consent_confirm">አገናኝ</string>
     <string name="gdi_continue_button_text">ቀጥል</string>
@@ -1451,8 +1579,8 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="gdi_enter_code_subheading">"የማረጋገጫ ኮድ ወደ 
 %1$s ልከናል"</string>
     <string name="gdi_enter_the_code">ኮዱን ያስገቡ</string>
-    <string name="gdi_fine_print_middle">" እና Google የእርስዎን %1$s መለያ መረጃ ሊደርስበት እንደሚችል መስማማትዎን ያረጋግጣሉ።"</string>
-    <string name="gdi_fine_print_preamble">"በመቀጠልዎ በ%1$s መስማማትዎን ያረጋግጣሉ "</string>
+    <string name="gdi_fine_print_middle">እና Google የእርስዎን %1$s መለያ መረጃ ሊደርስበት እንደሚችል መስማማትዎን ያረጋግጣሉ።</string>
+    <string name="gdi_fine_print_preamble">በመቀጠልዎ በ%1$s መስማማትዎን ያረጋግጣሉ</string>
     <string name="gdi_finish">ጨርስ</string>
     <string name="gdi_invalid_number_error">ልክ ያልኾነ ቁጥር</string>
     <string name="gdi_learn_more_link">የበለጠ ይረዱ</string>
@@ -1476,7 +1604,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="gdi_verifying">በማረጋገጥ ላይ…</string>
     <string name="gdi_verifying_message">በእርስዎ ግንኙነት ላይ የሚወሰን ሆኖ ይሄ ጥቂት ደቂቃዎችን ሊወስድ ይችላል</string>
     <string name="gearhead_immersive_call_action_prompt">ደውል</string>
-    <string name="gearhead_immersive_message_label">መልእክት</string>
+    <string name="gearhead_immersive_message_label">መልዕክት</string>
     <string name="gearhead_immersive_message_prompt">መልዕክት?</string>
     <string name="gearhead_immersive_send_action_prompt">ላክ</string>
     <string name="gel_first_run_accept_button">ቀጥል</string>
@@ -1484,8 +1612,11 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="gel_usage_stats_summary">ከGoogle Now ማስጀመሪያ ጋር ስላለዎት ያለ የGoogle ስታቲስቲክስ ይላኩ</string>
     <string name="gel_usage_stats_title">Google እንዲሻሻል ያግዙ</string>
     <string name="generic_device_name">መሣሪያ</string>
+    <string name="generic_error_message">የሆነ ችግር ተፈጥሯል</string>
     <string name="generic_error_snackbar_message">የሆነ ስህተት ተፈጥሯል፣ እባክዎ እንደገና ይሞክሩ።</string>
     <string name="get_directions">አቅጣጫዎችን አግኝ</string>
+    <string name="gmail_update_required">በዚህ ስልክ ላይ ያለው የGMail ስሪት የሚደገፍ አይደለም። እባክዎ ወደ ቅርብ ጊዜው ስሪት ያዘምኑ።</string>
+    <string name="gmscore_update_required">በዚህ ስልክ ላይ ያለው የGoogle Play አገልግሎቶች ስሪት የሚደገፍ አይደለም። እባክዎ ወደ ቅርብ ጊዜው ስሪት ያዘምኑ።</string>
     <string name="go">ሂድ</string>
     <string name="go_to_settings">ወደ ቅንብሮች ሂድ</string>
     <string name="google_account_history">የGoogle እንቅስቃሴ መቆጣጠሪያዎች</string>
@@ -1500,8 +1631,6 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="google_home_device_change_language_dialog_message">የእርስዎ የGoogle Home መሣሪያዎች ተመሳሳይ ቋንቋ ነው የሚጋሩት። ይሄ ሁሉንም ወደ %1$s ይለውጣቸዋል።</string>
     <string name="google_home_device_change_language_dialog_title">በሁሉም የGoogle Home መሣሪያዎች ላይ ቋንቋ ይለወጥ?</string>
     <string name="google_home_device_change_language_dialog_yes">አዎ</string>
-    <string name="google_home_device_youtube_restricted_mode_summary">አግባብ ያልሆነ ይዘት ይዘው ሊሆኑ የሚችሉ ዘፈኖችን እና ቪዲዮዎችን ደብቅ</string>
-    <string name="google_home_device_youtube_restricted_mode_title">YouTube የተገደበ ሁነታ</string>
     <string name="google_home_hotword_enrollment_bottom_summary_text">እንደዚሁም በቤት ውስጥ ያሉ ሌሎችም Voice Matchን እንዲያቀናብሩ ይጋብዟቸው</string>
     <string name="google_location_service_required_text">እንደ የአካባቢያዊ የአየር ሁኔታ እና የመጓጓዣ ትራፊክ ያሉ አካባቢ-ተኮር ካርዶችን ለመመልከት የGoogle አካባቢ አገልግሎትን ያብሩ</string>
     <string name="google_play_services">የGoogle Play አገልግሎቶች</string>
@@ -1518,7 +1647,11 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="google_play_services_update_required">ምግቡን መጠቀም ለመቀጠል፣ የGoogle Play አገልግሎቶችን ማዘመን ያስፈልግዎታል</string>
     <string name="google_plus_profile_contact_label">Google+ መገለጫ</string>
     <string name="google_search_disabled_toast">Google ፍለጋን የመጠቀም ፍቃድ የለዎትም።</string>
+    <string name="goto_system_settings">ቅንብሮች</string>
+    <string name="group_desc">ቡድን %1$d ከ%2$d.</string>
     <string name="gsa_home">መነሻ</string>
+    <string name="gws_fetch_failed">ወደ አገልጋይ ማገናኘት አልተሳካም።</string>
+    <string name="gws_fetch_unauthenticated">ተጨማሪ ይዘት ለማየት እባክዎ ወደ መለያ ይግቡ</string>
     <string name="hands_free_unlock_device_bluetooth">ለደህንነት አስተማማኝ ሲሆን መጀመሪያ ማሳወቂያውን መታ ማድረግ ያስፈልግዎታል። በመቀጠል የብሉቱዝ መሣሪያዎች ከእርስዎ ስልክ ጋር በሚቆለፍበት ጊዜ እንዲሰራ ሊፈቅዱለት ይችላሉ።</string>
     <string name="hands_free_unlock_device_wired_headsets">ለደህንነት አስተማማኝ ሲሆን በመጀመሪያ ማሳወቂያውን መታ ማድረግ ያስፈልግዎታል። በመቀጠል የእርስዎን ማዳመጫዎች ስልክዎ በሚቆለፍበት ጊዜ እንዲሰራ ሊፈቅዱለት ይችላሉ።</string>
     <string name="hangout_keep_track_justification">የቅርብ ጊዜ Hangouts ውይይቶች ይህን ክስተት ይጠቅሳሉ</string>
@@ -1534,9 +1667,22 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="hide_account_list">መለያዎችን ደብቅ</string>
     <string name="hide_examples_description">ምሳሌዎችን ደብቅ</string>
     <string name="history_action_card_title_default">ድርጊት ተከአውኗል</string>
+    <string name="history_carousel_background_text">ከሌሎች መሣሪያዎች ላይ የተደረጉ የእርስዎ የቅርብ ጊዜ የድር ፍለጋ እንቅስቃሴዎች</string>
     <string name="hits_header">ምቶች</string>
     <string name="hits_header_full_length">ምቶች</string>
     <string name="home_address_icon_label">የቤት አድራሻ</string>
+    <string name="home_onboarding_personal_results_enabled_explanation">"የግል ውጤቶችን አብርተዋል፣ ነገር ግን Voice Matchን አላበሩም። ይህ ማለት የእርስዎ ረዳት እነሱን ለእርስዎ ከመስጠቱ በፊት ድምጽዎን አይፈትሽም።
+
+ጠቃሚ ምክር፦ አንዴ ይህን መሣሪያ አቀናብረው ከጨረሱ በኋላ በረዳት ቅንብሮች ውስጥ Voice Matchን ያብሩት።"</string>
+    <string name="home_onboarding_personal_results_enabled_positive_button">ዝጋ</string>
+    <string name="home_onboarding_personal_results_enabled_title">የግል ውጤቶችን ደህንነት ይበልጥ የተጠበቀ ያድርጉ</string>
+    <string name="home_personal_results_action_button">ተስማምቼያለሁ</string>
+    <string name="home_personal_results_cancel_button">አይ፣ አመሰግናለሁ</string>
+    <string name="home_personal_results_explanation">በዚህ መሣሪያ ልስይ የእርስዎን ቀን መቁጠሪያ፣ እውቂያዎች፣ አስታዋሾች እና ተጨማሪ ነገሮችን ለመድረስ የግል ውጤቶችን ያብሩ። <a href="https://support.google.com/assistant/?p=personal_results">የበለጠ ለመረዳት</a>"
+
+ይህን መሣሪያ የሚጠቀም ማንኛውም ሰው እንዲሁም የግል ውጤቶችዎን ማግኘት እንደሚችል ልብ ይበሉ። የግል ውጤቶችን በረዳት ቅንብሮች ውስጥ ማጥፋት ይችላሉ።"</string>
+    <string name="home_personal_results_title">የግል ውጤቶችን ያግኙ</string>
+    <string name="homebase_link_tool_tip_message">የደንበኝነት ምዝገባዎን እዚህ ይመልከቱ</string>
     <string name="homescreen_settings_action_turn_off">አጥፋ</string>
     <string name="homescreen_settings_display_feed">የGoogle ምግብን አሳይ</string>
     <string name="homescreen_settings_header_category">የመነሻ ማያ ገጽ</string>
@@ -1546,6 +1692,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="hotseat_out_of_space">በተወዳጆች መሣቢያ ውስጥ ተጨማሪ ቦታ የለም</string>
     <string name="hotword_disabled">«%1$s» ጠፍቷል</string>
     <string name="hotword_disabled_motorola_aov">ሌላ ባህሪ በ«%1$s» ፈንታ ማይክሮፎኑን እየተጠቀመ ነው። %1$s መልሶ ለማብራት Moto Voiceን ያጥፉ።</string>
+    <string name="hotword_enrollment_button_more">ተጨማሪ</string>
     <string name="hotword_enrollment_delete_voice_model">የድምጽ ሞዴሉን ሰርዝ</string>
     <string name="hotword_enrollment_enroll_again">እንደገና «%1$s» ይበሉ</string>
     <string name="hotword_enrollment_enroll_again_talkback">አሪፍ። እንደገና ይበሉት።</string>
@@ -1567,7 +1714,6 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="hotword_enrollment_enroll_listening_talkback_assistant_device">በ«%1$s» የሚጀምረውን ሐረግ ይናገሩ</string>
     <string name="hotword_enrollment_enroll_listening_talkback_assistant_device_again">እንደገና ይበሉት</string>
     <string name="hotword_enrollment_enroll_say_prompt">በቀላሉ ሶስት ጊዜ «%1$s» ይበሉ</string>
-    <string name="hotword_enrollment_enroll_skip_glif">ዝለል</string>
     <string name="hotword_enrollment_enroll_start">መቅረጽ ይጀምሩ</string>
     <string name="hotword_enrollment_enroll_text">መሣሪያዎ ለእርስዎ ምላሽ እንዲሰጥ ለማገዝ ድምጽ ምን እንደሚመስል Googleን ማስተማር ይችላሉ።</string>
     <string name="hotword_enrollment_enroll_text_opa_talkback">ከታች ያለውን የ%1$s አዝራር ያግብሩት፣ ከዚያ ረዳትዎ ድምጽዎን እንዲያውቅ ለማሰልጠን «%2$s» ይበሉ።</string>
@@ -1588,6 +1734,9 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
 
 እነዚህ ቀዳሚ ቀረጻዎች በዚህ መሣሪያ ላይ የድምጽ ሞዴል ለመስራት ስራ ላይ መዋል ይችላሉ። ይሄ ከደቂቃ ያነሰ ጊዜ ነው መውሰድ ያለበት።"</string>
     <string name="hotword_enrollment_google_home_fast_update_unicorn_header_title">የእርስዎ ረዳት የእርስዎን ልጅ ድምፅ ለይቶ ማወቅ ይችላል</string>
+    <string name="hotword_enrollment_google_home_fast_update_unicorn_progress_summary">"አስቀድመው በሌላ መሣሪያ ላይ በእርስዎ Google ረዳት Voice Matchን ያቀናበሩ ይመስላሉ።
+
+እነዚህ ቀዳሚ ቀረጻዎች በዚህ መሣሪያ ላይ የድምጽ ሞዴልን ለመሥራት ሥራ ላይ መዋል ይችላሉ። ይህ ከደቂቃ ያነሰ ጊዜ ነው መውሰድ ያለበት።"</string>
     <string name="hotword_enrollment_google_home_no_enrollment_found_toast_msg">እባክዎ መጀመሪያ ለመለያ %1$s የትኩስ ቃል ምዝገባን ያጠናቅቁ።</string>
     <string name="hotword_enrollment_google_home_no_thanks">አይ አመሰግናለሁ</string>
     <string name="hotword_enrollment_google_home_non_fast_update_header_title">Voice Matchን በማቀናበር ላይ</string>
@@ -1610,7 +1759,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="hotword_enrollment_intro_header_title_glif_non_opa">የድምጽ ፍለጋ በማንኛውም ጊዜ</string>
     <string name="hotword_enrollment_intro_next">ቀጣይ</string>
     <string name="hotword_enrollment_intro_summary_always_on">ሌላው ሳይቀር ማያ ገጹ ጠፍቶ እያለ ወይም የእርስዎን ተወዳጅ መተግበሪያ እየተጠቀሙ ሳለ እንኳ ሳይቀር ፍለጋ ለማድረግ «%1$s» ይበሉ</string>
-    <string name="hotword_enrollment_intro_summary_glif_non_opa">በማንኛውም ጊዜ የእርስዎን መሣሪያ ለማነጋገር «%1$s» ይበሉ፦ ማያ ገጽዎ ጠፍቶ፣ ወይም የሚወዷቸውን መተግበሪያዎች እየተጠቀሙ ቢሆኑም እንኳ።</string>
+    <string name="hotword_enrollment_intro_summary_glif_non_opa">መሣሪያዎን በማንኛውም ጊዜ ለማናገር «%1$s» ይብሉ፤ ማያዎ ጠፍቶ ወይም የሚወዷቸው መተግበሪያዎችን እየተጠቀሙ ያሉ ቢሆኑም እንኳ።&lt;br/>&lt;br/>አንድ ልዩ የድምጽዎ ሞዴል በዚህ መሣሪያ ላይ ይፈጠራል፣ ይህም Google ድምጽ ፍለጋ እርስዎን እንዲያውቅ እና ከሌሎች ሰዎች እንዲለየዎት ያግዘዋል።&lt;br/>&lt;br/>&lt;b>ከግምት ውስጥ ያስገቡ፦&lt;/b> ተመሳሳይ ድምጽ ወይም ቀረጻ እንዲሁም የድምጽ ፍለጋን መድረስ ይችሉ ይሆናል። በኋላ ላይ በGoogle መተግበሪያ ውስጥ በማጥፋት ፈቃዱን ማስወገድ ይችላሉ።</string>
     <string name="hotword_enrollment_intro_summary_screen_on">ሌላው ሳይቀር የእርስዎ መሣሪያ ተቆልፎ እያለ ወይም የእርስዎን ተወዳጅ መተግበሪያ እየተጠቀሙ ሳለ እንኳ ቢሆን ፍለጋ ለማድረግ «%1$s» ይበሉ</string>
     <string name="hotword_enrollment_local_escalation_google_password_incorrect">የይለፍ ቃሉ ትክክል አይደለም።</string>
     <string name="hotword_enrollment_local_escalation_learn_more_link">https://support.google.com/families/answer/7521263</string>
@@ -1629,11 +1778,20 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="hotword_enrollment_optin_udc_summary_item2">ይሄ Google ይበልጥ ፈጣን ውጤቶችን ካነሱ ጣጣዎች ጋር ለእርስዎ እንዲሰጠዎት ድምጽዎን እንዲያውቅና የንግግር እና ኦዲዮ ማወቅን እንዲያሻሽል ያግዘዋል።</string>
     <string name="hotword_enrollment_optin_udc_summary_item3">ይህን ቅንብር መቀየር ወይም የእርስዎ የግል ውሂብ %1$s ላይ ማስተዳደር ይችላሉ። እባክዎ የድምፅ እና የኦዲዮ እንቅስቃሴ ሲበራ ይህ ውሂብ በመለያ በገቡባቸው በማናቸውም መሣሪያዎችዎ ላይ ሊቀመጥ የሚችል መሆኑን ያስታውሱ።</string>
     <string name="hotword_enrollment_optin_udc_title">የድምጽ እና ኦዲዮ እንቅስቃሴን ያስቀምጡ</string>
+    <string name="hotword_enrollment_parent_intro_summary">{GENDER,select, male{በGoogle ረዳት አማካኝነት {PERSON} እንደ ጨዋታዎችን መጫወት ወይም የእሱ የትምህርት ቤት ድግስ መቼ እንደሆነ በቀን መቁጠሪያ ላይ መመልከት ያሉ ነገሮችን ማድረግ ይችላል። አንዳንድ ተሞክሮዎች ለልጆች የተነደፉ ሲሆኑ፣ አብዛኛው ይዘት ለአጠቃላይ ታዳሚዎች ነው። &lt;a href=\"{LINK}\">የበለጠ ለመረዳት&lt;/a>&lt;br>&lt;br>Voice Match ረዳት የ{PERSON}ን ድምጽ እንዲለይና ልዩ የድምጹ ሞዴል በዚህ መሣሪያ ላይ በመፍጠር ከሌሎች ሰዎች እንዲለየው ያግዘዋል።&lt;br>&lt;br>ይህን ከግምት ውስጥ ያስገቡ፦ ተመሳሳይ ድምጽ ወይም ቀረጻ እንዲሁም የ{PERSON}ን የግል ውጤቶች ሊደርሱ ይችላሉ። እርስዎ በኋላ ላይ በረዳት ቅንብሮች ወይም በFamily Link ውስጥ በማጥፋት የVoice Match ፈቃድን ማስወገድ ይችላሉ።}female{በGoogle ረዳት አማካኝነት {PERSON} እንደ ጨዋታዎችን መጫወት ወይም የእሷ የትምህርት ቤት ድግስ መቼ እንደሆነ በቀን መቁጠሪያ ላይ መመልከት ያሉ ነገሮችን ማድረግ ትችላለች። አንዳንድ ተሞክሮዎች ለልጆች የተነደፉ ሲሆኑ፣ አብዛኛው ይዘት ለአጠቃላይ ታዳሚዎች ነው። &lt;a href=\"{LINK}\">የበለጠ ለመረዳት&lt;/a>&lt;br>&lt;br>Voice Match ረዳት የ{PERSON}ን ድምጽ እንዲለይና ልዩ የድምጿ ሞዴል በዚህ መሣሪያ ላይ በመፍጠር ከሌሎች ሰዎች እንዲለያት ያግዘዋል።&lt;br>&lt;br>ይህን ከግምት ውስጥ ያስገቡ፦ ተመሳሳይ ድምጽ ወይም ቀረጻ እንዲሁም የ{PERSON}ን የግል ውጤቶች ሊደርሱ ይችላሉ። እርስዎ በኋላ ላይ በረዳት ቅንብሮች ወይም በFamily Link ውስጥ በማጥፋት የVoice Match ፈቃድን ማስወገድ ይችላሉ።}other{በGoogle ረዳት አማካኝነት {PERSON} እንደ ጨዋታዎችን መጫወት ወይም የእሳቸው የትምህርት ቤት ድግስ መቼ እንደሆነ በቀን መቁጠሪያ ላይ መመልከት ያሉ ነገሮችን ማድረግ ይችላሉ። አንዳንድ ተሞክሮዎች ለልጆች የተነደፉ ሲሆኑ፣ አብዛኛው ይዘት ለአጠቃላይ ታዳሚዎች ነው። &lt;a href=\"{LINK}\">የበለጠ ለመረዳት&lt;/a>&lt;br>&lt;br>Voice Match ረዳት የ{PERSON}ን ድምጽ እንዲለይና ልዩ የድምጻቸው ሞዴል በዚህ መሣሪያ ላይ በመፍጠር ከሌሎች ሰዎች እንዲለያቸው ያግዘዋል።&lt;br>&lt;br>ይህን ከግምት ውስጥ ያስገቡ፦ ተመሳሳይ ድምጽ ወይም ቀረጻ እንዲሁም የ{PERSON}ን የግል ውጤቶች ሊደርሱ ይችላሉ። እርስዎ በኋላ ላይ በረዳት ቅንብሮች ወይም በFamily Link ውስጥ በማጥፋት የVoice Match ፈቃድን ማስወገድ ይችላሉ።}}</string>
     <string name="hotword_enrollment_parent_intro_summary_learn_more_link">https://support.google.com/families/answer/7521263</string>
     <string name="hotword_enrollment_parent_intro_title">የእርስዎን መሣሪያ የ%1$s ድምፅን ለይቶ እንዲያውቅ ያስተምሩት</string>
     <string name="hotword_enrollment_parent_selector_family_fetch_failed">ቤተሰብን ማምጣት ላይ ስህተት።</string>
     <string name="hotword_enrollment_parent_selector_subtitle">በGoogle ረዳትዎ ድምጽ ማጉያዎ እንዲጀምሩ የሚያግዘዎትን በአቅራቢያዎ ያለ አንድ ሰው ይምረጡ</string>
     <string name="hotword_enrollment_parent_selector_title">የወላጅ ፈቃድ ያስፈልጋል</string>
+    <string name="hotword_enrollment_personal_results_action_button">ተስማምቼያለሁ</string>
+    <string name="hotword_enrollment_personal_results_cancel_button">አይ አመሰግናለሁ</string>
+    <string name="hotword_enrollment_personal_results_explanation">"Voice Match ተቀናብሯል።
+
+በዚህ መሣሪያ ላይ የእርስዎን ቀን መቁጠሪያ፣ እውቂያዎች፣ አስታዋሾች እና ተጨማሪ ነገሮችን ለመድረስ የእርስዎን ድምጽ ለመጠቀም የግል ውጤቶችን አሁን ማብራት ይችላሉ። "<a href="https://support.google.com/assistant/?p=personal_results">የበለጠ ለመረዳት</a>"
+
+በረዳት ቅንብሮች ውስጥ የግል ውጤቶችን ማጥፋት ይችላሉ።"</string>
+    <string name="hotword_enrollment_personal_results_title">የግል ውጤቶችን በእርስዎ ድምጽ ያግኙ</string>
     <string name="hotword_enrollment_pref_category_voice_model">የ«Ok Google» ድምጽ ሞዴል</string>
     <string name="hotword_enrollment_retrain_voice_model">የድምጽ ሞዴሉን ዳግም ያሰልጥኑ</string>
     <string name="hotword_enrollment_retry_enroll">ይቅርታ፣ የሆነ ችግር ተፈጥሯል። እንደገና በመጀመር ላይ።</string>
@@ -1691,7 +1849,6 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="hotword_pref_subtitle_disabled_os_version">የእርስዎ የስርዓተ ክወና ስሪት ይህን ባህሪ አይደግፍም</string>
     <string name="hotword_pref_subtitle_opa_supported_locale">ነገሮችን ለማከናወን የGoogle ረዳቱን ያነጋግሩ</string>
     <string name="hotword_pref_subtitle_opa_unsupported_locale">መረጃን ለማግኘት ያናግሩ፣ ጽሑፎችን ይላኩ፣ ማንቂያዎችን ያዘጋጁ እና ተጨማሪ ነገሮችን ያድርጉ</string>
-    <string name="hotword_pref_summary_always_on">ለእርስዎ ድምጽ ምላሽ ይሰጣል። ማያ ገጹ ቢጠፋም ቢበራም ይሰራል።</string>
     <string name="hotword_pref_summary_always_on_not_default_vis">ይህን ለማብራት፣ ወደ ቅንብሮች > ቋንቋ እና ግቤት > የድምጽ ግቤት ይሂዱ እና «የበለጸጉ የGoogle አገልግሎቶች» የሚለውን ይምረጡ</string>
     <string name="hotword_pref_summary_during_androidauto_navigation">በAndroid Auto ውስጥ ይሠራል</string>
     <string name="hotword_pref_summary_during_gmm_and_androidauto_navigation">በGoogle ካርታዎች እና Android Auto ውስጥ ይሠራል</string>
@@ -1700,16 +1857,12 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="hotword_pref_summary_homescreen">ከGoogle መተግበሪያው ወይም በGoogle Now ውስጥ ካለ ማንኛውም የመነሻ ገጽ ሆነው የድምጽ ፍለጋን ለመጀመር «%1$s» ይበሉ</string>
     <string name="hotword_pref_summary_lock_personal_results">የእርስዎን ስልክ ደህንነቱ በተጠበቀ ሁኔታ ሲቆለፍ የግል ውጤቶችን እና እርምጃዎችን ይፍቀዱ</string>
     <string name="hotword_pref_summary_mic_permission">«%1$s» ማወቂያን ለመጠቀም የማይክሮፎን ፈቃድን ይስጡ</string>
-    <string name="hotword_pref_summary_opa">እርስዎ «%1$s» ሲሉ የእርስዎ መሣሪያ ድምፅዎን ያውቀውና ይከፈታል፣ ማያ ገጹ ጠፍቶ ወይም አንዱን የሚወዱት መተግበሪያዎ እየተጠቀሙ ቢሆኑም እንኳ</string>
-    <string name="hotword_pref_summary_opa_non_dsp">እርስዎ «%1$s» ሲሉ ሌላው ሳይቀር እርስዎ የእርስዎን ተወዳጅ መተግበሪያዎች እየተጠቀሙ እንኳ ቢሆኑ የእርስዎ መሣሪያ የእርስዎን ድምፅ ለይቶ ያውቃል</string>
     <string name="hotword_pref_summary_voice_unlock">ድምጹ የእርስዎ የድምጽ ሞዴል በሚዛመድበት ጊዜ «%1$s» የእርስዎን መሣሪያ እንዲከፍት ይፍቀዱለት</string>
     <string name="hotword_pref_title">«%1$s» ፈልጎ ማወቅ</string>
     <string name="hotword_pref_title_always_on">ሁልጊዜ ይበራል</string>
     <string name="hotword_pref_title_during_gmm_navigation">መኪና በመንዳት ጊዜ</string>
     <string name="hotword_pref_title_lock_screen_2_opa">በVoice Match ክፈት</string>
     <string name="hotword_pref_title_locked_personal_results">የግል ውጤቶች</string>
-    <string name="hotword_pref_title_opa">በማንኛውም ጊዜ «%1$s» ይበሉ</string>
-    <string name="hotword_prefs_voice_everywhere_subtitle">ለእርስዎ ድምፅ ምላሽ ይሰጣል። ማያ ገጹ ሲበራ ይሠራል።</string>
     <string name="hotword_prefs_voice_everywhere_subtitle_no_account">ይህን ባህሪ ለማንቃት እባክዎ በGoogle መለያዎ ይግቡ</string>
     <string name="hotword_prefs_voice_everywhere_title">ከማንኛውም ማያ ገጽ</string>
     <string name="hotword_setup_wizard_connection_error_message">ግንኙነትዎን ይፈትሹት እና እንደገና ይሞክሩ።</string>
@@ -1736,6 +1889,9 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="hq_selected_tab_unavailable">%1$s አይገኝም</string>
     <string name="hq_title">Google ረዳት</string>
     <string name="hq_your_stuff_header">የእርስዎ ነገሮች</string>
+    <string name="https_info_close">ዝጋ</string>
+    <string name="https_info_message">ከፖድካስቱ ጣቢያ ጋር ያለዎት ግንኙነት የግል ነው።</string>
+    <string name="https_info_title">ደህንነቱ የተጠበቀ ግንኙነት</string>
     <string name="hyper_local_suggestion_message">ይህ ፍለጋ ከእርስዎ አሁን ያሉበት መገኛ አካባቢ ጋር የተዛመደ ነው።</string>
     <string name="i18n_address_line1_accessibility_label">የጎዳና አድራሻ፦ መስመር 1</string>
     <string name="i18n_address_line1_label">የጎዳና አድራሻ</string>
@@ -1775,9 +1931,43 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="icing_save_pref_failure">የስልክ ፍለጋ ቅንብሮች አልተዘመኑም።</string>
     <string name="icing_sms_corpus_description">መሣሪያ ላይ ኤስኤምኤስ</string>
     <string name="icing_sms_corpus_label">ኤስኤምኤስ</string>
+    <string name="image_action_indicator_product_text">ምርት</string>
+    <string name="image_action_indicator_recipe_text">የምግብ አሠራር</string>
+    <string name="image_action_indicator_video_text">ቪዲዮ</string>
+    <string name="image_card_content_description">የ%s ምስል</string>
     <string name="image_carousel_view_all">ሁሉንም ይመልከቱ</string>
     <string name="image_copyright_message">ምስሎች ምናልባት ለቅጂ መብት ተገዢ ሊሆኑ ይችላሉ።</string>
+    <string name="image_copyright_message_price_disclaimer">* ስለ ቅርብ ጊዜው የዋጋ አሰጣጥ እና ተገኝነት ድር ጣቢያውን ይፈትሹ። ምስሎች የቅጂ መብት የሚመለከታቸው ሊሆኑ ይችላሉ።</string>
     <string name="image_load_fail">ምስሉን መጫን አልተቻለም</string>
+    <string name="image_viewer_image_description">%1$s ርዕስ ያለው ምስል</string>
+    <string name="image_viewer_more_options">ተጨማሪ አማራጮች</string>
+    <string name="image_viewer_parentheses">(%s)</string>
+    <string name="image_viewer_product_availability_label">ተገኝነት</string>
+    <string name="image_viewer_product_brand_label">የምርት ስም</string>
+    <string name="image_viewer_product_in_stock">በክምችት ውስጥ ያለ</string>
+    <string name="image_viewer_product_price_label">ዋጋ*</string>
+    <string name="image_viewer_product_unavailable">ከክምችት አልቋል</string>
+    <string name="image_viewer_recipe_cook_time_label">የማብሰያ ጊዜ</string>
+    <string name="image_viewer_recipe_ingredients">ግብዓቶች</string>
+    <string name="image_viewer_recipe_yield">ገቢ</string>
+    <string name="image_viewer_related_image">ተዛማጅ ምስል %1$s ክፈት</string>
+    <string name="image_viewer_related_images_title">ተዛማጅ ምስሎች</string>
+    <string name="image_viewer_related_products_title">ተመሳሳይ ንጥሎች</string>
+    <string name="image_viewer_related_searches_title">ተዛማጅ ፍለጋዎች</string>
+    <string name="image_viewer_rich_metadata_rating_label">የተሰጠ ደረጃ</string>
+    <string name="image_viewer_saved">ተቀምጧል</string>
+    <string name="image_viewer_saved_description">ተቀምጧል። ምስል አስወግድ።</string>
+    <string name="image_viewer_see_more">ተጨማሪ ይመልከቱ</string>
+    <string name="image_viewer_share">አጋራ</string>
+    <string name="image_viewer_video_comments_label">አስተያየቶች</string>
+    <string name="image_viewer_video_likes_label">የተወደዱ</string>
+    <string name="image_viewer_video_upload_date_label">የታተመው</string>
+    <string name="image_viewer_video_uploaded_by">የተሰቀለው በ፦</string>
+    <string name="image_viewer_video_view_count_label">ዕይታዎች</string>
+    <string name="image_viewer_video_watch_label">ይመልከቱ</string>
+    <string name="image_viewer_view_all_related_images_accessibility">ሁሉንም ተዛማጅ ምስሎች አሳይ</string>
+    <string name="image_viewer_view_saved">የተቀመጡትን ይመልከቱ</string>
+    <string name="image_viewer_visit_site">ይጎብኙ</string>
     <string name="images_mode_landing_text">ምስሎችን ይፈልጉ</string>
     <string name="ime_audio_error">ማይክሮፎኑን መክፈት አልተቻለም</string>
     <string name="ime_can_not_be_activated">Google ጽምች ትየባ በዚህ ነገረ አገባብ ውስጥ ሊነቃ አይችልም።</string>
@@ -1808,10 +1998,13 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="immersive_actions_search_error">ስላቋረጥንብዎ ይቅርታ፣ ነገር ግን መሣሪያዎ አሁን ከመስመር ውጭ ሆኗል። ግንኙነት ሲኖር እንደገና መሞከር ይኖርብናል።</string>
     <string name="immersive_actions_unknown_provider_short">\?</string>
     <string name="immersive_contact_disambiguation_header_label">%1$s...</string>
+    <string name="inactive_state_text">የጨዋታ መረጃ የተዘመነ አይደለም።</string>
+    <string name="indexing_not_ready">ገና ልናሳየዎት የምንችለው ይዘት የለንም። እባክዎ ከበይነመረቡ ጋር ይገናኙና ከጥቂት ደቂቃዎች በኋላ ተመልሰው ይምጡ።</string>
     <string name="inferred_event_created">ክስተት ወደ የቀን መቁጠሪያ ታክሏል</string>
     <string name="inferred_event_error">ክስተት መፍጠር አልተሳካም</string>
     <string name="inferred_from_gmail">በGmail ውስጥ «%1$s» ተብሎ የሚታወቅ</string>
     <string name="info_target_label">የመተግበሪያ መረጃ</string>
+    <string name="installed_app_group_header">መተግበሪያዎች</string>
     <string name="installed_details">ስሪት %1$s ተጭኗል፣ በዲስክ ላይ ያለ መጠን %2$s</string>
     <string name="installed_language_packs">ተጭኗል</string>
     <string name="intent_api_hint_tap_to_speak">ለመናገር መታ ያድርጉ</string>
@@ -1824,13 +2017,29 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="interest_picker_search_error">የፍለጋ ውጤቶችን መጫን አልተሳካም</string>
     <string name="interest_picker_search_hint">የእርስዎን ዝንባሌዎች ይፈልጉ</string>
     <string name="interest_picker_title">ርዕሰ ጉዳዮችን ይከተሉ</string>
+    <string name="ipa_app_filter_content_description">ከ%s ውጤቶች።</string>
+    <string name="ipa_app_filter_more_description">ከ%s ተጨማሪ ውጤቶችን ይመልከቱ።</string>
+    <string name="ipa_contact_action_app_description">%1$sን በ%2$s ውስጥ ያነጋግሩ</string>
+    <string name="ipa_contact_group_divider_text">ተጨማሪ እውቂያዎች</string>
     <string name="ipa_error_message">ፍለጋ አልተሳካም። እባክዎ ቆይተው እንደገና ይሞክሩ።</string>
+    <string name="ipa_installed_apps_result_content_description">%sን ክፈት።</string>
+    <string name="ipa_media_result_description">ምስል ክፈት</string>
+    <string name="ipa_message_collapse_icon_description">ውይይቱን ሰብስብ</string>
+    <string name="ipa_message_expand_icon_description">ውይይቱን ዘርጋ</string>
+    <string name="ipa_message_result_content_description">ከ%1$s ጋር በ%2$s ውስጥ ውይይትን ክፈት።</string>
     <string name="ipa_no_results_shown">ምንም ውጤቶች አይገኙም።</string>
     <string name="ipa_number_of_results_shown">%d ውጤቶችን በማሳየት ላይ።</string>
     <string name="ipa_one_result_shown">1 ውጤት በማሳየት ላይ።</string>
+    <string name="ipa_people_immersive_contact_action_description">%1$s %2$s በ%3$s።</string>
+    <string name="ipa_people_immersive_edit_description">በእውቂያ መተግበሪያ ውስጥ %sን ያርትዑ።</string>
+    <string name="ipa_people_immersive_navigate_description">%2$sን በመጠቀም ወደ %1$s ያስሱ።</string>
     <string name="ipa_personal_search_sources">የግል</string>
     <string name="ipa_search_result_page_message">%s Google ፍለጋ።</string>
     <string name="ipa_searchable_items_category_title">ከሚከተሉት የመጣ ይዘት አሳይ፦</string>
+    <string name="ipa_see_less_about_person_description">ስለ%s ያነሰ አሳይ</string>
+    <string name="ipa_see_more_about_person_description">ስለ%s ተጨማሪ አሳይ</string>
+    <string name="ipa_share_dialog_title">አጋራ በ</string>
+    <string name="ipa_standard_result_content_description">%1$sን በ%2$s ውስጥ ክፈት።</string>
     <string name="item_added_to_workspace">ወደ መነሻ ማያ ገጽ ንጥል ታክሏል</string>
     <string name="item_is_selected">%1$s ተመርጧል</string>
     <string name="item_moved">ንጥል ተንቀሳቅሷል</string>
@@ -1879,6 +2088,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="last_transit_to_hotel_is_gone">ወደ ሆቴል የሚሄደው የመጨረሻው መጓጓዣ %1$sሄዷል %2$s</string>
     <string name="last_transit_to_hotel_less_than_one_minute">ወደ ሆቴል የሚሄደው የመጨረሻው መጓጓዣ %1$sከ1 ደቂቃ ባነሰ ጊዜ%2$s ውስጥ</string>
     <string name="last_transit_to_hotel_narrow_widget_header">ወደ ሆቴል የሚሄደው የመጨረሻው መጓጓዣ በ…</string>
+    <string name="last_visit_text">የመጨረሻ ጉብኝት፦</string>
     <string name="launcher_name">Google Now አስጀመሪ</string>
     <string name="launcher_shortcut_recent_short">የቅርብ ጊዜ</string>
     <string name="launcher_shortcut_search_in_apps_short">ለግል የተበጀ ፍለጋ</string>
@@ -1889,13 +2099,31 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="leave_alert_scheduled_header">የሚወጡበት ጊዜ ሲደርስ ማንቂያ ያሳውቀዎታል።</string>
     <string name="leave_from">ከ</string>
     <string name="legal_documents">ሕግ</string>
+    <string name="lens_education_card_barcodes_heading">ባርኮዶች</string>
+    <string name="lens_education_card_barcodes_paragraph">የአሞሌ ኮዶቹን ይቃኙ እና የምርት ዝርዝሮችን ያግኙ</string>
+    <string name="lens_education_card_media_heading">መጽሐፍት እና መገናኛ ብዙሃን</string>
+    <string name="lens_education_card_media_paragraph">መጽሐፍትን፣ ፊልሞችን፣ የሙዚቃ አልበሞችን እና የቪዲዮ ጨዋታዎችን በሽፋኑ ይመልከቱ</string>
+    <string name="lens_education_card_places_heading">ቦታዎች</string>
+    <string name="lens_education_card_places_paragraph">ስለመሬት ምልክቶች፣ የትኩረት ቦታዎች እና ታዋቂ ሕንፃዎች የበለጠ ይረዱ</string>
+    <string name="lens_education_card_products_heading">ምርቶች</string>
+    <string name="lens_education_card_products_paragraph">እንደ የቤትና የቢሮ ዕቃዎች እና አልባሳት ላሉ ምርቶች ተመሳሳይ ንጥሎችን ያግኙ</string>
+    <string name="lens_education_card_text_heading">ጽሑፍ</string>
+    <string name="lens_education_card_text_paragraph">እንደ ስልክ ቁጥሮች፣ ቀኖች እና አድራሻዎች ያለ ጽሑፍን ይቅዱ</string>
+    <string name="lens_education_card_title">ሌንስ ምን ማድረግ ይችላል?</string>
+    <string name="lens_info_panel_live_camera_title">መረጃ ለማግኘት ማንኛውም ነገር ላይ መታ ያድርጉ</string>
+    <string name="lens_info_panel_loading_message">ውጤቶችን በመፈለግ ላይ…</string>
+    <string name="lens_title">Google ሌንስ</string>
+    <string name="less_contact_apps">ያነሱ የእውቂያ መተግበሪያዎችን አሳይ</string>
+    <string name="less_than_one_minute_left">ከ1 ደቂቃ ያነሰ ይቀራል</string>
     <string name="libraries_material_featurehighlight_dismiss">አሰናብት</string>
     <string name="license_activity_title">የነፃ ምንጭ ፈቃዶች</string>
     <string name="light_traffic">ቀላል ትራፊክ</string>
     <string name="line_two_text_separator">" · "</string>
     <string name="link_device_title">ከ%s ጋር በመገናኘት ላይ</string>
+    <string name="link_to_show_page">ገጽ የሚያሳይ አገናኝ</string>
     <string name="listen_for_music">ሙዚቃ ያዳምጡ</string>
     <string name="listening_for_music_status">ሙዚቃን በማዳመጥ ላይ…</string>
+    <string name="loading">በመጫን ላይ</string>
     <string name="local_results_map_description">የ%1$s ካርታ</string>
     <string name="location_access_required_text_klp">እንደ አካባቢያዊ የአየር ጠባይ እና የመጓጓዣ ትራፊክ የመሳሰሉ አካባቢ ላይ የተመሰረቱ ካርዶችን ለማየት የአካባቢ መዳረሻን ያብሩ</string>
     <string name="location_added_snackbar_text">አካባቢ ታክሏል</string>
@@ -1909,6 +2137,10 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="lockscreen_mic_promo_notification_title">በድምፅዎ ይክፈቱ</string>
     <string name="long_accessible_way_to_add">አንድ ንዑስ ፕሮግራም ለመምረጥ ወይም ብጁ እርምጃዎችን ለመጠቀም ሁለቴ መታ አድርገው ይያዙ።</string>
     <string name="long_press_widget_to_add">ፍርግም ለማንሳት ይንኩ እና ይያዙት</string>
+    <string name="longpress_menu_download">ምስል አውርድ</string>
+    <string name="longpress_menu_search_by_image">@string/menu_search_by_image</string>
+    <string name="longpress_menu_share">ምስል አጋራ</string>
+    <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="magic_flashlight_off">ኖክስ</string>
     <string name="magic_flashlight_on">Lumos</string>
     <string name="mall_lookup_hint_text">መደብሮችን እና አገልግሎቶችን ያግኙ</string>
@@ -1940,22 +2172,34 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="map_content_description">ካርታ</string>
     <string name="map_route_content_description">ወደ %1$s የሚወስድ ካርታ</string>
     <string name="maps_mode_landing_text">ካርታዎችን ይፈልጉ</string>
+    <string name="mark_as_completed">እንደየተጠናቀቀ ምልክት አድርግበት</string>
     <string name="media_content_image">በዚህ ካርድ ላይ እየታየ ካለው ሚድያ ጋር የሚዛመድ ምስል</string>
     <string name="medium_traffic">መደበኛ ትራፊክ</string>
     <string name="menu_download">አውርድ</string>
+    <string name="menu_get_help">እገዛ ያግኙ</string>
     <string name="menu_icon_description">ምናሌ</string>
     <string name="menu_overlay_customize">አብጅ</string>
     <string name="menu_overlay_feedback">ግብረመልስ ላክ</string>
     <string name="menu_overlay_reset_to_default_style">ወደ ነባሪ ቅጥ ዳግም አስጀምር</string>
     <string name="menu_refresh">አድስ</string>
+    <string name="menu_search_by_image">በምስል ፈልግ</string>
     <string name="menu_send_button_content_description">ግብረመልስ የሚያስገቡበት የላክ አዝራር።</string>
+    <string name="menu_send_feedback">ግብረመልስ ይላኩ</string>
     <string name="menu_settings">ቅንብሮች</string>
     <string name="menu_share">አጋራ</string>
     <string name="menu_view_in_browser">በአሳሽ ውስጥ ይመልከቱ</string>
+    <string name="menu_view_original_image">የመጀመሪያውን ምስል ይመልከቱ</string>
     <string name="menu_visit_page">ገጹን ይጎብኙ</string>
     <string name="message_card_feedback">ግብረመልስ</string>
     <string name="message_card_troubleshoot">መላ ፈልግ</string>
+    <string name="message_image">ምስል</string>
     <string name="message_no_sound_search_results_tts">ይቅርታ፣ ይህን አላውቀውም።</string>
+    <string name="message_no_text">ምንም ጽሑፍ የለም</string>
+    <string name="message_sender_text_divider">·</string>
+    <string name="message_sent_by_user_display_name">እርስዎ</string>
+    <string name="message_sent_from">ከ%s</string>
+    <string name="message_sent_to">ለ%s</string>
+    <string name="message_snippet_font">Roboto</string>
     <string name="message_sound_search_result_tts">%sን እያደመጡ ነው</string>
     <string name="message_sound_search_result_with_artist_tts" formatted="false">የ%s «%s» እያዳመጡ ነው</string>
     <string name="mic_fab_content_description">ከGoogle ረዳት ጋር ለመነጋገር ጠቅ ያድርጉ።</string>
@@ -1996,6 +2240,10 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="mismatching_value_postal_code">አድራሻ ጋር መዛመድ አለበት</string>
     <string name="mismatching_value_zip_code">አድራሻ ጋር መዛመድ አለበት</string>
     <string name="momo_tab_description">የGoogle ትር</string>
+    <string name="more">ተጨማሪ</string>
+    <string name="more_actions_title">ተጨማሪ እርምጃዎች</string>
+    <string name="more_contact_apps">ተጨማሪ የእውቂያ መተግበሪያዎችን አሳይ</string>
+    <string name="more_description">ተጨማሪ አሳይ</string>
     <string name="more_info_text">ስታትስቲኮች፣ ዜና እና የጊዜ መስመር</string>
     <string name="more_information">ተጨማሪ መረጃ</string>
     <string name="move_to_empty_cell">ወደ ረድፍ %1$s ዓምድ %2$s አንቀሳቅስ</string>
@@ -2026,6 +2274,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="mr_user_route_category_name">መሣሪያዎች</string>
     <string name="msg_disabled_by_admin">በእርስዎ አስተዳዳሪ የተሰናከለ</string>
     <string name="msg_no_phone_permission">%1$s የስልክ ጥሪዎችን ለማድረግ አልተፈቀደለትም</string>
+    <string name="multi_chip_desc">%1$s ከ%2$s ይመልከቱ።</string>
     <string name="multilingual_promo_content_description">የፍለጋ ቋንቋዎን ይቀይሩ</string>
     <string name="multilingual_promo_negative_button_text">አይ፣ አመሰግናለሁ</string>
     <string name="multilingual_promo_positive_button_text">ቋንቋ ቀይር</string>
@@ -2039,6 +2288,13 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="multiple_transit_lines_limited_service">በብዙ መስመሮች ላይ %1$sየተገደበ አገልግሎት%2$s</string>
     <string name="multiple_transit_service_disruptions">የብዙ መጓጓዣዎች %1$sመቋረጦች%2$s</string>
     <string name="multiple_transit_stations_closed">የብዙ ጣቢያዎች %1$sመዘጋቶች%2$s</string>
+    <string name="music_group_header">ሙዚቃ</string>
+    <string name="my_activity_card_button_text">ወደ የእኔ እንቅስቃሴ ሂድ</string>
+    <string name="my_activity_card_button_text_with_search">ለ«%s» የእኔን እንቅስቃሴ ፈልግ</string>
+    <string name="my_activity_card_header">ሁሉንም የእርስዎ ታሪክ ይመልከቱ</string>
+    <string name="my_activity_card_text">"ከአንድ ሳምንት በፊት ያገኙትን ገጽ ይፈልጋሉ?
+
+ሁሉንም የእርስዎ Google ፍለጋዎች እና ተጨማሪ ነገሮች በእኔ እንቅስቃሴ ውስጥ ያግኙ እና ይቆጣጠሩ።"</string>
     <string name="my_flights_query">የእኔ በረራዎች</string>
     <string name="native_search_connection_error">የፍለጋ ውጤቶችን መጫን አልተቻለም</string>
     <string name="nav_suggestion_content_description">ወደ %s ዳስስ።</string>
@@ -2062,7 +2318,11 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="network_error_try_again">እንደገና ሞክር</string>
     <string name="network_location_required_text">እንደ የአካባቢያዊ የአየር ሁኔታ እና የመጓጓዣ ትራፊክ ያሉ አካባቢ-ተኮር ካርዶችን ለመመልከት Wi-Fi እና የተንቀሳቃሽ ስልክ አውታረ መረብ አካባቢን ያብሩ</string>
     <string name="network_location_required_text_klp">እንደ አካባቢያዊ የአየር ጠባይ እና የመጓጓዣ ትራፊክ የመሳሰሉ አካባቢ ላይ የተመሰረቱ ካርዶችን ለማየት ከፍተኛ ትክክለኝነትን ወይም የባትሪ ኃይል ቁጠባ አካባቢ ሁነታን ይምረጡ</string>
+    <string name="never">በጭራሽ</string>
     <string name="nevermind_prompt">በቃ ይተውት</string>
+    <string name="new_episode">አዲስ</string>
+    <string name="newest_episodes_footer_title">ሁሉም አዲስ የትዕይንት ክፍሎች</string>
+    <string name="newest_episodes_section_title">አዲስ የትዕይንት ክፍሎች</string>
     <string name="news_mode_landing_text">ዜና ይፈልጉ</string>
     <string name="next">ቀጣይ</string>
     <string name="nexus_active_edge_settings_dialog_button">የActive Edge ቅንብሮች</string>
@@ -2080,11 +2340,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="nexus_device_google_assistant_title">Google ረዳት</string>
     <string name="nexus_device_hands_free_preference_title">ሌሎች የነጻ-እጅ ቅንብሮች</string>
     <string name="nexus_device_hotword_category_title">በVoice Match አማካኝነት የነጻ እጅ እገዛን ያግኙ</string>
-    <string name="nexus_device_hotword_preference_alwayson_summary">«%1$s» ባሉ ቁጥር ረዳትዎን ይድረሱ</string>
     <string name="nexus_device_hotword_preference_screenon_summary">የእርስዎ ማያ ገጽ ሲበራ እርስዎ «%1$s» ባሉ ቁጥር ረዳትዎን ይድረሱ</string>
-    <string name="nexus_device_hotword_preference_title">«%1$s»ን ማግኘት</string>
-    <string name="nexus_device_navigation_popup_message">አሁንም እንደ Google ካርታዎች እና Android Auto ባሉ አንዳንድ የመንጃ መተግበሪያዎች ውስጥ የ«%1$s» ማወቅን መጠቀም ይችላሉ። ይህን በማንኛውም ጊዜ በእነዚህ መተግበሪያዎች ቅንብሮች ውስጥ ማጥፋት ይችላሉ። %2$s</string>
-    <string name="nexus_device_navigation_popup_settings_link">የመንዳት ቅንብሮች</string>
     <string name="nexus_device_navigation_popup_title">መኪና በመንዳት ጊዜ</string>
     <string name="nexus_device_use_screen_context_summary">የመነሻ አዝራሩን ተጭነው ሲይዙ ወይም በድምጽ ሲፈልጉ Google በማያ ገጽዎ ላይ ካለው ነገር ጋር የሚዛመድ መረጃ ያሳየዎታል</string>
     <string name="nexus_device_use_screen_context_title">የማያ ገጽ አውድን ተጠቀም</string>
@@ -2102,6 +2358,8 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="no_cards_greeting_evening">እንደምን አመሹ!</string>
     <string name="no_cards_greeting_morning">እንደምን አደሩ!</string>
     <string name="no_cards_greeting_night">እንደምን አመሹ!</string>
+    <string name="no_chip_desc">ሁሉንም ውጤቶች ይመልከቱ።</string>
+    <string name="no_connection">ግንኙነት የለም</string>
     <string name="no_contact_found">%1$s &lt;font color=#9E9E9E> ሊገኝ አልቻለም&lt;/font></string>
     <string name="no_contact_found_pick_another_contact">%1$s። ምንም እውቂያ አልተገኘም። ሌላ እውቂያ ይምረጡ</string>
     <string name="no_departures_within_the_next_hour">በሚቀጥለው አንድ ሰዓት ውስጥ የሚነሳ የለም</string>
@@ -2109,20 +2367,30 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="no_device_found_explanation">የእርስዎ Wi-Fi መብራቱን እና የእርስዎ ረዳት እና የ%1$s መሣሪያዎች በተመሳሳዩ አውታረ መረብ ላይ መሆናቸውን ያረጋግጡ፣ ከዚያ እንደገና ይሞክሩ</string>
     <string name="no_device_found_generic_explanation">የእርስዎ Wi-Fi መብራቱን እና የእርስዎ ረዳት እና መሣሪያዎች በተመሳሳዩ አውታረ መረብ ላይ መሆናቸውን ያረጋግጡ፣ ከዚያ እንደገና ይሞክሩ</string>
     <string name="no_device_found_title">ምንም መሣሪያዎች አልተገኙም</string>
+    <string name="no_downloaded_episodes">ምንም የወረዱ የትዕይንት ክፍሎች የሉም</string>
     <string name="no_email_guests_intent">ኢሜይል ለእንግዳዎች ለመላክ የGoogle ቀን መቁጠሪያ መተግበሪያው ያስፈልጋል</string>
     <string name="no_info">—</string>
     <string name="no_installable_language_packs">ለመሳሪያዎ ምንም የቋንቋ ማውረዶች አይገኙም</string>
     <string name="no_installed_language_packs">ምንም ቋንቋዎች አልተጫኑም</string>
     <string name="no_internet_connection">በአሁኑ ጊዜ ምግብዎን መድረስ አይቻልም</string>
     <string name="no_internet_connection_hq">ለጊዜው Googleን መድረስ አልተቻለም</string>
+    <string name="no_longer_available">ከአሁን በኋላ አይገኝም</string>
     <string name="no_match">አልሰማሁትም። እንደገና ለመናገር ሞክር።</string>
     <string name="no_matches_offline_mode">በአሁኑ ጊዜ Googleን መድረስ አልተቻለም። አሁንም ጥሪዎችን ለማድረግ ማይክሮፎኑን መጠቀም ይችላሉ። «ደውል» ይበሉ እና ስም ወይም ቁጥር ይናገሩ።</string>
     <string name="no_matches_offline_mode_explanation">ጥሪዎችን ለማድረግ አሁን ማይክሮፎኑን መጠቀም ይችላሉ። «ደውል» እና ስም ቀይም ቁጥር ብለው ይናገሩ።</string>
     <string name="no_matches_offline_mode_title">በአሁኑ ጊዜ Googleን መድረስ አልተቻለም።</string>
     <string name="no_matching_results">ምንም የሚዛመዱ ውጤቶች የሉም</string>
+    <string name="no_newest_episodes">No new episodes</string>
     <string name="no_option_selected_content_description">ግብረመልስ ከመላክዎ በፊት እባክዎ ይህን ንጥል ሪፖርት የሚያደርጉበት ምክንያት ይምረጡ። የላክ አዝራር።</string>
+    <string name="no_personal_content_ipa">ምንም የግል ይዘት አልተገኘም</string>
+    <string name="no_podcasts_found">ምንም ፖድካስቶች አልተገኙም</string>
+    <string name="no_recently_played_episodes">No recently played episodes</string>
+    <string name="no_results_found">ምንም ውጤቶች አልተገኙም</string>
+    <string name="no_results_found_link">ሌሎች የግል ውጤቶችን ይመልከቱ</string>
     <string name="no_results_found_status">የቀረበ ዝምድና ያለው ማግኘት አልተቻለም</string>
     <string name="no_results_interest">ምንም ውጤቶች የሉም።</string>
+    <string name="no_results_snippet">የእርስዎ ፍለጋ ከምንም የግል ይዘት ጋር አይዛመድም</string>
+    <string name="no_screenshot_available">ምንም ቅጽበታዊ ገጽ እይታ የለም</string>
     <string name="no_speech_tts">አሁን የሆነ ነገር ተናግረው ከሆነ ምን እንዳሉ አልሰማሁም።</string>
     <string name="no_suggestions_shown">ምንም የአስተያየት ጥቆማዎች የሉም።</string>
     <string name="no_url_handler">ዩ.አር.ኤል. የሚከፍት መተግበሪያ የለም</string>
@@ -2139,12 +2407,14 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="notification_cancel_title">ፍለጋ ተትቷል</string>
     <string name="notification_set_text">ውጤቶች ዝግጁ ሲሆኑ ማሳወቂያ ይደርሰዎታል።</string>
     <string name="notification_set_title">ማንቂያ ተዘጋጅቷል</string>
+    <string name="notification_subtext">የተሰካ ግጥሚያ</string>
+    <string name="notification_title">%1$s ከ %2$s</string>
     <string name="notifications_enabled_header">ማሳወቂያዎች</string>
     <string name="notifications_ringtone_setting">የደወል ቅላጼ</string>
     <string name="notifications_vibrate_title">ንዘር</string>
     <string name="notify_me">ውጤቶቹ ዝግጁ ሲሆኑ ማሳወቂያ ይድረስዎ</string>
     <string name="now_cards">የእርስዎ ምግብ</string>
-    <string name="now_gplus_location_sharing_error">ከGoogle+ ጋር መልእክት መለዋወጥ ላይ ችግር ነበር</string>
+    <string name="now_gplus_location_sharing_error">ከGoogle+ ጋር መልዕክት መለዋወጥ ላይ ችግር ነበር</string>
     <string name="now_header_doodle_search_button_content_description">ስለዛሬው doodle ተጨማሪ ይወቁ</string>
     <string name="now_header_doodle_share_button_content_description">doodle አጋራ</string>
     <string name="now_loading">በመጫን ላይ…</string>
@@ -2191,6 +2461,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="offline_error_card_title_text_no_signal">ምንም ሲግናል የለም</string>
     <string name="offline_error_card_title_text_no_sim_card">ሲም ካርድ አልተገኘም</string>
     <string name="offline_error_card_title_text_sim_card_error">የሲም ካርድ ስህተት</string>
+    <string name="offline_error_title">ከመስመር ውጭ ነዎት</string>
     <string name="offline_eyesfree_install_language_pack_notification_body">የቋንቋ ጥቅልዎን በማላቅ ላይ</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">ከመስመር ውጭ ድምፅን ያንቁ</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">ከመስመር ውጭ ነዎት። ከመስመር ውጭ በሚሆኑበት ጊዜ ድምፅን መጠቀሙን ለመቀጠል በጣም የቅርብ ጊዜውን የቋንቋ ጥቅል መጫን አለብዎት። የእርስዎን ማያ ገጽ መጠቀም አደጋ የሌለው ከሆነ ይህንን ለማድረግ በማሳወቂያው ላይ መታ ያድርጉ።</string>
@@ -2211,6 +2482,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="offline_options_start_hotword_disabled">አሁንም ድረስ ማይክራፎኑን መጠቀም ይችላሉ፣ በመቀጠል ይህን ይበሉ</string>
     <string name="offline_searchbox_hint">«%%s... %s»</string>
     <string name="offline_voice_actions_error">የመስመር ውጪ የድምጽ እርምጃዎች አይገኙም።</string>
+    <string name="ok">እሺ</string>
     <string name="ok_prompt">እሺ</string>
     <string name="omniconsent_action_button_scroll">ተጨማሪ</string>
     <string name="omniconsent_confirm_partial_experience_action_button_text">ቀጥል</string>
@@ -2248,9 +2520,12 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="opa_assistant_logo_content_description">የድምፅ ፍለጋ</string>
     <string name="opa_consent_check_error_button">ዝጋ</string>
     <string name="opa_consent_check_error_button_notavailable">መለያዎችን ቀይር</string>
-    <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">የእርስዎ የGoogle ረዳት እንደ የድር ውጤቶች፣ የአየር ሁኔታ፣ ጨዋታዎች፣ ቀልዶች እና የአካባቢ መረጃ ላሉ ባሕሪያት ይገደባል።</string>
+    <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">የእርስዎ ረዳት ተሞከሮ እንደ የድር ውጤቶች፣ ቀልዶች እና የአካባቢ መረጃ ላሉ ነገሮች ይገደባል።</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_text">አይ፣ አመሰግናለሁ</string>
-    <string name="opa_consent_check_error_confirmreject_personalize_radio_content">በእርስዎ ቀን መቁጠሪያ፣ አስታዋሾች፣ መጓጓዣዎች፣ በረራዎች፣ ትዕዛዞች እና ተጨማሪ ነገሮች እንዲያግዘዎት ረዳትዎ እንደ የድር እና የመተግበሪያ እንቅስቃሴ፣ የመሣሪያ መረጃ እና የድምጽ እና የኦዲዮ እንቅስቃሴ ላሉ ነገሮች ፈቃድ ይፈልጋል።</string>
+    <string name="opa_consent_check_error_confirmreject_personalize_radio_button_show_less">ያነሰ አሳይ</string>
+    <string name="opa_consent_check_error_confirmreject_personalize_radio_button_show_more">ተጨማሪ አሳይ</string>
+    <string name="opa_consent_check_error_confirmreject_personalize_radio_content">ከእርስዎ ቀን መቁጠሪያ፣ አስታዋሾች፣ በረራዎች እና ተጨማሪ ነገሮች ጋር እርስዎን ለማገዝ የእርስዎ ረዳት ድር እና መተግበሪያ እንቅስቃሴን፣ የመሣሪያ መረጃን፣ የድምፅና ኦዲዮ እንቅስቃሴ ቅንብሮችን ይፈልጋል።</string>
+    <string name="opa_consent_check_error_confirmreject_personalize_radio_content_expanded">ማስታወሻ፦ እነዚህ ቅንብሮች የሚቆጣጠሩት ውሂብ ሊቀመጥ እና ለእርስዎ ግላዊነት የተላበሱ ተሞክሮዎችን እና ጠቃሚ ማስታወቂያዎችን ለማቅረብ በሚገቡበት በማንኛውም የGoogle አገልግሎት ውስጥ ጥቅም ላይ ሊውሉ ይችላሉ። በaccount.google.com ላይ ውሂብዎን ማየት፣ መሰረዝ እና ቅንብሮችዎን መለወጥ ይችላሉ።</string>
     <string name="opa_consent_check_error_confirmreject_personalize_radio_text">አዎ ገብቼያለሁ</string>
     <string name="opa_consent_check_error_learn_more_link_target_notavailable">https://support.google.com/assistant/?p=gsuite</string>
     <string name="opa_consent_check_error_message">ረዳቱ የእርስዎን የእንቅስቃሴ መቆጣጠሪያዎችን መፈተሽ ላይ ችግር እያጋጠመው ነው። ቆይተው እንደገና እሱን ለመጠቀም ይሞክሩ።</string>
@@ -2259,7 +2534,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="opa_consent_check_error_message_notavailable">የGoogle ረዳቱ የእርስዎ መሣሪያ አስተዳዳሪ በዚህ መለያ ላይ የገደባቸውን የእንቅስቃሴ መቆጣጠሪያዎች ያስፈልጉታል። አስተዳዳሪዎን ያነጋግሩ ወይም መለያዎችን ይቀይሩና እንደገና ይሞክሩ።</string>
     <string name="opa_consent_check_error_title">የሆነ ችግር ተፈጥሯል</string>
     <string name="opa_consent_check_error_title_autherror">የእርስዎን መለያ ትክክለኛነት ማረጋገጥ አይቻልም</string>
-    <string name="opa_consent_check_error_title_confirmreject">ተሞክሮዎን በእነዚህ ፈቃዶች ያሻሽሉ</string>
+    <string name="opa_consent_check_error_title_confirmreject">ከእነዚህ ቅንብሮች ጋር ሙሉውን የረዳት ተሞክሮ ያግኙ</string>
     <string name="opa_consent_check_error_title_notavailable">Google ረዳት ለዚህ መለያ አይገኝም</string>
     <string name="opa_consent_error_timeout_message">አንድ የአውታረ መረብ ስህተት ነበር። የእርስዎን ግንኙነት ይፈትሹት እና እንደገና ይሞክሩ።</string>
     <string name="opa_contextual_cards_found_message">ከዚህ ማያ ገጽ ጋር የሚዛመድ አንዳንድ መረጃ እነሆ፦</string>
@@ -2279,9 +2554,11 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="opa_disabled_no_button">ይቅር</string>
     <string name="opa_disabled_title">የእርስዎን ረዳት ያንቁ</string>
     <string name="opa_dismiss_message">ለማሰናበት ይጎትቱ</string>
+    <string name="opa_email_optin_screen_add_shortcut_explanation">ቀላል የረዳትዎ መዳረሻ</string>
     <string name="opa_email_optin_screen_confirm">ተከናውኗል</string>
     <string name="opa_email_optin_screen_explanation">ስለቅርብ ጊዜ ባህሪያት እና የእርስዎ ረዳት ሊያደርጋቸው ስለሚችሉ ነገሮች ኢሜይሎችን በማግኘት ወቅታዊ መረጃን እያገኙ ይቆዩ</string>
     <string name="opa_email_optin_screen_next">ቀጣይ</string>
+    <string name="opa_email_optin_screen_sub_toggle_explanation">ረዳቱን ወደ መነሻ ማያ ገጽዎን ያክሉት</string>
     <string name="opa_email_optin_screen_title">ከእርስዎ የGoogle ረዳት ሊገኝ የሚችለውን ሁሉ ያግኙ</string>
     <string name="opa_email_optin_screen_toggle_explanation">የቅርብ ጊዜ ጠቃሚ ምክሮች ያለው ኢሜይል ያግኙ</string>
     <string name="opa_email_optin_screen_unsubscribe">የኢሜይል ምርጫዎችዎን በመተግበሪያ ውስጥ በማቀናበር በማናቸውም ጊዜ ከደንበኝነት ምዝገባ መውጣት ይችላሉ። Google Inc., 1600 Amphitheatre Parkway, Mountain View CA 94043 www.google.com</string>
@@ -2319,8 +2596,10 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="opa_eyes_free_udc_opt_in_notification_title">Google ረዳትዎን እንዲያግዘዎት ፈቃድ ይስጡት</string>
     <string name="opa_eyes_warm_welcome_chip_text">ለመቀጠል መታ ያድርጉ</string>
     <string name="opa_first_screen_hotword_transition_cancel_button_text">በኋላ ላይ አድርገው</string>
+    <string name="opa_first_screen_hotword_transition_confirm_agree_button_text">ተስማምቼያለሁ</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text">ይጀምሩ</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text_sentence_case">ጀምር</string>
+    <string name="opa_first_screen_hotword_transition_no_thanks_button_text">አይ፣ አመሰግናለሁ</string>
     <string name="opa_first_screen_hotword_transition_screen_context_pickup_confirm_button_text">ተከናውኗል</string>
     <string name="opa_first_screen_hotword_transition_screen_context_pickup_confirm_button_text_sentence_case">ተከናውኗል</string>
     <string name="opa_first_screen_hotword_transition_screen_context_pickup_explanation">የእርስዎ ረዳት ይበልጥ ተዛማጅ ጥቆማዎችን፣ በማያ ገጽዎ ላይ ካለው ነገር ጋር ተዛማጅ የሆኑ እርምጃዎችን ሊያቀርብ ይችላል። ይህን በረዳት ቅንብሮች ውስጥ መለወጥ ይችላሉ።</string>
@@ -2329,11 +2608,15 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="opa_first_screen_hotword_transition_skip_button_text">ዝለል</string>
     <string name="opa_first_screen_hotword_transition_summary">በማንኛውም ጊዜ ለረዳትዎ «%1$s» ይበሉ፦ ማያ ገጽዎ ጠፍቶ፣ ወይም የሚወዷቸውን መተግበሪያዎች እየተጠቀሙ ቢሆኑም እንኳ።</string>
     <string name="opa_first_screen_hotword_transition_summary_no_dsp">ማያ ገጽዎ እስከበራ ድረስ ረዳትዎን ለማናገር በማንኛውም ጊዜ ለረዳትዎ «%1$s» ይበሉ።</string>
+    <string name="opa_first_screen_hotword_transition_summary_short">Voice Match የእርስዎን ድምጽ በቀጥታ በመጠቀም የእርስዎን ረዳት እንዲደርሱበት ያስችልዎታል፣ ማያ ገጽዎ ቢጠፋም እንኳ።</string>
     <string name="opa_first_screen_hotword_transition_summary_short_no_dsp">Voice Match የእርስዎን ድምጽ በቀጥታ በመጠቀም የእርስዎን ረዳት እንዲደርሱበት ያስችልዎታል።</string>
     <string name="opa_first_screen_hotword_transition_title">የእርስዎን ረዳት በVoice Match ይድረሱበት</string>
     <string name="opa_first_screen_tgoogle_summary">«%1$s» በማለት ረዳትዎን በቀጥታ መድረስ ይችላሉ</string>
     <string name="opa_first_screen_tgoogle_title">የእርስዎ ረዳት «%1$s»ን እንዲያውቅ ያስተምሩት</string>
     <string name="opa_fix_user_recoverable_error">ጠግን</string>
+    <string name="opa_gdpr_footer">"ልዩ የድምጽዎ ሞዴል በዚህ መሣሪያ ላይ ይሰራል፣ ይህም ረዳትዎ እርስዎን እንዲለይ እና እርስዎን ከሌሎች እንዲለይ ያግዘዋል። 
+
+"<b>ከግምት ውስጥ ያስገቡ፦</b> ተመሳሳይ ድምጽ ወይም የትቀረጸ ድምጽ እንዲሁ ረዳትዎን ሊደርስ ይችል ይሆናል። የVoice Match ፈቃድን በኋላ ላይ በረዳት ቅንብሮች ውስጥ በማጥፋት ፈቃዱን ማስወገድ ይችላሉ።</string>
     <string name="opa_gearhead_opt_in_notification_body">እየነዱ ሳሉ ከGoogle ረዳቱ ጋር ለመነጋገር ድምጽዎን መጠቀም ይችላሉ</string>
     <string name="opa_gearhead_opt_in_notification_title">እየነዱ ሳሉ የGoogle ረዳቱን ይጠቀሙ</string>
     <string name="opa_gearhead_opt_in_speech">ለደህንነት አስተማማኝ ሲሆን መጀመሪያ ማሳወቂያውን መታ ማድረግ ይኖርብዎታል። ከዚያ እየነዱ ሳሉ የGoogle ረዳቱን መጠቀም ይችላሉ።</string>
@@ -2375,7 +2658,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="opa_marketplace_disclosure_google_partners_description">Google አጋሮች ከGoogle ጋር የንግድ ግንኙነት ያላቸው የንግድ ድርጅቶች ናቸው። የGoogle ረዳት የፊልም ትኬቶችን መግዛትም ሆነ የዕቃ ማጠቢያ ገንዳዎን ማስጠገን የመሳሰሉትን የእርስዎን ነገሮች እንዲከናወኑ ለማገዝ ከGoogle አጋሮች ጋር ሊሰራ ይችላል። <a href="https://support.google.com/assistant/?p=google_partners">የበለጠ ለመረዳት</a></string>
     <string name="opa_marketplace_disclosure_google_partners_short_description">Google አጋሮች ከGoogle ጋር የንግድ ግንኙነት ያላቸው የንግድ ድርጅቶች ናቸው።</string>
     <string name="opa_marketplace_disclosure_google_partners_title">Google አጋሮች</string>
-    <string name="opa_marketplace_disclosure_service_additional_text">በዚህ መንገድ አገልግሎቶች እንደ የእርስዎ ምርጫዎች ያሉ በውይይቱ ወቅት የነበሩ ነገሮችን አሁንም ማስታወስ ይችላሉ። እነዚህን ውይይቶች በ&lt;a href=https://myactivity.google.com/>የእኔ እንቅስቃሴ&lt;/a> የሚለው የGoogle መለያ ቅንብሮች ክፍል ውስጥ በሚገኘው ክፍል ሊመለከቷቸው እና ሊያቀናብሯቸው ይችላሉ። እንዲሁም ለእያንዳንዱ አገልግሎት በGoogle ረዳት ቅንብሮች ውስጥ ባለው የ«እኔን እርሳ» አማራጭ አማካኝነት ኮዱን ዳግም ማስጀመር ይችላሉ።</string>
+    <string name="opa_marketplace_disclosure_service_additional_text">በዚያ መንገድ አገልግሎቶች በውይይቶች ጊዜ እንደ የእርስዎ ምርጫዎች ያሉ ነገሮችን ማስታወስ ይችላሉ። ወደ አገልግሎቶች የተላከውን ውሂብ በዚህ መተግበሪያ ውስጥ ባለው የአስስ ክፍል ውስጥ በእያንዳንዱ የአገልግሎት ገጽ ላይ መመልከት፣ ማቀናበር እና ዳግም ማስጀመር ይችላሉ። &lt;a href=https://support.google.com/assistant/?p=reset_id>የበለጠ ለመረዳት&lt;/a></string>
     <string name="opa_marketplace_disclosure_service_short_description">Google እርስዎ ለሚያናግሯቸው አገልግሎቶች ልዩ ኮድ ይልክላቸዋል።</string>
     <string name="opa_marketplace_disclosure_service_title">አገልግሎቶች እና የእርስዎ ግላዊነት</string>
     <string name="opa_marketplace_disclosure_title">ከእርስዎ ረዳት ተጨማሪ ነገሮችን ያግኙ</string>
@@ -2384,6 +2667,12 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="opa_music_search_suggestion_chip_title">ይህ ዘፈን ምንድን ነው?</string>
     <string name="opa_my_day_query">ስለቀኔ ንገረኝ</string>
     <string name="opa_notification_channel_group_title">ረዳት</string>
+    <string name="opa_notification_channel_handoff_description">ድርጊቶችዎን በሌላ መሣሪያ ላይ እንዲያጠናቅቁ የሚያስችሉዎ ማሳወቂያዎች</string>
+    <string name="opa_notification_channel_handoff_title">እደላ</string>
+    <string name="opa_notification_channel_misc_description">ሌሎች የተለያዩ ማሳወቂያዎች</string>
+    <string name="opa_notification_channel_misc_title">የተለያዩ</string>
+    <string name="opa_notification_channel_proactive_description">ከእርስዎ አካባቢ እና እንቅስቃሴዎች ጋር የሚዛመዱ ዝማኔዎች</string>
+    <string name="opa_notification_channel_proactive_title">ንቁ</string>
     <string name="opa_notification_channel_recommendations_description">በፍላጎቶችዎ ላይ በመመስረት ሊወዷቸው የሚችሏቸው ባህሪያት እና እርምጃዎች</string>
     <string name="opa_notification_channel_recommendations_title">ምክሮች</string>
     <string name="opa_notification_channel_third_party_description">ከረዳትዎ ጋር አብረው የሚጠቀሙባቸው የGoogle አገልግሎቶች ማሳወቂያዎች</string>
@@ -2433,7 +2722,6 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="opa_unlock_device_for_response">ለመቀጠል ይክፈቱ...</string>
     <string name="opa_upgrade_promo_tooltip_text">የመነሻ አዝራሩን ነክተው ይያዙ</string>
     <string name="opa_value_proposition_cancel">አይ፣ አመሰግናለሁ</string>
-    <string name="opa_value_proposition_continue">ቀጥል</string>
     <string name="opa_value_proposition_message_1p">ጥያቄዎች ይጠይቁት። ነገሮችን እንዲያደርግ ይንገሩት። የራስዎ የግል Google ነው፣ ሁልጊዜ ለመርዳት ዝግጁ ነው።</string>
     <string name="opa_value_proposition_message_title">ከGoogle ረዳትዎ ጋር ይተዋወቁ</string>
     <string name="opa_value_proposition_next">ቀጣይ</string>
@@ -2460,6 +2748,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="opa_wuwa_notification_action_stop">አቁም</string>
     <string name="opa_wuwa_notification_content">በ%1$s ላይ ማንቂያ</string>
     <string name="opa_wuwa_offline_notification_content">እርስዎ ከመስመር ውጭ ሆነው ሳለ የእርስዎ ረዳት ይህን ሂደት ማሄድ አይችልም።</string>
+    <string name="opa_zero_state_hint_text">ተጨማሪ ለማየት ያንሸራትቱ</string>
     <string name="open_app_template">%sን ክፈት</string>
     <string name="open_in_google_translate">በትርጉም ውስጥ ክፈት</string>
     <string name="open_in_inbox">በINBOX ውስጥ ክፈት</string>
@@ -2505,11 +2794,15 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="or_list_end">%1$s፣ ወይም %2$s</string>
     <string name="or_list_middle">%1$s፣ %2$s</string>
     <string name="or_list_start">%1$s፣ %2$s</string>
+    <string name="order_group_header">ትዕዛዞች</string>
     <string name="order_history_title">ትዕዛዞች</string>
     <string name="order_not_found_snackbar_message">ትእዛዝ አልተገኘም።</string>
     <string name="other_comment">ምክንያት (የሚያስፈልግ)</string>
+    <string name="other_group_header">ሌላ</string>
     <string name="other_reason_not_fill_in_content_description">ግብረመልስ ከመላክዎ በፊት እባክዎ ይህን ንጥል ሪፖርት የሚያደርጉበት ሌላኛው ምክንያት ያቅርቡ። የላክ አዝራር።</string>
+    <string name="out_for_delivery">ለመላክ ወጥቷል</string>
     <string name="out_of_space">በዚህ መነሻ ማያ ገጽ ላይ ምንም ቦታ የለም።</string>
+    <string name="overflow_menu_desc">ተጨማሪ አማራጮች</string>
     <string name="overtime">የባከነ ሰዓት</string>
     <string name="package_location">አካባቢ</string>
     <string name="package_pickup_location">የመውሰጃ አካባቢ</string>
@@ -2517,6 +2810,8 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="package_status">ጥቅል፦ %1$s</string>
     <string name="package_tracking_card_title">ጥቅል</string>
     <string name="paid">የሚከፈልበት</string>
+    <string name="past_event_group_header">ያለፈ</string>
+    <string name="pause">ባለበት አቁም</string>
     <string name="pay">ክፈል</string>
     <string name="pay_site">%1$s ላይ ይክፈሉ</string>
     <string name="payments_auth_cancel">ይቅር</string>
@@ -2540,11 +2835,14 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="payments_auth_too_many_fingerprint_retries_should_use_password">በጣም ብዙ ሙከራዎች። ይልቁንስ የይለፍ ቃል ያስገቡ።</string>
     <string name="payments_auth_unknown_fingerprint_error">ጣት አሻራን መጠቀም ላይ ስህተት፣ ለመቀጠል እባክዎ የGoogle ይለፍ ቃልዎን ያስገቡ።</string>
     <string name="payments_auth_use_fingerprint_checkbox_hint">ለወደፊት ማጽደቆች የጣት አሻራን ይጠቀሙ</string>
+    <string name="penalties">ፍጹም ቅጣት ምቶች</string>
     <string name="pending_searches">በመጠባበቅ ላይ ያሉ ፍለጋዎች</string>
     <string name="permdesc_install_shortcut">መተግበሪያው ያለተጠቃሚ ጣልቃ ገብነት አቋራጭ እንዲያክል ያስችለዋል።</string>
     <string name="permdesc_read_settings">መተግበሪያው በመነሻ ውስጥ ያሉ ቅንብሮችን እና አቋራጮችን እንዲያነብ ያስችለዋል።</string>
     <string name="permdesc_write_settings">መተግብሪያው ቅንብሮችን እና አቋራጮችን በመነሻ ውስጥ እንዲቀይራቸው ያስችለዋል።</string>
     <string name="permission_error">ማይክሮፎኑን ለመጠቀም የእርስዎ ፈቃድ ያስፈልገናል</string>
+    <string name="permission_error_l">Google App የመሣሪያ ላይ ይዘቶችን እንዲፈልግ አልተፈቀደለትም።</string>
+    <string name="permission_error_m">Google App የመሣሪያ ላይ ይዘቶችን እንዲፈልግ አልተፈቀደለትም። እባክዎ የእውቂያዎች እና የኤስኤምኤስ መዳረሻ ለGoogle App ይስጡ።</string>
     <string name="permission_required_action_notification_body">ይህ መተግበሪያ የእርስዎ ፈቃድ ያስፈልገዋል</string>
     <string name="permission_required_action_notification_title">Google</string>
     <string name="permission_required_continue_button">ቀጣይ</string>
@@ -2573,6 +2871,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="person_select_item_hangouts_app_name">Hangouts</string>
     <string name="person_select_item_secondary_text_delimiter">"፣ "</string>
     <string name="person_select_item_sms_app_name">ኤስኤምኤስ</string>
+    <string name="personal_info_and_suggestions_learn_more">የበለጠ ለመረዳት</string>
     <string name="personal_mode_landing_text">የግል ይዘትን ይፈልጉ</string>
     <string name="personal_results_action_button">ፍቀድ</string>
     <string name="personal_results_cancel_button">ዝለል</string>
@@ -2621,6 +2920,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="phone_endpoint_type_disambig_timeout_2_eyes_free_tts">አልሰማሁትም። የትኛው ቁጥር? %2$s፣ ወይም ደግሞ «%1$s» ይበሉ።</string>
     <string name="phone_endpoint_type_disambig_timeout_last_eyes_free_tts">አሁንም አልሰማሁትም። %3$s።</string>
     <string name="photo_details">የፎቶ ዝርዝሮች</string>
+    <string name="photo_group_header">ፎቶዎች</string>
     <string name="photo_spot_nearby">አቅራቢያ ያሉ የፎቶ ማንሻ ቦታዎች</string>
     <string name="photo_view_count" formatted="false">%d ከ%d</string>
     <string name="pick_duration_complete">ተከናውኗል</string>
@@ -2631,13 +2931,22 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="pixel_doodle_settings_title">የፍለጋ ሳጥን ማሳመሪያዎች</string>
     <string name="place_autocomplete_clear_button">ፍለጋን አጽዳ</string>
     <string name="place_autocomplete_search_hint">ይፈልጉ</string>
+    <string name="place_group_header">ቦታዎች</string>
     <string name="places_deletion_message">ይህን ቦታ ለማስወገድ ከእርስዎ የተቀመጡ የግል ቦታዎች ማስወገድ ያስፈልግዎታል። የእርስዎን ቦታዎች ለማስተዳደር ይበልጥ ለመረዳት ጠቅ ያድርጉ።</string>
+    <string name="play">አጫውት</string>
     <string name="play_by_play">ጨዋታ-በጨዋታ</string>
     <string name="play_folder_name">Play</string>
     <string name="play_sample">ናሙና አጫውት</string>
+    <string name="play_this_episode">ይህን ክፍል አጫውት</string>
     <string name="play_video">ቪድዮ አጫውት</string>
     <string name="play_video_icon">ቪዲዮውን ያጫውቱ።</string>
+    <string name="playback_error_cancel">ይቅር</string>
+    <string name="playback_error_retry">እንደገና ይሞክሩ</string>
+    <string name="playback_error_title">የተጠየቀውን ክፍል ማጫወት አልተቻለም</string>
+    <string name="playback_panel_error">ማጫወት አልተቻለም</string>
+    <string name="playback_status_buffering">በማቋት ላይ…</string>
     <string name="please_select">እባክዎ ይምረጡ</string>
+    <string name="podcasts">ፖድካስቶች</string>
     <string name="pomo_tab_description">የተጨማሪ ነገሮች ትር</string>
     <string name="popup_new_content">ለማዘመን መታ ያድርጉ</string>
     <string name="predictive_cards">የእርስዎ ምግብ</string>
@@ -2685,6 +2994,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="preinstalled_details">ስሪት %1$s በቅድሚያ ተጭኗል፣ በዲስክ ላይ ያለ መጠን %2$s</string>
     <string name="previous_balance">ቀዳሚ ሒሳብ</string>
     <string name="price_and_percent_variation">%1$s (%2$s)</string>
+    <string name="price_range_separator">·</string>
     <string name="priority_notifications_description">የእርስዎ ማሳወቂያዎች ከፍተኛ ቅድሚያ የሚሰጣቸው ሲሆኑ በእርስዎ የቅድሚያ ማሳወቂያ ቅንብሮች ላይ በመመስረት ስልክዎ እርስዎን ያነቃዎታል</string>
     <string name="priority_notifications_preferences_category">የቅድሚያ ማሳወቂያዎች</string>
     <string name="problem_occurred_while_loading_cards">ካርዶችን በመጫን ላይ ሳለ አንድ ችግር ተከስቷል</string>
@@ -2698,6 +3008,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="qp_hotel_reservation_number">የቦታ ማስያዣ ቁጥር</string>
     <string name="qp_movie_watch_trailer">የፊልም ማስታወቂያ ይመልከቱ</string>
     <string name="qp_precip">የአየር እርጥበት %1$s</string>
+    <string name="qp_precip_today">%1$s ዛሬ</string>
     <string name="qp_restaurant_reservation_date">ቀን</string>
     <string name="qp_restaurant_reservation_time">ሰዓት</string>
     <string name="qp_soccer_time">"%1$d'"</string>
@@ -2716,14 +3027,79 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="qp_weather_unit_abbrev_fahrenheit">ፋ</string>
     <string name="qp_wind_speed">ንፋስ %1$d%2$s</string>
     <string name="qpf_label">መጠናዊ የመዝነብ ዕድል ትንበያ፦ %s</string>
+    <string name="query_desc">መጠይቅ፦ %s</string>
+    <string name="query_people_group_header">ዕውቂያዎች</string>
     <string name="query_suggestion_content_description">ፍለጋ %s።</string>
+    <string name="quoted_query">«%1$s»</string>
     <string name="rating_accessible">Rating: %1$s ኮከቦች</string>
     <string name="rating_source_imdb">IMDb</string>
     <string name="reached_max_locations_removal_dialog_title">እስከ 8 ድረስ ማስቀመጥ ይችላሉ። አዲስ አካባቢ ለማስቀመጥ አንዱን ያስወግዱ።</string>
     <string name="reaction_close">የአጸፋ ብቅ-ባይን ዝጋ</string>
     <string name="reaction_text_less">ያነሰ</string>
     <string name="reaction_text_more">ተጨማሪ</string>
+    <string name="recent_docs_group_header">የቅርብ ጊዜ ሰነዶች</string>
+    <string name="recent_group_header">የቅርብ ጊዜ እንቅስቃሴዎች</string>
+    <string name="recent_music_group_header">የቅርብ ጊዜ ሙዚቃ</string>
+    <string name="recent_myactivity">የእኔ እንቅስቃሴ</string>
+    <string name="recent_onboarding">አጋዥ ስልጠና</string>
+    <string name="recent_screenshot_category">ቅጽበታዊ ገጽ እይታ</string>
+    <string name="recent_screenshot_title_prefix">ቅጽበታዊ ገጽ እይታ ለ</string>
+    <string name="recent_search_result_url">google.com</string>
+    <string name="recent_settings">ቅንብሮች</string>
+    <string name="recent_srp_category">ውጤቶችን ይፈልጉ</string>
+    <string name="recent_srp_title_prefix">የፍለጋ ውጤት ለ</string>
+    <string name="recent_unknown_category">ያልታወቀ</string>
+    <string name="recent_video_group_header">የቅርብ ጊዜ ቪዲዮዎች</string>
+    <string name="recent_web_history_group_header">የቅርብ ጊዜ ድረ-ገጾች</string>
+    <string name="recent_webpage_category">ድረ-ገጽ</string>
     <string name="recently">የቅርብ ጊዜ</string>
+    <string name="recently_app_name">የቅርብ ጊዜ</string>
+    <string name="recently_disabled_card_button_text">ወደ ቅንብሮች ሂድ</string>
+    <string name="recently_disabled_card_header">የቅርብ ጊዜ ታሪክዎን ይከታተሉ</string>
+    <string name="recently_disabled_card_text">እርስዎ የጎበኟቸውን የገጾች መዝገብ ለማስቀመጥ እና በኋላ እነሱን በፍጥነት ለማግኘት በቅንብሮች ውስት የቅርብ ጊዜን ያብሩት።</string>
+    <string name="recently_entry_interaction_offline">ከመስመር ውጭ ሆነው ሳለ የተጠየቀውን ገጽ መክፈት አይቻልም።</string>
+    <string name="recently_feed_entry">ምግብ</string>
+    <string name="recently_onboarding_compare_message">ምን እንደሚገዙ መወሰን አልቻሉም? የሚያገኟቸውን አማራጮች ጎን ለጎን ያወዳድሯቸው።</string>
+    <string name="recently_onboarding_compare_title">ያነጻጽሩ</string>
+    <string name="recently_onboarding_find_that_page_message">ያንን ከጥቂት ቀናት በፊት ያገኙትን የምግብ አሠራር፣ ጽሑፍ ወይም ጣቢያ ይፈልጋሉ? በማደን የሚያጠፉትን ጊዜ ይቆጥቡ እና እዚህ ላይ በመጀመሪያ ያግኙት።</string>
+    <string name="recently_onboarding_find_that_page_title">ያንን ገጽ አግኝ</string>
+    <string name="recently_onboarding_query">ወደ የቅርብ ጊዜ መግቢያ</string>
+    <string name="recently_onboarding_recent_message">"በቅርቡ በGoogle መተግበሪያው ውስጥ የፈለጓቸውን ርዕሶች ዳግም ያግኟቸው።
+
+ተጨማሪ ለማየት ይህን የገጾች ቡድን ይክፈቱ።"</string>
+    <string name="recently_onboarding_recent_message_2">"በቅርቡ በGoogle መተግበሪያው ውስጥ የፈለጓቸውን ርዕሶች ዳግም ያግኟቸው።
+
+በመቆንጠጥ ቡድኑን መዝጋት ይችላሉ።"</string>
+    <string name="recently_onboarding_recent_title">ምን እንዳገኙ ይመልከቱ</string>
+    <string name="recently_onboarding_search_on_message">"እዚህ ያሉት ገጾች በዚህ መሣሪያ ላይ የሚያዩዋቸው ናቸው። ከተመሳሳዩ ፍለጋ የመጡ ገጾች በመጀመሪያ ከአዲሶቹ ጋር አንድ ላይ ይቦደናሉ።
+
+መፈለግዎን ይቀጥሉና ግኝቶችዎን እዚህ ዳግም ያግኟቸው።"</string>
+    <string name="recently_onboarding_search_on_title">እዚህ ላይ ይፈልጉ፦</string>
+    <string name="recently_onboarding_swipe_up_message">"የቅርብ ጊዜ ገጾችን ማስወገድ ይፈልጋሉ? እነሱን ለማስወገድ ወደ ላይ ብቻ ጠረግ ያድርጉ።
+
+ይሄ ከእርስዎ የGoogle መለያ አይሰርዛቸውም።"</string>
+    <string name="recently_onboarding_swipe_up_title">ወደ ላይ ያንሸራትቱ</string>
+    <string name="recently_removed_item_dialog_message">"የእርስዎ ፍለጋ ከዚህ መሣሪያ ላይ ብቻ ተወግዷል። የእርስዎን የGoogle ታሪክ በእኔ እንቅስቃሴ ውስጥ ማቀናበር ይችላሉ።
+
+"<a href="http://myactivity.google.com">myactivity.google.com</a></string>
+    <string name="recently_removed_item_dialog_ok">ገባኝ</string>
+    <string name="recently_removed_item_dialog_title">ከቅርብ ጊዜ ገጾች ላይ ተወግዷል</string>
+    <string name="recently_search_history_authenticating_cancel">ይቅር</string>
+    <string name="recently_search_history_authenticating_message">እንደ %1$s ሆኖ በመግባት ላይ...</string>
+    <string name="recently_search_history_authenticating_title">በመለያ በመግባት ላይ</string>
+    <string name="recently_sharebear_subtitle">የገጽ ቅንጭብ</string>
+    <string name="recently_simple_onboarding_pinch_message">ጠቃሚ ምክር፦ ስብስቦችን አሸብልለው ሲያልፏቸው ይዘጉልዎታል</string>
+    <string name="recently_simple_onboarding_pinch_title">ስብስቦችን ለመዝጋት ይቆንጥጡ</string>
+    <string name="recently_simple_onboarding_recent_message">ተጨማሪ ለመመልከት ይህን የገጾች ስብስብ ይክፈቱ</string>
+    <string name="recently_simple_onboarding_recent_message_2">ጠቃም ምክር፦ የሚፈልጉት ነገር ሁሉ እርስዎን ይጠብቀዎታል</string>
+    <string name="recently_simple_onboarding_recent_title">ምን እንዳገኙ ይመልከቱ</string>
+    <string name="recently_simple_onboarding_swipe_up_message">ጠቃሚ ምክር፦ ይሄ ከGoogle መለያዎ አይሰርዛቸውም</string>
+    <string name="recently_simple_onboarding_swipe_up_title">ለማስወገድ ወደ ላይ ያንሸራትቱ</string>
+    <string name="recently_timeline_days_ago">ከ%d ቀኖች በፊት</string>
+    <string name="recently_timeline_just_now">ገና አሁን</string>
+    <string name="recently_timeline_yesterday">ትላንትና</string>
+    <string name="recents_result_group_header">ድር</string>
+    <string name="recents_result_separate_group_header">የቅርብ ጊዜ ፍለጋዎች</string>
     <string name="recognizer_service_label">መሠረታዊ የGoogle ማወቅ</string>
     <string name="reconnecting_loading_results">"የእርስዎን ውጤቶች በመጫን ላይ
 "</string>
@@ -2741,6 +3117,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="regular_app_suggestion_message">ይሄ እየተየቡት ካለው ነገር ጋር የሚዛመድ መተግበሪያ ነው።</string>
     <string name="regular_query_suggestion_message">ይህ ቃል እየተየቡት ካለው ነገር ጋር ይዛመዳል።</string>
     <string name="regular_url_suggestion_message">ይሄ ድረ-ገጽ እየተየቡት ካለው ነገር ጋር ይዛመዳል።</string>
+    <string name="reject_storage_permission">አሁን አይደለም</string>
     <string name="relationship_removal_dialog_message" formatted="false">«%s» የሚለው ቅጽል ስም ከእንግዲህ ለ%s አይመደብም</string>
     <string name="relationship_removal_dialog_negative_button_text">ተወው</string>
     <string name="relationship_removal_dialog_positive_button_text">አስወግድ</string>
@@ -2781,15 +3158,23 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="reminders_watch">ይመልከቱ</string>
     <string name="reminders_work">የሥራ</string>
     <string name="remove">አስወግድ</string>
+    <string name="remove_all">ሁሉንም አስወግድ</string>
     <string name="remove_button_text">አስወግድ</string>
+    <string name="remove_completed_episodes">የተጠናቀቁ ክፍሎችን አስወግድ</string>
+    <string name="remove_downloaded_episode">የወረደ ተከታታይ ትዕይንት ያስወግዱ</string>
     <string name="remove_from_history_failed">ከታሪክ ላይ ንጥሉን ማስወገድ አልተቻለም</string>
     <string name="remove_pnav_title">ይህ ዩአርኤል ከታሪክዎ ላይ ይሰረዝ?</string>
     <string name="remove_psuggest_message">ከዚህ በፊት ይህንን ፈልገውታል። &lt;b>%s&lt;/b>ን ከእርስዎ ታሪክ መሰረዝ እስከመጨረሻው ከሁሉም መሣሪያዎችዎ ላይ ከመለያዎ ያስወግደዋል</string>
     <string name="remove_psuggest_title">ይህ ፍለጋ ከታሪክዎ ይሰረዝ?</string>
+    <string name="remove_unfinished_episodes">ያልተጠናቀቁ ክፍሎችን አስወግድ</string>
     <string name="remove_url_history_message">ይህ ዩአርኤል ከዚህ በፊት የጎበኙትና እየተየቡ ካሉት ነገር ጋር የሚዛመድ ነው። ይህን መሰረዝ በሁሉም መሣሪያዎችዎ ላይ ከመለያዎ ያስወግደዋል።</string>
     <string name="renter_name">ስም</string>
     <string name="report_other_reason">ሌላ</string>
     <string name="report_this">ይህን ሪፖርት አድርግ</string>
+    <string name="request_storage_message">የትዕይንት ክፍሎችን ለማውረድ የመሣሪያዎን ማከማቻ እንዲደርስ ይፍቀዱ</string>
+    <string name="request_storage_permission_dialog_message">የትዕይንት ክፍሎችን ለማውረድ Google የመሣሪያዎን ማከማቻ መድረስ ይፈልጋል</string>
+    <string name="request_storage_permission_dialog_title">የማከማቻ መዳረሻ ይፍቀዱ</string>
+    <string name="reservation_group_header">ቦታ ማስያዣዎች</string>
     <string name="reset">ዳግም አስጀምር</string>
     <string name="reset_now_preferences">የቅርብ ጊዜ ምርጫዎች ዳግም ይጀመሩ?</string>
     <string name="reset_now_preferences_summary">እርግጠኛ ነዎት የእርስዎን የምግብ ምርጫዎች ዳግም ማስጀመር ይፈልጋሉ?</string>
@@ -2802,9 +3187,13 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="results_from_ago">ከ%1$s በፊት የነበሩ ውጤቶች</string>
     <string name="retry">እንደገና ሞክር</string>
     <string name="retry_button_text">እንደገና ይሞክሩ</string>
+    <string name="retry_failed_download">ማውረድ እንደገና ይሞክሩ</string>
+    <string name="returned">ተመልሷል</string>
+    <string name="review_count_text">(%d)</string>
     <string name="review_feedback_menu">አይፈለጌ መልዕክት ወይም አግባብነት የሌለው እንደሆነ ምልክት ለማድረግ የትርፍ ፍሰት ምናሌ</string>
     <string name="reviewer_avatar">የገምጋሚው የመገለጫ ምስል</string>
     <string name="reviewer_comment_date">የተገመገመው %1$s ላይ</string>
+    <string name="rewind">አጠንጥን</string>
     <string name="room_picker_add_custom_room">ብጁ ክፍል ያክሉ</string>
     <string name="room_picker_cancel_button">ዝለል</string>
     <string name="room_picker_create_new">አዲስ ፍጠር</string>
@@ -2827,11 +3216,23 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="safemode_widget_error">ምግብሮች በደህንነቱ የተጠበቀ ሁኔታ ተሰናክለዋል</string>
     <string name="save_action">አስቀምጥ</string>
     <string name="save_button">አስቀምጥ</string>
+    <string name="save_carousel_view_all">ሁሉንም ይመልከቱ</string>
+    <string name="save_dialog_cancel">ይቅር</string>
+    <string name="save_dialog_create">ፍጠር</string>
     <string name="save_generic_error">አንድ ስህተት ተከስቷል። እባክዎ እንደገና ይሞክሩ።</string>
     <string name="save_in_progress">በማስቀመጥ ላይ…</string>
     <string name="save_label">ተከናውኗል</string>
+    <string name="save_loading_lists">ዝርዝሮችን በመጫን ላይ</string>
+    <string name="save_new_list">አዲስ ዝርዝር</string>
+    <string name="save_new_list_hint">የዝርዝር ስም</string>
+    <string name="save_not_signed_in">ይህን ባህሪ ለመጠቀም በመለያ መግባት አለብዎት።</string>
+    <string name="save_save_confirmation">ተቀምጧል</string>
     <string name="save_save_network_error">ንጥሉን ማስቀመጥ አልተቻለም። እባክዎ የበይነመረብ ግንኙነትዎን ይፈትሹና እንደገና ይሞክሩ።</string>
+    <string name="save_save_to_list">ወደ ዝርዝር ያስቀምጡ</string>
+    <string name="save_saved_to">ተቀምጧል ወደ</string>
+    <string name="save_tray_change_list">ለውጥ</string>
     <string name="save_unsave_action">አታስቀምጥ</string>
+    <string name="save_unsave_confirmation">አልተቀመጠም</string>
     <string name="save_unsave_network_error">ንጥሉን ማስወገድ አልተቻለም። እባክዎ የበይነመረብ ግንኙነትዎን ይፈትሹና እንደገና ይሞክሩ።</string>
     <string name="save_view_collections_action">ስብስቦችን ይመልከቱ</string>
     <string name="save_view_saved_action">የተቀመጡትን ይመልከቱ</string>
@@ -2857,7 +3258,12 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="screen_assist_share_title">ይህን ቅጽበታዊ ገጽ ዕይታ አርትዕ ያድርጉ ወይም ያጋሩ</string>
     <string name="screen_assist_sharing_screenshot">ቅጽበታዊ ገጽ ዕይታን ማጋራት</string>
     <string name="screen_assist_translate">ተርጉም</string>
+    <string name="screen_context_desc">በማያ ገጽዎ ላይ ካለው ነገር ጋር የሚዛመዱ ተገቢ የአስተያየት ጥቆማዎችን ከረዳትዎ ይመልከቱ</string>
+    <string name="screen_context_title">በማያ ገጽዎ ላይ ላለው ነገር መረጃ ያግኙ</string>
     <string name="screen_moved">ማያ ገጽ ተንቀሳቅሷል</string>
+    <string name="screenshot_srp_desc">%sን ይፈልጉ።</string>
+    <string name="screenshot_srp_pending_desc">በመጠባበቅ ላይ ያለ የ%s ፍለጋ</string>
+    <string name="screenshot_web_desc">%sን ይጎብኙ።</string>
     <string name="scroll_left">ወደ ግራ ይሸብልሉ</string>
     <string name="scroll_right">ወደ ቀኝ ይሸብልሉ</string>
     <string name="search_activity_name">Google</string>
@@ -2865,6 +3271,9 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="search_apps_web_and_more">መተግበሪያዎችን፣ ድርን እና ተጨማሪ ነገሮችን ይፈልጉ…</string>
     <string name="search_box_hint">ፍለጋ…</string>
     <string name="search_box_hint_for_places_and_web">ቦታዎችን ወይም ድሩ ላይ ይፈልጉ</string>
+    <string name="search_contact_on_web">«%s»ን ድሩ ላይ ይፈልጉ</string>
+    <string name="search_error_message">"የሆነ ችግር ተፈጥሯል።
+ፖድካስቱን እንደገና ለመፈለግ ይሞክሩ።"</string>
     <string name="search_for">«%1$s»ን ፈልግ</string>
     <string name="search_gesture">ለመፈለግ ያንሸራትቱ</string>
     <string name="search_gesture_corpus_dialog_title">ለመፈለግ ያንሸራትቱ</string>
@@ -2913,8 +3322,12 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="search_sources_tablet">የጡባዊ ፍለጋ</string>
     <string name="search_storage_label">የGoogle ፍለጋ ማከማቻ</string>
     <string name="search_tablet">ጡባዊ ፈልግ</string>
+    <string name="search_the_web">%1$sን ድር ላይ ፈልግ</string>
     <string name="search_the_web_menu_text">ከድር ፈልግ</string>
+    <string name="search_the_web_suggestion">ድሩን ፈልግ</string>
     <string name="search_widget_customization">ንዑስ ፕሮግራምን አብጅ</string>
+    <string name="searchbar_hint">ፖድካስቶችን ፈልግ</string>
+    <string name="searchbox_hint">የቅርብ ጊዜዎችን ፈልግ</string>
     <string name="searching_as_account">እንደ %1$s ሆኖ በመፈለግ ላይ</string>
     <string name="second_half">ሁለተኛ ግማሽ</string>
     <string name="second_period">ሁለተኛ ክፍለ ጊዜ</string>
@@ -2943,7 +3356,14 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="selection_mode_promo">ጽሑፍ ለመምረጥ እዚህ መታ ያድርጉ</string>
     <string name="selection_prompt">ማንኛውንም ጽሑፍ ለመምረጥ መታ ያድርጉ</string>
     <string name="selection_retry_ocr">እንደገና ይሞክሩ</string>
+    <string name="send_feedback">ግብረመልስ ላክ</string>
+    <string name="send_to_device_negative_button">ይቅር</string>
+    <string name="send_to_device_positive_button">ላክ</string>
+    <string name="send_to_device_snackbar_text">ወደ %1$s ላክ</string>
+    <string name="send_to_device_title">ወደ መሳሪያ ላክ</string>
+    <string name="sender_says_message">%1$s ይህን ይላሉ፦ %2$s።</string>
     <string name="sending_audio_to_account_toast">ወደ %1$s ተሰሚ በመላክ ላይ…</string>
+    <string name="separator">-</string>
     <string name="server_error">በአሁኑ ጊዜ Googleን መድረስ አልተቻለም።</string>
     <string name="server_error_fetching_weather_data_status_text">የሆነ ስህተት ተፈጥሯል። እባክዎ ቆይተው እንደገና ይሞክሩ።</string>
     <string name="set_duration">የሚፈጀውን ጊዜ ያዘጋጁ</string>
@@ -2985,6 +3405,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="sharebear_done_button_description">ተከናውኗል</string>
     <string name="sharebear_edit_undo_no_effect">ምንም የሚቀለበስ የለም</string>
     <string name="sharebear_link">ቅጽበታዊ ገጽ እይታ ከ%s</string>
+    <string name="sharebear_screenshot_not_found">ቅጽበታዊ ገጽ እይታ አልተገኘም</string>
     <string name="sharebear_screenshotter_activity_label">ቅጽበታዊ ገጽ እይታን አጋራ</string>
     <string name="sharebear_share_saved_screenshot_chooser_title">ቅጽበታዊ ገጽ እይታን ያርትዑ እና ያጋሩ</string>
     <string name="sharebear_share_subject">ከGoogle የተጋሩ ቅጽበታዊ ገጽ ዕይታ</string>
@@ -2994,7 +3415,12 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="sharebear_storage_permission_request_info_part2">የGoogle መተግበሪያው ቅጽበታዊ ገጽ እይታዎችን እንዲያርትዑ እና እንዲያጋሩ ያግዘዎት</string>
     <string name="sharebear_storage_permission_request_info_yes">አዎ ገብቼያለሁ</string>
     <string name="shared_links_desc">በኢሜይሎች ወይም መልዕክቶች በኩል የተላኩ እና የመጡ አገናኞች</string>
+    <string name="shared_links_group_header">የተጋሩ አገናኞች</string>
     <string name="shared_links_title">የተጋሩ አገናኞች</string>
+    <string name="shared_links_via">%1$s፣ በ%2$s በኩል</string>
+    <string name="shared_photo_group_header">የተጋሩ ምስሎች</string>
+    <string name="shipped">ተልኳል</string>
+    <string name="shipped_with_estimation">ተልኳል፣ %s ላይ እንዲደርስ ይጠበቃል</string>
     <string name="shootout_abbreviation">መቷከስ</string>
     <string name="shopping_mode_landing_text">ገበያን ይፈልጉ</string>
     <string name="short_google_play_services_enable_required">Google Play አገልግሎቶች መንቃት አለበት</string>
@@ -3013,16 +3439,22 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="show_all_packages">ሁሉንም ጥቅሎች አሳይ</string>
     <string name="show_all_reminders">ሁሉንም አስታዋሾች አሳይ</string>
     <string name="show_contact_information_edit_contact">ዝርዝሮችን አርትዕ</string>
+    <string name="show_error_message">"የሆነ ችግር ተፈጥሯል።
+ይህ ትዕይንት አሁን አይገኝም።"</string>
     <string name="show_examples_description">ምሳሌዎችን አሳይ</string>
     <string name="show_full_agenda">ሙሉ አጀንዳ አሳይ</string>
     <string name="show_less">ያነሰ አሳይ</string>
     <string name="show_more">ተጨማሪ አሳይ</string>
+    <string name="show_more_search_results">ተጨማሪ የፍለጋ ውጤቶችን አሳይ</string>
     <string name="show_more_suggestions_footer">ተጨማሪ አሳይ</string>
     <string name="show_starts_at">ትርዒቱ %1$s ላይ ነው የሚጀምረው</string>
     <string name="showtimes_today">ዛሬ የሚታዩ</string>
     <string name="sidekick_network_error">የአውታረ መረብ ስህተት። የአውታረመረብ ግንኙነትዎን ይፈትሹ እና እንደገና ይሞክሩ።</string>
     <string name="sign_in">በመለያ ግባ</string>
+    <string name="sign_in_accept">ግባ</string>
     <string name="sign_in_error_description">ወደ መለያዎ መግባት ላይ ስህተት የነበረ ይመስላል</string>
+    <string name="sign_in_message">በሌሎች መሣሪያዎች ላይ የእርስዎን ፖድካስቶች እና የማዳመጥ ታሪክ ለመድረስ በመለያ ይግቡ።</string>
+    <string name="sign_in_reject">አሁን አይደለም</string>
     <string name="sign_in_required_continue_button">በመለያ ግባ</string>
     <string name="sign_in_required_for_device_info_message">Google የእርስዎን እውቂያዎች፣ መተግበሪያዎች እና ተጨማሪ ነገሮች እንዲረዳ ወደ የGoogle መለያዎ ይግቡ</string>
     <string name="sign_in_required_for_now_cards_message">ጊዜያቸውን የጠበቁ ዝማኔዎችን እና አስታዋሾችን ለማግኘት ወደ የGoogle መለያዎ ይግቡ</string>
@@ -3039,6 +3471,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="single_transit_line_delayed">%1$s %2$sዘግይቷል%3$s</string>
     <string name="single_transit_line_limited_service">በ%3$s ላይ %1$sየተገደበ አገልግሎት%2$s</string>
     <string name="single_transit_station_closed">%1$s %2$sተዘግቷል%3$s</string>
+    <string name="slice_suggestion_message">ይህ ይዘት የሚመጣው ከአንድ የተጫነ መተግበሪያ ነው፣ እና እርስዎ እየተየቡ ካሉት ጋር የሚዛመድ ነው።</string>
     <string name="smartspace_calendar_summary">ቀጣይ መጪ የስብሰባ ማንቂያዎች</string>
     <string name="smartspace_calendar_title">የቀን መቁጠሪያ ክስተቶች</string>
     <string name="smartspace_commute_summary">ያልተለመደ የትራፊክ ለውጥ ማንቂያዎች</string>
@@ -3049,6 +3482,8 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="smartspace_settings_title">በአፍታ እይታ</string>
     <string name="sms_display_name">ጽሑፍ</string>
     <string name="sms_provider_title">ኤስኤምኤስ</string>
+    <string name="snackbar_action_undo">ቀልብስ</string>
+    <string name="snackbar_message_removed_from_recently">ከቅርብ ጊዜ ገጾች ላይ ተወግዷል</string>
     <string name="snackbar_talkback">አዝራር በማያ ገጹ ግርጌ ላይ ይገኛል።</string>
     <string name="snooze_button">አሸልብ</string>
     <string name="snooze_fail">አሸልብ አልተሳካም። ቆይተው እንደገና ይሞክሩ።</string>
@@ -3060,6 +3495,8 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="solid">ድፍን</string>
     <string name="sound_search_hint">ይህ ዘፈን ምንድን ነው?</string>
     <string name="sound_search_unavailable">በድምጽ ፍለጋ በእርስዎ አገር አይገኝም</string>
+    <string name="source_chip_desc">የ%s ይዘትን ይመልከቱ።</string>
+    <string name="space">Hi! ﻿I’m a dummy file. Don’t translate me!</string>
     <string name="spoken_cancel_command_tts">ይቅር</string>
     <string name="spoken_edit_sms_command_tts">መልዕክት አርትእ ያድርጉ</string>
     <string name="spoken_language_selected">%s እንደ ዋና ቋንቋ ሆኖ ተመርጧል</string>
@@ -3116,6 +3553,8 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="stocks_update_time_text">በ%1$s ላይ ዘምኗል</string>
     <string name="stop_download_prompt">ማውረድ አቁም</string>
     <string name="streaming_text_recognizing">በማወቅ ላይ…</string>
+    <string name="street_address_label">የጎዳና አድራሻ</string>
+    <string name="subscribe_button_label">ለደንበኝነት ይመዝገቡ</string>
     <string name="suggest">በራስ-ሰር አጠናቅ</string>
     <string name="suggest_contact_removal_body" formatted="false">ይሄ &lt;b>%s&lt;/b>ን ከዋና እውቂያዎች ዝርዝርዎ ያስወግደዋል። አሁንም &lt;b>%s&lt;/b>ን በመፈለግ ሊያገኟቸው ይችላሉ።</string>
     <string name="suggest_contact_removal_cancel">ይቅር</string>
@@ -3153,6 +3592,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="tab_title_tomorrow">ነገ</string>
     <string name="tap_mic_to_speak">መናገር ለመጀመር ማይክሮፎኑን መታ አድርገው</string>
     <string name="temperature_display">%1$s %2$s</string>
+    <string name="text_selection_menu_translate_action">ተርጉም</string>
     <string name="thank_you_dialog_body">የእርስዎ ምላሾች የGoogle ፍለጋ ተሞክሮ እንዲሻሻል ያግዛሉ።</string>
     <string name="thank_you_dialog_tilte">ስለግብረመልስዎ እናመሰግናለን።</string>
     <string name="things_to_do">የሚደረጉ ነገሮች</string>
@@ -3213,10 +3653,14 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="titles" formatted="false">%s፣ %s</string>
     <string name="toast_custom_tabs_account">እንደ %1$s ሆነው ገብተዋል</string>
     <string name="toast_custom_tabs_first_run_experience">በChrome ውስጥ የድር ቅንብሮችን መቀየር ይችላሉ</string>
+    <string name="toast_hide">%s በተሳካ ሁኔታ ተደብቋል።</string>
+    <string name="toast_hide_fail">የሆነ ችግር ተፈጥሯል! %s አልተደበቀም።</string>
+    <string name="toast_unhide">%s በተሳካ ሁኔታ እንዳይደበቅ ተደርጓል።</string>
     <string name="today">ዛሬ</string>
     <string name="today_afternoon">ዛሬ ከሰዓት በኋላ</string>
     <string name="today_at_time">ዛሬ %1$s ላይ</string>
     <string name="today_evening">ዛሬ ምሽት</string>
+    <string name="today_event_group_header">ዛሬ</string>
     <string name="today_morning">ዛሬ ጥዋት</string>
     <string name="today_night">ዛሬ ሌሊት</string>
     <string name="today_time">ዛሬ፣ %1$s</string>
@@ -3229,6 +3673,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="tomorrow_time">ነገ፣ %1$s</string>
     <string name="too_many_locations_snackbar_text">እስከ 8 ድረስ ማስቀመጥ ይችላሉ። አንድ አካባቢን ለማስወገድ መታ አድርገው ይያዙት።</string>
     <string name="toolbar_navigation_icon_description">መልሰው ያስሱ</string>
+    <string name="top_contacts_group_header">ዋና እውቂያዎች</string>
     <string name="topdeck">ምግብር</string>
     <string name="topdeck_show_all_cards_summary">በእርስዎ የመጓጓዣ፣ የአየር ሁኔታ እና የአካባቢ መረጃ ላይ ያሉ ዝማኔዎችን በእርስዎ የመነሻ ማያ ገጽ መግብር ላይ ይመልከቱ</string>
     <string name="topdeck_show_all_cards_title">ዝማኔዎችን አሳይ</string>
@@ -3261,6 +3706,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="transit_departure_summary">ከ%1$s ይነሳል (እርምጃ %2$s)</string>
     <string name="transit_enroute_last_walking_step">ወደ መድረሻ ይራመዱ</string>
     <string name="transit_enroute_trip_time_summary">በጉዞ ላይ · %1$s ይድረሱ</string>
+    <string name="transit_eta_msg">%1$s %2$s ላይ</string>
     <string name="transit_line_direction">%1$sን (%2$s) ይውሰዱ</string>
     <string name="transit_line_direction_in_time">በ%3$s ውስጥ %1$sን (%2$s) ይውሰዱ</string>
     <string name="transit_next_line_departure_subtext_no_time">%1$s መድረክ %2$s</string>
@@ -3285,6 +3731,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="transportation_platform">የመሳሪያ ስርዓት</string>
     <string name="transportation_pnr_number">የPNR ቁጥር</string>
     <string name="transportation_reservation_number">ቦታ ማስያዣ ቁጥር</string>
+    <string name="transportation_title">%1$s ወደ %2$s</string>
     <string name="travel_time_home_notification_title">ጊዜ ለቤት</string>
     <string name="travel_time_notification_title">ወደ %1$s የሚወስደው ጊዜ</string>
     <string name="travel_time_to_destination">&lt;b>%1$s&lt;/b> ወደ %2$s</string>
@@ -3337,6 +3784,10 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="unrecognized_format_pin_code">የሚሰራ ፒን ኮድ ያስገቡ</string>
     <string name="unrecognized_format_postal_code">የሚሰራ ኮድ ያስገቡ</string>
     <string name="unrecognized_format_zip_code">የሚሰራ ዚፕ ያስገቡ</string>
+    <string name="unreplied_emails_group_header">ቅድሚያ የሚሰጣቸው ኢሜይሎች</string>
+    <string name="unreplied_group_header">ቅድሚያ የሚሰጠው ውይይት</string>
+    <string name="unreplied_messages_group_header">ቅድሚያ የሚሰጣቸው መልዕክቶች</string>
+    <string name="unsubscribe_button_label">ለደንበኝነት ተመዝግበዋል</string>
     <string name="unsupported_action">ይሄ መሣሪያ የጠየቁትን እርምጃ ሊያከናውን አይችልም።</string>
     <string name="uos_account_picker_content_description">%1$s። መለያ ምርጫ ተቆልቋይ።</string>
     <string name="uos_account_picker_header_text">አንድ መለያ ይምረጡ</string>
@@ -3349,7 +3800,9 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="uos_sign_in_button_text">ግባ</string>
     <string name="uos_sign_in_description">እርስዎን በሚስቡ ርዕሰ ጉዳዮች ላይ ብጁ የፍለጋ ውጤቶችን እና ዝማኔዎችን ያግኙ</string>
     <string name="uos_sign_in_intro">ለመጀመር በመለያ ይግቡ</string>
+    <string name="up">ወደ ላይ አስስ</string>
     <string name="upcoming_bills">%1$s ም</string>
+    <string name="upcoming_event_group_header">በቅርቡ የሚመጡ</string>
     <string name="update_available">ዝማኔ ሊገኝ ይችላል (%1$s)</string>
     <string name="update_cards">አዘምን</string>
     <string name="update_google_play_services_eyes_free_tts">ስላስቸገርንዎ ይቅርታ እንጠይቃለን፣ ነገር ግን አንዳንድ ማሻሻያዎችን አድርገናል። ስልክዎን አስከፍተው ማላቂያውን መቀበል አለብዎት። ከዚያ ድምጽዎን ተጠቅመው ጥሪዎችን ማድረግ፣ መልዕክቶችን መላክ እና ተጨማሪ ነገሮችን ማድረግ ይችላሉ።</string>
@@ -3396,9 +3849,12 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="user_defined_action_add_ends_with_action">ማህደረመረጃ አክል</string>
     <string name="user_defined_action_add_ends_with_action_no_selection_message">የሚጫወተውን ማህደረ መረጃ እባክዎ ይምረጡ።</string>
     <string name="user_defined_action_add_ends_with_action_what_media">ምን ማህደረ መረጃ መጫወት ይፈልጋሉ?</string>
+    <string name="user_defined_action_delete_confirmation_cancel_text">ይቅር</string>
+    <string name="user_defined_action_delete_confirmation_delete_text">ሰርዝ</string>
     <string name="user_defined_action_delete_confirmation_text">እርግጠኛ ነዎት ይህን እርምጃ መሰረዝ ይፈልጋሉ?</string>
     <string name="user_defined_action_ends_with_category_title">ከዚያ ይህንን አጫውት…</string>
     <string name="user_defined_action_follow_up_trigger_phrase_title">ወይም እንዲህ ስል…</string>
+    <string name="user_defined_action_menu_clear_schedule">መርሐግብርን ሰርዝ</string>
     <string name="user_defined_action_menu_delete_button">ሰርዝ</string>
     <string name="user_defined_action_menu_save_button">አስቀምጥ</string>
     <string name="user_defined_action_original_action_alarm_title">የእኔን ማንቂያ ካሰናበትኩ በኋላ…</string>
@@ -3406,6 +3862,17 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="user_defined_action_popular_shortcuts_title">በጣም ታዋቂ አቋራጮች</string>
     <string name="user_defined_action_reorder_description">በዚህ ዕለታዊ ተግባር ላይ ያሉትን የተግባራት ቅደም-ተከተል ለመለወጥ ይጎትቱ።</string>
     <string name="user_defined_action_reorder_title">ትዕዛዝ ለውጥ</string>
+    <string name="user_defined_action_schedule_back_confirmation_message">የእርስዎ የዕለት ተዕለት ተግባር ጊዜ፣ የቀን ሥርዓተ ጥለት እና ተናጋሪ ካልተመረጡ በቀር አይጀምርም።</string>
+    <string name="user_defined_action_schedule_back_confirmation_title">ይህ መርሐግብር ያልተሟላ ነው</string>
+    <string name="user_defined_action_schedule_editor_clear_message">ይህ መርሐግብር ከዕለታዊ ተግባርዎ ይወገዳል።</string>
+    <string name="user_defined_action_schedule_editor_clear_title">ይህ መርሐግብር ይሰረዝ?</string>
+    <string name="user_defined_action_schedule_editor_days_of_week">የትኛዎቹን ቀናት መደጋገም እንዳለበት ይምረጡ</string>
+    <string name="user_defined_action_schedule_editor_notify">ሲጀምር በእርስዎ ስልክ ላይ እንዲያውቁት ይደረጉ</string>
+    <string name="user_defined_action_schedule_editor_select_speaker">ተናጋሪ ይምረጡ</string>
+    <string name="user_defined_action_schedule_editor_select_time">የቀን ሰዓት ይምረጡ</string>
+    <string name="user_defined_action_schedule_editor_speaker">የትኛው ተናጋሪ እንደሚጀምረው ይምረጡ</string>
+    <string name="user_defined_action_schedule_editor_time">ለዚህ የተለመደ ተግባር ሰዓት ይምረጡ</string>
+    <string name="user_defined_action_schedule_editor_title">ሰዓት እና ቀን ያቀናብሩ</string>
     <string name="user_defined_action_target_command_hint">Google ረዳት ይህን ማድረግ አለበት፦</string>
     <string name="user_defined_action_task_custom_query_abandon_button">ለውጦችን ጣላቸው</string>
     <string name="user_defined_action_task_custom_query_query_required">ይህን እርምጃ ከማስቀመጥዎ በፊት የGoogle ረዳት ትዕዛዝን ማስገባት አለብዎት።</string>
@@ -3455,17 +3922,23 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="user_defined_action_task_volume_notification_summary">ይህ ድርጊት ከእርስዎ Android ስልክ ላይ ይህን የዕለት ተዕለት ድርጊት ሲጠቀሙ ብቻ ይሠራል</string>
     <string name="user_defined_action_task_volume_notification_title">የደዋይ እና ማሳወቂያ ድምጽ መጠን</string>
     <string name="user_defined_action_task_volume_title">የድምጽ መጠን ያቀናብሩ</string>
+    <string name="user_defined_action_trigger_multiple_title">መቼ…</string>
+    <string name="user_defined_action_trigger_multiple_title_phrases">%1$s እላለሁ</string>
+    <string name="user_defined_action_trigger_multiple_title_time_and_day">ወይም %1$s በ%2$s ላይ ነው</string>
     <string name="user_defined_action_trigger_phrase_in_use">«%1$s» አስቀድሞ አለ።</string>
     <string name="user_defined_action_trigger_phrase_title">እንዲህ ስል…</string>
     <string name="user_defined_action_trigger_phrase_validation_failed">ይህን የመቀስቀሻ ሐረግ ማረጋገጥ አልተቻለም። እባክዎ እንደገና ይሞክሩ።</string>
     <string name="user_defined_action_workflow_deleting">መደበኛ ሥራን በመሰረዝ ላይ</string>
     <string name="user_defined_action_workflow_duplicate_command_phrase">ትዕዛዝ «%1$s» አስቀድሞ ስራ ላይ ውሏል። እባክዎ ሌላ አንድ ይምረጡ።</string>
     <string name="user_defined_action_workflow_edit_command_phrases">ትዕዛዞችን ያርትዑ</string>
+    <string name="user_defined_action_workflow_empty_schedule">ሰዓት እና ቀን ያቀናብሩ (ግድ ያልሆነ)</string>
     <string name="user_defined_action_workflow_many_command_phrases">«%1$s» ወይም «%2$s» ወይም …</string>
     <string name="user_defined_action_workflow_new">አዲስ ዕለታዊ ተግባር</string>
     <string name="user_defined_action_workflow_no_actions">ምንም እርምጃዎች የሉም</string>
+    <string name="user_defined_action_workflow_no_command_phrases">ትዕዛዞችን ያክሉ (አስፈላጊ)</string>
     <string name="user_defined_action_workflow_one_command_phrase">«%1$s»</string>
     <string name="user_defined_action_workflow_saving">መደበኛ ሥራን በማስቀመጥ ላይ</string>
+    <string name="user_defined_action_workflow_schedule_day_name_separator">", "</string>
     <string name="user_defined_action_workflow_two_command_phrases">«%1$s» ወይም «%2$s»</string>
     <string name="user_review_histogram_ic_user_rating">ድምር ደረጃ አሰጣጥ የሰዎች ብዛት</string>
     <string name="user_reviews_read_all_header">ሁሉንም ያንብቡ</string>
@@ -3494,6 +3967,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="verify_device_sub_heading">ይህን ኮድ በእርስዎ መሣሪያ ላይ ያረጋግጡት። ይሄ ማለት ትክክለኛውን መሣሪያ እያዋቀሩት ነው ማለት ነው።</string>
     <string name="verify_device_title">ኮዱ ይታየዎታል?</string>
     <string name="versus">ከ</string>
+    <string name="video_group_header">ቪዲዮዎች</string>
     <string name="video_preference_title">ቪድዮ</string>
     <string name="video_preview_autoplay_on_mobile_data_title">አውታረ መረብ</string>
     <string name="video_preview_autoplay_on_wifi_preference_desc">በWi-Fi ላይ የቪዲዮ ቅድመ-ዕይታዎችን በራስ-ሰር አጫውት</string>
@@ -3502,10 +3976,11 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="video_suggestion_message">ይህን ከዚህ በፊት ተመልክተውታል፣ እና እየተየቡት ካለው ነገር ጋር የሚዛመድ ነው። በሁሉም መሣሪያዎችዎ ላይ ከእርስዎ እይታና የፍለጋ ታሪክ ለማስወገድ ወደ &lt;b>%s&lt;/b> ይሂዱ።</string>
     <string name="video_watch_on_youtube">በYouTube ላይ ይመልከቱ</string>
     <string name="videos_mode_landing_text">ቪዲዮዎችን ይፈልጉ</string>
+    <string name="view_all_items_a11y_action">ሁሉንም ንጥሎች ይመልከቱ</string>
     <string name="view_all_of_interest_button">ሁሉንም አሳይ (%1$d)</string>
     <string name="view_email">ኢሜይል ይመልከቱ</string>
     <string name="violent">የጥቃት</string>
-    <string name="visual_search">ምስላዊ ፍለጋ</string>
+    <string name="visit_website">ድር ጣቢያ ጎብኝ</string>
     <string name="voiceSearchPreferences">የድምፅ ፍለጋ ቅንብሮች</string>
     <string name="voice_ime_language_auto">ራስ-ሰር</string>
     <string name="voice_language_preference_change">ለድምጽ ትዕዛዞች የሚሆነው የእርስዎ ቋንቋ ወደ %s ተለውጧል</string>
@@ -3522,6 +3997,9 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="vs_hint_tap_to_cancel">ለመሰረዝ መታ ያድርጉ</string>
     <string name="vs_hint_tap_to_finish">ለመጨረስ መታ ያድርጉ</string>
     <string name="vs_hint_tap_to_speak">የድምጽ ፍለጋ አዝራር፣ ለመናገር መታ ያድርጉ</string>
+    <string name="waa_in_accept">ቅንብሮች</string>
+    <string name="waa_in_message">በእርስዎ የማዳመጥ ታሪክ ላይ በመመስረት ግላዊነት የተላበሱ ምክሮችን ለማግኘት የድር እና መተግበሪያ እንቅስቃሴን ያብሩ።</string>
+    <string name="waa_in_reject">አሰናብት</string>
     <string name="wallet_buy_button_place_holder">በGoogle ይግዙ</string>
     <string name="wallpaper_accessibility_name">"ልጣፍ  %1$d የ%2$d"</string>
     <string name="wallpaper_button_text">የግድግዳ ወረቀቶች</string>
@@ -3538,6 +4016,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="weather_title">%1$s በ%2$s ውስጥ</string>
     <string name="weather_title_for_alias">በ%2$s ላይ %1$s</string>
     <string name="web_display_name">ድር ጣቢያ</string>
+    <string name="web_history_group_header">ድር</string>
     <string name="web_mode_landing_text">ድሩን ይፈልጉ</string>
     <string name="web_search_connection_error">የፍለጋ ውጤቶችን መጫን አልተቻለም</string>
     <string name="web_suggest_updating">በማዘመን ላይ...</string>
@@ -3579,6 +4058,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="yesterday_morning">ትናንት ጥዋት</string>
     <string name="yesterday_night">ትናንት ሌሊት</string>
     <string name="yesterday_time">ትላንትና፣ %1$s</string>
+    <string name="you_are_offline">እርስዎ ከመስመር ውጭ ነዎት። ተጨማሪ ውጤቶችን ለማግኘት መስመር ላይ ይሁኑ።</string>
     <string name="your_bus_reservation">አውቶቡስ ላይ ያስያዙት ቦታ</string>
     <string name="your_location_search_menu_text">የእርስዎ አካባቢ</string>
     <string name="your_train_reservation">ባቡር ላይ ያስያዙት ቦታ</string>

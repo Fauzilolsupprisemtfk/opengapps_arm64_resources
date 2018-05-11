@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.google.android.apps.gsa.staticplugins.quartz.monet.shared.ui.baselinetextview.BaselineTextView android:textColor="@color/quartz_rating_color" android:layout_gravity="center_vertical" android:id="@id/quartz_ganache_rating_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Quartz.Text.T10" />
-    <com.google.android.apps.gsa.staticplugins.quartz.monet.shared.ratingbarcompat.RatingBarCompat android:layout_gravity="center_vertical" android:id="@id/quartz_ganache_rating_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:stepSize="0.5" android:isIndicator="true" android:layout_marginStart="@dimen/quartz_padding_to_image" app:progressTint="@color/quartz_rating_color" app:progressBackgroundTint="@color/quartz_rating_background_color" app:secondaryProgressTint="@android:color/transparent" style="@style/Widget.RatingBar.Compat.Medium" />
-</LinearLayout>

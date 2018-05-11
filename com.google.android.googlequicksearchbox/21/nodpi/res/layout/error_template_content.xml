@@ -5,15 +5,6 @@
     <TextView android:gravity="?suwGlifHeaderGravity" android:id="@id/opa_error_annotation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/opa_error_content_separator" style="@style/Opa.Text.SecondaryMessage" />
     <FrameLayout android:id="@id/opa_error_content_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
         <ImageView android:id="@id/opa_error_illustration" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/opa_error_content_separator" />
-        <LinearLayout android:orientation="vertical" android:id="@id/opa_error_image_with_radiogroup" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/opa_error_content_separator">
-            <ImageView android:layout_gravity="center" android:id="@id/image_for_radio" android:layout_width="fill_parent" android:layout_height="144.0dip" android:scaleType="centerInside" />
-            <RadioGroup android:orientation="vertical" android:id="@id/opa_error_radio_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checkedButton="@id/opa_error_first_radio">
-                <RadioButton android:id="@id/opa_error_first_radio" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Opa.Text.RadioText" />
-                <TextView android:id="@id/opa_error_first_radio_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="34.0dip" style="@style/Opa.Text.RadioContent" />
-                <RadioButton android:id="@id/opa_error_second_radio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" style="@style/Opa.Text.RadioText" />
-                <TextView android:id="@id/opa_error_second_radio_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="34.0dip" style="@style/Opa.Text.RadioContent" />
-            </RadioGroup>
-        </LinearLayout>
         <RelativeLayout android:gravity="center" android:id="@id/opa_error_animation_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/opa_error_content_separator">
             <com.airbnb.lottie.LottieAnimationView android:gravity="center" android:id="@id/opa_error_animation_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
         </RelativeLayout>

@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d дн. назад</item>
+        <item quantity="one">%d дн. назад</item>
+        <item quantity="few">%d дн. назад</item>
+        <item quantity="many">%d дн. назад</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d мин. назад</item>
+        <item quantity="one">%d мин. назад</item>
+        <item quantity="few">%d мин. назад</item>
+        <item quantity="many">%d мин. назад</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d г. назад</item>
+        <item quantity="one">%d г. назад</item>
+        <item quantity="few">%d г. назад</item>
+        <item quantity="many">%d лет назад</item>
+    </plurals>
     <plurals name="agenda_card_history_desc">
         <item quantity="other">%d мероприятия</item>
         <item quantity="one">%d мероприятие</item>
@@ -53,6 +71,18 @@
         <item quantity="one">раз в %d день</item>
         <item quantity="few">раз в %d дня</item>
         <item quantity="many">раз в %d дней</item>
+    </plurals>
+    <plurals name="daysAgo">
+        <item quantity="other">%1$d дн. назад</item>
+        <item quantity="one">%1$d д. назад</item>
+        <item quantity="few">%1$d дн. назад</item>
+        <item quantity="many">%1$d дн. назад</item>
+    </plurals>
+    <plurals name="days_left_to_remove_downloads">
+        <item quantity="other">Через %1$d дня</item>
+        <item quantity="one">Через %1$d день</item>
+        <item quantity="few">Через %1$d дня</item>
+        <item quantity="many">Через %1$d дней</item>
     </plurals>
     <plurals name="device_count">
         <item quantity="other">%1$d устройства</item>
@@ -138,6 +168,30 @@
         <item quantity="few">; %d раза</item>
         <item quantity="many">; %d раз</item>
     </plurals>
+    <plurals name="episode_list_header_full">
+        <item quantity="other">%1$d выпуска</item>
+        <item quantity="one">%1$d выпуск</item>
+        <item quantity="few">%1$d выпуска</item>
+        <item quantity="many">%1$d выпусков</item>
+    </plurals>
+    <plurals name="favoritesSelected">
+        <item quantity="other">Выбрано %1$d подкаста</item>
+        <item quantity="one">Выбран %1$d подкаст</item>
+        <item quantity="few">Выбраны %1$d подкаста</item>
+        <item quantity="many">Выбрано %1$d подкастов</item>
+    </plurals>
+    <plurals name="hoursAgo">
+        <item quantity="other">%1$d ч. назад</item>
+        <item quantity="one">%1$d ч. назад</item>
+        <item quantity="few">%1$d ч. назад</item>
+        <item quantity="many">%1$d ч. назад</item>
+    </plurals>
+    <plurals name="hours_left_to_remove_downloads">
+        <item quantity="other">Через %1$d часа</item>
+        <item quantity="one">Через %1$d час</item>
+        <item quantity="few">Через %1$d часа</item>
+        <item quantity="many">Через %1$d часов</item>
+    </plurals>
     <plurals name="items_from_without_colon">
         <item quantity="other">%1$d элемента из</item>
         <item quantity="one">%1$d элемент из</item>
@@ -197,6 +251,18 @@
         <item quantity="one">На %1$d мин. больше обычного</item>
         <item quantity="few">На %1$d мин. больше обычного</item>
         <item quantity="many">На %1$d мин. больше обычного</item>
+    </plurals>
+    <plurals name="minutesAgo">
+        <item quantity="other">%1$d мин. назад</item>
+        <item quantity="one">%1$d мин. назад</item>
+        <item quantity="few">%1$d мин. назад</item>
+        <item quantity="many">%1$d мин. назад</item>
+    </plurals>
+    <plurals name="minutes_left">
+        <item quantity="other">Осталось %1$d минуты</item>
+        <item quantity="one">Осталась %1$d минута</item>
+        <item quantity="few">Осталось %1$d минуты</item>
+        <item quantity="many">Осталось %1$d минут</item>
     </plurals>
     <plurals name="monthly_interval">
         <item quantity="other">Раз в %1$d месяца</item>
@@ -336,6 +402,12 @@
         <item quantity="few">%1$d места</item>
         <item quantity="many">%1$d мест</item>
     </plurals>
+    <plurals name="unsubscribed_favorites">
+        <item quantity="other">%1$dВы отписались от %1$d подкаста</item>
+        <item quantity="one">%1$dВы отписались от %1$d подкаста</item>
+        <item quantity="few">%1$dВы отписались от %1$d подкастов</item>
+        <item quantity="many">%1$dВы отписались от %1$d подкастов</item>
+    </plurals>
     <plurals name="user_defined_action_task_music_duration_display">
         <item quantity="other">%1$d минуты</item>
         <item quantity="one">%1$d минута</item>
@@ -347,6 +419,18 @@
         <item quantity="one">%1$d°</item>
         <item quantity="few">%1$d°</item>
         <item quantity="many">%1$d°</item>
+    </plurals>
+    <plurals name="user_defined_action_task_set_temperature_temperature_display_c">
+        <item quantity="other">%1$d °C</item>
+        <item quantity="one">%1$d °C</item>
+        <item quantity="few">%1$d °C</item>
+        <item quantity="many">%1$d °C</item>
+    </plurals>
+    <plurals name="user_defined_action_task_set_temperature_temperature_display_f">
+        <item quantity="other">%1$d °F</item>
+        <item quantity="one">%1$d °F</item>
+        <item quantity="few">%1$d °F</item>
+        <item quantity="many">%1$d °F</item>
     </plurals>
     <plurals name="user_defined_action_workflow_num_actions">
         <item quantity="other">%1$d действия</item>

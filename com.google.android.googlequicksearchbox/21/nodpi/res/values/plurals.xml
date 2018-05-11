@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d days ago</item>
+        <item quantity="one">%d day ago</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d min ago</item>
+        <item quantity="one">%d min ago</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d yr ago</item>
+        <item quantity="one">%d yr ago</item>
+    </plurals>
     <plurals name="agenda_card_history_desc">
         <item quantity="other">%d events</item>
         <item quantity="one">%d event</item>
@@ -274,6 +286,10 @@
         <item quantity="zero">No photos</item>
         <item quantity="one">%d photo</item>
     </plurals>
+    <plurals name="quartz_shopping_cart_quantity">
+        <item quantity="other">%s items</item>
+        <item quantity="one">%s item</item>
+    </plurals>
     <plurals name="recurrence_end_count">
         <item quantity="other">For %d events</item>
         <item quantity="one">For %d event</item>
@@ -337,6 +353,14 @@
     <plurals name="user_defined_action_task_set_temperature_temperature_display">
         <item quantity="other">%1$d°</item>
         <item quantity="one">%1$d°</item>
+    </plurals>
+    <plurals name="user_defined_action_task_set_temperature_temperature_display_c">
+        <item quantity="other">%1$d°C</item>
+        <item quantity="one">%1$d°C</item>
+    </plurals>
+    <plurals name="user_defined_action_task_set_temperature_temperature_display_f">
+        <item quantity="other">%1$d°F</item>
+        <item quantity="one">%1$d°F</item>
     </plurals>
     <plurals name="user_defined_action_workflow_num_actions">
         <item quantity="other">%1$d actions</item>

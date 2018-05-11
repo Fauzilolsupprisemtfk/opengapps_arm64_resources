@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">Hai %d días</item>
+        <item quantity="one">Hai %d día</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">Hai %d min</item>
+        <item quantity="one">Hai %d min</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">Hai %d anos</item>
+        <item quantity="one">Hai %d ano</item>
+    </plurals>
     <plurals name="daily">
         <item quantity="other">Cada %d días</item>
         <item quantity="one">Diariamente</item>
@@ -8,9 +20,41 @@
         <item quantity="other">cada %d días</item>
         <item quantity="one">diariamente</item>
     </plurals>
+    <plurals name="daysAgo">
+        <item quantity="other">Hai %1$d días</item>
+        <item quantity="one">Hai %1$d día</item>
+    </plurals>
+    <plurals name="days_left_to_remove_downloads">
+        <item quantity="other">Despois de %1$d días</item>
+        <item quantity="one">Despois de %1$d día</item>
+    </plurals>
     <plurals name="endByCount">
         <item quantity="other">; %d veces</item>
         <item quantity="one">; unha vez</item>
+    </plurals>
+    <plurals name="episode_list_header_full">
+        <item quantity="other">%1$d episodios</item>
+        <item quantity="one">%1$d episodio</item>
+    </plurals>
+    <plurals name="favoritesSelected">
+        <item quantity="other">%1$d podcasts seleccionados</item>
+        <item quantity="one">%1$d podcast seleccionado</item>
+    </plurals>
+    <plurals name="hoursAgo">
+        <item quantity="other">Hai %1$d horas</item>
+        <item quantity="one">Hai %1$d hora</item>
+    </plurals>
+    <plurals name="hours_left_to_remove_downloads">
+        <item quantity="other">Despois de %1$d horas</item>
+        <item quantity="one">Despois de %1$d hora</item>
+    </plurals>
+    <plurals name="minutesAgo">
+        <item quantity="other">Hai %1$d minutos</item>
+        <item quantity="one">Hai %1$d minuto</item>
+    </plurals>
+    <plurals name="minutes_left">
+        <item quantity="other">Quedan %1$d min</item>
+        <item quantity="one">Queda %1$d min</item>
     </plurals>
     <plurals name="monthly_interval">
         <item quantity="other">Cada %1$d meses</item>
@@ -43,6 +87,10 @@
     <plurals name="recurrence_interval_yearly">
         <item quantity="other">Cada %d anos</item>
         <item quantity="one">Cada %d ano</item>
+    </plurals>
+    <plurals name="unsubscribed_favorites">
+        <item quantity="other">%1$dCancelaches a subscrición de %1$d podcasts</item>
+        <item quantity="one">%1$dCancelaches a subscrición de 1 podcast</item>
     </plurals>
     <plurals name="weekly">
         <item quantity="other">Cada %1$d semanas o %2$s</item>

@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">pred %d dnevi</item>
+        <item quantity="one">pred %d dnem</item>
+        <item quantity="two">pred %d dnevoma</item>
+        <item quantity="few">pred %d dnevi</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">pred %d minutami</item>
+        <item quantity="one">pred %d minuto</item>
+        <item quantity="two">pred %d minutama</item>
+        <item quantity="few">pred %d minutami</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">pred %d leti</item>
+        <item quantity="one">pred %d letom</item>
+        <item quantity="two">pred %d letoma</item>
+        <item quantity="few">pred %d leti</item>
+    </plurals>
     <plurals name="agenda_card_history_desc">
         <item quantity="other">%d dogodkov</item>
         <item quantity="one">%d dogodek</item>
@@ -53,6 +71,18 @@
         <item quantity="one">vsak %d. dan</item>
         <item quantity="two">vsak %d. dan</item>
         <item quantity="few">vsak %d. dan</item>
+    </plurals>
+    <plurals name="daysAgo">
+        <item quantity="other">Pred %1$d dnevi</item>
+        <item quantity="one">Pred %1$d dnevom</item>
+        <item quantity="two">Pred %1$d dnevoma</item>
+        <item quantity="few">Pred %1$d dnevi</item>
+    </plurals>
+    <plurals name="days_left_to_remove_downloads">
+        <item quantity="other">Po %1$d dnevih</item>
+        <item quantity="one">Po %1$d dnevu</item>
+        <item quantity="two">Po %1$d dnevih</item>
+        <item quantity="few">Po %1$d dnevih</item>
     </plurals>
     <plurals name="device_count">
         <item quantity="other">%1$d naprav</item>
@@ -138,6 +168,30 @@
         <item quantity="two">– %d-krat</item>
         <item quantity="few">– %d-krat</item>
     </plurals>
+    <plurals name="episode_list_header_full">
+        <item quantity="other">%1$d epizod</item>
+        <item quantity="one">%1$d epizoda</item>
+        <item quantity="two">%1$d epizodi</item>
+        <item quantity="few">%1$d epizode</item>
+    </plurals>
+    <plurals name="favoritesSelected">
+        <item quantity="other">%1$d izbranih poddaj</item>
+        <item quantity="one">%1$d izbrana poddaja</item>
+        <item quantity="two">%1$d izbrani poddaji</item>
+        <item quantity="few">%1$d izbrane poddaje</item>
+    </plurals>
+    <plurals name="hoursAgo">
+        <item quantity="other">Pred %1$d urami</item>
+        <item quantity="one">Pred %1$d uro</item>
+        <item quantity="two">Pred %1$d urama</item>
+        <item quantity="few">Pred %1$d urami</item>
+    </plurals>
+    <plurals name="hours_left_to_remove_downloads">
+        <item quantity="other">Po %1$d urah</item>
+        <item quantity="one">Po %1$d uri</item>
+        <item quantity="two">Po %1$d urah</item>
+        <item quantity="few">Po %1$d urah</item>
+    </plurals>
     <plurals name="items_from_without_colon">
         <item quantity="other">%1$d elementov od</item>
         <item quantity="one">%1$d element od</item>
@@ -197,6 +251,18 @@
         <item quantity="one">%1$d min več kot običajno</item>
         <item quantity="two">%1$d min več kot običajno</item>
         <item quantity="few">%1$d min več kot običajno</item>
+    </plurals>
+    <plurals name="minutesAgo">
+        <item quantity="other">Pred %1$d min</item>
+        <item quantity="one">Pred %1$d min</item>
+        <item quantity="two">Pred %1$d min</item>
+        <item quantity="few">Pred %1$d min</item>
+    </plurals>
+    <plurals name="minutes_left">
+        <item quantity="other">Še %1$d min</item>
+        <item quantity="one">Še %1$d min</item>
+        <item quantity="two">Še %1$d min</item>
+        <item quantity="few">Še %1$d min</item>
     </plurals>
     <plurals name="monthly_interval">
         <item quantity="other">Vsak %1$d. mesec</item>
@@ -336,6 +402,12 @@
         <item quantity="two">%1$d sedeža</item>
         <item quantity="few">%1$d sedeži</item>
     </plurals>
+    <plurals name="unsubscribed_favorites">
+        <item quantity="other">%1$dOdjavili ste se od %1$d poddaj</item>
+        <item quantity="one">%1$dOdjavili ste se od %1$d poddaje</item>
+        <item quantity="two">%1$dOdjavili ste se od %1$d poddaj</item>
+        <item quantity="few">%1$dOdjavili ste se od %1$d poddaj</item>
+    </plurals>
     <plurals name="user_defined_action_task_music_duration_display">
         <item quantity="other">%1$d min</item>
         <item quantity="one">%1$d min</item>
@@ -347,6 +419,18 @@
         <item quantity="one">%1$d °</item>
         <item quantity="two">%1$d °</item>
         <item quantity="few">%1$d °</item>
+    </plurals>
+    <plurals name="user_defined_action_task_set_temperature_temperature_display_c">
+        <item quantity="other">%1$d °C</item>
+        <item quantity="one">%1$d °C</item>
+        <item quantity="two">%1$d °C</item>
+        <item quantity="few">%1$d °C</item>
+    </plurals>
+    <plurals name="user_defined_action_task_set_temperature_temperature_display_f">
+        <item quantity="other">%1$d °F</item>
+        <item quantity="one">%1$d °F</item>
+        <item quantity="two">%1$d °F</item>
+        <item quantity="few">%1$d °F</item>
     </plurals>
     <plurals name="user_defined_action_workflow_num_actions">
         <item quantity="other">%1$d dejanj</item>

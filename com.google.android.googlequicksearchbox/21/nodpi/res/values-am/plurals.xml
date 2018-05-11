@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d ቀናት በፊት</item>
+        <item quantity="one">%d ቀናት በፊት</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d ደቂቃ በፊት</item>
+        <item quantity="one">%d ደቂቃ በፊት</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d ዓመት በፊት</item>
+        <item quantity="one">%d ዓመት በፊት</item>
+    </plurals>
     <plurals name="agenda_card_history_desc">
         <item quantity="other">%d ክስተቶች</item>
         <item quantity="one">%d ክስተቶች</item>
@@ -35,6 +47,14 @@
     <plurals name="daily_lower">
         <item quantity="other">በየ%d ቀኑ</item>
         <item quantity="one">በየ%d ቀኑ</item>
+    </plurals>
+    <plurals name="daysAgo">
+        <item quantity="other">ከ%1$d ቀኖች በፊት</item>
+        <item quantity="one">ከ%1$d ቀኖች በፊት</item>
+    </plurals>
+    <plurals name="days_left_to_remove_downloads">
+        <item quantity="other">ከ%1$d ቀኖች በኋላ</item>
+        <item quantity="one">ከ%1$d ቀኖች በኋላ</item>
     </plurals>
     <plurals name="device_count">
         <item quantity="other">%1$d መሣሪያዎች</item>
@@ -92,6 +112,22 @@
         <item quantity="other">; ለ %d ጊዜ</item>
         <item quantity="one">; ለ %d ጊዜ</item>
     </plurals>
+    <plurals name="episode_list_header_full">
+        <item quantity="other">%1$d ክፍሎች</item>
+        <item quantity="one">%1$d ክፍሎች</item>
+    </plurals>
+    <plurals name="favoritesSelected">
+        <item quantity="other">%1$d ፖድካስቶች ተመርጠዋል</item>
+        <item quantity="one">%1$d ፖድካስቶች ተመርጠዋል</item>
+    </plurals>
+    <plurals name="hoursAgo">
+        <item quantity="other">ከ%1$d ሰዓቶች በፊት</item>
+        <item quantity="one">ከ%1$d ሰዓቶች በፊት</item>
+    </plurals>
+    <plurals name="hours_left_to_remove_downloads">
+        <item quantity="other">ከ%1$d ሰዓቶች በኋላ</item>
+        <item quantity="one">ከ%1$d ሰዓቶች በኋላ</item>
+    </plurals>
     <plurals name="items_from_without_colon">
         <item quantity="other">%1$d ንጥሎች ከ</item>
         <item quantity="one">%1$d ንጥሎች ከ</item>
@@ -131,6 +167,14 @@
     <plurals name="mins_delay_more_than_usual">
         <item quantity="other">ከወትሮው በበለጠ%1$d ደቂቃዎች ጨምሯል</item>
         <item quantity="one">ከወትሮው በበለጠ%1$d ደቂቃዎች ጨምሯል</item>
+    </plurals>
+    <plurals name="minutesAgo">
+        <item quantity="other">ከ%1$d ደቂቃዎች በፊት</item>
+        <item quantity="one">ከ%1$d ደቂቃዎች በፊት</item>
+    </plurals>
+    <plurals name="minutes_left">
+        <item quantity="other">%1$d ደቂቃዎች ይቀራሉ</item>
+        <item quantity="one">%1$d ደቂቃዎች ይቀራሉ</item>
     </plurals>
     <plurals name="monthly_interval">
         <item quantity="other">በየ%1$d ወሩ</item>
@@ -224,6 +268,10 @@
         <item quantity="other">%1$d መቀመጫዎች</item>
         <item quantity="one">%1$d መቀመጫዎች</item>
     </plurals>
+    <plurals name="unsubscribed_favorites">
+        <item quantity="other">%1$dከ%1$d የፖድካስቶች ደንበኝነት ምዝገባዎች ወጥተዋል</item>
+        <item quantity="one">%1$dከ%1$d የፖድካስቶች ደንበኝነት ምዝገባዎች ወጥተዋል</item>
+    </plurals>
     <plurals name="user_defined_action_task_music_duration_display">
         <item quantity="other">%1$d ደቂቃዎች</item>
         <item quantity="one">%1$d ደቂቃዎች</item>
@@ -231,6 +279,14 @@
     <plurals name="user_defined_action_task_set_temperature_temperature_display">
         <item quantity="other">%1$d°</item>
         <item quantity="one">%1$d°</item>
+    </plurals>
+    <plurals name="user_defined_action_task_set_temperature_temperature_display_c">
+        <item quantity="other">%1$d°ሴ</item>
+        <item quantity="one">%1$d°ሴ</item>
+    </plurals>
+    <plurals name="user_defined_action_task_set_temperature_temperature_display_f">
+        <item quantity="other">%1$d°ፋ</item>
+        <item quantity="one">%1$d°ፋ</item>
     </plurals>
     <plurals name="user_defined_action_workflow_num_actions">
         <item quantity="other">%1$d እርምጃዎች</item>

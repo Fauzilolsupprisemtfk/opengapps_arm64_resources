@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d 天前</item>
+        <item quantity="one">%d 天前</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d 分鐘前</item>
+        <item quantity="one">%d 分鐘前</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d 年前</item>
+        <item quantity="one">%d 年前</item>
+    </plurals>
     <plurals name="agenda_card_history_desc">
         <item quantity="other">%d 個活動</item>
         <item quantity="one">%d 個活動</item>
@@ -21,8 +33,8 @@
         <item quantity="one">有 %1$d 個裝置尚未指派房間。將裝置加入房間後，你就能使用「打開客廳的電燈」這類語音指令。</item>
     </plurals>
     <plurals name="assistant_settings_home_cloud_services_unlink_dialog_body_has_devices">
-        <item quantity="other">確定要取消連結這個帳戶嗎？這樣做會一併將 %1$d 個相關聯的裝置與 Google 個人助理取消連結。</item>
-        <item quantity="one">確定要取消連結這個帳戶嗎？這樣做會一併將 %1$d 個相關聯的裝置與 Google 個人助理取消連結。</item>
+        <item quantity="other">確定要取消連結這個帳戶嗎？這樣做會一併將 %1$d 個相關聯的裝置與 Google 助理取消連結。</item>
+        <item quantity="one">確定要取消連結這個帳戶嗎？這樣做會一併將 %1$d 個相關聯的裝置與 Google 助理取消連結。</item>
     </plurals>
     <plurals name="card_count">
         <item quantity="other">%1$d 張卡片</item>
@@ -35,6 +47,14 @@
     <plurals name="daily_lower">
         <item quantity="other">每 %d 天</item>
         <item quantity="one">每天</item>
+    </plurals>
+    <plurals name="daysAgo">
+        <item quantity="other">%1$d 天前</item>
+        <item quantity="one">%1$d 天前</item>
+    </plurals>
+    <plurals name="days_left_to_remove_downloads">
+        <item quantity="other">%1$d 天後</item>
+        <item quantity="one">%1$d 天後</item>
     </plurals>
     <plurals name="device_count">
         <item quantity="other">%1$d 個裝置</item>
@@ -92,6 +112,22 @@
         <item quantity="other">；%d 次</item>
         <item quantity="one">；1 次</item>
     </plurals>
+    <plurals name="episode_list_header_full">
+        <item quantity="other">%1$d 集</item>
+        <item quantity="one">%1$d 集</item>
+    </plurals>
+    <plurals name="favoritesSelected">
+        <item quantity="other">已選取 %1$d 個 Podcast</item>
+        <item quantity="one">已選取 %1$d 個 Podcast</item>
+    </plurals>
+    <plurals name="hoursAgo">
+        <item quantity="other">%1$d 小時前</item>
+        <item quantity="one">%1$d 小時前</item>
+    </plurals>
+    <plurals name="hours_left_to_remove_downloads">
+        <item quantity="other">%1$d 小時後</item>
+        <item quantity="one">%1$d 小時後</item>
+    </plurals>
     <plurals name="items_from_without_colon">
         <item quantity="other">%1$d 項商品，供貨商家：</item>
         <item quantity="one">%1$d 項商品，供貨商家：</item>
@@ -131,6 +167,14 @@
     <plurals name="mins_delay_more_than_usual">
         <item quantity="other">比平常慢 %1$d 分鐘</item>
         <item quantity="one">比平常慢 1 分鐘</item>
+    </plurals>
+    <plurals name="minutesAgo">
+        <item quantity="other">%1$d 分鐘前</item>
+        <item quantity="one">%1$d 分鐘前</item>
+    </plurals>
+    <plurals name="minutes_left">
+        <item quantity="other">還剩 %1$d 分鐘</item>
+        <item quantity="one">還剩 %1$d 分鐘</item>
     </plurals>
     <plurals name="monthly_interval">
         <item quantity="other">每 %1$d 個月</item>
@@ -224,6 +268,10 @@
         <item quantity="other">%1$d 個座位</item>
         <item quantity="one">1 個座位</item>
     </plurals>
+    <plurals name="unsubscribed_favorites">
+        <item quantity="other">%1$d你已取消訂閱 %1$d 個 Podcast</item>
+        <item quantity="one">%1$d你已取消訂閱 1 個 Podcast</item>
+    </plurals>
     <plurals name="user_defined_action_task_music_duration_display">
         <item quantity="other">%1$d 分鐘</item>
         <item quantity="one">%1$d 分鐘</item>
@@ -231,6 +279,14 @@
     <plurals name="user_defined_action_task_set_temperature_temperature_display">
         <item quantity="other">%1$d°</item>
         <item quantity="one">%1$d°</item>
+    </plurals>
+    <plurals name="user_defined_action_task_set_temperature_temperature_display_c">
+        <item quantity="other">%1$d°C</item>
+        <item quantity="one">%1$d°C</item>
+    </plurals>
+    <plurals name="user_defined_action_task_set_temperature_temperature_display_f">
+        <item quantity="other">%1$d°F</item>
+        <item quantity="one">%1$d°F</item>
     </plurals>
     <plurals name="user_defined_action_workflow_num_actions">
         <item quantity="other">%1$d 個動作</item>

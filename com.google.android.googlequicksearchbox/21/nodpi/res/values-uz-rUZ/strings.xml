@@ -31,7 +31,6 @@
     <string name="accessibility_see_results_on_google">Google qidiruvi natijalarini ko‘rish</string>
     <string name="accessibility_select">Ekrandagi matnni belgilash</string>
     <string name="accessibility_share">Ekranni namoyish qilish</string>
-    <string name="accessibility_visual_search_button">Vizual qidiruv</string>
     <string name="accessibility_voice_search_button">Ovozli qidiruv</string>
     <string name="account_item">%1$s hisobiga o‘tish</string>
     <string name="account_list">Hisoblar ro‘yxati</string>
@@ -143,7 +142,9 @@
     <string name="add_your_relationship_subject">%2$s – %1$s deb eslab qolinsinmi?</string>
     <string name="additional_stock_query_string">aksiya</string>
     <string name="address_cancel_button">Hozir emas</string>
+    <string name="address_error">Bu manzil tasdiqlanmadi.</string>
     <string name="address_explanation">Manzilingizdan yetkazib berish, tirbandlik va mahalliy ob-havo ma’lumoti kabi xizmatlar uchun foydalaniladi</string>
+    <string name="address_hint">Manzilingizni kiriting</string>
     <string name="address_title">Manzilingizni kiriting</string>
     <string name="ads_badge">Reklamalar</string>
     <string name="agenda_calendar_next_template">Keyingi tadbir: %1$s, %2$s</string>
@@ -162,6 +163,7 @@
     <string name="agenda_eyes_free_list_last_two_items">“%1$s” va “%2$s”</string>
     <string name="agenda_eyes_free_timed_event">%1$s – %2$s.</string>
     <string name="agenda_eyes_free_timed_event_with_day">%1$s, %2$s: %3$s.</string>
+    <string name="agenda_hub_title">Kelgusi</string>
     <string name="agent_bookmark_added">Xatcho‘plarga saqlandi</string>
     <string name="agent_bookmark_error">Xatolik yuz berdi. Keyinroq qayta urining.</string>
     <string name="agent_bookmark_removed">Xatcho‘plardan olib tashlandi</string>
@@ -190,10 +192,11 @@
     <string name="agent_directory_music_unable_unlink_default">Asosiy musiq xizmatini uzib bo‘lmadi</string>
     <string name="agent_directory_no_results">“%1$s” bo‘yicha hech narsa topilmadi</string>
     <string name="agent_directory_no_thanks">Kerak emas</string>
+    <string name="agent_directory_send_to_device_text">Qurilmaga yuborish</string>
     <string name="agent_directory_settings_manage">Sozlash</string>
     <string name="agent_directory_settings_text">Sozlamalar</string>
     <string name="agent_directory_share">Ulashish</string>
-    <string name="agent_directory_shortcuts_create">qo‘shish</string>
+    <string name="agent_directory_shortcuts_create">Yangi qo‘shish</string>
     <string name="agent_directory_shortcuts_manage">Tezkor tugmalarni boshqarish</string>
     <string name="agent_directory_shortcuts_subtitle">%1$s uchun tezkor tugmalarni sozlang</string>
     <string name="agent_directory_shortcuts_title">%1$s uchun tezkor tugmalar</string>
@@ -259,6 +262,9 @@ Davom etish uchun Assistentda bu hisobga almashtiring."</string>
     <string name="app_name">Google ilovasi</string>
     <string name="app_not_available">Ushbu amalni bajaradigan ilova yo‘q</string>
     <string name="app_result_suggestion_content_description" formatted="false">%s sahifasini %s ilovasida ochish.</string>
+    <string name="app_shortcut_desc">Assistent havolasini bosh ekranga chiqarish</string>
+    <string name="app_shortcut_title">Assistentdan oson foydalanish</string>
+    <string name="app_suggestions_header">ILOVALAR</string>
     <string name="appointment_time_range">%1$s – %2$s</string>
     <string name="apps_mode_landing_text">Ilova qidirish</string>
     <string name="arrival_time">Kelish</string>
@@ -490,7 +496,10 @@ Bu ma’lumot asosida Assistent sizga marshrutingiz haqida foydali maslahatlar b
     <string name="assistant_settings_kill_switch_dialog_button">Play Marketga o‘tish</string>
     <string name="assistant_settings_kill_switch_dialog_message">Eng so‘nggi o‘zgarishlarni olish uchun Play Marketga o‘tib, Google ilovasini yangilang</string>
     <string name="assistant_settings_kill_switch_dialog_title">Assistentga bir qancha yangi ko‘nikmalar kerak</string>
+    <string name="assistant_settings_language_availability_display_only_text">Smart displeydagi Assistent faqat %1$s tilida ishlaydi.</string>
+    <string name="assistant_settings_language_availability_display_text">Telefon %2$s orqali tanlangan til va mazkur tillardan foydalanadi. Smart displey esa faqat %1$s tilidan foydalanadi.</string>
     <string name="assistant_settings_language_availability_link">Android til sozlamalari</string>
+    <string name="assistant_settings_language_availability_single_language_display_text">Telefon %2$s orqali tanlangan til va ushbu tildan foydalanadi. Smart displey esa faqat %1$s tilidan foydalanadi.</string>
     <string name="assistant_settings_language_availability_single_language_text">Telefoningizdagi Assistent mazkur tildan va %1$s orqali sozlangan %2$s tilidan foydalanadi.</string>
     <string name="assistant_settings_language_availability_text">Telefoningizdagi Assistent mazkur tillardan va %2$s orqali sozlangan %1$s tilidan foydalanadi.</string>
     <string name="assistant_settings_languages_dialog_title">Tillar</string>
@@ -523,6 +532,7 @@ Bu ma’lumot asosida Assistent sizga marshrutingiz haqida foydali maslahatlar b
     <string name="assistant_settings_music_youtube_premium_dialog_text">Google Home qurilmasida YouTube Music xizmatidan foydalanish uchun YouTube Red obunasi zarur. <a href="http://youtube.com/red">youtube.com/red</a> orqali ro‘yxatdan o‘tish mumkin.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">YouTube Red obunasi zarur</string>
     <string name="assistant_settings_news_provider_delete_button_description">Yangilik manbalaridan %1$s saytini olib tashlash</string>
+    <string name="assistant_settings_news_supports_video">Smart displeylarda video chiqdi</string>
     <string name="assistant_settings_news_title">Yangiliklar</string>
     <string name="assistant_settings_nick_name_not_pronounceable_message">Taxallusingizdagi belgini Assistent talaffuz qila olmaydi. Keyingi bo‘limda qanday talaffuz qilinishini ko‘rsatib bering.</string>
     <string name="assistant_settings_no_device_linked">Voice Match Assistentga ovozingizni tanigandan keyin sizga shaxsiy ma’lumotlar taqdim etishga imkon beradi. 6 kishigacha o‘zlarining shaxsiy taqvim, musiqa va boshqa ma’lumotlarini olishi mumkin.</string>
@@ -592,6 +602,7 @@ Bu ma’lumot asosida Assistent uyga ham, ishga ham bormayotganingizda sizga mar
     <string name="assistant_settings_payments_phone_authentication_frequency_never_description">Agar noodatiy harakat aniqlanmasa</string>
     <string name="assistant_settings_payments_phone_authentication_frequency_not_required">Tasdiqlash talab etilmasin</string>
     <string name="assistant_settings_payments_phone_authentication_mechanism_title">Tasdiqlash uchun barmoq izidan foydalaning</string>
+    <string name="assistant_settings_payments_phone_authentication_page_header">Assistent yordamida amalga oshiriladigan to‘lovlar uchun xavfsizlik sozlamalarini o‘zgartiring.</string>
     <string name="assistant_settings_payments_phone_authentication_section_title">Xarid qilish uchun ruxsat</string>
     <string name="assistant_settings_payments_phone_authentication_title">Xarid qilish uchun ruxsat</string>
     <string name="assistant_settings_payments_save_button_text">Saqlash</string>
@@ -688,6 +699,8 @@ Bu ma’lumot asosida Assistent uyga ham, ishga ham bormayotganingizda sizga mar
     <string name="assistant_settings_shopping_list_title">Xarid ro‘yxati</string>
     <string name="assistant_settings_spell_out_name_not_pronounceable_message">Ingliz alifbosidan foydalaning</string>
     <string name="assistant_settings_stocks">Aksiyalar</string>
+    <string name="assistant_settings_summer_time_mode_availability_clarification" />
+    <string name="assistant_settings_summer_time_mode_availability_description">Yozgi rejim boshlanish sanasi</string>
     <string name="assistant_settings_summer_time_mode_button_summary">Yozgi rejimni yoqadi.</string>
     <string name="assistant_settings_summer_time_mode_button_title">Yozgi rejim</string>
     <string name="assistant_settings_summer_time_mode_title">Yozgi rejim</string>
@@ -754,12 +767,17 @@ Bu ma’lumot asosida Assistent uyga ham, ishga ham bormayotganingizda sizga mar
     <string name="audio_error">Mikrofonni ochib bo‘lmadi.</string>
     <string name="audio_file_access">Audioyozuvlarga kirish</string>
     <string name="audio_file_access_desc">Shaxsiy qaydlar va qayta ishlanmagan ovozlarni tahlil qilish uchun ovozli qaydlardan foydalanish.</string>
+    <string name="audio_rationale_message">Nutqni aniqlash xizmatini taqdim etish uchun audio Googlega yuboriladi. Transkripsiyasi bu ilova bilan ulashiladi.</string>
+    <string name="audio_rationale_message_vaa_enabled">"Nutqni aniqlash xizmatini taqdim etish uchun audio Googlega yuboriladi. Transkripsiyasi bu ilova bilan ulashiladi.
+
+%1$s"</string>
     <string name="auto_update_any_time">"Til paketlari avtomatik yangilansin.
 Sarflangan trafik uchun to‘lov olinishi mumkin."</string>
     <string name="auto_update_language_packs">Avto-yangilash</string>
     <string name="auto_update_never">Til paketlari avtomatik yangilanmasin</string>
     <string name="auto_update_wifi_only">Faqat Wi-Fi orqali yangilansin</string>
     <string name="back">Orqaga</string>
+    <string name="back_of_card_close">Yopish</string>
     <string name="background_notification_onboarding">Oflaynmisiz? Muammo yo‘q. Google ilovasi qidiruvlaringizni eslab qoladi va natijalar tayyor bo‘lgach sizga xabar beradi.</string>
     <string name="background_notification_onboarding_accept">OK</string>
     <string name="background_notification_onboarding_decline">O‘chirib qo‘yish</string>
@@ -779,7 +797,6 @@ Sarflangan trafik uchun to‘lov olinishi mumkin."</string>
     <string name="barcode_image_description">Shtrix-kod tasviri</string>
     <string name="batterysaver_off">Batareya tejagich o‘chiq</string>
     <string name="batterysaver_on">Batareya tejagich yoniq</string>
-    <string name="beta_tag">BETA</string>
     <string name="birthday_message">Siz bugun %1$s soniya yoshdasiz.</string>
     <string name="birthday_today">Bugun tug‘ilgan kuni</string>
     <string name="bisto_onboarding_chip_text">Quloqliklarni sozlashni yakunlash</string>
@@ -790,7 +807,7 @@ Sarflangan trafik uchun to‘lov olinishi mumkin."</string>
     <string name="boarding_pass_flight_number">%1$s %2$s</string>
     <string name="boarding_pass_for_passenger">&lt;b>%1$s&lt;/b> uchun bortga chiqish taloni</string>
     <string name="boarding_pass_frequent_flyer">Doimiy yo‘lovchi raqami</string>
-    <string name="boarding_pass_gate">Darvoza</string>
+    <string name="boarding_pass_gate">Chiqish</string>
     <string name="boarding_pass_group">Guruh</string>
     <string name="boarding_pass_operating_airline">Aviakompaniya: %1$s</string>
     <string name="boarding_pass_passenger">Yo‘lovchi</string>
@@ -814,8 +831,8 @@ Sarflangan trafik uchun to‘lov olinishi mumkin."</string>
     <string name="button_no">Yo‘q</string>
     <string name="button_yes">Ha</string>
     <string name="by_author">Muallif: %1$s</string>
-    <string name="calendar_event_during">%1$s hozir boshlanadi</string>
-    <string name="calendar_event_pre">%1$s tadbiri %2$sdan keyin boshlanadi</string>
+    <string name="calendar_event_during">%1$s: hozir</string>
+    <string name="calendar_event_pre">%1$s: %2$s qoldi</string>
     <string name="calendar_event_pre_static">%1$s – %2$s</string>
     <string name="calendar_event_time_range">%1$s – %2$s</string>
     <string name="calendar_no_title">(Nomsiz)</string>
@@ -865,17 +882,22 @@ Sarflangan trafik uchun to‘lov olinishi mumkin."</string>
     <string name="cloud_search_history_fetch_failed_toast">Sozlamalarni yuklab bo‘lmadi. Keyinroq qaytadan urinib ko‘ring.</string>
     <string name="cloud_search_history_summary_fetching">Sozlamalar yuklanmoqda…</string>
     <string name="collapse_time_to_leave">Ushbu sayohat uchun opsiyalarni yashirish.</string>
+    <string name="collections">Kolleksiyalar</string>
     <string name="comment_hint">Qo‘shimcha fikrlar (ixtiyoriy).</string>
     <string name="common_address_clear_button_label">Tozalash</string>
     <string name="common_address_clear_confirm_button">O‘chirish</string>
     <string name="common_address_edit_title">Manzilini o‘zgartirish</string>
     <string name="common_delete">O‘chirish</string>
     <string name="common_device_assistant_language_title">Yordamchi tili</string>
-    <string name="common_device_id_personal_info_permission_non_screen_devices_summary">Bu qurilmada e-pochta, taqvim, kontaktlar va eslatmalar kabi moslashtirilgan natijalarga ruxsat bering. Shuningdek, qurilmada to‘lovlarga ham ruxsat beriladi. <a href="https://support.google.com/assistant/?p=personal_results">Batafsil</a></string>
+    <string name="common_device_id_personal_info_permission_non_screen_devices_summary">Bu qurilmada e-pochta, taqvim, kontaktlar va eslatmalar kabi moslashtirilgan natijalarga ruxsat bering. Shuningdek, qurilmada to‘lovlarga ham ruxsat beriladi. %1$s</string>
+    <string name="common_device_id_personal_info_permission_screenful_devices_summary">Bu qurilmada suratlar, e-pochta, taqvim, kontaktlar va eslatmalar kabi moslashtirilgan natijalarga ruxsat bering. Shuningdek, qurilmada to‘lovlarga ham ruxsat beriladi. %1$s</string>
     <string name="common_device_notification_permission_summary">Qurilmadagi bildirishnomalar (m-n, eslatmalar). Bildirishnomalar o‘chiq bo‘lsa ham, avvalgidek signal tovushini eshitishingiz va muhim yangilanishlarni olishingiz mumkin.</string>
     <string name="common_device_notification_permission_title">Bildirishnomalar</string>
     <string name="common_device_personal_info_permission_title">Moslashtirilgan natijalar</string>
+    <string name="common_device_personal_suggestion_permission_summary">Bosh ekranda yoki bildirishnomalarda moslashtirilgan natijalar va YouTube tavsiyalari yuborilishiga ruxsat bering. Eslatma: Yaqin-atrofdagilar ham mazkur natijalardan foydalanishi mumkin. %1$s</string>
     <string name="common_device_personal_suggestion_permission_title">Bosh ekran va bildirishnomalar</string>
+    <string name="common_device_youtube_restricted_mode_summary">Nomaqbul sahna va so‘zlari bor bo‘lgan video hamda qo‘shiqlarni berkitish</string>
+    <string name="common_device_youtube_restricted_mode_title">YouTube xavfsiz rejimi</string>
     <string name="common_google_logo">Google logotipi</string>
     <string name="common_google_search_hint">Google Qidiruv</string>
     <string name="common_google_search_label">Google</string>
@@ -884,8 +906,8 @@ Sarflangan trafik uchun to‘lov olinishi mumkin."</string>
     <string name="common_see_updates">YANGILIKLARNI KO‘RISH</string>
     <string name="common_yes">OK</string>
     <string name="commute_eta_msg">%2$s – %1$s</string>
-    <string name="commute_eta_time_hour_minute">%1$s soat %2$s daqiqa</string>
-    <string name="commute_eta_time_minute">%1$s daqiqa</string>
+    <string name="commute_eta_time_hour_minute">%1$s st %2$s daq</string>
+    <string name="commute_eta_time_minute">%1$s daq</string>
     <string name="commute_summary_template">Taxminiy yetib kelish vaqti: %1$s (%2$s)</string>
     <string name="commute_summary_template_no_delay">Taxminiy vaqt: %1$s</string>
     <string name="commute_summary_template_no_delay_with_summary">Taxminiy yetib kelish vaqti: %1$s (%2$s orqali)</string>
@@ -945,6 +967,7 @@ Ushbu suhbatlarni Google hisobingiz sozlamalaridagi %1$s sahifasi orqali ko‘ri
     <string name="contact_selected_find_another_contact">%1$s. Boshqa kontaktni tanlang.</string>
     <string name="contact_selected_find_another_contact_with_relationship">%1$s – %2$s. Boshqa kontaktni tanlang</string>
     <string name="contact_suggestion_message">Mazkur shaxsiy kontakt siz kiritgan matn bilan mos.</string>
+    <string name="contact_suggestions_header">KONTAKTLAR</string>
     <string name="content_stale_ago">%1$s oldin yangilangan</string>
     <string name="copied_to_clipboard">Vaqtinchalik xotiraga nusxa olindi</string>
     <string name="corpus_name_images_animated">GIF</string>
@@ -1025,7 +1048,7 @@ Ushbu suhbatlarni Google hisobingiz sozlamalaridagi %1$s sahifasi orqali ko‘ri
     <string name="departure_time_and_express_class">%1$s (%2$s)</string>
     <string name="departure_time_and_express_class_with_relative_time">%1$s (%2$s – %%s)</string>
     <string name="departure_time_with_relative_time">%1$s (%%s)</string>
-    <string name="description">Huquqiy sabablarga ko‘ra kontent o‘zgarishlarini talab qilish uchun <a href="https://support.google.com/legal/answer/3110420">Huquqiy yordam sahifasini</a> oching.</string>
+    <string name="description">Qoidabuzarlik sababli biror kontentni tahrirlash talabini yuborish uchun <a href="https://support.google.com/legal/answer/3110420">Huquqiy yordam sahifasini</a> oching.</string>
     <string name="device_id_add_device_address_summary">Bu qurilma mahalliy ob-havo, yo‘llardagi tirbandlik, kompaniyalar va boshqa ko‘plab ma’lumotlar haqida aniq javoblar berishi uchun unga aniq joylashuv axborotidan foydalanishga ruxsat zarur.</string>
     <string name="device_id_device_address_clear_dialog_message">"Sizga ob-havo, yo‘llardagi tirbandlik, yaqin-atrofdagi joylar haqida ma’lumot berishi uchun bu qurilmaga uy manzili kerak. Agar uni o‘chirib tashlasangiz, qurilma to‘g‘ri ishlamasligi mumkin.
 Bu qurilmaning asosiy funksiyalaridan foydalanishda taxminiy joylashuv qurilmaning IP manzili bo‘yicha aniqlanadi."</string>
@@ -1154,6 +1177,16 @@ Internet aloqasini tekshiring va qaytadan urining"</string>
     <string name="explore_review_submit">Yuborish</string>
     <string name="explore_review_title">Sharhingiz</string>
     <string name="explore_review_view_pager_indicator_dot_description">%1$d-sahifa, jami: %2$d</string>
+    <string name="eyes_camera_switch_button_description">Kamerani almashtirish</string>
+    <string name="eyes_donate_data_info_button_description">Axborot taqdim etish haqida ma’lumotlarni ko‘rsatish</string>
+    <string name="eyes_donate_data_notification_learn_more">Batafsil</string>
+    <string name="eyes_donate_data_notification_text">Rasmlaringiz yordamida Google xizmatlarini yaxshilashimiz mumkin.</string>
+    <string name="eyes_donate_data_optin_dogfood_label">Dogfood</string>
+    <string name="eyes_donate_data_optin_message">Google mahsulotlarini yaxshilash maqsadida Assistent ichida Lens orqali olingan suratlar odamlar tomonidan tekshirilishiga ruxsat bering.</string>
+    <string name="eyes_donate_data_optin_no_thanks">Kerak emas</string>
+    <string name="eyes_donate_data_optin_ok">OK</string>
+    <string name="eyes_donate_data_optin_title">Lens rasmlarini bizga yuboring</string>
+    <string name="eyes_flash_button_description">Chaqnoqni yoqish/o‘chirish</string>
     <string name="eyes_import_to_keep_suggestion">Google Keepga import qilish</string>
     <string name="eyes_improve_lens_suggestion">Google Lens xizmatini yaxshilashga yordam bering</string>
     <string name="eyes_initial_prompt">Qiziqqanlaringiz ustiga bosing</string>
@@ -1170,6 +1203,9 @@ Internet aloqasini tekshiring va qaytadan urining"</string>
     <string name="eyes_onboarding_camera_permission_denied_settings_button">Sozlamalar</string>
     <string name="eyes_onboarding_camera_permission_denied_title">Lens xatosi</string>
     <string name="eyes_onboarding_message">Google Lens ko‘rinayotgan narsalar haqida tezkor ma’lumotlar berish uchun muntazam tahlil qilib boradi</string>
+    <string name="eyes_onboarding_title_places">Lens yordamida joylar toping</string>
+    <string name="eyes_onboarding_title_products">Lens yordamida mahsulotlar toping</string>
+    <string name="eyes_onboarding_title_text">Lens yordamida matnni skanerlang</string>
     <string name="eyes_remember_this_suggestion">Eslab qolish</string>
     <string name="eyes_request_timed_out_message">Xatolik yuz berdi</string>
     <string name="eyes_share_suggestion">Ulashish</string>
@@ -1194,6 +1230,7 @@ Internet aloqasini tekshiring va qaytadan urining"</string>
     <string name="feedback_edittext_hint">Fikr-mulohaza</string>
     <string name="feedback_legal_help_text">Huquqiy yordam sahifasi</string>
     <string name="feedback_legal_help_url">https://support.google.com/legal/answer/3110420</string>
+    <string name="feedback_link">Fikr-mulohaza</string>
     <string name="feedback_no_text_entered">Xabar yuborishdan oldin fikr-mulohazangizni kriiting.</string>
     <string name="feedback_privacy_text">maxfiylik siyosati</string>
     <string name="feedback_privacy_url">http://www.google.com/intl/%1$s/policies/privacy/</string>
@@ -1259,7 +1296,7 @@ Internet aloqasini tekshiring va qaytadan urining"</string>
     <string name="flight_depart_time">Jo‘nab ketish: %1$s</string>
     <string name="flight_departed_label">Uchib ketdi</string>
     <string name="flight_departs_at_time">Uchish vaqti: %1$s</string>
-    <string name="flight_departure_gate_info">Darvoza: %1$s</string>
+    <string name="flight_departure_gate_info">Chiqish: %1$s</string>
     <string name="flight_departure_info">%1$s – %2$s: %3$sdan keyin uchadi</string>
     <string name="flight_departure_info_now">%1$s – %2$s: hozir uchadi</string>
     <string name="flight_departure_info_static_time">%1$s – %2$s, uchish vaqti: %3$s</string>
@@ -1267,7 +1304,7 @@ Internet aloqasini tekshiring va qaytadan urining"</string>
     <string name="flight_departure_time_info">Uchish vaqti: %1$s</string>
     <string name="flight_estimated_arrival_label">Taxminiy yetib kelish vaqti</string>
     <string name="flight_estimated_departure_label">Taxminiy uchib ketish vaqti</string>
-    <string name="flight_gate">Darvoza</string>
+    <string name="flight_gate">Chiqish</string>
     <string name="flight_modify">Buyurtmani o‘zgartirish</string>
     <string name="flight_number">Parvoz: %1$s / %2$s</string>
     <string name="flight_reservation">Aviachipta band qilish</string>
@@ -1322,8 +1359,6 @@ Internet aloqasini tekshiring va qaytadan urining"</string>
     <string name="google_home_device_change_language_dialog_message">Barcha Google Home qurilmalaringiz tili bir xil. Barchasi %1$s tiliga o‘zgartiriladi.</string>
     <string name="google_home_device_change_language_dialog_title">Til barcha Google Home qurilmalarida o‘zgartirilsinmi?</string>
     <string name="google_home_device_change_language_dialog_yes">Ha</string>
-    <string name="google_home_device_youtube_restricted_mode_summary">Nomaqbul sahna va so‘zlari bor bo‘lgan video hamda qo‘shiqlarni berkitish</string>
-    <string name="google_home_device_youtube_restricted_mode_title">YouTube xavfsiz rejimi</string>
     <string name="google_home_hotword_enrollment_bottom_summary_text">Shuningdek, Voice Match xizmatini sozlash uchun uyga boshqalarni taklif qiling</string>
     <string name="google_location_service_required_text">Mahalliy ob-havo va qatnovlardagi yo‘l harakati kabi joylashuv ma’lumotiga asoslangan ma’lumot kartalarini ko‘rish uchun Google joylashuvni aniqlash xizmatini yoqing</string>
     <string name="google_play_services">Google Play xizmatlari</string>
@@ -1356,9 +1391,21 @@ Internet aloqasini tekshiring va qaytadan urining"</string>
     <string name="hide_account_list">Hisoblarni berkitish</string>
     <string name="hide_examples_description">Misollarni berkitish</string>
     <string name="history_action_card_title_default">Amal bajarilgan</string>
+    <string name="history_carousel_background_text">Boshqa qurilmalardagi oxirgi veb-qidiruvlaringiz tarixi</string>
     <string name="hits_header">Z</string>
     <string name="hits_header_full_length">Zarbalar</string>
     <string name="home_address_icon_label">Uy manzili</string>
+    <string name="home_onboarding_personal_results_enabled_explanation">"Moslashtirilgan natijalar yoqildi, lekin Voice Match yoqilmagan. Bunda Assistent ovozingizni tekshirmasdan natijalarni taqdim etadi.
+
+Maslahat: qurilma sozlangach, Assistent sozlamalari orqali Voice Match funksiyasini yoqing."</string>
+    <string name="home_onboarding_personal_results_enabled_positive_button">Yopish</string>
+    <string name="home_onboarding_personal_results_enabled_title">Moslashtirilgan natijalarni yanada xavfsizroq qiling</string>
+    <string name="home_personal_results_action_button">Roziman</string>
+    <string name="home_personal_results_cancel_button">Kerak emas</string>
+    <string name="home_personal_results_explanation">Bu qurilmada taqvim, eslatmalar va boshqalardan foydalanish uchun moslashtirilgan natijalarni yoqing. <a href="https://support.google.com/assistant/?p=personal_results">Batafsil</a>"
+
+Bu qurilmani ishlatadiganlar moslashtirilgan natijalaringizdan ham foydalana olishi mumkin. Moslashtirilgan natijalarni Assistent sozlamalari orqali faolsizlantirish mumkin."</string>
+    <string name="home_personal_results_title">Moslashtirilgan natijalarni olish</string>
     <string name="homescreen_settings_action_turn_off">O‘CHIRIB QO‘YISH</string>
     <string name="homescreen_settings_display_feed">Google tasmasini ko‘rsatish</string>
     <string name="homescreen_settings_header_category">Bosh ekran</string>
@@ -1367,10 +1414,11 @@ Internet aloqasini tekshiring va qaytadan urining"</string>
     <string name="homescreen_settings_title_predictions_prompt">Ilova takliflari o‘chirib qo‘yilsinmi?</string>
     <string name="hotword_disabled">“%1$s” faol emas</string>
     <string name="hotword_disabled_motorola_aov">Boshqa funksiya “%1$s” o‘rniga mikrofondan foydalanmoqda. “%1$s” buyrug‘ini qayta yoqish uchun Moto Voice funksiyasini o‘chiring.</string>
+    <string name="hotword_enrollment_button_more">Yana</string>
     <string name="hotword_enrollment_delete_voice_model">Ovoz namunasini o‘chirish</string>
     <string name="hotword_enrollment_enroll_again">Yana “%1$s” deng</string>
     <string name="hotword_enrollment_enroll_again_talkback">Yaxshi. Yana bir marta ayting.</string>
-    <string name="hotword_enrollment_enroll_cancel_glif">BEKOR QILISH</string>
+    <string name="hotword_enrollment_enroll_cancel_glif">Bekor qilish</string>
     <string name="hotword_enrollment_enroll_complete">Tayyor</string>
     <string name="hotword_enrollment_enroll_glif_footer_text">Mazkur yozuvlar va ovozli so‘rovlar faqat Voice Match yoqilgan qurilmalarda saqlanadigan ovoz namunasini yaratish va yangilash uchun zarur. %1$s. orqali ovozli buyruqlarini ko‘rish va o‘chirib tashlash mumkin.</string>
     <string name="hotword_enrollment_enroll_google_home_footer_text">Mazkur yozuvlar va ovozli so‘rovlar faqat Voice Match yoqilgan qurilmalarda saqlanadigan ovoz namunasini yaratish va yangilash uchun zarur. %1$s orqali ovozli buyruqlarini ko‘rish va o‘chirib tashlash mumkin.</string>
@@ -1388,7 +1436,6 @@ Internet aloqasini tekshiring va qaytadan urining"</string>
     <string name="hotword_enrollment_enroll_listening_talkback_assistant_device">“%1$s” bilan boshlanuvchi iborani ayting</string>
     <string name="hotword_enrollment_enroll_listening_talkback_assistant_device_again">Yana qaytaring</string>
     <string name="hotword_enrollment_enroll_say_prompt">Uch marta “%1$s” deyishingiz kifoya</string>
-    <string name="hotword_enrollment_enroll_skip_glif">Tashlab ketish</string>
     <string name="hotword_enrollment_enroll_start">Yozuvni boshlash</string>
     <string name="hotword_enrollment_enroll_text">Qurilmangiz sizga javob berishiga ko‘maklashish uchun Google’ga ovozingizni tanitishingiz mumkin.</string>
     <string name="hotword_enrollment_enroll_text_opa_talkback">Quyida “%1$s” tugmasini faollashtiring va ovozingizni tanitish uchun yordamchini mashq qildirish uchun “%2$s” deng.</string>
@@ -1409,6 +1456,9 @@ Shuni esda tutingki, bularga ovozi siznikiga o‘xshash odam yoki ovozli yozuv o
 
 Ovozingizning avvalgi yozuvlaridan bu qurilmada namuna yaratishda foydalanish mumkin. Sozlash bir daqiqa vaqt oladi."</string>
     <string name="hotword_enrollment_google_home_fast_update_unicorn_header_title">Assistentingiz farzandingiz ovozini taniy oladi</string>
+    <string name="hotword_enrollment_google_home_fast_update_unicorn_progress_summary">"Farzandingizning Google Assistent imkoniyatli boshqa qurilmasida Voice Match funksiyasini allaqachon sozlagansiz.
+
+Ovozingizning avvalgi yozuvlaridan bu qurilmada namuna yaratishda foydalanish mumkin. Sozlash bir daqiqa vaqt oladi."</string>
     <string name="hotword_enrollment_google_home_no_enrollment_found_toast_msg">Oldin %1$s hisobi uchun ovozli buyruqni ro‘yxatga olishni yakunlang.</string>
     <string name="hotword_enrollment_google_home_no_thanks">Kerak emas</string>
     <string name="hotword_enrollment_google_home_non_fast_update_header_title">Voice Match sozlanmoqda</string>
@@ -1431,7 +1481,7 @@ Siz ham o‘zingizga moslashtirilgan javoblar olishingiz mumkin! Google Home ilo
     <string name="hotword_enrollment_intro_header_title_glif_non_opa">Istalgan vaqtda ovozli qidiruv</string>
     <string name="hotword_enrollment_intro_next">Keyingisi</string>
     <string name="hotword_enrollment_intro_summary_always_on">Hatto ekran o‘chiq bo‘lganda ham yoki yoqtirgan ilovalaringizdan foydalanayotgan vaqtingizda ham qidirish uchun “%1$s” deb ayting</string>
-    <string name="hotword_enrollment_intro_summary_glif_non_opa">Xohlagan vaqtda qurilmangiz bilan gaplashish uchun: hatto ekran o‘chiq bo‘lganida yoki biror ilovadan foydalanayotganda “%1$s” deng.</string>
+    <string name="hotword_enrollment_intro_summary_glif_non_opa">Xohlagan vaqtda qurilmangiz bilan gaplashish uchun: hatto ekran o‘chiq bo‘lganida yoki biror ilovadan foydalanayotganda “%1$s” deng.&lt;br/>&lt;br/>Google ovozli qidiruv sizni boshqalardan farqlab olishi uchun ovozingizning unikal modeli yaratiladi.&lt;br/>&lt;br/>&lt;b>Yodda tuting:&lt;/b> Ovozi siznikiga o‘xshash odam yoki ovozli yozuv orqali ovozli qidiruvingizdan foydalana oladi. Keyinroq ruxsatlarni Google ilovasi orqali olib tashlashingiz mumkin.</string>
     <string name="hotword_enrollment_intro_summary_screen_on">Hatto qurilmangiz qulflangan bo‘lsa ham yoki yoqtirgan ilovalaringizdan foydalanayotgan vaqtingizda ham qidirish uchun “%1$s” deb ayting</string>
     <string name="hotword_enrollment_local_escalation_google_password_incorrect">Parol xato.</string>
     <string name="hotword_enrollment_local_escalation_learn_more_link">https://support.google.com/families/answer/7521263</string>
@@ -1450,11 +1500,20 @@ Siz ham o‘zingizga moslashtirilgan javoblar olishingiz mumkin! Google Home ilo
     <string name="hotword_enrollment_optin_udc_summary_item2">Bu Google’ga nutqni yaxshiroq tanish, uni tezroq qayta ishlash va yanada aniqroq natijalarni berishga yordam beradi.</string>
     <string name="hotword_enrollment_optin_udc_summary_item3">Siz xohlagan vaqtda bu sozlamani o‘zgartirishingiz yoki %1$s manzili orqali shaxsiy ma’lumotlaringizni boshqarishingiz mumkin. Agar ovozli boshqaruv tarixi yoniq bo‘lsa, barcha hisobga kirilgan qurilmalardan shu turdagi ma’lumotlar saqlanadi.</string>
     <string name="hotword_enrollment_optin_udc_title">Ovozli boshqaruv tarixini saqlash</string>
+    <string name="hotword_enrollment_parent_intro_summary">{GENDER,select, male{Google Assistent yordamida {PERSON} o‘yinlar o‘ynashi, Taqvimdan dars jadvallarini tekshirishi va boshqa vazifalarni bajarishi mumkin. Ayrim funksiyalar faqat bolalar uchun ishlab chiqilganiga qaramay, asosiy kontent keng auditoriyaga mo‘ljallangan. &lt;a href=\"{LINK}\">Batafsil&lt;/a>&lt;br>&lt;br>{PERSON} ovozini Assistent boshqalardan farqlay olishi uchun Voice Match yordamida foydalanuvchi bu qurilmada ovozi namunasini yozishi mumkin.&lt;br>&lt;br>Yodda tuting: o‘xshash ovoz yoki yozuv bilan {PERSON}ning shaxsiy natijalaridan foydalanish ham mumkin. Keyinchalik Assistent sozlamalari yoki Family Link orqali Voice Match ruxsatini olib tashlash mumkin.}female{Google Assistent yordamida {PERSON} o‘yinlar o‘ynashi, Taqvimdan dars jadvallarini tekshirishi va boshqa vazifalarni bajarishi mumkin. Ayrim funksiyalar faqat bolalar uchun ishlab chiqilganiga qaramay, asosiy kontent keng auditoriyaga mo‘ljallangan. &lt;a href=\"{LINK}\">Batafsil&lt;/a>&lt;br>&lt;br>{PERSON} ovozini Assistent boshqalardan farqlay olishi uchun Voice Match yordamida foydalanuvchi bu qurilmada ovozi namunasini yozishi mumkin.&lt;br>&lt;br>Yodda tuting: o‘xshash ovoz yoki yozuv bilan {PERSON}ning shaxsiy natijalaridan foydalanish ham mumkin. Keyinchalik Assistent sozlamalari yoki Family Link orqali Voice Match ruxsatini olib tashlash mumkin.}other{Google Assistent yordamida {PERSON} o‘yinlar o‘ynashi, Taqvimdan dars jadvallarini tekshirishi va boshqa vazifalarni bajarishi mumkin. Ayrim funksiyalar faqat bolalar uchun ishlab chiqilganiga qaramay, asosiy kontent keng auditoriyaga mo‘ljallangan. &lt;a href=\"{LINK}\">Batafsil&lt;/a>&lt;br>&lt;br>{PERSON} ovozini Assistent boshqalardan farqlay olishi uchun Voice Match yordamida foydalanuvchi bu qurilmada ovozi namunasini yozishi mumkin.&lt;br>&lt;br>Yodda tuting: o‘xshash ovoz yoki yozuv bilan {PERSON}ning shaxsiy natijalaridan foydalanish ham mumkin. Keyinchalik Assistent sozlamalari yoki Family Link orqali Voice Match ruxsatini olib tashlash mumkin.}}</string>
     <string name="hotword_enrollment_parent_intro_summary_learn_more_link">https://support.google.com/families/answer/7521263</string>
     <string name="hotword_enrollment_parent_intro_title">%1$s ovozini Assistentga taniting</string>
     <string name="hotword_enrollment_parent_selector_family_fetch_failed">Oila haqidagi ma’lumotlarni yuklab bo‘lmadi</string>
     <string name="hotword_enrollment_parent_selector_subtitle">Google Assistent karnayidan foydalanishni boshlashga yordam bera oladigan yaqin-atrofingizdagi ota-onangizdan birini tanlang</string>
     <string name="hotword_enrollment_parent_selector_title">Ota-ona ruxsati zarur</string>
+    <string name="hotword_enrollment_personal_results_action_button">Roziman</string>
+    <string name="hotword_enrollment_personal_results_cancel_button">Kerak emas</string>
+    <string name="hotword_enrollment_personal_results_explanation">"Voice Match sozlandi.
+
+Endi bu qurilmada taqvim, eslatmalar va boshqalarga kirishda ovozingiz bilan foydalanishda moslashtirilgan natijalarni yoqishingiz mumkin."<a href="https://support.google.com/assistant/?p=personal_results">Batafsil</a>"
+
+Assistent sozlamalari orqali moslashtirilgan natijalarni faolsizlantirishingiz mumkin."</string>
+    <string name="hotword_enrollment_personal_results_title">Voice Match yordamida moslashtirilgan natijalar oling</string>
     <string name="hotword_enrollment_pref_category_voice_model">“Ok Google” ovoz namunasi</string>
     <string name="hotword_enrollment_retrain_voice_model">Ovoz namunasini qaytadan yozish</string>
     <string name="hotword_enrollment_retry_enroll">Xatolik yuz berdi. Qaytadan boshlang.</string>
@@ -1512,7 +1571,6 @@ Siz ham o‘zingizga moslashtirilgan javoblar olishingiz mumkin! Google Home ilo
     <string name="hotword_pref_subtitle_disabled_os_version">Bu funksiya mazkur OT versiyasida ishlamaydi</string>
     <string name="hotword_pref_subtitle_opa_supported_locale">Biror narsa kerak bo‘lsa, Google Assistentdan so‘rang</string>
     <string name="hotword_pref_subtitle_opa_unsupported_locale">Ovozli buyruqlar yordamida turli amallarni bajaring</string>
-    <string name="hotword_pref_summary_always_on">Ovozli buyruqlarga javob qaytaradi. Ekran yoniq yoki o‘chiq bo‘lsa ham ishlayveradi.</string>
     <string name="hotword_pref_summary_always_on_not_default_vis">Uni yoqish uchun Sozlamalar > Til va matn kiritish > Ovoz bilan yozish buyruqlar ketma-ketligini tanlang va “Takomillashgan Google xizmatlari” bandini tanlang.</string>
     <string name="hotword_pref_summary_during_androidauto_navigation">Android Auto xizmatida ishlaydi</string>
     <string name="hotword_pref_summary_during_gmm_and_androidauto_navigation">Google Xaritalar va Android Auto xizmatida ishlaydi</string>
@@ -1521,16 +1579,12 @@ Siz ham o‘zingizga moslashtirilgan javoblar olishingiz mumkin! Google Home ilo
     <string name="hotword_pref_summary_homescreen">Google ilovasi yoki Google Now Launcher bosh ekranidan turib ovozli qidiruvni ishga tushirish uchun “%1$s” deng</string>
     <string name="hotword_pref_summary_lock_personal_results">Telefon qulflangan vaqtda moslashtirilgan qidiruv natijalari va amallarga ruxsat berish</string>
     <string name="hotword_pref_summary_mic_permission">“%1$s” iborasi aniqlanishi uchun mikrofondan foydalanishga ruxsat bering</string>
-    <string name="hotword_pref_summary_opa">“%1$s” deganingizda, hatto ekran o‘chiq bo‘lsa yoki biror ilovadan foydalanayotganingizda ham qurilma ovozingizni taniydi</string>
-    <string name="hotword_pref_summary_opa_non_dsp">“%1$s” deganingizda, hatto biror ilovadan foydalanayotganingizda ham qurilma ovozingizni taniydi</string>
     <string name="hotword_pref_summary_voice_unlock">Tovush ovozingiz namunasiga mos kelsa, “%1$s” iborasi qurilmangizni qulfdan chiqarishi uchun ruxsat bering</string>
     <string name="hotword_pref_title">“%1$s” iborasini tanish</string>
     <string name="hotword_pref_title_always_on">Doim yoniq</string>
     <string name="hotword_pref_title_during_gmm_navigation">Avtomobilda</string>
     <string name="hotword_pref_title_lock_screen_2_opa">Voice Match yordamida qulfdan chiqarish</string>
     <string name="hotword_pref_title_locked_personal_results">Moslashtirilgan natijalar</string>
-    <string name="hotword_pref_title_opa">“%1$s” iborasi</string>
-    <string name="hotword_prefs_voice_everywhere_subtitle">Ovozli buyruqlarga javob qaytaradi. Ekran yoniqligida ishlaydi.</string>
     <string name="hotword_prefs_voice_everywhere_subtitle_no_account">Bu xusisiyatni yoqish uchun Google hisobingiz bilan kiring</string>
     <string name="hotword_prefs_voice_everywhere_title">Xohlagan ekrandan</string>
     <string name="hotword_setup_wizard_connection_error_message">Tarmoqqa ulanishni tekshiring va qaytadan urining.</string>
@@ -1598,6 +1652,7 @@ Siz ham o‘zingizga moslashtirilgan javoblar olishingiz mumkin! Google Home ilo
     <string name="immersive_actions_search_error">Qurilma internetdan uzildi. Aloqa tiklangach, qaytadan urinib ko‘riladi.</string>
     <string name="immersive_actions_unknown_provider_short">\?</string>
     <string name="immersive_contact_disambiguation_header_label">%1$s...</string>
+    <string name="inactive_state_text">O‘yinga oid ma’lumot yangilanmagan.</string>
     <string name="inferred_event_created">Tadbir taqvimga qo‘shildi</string>
     <string name="inferred_event_error">Tadbir yaratib bo‘lmadi</string>
     <string name="inferred_from_gmail">Gmail’da “%1$s” deb ko‘rsatiladi</string>
@@ -1674,12 +1729,27 @@ Siz ham o‘zingizga moslashtirilgan javoblar olishingiz mumkin! Google Home ilo
     <string name="leave_alert_scheduled_header">Jo‘nash vaqti bo‘lganda, sizga ogohlantirish keladi.</string>
     <string name="leave_from">Kimdan</string>
     <string name="legal_documents">Huquqiy</string>
+    <string name="lens_education_card_barcodes_heading">Shtrix-kodlar</string>
+    <string name="lens_education_card_barcodes_paragraph">Shtrix-kodlarni skanerlash va mahsulot tafsilotlarini topish</string>
+    <string name="lens_education_card_media_heading">Kitoblar va bosma OAV</string>
+    <string name="lens_education_card_media_paragraph">Kitob, film, musiqiy albom va kompyuter o‘yinlarini muqovasi asosida qidirish</string>
+    <string name="lens_education_card_places_heading">Joylar</string>
+    <string name="lens_education_card_places_paragraph">Diqqatga sazovor va qiziqarli joylar, mashhur binolar haqida batafsil axborot oling</string>
+    <string name="lens_education_card_products_heading">Mahsulotlar</string>
+    <string name="lens_education_card_products_paragraph">Mebel va kiyimlar kabi mahsulotlar uchun o‘xshashlarini topish</string>
+    <string name="lens_education_card_text_heading">Matn</string>
+    <string name="lens_education_card_text_paragraph">Telefon raqami, sana va manzillar kabi matnlardan nusxa oling</string>
+    <string name="lens_education_card_title">Google Lens qanday amallarni bajara oladi?</string>
+    <string name="lens_info_panel_live_camera_title">Obyekt haqida axborot olish uchun ustiga bosing</string>
+    <string name="lens_info_panel_loading_message">Natijalar yuklanmoqda…</string>
+    <string name="lens_title">Google Lens</string>
     <string name="license_activity_title">Ochiq kodli DT litsenziyalari</string>
     <string name="light_traffic">Yengil yo‘l harakati</string>
     <string name="line_two_text_separator">" · "</string>
     <string name="link_device_title">%s qurilmasiga ulanmoqda</string>
     <string name="listen_for_music">Musiqa tinglash</string>
     <string name="listening_for_music_status">Tinglanmoqda…</string>
+    <string name="loading">Yuklanmoqda</string>
     <string name="local_results_map_description">%1$s xaritasi</string>
     <string name="location_access_required_text_klp">Muayyan joy uchun mahalliy ob-havo, yo‘llardagi harakat kabi ma’lumotlarni olish uchun “Mening joylashuvim” funksiyasini yoqing</string>
     <string name="location_added_snackbar_text">Joy qo‘shildi</string>
@@ -1827,11 +1897,7 @@ Siz ham o‘zingizga moslashtirilgan javoblar olishingiz mumkin! Google Home ilo
     <string name="nexus_device_google_assistant_title">Google Assistent</string>
     <string name="nexus_device_hands_free_preference_title">Boshqa ovozli boshqaruv sozlamalari</string>
     <string name="nexus_device_hotword_category_title">Voice Match yordamida ovozli yordam oling</string>
-    <string name="nexus_device_hotword_preference_alwayson_summary">“%1$s” deyish bilan istalgan vaqt Assistentingizdan foydalaning</string>
     <string name="nexus_device_hotword_preference_screenon_summary">Ekran yoniqligida “%1$s” deyish bilan istalgan vaqt Assistentingizdan foydalaning</string>
-    <string name="nexus_device_hotword_preference_title">“%1$s” iborasini tanish</string>
-    <string name="nexus_device_navigation_popup_message">“%1$s” iborasidan Google Xaritalar va Android Auto kabi ayrim ilovalarda foydalanish mumkin. Bu funksiyani istalgan vaqt mazkur ilovalarning sozlamalari orqali o‘chirib qo‘yish mumkin. %2$s</string>
-    <string name="nexus_device_navigation_popup_settings_link">Sozlamalar</string>
     <string name="nexus_device_navigation_popup_title">Avtomobilda</string>
     <string name="nexus_device_use_screen_context_summary">“Boshiga” tugmasini bosib turganingizda yoki ovoz orqali qidirganingizda Google ekraningizdagi kontentga bog‘liq ma’lumotlarni ko‘rsatadi</string>
     <string name="nexus_device_use_screen_context_title">Ekran kontekstidan foydalanish</string>
@@ -1886,6 +1952,8 @@ Siz ham o‘zingizga moslashtirilgan javoblar olishingiz mumkin! Google Home ilo
     <string name="notification_cancel_title">Qidiruv bekor qilingan</string>
     <string name="notification_set_text">Natijalar tayyor bo‘lgach sizga xabar qilinadi.</string>
     <string name="notification_set_title">Bildirishnoma sozlangan</string>
+    <string name="notification_subtext">O‘yin mahkamlandi</string>
+    <string name="notification_title">%1$s – %2$s</string>
     <string name="notifications_enabled_header">Bildirishnomalar</string>
     <string name="notifications_ringtone_setting">Rington</string>
     <string name="notifications_vibrate_title">Tebranish</string>
@@ -1995,9 +2063,12 @@ Siz ham o‘zingizga moslashtirilgan javoblar olishingiz mumkin! Google Home ilo
     <string name="opa_assistant_logo_content_description">Ovozli qidiruv</string>
     <string name="opa_consent_check_error_button">YOPISH</string>
     <string name="opa_consent_check_error_button_notavailable">HISOBNI ALMASHTIRISH</string>
-    <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">Google Assistent internet orqali qidirish, ob-havo ma’lumoti, hangomalar va mahalliy ma’lumotlar kabi narsalar bilan cheklanib qoladi.</string>
+    <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">Google Assistent internet orqali qidirish, hangomalar va mahalliy axborot kabi narsalar bilan cheklanib qoladi.</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_text">Kerak emas</string>
-    <string name="opa_consent_check_error_confirmreject_personalize_radio_content">Google Assistent taqvim, eslatmalar, qatnov, parvozlar, buyurtmalar va boshqalar bilan yordam berishi uchun unga veb-qidiruv va ilovalar tarixi, qurilma haqida axborot va ovozli boshqaruv tarixi kabi ruxsatlar zarur.</string>
+    <string name="opa_consent_check_error_confirmreject_personalize_radio_button_show_less">Kamroq</string>
+    <string name="opa_consent_check_error_confirmreject_personalize_radio_button_show_more">Yana</string>
+    <string name="opa_consent_check_error_confirmreject_personalize_radio_content">Google Assistent taqvim, eslatmalar, parvozlar va boshqalar bilan yordam berishi uchun unga veb-qidiruv va ilovalar tarixi, qurilma haqida axborot va ovozli boshqaruv tarixi zarur.</string>
+    <string name="opa_consent_check_error_confirmreject_personalize_radio_content_expanded">Eslatma: mazkur sozlamalarni boshqarish ma’lumotlari Google xizmatlari tomonidan saqlanishi va hisobingiz bilan kirgan xizmatlarda sizga moslashtirilgan xizmat va foydali reklamalar taqdim etish uchun ishlatilishi mumkin. account.google.com orqali ma’lumotlariningizni ko‘rish va o‘chirib tashlashingiz hamda sozlamalaringizni o‘zgartirishingiz mumkin.</string>
     <string name="opa_consent_check_error_confirmreject_personalize_radio_text">Ha, roziman</string>
     <string name="opa_consent_check_error_learn_more_link_target_notavailable">https://support.google.com/assistant/?p=gsuite</string>
     <string name="opa_consent_check_error_message">Assistent harakatlarni kuzatishni tekshirish bilan bog‘liq muammoga duch kelmoqda. Keyinroq qaytadan foydalanib ko‘ring.</string>
@@ -2006,7 +2077,7 @@ Siz ham o‘zingizga moslashtirilgan javoblar olishingiz mumkin! Google Home ilo
     <string name="opa_consent_check_error_message_notavailable">Qurilma administratori bu hisobda harakatlarni kuzatishni o‘chirib qo‘ygan. Google Assistent uchun esa harakatlarni kuzatish funksiyasi zarur. Administrator bilan tekshirib ko‘ring yoki hisobni almashtiring va qaytadan urinib ko‘ring.</string>
     <string name="opa_consent_check_error_title">Xatolik yuz berdi</string>
     <string name="opa_consent_check_error_title_autherror">Hisobingizni tasdiqlab bo‘lmadi</string>
-    <string name="opa_consent_check_error_title_confirmreject">Mazkur ruxsatlar bilan imkoniyatlaringizni oshiring</string>
+    <string name="opa_consent_check_error_title_confirmreject">Mazkur sozlamalar bilan Assistent imkoniyatlaridan to‘liq foydalaning</string>
     <string name="opa_consent_check_error_title_notavailable">Google Assistent bu hisob bilan ishlamaydi</string>
     <string name="opa_consent_error_timeout_message">Tarmoq xatoligi yuz berdi. Aloqani tekshiring va qaytadan urinib ko‘ring.</string>
     <string name="opa_contextual_cards_found_message">Quyida bu ekran bilan bog‘liq bir qancha ma’lumotlar keltirilgan:</string>
@@ -2026,9 +2097,11 @@ Assistent tarixidan o‘chirish tranzaksiya yoki bekor qilish amallariga ta’si
     <string name="opa_disabled_no_button">Bekor qilish</string>
     <string name="opa_disabled_title">Assistentni yoqing</string>
     <string name="opa_dismiss_message">Yopish uchun torting</string>
+    <string name="opa_email_optin_screen_add_shortcut_explanation">Assistentdan oson foydalanish</string>
     <string name="opa_email_optin_screen_confirm">Tayyor</string>
     <string name="opa_email_optin_screen_explanation">Google Assistentning eng oxirgi funksiya va imkoniyatlari haqidagi yangiliklarni olib turing</string>
     <string name="opa_email_optin_screen_next">Keyingisi</string>
+    <string name="opa_email_optin_screen_sub_toggle_explanation">Assistent havolasini bosh ekranga chiqarish</string>
     <string name="opa_email_optin_screen_title">Google Assistent imkoniyatlaridan to‘liq foydalaning</string>
     <string name="opa_email_optin_screen_toggle_explanation">E-maktub orqali maslahatlar olib turing</string>
     <string name="opa_email_optin_screen_unsubscribe">Ilova ichidagi e-pochta sozlamalari orqali istalgan vaqt obunani bekor qilishingiz mumkin. Google Inc., 1600 Amphitheatre Parkway, Mountain View CA 94043 www.google.com</string>
@@ -2066,8 +2139,10 @@ Assistent tarixidan o‘chirish tranzaksiya yoki bekor qilish amallariga ta’si
     <string name="opa_eyes_free_udc_opt_in_notification_title">Google Assistentga kerakli ruxsatlarni taqdim eting</string>
     <string name="opa_eyes_warm_welcome_chip_text">Davom ettirish uchun bosing</string>
     <string name="opa_first_screen_hotword_transition_cancel_button_text">Keyinroqqa qoldirish</string>
+    <string name="opa_first_screen_hotword_transition_confirm_agree_button_text">Roziman</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text">BOSHLASH</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text_sentence_case">Boshlash</string>
+    <string name="opa_first_screen_hotword_transition_no_thanks_button_text">Kerak emas</string>
     <string name="opa_first_screen_hotword_transition_screen_context_pickup_confirm_button_text">TAYYOR</string>
     <string name="opa_first_screen_hotword_transition_screen_context_pickup_confirm_button_text_sentence_case">Tayyor</string>
     <string name="opa_first_screen_hotword_transition_screen_context_pickup_explanation">Assistent ekrandagilar asosida yanada mos takliflar va maxsus harakatlar taklif qilishi mumkin. Buni Assistent sozlamalari orqali o‘zgartirish mumkin.</string>
@@ -2076,11 +2151,15 @@ Assistent tarixidan o‘chirish tranzaksiya yoki bekor qilish amallariga ta’si
     <string name="opa_first_screen_hotword_transition_skip_button_text">Tashlab ketish</string>
     <string name="opa_first_screen_hotword_transition_summary">Xohlagan vaqtda, hatto ekran o‘chiq bo‘lganda ham yoki biror ilovadan foydalanayotganda Assistent bilan gaplashish uchun “%1$s” deng.</string>
     <string name="opa_first_screen_hotword_transition_summary_no_dsp">Assistent bilan gaplashish uchun ekran yoniqligida “%1$s” deng.</string>
+    <string name="opa_first_screen_hotword_transition_summary_short">Voice Match ekran o‘chiqligida ham bevosita ovozingiz yordamida Assistentdan foydalanish imkonini beradi.</string>
     <string name="opa_first_screen_hotword_transition_summary_short_no_dsp">Voice Match bevosita ovozingiz yordamida Assistentdan foydalanish imkonini beradi.</string>
     <string name="opa_first_screen_hotword_transition_title">Voice Match va Assistent</string>
     <string name="opa_first_screen_tgoogle_summary">Bevosita “%1$s” deysh bilan Assistentdan foydalanishingiz mumkin</string>
     <string name="opa_first_screen_tgoogle_title">“%1$s” iborasini Assistentingizga taniting</string>
     <string name="opa_fix_user_recoverable_error">TUZATISH</string>
+    <string name="opa_gdpr_footer">"Assistent sizni boshqalardan farqlab olishi uchun ovozingizning unikal modeli yaratiladi. 
+
+"<b>Yodda tuting:</b> Ovozi siznikiga o‘xshash odam yoki ovozli yozuv orqali Assistentingizdan foydalanishi mumkin. Keyinroq Assistent sozlamalari orqali faolsizlantirish orqali Voice Match ruxsatini olib tashlash mumkin.</string>
     <string name="opa_gearhead_opt_in_notification_body">Avtomobilda harakatlanayotganda Google Assistent bilan gaplashish mumkin</string>
     <string name="opa_gearhead_opt_in_notification_title">Avtomobilda harakatlanayotganda Google Assistentdan foydalanish</string>
     <string name="opa_gearhead_opt_in_speech">Avval bildirishnoma ustiga bosing. Keyin, avtomobilda harakatlanayotganda Google Assistentdan foydalanish mumkin.</string>
@@ -2122,7 +2201,7 @@ ko‘rishingiz va boshqarishingiz mumkin"</string>
     <string name="opa_marketplace_disclosure_google_partners_description">Google hamkorlari – bu Google bilan tijoriy maqsadda aloqa qiluvchi tashkilotlardir. Google Assistent film chiptalarini xarid qilish yoki ta’mirlovchi ustalarni chaqirish kabi ishlarni bajarishda Google hamkorlari bilan birga ishlaydi. <a href="https://support.google.com/assistant/?p=google_partners">Batafsil</a></string>
     <string name="opa_marketplace_disclosure_google_partners_short_description">Google hamkorlari – bu Google bilan tijoriy maqsadda aloqa qiluvchi tashkilotlardir.</string>
     <string name="opa_marketplace_disclosure_google_partners_title">Google Partners</string>
-    <string name="opa_marketplace_disclosure_service_additional_text">Bunda xizmatlar suhbat davomida sizning parametrlaringizni eslab qolishadi. Ushbu suhbatlarni Google hisobingiz sozlamalaridagi &lt;a href=https://myactivity.google.com/>Mening harakatlarim&lt;/a> sahifasi orqali ko‘rish va boshqarishingiz mumkin. Shuningdek, biror xizmatga yuborilgan kodni Google Assistent sozlamalaridagi “Meni unut” bandi orqali ilk holatiga qaytarishingiz ham mumkin.</string>
+    <string name="opa_marketplace_disclosure_service_additional_text">Bunda xizmatlar suhbat davomida sizning parametrlaringizni eslab qolishadi.\\n\\nBu ilovaning Tavsiyalar bo‘limidagi har bir xizmat sahifasi orqali ularga yuborilgan ma’lumotlarni ko‘rish, boshqarish va tiklash mumkin. &lt;a href=https://support.google.com/assistant/?p=reset_id>Batafsil&lt;/a></string>
     <string name="opa_marketplace_disclosure_service_short_description">Google siz murojaat qilgan xizmatlarga unikal kod yuboradi.</string>
     <string name="opa_marketplace_disclosure_service_title">Xizmatlar va maxfiylik</string>
     <string name="opa_marketplace_disclosure_title">Assistentingiz imkoniyatlaridan keng foydalaning</string>
@@ -2131,6 +2210,12 @@ ko‘rishingiz va boshqarishingiz mumkin"</string>
     <string name="opa_music_search_suggestion_chip_title">Bu qaysi qo‘shiq?</string>
     <string name="opa_my_day_query">Kun tartibimni aytib ber</string>
     <string name="opa_notification_channel_group_title">Assistent</string>
+    <string name="opa_notification_channel_handoff_description">Amallarni boshqa qurilmada bajarish imkonini beruvchi bildirishnomalar</string>
+    <string name="opa_notification_channel_handoff_title">Boshqa qurilmalardan uzatish</string>
+    <string name="opa_notification_channel_misc_description">Boshqa turli bildirishnomalar</string>
+    <string name="opa_notification_channel_misc_title">Boshqa</string>
+    <string name="opa_notification_channel_proactive_description">Joylashuvingiz va harakatlaringizga aloqador yangilanishlar</string>
+    <string name="opa_notification_channel_proactive_title">Ogohlantirish</string>
     <string name="opa_notification_channel_recommendations_description">Qiziqishlaringizga asoslangan hamda sizga yoqadigan xususiyatlar va amallar</string>
     <string name="opa_notification_channel_recommendations_title">Tavsiyalar</string>
     <string name="opa_notification_channel_third_party_description">Assistent bilan ishlaydigan Googlega tegishli bo‘lmagan xizmatlardan keladigan bildirishnomalar</string>
@@ -2180,7 +2265,6 @@ ko‘rishingiz va boshqarishingiz mumkin"</string>
     <string name="opa_unlock_device_for_response">Davom etish uchun qulfni oching…</string>
     <string name="opa_upgrade_promo_tooltip_text">Bosh ekran tugmasini bosib turing</string>
     <string name="opa_value_proposition_cancel">Yo‘q, rahmat</string>
-    <string name="opa_value_proposition_continue">DAVOM ETISH</string>
     <string name="opa_value_proposition_message_1p">Savollar so‘rang. Buyruqlar bering. Shaxsiy Google yordamchingiz doim yordamga tayyor.</string>
     <string name="opa_value_proposition_message_title">Google Assistent bilan tanishing</string>
     <string name="opa_value_proposition_next">Keyingisi</string>
@@ -2207,6 +2291,7 @@ ko‘rishingiz va boshqarishingiz mumkin"</string>
     <string name="opa_wuwa_notification_action_stop">TO‘XTATISH</string>
     <string name="opa_wuwa_notification_content">Signal: %1$s</string>
     <string name="opa_wuwa_offline_notification_content">Assistent ushbu amallar tartibini bajarishi uchun Internetga ulaning.</string>
+    <string name="opa_zero_state_hint_text">Batafsil axborot olish uchun suring</string>
     <string name="open_app_template">%s ilovasini ochish</string>
     <string name="open_in_google_translate">Google Tarjimonda ochish</string>
     <string name="open_settings">Sozlamalar</string>
@@ -2283,6 +2368,7 @@ ko‘rishingiz va boshqarishingiz mumkin"</string>
     <string name="payments_auth_too_many_fingerprint_retries_should_use_password">Juda ko‘p urinish. Parolni kiriting.</string>
     <string name="payments_auth_unknown_fingerprint_error">Notanish barmoq izi. Davom etish uchun Google parolini kiriting.</string>
     <string name="payments_auth_use_fingerprint_checkbox_hint">Kelgusi xaridlar uchun barmoq izidan foydalanish</string>
+    <string name="penalties">Penaltilar</string>
     <string name="pending_searches">Kutib turgan qidiruvlar</string>
     <string name="permission_error">Mikrofon uchun ruxsat bering</string>
     <string name="permission_required_action_notification_body">Bu ilovaga ruxsat berish zarur</string>
@@ -2310,6 +2396,7 @@ ko‘rishingiz va boshqarishingiz mumkin"</string>
     <string name="person_select_item_hangouts_app_name">Hangouts</string>
     <string name="person_select_item_secondary_text_delimiter">", "</string>
     <string name="person_select_item_sms_app_name">SMS</string>
+    <string name="personal_info_and_suggestions_learn_more">Batafsil</string>
     <string name="personal_mode_landing_text">Shaxsiy kontent ichidan qidirish</string>
     <string name="personal_results_action_button">Ruxsat</string>
     <string name="personal_results_cancel_button">Tashlab ketish</string>
@@ -2428,6 +2515,7 @@ Bu o‘zgarishni amalga oshirsangiz, siz quyidagilarni olasiz:"</string>
     <string name="qp_hotel_reservation_number">Bandlov raqami</string>
     <string name="qp_movie_watch_trailer">Film treylerini ko‘rish</string>
     <string name="qp_precip">Yog‘ingarchilik – %1$s</string>
+    <string name="qp_precip_today">Bugun %1$s</string>
     <string name="qp_restaurant_reservation_date">Sana</string>
     <string name="qp_restaurant_reservation_time">Vaqt</string>
     <string name="qp_soccer_time">"%1$d'"</string>
@@ -2544,6 +2632,8 @@ Bu o‘zgarishni amalga oshirsangiz, siz quyidagilarni olasiz:"</string>
     <string name="screen_assist_share_title">Bu skrinshotni tahrirlash yoki yuborish</string>
     <string name="screen_assist_sharing_screenshot">Skrinshot yuborilmoqda</string>
     <string name="screen_assist_translate">Tarjima qilish</string>
+    <string name="screen_context_desc">Ekrandagilar asosida Assistentdan mos takliflar olish</string>
+    <string name="screen_context_title">Ekrandagilar asosida axborot olish</string>
     <string name="scroll_left">Chapga o‘tkazish</string>
     <string name="scroll_right">O‘ngga o‘tkazish</string>
     <string name="search_activity_name">Google</string>
@@ -2624,7 +2714,13 @@ Bu o‘zgarishni amalga oshirsangiz, siz quyidagilarni olasiz:"</string>
     <string name="selection_mode_promo">Matnni belgilash uchun bu yerni bosing</string>
     <string name="selection_prompt">Matnni belgilash uchun ustiga bosing</string>
     <string name="selection_retry_ocr">Qayta urinish</string>
+    <string name="send_to_device_negative_button">Bekor qilish</string>
+    <string name="send_to_device_positive_button">Yuborish</string>
+    <string name="send_to_device_snackbar_text">%1$s qurilmasiga yuborildi</string>
+    <string name="send_to_device_title">Qurilmaga yuborish</string>
+    <string name="sender_says_message">%1$s yozdi: %2$s.</string>
     <string name="sending_audio_to_account_toast">Audio %1$s hisobiga yuborilmoqda...</string>
+    <string name="separator">-</string>
     <string name="server_error">Ayni paytda Google bilan bog‘lanib bo‘lmayapti.</string>
     <string name="server_error_fetching_weather_data_status_text">Xatolik yuz berdi. Keyinroq qayta urinib ko‘ring.</string>
     <string name="set_duration">Vaqtni o‘rnatish</string>
@@ -2673,7 +2769,7 @@ Bu o‘zgarishni amalga oshirsangiz, siz quyidagilarni olasiz:"</string>
     <string name="sharebear_storage_permission_request_info_part1">Juda ko‘p skrinshotlar olasizmi?</string>
     <string name="sharebear_storage_permission_request_info_part2">Google ilovasiga skrinshotlarni tahrirlashi va ulashishiga ruxsat bering</string>
     <string name="sharebear_storage_permission_request_info_yes">Ha, roziman</string>
-    <string name="shared_links_desc">E-maktub yoki xabarlar orqali yuborilgan yoki qabul qilingan havolalar</string>
+    <string name="shared_links_desc">Xat yoki xabarlar orqali yuborilgan yoki qabul qilingan havolalar mazmuni</string>
     <string name="shared_links_title">Ulashilgan havolalar</string>
     <string name="shootout_abbreviation">P-S</string>
     <string name="shopping_mode_landing_text">Do‘kon qidirish</string>
@@ -2716,6 +2812,7 @@ Bu o‘zgarishni amalga oshirsangiz, siz quyidagilarni olasiz:"</string>
     <string name="single_transit_line_delayed">%1$s: %2$skechikish%3$s mavjud</string>
     <string name="single_transit_line_limited_service">%3$s: %1$scheklangan xizmat%2$s ko‘rsatilmoqda</string>
     <string name="single_transit_station_closed">%1$s: %2$syopiq%3$s</string>
+    <string name="slice_suggestion_message">Bu kontent o‘rnatilgan ilovaga tegishli va yozayotganingizga aloqador.</string>
     <string name="smartspace_calendar_summary">Keyingi majlislar haqida ogohlantirishlar</string>
     <string name="smartspace_calendar_title">Taqvimdagi tadbirlar</string>
     <string name="smartspace_commute_summary">Tirbandlikka oid kutilmagan o‘zgarshlar haqida ogohlantirishlar</string>
@@ -2754,7 +2851,7 @@ Bu o‘zgarishni amalga oshirsangiz, siz quyidagilarni olasiz:"</string>
     <string name="sports_losses_header_full_length">Mag‘lubiyatlar</string>
     <string name="sports_overtime_losses_header">OTL</string>
     <string name="sports_overtime_losses_header_full_length">Overtaymdagi mag‘lubiyatlar</string>
-    <string name="sports_preview">Oldindan ko‘rish</string>
+    <string name="sports_preview">Razm solish</string>
     <string name="sports_rank_header">\#</string>
     <string name="sports_rank_header_full_length">Hozirgi o‘rni</string>
     <string name="sports_recap">O‘yin sharhi va asosiy vaziyatlar</string>
@@ -2792,6 +2889,7 @@ Bu o‘zgarishni amalga oshirsangiz, siz quyidagilarni olasiz:"</string>
     <string name="stocks_update_time_text">Yangilandi: %1$s</string>
     <string name="stop_download_prompt">Yukl-ni to‘xtatish</string>
     <string name="streaming_text_recognizing">Aniqlanmoqda…</string>
+    <string name="street_address_label">Manzil</string>
     <string name="suggest">Avtomatik to‘ldirish</string>
     <string name="suggest_contact_removal_body" formatted="false">&lt;b>%s&lt;/b> eng faol kontaktlardan olib tashlanadi. Biroq, uni &lt;b>%s&lt;/b> deb qidirib topishingiz mumkin.</string>
     <string name="suggest_contact_removal_cancel">BEKOR QILISH</string>
@@ -2825,6 +2923,7 @@ Bu o‘zgarishni amalga oshirsangiz, siz quyidagilarni olasiz:"</string>
     <string name="tab_title_tomorrow">Ertaga</string>
     <string name="tap_mic_to_speak">Gapirishni boshlash uchun mikrofon belgisini bosing</string>
     <string name="temperature_display">%1$s%2$s</string>
+    <string name="text_selection_menu_translate_action">Tarjima qilish</string>
     <string name="thank_you_dialog_body">Javoblaringiz Google Qidiruv xizmatini yaxshilashga yordam beradi.</string>
     <string name="thank_you_dialog_tilte">Fikr-mulohazalaringiz uchun tashakkur.</string>
     <string name="things_to_do">Bajarilishi lozim narsalar</string>
@@ -2933,6 +3032,7 @@ Bu o‘zgarishni amalga oshirsangiz, siz quyidagilarni olasiz:"</string>
     <string name="transit_departure_summary">“%1$s” bekatidan jo‘naydi (piyoda – %2$s)</string>
     <string name="transit_enroute_last_walking_step">Manzilgacha piyoda boring</string>
     <string name="transit_enroute_trip_time_summary">Yo‘lda: %1$s da yetib boradi</string>
+    <string name="transit_eta_msg">%1$s – %2$s</string>
     <string name="transit_line_direction">%1$s (%2$s) yo‘lidan yuring</string>
     <string name="transit_line_direction_in_time">%3$sdan so‘ng %1$s (%2$s) yo‘lidan yuring</string>
     <string name="transit_next_line_departure_subtext_no_time">“%1$s” bekati (platforma: %2$s)</string>
@@ -3062,9 +3162,12 @@ Bu o‘zgarishni amalga oshirsangiz, siz quyidagilarni olasiz:"</string>
     <string name="user_defined_action_add_ends_with_action">Media qo‘shish</string>
     <string name="user_defined_action_add_ends_with_action_no_selection_message">Ijro uchun media tanlang.</string>
     <string name="user_defined_action_add_ends_with_action_what_media">Qaysi media ijro etilsin?</string>
+    <string name="user_defined_action_delete_confirmation_cancel_text">Bekor qilish</string>
+    <string name="user_defined_action_delete_confirmation_delete_text">O‘chirish</string>
     <string name="user_defined_action_delete_confirmation_text">Haqiqatan ham bu amalni o‘chirib tashlamoqchimisiz?</string>
     <string name="user_defined_action_ends_with_category_title">Keyin bu ishga tushirilsin…</string>
     <string name="user_defined_action_follow_up_trigger_phrase_title">Yoki qachon bunday desam…</string>
+    <string name="user_defined_action_menu_clear_schedule">Jadvalni o‘chirish</string>
     <string name="user_defined_action_menu_delete_button">O‘chirish</string>
     <string name="user_defined_action_menu_save_button">Saqlash</string>
     <string name="user_defined_action_original_action_alarm_title">Signal o‘chirilganidan keyingi amal</string>
@@ -3072,6 +3175,17 @@ Bu o‘zgarishni amalga oshirsangiz, siz quyidagilarni olasiz:"</string>
     <string name="user_defined_action_popular_shortcuts_title">Ommabop tezkor tugmalar</string>
     <string name="user_defined_action_reorder_description">Bu ishlar tartibidagi harakatlar tartibini o‘zgartirish uchun torting.</string>
     <string name="user_defined_action_reorder_title">Tartibini o‘zgartirish</string>
+    <string name="user_defined_action_schedule_back_confirmation_message">Vaqt, kun namunasi hamda karnay hammasi tanlanmaguncha harakatlar ketma-ketligi boshlanmaydi.</string>
+    <string name="user_defined_action_schedule_back_confirmation_title">Bu jadval to‘liq emas</string>
+    <string name="user_defined_action_schedule_editor_clear_message">Bu jadval harakatlar ketma-ketligidan olib tashlanadi.</string>
+    <string name="user_defined_action_schedule_editor_clear_title">Bu jadval o‘chirib tashlansinmi?</string>
+    <string name="user_defined_action_schedule_editor_days_of_week">Harakatlar ketma-ketligi qaysi kunlar ishga tushishini tanlang</string>
+    <string name="user_defined_action_schedule_editor_notify">Ketma-ketlik ishga tushganda telefonga bildirishnoma yuborish</string>
+    <string name="user_defined_action_schedule_editor_select_speaker">Karnayni tanlash</string>
+    <string name="user_defined_action_schedule_editor_select_time">Kun vaqtini tanlang</string>
+    <string name="user_defined_action_schedule_editor_speaker">Ketma-ketlik qaysi karnayda ishga tushishini tanlang</string>
+    <string name="user_defined_action_schedule_editor_time">Harakatlar ketma-ketligi qachon ishga tushishini tanlang</string>
+    <string name="user_defined_action_schedule_editor_title">Vaqt va kunni tanlash</string>
     <string name="user_defined_action_target_command_hint">Google Assistent bunday qilishi kerak</string>
     <string name="user_defined_action_task_custom_query_abandon_button">O‘zgarishlarni bekor qilish</string>
     <string name="user_defined_action_task_custom_query_query_required">Bu amalni saqlab olish uchun Google Assistentga buyruq bering.</string>
@@ -3121,17 +3235,23 @@ Bu o‘zgarishni amalga oshirsangiz, siz quyidagilarni olasiz:"</string>
     <string name="user_defined_action_task_volume_notification_summary">Android telefonda mazkur ketma-ketlikni bajarganingizda bu amal ishlaydi</string>
     <string name="user_defined_action_task_volume_notification_title">Jiringlagich va bildirishnoma tovushi balandligi</string>
     <string name="user_defined_action_task_volume_title">Tovush balandligini sozlang</string>
+    <string name="user_defined_action_trigger_multiple_title">Qachon…</string>
+    <string name="user_defined_action_trigger_multiple_title_phrases">%1$s desam</string>
+    <string name="user_defined_action_trigger_multiple_title_time_and_day">Yoki %2$s kunlari %1$s da</string>
     <string name="user_defined_action_trigger_phrase_in_use">“%1$s” iborasi allaqachon mavjud.</string>
     <string name="user_defined_action_trigger_phrase_title">Qachon bunday desam…</string>
     <string name="user_defined_action_trigger_phrase_validation_failed">Mazkur trigger iborasi tekshirilmadi. Qaytadan urining.</string>
     <string name="user_defined_action_workflow_deleting">Ishlar o‘chirib tashlanmoqda</string>
     <string name="user_defined_action_workflow_duplicate_command_phrase">“%1$s” buyrug‘i allaqachon ishlatilmoqda. Boshqasini tanlang.</string>
     <string name="user_defined_action_workflow_edit_command_phrases">Buyruqlarni tahrirlash</string>
+    <string name="user_defined_action_workflow_empty_schedule">Vaqt va kunni tanlash (ixtiyoriy)</string>
     <string name="user_defined_action_workflow_many_command_phrases">“%1$s” yoki “%2$s” yoki …</string>
     <string name="user_defined_action_workflow_new">Yangi harakatlar ketma-ketligi</string>
     <string name="user_defined_action_workflow_no_actions">Hech qanday amal yo‘q</string>
+    <string name="user_defined_action_workflow_no_command_phrases">Buyruqlar qo‘shish (majburiy)</string>
     <string name="user_defined_action_workflow_one_command_phrase">“%1$s”</string>
     <string name="user_defined_action_workflow_saving">Ishlar saqlanmoqda</string>
+    <string name="user_defined_action_workflow_schedule_day_name_separator">", "</string>
     <string name="user_defined_action_workflow_two_command_phrases">“%1$s” yoki “%2$s”</string>
     <string name="user_review_histogram_ic_user_rating">Jami baholaganlar soni</string>
     <string name="user_reviews_read_all_header">Hammasi</string>
@@ -3169,7 +3289,6 @@ Bu o‘zgarishni amalga oshirsangiz, siz quyidagilarni olasiz:"</string>
     <string name="view_all_of_interest_button">Hammasini ko‘rish (%1$d)</string>
     <string name="view_email">Xabarni ko‘rish</string>
     <string name="violent">Zo‘ravonlik</string>
-    <string name="visual_search">Vizual qidiruv</string>
     <string name="voiceSearchPreferences">Ovozli qidiruv soz-lari</string>
     <string name="voice_ime_language_auto">Avtomatik</string>
     <string name="voice_language_preference_change">Ovozli buyruqlar uchun til %s qilib o‘zgartirildi</string>

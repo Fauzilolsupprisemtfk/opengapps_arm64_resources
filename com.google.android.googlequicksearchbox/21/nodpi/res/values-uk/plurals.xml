@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d дня тому</item>
+        <item quantity="one">%d день тому</item>
+        <item quantity="few">%d дні тому</item>
+        <item quantity="many">%d днів тому</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d хвилини тому</item>
+        <item quantity="one">%d хвилину тому</item>
+        <item quantity="few">%d хвилини тому</item>
+        <item quantity="many">%d хвилин тому</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d року тому</item>
+        <item quantity="one">%d рік тому</item>
+        <item quantity="few">%d роки тому</item>
+        <item quantity="many">%d років тому</item>
+    </plurals>
     <plurals name="agenda_card_history_desc">
         <item quantity="other">%d події</item>
         <item quantity="one">%d подія</item>
@@ -53,6 +71,18 @@
         <item quantity="one">кожен %d день</item>
         <item quantity="few">кожні %d дні</item>
         <item quantity="many">кожні %d днів</item>
+    </plurals>
+    <plurals name="daysAgo">
+        <item quantity="other">%1$d дня тому</item>
+        <item quantity="one">%1$d день тому</item>
+        <item quantity="few">%1$d дні тому</item>
+        <item quantity="many">%1$d днів тому</item>
+    </plurals>
+    <plurals name="days_left_to_remove_downloads">
+        <item quantity="other">Через %1$d дня</item>
+        <item quantity="one">Через %1$d день</item>
+        <item quantity="few">Через %1$d дні</item>
+        <item quantity="many">Через %1$d днів</item>
     </plurals>
     <plurals name="device_count">
         <item quantity="other">%1$d пристрою</item>
@@ -138,6 +168,30 @@
         <item quantity="few">; %d рази</item>
         <item quantity="many">; %d разів</item>
     </plurals>
+    <plurals name="episode_list_header_full">
+        <item quantity="other">%1$d серії</item>
+        <item quantity="one">%1$d серія</item>
+        <item quantity="few">%1$d серії</item>
+        <item quantity="many">%1$d серій</item>
+    </plurals>
+    <plurals name="favoritesSelected">
+        <item quantity="other">Вибрано %1$d подкасту</item>
+        <item quantity="one">Вибрано %1$d подкаст</item>
+        <item quantity="few">Вибрано %1$d подкасти</item>
+        <item quantity="many">Вибрано %1$d подкастів</item>
+    </plurals>
+    <plurals name="hoursAgo">
+        <item quantity="other">%1$d години тому</item>
+        <item quantity="one">%1$d годину тому</item>
+        <item quantity="few">%1$d години тому</item>
+        <item quantity="many">%1$d годин тому</item>
+    </plurals>
+    <plurals name="hours_left_to_remove_downloads">
+        <item quantity="other">Через %1$d години</item>
+        <item quantity="one">Через %1$d годину</item>
+        <item quantity="few">Через %1$d години</item>
+        <item quantity="many">Через %1$d годин</item>
+    </plurals>
     <plurals name="items_from_without_colon">
         <item quantity="other">%1$d результату з</item>
         <item quantity="one">%1$d результат з</item>
@@ -197,6 +251,18 @@
         <item quantity="one">На %1$d хв довше, ніж зазвичай</item>
         <item quantity="few">На %1$d хв довше, ніж зазвичай</item>
         <item quantity="many">На %1$d хв довше, ніж зазвичай</item>
+    </plurals>
+    <plurals name="minutesAgo">
+        <item quantity="other">%1$d хвилини тому</item>
+        <item quantity="one">%1$d хвилину тому</item>
+        <item quantity="few">%1$d хвилини тому</item>
+        <item quantity="many">%1$d хвилин тому</item>
+    </plurals>
+    <plurals name="minutes_left">
+        <item quantity="other">Залишилося %1$d хвилини</item>
+        <item quantity="one">Залишилася %1$d хвилина</item>
+        <item quantity="few">Залишилося %1$d хвилини</item>
+        <item quantity="many">Залишилося %1$d хвилин</item>
     </plurals>
     <plurals name="monthly_interval">
         <item quantity="other">Кожні %1$d місяця</item>
@@ -336,6 +402,12 @@
         <item quantity="few">%1$d місця</item>
         <item quantity="many">%1$d місць</item>
     </plurals>
+    <plurals name="unsubscribed_favorites">
+        <item quantity="other">%1$dВи скасували підписку на %1$d подкасту</item>
+        <item quantity="one">%1$dВи скасували підписку на %1$d подкаст</item>
+        <item quantity="few">%1$dВи скасували підписку на %1$d подкасти</item>
+        <item quantity="many">%1$dВи скасували підписку на %1$d подкастів</item>
+    </plurals>
     <plurals name="user_defined_action_task_music_duration_display">
         <item quantity="other">%1$d хвилини</item>
         <item quantity="one">%1$d хвилина</item>
@@ -347,6 +419,18 @@
         <item quantity="one">%1$d°</item>
         <item quantity="few">%1$d°</item>
         <item quantity="many">%1$d°</item>
+    </plurals>
+    <plurals name="user_defined_action_task_set_temperature_temperature_display_c">
+        <item quantity="other">%1$d°C</item>
+        <item quantity="one">%1$d°C</item>
+        <item quantity="few">%1$d°C</item>
+        <item quantity="many">%1$d°C</item>
+    </plurals>
+    <plurals name="user_defined_action_task_set_temperature_temperature_display_f">
+        <item quantity="other">%1$d°F</item>
+        <item quantity="one">%1$d°F</item>
+        <item quantity="few">%1$d°F</item>
+        <item quantity="many">%1$d°F</item>
     </plurals>
     <plurals name="user_defined_action_workflow_num_actions">
         <item quantity="other">%1$d дії</item>

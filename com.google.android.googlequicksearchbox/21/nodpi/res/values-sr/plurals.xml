@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">пре %d дана</item>
+        <item quantity="one">пре %d дан</item>
+        <item quantity="few">пре %d дана</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">пре %d мин</item>
+        <item quantity="one">пре %d мин</item>
+        <item quantity="few">пре %d мин</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">пре %d год</item>
+        <item quantity="one">пре %d год</item>
+        <item quantity="few">пре %d год</item>
+    </plurals>
     <plurals name="agenda_card_history_desc">
         <item quantity="other">%d догађаја</item>
         <item quantity="one">%d догађај</item>
@@ -44,6 +59,16 @@
         <item quantity="other">на %d дана</item>
         <item quantity="one">на %d дан</item>
         <item quantity="few">на %d дана</item>
+    </plurals>
+    <plurals name="daysAgo">
+        <item quantity="other">пре %1$d дана</item>
+        <item quantity="one">пре %1$d дана</item>
+        <item quantity="few">пре %1$d дана</item>
+    </plurals>
+    <plurals name="days_left_to_remove_downloads">
+        <item quantity="other">После %1$d дана</item>
+        <item quantity="one">После %1$d дан</item>
+        <item quantity="few">После %1$d дана</item>
     </plurals>
     <plurals name="device_count">
         <item quantity="other">%1$d уређаја</item>
@@ -115,6 +140,26 @@
         <item quantity="one">, %d пут</item>
         <item quantity="few">, %d пута</item>
     </plurals>
+    <plurals name="episode_list_header_full">
+        <item quantity="other">%1$d епизода</item>
+        <item quantity="one">%1$d епизода</item>
+        <item quantity="few">%1$d епизоде</item>
+    </plurals>
+    <plurals name="favoritesSelected">
+        <item quantity="other">Изабрали сте %1$d поткастова</item>
+        <item quantity="one">Изабрали сте %1$d поткаст</item>
+        <item quantity="few">Изабрали сте %1$d поткаста</item>
+    </plurals>
+    <plurals name="hoursAgo">
+        <item quantity="other">пре %1$d сати</item>
+        <item quantity="one">пре %1$d сата</item>
+        <item quantity="few">пре %1$d сата</item>
+    </plurals>
+    <plurals name="hours_left_to_remove_downloads">
+        <item quantity="other">После %1$d сати</item>
+        <item quantity="one">После %1$d сат</item>
+        <item quantity="few">После %1$d сата</item>
+    </plurals>
     <plurals name="items_from_without_colon">
         <item quantity="other">%1$d ставки са</item>
         <item quantity="one">%1$d ставка са</item>
@@ -164,6 +209,16 @@
         <item quantity="other">%1$d минута више него обично</item>
         <item quantity="one">%1$d минут више него обично</item>
         <item quantity="few">%1$d минута више него обично</item>
+    </plurals>
+    <plurals name="minutesAgo">
+        <item quantity="other">пре %1$d мин</item>
+        <item quantity="one">пре %1$d мин</item>
+        <item quantity="few">пре %1$d мин</item>
+    </plurals>
+    <plurals name="minutes_left">
+        <item quantity="other">Још %1$d мин</item>
+        <item quantity="one">Још %1$d мин</item>
+        <item quantity="few">Још %1$d мин</item>
     </plurals>
     <plurals name="monthly_interval">
         <item quantity="other">На %1$d месеци</item>
@@ -280,6 +335,11 @@
         <item quantity="one">%1$d седиште</item>
         <item quantity="few">%1$d седишта</item>
     </plurals>
+    <plurals name="unsubscribed_favorites">
+        <item quantity="other">%1$dОпозвали сте пријаву за %1$d поткаста</item>
+        <item quantity="one">%1$dОпозвали сте пријаву за %1$d поткаст</item>
+        <item quantity="few">%1$dОпозвали сте пријаву за %1$d поткаста</item>
+    </plurals>
     <plurals name="user_defined_action_task_music_duration_display">
         <item quantity="other">%1$d минута</item>
         <item quantity="one">%1$d минут</item>
@@ -289,6 +349,16 @@
         <item quantity="other">%1$d°</item>
         <item quantity="one">%1$d°</item>
         <item quantity="few">%1$d°</item>
+    </plurals>
+    <plurals name="user_defined_action_task_set_temperature_temperature_display_c">
+        <item quantity="other">%1$d° C</item>
+        <item quantity="one">%1$d° C</item>
+        <item quantity="few">%1$d° C</item>
+    </plurals>
+    <plurals name="user_defined_action_task_set_temperature_temperature_display_f">
+        <item quantity="other">%1$d° F</item>
+        <item quantity="one">%1$d° F</item>
+        <item quantity="few">%1$d° F</item>
     </plurals>
     <plurals name="user_defined_action_workflow_num_actions">
         <item quantity="other">%1$d радњи</item>

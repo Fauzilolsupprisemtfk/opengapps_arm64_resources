@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d ημ. πριν</item>
+        <item quantity="one">%d ημ. πριν</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d λεπ. πριν</item>
+        <item quantity="one">%d λεπ. πριν</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d χρ. πριν</item>
+        <item quantity="one">%d χρ. πριν</item>
+    </plurals>
     <plurals name="agenda_card_history_desc">
         <item quantity="other">%d συμβάντα</item>
         <item quantity="one">%d συμβάν</item>
@@ -35,6 +47,14 @@
     <plurals name="daily_lower">
         <item quantity="other">κάθε %d ημέρες</item>
         <item quantity="one">καθημερινά</item>
+    </plurals>
+    <plurals name="daysAgo">
+        <item quantity="other">%1$d ημέρες πριν</item>
+        <item quantity="one">%1$d ημέρα πριν</item>
+    </plurals>
+    <plurals name="days_left_to_remove_downloads">
+        <item quantity="other">Μετά από %1$d ημέρες</item>
+        <item quantity="one">Μετά από %1$d ημέρα</item>
     </plurals>
     <plurals name="device_count">
         <item quantity="other">%1$d συσκευές</item>
@@ -92,6 +112,22 @@
         <item quantity="other">, για %d φορές</item>
         <item quantity="one">, για μία φορά</item>
     </plurals>
+    <plurals name="episode_list_header_full">
+        <item quantity="other">%1$d επεισόδια</item>
+        <item quantity="one">%1$d επεισόδιο</item>
+    </plurals>
+    <plurals name="favoritesSelected">
+        <item quantity="other">Έχουν επιλεγεί %1$d podcast</item>
+        <item quantity="one">Έχει επιλεγεί %1$d podcast</item>
+    </plurals>
+    <plurals name="hoursAgo">
+        <item quantity="other">%1$d ώρες πριν</item>
+        <item quantity="one">%1$d ώρα πριν</item>
+    </plurals>
+    <plurals name="hours_left_to_remove_downloads">
+        <item quantity="other">Μετά από %1$d ώρες</item>
+        <item quantity="one">Μετά από %1$d ώρα</item>
+    </plurals>
     <plurals name="items_from_without_colon">
         <item quantity="other">%1$d στοιχεία από</item>
         <item quantity="one">%1$d στοιχείο από</item>
@@ -131,6 +167,14 @@
     <plurals name="mins_delay_more_than_usual">
         <item quantity="other">%1$d λεπ. περ. από όσο συνήθως</item>
         <item quantity="one">1 λεπ. περ. από όσο συνήθως</item>
+    </plurals>
+    <plurals name="minutesAgo">
+        <item quantity="other">%1$d λ. πριν</item>
+        <item quantity="one">%1$d λ. πριν</item>
+    </plurals>
+    <plurals name="minutes_left">
+        <item quantity="other">Απομένουν %1$d λεπ.</item>
+        <item quantity="one">Απομένει %1$d λεπ.</item>
     </plurals>
     <plurals name="monthly_interval">
         <item quantity="other">Κάθε %1$d μήνες</item>
@@ -224,6 +268,10 @@
         <item quantity="other">%1$d Καθίσματα</item>
         <item quantity="one">Κάθισμα</item>
     </plurals>
+    <plurals name="unsubscribed_favorites">
+        <item quantity="other">%1$dΚαταργήσατε την εγγραφή σας από %1$d podcast</item>
+        <item quantity="one">%1$dΚαταργήσατε την εγγραφή σας από 1 podcast</item>
+    </plurals>
     <plurals name="user_defined_action_task_music_duration_display">
         <item quantity="other">%1$d λεπτά</item>
         <item quantity="one">%1$d λεπτό</item>
@@ -231,6 +279,14 @@
     <plurals name="user_defined_action_task_set_temperature_temperature_display">
         <item quantity="other">%1$d°</item>
         <item quantity="one">%1$d°</item>
+    </plurals>
+    <plurals name="user_defined_action_task_set_temperature_temperature_display_c">
+        <item quantity="other">%1$d°C</item>
+        <item quantity="one">%1$d°C</item>
+    </plurals>
+    <plurals name="user_defined_action_task_set_temperature_temperature_display_f">
+        <item quantity="other">%1$d°F</item>
+        <item quantity="one">%1$d°F</item>
     </plurals>
     <plurals name="user_defined_action_workflow_num_actions">
         <item quantity="other">%1$d ενέργειες</item>

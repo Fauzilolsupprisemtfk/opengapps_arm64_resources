@@ -31,7 +31,6 @@
     <string name="accessibility_see_results_on_google">Google இல் முடிவுகளைக் காட்டு</string>
     <string name="accessibility_select">திரையிலிருந்து உரையைத் தேர்ந்தெடுக்கலாம்</string>
     <string name="accessibility_share">திரையைப் பகிரலாம்</string>
-    <string name="accessibility_visual_search_button">காட்சித் தேடல்</string>
     <string name="accessibility_voice_search_button">குரல் தேடல்</string>
     <string name="account_item">%1$sக்கு மாறு</string>
     <string name="account_list">கணக்குப் பட்டியல்</string>
@@ -143,7 +142,9 @@
     <string name="add_your_relationship_subject">உங்களின் %1$s ஆக %2$s ஐ நினைவில்கொள்ளவா?</string>
     <string name="additional_stock_query_string">பங்கு</string>
     <string name="address_cancel_button">இப்போது வேண்டாம்</string>
+    <string name="address_error">முகவரியைச் சரிபார்க்க முடியவில்லை.</string>
     <string name="address_explanation">டெலிவரிகள், ட்ராஃபிக், உள்ளூர் வானிலை போன்ற சேவைகளுக்கு, உங்கள் முகவரி பயன்படுத்தப்படும்</string>
+    <string name="address_hint">முகவரியை உள்ளிடவும்</string>
     <string name="address_title">முகவரியை உள்ளிடவும்</string>
     <string name="ads_badge">விளம்பரங்கள்</string>
     <string name="agenda_calendar_next_template">உங்கள் அடுத்த கேலெண்டர் உள்ளீடு %1$s அன்று %2$s க்கு உள்ளது.</string>
@@ -162,6 +163,7 @@
     <string name="agenda_eyes_free_list_last_two_items">%1$s மற்றும் %2$s</string>
     <string name="agenda_eyes_free_timed_event">%1$s க்கு %2$s.</string>
     <string name="agenda_eyes_free_timed_event_with_day">%1$s, %2$s: %3$s.</string>
+    <string name="agenda_hub_title">இனிவருபவை</string>
     <string name="agent_bookmark_added">புத்தகக்குறிகளில் சேமிக்கப்பட்டது</string>
     <string name="agent_bookmark_error">பிழை ஏற்பட்டது. பிறகு முயலவும்.</string>
     <string name="agent_bookmark_removed">புத்தகக்குறிகளிலிருந்து அகற்றப்பட்டது</string>
@@ -190,10 +192,11 @@
     <string name="agent_directory_music_unable_unlink_default">இயல்பு இசை வழங்குநரின் இணைப்பை நீக்க முடியவில்லை</string>
     <string name="agent_directory_no_results">%1$sக்கான முடிவுகள் எதுவுமில்லை</string>
     <string name="agent_directory_no_thanks">வேண்டாம்</string>
+    <string name="agent_directory_send_to_device_text">சாதனத்திற்கு அனுப்பு</string>
     <string name="agent_directory_settings_manage">அமைப்பு</string>
     <string name="agent_directory_settings_text">அமைப்புகள்</string>
     <string name="agent_directory_share">பகிர்</string>
-    <string name="agent_directory_shortcuts_create">புதிய குறுக்குவழியைச் சேர்</string>
+    <string name="agent_directory_shortcuts_create">புதிதாகச் சேர்</string>
     <string name="agent_directory_shortcuts_manage">குறுக்குவழிகளை நிர்வகி</string>
     <string name="agent_directory_shortcuts_subtitle">%1$sக்கான குறுக்குவழிகளைத் தனிப்பயனாக்கலாம்</string>
     <string name="agent_directory_shortcuts_title">%1$s குறுக்குவழிகள்</string>
@@ -259,6 +262,9 @@
     <string name="app_name">Google பயன்பாடு</string>
     <string name="app_not_available">எந்த பயன்பாடாலும் செய்ய முடியவில்லை</string>
     <string name="app_result_suggestion_content_description" formatted="false">%s இல் %sஐத் திறக்கவும்.</string>
+    <string name="app_shortcut_desc">முகப்புத் திரையில் அசிஸ்டண்ட்டைச் சேர்க்கலாம்</string>
+    <string name="app_shortcut_title">அசிஸ்டண்ட்டுக்கு எளிதான அணுகல்</string>
+    <string name="app_suggestions_header">பயன்பாடுகள்</string>
     <string name="appointment_time_range">%1$s – %2$s</string>
     <string name="apps_mode_landing_text">ஆப்ஸில் தேடுக</string>
     <string name="arrival_time">கலந்துகொள்கிறார்</string>
@@ -490,7 +496,10 @@
     <string name="assistant_settings_kill_switch_dialog_button">Play ஸ்டோருக்குச் செல்</string>
     <string name="assistant_settings_kill_switch_dialog_message">சமீபத்திய மேம்பாடுகளைப் பெற, Play ஸ்டோருக்குச் சென்று Google பயன்பாட்டைப் புதுப்பிக்கவும்</string>
     <string name="assistant_settings_kill_switch_dialog_title">உங்கள் அசிஸ்டண்டுக்குச் சில புதிய திறன்கள் தேவை</string>
+    <string name="assistant_settings_language_availability_display_only_text">ஸ்மார்ட் டிஸ்ப்ளேயிலுள்ள அசிஸ்டண்ட், %1$s இல் மட்டுமே கிடைக்கும்.</string>
+    <string name="assistant_settings_language_availability_display_text">உங்கள் மொபைல் இந்த மொழிகளையும் %2$s இல் நீங்கள் அமைத்துள்ள சாதன மொழியையும் பயன்படுத்தும். ஆனால் ஸ்மார்ட் டிஸ்ப்ளே ஆனது %1$sஐ மட்டுமே பயன்படுத்தும்.</string>
     <string name="assistant_settings_language_availability_link">Android மொழி அமைப்புகள்</string>
+    <string name="assistant_settings_language_availability_single_language_display_text">உங்கள் மொபைல் இந்த மொழியையும் %2$s இல் நீங்கள் அமைத்துள்ள சாதன மொழியையும் பயன்படுத்தும். ஆனால் ஸ்மார்ட் டிஸ்ப்ளே ஆனது %1$sஐ மட்டுமே பயன்படுத்தும்.</string>
     <string name="assistant_settings_language_availability_single_language_text">உங்கள் ஃபோனிலுள்ள அசிஸ்டண்ட், இந்த மொழியையும் %2$s இல் நீங்கள் அமைத்துள்ள %1$s சாதன மொழியையும் பயன்படுத்தும்.</string>
     <string name="assistant_settings_language_availability_text">உங்கள் மொபைலில் உள்ள அசிஸ்டண்ட் இந்த மொழிகளையும் %2$s இல் நீங்கள் அமைத்துள்ள சாதன மொழியான %1$sஐயும் பயன்படுத்தும்.</string>
     <string name="assistant_settings_languages_dialog_title">மொழிகள்</string>
@@ -523,6 +532,7 @@
     <string name="assistant_settings_music_youtube_premium_dialog_text">Google Home இல் இயக்க, YouTube மியூசிக்கிற்கு YouTube Red மெம்பர்ஷிப் தேவை. <a href="http://youtube.com/red">youtube.com/red</a> எனும் இணைப்பில் பதிவுசெய்யலாம்.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">YouTube Red மெம்பர்ஷிப் தேவை</string>
     <string name="assistant_settings_news_provider_delete_button_description">இயக்கப்பட்ட செய்தி ஆதாரங்களிலிருந்து %1$sஐ அகற்றும்</string>
+    <string name="assistant_settings_news_supports_video">ஸ்மார்ட் டிஸ்ப்ளேகளில் வீடியோவைப் பார்க்கலாம்</string>
     <string name="assistant_settings_news_title">செய்திகள்</string>
     <string name="assistant_settings_nick_name_not_pronounceable_message">உங்கள் புனைப்பெயரில், அசிஸ்டண்ட்டால் உச்சரிக்க முடியாத எழுத்துக்குறி உள்ளது. அடுத்த பிரிவில், அதன் எழுத்துகளை உச்சரித்துக் காட்டவும்.</string>
     <string name="assistant_settings_no_device_linked">Voice Match மூலம், அசிஸ்டண்ட் உங்கள் குரலை அடையாளம் காணும்போது தனிப்பட்ட தகவல்களை உங்களுக்குத் தர முடியும். இதைப் பயன்படுத்தி 6 பேர் வரை தங்களது கேலெண்டர், இசை &amp; பலவற்றைப் பற்றிய தகவல்களைப் பெறலாம்.</string>
@@ -592,6 +602,7 @@
     <string name="assistant_settings_payments_phone_authentication_frequency_never_description">வழக்கத்திற்கு மாறான செயல்பாடு கண்டறியப்படும் வரை</string>
     <string name="assistant_settings_payments_phone_authentication_frequency_not_required">உறுதிப்படுத்தல் தேவையில்லை</string>
     <string name="assistant_settings_payments_phone_authentication_mechanism_title">உறுதிப்படுத்த, கைரேகையைப் பயன்படுத்தவும்</string>
+    <string name="assistant_settings_payments_phone_authentication_page_header">உங்கள் அசிஸ்டண்ட்டைப் பயன்படுத்திச் செலுத்தப்படும் கட்டணங்களுக்கான பாதுகாப்பு அமைப்புகளை மாற்றலாம்.</string>
     <string name="assistant_settings_payments_phone_authentication_section_title">வாங்குதலுக்கான ஒப்புதல்கள்</string>
     <string name="assistant_settings_payments_phone_authentication_title">வாங்குதலுக்கான ஒப்புதல்கள்</string>
     <string name="assistant_settings_payments_save_button_text">சேமி</string>
@@ -688,6 +699,8 @@
     <string name="assistant_settings_shopping_list_title">ஷாப்பிங் பட்டியல்</string>
     <string name="assistant_settings_spell_out_name_not_pronounceable_message">ஆங்கில எழுத்துகளைப் பயன்படுத்தவும்</string>
     <string name="assistant_settings_stocks">பங்குகள்</string>
+    <string name="assistant_settings_summer_time_mode_availability_clarification" />
+    <string name="assistant_settings_summer_time_mode_availability_description">கோடை நேரப் பயன்முறை தொடங்கும் நாள்</string>
     <string name="assistant_settings_summer_time_mode_button_summary">கோடை நேரப் பயன்முறையை இயக்கும்.</string>
     <string name="assistant_settings_summer_time_mode_button_title">கோடை நேரப் பயன்முறை</string>
     <string name="assistant_settings_summer_time_mode_title">கோடை நேரப் பயன்முறை</string>
@@ -754,12 +767,17 @@
     <string name="audio_error">மைக்ரோஃபோனைத் திறக்க முடியவில்லை.</string>
     <string name="audio_file_access">பதிவுசெய்யப்பட்ட ஆடியோ அணுகல்</string>
     <string name="audio_file_access_desc">சுய குறிப்புகளுக்காகவும், மூல ஆடியோ பகுப்பாய்விற்காகவும் பதிவுசெய்யப்பட்ட ஆடியோ ஒலிப்புகளை அணுகலாம்.</string>
+    <string name="audio_rationale_message">பேச்சு அறிதல் சேவையை வழங்குவதற்காக, Googleக்கு உங்கள் ஆடியோ அனுப்பப்படும். அந்த ஆடியோவின் எழுத்தாக்கம், இந்தப் பயன்பாட்டுடன் பகிரப்படும்.</string>
+    <string name="audio_rationale_message_vaa_enabled">"பேச்சு அறிதல் சேவையை வழங்குவதற்காக, Googleக்கு உங்கள் ஆடியோ அனுப்பப்படும். அந்த ஆடியோவின் எழுத்தாக்கம், இந்தப் பயன்பாட்டுடன் பகிரப்படும்.
+
+%1$s"</string>
     <string name="auto_update_any_time">"எந்த நேரத்திலும் மொழிகளை தானாகப் புதுப்பி.
  தரவு பேமெண்ட்கள் விதிக்கப்படலாம்."</string>
     <string name="auto_update_language_packs">தன்னிச்சையான அறிவிப்பு</string>
     <string name="auto_update_never">மொழிகளைத் தானாகப் புதுப்பிக்க வேண்டாம்</string>
     <string name="auto_update_wifi_only">வைஃபை மூலம் மட்டுமே மொழிகளை தானாகப் புதுப்பி</string>
     <string name="back">பின்செல்</string>
+    <string name="back_of_card_close">மூடுக</string>
     <string name="background_notification_onboarding">ஆஃப்லைனில் உள்ளீர்களா? கவலை வேண்டாம். Google பயன்பாடானது உங்கள் தேடலை நினைவில் கொண்டு, முடிவுகள் தயாரானதும் உங்களுக்கு அறிவிப்பை அனுப்பும்.</string>
     <string name="background_notification_onboarding_accept">சரி</string>
     <string name="background_notification_onboarding_decline">முடக்கு</string>
@@ -779,7 +797,6 @@
     <string name="barcode_image_description">பார்கோடின் படம்</string>
     <string name="batterysaver_off">பேட்டரி சேமிப்பான் முடக்கத்தில்</string>
     <string name="batterysaver_on">பேட்டரி சேமிப்பான் இயக்கத்தில்</string>
-    <string name="beta_tag">பீட்டா</string>
     <string name="birthday_message">இன்று %1$s வினாடிகள் இளமையாக உள்ளீர்கள்.</string>
     <string name="birthday_today">இன்று பிறந்தநாள்</string>
     <string name="bisto_onboarding_chip_text">ஹெட்ஃபோன்களின் அமைவை முடிக்கவும்</string>
@@ -865,17 +882,22 @@
     <string name="cloud_search_history_fetch_failed_toast">அமைப்புகளை மீட்டெடுக்க முடியவில்லை. பிறகு முயலவும்.</string>
     <string name="cloud_search_history_summary_fetching">அமைப்புகளைப் பெறுகிறது…</string>
     <string name="collapse_time_to_leave">இந்தப் பயணத்திற்கான விருப்பங்களை மறை.</string>
+    <string name="collections">தொகுப்புகள்</string>
     <string name="comment_hint">கூடுதல் கருத்துகள் (விரும்பினால்).</string>
     <string name="common_address_clear_button_label">அழி</string>
     <string name="common_address_clear_confirm_button">நீக்கு</string>
     <string name="common_address_edit_title">முகவரியை மாற்றவும்</string>
     <string name="common_delete">நீக்கு</string>
     <string name="common_device_assistant_language_title">அசிஸ்டண்ட் மொழி</string>
-    <string name="common_device_id_personal_info_permission_non_screen_devices_summary">இந்தச் சாதனத்தில் மின்னஞ்சல், கேலெண்டர், தொடர்புகள், நினைவூட்டல்கள் போன்ற தனிப்பட்ட முடிவுகளை அனுமதிக்கும். இது இந்தச் சாதனத்தில் கட்டணங்களைச் செலுத்தவும் அனுமதிக்கும். <a href="https://support.google.com/assistant/?p=personal_results">மேலும் அறிக</a></string>
+    <string name="common_device_id_personal_info_permission_non_screen_devices_summary">இந்தச் சாதனத்தில் மின்னஞ்சல், கேலெண்டர், தொடர்புகள், நினைவூட்டல்கள் போன்ற தனிப்பட்ட முடிவுகளை அனுமதிக்கும். இது இந்தச் சாதனத்தில் கட்டணங்களைச் செலுத்தவும் அனுமதிக்கும். %1$s</string>
+    <string name="common_device_id_personal_info_permission_screenful_devices_summary">இந்தச் சாதனத்தில் படங்கள், மின்னஞ்சல், கேலெண்டர், தொடர்புகள், நினைவூட்டல்கள் போன்ற தனிப்பட்ட முடிவுகளை அனுமதிக்கும். இது இந்தச் சாதனத்தில் கட்டணங்களைச் செலுத்தவும் அனுமதிக்கும். %1$s</string>
     <string name="common_device_notification_permission_summary">நினைவூட்டல்கள் போன்ற அறிவிப்புகளை இந்தச் சாதனத்தில் பெறலாம். அறிவிப்புகள் அணைக்கப்பட்டிருந்தாலும், அலாரங்களையும் முக்கிய அறிவிப்புகளையும் கேட்பீர்கள்.</string>
     <string name="common_device_notification_permission_title">அறிவிப்புகள்</string>
     <string name="common_device_personal_info_permission_title">தனிப்பட்ட முடிவுகள்</string>
+    <string name="common_device_personal_suggestion_permission_summary">தனிப்பட்ட முடிவுகள் மற்றும் தனிப்பயனாக்கிய YouTube வீடியோ பரிந்துரைகள் ஆகியவற்றை நீங்கள் கேட்க வேண்டிய அவசியமின்றி முகப்புத் திரையில் காண்பிக்கும் அல்லது அறிவிப்புகளாகக் காண்பிக்கும். குறிப்பு: அருகில் இருப்பவர்களும் இந்த முடிவுகளை அணுகலாம் மற்றும் அவற்றைப் பயன்படுத்தலாம். %1$s</string>
     <string name="common_device_personal_suggestion_permission_title">முகப்புத் திரை &amp; அறிவிப்புகள்</string>
+    <string name="common_device_youtube_restricted_mode_summary">பொருத்தமற்ற உள்ளடக்கத்தைக் கொண்டிருக்கக்கூடிய பாடல்களையும் வீடியோக்களையும் மறை</string>
+    <string name="common_device_youtube_restricted_mode_title">YouTube கட்டுப்பாட்டுப் பயன்முறை</string>
     <string name="common_google_logo">Google லோகோ</string>
     <string name="common_google_search_hint">Google தேடல்</string>
     <string name="common_google_search_label">Google</string>
@@ -945,6 +967,7 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="contact_selected_find_another_contact">%1$s. வேறொன்றைத் தேர்வுசெய்க</string>
     <string name="contact_selected_find_another_contact_with_relationship">%1$s, %2$s. வேறொரு தொடர்பைத் தேர்வுசெய்க</string>
     <string name="contact_suggestion_message">இது நீங்கள் உள்ளிடுவதுடன் பொருந்தும் தனிப்பட்ட தொடர்பாகும்.</string>
+    <string name="contact_suggestions_header">தொடர்புகள்</string>
     <string name="content_stale_ago">%1$s முன்பு உள்ளடக்கம் கடைசியாகப் புதுப்பிக்கப்பட்டது</string>
     <string name="copied_to_clipboard">கிளிப்போர்டுக்கு நகலெடுக்கப்பட்டது</string>
     <string name="corpus_name_images_animated">GIF</string>
@@ -1154,6 +1177,16 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="explore_review_submit">சமர்ப்பி</string>
     <string name="explore_review_title">உங்கள் கருத்து</string>
     <string name="explore_review_view_pager_indicator_dot_description">பக்கம் %1$d / %2$d</string>
+    <string name="eyes_camera_switch_button_description">கேமராவின் திசையை நிலைமாற்றும்</string>
+    <string name="eyes_donate_data_info_button_description">தரவு நன்கொடைத் தகவலைக் காண்பிக்கும்</string>
+    <string name="eyes_donate_data_notification_learn_more">மேலும் அறிக</string>
+    <string name="eyes_donate_data_notification_text">Google தயாரிப்புகளை மேம்படுத்துவதற்காக, படங்களை நன்கொடையாக வழங்குகிறீர்கள்.</string>
+    <string name="eyes_donate_data_optin_dogfood_label">Dogfood</string>
+    <string name="eyes_donate_data_optin_message">Google தயாரிப்புகளை மேம்படுத்த, அசிஸ்டண்ட்டில் லென்ஸ் மூலம் எடுத்த படங்களை மனிதர்கள் மதிப்பாய்வு செய்ய அனுமதிக்கவும்.</string>
+    <string name="eyes_donate_data_optin_no_thanks">வேண்டாம்</string>
+    <string name="eyes_donate_data_optin_ok">சரி</string>
+    <string name="eyes_donate_data_optin_title">லென்ஸ் படங்களை நன்கொடையாக வழங்குக</string>
+    <string name="eyes_flash_button_description">ஃபிளாஷை நிலைமாற்றும்</string>
     <string name="eyes_import_to_keep_suggestion">Keepக்கு இறக்கு</string>
     <string name="eyes_improve_lens_suggestion">Google லென்ஸை மேம்படுத்த உதவவும்</string>
     <string name="eyes_initial_prompt">நீங்கள் ஆர்வம் காட்டுபவற்றில் தட்டவும்</string>
@@ -1170,6 +1203,9 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="eyes_onboarding_camera_permission_denied_settings_button">அமைப்புகள்</string>
     <string name="eyes_onboarding_camera_permission_denied_title">லென்ஸ் பிழை</string>
     <string name="eyes_onboarding_message">நீங்கள் பார்ப்பவற்றைப் பற்றிய தகவல்களை இன்னும் விரைவாகக் காண்பிக்க, அவற்றை Google லென்ஸ் தொடர்ந்து பகுப்பாய்வு செய்யும்</string>
+    <string name="eyes_onboarding_title_places">லென்ஸ் மூலம் இடங்களைக் கண்டுபிடிக்கலாம்</string>
+    <string name="eyes_onboarding_title_products">லென்ஸ் மூலம் தயாரிப்புகளைக் கண்டுபிடிக்கலாம்</string>
+    <string name="eyes_onboarding_title_text">லென்ஸ் மூலம் உரையை ஸ்கேன் செய்யலாம்</string>
     <string name="eyes_remember_this_suggestion">இதை நினைவில் வைத்திரு</string>
     <string name="eyes_request_timed_out_message">ஏதோ தவறாகிவிட்டது</string>
     <string name="eyes_share_suggestion">பகிர்</string>
@@ -1194,6 +1230,7 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="feedback_edittext_hint">கருத்து</string>
     <string name="feedback_legal_help_text">சட்ட உதவிப் பக்கம்</string>
     <string name="feedback_legal_help_url">https://support.google.com/legal/answer/3110420</string>
+    <string name="feedback_link">கருத்து</string>
     <string name="feedback_no_text_entered">புகாரளிக்கும் முன் கருத்தை உள்ளிடவும்.</string>
     <string name="feedback_privacy_text">தனியுரிமைக் கொள்கை</string>
     <string name="feedback_privacy_url">http://www.google.com/intl/%1$s/policies/privacy/</string>
@@ -1322,8 +1359,6 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="google_home_device_change_language_dialog_message">உங்கள் Google Home சாதனங்கள் ஒரே மொழியைப் பயன்படுத்துகின்றன. இது அவை எல்லாவற்றின் மொழியையும் %1$sக்கு மாற்றும்.</string>
     <string name="google_home_device_change_language_dialog_title">எல்லா Google Home சாதனங்களிலும் மொழியை மாற்றவா?</string>
     <string name="google_home_device_change_language_dialog_yes">ஆம்</string>
-    <string name="google_home_device_youtube_restricted_mode_summary">பொருத்தமற்ற உள்ளடக்கத்தைக் கொண்டிருக்கக்கூடிய பாடல்களையும் வீடியோக்களையும் மறை</string>
-    <string name="google_home_device_youtube_restricted_mode_title">YouTube கட்டுப்பாட்டுப் பயன்முறை</string>
     <string name="google_home_hotword_enrollment_bottom_summary_text">Voice Matchஐ அமைக்க, வீட்டிலுள்ள பிறரையும் அழையுங்கள்</string>
     <string name="google_location_service_required_text">உள்ளூர் வானிலை மற்றும் பயணத்திற்கான ட்ராஃபிக் போன்ற இடம் சார்ந்த கார்டுகளைப் பார்க்க, Google இன் இடச் சேவையை இயக்கவும்</string>
     <string name="google_play_services">Google Play சேவைகள்</string>
@@ -1356,9 +1391,21 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="hide_account_list">கணக்குகளை மறை</string>
     <string name="hide_examples_description">எடுத்துக்காட்டுகளை மறை</string>
     <string name="history_action_card_title_default">செயல் மேற்கொள்ளப்பட்டது</string>
+    <string name="history_carousel_background_text">பிற சாதனங்களிலிருந்து உங்கள் சமீபத்திய இணையத் தேடல் செயல்பாடுகள்</string>
     <string name="hits_header">H</string>
     <string name="hits_header_full_length">ஹிட்கள்</string>
     <string name="home_address_icon_label">வீட்டு முகவரி</string>
+    <string name="home_onboarding_personal_results_enabled_explanation">"தனிப்பட்ட முடிவுகளை இயக்கிவிட்டீர்கள், ஆனால் Voice Match இன்னும் இயக்கப்படவில்லை. இதனால், தனிப்பட்ட முடிவுகளை உங்களுக்கு வழங்கும் முன்பு, அசிஸ்டண்ட் உங்கள் குரலைச் சரிபார்க்காது.
+
+உதவிக்குறிப்பு: இந்தச் சாதனத்தை அமைத்து முடித்ததும், அசிஸ்டண்ட் அமைப்புகளில் Voice Matchஐ இயக்குங்கள்."</string>
+    <string name="home_onboarding_personal_results_enabled_positive_button">மூடுக</string>
+    <string name="home_onboarding_personal_results_enabled_title">தனிப்பட்ட முடிவுகளின் பாதுகாப்பை இன்னும் அதிகரிக்கவும்</string>
+    <string name="home_personal_results_action_button">ஏற்கிறேன்</string>
+    <string name="home_personal_results_cancel_button">வேண்டாம்</string>
+    <string name="home_personal_results_explanation">இந்தச் சாதனத்தில் கேலெண்டர், தொடர்புகள், நினைவூட்டல்கள் மற்றும் பலவற்றை அணுக, தனிப்பட்ட முடிவுகளை இயக்கவும். <a href="https://support.google.com/assistant/?p=personal_results">மேலும் அறிக</a>"
+
+இந்தச் சாதனத்தைப் பயன்படுத்தும் எவரும் உங்கள் தனிப்பட்ட முடிவுகளைப் பெற முடியும் என்பதை நினைவில் கொள்க. தனிப்பட்ட முடிவுகளை அசிஸ்டண்ட் அமைப்புகளில் முடக்கலாம்."</string>
+    <string name="home_personal_results_title">தனிப்பட்ட முடிவுகளைப் பெறுக</string>
     <string name="homescreen_settings_action_turn_off">முடக்கு</string>
     <string name="homescreen_settings_display_feed">Google ஊட்டத்தைக் காட்டு</string>
     <string name="homescreen_settings_header_category">முகப்புத் திரை</string>
@@ -1367,6 +1414,7 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="homescreen_settings_title_predictions_prompt">பயன்பாட்டுப் பரிந்துரைகளை முடக்கவா?</string>
     <string name="hotword_disabled">\"%1$s\" முடக்கப்பட்டுள்ளது</string>
     <string name="hotword_disabled_motorola_aov">\"%1$s\"க்கு பதிலாக வேறொரு அம்சம் மைக்ரோஃபோனைப் பயன்படுத்துகிறது. \"%1$s\"ஐ மீண்டும் இயக்க, Moto Voice ஐ முடக்கவும்.</string>
+    <string name="hotword_enrollment_button_more">மேலும்</string>
     <string name="hotword_enrollment_delete_voice_model">குரல் மாதிரியை நீக்கவும்</string>
     <string name="hotword_enrollment_enroll_again">மீண்டும் \"%1$s\" எனச் சொல்லவும்</string>
     <string name="hotword_enrollment_enroll_again_talkback">அருமை. மீண்டும் கூறவும்.</string>
@@ -1388,7 +1436,6 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="hotword_enrollment_enroll_listening_talkback_assistant_device">\"%1$s\" என்று தொடங்கும் சொற்றொடரைச் சொல்லவும்</string>
     <string name="hotword_enrollment_enroll_listening_talkback_assistant_device_again">மீண்டும் கூறுங்கள்</string>
     <string name="hotword_enrollment_enroll_say_prompt">மூன்று முறை \"%1$s\" எனச் சொன்னால் போதும்</string>
-    <string name="hotword_enrollment_enroll_skip_glif">தவிர்</string>
     <string name="hotword_enrollment_enroll_start">ரெக்கார்டிங்கைத் தொடங்கு</string>
     <string name="hotword_enrollment_enroll_text">சாதனம் உங்களுக்குப் பதிலளிப்பதற்கு உதவ, உங்கள் குரலின் ஒலியைப் புரிந்துகொள்வதில் Googleக்குப் பயிற்சியளிக்கலாம்.</string>
     <string name="hotword_enrollment_enroll_text_opa_talkback">அசிஸ்டண்டிற்கு உங்கள் குரலைக் கற்பிக்க, கீழே உள்ள %1$s பட்டனை இயக்கி, பின்னர் \"%2$s\" எனக் கூறவும்.</string>
@@ -1409,6 +1456,9 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
 
 இந்தச் சாதனத்தில் குரல் மாதிரியை உருவாக்குவதற்கு அந்த முந்தைய குரல் பதிவுகளைப் பயன்படுத்தலாம். இதற்கு ஒரு நிமிடத்திற்கும் குறைவாகவே ஆகும்."</string>
     <string name="hotword_enrollment_google_home_fast_update_unicorn_header_title">அசிஸ்டண்ட்டால் உங்கள் வீட்டுப் பிள்ளையின் குரலை ஏற்கனவே அடையாளம் காண முடியும்</string>
+    <string name="hotword_enrollment_google_home_fast_update_unicorn_progress_summary">"ஏற்கனவே வேறொரு சாதனத்தில் உங்கள் குழந்தையின் Google அசிஸ்டண்ட்டில் Voice Matchஐ அமைத்துள்ளீர்கள் எனத் தோன்றுகிறது.
+
+இந்தச் சாதனத்தில் குரல் மாதிரியை உருவாக்குவதற்கு அந்த முந்தைய குரல் பதிவுகளைப் பயன்படுத்தலாம். இதற்கு ஒரு நிமிடத்திற்கும் குறைவாகவே ஆகும்."</string>
     <string name="hotword_enrollment_google_home_no_enrollment_found_toast_msg">முதலில் %1$s எனும் கணக்கிற்கான குறிப்பிட்ட குறிச்சொல்லைப் பதிவு செய்து முடிக்கவும்.</string>
     <string name="hotword_enrollment_google_home_no_thanks">வேண்டாம்</string>
     <string name="hotword_enrollment_google_home_non_fast_update_header_title">Voice Matchஐ அமைக்கிறது</string>
@@ -1431,7 +1481,7 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="hotword_enrollment_intro_header_title_glif_non_opa">எப்போது வேண்டுமானாலும் குரல் மூலம் தேடலாம்</string>
     <string name="hotword_enrollment_intro_next">அடுத்து</string>
     <string name="hotword_enrollment_intro_summary_always_on">திரை அணைக்கப்பட்டிருந்தாலும் அல்லது உங்களுக்குத் பிடித்த வேறு பயன்பாட்டைப் பயன்படுத்திக் கொண்டிருந்தாலும், தேடுவதற்கு \"%1$s\" எனக் கூறவும்</string>
-    <string name="hotword_enrollment_intro_summary_glif_non_opa">திரை அணைக்கப்பட்டிருக்கும் போது அல்லது உங்களுக்குப் பிடித்த பயன்பாடுகளைப் பயன்படுத்திக் கொண்டிருக்கும் போது என எப்போது வேண்டுமானாலும் சாதனத்துடன் பேச, \"%1$s\" எனக் கூறினால் போதும்.</string>
+    <string name="hotword_enrollment_intro_summary_glif_non_opa">திரை அணைக்கப்பட்டிருந்தாலும் அல்லது உங்களுக்குப் பிடித்த ஆப்ஸைப் பயன்படுத்திக் கொண்டிருந்தாலும் கூட, உங்கள் சாதனத்துடன் பேச \"%1$s\" எனக் கூறவும்.&lt;br/>&lt;br/>Google குரல் தேடல் உங்களை அடையாளம் காணவும் பிறரிலிருந்து வேறுபடுத்திப் பார்க்கவும் உதவுவதற்காக, இந்தச் சாதனத்தில் உங்கள் குரலின் தனித்துவமான மாதிரி ஒன்று உருவாக்கப்படும்.&lt;br/>&lt;br/>&lt;b>நினைவில் கொள்க:&lt;/b> உங்களுடையதைப் போன்ற குரல் அல்லது பதிவும் கூட குரல் தேடலை அணுகலாம். Google பயன்பாட்டில் பின்னர் அதை முடக்கி, அதற்கான அனுமதியை அகற்றலாம்.</string>
     <string name="hotword_enrollment_intro_summary_screen_on">"சாதனம் பூட்டப்பட்டிருந்தாலும் அல்லது உங்களுக்குத் பிடித்த வேறு  பயன்பாட்டைப் பயன்படுத்திக் கொண்டிருந்தாலும், தேடுவதற்கு \"%1$s\" எனக் கூறவும்"</string>
     <string name="hotword_enrollment_local_escalation_google_password_incorrect">கடவுச்சொல் தவறானது.</string>
     <string name="hotword_enrollment_local_escalation_learn_more_link">https://support.google.com/families/answer/7521263</string>
@@ -1450,11 +1500,20 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="hotword_enrollment_optin_udc_summary_item2">இவ்வாறு செய்வதால், அதிக அளவிலான தடைகள் இல்லாமல், விரைவாக முடிவுகளை வழங்கும் பொருட்டு, Google உங்கள் குரலை அறிந்துகொள்ளவும் பேச்சு மற்றும் ஆடியோ கண்டறிதலை மேம்படுத்தவும் உதவுகிறது.</string>
     <string name="hotword_enrollment_optin_udc_summary_item3">நீங்கள் எப்போது வேண்டுமானாலும் %1$s என்பதில் இந்த அமைப்பை மாற்றலாம் அல்லது தனிப்பட்ட தரவை நிர்வகிக்கலாம். குரல் மற்றும் ஆடியோ செயல்பாட்டை இயக்கியிருக்கும் போது, இந்தத் தரவு நீங்கள் உள்நுழைந்துள்ள எந்தச் சாதனங்களிலிருந்தும் சேமிக்கப்படலாம் என்பதை நினைவில்கொள்ளவும்.</string>
     <string name="hotword_enrollment_optin_udc_title">குரல் மற்றும் ஆடியோ செயல்பாட்டைச் சேமித்தல்</string>
+    <string name="hotword_enrollment_parent_intro_summary">{GENDER,select, male{Google அசிஸ்டண்ட் மூலம், {PERSON} கேம்களை விளையாடுவது அல்லது கேலெண்டரில் அவருடைய பள்ளி ஆண்டுவிழாத் தேதியைச் சரிபார்ப்பது போன்ற விஷயங்களைச் செய்ய முடியும். சில செயல்பாடுகள் சிறுவயதினர் பயன்படுத்துவதற்கேற்ப வடிவமைக்கப்பட்டுள்ளன, எனினும் பெரும்பாலான செயல்பாடுகள் பொதுப் பயனாளர்களுக்காக உருவாக்கப்பட்டுள்ளன. &lt;a href=\"{LINK}\">மேலும் அறிக&lt;/a>&lt;br>&lt;br>இந்தச் சாதனத்தில் {PERSON} உடைய குரலின் தனித்துவமான மாதிரியை உருவாக்குவதன் மூலம் அசிஸ்டண்ட் அவரது குரலை அடையாளம் காணவும் பிறரிலிருந்து அவரை வேறுபடுத்திப் பார்க்கவும் Voice Match உதவுகிறது.&lt;br>&lt;br>நினைவில் கொள்க: அதே போன்ற குரல் அல்லது பதிவைப் பயன்படுத்தியும் {PERSON} உடைய தனிப்பட்ட முடிவுகளை அணுகலாம். பின்னர் அசிஸ்டண்ட் அமைப்புகள் அல்லது Family Link இல் Voice Matchக்கான அனுமதியை முடக்கி, அதை அகற்றலாம்.}female{Google அசிஸ்டண்ட் மூலம், {PERSON} கேம்களை விளையாடுவது அல்லது கேலெண்டரில் அவருடைய பள்ளி ஆண்டுவிழாத் தேதியைச் சரிபார்ப்பது போன்ற விஷயங்களைச் செய்ய முடியும். சில செயல்பாடுகள் சிறுவயதினர் பயன்படுத்துவதற்கேற்ப வடிவமைக்கப்பட்டுள்ளன, எனினும் பெரும்பாலான செயல்பாடுகள் பொதுப் பயனாளர்களுக்காக உருவாக்கப்பட்டுள்ளன. &lt;a href=\"{LINK}\">மேலும் அறிக&lt;/a>&lt;br>&lt;br>இந்தச் சாதனத்தில் {PERSON} உடைய குரலின் தனித்துவமான மாதிரியை உருவாக்குவதன் மூலம் அசிஸ்டண்ட் அவரது குரலை அடையாளம் காணவும் பிறரிலிருந்து அவரை வேறுபடுத்திப் பார்க்கவும் Voice Match உதவுகிறது.&lt;br>&lt;br>நினைவில் கொள்க: அதே போன்ற குரல் அல்லது பதிவைப் பயன்படுத்தியும் {PERSON} உடைய தனிப்பட்ட முடிவுகளை அணுகலாம். பின்னர் அசிஸ்டண்ட் அமைப்புகள் அல்லது Family Link இல் Voice Matchக்கான அனுமதியை முடக்கி, அதை அகற்றலாம்.}other{Google அசிஸ்டண்ட் மூலம், {PERSON} கேம்களை விளையாடுவது அல்லது கேலெண்டரில் அவருடைய பள்ளி ஆண்டுவிழாத் தேதியைச் சரிபார்ப்பது போன்ற விஷயங்களைச் செய்ய முடியும். சில செயல்பாடுகள் சிறுவயதினர் பயன்படுத்துவதற்கேற்ப வடிவமைக்கப்பட்டுள்ளன, எனினும் பெரும்பாலான செயல்பாடுகள் பொதுப் பயனாளர்களுக்காக உருவாக்கப்பட்டுள்ளன. &lt;a href=\"{LINK}\">மேலும் அறிக&lt;/a>&lt;br>&lt;br>இந்தச் சாதனத்தில் {PERSON} உடைய குரலின் தனித்துவமான மாதிரியை உருவாக்குவதன் மூலம் அசிஸ்டண்ட் அவரது குரலை அடையாளம் காணவும் பிறரிலிருந்து அவரை வேறுபடுத்திப் பார்க்கவும் Voice Match உதவுகிறது.&lt;br>&lt;br>நினைவில் கொள்க: அதே போன்ற குரல் அல்லது பதிவைப் பயன்படுத்தியும் {PERSON} உடைய தனிப்பட்ட முடிவுகளை அணுகலாம். பின்னர் அசிஸ்டண்ட் அமைப்புகள் அல்லது Family Link இல் Voice Matchக்கான அனுமதியை முடக்கி, அதை அகற்றலாம்.}}</string>
     <string name="hotword_enrollment_parent_intro_summary_learn_more_link">https://support.google.com/families/answer/7521263</string>
     <string name="hotword_enrollment_parent_intro_title">%1$s இன் குரலை அறிய, அசிஸ்டண்ட்டிற்குக் கற்பிக்கவும்</string>
     <string name="hotword_enrollment_parent_selector_family_fetch_failed">குடும்பத்தைப் பெறுவதில் பிழை.</string>
     <string name="hotword_enrollment_parent_selector_subtitle">Google அசிஸ்டண்ட் ஸ்பீக்கரை அமைப்பதற்கு உங்களுக்கு உதவும் அருகில் உள்ள ஒருவரைத் தேர்வுசெய்யவும்.</string>
     <string name="hotword_enrollment_parent_selector_title">பெற்றோரின் அனுமதி தேவை</string>
+    <string name="hotword_enrollment_personal_results_action_button">ஏற்கிறேன்</string>
+    <string name="hotword_enrollment_personal_results_cancel_button">வேண்டாம்</string>
+    <string name="hotword_enrollment_personal_results_explanation">"Voice Match அமைக்கப்பட்டது.
+
+கேலெண்டர், தொடர்புகள், நினைவூட்டல்கள் போன்றவற்றை அணுக குரலைப் பயன்படுத்த, தனிப்பட்ட முடிவுகளை இயக்கலாம். "<a href="https://support.google.com/assistant/?p=personal_results">மேலும் அறிக</a>"
+
+தனிப்பட்ட முடிவுகளை அசிஸ்டண்ட் அமைப்புகளில் முடக்கலாம்."</string>
+    <string name="hotword_enrollment_personal_results_title">உங்கள் குரல் மூலம் தனிப்பட்ட முடிவுகளைப் பெறுங்கள்</string>
     <string name="hotword_enrollment_pref_category_voice_model">\"Ok Google\" குரல் மாதிரி</string>
     <string name="hotword_enrollment_retrain_voice_model">குரல் மாதிரிக்கு மீண்டும் பயிற்சியளிக்கவும்</string>
     <string name="hotword_enrollment_retry_enroll">ஏதோ தவறாகிவிட்டது. மீண்டும் தொடங்கவும்.</string>
@@ -1488,9 +1547,9 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="hotword_enrollment_trustedvoice_header_title">Voice Match மூலம் உங்கள் ஃபோனைத் திறவுங்கள்</string>
     <string name="hotword_enrollment_trustedvoice_learn_more">&lt;a href=%1$s>மேலும் அறிக&lt;/a></string>
     <string name="hotword_enrollment_trustedvoice_next_glif">அடுத்து</string>
-    <string name="hotword_enrollment_trustedvoice_summary_item1">நம்பகமான குரல் மூலம், பூட்டுத் திரையில் ”%1$s” என்று சொல்லும் போது, சாதனம் தானாகவே உங்கள் குரலை அடையாளங்கண்டு, திறக்கும்.</string>
+    <string name="hotword_enrollment_trustedvoice_summary_item1">நம்பகமான குரல் மூலம், லாக் ஸ்கிரீனில் ”%1$s” என்று சொல்லும் போது, சாதனம் தானாகவே உங்கள் குரலை அடையாளங்கண்டு, திறக்கும்.</string>
     <string name="hotword_enrollment_trustedvoice_summary_item1_glif">நம்பகமான குரல் மூலம், மொபைல் பூட்டப்பட்டிருக்கும் போதும் \"%1$s\"ஐப் பயன்படுத்த முடியும்.</string>
-    <string name="hotword_enrollment_trustedvoice_summary_item2">இது, “%1$s, டைமரை அமை” போன்ற விஷயங்களைக் கூறுவதன் மூலம் பூட்டுத் திரையிலிருந்து குரல் செயல்பாடுகளைச் செய்ய உங்களை அனுமதிக்கும்.</string>
+    <string name="hotword_enrollment_trustedvoice_summary_item2">இது, “%1$s, டைமரை அமை” போன்ற விஷயங்களைக் கூறுவதன் மூலம் லாக் ஸ்கிரீனிலிருந்து குரல் செயல்பாடுகளைச் செய்ய உங்களை அனுமதிக்கும்.</string>
     <string name="hotword_enrollment_trustedvoice_switch_text">நீங்கள் \"%1$s\" எனக் கூறியதும், உங்கள் குரலைத் தானாகவே அடையாளங்கண்டு சாதனம் திறக்கும்.</string>
     <string name="hotword_enrollment_trustedvoice_switch_text_opa">சாதனத்தைத் திறந்து, நேரடியாக உங்கள் அசிஸ்டண்டை அணுக, \"%1$s\" என்று கூறினால் போதும்.</string>
     <string name="hotword_enrollment_unicorn_enroll_parent_passover_text">{GENDER,select, male{நீங்கள் தயாராக உள்ளபோது, {PERSON} இன் குரல் மாதிரியை உருவாக்க, சாதனத்தை அவரிடம் கொடுத்துவிட்டு, தொடர்ந்து உதவ அருகிலேயே இருங்கள்.}female{நீங்கள் தயாராக உள்ளபோது, {PERSON} இன் குரல் மாதிரியை உருவாக்க, சாதனத்தை அவரிடம் கொடுத்துவிட்டு, தொடர்ந்து உதவ அருகிலேயே இருங்கள்.}other{நீங்கள் தயாராக உள்ளபோது, {PERSON} இன் குரல் மாதிரியை உருவாக்க, சாதனத்தை அவரிடம் கொடுத்துவிட்டு, தொடர்ந்து உதவ அருகிலேயே இருங்கள்.}}</string>
@@ -1504,7 +1563,7 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="hotword_pref_delete_voice_model_title">குரல் மாதிரியை நீக்கவா?</string>
     <string name="hotword_pref_gsa_only">Google பயன்பாட்டிலிருந்து</string>
     <string name="hotword_pref_popup_from_lock_screen">உங்கள் சாதனம் பூட்டப்பட்டிருந்தாலும் கூட, பிறரை அழைப்பது, செய்தி அனுப்புவது அல்லது முகவரி, தொடர்புகள் மற்றும் பிற தனிப்பட்ட தகவலை அணுகுவது போன்றவற்றைச் செய்ய, வேறு எவரும் குரல் கட்டளைகளைப் பயன்படுத்தக்கூடும்</string>
-    <string name="hotword_pref_popup_title_from_lock_screen">பூட்டுத் திரையிலிருந்து \"%1$s\"</string>
+    <string name="hotword_pref_popup_title_from_lock_screen">லாக் ஸ்கிரீனிலிருந்து \"%1$s\"</string>
     <string name="hotword_pref_subtitle_disabled_administrator">இந்த அம்சத்தை உங்கள் நிர்வாகி முடக்கியுள்ளார்</string>
     <string name="hotword_pref_subtitle_disabled_device">இந்த அம்சம் தற்போது இந்தச் சாதனத்தில் கிடைக்கவில்லை</string>
     <string name="hotword_pref_subtitle_disabled_google_play">இந்த அம்சத்தைப் பயன்படுத்த, Google Play சேவைகளைப் புதுப்பி</string>
@@ -1512,7 +1571,6 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="hotword_pref_subtitle_disabled_os_version">உங்கள் OS பதிப்பில் இந்த அம்சம் இயங்காது</string>
     <string name="hotword_pref_subtitle_opa_supported_locale">பணிகளைச் செய்து முடிக்க, Google அசிஸ்டண்ட்டுடன் பேசவும்</string>
     <string name="hotword_pref_subtitle_opa_unsupported_locale">தகவலைப் பெற, செய்திகளை அனுப்ப, அலாரங்களை அமைக்க, மேலும் பலவற்றைச் செய்ய, பேசவும்</string>
-    <string name="hotword_pref_summary_always_on">குரலுக்குப் பதிலளிக்கிறது. திரை இயக்கத்தில் இருந்தாலும் இல்லையென்றாலும் செயல்படும்</string>
     <string name="hotword_pref_summary_always_on_not_default_vis">இதை இயக்க, அமைப்புகள் > மொழி &amp; உள்ளீடு > குரல் உள்ளீடு என்பதற்குச் சென்று, \"மேம்படுத்தப்பட்ட Google சேவைகள்\" என்பதைத் தேர்ந்தெடுக்கவும்</string>
     <string name="hotword_pref_summary_during_androidauto_navigation">Android Auto இல் வேலை செய்யும்</string>
     <string name="hotword_pref_summary_during_gmm_and_androidauto_navigation">Google வரைபடம் மற்றும் Android Auto இல் வேலை செய்யும்</string>
@@ -1521,16 +1579,12 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="hotword_pref_summary_homescreen">\"%1$s\" என்று கூறி, Google பயன்பாட்டிலிருந்தோ, Google Now தொடக்கியின் ஏதாவது ஒரு முகப்புத் திரையிலிருந்தோ குரல் தேடலைத் தொடங்கவும்</string>
     <string name="hotword_pref_summary_lock_personal_results">மொபைல் பாதுகாப்பாகப் பூட்டப்பட்டிருக்கும் போது, தனிப்பட்ட முடிவுகளையும், செயல்களையும் அனுமதிக்கவும்</string>
     <string name="hotword_pref_summary_mic_permission">\"%1$s\" கண்டறிதலைப் பயன்படுத்த மைக்ரோஃபோன் அனுமதியை வழங்கவும்</string>
-    <string name="hotword_pref_summary_opa">திரை அணைக்கப்பட்டிருந்தாலும் அல்லது உங்களுக்குப் பிடித்த பயன்பாடுகளைப் பயன்படுத்திக் கொண்டிருந்தாலும் கூட, நீங்கள் \"%1$s\" எனக் கூறும் போது, சாதனம் உங்கள் குரலை அடையாளங்காணும்</string>
-    <string name="hotword_pref_summary_opa_non_dsp">உங்களுக்குப் பிடித்த பயன்பாடுகளைப் பயன்படுத்திக் கொண்டிருந்தாலும் கூட, நீங்கள் \"%1$s\" எனக் கூறும் போது, சாதனம் உங்கள் குரலை அடையாளங்காணும்</string>
     <string name="hotword_pref_summary_voice_unlock">உங்கள் குரல் மாதிரியுடன் ஒலி பொருந்தும் போது, \"%1$s\" உங்கள் சாதனத்தைத் திறக்கும்</string>
     <string name="hotword_pref_title">\"%1$s\" கண்டறிதல்</string>
     <string name="hotword_pref_title_always_on">எப்போதும் இயக்கத்தில் வை</string>
     <string name="hotword_pref_title_during_gmm_navigation">வாகனம் ஓட்டும் போது</string>
     <string name="hotword_pref_title_lock_screen_2_opa">Voice Match மூலம் தடைநீக்கு</string>
     <string name="hotword_pref_title_locked_personal_results">தனிப்பட்ட முடிவுகள்</string>
-    <string name="hotword_pref_title_opa">எந்த நேரத்திலும் \"%1$s\" எனக் கூறவும்</string>
-    <string name="hotword_prefs_voice_everywhere_subtitle">உங்கள் குரலுக்குப் பதிலளிக்கும். திரை இயக்கத்தில் இருக்கும்போது செயல்படும்.</string>
     <string name="hotword_prefs_voice_everywhere_subtitle_no_account">இந்த அம்சத்தை இயக்க, உங்கள் Google கணக்கில் உள்நுழையவும்</string>
     <string name="hotword_prefs_voice_everywhere_title">எந்தத் திரையிலிருந்தும்</string>
     <string name="hotword_setup_wizard_connection_error_message">இணைப்பைச் சரிபார்த்து, மீண்டும் முயலவும்.</string>
@@ -1598,6 +1652,7 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="immersive_actions_search_error">குறுக்கீட்டுக்கு மன்னிக்கவும், மொபைல் இணைய இணைப்பு துண்டிக்கப்பட்டது. இணைய இணைப்பு கிடைத்தவுடன், தேடல் மீண்டும் தொடரும்.</string>
     <string name="immersive_actions_unknown_provider_short">\?</string>
     <string name="immersive_contact_disambiguation_header_label">%1$s...</string>
+    <string name="inactive_state_text">நேரலை கேம் தகவல் காண்பிக்கப்படவில்லை.</string>
     <string name="inferred_event_created">கேலெண்டரில் நிகழ்வு சேர்க்கப்பட்டது</string>
     <string name="inferred_event_error">நிகழ்வை உருவாக்குவதில் தோல்வி</string>
     <string name="inferred_from_gmail">"Gmail இல் \"%1$s\"  எனக் கூறப்பட்டார்"</string>
@@ -1674,12 +1729,27 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="leave_alert_scheduled_header">புறப்பட வேண்டிய நேரம் வரும்போது தெரிவிக்கப்படும்.</string>
     <string name="leave_from">புறப்படுமிடம்</string>
     <string name="legal_documents">சட்டரீதியிலான</string>
+    <string name="lens_education_card_barcodes_heading">பார்கோடுகள்</string>
+    <string name="lens_education_card_barcodes_paragraph">பார்கோடுகளை ஸ்கேன் செய்யலாம், தயாரிப்பு விவரங்களைக் கண்டறியலாம்</string>
+    <string name="lens_education_card_media_heading">புத்தகங்கள் &amp; ஊடகம்</string>
+    <string name="lens_education_card_media_paragraph">புத்தகங்கள், திரைப்படங்கள், இசை ஆல்பங்கள், வீடியோ கேம்கள் போன்றவற்றை அவற்றின் தலைப்பின்படி தேடலாம்</string>
+    <string name="lens_education_card_places_heading">இடங்கள்</string>
+    <string name="lens_education_card_places_paragraph">முக்கிய அடையாளங்கள், ஆர்வமுள்ள இடங்கள், குறிப்பிடத்தக்க கட்டிடங்கள் ஆகியவற்றைப் பற்றி மேலும் அறியலாம்</string>
+    <string name="lens_education_card_products_heading">தயாரிப்புகள்</string>
+    <string name="lens_education_card_products_paragraph">தளபாடங்கள் மற்றும் ஆடை போன்ற தயாரிப்புகளுக்கு ஒத்த பொருட்களைக் கண்டுபிடிக்கலாம்</string>
+    <string name="lens_education_card_text_heading">உரை</string>
+    <string name="lens_education_card_text_paragraph">ஃபோன் எண்கள், தேதிகள், முகவரிகள் போன்றவற்றை நகலெடுக்கலாம்</string>
+    <string name="lens_education_card_title">லென்ஸ் மூலம் என்னவெல்லாம் செய்யலாம்?</string>
+    <string name="lens_info_panel_live_camera_title">எதையேனும் பற்றிய தகவலைப் பெற, அதன் மீது தட்டவும்</string>
+    <string name="lens_info_panel_loading_message">முடிவுகளை ஏற்றுகிறது…</string>
+    <string name="lens_title">Google லென்ஸ்</string>
     <string name="license_activity_title">ஓப்பன் சோர்ஸ் உரிமங்கள்</string>
     <string name="light_traffic">சிறிதளவு ட்ராஃபிக்</string>
     <string name="line_two_text_separator">" · "</string>
     <string name="link_device_title">%s உடன் இணைக்கிறது</string>
     <string name="listen_for_music">இசையைக் கவனி</string>
     <string name="listening_for_music_status">இசையைக் கவனிக்கிறது…</string>
+    <string name="loading">ஏற்றுகிறது</string>
     <string name="local_results_map_description">%1$s இன் வரைபடம்</string>
     <string name="location_access_required_text_klp">உள்ளூர் வானிலை மற்றும் பயணிக்கும் வழியிலுள்ள டிராஃபிக் போன்ற இருப்பிடம் சார்ந்த கார்டுகளைப் பார்க்க, இட அணுகலை இயக்கவும்</string>
     <string name="location_added_snackbar_text">இடம் சேர்க்கப்பட்டது</string>
@@ -1827,11 +1897,7 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="nexus_device_google_assistant_title">Google அசிஸ்டண்ட்</string>
     <string name="nexus_device_hands_free_preference_title">பிற ஹேண்ட்ஸ்ஃப்ரீ அமைப்புகள்</string>
     <string name="nexus_device_hotword_category_title">Voice Match மூலம் ஹேண்ட்ஸ்ஃப்ரீ உதவியைப் பெறுக</string>
-    <string name="nexus_device_hotword_preference_alwayson_summary">எப்போது வேண்டுமானாலும் \"%1$s\" என்று கூறி அசிஸ்டண்ட்டை அணுகலாம்</string>
     <string name="nexus_device_hotword_preference_screenon_summary">உங்கள் திரை இயக்கத்தில் உள்ளபோது, எப்போது வேண்டுமானாலும் \"%1$s\" என்று கூறி அசிஸ்டண்ட்டை அணுகலாம்</string>
-    <string name="nexus_device_hotword_preference_title">\"%1$s\" கண்டறிதல்</string>
-    <string name="nexus_device_navigation_popup_message">Google வரைபடம், Android Auto போன்ற சில டிரைவிங் பயன்பாடுகளிலும் \"%1$s\" கண்டறிதலைப் பயன்படுத்த முடியும். இதை இந்தப் பயன்பாடுகளின் அமைப்புகளில் எந்த நேரத்திலும் முடக்கலாம். %2$s</string>
-    <string name="nexus_device_navigation_popup_settings_link">டிரைவிங் அமைப்புகள்</string>
     <string name="nexus_device_navigation_popup_title">வாகனம் ஓட்டும்போது</string>
     <string name="nexus_device_use_screen_context_summary">முகப்பு பட்டனைப் பிடித்திருக்கும் போது அல்லது குரல் மூலம் தேடும் போது, உங்கள் திரையில் உள்ள உள்ளடக்கத்துடன் தொடர்புடைய தகவலைக் காட்ட, Google இடம் கேட்கும்</string>
     <string name="nexus_device_use_screen_context_title">திரைச் சூழலைப் பயன்படுத்தவும்</string>
@@ -1886,6 +1952,8 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="notification_cancel_title">தேடல் ரத்துசெய்யப்பட்டது</string>
     <string name="notification_set_text">முடிவுகள் தயாரானதும், அறிவிப்பைப் பெறுவீர்கள்.</string>
     <string name="notification_set_title">விழிப்பூட்டல் அமைக்கப்பட்டது</string>
+    <string name="notification_subtext">பின் செய்த போட்டி</string>
+    <string name="notification_title">%1$s - %2$s</string>
     <string name="notifications_enabled_header">அறிவிப்புகள்</string>
     <string name="notifications_ringtone_setting">ரிங்டோன்</string>
     <string name="notifications_vibrate_title">அதிர்வு</string>
@@ -1911,8 +1979,8 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="offline_error_card_explanation_text_data_roaming_off_wifi_off">நெட்வொர்க் இல்லை. டேட்டா ரோமிங் அல்லது வைஃபையை இயக்கவும்.</string>
     <string name="offline_error_card_explanation_text_data_roaming_off_wifi_on">நெட்வொர்க் இல்லை. டேட்டா ரோமிங்கை இயக்கவும் அல்லது வைஃபை நெட்வொர்க்குடன் இணைக்கவும்.</string>
     <string name="offline_error_card_explanation_text_general_offline_mode">நெட்வொர்க் இல்லை. இணைப்பைச் சரிபார்த்து, மீண்டும் முயலவும்.</string>
-    <string name="offline_error_card_explanation_text_mobile_data_off_wifi_off">தரவு இணைப்பு இல்லை. மொபைல் தரவு அல்லது வைஃபையை இயக்கவும்.</string>
-    <string name="offline_error_card_explanation_text_mobile_data_off_wifi_on">தரவு இணைப்பு இல்லை. மொபைல் தரவை இயக்கவும் அல்லது வைஃபை நெட்வொர்க்குடன் இணைக்கவும்.</string>
+    <string name="offline_error_card_explanation_text_mobile_data_off_wifi_off">தரவு இணைப்பு இல்லை. மொபைல் டேட்டா அல்லது வைஃபையை இயக்கவும்.</string>
+    <string name="offline_error_card_explanation_text_mobile_data_off_wifi_on">தரவு இணைப்பு இல்லை. மொபைல் டேட்டாவை இயக்கவும் அல்லது வைஃபை நெட்வொர்க்குடன் இணைக்கவும்.</string>
     <string name="offline_error_card_explanation_text_no_cell_support_wifi_off">நெட்வொர்க் இல்லை. வைஃபையை இயக்கவும்.</string>
     <string name="offline_error_card_explanation_text_no_cell_support_wifi_on">நெட்வொர்க் இல்லை. வைஃபை நெட்வொர்க்குடன் இணைக்கவும்.</string>
     <string name="offline_error_card_explanation_text_no_data_connection_wifi_off">வைஃபையை இயக்கவும்.</string>
@@ -1931,7 +1999,7 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="offline_error_card_title_text_airplane_mode_wifi_error">வைஃபை இயங்கவில்லை</string>
     <string name="offline_error_card_title_text_data_roaming_off">டேட்டா ரோமிங் முடக்கப்பட்டுள்ளது</string>
     <string name="offline_error_card_title_text_general_offline_mode">ஆஃப்லைன்</string>
-    <string name="offline_error_card_title_text_mobile_data_off">மொபைல் தரவு முடக்கப்பட்டுள்ளது</string>
+    <string name="offline_error_card_title_text_mobile_data_off">மொபைல் டேட்டா முடக்கப்பட்டுள்ளது</string>
     <string name="offline_error_card_title_text_no_cell_support_wifi_off">வைஃபை முடக்கப்பட்டுள்ளது</string>
     <string name="offline_error_card_title_text_no_cell_support_wifi_on">வைஃபை நெட்வொர்க்குடன் இணைக்கப்படவில்லை</string>
     <string name="offline_error_card_title_text_no_data_connection">தரவு இணைப்பு இல்லை</string>
@@ -1995,9 +2063,12 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="opa_assistant_logo_content_description">குரல் தேடல்</string>
     <string name="opa_consent_check_error_button">மூடு</string>
     <string name="opa_consent_check_error_button_notavailable">கணக்குகளை மாற்று</string>
-    <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">இணையதளத் தேடல் முடிவுகள், வானிலை, கேம்கள், ஜோக்குகள் மற்றும் உள்ளூர்த் தகவல்கள் போன்றவற்றை மட்டுமே Google அசிஸ்டண்ட் வழங்கும்.</string>
+    <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">அசிஸ்டண்ட்டால் இணையதளத் தேடல் முடிவுகள், ஜோக்குகள் மற்றும் உள்ளூர் தகவல்கள் போன்றவற்றை மட்டுமே வழங்க முடியும்.</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_text">வேண்டாம்</string>
-    <string name="opa_consent_check_error_confirmreject_personalize_radio_content">கேலெண்டர், நினைவூட்டல்கள், வழக்கமான பயணம், விமானங்கள், ஆர்டங்கள் மற்றும் பலவற்றில் உங்களுக்கு உதவுவதற்கு, இணையம் மற்றும் பயன்பாட்டுச் செயல்பாடு, சாதனம் குறித்த தகவல், குரல் மற்றும் ஆடியோ செயல்பாடு போன்றவற்றை அறிவதற்கான அனுமதி அசிஸ்டண்டுக்குத் தேவை.</string>
+    <string name="opa_consent_check_error_confirmreject_personalize_radio_button_show_less">குறைவாகக் காட்டு</string>
+    <string name="opa_consent_check_error_confirmreject_personalize_radio_button_show_more">மேலும் காட்டு</string>
+    <string name="opa_consent_check_error_confirmreject_personalize_radio_content">கேலெண்டர், நினைவூட்டல்கள், விமானத் தகவல்கள் மற்றும் பலவற்றில் உங்களுக்கு உதவுவதற்கு, இணையம் மற்றும் பயன்பாட்டுச் செயல்பாடு, சாதனம் குறித்த தகவல், குரல் மற்றும் ஆடியோ செயல்பாடு அமைப்புகள் ஆகியவற்றை அணுகுவதற்கான அனுமதி அசிஸ்டண்டுக்குத் தேவை.</string>
+    <string name="opa_consent_check_error_confirmreject_personalize_radio_content_expanded">குறிப்பு: தனிப்பயனாக்கிய அனுபவங்களையும் பயனுள்ள விளம்பரங்களையும் உங்களுக்குத் தருவதற்காக, இந்த அமைப்புகளால் கட்டுப்படுத்தப்படும் தரவு சேமிக்கப்படலாம் மற்றும் நீங்கள் உள்நுழைந்துள்ள எந்தவொரு Google சேவையிலும் பயன்படுத்தப்படலாம். account.google.com இல் உங்கள் தரவைப் பார்க்கலாம், நீக்கலாம் மற்றும் அமைப்புகளை மாற்றலாம்.</string>
     <string name="opa_consent_check_error_confirmreject_personalize_radio_text">ஆம், ஏற்கிறேன்</string>
     <string name="opa_consent_check_error_learn_more_link_target_notavailable">https://support.google.com/assistant/?p=gsuite</string>
     <string name="opa_consent_check_error_message">செயல்பாட்டுக் கட்டுப்பாடுகளைச் சரிபார்க்கும் போது அசிஸ்டண்ட்டில் சிக்கல் ஏற்பட்டது. அதைப் பிறகு பயன்படுத்தவும்.</string>
@@ -2006,7 +2077,7 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="opa_consent_check_error_message_notavailable">சாதன நிர்வாகி இந்தக் கணக்கில் வரம்பிட்டுள்ள செயல்பாட்டுக் கட்டுப்பாடுகள் Google அசிஸ்டண்ட்டுக்குத் தேவை. உங்கள் நிர்வாகியைத் தொடர்புகொள்ளவும் அல்லது கணக்குகளை மாற்றி, மீண்டும் முயலவும்.</string>
     <string name="opa_consent_check_error_title">ஏதோ தவறாகிவிட்டது</string>
     <string name="opa_consent_check_error_title_autherror">கணக்கை அங்கீகரிக்க முடியவில்லை</string>
-    <string name="opa_consent_check_error_title_confirmreject">இந்த அனுமதிகளுடன் உங்கள் அனுபவத்தை மேம்படுத்தவும்</string>
+    <string name="opa_consent_check_error_title_confirmreject">இந்த அமைப்புகள் மூலம் முழுமையான அசிஸ்டண்ட் அனுபவத்தைப் பெறுக</string>
     <string name="opa_consent_check_error_title_notavailable">Google அசிஸ்டண்ட்டை இந்தக் கணக்கில் பயன்படுத்த முடியாது</string>
     <string name="opa_consent_error_timeout_message">நெட்வொர் பிழை ஏற்பட்டது. இணைப்பைச் சரிபார்த்து, மீண்டும் முயலவும்.</string>
     <string name="opa_contextual_cards_found_message">இந்தத் திரையுடன் தொடர்புடைய சில தகவல் இதோ:</string>
@@ -2026,9 +2097,11 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="opa_disabled_no_button">ரத்துசெய்</string>
     <string name="opa_disabled_title">அசிஸ்டண்ட்டை இயக்கவும்</string>
     <string name="opa_dismiss_message">நிராகரிக்க, கீழுள்ள அம்புக்குறியை இழுக்கவும்</string>
+    <string name="opa_email_optin_screen_add_shortcut_explanation">அசிஸ்டண்ட்டுக்கு எளிதான அணுகல்</string>
     <string name="opa_email_optin_screen_confirm">முடிந்தது</string>
     <string name="opa_email_optin_screen_explanation">சமீபத்திய அம்சங்களைப் பற்றியும் உங்கள் அசிஸ்டண்ட் செய்யக்கூடிய விஷயங்களைப் பற்றியும் கூறும் மின்னஞ்சல்களை உடனுக்குடன் பெறுங்கள்</string>
     <string name="opa_email_optin_screen_next">அடுத்து</string>
+    <string name="opa_email_optin_screen_sub_toggle_explanation">முகப்புத் திரையில் அசிஸ்டண்ட்டைச் சேர்க்கலாம்</string>
     <string name="opa_email_optin_screen_title">அசிஸ்டண்ட்டை முழுமையாகப் பயன்படுத்துங்கள்</string>
     <string name="opa_email_optin_screen_toggle_explanation">சமீபத்திய உதவிக்குறிப்புகளைக் கொண்ட மின்னஞ்சலைப் பெறுக</string>
     <string name="opa_email_optin_screen_unsubscribe">பயன்பாட்டிலுள்ள மின்னஞ்சல் விருப்பத்தேர்வுகளை மாற்றுவதன் மூலம் எந்த நேரத்திலும் குழுவிலகலாம். Google Inc., 1600 Amphitheatre Parkway, Mountain View CA 94043 www.google.com</string>
@@ -2066,8 +2139,10 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="opa_eyes_free_udc_opt_in_notification_title">உங்களுக்கு உதவ, Google அசிஸ்டண்டிற்கு அனுமதி வழங்கவும்</string>
     <string name="opa_eyes_warm_welcome_chip_text">தொடர, தட்டவும்</string>
     <string name="opa_first_screen_hotword_transition_cancel_button_text">பின்னர் செய்</string>
+    <string name="opa_first_screen_hotword_transition_confirm_agree_button_text">ஏற்கிறேன்</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text">தொடங்குக</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text_sentence_case">தொடங்குக</string>
+    <string name="opa_first_screen_hotword_transition_no_thanks_button_text">வேண்டாம்</string>
     <string name="opa_first_screen_hotword_transition_screen_context_pickup_confirm_button_text">முடிந்தது</string>
     <string name="opa_first_screen_hotword_transition_screen_context_pickup_confirm_button_text_sentence_case">முடிந்தது</string>
     <string name="opa_first_screen_hotword_transition_screen_context_pickup_explanation">உங்கள் திரையில் உள்ளவற்றுடன் அதிகம் தொடர்புடைய பரிந்துரைகளையும் குறிப்பிட்ட செயல்களையும் அசிஸ்டண்ட் வழங்கும். அசிஸ்டண்ட் அமைப்புகளுக்குச் சென்று, இதை மாற்றலாம்.</string>
@@ -2076,11 +2151,15 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="opa_first_screen_hotword_transition_skip_button_text">தவிர்</string>
     <string name="opa_first_screen_hotword_transition_summary">திரை அணைக்கப்பட்டிருக்கும் போது அல்லது உங்களுக்குப் பிடித்த பயன்பாடுகளைப் பயன்படுத்திக் கொண்டிருக்கும் போது என எப்போது வேண்டுமானாலும் அசிஸ்டண்ட்டுடன் பேச, \"%1$s\" எனக் கூறினால் போதும்.</string>
     <string name="opa_first_screen_hotword_transition_summary_no_dsp">உங்கள் திரை இயக்கத்தில் இருக்கும் வரை, எந்த நேரத்திலும் அசிஸ்டண்ட்டுடன் பேச, \"%1$s\" என்று சொல்லவும்.</string>
+    <string name="opa_first_screen_hotword_transition_summary_short">உங்கள் திரை அணைந்திருந்தாலும் கூட, Voice Match மூலம் உங்கள் குரலைப் பயன்படுத்தி நேரடியாக அசிஸ்டண்ட்டை அணுகலாம்.</string>
     <string name="opa_first_screen_hotword_transition_summary_short_no_dsp">Voice Match மூலம் உங்கள் குரலைப் பயன்படுத்தி நேரடியாக அசிஸ்டண்ட்டை அணுகலாம்.</string>
     <string name="opa_first_screen_hotword_transition_title">Voice Match மூலம் அசிஸ்டண்ட்டை அணுகுங்கள்</string>
     <string name="opa_first_screen_tgoogle_summary">\"%1$s\" என்று சொல்லி உங்கள் அசிஸ்டண்ட்டை நேரடியாக அணுகலாம்</string>
     <string name="opa_first_screen_tgoogle_title">\"%1$s\"ஐ அடையாளம் காண அசிஸ்டண்ட்டுக்குக் கற்றுக் கொடுங்கள்</string>
     <string name="opa_fix_user_recoverable_error">சரிசெய்</string>
+    <string name="opa_gdpr_footer">"அசிஸ்டண்ட் உங்களை அடையாளம் காணவும் பிறரிலிருந்து வேறுபடுத்திப் பார்க்கவும், இந்தச் சாதனத்தில் உங்கள் குரலின் தனித்துவ மாதிரி ஒன்று உருவாக்கப்படும். 
+
+"<b>நினைவில் கொள்க:</b> உங்களுடையதைப் போன்ற ஒரு குரல் அல்லது பதிவைப் பயன்படுத்தியும் அசிஸ்டண்ட்டை அணுகலாம். பின்னர் அசிஸ்டண்ட் அமைப்புகளில் Voice Matchக்கான அனுமதியை முடக்கி, அதை அகற்றலாம்.</string>
     <string name="opa_gearhead_opt_in_notification_body">வாகனம் ஓட்டும் போதே, உங்கள் குரலைப் பயன்படுத்தி Google அசிஸ்டண்ட்டுடன் பேசலாம்</string>
     <string name="opa_gearhead_opt_in_notification_title">வாகனம் ஓட்டும் போது Google அசிஸ்டண்ட்டைப் பயன்படுத்தலாம்</string>
     <string name="opa_gearhead_opt_in_speech">பாதுகாப்பான நிலைக்கு வந்ததும், முதலில் அறிவிப்பைத் தட்ட வேண்டும். பின்னர், வாகனம் ஓட்டும் போது Google அசிஸ்டண்ட்டைப் பயன்படுத்தலாம்.</string>
@@ -2122,7 +2201,7 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="opa_marketplace_disclosure_google_partners_description">Google கூட்டாளர்கள் என்பது Google உடன் தொழில்ரீதியான உறவைக் கொண்டிருக்கும் வணிகங்களாகும். திரைப்பட டிக்கெட்டுகளை வாங்குவது அல்லது உங்கள் வீட்டுச் சமையலறை சிங்க்கைப் பழுதுபார்ப்பது என எதுவாக இருந்தாலும், அந்தப் பணிகளைச் செய்து முடிப்பதில் உங்களுக்கு உதவ, Google கூட்டாளர்களுடன் Google அசிஸ்டண்ட் இணைந்து செயல்படும். <a href="https://support.google.com/assistant/?p=google_partners">மேலும் அறிக</a></string>
     <string name="opa_marketplace_disclosure_google_partners_short_description">Google கூட்டாளர்கள் என்பது Google உடன் தொழில்ரீதியான உறவைக் கொண்டிருக்கும் வணிகங்களாகும்.</string>
     <string name="opa_marketplace_disclosure_google_partners_title">Google கூட்டாளர்கள்</string>
-    <string name="opa_marketplace_disclosure_service_additional_text">இதன் மூலம், உரையாடல்களின்போது உங்கள் விருப்பத்தேர்வுகள் போன்ற விஷயங்களை, சேவைகளால் தொடர்ந்து நினைவில்கொள்ள முடியும். இந்த உரையாடல்களை, Google கணக்கு அமைப்புகளிலுள்ள &lt;a href=https://myactivity.google.com/>எனது செயல்பாடு&lt;/a> பிரிவில் பார்க்கலாம், நிர்வகிக்கலாம். Google அசிஸ்டண்ட் அமைப்புகளிலுள்ள ”என்னை அகற்று” எனும் விருப்பத்தைப் பயன்படுத்தி, ஒவ்வொரு சேவைக்குமான குறியீட்டையும் ரீசெட் செய்யலாம்.</string>
+    <string name="opa_marketplace_disclosure_service_additional_text">இதன் மூலம், உரையாடல்களின்போது உங்கள் விருப்பத்தேர்வுகள் போன்ற விஷயங்களைச் சேவைகள் நினைவில்கொள்ள முடியும். இந்தப் பயன்பாட்டின் “கண்டறிக” பிரிவில் உள்ள ஒவ்வொரு சேவையின் பக்கத்திலும் சேவைகளுக்கு அனுப்பப்பட்ட தரவைப் பார்க்கலாம், நிர்வகிக்கலாம் மற்றும் மீட்டமைக்கலாம். &lt;a href=https://support.google.com/assistant/?p=reset_id>மேலும் அறிக&lt;/a></string>
     <string name="opa_marketplace_disclosure_service_short_description">நீங்கள் பேசும் சேவைகளுக்கு Google ஒரு தனிப்பட்ட குறியீட்டை அனுப்பும்.</string>
     <string name="opa_marketplace_disclosure_service_title">சேவைகளும் உங்கள் தனியுரிமையும்</string>
     <string name="opa_marketplace_disclosure_title">அசிஸ்டண்ட்டிலிருந்து அதிக பலன்களைப் பெறுக</string>
@@ -2131,6 +2210,12 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="opa_music_search_suggestion_chip_title">இது என்ன பாடல்?</string>
     <string name="opa_my_day_query">எனது நாள் குறித்து சொல்</string>
     <string name="opa_notification_channel_group_title">அசிஸ்டண்ட்</string>
+    <string name="opa_notification_channel_handoff_description">வேறொரு சாதனத்தில் உங்கள் செயல்களை முடிப்பதற்கு உதவும் அறிவிப்புகள்</string>
+    <string name="opa_notification_channel_handoff_title">கைமாற்ற அறிவிப்புகள்</string>
+    <string name="opa_notification_channel_misc_description">வேறு பல அறிவிப்புகள்</string>
+    <string name="opa_notification_channel_misc_title">பிற அறிவிப்புகள்</string>
+    <string name="opa_notification_channel_proactive_description">உங்கள் இருப்பிடம் மற்றும் செயல்பாடுகள் தொடர்புடைய அறிவிப்புகள்</string>
+    <string name="opa_notification_channel_proactive_title">முன்கூட்டிய அறிவிப்புகள்</string>
     <string name="opa_notification_channel_recommendations_description">உங்கள் ஆர்வங்களின் அடிப்படையில் நீங்கள் விரும்பக்கூடிய சிறப்பம்சங்கள் மற்றும் செயல்கள்</string>
     <string name="opa_notification_channel_recommendations_title">பரிந்துரைகள்</string>
     <string name="opa_notification_channel_third_party_description">உங்கள் அசிஸ்டண்ட் மூலம் பயன்படுத்தும் Google அல்லாத பிற சேவைகள் குறித்த அறிவிப்புகள்</string>
@@ -2180,7 +2265,6 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="opa_unlock_device_for_response">தொடர, தடைநீக்குக...</string>
     <string name="opa_upgrade_promo_tooltip_text">முகப்புப் பட்டனை அழுத்திப் பிடிக்கவும்</string>
     <string name="opa_value_proposition_cancel">வேண்டாம்</string>
-    <string name="opa_value_proposition_continue">தொடரவும்</string>
     <string name="opa_value_proposition_message_1p">அதனிடம் கேள்விகள் கேட்கலாம். பணிகளைச் செய்யும்படி சொல்லலாம். இது உங்களுக்கு உதவ எப்போதும் தயாராக இருக்கும் உங்கள் சொந்த Google ஆகும்.</string>
     <string name="opa_value_proposition_message_title">Google அசிஸ்டண்ட்டைப் பற்றி அறியவும்</string>
     <string name="opa_value_proposition_next">அடுத்து</string>
@@ -2207,6 +2291,7 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="opa_wuwa_notification_action_stop">நிறுத்து</string>
     <string name="opa_wuwa_notification_content">%1$s மணி அலாரம்</string>
     <string name="opa_wuwa_offline_notification_content">ஆஃப்லைனில் இருக்கும்போது, அசிஸ்டண்ட்டால் இந்த வழக்கமான செயல்பாட்டை இயக்க முடியாது.</string>
+    <string name="opa_zero_state_hint_text">மேலும் பார்க்க, ஸ்வைப் செய்யவும்</string>
     <string name="open_app_template">%sஐத் திற</string>
     <string name="open_in_google_translate">மொழியாக்கத்தில் திற</string>
     <string name="open_settings">அமைப்பு</string>
@@ -2283,6 +2368,7 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="payments_auth_too_many_fingerprint_retries_should_use_password">மிக அதிக முயற்சிகள். பதிலாக, கடவுச்சொல்லை உள்ளிடவும்.</string>
     <string name="payments_auth_unknown_fingerprint_error">கைரேகையைப் பயன்படுத்துவதில் பிழை, தொடர்வதற்கு, உங்கள் Google கடவுச்சொல்லை உள்ளிடவும்.</string>
     <string name="payments_auth_use_fingerprint_checkbox_hint">எதிர்கால அனுமதிகளுக்கு கைரேகையைப் பயன்படுத்தும்</string>
+    <string name="penalties">பெனால்டிகள்</string>
     <string name="pending_searches">நிலுவையிலுள்ள தேடல்கள்</string>
     <string name="permission_error">மைக்கைப் பயன்படுத்த, உங்கள் அனுமதி தேவை</string>
     <string name="permission_required_action_notification_body">இந்தப் பயன்பாட்டிற்கு உங்கள் அனுமதி தேவை</string>
@@ -2310,6 +2396,7 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="person_select_item_hangouts_app_name">Hangouts</string>
     <string name="person_select_item_secondary_text_delimiter">", "</string>
     <string name="person_select_item_sms_app_name">மெசேஜ்</string>
+    <string name="personal_info_and_suggestions_learn_more">மேலும் அறிக</string>
     <string name="personal_mode_landing_text">தனிப்பட்ட உள்ளடக்கத்தில் தேடுக</string>
     <string name="personal_results_action_button">அனுமதி</string>
     <string name="personal_results_cancel_button">தவிர்</string>
@@ -2428,6 +2515,7 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="qp_hotel_reservation_number">முன்பதிவு எண்</string>
     <string name="qp_movie_watch_trailer">மூவி டிரெய்லரைப் பார்க்கவும்</string>
     <string name="qp_precip">மழைப்பொழிவு %1$s</string>
+    <string name="qp_precip_today">இன்று %1$s</string>
     <string name="qp_restaurant_reservation_date">தேதி</string>
     <string name="qp_restaurant_reservation_time">நேரம்</string>
     <string name="qp_soccer_time">"%1$d'"</string>
@@ -2544,6 +2632,8 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="screen_assist_share_title">இந்த ஸ்கிரீன் ஷாட்டை மாற்றவும் அல்லது பகிரவும்</string>
     <string name="screen_assist_sharing_screenshot">ஸ்கிரீன் ஷாட்டைப் பகிர்கிறது</string>
     <string name="screen_assist_translate">மொழிபெயர்</string>
+    <string name="screen_context_desc">அசிஸ்டண்ட் வழங்கும் உங்கள் திரையில் உள்ள உள்ளடக்கத்துடன் தொடர்புடைய பரிந்துரைகளைப் பார்க்கலாம்</string>
+    <string name="screen_context_title">திரையில் உள்ள உள்ளடக்கத்தைப் பற்றிய தகவலைப் பெறுக</string>
     <string name="scroll_left">இடப்புறம் உருட்டு</string>
     <string name="scroll_right">வலப்புறம் உருட்டு</string>
     <string name="search_activity_name">Google</string>
@@ -2624,7 +2714,13 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="selection_mode_promo">உரையைத் தேர்ந்தெடுக்க, இங்கு தட்டவும்</string>
     <string name="selection_prompt">ஏதேனும் உரையைத் தேர்ந்தெடுக்க, தட்டவும்</string>
     <string name="selection_retry_ocr">மீண்டும் முயலவும்</string>
+    <string name="send_to_device_negative_button">ரத்துசெய்</string>
+    <string name="send_to_device_positive_button">அனுப்பு</string>
+    <string name="send_to_device_snackbar_text">%1$sக்கு அனுப்பு</string>
+    <string name="send_to_device_title">சாதனத்திற்கு அனுப்பு</string>
+    <string name="sender_says_message">%1$s அனுப்பிய செய்தி: %2$s.</string>
     <string name="sending_audio_to_account_toast">%1$sக்கு ஆடியோவை அனுப்புகிறது…</string>
+    <string name="separator">-</string>
     <string name="server_error">தற்சமயம் Google ஐ அடைய முடியவில்லை</string>
     <string name="server_error_fetching_weather_data_status_text">ஏதோ தவறாகிவிட்டது. பிறகு முயலவும்.</string>
     <string name="set_duration">கால அளவை அமை</string>
@@ -2673,7 +2769,7 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="sharebear_storage_permission_request_info_part1">நிறைய ஸ்கிரீன் ஷாட்கள் எடுப்பதுண்டா?</string>
     <string name="sharebear_storage_permission_request_info_part2">ஸ்கிரீன் ஷாட்களைத் திருத்தவும் பகிரவும் Google பயன்பாடு உங்களுக்கு உதவட்டும்</string>
     <string name="sharebear_storage_permission_request_info_yes">ஏற்கிறேன்</string>
-    <string name="shared_links_desc">மின்னஞ்சல்கள் அல்லது செய்திகள் வழியாக அனுப்பிய மற்றும் பெற்ற இணைப்புகள்</string>
+    <string name="shared_links_desc">மின்னஞ்சல்கள் அல்லது செய்திகள் வழியாக அனுப்பிய மற்றும் பெற்ற இணைப்புகளின் மாதிரிக்காட்சி</string>
     <string name="shared_links_title">பகிர்ந்த இணைப்புகள்</string>
     <string name="shootout_abbreviation">ஷாட்</string>
     <string name="shopping_mode_landing_text">ஷாப்பிங்கில் தேடுக</string>
@@ -2716,6 +2812,7 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="single_transit_line_delayed">%1$s - %2$sதாமதம்%3$s</string>
     <string name="single_transit_line_limited_service">%3$s இல் %1$sவரம்பிட்ட சேவை%2$s</string>
     <string name="single_transit_station_closed">%1$s %2$sமூடப்பட்டது%3$s</string>
+    <string name="slice_suggestion_message">நிறுவப்பட்ட பயன்பாட்டிலிருந்து இந்த உள்ளடக்கம் வருகிறது, இது நீங்கள் உள்ளிடுவதுடன் தொடர்புடையது.</string>
     <string name="smartspace_calendar_summary">எதிர்வரும் சந்திப்புகள் குறித்த விழிப்பூட்டல்கள்</string>
     <string name="smartspace_calendar_title">கேலெண்டர் நிகழ்வுகள்</string>
     <string name="smartspace_commute_summary">வழக்கத்திற்கு மாறான ட்ராஃபிக் மாற்றம் குறித்த விழிப்பூட்டல்கள்</string>
@@ -2792,6 +2889,7 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="stocks_update_time_text">புதுப்பிக்கப்பட்டது: %1$s</string>
     <string name="stop_download_prompt">போதும் நிறுத்து</string>
     <string name="streaming_text_recognizing">அறிகிறது...</string>
+    <string name="street_address_label">தெரு முகவரி</string>
     <string name="suggest">தன்னிரப்பி</string>
     <string name="suggest_contact_removal_body" formatted="false">இது &lt;b>%s&lt;/b>ஐ உங்கள் அடிக்கடி தொடர்புகொள்ளும் தொடர்புகள் பட்டியலில் இருந்து மறைக்கும். அவரைத் தேடும்போது &lt;b>%s&lt;/b> காட்டப்படுவார்.</string>
     <string name="suggest_contact_removal_cancel">ரத்துசெய்</string>
@@ -2825,6 +2923,7 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="tab_title_tomorrow">நாளை</string>
     <string name="tap_mic_to_speak">பேச, மைக்கைத் தட்டவும்</string>
     <string name="temperature_display">%1$s %2$s</string>
+    <string name="text_selection_menu_translate_action">மொழிபெயர்</string>
     <string name="thank_you_dialog_body">உங்கள் பதில்கள் Google தேடலின் அனுபவத்தை மேம்படுத்த உதவும்.</string>
     <string name="thank_you_dialog_tilte">கருத்துத் தெரிவித்தமைக்கு நன்றி.</string>
     <string name="things_to_do">பார்க்க வேண்டிய இடங்கள்</string>
@@ -2933,6 +3032,7 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="transit_departure_summary">%1$s இலிருந்து புறப்படும் (நடைப்பயணம் %2$s)</string>
     <string name="transit_enroute_last_walking_step">இலக்கிடம் நோக்கி நடத்தல்</string>
     <string name="transit_enroute_trip_time_summary">வழியில் · %1$s க்குச் சேர்வார்</string>
+    <string name="transit_eta_msg">%2$sக்கு %1$s</string>
     <string name="transit_line_direction">%1$s (%2$s) இல் செல்லவும்</string>
     <string name="transit_line_direction_in_time">%3$s நிமிடங்களில் %1$s (%2$s) இல் செல்லவும்</string>
     <string name="transit_next_line_departure_subtext_no_time">%1$s நடைமேடை %2$s</string>
@@ -2981,7 +3081,7 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="turn_on_data_roaming_button_text">டேட்டா ரோமிங்கை இயக்கு</string>
     <string name="turn_on_feed_datasaver">டேட்டா சேமிப்பான்</string>
     <string name="turn_on_interest_feed">ஊட்டத்தைக் காண்பி</string>
-    <string name="turn_on_mobile_data_button_text">மொபைல் தரவை இயக்கு</string>
+    <string name="turn_on_mobile_data_button_text">மொபைல் டேட்டாவை இயக்கு</string>
     <string name="turn_on_wifi_and_select_network_button_text">வைஃபையை இயக்கி, நெட்வொர்க்கைத் தேர்ந்தெடுக்கவும்</string>
     <string name="turning_off_now">ஊட்டத்தை முடக்குகிறது</string>
     <string name="unable_to_save_location_snackbar_text">இடத்தைச் சேமிக்க முடியவில்லை. பிறகு முயலவும்.</string>
@@ -3062,9 +3162,12 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="user_defined_action_add_ends_with_action">மீடியாவைச் சேர்</string>
     <string name="user_defined_action_add_ends_with_action_no_selection_message">இயக்குவதற்கான மீடியாவைத் தேர்வுசெய்யவும்.</string>
     <string name="user_defined_action_add_ends_with_action_what_media">எந்த வகையான மீடியாவை இயக்க விரும்புகிறீர்கள்?</string>
+    <string name="user_defined_action_delete_confirmation_cancel_text">ரத்துசெய்</string>
+    <string name="user_defined_action_delete_confirmation_delete_text">நீக்கு</string>
     <string name="user_defined_action_delete_confirmation_text">இந்தச் செயலை நிச்சயமாக நீக்க வேண்டுமா?</string>
     <string name="user_defined_action_ends_with_category_title">அதன் பின்னர் இதை இயக்க வேண்டும்…</string>
     <string name="user_defined_action_follow_up_trigger_phrase_title">அல்லது நான் இதைச் சொல்லும்போது…</string>
+    <string name="user_defined_action_menu_clear_schedule">அட்டவணையை நீக்கு</string>
     <string name="user_defined_action_menu_delete_button">நீக்கு</string>
     <string name="user_defined_action_menu_save_button">சேமி</string>
     <string name="user_defined_action_original_action_alarm_title">நான் அலாரத்தை நிராகரித்த பிறகு…</string>
@@ -3072,6 +3175,17 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="user_defined_action_popular_shortcuts_title">பிரபல குறுக்குவழிகள்</string>
     <string name="user_defined_action_reorder_description">இந்த வழக்கமான செயல்பாட்டில் செயல்களின் வரிசையை மாற்ற, இழுக்கவும்.</string>
     <string name="user_defined_action_reorder_title">வரிசையை மாற்று</string>
+    <string name="user_defined_action_schedule_back_confirmation_message">நேரம், நாள் அட்டவணை மற்றும் ஸ்பீக்கர்கள் என அனைத்தையும் தேர்ந்தெடுக்காத வரை, உங்கள் வழக்கமான செயல்பாடு தொடங்காது.</string>
+    <string name="user_defined_action_schedule_back_confirmation_title">இந்த அட்டவணை முழுமையடையவில்லை</string>
+    <string name="user_defined_action_schedule_editor_clear_message">உங்கள் வழக்கமான செயல்பாட்டிலிருந்து இந்த அட்டவணை அகற்றப்படும்.</string>
+    <string name="user_defined_action_schedule_editor_clear_title">இந்த அட்டவணையை நீக்கவா?</string>
+    <string name="user_defined_action_schedule_editor_days_of_week">இது திரும்ப நிகழ வேண்டிய நாட்களைத் தேர்வுசெய்யவும்</string>
+    <string name="user_defined_action_schedule_editor_notify">அது தொடங்கும்போது உங்கள் ஃபோனில் அறிவிப்பைப் பெறலாம்</string>
+    <string name="user_defined_action_schedule_editor_select_speaker">ஸ்பீக்கரைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="user_defined_action_schedule_editor_select_time">நேரத்தைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="user_defined_action_schedule_editor_speaker">எந்த ஸ்பீக்கரில் இயங்க வேண்டும் என்பதைத் தேர்வுசெய்யவும்</string>
+    <string name="user_defined_action_schedule_editor_time">இந்த வழக்கமான செயல் இயங்க வேண்டிய நேரத்தைத் தேர்வுசெய்யவும்</string>
+    <string name="user_defined_action_schedule_editor_title">நாளையும் நேரத்தையும் அமைக்கவும்</string>
     <string name="user_defined_action_target_command_hint">Google அசிஸ்டண்ட் இதைச் செய்ய வேண்டும்</string>
     <string name="user_defined_action_task_custom_query_abandon_button">மாற்றங்களை நிராகரி</string>
     <string name="user_defined_action_task_custom_query_query_required">இந்தச் செயலைச் சேமிக்கும் முன்பு, Google அசிஸ்டண்ட் கட்டளையை உள்ளிட வேண்டும்.</string>
@@ -3121,17 +3235,23 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="user_defined_action_task_volume_notification_summary">இந்த வழக்கமான செயல்பாட்டை உங்கள் Android ஃபோனிலிருந்து பயன்படுத்தும்போது மட்டுமே இந்தச் செயல் வேலை செய்யும்</string>
     <string name="user_defined_action_task_volume_notification_title">ரிங்கர் மற்றும் அறிவிப்பு ஒலியளவு</string>
     <string name="user_defined_action_task_volume_title">ஒலியளவை அமை</string>
+    <string name="user_defined_action_trigger_multiple_title">எப்போது…</string>
+    <string name="user_defined_action_trigger_multiple_title_phrases">நான் %1$s என்று சொல்லும்போது</string>
+    <string name="user_defined_action_trigger_multiple_title_time_and_day">அல்லது %2$s அன்று %1$s மணிக்கு</string>
     <string name="user_defined_action_trigger_phrase_in_use">\"%1$s\" ஏற்கனவே உள்ளது.</string>
     <string name="user_defined_action_trigger_phrase_title">நான் இதைச் சொல்லும்போது…</string>
     <string name="user_defined_action_trigger_phrase_validation_failed">இந்தத் தூண்டல் சொற்றொடரைச் சரிபார்க்க முடியவில்லை. மீண்டும் முயலவும்.</string>
     <string name="user_defined_action_workflow_deleting">வழக்கமான செயல்பாட்டை நீக்குகிறது</string>
     <string name="user_defined_action_workflow_duplicate_command_phrase">\"%1$s\" கட்டளை ஏற்கனவே பயன்படுத்தப்படுகிறது. வேறொன்றைத் தேர்ந்தெடுக்கவும்.</string>
     <string name="user_defined_action_workflow_edit_command_phrases">கட்டளைகளைத் திருத்து</string>
+    <string name="user_defined_action_workflow_empty_schedule">நாளையும் நேரத்தையும் அமைக்கவும் (விரும்பினால்)</string>
     <string name="user_defined_action_workflow_many_command_phrases">\"%1$s\" அல்லது \"%2$s\" அல்லது …</string>
     <string name="user_defined_action_workflow_new">புதிய வழக்கமான செயல்பாடு</string>
     <string name="user_defined_action_workflow_no_actions">செயல்கள் எதுவுமில்லை</string>
+    <string name="user_defined_action_workflow_no_command_phrases">கட்டளைகளைச் சேர்க்கவும் (தேவை)</string>
     <string name="user_defined_action_workflow_one_command_phrase">\"%1$s\"</string>
     <string name="user_defined_action_workflow_saving">வழக்கமான செயல்பாட்டைச் சேமிக்கிறது</string>
+    <string name="user_defined_action_workflow_schedule_day_name_separator">", "</string>
     <string name="user_defined_action_workflow_two_command_phrases">\"%1$s\" அல்லது \"%2$s\"</string>
     <string name="user_review_histogram_ic_user_rating">மதிப்பிட்டவர்களின் மொத்த எண்ணிக்கை</string>
     <string name="user_reviews_read_all_header">அனைத்தையும் படிக்கவும்</string>
@@ -3169,7 +3289,6 @@ Google கணக்கு அமைப்புகளிலுள்ள %1$s எ
     <string name="view_all_of_interest_button">எல்லாம் காட்டு (%1$d)</string>
     <string name="view_email">மின்னஞ்சலைக் காட்டு</string>
     <string name="violent">வன்முறையானது</string>
-    <string name="visual_search">காட்சித் தேடல்</string>
     <string name="voiceSearchPreferences">குரல் தேடல் அமைப்புகள்</string>
     <string name="voice_ime_language_auto">தானியங்கு</string>
     <string name="voice_language_preference_change">குரல் கட்டளைகளுக்கான உங்கள் மொழியும் %sக்கு மாற்றப்பட்டது</string>

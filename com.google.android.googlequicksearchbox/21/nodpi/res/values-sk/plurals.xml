@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">Pred %d dňami</item>
+        <item quantity="one">Pred %d dňom</item>
+        <item quantity="few">Pred %d dňami</item>
+        <item quantity="many">Pred %d dňami</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">Pred %d min</item>
+        <item quantity="one">Pred %d min</item>
+        <item quantity="few">Pred %d min</item>
+        <item quantity="many">Pred %d min</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">Pred %d rokmi</item>
+        <item quantity="one">Pred %d rokom</item>
+        <item quantity="few">Pred %d rokmi</item>
+        <item quantity="many">Pred %d rokom</item>
+    </plurals>
     <plurals name="agenda_card_history_desc">
         <item quantity="other">%d udalostí</item>
         <item quantity="one">%d udalosť</item>
@@ -53,6 +71,18 @@
         <item quantity="one">každý deň</item>
         <item quantity="few">každé %d dni</item>
         <item quantity="many">raz za %d dňa</item>
+    </plurals>
+    <plurals name="daysAgo">
+        <item quantity="other">Pred %1$d dňami</item>
+        <item quantity="one">Pred %1$d dňom</item>
+        <item quantity="few">Pred %1$d dňami</item>
+        <item quantity="many">Pred %1$d dňom</item>
+    </plurals>
+    <plurals name="days_left_to_remove_downloads">
+        <item quantity="other">Po %1$d dňoch</item>
+        <item quantity="one">Po %1$d dni</item>
+        <item quantity="few">Po %1$d dňoch</item>
+        <item quantity="many">Po %1$d dni</item>
     </plurals>
     <plurals name="device_count">
         <item quantity="other">%1$d zariadení</item>
@@ -138,6 +168,30 @@
         <item quantity="few">, %d-krát</item>
         <item quantity="many">, %d-krát</item>
     </plurals>
+    <plurals name="episode_list_header_full">
+        <item quantity="other">%1$d epizód</item>
+        <item quantity="one">%1$d epizóda</item>
+        <item quantity="few">%1$d epizódy</item>
+        <item quantity="many">%1$d epizódy</item>
+    </plurals>
+    <plurals name="favoritesSelected">
+        <item quantity="other">%1$d vybratých podcastov</item>
+        <item quantity="one">%1$d vybratý podcast</item>
+        <item quantity="few">%1$d vybraté podcasty</item>
+        <item quantity="many">%1$d vybratého podcastu</item>
+    </plurals>
+    <plurals name="hoursAgo">
+        <item quantity="other">Pred %1$d hodinami</item>
+        <item quantity="one">Pred %1$d hodinou</item>
+        <item quantity="few">Pred %1$d hodinami</item>
+        <item quantity="many">Pred %1$d hodinou</item>
+    </plurals>
+    <plurals name="hours_left_to_remove_downloads">
+        <item quantity="other">Po %1$d hodinách</item>
+        <item quantity="one">Po %1$d hodine</item>
+        <item quantity="few">Po %1$d hodinách</item>
+        <item quantity="many">Po %1$d hodine</item>
+    </plurals>
     <plurals name="items_from_without_colon">
         <item quantity="other">%1$d položiek od</item>
         <item quantity="one">%1$d položka od</item>
@@ -197,6 +251,18 @@
         <item quantity="one">O 1 min dlhšie ako obvykle</item>
         <item quantity="few">O %1$d min dlhšie ako obvykle</item>
         <item quantity="many">O %1$d min dlhšie ako obvykle</item>
+    </plurals>
+    <plurals name="minutesAgo">
+        <item quantity="other">Pred %1$d min.</item>
+        <item quantity="one">Pred %1$d min.</item>
+        <item quantity="few">Pred %1$d min.</item>
+        <item quantity="many">Pred %1$d min.</item>
+    </plurals>
+    <plurals name="minutes_left">
+        <item quantity="other">Zostáva %1$d min</item>
+        <item quantity="one">Zostáva %1$d min</item>
+        <item quantity="few">Zostávajú %1$d min</item>
+        <item quantity="many">Zostáva %1$d min</item>
     </plurals>
     <plurals name="monthly_interval">
         <item quantity="other">Každých %1$d mesiacov</item>
@@ -336,6 +402,12 @@
         <item quantity="few">%1$d sedadlá</item>
         <item quantity="many">%1$d sedadla</item>
     </plurals>
+    <plurals name="unsubscribed_favorites">
+        <item quantity="other">%1$dZrušili ste odber %1$d podcastov</item>
+        <item quantity="one">%1$dZrušili ste odber 1 podcastu</item>
+        <item quantity="few">%1$dZrušili ste odber %1$d podcastov</item>
+        <item quantity="many">%1$dZrušili ste odber %1$d podcastu</item>
+    </plurals>
     <plurals name="user_defined_action_task_music_duration_display">
         <item quantity="other">%1$d minút</item>
         <item quantity="one">%1$d minúta</item>
@@ -347,6 +419,18 @@
         <item quantity="one">%1$d °</item>
         <item quantity="few">%1$d °</item>
         <item quantity="many">%1$d °</item>
+    </plurals>
+    <plurals name="user_defined_action_task_set_temperature_temperature_display_c">
+        <item quantity="other">%1$d °C</item>
+        <item quantity="one">%1$d °C</item>
+        <item quantity="few">%1$d °C</item>
+        <item quantity="many">%1$d °C</item>
+    </plurals>
+    <plurals name="user_defined_action_task_set_temperature_temperature_display_f">
+        <item quantity="other">%1$d °F</item>
+        <item quantity="one">%1$d °F</item>
+        <item quantity="few">%1$d °F</item>
+        <item quantity="many">%1$d °F</item>
     </plurals>
     <plurals name="user_defined_action_workflow_num_actions">
         <item quantity="other">%1$d akcií</item>

@@ -11,6 +11,10 @@
     </LinearLayout>
     <LinearLayout android:id="@id/related_action_save" android:visibility="gone" style="@style/image_viewer_related_longpress_action">
         <ImageView android:id="@id/related_action_save_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_bookmark_border_white_24" android:tint="@color/eames_action_button" />
-        <TextView android:id="@id/related_action_save_text" android:text="@string/save_action" style="@style/image_viewer_related_longpress_action_text" />
+        <TextView android:id="@id/related_action_save_text" android:text="@string/save_action" android:contentDescription="@string/save_action" style="@style/image_viewer_related_longpress_action_text" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/related_action_unsave" android:visibility="gone" style="@style/image_viewer_related_longpress_action">
+        <ImageView android:id="@id/related_action_unsave_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_bookmark_white_24" android:tint="@color/eames_action_button" />
+        <TextView android:id="@id/related_action_unsave_text" android:text="@string/image_viewer_saved" android:contentDescription="@string/image_viewer_saved_description" style="@style/image_viewer_related_longpress_action_text" />
     </LinearLayout>
 </LinearLayout>

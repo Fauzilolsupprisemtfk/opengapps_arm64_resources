@@ -4,12 +4,7 @@
     <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
         <LinearLayout android:orientation="vertical" android:id="@id/drawer_layout" android:tag="ve=13163" android:paddingTop="@dimen/drawer_item_divider_padding" android:paddingBottom="@dimen/drawer_item_divider_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
             <ViewStub android:id="@id/gms_error_stub" android:layout="@layout/navigation_menu_gms_error_entry" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-            <FrameLayout android:id="@id/update_tip_top_layout" android:tag="ve=37455" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/update_tip_reduce_top_margin" android:layout_marginBottom="@dimen/drawer_item_divider_padding">
-                <include layout="@layout/update_tip_top_layout" />
-            </FrameLayout>
-            <FrameLayout android:id="@id/kepler_awareness_tip_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
-                <include layout="@layout/kepler_awareness_tip_layout" />
-            </FrameLayout>
+            <FrameLayout android:id="@id/awareness_tip_placeholder" android:layout_width="fill_parent" android:layout_height="wrap_content" />
             <FrameLayout android:id="@id/velour_custom_drawer_items" android:layout_width="fill_parent" android:layout_height="wrap_content" />
             <com.google.android.apps.gsa.shared.ui.drawer.DrawerEntry android:id="@id/recently" android:tag="ve=35842;track:click" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" thegoogle:imageSrc="@drawable/ic_canary_recent_white" thegoogle:text="@string/recently" />
             <com.google.android.apps.gsa.shared.ui.drawer.DrawerEntry android:id="@id/saves" android:tag="ve=35742;track:click" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" thegoogle:imageSrc="@drawable/ic_saves" thegoogle:text="@string/saves" />

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.google.android.googlequicksearchbox" platformBuildVersionCode="27" platformBuildVersionName="P">
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="com.google.android.googlequicksearchbox" platformBuildVersionCode="28" platformBuildVersionName="9">
     <permission android:description="@string/audio_file_access_desc" android:label="@string/audio_file_access" android:name="com.google.android.voicesearch.AUDIO_FILE_ACCESS" android:protectionLevel="signature"/>
     <permission android:name="com.google.android.googlequicksearchbox.permission.FINISH_GEL_ACTIVITY" android:protectionLevel="signature"/>
     <uses-permission android:name="com.google.android.googlequicksearchbox.permission.FINISH_GEL_ACTIVITY"/>
@@ -106,6 +106,8 @@
     <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
     <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
     <uses-permission-sdk-23 android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission-sdk-23 android:name="android.permission.SET_MEDIA_KEY_LISTENER"/>
+    <uses-permission-sdk-23 android:name="android.permission.SET_VOLUME_KEY_LONG_PRESS_LISTENER"/>
     <permission android:description="@string/permdesc_read_settings" android:label="@string/permlab_read_settings" android:name="com.google.android.launcher.permission.READ_SETTINGS" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="normal"/>
     <permission android:description="@string/permdesc_write_settings" android:label="@string/permlab_write_settings" android:name="com.google.android.launcher.permission.WRITE_SETTINGS" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="signatureOrSystem"/>
     <permission android:name="com.google.android.launcher.permission.RECEIVE_LAUNCH_BROADCASTS" android:protectionLevel="signature"/>
@@ -140,7 +142,10 @@
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
-                <data android:host="assistant.google.com" android:pathPrefix="/services/a/" android:scheme="http"/>
+                <data android:host="assistant.google.com"/>
+                <data android:pathPrefix="/explore/c/"/>
+                <data android:pathPrefix="/services/a/"/>
+                <data android:scheme="http"/>
                 <data android:scheme="https"/>
             </intent-filter>
         </activity>
@@ -206,6 +211,8 @@
                 <action android:name="android.bluetooth.device.action.BOND_STATE_CHANGED"/>
                 <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
                 <action android:name="android.location.PROVIDERS_CHANGED"/>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"/>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_DETACHED"/>
                 <action android:name="org.chromium.chrome.browser.offlinepages.OFFLINE_PAGES_CHANGED"/>
                 <action android:name="com.google.android.apps.gsa.qsbplacement.LAYOUT_ACTIVATED"/>
                 <action android:name="com.google.android.apps.gsa.nowoverlayservice.PIXEL_DOODLE_QSB_SETTINGS"/>
@@ -415,7 +422,7 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
-        <service android:exported="false" android:label="@string/publicServiceLabel" android:name="com.google.android.apps.gsa.publicsearch.PublicSearchService" android:process=":search">
+        <service android:label="@string/publicServiceLabel" android:name="com.google.android.apps.gsa.publicsearch.PublicSearchService" android:process=":search">
             <intent-filter>
                 <action android:name="com.google.android.apps.gsa.publicsearch.IPublicSearchService"/>
             </intent-filter>
@@ -808,12 +815,25 @@
                 <data android:scheme="http"/>
                 <data android:scheme="https"/>
             </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:pathPrefix="/podcasts?"/>
+                <data android:path="/podcasts"/>
+                <data android:host="www.google.com"/>
+                <data android:scheme="https"/>
+            </intent-filter>
         </activity-alias>
         <provider android:authorities="com.google.android.apps.gsa.staticplugins.opa.audio.OpaAudioProvider" android:exported="false" android:name="com.google.android.apps.gsa.staticplugins.opa.audio.OpaAudioProvider" android:process=":search"/>
-        <activity android:exported="true" android:icon="@drawable/hq_recent_icon" android:label="@string/hq_title" android:launchMode="singleTop" android:name="com.google.android.apps.gsa.staticplugins.opa.hq.OpaHqActivity" android:process=":search" android:resizeableActivity="false" android:theme="@style/OpaHQActivity.Theme" android:windowSoftInputMode="adjustNothing|stateAlwaysHidden">
+        <activity android:exported="true" android:icon="@drawable/hq_recent_icon" android:label="@string/hq_title" android:launchMode="singleTop" android:name="com.google.android.apps.gsa.staticplugins.opa.hq.OpaHqActivity" android:process=":search" android:resizeableActivity="false" android:taskAffinity="" android:theme="@style/OpaHQActivity.Theme" android:windowSoftInputMode="adjustNothing|stateAlwaysHidden">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="assistant.google.com"/>
+                <data android:path="/explore/"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
             </intent-filter>
         </activity>
         <activity android:exported="true" android:icon="@drawable/hq_recent_icon" android:label="@string/hq_title" android:launchMode="singleTop" android:name="com.google.android.apps.gsa.staticplugins.opa.hq.ResizableOpaHqActivity" android:process=":search" android:resizeableActivity="true" android:taskAffinity="" android:theme="@style/OpaHQActivity.Theme" android:windowSoftInputMode="adjustNothing|stateAlwaysHidden">
@@ -875,10 +895,6 @@
         <activity android:exported="false" android:name="com.google.android.apps.gsa.staticplugins.opa.setupwizard.SuwActivity" android:process=":search" android:theme="@style/Theme.Transparent"/>
         <activity-alias android:exported="true" android:name="com.google.android.apps.gsa.staticplugins.opa.setupwizard.SetupWizardActivity" android:permission="com.google.android.apps.now.OPT_IN_WIZARD" android:targetActivity="com.google.android.apps.gsa.staticplugins.opa.setupwizard.SuwActivity">
             <intent-filter>
-                <action android:name="com.google.android.apps.gsa.opa.OPA_OPT_IN"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-            </intent-filter>
-            <intent-filter>
                 <action android:name="com.google.android.apps.gsa.opa.OPA_OPT_IN_WRAPPED"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
@@ -913,10 +929,15 @@
         <meta-data android:name="com.google.android.apps.gsa.staticplugins.placedetails.GEO_API_KEY" android:value="AIzaSyAqBlSVepj6YwUH5835uKnLw2NWIQoYVI8"/>
         <provider android:authorities="com.google.android.googlequicksearchbox.GsaPublicContentProvider;com.google.android.googlequicksearchbox.ExternalExperimentInfoProvider" android:exported="true" android:name="com.google.android.apps.gsa.staticplugins.publiccontent.GsaPublicContentProvider" android:process=":search"/>
         <activity android:finishOnCloseSystemDialogs="true" android:name="com.android.launcher3.WallpaperPickerActivity" android:process=":wallpaper_chooser" android:resizeableActivity="false" android:theme="@style/Theme.WallpaperPicker"/>
-        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/sharebear_screenshotter_activity_label" android:name="com.google.android.apps.gsa.staticplugins.sharebear.ScreenshotterActivity" android:process=":search" android:taskAffinity="" android:theme="@style/ScreenshotterActivityTheme"/>
-        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:label="@string/sharebear_crop_and_edit_screenshot_activity_label" android:name="com.google.android.apps.gsa.staticplugins.sharebear.CropAndEditScreenshotActivity" android:process=":search" android:taskAffinity="" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:label="@string/sharebear_screenshotter_activity_label" android:name="com.google.android.apps.gsa.staticplugins.sharebear.ScreenshotterActivity" android:process=":search" android:taskAffinity="" android:theme="@style/ScreenshotterActivityTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:label="@string/sharebear_crop_and_edit_screenshot_activity_label" android:name="com.google.android.apps.gsa.staticplugins.sharebear.CropAndEditScreenshotActivity" android:process=":search" android:taskAffinity="" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:label="Storage permission explanation" android:name="com.google.android.apps.gsa.staticplugins.sharebear.StoragePermissionDialogActivity" android:process=":search" android:taskAffinity="" android:theme="@style/Theme.Velvet.Popup"/>
-        <activity android:name="com.google.android.apps.gsa.staticplugins.visualsearch.VisualSearchActivity" android:process=":search" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <receiver android:enabled="@bool/enable_smartspace_widget" android:label="@string/smartspacewidget_beta_name" android:name="com.google.android.apps.gsa.staticplugins.smartspace.widget.SmartspaceWidgetProvider" android:process=":search">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/smartspacewidget_info"/>
+        </receiver>
         <service android:exported="true" android:name="com.google.android.apps.gsa.tasks.BackgroundTasksGcmService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" android:process=":search">
             <intent-filter>
                 <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"/>

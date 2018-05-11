@@ -23,13 +23,17 @@
     <string name="abc_searchview_description_voice">音声検索</string>
     <string name="abc_shareactionprovider_share_with">共有</string>
     <string name="abc_shareactionprovider_share_with_application">%sと共有</string>
+    <string name="abc_slice_error">接続できませんでした</string>
+    <string name="abc_slice_more">もっと見る</string>
     <string name="abc_slice_more_content">他 %1$d 件</string>
     <string name="abc_slice_permission_allow">許可</string>
     <string name="abc_slice_permission_checkbox">すべてのアプリのスライスを表示することを %1$s に許可する</string>
     <string name="abc_slice_permission_deny">拒否</string>
-    <string name="abc_slice_permission_text_1">- %1$s からの情報を読み取ることがあります</string>
+    <string name="abc_slice_permission_text_1">- %1$s からの情報を読み取ることができます</string>
     <string name="abc_slice_permission_text_2">- %1$s 内部で操作することがあります</string>
     <string name="abc_slice_permission_title">%2$s のスライスの表示を %1$s に許可しますか？</string>
+    <string name="abc_slice_show_more">もっと見る</string>
+    <string name="abc_slice_updated">更新時刻: %1$s</string>
     <string name="abc_slices_permission_request">%1$s が %2$s のスライスの表示をリクエストしています</string>
     <string name="abc_toolbar_collapse_description">折りたたむ</string>
     <string name="about">概要</string>
@@ -60,7 +64,6 @@
     <string name="accessibility_see_results_on_google">Googleで検索結果を表示</string>
     <string name="accessibility_select">画面からテキストを選択</string>
     <string name="accessibility_share">画面を共有</string>
-    <string name="accessibility_visual_search_button">画像検索</string>
     <string name="accessibility_voice_search_button">音声検索</string>
     <string name="account_item">%1$sに切り替える</string>
     <string name="account_list">アカウントリスト</string>
@@ -87,6 +90,7 @@
     <string name="action_call_who_timeout_last_eyes_free_tts">再度聞き取れませんでした。%2$s。</string>
     <string name="action_call_who_title">発信先を指定</string>
     <string name="action_call_who_tts">発信先を指定してください。</string>
+    <string name="action_chat">チャット</string>
     <string name="action_contact_info_canceling_tts">連絡先の検索をキャンセルしています</string>
     <string name="action_contact_info_nomatch_1_eyes_free_tts">聞き取れませんでした。検索するユーザーを指定してください。</string>
     <string name="action_contact_info_nomatch_1_tts">検索する連絡先の名前を発声するか、「%1$s」と発声してください。</string>
@@ -107,10 +111,12 @@
     <string name="action_decrease_height">高さを低くする</string>
     <string name="action_decrease_width">幅を狭くする</string>
     <string name="action_deep_shortcut">ショートカット</string>
+    <string name="action_email">メール</string>
     <string name="action_fallback_long_query_eyes_free_tts">答えが見つかりませんでした。</string>
     <string name="action_fallback_short_query_eyes_free_tts">「%1$s」の答えが見つかりませんでした。</string>
     <string name="action_generic_canceled_tts">リクエストをキャンセルしました</string>
     <string name="action_generic_timeout_last_eyes_free_tts">%1$s%2$s</string>
+    <string name="action_goto_app">アプリに移動</string>
     <string name="action_increase_height">高さを高くする</string>
     <string name="action_increase_width">幅を広くする</string>
     <string name="action_move">アイテムを移動</string>
@@ -118,6 +124,8 @@
     <string name="action_move_screen_left">画面を左に移動</string>
     <string name="action_move_screen_right">画面を右に移動</string>
     <string name="action_move_to_workspace">ホーム画面に移動</string>
+    <string name="action_navigate">ナビ</string>
+    <string name="action_required">対応が必要</string>
     <string name="action_resize">サイズを変更</string>
     <string name="action_send">フィードバックを送信</string>
     <string name="action_sms_canceling_tts">テキストメッセージをキャンセルしています</string>
@@ -154,6 +162,7 @@
     <string name="action_sms_person_disambig_nomatch_last_eyes_free_tts">名前を特定できませんでした。しばらくしてからもう一度お試しください。</string>
     <string name="action_sms_person_disambig_nomatch_last_tts">テキストメッセージの送信先が連絡先に含まれていない可能性があります。タップして連絡先を選択してください。</string>
     <string name="action_sms_person_disambig_timeout_last_eyes_free_tts">再度聞き取れませんでした。%5$s。</string>
+    <string name="action_sms_text">テキスト</string>
     <string name="action_sms_who_timeout_1_eyes_free_tts">聞き取れませんでした。テキストメッセージの送信先を指定してください。</string>
     <string name="action_sms_who_timeout_2_eyes_free_tts">聞き取れませんでした。テキストメッセージを送信する連絡先の名前を発声するか、「%1$s」と発声してください。</string>
     <string name="action_sms_who_timeout_last_eyes_free_tts">再度聞き取れませんでした。%2$s。</string>
@@ -162,6 +171,8 @@
     <string name="action_sound_search_get_song">Google Playで入手</string>
     <string name="action_sound_search_result_content_description">%1$s、%2$s、%3$s</string>
     <string name="action_unlock_device_tts">端末がロックされている間は操作を行えません。操作を続けるには、端末のロックを解除してください。</string>
+    <string name="action_video_call">ビデオ通話</string>
+    <string name="action_voice_call">発信</string>
     <string name="action_who_is_relation_1_tts">連絡先名か「%2$s」と発声してください。</string>
     <string name="action_who_is_relation_eyes_free_1_tts">聞き取れません。連絡先を指定してください。</string>
     <string name="action_who_is_relation_eyes_free_last_tts">特定できません。後でもう一度お試しください。</string>
@@ -173,6 +184,7 @@
     <string name="action_who_is_your_relation_title">あなたの%sは誰ですか？</string>
     <string name="activity_not_available">このアプリは使用できません</string>
     <string name="activity_not_found">このアプリはインストールされていません。</string>
+    <string name="activity_title">ポッドキャスト プレーヤー</string>
     <string name="ad_badge">広告</string>
     <string name="add_account">アカウントを追加する</string>
     <string name="add_contact_display_name">連絡先を追加</string>
@@ -182,16 +194,25 @@
     <string name="add_relationship_subject_2_tts_eyes_free">聞き取れませんでした。「はい」または「キャンセル」と発声してください</string>
     <string name="add_relationship_subject_last_tts">続行するには [記憶] または [キャンセル] をタップしてください</string>
     <string name="add_relationship_subject_last_tts_eyes_free">再度聞き取れませんでした。キャンセルしています。</string>
+    <string name="add_shortcut_accept">追加</string>
+    <string name="add_shortcut_message">ホーム画面にポッドキャストへのショートカットを追加しよう</string>
+    <string name="add_shortcut_reject">追加しない</string>
     <string name="add_snackbar_action">追加</string>
     <string name="add_this_location_to_your_list_snackbar_text">この場所をリストに追加しますか？</string>
     <string name="add_to_folder">フォルダ「%1$s」に追加</string>
     <string name="add_to_folder_with_app">%1$sのあるフォルダに追加</string>
+    <string name="add_to_home_screen">ホーム画面に追加</string>
+    <string name="add_to_home_screen_done">ホーム画面に追加済み</string>
+    <string name="add_to_home_screen_explanation">ホーム画面に「%1$s」へのショートカットを追加できます</string>
+    <string name="add_to_home_screen_success">追加しました</string>
     <string name="add_your_relationship_subject">%2$sさんをあなたの%1$sとして保存しますか？</string>
     <string name="added_to_folder">アイテムをフォルダに追加しました</string>
     <string name="additional_stock_query_string">株価</string>
     <string name="address_cancel_button">後で</string>
     <string name="address_data_loading">読み込んでいます…</string>
+    <string name="address_error">この住所を確認できませんでした。</string>
     <string name="address_explanation">住所は、配送、交通情報、地域の天気情報などのサービスに使用します</string>
+    <string name="address_hint">住所を入力してください</string>
     <string name="address_title">住所を入力してください</string>
     <string name="ads_badge">広告</string>
     <string name="agenda_calendar_next_template">カレンダーの次の予定は%1$s（%2$s）です。</string>
@@ -210,6 +231,7 @@
     <string name="agenda_eyes_free_list_last_two_items">%1$s、%2$s</string>
     <string name="agenda_eyes_free_timed_event">%1$sに%2$s</string>
     <string name="agenda_eyes_free_timed_event_with_day">%1$s %2$s: %3$s</string>
+    <string name="agenda_hub_title">今後</string>
     <string name="agent_bookmark_added">ブックマークに保存しました</string>
     <string name="agent_bookmark_error">エラーが発生しました。しばらくしてからもう一度お試しください。</string>
     <string name="agent_bookmark_removed">ブックマークから削除しました</string>
@@ -238,6 +260,7 @@
     <string name="agent_directory_music_unable_unlink_default">デフォルトの音楽プロバイダのリンクは解除できません</string>
     <string name="agent_directory_no_results">「%1$s」に一致する結果は見つかりませんでした</string>
     <string name="agent_directory_no_thanks">キャンセル</string>
+    <string name="agent_directory_send_to_device_text">端末に送信</string>
     <string name="agent_directory_settings_manage">セットアップ</string>
     <string name="agent_directory_settings_text">設定</string>
     <string name="agent_directory_share">共有</string>
@@ -287,6 +310,8 @@
     <string name="all_chain_locations">すべての場所</string>
     <string name="all_day">終日</string>
     <string name="all_day_at_location">終日（%1$s）</string>
+    <string name="all_day_event_text">終日</string>
+    <string name="all_downloaded_episodes">ダウンロードしたすべてのエピソード</string>
     <string name="all_language_packs">すべて</string>
     <string name="allow_bluetooth_button_with_device_locked_notification_body">ロックされている状態のスマートフォンで、電話発信などの音声操作をBluetoothデバイスから行えます</string>
     <string name="allow_bluetooth_button_with_device_locked_notification_title">Bluetoothデバイスで音声を使用する</string>
@@ -310,6 +335,7 @@
     <string name="alpha_beta_channel_selection_positive_button">OK</string>
     <string name="alpha_beta_channel_selection_title">テスト方法の選択</string>
     <string name="amp_source_header">ソース: %1$s</string>
+    <string name="and">、</string>
     <string name="announce_selection">選択: %1$s</string>
     <string name="announcement_chime_only_prompt4">通知音が鳴ったら、Googleアシスタントのボタンを押してその通知を聞くことができます。</string>
     <string name="announcement_chime_only_promptt">通知音が鳴ったら、右のイヤフォンをダブルタップしてその通知を聞くことができます。</string>
@@ -330,6 +356,9 @@
     <string name="app_name">Googleアプリ</string>
     <string name="app_not_available">その操作が可能なアプリはありません</string>
     <string name="app_result_suggestion_content_description" formatted="false">%sで%sを開きます。</string>
+    <string name="app_shortcut_desc">アシスタントをホーム画面に追加します</string>
+    <string name="app_shortcut_title">アシスタントへの簡単なアクセス</string>
+    <string name="app_suggestions_header">アプリ</string>
     <string name="app_waiting_download_title">%1$sのインストール待ち</string>
     <string name="appointment_time_range">%1$s～%2$s</string>
     <string name="apps_mode_landing_text">アプリを検索</string>
@@ -513,7 +542,7 @@
     <string name="assistant_settings_home_cloud_services_unlink_success_snackbar">%1$s アカウントのリンクを解除しました。</string>
     <string name="assistant_settings_home_cloud_services_unlinking_progress">%1$s アカウントのリンクを解除しています</string>
     <string name="assistant_settings_home_control_title">スマートホーム</string>
-    <string name="assistant_settings_home_device_edit_title">端末の詳細</string>
+    <string name="assistant_settings_home_device_edit_title">デバイスの詳細</string>
     <string name="assistant_settings_home_device_nickname">ニックネーム</string>
     <string name="assistant_settings_home_device_nickname_clear_confirm">ニックネームを削除</string>
     <string name="assistant_settings_home_device_nickname_clear_prompt">「%1$s」のニックネームを削除してもよろしいですか？</string>
@@ -572,7 +601,10 @@
     <string name="assistant_settings_kill_switch_dialog_button">Play ストアに移動</string>
     <string name="assistant_settings_kill_switch_dialog_message">最新の機能を利用するには、Play ストアで Google アプリを更新してください</string>
     <string name="assistant_settings_kill_switch_dialog_title">アシスタントの更新が必要</string>
+    <string name="assistant_settings_language_availability_display_only_text">お使いのスマートディスプレイのアシスタントは、%1$sでのみ利用できます。</string>
+    <string name="assistant_settings_language_availability_display_text">お使いのスマートフォンでは、この言語と、%2$sで設定した端末の言語が使用されます。スマートディスプレイでは、%1$sのみが使用されます。</string>
     <string name="assistant_settings_language_availability_link">Android の言語設定</string>
+    <string name="assistant_settings_language_availability_single_language_display_text">お使いのスマートフォンでは、この言語と、%2$sで設定した端末の言語が使用されます。スマートディスプレイでは、%1$sのみが使用されます。</string>
     <string name="assistant_settings_language_availability_single_language_text">お使いのスマートフォンのアシスタントでは、この言語と、%1$s（%2$sで設定した端末の言語）が使用されます。</string>
     <string name="assistant_settings_language_availability_text">お使いのスマートフォンのアシスタントでは、この言語と、%1$s（%2$sで設定した端末の言語）が使用されます。</string>
     <string name="assistant_settings_languages_dialog_title">言語</string>
@@ -605,6 +637,7 @@
     <string name="assistant_settings_music_youtube_premium_dialog_text">YouTube Music が配信する音楽を Google Home で再生するには、YouTube Red へのメンバーシップ登録が必要です。登録は <a href="http://youtube.com/red">youtube.com/red</a> から行えます。</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">YouTube Red へのメンバーシップ登録が必要</string>
     <string name="assistant_settings_news_provider_delete_button_description">有効にしたニュース提供元から %1$s を削除します</string>
+    <string name="assistant_settings_news_supports_video">スマートディスプレイで視聴できる動画です</string>
     <string name="assistant_settings_news_title">ニュース</string>
     <string name="assistant_settings_nick_name_not_pronounceable_message">アシスタントの発音できない文字がニックネームに含まれています。次のセクションで発音を指定してください。</string>
     <string name="assistant_settings_no_device_linked">アシスタントは Voice Match で声を認識し、アカウントに基づく情報（スケジュールや音楽など）を提供します。最大 6 人が利用できます。</string>
@@ -674,6 +707,7 @@
     <string name="assistant_settings_payments_phone_authentication_frequency_never_description">通常とは異なるアクティビティが検出されない限り、確認は不要</string>
     <string name="assistant_settings_payments_phone_authentication_frequency_not_required">確認は不要</string>
     <string name="assistant_settings_payments_phone_authentication_mechanism_title">指紋を使って確認</string>
+    <string name="assistant_settings_payments_phone_authentication_page_header">アシスタントを使用して行う支払いに関するセキュリティ設定を調整します。</string>
     <string name="assistant_settings_payments_phone_authentication_section_title">購入の承認</string>
     <string name="assistant_settings_payments_phone_authentication_title">購入の承認</string>
     <string name="assistant_settings_payments_save_button_text">保存</string>
@@ -770,6 +804,8 @@
     <string name="assistant_settings_shopping_list_title">ショッピング リスト</string>
     <string name="assistant_settings_spell_out_name_not_pronounceable_message">英語のアルファベットを使用してください</string>
     <string name="assistant_settings_stocks">株価情報</string>
+    <string name="assistant_settings_summer_time_mode_availability_clarification" />
+    <string name="assistant_settings_summer_time_mode_availability_description">夏時間モードをご利用いただける地域</string>
     <string name="assistant_settings_summer_time_mode_button_summary">夏時間モードを有効にします。</string>
     <string name="assistant_settings_summer_time_mode_button_title">夏時間モード</string>
     <string name="assistant_settings_summer_time_mode_title">夏時間モード</string>
@@ -836,6 +872,12 @@
     <string name="audio_error">マイクを開けません。</string>
     <string name="audio_file_access">録音した音声へのアクセス</string>
     <string name="audio_file_access_desc">備忘録として、または未加工の音声を解析するために、録音した音声にアクセスできます。</string>
+    <string name="audio_player_notification_channel">オーディオ プレーヤー</string>
+    <string name="audio_rationale_message">音声認識サービスを提供するため、あなたの音声を Google に送信します。音声文字変換データがこのアプリと共有されます。</string>
+    <string name="audio_rationale_message_vaa_enabled">"音声認識サービスを提供するため、あなたの音声を Google に送信します。音声文字変換データがこのアプリと共有されます。
+
+%1$s"</string>
+    <string name="author_format">作成者: %1$s</string>
     <string name="auto_add_shortcuts_description">新しいアプリをダウンロードしたとき</string>
     <string name="auto_add_shortcuts_label">ホーム画面にアイコンを追加</string>
     <string name="auto_update_any_time">"言語を常に自動更新する
@@ -843,7 +885,9 @@
     <string name="auto_update_language_packs">自動更新</string>
     <string name="auto_update_never">言語を自動更新しない</string>
     <string name="auto_update_wifi_only">Wi-Fi接続時のみ言語を自動更新する</string>
+    <string name="available_pick_up">受け取り可能</string>
     <string name="back">戻る</string>
+    <string name="back_of_card_close">閉じる</string>
     <string name="background_notification_onboarding">オフラインになっていても大丈夫です。Google アプリが検索内容を記憶して、検索結果が準備できたら通知をお送りします。</string>
     <string name="background_notification_onboarding_accept">OK</string>
     <string name="background_notification_onboarding_decline">OFF にする</string>
@@ -865,7 +909,6 @@
     <string name="battery_toast">%1$s のバッテリー残量: %2$d%%</string>
     <string name="batterysaver_off">バッテリーセーバーがOFFです</string>
     <string name="batterysaver_on">バッテリーセーバーがONです</string>
-    <string name="beta_tag">ベータ版</string>
     <string name="birthday_message">今日であなたが生まれてからわずか%1$s秒です。</string>
     <string name="birthday_today">今日が誕生日です</string>
     <string name="bisto_app_notifications_global_toggle_summary">今後の通知を音声で聞くことができます</string>
@@ -898,12 +941,6 @@
     <string name="bisto_device_notifications_pref_title">音声通知</string>
     <string name="bisto_device_oem_partner_app_summary">ヘッドフォンの追加設定</string>
     <string name="bisto_device_oem_partner_app_title">Bose Connect アプリ</string>
-    <string name="bisto_device_ohd_pref_summary">右のイヤフォンを装着しているときは、Pixel Buds のオンとオフが自動で切り替わります。電源を手動で操作するには、トリプルタップします。</string>
-    <string name="bisto_device_ohd_pref_title">装着検知</string>
-    <string name="bisto_device_ohd_pref_warning_body">"ヘッドフォンは、ケース内に戻すか、Bluetooth メニューから手動で接続を解除しない限り、アクティブのままになります。
-
-右のイヤフォンをトリプルタップすると、Pixel Buds のオンとオフの切り替えを引き続き手動で行えます。"</string>
-    <string name="bisto_device_ohd_pref_warning_tile">装着検知を無効にしました</string>
     <string name="bisto_device_open_source_licenses">オープンソース ライセンス</string>
     <string name="bisto_device_remove_device_pref_title">Googleアシスタントの削除</string>
     <string name="bisto_device_safety_info">安全、保証、規制に関する情報</string>
@@ -984,9 +1021,10 @@
     <string name="button_no">いいえ</string>
     <string name="button_yes">はい</string>
     <string name="by_author">著者: %1$s</string>
+    <string name="cached_desc">このページはオフラインで利用できます。</string>
     <string name="calendar_app_name_override">カレンダー</string>
-    <string name="calendar_event_during">現在、%1$s中です</string>
-    <string name="calendar_event_pre">あと %2$sで%1$sです</string>
+    <string name="calendar_event_during">現在、%1$s中</string>
+    <string name="calendar_event_pre">あと %2$sで%1$s</string>
     <string name="calendar_event_pre_static">%1$s: %2$s</string>
     <string name="calendar_event_time_range">%1$s～%2$s</string>
     <string name="calendar_event_tts_no_title">無題の予定</string>
@@ -997,6 +1035,8 @@
     <string name="cancel">キャンセル</string>
     <string name="cancel_button_text">キャンセル</string>
     <string name="cancel_download">ダウンロードをキャンセル</string>
+    <string name="cancel_favorites_selection">キャンセル</string>
+    <string name="cancelled">キャンセル</string>
     <string name="cant_load_suggestions">候補を読み込めません</string>
     <string name="capabilities_discovery_hint">アシスタントの機能を検索</string>
     <string name="capabilities_search_content_description">アシスタントの機能を検索</string>
@@ -1022,10 +1062,11 @@
     <string name="cast_notification_connecting_message">%1$s に接続しています</string>
     <string name="cast_notification_default_channel_name">Cast</string>
     <string name="cast_notification_disconnect">接続を解除</string>
+    <string name="cct_account_mismatch_card_button_text">%1$s を開く</string>
+    <string name="cct_account_mismatch_card_header">ウェブページの表示</string>
+    <string name="cct_account_mismatch_card_text">ここで見つかったページを表示するには、&lt;b>%1$s の設定&lt;/b>を更新し、&lt;b>%2$s&lt;/b> の同期を有効にしてください。</string>
     <string name="chance_of_precipitation_label">降水確率: %s</string>
     <string name="change_wallpaper">壁紙を変更</string>
-    <string name="charging_screen_apollo_message">Pixel Buds をケースの右と左のポケットそれぞれに収納します。LED ライトが 1 つ点灯します。充電中も持ち運びできるよう、コードをケースの縁に巻き付けて固定してください。</string>
-    <string name="charging_screen_apollo_title">充電中</string>
     <string name="checkin_date_today">チェックインは今日です</string>
     <string name="choose_account_to_use">アカウントの選択</string>
     <string name="chrome_os_opa_ready_screen_explanation">Chromebook をセットアップして、アシスタント ボタンを押すか「OK Google」と話しかければ、アシスタントがいつでもサポートします。</string>
@@ -1039,21 +1080,28 @@
     <string name="clock_maybe_wrong_error_card_open_settings_button_text">設定で更新</string>
     <string name="clock_maybe_wrong_error_card_title_text">時計が同期していない可能性があります</string>
     <string name="close_button">閉じる</string>
+    <string name="close_button_desc">終了</string>
     <string name="closet_offline_warning_title">現在、接続にアクセスできません</string>
     <string name="cloud_search_history_fetch_failed_toast">設定を取得できませんでした。しばらくしてからもう一度お試しください。</string>
     <string name="cloud_search_history_summary_fetching">設定を取得しています…</string>
+    <string name="collapse">折りたたむ</string>
     <string name="collapse_time_to_leave">この経路のオプションを隠す</string>
+    <string name="collections">コレクション</string>
     <string name="comment_hint">その他のコメント（省略可）</string>
     <string name="common_address_clear_button_label">消去</string>
     <string name="common_address_clear_confirm_button">削除</string>
     <string name="common_address_edit_title">住所の編集</string>
     <string name="common_delete">削除</string>
     <string name="common_device_assistant_language_title">アシスタントの言語</string>
-    <string name="common_device_id_personal_info_permission_non_screen_devices_summary">この端末でアカウントに基づく情報（メール、カレンダー、連絡先、リマインダーなど）の利用を許可します。この端末でのお支払いも許可することになります。<a href="https://support.google.com/assistant/?p=personal_results">詳細</a></string>
+    <string name="common_device_id_personal_info_permission_non_screen_devices_summary">この端末でアカウントに基づく情報（メール、カレンダー、連絡先、リマインダーなど）の利用を許可します。この端末でのお支払いも許可することになります。%1$s</string>
+    <string name="common_device_id_personal_info_permission_screenful_devices_summary">この端末でアカウントに基づく情報（写真、メール、カレンダー、連絡先、リマインダーなど）の利用を許可します。この端末でのお支払いも許可することになります。%1$s</string>
     <string name="common_device_notification_permission_summary">このデバイスで、リマインダーなどの通知を受け取ることができます。通知がオフになっていても、アラームや重要な情報は聞くことができます。</string>
     <string name="common_device_notification_permission_title">通知</string>
     <string name="common_device_personal_info_permission_title">アカウントに基づく情報</string>
+    <string name="common_device_personal_suggestion_permission_summary">アカウントに基づく情報と YouTube のおすすめ動画をホーム画面や通知で自動的に知らせることを許可します。注: 近くにいる人もその情報をタップして操作できるおそれがあります。%1$s</string>
     <string name="common_device_personal_suggestion_permission_title">ホーム画面と通知</string>
+    <string name="common_device_youtube_restricted_mode_summary">不適切なコンテンツが含まれている可能性のある曲や動画を非表示にします</string>
+    <string name="common_device_youtube_restricted_mode_title">YouTube 制限付きモード</string>
     <string name="common_google_logo">Googleロゴ</string>
     <string name="common_google_play_services_enable_button">有効にする</string>
     <string name="common_google_play_services_enable_text">%1$sの実行には、Google Play開発者サービスの有効化が必要です。</string>
@@ -1100,14 +1148,20 @@
     <string name="confirm_place_query_string">この場所までの移動時間を表示しますか？</string>
     <string name="confirm_place_set_text">設定</string>
     <string name="confirm_place_updated">変更を保存しました。交通情報カードは明日更新されます。</string>
+    <string name="confirm_remove_all_dialog_message">ダウンロードしたエピソードがすべて削除されます。この操作は元に戻せません。</string>
+    <string name="confirm_remove_all_dialog_title">よろしいですか？</string>
     <string name="confirm_remove_device_confirm_toast">ヘッドフォンからGoogleアシスタントを削除しました。</string>
     <string name="confirm_remove_device_error_toast">Googleアシスタントを削除できません。もう一度お試しください。</string>
     <string name="confirm_remove_device_positive_button">削除</string>
     <string name="confirm_remove_device_title">Googleアシスタントを削除しますか？</string>
+    <string name="confirm_unsubscribe_button_label">解約</string>
+    <string name="confirm_unsubscribe_title">この番組の定期購入を解約しますか？</string>
     <string name="confirm_work_query_string">毎日の通勤でこの場所を利用しますか？</string>
     <string name="confirm_work_yes_text">勤務先として設定</string>
     <string name="confirmation_number">確認番号</string>
+    <string name="confirmed">確認済み</string>
     <string name="connection_error_loading_content">ネットワークに接続されていないためページを読み込めません。</string>
+    <string name="connection_error_message">接続を確認してから、もう一度お試しください</string>
     <string name="connection_retrying">再試行しています…</string>
     <string name="consent_action_button">許可</string>
     <string name="consent_explanation">"%s
@@ -1144,12 +1198,27 @@
     <string name="contact_no_postal_address">%1$sさんの住所がありません</string>
     <string name="contact_no_postal_address_pick_another_contact">%1$sさんの住所がありません。別の連絡先を選んでください</string>
     <string name="contact_photo">連絡先の写真</string>
+    <string name="contact_removal_body">最もよく使う連絡先から &lt;b>%1$s&lt;/b> さんを削除します。&lt;b>%2$s&lt;/b> さんを探す場合は検索をご利用ください。</string>
+    <string name="contact_removal_cancel">キャンセル</string>
+    <string name="contact_removal_confirm">削除</string>
+    <string name="contact_removal_title">%s さんを非表示にしますか？</string>
     <string name="contact_select_dialog_find_another_contact">別の連絡先を選択</string>
     <string name="contact_select_dialog_find_contact">連絡先を選択</string>
     <string name="contact_selected_find_another_contact">%1$sさん。別の連絡先を選んでください</string>
     <string name="contact_selected_find_another_contact_with_relationship">%1$s さん（%2$s）。別の連絡先を選択してください</string>
     <string name="contact_suggestion_message">この個人の連絡先は入力している内容に一致しています。</string>
+    <string name="contact_suggestions_header">連絡先</string>
+    <string name="contact_unhide_body">&lt;b>%1$s&lt;/b> さんは非表示になっています。非表示を解除すると &lt;b>%2$s&lt;/b> さんは最もよく使う連絡先に表示されます。</string>
+    <string name="contact_unhide_cancel">キャンセル</string>
+    <string name="contact_unhide_confirm">再表示</string>
+    <string name="contact_unhide_title">%s さんを再表示しますか？</string>
+    <string name="content_chip_desc">すべての%sを表示します。</string>
     <string name="content_stale_ago">コンテンツは%1$s前に最終更新されています</string>
+    <string name="content_with_parentheses">（%s）</string>
+    <string name="continue_listening_footer_title">完了していないすべてのエピソード</string>
+    <string name="continue_listening_section_title">続きから再生</string>
+    <string name="continue_to_enable_storage_permission">次へ</string>
+    <string name="conversation_group_header">会話</string>
     <string name="copied_to_clipboard">クリップボードにコピーしました</string>
     <string name="corpus_name_images_animated">GIF</string>
     <string name="corpus_name_images_black_and_white">モノクロ</string>
@@ -1218,11 +1287,15 @@
     <string name="date_at_time">%1$s、%2$s</string>
     <string name="date_in_the_past">%1$s&lt;font color=#9E9E9E>は過去の日付です&lt;/font></string>
     <string name="day_picker_description">日グリッド（月別）</string>
+    <string name="deeplink_no_description">説明はありません</string>
+    <string name="deeplink_not_installed">アプリがインストールされていません</string>
     <string name="default_error">エラーが発生しました。しばらくしてからもう一度お試しください。</string>
     <string name="default_image_filename">ダウンロードした画像</string>
     <string name="default_location_name">サンフランシスコ</string>
     <string name="default_scroll_format">%1$d/%2$dページ</string>
+    <string name="delayed">遅延</string>
     <string name="delete">削除</string>
+    <string name="delete_favorites">選択したポッドキャストを削除します</string>
     <string name="delete_order_action_title">領収書の削除</string>
     <string name="delete_order_dialog_message">領収書は削除されますが、注文の変更やキャンセルは行われません。</string>
     <string name="delete_order_dialog_negative_button">キャンセル</string>
@@ -1232,6 +1305,7 @@
     <string name="delete_target_label">削除</string>
     <string name="delete_target_uninstall_label">アンインストール</string>
     <string name="deleted_key">%1$s を削除しました</string>
+    <string name="delivered">配達済み</string>
     <string name="depart">出発</string>
     <string name="departure_station">出発地: %1$s</string>
     <string name="departure_time_and_express_class">%1$s（%2$s）</string>
@@ -1242,6 +1316,7 @@
     <string name="device_id_device_address_clear_dialog_message">"このデバイスから現在地の天気、交通状況、お店やサービスなどについて的確な回答を得るには、正確な位置情報が必要です。正確な所在地の情報がない場合、このデバイスは正しく動作しません。
 基本的な機能を有効にするために、デバイスの IP アドレスといった他の情報からおおよその位置情報を推定することになります。"</string>
     <string name="device_not_linkable">完了</string>
+    <string name="device_photo_group_header">端末上の写真</string>
     <string name="device_response_suppressed">別の端末で応答します</string>
     <string name="device_setup_cancel_dialog_message">この時点で戻るボタンをタップするとセットアップが中断します。セットアップを中断してもよろしいですか？</string>
     <string name="device_setup_cancel_dialog_negative_button">セットアップを続行</string>
@@ -1265,6 +1340,9 @@
     <string name="distance_miles_accessible">Distance: %1$.1fマイル</string>
     <string name="dnd_announcement_alarms">マナーモードがオンになっているので、通知が届いても音は聞こえません。</string>
     <string name="dnd_announcement_priority">マナーモードがオンになっているので、どの通知が届いても音は聞こえません。</string>
+    <string name="docs_group_header">ドキュメント</string>
+    <string name="donate">寄付</string>
+    <string name="donate_button_label">寄付</string>
     <string name="donate_screenshot_summary">画面検索の改善に役立てるためにスクリーンショットを保存して評価することを Google に許可します。Google の担当者には厳格な機密保持規定が課せられます。スクリーンショットには、メール、チャットなどの個人情報が含まれていることがありますが、機密は保持されます。</string>
     <string name="donate_screenshot_title">画面検索の改善にご協力ください</string>
     <string name="done">完了</string>
@@ -1275,8 +1353,17 @@
     <string name="doodle_notifications_setting_summary">新しい Doodle ゲーム、動画、インタラクティブ コンテンツ</string>
     <string name="doodle_notifications_setting_title">Doodle</string>
     <string name="download">ダウンロード（%1$s）</string>
+    <string name="download_again">再ダウンロード</string>
     <string name="download_details">バージョン%1$sをご利用いただけます。ダウンロードサイズ: %2$s</string>
+    <string name="download_episode">エピソードをダウンロード</string>
+    <string name="download_failed">ダウンロードできませんでした</string>
+    <string name="download_not_found">ダウンロードしたファイルは見つかりません</string>
     <string name="download_prompt">ダウンロード</string>
+    <string name="download_setting_message">ダウンロードしたエピソードは 30 日後、または最後まで再生してから 24 時間後に削除されます</string>
+    <string name="downloaded">このポッドキャストのエピソードをダウンロードしました</string>
+    <string name="downloaded_episodes">ダウンロードしたエピソード</string>
+    <string name="downloading">ダウンロードしています...</string>
+    <string name="downloads">ダウンロード</string>
     <string name="draw_with_stylus">タッチペンを使って選択できます</string>
     <string name="dsp_error_notification_content">音声の検出を修正するには、スマートフォンを再起動してください。</string>
     <string name="dsp_error_notification_title">「%1$s」は利用できません</string>
@@ -1291,6 +1378,8 @@
     <string name="e100_reply_command">返信</string>
     <string name="e100_sms_content">メッセージをお伝えします。</string>
     <string name="e100_voice_command_generic_template">音声ボタンを押して、「%1$s」と発声してください。</string>
+    <string name="edit">編集</string>
+    <string name="edit_favorites_title">ポッドキャストの編集</string>
     <string name="edit_in_calendar">カレンダーで編集</string>
     <string name="edit_location">場所の編集</string>
     <string name="edit_place_hint">住所を入力</string>
@@ -1325,7 +1414,12 @@
     <string name="enable_video_preview_autoplay_on_mobile_data">モバイル ネットワークで許可</string>
     <string name="enable_web_history_toast">ウェブ履歴は有効です</string>
     <string name="endByDate">、%sまで</string>
+    <string name="end_of_recents">最近の検索の最後</string>
     <string name="entity_suggestion_message">この検索は入力している内容に関連しています。</string>
+    <string name="entry_desc">エントリ: %1$d/%2$d。</string>
+    <string name="episode_completed">完了</string>
+    <string name="episode_subtitle_format">%1$s ⸱ %2$s</string>
+    <string name="error">エラー</string>
     <string name="error_adding_location_snackbar_text">場所の追加中にエラーが発生しました</string>
     <string name="error_authenticating_user">ログインエラー</string>
     <string name="error_captive_portal">接続を確認してから、もう一度お試しください。</string>
@@ -1339,6 +1433,7 @@
     <string name="error_internal">エラーが発生しました</string>
     <string name="error_learn_more">%1$s &lt;a href=%2$s>詳細&lt;/a></string>
     <string name="error_loading_content">ページを読み込めません。</string>
+    <string name="error_message">検索に失敗しました。しばらくしてからもう一度お試しください。</string>
     <string name="error_network_time">時計が同期していない可能性があります。そのため、Google に安全に接続できません。マイフィードが表示されるように、日付と時刻を更新してください。</string>
     <string name="error_no_connection_text">"ネットワークを利用できません
 接続を確認してもう一度お試しください"</string>
@@ -1357,6 +1452,7 @@
     <string name="estimated_delivery_date">到着予定: %1$s</string>
     <string name="estimated_delivery_title">到着予定</string>
     <string name="event_end_time">終了時刻: %1$s</string>
+    <string name="event_group_header">イベント</string>
     <string name="event_start_time">%1$sに開始</string>
     <string name="event_summary_with_current_timestamp">%1$sが始まります。</string>
     <string name="event_summary_with_future_timestamp">%1$sは%2$sです</string>
@@ -1376,6 +1472,8 @@
     <string name="expand_rain_drop_non_messaging">今後 30 分間、%1$s さんからの通知を確認しない設定なので、次のような通知音だけ聞こえます。</string>
     <string name="expand_time_to_leave">この経路のオプションを表示</string>
     <string name="expanding_time_to_leave_announcement">出発時刻の詳細を表示します。</string>
+    <string name="expect_delivery_day">%s</string>
+    <string name="explicit_content_label">このポッドキャストには不適切なコンテンツが含まれています</string>
     <string name="explore_back_button_content_description">戻る</string>
     <string name="explore_bottombar_expand_button_desc">展開</string>
     <string name="explore_bottombar_header_title">他の人はこちらもチェック</string>
@@ -1386,6 +1484,16 @@
     <string name="explore_review_submit">送信</string>
     <string name="explore_review_title">投稿した口コミ</string>
     <string name="explore_review_view_pager_indicator_dot_description">%1$d/%2$d ページ</string>
+    <string name="eyes_camera_switch_button_description">カメラの向きの切り替え</string>
+    <string name="eyes_donate_data_info_button_description">データ提供の詳細を確認</string>
+    <string name="eyes_donate_data_notification_learn_more">詳細</string>
+    <string name="eyes_donate_data_notification_text">ご提供いただいた画像は Google サービスの改善に役立てられます。</string>
+    <string name="eyes_donate_data_optin_dogfood_label">dogfood</string>
+    <string name="eyes_donate_data_optin_message">Google サービスを改善する目的で、アシスタントでレンズを使用して撮影した画像を他のユーザーが確認できるようにします。</string>
+    <string name="eyes_donate_data_optin_no_thanks">提供しない</string>
+    <string name="eyes_donate_data_optin_ok">OK</string>
+    <string name="eyes_donate_data_optin_title">レンズの画像の共有</string>
+    <string name="eyes_flash_button_description">フラッシュの切り替え</string>
     <string name="eyes_import_to_keep_suggestion">Keep にインポート</string>
     <string name="eyes_improve_lens_suggestion">Google レンズの機能向上にご協力ください</string>
     <string name="eyes_initial_prompt">気になるものをタップしてください</string>
@@ -1402,6 +1510,9 @@
     <string name="eyes_onboarding_camera_permission_denied_settings_button">設定</string>
     <string name="eyes_onboarding_camera_permission_denied_title">レンズエラー</string>
     <string name="eyes_onboarding_message">Google レンズが今見えているものを継続的に分析し、情報をすばやく表示します</string>
+    <string name="eyes_onboarding_title_places">レンズで場所を検索</string>
+    <string name="eyes_onboarding_title_products">レンズで商品を検索</string>
+    <string name="eyes_onboarding_title_text">レンズでテキストをスキャン</string>
     <string name="eyes_remember_this_suggestion">この検索結果を保存</string>
     <string name="eyes_request_timed_out_message">エラーが発生しました</string>
     <string name="eyes_share_suggestion">共有</string>
@@ -1420,12 +1531,16 @@
     <string name="failed">画像を読み込めませんでした</string>
     <string name="failed_to_open_webview">ページを開けませんでした</string>
     <string name="failure_to_load_cards">カード読み込みエラー</string>
+    <string name="fast_forward">早送り</string>
+    <string name="favorite_images_tag_title">お気に入りの画像</string>
+    <string name="favorite_pages_tag_title">お気に入りのページ</string>
     <string name="feed_datasaver_details">データセーバーがオンの場合、マイフィードに最新のコンテンツは表示されません。</string>
     <string name="feedback">ご意見・ご要望</string>
     <string name="feedback_composed_legalese_text">法的理由によりコンテンツの変更をリクエストするには、%1$sをご覧ください。&lt;br />お使いのシステムの情報が Google に送信されます。%2$sと%3$sをご確認ください。</string>
     <string name="feedback_edittext_hint">フィードバック</string>
     <string name="feedback_legal_help_text">法的な問題に関するヘルプページ</string>
     <string name="feedback_legal_help_url">https://support.google.com/legal/answer/3110420</string>
+    <string name="feedback_link">フィードバック</string>
     <string name="feedback_no_text_entered">報告する前に、フィードバックを入力してください。</string>
     <string name="feedback_privacy_text">プライバシー ポリシー</string>
     <string name="feedback_privacy_url">http://www.google.com/intl/%1$s/policies/privacy/</string>
@@ -1515,6 +1630,7 @@ Google アシスタントのボタンを"<b>押したまま</b>話しかけ、�
     <string name="flight_estimated_arrival_label">推定到着時刻</string>
     <string name="flight_estimated_departure_label">推定出発時刻</string>
     <string name="flight_gate">ゲート</string>
+    <string name="flight_group_header">フライト</string>
     <string name="flight_modify">予約を変更</string>
     <string name="flight_number">フライト区間: %1$s/%2$s</string>
     <string name="flight_reservation">フライトの予約</string>
@@ -1549,10 +1665,14 @@ Google アシスタントのボタンを"<b>押したまま</b>話しかけ、�
     <string name="folder_renamed">フォルダの名前を「%1$s」に変更しました</string>
     <string name="folder_tap_to_close">タップしてフォルダを閉じます</string>
     <string name="folder_tap_to_rename">タップして名前の変更を保存します</string>
+    <string name="forbid_download_removal">再生中のエピソードは削除できません</string>
     <string name="foreground_notification_text">ヘッドフォンの Google アシスタントがバックグラウンドで実行されています</string>
     <string name="foreground_notification_title">Google アシスタント ヘッドフォン</string>
     <string name="fourth_quarter">第4クォーター</string>
     <string name="fourth_quarter_abbrev">第4クォーター</string>
+    <string name="full_screen_error">"ポッドキャスト プレーヤーを読み込めません。
+ポッドキャストをもう一度検索してみてください。"</string>
+    <string name="full_screen_error_button">戻る</string>
     <string name="full_time">試合終了</string>
     <string name="full_voice_interaction_service_label">Google の拡張サービス</string>
     <string name="gadget_error_text">ウィジェットを表示できません</string>
@@ -1560,13 +1680,13 @@ Google アシスタントのボタンを"<b>押したまま</b>話しかけ、�
     <string name="gcm_fallback_notification_channel_label">その他</string>
     <string name="gdi_add_button">追加</string>
     <string name="gdi_add_phone_number">電話番号の追加</string>
-    <string name="gdi_add_phone_number_consent_text">"テキスト メッセージの送信、ログイン、Google アシスタントなどの Google サービスで使用する電話番号を追加してください。 "</string>
+    <string name="gdi_add_phone_number_consent_text">テキスト メッセージの送信、ログイン、Google アシスタントなどの Google サービスで使用する電話番号を追加してください。</string>
     <string name="gdi_add_phone_number_disclaimer">Google では、これがあなたの電話番号であることを確認するため 1 回限りのテキスト メッセージを送信します。通常のデータ通信料がかります。</string>
     <string name="gdi_add_phone_number_error">電話番号を追加してください</string>
     <string name="gdi_add_phone_number_heading">%1$s でアカウントを作成するには電話番号を追加してください</string>
     <string name="gdi_add_your_phone">電話番号の追加</string>
     <string name="gdi_allow">許可</string>
-    <string name="gdi_and_spaced">" と "</string>
+    <string name="gdi_and_spaced">と</string>
     <string name="gdi_app_terms">アプリの利用規約</string>
     <string name="gdi_back">戻る</string>
     <string name="gdi_bbb_already_have_account">%1$s のアカウントをすでに持っている</string>
@@ -1582,7 +1702,7 @@ Google アシスタントのボタンを"<b>押したまま</b>話しかけ、�
     <string name="gdi_bbb_trouble_completing_request">リクエストの処理中にエラーが発生しました。</string>
     <string name="gdi_bbb_try_again_later">しばらくしてからもう一度お試しください。</string>
     <string name="gdi_bbb_verification_error">確認コードが間違っています</string>
-    <string name="gdi_bbb_verification_message">"電話番号を確認するためのコードが Google から届きます。 "</string>
+    <string name="gdi_bbb_verification_message">電話番号を確認するためのコードが Google から届きます。</string>
     <string name="gdi_cancel">キャンセル</string>
     <string name="gdi_choose_account_title">続行するには、お使いの Google アカウントに %1$s をリンクしてください</string>
     <string name="gdi_close">閉じる</string>
@@ -1598,8 +1718,8 @@ Google アシスタントのボタンを"<b>押したまま</b>話しかけ、�
     <string name="gdi_enter_code_subheading">"
 %1$s に確認コードを送信しました"</string>
     <string name="gdi_enter_the_code">コードを入力</string>
-    <string name="gdi_fine_print_middle">" に同意したことになります。また、%1$s のアカウント情報に Google がアクセスする可能性があることを了承したことにもなります。"</string>
-    <string name="gdi_fine_print_preamble">"続行するには、%1$s の "</string>
+    <string name="gdi_fine_print_middle">に同意したことになります。また、%1$s のアカウント情報に Google がアクセスする可能性があることを了承したことにもなります。</string>
+    <string name="gdi_fine_print_preamble">続行するには、%1$s の</string>
     <string name="gdi_finish">完了</string>
     <string name="gdi_invalid_number_error">番号が無効です</string>
     <string name="gdi_learn_more_link">詳細</string>
@@ -1631,11 +1751,14 @@ Google アシスタントのボタンを"<b>押したまま</b>話しかけ、�
     <string name="gel_usage_stats_summary">Google Now ランチャーとのやり取りに関する Google 統計情報を送信</string>
     <string name="gel_usage_stats_title">Googleの機能向上にご協力ください</string>
     <string name="generic_device_name">デバイス</string>
+    <string name="generic_error_message">エラーが発生しました</string>
     <string name="generic_error_snackbar_message">エラーが発生しました。もう一度お試しください。</string>
     <string name="generic_event_summary_with_current_timestamp">次の予定が始まります。</string>
     <string name="generic_event_summary_with_future_timestamp">予定は%1$sに始まります</string>
     <string name="generic_event_summary_with_past_timestamp">%1$sに予定が始まっています</string>
     <string name="get_directions">経路を検索</string>
+    <string name="gmail_update_required">このスマートフォンの GMail のバージョンは対応していません。最新のバージョンに更新してください。</string>
+    <string name="gmscore_update_required">このスマートフォンの Google Play 開発者サービスのバージョンはサポートされていません。最新のバージョンに更新してください。</string>
     <string name="go">GO</string>
     <string name="go_to_settings">設定に移動</string>
     <string name="google_account_history">Googleアクティビティ管理</string>
@@ -1650,8 +1773,6 @@ Google アシスタントのボタンを"<b>押したまま</b>話しかけ、�
     <string name="google_home_device_change_language_dialog_message">お使いの Google Home デバイスには同じ言語が適用されるため、すべてのデバイスの言語が%1$sに変更されます。</string>
     <string name="google_home_device_change_language_dialog_title">すべての Google Home デバイスの言語を変更しますか？</string>
     <string name="google_home_device_change_language_dialog_yes">はい</string>
-    <string name="google_home_device_youtube_restricted_mode_summary">不適切なコンテンツが含まれる可能性のある曲や動画を非表示にします</string>
-    <string name="google_home_device_youtube_restricted_mode_title">YouTube 制限付きモード</string>
     <string name="google_home_hotword_enrollment_bottom_summary_text">自宅内の他のユーザーを招待して Voice Match を設定してもらいます</string>
     <string name="google_location_service_required_text">位置情報に基づくカード（地域の天気情報や通勤経路の交通情報など）を表示するには、Googleの位置情報サービスをONにしてください</string>
     <string name="google_play_services">Google Play開発者サービス</string>
@@ -1668,7 +1789,11 @@ Google アシスタントのボタンを"<b>押したまま</b>話しかけ、�
     <string name="google_play_services_update_required">引き続きマイフィードを使用するには、Google Play 開発者サービスを更新する必要があります</string>
     <string name="google_plus_profile_contact_label">Google+プロフィール</string>
     <string name="google_search_disabled_toast">Google検索を使用する権限がありません。</string>
+    <string name="goto_system_settings">設定</string>
+    <string name="group_desc">グループ: %1$d/%2$d。</string>
     <string name="gsa_home">ホーム</string>
+    <string name="gws_fetch_failed">サーバーに接続できませんでした。</string>
+    <string name="gws_fetch_unauthenticated">その他のコンテンツを表示するにはログインしてください。</string>
     <string name="hands_free_unlock_device_bluetooth">安全なときに通知をタップする必要があります。これにより、ロックされている状態のスマートフォンでBluetoothデバイスを使用できるようになります。</string>
     <string name="hands_free_unlock_device_wired_headsets">安全なときに通知をタップする必要があります。これによりロックされている状態のスマートフォンでヘッドセットを使用できるようになります。</string>
     <string name="hangout_keep_track_justification">最近のハングアウトの会話でこのイベントを話題にしています</string>
@@ -1697,9 +1822,22 @@ Google アシスタントのボタンを"<b>押したまま</b>話しかけ、�
     <string name="hide_account_list">アカウントを非表示にする</string>
     <string name="hide_examples_description">例を非表示</string>
     <string name="history_action_card_title_default">操作を実行しました</string>
+    <string name="history_carousel_background_text">他の端末での最近のウェブ検索アクティビティ</string>
     <string name="hits_header">H</string>
     <string name="hits_header_full_length">ヒット</string>
     <string name="home_address_icon_label">自宅の住所</string>
+    <string name="home_onboarding_personal_results_enabled_explanation">"アカウントに基づく情報をオンにしましたが、Voice Match をオンにしていません。そのため、アシスタントでは情報を提供する前に声の識別が行われません。
+
+この端末のセットアップを終了した後、アシスタントの設定で Voice Match をオンにすることをおすすめします。"</string>
+    <string name="home_onboarding_personal_results_enabled_positive_button">閉じる</string>
+    <string name="home_onboarding_personal_results_enabled_title">アカウントに基づく情報の保護の強化</string>
+    <string name="home_personal_results_action_button">オンにする</string>
+    <string name="home_personal_results_cancel_button">オンにしない</string>
+    <string name="home_personal_results_explanation">アカウントに基づく情報をオンにすると、アシスタントがこの端末のカレンダー、連絡先、リマインダーなどにアクセスできるようになります。<a href="https://support.google.com/assistant/?p=personal_results">詳細</a>"
+
+この端末を使用する誰もがあなたのアカウントに基づく情報にアクセスできるのでご注意ください。アカウントに基づく情報はアシスタントの設定でオフにできます。"</string>
+    <string name="home_personal_results_title">アカウントに基づく情報の取得</string>
+    <string name="homebase_link_tool_tip_message">定期購入を確認する</string>
     <string name="homescreen_settings_action_turn_off">OFFにする</string>
     <string name="homescreen_settings_display_feed">Google フィードを表示</string>
     <string name="homescreen_settings_header_category">ホーム画面</string>
@@ -1709,6 +1847,7 @@ Google アシスタントのボタンを"<b>押したまま</b>話しかけ、�
     <string name="hotseat_out_of_space">お気に入りトレイに空きスペースがありません</string>
     <string name="hotword_disabled">「%1$s」は OFF になっています</string>
     <string name="hotword_disabled_motorola_aov">別の機能で、「%1$s」ではなくマイクが使用されています。「%1$s」を再度 ON にするには Moto Voice を OFF にしてください。</string>
+    <string name="hotword_enrollment_button_more">詳細</string>
     <string name="hotword_enrollment_delete_voice_model">音声モデルを削除</string>
     <string name="hotword_enrollment_enroll_again">もう一度「%1$s」と発声してください</string>
     <string name="hotword_enrollment_enroll_again_talkback">ありがとうございます。もう一度お話しください。</string>
@@ -1730,7 +1869,6 @@ Google アシスタントのボタンを"<b>押したまま</b>話しかけ、�
     <string name="hotword_enrollment_enroll_listening_talkback_assistant_device">「%1$s」で始まるフレーズを言ってください</string>
     <string name="hotword_enrollment_enroll_listening_talkback_assistant_device_again">もう一度お話しください</string>
     <string name="hotword_enrollment_enroll_say_prompt">「%1$s」と 3 回発声してください</string>
-    <string name="hotword_enrollment_enroll_skip_glif">スキップ</string>
     <string name="hotword_enrollment_enroll_start">記録を開始</string>
     <string name="hotword_enrollment_enroll_text">お使いの端末が応答できるよう、あなたの声を Google に学習させることができます。</string>
     <string name="hotword_enrollment_enroll_text_opa_talkback">下の [%1$s] ボタンを有効にしてから「%2$s」と言って、アシスタントにあなたの声を認識させてください。</string>
@@ -1751,6 +1889,9 @@ Google アシスタントのボタンを"<b>押したまま</b>話しかけ、�
 
 以前の音声録音で、このデバイスの音声モデルを作成することができます。作成はすぐに完了します。"</string>
     <string name="hotword_enrollment_google_home_fast_update_unicorn_header_title">アシスタントはお子様の声をすでに認識できています</string>
+    <string name="hotword_enrollment_google_home_fast_update_unicorn_progress_summary">"お子様のアカウントで利用中の Google アシスタントについて、すでに他のデバイスで Voice Match が設定されています。
+
+その際に録音した音声で、このデバイスの音声モデルを作成することができます。作成はすぐに完了します。"</string>
     <string name="hotword_enrollment_google_home_no_enrollment_found_toast_msg">まず、アカウント（%1$s）で起動ワードの登録を行ってください。</string>
     <string name="hotword_enrollment_google_home_no_thanks">いいえ</string>
     <string name="hotword_enrollment_google_home_non_fast_update_header_title">Voice Match を設定中</string>
@@ -1773,7 +1914,7 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="hotword_enrollment_intro_header_title_glif_non_opa">いつでも音声で検索</string>
     <string name="hotword_enrollment_intro_next">次へ</string>
     <string name="hotword_enrollment_intro_summary_always_on">画面がオフでも、お気に入りのアプリを使用しているときでも、「%1$s」と発声して検索できます</string>
-    <string name="hotword_enrollment_intro_summary_glif_non_opa">画面がオフでも、お気に入りのアプリを使用しているときでも、「%1$s」と言って端末に話しかけることができます。</string>
+    <string name="hotword_enrollment_intro_summary_glif_non_opa">画面がオフでも、お気に入りのアプリを使用しているときでも、いつでも「%1$s」と言って端末に話しかけることができます。&lt;br/>&lt;br/>この端末であなた固有の音声モデルを作成すると、Google 音声検索があなたと他のユーザーを声で識別できるようになります。&lt;br/>&lt;br/>&lt;b>注:&lt;/b> 声が似ている人物や録音されたあなたの声によっても、音声検索にアクセスされるおそれがあります。権限は、後で Google アプリでオフにすることで削除できます。</string>
     <string name="hotword_enrollment_intro_summary_screen_on">端末がロックされていても、お気に入りのアプリを使用しているときでも、「%1$s」と発声して検索できます</string>
     <string name="hotword_enrollment_local_escalation_google_password_incorrect">パスワードが正しくありません。</string>
     <string name="hotword_enrollment_local_escalation_learn_more_link">https://support.google.com/families/answer/7521263</string>
@@ -1792,11 +1933,20 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="hotword_enrollment_optin_udc_summary_item2">この音声は、検索結果を手間なくすばやくユーザーに提供できるよう、ユーザーの声を認識し、音声認識機能を改善するために使用されます。</string>
     <string name="hotword_enrollment_optin_udc_summary_item3">この設定の変更と非公開データの管理は %1$s でいつでも行えます。音声アクティビティを有効にすると、ログイン状態のどの端末からもこのようなデータが保存されることがありますのでご了承ください。</string>
     <string name="hotword_enrollment_optin_udc_title">音声アクティビティの保存</string>
+    <string name="hotword_enrollment_parent_intro_summary">{GENDER,select, male{Google アシスタントを使って、{PERSON} さんはゲームをしたりカレンダーで予定を確認したりできます。子ども向けのコンテンツもありますが、ほとんどは一般向けです。&lt;a href=\"{LINK}\">詳細&lt;/a>&lt;br>&lt;br>Voice Match はこのデバイス上で固有の音声モデルを作成して、アシスタントが {PERSON} さんと他のユーザーを声で識別できるようにします。&lt;br>&lt;br>注: よく似た声や録音した音声でも、{PERSON} さんのアカウントに基づく情報にアクセスできるおそれがあります。Voice Match の権限は、後でアシスタントの設定やファミリー リンクでオフにすることで削除できます。}female{Google アシスタントを使って、{PERSON} さんはゲームをしたりカレンダーで予定を確認したりできます。子ども向けのコンテンツもありますが、ほとんどは一般向けです。&lt;a href=\"{LINK}\">詳細&lt;/a>&lt;br>&lt;br>Voice Match はこのデバイス上で固有の音声モデルを作成して、アシスタントが {PERSON} さんと他のユーザーを声で識別できるようにします。&lt;br>&lt;br>注: よく似た声や録音した音声でも、{PERSON} さんのアカウントに基づく情報にアクセスできるおそれがあります。Voice Match の権限は、後でアシスタントの設定やファミリー リンクでオフにすることで削除できます。}other{Google アシスタントを使って、{PERSON} さんはゲームをしたりカレンダーで予定を確認したりできます。子ども向けのコンテンツもありますが、ほとんどは一般向けです。&lt;a href=\"{LINK}\">詳細&lt;/a>&lt;br>&lt;br>Voice Match はこのデバイス上で固有の音声モデルを作成して、アシスタントが {PERSON} さんと他のユーザーを声で識別できるようにします。&lt;br>&lt;br>注: よく似た声や録音した音声でも、{PERSON} さんのアカウントに基づく情報にアクセスできるおそれがあります。Voice Match の権限は、後でアシスタントの設定やファミリー リンクでオフにすることで削除できます。}}</string>
     <string name="hotword_enrollment_parent_intro_summary_learn_more_link">https://support.google.com/families/answer/7521263</string>
     <string name="hotword_enrollment_parent_intro_title">アシスタントに %1$s さんの声を登録</string>
     <string name="hotword_enrollment_parent_selector_family_fetch_failed">ファミリー構成の取得中にエラーが発生しました。</string>
     <string name="hotword_enrollment_parent_selector_subtitle">Google アシスタント スピーカーを使用するための登録を手伝ってもらう近くの保護者を選択してください</string>
     <string name="hotword_enrollment_parent_selector_title">保護者の許可が必要です</string>
+    <string name="hotword_enrollment_personal_results_action_button">許可</string>
+    <string name="hotword_enrollment_personal_results_cancel_button">スキップ</string>
+    <string name="hotword_enrollment_personal_results_explanation">"Voice Match を設定しました。
+
+アカウントに基づく情報をオンにすると、自分の声でこの端末のカレンダー、連絡先、リマインダーなどにアクセスできます。"<a href="https://support.google.com/assistant/?p=personal_results">詳細</a>"
+
+アカウントに基づく情報はアシスタントの設定でオフにできます。"</string>
+    <string name="hotword_enrollment_personal_results_title">アカウントに基づく情報を声で利用できます</string>
     <string name="hotword_enrollment_pref_category_voice_model">「OK Google」音声モデル</string>
     <string name="hotword_enrollment_retrain_voice_model">音声モデルを再認識</string>
     <string name="hotword_enrollment_retry_enroll">エラーが発生しました。再試行しています。</string>
@@ -1854,7 +2004,6 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="hotword_pref_subtitle_disabled_os_version">OS バージョンがこの機能に対応していません</string>
     <string name="hotword_pref_subtitle_opa_supported_locale">Google アシスタントに話しかけると、必要な操作をしてくれます</string>
     <string name="hotword_pref_subtitle_opa_unsupported_locale">情報の入手、SMS の送信、アラームの設定など音声で操作できます</string>
-    <string name="hotword_pref_summary_always_on">音声に応答します。画面がONでもOFFでも動作します。</string>
     <string name="hotword_pref_summary_always_on_not_default_vis">この機能をONにするには、[設定]>[言語と入力]>[音声入力]に移動し、[Googleの拡張サービス]を選択します。</string>
     <string name="hotword_pref_summary_during_androidauto_navigation">Android Auto で利用可能</string>
     <string name="hotword_pref_summary_during_gmm_and_androidauto_navigation">Google マップと Android Auto で利用可能</string>
@@ -1863,16 +2012,12 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="hotword_pref_summary_homescreen">「%1$s」と言うと、Google アプリや Google Now ランチャーのホーム画面から音声検索を開始できます</string>
     <string name="hotword_pref_summary_lock_personal_results">モバイル端末がロック中でもパーソナル検索結果の表示と操作を許可する</string>
     <string name="hotword_pref_summary_mic_permission">マイクに「%1$s」の検出を許可</string>
-    <string name="hotword_pref_summary_opa">画面がオフでも、お気に入りのアプリを使用しているときでも、「%1$s」と言うと、端末であなたの声が認識されます。</string>
-    <string name="hotword_pref_summary_opa_non_dsp">お気に入りのアプリを使用しているときでも、「%1$s」と言うと端末であなたの声が認識されます</string>
     <string name="hotword_pref_summary_voice_unlock">声が登録した音声モデルと一致したら「%1$s」で端末のロックを解除します</string>
     <string name="hotword_pref_title">「%1$s」の検出</string>
     <string name="hotword_pref_title_always_on">常にON</string>
     <string name="hotword_pref_title_during_gmm_navigation">運転中</string>
     <string name="hotword_pref_title_lock_screen_2_opa">Voice Match でロックを解除</string>
     <string name="hotword_pref_title_locked_personal_results">パーソナル検索結果</string>
-    <string name="hotword_pref_title_opa">任意の場面で「%1$s」と言う</string>
-    <string name="hotword_prefs_voice_everywhere_subtitle">音声に応答します。画面がオンのときに動作します。</string>
     <string name="hotword_prefs_voice_everywhere_subtitle_no_account">この機能を有効にするには Google アカウントでログインしてください</string>
     <string name="hotword_prefs_voice_everywhere_title">任意の画面から起動</string>
     <string name="hotword_setup_wizard_connection_error_message">接続を確認して、もう一度お試しください。</string>
@@ -1903,6 +2048,9 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="hq_selected_tab_unavailable">%1$sは利用できません</string>
     <string name="hq_title">Google アシスタント</string>
     <string name="hq_your_stuff_header">コンテンツ</string>
+    <string name="https_info_close">閉じる</string>
+    <string name="https_info_message">ポッドキャスト サイトへの接続は保護されています。</string>
+    <string name="https_info_title">セキュリティで保護された接続</string>
     <string name="hyper_local_suggestion_message">現在地情報に基づいた検索結果です。</string>
     <string name="i18n_address_line1_accessibility_label">住所1</string>
     <string name="i18n_address_line1_label">町村、番地</string>
@@ -1942,9 +2090,43 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="icing_save_pref_failure">端末内検索の設定が更新されていません。</string>
     <string name="icing_sms_corpus_description">端末上の SMS</string>
     <string name="icing_sms_corpus_label">SMS</string>
+    <string name="image_action_indicator_product_text">商品</string>
+    <string name="image_action_indicator_recipe_text">レシピ</string>
+    <string name="image_action_indicator_video_text">動画</string>
+    <string name="image_card_content_description">%sの画像</string>
     <string name="image_carousel_view_all">すべて表示</string>
     <string name="image_copyright_message">画像は著作権で保護されている場合があります。</string>
+    <string name="image_copyright_message_price_disclaimer">* ウェブサイトで最新の価格と在庫状況をご確認ください。画像は著作権で保護されている場合があります。</string>
     <string name="image_load_fail">画像を読み込めませんでした</string>
+    <string name="image_viewer_image_description">「%1$s」というタイトルの画像</string>
+    <string name="image_viewer_more_options">その他の項目</string>
+    <string name="image_viewer_parentheses">（%s）</string>
+    <string name="image_viewer_product_availability_label">在庫状況</string>
+    <string name="image_viewer_product_brand_label">ブランド</string>
+    <string name="image_viewer_product_in_stock">在庫あり</string>
+    <string name="image_viewer_product_price_label">価格*</string>
+    <string name="image_viewer_product_unavailable">在庫なし</string>
+    <string name="image_viewer_recipe_cook_time_label">調理時間</string>
+    <string name="image_viewer_recipe_ingredients">材料</string>
+    <string name="image_viewer_recipe_yield">人数</string>
+    <string name="image_viewer_related_image">関連画像「%1$s」を開きます</string>
+    <string name="image_viewer_related_images_title">関連画像</string>
+    <string name="image_viewer_related_products_title">関連項目</string>
+    <string name="image_viewer_related_searches_title">関連キーワード</string>
+    <string name="image_viewer_rich_metadata_rating_label">評価</string>
+    <string name="image_viewer_saved">保存済み</string>
+    <string name="image_viewer_saved_description">保存されています。画像を削除してください。</string>
+    <string name="image_viewer_see_more">もっと見る</string>
+    <string name="image_viewer_share">共有</string>
+    <string name="image_viewer_video_comments_label">コメント数</string>
+    <string name="image_viewer_video_likes_label">高評価数</string>
+    <string name="image_viewer_video_upload_date_label">公開日</string>
+    <string name="image_viewer_video_uploaded_by">アップロードしたユーザー:</string>
+    <string name="image_viewer_video_view_count_label">視聴回数</string>
+    <string name="image_viewer_video_watch_label">見る</string>
+    <string name="image_viewer_view_all_related_images_accessibility">すべての関連画像を表示します</string>
+    <string name="image_viewer_view_saved">保存済みの画像を表示</string>
+    <string name="image_viewer_visit_site">表示</string>
     <string name="images_mode_landing_text">画像を検索</string>
     <string name="ime_audio_error">マイクを開けません</string>
     <string name="ime_can_not_be_activated">このコンテキストではGoogle音声入力を有効にできません。</string>
@@ -1975,13 +2157,16 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="immersive_actions_search_error">デバイスがオフラインになったため、続行できません。接続されている状態でやり直す必要があります。</string>
     <string name="immersive_actions_unknown_provider_short">\?</string>
     <string name="immersive_contact_disambiguation_header_label">%1$s…</string>
+    <string name="inactive_state_text">ゲーム情報は最新ではありません。</string>
     <string name="incoming_call">%1$s さんから着信です</string>
     <string name="incoming_call_hangouts">%1$s さんからハングアウトの着信です。%2$s</string>
     <string name="incoming_call_whatsapp">%1$s さんから WhatsApp の着信です。%2$s</string>
+    <string name="indexing_not_ready">表示するコンテンツがまだありません。インターネットに接続し、数分後にもう一度お試しください。</string>
     <string name="inferred_event_created">カレンダーに予定を追加しました</string>
     <string name="inferred_event_error">予定を作成できませんでした</string>
     <string name="inferred_from_gmail">Gmailでのニックネーム: 「%1$s」</string>
     <string name="info_target_label">アプリ情報</string>
+    <string name="installed_app_group_header">アプリ</string>
     <string name="installed_details">バージョン%1$sはインストールされています。ディスク上のサイズ: %2$s</string>
     <string name="installed_language_packs">インストール済</string>
     <string name="intent_api_hint_tap_to_speak">タップして音声入力開始</string>
@@ -2006,13 +2191,29 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="interruptive_summary_non_messaging_3">%1$s から通知です。</string>
     <string name="intro_screen_explanation">ヘッドフォンにGoogleアシスタントを接続しました。知りたいこと、やりたいことをサポートします。なんでも話してみてください。</string>
     <string name="intro_screen_title">いつでもどこでも。あなただけのGoogleアシスタント</string>
+    <string name="ipa_app_filter_content_description">%s での検索結果です。</string>
+    <string name="ipa_app_filter_more_description">%s での検索結果をさらに表示します。</string>
+    <string name="ipa_contact_action_app_description">%2$s で %1$s さんに連絡します。</string>
+    <string name="ipa_contact_group_divider_text">その他の連絡先</string>
     <string name="ipa_error_message">検索に失敗しました。しばらくしてからもう一度お試しください。</string>
+    <string name="ipa_installed_apps_result_content_description">%s を開きます。</string>
+    <string name="ipa_media_result_description">画像を開く</string>
+    <string name="ipa_message_collapse_icon_description">スレッドを折りたたみます。</string>
+    <string name="ipa_message_expand_icon_description">スレッドを展開します。</string>
+    <string name="ipa_message_result_content_description">%2$sで %1$s さんとのスレッドを開きます。</string>
     <string name="ipa_no_results_shown">一致する検索結果はありません。</string>
     <string name="ipa_number_of_results_shown">%d 件の検索結果を表示しています。</string>
     <string name="ipa_one_result_shown">1 件の検索結果を表示しています。</string>
+    <string name="ipa_people_immersive_contact_action_description">%3$s を使用して %2$s さんと%1$sします。</string>
+    <string name="ipa_people_immersive_edit_description">連絡帳アプリで %s さんを編集します。</string>
+    <string name="ipa_people_immersive_navigate_description">%2$sを使用して「%1$s」までナビします。</string>
     <string name="ipa_personal_search_sources">パーソナル</string>
     <string name="ipa_search_result_page_message">「%s」の Google 検索結果です。</string>
     <string name="ipa_searchable_items_category_title">コンテンツの表示</string>
+    <string name="ipa_see_less_about_person_description">%s さんに関する情報を折りたたみます</string>
+    <string name="ipa_see_more_about_person_description">%s さんに関する情報を展開します</string>
+    <string name="ipa_share_dialog_title">共有方法</string>
+    <string name="ipa_standard_result_content_description">%2$sで%1$sを開きます。</string>
     <string name="item_added_to_workspace">アイテムをホーム画面に追加しました</string>
     <string name="item_is_selected">%1$s 個選択済み</string>
     <string name="item_moved">アイテムを移動しました</string>
@@ -2062,6 +2263,7 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="last_transit_to_hotel_is_gone">ホテルへの最終便は%1$s既に出発しました%2$s</string>
     <string name="last_transit_to_hotel_less_than_one_minute">ホテルへの最終便まであと%1$s1分未満%2$s</string>
     <string name="last_transit_to_hotel_narrow_widget_header">ホテルへの最終便:</string>
+    <string name="last_visit_text">前回のアクセス:</string>
     <string name="launcher_name">Google Now ランチャー</string>
     <string name="launcher_shortcut_recent_short">最近</string>
     <string name="launcher_shortcut_search_in_apps_short">パーソナル検索</string>
@@ -2072,18 +2274,36 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="leave_alert_scheduled_header">出発時間になったら通知が表示されます。</string>
     <string name="leave_from">出発</string>
     <string name="legal_documents">法的事項</string>
+    <string name="lens_education_card_barcodes_heading">バーコード</string>
+    <string name="lens_education_card_barcodes_paragraph">バーコードをスキャンして商品の詳細情報を確認できます</string>
+    <string name="lens_education_card_media_heading">書籍とメディア</string>
+    <string name="lens_education_card_media_paragraph">書籍、映画、音楽アルバム、ビデオゲームを表紙で検索できます</string>
+    <string name="lens_education_card_places_heading">場所</string>
+    <string name="lens_education_card_places_paragraph">ランドマーク、観光スポット、有名な建物の詳細を表示できます</string>
+    <string name="lens_education_card_products_heading">商品</string>
+    <string name="lens_education_card_products_paragraph">家具や衣類など、類似の商品を探せます</string>
+    <string name="lens_education_card_text_heading">テキスト</string>
+    <string name="lens_education_card_text_paragraph">電話番号、日付、住所といったテキストをコピーできます</string>
+    <string name="lens_education_card_title">レンズの機能</string>
+    <string name="lens_info_panel_live_camera_title">詳細を確認するには、画面をタップしてください</string>
+    <string name="lens_info_panel_loading_message">結果の読み込み中…</string>
+    <string name="lens_title">Google レンズ</string>
+    <string name="less_contact_apps">連絡先アプリの一部を表示</string>
+    <string name="less_than_one_minute_left">残り 1 分未満</string>
     <string name="libraries_material_featurehighlight_dismiss">閉じる</string>
     <string name="license_activity_title">オープンソースライセンス</string>
     <string name="light_traffic">順調</string>
     <string name="line_two_text_separator">" 、 "</string>
     <string name="link_device_title">%s に接続中</string>
     <string name="link_replacement">. %1$sへのリンクです。</string>
+    <string name="link_to_show_page">番組ページへのリンク</string>
     <string name="listen_for_music">音楽を判別</string>
     <string name="listen_interruptive_instruction4">聞くには、Google アシスタントのボタンを押します。</string>
     <string name="listen_interruptive_instruction4_2">Google アシスタントのボタンを押します。</string>
     <string name="listen_interruptive_instructiont">聞くには、右のイヤフォンをダブルタップします。</string>
     <string name="listen_interruptive_instructiont_2">右のイヤフォンをダブルタップします。</string>
     <string name="listening_for_music_status">音楽を聞き分けています…</string>
+    <string name="loading">読み込んでいます</string>
     <string name="local_results_map_description">%1$sの地図</string>
     <string name="location_access_required_text_klp">位置情報に基づくカード（地域の天気情報や通勤経路の交通情報など）を表示するには、位置情報アクセスをONにしてください</string>
     <string name="location_added_snackbar_text">場所を追加しました</string>
@@ -2097,6 +2317,10 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="lockscreen_mic_promo_notification_title">音声でロック解除</string>
     <string name="long_accessible_way_to_add">ダブルタップ後に押し続けてウィジェットを選択するか、カスタム操作を使用してください。</string>
     <string name="long_press_widget_to_add">ウィジェットを追加するには押し続けます。</string>
+    <string name="longpress_menu_download">画像をダウンロード</string>
+    <string name="longpress_menu_search_by_image">@string/menu_search_by_image</string>
+    <string name="longpress_menu_share">画像を共有</string>
+    <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="magic_flashlight_off">ノックス</string>
     <string name="magic_flashlight_on">Lumos</string>
     <string name="magic_pairing_notification_title_generic">Google アシスタント ヘッドフォン</string>
@@ -2129,22 +2353,34 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="map_content_description">地図</string>
     <string name="map_route_content_description">%1$sへの地図</string>
     <string name="maps_mode_landing_text">地図を検索</string>
+    <string name="mark_as_completed">再生完了としてマーク</string>
     <string name="media_content_image">このカードに表示されているメディアコンテンツに関連する画像</string>
     <string name="medium_traffic">渋滞気味</string>
     <string name="menu_download">ダウンロード</string>
+    <string name="menu_get_help">ヘルプ</string>
     <string name="menu_icon_description">メニュー</string>
     <string name="menu_overlay_customize">カスタマイズ</string>
     <string name="menu_overlay_feedback">フィードバックを送信</string>
     <string name="menu_overlay_reset_to_default_style">デフォルトのスタイルに戻す</string>
     <string name="menu_refresh">更新</string>
+    <string name="menu_search_by_image">画像で検索</string>
     <string name="menu_send_button_content_description">フィードバックを送信するための [送信] ボタン。</string>
+    <string name="menu_send_feedback">フィードバックを送信</string>
     <string name="menu_settings">設定</string>
     <string name="menu_share">共有</string>
     <string name="menu_view_in_browser">ブラウザで表示</string>
+    <string name="menu_view_original_image">元の画像を表示</string>
     <string name="menu_visit_page">ページを表示</string>
     <string name="message_card_feedback">フィードバック</string>
     <string name="message_card_troubleshoot">トラブルシューティング</string>
+    <string name="message_image">画像</string>
     <string name="message_no_sound_search_results_tts">認識できません。</string>
+    <string name="message_no_text">テキストなし</string>
+    <string name="message_sender_text_divider">、</string>
+    <string name="message_sent_by_user_display_name">自分</string>
+    <string name="message_sent_from">差出人: %s</string>
+    <string name="message_sent_to">宛先: %s</string>
+    <string name="message_snippet_font">Roboto</string>
     <string name="message_sound_search_result_tts">「%s」を再生しています</string>
     <string name="message_sound_search_result_with_artist_tts" formatted="false">「%s」の「%s」を再生しています</string>
     <string name="mic_fab_content_description">クリックすると Google アシスタントと会話できます。</string>
@@ -2189,6 +2425,10 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="mismatching_value_postal_code">住所と一致していません</string>
     <string name="mismatching_value_zip_code">住所と一致していません</string>
     <string name="momo_tab_description">[Google] タブ</string>
+    <string name="more">もっと見る</string>
+    <string name="more_actions_title">その他の操作</string>
+    <string name="more_contact_apps">連絡先アプリをさらに表示</string>
+    <string name="more_description">もっと見る</string>
     <string name="more_info_text">統計データ、ニュース、タイムライン</string>
     <string name="more_information">詳細</string>
     <string name="move_to_empty_cell">行%1$s、列%2$sに移動</string>
@@ -2219,6 +2459,7 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="mr_user_route_category_name">端末</string>
     <string name="msg_disabled_by_admin">管理者により無効にされています</string>
     <string name="msg_no_phone_permission">「%1$s」から電話をかけることはできません</string>
+    <string name="multi_chip_desc">%2$s の%1$sを表示します。</string>
     <string name="multilingual_promo_content_description">検索言語を変更できます</string>
     <string name="multilingual_promo_negative_button_text">いいえ</string>
     <string name="multilingual_promo_positive_button_text">言語を変更</string>
@@ -2235,6 +2476,13 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="multiple_transit_lines_limited_service">複数の路線で%1$sダイヤ乱れ%2$s</string>
     <string name="multiple_transit_service_disruptions">複数の公共交通機関で%1$s運行の乱れ%2$s</string>
     <string name="multiple_transit_stations_closed">複数の駅で%1$s営業時間が終了%2$s</string>
+    <string name="music_group_header">音楽</string>
+    <string name="my_activity_card_button_text">マイ アクティビティに移動</string>
+    <string name="my_activity_card_button_text_with_search">マイ アクティビティで「%s」を検索</string>
+    <string name="my_activity_card_header">すべての履歴を表示</string>
+    <string name="my_activity_card_text">"1 週間以上前に検索したページを探したいときは？
+
+マイ アクティビティでは、検索など Google でのすべてのアクティビティを確認、管理できます。"</string>
     <string name="my_flights_query">フライト</string>
     <string name="native_search_connection_error">検索結果を読み込めません</string>
     <string name="nav_suggestion_content_description">%s に移動します。</string>
@@ -2258,7 +2506,11 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="network_error_try_again">再試行</string>
     <string name="network_location_required_text">位置情報に基づくカード（地域の天気情報や通勤経路の交通情報など）を表示するには、Wi-Fi/モバイル接続時に位置情報をONにしてください</string>
     <string name="network_location_required_text_klp">位置情報に基づくカード（地域の天気情報や通勤経路の交通情報など）を表示するには、高精度またはバッテリー節約の位置情報モードを選択してください</string>
+    <string name="never">削除しない</string>
     <string name="nevermind_prompt">無視</string>
+    <string name="new_episode">新規</string>
+    <string name="newest_episodes_footer_title">すべての新着エピソード</string>
+    <string name="newest_episodes_section_title">新着エピソード</string>
     <string name="news_mode_landing_text">ニュースを検索</string>
     <string name="next">次へ</string>
     <string name="nexus_active_edge_settings_dialog_button">Active Edge 設定</string>
@@ -2276,11 +2528,7 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="nexus_device_google_assistant_title">Google アシスタント</string>
     <string name="nexus_device_hands_free_preference_title">その他のハンズフリー設定</string>
     <string name="nexus_device_hotword_category_title">Voice Match でハンズフリー操作</string>
-    <string name="nexus_device_hotword_preference_alwayson_summary">「%1$s」と話しかければ、いつでもアシスタントにアクセスできます</string>
     <string name="nexus_device_hotword_preference_screenon_summary">画面が ON のときに「%1$s」と話しかければ、いつでもアシスタントにアクセスできます</string>
-    <string name="nexus_device_hotword_preference_title">「%1$s」の検出</string>
-    <string name="nexus_device_navigation_popup_message">Google マップや Android Auto などの一部の運転用アプリで「%1$s」の検出を引き続き利用できます。起動ワードの検出は、アプリの [設定] でいつでもオフにできます。%2$s</string>
-    <string name="nexus_device_navigation_popup_settings_link">運転時の設定</string>
     <string name="nexus_device_navigation_popup_title">運転中</string>
     <string name="nexus_device_use_screen_context_summary">ホームボタンを押し続けたときや音声での検索時に画面の内容に関連する情報を表示するよう Google に指示します</string>
     <string name="nexus_device_use_screen_context_title">画面のコンテキストを使用</string>
@@ -2298,6 +2546,8 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="no_cards_greeting_evening">こんにちは</string>
     <string name="no_cards_greeting_morning">おはようございます</string>
     <string name="no_cards_greeting_night">こんばんは</string>
+    <string name="no_chip_desc">すべての結果を表示します。</string>
+    <string name="no_connection">接続されていません</string>
     <string name="no_contact_found">%1$s&lt;font color=#9E9E9E>は見つかりませんでした&lt;/font></string>
     <string name="no_contact_found_pick_another_contact">%1$sさん。連絡先が見つかりません。別の連絡先を選んでください</string>
     <string name="no_departures_within_the_next_hour">次の1時間以内の出発はありません</string>
@@ -2305,23 +2555,33 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="no_device_found_explanation">Wi-Fi がオンになっていることと、アシスタントと %1$s デバイスが同じネットワークに接続されていることを確認してから、もう一度お試しください</string>
     <string name="no_device_found_generic_explanation">Wi-Fi がオンになっていることと、アシスタントとデバイスが同じネットワークに接続されていることを確認してから、もう一度お試しください</string>
     <string name="no_device_found_title">デバイスが見つかりませんでした</string>
+    <string name="no_downloaded_episodes">ダウンロードしたエピソードなし</string>
     <string name="no_email_guests_intent">ゲストにメールを送信するにはGoogleカレンダーアプリが必要です。</string>
     <string name="no_info">-</string>
     <string name="no_installable_language_packs">端末にダウンロードできる言語はありません</string>
     <string name="no_installed_language_packs">言語がインストールされていません</string>
     <string name="no_internet_connection">現在マイフィードにアクセスできません</string>
     <string name="no_internet_connection_hq">Google に接続できません</string>
+    <string name="no_longer_available">現在ご利用いただけません</string>
     <string name="no_match">聞き取れませんでした。もう一度お話しください。</string>
     <string name="no_matches_offline_mode">現在Googleに接続できませんが、マイクを使って発信することはできます。「発信」と言ってから、名前または電話番号を音声入力してください。</string>
     <string name="no_matches_offline_mode_explanation">マイクを使って発信することはできます。「Call」と言ってから、名前または電話番号を音声入力してください。</string>
     <string name="no_matches_offline_mode_title">現在Googleに接続できません。</string>
     <string name="no_matching_results">一致する結果がありません</string>
+    <string name="no_newest_episodes">No new episodes</string>
     <string name="no_notif_permission_fetch">通知を聞くには、スマートフォンで通知へのアクセスをオンにしてください。ホームボタンを長押しした後、ヘッドフォンの設定をタップします。</string>
     <string name="no_notifications_in_queue">現在、新しい通知はありません。</string>
     <string name="no_option_selected_content_description">フィードバックを送信する前に、このアイテムを報告する理由を選択してください。[送信] ボタン。</string>
+    <string name="no_personal_content_ipa">アカウントに基づく情報は見つかりませんでした</string>
+    <string name="no_podcasts_found">ポッドキャストは見つかりませんでした</string>
     <string name="no_query_screen_locked">スマートフォンの画面がロックされているときは対応できません。</string>
+    <string name="no_recently_played_episodes">No recently played episodes</string>
+    <string name="no_results_found">一致する結果は見つかりませんでした</string>
+    <string name="no_results_found_link">その他のアカウントに基づく情報を見る</string>
     <string name="no_results_found_status">近い一致が見つかりませんでした</string>
     <string name="no_results_interest">一致する結果はありません。</string>
+    <string name="no_results_snippet">アカウントに基づく情報に一致する検索結果は見つかりませんでした</string>
+    <string name="no_screenshot_available">スクリーンショットがありません</string>
     <string name="no_speech_tts">音声を検出できませんでした。</string>
     <string name="no_suggestions_shown">おすすめ情報はありません。</string>
     <string name="no_url_handler">URLを開くアプリが見つかりません</string>
@@ -2349,6 +2609,8 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="notification_channel_headset_min">ヘッドフォンのバックグラウンド実行に関する通知</string>
     <string name="notification_set_text">検索結果が準備できると通知が届きます。</string>
     <string name="notification_set_title">通知設定完了</string>
+    <string name="notification_subtext">試合を固定しました</string>
+    <string name="notification_title">%1$s 対 %2$s</string>
     <string name="notifications_enabled_header">通知</string>
     <string name="notifications_ringtone_setting">着信音</string>
     <string name="notifications_vibrate_title">バイブレーション</string>
@@ -2401,6 +2663,7 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="offline_error_card_title_text_no_signal">圏外</string>
     <string name="offline_error_card_title_text_no_sim_card">SIM カードがありません</string>
     <string name="offline_error_card_title_text_sim_card_error">SIM カード エラー</string>
+    <string name="offline_error_title">オフライン</string>
     <string name="offline_eyesfree_install_language_pack_notification_body">言語パックをアップグレードしてください。</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">オフライン音声を有効にする</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">オフラインで利用しています。オフラインのときに引き続き音声を使用するには、最新の言語パックをインストールする必要があります。画面を使用しても差し支えがないときに、通知をタップしてインストールしてください。</string>
@@ -2421,6 +2684,7 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="offline_options_start_hotword_disabled">マイクをタップし発声してください</string>
     <string name="offline_searchbox_hint">「%%s... %s」</string>
     <string name="offline_voice_actions_error">オフライン音声操作は利用できません。</string>
+    <string name="ok">OK</string>
     <string name="ok_prompt">OK</string>
     <string name="omniconsent_action_button_scroll">詳細</string>
     <string name="omniconsent_confirm_partial_experience_action_button_text">次へ</string>
@@ -2459,9 +2723,12 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="opa_assistant_logo_content_description">音声検索</string>
     <string name="opa_consent_check_error_button">閉じる</string>
     <string name="opa_consent_check_error_button_notavailable">アカウントを切り替え</string>
-    <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">Google アシスタントの機能はウェブ検索、天気情報、ゲーム、ジョーク、地域情報などに制限されます。</string>
+    <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">アシスタントのサポートは、ウェブ検索、ジョーク、地域情報などに制限されます。</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_text">権限を付与しない</string>
-    <string name="opa_consent_check_error_confirmreject_personalize_radio_content">予定、リマインダー、通勤経路、フライト、注文などの情報を知らせてもらうには、ウェブとアプリのアクティビティ、端末情報、音声アクティビティなどの機能を利用する権限をアシスタントに付与する必要があります。</string>
+    <string name="opa_consent_check_error_confirmreject_personalize_radio_button_show_less">折りたたむ</string>
+    <string name="opa_consent_check_error_confirmreject_personalize_radio_button_show_more">もっと見る</string>
+    <string name="opa_consent_check_error_confirmreject_personalize_radio_content">カレンダー、リマンダー、フライトなどの情報を知らせてもらうには、ウェブとアプリのアクティビティ、端末情報、音声アクティビティへのアクセスをアシスタントに許可する必要があります。</string>
+    <string name="opa_consent_check_error_confirmreject_personalize_radio_content_expanded">注: この設定で管理するデータは、アカウントに基づく情報や便利な広告をお届けできるよう、お客様がログインした Google サービスに保存され、使用されることがあります。データの確認、削除、設定の変更は、いつでも account.google.com で行えます。</string>
     <string name="opa_consent_check_error_confirmreject_personalize_radio_text">許可する</string>
     <string name="opa_consent_check_error_learn_more_link_target_notavailable">https://support.google.com/assistant/?p=gsuite</string>
     <string name="opa_consent_check_error_message">アシスタントによるアクティビティ管理の確認中にエラーが発生しました。しばらくしてからもう一度お試しください。</string>
@@ -2470,7 +2737,7 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="opa_consent_check_error_message_notavailable">Google アシスタントを利用するにはアクティビティ管理が必要ですが、このアカウントのアクティビティ管理は端末の管理者によって制限されています。管理者に問い合わせるか、別のアカウントに切り替えてからもう一度お試しください。</string>
     <string name="opa_consent_check_error_title">エラー</string>
     <string name="opa_consent_check_error_title_autherror">アカウント認証エラー</string>
-    <string name="opa_consent_check_error_title_confirmreject">許可すると、より便利に使えるようになります</string>
+    <string name="opa_consent_check_error_title_confirmreject">この設定により、アシスタントの利便性が向上します</string>
     <string name="opa_consent_check_error_title_notavailable">このアカウントでは Google アシスタントはご利用いただけません</string>
     <string name="opa_consent_error_timeout_message">ネットワーク エラーが発生しました。接続を確認してから、もう一度お試しください。</string>
     <string name="opa_contextual_cards_found_message">この画面に関連する情報です。</string>
@@ -2490,9 +2757,11 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="opa_disabled_no_button">キャンセル</string>
     <string name="opa_disabled_title">アシスタントの有効化</string>
     <string name="opa_dismiss_message">ドラッグすると非表示になります</string>
+    <string name="opa_email_optin_screen_add_shortcut_explanation">アシスタントに簡単にアクセスできるようにします</string>
     <string name="opa_email_optin_screen_confirm">完了</string>
     <string name="opa_email_optin_screen_explanation">最新の機能やアシスタントの新機能に関する情報をメールでお届けします</string>
     <string name="opa_email_optin_screen_next">次へ</string>
+    <string name="opa_email_optin_screen_sub_toggle_explanation">アシスタントをホーム画面に追加します</string>
     <string name="opa_email_optin_screen_title">Google アシスタントを最大限に活用しよう</string>
     <string name="opa_email_optin_screen_toggle_explanation">最新情報をメールで受け取る</string>
     <string name="opa_email_optin_screen_unsubscribe">アプリでメール設定を管理することで、いつでも登録を解除できます。Google Inc., 1600 Amphitheatre Parkway, Mountain View CA 94043 www.google.com</string>
@@ -2530,8 +2799,10 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="opa_eyes_free_udc_opt_in_notification_title">Google アシスタントに権限を付与して利便性を向上しましょう</string>
     <string name="opa_eyes_warm_welcome_chip_text">タップして続行</string>
     <string name="opa_first_screen_hotword_transition_cancel_button_text">後で行う</string>
+    <string name="opa_first_screen_hotword_transition_confirm_agree_button_text">使用する</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text">使ってみる</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text_sentence_case">使ってみる</string>
+    <string name="opa_first_screen_hotword_transition_no_thanks_button_text">使用しない</string>
     <string name="opa_first_screen_hotword_transition_screen_context_pickup_confirm_button_text">完了</string>
     <string name="opa_first_screen_hotword_transition_screen_context_pickup_confirm_button_text_sentence_case">完了</string>
     <string name="opa_first_screen_hotword_transition_screen_context_pickup_explanation">画面の表示内容に基づいて、関連する検索候補や特定の操作をアシスタントに表示させることができます。この動作はアシスタントの設定で変更できます。</string>
@@ -2540,11 +2811,15 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="opa_first_screen_hotword_transition_skip_button_text">スキップ</string>
     <string name="opa_first_screen_hotword_transition_summary">画面がオフでも、お気に入りのアプリを使用しているときでも、いつでも「%1$s」と言ってアシスタントに話しかけることができます。</string>
     <string name="opa_first_screen_hotword_transition_summary_no_dsp">画面がオンのときは、いつでも「%1$s」と言ってアシスタントに話しかけることができます。</string>
+    <string name="opa_first_screen_hotword_transition_summary_short">Voice Match は、画面がオフの場合でも、あなたの声を使ってアシスタントに直接アクセスします。</string>
     <string name="opa_first_screen_hotword_transition_summary_short_no_dsp">Voice Match は、あなたの声を使ってアシスタントに直接アクセスします。</string>
     <string name="opa_first_screen_hotword_transition_title">Voice Match でアシスタントにアクセス</string>
     <string name="opa_first_screen_tgoogle_summary">「%1$s」と話しかけると、直接アシスタントを利用できます</string>
     <string name="opa_first_screen_tgoogle_title">アシスタントに「%1$s」を登録する</string>
     <string name="opa_fix_user_recoverable_error">修正</string>
+    <string name="opa_gdpr_footer">"この端末にあなたの声の専用モデルが作成され、アシスタントがあなたと他のユーザーを声で識別できるようになります。
+
+"<b>注:</b> よく似た声や録音した音声でも、アシスタントにアクセスできるおそれがあります。Voice Match の権限は、後でアシスタントの設定でオフにすることで削除できます。</string>
     <string name="opa_gearhead_opt_in_notification_body">運転時に、Google アシスタントに話しかけることができるようになります</string>
     <string name="opa_gearhead_opt_in_notification_title">運転時の Google アシスタントの使用</string>
     <string name="opa_gearhead_opt_in_speech">安全なときに通知をタップする必要があります。これにより、運転しながら Google アシスタントを使用できるようになります。</string>
@@ -2586,7 +2861,7 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="opa_marketplace_disclosure_google_partners_description">Google のパートナーとは、サービスの提供において協力関係にある企業を指します。Google アシスタントは、レストランの検索から、ゴミ出し日のお知らせまで、Google のパートナーと協力し、あなたの生活をサポートします。<a href="https://support.google.com/assistant/?p=google_partners">詳細</a></string>
     <string name="opa_marketplace_disclosure_google_partners_short_description">Google のパートナーとは、サービスの提供において協力関係にある企業を指します。</string>
     <string name="opa_marketplace_disclosure_google_partners_title">Google パートナー</string>
-    <string name="opa_marketplace_disclosure_service_additional_text">つまり、会話の際に設定などの情報がサービスに保存されます。こうした会話は、Google アカウントの設定にある [&lt;a href=https://myactivity.google.com/>マイ アクティビティ&lt;/a>] で確認、管理できます。また、Google アシスタントの設定で各サービスのコードをリセットすることもできます。</string>
+    <string name="opa_marketplace_disclosure_service_additional_text">これにより、会話の際に設定などの情報がサービスに保存されます。サービスに送信されたデータの確認、管理、リセットは、このアプリの [使い方・ヒント] の各サービスのページで行えます。&lt;a href=https://support.google.com/assistant/?p=reset_id>詳細&lt;/a></string>
     <string name="opa_marketplace_disclosure_service_short_description">Google ではユーザーが音声で操作するサービスに一意のコードを送信します。</string>
     <string name="opa_marketplace_disclosure_service_title">サービスとプライバシー</string>
     <string name="opa_marketplace_disclosure_title">アシスタントを最大限に活用しよう</string>
@@ -2595,6 +2870,12 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="opa_music_search_suggestion_chip_title">これ、誰の曲？</string>
     <string name="opa_my_day_query">今日はどんな日</string>
     <string name="opa_notification_channel_group_title">アシスタント</string>
+    <string name="opa_notification_channel_handoff_description">別の端末で操作を完了できるよう配信される通知です</string>
+    <string name="opa_notification_channel_handoff_title">ハンドオフ</string>
+    <string name="opa_notification_channel_misc_description">その他の各種通知です</string>
+    <string name="opa_notification_channel_misc_title">その他</string>
+    <string name="opa_notification_channel_proactive_description">現在地やアクティビティに関連する最新情報です</string>
+    <string name="opa_notification_channel_proactive_title">プロアクティブ</string>
     <string name="opa_notification_channel_recommendations_description">興味や関心に基づく、おすすめの機能や操作</string>
     <string name="opa_notification_channel_recommendations_title">おすすめ</string>
     <string name="opa_notification_channel_third_party_description">アシスタントで使用している Google 以外のサービスからのお知らせ</string>
@@ -2644,7 +2925,6 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="opa_unlock_device_for_response">続行するにはロックを解除してください...</string>
     <string name="opa_upgrade_promo_tooltip_text">ホームボタンを押し続けてください</string>
     <string name="opa_value_proposition_cancel">キャンセル</string>
-    <string name="opa_value_proposition_continue">続行</string>
     <string name="opa_value_proposition_message_1p">知りたいこと、やりたいことをサポートします。なんでも話してみてください。</string>
     <string name="opa_value_proposition_message_title">いつでもどこでも。あなただけの Google アシスタント</string>
     <string name="opa_value_proposition_next">次へ</string>
@@ -2671,6 +2951,7 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="opa_wuwa_notification_action_stop">停止</string>
     <string name="opa_wuwa_notification_content">%1$s のアラーム</string>
     <string name="opa_wuwa_offline_notification_content">オフラインのためアシスタントはこのルーティンを実行できません。</string>
+    <string name="opa_zero_state_hint_text">スワイプして詳細を確認</string>
     <string name="open_app_template">%sを開く</string>
     <string name="open_in_google_translate">翻訳で開く</string>
     <string name="open_in_inbox">受信トレイで開く</string>
@@ -2716,6 +2997,7 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="or_list_end">%1$s、%2$s</string>
     <string name="or_list_middle">%1$s、%2$s</string>
     <string name="or_list_start">%1$s、%2$s</string>
+    <string name="order_group_header">注文</string>
     <string name="order_history_title">注文</string>
     <string name="order_not_found_snackbar_message">注文が見つかりません。</string>
     <string name="ota_apply_action">更新</string>
@@ -2747,8 +3029,11 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="ota_up_to_date_notif_text">ヘッドフォンの更新が完了しました。ヘッドフォンをお使いいただけます</string>
     <string name="ota_up_to_date_notif_title">%1$sを接続しました</string>
     <string name="other_comment">理由（必須）</string>
+    <string name="other_group_header">その他</string>
     <string name="other_reason_not_fill_in_content_description">フィードバックを送信する前に、このアイテムを報告するその他の理由をご記入ください。[送信] ボタン。</string>
+    <string name="out_for_delivery">配達中</string>
     <string name="out_of_space">このホーム画面に空きスペースがありません。</string>
+    <string name="overflow_menu_desc">その他のオプション</string>
     <string name="overtime">延長</string>
     <string name="package_location">場所</string>
     <string name="package_pickup_location">受け取り場所</string>
@@ -2759,6 +3044,8 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="pairing_notification_button_text">設定を完了してください</string>
     <string name="pairing_notification_text">Googleアシスタントを設定します</string>
     <string name="pairing_notification_title">%1$sを接続しました</string>
+    <string name="past_event_group_header">過去</string>
+    <string name="pause">一時停止</string>
     <string name="pay">支払い</string>
     <string name="pay_site">%1$s でお支払い</string>
     <string name="payments_auth_cancel">キャンセル</string>
@@ -2782,11 +3069,14 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="payments_auth_too_many_fingerprint_retries_should_use_password">試行回数が上限を超えました。代わりにパスワードを入力してください。</string>
     <string name="payments_auth_unknown_fingerprint_error">指紋の使用中にエラーが発生しました。続行するには Google パスワードを入力してください。</string>
     <string name="payments_auth_use_fingerprint_checkbox_hint">今後の承認に指紋を使用する</string>
+    <string name="penalties">ペナルティ</string>
     <string name="pending_searches">保留中の検索</string>
     <string name="permdesc_install_shortcut">ユーザー操作なしでショートカットを追加することをアプリに許可します。</string>
     <string name="permdesc_read_settings">ホームの設定とショートカットの読み取りをアプリに許可します。</string>
     <string name="permdesc_write_settings">ホームの設定とショートカットの変更をアプリに許可します。</string>
     <string name="permission_error">マイクの使用を許可してください</string>
+    <string name="permission_error_l">Google アプリに端末上の連絡先の検索が許可されていません。</string>
+    <string name="permission_error_m">Google アプリに端末上の連絡先の検索が許可されていません。コンタクトと SMS へのアクセス権限を Google アプリに付与してください。</string>
     <string name="permission_required_action_notification_body">このアプリには許可が必要です</string>
     <string name="permission_required_action_notification_title">Google</string>
     <string name="permission_required_continue_button">続行</string>
@@ -2815,6 +3105,7 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="person_select_item_hangouts_app_name">ハングアウト</string>
     <string name="person_select_item_secondary_text_delimiter">"、 "</string>
     <string name="person_select_item_sms_app_name">SMS</string>
+    <string name="personal_info_and_suggestions_learn_more">詳細</string>
     <string name="personal_mode_landing_text">アカウントに基づく情報を検索</string>
     <string name="personal_results_action_button">許可</string>
     <string name="personal_results_cancel_button">スキップ</string>
@@ -2863,6 +3154,7 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="phone_endpoint_type_disambig_timeout_2_eyes_free_tts">聞き取れませんでした。どの番号ですか？%2$s、または「%1$s」と発声してください。</string>
     <string name="phone_endpoint_type_disambig_timeout_last_eyes_free_tts">再度聞き取れませんでした。%3$s。</string>
     <string name="photo_details">写真の詳細</string>
+    <string name="photo_group_header">写真</string>
     <string name="photo_spot_nearby">付近の写真スポット</string>
     <string name="photo_view_count" formatted="false">%d/%d</string>
     <string name="pick_duration_complete">完了</string>
@@ -2873,13 +3165,22 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="pixel_doodle_settings_title">検索ボックスの特殊効果</string>
     <string name="place_autocomplete_clear_button">検索をクリア</string>
     <string name="place_autocomplete_search_hint">検索</string>
+    <string name="place_group_header">場所</string>
     <string name="places_deletion_message">この場所を削除するには、保存済みの私有地から削除する必要があります。[詳細] をクリックすると場所を管理できます。</string>
+    <string name="play">再生</string>
     <string name="play_by_play">プレイごとの説明</string>
     <string name="play_folder_name">Play</string>
     <string name="play_sample">サンプルを再生</string>
+    <string name="play_this_episode">このエピソードを再生</string>
     <string name="play_video">動画を再生</string>
     <string name="play_video_icon">動画を再生。</string>
+    <string name="playback_error_cancel">キャンセル</string>
+    <string name="playback_error_retry">再試行</string>
+    <string name="playback_error_title">リクエストされたエピソードを再生できませんでした</string>
+    <string name="playback_panel_error">再生できません</string>
+    <string name="playback_status_buffering">バッファリングしています...</string>
     <string name="please_select">選択してください</string>
+    <string name="podcasts">ポッドキャスト</string>
     <string name="pomo_tab_description">[その他] タブ</string>
     <string name="popup_new_content">タップして新しい情報をご確認ください</string>
     <string name="predictive_cards">マイフィード</string>
@@ -2905,7 +3206,7 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="prefTitle_language">言語</string>
     <string name="prefTitle_profanityFilter">不適切な語句をブロック</string>
     <string name="prefTitle_ttsMode">音声出力</string>
-    <string name="pref_default_expanded_additional" formatted="false">デフォルトの第一: %s、その他: %s</string>
+    <string name="pref_default_expanded_additional" formatted="false">デフォルトの第一言語: %s、その他: %s</string>
     <string name="pref_default_expanded_no_additional">デフォルト言語: %s</string>
     <string name="pref_default_title_prefix_multiple_language" formatted="false">デフォルト: %s – その他 %d 言語</string>
     <string name="pref_default_title_prefix_no_additional_language">デフォルト: %s – その他の言語はなし</string>
@@ -2927,6 +3228,7 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="preinstalled_details">バージョン%1$sはプリインストールされています。ディスク上のサイズ: %2$s</string>
     <string name="previous_balance">前回の差引残高</string>
     <string name="price_and_percent_variation">%1$s（%2$s）</string>
+    <string name="price_range_separator">、</string>
     <string name="priority_notifications_description">通知の優先度が高い場合は、優先する通知の設定に基づいてお知らせします。</string>
     <string name="priority_notifications_preferences_category">優先する通知</string>
     <string name="problem_occurred_while_loading_cards">カードの読み込み中に問題が発生しました</string>
@@ -2940,6 +3242,7 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="qp_hotel_reservation_number">予約番号</string>
     <string name="qp_movie_watch_trailer">予告編を見る</string>
     <string name="qp_precip">降水確率%1$s</string>
+    <string name="qp_precip_today">今日の降水確率: %1$s</string>
     <string name="qp_restaurant_reservation_date">日付</string>
     <string name="qp_restaurant_reservation_time">時刻</string>
     <string name="qp_soccer_time">%1$d分</string>
@@ -2958,14 +3261,79 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="qp_weather_unit_abbrev_fahrenheit">F</string>
     <string name="qp_wind_speed">風速%1$d%2$s</string>
     <string name="qpf_label">定量的な降水量予報: %s</string>
+    <string name="query_desc">検索クエリ: %s。</string>
+    <string name="query_people_group_header">連絡先</string>
     <string name="query_suggestion_content_description">%sを検索します。</string>
+    <string name="quoted_query">「%1$s」</string>
     <string name="rating_accessible">星の数: Rating: %1$s</string>
     <string name="rating_source_imdb">IMDb</string>
     <string name="reached_max_locations_removal_dialog_title">8 か所まで保存できます。新しい場所を保存するには 1 か所削除してください。</string>
     <string name="reaction_close">リアクション ポップアップを閉じる</string>
     <string name="reaction_text_less">折りたたむ</string>
     <string name="reaction_text_more">もっと見る</string>
+    <string name="recent_docs_group_header">最近使用したドキュメント</string>
+    <string name="recent_group_header">最近のアクティビティ</string>
+    <string name="recent_music_group_header">最近聞いた音楽</string>
+    <string name="recent_myactivity">マイ アクティビティ</string>
+    <string name="recent_onboarding">チュートリアル</string>
+    <string name="recent_screenshot_category">スクリーンショット</string>
+    <string name="recent_screenshot_title_prefix">スクリーンショット:</string>
+    <string name="recent_search_result_url">google.com</string>
+    <string name="recent_settings">設定</string>
+    <string name="recent_srp_category">検索結果</string>
+    <string name="recent_srp_title_prefix">検索結果:</string>
+    <string name="recent_unknown_category">不明</string>
+    <string name="recent_video_group_header">最近見た動画</string>
+    <string name="recent_web_history_group_header">最近表示したウェブページ</string>
+    <string name="recent_webpage_category">ウェブページ</string>
     <string name="recently">最近</string>
+    <string name="recently_app_name">最近</string>
+    <string name="recently_disabled_card_button_text">設定に移動</string>
+    <string name="recently_disabled_card_header">最近の履歴を管理する</string>
+    <string name="recently_disabled_card_text">[設定] で [最近] をオンにすると、閲覧したページが記録され、後で素早く見つけることができます。</string>
+    <string name="recently_entry_interaction_offline">オフラインの間はリクエストしたページを開けません。</string>
+    <string name="recently_feed_entry">マイフィード</string>
+    <string name="recently_onboarding_compare_message">購入前に、検索した候補を並べて比較できます。</string>
+    <string name="recently_onboarding_compare_title">比較</string>
+    <string name="recently_onboarding_find_that_page_message">数日前に検索したレシピ、記事、サイトを確認したい場合、まずここを確認すると時間を節約できます。</string>
+    <string name="recently_onboarding_find_that_page_title">検索したページの確認</string>
+    <string name="recently_onboarding_query">[最近] について</string>
+    <string name="recently_onboarding_recent_message">"Google アプリで最近検索したトピックを再確認できます。
+
+もっと見るには、このページのグループを開いてください。"</string>
+    <string name="recently_onboarding_recent_message_2">"Google アプリで最近検索したトピックを再確認できます。
+
+ピンチ操作でグループを閉じることができます。"</string>
+    <string name="recently_onboarding_recent_title">検索したページの確認</string>
+    <string name="recently_onboarding_search_on_message">"ここには、この端末でアクセスしたページが表示されます。同じ検索のページは同じグループに分類され、最後に検索したページが先頭に表示されます。
+
+検索したページをここで再確認できます。"</string>
+    <string name="recently_onboarding_search_on_title">検索</string>
+    <string name="recently_onboarding_swipe_up_message">"最近のページを閉じるには、上にスワイプします。
+
+この操作を行っても、最近のページが Google アカウントから削除されることはありません。"</string>
+    <string name="recently_onboarding_swipe_up_title">上にスワイプ</string>
+    <string name="recently_removed_item_dialog_message">"この端末からのみ検索履歴を削除しました。Google での履歴はマイ アクティビティで管理できます。
+
+"<a href="http://myactivity.google.com">myactivity.google.com</a></string>
+    <string name="recently_removed_item_dialog_ok">OK</string>
+    <string name="recently_removed_item_dialog_title">最近のページから削除しました</string>
+    <string name="recently_search_history_authenticating_cancel">キャンセル</string>
+    <string name="recently_search_history_authenticating_message">%1$s としてログインしています…</string>
+    <string name="recently_search_history_authenticating_title">ログイン中</string>
+    <string name="recently_sharebear_subtitle">スクリーンショット</string>
+    <string name="recently_simple_onboarding_pinch_message">ヒント: グループの下までスクロールするとグループが閉じます</string>
+    <string name="recently_simple_onboarding_pinch_title">ピンチ操作でグループを閉じる</string>
+    <string name="recently_simple_onboarding_recent_message">もっと見るには、このページグループを開いてください</string>
+    <string name="recently_simple_onboarding_recent_message_2">ヒント: 検索したページがすべて表示されます</string>
+    <string name="recently_simple_onboarding_recent_title">検索したページの確認</string>
+    <string name="recently_simple_onboarding_swipe_up_message">ヒント: この操作で Google アカウントから削除されることはありません</string>
+    <string name="recently_simple_onboarding_swipe_up_title">上にスワイプして削除</string>
+    <string name="recently_timeline_days_ago">%d 日前</string>
+    <string name="recently_timeline_just_now">たった今</string>
+    <string name="recently_timeline_yesterday">昨日</string>
+    <string name="recents_result_group_header">ウェブ</string>
+    <string name="recents_result_separate_group_header">最近の検索</string>
     <string name="recognizer_service_label">Googleの基本認識機能</string>
     <string name="reconnecting_loading_results">"結果を読み込んでいます
 "</string>
@@ -2983,6 +3351,7 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="regular_app_suggestion_message">このアプリは入力している内容に関連しています。</string>
     <string name="regular_query_suggestion_message">このキーワードは入力している内容に関連しています。</string>
     <string name="regular_url_suggestion_message">このウェブページは入力している内容に関連しています。</string>
+    <string name="reject_storage_permission">後で</string>
     <string name="relationship_removal_dialog_message" formatted="false">ニックネーム「%s」は%sさんに割り当てられなくなります</string>
     <string name="relationship_removal_dialog_negative_button_text">キャンセル</string>
     <string name="relationship_removal_dialog_positive_button_text">削除</string>
@@ -3023,15 +3392,23 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="reminders_watch">動画を再生</string>
     <string name="reminders_work">職場</string>
     <string name="remove">削除</string>
+    <string name="remove_all">すべて削除</string>
     <string name="remove_button_text">削除</string>
+    <string name="remove_completed_episodes">最後まで再生したエピソードを削除</string>
+    <string name="remove_downloaded_episode">ダウンロード済みのエピソードを削除</string>
     <string name="remove_from_history_failed">履歴からアイテムを削除できませんでした。</string>
     <string name="remove_pnav_title">このURLを履歴から削除しますか？</string>
     <string name="remove_psuggest_message">このキーワードは以前に検索したことがあります。「&lt;b>%s&lt;/b>」を履歴から削除すると、お使いのすべての端末でアカウントから完全に削除されます</string>
     <string name="remove_psuggest_title">この検索を履歴から削除しますか？</string>
+    <string name="remove_unfinished_episodes">途中まで再生したエピソードを削除</string>
     <string name="remove_url_history_message">この URL は以前にアクセスしたことがあり、入力している内容に関連しています。この URL を履歴から削除すると、お使いのすべての端末でアカウントから完全に削除されます。</string>
     <string name="renter_name">名前</string>
     <string name="report_other_reason">その他</string>
     <string name="report_this">報告する</string>
+    <string name="request_storage_message">エピソードをダウンロードするには、端末のストレージへのアクセスを許可してください</string>
+    <string name="request_storage_permission_dialog_message">エピソードをダウンロードするには、端末のストレージへのアクセスを Google に許可する必要があります</string>
+    <string name="request_storage_permission_dialog_title">ストレージへのアクセスの許可</string>
+    <string name="reservation_group_header">予約</string>
     <string name="reset">リセット</string>
     <string name="reset_now_preferences">マイフィード設定のリセット</string>
     <string name="reset_now_preferences_summary">マイフィード設定をリセットしてもよろしいですか？</string>
@@ -3044,9 +3421,13 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="results_from_ago">%1$s前からの結果</string>
     <string name="retry">再試行</string>
     <string name="retry_button_text">再試行</string>
+    <string name="retry_failed_download">ダウンロードを再試行</string>
+    <string name="returned">返品済み</string>
+    <string name="review_count_text">（%d）</string>
     <string name="review_feedback_menu">スパムまたは不適切な口コミとしてマークを付けるためのオーバーフロー メニュー</string>
     <string name="reviewer_avatar">口コミ投稿者のプロフィール画像</string>
     <string name="reviewer_comment_date">投稿日: %1$s</string>
+    <string name="rewind">巻き戻し</string>
     <string name="room_picker_add_custom_room">部屋を追加</string>
     <string name="room_picker_cancel_button">スキップ</string>
     <string name="room_picker_create_new">新規作成</string>
@@ -3069,11 +3450,23 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="safemode_widget_error">セーフモードではウィジェットは無効です</string>
     <string name="save_action">保存</string>
     <string name="save_button">保存</string>
+    <string name="save_carousel_view_all">すべて表示</string>
+    <string name="save_dialog_cancel">キャンセル</string>
+    <string name="save_dialog_create">作成</string>
     <string name="save_generic_error">エラーが発生しました。もう一度お試しください。</string>
     <string name="save_in_progress">保存しています…</string>
     <string name="save_label">完了</string>
+    <string name="save_loading_lists">リストを読み込んでいます</string>
+    <string name="save_new_list">新しいリスト</string>
+    <string name="save_new_list_hint">リスト名</string>
+    <string name="save_not_signed_in">この機能を利用するにはログインが必要です。</string>
+    <string name="save_save_confirmation">保存しました</string>
     <string name="save_save_network_error">アイテムを保存できませんでした。インターネット接続をご確認のうえ、もう一度お試しください。</string>
+    <string name="save_save_to_list">リストに保存</string>
+    <string name="save_saved_to">保存先:</string>
+    <string name="save_tray_change_list">変更</string>
     <string name="save_unsave_action">保存を解除</string>
+    <string name="save_unsave_confirmation">保存を解除しました</string>
     <string name="save_unsave_network_error">保存したアイテムを削除できませんでした。インターネット接続をご確認のうえ、もう一度お試しください。</string>
     <string name="save_view_collections_action">コレクションを表示</string>
     <string name="save_view_saved_action">保存アイテムを表示</string>
@@ -3099,7 +3492,12 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="screen_assist_share_title">このスクリーンショットの編集または共有</string>
     <string name="screen_assist_sharing_screenshot">スクリーンショットを共有しています</string>
     <string name="screen_assist_translate">翻訳</string>
+    <string name="screen_context_desc">画面の表示内容に関連する、アシスタントからのおすすめ情報を取得できます</string>
+    <string name="screen_context_title">画面の表示内容についての関連情報</string>
     <string name="screen_moved">画面を移動しました</string>
+    <string name="screenshot_srp_desc">「%s」を検索。</string>
+    <string name="screenshot_srp_pending_desc">保留中の検索「%s」</string>
+    <string name="screenshot_web_desc">%s にアクセス。</string>
     <string name="scroll_left">左にスクロール</string>
     <string name="scroll_right">右にスクロール</string>
     <string name="search_activity_name">Google</string>
@@ -3107,6 +3505,9 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="search_apps_web_and_more">アプリやウェブなどを検索</string>
     <string name="search_box_hint">検索…</string>
     <string name="search_box_hint_for_places_and_web">場所またはウェブを検索</string>
+    <string name="search_contact_on_web">「%s」をウェブで検索</string>
+    <string name="search_error_message">"エラーが発生しました。
+ポッドキャストの検索をもう一度お試しください。"</string>
     <string name="search_for">「%1$s」を検索</string>
     <string name="search_gesture">スワイプで検索</string>
     <string name="search_gesture_corpus_dialog_title">スワイプで検索</string>
@@ -3155,8 +3556,12 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="search_sources_tablet">タブレットの検索</string>
     <string name="search_storage_label">Google検索の容量</string>
     <string name="search_tablet">タブレットを検索</string>
+    <string name="search_the_web">%1$s をウェブで検索</string>
     <string name="search_the_web_menu_text">ウェブ全体から検索</string>
+    <string name="search_the_web_suggestion">ウェブを検索</string>
     <string name="search_widget_customization">ウィジェットのカスタマイズ</string>
+    <string name="searchbar_hint">ポッドキャストを検索</string>
+    <string name="searchbox_hint">最近行った検索</string>
     <string name="searching_as_account">%1$sとして検索</string>
     <string name="second_half">後半</string>
     <string name="second_period">第2ピリオド</string>
@@ -3185,8 +3590,15 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="selection_mode_promo">ここをタップしてテキストを選択します</string>
     <string name="selection_prompt">タップしてテキストを選択</string>
     <string name="selection_retry_ocr">再読み込み</string>
+    <string name="send_feedback">フィードバックを送信</string>
+    <string name="send_to_device_negative_button">キャンセル</string>
+    <string name="send_to_device_positive_button">送信</string>
+    <string name="send_to_device_snackbar_text">%1$s に送信</string>
+    <string name="send_to_device_title">端末に送信</string>
     <string name="sender_and_message_contents">%1$sさんからのメッセージ、%2$s。</string>
+    <string name="sender_says_message">%1$s さんからのメッセージです。%2$s。</string>
     <string name="sending_audio_to_account_toast">%1$sに音声を送信しています…</string>
+    <string name="separator">-</string>
     <string name="server_error">現在Googleに接続できません。</string>
     <string name="server_error_fetching_weather_data_status_text">エラーが発生しました。しばらくしてからもう一度お試しください。</string>
     <string name="set_duration">時間の設定</string>
@@ -3228,6 +3640,7 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="sharebear_done_button_description">完了</string>
     <string name="sharebear_edit_undo_no_effect">元に戻す操作はありません</string>
     <string name="sharebear_link">%s からのスクリーンショット</string>
+    <string name="sharebear_screenshot_not_found">スクリーンショットが見つかりません</string>
     <string name="sharebear_screenshotter_activity_label">スクリーンショットの共有</string>
     <string name="sharebear_share_saved_screenshot_chooser_title">スクリーンショットの編集と共有</string>
     <string name="sharebear_share_subject">Google から共有されたスクリーンショット</string>
@@ -3239,11 +3652,16 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="shared_audio">音声が共有されました</string>
     <string name="shared_contact">連絡先が共有されました</string>
     <string name="shared_document">ドキュメントが共有されました</string>
-    <string name="shared_links_desc">メールまたは SMS で送受信するリンク</string>
+    <string name="shared_links_desc">メールまたは SMS で送受信するリンクのプレビュー</string>
+    <string name="shared_links_group_header">共有リンク</string>
     <string name="shared_links_title">共有リンク</string>
+    <string name="shared_links_via">%1$s（%2$s）</string>
     <string name="shared_location">位置情報が共有されました</string>
     <string name="shared_photo">写真が共有されました</string>
+    <string name="shared_photo_group_header">共有された画像</string>
     <string name="shared_video">動画が共有されました</string>
+    <string name="shipped">発送済み</string>
+    <string name="shipped_with_estimation">発送済み、配達予定日: %s</string>
     <string name="shootout_abbreviation">SO</string>
     <string name="shopping_mode_landing_text">ショッピングを検索</string>
     <string name="short_google_play_services_enable_required">Google Play開発者サービスを有効にしてください</string>
@@ -3262,16 +3680,22 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="show_all_packages">すべてのパッケージを表示</string>
     <string name="show_all_reminders">すべてのリマインダーを表示</string>
     <string name="show_contact_information_edit_contact">設定を編集</string>
+    <string name="show_error_message">"エラーが発生しました。
+この番組は現在ご利用いただけません。"</string>
     <string name="show_examples_description">例を表示</string>
     <string name="show_full_agenda">完全な予定リストを表示</string>
     <string name="show_less">一部を表示</string>
     <string name="show_more">もっと見る</string>
+    <string name="show_more_search_results">その他の検索結果を表示</string>
     <string name="show_more_suggestions_footer">もっと見る</string>
     <string name="show_starts_at">開演: %1$s</string>
     <string name="showtimes_today">本日の上映時間</string>
     <string name="sidekick_network_error">ネットワークエラーです。ネットワーク接続を確認してもう一度お試しください。</string>
     <string name="sign_in">ログイン</string>
+    <string name="sign_in_accept">ログイン</string>
     <string name="sign_in_error_description">アカウントにログインする際にエラーが発生したようです</string>
+    <string name="sign_in_message">ポッドキャストに登録したり、他の端末での視聴履歴にアクセスしたりするにはログインしてください。</string>
+    <string name="sign_in_reject">後で</string>
     <string name="sign_in_required_continue_button">ログイン</string>
     <string name="sign_in_required_for_device_info_message">Googleに連絡先やアプリなどを認識させるには、Googleアカウントにログインしてください</string>
     <string name="sign_in_required_for_now_cards_message">アップデートやリマインダーをタイムリーに取得するには、Googleアカウントにログインしてください</string>
@@ -3291,8 +3715,7 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="single_transit_station_closed">%1$s %2$s営業時間終了%3$s</string>
     <string name="sleep_mode_screen_apollo_message">Google Pixel Buds をスリープモードにするには、ケースに収納するか Bluetooth から切断します。スリープモードを解除するには、ケースから取り出すか右のイヤフォンをダブルタップします。</string>
     <string name="sleep_mode_screen_title">スリープモードと充電</string>
-    <string name="smart_detection_apollo_message">右のイヤフォンを装着したときとケースに収納したときに、Pixel Buds のオンとオフが自動で切り替わります。電源を手動で操作するには、トリプルタップします。</string>
-    <string name="smart_detection_screen_title">装着検知</string>
+    <string name="slice_suggestion_message">このコンテンツは、インストール済みのアプリから取得されており、入力している内容に関連しています。</string>
     <string name="smartspace_calendar_summary">次回のミーティングに関する通知</string>
     <string name="smartspace_calendar_title">カレンダーの予定</string>
     <string name="smartspace_commute_summary">通常と異なる交通状況に関する通知</string>
@@ -3303,6 +3726,8 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="smartspace_settings_title">At A Glance</string>
     <string name="sms_display_name">テキスト</string>
     <string name="sms_provider_title">SMS</string>
+    <string name="snackbar_action_undo">元に戻す</string>
+    <string name="snackbar_message_removed_from_recently">最近のページから削除しました</string>
     <string name="snackbar_talkback">ボタンは画面下部にあります。</string>
     <string name="snooze_button">スヌーズ</string>
     <string name="snooze_fail">スヌーズできませんでした。しばらくしてからもう一度お試しください。</string>
@@ -3314,6 +3739,8 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="solid">無地</string>
     <string name="sound_search_hint">これ、誰の曲？</string>
     <string name="sound_search_unavailable">お住まいの国ではサウンド検索をご利用になれません</string>
+    <string name="source_chip_desc">%s さんのコンテンツを表示します。</string>
+    <string name="space">﻿</string>
     <string name="spoken_cancel_command_tts">キャンセル</string>
     <string name="spoken_edit_sms_command_tts">メッセージを編集</string>
     <string name="spoken_language_selected">%sが第一言語として選択されています</string>
@@ -3370,6 +3797,8 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="stocks_update_time_text">更新: %1$s</string>
     <string name="stop_download_prompt">ダウンロード中止</string>
     <string name="streaming_text_recognizing">認識しています…</string>
+    <string name="street_address_label">番地</string>
+    <string name="subscribe_button_label">定期購入</string>
     <string name="suggest">オートコンプリート</string>
     <string name="suggest_contact_removal_body" formatted="false">最もよく使う連絡先から &lt;b>%s&lt;/b> さんを削除します。&lt;b>%s&lt;/b> さんを探す場合は検索をご利用ください。</string>
     <string name="suggest_contact_removal_cancel">キャンセル</string>
@@ -3407,6 +3836,7 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="tab_title_tomorrow">明日</string>
     <string name="tap_mic_to_speak">音声入力を開始するにはマイクをタップ</string>
     <string name="temperature_display">%1$s %2$s</string>
+    <string name="text_selection_menu_translate_action">翻訳</string>
     <string name="thank_you_dialog_body">お送りいただいた情報は Google 検索の改善に役立てさせていただきます。</string>
     <string name="thank_you_dialog_tilte">フィードバックをお寄せいただきありがとうございます。</string>
     <string name="things_to_do">周辺の観光スポット</string>
@@ -3468,10 +3898,14 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="titles" formatted="false">%s（%s）</string>
     <string name="toast_custom_tabs_account">%1$s でログインしています</string>
     <string name="toast_custom_tabs_first_run_experience">Chrome でウェブ設定を変更できます</string>
+    <string name="toast_hide">%s さんを非表示にしました。</string>
+    <string name="toast_hide_fail">エラーが発生しました。%s さんを非表示にできませんでした。</string>
+    <string name="toast_unhide">%s さんを再表示しました。</string>
     <string name="today">今日</string>
     <string name="today_afternoon">今日の午後</string>
     <string name="today_at_time">今日の%1$s</string>
     <string name="today_evening">今日の夕方</string>
+    <string name="today_event_group_header">今日</string>
     <string name="today_morning">今朝</string>
     <string name="today_night">今夜</string>
     <string name="today_time">今日、%1$s</string>
@@ -3484,6 +3918,7 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="tomorrow_time">明日、%1$s</string>
     <string name="too_many_locations_snackbar_text">8 か所まで保存できます。削除するにはその場所を押し続けます。</string>
     <string name="toolbar_navigation_icon_description">戻る</string>
+    <string name="top_contacts_group_header">最もよく使う連絡先</string>
     <string name="topdeck">ウィジェット</string>
     <string name="topdeck_show_all_cards_summary">通勤状況、天気、地域の最新情報がホーム画面ウィジェットに表示されます</string>
     <string name="topdeck_show_all_cards_title">最新情報の表示</string>
@@ -3533,6 +3968,7 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="transit_departure_summary">%1$sを出発（徒歩%2$s）</string>
     <string name="transit_enroute_last_walking_step">目的地まで歩く</string>
     <string name="transit_enroute_trip_time_summary">移動中: %1$sに到着</string>
+    <string name="transit_eta_msg">%2$s に%1$s</string>
     <string name="transit_line_direction">%1$sに乗り換え（%2$s）</string>
     <string name="transit_line_direction_in_time">%3$s後に%1$sに乗り換え（%2$s）</string>
     <string name="transit_next_line_departure_subtext_no_time">%1$sの%2$s番線</string>
@@ -3557,6 +3993,7 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="transportation_platform">乗り場</string>
     <string name="transportation_pnr_number">PNR番号</string>
     <string name="transportation_reservation_number">予約番号</string>
+    <string name="transportation_title">%1$s発%2$s行き</string>
     <string name="travel_time_home_notification_title">自宅までの時間</string>
     <string name="travel_time_notification_title">%1$sまでの所要時間</string>
     <string name="travel_time_to_destination">%2$sまで&lt;b>%1$s&lt;/b></string>
@@ -3614,6 +4051,10 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="unrecognized_format_pin_code">無効な郵便番号です</string>
     <string name="unrecognized_format_postal_code">無効な郵便番号です</string>
     <string name="unrecognized_format_zip_code">無効な郵便番号です</string>
+    <string name="unreplied_emails_group_header">優先するメール</string>
+    <string name="unreplied_group_header">優先する会話</string>
+    <string name="unreplied_messages_group_header">優先する SMS</string>
+    <string name="unsubscribe_button_label">定期購入済み</string>
     <string name="unsupported_action">この操作はこの端末では実行できません</string>
     <string name="uos_account_picker_content_description">%1$s。アカウント選択プルダウン。</string>
     <string name="uos_account_picker_header_text">アカウントを選択</string>
@@ -3626,7 +4067,9 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="uos_sign_in_button_text">ログイン</string>
     <string name="uos_sign_in_description">あなたに合わせてカスタマイズされた検索結果や関心のあるトピックに関する最新情報をお届けします</string>
     <string name="uos_sign_in_intro">ログインして開始</string>
+    <string name="up">上に移動</string>
     <string name="upcoming_bills">もうすぐ届く請求書: %1$s</string>
+    <string name="upcoming_event_group_header">今後</string>
     <string name="update_available">アップデートあり（%1$s）</string>
     <string name="update_cards">更新</string>
     <string name="update_google_play_services_eyes_free_tts">ご不便をおかけして申し訳ありませんが、一部の機能が改善されたため、モバイル端末のロックを解除してアップグレードに同意する必要があります。その後、電話の発信やメッセージの送信などを音声操作で行えるようになります。</string>
@@ -3673,9 +4116,12 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="user_defined_action_add_ends_with_action">メディアを追加</string>
     <string name="user_defined_action_add_ends_with_action_no_selection_message">再生するメディアを選択してください。</string>
     <string name="user_defined_action_add_ends_with_action_what_media">再生するメディアの指定</string>
+    <string name="user_defined_action_delete_confirmation_cancel_text">キャンセル</string>
+    <string name="user_defined_action_delete_confirmation_delete_text">削除</string>
     <string name="user_defined_action_delete_confirmation_text">この操作を削除してもよろしいですか？</string>
     <string name="user_defined_action_ends_with_category_title">続いて、次の曲を再生…</string>
     <string name="user_defined_action_follow_up_trigger_phrase_title">または次のように言ったとき…</string>
+    <string name="user_defined_action_menu_clear_schedule">スケジュールの削除</string>
     <string name="user_defined_action_menu_delete_button">削除</string>
     <string name="user_defined_action_menu_save_button">保存</string>
     <string name="user_defined_action_original_action_alarm_title">アラームの解除後…</string>
@@ -3683,6 +4129,17 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="user_defined_action_popular_shortcuts_title">一般的なショートカット</string>
     <string name="user_defined_action_reorder_description">このルーティンの操作の順序を変更するにはドラッグします。</string>
     <string name="user_defined_action_reorder_title">順序を変更</string>
+    <string name="user_defined_action_schedule_back_confirmation_message">時刻、1 日のパターン、スピーカーをすべて選択するまで、ルーティンは開始されません。</string>
+    <string name="user_defined_action_schedule_back_confirmation_title">このスケジュールは完了していません</string>
+    <string name="user_defined_action_schedule_editor_clear_message">ルーティンからこのスケジュールを削除します。</string>
+    <string name="user_defined_action_schedule_editor_clear_title">このスケジュールを削除しますか？</string>
+    <string name="user_defined_action_schedule_editor_days_of_week">繰り返す曜日の選択</string>
+    <string name="user_defined_action_schedule_editor_notify">開始時にスマートフォンで通知を受け取る</string>
+    <string name="user_defined_action_schedule_editor_select_speaker">スピーカーの選択</string>
+    <string name="user_defined_action_schedule_editor_select_time">時刻を選択</string>
+    <string name="user_defined_action_schedule_editor_speaker">開始するスピーカーの選択</string>
+    <string name="user_defined_action_schedule_editor_time">このルーティンの時間の選択</string>
+    <string name="user_defined_action_schedule_editor_title">時間と曜日の設定</string>
     <string name="user_defined_action_target_command_hint">Google アシスタントによる操作</string>
     <string name="user_defined_action_task_custom_query_abandon_button">変更を破棄</string>
     <string name="user_defined_action_task_custom_query_query_required">この操作を保存するには、Google アシスタントのコマンドを入力する必要があります。</string>
@@ -3732,17 +4189,23 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="user_defined_action_task_volume_notification_summary">この操作は、Android スマートフォンからこのルーティンを使用している場合にのみ行えます</string>
     <string name="user_defined_action_task_volume_notification_title">着信音と通知の音量</string>
     <string name="user_defined_action_task_volume_title">音量の設定</string>
+    <string name="user_defined_action_trigger_multiple_title">いつ…</string>
+    <string name="user_defined_action_trigger_multiple_title_phrases">「%1$s」と言ったとき</string>
+    <string name="user_defined_action_trigger_multiple_title_time_and_day">または「%2$s、%1$s」</string>
     <string name="user_defined_action_trigger_phrase_in_use">「%1$s」はすでに存在しています。</string>
     <string name="user_defined_action_trigger_phrase_title">次のように言ったとき…</string>
     <string name="user_defined_action_trigger_phrase_validation_failed">この起動ワードを確認できませんでした。もう一度お試しください。</string>
     <string name="user_defined_action_workflow_deleting">ルーティンを削除しています</string>
     <string name="user_defined_action_workflow_duplicate_command_phrase">コマンド「%1$s」はすでに使用中です。別のコマンドを選択してください。</string>
     <string name="user_defined_action_workflow_edit_command_phrases">コマンドの編集</string>
+    <string name="user_defined_action_workflow_empty_schedule">時間と曜日の設定（省略可）</string>
     <string name="user_defined_action_workflow_many_command_phrases">「%1$s」または「%2$s」または…</string>
     <string name="user_defined_action_workflow_new">新しいルーティン</string>
     <string name="user_defined_action_workflow_no_actions">操作なし</string>
+    <string name="user_defined_action_workflow_no_command_phrases">コメントの追加（必須）</string>
     <string name="user_defined_action_workflow_one_command_phrase">「%1$s」</string>
     <string name="user_defined_action_workflow_saving">ルーティンを保存しています</string>
+    <string name="user_defined_action_workflow_schedule_day_name_separator">"、 "</string>
     <string name="user_defined_action_workflow_two_command_phrases">「%1$s」または「%2$s」</string>
     <string name="user_review_histogram_ic_user_rating">評価ユーザーの合計数</string>
     <string name="user_reviews_read_all_header">すべて読む</string>
@@ -3771,6 +4234,7 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="verify_device_sub_heading">このコードが端末に表示されていれば、正しい端末がセットアップされています。</string>
     <string name="verify_device_title">コードが表示されていますか？</string>
     <string name="versus">対</string>
+    <string name="video_group_header">動画</string>
     <string name="video_preference_title">動画</string>
     <string name="video_preview_autoplay_on_mobile_data_title">ネットワーク</string>
     <string name="video_preview_autoplay_on_wifi_preference_desc">Wi-Fi 接続時に動画プレビューを自動的に再生します</string>
@@ -3779,10 +4243,11 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="video_suggestion_message">この動画は以前に見たことがあり、入力している内容に関連しています。この動画をすべての端末の再生履歴と検索履歴から削除するには、&lt;b>%s&lt;/b> に移動してください。</string>
     <string name="video_watch_on_youtube">YouTube で再生</string>
     <string name="videos_mode_landing_text">動画を検索</string>
+    <string name="view_all_items_a11y_action">すべてのアイテムを表示</string>
     <string name="view_all_of_interest_button">すべて表示（%1$d 件）</string>
     <string name="view_email">メールを表示</string>
     <string name="violent">暴力的である</string>
-    <string name="visual_search">画像検索</string>
+    <string name="visit_website">ウェブサイトにアクセス</string>
     <string name="voiceSearchPreferences">音声検索設定</string>
     <string name="voice_ime_language_auto">自動</string>
     <string name="voice_language_preference_change">音声コマンドの言語も%sに変更されました</string>
@@ -3802,6 +4267,9 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="vs_hint_tap_to_cancel">タップしてキャンセル</string>
     <string name="vs_hint_tap_to_finish">タップして終了</string>
     <string name="vs_hint_tap_to_speak">音声検索ボタンです。タップして音声入力を開始します</string>
+    <string name="waa_in_accept">設定</string>
+    <string name="waa_in_message">視聴履歴に基づいて自分だけのおすすめを表示するには、ウェブとアプリのアクティビティをオンにしてください。</string>
+    <string name="waa_in_reject">拒否する</string>
     <string name="wallet_buy_button_place_holder">Googleで購入</string>
     <string name="wallpaper_accessibility_name">壁紙: %1$d/%2$d</string>
     <string name="wallpaper_button_text">壁紙</string>
@@ -3818,6 +4286,7 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="weather_title">%2$s、%1$s</string>
     <string name="weather_title_for_alias">%2$sの気温は%1$s</string>
     <string name="web_display_name">ウェブサイト</string>
+    <string name="web_history_group_header">ウェブ</string>
     <string name="web_mode_landing_text">ウェブを検索</string>
     <string name="web_search_connection_error">検索結果を読み込むことができません</string>
     <string name="web_suggest_updating">更新しています...</string>
@@ -3859,6 +4328,7 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="yesterday_morning">昨日の朝</string>
     <string name="yesterday_night">昨夜</string>
     <string name="yesterday_time">昨日、%1$s</string>
+    <string name="you_are_offline">オフラインで利用しています。他の結果を表示するにはオンラインにしてください。</string>
     <string name="your_bus_reservation">バスの予約</string>
     <string name="your_location_search_menu_text">現在地</string>
     <string name="your_train_reservation">電車の予約</string>

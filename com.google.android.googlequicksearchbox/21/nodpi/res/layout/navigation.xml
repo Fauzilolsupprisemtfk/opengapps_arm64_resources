@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout android:id="@id/navigation_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.google.android.libraries.gsa.monet.tools.childstub.ui.ChildStub android:id="@id/feature_highlight_stub" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
     <LinearLayout android:orientation="vertical" android:id="@id/bottom_navigation_bar" android:layout_width="fill_parent" android:layout_height="wrap_content">
         <View android:id="@id/shadow" android:background="@drawable/lobby_tab_strip_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/lobby_tab_strip_shadow_height" />
         <com.google.android.libraries.gsa.monet.tools.childstub.ui.ChildStub android:id="@id/suggestion_chips_child" android:layout_width="fill_parent" android:layout_height="wrap_content" />

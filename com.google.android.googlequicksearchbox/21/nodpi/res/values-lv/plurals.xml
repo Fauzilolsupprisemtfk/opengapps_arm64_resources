@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">Pirms %d dienām</item>
+        <item quantity="zero">Pirms %d dienām</item>
+        <item quantity="one">Pirms %d dienas</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">Pirms %d minūtēm</item>
+        <item quantity="zero">Pirms %d minūtēm</item>
+        <item quantity="one">Pirms %d minūtes</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">Pirms %d gadiem</item>
+        <item quantity="zero">Pirms %d gadiem</item>
+        <item quantity="one">Pirms %d gada</item>
+    </plurals>
     <plurals name="agenda_card_history_desc">
         <item quantity="other">%d pasākumi</item>
         <item quantity="zero">%d pasākumu</item>
@@ -44,6 +59,16 @@
         <item quantity="other">ik pēc %d dienām</item>
         <item quantity="zero">ik pēc %d dienām</item>
         <item quantity="one">ik pēc %d dienas</item>
+    </plurals>
+    <plurals name="daysAgo">
+        <item quantity="other">Pirms %1$d dienām</item>
+        <item quantity="zero">Pirms %1$d dienām</item>
+        <item quantity="one">Pirms %1$d dienas</item>
+    </plurals>
+    <plurals name="days_left_to_remove_downloads">
+        <item quantity="other">Pēc %1$d dienām</item>
+        <item quantity="zero">Pēc %1$d dienām</item>
+        <item quantity="one">Pēc %1$d dienas</item>
     </plurals>
     <plurals name="device_count">
         <item quantity="other">%1$d ierīces</item>
@@ -115,6 +140,26 @@
         <item quantity="zero">; %d reizes</item>
         <item quantity="one">; %d reizi</item>
     </plurals>
+    <plurals name="episode_list_header_full">
+        <item quantity="other">%1$d sērijas</item>
+        <item quantity="zero">%1$d sērijas</item>
+        <item quantity="one">%1$d sērija</item>
+    </plurals>
+    <plurals name="favoritesSelected">
+        <item quantity="other">Atlasītas %1$d aplādes</item>
+        <item quantity="zero">Atlasītas %1$d aplādes</item>
+        <item quantity="one">Atlasīta %1$d aplāde</item>
+    </plurals>
+    <plurals name="hoursAgo">
+        <item quantity="other">Pirms %1$d stundas</item>
+        <item quantity="zero">Pirms %1$d stundām</item>
+        <item quantity="one">Pirms %1$d stundas</item>
+    </plurals>
+    <plurals name="hours_left_to_remove_downloads">
+        <item quantity="other">Pēc %1$d stundām</item>
+        <item quantity="zero">Pēc %1$d stundām</item>
+        <item quantity="one">Pēc %1$d stundas</item>
+    </plurals>
     <plurals name="items_from_without_colon">
         <item quantity="other">%1$d vienumi no</item>
         <item quantity="zero">%1$d vienumi no</item>
@@ -164,6 +209,16 @@
         <item quantity="other">par %1$d min ilgāk nekā parasti</item>
         <item quantity="zero">nekavējas</item>
         <item quantity="one">par %1$d min ilgāk nekā parasti</item>
+    </plurals>
+    <plurals name="minutesAgo">
+        <item quantity="other">Pirms %1$d minūtēm</item>
+        <item quantity="zero">Pirms %1$d minūtēm</item>
+        <item quantity="one">Pirms %1$d minūtes</item>
+    </plurals>
+    <plurals name="minutes_left">
+        <item quantity="other">Atlicis: %1$d min</item>
+        <item quantity="zero">Atlicis: %1$d min</item>
+        <item quantity="one">Atlicis: %1$d min</item>
     </plurals>
     <plurals name="monthly_interval">
         <item quantity="other">Ik pēc %1$d mēnešiem</item>
@@ -280,6 +335,11 @@
         <item quantity="zero">%1$d sēdvietas</item>
         <item quantity="one">%1$d sēdvieta</item>
     </plurals>
+    <plurals name="unsubscribed_favorites">
+        <item quantity="other">%1$dJūs anulējāt abonementu %1$d aplādēm.</item>
+        <item quantity="zero">%1$dJūs anulējāt abonementu %1$d aplādēm.</item>
+        <item quantity="one">%1$dJūs anulējāt abonementu %1$d aplādei.</item>
+    </plurals>
     <plurals name="user_defined_action_task_music_duration_display">
         <item quantity="other">%1$d minūtes</item>
         <item quantity="zero">%1$d minūtes</item>
@@ -289,6 +349,16 @@
         <item quantity="other">%1$d°</item>
         <item quantity="zero">%1$d°</item>
         <item quantity="one">%1$d°</item>
+    </plurals>
+    <plurals name="user_defined_action_task_set_temperature_temperature_display_c">
+        <item quantity="other">%1$d °C</item>
+        <item quantity="zero">%1$d °C</item>
+        <item quantity="one">%1$d °C</item>
+    </plurals>
+    <plurals name="user_defined_action_task_set_temperature_temperature_display_f">
+        <item quantity="other">%1$d °F</item>
+        <item quantity="zero">%1$d °F</item>
+        <item quantity="one">%1$d °F</item>
     </plurals>
     <plurals name="user_defined_action_workflow_num_actions">
         <item quantity="other">%1$d darbības</item>
