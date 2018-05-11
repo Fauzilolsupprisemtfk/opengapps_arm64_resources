@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <attr name="accountDetailsTextColor" format="reference" />
-    <attr name="accountExpandCloseDrawable" format="reference" />
-    <attr name="accountExpandDividerDrawable" format="reference" />
-    <attr name="accountExpandOpenDrawable" format="reference" />
+    <attr name="bind__disableParentTouchEventInterception" format="boolean" />
     <attr name="bind__isOwnedByParent" format="boolean" />
     <attr name="bind__nestedScrollingEnabled" format="boolean" />
     <attr name="bind__offsetSavedStateEnabled" format="boolean" />
     <attr name="bottomAppBarStyle" format="reference" />
     <attr name="bottomNavigationStyle" format="reference" />
+    <attr name="bottomSheetDialogTheme" format="reference" />
+    <attr name="bottomSheetStyle" format="reference" />
     <attr name="cardViewStyle" format="reference" />
     <attr name="carouselVerticalScroll" format="boolean" />
     <attr name="chipGroupStyle" format="reference" />
@@ -42,11 +41,11 @@
     <attr name="coordinatorLayoutStyle" format="reference" />
     <attr name="disableSharedViews" format="boolean" />
     <attr name="drawerArrowStyle" format="reference" />
+    <attr name="fireballViewStyle" format="reference" />
     <attr name="fixedAspectRatioHeight" format="integer" />
     <attr name="fixedAspectRatioWidth" format="integer" />
     <attr name="fixed_bounds" format="boolean" />
-    <attr name="floatingActionButtonStyle" format="reference" />
-    <attr name="forceFullHeight" format="boolean" />
+    <attr name="floatingActionButtonStyle" format="reference|string|integer|boolean|color|float|dimension|fraction" />
     <attr name="gamesAchievementProgressBarColor" format="reference" />
     <attr name="gamesCardBackgroundColor" format="reference" />
     <attr name="gamesCardIconColor" format="reference" />
@@ -227,8 +226,11 @@
     <attr name="replay__palette_700" format="color" />
     <attr name="replay__palette_800" format="color" />
     <attr name="replay__palette_900" format="color" />
+    <attr name="rippleColor" format="color" />
     <attr name="scrimBackground" format="reference|color" />
     <attr name="showMotionSpec" format="reference" />
+    <attr name="strokeColor" format="color" />
+    <attr name="strokeWidth" format="dimension" />
     <attr name="suwButtonAllCaps" format="boolean" />
     <attr name="suwButtonCornerRadius" format="dimension" />
     <attr name="suwButtonFontFamily" format="reference|string" />
@@ -511,19 +513,16 @@
     <attr name="fabCradleDiameter" format="dimension" />
     <attr name="fabCradleRoundedCornerRadius" format="dimension" />
     <attr name="fabCradleVerticalOffset" format="dimension" />
-    <attr name="menu" format="reference" />
+    <attr name="hideOnScroll" format="boolean" />
     <attr name="labelVisibilityMode">
         <enum name="auto" value="-1" />
         <enum name="labeled" value="1" />
         <enum name="selected" value="0" />
         <enum name="unlabeled" value="2" />
     </attr>
-    <attr name="itemBackground" format="reference" />
     <attr name="itemIconSize" format="dimension" />
-    <attr name="itemIconTint" format="color" />
     <attr name="itemTextAppearanceInactive" format="reference" />
     <attr name="itemTextAppearanceActive" format="reference" />
-    <attr name="itemTextColor" format="color" />
     <attr name="itemHorizontalTranslation" format="boolean" />
     <attr name="behavior_peekHeight" format="dimension">
         <enum name="auto" value="-1" />
@@ -718,8 +717,6 @@
         <flag name="bottom" value="0x00000050" />
         <flag name="top" value="0x00000030" />
     </attr>
-    <attr name="bottomSheetDialogTheme" format="reference" />
-    <attr name="bottomSheetStyle" format="reference" />
     <attr name="dialogTitle" format="string" />
     <attr name="dialogMessage" format="string" />
     <attr name="dialogIcon" format="reference" />
@@ -747,6 +744,16 @@
     <attr name="fade_in_after_load" format="boolean" />
     <attr name="request_scale_factor" format="fraction" />
     <attr name="cap_dpi" format="integer" />
+    <attr name="play__fireball__group_0" format="color" />
+    <attr name="play__fireball__group_1" format="color" />
+    <attr name="play__fireball__group_2" format="color" />
+    <attr name="play__fireball__group_3" format="color" />
+    <attr name="play__fireball__group_4" format="color" />
+    <attr name="play__fireball__selected_text" format="color" />
+    <attr name="play__fireball__unselected_text" format="color" />
+    <attr name="play__fireball__unselected_border" format="color" />
+    <attr name="play__fireball__subgroup_overlay" format="color" />
+    <attr name="play__fireball__side_padding" format="dimension" />
     <attr name="aspectRatio" format="float" />
     <attr name="visibleChildCount" format="integer" />
     <attr name="childPeekWidth" format="dimension" />
@@ -808,6 +815,11 @@
     <attr name="layout_flexGrow" format="float" />
     <attr name="layout_flexShrink" format="float" />
     <attr name="layout_flexBasisPercent" format="fraction" />
+    <attr name="layout_minWidth" format="dimension" />
+    <attr name="layout_minHeight" format="dimension" />
+    <attr name="layout_maxWidth" format="dimension" />
+    <attr name="layout_maxHeight" format="dimension" />
+    <attr name="layout_wrapBefore" format="boolean" />
     <attr name="layout_alignSelf">
         <enum name="center" value="2" />
         <enum name="auto" value="-1" />
@@ -816,11 +828,6 @@
         <enum name="baseline" value="3" />
         <enum name="stretch" value="4" />
     </attr>
-    <attr name="layout_minWidth" format="dimension" />
-    <attr name="layout_minHeight" format="dimension" />
-    <attr name="layout_maxWidth" format="dimension" />
-    <attr name="layout_maxHeight" format="dimension" />
-    <attr name="layout_wrapBefore" format="boolean" />
     <attr name="fabSize">
         <enum name="normal" value="0" />
         <enum name="auto" value="-1" />
@@ -958,10 +965,7 @@
     <attr name="iconTint" format="color" />
     <attr name="additionalPaddingLeftForIcon" format="dimension" />
     <attr name="additionalPaddingRightForIcon" format="dimension" />
-    <attr name="strokeColor" format="color" />
-    <attr name="strokeWidth" format="dimension" />
     <attr name="cornerRadius" format="dimension" />
-    <attr name="rippleColor" format="color" />
     <attr name="alphabeticModifiers">
         <flag name="ALT" value="0x00000002" />
         <flag name="CTRL" value="0x00001000" />
@@ -1005,6 +1009,10 @@
         <enum name="oval" value="1" />
     </attr>
     <attr name="useGamesImageView" format="boolean" />
+    <attr name="menu" format="reference" />
+    <attr name="itemIconTint" format="color" />
+    <attr name="itemTextColor" format="color" />
+    <attr name="itemBackground" format="reference" />
     <attr name="itemTextAppearance" format="reference" />
     <attr name="headerLayout" format="reference" />
     <attr name="itemHorizontalPadding" format="dimension" />

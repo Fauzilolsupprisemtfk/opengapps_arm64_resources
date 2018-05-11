@@ -11,12 +11,12 @@
     <string name="abc_searchview_description_submit">Отправить запрос</string>
     <string name="abc_searchview_description_voice">Голосовой поиск</string>
     <string name="abc_toolbar_collapse_description">Свернуть</string>
-    <string name="arcade__error_body">Произошла ошибка при подключении аркады.</string>
     <string name="arcade__error_headline">Ошибка</string>
     <string name="arcade__error_retry_button">Повторить попытку</string>
     <string name="arcade__error_send_feedback_button">Оставить отзыв</string>
     <string name="arcade__offline_body">Не удалось загрузить аркадные игры. Проверьте подключение к Интернету.</string>
     <string name="arcade__offline_headline">Проверьте подключение к Интернету</string>
+    <string name="common_cancel">Отмена</string>
     <string name="common_games_settings_title">Play Игры</string>
     <string name="common_google_play_services_enable_button">Включить</string>
     <string name="common_google_play_services_enable_text">Для работы приложения \"%1$s\" требуется включить сервисы Google Play.</string>
@@ -36,15 +36,16 @@
     <string name="common_google_play_services_wear_update_text">Версия сервисов Google Play устарела. Они автоматически обновятся в ближайшее время.</string>
     <string name="common_loading">Загрузка…</string>
     <string name="common_off">Отключено</string>
+    <string name="common_ok">ОК</string>
     <string name="common_on">Включено</string>
     <string name="common_open_on_phone">Открыть на телефоне</string>
     <string name="common_retry">Повторить</string>
     <string name="customer_information_title">Информация о клиенте</string>
     <string name="datadeletion__archived_game_item_title">Данные из игр, находящихся в архиве</string>
     <string name="datadeletion__delete_archived_game_button_content_description">Удалить данные из игр, находящихся в архиве.</string>
-    <string name="datadeletion__delete_archived_game_data_confirm_dialog_message">"Если вы продолжите, то из Google Play Игр будут удалены ваши очки, результаты и настройки.
+    <string name="datadeletion__delete_archived_game_data_confirm_dialog_message">"Если вы продолжите, из Google Play Игр будут удалены ваши очки, результаты и настройки.
 
-Это действие невозможно отменить!"</string>
+Это действие нельзя отменить!"</string>
     <string name="datadeletion__delete_archived_game_data_confirm_dialog_title">Удалить данные из игр, находящихся в архиве?</string>
     <string name="datadeletion__delete_archived_game_data_error">При удалении данных из игр, находящихся в архиве, произошла ошибка. Повторите попытку позже.</string>
     <string name="datadeletion__delete_archived_game_data_success">Ваши данные из игр, находящихся в архиве, будут удалены в течение 24 часов</string>
@@ -55,21 +56,22 @@
     <string name="datadeletion__delete_game_data_button_deleting_state">Удаление…</string>
     <string name="datadeletion__delete_game_data_confirm_dialog_message">"Если удалить данные игры \"%1$s\", связанные очки, результаты и настройки будут удалены из Google Play Игр.
 
-Это действие невозможно отменить."</string>
+Это действие нельзя отменить!"</string>
     <string name="datadeletion__delete_game_data_confirm_dialog_title">Удалить данные игры \"%1$s\"?</string>
     <string name="datadeletion__delete_game_data_error">При удалении данных игры \"%1$s\" произошла ошибка. Повторите попытку позже.</string>
     <string name="datadeletion__delete_game_data_explanation">Удалить данные определенной игры в Google Play Играх. В выбранной игре будут удалены ваши очки, текущие результаты и настройки.</string>
     <string name="datadeletion__delete_game_data_header">Удалить данные определенной игры</string>
-    <string name="datadeletion__delete_game_data_success">Данные игры \"%1$s\" будут удалены в течение 24 часов.</string>
+    <string name="datadeletion__delete_game_data_success">Данные игры \"%1$s\" будут удалены в течение 24 часов</string>
     <string name="datadeletion__delete_profile_button">Удалить профиль</string>
     <string name="datadeletion__delete_profile_explanation">Удалить все данные Google Play Игр (включая псевдоним и XP). Также могут быть удалены очки, текущие результаты и настройки в ваших играх.</string>
     <string name="datadeletion__delete_profile_header">Удалить профиль и все данные</string>
     <string name="datadeletion__deleting_archived_game_button_content_description">Выполняется удаление данных из игр, находящихся в архиве.</string>
-    <string name="datadeletion__game_list_load_error">Не удалось загрузить список ваших игр из Google Play Игр. Повторите попытку позже.</string>
+    <string name="datadeletion__game_list_load_error">Не удалось загрузить список ваших игр из Google Play. Повторите попытку позже.</string>
     <string name="datadeletion__game_list_load_indicator_content_description">Загрузка списка ваших игр из Google Play Игр.</string>
     <string name="datadeletion__game_list_retry_button">Повторить</string>
     <string name="datadeletion__page_content_description">Показана страница \"Удалить данные Play Игр\".</string>
     <string name="game_info_cricket_name">Крикет</string>
+    <string name="game_info_snake_name">Змейка</string>
     <string name="game_info_solitaire_name">Пасьянс</string>
     <string name="gamedetails__apl_achievement_content_description">Достижение: %1$s. Описание: %2$s. Статус: %3$s. %4$s. Дата: %5$s.</string>
     <string name="gamedetails__apl_achievement_hidden_description">Ещё немного, и вы узнаете, что это за достижение!</string>
@@ -96,11 +98,17 @@
     <string name="games__arcade_fragment_content_description">Отображение страницы \"Аркады\".</string>
     <string name="games__installbutton__install">Установить</string>
     <string name="games__installbutton__install_content_description">Установить игру \"%1$s\"</string>
+    <string name="games__live_op_headline">Новости</string>
+    <string name="games__page_default_error_body">У нас ошибка.</string>
     <string name="games__playbutton__play">Играть</string>
     <string name="games__playbutton__play_content_description">Начать игру \"%1$s\"</string>
     <string name="games__youtube__video_playback_error_toast">Не удалось воспроизвести видео YouTube</string>
     <string name="games__youtube__video_thumbnail_content_description">Воспроизвести видео \"%1$s\".</string>
     <string name="games_accessibility_event_tab_selected">Выбрана вкладка \"%1$s\"</string>
+    <string name="games_achievement_comparison_amount_format">%1$s XP</string>
+    <string name="games_achievement_comparison_link_text">СРАВНИТЬ ДОСТИЖЕНИЯ</string>
+    <string name="games_achievement_comparison_null_text">Достижений нет.</string>
+    <string name="games_achievement_comparison_title">Сравнение достижений</string>
     <string name="games_achievement_hidden_desc">Ещё немного, и вы узнаете, что это за достижение!</string>
     <string name="games_achievement_hidden_name">Пока неизвестно</string>
     <string name="games_achievement_list_header_unlocked_content_description">Разблокировано достижений: %1$d из %2$d</string>
@@ -138,6 +146,8 @@
     <string name="games_client_settings_signout_alert_dialog_title">Уже уходите?</string>
     <string name="games_client_settings_signout_progress_dialog_msg">Выход…</string>
     <string name="games_common_header_n_more">ЕЩЁ %1$d</string>
+    <string name="games_continue_playing_game_achievement_content_description">Разблокировано достижений: %1$d из %2$d.</string>
+    <string name="games_continue_playing_game_achievement_count_format">%1$d из %2$d</string>
     <string name="games_continue_playing_installed">Продолжить играть</string>
     <string name="games_date_and_achievement_description_joiner">%1$s. %2$s</string>
     <string name="games_delete_snapshot_dialog_message">Удалить эту игру?</string>
@@ -158,8 +168,15 @@
     <string name="games_dest_game_detail_leaderboards_tab">РЕЙТИНГИ ИГРОКОВ</string>
     <string name="games_dest_game_detail_menu_mute">Отключить уведомления</string>
     <string name="games_dest_game_detail_menu_unmute">Включить уведомления</string>
+    <string name="games_dest_game_list_card_not_installed_label">Не установлена</string>
+    <string name="games_dest_game_list_featured_tab">РЕКОМЕНДУЕМ</string>
+    <string name="games_dest_game_list_popular_multiplayer_tab">СЕТЕВЫЕ</string>
+    <string name="games_dest_game_list_popular_tab">ПОПУЛЯРНЫЕ</string>
+    <string name="games_dest_google_signed_error_dialog_message">Произошла ошибка инициализации.</string>
+    <string name="games_dest_google_signed_error_dialog_title">Произошла ошибка</string>
     <string name="games_dest_inbox_empty">Вы прочитали все уведомления. Пора играть!</string>
     <string name="games_dest_nav_drawer_inbox">Уведомления</string>
+    <string name="games_dest_participant_list_label">Список участников</string>
     <string name="games_dest_player_detail_view_profile">ПЕРЕЙТИ В ПРОФИЛЬ</string>
     <string name="games_dest_player_empty_action_text">Искать друзей</string>
     <string name="games_dest_player_empty_text">Игроков не найдено.</string>
@@ -168,6 +185,8 @@
     <string name="games_dest_players_recommended_empty_message">Пока здесь никого нет. Загляните позже.</string>
     <string name="games_dest_profile_comparison_their_friends">Друзья пользователя %1$s</string>
     <string name="games_dest_quests_empty_text">Нет квестов! Здесь можно посмотреть квесты, которые вы приняли в Play Играх.</string>
+    <string name="games_dest_shop_games_list_label">Поиск игр</string>
+    <string name="games_dest_shop_games_visit_store_text">Play Маркет</string>
     <string name="games_dest_sign_in_failed_dialog_message">Произошла ошибка.</string>
     <string name="games_dest_sign_in_failed_dialog_send_feedback_button">Отзыв</string>
     <string name="games_dest_sign_in_failed_dialog_title">Произошла ошибка</string>
@@ -176,6 +195,7 @@
     <string name="games_dest_wrong_architecture_text">Архитектура установленных сервисов \"Play Игры\" (%1$s) несовместима с архитектурой ЦП вашего устройства (%2$s).</string>
     <string name="games_dest_wrong_architecture_title">Несовместимая архитектура</string>
     <string name="games_dest_xp_event_content_description">%1$s. %2$s. %4$s. Получено %3$s XP.</string>
+    <string name="games_dest_xp_history_list_title">История XP</string>
     <string name="games_duration_hours">%1$s ч.</string>
     <string name="games_empty_private_profile_message">У этого пользователя закрытый профиль.</string>
     <string name="games_find_people">Поиск людей</string>
@@ -319,9 +339,13 @@
     <string name="games_menu_search">Поиск</string>
     <string name="games_menu_settings">Настройки</string>
     <string name="games_menu_share">Поделиться</string>
+    <string name="games_menu_view_in_store">Открыть в Google Play</string>
     <string name="games_menu_view_in_store_short">Play Маркет</string>
+    <string name="games_mixed_tile_game_name_content_description">Игра: %1$s (разработчик: %2$s)</string>
     <string name="games_mixed_tile_leaderboard_score_content_description_with_level">Рейтинг: %1$s. Игрок: %2$s. %3$s. Баллов: %4$s</string>
     <string name="games_mixed_tile_player_add_content_description">Добавить в круги</string>
+    <string name="games_mixed_tile_shopping_game_installed">УСТАНОВЛЕНО</string>
+    <string name="games_mixed_tile_shopping_game_owned">ПРИОБРЕТЕНО</string>
     <string name="games_multiplayer_inbox_title">Игры</string>
     <string name="games_mvp_avatar_choice_not_selected_content_description">Невыбранное фото профиля</string>
     <string name="games_mvp_avatar_choice_selected_content_description">Выбранное фото профиля</string>
@@ -413,7 +437,13 @@
     <string name="games_mvp_share_game_card_text">Рассказать друзьям</string>
     <string name="games_mvp_show_undo_snackbar_text">Игра \"%1$s\" отображается в моих играх</string>
     <string name="games_mvp_snackbar_undo_button_text">Отменить</string>
+    <string name="games_mvp_snippet_icon_content_liveops_description">LiveOps. %1$s</string>
+    <string name="games_mvp_snippet_icon_content_news_description">Новости. %1$s</string>
+    <string name="games_mvp_snippet_icon_content_video_description">Видео. %1$s</string>
+    <string name="games_mvp_visit_arcade_button_text">Открыть аркады</string>
     <string name="games_mvp_you_have_no_games_message">Играть</string>
+    <string name="games_my_games_empty_action_text">Искать игры</string>
+    <string name="games_my_games_empty_text">Ничего не найдено.</string>
     <string name="games_my_games_navigation_bar_title">Мои игры</string>
     <string name="games_nearby_players_confirm_dialog_message">Чтобы находить игроков рядом с вами, Google использует данные о вашем местоположении, микрофон и динамики вашего устройства, а также подключение Wi-Fi и Bluetooth. <u>Подробнее…</u>"
 
@@ -465,7 +495,7 @@
     <string name="games_profile_edit_error_gamer_tag_taken_with_suggestion">Этот псевдоним уже занят. Как насчет \"%1$s\"?</string>
     <string name="games_profile_edit_error_message_prefix">Ошибка:</string>
     <string name="games_profile_edit_error_unknown">Произошла ошибка. Повторите попытку позже.</string>
-    <string name="games_profile_edit_fine_print">Вы можете использовать псевдоним в приложениях, которые поддерживают авторизацию через Play Игры. Разработчики таких приложений получают доступ к информации вашего профиля, действиям и покупкам в игре, а также используют эти данные в соответствии со своей политикой конфиденциальности.<a href="https://support.google.com/googleplay/?p=games_signin">Подробнее…</a>"
+    <string name="games_profile_edit_fine_print">Вы можете использовать псевдоним в приложениях, которые поддерживают авторизацию через Play Игры. Разработчики таких приложений получают доступ к информации вашего профиля, действиям и покупкам в игре, а также используют эти данные в соответствии со своей политикой конфиденциальности. <a href="https://support.google.com/googleplay/?p=games_signin">Подробнее…</a>"
 
 Вы можете изменять свой профиль и настройки, а также удалять данные в соответствии с "<a href="https://www.google.com/policies/privacy/">Политикой конфиденциальности Google</a>. Если вы согласны с этими условиями, нажмите \"Сохранить\".</string>
     <string name="games_profile_edit_gamer_tag_header">Псевдоним</string>
@@ -478,10 +508,10 @@
     <string name="games_profile_edit_invalid_gamer_tag">Псевдоним должен состоять из %1$d–%2$d букв и цифр</string>
     <string name="games_profile_edit_success">Ваш профиль успешно обновлен.</string>
     <string name="games_profile_edit_title">Изменение профиля</string>
-    <string name="games_profile_edit_visibility">Показывать другим пользователям мои действия в игре</string>
-    <string name="games_profile_info_message_1">Автоматически входить в игры</string>
+    <string name="games_profile_edit_visibility">Показывать другим пользователям мои действия в играх</string>
+    <string name="games_profile_info_message_1">Вход в игры будет выполняться автоматически.</string>
     <string name="games_profile_info_message_2">Ваши результаты появятся в рейтингах игроков.</string>
-    <string name="games_profile_info_message_3">Вы сможете накапливать опыт и следить за своими достижениями.</string>
+    <string name="games_profile_info_message_3">Вы сможете накапливать XP и следить за своими достижениями.</string>
     <string name="games_profile_saving_profile_dialog_title">Сохранение профиля...</string>
     <string name="games_profile_status_message_hidden">Ваш игровой профиль скрыт.</string>
     <string name="games_profile_status_message_public">Ваш игровой профиль виден всем.</string>
@@ -591,12 +621,19 @@
     <string name="games_sign_in_unicorn_account_dialog_message">%s &lt;br/>&lt;br/> Вы не можете войти в Google Play Игры с этим аккаунтом.</string>
     <string name="games_sign_in_unicorn_account_dialog_title">Аккаунт не поддерживается</string>
     <string name="games_signin_welcome_back">ДОБРО ПОЖАЛОВАТЬ</string>
+    <string name="games_snapshot_delete">Удалить</string>
     <string name="games_snapshot_list_null_state">Здесь пока ничего нет.</string>
+    <string name="games_snapshot_select">Выбрать</string>
     <string name="games_square_tile_achievement_content_description">Достижение: %1$s. Описание: %2$s. Статус: %3$s. %4$s. Дата: %5$s.</string>
     <string name="games_square_tile_achievement_status_locked_content_description">заблокировано</string>
     <string name="games_square_tile_achievement_status_unlocked_content_description">разблокировано</string>
     <string name="games_sync_label">Данные игр</string>
     <string name="games_tile_accepted_quest_content_description">Квест: %1$s. Игра: %2$s. Квест принят. Выполнено: %3$d из %4$d. %5$s. Описание: %6$s</string>
+    <string name="games_tile_achievement_comparison_content_description">Достижение: %1$s. Статус: %2$s. %3$s. %4$s XP. %5$s.</string>
+    <string name="games_tile_achievement_comparison_locked">Заблокировано</string>
+    <string name="games_tile_achievement_comparison_unlocked_by_both">Разблокировано обоими</string>
+    <string name="games_tile_achievement_comparison_unlocked_by_them">Разблокировано другим игроком</string>
+    <string name="games_tile_achievement_comparison_unlocked_by_you">Разблокировано вами</string>
     <string name="games_tile_match_content_description">Игра: %1$s. Статус: %2$s. Последнее обновление: %3$s. Чтобы начать игру, нажмите на эту подсказку.</string>
     <string name="games_tile_match_description_rematch_matches_format">НОВАЯ ПАРТИЯ</string>
     <string name="games_tile_match_rematch_button_description">Новая партия</string>
@@ -719,6 +756,7 @@
     <string name="games_waiting_room_waiting_for_players">Ожидание игроков</string>
     <string name="games_wide_tile_match_description_offline">Ожидается обновление</string>
     <string name="games_wide_tile_match_players_image_content_description">Список игроков</string>
+    <string name="games_xp_event_amount_format">+%1$s XP</string>
     <string name="hats_lib_close_button_description">Закрыть</string>
     <string name="hats_lib_default_prompt_title">Помогите нам улучшить сервисы Google</string>
     <string name="hats_lib_default_star_rating_bar_description">Оценка</string>
@@ -731,7 +769,6 @@
     <string name="hats_lib_prompt_take_our_survey">Показать вопрос</string>
     <string name="hats_lib_submit">Отправить</string>
     <string name="hats_lib_thank_you_followup_message">Помогите нам улучшить продукт – ответьте на другие вопросы</string>
-    <string name="hide_account_list">Скрыть аккаунты</string>
     <string name="open_source_licenses_title">Лицензии открытого ПО</string>
     <string name="permgrouplab_calendar">Календарь</string>
     <string name="permgrouplab_camera">Камера</string>
@@ -751,8 +788,6 @@
     <string name="play_content_description_page_indicator">Страница %1$s из %2$s</string>
     <string name="play_drawer_open">Показать панель навигации</string>
     <string name="preferences_license_title">Лицензии открытого ПО</string>
-    <string name="selected_account">Выполнен вход в аккаунт %1$s</string>
-    <string name="show_account_list">Показать аккаунты</string>
     <string name="suw_back_button_label">Назад</string>
     <string name="suw_more_button_label">Ещё</string>
     <string name="suw_next_button_label">Далее</string>

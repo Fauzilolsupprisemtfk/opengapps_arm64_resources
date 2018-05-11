@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="AccountsSwitcher.AccountDisplayNameStyle" parent="@style/AccountsSwitcher">
-        <item name="android:textStyle">normal</item>
-    </style>
-    <style name="AccountsSwitcher.SelectedAccountButtonStyle" parent="@style/AccountsSwitcher">
-        <item name="android:background">?android:selectableItemBackgroundBorderless</item>
-        <item name="android:layout_width">@dimen/expander_icon_width</item>
-        <item name="android:layout_alignParentEnd">true</item>
-    </style>
     <style name="Base.TextAppearance.AppCompat" parent="@android:style/TextAppearance.Material" />
     <style name="Base.TextAppearance.AppCompat.Body1" parent="@android:style/TextAppearance.Material.Body1" />
     <style name="Base.TextAppearance.AppCompat.Body2" parent="@android:style/TextAppearance.Material.Body2" />
@@ -52,12 +44,20 @@
     <style name="Base.Theme.GoogleMaterial.Light" parent="@style/Base.V14.Theme.GoogleMaterial.Light">
         <item name="android:statusBarColor">@color/google_grey700</item>
     </style>
+    <style name="Base.Theme.GoogleMaterial.Light.BottomSheetDialog" parent="@style/Theme.GoogleMaterial.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Design.BottomSheetDialog</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="bottomSheetStyle">@style/Widget.GoogleMaterial.BottomSheet.Modal</item>
+    </style>
     <style name="Base.ThemeOverlay.AppCompat.Dialog" parent="@style/Base.V21.ThemeOverlay.AppCompat.Dialog" />
     <style name="Base.V14.Theme.GoogleMaterial.Light" parent="@style/Platform.GoogleMaterial.Light">
         <item name="android:colorBackground">@color/google_white</item>
         <item name="android:colorEdgeEffect">@color/google_grey500</item>
         <item name="bottomAppBarStyle">@style/Widget.GoogleMaterial.BottomAppBar</item>
         <item name="bottomNavigationStyle">@style/Widget.GoogleMaterial.BottomNavigationView</item>
+        <item name="bottomSheetDialogTheme">@style/Theme.GoogleMaterial.Light.BottomSheetDialog</item>
         <item name="chipStandaloneStyle">@style/Widget.GoogleMaterial.Chip.Input</item>
         <item name="chipStyle">@style/Widget.GoogleMaterial.Chip.Assistive</item>
         <item name="colorPrimary100">@color/google_white</item>
@@ -104,7 +104,6 @@
         <item name="colorPrimaryDark">@color/google_white</item>
         <item name="colorBackgroundFloating">@color/background_floating_material_light</item>
         <item name="buttonStyle">@style/Widget.AppCompat.Button.Colored</item>
-        <item name="bottomSheetDialogTheme">@style/Theme.GoogleMaterial.Light.BottomSheetDialog</item>
         <item name="textAppearanceDisplay1">@style/TextAppearance.GoogleMaterial.Display1</item>
         <item name="textAppearanceDisplay2">@style/TextAppearance.GoogleMaterial.Display2</item>
         <item name="textAppearanceDisplay3">@style/TextAppearance.GoogleMaterial.Display3</item>
@@ -221,6 +220,7 @@
     <style name="Base.Widget.AppCompat.Toolbar.Button.Navigation" parent="@android:style/Widget.Material.Toolbar.Button.Navigation" />
     <style name="Base.Widget.GoogleMaterial.Chip" parent="@style/Base.Widget.MaterialComponents.Chip">
         <item name="android:stateListAnimator">@animator/google_chip_state_list_anim</item>
+        <item name="rippleColor">@color/google_chip_ripple_color</item>
         <item name="chipBackgroundColor">@color/google_chip_background_color</item>
         <item name="chipStrokeColor">@color/google_chip_stroke_color</item>
         <item name="chipStrokeWidth">1.0dip</item>
@@ -229,7 +229,6 @@
         <item name="closeIcon">@drawable/ic_google_chip_close_grey</item>
         <item name="closeIconTint">@color/google_chip_close_icon_tint</item>
         <item name="checkedIcon">@drawable/ic_google_chip_checked_circle</item>
-        <item name="rippleColor">@color/google_chip_ripple_color</item>
         <item name="enforceMaterialTheme">true</item>
     </style>
     <style name="Base.Widget.MaterialComponents.Chip" parent="@android:style/Widget">
@@ -238,6 +237,7 @@
         <item name="android:clickable">true</item>
         <item name="android:checkable">false</item>
         <item name="android:stateListAnimator">@animator/mtrl_chip_state_list_anim</item>
+        <item name="rippleColor">@color/mtrl_chip_ripple_color</item>
         <item name="chipBackgroundColor">@color/mtrl_chip_background_color</item>
         <item name="chipMinHeight">32.0dip</item>
         <item name="chipCornerRadius">16.0dip</item>
@@ -261,7 +261,6 @@
         <item name="closeIconStartPadding">2.0dip</item>
         <item name="closeIconEndPadding">2.0dip</item>
         <item name="chipEndPadding">6.0dip</item>
-        <item name="rippleColor">@color/mtrl_chip_ripple_color</item>
     </style>
     <style name="Games.DestinationActivityTheme" parent="@style/Games.ActivityTheme">
         <item name="android:windowBackground">@color/games_destination_bg</item>
@@ -631,6 +630,18 @@
         <item name="textAllCaps">false</item>
         <item name="fontFamily">sans-serif-medium</item>
     </style>
+    <style name="TransparentActivity" parent="@style/Theme.AppCompat">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowSoftInputMode">adjustNothing|stateUnchanged</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
     <style name="Widget.Design.BottomSheet.Modal" parent="@android:style/Widget">
         <item name="android:background">?android:colorBackground</item>
         <item name="android:elevation">@dimen/design_bottom_sheet_modal_elevation</item>
@@ -643,17 +654,16 @@
         <item name="android:paddingLeft">@dimen/google_btn_padding_left</item>
         <item name="android:paddingRight">@dimen/google_btn_padding_right</item>
         <item name="android:stateListAnimator">@animator/google_btn_state_list_anim</item>
+        <item name="rippleColor">@color/google_btn_filled_btn_ripple_color</item>
         <item name="iconTint">@color/google_btn_text_color_selector</item>
         <item name="additionalPaddingLeftForIcon">@dimen/google_btn_additional_padding_left_for_icon</item>
         <item name="additionalPaddingRightForIcon">@dimen/google_btn_additional_padding_right_for_icon</item>
-        <item name="rippleColor">@color/google_btn_filled_btn_ripple_color</item>
         <item name="backgroundTint">@color/google_btn_filled_btn_bg_color_selector</item>
     </style>
     <style name="Widget.GoogleMaterial.StrokedButton" parent="@style/Widget.GoogleMaterial.TextButton">
         <item name="android:stateListAnimator">@animator/google_btn_stroked_btn_state_list_anim</item>
         <item name="strokeColor">@color/google_btn_stroke_color_selector</item>
         <item name="strokeWidth">@dimen/mtrl_btn_stroke_size</item>
-        <item name="backgroundTint">@color/google_btn_stroked_btn_bg_color_selector</item>
     </style>
     <style name="Widget.MaterialComponents.Button" parent="@style/Widget.AppCompat.Button">
         <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.MaterialButton</item>
@@ -666,12 +676,12 @@
         <item name="android:insetTop">@dimen/mtrl_btn_inset</item>
         <item name="android:insetBottom">@dimen/mtrl_btn_inset</item>
         <item name="android:stateListAnimator">@animator/mtrl_btn_state_list_anim</item>
+        <item name="rippleColor">@color/mtrl_btn_ripple_color</item>
         <item name="iconPadding">@dimen/mtrl_btn_icon_padding</item>
         <item name="iconTint">@color/mtrl_btn_text_color_selector</item>
         <item name="additionalPaddingLeftForIcon">@dimen/mtrl_btn_additional_padding_left_for_icon</item>
         <item name="additionalPaddingRightForIcon">@dimen/mtrl_btn_additional_padding_right_for_icon</item>
         <item name="cornerRadius">@dimen/mtrl_btn_corner_radius</item>
-        <item name="rippleColor">@color/mtrl_btn_ripple_color</item>
         <item name="backgroundTint">@color/mtrl_btn_bg_color_selector</item>
     </style>
     <style name="Widget.MaterialComponents.Button.UnelevatedButton" parent="@style/Widget.MaterialComponents.Button">
@@ -685,9 +695,6 @@
         <item name="colorPrimary">@color/material_blue_grey_800</item>
         <item name="colorAccent">@color/material_teal_200</item>
         <item name="colorControlHighlight">@color/ripple_material_dark</item>
-    </style>
-    <style name="AccountsSwitcher.BackgroundStyle" parent="@style/AccountsSwitcher">
-        <item name="android:background">@android:color/transparent</item>
     </style>
     <style name="Base.V21.Theme.AppCompat" parent="@style/Base.V7.Theme.AppCompat">
         <item name="android:colorControlNormal">?colorControlNormal</item>

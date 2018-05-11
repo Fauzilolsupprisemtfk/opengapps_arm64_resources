@@ -11,12 +11,12 @@
     <string name="abc_searchview_description_submit">क्वेरी सबमिट करा</string>
     <string name="abc_searchview_description_voice">व्हॉइस शोध</string>
     <string name="abc_toolbar_collapse_description">संक्षिप्त करा</string>
-    <string name="arcade__error_body">आर्केड सुरू करताना कदाचित काहीतरी चुकतंय.</string>
     <string name="arcade__error_headline">बापरे, काहीतरी समस्‍या आहे.</string>
     <string name="arcade__error_retry_button">पुन्हा प्रयत्न करा</string>
     <string name="arcade__error_send_feedback_button">फीडबॅक पाठवा</string>
     <string name="arcade__offline_body">आर्केड गेम प्लग-इन केलेले नाहीत. ते सुरू करण्यासाठी तुमचे इंटरनेट कनेक्शन तपासा.</string>
     <string name="arcade__offline_headline">तुमचे इंटरनेट कनेक्शन तपासा.</string>
+    <string name="common_cancel">रद्द करा</string>
     <string name="common_games_settings_title">Play गेम</string>
     <string name="common_google_play_services_enable_button">सक्षम करा</string>
     <string name="common_google_play_services_enable_text">आपण Google Play सेवा सक्षम केल्याशिवाय %1$s हा अॅप कार्य करणार नाही.</string>
@@ -36,6 +36,7 @@
     <string name="common_google_play_services_wear_update_text">Google Play सेवांच्या नवीन आवृत्तीची आवश्यकता आहे. हे स्वत:ला लवकरच अद्यतनित करेल.</string>
     <string name="common_loading">लोड करत आहे...</string>
     <string name="common_off">बंद</string>
+    <string name="common_ok">ठीक आहे</string>
     <string name="common_on">चालू</string>
     <string name="common_open_on_phone">फोनवर उघडा</string>
     <string name="common_retry">पुन्हा प्रयत्न करा</string>
@@ -71,6 +72,7 @@
     <string name="datadeletion__page_content_description">\"Play गेम्स डेटा हटवा\" पेज दाखवत आहे.</string>
     <string name="game_info_cricket_name">क्रिकेट</string>
     <string name="game_info_pacman_name">पॅक-मॅन</string>
+    <string name="game_info_snake_name">स्‍नेक</string>
     <string name="game_info_solitaire_name">सॉलिटेअर</string>
     <string name="gamedetails__apl_achievement_content_description">झकास कामगिरी: %1$s. वर्णन: %2$s. स्थिती: %3$s. %4$s. %5$s</string>
     <string name="gamedetails__apl_achievement_hidden_description">अधिक जाणून घेण्‍यासाठी खेळत रहा.</string>
@@ -95,11 +97,16 @@
     <string name="games__arcade_fragment_content_description">\"आर्केड\" पेज दाखवत आहे</string>
     <string name="games__installbutton__install">इंस्टॉल करा</string>
     <string name="games__installbutton__install_content_description">%1$s इंस्टॉल करा</string>
+    <string name="games__live_op_headline">आता होत आहे</string>
+    <string name="games__page_default_error_body">काळजी करू नका, समस्‍या आमच्‍याकडून आहे.</string>
     <string name="games__playbutton__play">खेळा</string>
     <string name="games__playbutton__play_content_description">%1$s खेळा</string>
     <string name="games__youtube__video_playback_error_toast">YouTube व्हिडिओ प्ले करू शकत नाही.</string>
     <string name="games__youtube__video_thumbnail_content_description">\"%1$s\" व्हिडिओ प्ले करा</string>
     <string name="games_accessibility_event_tab_selected">%1$s निवडले</string>
+    <string name="games_achievement_comparison_link_text">यशांची तुलना करा</string>
+    <string name="games_achievement_comparison_null_text">तुलना करण्‍यासाठी कोणतेही यश नाही</string>
+    <string name="games_achievement_comparison_title">यशांची तुलना करा</string>
     <string name="games_achievement_hidden_desc">अधिक जाणून घेण्‍यासाठी खेळत रहा.</string>
     <string name="games_achievement_hidden_name">गुपित</string>
     <string name="games_achievement_list_header_unlocked_content_description">%2$d पैकी %1$d यश अनलॉक केले</string>
@@ -135,6 +142,7 @@
     <string name="games_client_settings_signout_alert_dialog_title">साइन आउट केल्याची पुष्‍टी करा</string>
     <string name="games_client_settings_signout_progress_dialog_msg">साइन आउट करत आहे...</string>
     <string name="games_common_header_n_more">आणखी %1$d</string>
+    <string name="games_continue_playing_game_achievement_content_description">%2$d पैकी %1$d यश अनलॉक केले</string>
     <string name="games_continue_playing_installed">खेळणे सुरू ठेवा</string>
     <string name="games_delete_snapshot_dialog_message">आपल्याला खात्री आहे की आपण हा फोन नंबर हटवू इच्छिता?</string>
     <string name="games_delete_snapshot_dialog_title">सेव्ह केलेले गेम हटवा</string>
@@ -154,8 +162,15 @@
     <string name="games_dest_game_detail_leaderboards_tab">लीडरबोर्ड</string>
     <string name="games_dest_game_detail_menu_mute">नि:शब्द करा</string>
     <string name="games_dest_game_detail_menu_unmute">सशब्द करा</string>
+    <string name="games_dest_game_list_card_not_installed_label">इंस्टॉल केले नाही</string>
+    <string name="games_dest_game_list_featured_tab">वैशिष्ट्यीकृत</string>
+    <string name="games_dest_game_list_popular_multiplayer_tab">लोकप्रिय मल्टीप्लेअर</string>
+    <string name="games_dest_game_list_popular_tab">लोकप्रिय</string>
+    <string name="games_dest_google_signed_error_dialog_message">बापरे, काहीतरी कदाचित चुकतेय.</string>
+    <string name="games_dest_google_signed_error_dialog_title">काहीतरी चुकले.</string>
     <string name="games_dest_inbox_empty">आपण सर्व वाचले आहे. आता जा काही गेम खेळा!</string>
     <string name="games_dest_nav_drawer_inbox">सूचना</string>
+    <string name="games_dest_participant_list_label">सहभागी सूची</string>
     <string name="games_dest_player_detail_view_profile">प्रोफाइल पहा</string>
     <string name="games_dest_player_empty_action_text">मित्रांना शोधा</string>
     <string name="games_dest_player_empty_text">कोणतेही खेळाडू आढळले नाहीत</string>
@@ -164,6 +179,8 @@
     <string name="games_dest_players_recommended_empty_message">याक्षणी काहीही नाही... नंतर पुन्हा प्रयत्न करा.</string>
     <string name="games_dest_profile_comparison_their_friends">%1$sचे मित्र</string>
     <string name="games_dest_quests_empty_text">आज कोणतेही शोध नाहीत! आपण स्वीकारलेले Play गेम्स शोध येथे दिसून येतात.</string>
+    <string name="games_dest_shop_games_list_label">एक्सप्लोर करा</string>
+    <string name="games_dest_shop_games_visit_store_text">Play स्टोअर</string>
     <string name="games_dest_sign_in_failed_dialog_message">बापरे, काहीतरी चुकतंय कदाचित.</string>
     <string name="games_dest_sign_in_failed_dialog_send_feedback_button">फीडबॅक पाठवा</string>
     <string name="games_dest_sign_in_failed_dialog_title">काहीतरी चूक झाली.</string>
@@ -172,6 +189,7 @@
     <string name="games_dest_wrong_architecture_text">"Play गेम्स ज्या (%1$s) रचनेसह स्‍थापित केला गेला आहे ती रचना आपल्‍या (%2$s) डिव्‍हाइस रचनेपेक्षा  भिन्न आहे."</string>
     <string name="games_dest_wrong_architecture_title">चुकीची रचना</string>
     <string name="games_dest_xp_event_content_description">%1$s. %2$s. %3$s XP मिळविले. %4$s.</string>
+    <string name="games_dest_xp_history_list_title">माझा XP इतिहास</string>
     <string name="games_duration_hours">%1$s तास</string>
     <string name="games_empty_private_profile_message">वापरकर्त्याने त्यांचे प्रोफाईल खाजगी बनविण्याचे निवडले आहे. तरीही आपले XP उच्च होते असे संभवत: आपण गृहित धरू शकता.</string>
     <string name="games_find_people">लोकांना शोधा</string>
@@ -315,9 +333,13 @@
     <string name="games_menu_search">शोधा</string>
     <string name="games_menu_settings">सेटिंग्ज</string>
     <string name="games_menu_share">शेअर करा</string>
+    <string name="games_menu_view_in_store">Play स्टोअर मध्‍ये पहा</string>
     <string name="games_menu_view_in_store_short">स्‍टोअर</string>
+    <string name="games_mixed_tile_game_name_content_description">गेम: %1$s. विकसक:%2$s</string>
     <string name="games_mixed_tile_leaderboard_score_content_description_with_level">रँक: %1$s. खेळाडू: %2$s. %3$s. गुणसंख्‍या: %4$s</string>
     <string name="games_mixed_tile_player_add_content_description">मंडळांमध्ये खेळाडू जोडा</string>
+    <string name="games_mixed_tile_shopping_game_installed">इंस्टॉल केले</string>
+    <string name="games_mixed_tile_shopping_game_owned">खरेदी केलेले</string>
     <string name="games_multiplayer_inbox_title">सामने</string>
     <string name="games_mvp_avatar_choice_not_selected_content_description">प्रोफाइल इमेज निवडलेली नाही</string>
     <string name="games_mvp_avatar_choice_selected_content_description">प्रोफाइल इमेज निवडली</string>
@@ -406,7 +428,13 @@
     <string name="games_mvp_share_game_card_text">तुमच्‍या मित्रांसह शेअर करा</string>
     <string name="games_mvp_show_undo_snackbar_text">%1$s आता \"माझे गेम\" मध्‍ये दाखवला आहे</string>
     <string name="games_mvp_snackbar_undo_button_text">पहिल्यासारखे करा</string>
+    <string name="games_mvp_snippet_icon_content_liveops_description">आता, %1$s</string>
+    <string name="games_mvp_snippet_icon_content_news_description">नवीन स्निपेट, %1$s</string>
+    <string name="games_mvp_snippet_icon_content_video_description">व्हिडिओ स्निपेट, %1$s</string>
+    <string name="games_mvp_visit_arcade_button_text">आर्केडला भेट द्या</string>
     <string name="games_mvp_you_have_no_games_message">चला खेळूया!</string>
+    <string name="games_my_games_empty_action_text">गेम एक्सप्लोर करा</string>
+    <string name="games_my_games_empty_text">कोणतेही गेम आढळले नाहीत</string>
     <string name="games_my_games_navigation_bar_title">माझे गेम</string>
     <string name="games_nearby_players_confirm_dialog_message">आपण जवळपासचे खेळाडू शोधता तेव्‍हा, Google Play गेम्स तात्पुरते चालू होईल आणि खेळाडू शोधण्‍यासाठी Google खालील तंत्रज्ञान वापरेल: आपले स्थान, मायक्रोफान, स्पीकर, Wi-Fi आणि Bluetooth. <u>अधिक जाणून घ्‍या</u>".
 
@@ -575,7 +603,7 @@
     <string name="games_share_game_share_text">"%1$s खूपच छान आहे. तो Google Play गेम्स वर पहा. आपण माझी गुणसंख्‍या ओलांडू शकत असल्यास पहा!
 
 %2$s"</string>
-    <string name="games_share_game_share_title">सामायिक करा</string>
+    <string name="games_share_game_share_title">शेअर करा</string>
     <string name="games_sign_in_restricted_account_dialog_cta">सुरु ठेवा</string>
     <string name="games_sign_in_restricted_account_dialog_message">%s &lt;br/>&lt;br/> तुम्ही हा गेम प्ले करू शकता, परंतु या खात्यासह आम्ही तुम्हाला Google Play गेम्स मध्ये साइन इन करू देऊ शकत नाही.</string>
     <string name="games_sign_in_restricted_account_dialog_title">साइन इन न करता सुरू ठेवा</string>
@@ -583,12 +611,19 @@
     <string name="games_sign_in_unicorn_account_dialog_message">%s &lt;br/>&lt;br/> दुर्दैवाने, आम्ही या खात्याने तुम्हाला Google Play गेम्समध्ये साइन इन करून देऊ शकत नाही.</string>
     <string name="games_sign_in_unicorn_account_dialog_title">सपोर्ट नसलेले खाते</string>
     <string name="games_signin_welcome_back">सुस्वागतम!</string>
+    <string name="games_snapshot_delete">हटवा</string>
     <string name="games_snapshot_list_null_state">यावेळी सेव्ह केलेले कोणतेही गेम नाहीत</string>
+    <string name="games_snapshot_select">निवडा</string>
     <string name="games_square_tile_achievement_content_description">यश: %1$s. वर्णन: %2$s. स्थिती: %3$s. %4$s. %5$s</string>
     <string name="games_square_tile_achievement_status_locked_content_description">लॉक केलेले</string>
     <string name="games_square_tile_achievement_status_unlocked_content_description">अनलॉक केले</string>
     <string name="games_sync_label">गेम डेटा</string>
     <string name="games_tile_accepted_quest_content_description">शोध: %1$s. गेम: %2$s. शोध चा स्‍वीकार केला. प्रगती: %4$d पैकी %3$d. %5$s. वर्णन: %6$s</string>
+    <string name="games_tile_achievement_comparison_content_description">यश: %1$s. स्थिती: %2$s. %3$s. %4$s XP. %5$s.</string>
+    <string name="games_tile_achievement_comparison_locked">लॉक केले</string>
+    <string name="games_tile_achievement_comparison_unlocked_by_both">दोन्ही द्वारे अनलॉक केलेले</string>
+    <string name="games_tile_achievement_comparison_unlocked_by_them">अन्य खेळाडूद्वारे अनलॉक केलेले</string>
+    <string name="games_tile_achievement_comparison_unlocked_by_you">आपण अनलॉक केलेले</string>
     <string name="games_tile_match_content_description">गेम: %1$s. स्थिती: %2$s. शेवटचे अपडेट केलेले: %3$s. हा सामना सुरु करण्‍यासाठी हे कार्ड क्लिक करा.</string>
     <string name="games_tile_match_description_rematch_matches_format">पुन्हा सामना खेळणे</string>
     <string name="games_tile_match_rematch_button_description">पुन्हा खेळलेला सामना</string>
@@ -661,7 +696,7 @@
     <string name="games_video_recording_mic_control_content_description_off">माइक सक्षम करा</string>
     <string name="games_video_recording_mic_control_content_description_on">माइक अक्षम करा</string>
     <string name="games_video_recording_not_enough_space_on_device">आपल्या डिव्हाइसवर पुरेसे स्थान नाही</string>
-    <string name="games_video_recording_onboarding_1_text">YouTube वरील उत्कृष्ट गेमिंग क्षण सामायिक करा</string>
+    <string name="games_video_recording_onboarding_1_text">YouTube वरील उत्कृष्ट गेमिंग क्षण शेअर करा</string>
     <string name="games_video_recording_onboarding_1_title">YouTube वरील आपला गेमप्ले</string>
     <string name="games_video_recording_onboarding_2_text">आपण प्ले करता तेव्हा आपला चेहरा आणि व्हॉइसचा व्हिडिओ कॅप्चर करा.</string>
     <string name="games_video_recording_onboarding_2_title">धावते समालोचन वृत्त</string>
@@ -669,7 +704,7 @@
     <string name="games_video_recording_onboarding_3_title">आपला अवतार हे सर्व करतो</string>
     <string name="games_video_recording_onboarding_button">प्रारंभ करा</string>
     <string name="games_video_recording_prerecord_cancel">रद्द करा</string>
-    <string name="games_video_recording_prerecord_description">"YouTube वरील उत्कृष्ट गेमिंग क्षण सामायिक करा.
+    <string name="games_video_recording_prerecord_description">"YouTube वरील उत्कृष्ट गेमिंग क्षण शेअर करा.
 
 व्हिडिओ डीव्हाइस फोल्डर > स्क्रीनकास्ट मधील आपल्या फोटो गॅलरीमध्ये सेव्ह केलेले आहेत."</string>
     <string name="games_video_recording_prerecord_proceed_launch">लाँच करा</string>

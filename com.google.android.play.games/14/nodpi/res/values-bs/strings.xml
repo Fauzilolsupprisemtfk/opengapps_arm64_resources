@@ -11,12 +11,12 @@
     <string name="abc_searchview_description_submit">Pošalji upit</string>
     <string name="abc_searchview_description_voice">Glasovno pretraživanje</string>
     <string name="abc_toolbar_collapse_description">Skupi</string>
-    <string name="arcade__error_body">Izgleda da nešto nije uredu kod pokretanja Arkade.</string>
     <string name="arcade__error_headline">Postoji problem.</string>
     <string name="arcade__error_retry_button">Pokušaj ponovo</string>
     <string name="arcade__error_send_feedback_button">Pošalji povratne informacije</string>
     <string name="arcade__offline_body">Arkadne igre nisu uključene. Provjerite jeste li povezani na internet da ih uključite.</string>
     <string name="arcade__offline_headline">Provjerite jeste li povezani na internet.</string>
+    <string name="common_cancel">Otkaži</string>
     <string name="common_games_settings_title">Play igre</string>
     <string name="common_google_play_services_enable_button">Omogući</string>
     <string name="common_google_play_services_enable_text">Aplikacija %1$s neće raditi ako ne omogućite Google Play usluge.</string>
@@ -36,12 +36,13 @@
     <string name="common_google_play_services_wear_update_text">Potrebna je nova verzija Google Play usluga. Ubrzo će se samo ažurirati.</string>
     <string name="common_loading">Učitava se…</string>
     <string name="common_off">Isključeno</string>
+    <string name="common_ok">UREDU</string>
     <string name="common_on">Uključeno</string>
     <string name="common_open_on_phone">Otvori na telefonu</string>
     <string name="common_retry">Pokušaj ponovo</string>
     <string name="customer_information_title">Informacije za klijente</string>
     <string name="datadeletion__archived_game_item_title">Podaci iz arhiviranih igara</string>
-    <string name="datadeletion__delete_archived_game_button_content_description">Obrišite podatke iz arhiviranih igara.</string>
+    <string name="datadeletion__delete_archived_game_button_content_description">Izbrišite podatke iz arhiviranih igara.</string>
     <string name="datadeletion__delete_archived_game_data_confirm_dialog_message">"Ako izbrišete podatke iz arhiviranih igara, uklonit će se vaši rezultati, progres i postavke igre koje ste unijeli koristeći Google Play igre.
 
 Ovu radnju nije moguće opozvati!"</string>
@@ -70,6 +71,7 @@ Ta radnja se ne može opozvati."</string>
     <string name="datadeletion__game_list_retry_button">Ponovi</string>
     <string name="datadeletion__page_content_description">Prikazana je stranica \"Brisanje podataka Play igara\".</string>
     <string name="game_info_cricket_name">Kriket</string>
+    <string name="game_info_snake_name">Zmija</string>
     <string name="game_info_solitaire_name">Pasijans</string>
     <string name="gamedetails__apl_achievement_content_description">Postignuće: %1$s. Opis: %2$s. Stanje: %3$s. %4$s. %5$s</string>
     <string name="gamedetails__apl_achievement_hidden_description">Nastavite igrati za više informacija.</string>
@@ -95,11 +97,16 @@ Ta radnja se ne može opozvati."</string>
     <string name="games__arcade_fragment_content_description">Prikazuje se stranica \"Arkada\".</string>
     <string name="games__installbutton__install">Instaliraj</string>
     <string name="games__installbutton__install_content_description">Instaliraj %1$s</string>
+    <string name="games__live_op_headline">Trenutna dešavanja</string>
+    <string name="games__page_default_error_body">Nije do vas, do nas je.</string>
     <string name="games__playbutton__play">Pokreni</string>
     <string name="games__playbutton__play_content_description">Pokreni %1$s</string>
     <string name="games__youtube__video_playback_error_toast">Ne možemo reproducirati YouTube videozapis.</string>
     <string name="games__youtube__video_thumbnail_content_description">Reproduciraj videozapis \"%1$s\"</string>
     <string name="games_accessibility_event_tab_selected">Izabrana kartica %1$s</string>
+    <string name="games_achievement_comparison_link_text">POREĐENJE DOSTIGNUĆA</string>
+    <string name="games_achievement_comparison_null_text">Nema dostignuća za poređenje</string>
+    <string name="games_achievement_comparison_title">Poređenje dostignuća</string>
     <string name="games_achievement_hidden_desc">Nastavite igrati kako biste saznali više.</string>
     <string name="games_achievement_hidden_name">Tajna</string>
     <string name="games_achievement_list_header_unlocked_content_description">Broj dostignuća koja su otključana: %1$d od %2$d</string>
@@ -135,6 +142,7 @@ Ta radnja se ne može opozvati."</string>
     <string name="games_client_settings_signout_alert_dialog_title">Potvrditi odjavljivanje</string>
     <string name="games_client_settings_signout_progress_dialog_msg">Odjavljivanje…</string>
     <string name="games_common_header_n_more">POGLEDAJ JOŠ %1$d</string>
+    <string name="games_continue_playing_game_achievement_content_description">Broj otključanih dostignuća: %1$d od %2$d.</string>
     <string name="games_continue_playing_installed">Nastavite igrati</string>
     <string name="games_delete_snapshot_dialog_message">Sigurno želite izbrisati ovu sačuvanu igru?</string>
     <string name="games_delete_snapshot_dialog_title">Izbrisati sačuvanu igru</string>
@@ -154,8 +162,15 @@ ZA VAŠ UREĐAJ"</string>
     <string name="games_dest_game_detail_leaderboards_tab">RANG LISTA</string>
     <string name="games_dest_game_detail_menu_mute">Isključi zvuk</string>
     <string name="games_dest_game_detail_menu_unmute">Uključi zvuk</string>
+    <string name="games_dest_game_list_card_not_installed_label">Igra nije instalirana</string>
+    <string name="games_dest_game_list_featured_tab">IZDVOJENE IGRE</string>
+    <string name="games_dest_game_list_popular_multiplayer_tab">POPULARNE IGRE ZA VIŠE IGRAČA</string>
+    <string name="games_dest_game_list_popular_tab">POPULARNE IGRE</string>
+    <string name="games_dest_google_signed_error_dialog_message">Izgleda da je došlo do problema s pokretanjem.</string>
+    <string name="games_dest_google_signed_error_dialog_title">Nešto nije uredu.</string>
     <string name="games_dest_inbox_empty">Svi ste stigli sve. Sada odigrajte neku igru!</string>
     <string name="games_dest_nav_drawer_inbox">Obavijesti</string>
+    <string name="games_dest_participant_list_label">Spisak učesnika</string>
     <string name="games_dest_player_detail_view_profile">POGLEDAJ PROFIL</string>
     <string name="games_dest_player_empty_action_text">Potražite prijatelje</string>
     <string name="games_dest_player_empty_text">Nisu pronađeni igrači</string>
@@ -164,6 +179,8 @@ ZA VAŠ UREĐAJ"</string>
     <string name="games_dest_players_recommended_empty_message">Ništa u ovom trenutku ... pokušajte ponovo kasnije.</string>
     <string name="games_dest_profile_comparison_their_friends">Prijatelji igrača %1$s</string>
     <string name="games_dest_quests_empty_text">Nema izazova za danas! Ovdje možete naći izazove koje ste prihvatili.</string>
+    <string name="games_dest_shop_games_list_label">Istražite</string>
+    <string name="games_dest_shop_games_visit_store_text">Play trgovina</string>
     <string name="games_dest_sign_in_failed_dialog_message">Izgleda da nešto nije uredu.</string>
     <string name="games_dest_sign_in_failed_dialog_send_feedback_button">Pošalji povratne informacije</string>
     <string name="games_dest_sign_in_failed_dialog_title">Nešto nije uredu.</string>
@@ -172,6 +189,7 @@ ZA VAŠ UREĐAJ"</string>
     <string name="games_dest_wrong_architecture_text">Instalirana je aplikacija Play igre sa arhitekturom (%1$s), što se razlikuje od arhitekture (%2$s) vašeg uređaja.</string>
     <string name="games_dest_wrong_architecture_title">Pogrešna arhitektura</string>
     <string name="games_dest_xp_event_content_description">%1$s. %2$s. Stekli ste %3$s iskustvenih bodova. %4$s.</string>
+    <string name="games_dest_xp_history_list_title">Historija mojih XP</string>
     <string name="games_duration_hours">%1$s sati</string>
     <string name="games_empty_private_profile_message">Korisnik je odabrao da profiil bude privatan. Možete vjerovatno pretpostaviti da ste ionako imali više iskustvenih poena (XP).</string>
     <string name="games_find_people">Pronađi osobe</string>
@@ -315,9 +333,13 @@ Recite drugima za ovu igru i upoređujte rezultate kada igraju."</string>
     <string name="games_menu_search">Traženje</string>
     <string name="games_menu_settings">Postavke</string>
     <string name="games_menu_share">Dijeljenje</string>
+    <string name="games_menu_view_in_store">Pogledajte u Play trgovini</string>
     <string name="games_menu_view_in_store_short">Trgovina</string>
+    <string name="games_mixed_tile_game_name_content_description">Igra: %1$s. Programer:%2$s</string>
     <string name="games_mixed_tile_leaderboard_score_content_description_with_level">Rang: %1$s. Igrač: %2$s. %3$s. Rezultat: %4$s</string>
     <string name="games_mixed_tile_player_add_content_description">Dodavanje igrača u krugove</string>
+    <string name="games_mixed_tile_shopping_game_installed">INSTALIRANA IGRA</string>
+    <string name="games_mixed_tile_shopping_game_owned">KUPLJENA IGRA</string>
     <string name="games_multiplayer_inbox_title">Partije</string>
     <string name="games_mvp_avatar_choice_not_selected_content_description">Slika profila nije odabrana</string>
     <string name="games_mvp_avatar_choice_selected_content_description">Odabrana slika profila</string>
@@ -407,9 +429,15 @@ Recite drugima za ovu igru i upoređujte rezultate kada igraju."</string>
     <string name="games_mvp_share_game_card_text">Podijelite sa svojim prijateljima</string>
     <string name="games_mvp_show_undo_snackbar_text">Igra %1$s je sada prikazana u \"Moje igre\"</string>
     <string name="games_mvp_snackbar_undo_button_text">Opozovi</string>
+    <string name="games_mvp_snippet_icon_content_liveops_description">Sada, %1$s</string>
+    <string name="games_mvp_snippet_icon_content_news_description">Isječak vijesti, %1$s</string>
+    <string name="games_mvp_snippet_icon_content_video_description">Isječak videozapisa, %1$s</string>
+    <string name="games_mvp_visit_arcade_button_text">Posjeti Arkadu</string>
     <string name="games_mvp_you_have_no_games_message">Hajde da se igramo!</string>
+    <string name="games_my_games_empty_action_text">Istražite igre</string>
+    <string name="games_my_games_empty_text">Nije pronađena nijedna igra</string>
     <string name="games_my_games_navigation_bar_title">Moje igre</string>
-    <string name="games_nearby_players_confirm_dialog_message">Svaki put kad budete tražili igrače u blizini, Google Play igre će privremeno uključiti i koristiti sljedeće tehnologije s ciljem pronalaska igrača: vašu lokaciju, mikrofon, zvučnik, Wi-Fi i Bluetooth. <u>Saznajte više</u>".
+    <string name="games_nearby_players_confirm_dialog_message">Svaki put kad budete tražili igrače u blizini, Google Play igre će privremeno uključiti i koristiti sljedeće tehnologije s ciljem pronalaska igrača: vašu lokaciju, mikrofon, zvučnik, WiFi i Bluetooth. <u>Saznajte više</u>".
 
 Kada je uključena opcija Igrači u blizini, drugi igrači u blizini koji igraju ovu igru mogu potražiti i vidjeti vaše ime i vašu sliku dok pretražujete."</string>
     <string name="games_nearby_players_confirm_dialog_title">Igrači u blizini</string>
@@ -558,7 +586,7 @@ Možete uređivati profil i postavke ili izbrisati podatke pohranjene na Googleu
     <string name="games_settings_debug_reset_profile_settings_fail">Ponovno postavljanje postavki profila nije uspjelo!</string>
     <string name="games_settings_debug_reset_profile_settings_success">Uspješno ponovno postavljene postavke profila!</string>
     <string name="games_settings_delete_profile">Brisanje profila za Play igre</string>
-    <string name="games_settings_delete_profile_dialog_message">"Ova radnja će obrisati sve vaše informacije u aplikaciji Google Play igre, uključujući ID igrača i iskustvene poene. Mogu se izbrisati i vaši rezultati, napredak i postavke igara koje igrate.
+    <string name="games_settings_delete_profile_dialog_message">"Ova radnja će izbrisati sve vaše informacije u aplikaciji Google Play igre, uključujući ID igrača i iskustvene poene. Mogu se izbrisati i vaši rezultati, napredak i postavke igara koje igrate.
 
 Ova radnja se ne može poništiti!"</string>
     <string name="games_settings_delete_profile_dialog_title">Izbrisati profil za Play igre?</string>
@@ -584,12 +612,19 @@ Ova radnja se ne može poništiti!"</string>
     <string name="games_sign_in_unicorn_account_dialog_message">%s &lt;br/>&lt;br/> Nažalost, ne možemo vas prijaviti u Google Play igre s ovim računom.</string>
     <string name="games_sign_in_unicorn_account_dialog_title">Račun nije podržan</string>
     <string name="games_signin_welcome_back">DOBRODOŠLI</string>
+    <string name="games_snapshot_delete">Izbriši</string>
     <string name="games_snapshot_list_null_state">U ovom trenutku nema sačuvanih igara</string>
+    <string name="games_snapshot_select">Odaberi</string>
     <string name="games_square_tile_achievement_content_description">Dostignuće: %1$s. Opis: %2$s. Stanje: %3$s. %4$s. %5$s</string>
     <string name="games_square_tile_achievement_status_locked_content_description">zaključano</string>
     <string name="games_square_tile_achievement_status_unlocked_content_description">otključano</string>
     <string name="games_sync_label">Podataka o igri</string>
     <string name="games_tile_accepted_quest_content_description">Zadatak: %1$s. Igra: %2$s. Izazov prihvaćen. Napredak: %3$d od %4$d. %5$s. Opis: %6$s</string>
+    <string name="games_tile_achievement_comparison_content_description">Dostignuće: %1$s. Stanje: %2$s. %3$s. %4$s Iskustveni bodovi. %5$s.</string>
+    <string name="games_tile_achievement_comparison_locked">Zaključano</string>
+    <string name="games_tile_achievement_comparison_unlocked_by_both">Otključala su ga oba igrača</string>
+    <string name="games_tile_achievement_comparison_unlocked_by_them">Otključao ga je drugi igrač</string>
+    <string name="games_tile_achievement_comparison_unlocked_by_you">Otključali ste ga vi</string>
     <string name="games_tile_match_content_description">Igra: %1$s. Stanje: %2$s. Zadnji put ažurirano: %3$s. Kliknite na ovu karticu za započinjanje ove partije.</string>
     <string name="games_tile_match_description_rematch_matches_format">UZVRATNA PARTIJA</string>
     <string name="games_tile_match_rematch_button_description">Uzvratna partija</string>
@@ -678,7 +713,7 @@ Videozapise možete pronaći u svojoj galeriji, u fascikli Screencasts."</string
     <string name="games_video_recording_prerecord_proceed_next">Naprijed</string>
     <string name="games_video_recording_prerecord_quality_title">Postavke kvalitete</string>
     <string name="games_video_recording_prerecord_title">Snimite vaš tok igranja</string>
-    <string name="games_video_recording_quality_description">Odaberite kvalitet snimanja videozapisa. Povežite se na Wi-Fi mrežu kako biste izbjegli troškove prijenosa podataka pri prijenosu.</string>
+    <string name="games_video_recording_quality_description">Odaberite kvalitet snimanja videozapisa. Povežite se na WiFi mrežu kako biste izbjegli troškove prijenosa podataka pri prijenosu.</string>
     <string name="games_video_recording_record_control_content_description_start">Početak snimanja</string>
     <string name="games_video_recording_record_control_content_description_stop">Prekid snimanja</string>
     <string name="games_video_recording_remaining_minutes">Dužina videozapisa kojeg u %1$s kvalitetu možete snimiti na uređaj: &lt;b>%2$s minuta&lt;/b></string>

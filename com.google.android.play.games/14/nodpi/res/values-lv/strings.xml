@@ -11,12 +11,12 @@
     <string name="abc_searchview_description_submit">Iesniegt vaicājumu</string>
     <string name="abc_searchview_description_voice">Meklēšana ar balsi</string>
     <string name="abc_toolbar_collapse_description">Sakļaut</string>
-    <string name="arcade__error_body">Šķiet, ka radās problēma, mēģinot ielādēt spēles lietotnē Arcade.</string>
     <string name="arcade__error_headline">Diemžēl ir radusies problēma!</string>
     <string name="arcade__error_retry_button">Mēģināt vēlreiz</string>
     <string name="arcade__error_send_feedback_button">Sūtīt atsauksmes</string>
     <string name="arcade__offline_body">Arkādes spēles nav pievienotas. Lai tās darbotos, pārbaudiet interneta savienojumu.</string>
     <string name="arcade__offline_headline">Pārbaudiet interneta savienojumu.</string>
+    <string name="common_cancel">Atcelt</string>
     <string name="common_games_settings_title">Play spēles</string>
     <string name="common_google_play_services_enable_button">Iespējot</string>
     <string name="common_google_play_services_enable_text">Lai lietotne %1$s darbotos, ir jāiespējo Google Play pakalpojumi.</string>
@@ -36,6 +36,7 @@
     <string name="common_google_play_services_wear_update_text">Ir nepieciešama jauna Google Play pakalpojumu versija. Drīzumā tā tiks instalēta.</string>
     <string name="common_loading">Notiek ielāde…</string>
     <string name="common_off">Izslēgts</string>
+    <string name="common_ok">LABI</string>
     <string name="common_on">Ieslēgts</string>
     <string name="common_open_on_phone">Atvērt tālrunī</string>
     <string name="common_retry">Mēģināt vēlreiz</string>
@@ -70,6 +71,7 @@
     <string name="datadeletion__game_list_retry_button">Mēģināt vēlreiz</string>
     <string name="datadeletion__page_content_description">Tiek rādīta lapa “Play spēļu datu dzēšana”.</string>
     <string name="game_info_cricket_name">Krikets</string>
+    <string name="game_info_snake_name">Čūska</string>
     <string name="game_info_solitaire_name">Pasjanss</string>
     <string name="gamedetails__apl_achievement_content_description">Sasniegums: %1$s. Apraksts: %2$s. Statuss: %3$s. %4$s. %5$s</string>
     <string name="gamedetails__apl_achievement_hidden_description">Turpiniet spēlēt, lai uzzinātu vairāk.</string>
@@ -96,11 +98,17 @@
     <string name="games__arcade_fragment_content_description">Tiek rādīta lapa “Arkādes spēles”.</string>
     <string name="games__installbutton__install">Instalēt</string>
     <string name="games__installbutton__install_content_description">Instalēt spēli %1$s</string>
+    <string name="games__live_op_headline">Pašlaik notiek</string>
+    <string name="games__page_default_error_body">Radusies problēma mūsu vainas dēļ.</string>
     <string name="games__playbutton__play">Spēlēt</string>
     <string name="games__playbutton__play_content_description">Spēlēt spēli %1$s</string>
     <string name="games__youtube__video_playback_error_toast">Nevarēja atskaņot YouTube video.</string>
     <string name="games__youtube__video_thumbnail_content_description">Atskaņot videoklipu “%1$s”</string>
     <string name="games_accessibility_event_tab_selected">Atlasīta cilne %1$s</string>
+    <string name="games_achievement_comparison_amount_format">%1$s XP</string>
+    <string name="games_achievement_comparison_link_text">SALĪDZINĀT SASNIEGUMUS</string>
+    <string name="games_achievement_comparison_null_text">Nav sasniegumu, ko salīdzināt</string>
+    <string name="games_achievement_comparison_title">Sasniegumu salīdzināšana</string>
     <string name="games_achievement_hidden_desc">Turpiniet spēlēt, lai uzzinātu vairāk.</string>
     <string name="games_achievement_hidden_name">Slepens</string>
     <string name="games_achievement_list_header_unlocked_content_description">Atbloķēti %1$d sasniegumi no %2$d</string>
@@ -138,6 +146,8 @@ Vai vēlaties pierakstīties kā lietotājs %3$s?"</string>
     <string name="games_client_settings_signout_alert_dialog_title">Izrakstīšanās apstiprināšana</string>
     <string name="games_client_settings_signout_progress_dialog_msg">Notiek izrakstīšanās...</string>
     <string name="games_common_header_n_more">VĒL %1$d</string>
+    <string name="games_continue_playing_game_achievement_content_description">Atbloķēti %1$d sasniegumi no %2$d.</string>
+    <string name="games_continue_playing_game_achievement_count_format">%1$d no %2$d</string>
     <string name="games_continue_playing_installed">Turpināt spēlēt</string>
     <string name="games_date_and_achievement_description_joiner">%1$s. %2$s</string>
     <string name="games_delete_snapshot_dialog_message">Vai tiešām dzēst šo saglabāto spēli?</string>
@@ -158,8 +168,15 @@ JŪSU IERĪCĒ"</string>
     <string name="games_dest_game_detail_leaderboards_tab">UZVARĒTĀJU SARAKSTI</string>
     <string name="games_dest_game_detail_menu_mute">Izslēgt skaņu</string>
     <string name="games_dest_game_detail_menu_unmute">Ieslēgt skaņu</string>
+    <string name="games_dest_game_list_card_not_installed_label">Nav instalēta</string>
+    <string name="games_dest_game_list_featured_tab">PIEDĀVĀTĀS</string>
+    <string name="games_dest_game_list_popular_multiplayer_tab">POPULĀRAS SPĒLES VAIRĀKIEM SPĒLĒTĀJIEM</string>
+    <string name="games_dest_game_list_popular_tab">POPULĀRAS</string>
+    <string name="games_dest_google_signed_error_dialog_message">Šķiet, ka radās inicializēšanas problēma.</string>
+    <string name="games_dest_google_signed_error_dialog_title">Radās kļūda</string>
     <string name="games_dest_inbox_empty">Viss izlasīts. Tagad varat spēlēt spēles!</string>
     <string name="games_dest_nav_drawer_inbox">Paziņojumi</string>
+    <string name="games_dest_participant_list_label">Dalībnieku saraksts</string>
     <string name="games_dest_player_detail_view_profile">SKATĪT PROFILU</string>
     <string name="games_dest_player_empty_action_text">Meklēt draugus</string>
     <string name="games_dest_player_empty_text">Nav atrasts neviens spēlētājs.</string>
@@ -168,6 +185,8 @@ JŪSU IERĪCĒ"</string>
     <string name="games_dest_players_recommended_empty_message">Pašlaik nekā nav. Vēlāk mēģiniet vēlreiz.</string>
     <string name="games_dest_profile_comparison_their_friends">Spēlētāja %1$s draugi</string>
     <string name="games_dest_quests_empty_text">Šodien nav neviena uzdevuma! Šeit tiek rādīti apstiprinātie Play spēļu uzdevumi.</string>
+    <string name="games_dest_shop_games_list_label">Izpētīt</string>
+    <string name="games_dest_shop_games_visit_store_text">Play veikals</string>
     <string name="games_dest_sign_in_failed_dialog_message">Šķiet, ka radās problēma.</string>
     <string name="games_dest_sign_in_failed_dialog_send_feedback_button">Sūtīt atsauksmes</string>
     <string name="games_dest_sign_in_failed_dialog_title">Radās kļūda.</string>
@@ -176,6 +195,7 @@ JŪSU IERĪCĒ"</string>
     <string name="games_dest_wrong_architecture_text">Instalētā pakalpojuma Play spēles arhitektūra (%1$s) atšķiras no jūsu ierīces arhitektūras (%2$s).</string>
     <string name="games_dest_wrong_architecture_title">Neatbilstoša arhitektūra</string>
     <string name="games_dest_xp_event_content_description">%1$s. %2$s. Iegūti %3$s XP punkti. %4$s.</string>
+    <string name="games_dest_xp_history_list_title">Mana XP vēsture</string>
     <string name="games_duration_hours">%1$s stundas</string>
     <string name="games_empty_private_profile_message">Lietotājs ir izvēlējies padarīt savu profilu privātu. Varat pieņemt, ka jums droši vien tāpat ir vairāk pieredzes punktu.</string>
     <string name="games_find_people">Meklēt personas</string>
@@ -319,9 +339,13 @@ Pastāstiet citiem lietotājiem par šo spēli un salīdziniet rezultātus, kad 
     <string name="games_menu_search">Meklēt</string>
     <string name="games_menu_settings">Iestatījumi</string>
     <string name="games_menu_share">Kopīgot</string>
+    <string name="games_menu_view_in_store">Skatīt Play veikalā</string>
     <string name="games_menu_view_in_store_short">Veikals</string>
+    <string name="games_mixed_tile_game_name_content_description">Spēle: %1$s. Izstrādātājs: %2$s</string>
     <string name="games_mixed_tile_leaderboard_score_content_description_with_level">Vieta: %1$s. Spēlētājs: %2$s. %3$s. Rezultāts: %4$s</string>
     <string name="games_mixed_tile_player_add_content_description">Pievienot spēlētāju lokiem</string>
+    <string name="games_mixed_tile_shopping_game_installed">INSTALĒTA</string>
+    <string name="games_mixed_tile_shopping_game_owned">IEGĀDĀTA</string>
     <string name="games_multiplayer_inbox_title">Spēles</string>
     <string name="games_mvp_avatar_choice_not_selected_content_description">Neatlasītais profila attēls</string>
     <string name="games_mvp_avatar_choice_selected_content_description">Atlasītais profila attēls</string>
@@ -414,7 +438,13 @@ Pastāstiet citiem lietotājiem par šo spēli un salīdziniet rezultātus, kad 
     <string name="games_mvp_share_game_card_text">Kopīgošana ar draugiem</string>
     <string name="games_mvp_show_undo_snackbar_text">Spēle %1$s ir redzama sadaļā “Manas spēles”</string>
     <string name="games_mvp_snackbar_undo_button_text">Atsaukt</string>
+    <string name="games_mvp_snippet_icon_content_liveops_description">Tagad, %1$s</string>
+    <string name="games_mvp_snippet_icon_content_news_description">Ziņu fragments, %1$s</string>
+    <string name="games_mvp_snippet_icon_content_video_description">Video fragments, %1$s</string>
+    <string name="games_mvp_visit_arcade_button_text">Arkādes spēles</string>
     <string name="games_mvp_you_have_no_games_message">Spēlējiet kādu spēli!</string>
+    <string name="games_my_games_empty_action_text">Izpētīt spēles</string>
+    <string name="games_my_games_empty_text">Nav atrasta neviena spēle.</string>
     <string name="games_my_games_navigation_bar_title">Manas spēles</string>
     <string name="games_nearby_players_confirm_dialog_message">Kad meklējat spēlētājus blakus, pakalpojumā Google Play spēles viņu atrašanai tiks īslaicīgi ieslēgtas un izmantotas šādas tehnoloģijas: jūsu atrašanās vieta, mikrofons, skaļruņi, Wi-Fi un Bluetooth. <u>Uzziniet vairāk</u>".
 
@@ -453,7 +483,7 @@ Funkcijai “Blakus spēlētāji” esot ieslēgtai, citi tuvumā esoši šīs s
     <string name="games_profile_button_hide_profile">Slēpt</string>
     <string name="games_profile_button_remain_hidden">Joprojām paslēpts</string>
     <string name="games_profile_button_remain_public">Joprojām publisks</string>
-    <string name="games_profile_create_fine_print">Varat izmantot savu spēlētāja ID spēlēs, kurās tiek atbalstīta pieteikšanās pakalpojumā Play spēles. Kad jūs spēlējat spēli, tās izstrādātājs saņem jūsu profila informāciju, aktivitāšu datus un informāciju pirkumiem, kas veikti spēlē. Izstrādātāji izmanto šos datus attiecīgās spēles nodrošināšanai un uzlabošanai saskaņā ar savām konfidencialitātes politikām. <a href="https://support.google.com/googleplay/?p=games_signin">Uzziniet vairāk</a>". 
+    <string name="games_profile_create_fine_print">Varat izmantot savu spēlētāja ID spēlēs, kurās tiek atbalstīta pieteikšanās pakalpojumā Play spēles. Kad jūs spēlējat spēli, tās izstrādātājs saņem jūsu profila informāciju, aktivitāšu datus un informāciju par pirkumiem, kas veikti spēlē. Izstrādātāji izmanto šos datus attiecīgās spēles nodrošināšanai un uzlabošanai saskaņā ar savām konfidencialitātes politikām. <a href="https://support.google.com/googleplay/?p=games_signin">Uzziniet vairāk</a>". 
 
 Varat rediģēt savu profilu un iestatījumus vai dzēst Google tīklā saglabātos datus saskaņā ar "<a href="https://www.google.com/policies/privacy/">Google konfidencialitātes politiku</a>. Lai piekristu, pieskarieties vienumam “Izveidot”.</string>
     <string name="games_profile_edit_action_create">Izveidot</string>
@@ -466,7 +496,7 @@ Varat rediģēt savu profilu un iestatījumus vai dzēst Google tīklā saglabā
     <string name="games_profile_edit_error_gamer_tag_taken_with_suggestion">Spēlētāja ID nav pieejams. Varbūt vēlaties izmantot “%1$s”?</string>
     <string name="games_profile_edit_error_message_prefix">Kļūda:</string>
     <string name="games_profile_edit_error_unknown">Radās problēma. Lūdzu, vēlāk mēģiniet vēlreiz.</string>
-    <string name="games_profile_edit_fine_print">Varat izmantot savu spēlētāja ID spēlēs, kurās tiek atbalstīta pieteikšanās pakalpojumā Play spēles. Kad jūs spēlējat spēli, tās izstrādātājs saņem jūsu profila informāciju, aktivitāšu datus un informāciju pirkumiem, kas veikti spēlē. Izstrādātāji izmanto šos datus attiecīgās spēles nodrošināšanai un uzlabošanai saskaņā ar savām konfidencialitātes politikām. <a href="https://support.google.com/googleplay/?p=games_signin">Uzziniet vairāk</a>". 
+    <string name="games_profile_edit_fine_print">Varat izmantot savu spēlētāja ID spēlēs, kurās tiek atbalstīta pieteikšanās pakalpojumā Play spēles. Kad jūs spēlējat spēli, tās izstrādātājs saņem jūsu profila informāciju, aktivitāšu datus un informāciju par pirkumiem, kas veikti spēlē. Izstrādātāji izmanto šos datus attiecīgās spēles nodrošināšanai un uzlabošanai saskaņā ar savām konfidencialitātes politikām. <a href="https://support.google.com/googleplay/?p=games_signin">Uzziniet vairāk</a>". 
 
 Varat rediģēt savu profilu un iestatījumus vai dzēst Google tīklā saglabātos datus saskaņā ar "<a href="https://www.google.com/policies/privacy/">Google konfidencialitātes politiku</a>. Lai piekristu, pieskarieties vienumam “Saglabāt”.</string>
     <string name="games_profile_edit_gamer_tag_header">Spēlētāja ID</string>
@@ -592,12 +622,19 @@ Varat rediģēt savu profilu un iestatījumus vai dzēst Google tīklā saglabā
     <string name="games_sign_in_unicorn_account_dialog_message">%s &lt;br/>&lt;br/> Diemžēl nevarat pierakstīties pakalpojumā Google Play spēles, izmantojot šo kontu.</string>
     <string name="games_sign_in_unicorn_account_dialog_title">Neatbalstīts konts</string>
     <string name="games_signin_welcome_back">LAIPNI LŪDZAM!</string>
+    <string name="games_snapshot_delete">Dzēst</string>
     <string name="games_snapshot_list_null_state">Pašlaik nav saglabāta neviena spēle.</string>
+    <string name="games_snapshot_select">Atlasīt</string>
     <string name="games_square_tile_achievement_content_description">Sasniegums: %1$s. Apraksts: %2$s. Statuss: %3$s. %4$s. %5$s</string>
     <string name="games_square_tile_achievement_status_locked_content_description">bloķēts</string>
     <string name="games_square_tile_achievement_status_unlocked_content_description">atbloķēts</string>
     <string name="games_sync_label">Spēles dati</string>
     <string name="games_tile_accepted_quest_content_description">Uzdevums: %1$s. Spēle: %2$s. Uzdevums pieņemts. Izspēlēts: %3$d no %4$d. %5$s. Apraksts: %6$s</string>
+    <string name="games_tile_achievement_comparison_content_description">Sasniegums: %1$s. Statuss: %2$s. %3$s. %4$s XP. %5$s .</string>
+    <string name="games_tile_achievement_comparison_locked">Bloķēts</string>
+    <string name="games_tile_achievement_comparison_unlocked_by_both">Ir atbloķējuši abi spēlētāji</string>
+    <string name="games_tile_achievement_comparison_unlocked_by_them">Ir atbloķējis otrs spēlētājs</string>
+    <string name="games_tile_achievement_comparison_unlocked_by_you">Jūs esat atbloķējis</string>
     <string name="games_tile_match_content_description">Spēle: %1$s. Statuss: %2$s. Pēdējo reizi atjaunināts: %3$s. Lai sāktu šo spēli, noklikšķiniet uz šīs kartītes.</string>
     <string name="games_tile_match_description_rematch_matches_format">Atbildes spēle</string>
     <string name="games_tile_match_rematch_button_description">Atbildes spēle</string>
@@ -720,7 +757,7 @@ Videoklipi tiek saglabāti jūsu fotoattēlu galerijā, kas atrodas mapē Ierīc
     <string name="games_waiting_room_waiting_for_players">Gaida spēlētājus</string>
     <string name="games_wide_tile_match_description_offline">Gaida, lai atjauninātu</string>
     <string name="games_wide_tile_match_players_image_content_description">Skatīt spēlētāju sarakstu</string>
-    <string name="hide_account_list">Slēpt kontus</string>
+    <string name="games_xp_event_amount_format">+%1$s XP</string>
     <string name="open_source_licenses_title">Atklātā pirmkoda licences</string>
     <string name="permgrouplab_calendar">Kalendārs</string>
     <string name="permgrouplab_camera">Kamera</string>
@@ -741,8 +778,6 @@ Videoklipi tiek saglabāti jūsu fotoattēlu galerijā, kas atrodas mapē Ierīc
     <string name="play_content_description_page_indicator">%1$s. lapa no %2$s</string>
     <string name="play_drawer_open">Rādīt navigācijas atvilktni</string>
     <string name="preferences_license_title">Atklātā pirmkoda licences</string>
-    <string name="selected_account">Pierakstīts kontā %1$s</string>
-    <string name="show_account_list">Rādīt kontus</string>
     <string name="suw_back_button_label">Atpakaļ</string>
     <string name="suw_more_button_label">Vairāk</string>
     <string name="suw_next_button_label">Tālāk</string>

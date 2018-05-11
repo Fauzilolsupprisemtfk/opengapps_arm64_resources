@@ -11,12 +11,12 @@
     <string name="abc_searchview_description_submit">Enviar consulta</string>
     <string name="abc_searchview_description_voice">Búsqueda por voz</string>
     <string name="abc_toolbar_collapse_description">Contraer</string>
-    <string name="arcade__error_body">Parece que se ha producido un error al cargar la página de juegos arcade.</string>
     <string name="arcade__error_headline">¡Vaya! Hay un problema.</string>
     <string name="arcade__error_retry_button">Reintentar</string>
-    <string name="arcade__error_send_feedback_button">Danos tu opinión</string>
+    <string name="arcade__error_send_feedback_button">Enviar comentarios</string>
     <string name="arcade__offline_body">Los juegos arcade no están conectados. Comprueba tu conexión a Internet para activarlos.</string>
     <string name="arcade__offline_headline">Comprueba tu conexión a Internet.</string>
+    <string name="common_cancel">Cancelar</string>
     <string name="common_games_settings_title">Play Juegos</string>
     <string name="common_google_play_services_enable_button">Habilitar</string>
     <string name="common_google_play_services_enable_text">%1$s no funcionará hasta que no habilites Servicios de Google Play.</string>
@@ -35,6 +35,7 @@
     <string name="common_google_play_services_wear_update_text">Se necesita una nueva versión de Servicios de Google Play. Se actualizará en breve.</string>
     <string name="common_loading">Cargando…</string>
     <string name="common_off">Desactivado</string>
+    <string name="common_ok">Aceptar</string>
     <string name="common_on">Activado</string>
     <string name="common_open_on_phone">Abrir en teléfono</string>
     <string name="common_retry">Reintentar</string>
@@ -61,7 +62,7 @@ Esta acción no se puede deshacer."</string>
     <string name="datadeletion__delete_game_data_header">Eliminar datos de un juego</string>
     <string name="datadeletion__delete_game_data_success">Tus datos de \"%1$s\" se borrarán en las próximas 24 horas.</string>
     <string name="datadeletion__delete_profile_button">Eliminar perfil</string>
-    <string name="datadeletion__delete_profile_explanation">Elimina todos tus datos de Google Play Juegos, como tus XP y tu ID de jugador. También es posible que se eliminen las puntuaciones, los progresos y los ajustes de tus juegos.</string>
+    <string name="datadeletion__delete_profile_explanation">Elimina todos tus datos de Google Play Juegos, como tus XP y tu ID de jugador. Es posible que también se eliminen las puntuaciones, los progresos y los ajustes de tus juegos.</string>
     <string name="datadeletion__delete_profile_header">Eliminar perfil y todos los datos</string>
     <string name="datadeletion__deleting_archived_game_button_content_description">Eliminando datos de juegos archivados.</string>
     <string name="datadeletion__game_list_load_error">No se ha podido cargar la lista de juegos a los que has jugado con Google Play Juegos. Vuelve a intentarlo más tarde.</string>
@@ -69,6 +70,7 @@ Esta acción no se puede deshacer."</string>
     <string name="datadeletion__game_list_retry_button">Reintentar</string>
     <string name="datadeletion__page_content_description">Mostrando la página Eliminar datos de Play Juegos.</string>
     <string name="game_info_cricket_name">Críquet</string>
+    <string name="game_info_snake_name">Serpiente</string>
     <string name="game_info_solitaire_name">Solitario</string>
     <string name="gamedetails__apl_achievement_content_description">Logro: %1$s. Descripción: %2$s. Estado: %3$s. %4$s. %5$s</string>
     <string name="gamedetails__apl_achievement_hidden_description">Sigue jugando para descubrir más.</string>
@@ -94,11 +96,17 @@ Esta acción no se puede deshacer."</string>
     <string name="games__arcade_fragment_content_description">Mostrando página Arcade.</string>
     <string name="games__installbutton__install">Instalar</string>
     <string name="games__installbutton__install_content_description">Instalar %1$s</string>
+    <string name="games__live_op_headline">Tiempo limitado</string>
+    <string name="games__page_default_error_body">No eres tú, somos nosotros.</string>
     <string name="games__playbutton__play">Jugar</string>
     <string name="games__playbutton__play_content_description">Jugar a %1$s</string>
     <string name="games__youtube__video_playback_error_toast">No se ha podido reproducir el vídeo de YouTube.</string>
     <string name="games__youtube__video_thumbnail_content_description">Reproducir el vídeo \"%1$s\"</string>
     <string name="games_accessibility_event_tab_selected">Pestaña %1$s seleccionada</string>
+    <string name="games_achievement_comparison_amount_format">%1$s XP</string>
+    <string name="games_achievement_comparison_link_text">COMPARAR LOGROS</string>
+    <string name="games_achievement_comparison_null_text">No hay logros que comparar</string>
+    <string name="games_achievement_comparison_title">Compara logros</string>
     <string name="games_achievement_hidden_desc">¡Sigue jugando para descubrir más!</string>
     <string name="games_achievement_hidden_name">Secreto</string>
     <string name="games_achievement_list_header_unlocked_content_description">%1$d de %2$d logros desbloqueados</string>
@@ -136,6 +144,8 @@ Esta acción no se puede deshacer."</string>
     <string name="games_client_settings_signout_alert_dialog_title">Confirmar cierre de sesión</string>
     <string name="games_client_settings_signout_progress_dialog_msg">Cerrando sesión...</string>
     <string name="games_common_header_n_more">%1$d MÁS</string>
+    <string name="games_continue_playing_game_achievement_content_description">%1$d de %2$d logros desbloqueados</string>
+    <string name="games_continue_playing_game_achievement_count_format">%1$d/%2$d</string>
     <string name="games_continue_playing_installed">Seguir reproduciendo</string>
     <string name="games_date_and_achievement_description_joiner">%1$s: %2$s</string>
     <string name="games_delete_snapshot_dialog_message">¿Seguro que quieres eliminar este juego guardado?</string>
@@ -156,8 +166,15 @@ PARA TU DISPOSITIVO"</string>
     <string name="games_dest_game_detail_leaderboards_tab">MARCADORES</string>
     <string name="games_dest_game_detail_menu_mute">Silenciar</string>
     <string name="games_dest_game_detail_menu_unmute">Activar sonido</string>
+    <string name="games_dest_game_list_card_not_installed_label">No instalado</string>
+    <string name="games_dest_game_list_featured_tab">DESTACADOS</string>
+    <string name="games_dest_game_list_popular_multiplayer_tab">MULTIJUGADOR POPULARES</string>
+    <string name="games_dest_game_list_popular_tab">POPULARES</string>
+    <string name="games_dest_google_signed_error_dialog_message">Vaya, parece que la inicialización no se ha realizado correctamente.</string>
+    <string name="games_dest_google_signed_error_dialog_title">Algo no va bien.</string>
     <string name="games_dest_inbox_empty">Ya has leído todas las notificaciones. ¡Hora de jugar!</string>
     <string name="games_dest_nav_drawer_inbox">Notificaciones</string>
+    <string name="games_dest_participant_list_label">Lista de participantes</string>
     <string name="games_dest_player_detail_view_profile">VER PERFIL</string>
     <string name="games_dest_player_empty_action_text">Buscar amigos</string>
     <string name="games_dest_player_empty_text">No se han encontrado jugadores</string>
@@ -166,6 +183,8 @@ PARA TU DISPOSITIVO"</string>
     <string name="games_dest_players_recommended_empty_message">No tienes recomendaciones por el momento... Vuelve a intentarlo más tarde.</string>
     <string name="games_dest_profile_comparison_their_friends">Amigos de %1$s</string>
     <string name="games_dest_quests_empty_text">¡Hoy no tienes misiones! Las misiones de Play Juegos que has aceptado aparecen aquí.</string>
+    <string name="games_dest_shop_games_list_label">Explorar</string>
+    <string name="games_dest_shop_games_visit_store_text">Play Store</string>
     <string name="games_dest_sign_in_failed_dialog_message">Vaya, parece que se ha producido un error.</string>
     <string name="games_dest_sign_in_failed_dialog_send_feedback_button">Danos tu opinión</string>
     <string name="games_dest_sign_in_failed_dialog_title">Se ha producido un error.</string>
@@ -174,6 +193,7 @@ PARA TU DISPOSITIVO"</string>
     <string name="games_dest_wrong_architecture_text">Play Juegos se ha instalado con una arquitectura (%1$s) diferente a la de tu dispositivo (%2$s).</string>
     <string name="games_dest_wrong_architecture_title">Arquitectura incorrecta</string>
     <string name="games_dest_xp_event_content_description">%1$s. %2$s. %3$s XP conseguidos. %4$s.</string>
+    <string name="games_dest_xp_history_list_title">Mi historial de XP</string>
     <string name="games_duration_hours">%1$s horas</string>
     <string name="games_empty_private_profile_message">El usuario ha decidido hacer su perfil privado. Probablemente puedas dar por hecho que tenías un mayor número de XP.</string>
     <string name="games_find_people">Encontrar personas</string>
@@ -317,9 +337,13 @@ Informa a otros sobre este juego y compara tus puntuaciones con ellos cuando jue
     <string name="games_menu_search">Buscar</string>
     <string name="games_menu_settings">Ajustes</string>
     <string name="games_menu_share">Compartir</string>
+    <string name="games_menu_view_in_store">Ver en Play Store</string>
     <string name="games_menu_view_in_store_short">Play Store</string>
+    <string name="games_mixed_tile_game_name_content_description">Juego: %1$s. Desarrollador:%2$s</string>
     <string name="games_mixed_tile_leaderboard_score_content_description_with_level">Clasificación: %1$s. Jugador: %2$s. %3$s. Puntuación: %4$s</string>
     <string name="games_mixed_tile_player_add_content_description">Añadir jugador a círculos</string>
+    <string name="games_mixed_tile_shopping_game_installed">INSTALADO</string>
+    <string name="games_mixed_tile_shopping_game_owned">COMPRADO</string>
     <string name="games_multiplayer_inbox_title">Partidas</string>
     <string name="games_mvp_avatar_choice_not_selected_content_description">No se ha seleccionado ninguna imagen de perfil</string>
     <string name="games_mvp_avatar_choice_selected_content_description">Se ha seleccionado una imagen de perfil</string>
@@ -411,7 +435,13 @@ Informa a otros sobre este juego y compara tus puntuaciones con ellos cuando jue
     <string name="games_mvp_share_game_card_text">Comparte con tus amigos</string>
     <string name="games_mvp_show_undo_snackbar_text">%1$s aparece ahora en Mis juegos</string>
     <string name="games_mvp_snackbar_undo_button_text">Deshacer</string>
+    <string name="games_mvp_snippet_icon_content_liveops_description">Ahora, %1$s</string>
+    <string name="games_mvp_snippet_icon_content_news_description">Fragmento de noticia, %1$s</string>
+    <string name="games_mvp_snippet_icon_content_video_description">Fragmento de vídeo, %1$s</string>
+    <string name="games_mvp_visit_arcade_button_text">Visita Arcade</string>
     <string name="games_mvp_you_have_no_games_message">¡Vamos a jugar!</string>
+    <string name="games_my_games_empty_action_text">Explorar juegos</string>
+    <string name="games_my_games_empty_text">No se ha encontrado ningún juego</string>
     <string name="games_my_games_navigation_bar_title">Mis juegos</string>
     <string name="games_nearby_players_confirm_dialog_message">Cada vez que busques jugadores cercanos, Google activará y utilizará temporalmente lo siguiente: tu ubicación, micrófono, altavoz, Wi-Fi y Bluetooth. <u>Más información</u>"
 
@@ -457,7 +487,7 @@ Puedes editar tu perfil y los ajustes o eliminar datos almacenados en Google de 
     <string name="games_profile_edit_action_next">Siguiente</string>
     <string name="games_profile_edit_action_save">Guardar</string>
     <string name="games_profile_edit_auto_sign_in">Iniciar sesión automáticamente en los juegos que lo admitan</string>
-    <string name="games_profile_edit_discoverability">Permitir a otros jugadores encontrar mi ID de jugador con mi nombre o mi correo electrónico</string>
+    <string name="games_profile_edit_discoverability">Permitir que otros jugadores encuentren mi ID de jugador usando mi nombre o mi correo electrónico</string>
     <string name="games_profile_edit_error_gamer_tag_invalid">Prueba otro nombre, este no es válido.</string>
     <string name="games_profile_edit_error_gamer_tag_taken">El ID de jugador no está disponible. Prueba otro nombre.</string>
     <string name="games_profile_edit_error_gamer_tag_taken_with_suggestion">El ID de jugador no está disponible. ¿Qué te parece %1$s?</string>
@@ -474,8 +504,8 @@ Puedes editar tu perfil y los ajustes o eliminar datos almacenados en Google de 
     <string name="games_profile_edit_invalid_gamer_tag">El ID de jugador debe tener entre %1$d y %2$d letras y números</string>
     <string name="games_profile_edit_success">Tu perfil se ha actualizado correctamente.</string>
     <string name="games_profile_edit_title">Edita tu perfil</string>
-    <string name="games_profile_edit_visibility">Permitir a otros jugadores ver mi actividad en los juegos</string>
-    <string name="games_profile_info_message_1">Iniciar sesión automáticamente en los juegos</string>
+    <string name="games_profile_edit_visibility">Permitir que otros jugadores vean mi actividad en los juegos</string>
+    <string name="games_profile_info_message_1">Inicia sesión automáticamente en los juegos</string>
     <string name="games_profile_info_message_2">Presume de tus puntuaciones altas en los marcadores</string>
     <string name="games_profile_info_message_3">Recopila XP y realiza un seguimiento de tus logros</string>
     <string name="games_profile_saving_profile_dialog_title">Guardando perfil</string>
@@ -561,7 +591,7 @@ Puedes editar tu perfil y los ajustes o eliminar datos almacenados en Google de 
     <string name="games_settings_debug_reset_profile_settings_fail">Error al restablecer la configuración del perfil.</string>
     <string name="games_settings_debug_reset_profile_settings_success">Se ha restablecido correctamente la configuración del perfil.</string>
     <string name="games_settings_delete_profile">Eliminar perfil de Play Juegos</string>
-    <string name="games_settings_delete_profile_dialog_message">"Al realizar esta acción, se eliminará toda tu información de Google Play Juegos, como tus XP y tu ID de jugador. También es posible que se eliminen las puntuaciones, los progresos y los ajustes de tus juegos.
+    <string name="games_settings_delete_profile_dialog_message">"Al realizar esta acción, se eliminará toda tu información de Google Play Juegos, como tus XP y tu ID de jugador. Es posible que también se eliminen las puntuaciones, los progresos y los ajustes de tus juegos.
 
 Esta acción no se puede deshacer."</string>
     <string name="games_settings_delete_profile_dialog_title">¿Eliminar perfil de Play Juegos?</string>
@@ -587,12 +617,19 @@ Esta acción no se puede deshacer."</string>
     <string name="games_sign_in_unicorn_account_dialog_message">%s &lt;br/>&lt;br/> No puedes iniciar sesión en Google Play Juegos con esta cuenta.</string>
     <string name="games_sign_in_unicorn_account_dialog_title">Cuenta no admitida</string>
     <string name="games_signin_welcome_back">TE DAMOS LA BIENVENIDA</string>
+    <string name="games_snapshot_delete">Eliminar</string>
     <string name="games_snapshot_list_null_state">No hay partidas guardadas en este momento</string>
+    <string name="games_snapshot_select">Seleccionar</string>
     <string name="games_square_tile_achievement_content_description">Logro: %1$s. Descripción: %2$s. Estado: %3$s. %4$s. %5$s</string>
     <string name="games_square_tile_achievement_status_locked_content_description">bloqueado</string>
     <string name="games_square_tile_achievement_status_unlocked_content_description">desbloqueado</string>
     <string name="games_sync_label">Datos del juego</string>
     <string name="games_tile_accepted_quest_content_description">Misión: %1$s. Juego: %2$s. Misión aceptada. Progreso: %3$d de %4$d. %5$s. Descripción: %6$s</string>
+    <string name="games_tile_achievement_comparison_content_description">Logro: %1$s. Estado: %2$s. %3$s. %4$s XP. %5$s.</string>
+    <string name="games_tile_achievement_comparison_locked">Bloqueado</string>
+    <string name="games_tile_achievement_comparison_unlocked_by_both">Bloqueado por ambos</string>
+    <string name="games_tile_achievement_comparison_unlocked_by_them">Bloqueado por el otro jugador</string>
+    <string name="games_tile_achievement_comparison_unlocked_by_you">Desbloqueado por ti</string>
     <string name="games_tile_match_content_description">Juego: %1$s. Estado: %2$s. Última actualización: %3$s. Haz clic en esta tarjeta para comenzar la partida.</string>
     <string name="games_tile_match_description_rematch_matches_format">REVANCHA</string>
     <string name="games_tile_match_rematch_button_description">Revancha</string>
@@ -714,6 +751,7 @@ Los vídeos se guardan en la sección de screencasts de Carpetas del dispositivo
     <string name="games_waiting_room_waiting_for_players">Esperando a jugadores</string>
     <string name="games_wide_tile_match_description_offline">Esperando para actualizar</string>
     <string name="games_wide_tile_match_players_image_content_description">Ver listas de jugadores</string>
+    <string name="games_xp_event_amount_format">+%1$s XP</string>
     <string name="hats_lib_close_button_description">Cerrar</string>
     <string name="hats_lib_default_prompt_title">Ayúdanos a mejorar Google.</string>
     <string name="hats_lib_default_star_rating_bar_description">Barra de valoración por estrellas</string>
@@ -726,7 +764,6 @@ Los vídeos se guardan en la sección de screencasts de Carpetas del dispositivo
     <string name="hats_lib_prompt_take_our_survey">Mostrar pregunta</string>
     <string name="hats_lib_submit">Enviar</string>
     <string name="hats_lib_thank_you_followup_message">Responde más preguntas para ayudarnos a mejorar nuestro producto</string>
-    <string name="hide_account_list">Ocultar cuentas</string>
     <string name="open_source_licenses_title">Licencias de código abierto</string>
     <string name="permgrouplab_calendar">Calendario</string>
     <string name="permgrouplab_camera">Cámara</string>
@@ -746,8 +783,6 @@ Los vídeos se guardan en la sección de screencasts de Carpetas del dispositivo
     <string name="play_content_description_page_indicator">Página %1$s de %2$s</string>
     <string name="play_drawer_open">Mostrar panel de navegación</string>
     <string name="preferences_license_title">Licencias de código abierto</string>
-    <string name="selected_account">Has iniciado sesión en %1$s</string>
-    <string name="show_account_list">Mostrar cuentas</string>
     <string name="suw_back_button_label">Atrás</string>
     <string name="suw_more_button_label">Más</string>
     <string name="suw_next_button_label">Siguiente</string>

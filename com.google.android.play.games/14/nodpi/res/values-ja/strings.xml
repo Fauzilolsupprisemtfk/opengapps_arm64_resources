@@ -9,12 +9,12 @@
     <string name="abc_searchview_description_submit">検索キーワードを送信</string>
     <string name="abc_searchview_description_voice">音声検索</string>
     <string name="abc_toolbar_collapse_description">折りたたむ</string>
-    <string name="arcade__error_body">アーケードの起動中に問題が発生しました。</string>
     <string name="arcade__error_headline">問題が発生しました。</string>
     <string name="arcade__error_retry_button">再試行</string>
     <string name="arcade__error_send_feedback_button">フィードバックを送信</string>
     <string name="arcade__offline_body">アーケード ゲームにはプラグインが追加されていません。ゲームを拡張するには、インターネット接続をご確認ください。</string>
     <string name="arcade__offline_headline">インターネット接続をご確認ください。</string>
+    <string name="common_cancel">キャンセル</string>
     <string name="common_games_settings_title">Playゲーム</string>
     <string name="common_google_play_services_enable_button">有効にする</string>
     <string name="common_google_play_services_enable_text">%1$sの実行には、Google Play開発者サービスの有効化が必要です。</string>
@@ -40,7 +40,7 @@
     <string name="customer_information_title">顧客情報</string>
     <string name="datadeletion__archived_game_item_title">アーカイブ済みゲームのデータ</string>
     <string name="datadeletion__delete_archived_game_button_content_description">アーカイブ済みゲームのデータを削除します。</string>
-    <string name="datadeletion__delete_archived_game_data_confirm_dialog_message">"アーカイブ済みゲームのデータを削除すると、Google Play ゲームを使用してプレイしたゲームのスコア、進行状況、設定も削除されます。
+    <string name="datadeletion__delete_archived_game_data_confirm_dialog_message">"アーカイブ済みゲームのデータを削除すると、Google Play ゲームでプレイしたゲームのスコア、進行状況、設定も削除されます。
 
 この操作は元に戻せません。"</string>
     <string name="datadeletion__delete_archived_game_data_confirm_dialog_title">アーカイブ済みゲームのデータを削除しますか？</string>
@@ -51,24 +51,25 @@
     <string name="datadeletion__delete_game_data_button_content_description">「%1$s」のデータを削除します</string>
     <string name="datadeletion__delete_game_data_button_deleting_content_description">「%1$s」のデータを削除しています</string>
     <string name="datadeletion__delete_game_data_button_deleting_state">削除中…</string>
-    <string name="datadeletion__delete_game_data_confirm_dialog_message">"「%1$s」のデータを削除すると、Google Play ゲームを使用してプレイしたゲームのスコア、進行状況、設定も削除されます。
+    <string name="datadeletion__delete_game_data_confirm_dialog_message">"「%1$s」のデータを削除すると、Google Play ゲームでプレイしたゲームのスコア、進行状況、設定も削除されます。
 
 この操作は元に戻せません。"</string>
     <string name="datadeletion__delete_game_data_confirm_dialog_title">「%1$s」のデータを削除してもよろしいですか？</string>
     <string name="datadeletion__delete_game_data_error">「%1$s」のデータの削除中にエラーが発生しました。しばらくしてからもう一度お試しください。</string>
-    <string name="datadeletion__delete_game_data_explanation">Google Play ゲームを使用してプレイしたゲームのデータを個別に削除します。選択したゲームのスコア、進行状況、設定が削除されます。</string>
+    <string name="datadeletion__delete_game_data_explanation">Google Play ゲームでプレイしたゲームのデータを個別に削除します。選択したゲームのスコア、進行状況、設定が削除されます。</string>
     <string name="datadeletion__delete_game_data_header">ゲームデータを個別に削除</string>
     <string name="datadeletion__delete_game_data_success">「%1$s」のデータは 24 時間以内に削除されます。</string>
     <string name="datadeletion__delete_profile_button">プロフィールを削除</string>
     <string name="datadeletion__delete_profile_explanation">Google Play ゲームのすべてのデータ（ゲーマー ID、XP など）が削除されます。また、プレイしたゲームのスコア、進行状況、設定も削除されます。</string>
     <string name="datadeletion__delete_profile_header">プロフィールと全データの削除</string>
     <string name="datadeletion__deleting_archived_game_button_content_description">アーカイブ済みゲームのデータを削除しています。</string>
-    <string name="datadeletion__game_list_load_error">Google Play ゲームを使ってプレイしたゲームの一覧を読み込めませんでした。しばらくしてからもう一度お試しください。</string>
+    <string name="datadeletion__game_list_load_error">Google Play ゲームでプレイしたゲームを読み込めませんでした。しばらくしてからもう一度お試しください。</string>
     <string name="datadeletion__game_list_load_indicator_content_description">Google Play ゲームでプレイしたゲームの一覧を読み込んでいます。</string>
     <string name="datadeletion__game_list_retry_button">再試行</string>
     <string name="datadeletion__page_content_description">[Play ゲーム データの削除] ページを表示します。</string>
     <string name="game_info_cricket_name">クリケット</string>
     <string name="game_info_pacman_name">パックマン</string>
+    <string name="game_info_snake_name">ヘビ</string>
     <string name="game_info_solitaire_name">ソリティア</string>
     <string name="gamedetails__apl_achievement_content_description">実績: %1$s。説明: %2$s。ステータス: %3$s。%4$s。%5$s</string>
     <string name="gamedetails__apl_achievement_hidden_description">プレイを続けて達成しよう。</string>
@@ -93,11 +94,16 @@
     <string name="games__arcade_fragment_content_description">[アーケード] ページを表示しています。</string>
     <string name="games__installbutton__install">インストール</string>
     <string name="games__installbutton__install_content_description">「%1$s」をインストールします</string>
+    <string name="games__live_op_headline">ゲームで開催中のイベント</string>
+    <string name="games__page_default_error_body">サーバーでエラーが発生しました。</string>
     <string name="games__playbutton__play">プレイ</string>
     <string name="games__playbutton__play_content_description">「%1$s」をプレイします</string>
     <string name="games__youtube__video_playback_error_toast">YouTube 動画を再生できませんでした。</string>
     <string name="games__youtube__video_thumbnail_content_description">動画「%1$s」を再生します</string>
     <string name="games_accessibility_event_tab_selected">[%1$s] を選択しました</string>
+    <string name="games_achievement_comparison_link_text">実績を比較</string>
+    <string name="games_achievement_comparison_null_text">比較する実績がありません</string>
+    <string name="games_achievement_comparison_title">実績の比較</string>
     <string name="games_achievement_hidden_desc">プレイを続けて達成しよう。</string>
     <string name="games_achievement_hidden_name">非公開</string>
     <string name="games_achievement_list_header_unlocked_content_description">%2$d 個中 %1$d 個の実績を達成済み</string>
@@ -133,6 +139,7 @@
     <string name="games_client_settings_signout_alert_dialog_title">ログアウトの確認</string>
     <string name="games_client_settings_signout_progress_dialog_msg">ログアウトしています...</string>
     <string name="games_common_header_n_more">他 %1$d 件</string>
+    <string name="games_continue_playing_game_achievement_content_description">%2$d 個中 %1$d 個の実績を達成。</string>
     <string name="games_continue_playing_installed">プレイの続行</string>
     <string name="games_delete_snapshot_dialog_message">この保存済みのゲームを削除してもよろしいですか？</string>
     <string name="games_delete_snapshot_dialog_title">保存済みのゲームの削除</string>
@@ -152,8 +159,15 @@
     <string name="games_dest_game_detail_leaderboards_tab">リーダーボード</string>
     <string name="games_dest_game_detail_menu_mute">ミュート</string>
     <string name="games_dest_game_detail_menu_unmute">ミュートを解除</string>
+    <string name="games_dest_game_list_card_not_installed_label">未インストール</string>
+    <string name="games_dest_game_list_featured_tab">おすすめ</string>
+    <string name="games_dest_game_list_popular_multiplayer_tab">人気のマルチプレーヤー型ゲーム</string>
+    <string name="games_dest_game_list_popular_tab">人気</string>
+    <string name="games_dest_google_signed_error_dialog_message">初期化の際に問題が発生しました。</string>
+    <string name="games_dest_google_signed_error_dialog_title">エラー</string>
     <string name="games_dest_inbox_empty">新しい通知はありません。ゲームをお楽しみください。</string>
     <string name="games_dest_nav_drawer_inbox">通知</string>
+    <string name="games_dest_participant_list_label">参加者リスト</string>
     <string name="games_dest_player_detail_view_profile">プロフィールを表示</string>
     <string name="games_dest_player_empty_action_text">友だちを検索</string>
     <string name="games_dest_player_empty_text">プレーヤーが見つかりません</string>
@@ -162,6 +176,8 @@
     <string name="games_dest_players_recommended_empty_message">現在、表示できるプレーヤーはいません。しばらくしてからもう一度お試しください。</string>
     <string name="games_dest_profile_comparison_their_friends">%1$s の友だち</string>
     <string name="games_dest_quests_empty_text">今日はクエストはありません。参加した Play ゲームのクエストはここに表示されます。</string>
+    <string name="games_dest_shop_games_list_label">探す</string>
+    <string name="games_dest_shop_games_visit_store_text">Play ストア</string>
     <string name="games_dest_sign_in_failed_dialog_message">問題が発生しました。</string>
     <string name="games_dest_sign_in_failed_dialog_send_feedback_button">フィードバックを送信</string>
     <string name="games_dest_sign_in_failed_dialog_title">問題が発生しました。</string>
@@ -170,6 +186,7 @@
     <string name="games_dest_wrong_architecture_text">インストールした Play ゲームのアーキテクチャ（%1$s）が端末のアーキテクチャ（%2$s）と異なっています。</string>
     <string name="games_dest_wrong_architecture_title">正しくないアーキテクチャ</string>
     <string name="games_dest_xp_event_content_description">%1$s。%2$s。獲得 XP: %3$s。%4$s。</string>
+    <string name="games_dest_xp_history_list_title">XP 履歴</string>
     <string name="games_duration_hours">%1$s 時間</string>
     <string name="games_empty_private_profile_message">このユーザーはプロフィールを非公開にしています。XP はあなたの方が高かったと考えましょう。</string>
     <string name="games_find_people">プレーヤーを検索</string>
@@ -313,10 +330,14 @@
     <string name="games_menu_search">検索</string>
     <string name="games_menu_settings">設定</string>
     <string name="games_menu_share">共有</string>
+    <string name="games_menu_view_in_store">Play ストアで見る</string>
     <string name="games_menu_view_in_store_short">ストア</string>
     <string name="games_metagame_avatar_unknown_level">？</string>
+    <string name="games_mixed_tile_game_name_content_description">ゲーム: %1$s。デベロッパー: %2$s</string>
     <string name="games_mixed_tile_leaderboard_score_content_description_with_level">ランキング: %1$s。プレーヤー: %2$s。%3$s。スコア: %4$s</string>
     <string name="games_mixed_tile_player_add_content_description">プレーヤーをサークルに追加</string>
+    <string name="games_mixed_tile_shopping_game_installed">インストール済み</string>
+    <string name="games_mixed_tile_shopping_game_owned">購入済み</string>
     <string name="games_multiplayer_inbox_title">対戦</string>
     <string name="games_mvp_avatar_choice_not_selected_content_description">プロフィール画像を選択していません</string>
     <string name="games_mvp_avatar_choice_selected_content_description">プロフィール画像を選択しました</string>
@@ -409,7 +430,13 @@
     <string name="games_mvp_share_game_card_text">友だちと共有</string>
     <string name="games_mvp_show_undo_snackbar_text">「%1$s」を [マイゲーム] に表示しました</string>
     <string name="games_mvp_snackbar_undo_button_text">元に戻す</string>
+    <string name="games_mvp_snippet_icon_content_liveops_description">ライブ: %1$s</string>
+    <string name="games_mvp_snippet_icon_content_news_description">ニュース スニペット: %1$s</string>
+    <string name="games_mvp_snippet_icon_content_video_description">動画スニペット: %1$s</string>
+    <string name="games_mvp_visit_arcade_button_text">アーケードにアクセス</string>
     <string name="games_mvp_you_have_no_games_message">まだゲームはありません</string>
+    <string name="games_my_games_empty_action_text">ゲームを探す</string>
+    <string name="games_my_games_empty_text">ゲームが見つかりません</string>
     <string name="games_my_games_navigation_bar_title">マイゲーム</string>
     <string name="games_nearby_players_confirm_dialog_message">付近のプレーヤーを検索すると、Google Play ゲームでは現在地、マイク、スピーカー、Wi-Fi、Bluetooth といった技術を一時的に ON にしてプレーヤーを探します。<u>詳細</u>"
 
@@ -475,7 +502,7 @@
     <string name="games_profile_edit_success">プロフィールを更新しました。</string>
     <string name="games_profile_edit_title">プロフィールの編集</string>
     <string name="games_profile_edit_visibility">自分のゲーム アクティビティを他のプレーヤーが確認できるようにする</string>
-    <string name="games_profile_info_message_1">自動的にゲームにログイン</string>
+    <string name="games_profile_info_message_1">自動的にゲームにログインします</string>
     <string name="games_profile_info_message_2">リーダーボードにハイスコアを表示できます</string>
     <string name="games_profile_info_message_3">XP の獲得や実績の管理ができます</string>
     <string name="games_profile_saving_profile_dialog_title">プロフィールを保存しています</string>
@@ -587,12 +614,19 @@
     <string name="games_sign_in_unicorn_account_dialog_message">%s &lt;br/>&lt;br/> このアカウントでは、Google Play ゲームにログインすることはできません。</string>
     <string name="games_sign_in_unicorn_account_dialog_title">サポートされていないアカウント</string>
     <string name="games_signin_welcome_back">ようこそ</string>
+    <string name="games_snapshot_delete">削除</string>
     <string name="games_snapshot_list_null_state">現在、保存したゲームはありません</string>
+    <string name="games_snapshot_select">選択</string>
     <string name="games_square_tile_achievement_content_description">実績: %1$s。説明: %2$s。ステータス: %3$s。%4$s。%5$s</string>
     <string name="games_square_tile_achievement_status_locked_content_description">未達成</string>
     <string name="games_square_tile_achievement_status_unlocked_content_description">達成済み</string>
     <string name="games_sync_label">ゲーム データ</string>
     <string name="games_tile_accepted_quest_content_description">クエスト: %1$s。ゲーム: %2$s。クエスト参加済み。進行状況: %3$d/%4$d。%5$s。説明: %6$s</string>
+    <string name="games_tile_achievement_comparison_content_description">実績: %1$s。ステータス: %2$s。%3$s。%4$s XP。%5$s。</string>
+    <string name="games_tile_achievement_comparison_locked">未達成</string>
+    <string name="games_tile_achievement_comparison_unlocked_by_both">達成済み（自分と相手プレーヤー）</string>
+    <string name="games_tile_achievement_comparison_unlocked_by_them">達成済み（相手プレーヤー）</string>
+    <string name="games_tile_achievement_comparison_unlocked_by_you">達成済み（自分）</string>
     <string name="games_tile_match_content_description">ゲーム: 「%1$s」。ステータス: %2$s。最終更新日: %3$s。このカードをクリックすると、この対戦を開始できます。</string>
     <string name="games_tile_match_description_rematch_matches_format">再戦</string>
     <string name="games_tile_match_rematch_button_description">再対戦</string>
@@ -724,7 +758,6 @@
     <string name="hats_lib_prompt_take_our_survey">質問を表示</string>
     <string name="hats_lib_submit">送信</string>
     <string name="hats_lib_thank_you_followup_message">他の質問に答えて、サービスの改善にご協力ください</string>
-    <string name="hide_account_list">アカウントを非表示にする</string>
     <string name="open_source_licenses_title">オープンソース ライセンス</string>
     <string name="permgrouplab_calendar">カレンダー</string>
     <string name="permgrouplab_camera">カメラ</string>
@@ -744,8 +777,6 @@
     <string name="play_content_description_page_indicator">ページ: %1$s/%2$s</string>
     <string name="play_drawer_open">ナビゲーションドロワーを表示する</string>
     <string name="preferences_license_title">オープンソースライセンス</string>
-    <string name="selected_account">%1$sにログインする</string>
-    <string name="show_account_list">アカウントを表示する</string>
     <string name="suw_back_button_label">戻る</string>
     <string name="suw_more_button_label">もっと見る</string>
     <string name="suw_next_button_label">次へ</string>

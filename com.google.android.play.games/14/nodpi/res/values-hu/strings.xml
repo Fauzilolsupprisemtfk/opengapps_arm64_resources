@@ -11,12 +11,12 @@
     <string name="abc_searchview_description_submit">Lekérdezés küldése</string>
     <string name="abc_searchview_description_voice">Hangalapú keresés</string>
     <string name="abc_toolbar_collapse_description">Összecsukás</string>
-    <string name="arcade__error_body">Úgy tűnik, hiba történt az Árkádjátékok betöltése során.</string>
     <string name="arcade__error_headline">Ajjaj, problémába ütköztünk.</string>
     <string name="arcade__error_retry_button">Újra</string>
     <string name="arcade__error_send_feedback_button">Visszajelzés küldése</string>
     <string name="arcade__offline_body">A játékgépek nincsenek bedugva. Ellenőrizd az internetkapcsolatot, hogy bekapcsolhasd őket.</string>
     <string name="arcade__offline_headline">Ellenőrizd az internetkapcsolatot.</string>
+    <string name="common_cancel">Mégse</string>
     <string name="common_games_settings_title">Play Játékok</string>
     <string name="common_google_play_services_enable_button">Engedélyezés</string>
     <string name="common_google_play_services_enable_text">"A(z) %1$s alkalmazás csak akkor működik, ha  engedélyezi a Google Play-szolgáltatásokat."</string>
@@ -42,7 +42,7 @@
     <string name="customer_information_title">Ügyféladatok</string>
     <string name="datadeletion__archived_game_item_title">Archivált játékok adatai</string>
     <string name="datadeletion__delete_archived_game_button_content_description">Archivált játékok adatainak törlése.</string>
-    <string name="datadeletion__delete_archived_game_data_confirm_dialog_message">"Az archivált játékok adatainak törlésével eltávolítod a hozzá tartozó eredményeket, előrehaladást és a Google Play Játékok használatával megadott játékbeállításokat.
+    <string name="datadeletion__delete_archived_game_data_confirm_dialog_message">"Az archivált játékok adatainak törlésével eltávolítod a hozzájuk tartozó eredményeket, pillanatnyi állást és a Google Play Játékok használatával megadott játékbeállításokat.
 
 A műveletet nem lehet visszavonni!"</string>
     <string name="datadeletion__delete_archived_game_data_confirm_dialog_title">Törlöd az archivált játékok adatait?</string>
@@ -53,19 +53,19 @@ A műveletet nem lehet visszavonni!"</string>
     <string name="datadeletion__delete_game_data_button_content_description">„%1$s” adatainak törlése</string>
     <string name="datadeletion__delete_game_data_button_deleting_content_description">„%1$s” adatainak törlése folyamatban</string>
     <string name="datadeletion__delete_game_data_button_deleting_state">Törlés…</string>
-    <string name="datadeletion__delete_game_data_confirm_dialog_message">"A(z) „%1$s” adatainak törlésével eltávolítod a hozzá tartozó eredményeket, előrehaladást és a Google Play Játékok használatával megadott játékbeállításokat.
+    <string name="datadeletion__delete_game_data_confirm_dialog_message">"A(z) „%1$s” adatainak törlésével eltávolítod a hozzá tartozó eredményeket, az aktuális állást és a Google Play Játékok használatával megadott játékbeállításokat.
 
 A műveletet nem lehet visszavonni!"</string>
     <string name="datadeletion__delete_game_data_confirm_dialog_title">Törlöd a(z) „%1$s” adatait?</string>
     <string name="datadeletion__delete_game_data_error">Hiba történt a(z) „%1$s” adatainak törlésekor. Próbáld újra később.</string>
-    <string name="datadeletion__delete_game_data_explanation">Az olyan játékok adatainak törlése, amelyekkel a Google Play Játékok szolgáltatáson keresztül játszottál. A művelet törli az elért pontjaid, eredményeid és a beállításaidat a kiválasztott játéknál.</string>
+    <string name="datadeletion__delete_game_data_explanation">Itt törölheted a Google Play Játékok szolgáltatáson keresztül játszott játékok adatait. A művelet törli az elért pontjaid, eredményeid és a beállításaidat a kiválasztott játéknál.</string>
     <string name="datadeletion__delete_game_data_header">Egyes játékok adatainak törlése</string>
     <string name="datadeletion__delete_game_data_success">A(z) „%1$s” adatai 24 órán belül törlődnek.</string>
     <string name="datadeletion__delete_profile_button">Profil törlése</string>
     <string name="datadeletion__delete_profile_explanation">Ezzel a művelettel törlöd az összes adatodat a Google Play Játékok szolgáltatásból, beleértve a játékosazonosítódat és az XP-det. Továbbá az egyes játékokban elért pontjaid, eredményeid és beállításaid is törlődhetnek.</string>
     <string name="datadeletion__delete_profile_header">A profil és az összes adat törlése</string>
     <string name="datadeletion__deleting_archived_game_button_content_description">Archivált játékok adatainak törlése folyamatban.</string>
-    <string name="datadeletion__game_list_load_error">Nem sikerült betölteni a Google Play Játékok szolgáltatással használt játékok listáját. Próbáld újra később.</string>
+    <string name="datadeletion__game_list_load_error">Nem sikerült betölteni a Google Play Játékok szolgáltatással használt játékok listáját. Próbáld újra.</string>
     <string name="datadeletion__game_list_load_indicator_content_description">A Google Play Játékok szolgáltatással használt játékok listájának betöltése folyamatban van.</string>
     <string name="datadeletion__game_list_retry_button">Újra</string>
     <string name="datadeletion__page_content_description">„Play Játékok adatainak törlése” oldal megjelenítve.</string>
@@ -95,11 +95,16 @@ A műveletet nem lehet visszavonni!"</string>
     <string name="games__arcade_fragment_content_description">„Árkádjátékok” oldal megjelenítve.</string>
     <string name="games__installbutton__install">Telepítés</string>
     <string name="games__installbutton__install_content_description">A(z) %1$s telepítése</string>
+    <string name="games__live_op_headline">Aktuális</string>
+    <string name="games__page_default_error_body">A probléma a mi oldalunkon van.</string>
     <string name="games__playbutton__play">Indítás</string>
     <string name="games__playbutton__play_content_description">A(z) %1$s indítása</string>
     <string name="games__youtube__video_playback_error_toast">Nem sikerült a YouTube-videó lejátszása.</string>
     <string name="games__youtube__video_thumbnail_content_description">A következő videó lejátszása: „%1$s”</string>
     <string name="games_accessibility_event_tab_selected">A(z) „%1$s” kiválasztva</string>
+    <string name="games_achievement_comparison_link_text">EREDMÉNYEK ÖSSZEHASONLÍTÁSA</string>
+    <string name="games_achievement_comparison_null_text">Nincs összehasonlítható jutalom</string>
+    <string name="games_achievement_comparison_title">Megszerzett jutalmak összehasonlítása</string>
     <string name="games_achievement_hidden_desc">Játsszon tovább, ha szeretne jobb lenni.</string>
     <string name="games_achievement_hidden_name">Titkos</string>
     <string name="games_achievement_list_header_unlocked_content_description">%1$d/%2$d jutalmat szerzett meg</string>
@@ -136,6 +141,8 @@ Bejelentkezik %3$s néven?"</string>
     <string name="games_client_settings_signout_alert_dialog_title">Kijelentkezés megerősítése</string>
     <string name="games_client_settings_signout_progress_dialog_msg">Kijelentkezés...</string>
     <string name="games_common_header_n_more">%1$d TOVÁBBI</string>
+    <string name="games_continue_playing_game_achievement_content_description">%2$d/%1$d megszerezhető jutalom feloldva.</string>
+    <string name="games_continue_playing_game_achievement_count_format">" %1$d/%2$d"</string>
     <string name="games_continue_playing_installed">Játék folytatása</string>
     <string name="games_delete_snapshot_dialog_message">Biztosan törlöd ezt a mentett játékot?</string>
     <string name="games_delete_snapshot_dialog_title">Mentett játék törlése</string>
@@ -155,8 +162,15 @@ NEM ÉRHETŐ EL"</string>
     <string name="games_dest_game_detail_leaderboards_tab">RANGLISTA</string>
     <string name="games_dest_game_detail_menu_mute">Némítás</string>
     <string name="games_dest_game_detail_menu_unmute">Némítás feloldása</string>
+    <string name="games_dest_game_list_card_not_installed_label">Nincs telepítve</string>
+    <string name="games_dest_game_list_featured_tab">KIEMELT</string>
+    <string name="games_dest_game_list_popular_multiplayer_tab">NÉPSZERŰ TÖBBSZEREPLŐS</string>
+    <string name="games_dest_game_list_popular_tab">NÉPSZERŰ</string>
+    <string name="games_dest_google_signed_error_dialog_message">Hoppá, úgy tűnik, hiba történt az inicializálás során.</string>
+    <string name="games_dest_google_signed_error_dialog_title">Hiba történt.</string>
     <string name="games_dest_inbox_empty">Minden naprakész. Ideje játszanod valamit!</string>
     <string name="games_dest_nav_drawer_inbox">Értesítések</string>
+    <string name="games_dest_participant_list_label">Résztvevők listája</string>
     <string name="games_dest_player_detail_view_profile">PROFIL MEGTEKINTÉSE</string>
     <string name="games_dest_player_empty_action_text">Ismerősök keresése</string>
     <string name="games_dest_player_empty_text">Nincsenek játékosok</string>
@@ -165,6 +179,8 @@ NEM ÉRHETŐ EL"</string>
     <string name="games_dest_players_recommended_empty_message">Jelenleg nincs senki – próbáld újra később.</string>
     <string name="games_dest_profile_comparison_their_friends">%1$s barátai</string>
     <string name="games_dest_quests_empty_text">Ma nincsenek küldetések! Itt a Play Játékok már elfogadott küldetései jelennek meg.</string>
+    <string name="games_dest_shop_games_list_label">Felfedezés</string>
+    <string name="games_dest_shop_games_visit_store_text">Play Áruház</string>
     <string name="games_dest_sign_in_failed_dialog_message">Hoppá, úgy tűnik, hiba történt.</string>
     <string name="games_dest_sign_in_failed_dialog_send_feedback_button">Visszajelzés küldése</string>
     <string name="games_dest_sign_in_failed_dialog_title">Valami hiba történt.</string>
@@ -173,6 +189,7 @@ NEM ÉRHETŐ EL"</string>
     <string name="games_dest_wrong_architecture_text">A Play Játékok telepítése olyan architektúrával (%1$s) történt, amely eltér eszköze architektúrájától (%2$s).</string>
     <string name="games_dest_wrong_architecture_title">Nem megfelelő architektúra</string>
     <string name="games_dest_xp_event_content_description">%1$s. %2$s. Ezzel %3$s XP-t gyűjtöttél. %4$s.</string>
+    <string name="games_dest_xp_history_list_title">XP-előzményeim</string>
     <string name="games_duration_hours">%1$s óra</string>
     <string name="games_empty_private_profile_message">A felhasználó úgy döntött, hogy priváttá teszi profilját. Több mint valószínű, hogy a te XP-értéked magasabb volt az övénél.</string>
     <string name="games_find_people">Személyek keresése</string>
@@ -316,9 +333,13 @@ Mesélj róla másoknak, és vessétek össze elért pontjaitokat."</string>
     <string name="games_menu_search">Keresés</string>
     <string name="games_menu_settings">Beállítások</string>
     <string name="games_menu_share">Megosztás</string>
+    <string name="games_menu_view_in_store">Megtekintés a Play Áruházban</string>
     <string name="games_menu_view_in_store_short">Áruház</string>
+    <string name="games_mixed_tile_game_name_content_description">Játék: %1$s. Fejlesztő:%2$s</string>
     <string name="games_mixed_tile_leaderboard_score_content_description_with_level">Helyezés: %1$s. Játékos: %2$s (%3$s. szint) Pontszám: %4$s.</string>
     <string name="games_mixed_tile_player_add_content_description">Játékos hozzáadása körökhöz</string>
+    <string name="games_mixed_tile_shopping_game_installed">TELEPÍTVE</string>
+    <string name="games_mixed_tile_shopping_game_owned">MEGVÁSÁROLVA</string>
     <string name="games_multiplayer_inbox_title">Játékok</string>
     <string name="games_mvp_avatar_choice_not_selected_content_description">Nem kiválasztott profilkép</string>
     <string name="games_mvp_avatar_choice_selected_content_description">Kiválasztott profilkép</string>
@@ -409,7 +430,13 @@ Mesélj róla másoknak, és vessétek össze elért pontjaitokat."</string>
     <string name="games_mvp_share_game_card_text">Megosztás az ismerősökkel</string>
     <string name="games_mvp_show_undo_snackbar_text">A(z) %1$s megjelenik a Saját játékok között</string>
     <string name="games_mvp_snackbar_undo_button_text">Mégse</string>
+    <string name="games_mvp_snippet_icon_content_liveops_description">Most, %1$s</string>
+    <string name="games_mvp_snippet_icon_content_news_description">Hírrészlet, %1$s</string>
+    <string name="games_mvp_snippet_icon_content_video_description">Videórészlet, %1$s</string>
+    <string name="games_mvp_visit_arcade_button_text">Az Árkád felkeresése</string>
     <string name="games_mvp_you_have_no_games_message">Játsszunk!</string>
+    <string name="games_my_games_empty_action_text">Játékok felfedezése</string>
+    <string name="games_my_games_empty_text">Nincsenek játékok</string>
     <string name="games_my_games_navigation_bar_title">Saját játékok</string>
     <string name="games_nearby_players_confirm_dialog_message">Ha a közelben lévő játékosokat keresel, a Google Play Játékok átmenetileg a következők funkciókat kapcsolja be és használja a játékosok megtalálásához: helyadatok, mikrofon, hangszóró, Wi-Fi és Bluetooth.<u>További információ</u>".
 
@@ -587,12 +614,19 @@ A műveletet nem lehet visszavonni."</string>
     <string name="games_sign_in_unicorn_account_dialog_message">%s &lt;br/>&lt;br/> Sajnos nem tudsz bejelentkezni a Google Play Játékok rendszerébe ezzel a fiókkal.</string>
     <string name="games_sign_in_unicorn_account_dialog_title">Nem támogatott fiók</string>
     <string name="games_signin_welcome_back">ÜDVÖZÖLJÜK!</string>
+    <string name="games_snapshot_delete">Törlés</string>
     <string name="games_snapshot_list_null_state">Jelenleg nincsenek mentett játékok</string>
+    <string name="games_snapshot_select">Kijelölés</string>
     <string name="games_square_tile_achievement_content_description">Megszerezhető jutalom: %1$s. Leírás: %2$s. Állapot: %3$s, %4$s – %5$s.</string>
     <string name="games_square_tile_achievement_status_locked_content_description">nem megszerzett</string>
     <string name="games_square_tile_achievement_status_unlocked_content_description">megszerzett</string>
     <string name="games_sync_label">Játékadatok</string>
     <string name="games_tile_accepted_quest_content_description">Küldetés: %1$s. Játék: %2$s. Küldetés elfogadva, előrehaladás: %3$d/%4$d. %5$s. Leírás: %6$s</string>
+    <string name="games_tile_achievement_comparison_content_description">Jutalom: %1$s. Állapot: %2$s. %3$s. %4$s XP (%5$s).</string>
+    <string name="games_tile_achievement_comparison_locked">Zárolva</string>
+    <string name="games_tile_achievement_comparison_unlocked_by_both">Mindketten megszereztétek már</string>
+    <string name="games_tile_achievement_comparison_unlocked_by_them">Csak a másik játékos szerezte meg eddig</string>
+    <string name="games_tile_achievement_comparison_unlocked_by_you">Csak te szerezted meg eddig</string>
     <string name="games_tile_match_content_description">Játék: %1$s. Állapot: %2$s. Utolsó frissítés: %3$s. Kattints erre a kártyára a játék indításához.</string>
     <string name="games_tile_match_description_rematch_matches_format">VISSZAVÁGÓ</string>
     <string name="games_tile_match_rematch_button_description">Visszavágó</string>
@@ -714,7 +748,6 @@ A videókat a rendszer az Eszközmappák > Képernyőfelvételek fotógalériáb
     <string name="games_waiting_room_waiting_for_players">Várakozás játékosokra</string>
     <string name="games_wide_tile_match_description_offline">Frissítésre vár</string>
     <string name="games_wide_tile_match_players_image_content_description">Játékoslista megtekintése</string>
-    <string name="hide_account_list">Fiókok elrejtése</string>
     <string name="open_source_licenses_title">Nyílt forráskódú licencek</string>
     <string name="permgrouplab_calendar">Naptár</string>
     <string name="permgrouplab_camera">Kamera</string>
@@ -735,8 +768,6 @@ A videókat a rendszer az Eszközmappák > Képernyőfelvételek fotógalériáb
     <string name="play_content_description_page_indicator">%2$s/%1$s. oldal</string>
     <string name="play_drawer_open">Navigációs fiók megjelenítése</string>
     <string name="preferences_license_title">Nyílt forráskódú licencek</string>
-    <string name="selected_account">Bejelentkezve ebbe: %1$s</string>
-    <string name="show_account_list">Fiókok megjelenítése</string>
     <string name="suw_back_button_label">Vissza</string>
     <string name="suw_more_button_label">Továbbiak</string>
     <string name="suw_next_button_label">Következő</string>

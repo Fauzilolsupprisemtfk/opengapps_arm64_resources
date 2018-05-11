@@ -11,12 +11,12 @@
     <string name="abc_searchview_description_submit">Zoekopdracht verzenden</string>
     <string name="abc_searchview_description_voice">Gesproken zoekopdracht</string>
     <string name="abc_toolbar_collapse_description">Samenvouwen</string>
-    <string name="arcade__error_body">Er is iets misgegaan tijdens het inschakelen van de Arcade.</string>
     <string name="arcade__error_headline">Er lijkt een probleem te zijn.</string>
     <string name="arcade__error_retry_button">Opnieuw</string>
     <string name="arcade__error_send_feedback_button">Feedback verzenden</string>
     <string name="arcade__offline_body">De arcadegames zijn niet aangesloten. Controleer je internetverbinding om de games aan te sluiten.</string>
     <string name="arcade__offline_headline">Controleer je internetverbinding.</string>
+    <string name="common_cancel">Annuleren</string>
     <string name="common_google_play_services_enable_button">Inschakelen</string>
     <string name="common_google_play_services_enable_text">%1$s werkt niet, tenzij je Google Play-services inschakelt.</string>
     <string name="common_google_play_services_enable_title">Google Play-services inschakelen</string>
@@ -56,7 +56,7 @@ Deze actie kan niet ongedaan worden gemaakt."</string>
 
 Deze actie kan niet ongedaan worden gemaakt."</string>
     <string name="datadeletion__delete_game_data_confirm_dialog_title">"Gegevens verwijderen voor '%1$s'?"</string>
-    <string name="datadeletion__delete_game_data_error">"Er is een fout opgetreden bij de verwijdering van je gegevens voor '%1$s'. Probeer het later opnieuw."</string>
+    <string name="datadeletion__delete_game_data_error">"Er ging iets fout bij het verwijderen van je gegevens voor '%1$s'. Probeer het later opnieuw."</string>
     <string name="datadeletion__delete_game_data_explanation">Verwijder afzonderlijke gegevens voor games die je hebt gespeeld via Google Play Games. Hierdoor worden je scores, voortgang en game-instellingen verwijderd voor de game die je selecteert.</string>
     <string name="datadeletion__delete_game_data_header">Afzonderlijke gamegegevens verwijderen</string>
     <string name="datadeletion__delete_game_data_success">"Je gegevens voor '%1$s' worden binnen 24 uur verwijderd."</string>
@@ -68,6 +68,7 @@ Deze actie kan niet ongedaan worden gemaakt."</string>
     <string name="datadeletion__game_list_load_indicator_content_description">Lijst met games laden die je hebt gespeeld met Google Play Games.</string>
     <string name="datadeletion__game_list_retry_button">Opnieuw proberen</string>
     <string name="datadeletion__page_content_description">"De pagina 'Play Games-gegevens verwijderen' wordt weergeven."</string>
+    <string name="game_info_snake_name">Slang</string>
     <string name="game_info_solitaire_name">Patience</string>
     <string name="gamedetails__apl_achievement_content_description">Prestatie: %1$s. Beschrijving: %2$s. Status: %3$s. %4$s. %5$s</string>
     <string name="gamedetails__apl_achievement_hidden_description">Speel door om meer te ontdekken.</string>
@@ -90,11 +91,16 @@ Deze actie kan niet ongedaan worden gemaakt."</string>
     <string name="games__arcade_fragment_content_description">"De pagina 'Arcade' wordt weergegeven."</string>
     <string name="games__installbutton__install">Installeren</string>
     <string name="games__installbutton__install_content_description">%1$s installeren</string>
+    <string name="games__live_op_headline">Actualiteiten</string>
+    <string name="games__page_default_error_body">Het ligt niet aan jou, maar aan ons.</string>
     <string name="games__playbutton__play">Spelen</string>
     <string name="games__playbutton__play_content_description">%1$s spelen</string>
     <string name="games__youtube__video_playback_error_toast">YouTube-video kan niet worden afgespeeld.</string>
     <string name="games__youtube__video_thumbnail_content_description">"Video '%1$s' afspelen"</string>
     <string name="games_accessibility_event_tab_selected">%1$s geselecteerd</string>
+    <string name="games_achievement_comparison_link_text">PRESTATIES VERGELIJKEN</string>
+    <string name="games_achievement_comparison_null_text">Geen prestaties om te vergelijken</string>
+    <string name="games_achievement_comparison_title">Prestaties vergelijken</string>
     <string name="games_achievement_hidden_desc">Speel door om meer te ontdekken.</string>
     <string name="games_achievement_hidden_name">Geheim</string>
     <string name="games_achievement_list_header_unlocked_content_description">%1$d van %2$d prestaties ontgrendeld</string>
@@ -126,6 +132,8 @@ Wil je inloggen als %3$s?"</string>
     <string name="games_client_settings_signout_alert_dialog_title">Uitloggen bevestigen</string>
     <string name="games_client_settings_signout_progress_dialog_msg">Uitloggen…</string>
     <string name="games_common_header_n_more">%1$d MEER</string>
+    <string name="games_continue_playing_game_achievement_content_description">%1$d van %2$d prestaties ontgrendeld.</string>
+    <string name="games_continue_playing_game_achievement_count_format">%1$d/%2$d</string>
     <string name="games_continue_playing_installed">Doorgaan met spelen</string>
     <string name="games_date_and_achievement_description_joiner">%1$s: %2$s</string>
     <string name="games_delete_snapshot_dialog_message">Weet je zeker dat je deze opgeslagen game wilt verwijderen?</string>
@@ -146,8 +154,15 @@ VOOR JOUW APPARAAT"</string>
     <string name="games_dest_game_detail_leaderboards_tab">SCOREBORDEN</string>
     <string name="games_dest_game_detail_menu_mute">Verbergen</string>
     <string name="games_dest_game_detail_menu_unmute">Verbergen opheffen</string>
+    <string name="games_dest_game_list_card_not_installed_label">Niet geïnstalleerd</string>
+    <string name="games_dest_game_list_featured_tab">AANBEVOLEN</string>
+    <string name="games_dest_game_list_popular_multiplayer_tab">POPULAIRE MULTIPLAYER-GAMES</string>
+    <string name="games_dest_game_list_popular_tab">POPULAIR</string>
+    <string name="games_dest_google_signed_error_dialog_message">Het lijkt erop dat er iets is misgegaan.</string>
+    <string name="games_dest_google_signed_error_dialog_title">Er is iets misgegaan.</string>
     <string name="games_dest_inbox_empty">Je bent helemaal bij. Ga nu maar spelen.</string>
     <string name="games_dest_nav_drawer_inbox">Meldingen</string>
+    <string name="games_dest_participant_list_label">Deelnemerslijst</string>
     <string name="games_dest_player_detail_view_profile">PROFIEL WEERGEVEN</string>
     <string name="games_dest_player_empty_action_text">Zoeken naar vrienden</string>
     <string name="games_dest_player_empty_text">Geen spelers gevonden</string>
@@ -156,6 +171,8 @@ VOOR JOUW APPARAAT"</string>
     <string name="games_dest_players_recommended_empty_message">Hier staan nog geen namen… probeer het later opnieuw.</string>
     <string name="games_dest_profile_comparison_their_friends">De vrienden van %1$s</string>
     <string name="games_dest_quests_empty_text">Geen missies vandaag. Play Games-missies die je hebt geaccepteerd, staan hier.</string>
+    <string name="games_dest_shop_games_list_label">Verkennen</string>
+    <string name="games_dest_shop_games_visit_store_text">Play Store</string>
     <string name="games_dest_sign_in_failed_dialog_message">Er is iets misgegaan.</string>
     <string name="games_dest_sign_in_failed_dialog_send_feedback_button">Feedback verzenden</string>
     <string name="games_dest_sign_in_failed_dialog_title">Er is iets misgegaan.</string>
@@ -164,6 +181,7 @@ VOOR JOUW APPARAAT"</string>
     <string name="games_dest_wrong_architecture_text">Play Games is geïnstalleerd met een architectuur (%1$s) die anders is dan de architectuur van je apparaat (%2$s).</string>
     <string name="games_dest_wrong_architecture_title">Verkeerde architectuur</string>
     <string name="games_dest_xp_event_content_description">%1$s. %2$s. %3$s XP verdiend. %4$s.</string>
+    <string name="games_dest_xp_history_list_title">Je XP-geschiedenis</string>
     <string name="games_duration_hours">%1$s uur</string>
     <string name="games_empty_private_profile_message">De gebruiker heeft zijn profiel privé gemaakt. Je kunt er waarschijnlijk vanuit gaan dat je XP toch hoger was.</string>
     <string name="games_find_people">Mensen zoeken</string>
@@ -304,9 +322,13 @@ Vertel anderen over deze game en vergelijk scores wanneer ze de game spelen."</s
     <string name="games_menu_search">Zoeken</string>
     <string name="games_menu_settings">Instellingen</string>
     <string name="games_menu_share">Delen</string>
+    <string name="games_menu_view_in_store">Weergeven in Play Store</string>
     <string name="games_menu_view_in_store_short">Play Store</string>
+    <string name="games_mixed_tile_game_name_content_description">Game: %1$s. Ontwikkelaar: %2$s</string>
     <string name="games_mixed_tile_leaderboard_score_content_description_with_level">Positie: %1$s. Speler: %2$s. %3$s. Score: %4$s</string>
     <string name="games_mixed_tile_player_add_content_description">Speler toevoegen aan kringen</string>
+    <string name="games_mixed_tile_shopping_game_installed">GEÏNSTALLEERD</string>
+    <string name="games_mixed_tile_shopping_game_owned">GEKOCHT</string>
     <string name="games_multiplayer_inbox_title">Wedstrijden</string>
     <string name="games_mvp_avatar_choice_not_selected_content_description">Niet-geselecteerde profielafbeelding</string>
     <string name="games_mvp_avatar_choice_selected_content_description">Geselecteerde profielafbeelding</string>
@@ -393,7 +415,13 @@ Vertel anderen over deze game en vergelijk scores wanneer ze de game spelen."</s
     <string name="games_mvp_share_game_card_text">Delen met je vrienden</string>
     <string name="games_mvp_show_undo_snackbar_text">"%1$s wordt nu weergegeven in 'Mijn games'"</string>
     <string name="games_mvp_snackbar_undo_button_text">Ongedaan maken</string>
+    <string name="games_mvp_snippet_icon_content_liveops_description">Nu, %1$s</string>
+    <string name="games_mvp_snippet_icon_content_news_description">Nieuwsfragment, %1$s</string>
+    <string name="games_mvp_snippet_icon_content_video_description">Videofragment, %1$s</string>
+    <string name="games_mvp_visit_arcade_button_text">Arcade bezoeken</string>
     <string name="games_mvp_you_have_no_games_message">Kies wat leuks om te spelen!</string>
+    <string name="games_my_games_empty_action_text">Games ontdekken</string>
+    <string name="games_my_games_empty_text">Geen games gevonden</string>
     <string name="games_my_games_navigation_bar_title">Mijn games</string>
     <string name="games_nearby_players_confirm_dialog_message">Wanneer je naar spelers in de buurt zoekt, worden de volgende technologieën tijdelijk ingeschakeld en gebruikt door Google Play Games om spelers te vinden: je locatie, microfoon, luidspreker, wifi en Bluetooth. <u>Meer informatie</u>".
 
@@ -569,12 +597,19 @@ Deze actie kan niet ongedaan worden gemaakt."</string>
     <string name="games_sign_in_unicorn_account_dialog_message">%s &lt;br/>&lt;br/> Je kunt met dit account niet inloggen bij Google Play Games.</string>
     <string name="games_sign_in_unicorn_account_dialog_title">Niet-ondersteund account</string>
     <string name="games_signin_welcome_back">WELKOM</string>
+    <string name="games_snapshot_delete">Wissen</string>
     <string name="games_snapshot_list_null_state">Er zijn op dit moment geen opgeslagen games</string>
+    <string name="games_snapshot_select">Selecteren</string>
     <string name="games_square_tile_achievement_content_description">Prestatie: %1$s. Beschrijving: %2$s. Status: %3$s. %4$s. %5$s</string>
     <string name="games_square_tile_achievement_status_locked_content_description">vergrendeld</string>
     <string name="games_square_tile_achievement_status_unlocked_content_description">ontgrendeld</string>
     <string name="games_sync_label">Gamegegevens</string>
     <string name="games_tile_accepted_quest_content_description">Missie: %1$s. Game: %2$s. Missie geaccepteerd. Voortgang: %3$d van %4$d. %5$s. Beschrijving: %6$s</string>
+    <string name="games_tile_achievement_comparison_content_description">Prestatie: %1$s. Status: %2$s. %3$s. %4$s XP. %5$s.</string>
+    <string name="games_tile_achievement_comparison_locked">Vergrendeld</string>
+    <string name="games_tile_achievement_comparison_unlocked_by_both">Ontgrendeld door beiden</string>
+    <string name="games_tile_achievement_comparison_unlocked_by_them">Ontgrendeld door de andere speler</string>
+    <string name="games_tile_achievement_comparison_unlocked_by_you">Ontgrendeld door jou</string>
     <string name="games_tile_match_content_description">Game: %1$s. Status: %2$s. Laatst geüpdatet: %3$s. Klik op deze kaart om deze wedstrijd te starten.</string>
     <string name="games_tile_match_description_rematch_matches_format">REVANCHEWEDSTRIJD</string>
     <string name="games_tile_match_rematch_button_description">Revanche</string>
@@ -705,7 +740,6 @@ Video's worden opgeslagen in je fotogalerij in Apparaatmappen > Screencasts."</s
     <string name="hats_lib_prompt_take_our_survey">Vraag weergeven</string>
     <string name="hats_lib_submit">Verzenden</string>
     <string name="hats_lib_thank_you_followup_message">Help ons het product te verbeteren door meer vragen te beantwoorden</string>
-    <string name="hide_account_list">Accounts verbergen</string>
     <string name="open_source_licenses_title">Open-sourcelicenties</string>
     <string name="permgrouplab_calendar">Agenda</string>
     <string name="permgrouplab_contacts">Contacten</string>
@@ -725,8 +759,6 @@ Video's worden opgeslagen in je fotogalerij in Apparaatmappen > Screencasts."</s
     <string name="play_content_description_page_indicator">Pagina %1$s van %2$s</string>
     <string name="play_drawer_open">Zijmenu weergeven</string>
     <string name="preferences_license_title">Open-sourcelicenties</string>
-    <string name="selected_account">Ingelogd op %1$s</string>
-    <string name="show_account_list">Accounts weergeven</string>
     <string name="suw_back_button_label">Terug</string>
     <string name="suw_more_button_label">Meer</string>
     <string name="suw_next_button_label">Volgende</string>

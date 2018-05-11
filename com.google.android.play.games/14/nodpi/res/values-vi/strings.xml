@@ -11,12 +11,12 @@
     <string name="abc_searchview_description_submit">Gửi truy vấn</string>
     <string name="abc_searchview_description_voice">Tìm kiếm bằng giọng nói</string>
     <string name="abc_toolbar_collapse_description">Thu gọn</string>
-    <string name="arcade__error_body">Có vẻ như đã xảy ra lỗi khi bật Trò chơi điện tử.</string>
     <string name="arcade__error_headline">Rất tiếc! Đã xảy ra sự cố.</string>
     <string name="arcade__error_retry_button">Thử lại</string>
     <string name="arcade__error_send_feedback_button">Gửi phản hồi</string>
     <string name="arcade__offline_body">Các trò chơi điện tử chưa được kết nối. Hãy kiểm tra kết nối Internet để có thể chơi những trò chơi này.</string>
     <string name="arcade__offline_headline">Kiểm tra kết nối Internet của bạn.</string>
+    <string name="common_cancel">Hủy</string>
     <string name="common_games_settings_title">Chơi trò chơi</string>
     <string name="common_google_play_services_enable_button">Bật</string>
     <string name="common_google_play_services_enable_text">%1$s sẽ không hoạt động nếu bạn không bật dịch vụ của Google Play.</string>
@@ -42,7 +42,7 @@
     <string name="customer_information_title">Thông tin khách hàng</string>
     <string name="datadeletion__archived_game_item_title">Dữ liệu từ các trò chơi đã lưu trữ</string>
     <string name="datadeletion__delete_archived_game_button_content_description">Xóa dữ liệu từ các trò chơi đã lưu trữ.</string>
-    <string name="datadeletion__delete_archived_game_data_confirm_dialog_message">"Thao tác xóa dữ liệu từ các trò chơi đã lưu trữ của bạn sẽ xóa điểm số, thành tích và cài đặt trò chơi mà bạn đã cung cấp bằng Google Play Trò chơi.
+    <string name="datadeletion__delete_archived_game_data_confirm_dialog_message">"Việc xóa dữ liệu từ các trò chơi đã lưu trữ của bạn sẽ xóa điểm số, thành tích và cài đặt trò chơi mà bạn đã cung cấp bằng Google Play Trò chơi.
 
 Bạn không thể hoàn tác hành động này!"</string>
     <string name="datadeletion__delete_archived_game_data_confirm_dialog_title">Bạn muốn xóa dữ liệu từ các trò chơi đã lưu trữ?</string>
@@ -93,11 +93,16 @@ Bạn không thể hoàn tác hành động này!"</string>
     <string name="games__arcade_fragment_content_description">Hiển thị trang \"Trò chơi điện tử\".</string>
     <string name="games__installbutton__install">Cài đặt</string>
     <string name="games__installbutton__install_content_description">Cài đặt %1$s</string>
+    <string name="games__live_op_headline">Đang diễn ra</string>
+    <string name="games__page_default_error_body">Đó không phải là lỗi của bạn mà là lỗi của chúng tôi.</string>
     <string name="games__playbutton__play">Chơi</string>
     <string name="games__playbutton__play_content_description">Chơi %1$s</string>
     <string name="games__youtube__video_playback_error_toast">Không thể phát video trên YouTube.</string>
     <string name="games__youtube__video_thumbnail_content_description">Phát video \"%1$s\"</string>
     <string name="games_accessibility_event_tab_selected">Đã chọn %1$s</string>
+    <string name="games_achievement_comparison_link_text">SO SÁNH THÀNH TÍCH</string>
+    <string name="games_achievement_comparison_null_text">Không có thành tích nào để so sánh</string>
+    <string name="games_achievement_comparison_title">So sánh thành tích</string>
     <string name="games_achievement_hidden_desc">Tiếp tục chơi để tìm hiểu thêm.</string>
     <string name="games_achievement_hidden_name">Bí mật</string>
     <string name="games_achievement_list_header_unlocked_content_description">Đã mở khóa %1$d / %2$d thành tích</string>
@@ -133,6 +138,8 @@ Bạn có muốn đăng nhập với tên %3$s không?"</string>
     <string name="games_client_settings_signout_alert_dialog_title">Xác nhận đăng xuất</string>
     <string name="games_client_settings_signout_progress_dialog_msg">Đang đăng xuất...</string>
     <string name="games_common_header_n_more">%1$d MỤC KHÁC</string>
+    <string name="games_continue_playing_game_achievement_content_description">"       Đã mở khóa %1$d / %2$d thành tích."</string>
+    <string name="games_continue_playing_game_achievement_count_format">" %1$d / %2$d"</string>
     <string name="games_continue_playing_installed">Chơi tiếp</string>
     <string name="games_delete_snapshot_dialog_message">Bạn có chắc chắn muốn xóa trò chơi đã lưu này không?</string>
     <string name="games_delete_snapshot_dialog_title">Xóa trò chơi đã lưu</string>
@@ -152,8 +159,15 @@ CHO THIẾT BỊ CỦA BẠN"</string>
     <string name="games_dest_game_detail_leaderboards_tab">BẢNG XẾP HẠNG</string>
     <string name="games_dest_game_detail_menu_mute">Ẩn</string>
     <string name="games_dest_game_detail_menu_unmute">Hiển thị</string>
+    <string name="games_dest_game_list_card_not_installed_label">Chưa cài đặt</string>
+    <string name="games_dest_game_list_featured_tab">NỔI BẬT</string>
+    <string name="games_dest_game_list_popular_multiplayer_tab">NHIỀU NGƯỜI CHƠI PHỔ BIẾN</string>
+    <string name="games_dest_game_list_popular_tab">PHỔ BIẾN</string>
+    <string name="games_dest_google_signed_error_dialog_message">Rất tiếc, có vẻ như đã xảy ra lỗi khởi chạy.</string>
+    <string name="games_dest_google_signed_error_dialog_title">Đã xảy ra lỗi.</string>
     <string name="games_dest_inbox_empty">Bạn đã kiểm tra tất cả thông báo. Bây giờ, hãy chơi một số trò chơi!</string>
     <string name="games_dest_nav_drawer_inbox">Thông báo</string>
+    <string name="games_dest_participant_list_label">Danh sách người tham gia</string>
     <string name="games_dest_player_detail_view_profile">XEM TIỂU SỬ</string>
     <string name="games_dest_player_empty_action_text">Tìm kiếm bạn bè</string>
     <string name="games_dest_player_empty_text">Không tìm thấy người chơi nào</string>
@@ -162,6 +176,8 @@ CHO THIẾT BỊ CỦA BẠN"</string>
     <string name="games_dest_players_recommended_empty_message">Không có bạn bè nào tại thời điểm này... hãy thử lại sau.</string>
     <string name="games_dest_profile_comparison_their_friends">Bạn bè của %1$s</string>
     <string name="games_dest_quests_empty_text">Hôm nay không có nhiệm vụ nào! Các nhiệm vụ trên Play Trò chơi mà bạn đã chấp nhận sẽ hiển thị ở đây.</string>
+    <string name="games_dest_shop_games_list_label">Khám phá</string>
+    <string name="games_dest_shop_games_visit_store_text">Cửa hàng Play</string>
     <string name="games_dest_sign_in_failed_dialog_message">Rất tiếc, có vẻ như đã xảy ra lỗi.</string>
     <string name="games_dest_sign_in_failed_dialog_send_feedback_button">Gửi phản hồi</string>
     <string name="games_dest_sign_in_failed_dialog_title">Đã xảy ra lỗi.</string>
@@ -170,6 +186,7 @@ CHO THIẾT BỊ CỦA BẠN"</string>
     <string name="games_dest_wrong_architecture_text">Bạn đã cài đặt Play Trò chơi với một cấu trúc (%1$s) khác với cấu trúc trên thiết bị (%2$s).</string>
     <string name="games_dest_wrong_architecture_title">Cấu trúc sai</string>
     <string name="games_dest_xp_event_content_description">%1$s. %2$s. Đã kiếm được %3$s XP. %4$s.</string>
+    <string name="games_dest_xp_history_list_title">Lịch sử XP của tôi</string>
     <string name="games_duration_hours">%1$s giờ</string>
     <string name="games_empty_private_profile_message">Người dùng đã chọn đặt hồ sơ của họ ở chế độ riêng tư. Tuy nhiên, bạn có thể giả định rằng XP của mình cao hơn.</string>
     <string name="games_find_people">Tìm người</string>
@@ -313,9 +330,13 @@ Hãy nói cho người khác biết về trò chơi này và so sánh điểm s�
     <string name="games_menu_search">Tìm kiếm</string>
     <string name="games_menu_settings">Cài đặt</string>
     <string name="games_menu_share">Chia sẻ</string>
+    <string name="games_menu_view_in_store">Xem trong Cửa hàng Play</string>
     <string name="games_menu_view_in_store_short">Cửa hàng</string>
+    <string name="games_mixed_tile_game_name_content_description">Trò chơi: %1$s. Nhà phát triển:%2$s</string>
     <string name="games_mixed_tile_leaderboard_score_content_description_with_level">Xếp hạng: %1$s. Người chơi: %2$s. %3$s. Điểm số: %4$s</string>
     <string name="games_mixed_tile_player_add_content_description">Thêm người chơi vào vòng kết nối</string>
+    <string name="games_mixed_tile_shopping_game_installed">ĐÃ CÀI ĐẶT</string>
+    <string name="games_mixed_tile_shopping_game_owned">ĐÃ MUA</string>
     <string name="games_multiplayer_inbox_title">Trận đấu</string>
     <string name="games_mvp_avatar_choice_not_selected_content_description">Ảnh hồ sơ chưa được chọn</string>
     <string name="games_mvp_avatar_choice_selected_content_description">Ảnh hồ sơ đã được chọn</string>
@@ -405,7 +426,13 @@ Hãy nói cho người khác biết về trò chơi này và so sánh điểm s�
     <string name="games_mvp_share_game_card_text">Chia sẻ với bạn bè của bạn</string>
     <string name="games_mvp_show_undo_snackbar_text">%1$s hiện hiển thị trong \"Trò chơi của tôi\"</string>
     <string name="games_mvp_snackbar_undo_button_text">Hoàn tác</string>
+    <string name="games_mvp_snippet_icon_content_liveops_description">Hiện tại, %1$s</string>
+    <string name="games_mvp_snippet_icon_content_news_description">Trích đoạn nội dung tin tức, %1$s</string>
+    <string name="games_mvp_snippet_icon_content_video_description">Trích đoạn nội dung video, %1$s</string>
+    <string name="games_mvp_visit_arcade_button_text">Truy cập trò chơi điện tử</string>
     <string name="games_mvp_you_have_no_games_message">Hãy cùng chơi!</string>
+    <string name="games_my_games_empty_action_text">Khám phá trò chơi</string>
+    <string name="games_my_games_empty_text">Không tìm thấy trò chơi</string>
     <string name="games_my_games_navigation_bar_title">Trò chơi của tôi</string>
     <string name="games_nearby_players_confirm_dialog_message">Bất cứ khi nào bạn tìm kiếm người chơi lân cận, Google Play Trò chơi sẽ tạm thời bật và sử dụng các công nghệ sau để tìm người chơi: Vị trí của bạn, micrô, loa, Wi-Fi và Bluetooth. <u>Tìm hiểu thêm</u>".
 
@@ -582,12 +609,19 @@ Hành động này không thể hoàn tác được!"</string>
     <string name="games_sign_in_unicorn_account_dialog_message">%s &lt;br/>&lt;br/> Rất tiếc, chúng tôi không thể đăng nhập bạn vào Google Play Trò chơi bằng tài khoản này.</string>
     <string name="games_sign_in_unicorn_account_dialog_title">Tài khoản không được hỗ trợ</string>
     <string name="games_signin_welcome_back">CHÀO MỪNG</string>
+    <string name="games_snapshot_delete">Xóa</string>
     <string name="games_snapshot_list_null_state">Hiện không có trò chơi nào được lưu</string>
+    <string name="games_snapshot_select">Chọn</string>
     <string name="games_square_tile_achievement_content_description">Thành tích: %1$s. Mô tả: %2$s. Trạng thái: %3$s. %4$s. %5$s</string>
     <string name="games_square_tile_achievement_status_locked_content_description">bị khóa</string>
     <string name="games_square_tile_achievement_status_unlocked_content_description">đã mở khóa</string>
     <string name="games_sync_label">Dữ liệu trò chơi</string>
     <string name="games_tile_accepted_quest_content_description">Nhiệm vụ: %1$s. Trò chơi: %2$s. Nhiệm vụ đã được chấp nhận. Tiến độ: %3$d / %4$d. %5$s. Mô tả: %6$s</string>
+    <string name="games_tile_achievement_comparison_content_description">Thành tích: %1$s. Trạng thái: %2$s. %3$s. %4$s XP. %5$s.</string>
+    <string name="games_tile_achievement_comparison_locked">Bị khóa</string>
+    <string name="games_tile_achievement_comparison_unlocked_by_both">Được mở khóa bởi cả hai</string>
+    <string name="games_tile_achievement_comparison_unlocked_by_them">Được mở khóa bởi người chơi kia</string>
+    <string name="games_tile_achievement_comparison_unlocked_by_you">Được mở khóa bởi bạn</string>
     <string name="games_tile_match_content_description">Trò chơi: %1$s. Trạng thái: %2$s. Cập nhật lần cuối: %3$s. Nhấp vào thẻ này để bắt đầu trận đấu này.</string>
     <string name="games_tile_match_description_rematch_matches_format">TRẬN TÁI ĐẤU</string>
     <string name="games_tile_match_rematch_button_description">Tái đấu</string>
@@ -707,7 +741,6 @@ Các video được lưu trong thư viện ảnh của bạn trong thư mục Th
     <string name="games_waiting_room_waiting_for_players">Đang chờ người chơi</string>
     <string name="games_wide_tile_match_description_offline">Đang đợi cập nhật</string>
     <string name="games_wide_tile_match_players_image_content_description">Xem danh sách người chơi</string>
-    <string name="hide_account_list">Ẩn tài khoản</string>
     <string name="open_source_licenses_title">Giấy phép nguồn mở</string>
     <string name="permgrouplab_calendar">Lịch</string>
     <string name="permgrouplab_camera">Máy ảnh</string>
@@ -727,8 +760,6 @@ Các video được lưu trong thư viện ảnh của bạn trong thư mục Th
     <string name="play_content_description_page_indicator">Trang %1$s / %2$s</string>
     <string name="play_drawer_open">Hiển thị ngăn điều hướng</string>
     <string name="preferences_license_title">Giấy phép nguồn mở</string>
-    <string name="selected_account">Đã đăng nhập vào %1$s</string>
-    <string name="show_account_list">Hiển thị tài khoản</string>
     <string name="suw_back_button_label">Quay lại</string>
     <string name="suw_more_button_label">Khác</string>
     <string name="suw_next_button_label">Tiếp theo</string>
