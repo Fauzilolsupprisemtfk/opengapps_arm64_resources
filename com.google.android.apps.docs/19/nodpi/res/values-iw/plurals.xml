@@ -146,6 +146,10 @@
         <item quantity="other">אין לך הרשאה להוציא חלק מהפריטים מהתיקיות שלהם.</item>
         <item quantity="one">אין לך הרשאה להוציא את הפריט הזה מהתיקייה שלו.</item>
     </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">לא ניתן להעביר את הקבצים האלה כי הבעלים שלהם נמצא מחוץ לדומיין %1$s.</item>
+        <item quantity="one">לא ניתן להעביר את הקובץ הזה כי הבעלים שלו נמצא מחוץ לדומיין %1$s.</item>
+    </plurals>
     <plurals name="move_notice_granted_access_team_drive">
         <item quantity="other">%1$s לאחסון השיתופי \"%2$s\" יש עכשיו גישה.</item>
         <item quantity="one">%1$s לאחסון השיתופי \"%2$s\" יש עכשיו גישה.</item>
@@ -555,5 +559,6 @@
     <plurals name="view_workspace_files">
         <item quantity="other">צפייה ב-%1$d קבצים</item>
         <item quantity="one">צפייה בקובץ אחד (%1$d)</item>
+        <item quantity="two">צפייה ב-%1$d קבצים</item>
     </plurals>
 </resources>

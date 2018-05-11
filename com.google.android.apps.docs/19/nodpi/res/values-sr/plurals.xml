@@ -146,6 +146,10 @@
         <item quantity="other">Немате дозволу да преместите неке ставке из директоријума у ком се налазе.</item>
         <item quantity="one">Немате дозволу да преместите ову ставку из директоријума у ком се налази.</item>
     </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">Не можете да преместите ове датотеке зато што је њихов власник ван %1$s.</item>
+        <item quantity="one">Не можете да преместите ову датотеку зато што је њен власник ван %1$s.</item>
+    </plurals>
     <plurals name="move_notice_granted_access_team_drive">
         <item quantity="other">%1$s „%2$s“ сада има приступ.</item>
         <item quantity="one">%1$s „%2$s“ сада има приступ.</item>
@@ -555,5 +559,6 @@
     <plurals name="view_workspace_files">
         <item quantity="other">Прикажи датотеке (%1$d)</item>
         <item quantity="one">Прикажи %1$d датотеку</item>
+        <item quantity="two">Прикажи датотеке (%1$d)</item>
     </plurals>
 </resources>

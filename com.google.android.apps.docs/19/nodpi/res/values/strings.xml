@@ -13,6 +13,16 @@
     <string name="abc_capital_off">OFF</string>
     <string name="abc_capital_on">ON</string>
     <string name="abc_font_family_title_material">sans-serif-medium</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
     <string name="abc_search_hint">Search…</string>
     <string name="abc_searchview_description_clear">Clear query</string>
     <string name="abc_searchview_description_search">Search</string>
@@ -164,6 +174,7 @@
     <string name="carbon_device_extra_delete_confirmation_message">"
 
 Photos, contacts, and calendar events synced from this device will not be deleted."</string>
+    <string name="character_counter_content_description">Character limit exceeded %1$d of %2$d</string>
     <string name="character_counter_pattern">%1$d / %2$d</string>
     <string name="check_connection_tap_to_retry">Check your connection and tap to retry</string>
     <string name="chips_action_cancel">Cancel</string>
@@ -412,6 +423,7 @@ This action cannot be undone."</string>
     <string name="dialog_td_will_disappear">"This Team Drive will disappear for everyone and you can't undo this action."</string>
     <string name="dialog_td_will_disappear_files_in_trash">"Files from this Team Drive are in the \"%1$s\" trash and no users will be able to restore them. This Team Drive will disappear for everyone and you can't undo this action."</string>
     <string name="did_you_mean">Did you mean: %1$s</string>
+    <string name="disabled_append">disabled,</string>
     <string name="discussion_accept">Accept</string>
     <string name="discussion_acl_fix_access_role_commenter">Can comment</string>
     <string name="discussion_acl_fix_access_role_writer">Can edit</string>
@@ -619,6 +631,7 @@ This action cannot be undone."</string>
     <string name="drive_file_stream_title">Drive File Stream</string>
     <string name="drive_intelligence_feedback">Feedback?</string>
     <string name="drive_intelligence_open_error">Unable to open item.</string>
+    <string name="drive_intelligence_send_feedback">Send feedback</string>
     <string name="drive_only_learn_more_message" />
     <string name="drive_storage_title">Drive storage</string>
     <string name="drive_terms_service">Google Drive Terms of Service</string>
@@ -703,7 +716,7 @@ Try uploading a file."</string>
     <string name="empty_doclist_for_pinned_view">No files available offline.</string>
     <string name="empty_doclist_for_pinned_view_details">"Make files \"Available offline\" in the file's options menu"</string>
     <string name="empty_doclist_for_recent_view">No recently opened or edited files.</string>
-    <string name="empty_doclist_for_search_view">No results.</string>
+    <string name="empty_doclist_for_search_view">No results</string>
     <string name="empty_doclist_for_shared_with_me_view">Files shared with you will appear here.</string>
     <string name="empty_doclist_for_starred_view">You have no starred files.</string>
     <string name="empty_doclist_for_starred_view_details">"Tap the star icon in the file's option menu to add it to this list."</string>
@@ -887,16 +900,7 @@ Click + to create a new drawing."</string>
     <string name="manage_members_default_members">By default, members can upload/edit/delete files &amp; invite other members</string>
     <string name="manage_members_dialog_title">Member access</string>
     <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_data_loading_failed">"Can't load this page"</string>
     <string name="manifest_app_projector">Projector</string>
     <string name="manifest_intent_view_pdf_drive">Drive PDF Viewer</string>
     <string name="media_player_error">A playback error has occurred</string>
@@ -1015,7 +1019,7 @@ Click + to create a new drawing."</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s \" %2$s\" has lost access.</string>
     <string name="move_notice_lost_access_team_drive_single_fallback">1 item moved from Team Drive. Members have lost access.</string>
     <string name="move_notice_lost_access_team_drives">Items moved from Team Drive. Members have lost access.</string>
-    <string name="mtrl_chip_close_icon_content_description">Close icon</string>
+    <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
     <string name="nav_drawer_title">Navigation drawer opened. Showing account %1$s</string>
     <string name="nav_panel_more_storage_pending">Redeemed storage pending</string>
     <string name="navigation_filter">Filter: %s</string>
@@ -1217,7 +1221,7 @@ all your files"</string>
     <string name="page_3_description">Give others access to any file or folder you choose</string>
     <string name="page_3_heading">Share with anyone</string>
     <string name="page_counter_format">page %1$s of %2$s</string>
-    <string name="password_toggle_content_description">Toggle password visibility</string>
+    <string name="password_toggle_content_description">Show password</string>
     <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
@@ -1346,7 +1350,7 @@ all your files"</string>
     <string name="preview_open_in_sheets_app_description">Tap here to open this file in the Sheets application</string>
     <string name="pride_query_toast_message">Celebrate diversity &amp; LGBT pride with Google. Use #prideforeveryone on social media.</string>
     <string name="primes_marker">PrImEs</string>
-    <string name="primes_version">192219083</string>
+    <string name="primes_version">194016220</string>
     <string name="print_cancelled">Print job cancelled.</string>
     <string name="print_failure">Printing document was unsuccessful.</string>
     <string name="priority_tab_name">Priority</string>
@@ -1359,7 +1363,6 @@ all your files"</string>
     <string name="published_access_anyone">Anyone can view when published</string>
     <string name="published_access_domain">Anyone in %s can view when published</string>
     <string name="published_access_select_people">Specific people can view when published</string>
-    <string name="published_disabled_append">disabled,</string>
     <string name="published_message_for_anyone_can_edit">Since anyone can edit, anyone can view when published.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Since anyone in %1$s can edit, anyone at %1$s can view when published.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Since anyone with link can edit, anyone can view when published.</string>
@@ -1476,6 +1479,7 @@ Warning: You can't undo this action."</string>
     <string name="selection_menu_overflow_content_desc">More functions for selected items</string>
     <string name="selection_menu_pin">Available offline</string>
     <string name="selection_menu_pin_content_desc">Make selected items available offline</string>
+    <string name="selection_menu_pin_make_offline">Make available offline</string>
     <string name="selection_menu_print">Print</string>
     <string name="selection_menu_print_content_desc">Print selected item</string>
     <string name="selection_menu_remove">Remove</string>
@@ -1676,6 +1680,8 @@ Green is from the cache. Blue is from the network. Red is a fallback."</string>
     <string name="time_range_1_day">1 day</string>
     <string name="time_range_days">%1$d days</string>
     <string name="time_range_today">Today</string>
+    <string name="timestamp_today">Today</string>
+    <string name="timestamp_yesterday">Yesterday</string>
     <string name="title_delete">Delete?</string>
     <string name="title_dialog_password">This file is protected</string>
     <string name="title_grouper_files">Files</string>
@@ -1753,6 +1759,7 @@ You can turn backup on again by going to Settings > Chats > Chat backup in Whats
     <string name="upsell_okbtn">Upgrade</string>
     <string name="uraw_network_error_text">Network error. Please check connection.</string>
     <string name="uraw_play_services_error_text">Google Play services is unavailable.</string>
+    <string name="user_deleted_name">Deleted user</string>
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
     <string name="verbalize_opened_edit">Opened %1$s with editing permissions.</string>
@@ -1762,13 +1769,15 @@ You can turn backup on again by going to Settings > Chats > Chat backup in Whats
     <string name="version_too_old_upgrade">Upgrade</string>
     <string name="view_usage">View usage</string>
     <string name="view_workspace">View workspace</string>
+    <string name="view_workspace_content_desc">View %1$s</string>
     <string name="viewers_can_see_comments">Viewers of this file can see comments &amp; suggestions</string>
     <string name="warm_welcome_done_button">Done</string>
     <string name="warm_welcome_next_button">Next</string>
     <string name="warm_welcome_skip_button">Skip</string>
     <string name="warning_cannot_share_outside_domain">"This Team Drive's settings prevent sharing outside %s"</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">"This Team Drive's settings prevent sharing with non-members and outside %s"</string>
     <string name="warning_cannot_share_outside_domain_org">"The organization's settings prevent sharing outside the organization"</string>
-    <string name="warning_cannot_share_outside_team_drive">"This Team Drive's settings prevent sharing outside the team"</string>
+    <string name="warning_cannot_share_outside_team_drive">"This Team Drive's settings prevent sharing with non-members"</string>
     <string name="welcome_button_close">Go to Drive</string>
     <string name="welcome_button_continue">Next</string>
     <string name="welcome_offer_button_close">Close</string>
@@ -1797,7 +1806,10 @@ To turn backup on again, go to Settings > Chats in WhatsApp."</string>
     <string name="widget_scan_to_drive">Drive scan</string>
     <string name="widget_scan_to_drive_title">Upload scans to…</string>
     <string name="widget_upload">Upload</string>
-    <string name="workspace_file_count">%1$s of %2$s files.</string>
+    <string name="workspace_detail_empty_call_to_action">Add files</string>
+    <string name="workspace_detail_empty_subtitle">Start by adding files</string>
+    <string name="workspace_detail_empty_title">This workspace is empty</string>
+    <string name="workspace_file_count">%1$d of %2$d files.</string>
     <string name="workspaces_tab_name">Workspaces</string>
     <string name="write_access_denied">Write access to the document denied.</string>
     <string name="zss_accessibility_searching">Searching for %1$s</string>
@@ -1836,131 +1848,130 @@ To turn backup on again, go to Settings > Chats in WhatsApp."</string>
     <item type="string" name="APKTOOL_DUMMY_15">false</item>
     <item type="string" name="APKTOOL_DUMMY_16">false</item>
     <item type="string" name="APKTOOL_DUMMY_17">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_20">false</item>
-    <item type="string" name="APKTOOL_DUMMY_23">false</item>
-    <item type="string" name="APKTOOL_DUMMY_38">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_40">false</item>
-    <item type="string" name="APKTOOL_DUMMY_41">false</item>
+    <item type="string" name="APKTOOL_DUMMY_25">false</item>
+    <item type="string" name="APKTOOL_DUMMY_29">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2d">false</item>
     <item type="string" name="APKTOOL_DUMMY_42">false</item>
-    <item type="string" name="APKTOOL_DUMMY_44">false</item>
-    <item type="string" name="APKTOOL_DUMMY_47">false</item>
+    <item type="string" name="APKTOOL_DUMMY_48">false</item>
+    <item type="string" name="APKTOOL_DUMMY_49">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4a">false</item>
     <item type="string" name="APKTOOL_DUMMY_4b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4e">false</item>
     <item type="string" name="APKTOOL_DUMMY_51">false</item>
-    <item type="string" name="APKTOOL_DUMMY_53">false</item>
-    <item type="string" name="APKTOOL_DUMMY_56">false</item>
-    <item type="string" name="APKTOOL_DUMMY_58">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_55">false</item>
+    <item type="string" name="APKTOOL_DUMMY_57">false</item>
+    <item type="string" name="APKTOOL_DUMMY_59">false</item>
+    <item type="string" name="APKTOOL_DUMMY_5b">false</item>
     <item type="string" name="APKTOOL_DUMMY_5d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5e">false</item>
     <item type="string" name="APKTOOL_DUMMY_60">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_70">false</item>
-    <item type="string" name="APKTOOL_DUMMY_84">false</item>
-    <item type="string" name="APKTOOL_DUMMY_a5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_10b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_10f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_14d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_150">false</item>
-    <item type="string" name="APKTOOL_DUMMY_163">false</item>
-    <item type="string" name="APKTOOL_DUMMY_185">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1d8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1db">false</item>
+    <item type="string" name="APKTOOL_DUMMY_62">false</item>
+    <item type="string" name="APKTOOL_DUMMY_64">false</item>
+    <item type="string" name="APKTOOL_DUMMY_66">false</item>
+    <item type="string" name="APKTOOL_DUMMY_67">false</item>
+    <item type="string" name="APKTOOL_DUMMY_68">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_79">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_8e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_af">false</item>
+    <item type="string" name="APKTOOL_DUMMY_bf">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_116">false</item>
+    <item type="string" name="APKTOOL_DUMMY_11a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_158">false</item>
+    <item type="string" name="APKTOOL_DUMMY_15b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_16e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_190">false</item>
     <item type="string" name="APKTOOL_DUMMY_1e4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1e7">false</item>
     <item type="string" name="APKTOOL_DUMMY_1f0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1f5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1f7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1fc">false</item>
     <item type="string" name="APKTOOL_DUMMY_201">false</item>
-    <item type="string" name="APKTOOL_DUMMY_255">false</item>
-    <item type="string" name="APKTOOL_DUMMY_284">false</item>
-    <item type="string" name="APKTOOL_DUMMY_298">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2a0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2a3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2a6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2a7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2aa">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2ab">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2b6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2c0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2d4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2fc">false</item>
-    <item type="string" name="APKTOOL_DUMMY_324">false</item>
-    <item type="string" name="APKTOOL_DUMMY_325">false</item>
-    <item type="string" name="APKTOOL_DUMMY_342">false</item>
-    <item type="string" name="APKTOOL_DUMMY_34e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_35a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_203">false</item>
+    <item type="string" name="APKTOOL_DUMMY_20d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_261">false</item>
+    <item type="string" name="APKTOOL_DUMMY_290">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2a4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2ad">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2b0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2b3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2b4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2b7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2b8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2c3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2cd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2e1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_309">false</item>
+    <item type="string" name="APKTOOL_DUMMY_331">false</item>
+    <item type="string" name="APKTOOL_DUMMY_332">false</item>
+    <item type="string" name="APKTOOL_DUMMY_34f">false</item>
     <item type="string" name="APKTOOL_DUMMY_35b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_35d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_361">false</item>
-    <item type="string" name="APKTOOL_DUMMY_363">false</item>
-    <item type="string" name="APKTOOL_DUMMY_364">false</item>
-    <item type="string" name="APKTOOL_DUMMY_366">false</item>
-    <item type="string" name="APKTOOL_DUMMY_36b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_376">false</item>
-    <item type="string" name="APKTOOL_DUMMY_388">false</item>
-    <item type="string" name="APKTOOL_DUMMY_38f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_395">false</item>
-    <item type="string" name="APKTOOL_DUMMY_396">false</item>
+    <item type="string" name="APKTOOL_DUMMY_367">false</item>
+    <item type="string" name="APKTOOL_DUMMY_368">false</item>
+    <item type="string" name="APKTOOL_DUMMY_36a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_36e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_370">false</item>
+    <item type="string" name="APKTOOL_DUMMY_371">false</item>
+    <item type="string" name="APKTOOL_DUMMY_373">false</item>
+    <item type="string" name="APKTOOL_DUMMY_378">false</item>
+    <item type="string" name="APKTOOL_DUMMY_394">false</item>
+    <item type="string" name="APKTOOL_DUMMY_39b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3a1">false</item>
     <item type="string" name="APKTOOL_DUMMY_3a2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3a3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3c5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3c7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_40d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_40e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_441">false</item>
-    <item type="string" name="APKTOOL_DUMMY_442">false</item>
-    <item type="string" name="APKTOOL_DUMMY_46e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4d3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4d5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4d7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4e7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4f2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_553">false</item>
-    <item type="string" name="APKTOOL_DUMMY_559">false</item>
-    <item type="string" name="APKTOOL_DUMMY_55a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3ae">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3af">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3c8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3ca">false</item>
+    <item type="string" name="APKTOOL_DUMMY_410">false</item>
+    <item type="string" name="APKTOOL_DUMMY_411">false</item>
+    <item type="string" name="APKTOOL_DUMMY_444">false</item>
+    <item type="string" name="APKTOOL_DUMMY_445">false</item>
+    <item type="string" name="APKTOOL_DUMMY_471">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4d6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4d8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4da">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4ea">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4f5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_556">false</item>
     <item type="string" name="APKTOOL_DUMMY_55c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_55d">false</item>
     <item type="string" name="APKTOOL_DUMMY_55f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_563">false</item>
-    <item type="string" name="APKTOOL_DUMMY_564">false</item>
-    <item type="string" name="APKTOOL_DUMMY_583">false</item>
-    <item type="string" name="APKTOOL_DUMMY_584">false</item>
+    <item type="string" name="APKTOOL_DUMMY_562">false</item>
+    <item type="string" name="APKTOOL_DUMMY_566">false</item>
+    <item type="string" name="APKTOOL_DUMMY_567">false</item>
     <item type="string" name="APKTOOL_DUMMY_586">false</item>
     <item type="string" name="APKTOOL_DUMMY_587">false</item>
-    <item type="string" name="APKTOOL_DUMMY_588">false</item>
     <item type="string" name="APKTOOL_DUMMY_589">false</item>
     <item type="string" name="APKTOOL_DUMMY_58a">false</item>
     <item type="string" name="APKTOOL_DUMMY_58b">false</item>
     <item type="string" name="APKTOOL_DUMMY_58c">false</item>
     <item type="string" name="APKTOOL_DUMMY_58d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_596">false</item>
-    <item type="string" name="APKTOOL_DUMMY_602">false</item>
-    <item type="string" name="APKTOOL_DUMMY_66c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_671">false</item>
-    <item type="string" name="APKTOOL_DUMMY_686">false</item>
-    <item type="string" name="APKTOOL_DUMMY_688">false</item>
+    <item type="string" name="APKTOOL_DUMMY_58e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_58f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_590">false</item>
+    <item type="string" name="APKTOOL_DUMMY_599">false</item>
+    <item type="string" name="APKTOOL_DUMMY_604">false</item>
+    <item type="string" name="APKTOOL_DUMMY_66f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_674">false</item>
     <item type="string" name="APKTOOL_DUMMY_689">false</item>
     <item type="string" name="APKTOOL_DUMMY_68b">false</item>
     <item type="string" name="APKTOOL_DUMMY_68c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_68d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_692">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6c1">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6c8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6f9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6fb">false</item>
-    <item type="string" name="APKTOOL_DUMMY_70e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_745">false</item>
-    <item type="string" name="APKTOOL_DUMMY_746">false</item>
-    <item type="string" name="APKTOOL_DUMMY_76e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_770">false</item>
-    <item type="string" name="APKTOOL_DUMMY_778">false</item>
-    <item type="string" name="APKTOOL_DUMMY_77e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_77f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_68e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_68f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_690">false</item>
+    <item type="string" name="APKTOOL_DUMMY_695">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6c4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6cb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6fe">false</item>
+    <item type="string" name="APKTOOL_DUMMY_700">false</item>
+    <item type="string" name="APKTOOL_DUMMY_713">false</item>
+    <item type="string" name="APKTOOL_DUMMY_74b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_74c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_779">false</item>
+    <item type="string" name="APKTOOL_DUMMY_77b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_783">false</item>
+    <item type="string" name="APKTOOL_DUMMY_789">false</item>
+    <item type="string" name="APKTOOL_DUMMY_78a">false</item>
 </resources>

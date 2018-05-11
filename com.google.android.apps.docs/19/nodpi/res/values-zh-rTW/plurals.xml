@@ -146,6 +146,10 @@
         <item quantity="other">你的權限不足，無法將部分項目從所屬資料夾中移出。</item>
         <item quantity="one">你的權限不足，無法將這個項目從所屬資料夾中移出。</item>
     </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">這些檔案的擁有者不屬於 %1$s 網域，因此你無法移動檔案。</item>
+        <item quantity="one">這個檔案的擁有者不屬於 %1$s 網域，因此你無法移動檔案。</item>
+    </plurals>
     <plurals name="move_notice_granted_access_team_drive">
         <item quantity="other">%1$s「%2$s」現在擁有存取權了。</item>
         <item quantity="one">%1$s「%2$s」現在擁有存取權了。</item>
@@ -555,5 +559,6 @@
     <plurals name="view_workspace_files">
         <item quantity="other">查看 %1$d 個檔案</item>
         <item quantity="one">查看 %1$d 個檔案</item>
+        <item quantity="two">查看 %1$d 個檔案</item>
     </plurals>
 </resources>

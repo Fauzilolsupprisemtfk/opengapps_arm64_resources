@@ -146,6 +146,10 @@
         <item quantity="other">Nem jogosult rá, hogy egyes elemeket áthelyezzen ebből a mappából.</item>
         <item quantity="one">Nem jogosult rá, hogy áthelyezze ezt az elemet ebből a mappából.</item>
     </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">A fájlok nem helyezhető át, mert a fájltulajdonos nem tartozik a(z) %1$s domainhez.</item>
+        <item quantity="one">A fájl nem helyezhető át, mert a tulajdonosa nem tartozik a(z) %1$s domainhez.</item>
+    </plurals>
     <plurals name="move_notice_granted_access_team_drive">
         <item quantity="other">%1$s A(z) %2$s csapatmeghajtón elérhetők.</item>
         <item quantity="one">%1$s A(z) %2$s csapatmeghajtón elérhető.</item>
@@ -555,5 +559,6 @@
     <plurals name="view_workspace_files">
         <item quantity="other">%1$d fájl megtekintése</item>
         <item quantity="one">%1$d fájl megtekintése</item>
+        <item quantity="two">%1$d fájl megtekintése</item>
     </plurals>
 </resources>

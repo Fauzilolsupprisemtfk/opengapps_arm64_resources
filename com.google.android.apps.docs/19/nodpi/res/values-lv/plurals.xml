@@ -146,6 +146,10 @@
         <item quantity="other">Jums nav atļauts pārvietot dažus vienumus ārpus to mapes.</item>
         <item quantity="one">Jums nav atļauts pārvietot šo vienumu ārpus tā mapes.</item>
     </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">Jūs nevarat pārvietot šos failus, jo failu īpašnieks ir ārpus domēna %1$s.</item>
+        <item quantity="one">Jūs nevarat pārvietot šo failu, jo faila īpašnieks ir ārpus domēna %1$s.</item>
+    </plurals>
     <plurals name="move_notice_granted_access_team_drive">
         <item quantity="other">%1$s Komandas disks %2$s tagad var tiem piekļūt.</item>
         <item quantity="one">%1$s Komandas disks %2$s tagad var tam piekļūt.</item>
@@ -555,5 +559,6 @@
     <plurals name="view_workspace_files">
         <item quantity="other">Skatīt %1$d failus</item>
         <item quantity="one">Skatīt %1$d failu</item>
+        <item quantity="two">Skatīt %1$d failus</item>
     </plurals>
 </resources>

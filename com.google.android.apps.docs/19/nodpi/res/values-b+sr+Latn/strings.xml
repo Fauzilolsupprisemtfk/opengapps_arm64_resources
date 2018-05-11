@@ -632,7 +632,7 @@ Probajte da otpremite datoteku."</string>
     <string name="empty_doclist_for_pinned_view">Nema datoteka dostupnih oflajn.</string>
     <string name="empty_doclist_for_pinned_view_details">Omogućite korišćenje datoteka oflajn u meniju sa opcijama datoteke</string>
     <string name="empty_doclist_for_recent_view">Nema nedavno otvaranih ni izmenjenih datoteka.</string>
-    <string name="empty_doclist_for_search_view">Nema rezultata.</string>
+    <string name="empty_doclist_for_search_view">Nema rezultata</string>
     <string name="empty_doclist_for_shared_with_me_view">Datoteke koje se dele sa vama će biti prikazane ovde.</string>
     <string name="empty_doclist_for_starred_view">Nemate datoteke sa zvezdicom.</string>
     <string name="empty_doclist_for_starred_view_details">Dodirnite ikonu zvezdice u meniju sa opcijama datoteke da biste je dodali na ovu listu.</string>
@@ -678,6 +678,7 @@ Kliknite na + da biste napravili nov crtež."</string>
     <string name="error_start_client">"Učitavanje još datoteka iz  %1$s nije uspelo"</string>
     <string name="error_title">Greška</string>
     <string name="error_video_not_available">Video nije obrađen. Probajte ponovo kasnije.</string>
+    <string name="expand_button_title">Napredno</string>
     <string name="expires_future">Ističe za %1$s</string>
     <string name="expires_today">Ističe danas</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d.</string>
@@ -796,17 +797,6 @@ Kliknite na + da biste napravili nov crtež."</string>
     <string name="manage_accounts">Upravljaj nalozima</string>
     <string name="manage_members_default_members">Članovi podrazumevano mogu da otpremaju/izmene/brišu datoteke i pozivaju druge članove</string>
     <string name="manage_members_dialog_title">Pristup za članove</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
     <string name="manifest_app_projector">Projektor</string>
     <string name="manifest_intent_view_pdf_drive">PDF prikazivač na Disku</string>
     <string name="media_player_error">Došlo je do greške pri reprodukciji</string>
@@ -1138,7 +1128,6 @@ sve vaše datoteke"</string>
     <string name="published_access_anyone">Svako može da vidi objavljenu verziju sajta</string>
     <string name="published_access_domain">Svako na %s može da vidi objavljenu verziju sajta</string>
     <string name="published_access_select_people">Određeni ljudi mogu da vide objavljenu verziju sajta</string>
-    <string name="published_disabled_append">onemogućeno,</string>
     <string name="published_message_for_anyone_can_edit">Pošto svako može da izmeni, svako može da vidi objavljenu verziju.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Pošto svako na %1$s može da izmeni, svako na %1$s može da vidi objavljenu verziju.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Pošto svako sa linkom može da izmeni, svako može da vidi objavljenu verziju.</string>
@@ -1253,6 +1242,7 @@ sve vaše datoteke"</string>
     <string name="selection_menu_overflow_content_desc">Još funkcija za izabrane stavke</string>
     <string name="selection_menu_pin">Dostupno oflajn</string>
     <string name="selection_menu_pin_content_desc">Omogućite korišćenje izabranih stavki oflajn</string>
+    <string name="selection_menu_pin_make_offline">Učini dostupnim oflajn</string>
     <string name="selection_menu_print">Štampaj</string>
     <string name="selection_menu_print_content_desc">Štampajte izabranu stavku</string>
     <string name="selection_menu_remove">Ukloni</string>
@@ -1416,6 +1406,7 @@ sve vaše datoteke"</string>
     <string name="suggest_pin_dialog_positive_button">Učini dostupnim oflajn</string>
     <string name="suggest_pin_dialog_title">Veza nije uspostavljena</string>
     <string name="suggested_name_selected_accessibility_announcement">Izabrana je osoba %1$s</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_account_help_card_button">PROMENI NALOG</string>
     <string name="switch_account_help_card_content">Rezervna kopija za ovaj uređaj se pravi na drugom nalogu. %s</string>
     <string name="switch_account_help_card_title">Rezervna kopija se pravi na drugom nalogu</string>
@@ -1519,6 +1510,8 @@ Možete ponovo da uključite rezervnu kopiju ako odete u odeljak Podešavanja > 
     <string name="upload_waiting_for_wifi">Čeka se Wi-Fi</string>
     <string name="upsell_negbtn">Kasnije</string>
     <string name="upsell_okbtn">Nadogradi</string>
+    <string name="v7_preference_off">ISKLJUČENO</string>
+    <string name="v7_preference_on">UKLJUČENO</string>
     <string name="verbalize_opened_edit">Otvorena je datoteka %1$s sa dozvolama za unos izmena.</string>
     <string name="version_too_old">Žao nam je, ova verzija Google diska više nije podržana. Nadogradite na noviju.</string>
     <string name="version_too_old_close">Zatvori</string>
@@ -1531,8 +1524,9 @@ Možete ponovo da uključite rezervnu kopiju ako odete u odeljak Podešavanja > 
     <string name="warm_welcome_next_button">Dalje</string>
     <string name="warm_welcome_skip_button">Preskoči</string>
     <string name="warning_cannot_share_outside_domain">Podešavanja ovog Diska tima ne dozvoljavaju deljenje van %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Podešavanja ovog Diska tima ne dozvoljavaju deljenje van %s i sa korisnicima koji nisu članovi</string>
     <string name="warning_cannot_share_outside_domain_org">Podešavanja organizacije ne dozvoljavaju deljenje van organizacije</string>
-    <string name="warning_cannot_share_outside_team_drive">Podešavanja ovog Diska tima ne dozvoljavaju deljenje van tima</string>
+    <string name="warning_cannot_share_outside_team_drive">Podešavanja ovog Diska tima ne dozvoljavaju deljenje sa korisnicima koji nisu članovi</string>
     <string name="welcome_button_close">Idi na Disk</string>
     <string name="welcome_button_continue">Dalje</string>
     <string name="welcome_offer_button_close">Zatvori</string>
@@ -1578,7 +1572,7 @@ Da biste ponovo uključili pravljenje rezervnih kopija, idite u odeljak Podešav
     <string name="zss_showing_list_of_filters">Prikazana je lista dostupnih filtera.</string>
     <string name="zss_team_drive">Pretražite u %1$s</string>
     <string name="zss_type_archive">Arhiva</string>
-    <string name="zss_type_audio">Audio</string>
+    <string name="zss_type_audio">Zvuk</string>
     <string name="zss_type_documents">Tekstualni dokumenti</string>
     <string name="zss_type_folder">Direktorijumi</string>
     <string name="zss_type_images">Fotografije i slike</string>

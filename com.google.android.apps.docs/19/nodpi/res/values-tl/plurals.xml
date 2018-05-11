@@ -146,6 +146,10 @@
         <item quantity="other">Wala kang pahintulot na maglipat ng ilang item mula sa folder ng mga ito.</item>
         <item quantity="one">Wala kang pahintulot na ilipat ang item na ito mula sa folder nito.</item>
     </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">Hindi mo maililipat ang mga file na ito dahil wala sa %1$s ang may-ari ng file.</item>
+        <item quantity="one">Hindi mo maililipat ang file na ito dahil wala sa %1$s ang may-ari ng file.</item>
+    </plurals>
     <plurals name="move_notice_granted_access_team_drive">
         <item quantity="other">%1$s Maa-access na ng \"%2$s\" ang mga ito.</item>
         <item quantity="one">%1$s Maa-access na ito ng \"%2$s.\"</item>
@@ -555,5 +559,6 @@
     <plurals name="view_workspace_files">
         <item quantity="other">Tingnan ang %1$d (na) file</item>
         <item quantity="one">Tingnan ang %1$d file</item>
+        <item quantity="two">Tingnan ang %1$d (na) file</item>
     </plurals>
 </resources>

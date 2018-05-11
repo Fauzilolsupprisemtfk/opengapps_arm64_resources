@@ -156,6 +156,10 @@
         <item quantity="other">"You don't have permission to move some items out of their folder."</item>
         <item quantity="one">"You don't have permission to move this item out of its folder."</item>
     </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">"You can't move these files because the file owner is outside of%1$s."</item>
+        <item quantity="one">"You can't move this file because the file owner is outside of%1$s."</item>
+    </plurals>
     <plurals name="move_notice_granted_access_team_drive">
         <item quantity="other">%1$s \"%2$s\" can now access them.</item>
         <item quantity="one">%1$s \"%2$s\" can now access it.</item>
@@ -573,5 +577,11 @@
     <plurals name="view_workspace_files">
         <item quantity="other">View %1$d files</item>
         <item quantity="one">View %1$d file</item>
+        <item quantity="two">View %1$d files</item>
+    </plurals>
+    <plurals name="view_workspace_files_content_desc">
+        <item quantity="other">View all %1$d files in %2$s</item>
+        <item quantity="one">View %1$d file in %2$s</item>
+        <item quantity="two">View all %1$d files in %2$s</item>
     </plurals>
 </resources>

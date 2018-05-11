@@ -640,7 +640,7 @@ Intenta subir un archivo."</string>
     <string name="empty_doclist_for_pinned_view">No hay archivos disponibles sin conexión.</string>
     <string name="empty_doclist_for_pinned_view_details">Configura los archivos como \"Disponibles sin conexión\" en el menú de opciones del archivo</string>
     <string name="empty_doclist_for_recent_view">No hay archivos abiertos o editados recientemente.</string>
-    <string name="empty_doclist_for_search_view">No hay resultados.</string>
+    <string name="empty_doclist_for_search_view">No hay resultados</string>
     <string name="empty_doclist_for_shared_with_me_view">Los archivos compartidos contigo aparecerán aquí.</string>
     <string name="empty_doclist_for_starred_view">No tienes archivos destacados.</string>
     <string name="empty_doclist_for_starred_view_details">Presiona el ícono de estrella en el menú de opciones del archivo para agregarlo a esta lista.</string>
@@ -686,6 +686,7 @@ Haz clic en + para crear un dibujo nuevo."</string>
     <string name="error_start_client">"No se pueden cargar más archivos de  %1$s"</string>
     <string name="error_title">Error</string>
     <string name="error_video_not_available">El video no se ha procesado. Inténtalo de nuevo más tarde.</string>
+    <string name="expand_button_title">Avanzado</string>
     <string name="expires_future">Vence en %1$s</string>
     <string name="expires_today">Vence hoy</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s de %2$d</string>
@@ -1001,7 +1002,7 @@ Haz clic en + para crear un dibujo nuevo."</string>
     <string name="ouch_please_report">%1$s se detuvo de forma inesperada. Informa este error para ayudarnos a determinar cuál fue el problema.</string>
     <string name="ouch_title_sawwrie">Lo sentimos</string>
     <string name="overflow_button_content_description">Más opciones</string>
-    <string name="owner_not_user">No son propiedad de %1$s</string>
+    <string name="owner_not_user">Ajenos a %1$s</string>
     <string name="owner_user">Propiedad de %1$s</string>
     <string name="page_1_description">Recibes 15 GB de espacio gratuito para todos los documentos, fotos y mucho más.</string>
     <string name="page_1_free_space_highlight">15 GB GRATIS</string>
@@ -1252,6 +1253,7 @@ todos tus archivos"</string>
     <string name="selection_menu_overflow_content_desc">Más funciones para los elementos seleccionados</string>
     <string name="selection_menu_pin">Disp. sin conexión</string>
     <string name="selection_menu_pin_content_desc">Permitir que los elementos seleccionados estén disponibles sin conexión</string>
+    <string name="selection_menu_pin_make_offline">Permitir acceso sin conexión</string>
     <string name="selection_menu_print">Imprimir</string>
     <string name="selection_menu_print_content_desc">Imprimir elemento seleccionado</string>
     <string name="selection_menu_remove">Eliminar</string>
@@ -1415,6 +1417,7 @@ todos tus archivos"</string>
     <string name="suggest_pin_dialog_positive_button">Permitir acceso sin conexión</string>
     <string name="suggest_pin_dialog_title">No hay conexión</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, seleccionada</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_account_help_card_button">CAMBIAR CUENTA</string>
     <string name="switch_account_help_card_content">La copia de seguridad de este dispositivo se hizo en una cuenta diferente. %s</string>
     <string name="switch_account_help_card_title">Realizando copia de seguridad en una cuenta diferente</string>
@@ -1518,6 +1521,8 @@ Para volver a activar la copia de seguridad, puedes dirigirte a Configuración >
     <string name="upload_waiting_for_wifi">Esperando red Wi-Fi</string>
     <string name="upsell_negbtn">Más tarde</string>
     <string name="upsell_okbtn">Actualizar</string>
+    <string name="v7_preference_off">DESACTIVADO</string>
+    <string name="v7_preference_on">ACTIVADO</string>
     <string name="verbalize_opened_edit">Se abrió %1$s con permisos de edición.</string>
     <string name="version_too_old">Lo sentimos, ya no se admite esta versión de Google Drive. Actualiza a una versión más reciente.</string>
     <string name="version_too_old_close">Cerrar</string>
@@ -1530,6 +1535,7 @@ Para volver a activar la copia de seguridad, puedes dirigirte a Configuración >
     <string name="warm_welcome_next_button">Siguiente</string>
     <string name="warm_welcome_skip_button">Omitir</string>
     <string name="warning_cannot_share_outside_domain">La configuración de esta unidad de equipo no permite compartir elementos fuera de %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">La configuración de esta unidad de equipo no permite compartir elementos con personas ajenas a ella y a %s</string>
     <string name="warning_cannot_share_outside_domain_org">La configuración de la organización no permite compartir elementos fuera de ella</string>
     <string name="warning_cannot_share_outside_team_drive">La configuración de esta unidad de equipo no permite compartir elementos con personas ajenas a ella</string>
     <string name="welcome_button_close">Ir a Drive</string>
@@ -1568,15 +1574,15 @@ Para volver a activar la copia de seguridad, ve a Configuración > Chats de What
     <string name="zss_date_range_today">Hoy</string>
     <string name="zss_date_range_week">Últimos 7 días</string>
     <string name="zss_date_range_yesterday">Ayer</string>
-    <string name="zss_entry_types_header_title">Tipos de archivos</string>
+    <string name="zss_entry_types_header_title">Tipos de archivo</string>
     <string name="zss_no_filters">No hay filtros</string>
     <string name="zss_owner_header_title">Propiedad de</string>
     <string name="zss_owner_me">De mi propiedad</string>
-    <string name="zss_owner_not_me">Ajenos a mi propiedad</string>
+    <string name="zss_owner_not_me">De otros usuarios</string>
     <string name="zss_people_header_title">Personas</string>
     <string name="zss_showing_list_of_filters">Se muestra la lista de filtros disponibles.</string>
     <string name="zss_team_drive">Buscar en %1$s</string>
-    <string name="zss_type_archive">Archivar</string>
+    <string name="zss_type_archive">Archivo</string>
     <string name="zss_type_audio">Audio</string>
     <string name="zss_type_documents">Documentos de texto</string>
     <string name="zss_type_folder">Carpetas</string>

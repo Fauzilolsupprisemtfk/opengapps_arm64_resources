@@ -640,7 +640,7 @@ Hier kun je je bestanden uploaden."</string>
     <string name="empty_doclist_for_pinned_view">Geen bestanden offline beschikbaar.</string>
     <string name="empty_doclist_for_pinned_view_details">"Maak bestanden 'Offline beschikbaar' in het optiemenu van het bestand"</string>
     <string name="empty_doclist_for_recent_view">Er zijn geen onlangs geopende of gewijzigde bestanden.</string>
-    <string name="empty_doclist_for_search_view">Geen resultaten.</string>
+    <string name="empty_doclist_for_search_view">Geen resultaten</string>
     <string name="empty_doclist_for_shared_with_me_view">Bestanden die met jou zijn gedeeld, worden hier weergegeven.</string>
     <string name="empty_doclist_for_starred_view">Je hebt geen bestanden met ster.</string>
     <string name="empty_doclist_for_starred_view_details">Tik op het sterpictogram in het optiemenu van het bestand om het aan deze lijst toe te voegen.</string>
@@ -686,6 +686,7 @@ Klik op + om een nieuwe tekening te maken."</string>
     <string name="error_start_client">"Kan niet meer bestanden uit  %1$s laden"</string>
     <string name="error_title">Fout</string>
     <string name="error_video_not_available">De video is niet verwerkt. Probeer het later opnieuw.</string>
+    <string name="expand_button_title">Geavanceerd</string>
     <string name="expires_future">Verloopt over %1$s</string>
     <string name="expires_today">Verloopt vandaag</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
@@ -817,17 +818,8 @@ Klik op + om een nieuwe tekening te maken."</string>
     <string name="manage_accounts">Accounts beheren</string>
     <string name="manage_members_default_members">Standaard kunnen leden bestanden uploaden/bewerken/verwijderen en andere leden uitnodigen</string>
     <string name="manage_members_dialog_title">Ledentoegang</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Opslag</string>
+    <string name="management_data_loading_failed">Kan deze pagina niet laden</string>
     <string name="manifest_app_projector">Projector</string>
     <string name="manifest_intent_view_pdf_drive">Drive PDF Viewer</string>
     <string name="media_player_error">Er is een afspeelfout opgetreden</string>
@@ -1132,7 +1124,7 @@ Klik op + om een nieuwe tekening te maken."</string>
     <string name="ouch_please_report">%1$s is onverwachts gestopt. Meld dit probleem om ons te helpen bepalen wat er verkeerd is gegaan.</string>
     <string name="ouch_title_sawwrie">Sorry</string>
     <string name="overflow_button_content_description">Meer opties</string>
-    <string name="owner_not_user">Niet eigendom van %1$s</string>
+    <string name="owner_not_user">Geen eigendom van %1$s</string>
     <string name="owner_user">Eigendom van %1$s</string>
     <string name="page_1_description">"Je krijgt 15 GB gratis opslagruimte voor al je foto's, documenten en andere items."</string>
     <string name="page_1_free_space_highlight">15 GB GRATIS</string>
@@ -1269,7 +1261,6 @@ al je bestanden"</string>
     <string name="published_access_anyone">Iedereen mag de site na publicatie bekijken</string>
     <string name="published_access_domain">Iedereen binnen het domein %s mag de site na publicatie bekijken</string>
     <string name="published_access_select_people">Specifieke mensen mogen de site na publicatie bekijken</string>
-    <string name="published_disabled_append">uitgeschakeld,</string>
     <string name="published_message_for_anyone_can_edit">Omdat iedereen de site kan bewerken, kan iedereen de site na publicatie ook bekijken.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Omdat iedereen binnen het domein %1$s de site kan bewerken, kan iedereen binnen het domein %1$s de site na publicatie ook bekijken.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Omdat iedereen met de link de site kan bewerken, kan iedereen de site na publicatie ook bekijken.</string>
@@ -1384,6 +1375,7 @@ al je bestanden"</string>
     <string name="selection_menu_overflow_content_desc">Meer functies voor geselecteerde items</string>
     <string name="selection_menu_pin">Offline beschikbaar</string>
     <string name="selection_menu_pin_content_desc">Geselecteerde items offline beschikbaar maken</string>
+    <string name="selection_menu_pin_make_offline">Offline beschikbaar maken</string>
     <string name="selection_menu_print">Afdrukken</string>
     <string name="selection_menu_print_content_desc">Geselecteerd item afdrukken</string>
     <string name="selection_menu_remove">Verwijderen</string>
@@ -1547,6 +1539,7 @@ al je bestanden"</string>
     <string name="suggest_pin_dialog_positive_button">Offline beschikbaar maken</string>
     <string name="suggest_pin_dialog_title">Geen verbinding</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, geselecteerd</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_account_help_card_button">ACCOUNT WIJZIGEN</string>
     <string name="switch_account_help_card_content">Er is een back-up van dit apparaat gemaakt in een ander account. %s</string>
     <string name="switch_account_help_card_title">Back-up maken in een ander account</string>
@@ -1650,6 +1643,8 @@ Je kunt back-ups desgewenst weer inschakelen. Ga hiervoor naar Instellingen > Ch
     <string name="upload_waiting_for_wifi">Wachten op wifi</string>
     <string name="upsell_negbtn">Later</string>
     <string name="upsell_okbtn">Upgraden</string>
+    <string name="v7_preference_off">UIT</string>
+    <string name="v7_preference_on">AAN</string>
     <string name="verbalize_opened_edit">%1$s is geopend met bewerkingsrechten.</string>
     <string name="version_too_old">Deze versie van Google Drive wordt niet langer ondersteund. Upgrade naar een nieuwere versie.</string>
     <string name="version_too_old_close">Sluiten</string>
@@ -1662,8 +1657,9 @@ Je kunt back-ups desgewenst weer inschakelen. Ga hiervoor naar Instellingen > Ch
     <string name="warm_welcome_next_button">Volgende</string>
     <string name="warm_welcome_skip_button">Overslaan</string>
     <string name="warning_cannot_share_outside_domain">Delen buiten %s is uitgeschakeld voor deze Drive van mijn team</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Delen met niet-leden en gebruikers buiten %s is uitgeschakeld voor deze Drive van mijn team</string>
     <string name="warning_cannot_share_outside_domain_org">Delen buiten de organisatie is uitgeschakeld voor deze organisatie</string>
-    <string name="warning_cannot_share_outside_team_drive">Delen buiten het team is uitgeschakeld voor deze Drive van mijn team</string>
+    <string name="warning_cannot_share_outside_team_drive">Delen met niet-leden is uitgeschakeld voor deze Drive van mijn team</string>
     <string name="welcome_button_close">Ga naar Drive</string>
     <string name="welcome_button_continue">Volgende</string>
     <string name="welcome_offer_button_close">Sluiten</string>

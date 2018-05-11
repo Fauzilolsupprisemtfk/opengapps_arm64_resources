@@ -630,7 +630,7 @@ Ekintza hau ezin da desegin."</string>
     <string name="empty_doclist_for_pinned_view">Ez dago fitxategirik erabilgarri konexiorik gabe.</string>
     <string name="empty_doclist_for_pinned_view_details">Ezarri fitxategiak \"Konexiorik gabe erabilgarri\" fitxategien aukeren menuan</string>
     <string name="empty_doclist_for_recent_view">Azkenaldian ez da ireki edo editatu fitxategirik.</string>
-    <string name="empty_doclist_for_search_view">Ez da aurkitu emaitzarik.</string>
+    <string name="empty_doclist_for_search_view">Ez dago emaitzarik</string>
     <string name="empty_doclist_for_shared_with_me_view">Hemen agertuko dira zurekin partekatutako fitxategiak.</string>
     <string name="empty_doclist_for_starred_view">Ez duzu fitxategi izardunik.</string>
     <string name="empty_doclist_for_starred_view_details">Sakatu fitxategiaren aukera-menuko izarraren ikonoa zerrendan gehitzeko.</string>
@@ -676,6 +676,7 @@ Sakatu + marrazkiak sortzeko."</string>
     <string name="error_start_client">"Ezin da kargatu datu gehiago hemendik:  %1$s"</string>
     <string name="error_title">Errorea</string>
     <string name="error_video_not_available">Ez da prozesatu bideoa. Saiatu berriro geroago.</string>
+    <string name="expand_button_title">Aurreratua</string>
     <string name="expires_future">%1$s barru iraungiko da</string>
     <string name="expires_today">Gaur iraungiko da</string>
     <string name="fast_scroll_month_and_year_grouped">%2$d %1$s</string>
@@ -793,6 +794,8 @@ kargatzen"</string>
     <string name="location_removed_entry_content_description_unclickable">%1$s karpetatik kendu da.</string>
     <string name="manage_members_default_members">Modu lehenetsian, kide gehiago gonbidatu eta fitxategiak kargatu, editatu eta ezaba ditzakete kideek</string>
     <string name="manage_members_dialog_title">Kideen baimenak</string>
+    <string name="management_activity_toolbar_title">Memoria</string>
+    <string name="management_data_loading_failed">Ezin da kargatu orria</string>
     <string name="manifest_app_projector">Proiektorea</string>
     <string name="manifest_intent_view_pdf_drive">Drive PDF Viewer</string>
     <string name="media_player_error">Erreprodukzio-errore bat gertatu da</string>
@@ -988,8 +991,6 @@ kargatzen"</string>
     <string name="ouch_please_report">Ustekabean gelditu da %1$s aplikazioa. Eman arazo honen berri zer gertatu den zehaztu ahal izan dezagun.</string>
     <string name="ouch_title_sawwrie">Barkatu!</string>
     <string name="overflow_button_content_description">Aukera gehiago</string>
-    <string name="owner_not_user">%1$s erabiltzailearenak ez direnak</string>
-    <string name="owner_user">%1$s erabiltzailearenak</string>
     <string name="page_1_description">15 GB izango dituzu doan argazkiak, dokumentuak eta beste gordetzeko.</string>
     <string name="page_1_free_space_highlight">15 GB DOAN</string>
     <string name="page_1_heading">"Toki segurua
@@ -1044,7 +1045,7 @@ fitxategi guztiak gordetzeko"</string>
     <string name="pin_paused">Pausatu da deskarga</string>
     <string name="pin_pinned_a11y">Ainguratuta</string>
     <string name="pin_sync_broadband_warning_learn_more">Lortu informazio gehiago</string>
-    <string name="pin_sync_broadband_warning_message">Datu mugikorren bidez fitxategiak transferituz gero, baliteke zerbait ordaindu behar izatea, datu mugikorren zer plan duzun.</string>
+    <string name="pin_sync_broadband_warning_message">Datu-konexio bidez fitxategiak transferituz gero, baliteke zerbait ordaindu behar izatea, datu-konexioaren planaren arabera.</string>
     <string name="pin_sync_broadband_warning_title">Datuen erabilerari buruzko abisua</string>
     <string name="pin_update">Eguneratze berria eskuragarri</string>
     <string name="pin_waiting">Deskargatzeko zain</string>
@@ -1124,7 +1125,6 @@ fitxategi guztiak gordetzeko"</string>
     <string name="published_access_anyone">Edonork ikus dezake, argitaratzen denean</string>
     <string name="published_access_domain">%s domeinuko edonork ikus dezake, argitaratzen denean</string>
     <string name="published_access_select_people">Pertsona jakin batzuek ikus dezakete, argitaratzen denean</string>
-    <string name="published_disabled_append">desgaituta,</string>
     <string name="published_message_for_anyone_can_edit">Edonork edita dezake; beraz, edonork ikusi ahal izango du argitaratzen denean.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">%1$s domeinuko edonork edita dezake; beraz, %1$s domeinuko edonork ikusi ahal izango du argitaratzen denean.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Esteka duen edonork edita dezake; beraz, edonork ikusi ahal izango du argitaratzen denean.</string>
@@ -1238,6 +1238,7 @@ fitxategi guztiak gordetzeko"</string>
     <string name="selection_menu_overflow_content_desc">Hautatutako elementuetarako funtzio gehiago</string>
     <string name="selection_menu_pin">Konexiorik gabe</string>
     <string name="selection_menu_pin_content_desc">Jarri hautatutako elementuak konexiorik gabe erabilgarri</string>
+    <string name="selection_menu_pin_make_offline">Ezarri konexiorik gabe erabilgarri</string>
     <string name="selection_menu_print">Inprimatu</string>
     <string name="selection_menu_print_content_desc">Inprimatu hautatutako elementua</string>
     <string name="selection_menu_remove">Kendu</string>
@@ -1399,6 +1400,7 @@ fitxategi guztiak gordetzeko"</string>
     <string name="suggest_pin_dialog_positive_button">Ezarri konexiorik gabe erabilgarri</string>
     <string name="suggest_pin_dialog_title">Ez dago konexiorik</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s hautatu da</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_account_help_card_button">ALDATU KONTUA</string>
     <string name="switch_account_help_card_content">Beste kontu batean egiten ari dira gailu honen babeskopiak. %s</string>
     <string name="switch_account_help_card_title">Beste kontu batean egiten ari dira babeskopiak</string>
@@ -1502,6 +1504,8 @@ Babeskopiak egiteko aukera berriro aktibatzeko, joan Settings (ezarpenak) > Chat
     <string name="upload_waiting_for_wifi">Wi-Fi sarearen zain</string>
     <string name="upsell_negbtn">Geroago</string>
     <string name="upsell_okbtn">Bertsio-berritu</string>
+    <string name="v7_preference_off">DESAKTIBATUTA</string>
+    <string name="v7_preference_on">AKTIBATUTA</string>
     <string name="verbalize_opened_edit">Editatzeko baimenarekin ireki da %1$s.</string>
     <string name="version_too_old">Ez da onartzen Google Drive aplikazioaren bertsio hau. Bertsio-berritu.</string>
     <string name="version_too_old_close">Itxi</string>
@@ -1515,7 +1519,6 @@ Babeskopiak egiteko aukera berriro aktibatzeko, joan Settings (ezarpenak) > Chat
     <string name="warm_welcome_skip_button">Saltatu</string>
     <string name="warning_cannot_share_outside_domain">Taldeko unitate honen ezarpenak direla-eta, ezin da partekatu edukia %s domeinutik kanpo</string>
     <string name="warning_cannot_share_outside_domain_org">Erakundearen ezarpenak direla-eta, ezin da partekatu edukia erakundetik kanpo</string>
-    <string name="warning_cannot_share_outside_team_drive">Taldeko unitate honen ezarpenak direla-eta, ezin da partekatu edukia taldetik kanpo</string>
     <string name="welcome_button_close">Joan Drive-ra</string>
     <string name="welcome_button_continue">Hurrengoa</string>
     <string name="welcome_offer_button_close">Itxi</string>
@@ -1545,28 +1548,6 @@ Babeskopia berriro aktibatzeko, joan Settings (ezarpenak) > Chats (txatak) atale
     <string name="widget_scan_to_drive_title">Kargatu hona:</string>
     <string name="widget_upload">Kargatu</string>
     <string name="write_access_denied">Ukatu egin da dokumentuan idazteko baimena.</string>
-    <string name="zss_accessibility_searching">%1$s bilatzen</string>
-    <string name="zss_date_range_header_title">Aldatze-data</string>
-    <string name="zss_date_range_month">Azken 30 egunak</string>
-    <string name="zss_date_range_three_month">Azken 90 egunak</string>
-    <string name="zss_date_range_today">Gaur</string>
-    <string name="zss_date_range_week">Azken 7 egunak</string>
-    <string name="zss_date_range_yesterday">Atzo</string>
-    <string name="zss_entry_types_header_title">Fitxategi motak</string>
     <string name="zss_no_filters">Ez dago iragazkirik</string>
-    <string name="zss_owner_header_title">Elementuaren jabea:</string>
-    <string name="zss_owner_me">Nire jabetzakoak</string>
-    <string name="zss_owner_not_me">Nire jabetzakoak ez direnak</string>
-    <string name="zss_people_header_title">Jendea</string>
     <string name="zss_showing_list_of_filters">Eskuragarri dauden iragazkien zerrenda ikusgai.</string>
-    <string name="zss_team_drive">Bilatu %1$s taldeko unitatean</string>
-    <string name="zss_type_archive">Artxibatu</string>
-    <string name="zss_type_audio">Audioa</string>
-    <string name="zss_type_documents">Testu-dokumentuak</string>
-    <string name="zss_type_folder">Karpetak</string>
-    <string name="zss_type_images">Argazkiak eta irudiak</string>
-    <string name="zss_type_pdfs">PDFak</string>
-    <string name="zss_type_presentations">Aurkezpenak</string>
-    <string name="zss_type_spreadsheets">Kalkulu-orriak</string>
-    <string name="zss_type_video">Bideoak</string>
 </resources>

@@ -329,7 +329,7 @@ Gagawa ng bagong backup na data kung naka-on pa rin ang pag-backup para sa numer
     <string name="device_inactive">Hindi aktibo ang device</string>
     <string name="device_offline">Walang koneksyon</string>
     <string name="device_settings">Mga setting ng device</string>
-    <string name="device_settings_message">Kasama sa backup ang configuration ng device, gaya ng wallpaper, mga password ng WiFi at mga default na app.</string>
+    <string name="device_settings_message">Kasama sa backup ang configuration ng device, gaya ng wallpaper, mga password ng WiFi, at mga default na app.</string>
     <string name="dialog_confirm_delete_td">Sigurado ka ba?</string>
     <string name="dialog_confirm_downgrade_description">Hindi ka na makakagawa ng ilang partikular na pagkilos.</string>
     <string name="dialog_confirm_downgrade_group_sole_organizer_description">Kung bababaan mo ang access sa pangkat na ito, walang makakapag-ayos ng mga file o makakapamahala ng membership para sa Drive ng Team na ito.</string>
@@ -632,7 +632,7 @@ Subukang mag-upload ng file."</string>
     <string name="empty_doclist_for_pinned_view">Walang available na file offline.</string>
     <string name="empty_doclist_for_pinned_view_details">Gawing \"Available sa offline\" ang mga file sa menu ng mga opsyon ng file</string>
     <string name="empty_doclist_for_recent_view">Walang kamakailang binuksan o na-edit na file.</string>
-    <string name="empty_doclist_for_search_view">Walang mga resulta.</string>
+    <string name="empty_doclist_for_search_view">Walang resulta</string>
     <string name="empty_doclist_for_shared_with_me_view">Dito lalabas ang mga file na ibinahagi sa iyo.</string>
     <string name="empty_doclist_for_starred_view">Wala kang naka-star na file.</string>
     <string name="empty_doclist_for_starred_view_details">I-tap ang icon na star sa menu ng opsyon ng file upang idagdag iyon sa listahang ito.</string>
@@ -678,6 +678,7 @@ I-click ang + upang gumawa ng bagong drawing."</string>
     <string name="error_start_client">"Hindi na makakapag-load ng file mula sa  %1$s"</string>
     <string name="error_title">Error</string>
     <string name="error_video_not_available">Hindi naproseso ang video. Pakisubukang muli sa ibang pagkakataon.</string>
+    <string name="expand_button_title">Advanced</string>
     <string name="expires_future">Mag-e-expire pagkalipas ng %1$s</string>
     <string name="expires_today">Mag-e-expire ngayon</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
@@ -1129,7 +1130,6 @@ lahat ng iyong file"</string>
     <string name="published_access_anyone">Matitingnan ng sinuman kapag na-publish</string>
     <string name="published_access_domain">Matitingnan ng sinuman sa %s kapag naka-publish</string>
     <string name="published_access_select_people">Matitingnan ng mga partikular na tao kapag na-publish</string>
-    <string name="published_disabled_append">naka-disable,</string>
     <string name="published_message_for_anyone_can_edit">Dahil makakapag-edit ang sinuman, matitingnan ito ng sinuman kapag na-publish.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Dahil makakapag-edit ang sinuman sa %1$s, matitingnan ito ng sinuman sa %1$s kapag na-publish ito.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Dahil makakapag-edit ang sinumang may link, matitingnan ito ng sinuman kapag na-publish.</string>
@@ -1244,6 +1244,7 @@ lahat ng iyong file"</string>
     <string name="selection_menu_overflow_content_desc">Higit pang mga function para sa mga napiling item</string>
     <string name="selection_menu_pin">Available sa offline</string>
     <string name="selection_menu_pin_content_desc">Gawing available offline ang mga piniling item</string>
+    <string name="selection_menu_pin_make_offline">Gawing available offline</string>
     <string name="selection_menu_print">I-print</string>
     <string name="selection_menu_print_content_desc">I-print ang napiling item</string>
     <string name="selection_menu_remove">Alisin</string>
@@ -1407,6 +1408,7 @@ lahat ng iyong file"</string>
     <string name="suggest_pin_dialog_positive_button">Gawing available offline</string>
     <string name="suggest_pin_dialog_title">Walang koneksyon</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, pinili</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_account_help_card_button">PALITAN ANG ACCOUNT</string>
     <string name="switch_account_help_card_content">Naka-back up ang device na ito sa ibang account. %s</string>
     <string name="switch_account_help_card_title">Pagba-back up sa ibang account</string>
@@ -1510,6 +1512,8 @@ Maaari mong i-on muli ang pag-back up sa pamamagitan ng pagpunta sa Mga Setting 
     <string name="upload_waiting_for_wifi">Naghihintay ng Wi-Fi</string>
     <string name="upsell_negbtn">Saka na</string>
     <string name="upsell_okbtn">I-upgrade</string>
+    <string name="v7_preference_off">NAKA-OFF</string>
+    <string name="v7_preference_on">NAKA-ON</string>
     <string name="verbalize_opened_edit">Binuksan ang %1$s na may mga pahintulot na mag-edit.</string>
     <string name="version_too_old">Paumanhin, hindi na sinusuportahan ang bersyong ito ng Google Drive. Mangyaring mag-upgrade sa isang mas bagong bersyon.</string>
     <string name="version_too_old_close">Isara</string>
@@ -1522,8 +1526,9 @@ Maaari mong i-on muli ang pag-back up sa pamamagitan ng pagpunta sa Mga Setting 
     <string name="warm_welcome_next_button">Susunod</string>
     <string name="warm_welcome_skip_button">Laktawan</string>
     <string name="warning_cannot_share_outside_domain">Pinipigilan ng mga setting ng Drive ng Team na ito ang pagbabahagi sa labas ng %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Pinipigilan ng mga setting ng Drive ng Team na ito ang pagbabahagi sa labas ng %s at sa mga hindi miyembro</string>
     <string name="warning_cannot_share_outside_domain_org">Pinipigilan ng mga setting ng organisasyon ang pagbabahagi sa labas ng organisasyon</string>
-    <string name="warning_cannot_share_outside_team_drive">Pinipigilan ng mga setting ng Drive ng Team na ito ang pagbabahagi sa labas ng team</string>
+    <string name="warning_cannot_share_outside_team_drive">Pinipigilan ng mga setting ng Drive ng Team na ito ang pagbabahagi sa mga hindi miyembro</string>
     <string name="welcome_button_close">Pumunta sa Drive</string>
     <string name="welcome_button_continue">Susunod</string>
     <string name="welcome_offer_button_close">Isara</string>
@@ -1555,26 +1560,26 @@ Upang muling i-on ang pag-backup, pumunta sa Mga Setting > Mga Chat sa WhatsApp.
     <string name="write_access_denied">Hindi pinahintulutan ang access sa pagsulat sa dokumento.</string>
     <string name="zss_accessibility_searching">Naghahanap ng %1$s</string>
     <string name="zss_date_range_header_title">Petsa noong nabago</string>
-    <string name="zss_date_range_month">Nakaraang 30 araw</string>
-    <string name="zss_date_range_three_month">Nakaraang 90 araw</string>
-    <string name="zss_date_range_today">Ngayon</string>
-    <string name="zss_date_range_week">Nakaraang 7 araw</string>
+    <string name="zss_date_range_month">Huling 30 araw</string>
+    <string name="zss_date_range_three_month">Huling 90 araw</string>
+    <string name="zss_date_range_today">Ngayong Araw</string>
+    <string name="zss_date_range_week">Huling 7 araw</string>
     <string name="zss_date_range_yesterday">Kahapon</string>
     <string name="zss_entry_types_header_title">Mga uri ng file</string>
     <string name="zss_no_filters">Walang mga filter</string>
-    <string name="zss_owner_header_title">Pag-aari ni</string>
+    <string name="zss_owner_header_title">Pagmamay-ari ni</string>
     <string name="zss_owner_me">Pagmamay-ari ko</string>
     <string name="zss_owner_not_me">Hindi ko pagmamay-ari</string>
     <string name="zss_people_header_title">Mga Tao</string>
     <string name="zss_showing_list_of_filters">Ipinapakita ang listahan ng mga available na filter.</string>
     <string name="zss_team_drive">Maghanap sa %1$s</string>
-    <string name="zss_type_archive">I-archive</string>
+    <string name="zss_type_archive">Archive</string>
     <string name="zss_type_audio">Audio</string>
     <string name="zss_type_documents">Mga text document</string>
     <string name="zss_type_folder">Mga Folder</string>
-    <string name="zss_type_images">Mga litrato at larawan</string>
+    <string name="zss_type_images">Mga larawan at imahe</string>
     <string name="zss_type_pdfs">Mga PDF</string>
-    <string name="zss_type_presentations">Mga Presentasyon</string>
+    <string name="zss_type_presentations">Mga Presentation</string>
     <string name="zss_type_spreadsheets">Mga Spreadsheet</string>
     <string name="zss_type_video">Mga Video</string>
 </resources>

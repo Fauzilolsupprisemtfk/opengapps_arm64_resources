@@ -146,6 +146,10 @@
         <item quantity="other">Nu aveți permisiunea de a muta unele articole din dosarul lor.</item>
         <item quantity="one">Nu aveți permisiunea de a muta acest articol din dosarul său.</item>
     </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">Nu puteți muta aceste fișiere deoarece proprietarul acestora este în afara domeniului %1$s.</item>
+        <item quantity="one">Nu puteți muta acest fișier deoarece proprietarul acestuia este în afara domeniului %1$s.</item>
+    </plurals>
     <plurals name="move_notice_granted_access_team_drive">
         <item quantity="other">%1$s „%2$s” le poate accesa.</item>
         <item quantity="one">%1$s „%2$s” îl poate accesa.</item>
@@ -555,5 +559,6 @@
     <plurals name="view_workspace_files">
         <item quantity="other">Afișați %1$d fișiere</item>
         <item quantity="one">Afișați %1$d fișier</item>
+        <item quantity="two">Afișați %1$d fișiere</item>
     </plurals>
 </resources>

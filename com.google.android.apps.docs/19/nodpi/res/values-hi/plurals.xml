@@ -146,6 +146,10 @@
         <item quantity="other">आपके पास कुछ आइटम को उनके फ़ोल्डर से बाहर ले जाने की अनुमति नहीं है.</item>
         <item quantity="one">आपके पास इस आइटम को इसके फ़ोल्डर से बाहर ले जाने की अनुमति नहीं है.</item>
     </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">आप इन फ़ाइलों को नहीं ले जा सकते, क्योंकि फ़ाइल का स्वामी %1$s के बाहर है.</item>
+        <item quantity="one">आप इस फ़ाइल को नहीं ले जा सकते, क्योंकि फ़ाइल का स्वामी %1$s डोमेन के बाहर है.</item>
+    </plurals>
     <plurals name="move_notice_granted_access_team_drive">
         <item quantity="other">%1$s \"%2$s\" अब इन्हें एक्सेस कर सकती है.</item>
         <item quantity="one">%1$s \"%2$s\" अब इसे एक्सेस कर सकती है.</item>
@@ -555,5 +559,6 @@
     <plurals name="view_workspace_files">
         <item quantity="other">%1$d फ़ाइलें देखें</item>
         <item quantity="one">%1$d फ़ाइल देखें</item>
+        <item quantity="two">%1$d फ़ाइलें देखें</item>
     </plurals>
 </resources>

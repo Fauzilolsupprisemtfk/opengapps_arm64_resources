@@ -146,6 +146,10 @@
         <item quantity="other">Որոշ տարրեր իրենց պանակից տեղափոխելու թույլտվություն չունեք:</item>
         <item quantity="one">Այս տարրն իր պանակից տեղափոխելու թույլտվություն չունեք:</item>
     </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">Դուք չեք կարող տեղափոխել այս ֆայլերը, քանի որ դրանց սեփականատերը %1$s տիրույթից չէ:</item>
+        <item quantity="one">Դուք չեք կարող տեղափոխել այս ֆայլը, քանի որ դրա սեփականատերը %1$s տիրույթից չէ:</item>
+    </plurals>
     <plurals name="move_notice_granted_access_team_drive">
         <item quantity="other">%1$s Դրանք այժմ հասանելի են «%2$s» ընդհանուր դրայվին:</item>
         <item quantity="one">%1$s Այն այժմ հասանելի է «%2$s» ընդհանուր դրայվին:</item>
@@ -555,5 +559,6 @@
     <plurals name="view_workspace_files">
         <item quantity="other">Դիտել %1$d ֆայլ</item>
         <item quantity="one">Դիտել %1$d ֆայլ</item>
+        <item quantity="two">Դիտել %1$d ֆայլ</item>
     </plurals>
 </resources>

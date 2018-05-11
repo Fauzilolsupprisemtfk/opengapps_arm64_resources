@@ -635,7 +635,7 @@
     <string name="empty_doclist_for_pinned_view">Няма налични файлове офлайн.</string>
     <string name="empty_doclist_for_pinned_view_details">Направете файлове налице офлайн от менюто им за опции.</string>
     <string name="empty_doclist_for_recent_view">Няма наскоро отваряни или редактирани файлове.</string>
-    <string name="empty_doclist_for_search_view">Няма резултати.</string>
+    <string name="empty_doclist_for_search_view">Няма резултати</string>
     <string name="empty_doclist_for_shared_with_me_view">Споделените с вас файлове ще се покажат тук.</string>
     <string name="empty_doclist_for_starred_view">Нямате файлове със звезда.</string>
     <string name="empty_doclist_for_starred_view_details">Докоснете иконата на звезда в менюто за опции за файла, за да го добавите в този списък.</string>
@@ -681,6 +681,7 @@
     <string name="error_start_client">"Не може да се заредят повече файлове от  %1$s"</string>
     <string name="error_title">Грешка</string>
     <string name="error_video_not_available">Видеоклипът не е обработен. Моля, опитайте отново по-късно.</string>
+    <string name="expand_button_title">Разширени</string>
     <string name="expires_future">Изтича след %1$s</string>
     <string name="expires_today">Изтича днес</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d г.</string>
@@ -800,17 +801,8 @@
     <string name="manage_accounts">Управление на профилите</string>
     <string name="manage_members_default_members">По подразбиране членовете могат да качват, редактират и изтриват файлове и да канят други членове</string>
     <string name="manage_members_dialog_title">Достъп на членовете</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Хранилище</string>
+    <string name="management_data_loading_failed">Тази страница не може да се зареди</string>
     <string name="manifest_app_projector">Проектор</string>
     <string name="manifest_intent_view_pdf_drive">PDF визуализатор на Диск</string>
     <string name="media_player_error">При възпроизвеждането възникна грешка</string>
@@ -1252,7 +1244,6 @@
     <string name="published_access_anyone">Всеки може да преглежда след публикуването</string>
     <string name="published_access_domain">Всеки от %s може да преглежда след публикуването</string>
     <string name="published_access_select_people">След публикуването могат да преглеждат конкретни хора</string>
-    <string name="published_disabled_append">деактивирано,</string>
     <string name="published_message_for_anyone_can_edit">Тъй като всеки може да редактира, след публикуването всички ще могат да преглеждат.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Тъй като всеки от %1$s може да редактира, след публикуването всички от %1$s ще могат да преглеждат.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Тъй като всеки с връзката може да редактира, след публикуването всички ще могат да преглеждат.</string>
@@ -1367,6 +1358,7 @@
     <string name="selection_menu_overflow_content_desc">Още функции за избраните елементи</string>
     <string name="selection_menu_pin">Налице офлайн</string>
     <string name="selection_menu_pin_content_desc">Означаване на избраните елементи като налице офлайн</string>
+    <string name="selection_menu_pin_make_offline">Нека е налице офлайн</string>
     <string name="selection_menu_print">Печат</string>
     <string name="selection_menu_print_content_desc">Печат на избрания елемент</string>
     <string name="selection_menu_remove">Премахване</string>
@@ -1530,6 +1522,7 @@
     <string name="suggest_pin_dialog_positive_button">Да е налице офлайн</string>
     <string name="suggest_pin_dialog_title">Няма връзка</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, избрано</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_account_help_card_button">ПРОМЯНА НА ПРОФИЛА</string>
     <string name="switch_account_help_card_content">На това устройство е създадено резервно копие в друг профил. %s</string>
     <string name="switch_account_help_card_title">Създава се резервно копие в друг профил</string>
@@ -1633,6 +1626,8 @@
     <string name="upload_waiting_for_wifi">Изчаква се Wi-Fi</string>
     <string name="upsell_negbtn">По-късно</string>
     <string name="upsell_okbtn">Надстройване</string>
+    <string name="v7_preference_off">ИЗКЛ.</string>
+    <string name="v7_preference_on">ВКЛ.</string>
     <string name="verbalize_opened_edit">Отворихте „%1$s“ с разрешения за редактиране.</string>
     <string name="version_too_old">За съжаление тази версия на Google Диск вече не се поддържа. Моля, надстройте до по-нова.</string>
     <string name="version_too_old_close">Затваряне</string>
@@ -1645,8 +1640,9 @@
     <string name="warm_welcome_next_button">Напред</string>
     <string name="warm_welcome_skip_button">Пропускане</string>
     <string name="warning_cannot_share_outside_domain">Настройките на този екипен диск не позволяват споделянето извън %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Настройките на този екипен диск не позволяват споделяне с хора извън %s и такива, които не са членове</string>
     <string name="warning_cannot_share_outside_domain_org">Настройките за организацията не позволяват споделяне извън нея</string>
-    <string name="warning_cannot_share_outside_team_drive">Настройките на този екипен диск не позволяват споделянето извън екипа</string>
+    <string name="warning_cannot_share_outside_team_drive">Настройките на този екипен диск не позволяват споделянето с хора, които не са членове</string>
     <string name="welcome_button_close">Към Диск</string>
     <string name="welcome_button_continue">Напред</string>
     <string name="welcome_offer_button_close">Затваряне</string>
@@ -1690,7 +1686,7 @@
     <string name="zss_owner_not_me">Непритежавани от мен</string>
     <string name="zss_people_header_title">Хора</string>
     <string name="zss_showing_list_of_filters">Показан е списък с наличните филтри.</string>
-    <string name="zss_team_drive">Търсене в %1$s</string>
+    <string name="zss_team_drive">Търсене в/ъв „%1$s“</string>
     <string name="zss_type_archive">Архив</string>
     <string name="zss_type_audio">Аудио</string>
     <string name="zss_type_documents">Текстови документи</string>

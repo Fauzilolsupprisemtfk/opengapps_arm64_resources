@@ -146,6 +146,10 @@
         <item quantity="other">Você não tem permissão para remover alguns itens da pasta.</item>
         <item quantity="one">Você não tem permissão para remover este item da pasta.</item>
     </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">Não é possível mover estes arquivos porque o proprietário deles não faz parte do domínio %1$s.</item>
+        <item quantity="one">Não é possível mover este arquivo porque o proprietário dele não faz parte do domínio %1$s.</item>
+    </plurals>
     <plurals name="move_notice_granted_access_team_drive">
         <item quantity="other">%1$s \"%2$s\" agora pode acessar os itens.</item>
         <item quantity="one">%1$s \"%2$s\" agora pode acessar o item.</item>
@@ -555,5 +559,6 @@
     <plurals name="view_workspace_files">
         <item quantity="other">Ver %1$d arquivos</item>
         <item quantity="one">Ver %1$d arquivo</item>
+        <item quantity="two">Ver %1$d arquivos</item>
     </plurals>
 </resources>

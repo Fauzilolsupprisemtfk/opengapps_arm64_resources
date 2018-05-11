@@ -640,7 +640,7 @@ Această acțiune nu poate fi anulată."</string>
     <string name="empty_doclist_for_pinned_view">Nu sunt fișiere disponibile offline.</string>
     <string name="empty_doclist_for_pinned_view_details">Faceți fișierele „Disponibile offline” în meniul de opțiuni al fișierului</string>
     <string name="empty_doclist_for_recent_view">Nu există fișiere deschise sau editate recent.</string>
-    <string name="empty_doclist_for_search_view">Niciun rezultat.</string>
+    <string name="empty_doclist_for_search_view">Niciun rezultat</string>
     <string name="empty_doclist_for_shared_with_me_view">Fișierele la care vi s-a permis accesul vor apărea aici.</string>
     <string name="empty_doclist_for_starred_view">Nu există fișiere marcate cu stea.</string>
     <string name="empty_doclist_for_starred_view_details">Atingeți pictograma stea din meniul de opțiuni al fișierului pentru a-l adăuga la această listă.</string>
@@ -686,6 +686,7 @@ Dați clic pe + pentru a crea un desen."</string>
     <string name="error_start_client">"Nu se mai pot încărca fișiere din  %1$s"</string>
     <string name="error_title">Eroare</string>
     <string name="error_video_not_available">Videoclipul nu a fost procesat. Încercați din nou mai târziu.</string>
+    <string name="expand_button_title">Avansat</string>
     <string name="expires_future">Expiră peste %1$s</string>
     <string name="expires_today">Expiră astăzi</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
@@ -805,17 +806,8 @@ Dați clic pe + pentru a crea un desen."</string>
     <string name="manage_accounts">Gestionați conturile</string>
     <string name="manage_members_default_members">În mod prestabilit, membrii pot să încarce/să editeze/să șteargă fișiere și să invite alți membri.</string>
     <string name="manage_members_dialog_title">Accesul membrilor</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Spațiu de stocare</string>
+    <string name="management_data_loading_failed">Această pagină nu poate fi încărcată.</string>
     <string name="manifest_app_projector">Projector</string>
     <string name="manifest_intent_view_pdf_drive">Drive PDF Viewer</string>
     <string name="media_player_error">A apărut o eroare de redare</string>
@@ -1257,7 +1249,6 @@ toate fișierele dvs."</string>
     <string name="published_access_anyone">Oricine poate vedea versiunea publicată</string>
     <string name="published_access_domain">Oricine din %s poate vedea versiunea publicată</string>
     <string name="published_access_select_people">Anumite persoane pot vedea versiunea publicată</string>
-    <string name="published_disabled_append">dezactivat,</string>
     <string name="published_message_for_anyone_can_edit">Dacă oricine poate edita, atunci oricine va putea vedea după publicare.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Dacă oricine din %1$s poate edita, atunci oricine din %1$s va putea vedea după publicare.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Dacă oricine are linkul poate edita, atunci oricine va putea vedea după publicare.</string>
@@ -1372,6 +1363,7 @@ toate fișierele dvs."</string>
     <string name="selection_menu_overflow_content_desc">Mai multe funcții pentru articolele selectate</string>
     <string name="selection_menu_pin">Disponibil offline</string>
     <string name="selection_menu_pin_content_desc">Doresc ca articolele selectate să fie disponibile offline</string>
+    <string name="selection_menu_pin_make_offline">Doresc să fie disponibil offline</string>
     <string name="selection_menu_print">Printați</string>
     <string name="selection_menu_print_content_desc">Printați articolul selectat</string>
     <string name="selection_menu_remove">Eliminați</string>
@@ -1535,6 +1527,7 @@ toate fișierele dvs."</string>
     <string name="suggest_pin_dialog_positive_button">Faceți disponibil offline</string>
     <string name="suggest_pin_dialog_title">Nu există conexiune</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, selectat</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_account_help_card_button">SCHIMBAȚI CONTUL</string>
     <string name="switch_account_help_card_content">Pentru datele de pe acest dispozitiv s-a făcut backup într-un alt cont. %s</string>
     <string name="switch_account_help_card_title">Crearea unui backup într-un alt cont</string>
@@ -1638,6 +1631,8 @@ Puteți să reactivați backupul accesând Setări > Conversații prin chat > Ba
     <string name="upload_waiting_for_wifi">Se așteaptă conectarea la rețeaua Wi-Fi</string>
     <string name="upsell_negbtn">Mai târziu</string>
     <string name="upsell_okbtn">Măriți spațiul de stocare</string>
+    <string name="v7_preference_off">DEZACTIVAT</string>
+    <string name="v7_preference_on">ACTIVAT</string>
     <string name="verbalize_opened_edit">Fișierul %1$s a fost deschis cu permisiuni de editare.</string>
     <string name="version_too_old">Această versiune a serviciului Google Drive nu mai este acceptată. Treceți la o versiune mai nouă.</string>
     <string name="version_too_old_close">Închideți</string>
@@ -1650,8 +1645,9 @@ Puteți să reactivați backupul accesând Setări > Conversații prin chat > Ba
     <string name="warm_welcome_next_button">Înainte</string>
     <string name="warm_welcome_skip_button">Omiteți</string>
     <string name="warning_cannot_share_outside_domain">Setările acestui Drive în echipă nu permit trimiterea în afara %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Setările acestui Drive în echipă nu permit trimiterea către non-membri și în afara domeniului %s</string>
     <string name="warning_cannot_share_outside_domain_org">Setările organizației nu permit trimiterea în afara organizației</string>
-    <string name="warning_cannot_share_outside_team_drive">Setările acestui Drive în echipă nu permit trimiterea în afara echipei</string>
+    <string name="warning_cannot_share_outside_team_drive">Setările acestui Drive în echipă nu permit trimiterea către non-membri</string>
     <string name="welcome_button_close">Accesați Drive</string>
     <string name="welcome_button_continue">Înainte</string>
     <string name="welcome_offer_button_close">Închideți</string>
@@ -1683,15 +1679,15 @@ Pentru a reactiva funcția de backup, accesați Setări > Conversații prin chat
     <string name="write_access_denied">Accesul pentru scriere la document nu a fost permis.</string>
     <string name="zss_accessibility_searching">Se caută %1$s</string>
     <string name="zss_date_range_header_title">Data modificării</string>
-    <string name="zss_date_range_month">În ultimele 30 de zile</string>
-    <string name="zss_date_range_three_month">În ultimele 90 de zile</string>
-    <string name="zss_date_range_today">Astăzi</string>
-    <string name="zss_date_range_week">În ultimele 7 zile</string>
+    <string name="zss_date_range_month">Ultimele 30 de zile</string>
+    <string name="zss_date_range_three_month">Ultimele 90 de zile</string>
+    <string name="zss_date_range_today">Azi</string>
+    <string name="zss_date_range_week">Ultimele 7 zile</string>
     <string name="zss_date_range_yesterday">Ieri</string>
     <string name="zss_entry_types_header_title">Tipuri de fișier</string>
     <string name="zss_no_filters">Fără filtru</string>
     <string name="zss_owner_header_title">Deținute de</string>
-    <string name="zss_owner_me">Deținute de mine</string>
+    <string name="zss_owner_me">Ale mele</string>
     <string name="zss_owner_not_me">Nedeținute de mine</string>
     <string name="zss_people_header_title">Persoane</string>
     <string name="zss_showing_list_of_filters">Se afișează lista de filtre disponibile.</string>
@@ -1704,5 +1700,5 @@ Pentru a reactiva funcția de backup, accesați Setări > Conversații prin chat
     <string name="zss_type_pdfs">Fișiere PDF</string>
     <string name="zss_type_presentations">Prezentări</string>
     <string name="zss_type_spreadsheets">Foi de calcul</string>
-    <string name="zss_type_video">Fișiere video</string>
+    <string name="zss_type_video">Videoclipuri</string>
 </resources>

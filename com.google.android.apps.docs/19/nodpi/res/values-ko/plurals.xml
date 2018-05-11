@@ -146,6 +146,10 @@
         <item quantity="other">항목을 폴더 밖으로 이동할 수 있는 권한이 없습니다.</item>
         <item quantity="one">이 항목을 폴더 밖으로 이동할 수 있는 권한이 없습니다.</item>
     </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">파일 소유자가 %1$s 외부 사용자이므로 이 파일을 이동할 수 없습니다.</item>
+        <item quantity="one">파일 소유자가 %1$s 외부 사용자이므로 이 파일을 이동할 수 없습니다.</item>
+    </plurals>
     <plurals name="move_notice_granted_access_team_drive">
         <item quantity="other">%1$s 이제 ‘%2$s’에서 액세스할 수 있습니다.</item>
         <item quantity="one">%1$s 이제 ‘%2$s’에서 액세스할 수 있습니다.</item>
@@ -555,5 +559,6 @@
     <plurals name="view_workspace_files">
         <item quantity="other">파일 %1$d개 보기</item>
         <item quantity="one">파일 %1$d개 보기</item>
+        <item quantity="two">파일 %1$d개 보기</item>
     </plurals>
 </resources>

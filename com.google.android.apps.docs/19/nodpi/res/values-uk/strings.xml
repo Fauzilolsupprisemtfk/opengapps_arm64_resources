@@ -639,7 +639,7 @@
     <string name="empty_doclist_for_pinned_view">Немає файлів, доступних офлайн.</string>
     <string name="empty_doclist_for_pinned_view_details">Зробіть файли доступними офлайн, вибравши відповідну опцію в меню</string>
     <string name="empty_doclist_for_recent_view">Останнім часом ви не відкривали й не редагували файли.</string>
-    <string name="empty_doclist_for_search_view">Результатів немає.</string>
+    <string name="empty_doclist_for_search_view">Немає результатів</string>
     <string name="empty_doclist_for_shared_with_me_view">Тут з’являтимуться файли, до яких вам надали доступ.</string>
     <string name="empty_doclist_for_starred_view">У вас немає файлів із зірочкою.</string>
     <string name="empty_doclist_for_starred_view_details">Торкніться значка зірочки в меню опцій файлу, щоб додати його в цей список.</string>
@@ -685,6 +685,7 @@
     <string name="error_start_client">"Не вдається додати більше файлів із  %1$s"</string>
     <string name="error_title">Помилка</string>
     <string name="error_video_not_available">Відео не оброблено. Повторіть спробу пізніше.</string>
+    <string name="expand_button_title">Додатково</string>
     <string name="expires_future">Термін дії закінчується за %1$s</string>
     <string name="expires_today">Закінчиться сьогодні</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
@@ -804,17 +805,8 @@
     <string name="manage_accounts">Керувати обліковими записами</string>
     <string name="manage_members_default_members">За умовчанням користувачі можуть завантажувати, змінювати й видаляти файли та запрошувати учасників</string>
     <string name="manage_members_dialog_title">Доступ учасників</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Пам’ять</string>
+    <string name="management_data_loading_failed">Не вдається завантажити цю сторінку</string>
     <string name="manifest_app_projector">Projector</string>
     <string name="manifest_intent_view_pdf_drive">Перегляд файлів PDF на Диску</string>
     <string name="media_player_error">Сталася помилка відтворення</string>
@@ -1256,7 +1248,6 @@
     <string name="published_access_anyone">Переглядати опубліковане можуть усі</string>
     <string name="published_access_domain">Переглядати опубліковане можуть усі користувачі домену %s</string>
     <string name="published_access_select_people">Переглядати опубліковане можуть лише певні особи</string>
-    <string name="published_disabled_append">вимкнено</string>
     <string name="published_message_for_anyone_can_edit">Оскільки редагувати можуть усі, будь-хто може переглядати опубліковане.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Оскільки редагувати можуть усі користувачі домену %1$s, будь-хто в домені %1$s може переглядати опубліковане.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Оскільки редагувати можуть усі, хто має посилання, будь-хто може переглядати опубліковане.</string>
@@ -1371,6 +1362,7 @@
     <string name="selection_menu_overflow_content_desc">Інші функції для вибраних елементів</string>
     <string name="selection_menu_pin">Доступні офлайн</string>
     <string name="selection_menu_pin_content_desc">Зробити вибрані елементи доступними офлайн</string>
+    <string name="selection_menu_pin_make_offline">Зробити доступним офлайн</string>
     <string name="selection_menu_print">Надрукувати</string>
     <string name="selection_menu_print_content_desc">Надрукувати вибраний елемент</string>
     <string name="selection_menu_remove">Вилучити</string>
@@ -1534,6 +1526,7 @@
     <string name="suggest_pin_dialog_positive_button">Зробити доступним офлайн</string>
     <string name="suggest_pin_dialog_title">Немає з’єднання</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, вибрано</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_account_help_card_button">ЗМІНИТИ ОБЛІКОВИЙ ЗАПИС</string>
     <string name="switch_account_help_card_content">Резервну копію даних цього пристрою збережено в іншому обліковому записі (%s)</string>
     <string name="switch_account_help_card_title">Резервне копіювання в інший обліковий запис</string>
@@ -1637,6 +1630,8 @@
     <string name="upload_waiting_for_wifi">Очікування на з’єднання Wi-Fi</string>
     <string name="upsell_negbtn">Пізніше</string>
     <string name="upsell_okbtn">Збільшити</string>
+    <string name="v7_preference_off">ВИМКНЕНО</string>
+    <string name="v7_preference_on">УВІМКНЕНО</string>
     <string name="verbalize_opened_edit">\"%1$s\" відкрито в режимі редагування.</string>
     <string name="version_too_old">На жаль, ця версія Google Диска більше не підтримується. Оновіть додаток.</string>
     <string name="version_too_old_close">Закрити</string>
@@ -1649,6 +1644,7 @@
     <string name="warm_welcome_next_button">Далі</string>
     <string name="warm_welcome_skip_button">Пропустити</string>
     <string name="warning_cannot_share_outside_domain">У налаштуваннях спільного Диска дозволено надавати доступ тільки користувачам із домену %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">У налаштуваннях спільного Диска заборонено надавати доступ користувачам з інших команд і доменів, окрім %s</string>
     <string name="warning_cannot_share_outside_domain_org">У налаштуваннях організації заборонено надавати доступ користувачам з інших організацій</string>
     <string name="warning_cannot_share_outside_team_drive">У налаштуваннях спільного Диска заборонено надавати доступ користувачам з інших команд</string>
     <string name="welcome_button_close">Перейти на Диск</string>
@@ -1696,7 +1692,7 @@
     <string name="zss_showing_list_of_filters">Показано список доступних фільтрів.</string>
     <string name="zss_team_drive">Пошук на спільному Диску \"%1$s\"</string>
     <string name="zss_type_archive">Архів</string>
-    <string name="zss_type_audio">Аудіо</string>
+    <string name="zss_type_audio">Звук</string>
     <string name="zss_type_documents">Текстові документи</string>
     <string name="zss_type_folder">Папки</string>
     <string name="zss_type_images">Фотографії та зображення</string>

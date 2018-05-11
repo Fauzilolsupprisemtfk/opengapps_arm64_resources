@@ -146,6 +146,10 @@
         <item quantity="other">Bạn không có quyền chuyển một số mục ra khỏi thư mục của chúng.</item>
         <item quantity="one">Bạn không có quyền chuyển mục này ra khỏi thư mục của mục.</item>
     </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">Bạn không thể di chuyển các tệp này vì chủ sở hữu tệp ở ngoài %1$s.</item>
+        <item quantity="one">Bạn không thể di chuyển tệp này vì chủ sở hữu tệp ở ngoài %1$s.</item>
+    </plurals>
     <plurals name="move_notice_granted_access_team_drive">
         <item quantity="other">%1$s \"%2$s\" hiện có thể truy cập vào các mục.</item>
         <item quantity="one">%1$s \"%2$s\" hiện có thể truy cập vào mục.</item>
@@ -555,5 +559,6 @@
     <plurals name="view_workspace_files">
         <item quantity="other">Xem %1$d tệp</item>
         <item quantity="one">Xem %1$d tệp</item>
+        <item quantity="two">Xem %1$d tệp</item>
     </plurals>
 </resources>

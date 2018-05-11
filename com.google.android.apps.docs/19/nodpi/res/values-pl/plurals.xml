@@ -146,6 +146,10 @@
         <item quantity="other">Nie masz uprawnień do przeniesienia niektórych elementów z folderu, w którym się znajdują.</item>
         <item quantity="one">Nie masz uprawnień do przeniesienia tego elementu z folderu, w którym się znajduje.</item>
     </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">Nie możesz przenieść tych plików, bo ich właściciel jest spoza domeny %1$s.</item>
+        <item quantity="one">Nie możesz przenieść tego pliku, bo jego właściciel jest spoza domeny %1$s.</item>
+    </plurals>
     <plurals name="move_notice_granted_access_team_drive">
         <item quantity="other">%1$s Zespół „%2$s” ma teraz dostęp.</item>
         <item quantity="one">%1$s Zespół „%2$s” ma teraz dostęp.</item>
@@ -555,5 +559,6 @@
     <plurals name="view_workspace_files">
         <item quantity="other">Wyświetl pliki (%1$d)</item>
         <item quantity="one">Wyświetl %1$d plik</item>
+        <item quantity="two">Wyświetl pliki (%1$d)</item>
     </plurals>
 </resources>

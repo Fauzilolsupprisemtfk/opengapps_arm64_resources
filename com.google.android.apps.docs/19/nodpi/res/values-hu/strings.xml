@@ -640,7 +640,7 @@ Próbáljon feltölteni egy fájlt!"</string>
     <string name="empty_doclist_for_pinned_view">Egy fájl sem érhető el offline.</string>
     <string name="empty_doclist_for_pinned_view_details">Állítson be offline is elérhető fájlokat a fájl beállítási menüjében</string>
     <string name="empty_doclist_for_recent_view">Nincsenek a közelmúltban megnyitott vagy szerkesztett elemek.</string>
-    <string name="empty_doclist_for_search_view">Nincs találat.</string>
+    <string name="empty_doclist_for_search_view">Nincs találat</string>
     <string name="empty_doclist_for_shared_with_me_view">Az Önnel megosztott fájlok itt fognak megjelenni.</string>
     <string name="empty_doclist_for_starred_view">Nem rendelkezik csillagozott fájlokkal.</string>
     <string name="empty_doclist_for_starred_view_details">Koppintson a Csillag ikonra a fájl menüjében a listához való hozzáadáshoz.</string>
@@ -686,6 +686,7 @@ Kattintson a + gombra rajz létrehozásához."</string>
     <string name="error_start_client">"Nem tölthető be több fájl innen:  %1$s"</string>
     <string name="error_title">Hiba</string>
     <string name="error_video_not_available">A videót még dolgoztuk fel. Próbálkozzon újra később.</string>
+    <string name="expand_button_title">Speciális</string>
     <string name="expires_future">Lejár: %1$s</string>
     <string name="expires_today">Ma jár le</string>
     <string name="fast_scroll_month_and_year_grouped">%2$d. %1$s</string>
@@ -805,17 +806,8 @@ Kattintson a + gombra rajz létrehozásához."</string>
     <string name="manage_accounts">Fiókok kezelése</string>
     <string name="manage_members_default_members">Alapértelmezés: a tagok feltölthetnek/szerkeszthetnek/törölhetnek fájlokat, és meghívhatnak másokat.</string>
     <string name="manage_members_dialog_title">Taghozzáférés</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Tárhely</string>
+    <string name="management_data_loading_failed">Nem lehet betölteni az oldalt</string>
     <string name="manifest_app_projector">Projektor</string>
     <string name="manifest_intent_view_pdf_drive">Drive PDF-olvasó</string>
     <string name="media_player_error">Lejátszási hiba történt</string>
@@ -1257,7 +1249,6 @@ minden fájljának"</string>
     <string name="published_access_anyone">A közzétételt követően mindenki láthatja</string>
     <string name="published_access_domain">A(z) %s domain minden tagja láthatja a közzétételt követően</string>
     <string name="published_access_select_people">Csak bizonyos személyek láthatják a közzétett verziót</string>
-    <string name="published_disabled_append">letiltva,</string>
     <string name="published_message_for_anyone_can_edit">Mivel bárki szerkesztheti, mindenki láthatja a közzétett verziót.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Mivel a(z) %1$s minden tagja szerkesztheti, a(z) %1$s domain minden tagja láthatja a közzétett verziót.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Mivel a link birtokában bárki szerkesztheti, mindenki láthatja a közzétett verziót.</string>
@@ -1372,6 +1363,7 @@ minden fájljának"</string>
     <string name="selection_menu_overflow_content_desc">További műveletek a kijelölt elemekhez</string>
     <string name="selection_menu_pin">Elérhető offline</string>
     <string name="selection_menu_pin_content_desc">A kijelölt elemek offline elérhetővé tétele</string>
+    <string name="selection_menu_pin_make_offline">Legyen hozzáférhető offline állapotban</string>
     <string name="selection_menu_print">Nyomtatás</string>
     <string name="selection_menu_print_content_desc">Kijelölt elem nyomtatása</string>
     <string name="selection_menu_remove">Eltávolítás</string>
@@ -1535,6 +1527,7 @@ minden fájljának"</string>
     <string name="suggest_pin_dialog_positive_button">Legyen elérhető offline</string>
     <string name="suggest_pin_dialog_title">Nincs kapcsolat</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, kiválasztva</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_account_help_card_button">MÁSIK FIÓK VÁLASZTÁSA</string>
     <string name="switch_account_help_card_content">Az eszköz tartalmairól egy másik fiókban készül biztonsági mentés. %s</string>
     <string name="switch_account_help_card_title">Biztonsági mentés egy másik fiókba</string>
@@ -1638,6 +1631,8 @@ A biztonsági mentést a Beállítások > Csevegések > Csevegések automatikus 
     <string name="upload_waiting_for_wifi">Várakozás Wi-Fi-re</string>
     <string name="upsell_negbtn">Később</string>
     <string name="upsell_okbtn">Bővítés</string>
+    <string name="v7_preference_off">KI</string>
+    <string name="v7_preference_on">BE</string>
     <string name="verbalize_opened_edit">%1$s megnyitva szerkesztési jogosultsággal.</string>
     <string name="version_too_old">A Google Drive e verzióját már nem támogatjuk. Kérjük, frissítsen egy újabb verzióra.</string>
     <string name="version_too_old_close">Bezárás</string>
@@ -1650,8 +1645,9 @@ A biztonsági mentést a Beállítások > Csevegések > Csevegések automatikus 
     <string name="warm_welcome_next_button">Következő</string>
     <string name="warm_welcome_skip_button">Kihagyás</string>
     <string name="warning_cannot_share_outside_domain">A csapatmeghajtó beállításai miatt a tartalom nem osztható meg a domainen (%s) kívül</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">A csapatmeghajtó beállításai miatt a tartalom nem osztható meg olyan személyekkel, akik nem tagjai a csapatnak, illetve a(z) %s domainen kívül.</string>
     <string name="warning_cannot_share_outside_domain_org">A szervezet beállításai miatt nem osztható meg a tartalom a szervezeten kívül</string>
-    <string name="warning_cannot_share_outside_team_drive">A csapatmeghajtó beállításai miatt a tartalom nem osztható meg a csapaton kívül</string>
+    <string name="warning_cannot_share_outside_team_drive">A csapatmeghajtó beállításai nem teszik lehetővé a nem tagokkal való megosztást</string>
     <string name="welcome_button_close">Ugrás: Drive</string>
     <string name="welcome_button_continue">Tovább</string>
     <string name="welcome_offer_button_close">Bezárás</string>
@@ -1684,7 +1680,7 @@ A biztonsági mentést a Beállítások > WhatsApp-csevegések oldalon kapcsolha
     <string name="zss_accessibility_searching">Keresés: %1$s</string>
     <string name="zss_date_range_header_title">Dátum módosítva</string>
     <string name="zss_date_range_month">Legutóbbi 30 nap</string>
-    <string name="zss_date_range_three_month">Legutóbbi 90 nap</string>
+    <string name="zss_date_range_three_month">A legutóbbi 90 nap</string>
     <string name="zss_date_range_today">Ma</string>
     <string name="zss_date_range_week">Legutóbbi 7 nap</string>
     <string name="zss_date_range_yesterday">Tegnap</string>
@@ -1692,13 +1688,13 @@ A biztonsági mentést a Beállítások > WhatsApp-csevegések oldalon kapcsolha
     <string name="zss_no_filters">Nincsenek szűrők</string>
     <string name="zss_owner_header_title">Tulajdonos</string>
     <string name="zss_owner_me">Saját tulajdonom</string>
-    <string name="zss_owner_not_me">Nem saját tulajdonom</string>
+    <string name="zss_owner_not_me">Nem a saját tulajdonom</string>
     <string name="zss_people_header_title">Személyek</string>
     <string name="zss_showing_list_of_filters">Az elérhető szűrők listájának megjelenítése.</string>
     <string name="zss_team_drive">Keresés a következőben: %1$s</string>
     <string name="zss_type_archive">Archívum</string>
     <string name="zss_type_audio">Hang</string>
-    <string name="zss_type_documents">Szövegfájlok</string>
+    <string name="zss_type_documents">Szöveges dokumentumok</string>
     <string name="zss_type_folder">Mappák</string>
     <string name="zss_type_images">Fotók és képek</string>
     <string name="zss_type_pdfs">PDF-fájlok</string>

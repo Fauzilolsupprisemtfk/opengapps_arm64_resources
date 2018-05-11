@@ -146,6 +146,10 @@
         <item quantity="other">Neturite leidimo perkelti kai kurių elementų iš jų aplankų.</item>
         <item quantity="one">Neturite leidimo perkelti šio elemento iš šio aplanko.</item>
     </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">Negalite perkelti šių failų, nes failų savininkas nepriklauso domenui %1$s.</item>
+        <item quantity="one">Negalite perkelti šio failo, nes failo savininkas nepriklauso domenui %1$s.</item>
+    </plurals>
     <plurals name="move_notice_granted_access_team_drive">
         <item quantity="other">%1$s Komandos Disko „%2$s“ nariai dabar turi prieigą.</item>
         <item quantity="one">%1$s Komandos Disko „%2$s“ nariai dabar turi prieigą.</item>
@@ -555,5 +559,6 @@
     <plurals name="view_workspace_files">
         <item quantity="other">Žr. failus (%1$d)</item>
         <item quantity="one">Žr. failus (%1$d)</item>
+        <item quantity="two">Žr. failus (%1$d)</item>
     </plurals>
 </resources>

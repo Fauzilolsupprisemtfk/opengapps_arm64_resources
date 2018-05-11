@@ -146,6 +146,10 @@
         <item quantity="other">Teil pole luba teatud üksuste nende kaustast välja teisaldamiseks.</item>
         <item quantity="one">Teil pole luba selle üksuse sellest kaustast välja teisaldamiseks.</item>
     </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">Neid faile ei saa teisaldada, kuna faili omanik on väljaspool domeeni %1$s.</item>
+        <item quantity="one">Seda faili ei saa teisaldada, kuna faili omanik on väljaspool domeeni %1$s.</item>
+    </plurals>
     <plurals name="move_notice_granted_access_team_drive">
         <item quantity="other">%1$s%2$s pääseb nendele nüüd juurde.</item>
         <item quantity="one">%1$s%2$s pääseb sellele nüüd juurde.</item>
@@ -555,5 +559,6 @@
     <plurals name="view_workspace_files">
         <item quantity="other">Kuva %1$d faili</item>
         <item quantity="one">Kuva %1$d fail</item>
+        <item quantity="two">Kuva %1$d faili</item>
     </plurals>
 </resources>

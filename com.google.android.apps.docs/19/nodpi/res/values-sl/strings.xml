@@ -640,7 +640,7 @@ Poskusite vanj prenesti datoteko."</string>
     <string name="empty_doclist_for_pinned_view">Ni datotek brez povezave.</string>
     <string name="empty_doclist_for_pinned_view_details">V menijskih možnostih datoteke pripravite datoteke, da postanejo »Na voljo brez povezave«</string>
     <string name="empty_doclist_for_recent_view">Ni nedavno odprtih ali urejenih datotek.</string>
-    <string name="empty_doclist_for_search_view">Ni rezultatov.</string>
+    <string name="empty_doclist_for_search_view">Ni rezultatov</string>
     <string name="empty_doclist_for_shared_with_me_view">Datoteke, ki so v skupni rabi z vami, bodo prikazane tukaj.</string>
     <string name="empty_doclist_for_starred_view">Nimate datotek, označenih z zvezdico.</string>
     <string name="empty_doclist_for_starred_view_details">V meniju možnosti se dotaknite ikone zvezdice, če želite dodati datoteko na ta seznam.</string>
@@ -686,6 +686,7 @@ Kliknite +, da ustvarite novo risbo."</string>
     <string name="error_start_client">"Ni mogoče naložiti dodatnih datotek iz:  %1$s"</string>
     <string name="error_title">Napaka</string>
     <string name="error_video_not_available">Videoposnetek ni bil obdelan. Poskusite ponovno pozneje.</string>
+    <string name="expand_button_title">Dodatno</string>
     <string name="expires_future">Poteče čez %1$s</string>
     <string name="expires_today">Poteče danes</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
@@ -805,17 +806,8 @@ Kliknite +, da ustvarite novo risbo."</string>
     <string name="manage_accounts">Upravljanje računov</string>
     <string name="manage_members_default_members">Privzeto lahko člani nalagajo/urejajo/brišejo datoteke in povabijo druge člane.</string>
     <string name="manage_members_dialog_title">Dostop za člane</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Prostor za shranjevanje</string>
+    <string name="management_data_loading_failed">Te strani ni mogoče naložiti</string>
     <string name="manifest_app_projector">Projektor</string>
     <string name="manifest_intent_view_pdf_drive">Pregledovalnik PDF-jev – Drive</string>
     <string name="media_player_error">Prišlo je do napake pri predvajanju</string>
@@ -1257,7 +1249,6 @@ vse vaše datoteke"</string>
     <string name="published_access_anyone">Vsi si lahko ogledajo objavljeno različico</string>
     <string name="published_access_domain">Vsi v domeni %s si lahko ogledajo objavljeno različico</string>
     <string name="published_access_select_people">Določene osebe si lahko ogledajo objavljeno različico</string>
-    <string name="published_disabled_append">onemogočeno</string>
     <string name="published_message_for_anyone_can_edit">Ker lahko vsi urejajo, si lahko prav tako vsi ogledajo objavljeno različico.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Ker lahko urejajo vsi v domeni %1$s, si lahko prav tako vsi v domeni %1$s ogledajo objavljeno različico.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Ker lahko urejajo vsi s povezavo, si lahko prav tako vsi ogledajo objavljeno različico.</string>
@@ -1372,6 +1363,7 @@ vse vaše datoteke"</string>
     <string name="selection_menu_overflow_content_desc">Več funkcij za izbrane elemente</string>
     <string name="selection_menu_pin">Na voljo brez povez.</string>
     <string name="selection_menu_pin_content_desc">Izbrane elemente daj na voljo brez povezave</string>
+    <string name="selection_menu_pin_make_offline">Omogoči dostop brez povezave</string>
     <string name="selection_menu_print">Natisni</string>
     <string name="selection_menu_print_content_desc">Natisni izbrani element</string>
     <string name="selection_menu_remove">Odstrani</string>
@@ -1535,6 +1527,7 @@ vse vaše datoteke"</string>
     <string name="suggest_pin_dialog_positive_button">Omogoči dostop brez povezave</string>
     <string name="suggest_pin_dialog_title">Ni povezave</string>
     <string name="suggested_name_selected_accessibility_announcement">Izbrano je: %1$s</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_account_help_card_button">SPREMEMBA RAČUNA</string>
     <string name="switch_account_help_card_content">Ta naprava je varnostno kopirana v drug račun. %s</string>
     <string name="switch_account_help_card_title">Varnostno kopiranje na drug račun</string>
@@ -1638,6 +1631,8 @@ Varnostno kopiranje lahko znova vklopite tako, da greste v Nastavitve > Klepeti 
     <string name="upload_waiting_for_wifi">Čakanje na Wi-Fi</string>
     <string name="upsell_negbtn">Pozneje</string>
     <string name="upsell_okbtn">Nadgradi</string>
+    <string name="v7_preference_off">IZKLOPLJENO</string>
+    <string name="v7_preference_on">VKLOPLJENO</string>
     <string name="verbalize_opened_edit">Odprta je datoteka %1$s z dovoljenji za urejanje.</string>
     <string name="version_too_old">Ta različica storitve Google Drive žal ni več podprta. Nadgradite na novejšo različico.</string>
     <string name="version_too_old_close">Zapri</string>
@@ -1650,8 +1645,9 @@ Varnostno kopiranje lahko znova vklopite tako, da greste v Nastavitve > Klepeti 
     <string name="warm_welcome_next_button">Naprej</string>
     <string name="warm_welcome_skip_button">Preskoči</string>
     <string name="warning_cannot_share_outside_domain">Nastavitve tega diska ekipe preprečujejo skupno rabo zunaj domene %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Nastavitve tega diska ekipe preprečujejo skupno rabo z nečlani in zunaj domene %s</string>
     <string name="warning_cannot_share_outside_domain_org">Nastavitve organizacije preprečujejo skupno rabo zunaj organizacije</string>
-    <string name="warning_cannot_share_outside_team_drive">Nastavitve tega diska ekipe preprečujejo skupno rabo zunaj ekipe</string>
+    <string name="warning_cannot_share_outside_team_drive">Nastavitve tega diska ekipe preprečujejo skupno rabo z nečlani</string>
     <string name="welcome_button_close">Pojdi v Drive</string>
     <string name="welcome_button_continue">Naprej</string>
     <string name="welcome_offer_button_close">Zapri</string>
@@ -1692,17 +1688,17 @@ Grafikoni in predstavnost (vključno s fotografijami, videoposnetki, zvokom in d
     <string name="zss_no_filters">Ni filtrov</string>
     <string name="zss_owner_header_title">Lastnik</string>
     <string name="zss_owner_me">Lastnik: jaz</string>
-    <string name="zss_owner_not_me">Lastnik: ne</string>
+    <string name="zss_owner_not_me">Lastnik: ne jaz</string>
     <string name="zss_people_header_title">Osebe</string>
     <string name="zss_showing_list_of_filters">Prikazan je seznam razpoložljivih filtrov.</string>
     <string name="zss_team_drive">Išči v disku ekipe %1$s</string>
     <string name="zss_type_archive">Arhiv</string>
-    <string name="zss_type_audio">Zvočna datoteka</string>
-    <string name="zss_type_documents">Besedilni dokumenti</string>
+    <string name="zss_type_audio">Zvok</string>
+    <string name="zss_type_documents">Dokumenti z besedilom</string>
     <string name="zss_type_folder">Mape</string>
     <string name="zss_type_images">Fotografije in slike</string>
     <string name="zss_type_pdfs">Datoteke PDF</string>
     <string name="zss_type_presentations">Predstavitve</string>
     <string name="zss_type_spreadsheets">Preglednice</string>
-    <string name="zss_type_video">Videoposnetki</string>
+    <string name="zss_type_video">Videi</string>
 </resources>

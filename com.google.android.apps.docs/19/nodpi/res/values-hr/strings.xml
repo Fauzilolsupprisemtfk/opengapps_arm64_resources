@@ -640,7 +640,7 @@ Pokušajte prenijeti datoteku."</string>
     <string name="empty_doclist_for_pinned_view">Nema datoteka izvan mreže.</string>
     <string name="empty_doclist_for_pinned_view_details">Odaberite \"Dostupno izvanmrežno\" na izborniku opcija datoteke</string>
     <string name="empty_doclist_for_recent_view">Nema nedavno otvorenih ili uređivanih datoteka.</string>
-    <string name="empty_doclist_for_search_view">Nema rezultata.</string>
+    <string name="empty_doclist_for_search_view">Nema rezultata</string>
     <string name="empty_doclist_for_shared_with_me_view">Ovdje će se pojaviti datoteke koje se dijele s vama.</string>
     <string name="empty_doclist_for_starred_view">Nemate datoteka sa zvjezdicom.</string>
     <string name="empty_doclist_for_starred_view_details">Dodirnite ikonu zvjezdice u izborniku opcija datoteke da biste je dodali na popis.</string>
@@ -686,6 +686,7 @@ Kliknite + za izradu novog crteža."</string>
     <string name="error_start_client">"Ne može se učitati više datoteka iz  %1$s"</string>
     <string name="error_title">Pogreška</string>
     <string name="error_video_not_available">Videozapis nije obrađen. Pokušajte ponovno kasnije.</string>
+    <string name="expand_button_title">Napredno</string>
     <string name="expires_future">Istječe za %1$s</string>
     <string name="expires_today">Istječe danas</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
@@ -805,17 +806,8 @@ Kliknite + za izradu novog crteža."</string>
     <string name="manage_accounts">Upravljanje računima</string>
     <string name="manage_members_default_members">Prema zadanim postavkama članovi mogu uređivati, organizirati i brisati datoteke i pozivati druge članove</string>
     <string name="manage_members_dialog_title">Ulaz za članove</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Pohrana</string>
+    <string name="management_data_loading_failed">Učitavanje stranice nije uspjelo</string>
     <string name="manifest_app_projector">Projektor</string>
     <string name="manifest_intent_view_pdf_drive">Preglednik PDF-a za Disk</string>
     <string name="media_player_error">Došlo je do pogreške reprodukcije</string>
@@ -1257,7 +1249,6 @@ sve vaše datoteke"</string>
     <string name="published_access_anyone">Svatko može vidjeti nakon objave</string>
     <string name="published_access_domain">Svatko na domeni %s može pregledati nakon objave</string>
     <string name="published_access_select_people">Određene osobe mogu pregledati nakon objave</string>
-    <string name="published_disabled_append">onemogućeno,</string>
     <string name="published_message_for_anyone_can_edit">Budući da svatko može uređivati, svatko može pregledati nakon objave.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Budući da svako na domeni %1$s može uređivati, svatko na domeni %1$s može pregledati nakon objave.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Budući da svatko s vezom može uređivati, svatko može pregledati nakon objave.</string>
@@ -1372,6 +1363,7 @@ sve vaše datoteke"</string>
     <string name="selection_menu_overflow_content_desc">Dodatne funkcije za odabrane stavke</string>
     <string name="selection_menu_pin">Dostupno izvan mreže</string>
     <string name="selection_menu_pin_content_desc">Učini odabrane stavke dostupnima izvan mreže</string>
+    <string name="selection_menu_pin_make_offline">Učini dostupnim izvan mreže</string>
     <string name="selection_menu_print">Ispis</string>
     <string name="selection_menu_print_content_desc">Ispis odabrane stavke</string>
     <string name="selection_menu_remove">Uklanjanje</string>
@@ -1535,6 +1527,7 @@ sve vaše datoteke"</string>
     <string name="suggest_pin_dialog_positive_button">Učini dostupnim izvan mreže</string>
     <string name="suggest_pin_dialog_title">Niste povezani</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, odabrano</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_account_help_card_button">PROMIJENI RAČUN</string>
     <string name="switch_account_help_card_content">Za uređaj je stvorena sigurnosna kopija na drugom računu. %s</string>
     <string name="switch_account_help_card_title">Stvaranje sigurnosne kopije na drugom računu</string>
@@ -1638,6 +1631,8 @@ Da biste ponovno uključili sigurnosno kopiranje, idite na Postavke > Chat > Sig
     <string name="upload_waiting_for_wifi">Čeka priključak na Wi-Fi</string>
     <string name="upsell_negbtn">Kasnije</string>
     <string name="upsell_okbtn">Nadogradi</string>
+    <string name="v7_preference_off">ISKLJUČENO</string>
+    <string name="v7_preference_on">UKLJUČENO</string>
     <string name="verbalize_opened_edit">Datoteka %1$s otvorena je uz dopuštenja za uređivanje.</string>
     <string name="version_too_old">Nažalost, ta verzija Google diska više nije podržana. Nadogradite na noviju verziju.</string>
     <string name="version_too_old_close">Zatvori</string>
@@ -1650,8 +1645,9 @@ Da biste ponovno uključili sigurnosno kopiranje, idite na Postavke > Chat > Sig
     <string name="warm_welcome_next_button">Dalje</string>
     <string name="warm_welcome_skip_button">Preskoči</string>
     <string name="warning_cannot_share_outside_domain">Postavke ovog Diska tima sprječavaju dijeljenje izvan domene %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Postavke ovog Diska tima sprječavaju dijeljenje s osobama koje nisu članovi tima i izvan domene %s</string>
     <string name="warning_cannot_share_outside_domain_org">Postavke organizacije sprječavanju dijeljenje izvan organizacije</string>
-    <string name="warning_cannot_share_outside_team_drive">Postavke ovog Diska tima sprječavaju dijeljenje izvan tima</string>
+    <string name="warning_cannot_share_outside_team_drive">Postavke Diska tima sprječavaju dijeljenje s osobama koje nisu članovi</string>
     <string name="welcome_button_close">Idi na Disk</string>
     <string name="welcome_button_continue">Dalje</string>
     <string name="welcome_offer_button_close">Zatvori</string>
@@ -1684,7 +1680,7 @@ Da biste ponovno uključili sigurnosno kopiranje, u WhatsAppu otvorite Postavke 
     <string name="zss_accessibility_searching">Pretraživanje: %1$s</string>
     <string name="zss_date_range_header_title">Datum izmjene</string>
     <string name="zss_date_range_month">Posljednjih 30 dana</string>
-    <string name="zss_date_range_three_month">Posljednjih 90 dana</string>
+    <string name="zss_date_range_three_month">Zadnjih 90 dana</string>
     <string name="zss_date_range_today">Danas</string>
     <string name="zss_date_range_week">Posljednjih 7 dana</string>
     <string name="zss_date_range_yesterday">Jučer</string>
@@ -1692,13 +1688,13 @@ Da biste ponovno uključili sigurnosno kopiranje, u WhatsAppu otvorite Postavke 
     <string name="zss_no_filters">Nema filtara</string>
     <string name="zss_owner_header_title">U vlasništvu</string>
     <string name="zss_owner_me">U mojem vlasništvu</string>
-    <string name="zss_owner_not_me">Nije u mojem vlasništvu</string>
+    <string name="zss_owner_not_me">U vlasništvu nekog drugog</string>
     <string name="zss_people_header_title">Osobe</string>
     <string name="zss_showing_list_of_filters">Prikazuje se popis dostupnih filtara.</string>
-    <string name="zss_team_drive">Traži u Disku tima %1$s</string>
+    <string name="zss_team_drive">Traži na Disku tima %1$s</string>
     <string name="zss_type_archive">Arhiva</string>
-    <string name="zss_type_audio">Audiozapis</string>
-    <string name="zss_type_documents">Tekstualni dokumenti</string>
+    <string name="zss_type_audio">Zvuk</string>
+    <string name="zss_type_documents">Tekstni dokumenti</string>
     <string name="zss_type_folder">Mape</string>
     <string name="zss_type_images">Fotografije i slike</string>
     <string name="zss_type_pdfs">PDF-ovi</string>

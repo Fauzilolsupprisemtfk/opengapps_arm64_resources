@@ -146,6 +146,10 @@
         <item quantity="other">No tienes permiso para quitar algunos elementos de la carpeta.</item>
         <item quantity="one">No tienes permiso para quitar este elemento de la carpeta.</item>
     </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">No puedes mover estos archivos porque el propietario no pertenece a %1$s.</item>
+        <item quantity="one">No puedes mover este archivo porque el propietario no pertenece a %1$s.</item>
+    </plurals>
     <plurals name="move_notice_granted_access_team_drive">
         <item quantity="other">%1$s \"%2$s\" ahora puede acceder a los elementos.</item>
         <item quantity="one">%1$s \"%2$s\" ahora puede acceder al elemento.</item>
@@ -555,5 +559,6 @@
     <plurals name="view_workspace_files">
         <item quantity="other">Ver %1$d archivos</item>
         <item quantity="one">Ver %1$d archivo</item>
+        <item quantity="two">Ver %1$d archivos</item>
     </plurals>
 </resources>

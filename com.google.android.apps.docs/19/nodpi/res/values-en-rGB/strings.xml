@@ -640,7 +640,7 @@ Try uploading a file."</string>
     <string name="empty_doclist_for_pinned_view">No files available offline.</string>
     <string name="empty_doclist_for_pinned_view_details">"Make files \"Available offline\" in the file's Options menu"</string>
     <string name="empty_doclist_for_recent_view">No recently opened or edited files.</string>
-    <string name="empty_doclist_for_search_view">No results.</string>
+    <string name="empty_doclist_for_search_view">No results</string>
     <string name="empty_doclist_for_shared_with_me_view">Files shared with you will appear here.</string>
     <string name="empty_doclist_for_starred_view">You have no starred files.</string>
     <string name="empty_doclist_for_starred_view_details">"Tap the Star icon in the file's option menu to add it to this list."</string>
@@ -686,6 +686,7 @@ Click + to create a new drawing."</string>
     <string name="error_start_client">"Cannot load any more files from  %1$s"</string>
     <string name="error_title">Error</string>
     <string name="error_video_not_available">"Video hasn't been processed. Please try again later."</string>
+    <string name="expand_button_title">Advanced</string>
     <string name="expires_future">Expires in %1$s</string>
     <string name="expires_today">Expires today</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
@@ -806,16 +807,7 @@ Click + to create a new drawing."</string>
     <string name="manage_members_default_members">By default, members can upload, edit and delete files, as well as invite other members</string>
     <string name="manage_members_dialog_title">Member access</string>
     <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_data_loading_failed">"Can't load this page"</string>
     <string name="manifest_app_projector">Projector</string>
     <string name="manifest_intent_view_pdf_drive">Drive PDF Viewer</string>
     <string name="media_player_error">A playback error has occurred</string>
@@ -1257,7 +1249,6 @@ all your files"</string>
     <string name="published_access_anyone">Anyone can view when published</string>
     <string name="published_access_domain">Anyone in %s can view when published</string>
     <string name="published_access_select_people">Specific people can view when published</string>
-    <string name="published_disabled_append">disabled,</string>
     <string name="published_message_for_anyone_can_edit">Since anyone can edit, anyone can view when published.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Since anyone in %1$s can edit, anyone at %1$s can view when published.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Since anyone with link can edit, anyone can view when published.</string>
@@ -1372,6 +1363,7 @@ all your files"</string>
     <string name="selection_menu_overflow_content_desc">More functions for selected items</string>
     <string name="selection_menu_pin">Available offline</string>
     <string name="selection_menu_pin_content_desc">Make selected items available offline</string>
+    <string name="selection_menu_pin_make_offline">Make available offline</string>
     <string name="selection_menu_print">Print</string>
     <string name="selection_menu_print_content_desc">Print selected item</string>
     <string name="selection_menu_remove">Remove</string>
@@ -1534,6 +1526,7 @@ all your files"</string>
     <string name="suggest_pin_dialog_positive_button">Make available offline</string>
     <string name="suggest_pin_dialog_title">No connection</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, selected</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_account_help_card_button">CHANGE ACCOUNT</string>
     <string name="switch_account_help_card_content">This device is backed up to a different account. %s</string>
     <string name="switch_account_help_card_title">Backing up to a different account</string>
@@ -1637,6 +1630,8 @@ You can turn backup on again by going to Settings > Chats > Chat backup in Whats
     <string name="upload_waiting_for_wifi">Waiting for Wi-Fi</string>
     <string name="upsell_negbtn">Later</string>
     <string name="upsell_okbtn">Upgrade</string>
+    <string name="v7_preference_off">OFF</string>
+    <string name="v7_preference_on">ON</string>
     <string name="verbalize_opened_edit">Opened %1$s with editing permission.</string>
     <string name="version_too_old">Sorry, this version of Google Docs is no longer supported. Please upgrade to a newer version.</string>
     <string name="version_too_old_close">Close</string>
@@ -1649,8 +1644,9 @@ You can turn backup on again by going to Settings > Chats > Chat backup in Whats
     <string name="warm_welcome_next_button">Next</string>
     <string name="warm_welcome_skip_button">Skip</string>
     <string name="warning_cannot_share_outside_domain">"This Team Drive's settings prevent sharing outside %s"</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">"This Team Drive's settings prevent sharing with non-members and outside of %s"</string>
     <string name="warning_cannot_share_outside_domain_org">"The organisation's settings prevent sharing outside the organisation"</string>
-    <string name="warning_cannot_share_outside_team_drive">"This Team Drive's settings prevent sharing outside the team"</string>
+    <string name="warning_cannot_share_outside_team_drive">"This Team Drive's settings prevent sharing with non-members"</string>
     <string name="welcome_button_close">Go to Drive</string>
     <string name="welcome_button_continue">Next</string>
     <string name="welcome_offer_button_close">Close</string>

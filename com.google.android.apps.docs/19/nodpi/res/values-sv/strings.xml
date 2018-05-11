@@ -640,7 +640,7 @@ Försök att överföra en fil."</string>
     <string name="empty_doclist_for_pinned_view">Inga filer är tillgängliga offline.</string>
     <string name="empty_doclist_for_pinned_view_details">Gör filer tillgängliga offline på filens alternativmeny</string>
     <string name="empty_doclist_for_recent_view">Inga nyligen öppnade eller redigerade filer.</string>
-    <string name="empty_doclist_for_search_view">Inga resultat.</string>
+    <string name="empty_doclist_for_search_view">Inga resultat</string>
     <string name="empty_doclist_for_shared_with_me_view">Filer som delas med dig visas här.</string>
     <string name="empty_doclist_for_starred_view">Du har inga stjärnmärkta filer.</string>
     <string name="empty_doclist_for_starred_view_details">Tryck på stjärnikonen på filens alternativmeny för att lägga till den på den här listan.</string>
@@ -686,6 +686,7 @@ Klicka på + för att skapa en ny teckning."</string>
     <string name="error_start_client">"Det går inte att läsa in fler filer från  %1$s"</string>
     <string name="error_title">Fel</string>
     <string name="error_video_not_available">Videon har inte bearbetats. Försök igen senare.</string>
+    <string name="expand_button_title">Avancerat</string>
     <string name="expires_future">Löper ut %1$s</string>
     <string name="expires_today">Upphör idag</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
@@ -817,17 +818,8 @@ Klicka på + för att skapa en ny teckning."</string>
     <string name="manage_accounts">Hantera konton</string>
     <string name="manage_members_default_members">Som standard kan medlemmar ladda upp/redigera/ta bort filer och bjuda in andra medlemmar</string>
     <string name="manage_members_dialog_title">Medlemsåtkomst</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Lagring</string>
+    <string name="management_data_loading_failed">Det går inte att läsa in den här sidan</string>
     <string name="manifest_app_projector">Projektor</string>
     <string name="manifest_intent_view_pdf_drive">Drive PDF-läsare</string>
     <string name="media_player_error">Det har uppstått ett fel i uppspelningen</string>
@@ -1269,7 +1261,6 @@ alla dina filer"</string>
     <string name="published_access_anyone">Alla kan visa den publicerade versionen</string>
     <string name="published_access_domain">Alla på %s får visa efter publicering</string>
     <string name="published_access_select_people">Vissa personer kan visa den publicerade versionen</string>
-    <string name="published_disabled_append">inaktiverat,</string>
     <string name="published_message_for_anyone_can_edit">Eftersom alla kan redigera, kan alla se webbplatsen när den har publicerats.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Eftersom alla på %1$s kan redigera, kan alla på %1$s se webbplatsen när den har publicerats.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Eftersom alla med länken kan redigera, kan alla se webbplatsen när den har publicerats.</string>
@@ -1384,6 +1375,7 @@ alla dina filer"</string>
     <string name="selection_menu_overflow_content_desc">Fler funktioner för markerade objekt</string>
     <string name="selection_menu_pin">Tillgängligt offline</string>
     <string name="selection_menu_pin_content_desc">Gör markerade objekt tillgängliga offline</string>
+    <string name="selection_menu_pin_make_offline">Gör tillgänglig offline</string>
     <string name="selection_menu_print">Skriv ut</string>
     <string name="selection_menu_print_content_desc">Skriv ut markerat objekt</string>
     <string name="selection_menu_remove">Ta bort</string>
@@ -1547,6 +1539,7 @@ alla dina filer"</string>
     <string name="suggest_pin_dialog_positive_button">Gör tillgänglig offline</string>
     <string name="suggest_pin_dialog_title">Ingen anslutning</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s är vald</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_account_help_card_button">BYT KONTO</string>
     <string name="switch_account_help_card_content">Den här enheten säkerhetskopieras till ett annat konto. %s</string>
     <string name="switch_account_help_card_title">Säkerhetskopierar till ett annat konto</string>
@@ -1555,7 +1548,7 @@ alla dina filer"</string>
     <string name="sync_more_error_offline">Vissa dokument kanske inte syns när du är offline.</string>
     <string name="sync_off">Av</string>
     <string name="sync_on">På</string>
-    <string name="tap_to_retry">Tryck om du vill försöka igen</string>
+    <string name="tap_to_retry">Tryck för att försöka igen</string>
     <string name="tap_to_view_who_has_access">Tryck här om du vill se vem som har tillgång</string>
     <string name="targetviewintro_close_button">OK</string>
     <string name="td_deleted_message">%1$s har raderats.</string>
@@ -1650,6 +1643,8 @@ Du kan aktivera säkerhetskopiering igen genom att gå till Inställningar > Cha
     <string name="upload_waiting_for_wifi">Väntar på Wi-Fi</string>
     <string name="upsell_negbtn">Senare</string>
     <string name="upsell_okbtn">Uppgradera</string>
+    <string name="v7_preference_off">AV</string>
+    <string name="v7_preference_on">PÅ</string>
     <string name="verbalize_opened_edit">%1$s har öppnats med redigeringsbehörighet.</string>
     <string name="version_too_old">Det finns tyvärr inte längre stöd för den här versionen av Google Drive. Uppgradera till en nyare version.</string>
     <string name="version_too_old_close">Stäng</string>
@@ -1662,8 +1657,9 @@ Du kan aktivera säkerhetskopiering igen genom att gå till Inställningar > Cha
     <string name="warm_welcome_next_button">Nästa</string>
     <string name="warm_welcome_skip_button">Hoppa över</string>
     <string name="warning_cannot_share_outside_domain">Inställningarna för denna teamenhet förhindrar delning utanför %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Inställningarna för denna teamenhet förhindrar delning utanför teamet och %s.</string>
     <string name="warning_cannot_share_outside_domain_org">Inställningarna för organisationen förhindrar delning utanför organisationen</string>
-    <string name="warning_cannot_share_outside_team_drive">Inställningarna för denna teamenhet förhindrar delning utanför teamet</string>
+    <string name="warning_cannot_share_outside_team_drive">Inställningarna för denna teamenhet förhindrar delning med personer som inte är medlemmar</string>
     <string name="welcome_button_close">Öppna Drive</string>
     <string name="welcome_button_continue">Nästa</string>
     <string name="welcome_offer_button_close">Stäng</string>
@@ -1695,10 +1691,10 @@ Om du vill aktivera säkerhetskopieringen igen öppnar du Inställningar > Chatt
     <string name="write_access_denied">Skrivåtkomst till dokumentet nekades</string>
     <string name="zss_accessibility_searching">Söker efter %1$s</string>
     <string name="zss_date_range_header_title">Ändringsdatum</string>
-    <string name="zss_date_range_month">De senaste 30 dagarna</string>
+    <string name="zss_date_range_month">Senaste 30 dagarna</string>
     <string name="zss_date_range_three_month">Senaste 90 dagarna</string>
     <string name="zss_date_range_today">I dag</string>
-    <string name="zss_date_range_week">Senaste 7 dagar</string>
+    <string name="zss_date_range_week">Senaste 7 dagarna</string>
     <string name="zss_date_range_yesterday">I går</string>
     <string name="zss_entry_types_header_title">Filtyper</string>
     <string name="zss_no_filters">Inga filter</string>
@@ -1708,12 +1704,12 @@ Om du vill aktivera säkerhetskopieringen igen öppnar du Inställningar > Chatt
     <string name="zss_people_header_title">Personer</string>
     <string name="zss_showing_list_of_filters">Visar listan över tillgängliga filter.</string>
     <string name="zss_team_drive">Sök i %1$s</string>
-    <string name="zss_type_archive">Arkivera</string>
+    <string name="zss_type_archive">Arkiv</string>
     <string name="zss_type_audio">Ljud</string>
     <string name="zss_type_documents">Textdokument</string>
     <string name="zss_type_folder">Mappar</string>
     <string name="zss_type_images">Foton och bilder</string>
-    <string name="zss_type_pdfs">Pdf-filer</string>
+    <string name="zss_type_pdfs">PDF-filer</string>
     <string name="zss_type_presentations">Presentationer</string>
     <string name="zss_type_spreadsheets">Kalkylark</string>
     <string name="zss_type_video">Videor</string>

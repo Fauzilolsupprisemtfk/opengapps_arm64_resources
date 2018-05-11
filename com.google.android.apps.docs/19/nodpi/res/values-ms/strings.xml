@@ -630,7 +630,7 @@ Cuba memuat naik fail."</string>
     <string name="empty_doclist_for_pinned_view">Tiada fail yang tersedia di luar talian.</string>
     <string name="empty_doclist_for_pinned_view_details">Jadikan fail \"Tersedia di luar talian\" dalam menu pilihan fail</string>
     <string name="empty_doclist_for_recent_view">Tiada fail dibuka atau diedit baru-baru ini.</string>
-    <string name="empty_doclist_for_search_view">Tiada hasil.</string>
+    <string name="empty_doclist_for_search_view">Tiada hasil carian</string>
     <string name="empty_doclist_for_shared_with_me_view">Fail yang dikongsi dengan anda akan muncul di sini.</string>
     <string name="empty_doclist_for_starred_view">Anda tiada fail berbintang.</string>
     <string name="empty_doclist_for_starred_view_details">Ketik ikon bintang dalam menu pilihan fail untuk menambahkan ikon tersebut pada senarai ini.</string>
@@ -676,6 +676,7 @@ Klik + untuk buat lukisan baharu."</string>
     <string name="error_start_client">"Tidak dapat memuatkan lagi fail drp  %1$s"</string>
     <string name="error_title">Ralat</string>
     <string name="error_video_not_available">Video belum diproses. Sila cuba sebentar lagi.</string>
+    <string name="expand_button_title">Lanjutan</string>
     <string name="expires_future">Tamat tempoh dalam masa %1$s</string>
     <string name="expires_today">Tmt tempoh hari ini</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
@@ -793,17 +794,8 @@ Klik + untuk buat lukisan baharu."</string>
     <string name="location_removed_entry_content_description_unclickable">Dialih keluar daripada %1$s.</string>
     <string name="manage_members_default_members">Secara lalainya, ahli boleh memuat naik/mengedit/memadamkan fail &amp; menjemput ahli lain</string>
     <string name="manage_members_dialog_title">Akses ahli</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Storan</string>
+    <string name="management_data_loading_failed">Tidak dapat memuatkan halaman ini</string>
     <string name="manifest_app_projector">Projektor</string>
     <string name="manifest_intent_view_pdf_drive">Pemapar PDF Drive</string>
     <string name="media_player_error">Berlaku ralat main balik</string>
@@ -1244,7 +1236,6 @@ semua fail anda"</string>
     <string name="published_access_anyone">Sesiapa sahaja boleh melihat apabila diterbitkan</string>
     <string name="published_access_domain">Sesiapa sahaja dalam %s boleh melihat apabila diterbitkan</string>
     <string name="published_access_select_people">Orang yang tertentu boleh melihat apabila diterbitkan</string>
-    <string name="published_disabled_append">dilumpuhkan.</string>
     <string name="published_message_for_anyone_can_edit">Disebabkan sesiapa sahaja boleh mengedit, maka sesiapa sahaja boleh melihat apabila diterbitkan.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Disebabkan sesiapa sahaja di %1$s boleh mengedit, maka sesiapa sahaja di %1$s boleh melihat apabila diterbitkan.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Disebabkan sesiapa sahaja yang mempunyai pautan boleh mengedit, maka sesiapa sahaja boleh melihat apabila diterbitkan.</string>
@@ -1358,6 +1349,7 @@ semua fail anda"</string>
     <string name="selection_menu_overflow_content_desc">Lagi fungsi untuk item yang dipilih</string>
     <string name="selection_menu_pin">Ada di luar talian</string>
     <string name="selection_menu_pin_content_desc">Jadikan item yang dipilih tersedia di luar talian</string>
+    <string name="selection_menu_pin_make_offline">Sediakan di luar talian</string>
     <string name="selection_menu_print">Cetak</string>
     <string name="selection_menu_print_content_desc">Cetak item yang dipilih</string>
     <string name="selection_menu_remove">Alih keluar</string>
@@ -1519,6 +1511,7 @@ semua fail anda"</string>
     <string name="suggest_pin_dialog_positive_button">Sediakan untuk luar talian</string>
     <string name="suggest_pin_dialog_title">Tiada sambungan</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, dipilih</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_account_help_card_button">TUKAR AKAUN</string>
     <string name="switch_account_help_card_content">Peranti ini disandarkan ke akaun lain. %s</string>
     <string name="switch_account_help_card_title">Membuat sandaran ke akaun lain</string>
@@ -1622,6 +1615,8 @@ Anda boleh menghidupkan kembali sandaran dengan melawati Tetapan > Sembang > San
     <string name="upload_waiting_for_wifi">Menunggu Wi-Fi</string>
     <string name="upsell_negbtn">Kemudian</string>
     <string name="upsell_okbtn">Tingkatkan</string>
+    <string name="v7_preference_off">MATI</string>
+    <string name="v7_preference_on">HIDUP</string>
     <string name="verbalize_opened_edit">%1$s dibuka dengan kebenaran mengedit.</string>
     <string name="version_too_old">Maaf, Google Drive versi ini tidak disokong lagi. Sila naik taraf kepada versi lebih baharu.</string>
     <string name="version_too_old_close">Tutup</string>
@@ -1634,8 +1629,9 @@ Anda boleh menghidupkan kembali sandaran dengan melawati Tetapan > Sembang > San
     <string name="warm_welcome_next_button">Seterusnya</string>
     <string name="warm_welcome_skip_button">Langkau</string>
     <string name="warning_cannot_share_outside_domain">Tetapan Drive Pasukan ini menghalang perkongsian di luar %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Tetapan Drive Pasukan ini menghalang perkongsian dengan bukan ahli dan di luar %s</string>
     <string name="warning_cannot_share_outside_domain_org">Tetapan organisasi menghalang perkongsian di luar organisasi</string>
-    <string name="warning_cannot_share_outside_team_drive">Tetapan Drive Pasukan ini menghalang perkongsian di luar pasukan</string>
+    <string name="warning_cannot_share_outside_team_drive">Tetapan Drive Pasukan ini menghalang perkongsian dengan bukan ahli</string>
     <string name="welcome_button_close">Pergi ke Drive</string>
     <string name="welcome_button_continue">Seterusnya</string>
     <string name="welcome_offer_button_close">Tutup</string>
@@ -1669,7 +1665,7 @@ Untuk menghidupkan sandaran kembali, pergi ke Tetapan > Sembang dalam WhatsApp."
     <string name="zss_date_range_header_title">Tarikh diubah suai</string>
     <string name="zss_date_range_month">30 hari yang lalu</string>
     <string name="zss_date_range_three_month">90 hari yang lalu</string>
-    <string name="zss_date_range_today">Hari ini</string>
+    <string name="zss_date_range_today">Hari Ini</string>
     <string name="zss_date_range_week">7 hari yang lalu</string>
     <string name="zss_date_range_yesterday">Semalam</string>
     <string name="zss_entry_types_header_title">Jenis fail</string>

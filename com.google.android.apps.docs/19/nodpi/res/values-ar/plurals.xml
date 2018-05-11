@@ -146,6 +146,10 @@
         <item quantity="other">غير مصرّح لك بنقل بعض العناصر من هذا المجلد.</item>
         <item quantity="one">غير مصرّح لك بنقل هذا العنصر من هذا المجلد.</item>
     </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">لا يمكنك نقل هذه الملفات لأن مالك الملف من خارج %1$s.</item>
+        <item quantity="one">لا يمكنك نقل هذا الملف لأن مالك الملف من خارج %1$s.</item>
+    </plurals>
     <plurals name="move_notice_granted_access_team_drive">
         <item quantity="other">%1$s \"%2$s\" يمكنه الآن الوصول إليها.</item>
         <item quantity="one">%1$s \"%2$s\" يمكنه الآن الوصول إليه.</item>
@@ -555,5 +559,6 @@
     <plurals name="view_workspace_files">
         <item quantity="other">عرض %1$d ملف</item>
         <item quantity="one">عرض ملف واحد (%1$d)</item>
+        <item quantity="two">عرض %1$d ملف</item>
     </plurals>
 </resources>

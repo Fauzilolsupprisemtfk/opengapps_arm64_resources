@@ -146,6 +146,10 @@
         <item quantity="other">No tens permís per treure alguns elements de la carpeta.</item>
         <item quantity="one">No tens permís per treure aquest element de la carpeta.</item>
     </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">No pots moure aquests fitxers perquè el propietari no pertany a %1$s.</item>
+        <item quantity="one">No pots moure aquest fitxer perquè el propietari no pertany a %1$s.</item>
+    </plurals>
     <plurals name="move_notice_granted_access_team_drive">
         <item quantity="other">%1$s Ara \"%2$s\" hi pot accedir.</item>
         <item quantity="one">%1$s Ara \"%2$s\" hi pot accedir.</item>
@@ -555,5 +559,6 @@
     <plurals name="view_workspace_files">
         <item quantity="other">Mostra %1$d fitxers</item>
         <item quantity="one">Mostra %1$d fitxer</item>
+        <item quantity="two">Mostra %1$d fitxers</item>
     </plurals>
 </resources>

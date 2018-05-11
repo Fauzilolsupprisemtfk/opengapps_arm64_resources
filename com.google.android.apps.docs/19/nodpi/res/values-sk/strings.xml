@@ -686,6 +686,7 @@ Kliknutím na položku + vytvoríte nový nákres."</string>
     <string name="error_start_client">"Z aplik.  %1$s nemôžete načítať viac súborov"</string>
     <string name="error_title">Chyba</string>
     <string name="error_video_not_available">Video nebolo spracované. Skúste to znova neskôr.</string>
+    <string name="expand_button_title">Rozšírené</string>
     <string name="expires_future">Vyprší o %1$s</string>
     <string name="expires_today">Platnosť vyprší dnes</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
@@ -805,17 +806,8 @@ Kliknutím na položku + vytvoríte nový nákres."</string>
     <string name="manage_accounts">Správa účtov</string>
     <string name="manage_members_default_members">Členovia môžu predvolene nahrávať, upravovať a odstraňovať súbory a pozývať ďalších členov</string>
     <string name="manage_members_dialog_title">Prístup členov</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Úložisko</string>
+    <string name="management_data_loading_failed">Táto stránka sa nedá načítať</string>
     <string name="manifest_app_projector">Projektor</string>
     <string name="manifest_intent_view_pdf_drive">Zobrazovač PDF na Disku</string>
     <string name="media_player_error">Vyskytla sa chyba prehrávania</string>
@@ -1257,7 +1249,6 @@ v bezpečí"</string>
     <string name="published_access_anyone">Po zverejnení môže zobraziť ktokoľvek</string>
     <string name="published_access_domain">Po zverejnení môže zobraziť ktokoľvek v doméne %s</string>
     <string name="published_access_select_people">Po zverejnení môžu zobraziť konkrétni ľudia</string>
-    <string name="published_disabled_append">zakázané</string>
     <string name="published_message_for_anyone_can_edit">Keďže upravovať môže ktokoľvek, po zverejnení môže položku zobraziť ktokoľvek.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Keďže upravovať môže ktokoľvek v doméne %1$s, po zverejnení môže položku zobraziť ktokoľvek v doméne %1$s.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Keďže upravovať môže ktokoľvek s odkazom, po zverejnení môže položku zobraziť ktokoľvek.</string>
@@ -1372,6 +1363,7 @@ v bezpečí"</string>
     <string name="selection_menu_overflow_content_desc">Ďalšie funkcie pre vybraté položky</string>
     <string name="selection_menu_pin">K dispozícii offline</string>
     <string name="selection_menu_pin_content_desc">Sprístupniť vybrané položky offline</string>
+    <string name="selection_menu_pin_make_offline">Sprístupniť offline</string>
     <string name="selection_menu_print">Tlačiť</string>
     <string name="selection_menu_print_content_desc">Tlačiť vybratú položku</string>
     <string name="selection_menu_remove">Odstrániť</string>
@@ -1535,6 +1527,7 @@ v bezpečí"</string>
     <string name="suggest_pin_dialog_positive_button">Sprístupniť offline</string>
     <string name="suggest_pin_dialog_title">Bez pripojenia</string>
     <string name="suggested_name_selected_accessibility_announcement">Vybratý používateľ: %1$s</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_account_help_card_button">ZMENIŤ ÚČET</string>
     <string name="switch_account_help_card_content">Toto zariadenie je zálohované do iného účtu. %s</string>
     <string name="switch_account_help_card_title">Zálohuje sa do iného účtu</string>
@@ -1638,6 +1631,8 @@ Zálohovanie môžete znova zapnúť tak, že prejdete do časti Nastavenia > Č
     <string name="upload_waiting_for_wifi">Čaká sa na sieť Wi‑Fi</string>
     <string name="upsell_negbtn">Neskôr</string>
     <string name="upsell_okbtn">Inovovať</string>
+    <string name="v7_preference_off">VYP.</string>
+    <string name="v7_preference_on">ZAP.</string>
     <string name="verbalize_opened_edit">Súbor %1$s bol otvorený s povoleniami na úpravy.</string>
     <string name="version_too_old">Ľutujeme, táto verzia Disku Google už nie je podporovaná. Inovujte ju na novšiu verziu.</string>
     <string name="version_too_old_close">Zavrieť</string>
@@ -1650,8 +1645,9 @@ Zálohovanie môžete znova zapnúť tak, že prejdete do časti Nastavenia > Č
     <string name="warm_welcome_next_button">Ďalej</string>
     <string name="warm_welcome_skip_button">Preskočiť</string>
     <string name="warning_cannot_share_outside_domain">Nastavenia tohto tímového disku bránia zdieľaniu mimo domény %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Nastavenia tohto tímového disku bránia zdieľaniu s nečlenmi a používateľmi mimo domény %s</string>
     <string name="warning_cannot_share_outside_domain_org">Nastavenia organizácie bránia zdieľaniu mimo organizácie</string>
-    <string name="warning_cannot_share_outside_team_drive">Nastavenia tohto tímového disku bránia zdieľaniu mimo tímu</string>
+    <string name="warning_cannot_share_outside_team_drive">Nastavenia tohto tímového disku bránia zdieľaniu s nečlenmi</string>
     <string name="welcome_button_close">Prejsť do aplikácie Disk</string>
     <string name="welcome_button_continue">Ďalej</string>
     <string name="welcome_offer_button_close">Zavrieť</string>

@@ -640,7 +640,7 @@ Prueba a subir un archivo."</string>
     <string name="empty_doclist_for_pinned_view">No hay archivos disponibles sin conexión.</string>
     <string name="empty_doclist_for_pinned_view_details">Haz que los archivos estén disponibles sin conexión en el menú de opciones del archivo</string>
     <string name="empty_doclist_for_recent_view">No hay ningún archivo que se haya abierto o editado recientemente.</string>
-    <string name="empty_doclist_for_search_view">No hay resultados.</string>
+    <string name="empty_doclist_for_search_view">Ningún resultado</string>
     <string name="empty_doclist_for_shared_with_me_view">Los archivos compartidos contigo se mostrarán aquí.</string>
     <string name="empty_doclist_for_starred_view">No hay archivos destacados.</string>
     <string name="empty_doclist_for_starred_view_details">Toca el icono de la estrella en el menú de opciones del archivo para añadirlo a esta lista.</string>
@@ -686,6 +686,7 @@ Haz clic en + para crear un dibujo."</string>
     <string name="error_start_client">"No se pueden cargar más archivos de  %1$s"</string>
     <string name="error_title">Error</string>
     <string name="error_video_not_available">El vídeo no se ha procesado. Inténtalo de nuevo más tarde.</string>
+    <string name="expand_button_title">Avanzado</string>
     <string name="expires_future">Caduca en %1$s</string>
     <string name="expires_today">Caduca hoy</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s de %2$d</string>
@@ -817,17 +818,8 @@ Haz clic en + para crear un dibujo."</string>
     <string name="manage_accounts">Administrar cuentas</string>
     <string name="manage_members_default_members">Los miembros pueden subir, editar o eliminar archivos e invitar a otros de forma predeterminada</string>
     <string name="manage_members_dialog_title">Permisos de miembros</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Almacenamiento</string>
+    <string name="management_data_loading_failed">No se ha podido cargar esta página</string>
     <string name="manifest_app_projector">Proyector</string>
     <string name="manifest_intent_view_pdf_drive">Lector de PDF de Drive</string>
     <string name="media_player_error">Error de reproducción</string>
@@ -1132,8 +1124,8 @@ Haz clic en + para crear un dibujo."</string>
     <string name="ouch_please_report">%1$s se ha detenido de forma inesperada. Infórmanos de este problema para ayudarnos a averiguar qué ha ocurrido.</string>
     <string name="ouch_title_sawwrie">Lo sentimos.</string>
     <string name="overflow_button_content_description">Más opciones</string>
-    <string name="owner_not_user">No pertenecen a %1$s</string>
-    <string name="owner_user">Pertenecen a %1$s</string>
+    <string name="owner_not_user">No son propiedad de %1$s</string>
+    <string name="owner_user">Propiedad de %1$s</string>
     <string name="page_1_description">Obtendrás 15 GB de espacio de almacenamiento gratuito para todas tus fotos, documentos y mucho más.</string>
     <string name="page_1_free_space_highlight">15 GB GRATUITOS</string>
     <string name="page_1_heading">"Un lugar seguro
@@ -1269,7 +1261,6 @@ para los archivos"</string>
     <string name="published_access_anyone">Cualquier usuario puede ver la versión publicada</string>
     <string name="published_access_domain">Cualquier usuario de %s puede ver la versión publicada</string>
     <string name="published_access_select_people">Solo ciertos usuarios pueden la versión publicada</string>
-    <string name="published_disabled_append">inhabilitada,</string>
     <string name="published_message_for_anyone_can_edit">Como cualquier usuario puede editar el borrador, cualquiera podrá verlo cuando se publique.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Como cualquier usuario de %1$s puede editar el borrador, cualquiera que pertenezca a %1$s podrá verlo cuando se publique.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Como cualquier usuario con el enlace puede editar el borrador, cualquiera podrá verlo cuando se publique.</string>
@@ -1384,6 +1375,7 @@ para los archivos"</string>
     <string name="selection_menu_overflow_content_desc">Más funciones para los elementos seleccionados</string>
     <string name="selection_menu_pin">Acceso sin conexión</string>
     <string name="selection_menu_pin_content_desc">Permitir que los elementos seleccionados estén disponibles sin conexión</string>
+    <string name="selection_menu_pin_make_offline">Activar acceso sin conexión</string>
     <string name="selection_menu_print">Imprimir</string>
     <string name="selection_menu_print_content_desc">Imprimir elemento seleccionado</string>
     <string name="selection_menu_remove">Eliminar</string>
@@ -1547,6 +1539,7 @@ para los archivos"</string>
     <string name="suggest_pin_dialog_positive_button">Activar el acceso sin conexión</string>
     <string name="suggest_pin_dialog_title">Sin conexión</string>
     <string name="suggested_name_selected_accessibility_announcement">Se ha seleccionado %1$s</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_account_help_card_button">CAMBIAR DE CUENTA</string>
     <string name="switch_account_help_card_content">Se ha creado una copia de seguridad de este dispositivo en otra cuenta: %s</string>
     <string name="switch_account_help_card_title">Se está haciendo una copia de seguridad en otra cuenta</string>
@@ -1650,6 +1643,8 @@ Para volver a activar la copia de seguridad, ve a Configuración > Chats > R
     <string name="upload_waiting_for_wifi">Esperando a que haya conexión Wi-Fi</string>
     <string name="upsell_negbtn">En otro momento</string>
     <string name="upsell_okbtn">Adquirir más almacenamiento</string>
+    <string name="v7_preference_off">DESACTIVADO</string>
+    <string name="v7_preference_on">ACTIVADO</string>
     <string name="verbalize_opened_edit">Se ha abierto %1$s con permisos para editar.</string>
     <string name="version_too_old">Esta versión de Google Drive ya no es compatible. Actualízala a una versión más reciente.</string>
     <string name="version_too_old_close">Cerrar</string>
@@ -1662,8 +1657,9 @@ Para volver a activar la copia de seguridad, ve a Configuración > Chats > R
     <string name="warm_welcome_next_button">Siguiente</string>
     <string name="warm_welcome_skip_button">Saltar</string>
     <string name="warning_cannot_share_outside_domain">La configuración de esta unidad de equipo impide compartir el archivo fuera de %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">La configuración de esta unidad de equipo impide compartir archivos con usuarios que no pertenezcan a ella y fuera de %s</string>
     <string name="warning_cannot_share_outside_domain_org">La configuración de la organización impide compartir archivos fuera de ella</string>
-    <string name="warning_cannot_share_outside_team_drive">La configuración de esta unidad de equipo impide compartir el archivo fuera del equipo</string>
+    <string name="warning_cannot_share_outside_team_drive">La configuración de esta unidad de equipo impide compartir archivos con usuarios que no pertenezcan a ella</string>
     <string name="welcome_button_close">Ir a Drive</string>
     <string name="welcome_button_continue">Siguiente</string>
     <string name="welcome_offer_button_close">Cerrar</string>
@@ -1698,7 +1694,7 @@ Para volver a activar la copia de seguridad, ve a Ajustes > Chats en WhatsApp."<
     <string name="zss_date_range_month">Últimos 30 días</string>
     <string name="zss_date_range_three_month">Últimos 90 días</string>
     <string name="zss_date_range_today">Hoy</string>
-    <string name="zss_date_range_week">Últimos 7 días</string>
+    <string name="zss_date_range_week">Últimos 7 días</string>
     <string name="zss_date_range_yesterday">Ayer</string>
     <string name="zss_entry_types_header_title">Tipos de archivo</string>
     <string name="zss_no_filters">Ningún filtro</string>
@@ -1713,7 +1709,7 @@ Para volver a activar la copia de seguridad, ve a Ajustes > Chats en WhatsApp."<
     <string name="zss_type_documents">Documentos de texto</string>
     <string name="zss_type_folder">Carpetas</string>
     <string name="zss_type_images">Fotos e imágenes</string>
-    <string name="zss_type_pdfs">PDF</string>
+    <string name="zss_type_pdfs">Archivos PDF</string>
     <string name="zss_type_presentations">Presentaciones</string>
     <string name="zss_type_spreadsheets">Hojas de cálculo</string>
     <string name="zss_type_video">Vídeos</string>

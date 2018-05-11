@@ -632,7 +632,7 @@ Prøv å laste opp en fil."</string>
     <string name="empty_doclist_for_pinned_view">Ingen filer er tilgjengelige uten nett.</string>
     <string name="empty_doclist_for_pinned_view_details">Gjør filene «tilgjengelige uten nett» i alternativmenyen for filene</string>
     <string name="empty_doclist_for_recent_view">Det finnes ingen filer som nylig er åpnet eller endret.</string>
-    <string name="empty_doclist_for_search_view">Ingen resultater.</string>
+    <string name="empty_doclist_for_search_view">Ingen treff</string>
     <string name="empty_doclist_for_shared_with_me_view">Filer som deles med deg, vises her.</string>
     <string name="empty_doclist_for_starred_view">Du har ingen stjernemerkede filer.</string>
     <string name="empty_doclist_for_starred_view_details">Trykk på stjerneikonet i alternativmenyen for filen for å legge til filen i denne listen.</string>
@@ -678,6 +678,7 @@ Klikk på + for å opprette en ny illustrasjon."</string>
     <string name="error_start_client">"Kan ikke laste inn flere filer fra  %1$s"</string>
     <string name="error_title">Feil</string>
     <string name="error_video_not_available">Videoen har ikke blitt behandlet. Prøv igjen senere.</string>
+    <string name="expand_button_title">Avansert</string>
     <string name="expires_future">Utløper om %1$s</string>
     <string name="expires_today">Utløper i dag</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
@@ -992,8 +993,8 @@ Klikk på + for å opprette en ny illustrasjon."</string>
     <string name="ouch_please_report">%1$s har stoppet uventet. Meld fra om dette problemet for å hjelpe oss å finne ut hva som gikk galt.</string>
     <string name="ouch_title_sawwrie">Beklager!</string>
     <string name="overflow_button_content_description">Flere alternativer</string>
-    <string name="owner_not_user">Ikke eid av %1$s</string>
-    <string name="owner_user">Eid av %1$s</string>
+    <string name="owner_not_user">Eies ikke av %1$s</string>
+    <string name="owner_user">Eies av %1$s</string>
     <string name="page_1_description">Du får 15 GB gratis plass til alle bildene, dokumentene og de andre filene dine.</string>
     <string name="page_1_free_space_highlight">15 GB GRATIS</string>
     <string name="page_1_heading">"Et trygt sted for
@@ -1129,7 +1130,6 @@ alle filene dine"</string>
     <string name="published_access_anyone">Alle kan se nettstedet når det er publisert</string>
     <string name="published_access_domain">Alle på %s kan se den publiserte versjonen</string>
     <string name="published_access_select_people">Bestemte personer kan se nettstedet når det er publisert</string>
-    <string name="published_disabled_append">deaktivert,</string>
     <string name="published_message_for_anyone_can_edit">Siden alle kan redigere, kan alle se det når det er publisert.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Siden alle på %1$s kan redigere, kan alle på %1$s se det når det legges ut.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Siden alle med linken kan redigere, kan alle se det når det er publisert.</string>
@@ -1244,6 +1244,7 @@ alle filene dine"</string>
     <string name="selection_menu_overflow_content_desc">Flere funksjoner for de valgte elementene</string>
     <string name="selection_menu_pin">Tilgjengelig uten nett</string>
     <string name="selection_menu_pin_content_desc">Gjør de valgte elementene tilgjengelige uten nett</string>
+    <string name="selection_menu_pin_make_offline">Gjør tilgjengelig uten nett</string>
     <string name="selection_menu_print">Skriv ut</string>
     <string name="selection_menu_print_content_desc">Skriv ut det valgte elementet</string>
     <string name="selection_menu_remove">Fjern</string>
@@ -1407,6 +1408,7 @@ alle filene dine"</string>
     <string name="suggest_pin_dialog_positive_button">Gjør tilgjengelig uten nett</string>
     <string name="suggest_pin_dialog_title">Ingen tilkobling</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, valgt</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_account_help_card_button">BYTT KONTO</string>
     <string name="switch_account_help_card_content">Denne enheten blir sikkerhetskopiert til en annen konto. %s</string>
     <string name="switch_account_help_card_title">Sikkerhetskopiering til en annen konto</string>
@@ -1510,6 +1512,8 @@ Du kan slå på sikkerhetskopieringen igjen ved å gå til Innstillinger > Chatt
     <string name="upload_waiting_for_wifi">Venter på Wi-Fi</string>
     <string name="upsell_negbtn">Senere</string>
     <string name="upsell_okbtn">Oppgrader</string>
+    <string name="v7_preference_off">AV</string>
+    <string name="v7_preference_on">PÅ</string>
     <string name="verbalize_opened_edit">Åpnet %1$s med redigeringstillatelser.</string>
     <string name="version_too_old">Beklager, men denne versjonen av Google Disk støttes ikke lenger. Oppgrader til en nyere versjon.</string>
     <string name="version_too_old_close">Lukk</string>
@@ -1522,8 +1526,9 @@ Du kan slå på sikkerhetskopieringen igjen ved å gå til Innstillinger > Chatt
     <string name="warm_welcome_next_button">Neste</string>
     <string name="warm_welcome_skip_button">Hopp over</string>
     <string name="warning_cannot_share_outside_domain">Innstillingene for denne teamdisken forhindrer deling utenfor %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Innstillingene for denne teamdisken forhindrer deling med brukere som ikke er medlemmer, og med brukere som ikke er tilknyttet %s.</string>
     <string name="warning_cannot_share_outside_domain_org">Organisasjonens innstillinger forhindrer deling utenfor organisasjonen</string>
-    <string name="warning_cannot_share_outside_team_drive">Innstillingene for denne teamdisken forhindrer deling utenfor teamet.</string>
+    <string name="warning_cannot_share_outside_team_drive">Innstillingene for denne teamdisken forhindrer deling med brukere som ikke er medlemmer</string>
     <string name="welcome_button_close">Gå til Disk</string>
     <string name="welcome_button_continue">Neste</string>
     <string name="welcome_offer_button_close">Lukk</string>
@@ -1555,17 +1560,17 @@ For å slå sikkerhetskopieringen på igjen, gå til Innstillinger > Samtaler i 
     <string name="write_access_denied">Skrivetilgang til dokumentet ble avvist.</string>
     <string name="zss_accessibility_searching">Søker etter %1$s</string>
     <string name="zss_date_range_header_title">Endringsdato</string>
-    <string name="zss_date_range_month">Siste 30 dager</string>
-    <string name="zss_date_range_three_month">Siste 90 dager</string>
+    <string name="zss_date_range_month">De siste 30 dagene</string>
+    <string name="zss_date_range_three_month">De siste 90 dagene</string>
     <string name="zss_date_range_today">I dag</string>
-    <string name="zss_date_range_week">Siste 7 dager</string>
+    <string name="zss_date_range_week">De siste sju dagene</string>
     <string name="zss_date_range_yesterday">I går</string>
     <string name="zss_entry_types_header_title">Filtyper</string>
     <string name="zss_no_filters">Ingen filtre</string>
     <string name="zss_owner_header_title">Eies av</string>
     <string name="zss_owner_me">Eies av meg</string>
     <string name="zss_owner_not_me">Eies ikke av meg</string>
-    <string name="zss_people_header_title">Personer</string>
+    <string name="zss_people_header_title">Folk</string>
     <string name="zss_showing_list_of_filters">Viser listen over tilgjengelige filtre.</string>
     <string name="zss_team_drive">Søk i %1$s</string>
     <string name="zss_type_archive">Arkiv</string>

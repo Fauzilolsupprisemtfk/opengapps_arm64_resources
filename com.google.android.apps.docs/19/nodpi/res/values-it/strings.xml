@@ -640,7 +640,7 @@ Prova a caricare un file."</string>
     <string name="empty_doclist_for_pinned_view">Nessun file disponibile offline.</string>
     <string name="empty_doclist_for_pinned_view_details">Scegli \"Disponibile offline\" dal menu di opzioni di ciascun file</string>
     <string name="empty_doclist_for_recent_view">Nessun file aperto o modificato di recente.</string>
-    <string name="empty_doclist_for_search_view">Nessun risultato.</string>
+    <string name="empty_doclist_for_search_view">Nessun risultato</string>
     <string name="empty_doclist_for_shared_with_me_view">I file condivisi con te verranno visualizzati qui.</string>
     <string name="empty_doclist_for_starred_view">Nessun file aggiunto a Speciali.</string>
     <string name="empty_doclist_for_starred_view_details">"Tocca l'icona a forma di stella nel menu delle opzioni del file per aggiungerlo a questo elenco."</string>
@@ -686,6 +686,7 @@ Fai clic su + per creare un nuovo disegno."</string>
     <string name="error_start_client">"Impossibile caricare altri file da  %1$s"</string>
     <string name="error_title">Errore</string>
     <string name="error_video_not_available">Impossibile elaborare il video. Riprova più tardi.</string>
+    <string name="expand_button_title">Avanzate</string>
     <string name="expires_future">Scade tra %1$s</string>
     <string name="expires_today">Scade oggi</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
@@ -817,17 +818,8 @@ Fai clic su + per creare un nuovo disegno."</string>
     <string name="manage_accounts">Gestisci account</string>
     <string name="manage_members_default_members">Per impostazione predefinita, i membri possono caricare/modificare/eliminare file e invitare altri membri</string>
     <string name="manage_members_dialog_title">Accesso membri</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Spazio di archiviazione</string>
+    <string name="management_data_loading_failed">Impossibile caricare la pagina</string>
     <string name="manifest_app_projector">Proiettore</string>
     <string name="manifest_intent_view_pdf_drive">Visualizzatore PDF di Drive</string>
     <string name="media_player_error">Si è verificato un errore durante la riproduzione</string>
@@ -1269,7 +1261,6 @@ tutti i tuoi file"</string>
     <string name="published_access_anyone">Chiunque può visualizzare la versione pubblicata</string>
     <string name="published_access_domain">Chiunque in %s può visualizzare la versione pubblicata</string>
     <string name="published_access_select_people">Persone specifiche possono visualizzare la versione pubblicata</string>
-    <string name="published_disabled_append">disattivata</string>
     <string name="published_message_for_anyone_can_edit">Dal momento che chiunque può modificare, chiunque può visualizzare la versione pubblicata.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Dal momento che chiunque in %1$s può modificare, chiunque in %1$s può visualizzare la versione pubblicata.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Dal momento che chiunque abbia il link può modificare, chiunque può visualizzare la versione pubblicata.</string>
@@ -1384,6 +1375,7 @@ tutti i tuoi file"</string>
     <string name="selection_menu_overflow_content_desc">Ulteriori funzioni per gli elementi selezionati</string>
     <string name="selection_menu_pin">Disponibile offline</string>
     <string name="selection_menu_pin_content_desc">Rendi gli elementi selezionati disponibili offline</string>
+    <string name="selection_menu_pin_make_offline">Rendi disponibili offline</string>
     <string name="selection_menu_print">Stampa</string>
     <string name="selection_menu_print_content_desc">Stampa elemento selezionato</string>
     <string name="selection_menu_remove">Rimuovi</string>
@@ -1547,6 +1539,7 @@ tutti i tuoi file"</string>
     <string name="suggest_pin_dialog_positive_button">Rendi disponibile offline</string>
     <string name="suggest_pin_dialog_title">Nessuna connessione</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, selezionato</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_account_help_card_button">CAMBIA ACCOUNT</string>
     <string name="switch_account_help_card_content">Il backup del dispositivo viene eseguito su un account diverso. %s</string>
     <string name="switch_account_help_card_title">Backup su un account diverso</string>
@@ -1650,6 +1643,8 @@ Puoi riattivare il backup andando a Impostazioni > Chat > Backup chat in WhatsAp
     <string name="upload_waiting_for_wifi">In attesa di Wi-Fi</string>
     <string name="upsell_negbtn">Più tardi</string>
     <string name="upsell_okbtn">"Esegui l'upgrade"</string>
+    <string name="v7_preference_off">OFF</string>
+    <string name="v7_preference_on">ON</string>
     <string name="verbalize_opened_edit">%1$s aperto con autorizzazioni di modifica.</string>
     <string name="version_too_old">"Spiacenti, questa versione di Google Drive non è più supportata. Esegui l'upgrade a una versione più recente."</string>
     <string name="version_too_old_close">Chiudi</string>
@@ -1662,8 +1657,9 @@ Puoi riattivare il backup andando a Impostazioni > Chat > Backup chat in WhatsAp
     <string name="warm_welcome_next_button">Avanti</string>
     <string name="warm_welcome_skip_button">Salta</string>
     <string name="warning_cannot_share_outside_domain">"Le impostazioni di questo Drive del team impediscono la condivisione all'esterno di %s"</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">"Le impostazioni di questo Drive del team impediscono la condivisione con i non membri e all'esterno di %s"</string>
     <string name="warning_cannot_share_outside_domain_org">"Le impostazioni dell'organizzazione impediscono la condivisione all'esterno dell'organizzazione"</string>
-    <string name="warning_cannot_share_outside_team_drive">"Le impostazioni di questo Drive del team impediscono la condivisione all'esterno del team."</string>
+    <string name="warning_cannot_share_outside_team_drive">Le impostazioni di questo Drive del team impediscono la condivisione con i non membri</string>
     <string name="welcome_button_close">Vai a Drive</string>
     <string name="welcome_button_continue">Avanti</string>
     <string name="welcome_offer_button_close">Chiudi</string>
@@ -1708,7 +1704,7 @@ Per riattivare il backup, vai a Impostazioni > Chat in WhatsApp."</string>
     <string name="zss_people_header_title">Persone</string>
     <string name="zss_showing_list_of_filters">Visualizzazione di un elenco di filtri disponibili.</string>
     <string name="zss_team_drive">Cerca in %1$s</string>
-    <string name="zss_type_archive">Archivio</string>
+    <string name="zss_type_archive">Archivia</string>
     <string name="zss_type_audio">Audio</string>
     <string name="zss_type_documents">Documenti di testo</string>
     <string name="zss_type_folder">Cartelle</string>

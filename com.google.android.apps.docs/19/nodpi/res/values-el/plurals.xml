@@ -146,6 +146,10 @@
         <item quantity="other">Δεν έχετε την άδεια να μετακινήσετε μερικά στοιχεία έξω από τον φάκελό τους.</item>
         <item quantity="one">Δεν έχετε την άδεια να μετακινήσετε αυτό το στοιχείο από αυτόν τον φάκελο.</item>
     </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">Δεν μπορείτε να μετακινήσετε αυτά τα αρχεία επειδή ο κάτοχος των αρχείων βρίσκεται εκτός του %1$s.</item>
+        <item quantity="one">Δεν μπορείτε να μετακινήσετε αυτό το αρχείο επειδή ο κάτοχος του αρχείου βρίσκεται εκτός του %1$s.</item>
+    </plurals>
     <plurals name="move_notice_granted_access_team_drive">
         <item quantity="other">%1$s Το Drive ομάδας \"%2$s\" έχει πλέον πρόσβαση σε αυτά.</item>
         <item quantity="one">%1$s Το \"%2$s\" έχει πλέον πρόσβαση σε αυτό.</item>
@@ -555,5 +559,6 @@
     <plurals name="view_workspace_files">
         <item quantity="other">Προβολή %1$d αρχείων</item>
         <item quantity="one">Προβολή %1$d αρχείου</item>
+        <item quantity="two">Προβολή %1$d αρχείων</item>
     </plurals>
 </resources>

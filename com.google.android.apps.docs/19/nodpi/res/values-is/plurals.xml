@@ -146,6 +146,10 @@
         <item quantity="other">Þú hefur ekki heimild til að færa sum atriði úr möppunni þar sem þau eru geymd.</item>
         <item quantity="one">Þú hefur ekki heimild til að færa þetta atriði úr möppunni þar sem það er geymt.</item>
     </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">Ekki er hægt að færa þessar skrár því að eigandi þeirra er utan %1$s.</item>
+        <item quantity="one">Ekki er hægt að færa skrána því að eigandi hennar er utan %1$s.</item>
+    </plurals>
     <plurals name="move_notice_granted_access_team_drive">
         <item quantity="other">%1$s „%2$s“ er nú með aðgang.</item>
         <item quantity="one">%1$s „%2$s“ er nú með aðgang.</item>
@@ -555,5 +559,6 @@
     <plurals name="view_workspace_files">
         <item quantity="other">Skoða %1$d skrár</item>
         <item quantity="one">Skoða %1$d skrá</item>
+        <item quantity="two">Skoða %1$d skrár</item>
     </plurals>
 </resources>

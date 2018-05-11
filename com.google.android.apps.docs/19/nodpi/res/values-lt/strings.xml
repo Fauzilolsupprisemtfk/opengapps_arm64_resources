@@ -640,7 +640,7 @@ Pabandykite įkelti failą."</string>
     <string name="empty_doclist_for_pinned_view">Nėra neprisijungus pasiekiamų failų.</string>
     <string name="empty_doclist_for_pinned_view_details">Failo parinkčių meniu padarykite failus „Pasiekiamus neprisijungus“</string>
     <string name="empty_doclist_for_recent_view">Nėra neseniai atidarytų ar redaguotų failų.</string>
-    <string name="empty_doclist_for_search_view">Nėra jokių rezultatų.</string>
+    <string name="empty_doclist_for_search_view">Nėra jokių rezultatų</string>
     <string name="empty_doclist_for_shared_with_me_view">Failai, kurie bendrinami su jumis, bus rodomi čia.</string>
     <string name="empty_doclist_for_starred_view">Neturite žvaigždute pažymėtų failų.</string>
     <string name="empty_doclist_for_starred_view_details">Failo parinkčių meniu palieskite žvaigždutės piktogramą, kad pridėtumėte jį prie šio sąrašo.</string>
@@ -686,6 +686,7 @@ Spustelėkite +, kad sukurtumėte naują piešinį."</string>
     <string name="error_start_client">"Neįmanoma įkelti daugiau failų iš  %1$s"</string>
     <string name="error_title">Klaida</string>
     <string name="error_video_not_available">Vaizdo įrašas neapdorotas. Vėliau bandykite dar kartą.</string>
+    <string name="expand_button_title">Išplėstinės</string>
     <string name="expires_future">Galiojimo laikas baigiasi %1$s</string>
     <string name="expires_today">Gal. l. baig. šiand.</string>
     <string name="fast_scroll_month_and_year_grouped">%2$d m. %1$s mėn.</string>
@@ -805,17 +806,8 @@ Spustelėkite +, kad sukurtumėte naują piešinį."</string>
     <string name="manage_accounts">Paskyrų tvarkymas</string>
     <string name="manage_members_default_members">Pagal numatyt. nustatymus nariai gali įkelti, redaguoti ir ištrinti failus bei pakviesti kitų narių</string>
     <string name="manage_members_dialog_title">Narių prieigos teisė</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Saugykla</string>
+    <string name="management_data_loading_failed">Nepavyko įkelti šio puslapio</string>
     <string name="manifest_app_projector">Projektorius</string>
     <string name="manifest_intent_view_pdf_drive">Disko PDF failų žiūryklė</string>
     <string name="media_player_error">Įvyko atkūrimo klaida</string>
@@ -1257,7 +1249,6 @@ jūsų failams"</string>
     <string name="published_access_anyone">Paskelbtą versiją gali peržiūrėti visi</string>
     <string name="published_access_domain">Visi domenui %s priklausantys žmonės gali peržiūrėti paskelbtą versiją</string>
     <string name="published_access_select_people">Paskelbtą versiją gali peržiūrėti konkretūs žmonės</string>
-    <string name="published_disabled_append">išjungta,</string>
     <string name="published_message_for_anyone_can_edit">Kadangi visi žmonės gali redaguoti, visi žmonės gali peržiūrėti paskelbtą versiją.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Kadangi visi domenui %1$s priklausantys žmonės gali redaguoti, visi %1$s domenui priklausantys žmonės gali peržiūrėti paskelbtą versiją.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Kadangi visi nuorodą turintys žmonės gali redaguoti, visi žmonės gali peržiūrėti paskelbtą versiją.</string>
@@ -1372,6 +1363,7 @@ jūsų failams"</string>
     <string name="selection_menu_overflow_content_desc">Daugiau pasirinktų elementų funkcijų</string>
     <string name="selection_menu_pin">Pas. neprisijungus</string>
     <string name="selection_menu_pin_content_desc">Padaryti pasirinktus elementus pasiekiamus neprisijungus</string>
+    <string name="selection_menu_pin_make_offline">Nustatyti kaip pasiekiamą neprisijungus</string>
     <string name="selection_menu_print">Spausdinti</string>
     <string name="selection_menu_print_content_desc">Spausdinti pasirinktą elementą</string>
     <string name="selection_menu_remove">Pašalinti</string>
@@ -1535,6 +1527,7 @@ jūsų failams"</string>
     <string name="suggest_pin_dialog_positive_button">Padaryti pasiek. neprisijungus</string>
     <string name="suggest_pin_dialog_title">Nėra ryšio</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, pasirinkta</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_account_help_card_button">KEISTI PASKYRĄ</string>
     <string name="switch_account_help_card_content">Šio įrenginio atsarginė kopija sukurta kitoje paskyroje. %s</string>
     <string name="switch_account_help_card_title">Atsarginė kopija kuriame kitoje paskyroje</string>
@@ -1638,6 +1631,8 @@ atsarginę kopiją galite vėl įjungti apsilankę skiltyje „Nustatymai“ > �
     <string name="upload_waiting_for_wifi">Laukiama „Wi–Fi“</string>
     <string name="upsell_negbtn">Vėliau</string>
     <string name="upsell_okbtn">Gauti daugiau vietos</string>
+    <string name="v7_preference_off">Išjungta</string>
+    <string name="v7_preference_on">Įjungta</string>
     <string name="verbalize_opened_edit">Atidarytas failas „%1$s“ su redagavimo leidimais.</string>
     <string name="version_too_old">Apgailestaujame, ši „Google“ disko versija nebepalaikoma. Naujovinkite į naujesnę versiją.</string>
     <string name="version_too_old_close">Uždaryti</string>
@@ -1650,8 +1645,9 @@ atsarginę kopiją galite vėl įjungti apsilankę skiltyje „Nustatymai“ > �
     <string name="warm_welcome_next_button">Kitas</string>
     <string name="warm_welcome_skip_button">Praleisti</string>
     <string name="warning_cannot_share_outside_domain">Pasirinkus šio Komandos Disko nustatymus nebus leidžiama bendrinti už domeno %s ribų</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Pasirinkus šio Komandos Disko nustatymus neleidžiama bendrinti su ne nariais ir domenui %s nepriklausančiais žmonėmis</string>
     <string name="warning_cannot_share_outside_domain_org">Pasirinkus organizacijos nustatymus neleidžiama bendrinti už organizacijos ribų</string>
-    <string name="warning_cannot_share_outside_team_drive">Pasirinkus šio Komandos Disko nustatymus nebus leidžiama bendrinti su komandai nepriklausančiais žmonėmis</string>
+    <string name="warning_cannot_share_outside_team_drive">Pasirinkus šio Komandos Disko nustatymus neleidžiama bendrinti su ne nariais</string>
     <string name="welcome_button_close">Eiti į Diską</string>
     <string name="welcome_button_continue">Kitas</string>
     <string name="welcome_offer_button_close">Uždaryti</string>
@@ -1696,7 +1692,7 @@ Norėdami vėl įjungti atsarginės kopijos kūrimą, eikite į dalį „Nustaty
     <string name="zss_people_header_title">Žmonės</string>
     <string name="zss_showing_list_of_filters">Rodomas pasiekiamų filtrų sąrašas.</string>
     <string name="zss_team_drive">Ieškoti Komandos Diske „%1$s“</string>
-    <string name="zss_type_archive">Archyvuoti</string>
+    <string name="zss_type_archive">Archyvas</string>
     <string name="zss_type_audio">Garso įrašas</string>
     <string name="zss_type_documents">Teksto dokumentai</string>
     <string name="zss_type_folder">Aplankai</string>

@@ -146,6 +146,10 @@
         <item quantity="other">Nemáte oprávnění k přesunutí některých položek z jejich složky.</item>
         <item quantity="one">Nemáte oprávnění k přesunutí této položky z její složky.</item>
     </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">Tyto soubory není možné přesunout, protože jeho vlastník je mimo doménu %1$s.</item>
+        <item quantity="one">Tento soubor není možné přesunout, protože jeho vlastník je mimo doménu %1$s.</item>
+    </plurals>
     <plurals name="move_notice_granted_access_team_drive">
         <item quantity="other">%1$s „%2$s“ má teď k položkám přístup.</item>
         <item quantity="one">%1$s „%2$s“ má teď přístup.</item>
@@ -555,5 +559,6 @@
     <plurals name="view_workspace_files">
         <item quantity="other">Zobrazit soubory (%1$d)</item>
         <item quantity="one">Zobrazit %1$d soubor</item>
+        <item quantity="two">Zobrazit soubory (%1$d)</item>
     </plurals>
 </resources>

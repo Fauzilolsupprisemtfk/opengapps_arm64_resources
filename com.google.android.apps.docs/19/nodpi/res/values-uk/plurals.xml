@@ -146,6 +146,10 @@
         <item quantity="other">У вас немає дозволу переміщувати деякі елементи з їх папки.</item>
         <item quantity="one">У вас немає дозволу переміщувати цей елемент із його папки.</item>
     </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">Ви не можете переміщувати ці файли, оскільки їх власник не є користувачем домену %1$s.</item>
+        <item quantity="one">Ви не можете переміщувати цей файл, оскільки його власник не є користувачем домену %1$s.</item>
+    </plurals>
     <plurals name="move_notice_granted_access_team_drive">
         <item quantity="other">%1$s Користувачі спільного Диска \"%2$s\" уже мають доступ.</item>
         <item quantity="one">%1$s Користувачі спільного Диска \"%2$s\" уже мають доступ.</item>
@@ -555,5 +559,6 @@
     <plurals name="view_workspace_files">
         <item quantity="other">Переглянути файли (%1$d)</item>
         <item quantity="one">Переглянути %1$d файл</item>
+        <item quantity="two">Переглянути файли (%1$d)</item>
     </plurals>
 </resources>

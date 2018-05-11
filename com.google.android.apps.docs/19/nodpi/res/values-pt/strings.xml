@@ -614,7 +614,7 @@ Faça upload de um arquivo."</string>
     <string name="empty_doclist_for_pinned_view">Nenhum arquivo disponível off-line.</string>
     <string name="empty_doclist_for_pinned_view_details">Torna os arquivos \"Disponíveis off-line\" no menu de opções do arquivo</string>
     <string name="empty_doclist_for_recent_view">Nenhum arquivo recentemente aberto ou editado.</string>
-    <string name="empty_doclist_for_search_view">Nenhum resultado.</string>
+    <string name="empty_doclist_for_search_view">Nenhum resultado</string>
     <string name="empty_doclist_for_shared_with_me_view">Os arquivos compartilhados com você serão exibidos aqui.</string>
     <string name="empty_doclist_for_starred_view">Nenhum arquivo com estrela.</string>
     <string name="empty_doclist_for_starred_view_details">Toque no ícone de estrela no menu de opções do arquivo para adicioná-lo a esta lista.</string>
@@ -660,6 +660,7 @@ Clique em \"+\" para criar um novo desenho."</string>
     <string name="error_start_client">"Não é possível carregar mais arquivos do  %1$s"</string>
     <string name="error_title">Erro</string>
     <string name="error_video_not_available">O vídeo não foi processado. Tente novamente mais tarde.</string>
+    <string name="expand_button_title">Avançado</string>
     <string name="expires_future">Expira em %1$s</string>
     <string name="expires_today">Expira hoje</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s de %2$d</string>
@@ -1093,8 +1094,8 @@ Clique em \"+\" para criar um novo desenho."</string>
     <string name="ouch_please_report">O app %1$s parou de funcionar inesperadamente. Informe esse problema para nos ajudar a determinar o que ocorreu.</string>
     <string name="ouch_title_sawwrie">Lamentamos.</string>
     <string name="overflow_button_content_description">Mais opções</string>
-    <string name="owner_not_user">Itens que não são propriedade de %1$s</string>
-    <string name="owner_user">Itens de propriedade de %1$s</string>
+    <string name="owner_not_user">Não pertencem a %1$s</string>
+    <string name="owner_user">Pertencem a %1$s</string>
     <string name="page_1_description">Você tem 15 GB de espaço gratuito para fotos, documentos e muito mais.</string>
     <string name="page_1_free_space_highlight">15 GB GRATUITOS</string>
     <string name="page_1_heading">"Um local seguro para
@@ -1230,7 +1231,6 @@ todos os seus arquivos"</string>
     <string name="published_access_anyone">Qualquer pessoa poderá ver quando o item for publicado</string>
     <string name="published_access_domain">Qualquer pessoa no domínio %s poderá ver quando o site for publicado</string>
     <string name="published_access_select_people">Pessoas específicas poderão ver quando o item for publicado</string>
-    <string name="published_disabled_append">desativado,</string>
     <string name="published_message_for_anyone_can_edit">Como qualquer pessoa pode editar, qualquer pessoa poderá ver quando o site for publicado.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Como qualquer pessoa no domínio %1$s pode editar, qualquer pessoa no domínio %1$s poderá ver quando o site for publicado.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Como qualquer pessoa com o link pode editar, qualquer pessoa poderá ver quando o site for publicado.</string>
@@ -1345,6 +1345,7 @@ todos os seus arquivos"</string>
     <string name="selection_menu_overflow_content_desc">Mais funções para itens selecionados</string>
     <string name="selection_menu_pin">Disponível off-line</string>
     <string name="selection_menu_pin_content_desc">Tornar os itens selecionados disponíveis off-line</string>
+    <string name="selection_menu_pin_make_offline">Disponibilizar off-line</string>
     <string name="selection_menu_print">Imprimir</string>
     <string name="selection_menu_print_content_desc">Imprimir o item selecionado</string>
     <string name="selection_menu_remove">Remover</string>
@@ -1508,6 +1509,7 @@ todos os seus arquivos"</string>
     <string name="suggest_pin_dialog_positive_button">Tornar disponível off-line</string>
     <string name="suggest_pin_dialog_title">Sem conexão</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, selecionado</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_account_help_card_button">ALTERAR CONTA</string>
     <string name="switch_account_help_card_content">O backup deste dispositivo está em outra conta. %s</string>
     <string name="switch_account_help_card_title">Fazer backup para outra conta</string>
@@ -1611,6 +1613,8 @@ Para reativar o backup, acesse \"Configurações\" > \"Conversas\" > \"Backup de
     <string name="upload_waiting_for_wifi">Aguardando Wi-Fi</string>
     <string name="upsell_negbtn">Mais tarde</string>
     <string name="upsell_okbtn">Fazer upgrade</string>
+    <string name="v7_preference_off">DESATIVADO</string>
+    <string name="v7_preference_on">ATIVADO</string>
     <string name="verbalize_opened_edit">%1$s aberto com permissões de edição.</string>
     <string name="version_too_old">Esta versão do Google Drive não é mais compatível. Faça o upgrade para uma versão mais recente.</string>
     <string name="version_too_old_close">Fechar</string>
@@ -1623,8 +1627,9 @@ Para reativar o backup, acesse \"Configurações\" > \"Conversas\" > \"Backup de
     <string name="warm_welcome_next_button">Próxima</string>
     <string name="warm_welcome_skip_button">Pular</string>
     <string name="warning_cannot_share_outside_domain">As configurações deste Drive de equipe impedem o compartilhamento fora do domínio %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">As configurações deste Drive de equipe impedem o compartilhamento fora do domínio %s e com pessoas que não são membros</string>
     <string name="warning_cannot_share_outside_domain_org">As configurações da organização impedem o compartilhamento fora da organização</string>
-    <string name="warning_cannot_share_outside_team_drive">As configurações deste Drive de equipe impedem o compartilhamento fora da equipe</string>
+    <string name="warning_cannot_share_outside_team_drive">As configurações deste Drive de equipe impedem o compartilhamento com pessoas que não são membros</string>
     <string name="welcome_button_close">Ir para o Drive</string>
     <string name="welcome_button_continue">Próxima</string>
     <string name="welcome_offer_button_close">Fechar</string>
@@ -1655,20 +1660,20 @@ Para ativar o backup novamente, acesse \"Configurações\" > \"Conversas\" no Wh
     <string name="widget_upload">Fazer upload</string>
     <string name="write_access_denied">O acesso de gravação ao documento foi negado.</string>
     <string name="zss_accessibility_searching">Pesquisando %1$s</string>
-    <string name="zss_date_range_header_title">Data de modificação</string>
+    <string name="zss_date_range_header_title">Data da modificação</string>
     <string name="zss_date_range_month">Últimos 30 dias</string>
     <string name="zss_date_range_three_month">Últimos 90 dias</string>
     <string name="zss_date_range_today">Hoje</string>
-    <string name="zss_date_range_week">Últimos 7 dias</string>
+    <string name="zss_date_range_week">Últimos sete dias</string>
     <string name="zss_date_range_yesterday">Ontem</string>
     <string name="zss_entry_types_header_title">Tipos de arquivo</string>
     <string name="zss_no_filters">Nenhum filtro</string>
-    <string name="zss_owner_header_title">Proprietário:</string>
+    <string name="zss_owner_header_title">Pertencem a</string>
     <string name="zss_owner_me">Pertencem a mim</string>
     <string name="zss_owner_not_me">Não pertencem a mim</string>
     <string name="zss_people_header_title">Pessoas</string>
     <string name="zss_showing_list_of_filters">Mostrando a lista dos filtros disponíveis.</string>
-    <string name="zss_team_drive">Pesquisar no %1$s</string>
+    <string name="zss_team_drive">Pesquisar no Drive de equipe %1$s</string>
     <string name="zss_type_archive">Arquivo</string>
     <string name="zss_type_audio">Áudio</string>
     <string name="zss_type_documents">Documentos de texto</string>

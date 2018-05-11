@@ -146,6 +146,10 @@
         <item quantity="other">Sie sind nicht berechtigt, einige Elemente aus ihrem Ordner zu verschieben.</item>
         <item quantity="one">Sie sind nicht berechtigt, dieses Element aus seinem Ordner zu verschieben.</item>
     </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">Diese Dateien lassen sich nicht verschieben, da sich der Dateieigentümer außerhalb von %1$s befindet.</item>
+        <item quantity="one">Diese Datei lässt sich nicht verschieben, da sich der Dateieigentümer außerhalb von %1$s befindet.</item>
+    </plurals>
     <plurals name="move_notice_granted_access_team_drive">
         <item quantity="other">%1$s \"%2$s\" hat jetzt Zugriff darauf.</item>
         <item quantity="one">%1$s \"%2$s\" hat jetzt Zugriff darauf.</item>
@@ -555,5 +559,6 @@
     <plurals name="view_workspace_files">
         <item quantity="other">%1$d Datei(en) anzeigen</item>
         <item quantity="one">%1$d Datei(en) anzeigen</item>
+        <item quantity="two">%1$d Datei(en) anzeigen</item>
     </plurals>
 </resources>

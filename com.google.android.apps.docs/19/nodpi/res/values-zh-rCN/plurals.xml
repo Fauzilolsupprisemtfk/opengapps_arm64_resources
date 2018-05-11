@@ -146,6 +146,10 @@
         <item quantity="other">您无权将某些内容移出其所在文件夹。</item>
         <item quantity="one">您无权将此项内容移出其所在文件夹。</item>
     </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">您无法移动这些文件，因为文件所有者不在 %1$s 中。</item>
+        <item quantity="one">您无法移动此文件，因为文件所有者不在 %1$s 中。</item>
+    </plurals>
     <plurals name="move_notice_granted_access_team_drive">
         <item quantity="other">%1$s“%2$s”现在可以访问这些内容了。</item>
         <item quantity="one">%1$s“%2$s”现在可以访问此内容了。</item>
@@ -555,5 +559,6 @@
     <plurals name="view_workspace_files">
         <item quantity="other">查看 %1$d 个文件</item>
         <item quantity="one">查看 %1$d 个文件</item>
+        <item quantity="two">查看 %1$d 个文件</item>
     </plurals>
 </resources>

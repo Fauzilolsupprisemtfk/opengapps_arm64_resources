@@ -146,6 +146,10 @@
         <item quantity="other">Je hebt geen rechten om sommige items uit hun map te verplaatsen.</item>
         <item quantity="one">Je hebt geen rechten om dit item uit zijn map te verplaatsen.</item>
     </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">Je kunt deze bestanden niet verplaatsen omdat de bestandseigenaar niet tot %1$s behoort.</item>
+        <item quantity="one">Je kunt dit bestand niet verplaatsen omdat de bestandseigenaar niet tot %1$s behoort.</item>
+    </plurals>
     <plurals name="move_notice_granted_access_team_drive">
         <item quantity="other">%1$s%2$s heeft nu toegang.</item>
         <item quantity="one">%1$s%2$s heeft nu toegang.</item>
@@ -555,5 +559,6 @@
     <plurals name="view_workspace_files">
         <item quantity="other">%1$d bestanden bekijken</item>
         <item quantity="one">%1$d bestand bekijken</item>
+        <item quantity="two">%1$d bestanden bekijken</item>
     </plurals>
 </resources>

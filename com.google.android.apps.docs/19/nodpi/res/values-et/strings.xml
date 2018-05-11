@@ -630,7 +630,7 @@ Proovige fail üles laadida."</string>
     <string name="empty_doclist_for_pinned_view">Ükski fail ei ole võrguühenduseta saadaval.</string>
     <string name="empty_doclist_for_pinned_view_details">Saate teha failid võrguühenduseta saadavaks faili valikute menüüs</string>
     <string name="empty_doclist_for_recent_view">Pole ühtegi hiljuti avatud või muudetud faili.</string>
-    <string name="empty_doclist_for_search_view">Tulemusi ei ole.</string>
+    <string name="empty_doclist_for_search_view">Tulemusi ei ole</string>
     <string name="empty_doclist_for_shared_with_me_view">Teiega jagatud failid kuvatakse siin.</string>
     <string name="empty_doclist_for_starred_view">Teil pole tärniga tähistatud faile.</string>
     <string name="empty_doclist_for_starred_view_details">Puudutage faili valikute menüüs tärniikooni, et see antud loendisse lisada.</string>
@@ -676,6 +676,7 @@ Uue joonise loomiseks klõpsake nupul +."</string>
     <string name="error_start_client">"Rakendusest  %1$s ei saa rohkem faile laadida"</string>
     <string name="error_title">Viga</string>
     <string name="error_video_not_available">Videot pole töödeldud. Proovige hiljem uuesti.</string>
+    <string name="expand_button_title">Täpsemad</string>
     <string name="expires_future">Aegub %1$s</string>
     <string name="expires_today">Aegub täna</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
@@ -793,17 +794,8 @@ Uue joonise loomiseks klõpsake nupul +."</string>
     <string name="location_removed_entry_content_description_unclickable">Eemaldati kaustast %1$s.</string>
     <string name="manage_members_default_members">Vaikimisi saavad liikmed faile üles laadida, muuta ja kustutada ning teisi liikmeid kutsuda</string>
     <string name="manage_members_dialog_title">Liikmete load</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Salvestusruum</string>
+    <string name="management_data_loading_failed">Seda lehte ei saa laadida</string>
     <string name="manifest_app_projector">Projector</string>
     <string name="manifest_intent_view_pdf_drive">Drive PDF Viewer</string>
     <string name="media_player_error">Tekkis taasesitusviga</string>
@@ -1244,7 +1236,6 @@ teie failidele"</string>
     <string name="published_access_anyone">Igaüks saab vaadata, kui on avaldatud</string>
     <string name="published_access_domain">Igaüks domeenis %s saab vaadata, kui on avaldatud</string>
     <string name="published_access_select_people">Kindlad inimesed saavad vaadata, kui on avaldatud</string>
-    <string name="published_disabled_append">keelatud,</string>
     <string name="published_message_for_anyone_can_edit">Kuna igaüks saab muuta, saab igaüks vaadata, kui on avaldatud.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Kuna igaüks domeenis %1$s saab muuta, saab igaüks domeenis %1$s vaadata, kui on avaldatud.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Kuna igaüks, kellel on link, saab muuta, saab igaüks vaadata, kui on avaldatud.</string>
@@ -1358,6 +1349,7 @@ teie failidele"</string>
     <string name="selection_menu_overflow_content_desc">Rohkem funktsioone valitud üksuste jaoks</string>
     <string name="selection_menu_pin">Saadaval võrguüh.-ta</string>
     <string name="selection_menu_pin_content_desc">Tee valitud üksused võrguühenduseta saadavaks</string>
+    <string name="selection_menu_pin_make_offline">Tee võrguühenduseta kättesaadavaks</string>
     <string name="selection_menu_print">Prindi</string>
     <string name="selection_menu_print_content_desc">Valitud üksuse printimine</string>
     <string name="selection_menu_remove">Eemalda</string>
@@ -1519,6 +1511,7 @@ teie failidele"</string>
     <string name="suggest_pin_dialog_positive_button">Tee võrguühenduseta saadavaks</string>
     <string name="suggest_pin_dialog_title">Ühendus puudub</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, valitud</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_account_help_card_button">MUUDA KONTOT</string>
     <string name="switch_account_help_card_content">Seda seadet varundatakse teisele kontole. %s</string>
     <string name="switch_account_help_card_title">Varundamine teisele kontole</string>
@@ -1622,6 +1615,8 @@ Saate varunduse uuesti sisse lülitada, avades Seaded > Vestlused > Vestluste va
     <string name="upload_waiting_for_wifi">WiFi-ühenduse ootel</string>
     <string name="upsell_negbtn">Hiljem</string>
     <string name="upsell_okbtn">Täienda</string>
+    <string name="v7_preference_off">VÄLJAS</string>
+    <string name="v7_preference_on">SEES</string>
     <string name="verbalize_opened_edit">%1$s avati muutmislubadega.</string>
     <string name="version_too_old">"Kahjuks seda Google Drive'i versiooni enam ei toetata. Minge üle uuemale versioonile."</string>
     <string name="version_too_old_close">Sule</string>
@@ -1634,8 +1629,9 @@ Saate varunduse uuesti sisse lülitada, avades Seaded > Vestlused > Vestluste va
     <string name="warm_welcome_next_button">Järgmine</string>
     <string name="warm_welcome_skip_button">Jäta vahele</string>
     <string name="warning_cannot_share_outside_domain">Selle tiimiketta seaded takistavad väljaspool domeeni %s jagamist</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Selle tiimiketta seaded takistavad mitteliikmetega ja väljaspool domeeni %s jagamist</string>
     <string name="warning_cannot_share_outside_domain_org">Organisatsiooni seaded takistavad väljaspool organisatsiooni jagamist</string>
-    <string name="warning_cannot_share_outside_team_drive">Selle tiimiketta seaded takistavad väljaspool tiimi jagamist</string>
+    <string name="warning_cannot_share_outside_team_drive">Selle tiimiketta seaded takistavad mitteliikmetega jagamist</string>
     <string name="welcome_button_close">Ava Drive</string>
     <string name="welcome_button_continue">Järgmine</string>
     <string name="welcome_offer_button_close">Sule</string>
@@ -1666,7 +1662,7 @@ Varundamise uuesti sisselülitamiseks avage Seaded > Vestlused WhatsAppis."</str
     <string name="widget_upload">Laadi üles</string>
     <string name="write_access_denied">Dokumendi kirjutuspääs on keelatud.</string>
     <string name="zss_accessibility_searching">Päringu %1$s otsimine</string>
-    <string name="zss_date_range_header_title">Muutmise kuupäev</string>
+    <string name="zss_date_range_header_title">Muutmiskuupäev</string>
     <string name="zss_date_range_month">Viimased 30 päeva</string>
     <string name="zss_date_range_three_month">Viimased 90 päeva</string>
     <string name="zss_date_range_today">Täna</string>
