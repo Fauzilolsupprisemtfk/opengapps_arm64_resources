@@ -475,6 +475,7 @@ Mainot šī lietotāja lomu, tiks atjaunota tā pastāvīgā piekļuve."</string
     <string name="dialog_td_will_disappear">Šis komandas disks vairs nebūs redzams nevienam lietotājam, un jūs šo darbību nevarēsit atsaukt.</string>
     <string name="dialog_td_will_disappear_files_in_trash">Faili no šī komandas diska atrodas diska %1$s atkritnē, un neviens lietotājs nevarēs tos atjaunot. Šis komandas disks vairs nebūs redzams nevienam lietotājam, un jūs šo darbību nevarēsit atsaukt.</string>
     <string name="did_you_mean">Vai domājāt: %1$s</string>
+    <string name="disabled_append">atspējots,</string>
     <string name="discussion_accept">Apstiprināt</string>
     <string name="discussion_acl_fix_access_role_commenter">Var komentēt</string>
     <string name="discussion_acl_fix_access_role_writer">Var rediģēt</string>
@@ -585,11 +586,11 @@ Mainot šī lietotāja lomu, tiks atjaunota tā pastāvīgā piekļuve."</string
     <string name="doclist_date_never_label">Nekad</string>
     <string name="doclist_date_opened_label">Es atvēru: %s</string>
     <string name="doclist_date_shared_label">Kopīgots: %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s · %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s · %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">Es augšupielādēju: %s</string>
     <string name="doclist_detail_fragment_content_description">Rādīt vienuma rekvizītus</string>
-    <string name="doclist_entry_content_description" formatted="false">%s %s</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s %s krāsa:%s</string>
+    <string name="doclist_entry_content_description">%1$s %2$s</string>
+    <string name="doclist_entry_content_description_with_color">%1$s %2$s krāsa:%3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">Atvērt navigācijas atvilktni</string>
     <string name="doclist_quota_used_label">Izmantotā krātuve: %s</string>
     <string name="doclist_selected_show_preview">Rādīt priekšskatījumu</string>
@@ -679,6 +680,8 @@ Mainot šī lietotāja lomu, tiks atjaunota tā pastāvīgā piekļuve."</string
     <string name="draft_options_dialog_title">Melnraksta vietnes iestatījumi</string>
     <string name="draft_permission_change_anyone_warning">Mainot uz šo melnraksta vietnes iestatījumu, pēc publicēšanas tā būs redzama visiem.</string>
     <string name="draft_permission_change_domain_warning">Mainot uz šo melnraksta vietnes iestatījumu, pēc publicēšanas tā būs redzama visiem domēna %s lietotājiem.</string>
+    <string name="draft_permission_downgrade_domain_warning">Ja mainīsit šo melnraksta vietnes iestatījumu, publicētā saite būs redzama tikai domēna %1$s lietotājiem</string>
+    <string name="draft_permission_downgrade_specific_warning">Ja mainīsit šo melnraksta vietnes iestatījumu, publicētā saite būs redzama tikai konkrētām personām</string>
     <string name="drive_file_stream_disabled">Neļaut lietotājiem atvērt šī komandas diska failus, izm. Diska failu straumi vai līdzīgas programmas</string>
     <string name="drive_file_stream_enabled">Atļaut lietotājiem atvērt šī komandas diska failus, izm. Diska failu straumi vai līdzīgas programmas</string>
     <string name="drive_file_stream_title">Diska failu straume</string>
@@ -721,7 +724,7 @@ Mēģiniet augšupielādēt kādu failu."</string>
     <string name="empty_doclist_for_pinned_view_details">Faila iespēju izvēlnē atzīmējiet failus kā \"Pieejami bezsaistē\"</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Faila izvēlnē pieskarieties iespējai \"Pieejams bezsaistē\", lai turpinātu ar to strādāt bezsaistē.</string>
     <string name="empty_doclist_for_recent_view">Nav nesen atvērtu vai rediģētu failu.</string>
-    <string name="empty_doclist_for_search_view">Nav rezultātu.</string>
+    <string name="empty_doclist_for_search_view">Nav rezultātu</string>
     <string name="empty_doclist_for_shared_with_me_view">Šeit tiks parādīti ar jums kopīgotie faili.</string>
     <string name="empty_doclist_for_starred_view">Nav neviena ar zvaigznīti atzīmēta faila.</string>
     <string name="empty_doclist_for_starred_view_details">Pieskarieties zvaigznītes ikonai faila opciju izvēlnē, lai pievienotu to šim sarakstam.</string>
@@ -772,14 +775,15 @@ Noklikšķiniet uz +, lai izveidotu jaunu prezentāciju."</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d citi.</string>
     <string name="exit_multiselect_mode_button">Iziet no vairāku objektu atlases režīma</string>
+    <string name="expand_button_title">Papildu</string>
     <string name="expires_future">Derīguma termiņš: %1$s</string>
     <string name="expires_today">Derīguma termiņš beidzas šodien</string>
     <string name="export_download_error_title">Lejupielādes kļūda</string>
     <string name="export_error_message">Radās kļūda.</string>
     <string name="export_error_message_network">Radās pārraides kļūda. Lūdzu, pārbaudiet tīkla savienojumu.</string>
     <string name="export_error_message_server">Radās konvertēšanas kļūda. Lūdzu, mēģiniet vēlāk vēlreiz!</string>
-    <string name="export_failure_notification_content">Nevarēja saglabāt failu “%1$s”.</string>
-    <string name="export_notification_content">Notiek faila “%1$s” saglabāšana...</string>
+    <string name="export_failure_notification_content">Nevarēja saglabāt failu \"%1$s\"</string>
+    <string name="export_notification_content">Notiek faila “%1$s” saglabāšana…</string>
     <string name="exporting_start_msg">Notiek sagatavošana eksportēšanai...</string>
     <string name="fab_choose_template">Izvēlēties veidni</string>
     <string name="fab_google_document">Jauns Prezentāciju fails</string>
@@ -788,6 +792,11 @@ Noklikšķiniet uz +, lai izveidotu jaunu prezentāciju."</string>
     <string name="fab_office_document">Jauns Powerpoint fails</string>
     <string name="fast_scroll_month_and_year_grouped">%2$d. gada %1$s</string>
     <string name="fast_scroll_search_result_grouper">Meklēšanas rezultāti</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Vecāks</string>
     <string name="fast_scroll_time_grouper_last_week">Pagājušajā nedēļā</string>
     <string name="fast_scroll_time_grouper_this_month">Iepriekš šajā mēnesī</string>
@@ -816,7 +825,7 @@ Noklikšķiniet uz +, lai izveidotu jaunu prezentāciju."</string>
     <string name="file_picker_select_a_folder_heading">Atlasīt mapi</string>
     <string name="file_picker_select_button">Atlasīt</string>
     <string name="file_picker_storage_permissions_denied_toast">Atļauja piekļūt lokālajai krātuvei netika piešķirta.</string>
-    <string name="file_too_large_for_upload" formatted="false">Failu “%1s” nevar augšupielādēt Google diskā, jo fails ir pārāk liels (%2s). Šāda veida failu lieluma ierobežojums ir %3s. Iespējams, šo failu varēsiet augšupielādēt, nepārveidojot to Google diska formātā.</string>
+    <string name="file_too_large_for_upload">Failu “%1$s” nevar augšupielādēt Google diskā, jo fails ir pārāk liels (%2$s). Šāda veida failu lieluma ierobežojums ir %3$s. Iespējams, šo failu varēsiet augšupielādēt, nepārveidojot to Google diska formātā.</string>
     <string name="file_too_large_for_upload_okbtn">LABI</string>
     <string name="file_too_large_for_upload_title">Nevar augšupielādēt</string>
     <string name="file_was_not_sent">Fails nav koplietots.</string>
@@ -980,17 +989,8 @@ Noklikšķiniet uz +, lai izveidotu jaunu prezentāciju."</string>
     <string name="manage_addons_playstore_link_description">Dodieties uz Play veikalu, lai iegūtu %s</string>
     <string name="manage_members_default_members">Pēc noklusējuma dalībnieki var augšupielādēt/rediģēt/dzēst failus un uzaicināt citus dalībniekus</string>
     <string name="manage_members_dialog_title">Dalībnieku piekļuve</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Krātuve</string>
+    <string name="management_data_loading_failed">Šo lapu nevar ielādēt</string>
     <string name="member_count_max">99+</string>
     <string name="menu_backup">Dublējumi</string>
     <string name="menu_copy_link">Kopēt saiti</string>
@@ -1094,22 +1094,21 @@ Noklikšķiniet uz +, lai izveidotu jaunu prezentāciju."</string>
     <string name="move_error_target_folder_not_exist">Mērķa mape nepastāv.</string>
     <string name="move_notice_lost_access_shared_folders">Vienumi ir pārvietoti no kopīgotās mapes.</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s Diska %2$s lietotāji ir zaudējuši piekļuvi.</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">1 vienums ir noņemts no komandas diska.</string>
     <string name="move_notice_lost_access_team_drives">Vienumi ir noņemti no komandas diska.</string>
-    <string name="mr_cast_button_connected">Apraides poga. Savienojums izveidots</string>
-    <string name="mr_cast_button_connecting">Apraides poga. Notiek savienojuma izveide</string>
-    <string name="mr_cast_button_disconnected">Apraides poga. Savienojums pārtraukts</string>
-    <string name="mr_chooser_searching">Notiek ierīču meklēšana</string>
-    <string name="mr_chooser_title">Apraidīšana uz ierīci</string>
+    <string name="mr_cast_button_connected">Apraides poga. Savienojums izveidots.</string>
+    <string name="mr_cast_button_connecting">Apraides poga. Notiek savienojuma izveide.</string>
+    <string name="mr_cast_button_disconnected">Apraides poga. Savienojums pārtraukts.</string>
+    <string name="mr_chooser_searching">Ierīču meklēšana</string>
+    <string name="mr_chooser_title">Apraides veikšana uz ierīci</string>
     <string name="mr_controller_album_art">Albuma vāciņš</string>
     <string name="mr_controller_casting_screen">Notiek ekrāna apraide</string>
     <string name="mr_controller_close_description">Aizvērt</string>
     <string name="mr_controller_collapse_group">Sakļaut</string>
     <string name="mr_controller_disconnect">Atvienot</string>
     <string name="mr_controller_expand_group">Izvērst</string>
-    <string name="mr_controller_no_info_available">Nav pieejama informācija</string>
-    <string name="mr_controller_no_media_selected">Nav atlasīti multivides faili</string>
-    <string name="mr_controller_pause">Apturēt</string>
+    <string name="mr_controller_no_info_available">Nav informācijas</string>
+    <string name="mr_controller_no_media_selected">Nav atlasīts multivides saturs</string>
+    <string name="mr_controller_pause">Pauzēt</string>
     <string name="mr_controller_play">Atskaņot</string>
     <string name="mr_controller_stop">Apturēt</string>
     <string name="mr_controller_stop_casting">Apturēt apraidi</string>
@@ -1149,7 +1148,7 @@ Noklikšķiniet uz +, lai izveidotu jaunu prezentāciju."</string>
     <string name="no_scheduled_meetings">Nav ieplānotu sapulču</string>
     <string name="no_team_drives_title">Nav komandas disku</string>
     <string name="no_thanks">Nē, paldies</string>
-    <string name="not_enough_storage_for_upload" formatted="false">Fails %1s ir par lielu, lai to augšupielādētu Google diskā. Tā lielums ir %2s, bet jūsu krātuvē ir pieejami tikai %3s. Lūdzu, jauniniet savu krātuvi un mēģiniet vēlreiz.</string>
+    <string name="not_enough_storage_for_upload">Fails %1$s ir par lielu, lai to augšupielādētu Google diskā. Tā lielums ir %2$s, bet jūsu krātuvē ir pieejami tikai %3$s. Lūdzu, jauniniet savu krātuvi un mēģiniet vēlreiz.</string>
     <string name="notification_channel_name_default">Noklusējums</string>
     <string name="notification_channel_name_high_priority">Augsta prioritāte</string>
     <string name="notification_channel_name_low_priority">Zema prioritāte</string>
@@ -1432,7 +1431,6 @@ Noklikšķiniet uz +, lai izveidotu jaunu prezentāciju."</string>
     <string name="published_access_anyone">Pēc publicēšanas var skatīt visi</string>
     <string name="published_access_domain">Pēc publicēšanas var skatīt ikviens domēna %s lietotājs</string>
     <string name="published_access_select_people">Pēc publicēšanas var skatīt konkrētas personas</string>
-    <string name="published_disabled_append">atspējots,</string>
     <string name="published_message_for_anyone_can_edit">Tā kā ikviens var rediģēt, pēc publicēšanas varēs skatīt ikviens.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Tā kā ikviens domēna %1$s lietotājs var rediģēt, ikviens domēna %1$s lietotājs var skatīt publicēto.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Tā kā ikviens, kam ir saite, var rediģēt, pēc publicēšanas varēs skatīt ikviens.</string>
@@ -1546,7 +1544,7 @@ Noklikšķiniet uz +, lai izveidotu jaunu prezentāciju."</string>
     <string name="punch_show_slide">Rādīt slaidu</string>
     <string name="punch_speaker_notes_title">Runātāja piezīmes</string>
     <string name="punch_speakernotes_closed">Runātāja piezīmes ir aizvērtas.</string>
-    <string name="punch_thor_invite_email_body" formatted="false">Piekļuves informācija:&lt;br> %s &lt;br> %s PIN:%s</string>
+    <string name="punch_thor_invite_email_body">Piekļuves informācija:&lt;br> %1$s &lt;br> %2$s PIN:%3$s</string>
     <string name="punctuation_period">,</string>
     <string name="purchase_dialog_how_storage_used">Krātuvi koplieto pakalpojumi Gmail, Google fotoattēli un Google disks</string>
     <string name="purchase_dialog_manage">Pārvaldīt krātuvi</string>
@@ -2006,6 +2004,7 @@ Noklikšķiniet uz +, lai izveidotu jaunu prezentāciju."</string>
     <string name="suggestions_add_to_dictionary">Pievienot vārdnīcai</string>
     <string name="suggestions_delete_text">Dzēst</string>
     <string name="suggestions_popup_opened">Pareizrakstības ieteikumi</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Google prezentāciju sinhronizācijas kļūda</string>
     <string name="sync_more_error">Izgūstot papildu vienumus, radās kļūda.</string>
     <string name="sync_more_error_offline">Daži dokumenti var nebūt redzami bezsaistē.</string>
@@ -2038,7 +2037,7 @@ Noklikšķiniet uz +, lai izveidotu jaunu prezentāciju."</string>
     <string name="team_drive_empty_list_message_cannot_create">Kad kāds jūs pievienos komandas diskam, tas tiks parādīts šeit.</string>
     <string name="team_drive_settings_title">Iestatījumi</string>
     <string name="team_drive_trash_welcome_snackbar">Komandu disku atkritnē esošie vienumi tiks neatgriezeniski dzēsti pēc 30 dienām</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">%1$s, virsraksts</string>
     <string name="template_category_education">Izglītība</string>
     <string name="template_category_personal">Privātās</string>
@@ -2112,6 +2111,8 @@ Noklikšķiniet uz +, lai izveidotu jaunu prezentāciju."</string>
     <string name="unable_to_open_local_document_message">Iespējams, fails ir pārvietots vai izdzēsts.</string>
     <string name="unable_to_open_local_document_title">Nevar atvērt ierīcē saglabāto failu</string>
     <string name="unable_to_read_calendar_data">Kalendārā nevar meklēt vaicājumu.</string>
+    <string name="unable_update_published_message">Publicētās vietnes iestatījumu nevar mainīt, iekams nav atjaunināts melnraksta saites iestatījums.</string>
+    <string name="unable_update_published_title">Nevar atjaunināt iestatījumu</string>
     <string name="undeliverable_acl_changed_dialog_title">Vai izdzēst izmaiņas un atjaunot dokumenta iepriekšējo versiju?</string>
     <string name="undeliverable_changes_dialog_content">Bezsaistē veiktās izmaiņas var tikt zaudētas. Pārliecinieties, ka esat tās nokopējis starpliktuvē.</string>
     <string name="undeliverable_changes_dialog_title">Vai izdzēst problemātiskās izmaiņas un atjaunot iepriekšējo dokumenta versiju?</string>
@@ -2214,6 +2215,8 @@ Noklikšķiniet uz +, lai izveidotu jaunu prezentāciju."</string>
     <string name="upsell_negbtn">Vēlāk</string>
     <string name="upsell_okbtn">Jaunināt</string>
     <string name="url_typo_error_msg">Šķiet, ka saite nav pareiza. Vai tā ir pārrakstīšanās kļūda?</string>
+    <string name="v7_preference_off">IZSLĒGTS</string>
+    <string name="v7_preference_on">IESLĒGTS</string>
     <string name="verbalize_bulleted_list">aizzīme. %1$s</string>
     <string name="verbalize_numbered_list">%1$s. %2$s</string>
     <string name="verbalize_opened_edit">Fails %1$s ir atvērts ar rediģēšanas atļauju.</string>
@@ -2244,8 +2247,9 @@ Noklikšķiniet uz +, lai izveidotu jaunu prezentāciju."</string>
     <string name="warm_welcome_next_button">Tālāk</string>
     <string name="warm_welcome_skip_button">Izlaist</string>
     <string name="warning_cannot_share_outside_domain">Šī komandas diska iestatījumi neļauj kopīgot saturu ārpus domēna %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Šī komandas diska iestatījumi neļauj kopīgot saturu ar lietotājiem, kas nav dalībnieki, un ir ārpus domēna %s.</string>
     <string name="warning_cannot_share_outside_domain_org">Organizācijas iestatījumi neļauj kopīgot saturu ārpus organizācijas</string>
-    <string name="warning_cannot_share_outside_team_drive">Šī komandas diska iestatījumi neļauj kopīgot saturu ārpus komandas</string>
+    <string name="warning_cannot_share_outside_team_drive">Šī komandas diska iestatījumi neļauj kopīgot saturu ar lietotājiem, kas nav dalībnieki.</string>
     <string name="welcome_button_close">Uz Prezentācijām</string>
     <string name="welcome_button_continue">Tālāk</string>
     <string name="welcome_offer_button_close">Aizvērt</string>
@@ -2264,22 +2268,22 @@ Noklikšķiniet uz +, lai izveidotu jaunu prezentāciju."</string>
     <string name="write_access_denied">Rakstīšana dokumentā ir liegta.</string>
     <string name="zss_accessibility_searching">Notiek %1$s meklēšana</string>
     <string name="zss_date_range_header_title">Labošanas datums</string>
-    <string name="zss_date_range_month">Pēdējās 30 dienas</string>
-    <string name="zss_date_range_three_month">Pēdējās 90 dienas</string>
+    <string name="zss_date_range_month">Pēdējās 30 dienas</string>
+    <string name="zss_date_range_three_month">Pēdējās 90 dienas</string>
     <string name="zss_date_range_today">Šodien</string>
-    <string name="zss_date_range_week">Pēdējās 7 dienas</string>
+    <string name="zss_date_range_week">Pēdējās 7 dienas</string>
     <string name="zss_date_range_yesterday">Vakar</string>
     <string name="zss_entry_types_header_title">Failu veidi</string>
     <string name="zss_no_filters">Nav filtru</string>
-    <string name="zss_owner_header_title">Pieder lietotājam</string>
+    <string name="zss_owner_header_title">Pieder:</string>
     <string name="zss_owner_me">Pieder man</string>
     <string name="zss_owner_not_me">Nepieder man</string>
     <string name="zss_people_header_title">Personas</string>
     <string name="zss_showing_list_of_filters">Tiek rādīts pieejamo filtru saraksts.</string>
     <string name="zss_team_drive">Meklēt diskā %1$s</string>
-    <string name="zss_type_archive">Arhīvs</string>
-    <string name="zss_type_audio">Audio</string>
-    <string name="zss_type_documents">Teksta dokumentus</string>
+    <string name="zss_type_archive">Arhīvi</string>
+    <string name="zss_type_audio">Audio faili</string>
+    <string name="zss_type_documents">Teksta dokumenti</string>
     <string name="zss_type_folder">Mapes</string>
     <string name="zss_type_images">Fotoattēli un attēli</string>
     <string name="zss_type_pdfs">PDF faili</string>

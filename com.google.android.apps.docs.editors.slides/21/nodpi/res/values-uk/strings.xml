@@ -475,6 +475,7 @@
     <string name="dialog_td_will_disappear">Спільний Диск буде видалено в усіх, хто мав до нього доступ, і ви не зможете відмінити цю дію.</string>
     <string name="dialog_td_will_disappear_files_in_trash">Файли зі спільного Диска \"%1$s\" переміщено в кошик, і їх не можна буде відновити. Цей спільний Диск буде видалено в усіх, хто мав до нього доступ, і ви не зможете відмінити цю дію.</string>
     <string name="did_you_mean">Можливо, ви мали на увазі: %1$s</string>
+    <string name="disabled_append">вимкнено,</string>
     <string name="discussion_accept">Прийняти</string>
     <string name="discussion_acl_fix_access_role_commenter">Може коментувати</string>
     <string name="discussion_acl_fix_access_role_writer">Може редагувати</string>
@@ -585,11 +586,11 @@
     <string name="doclist_date_never_label">Ніколи</string>
     <string name="doclist_date_opened_label">Відкрито мною %s</string>
     <string name="doclist_date_shared_label">Надано доступ %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s · %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s · %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">Завантажено мною %s</string>
     <string name="doclist_detail_fragment_content_description">Показати параметри файлу</string>
-    <string name="doclist_entry_content_description" formatted="false">%s \"%s\"</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s \"%s\", колір: %s</string>
+    <string name="doclist_entry_content_description">%2$s \"%1$s\"</string>
+    <string name="doclist_entry_content_description_with_color">%2$s \"%1$s\", колір: %3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">Відкрити навігаційну висувну панель</string>
     <string name="doclist_quota_used_label">Використано пам’яті: %s</string>
     <string name="doclist_selected_show_preview">Переглянути</string>
@@ -679,6 +680,8 @@
     <string name="draft_options_dialog_title">Налаштування чернетки сайту</string>
     <string name="draft_permission_change_anyone_warning">Якщо змінити налаштування чернетки сайту, усі зможуть переглядати опубліковане.</string>
     <string name="draft_permission_change_domain_warning">Якщо змінити налаштування чернетки сайту, усі в домені %s зможуть переглядати опубліковане.</string>
+    <string name="draft_permission_downgrade_domain_warning">Якщо змінити це налашування чернетки сайту, посилання на публікацію зможуть бачити лише користувачі домену %1$s</string>
+    <string name="draft_permission_downgrade_specific_warning">Якщо змінити це налашування чернетки сайту, посилання на публікацію зможуть бачити лише вибрані користувачі</string>
     <string name="drive_file_stream_disabled">Користувачі не можуть відкривати файли на спільному Диску через Клієнт Google Диска чи схожі додатки</string>
     <string name="drive_file_stream_enabled">Користувачі можуть відкривати файли на спільному Диску через Клієнт Google Диска або схожі додатки</string>
     <string name="drive_file_stream_title">Клієнт Google Диска</string>
@@ -721,7 +724,7 @@
     <string name="empty_doclist_for_pinned_view_details">Зробіть файли доступними офлайн, вибравши відповідну опцію в меню</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Торкніться опції \"Доступний офлайн\" у меню файлу, щоб мати змогу працювати з ним у режимі офлайн.</string>
     <string name="empty_doclist_for_recent_view">Останнім часом ви не відкривали й не редагували файли.</string>
-    <string name="empty_doclist_for_search_view">Результатів немає.</string>
+    <string name="empty_doclist_for_search_view">Немає результатів</string>
     <string name="empty_doclist_for_shared_with_me_view">Тут з’являтимуться файли, до яких вам надали доступ.</string>
     <string name="empty_doclist_for_starred_view">У вас немає файлів із зірочкою.</string>
     <string name="empty_doclist_for_starred_view_details">Торкніться значка зірочки в меню опцій файлу, щоб додати його в цей список.</string>
@@ -772,13 +775,14 @@
     <string name="excess_head_count">і ще %1$d</string>
     <string name="excess_head_count_verbalization">Ще %1$d.</string>
     <string name="exit_multiselect_mode_button">Вийти з режиму вибору декількох елементів</string>
+    <string name="expand_button_title">Додатково</string>
     <string name="expires_future">Термін дії закінчується за %1$s</string>
     <string name="expires_today">Закінчиться сьогодні</string>
     <string name="export_download_error_title">Помилка завантаження</string>
     <string name="export_error_message">Сталася помилка.</string>
     <string name="export_error_message_network">Сталася помилка пересилання даних. Перевірте з’єднання з мережею.</string>
     <string name="export_error_message_server">Сталася помилка перетворення формату. Спробуйте пізніше.</string>
-    <string name="export_failure_notification_content">Не вдалося зберегти файл \"%1$s\"</string>
+    <string name="export_failure_notification_content">Файл \"%1$s\" не збережено</string>
     <string name="export_notification_content">Зберігання файлу \"%1$s\"…</string>
     <string name="exporting_start_msg">Підготовка до експорту…</string>
     <string name="fab_choose_template">Вибрати шаблон</string>
@@ -788,6 +792,11 @@
     <string name="fab_office_document">Новий файл Powerpoint</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Результати пошуку</string>
+    <string name="fast_scroll_size_grouper_b">Б</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">ГБ</string>
+    <string name="fast_scroll_size_grouper_kb">КБ</string>
+    <string name="fast_scroll_size_grouper_mb">МБ</string>
     <string name="fast_scroll_time_grouper_earlier">Старіші</string>
     <string name="fast_scroll_time_grouper_last_week">Минулого тижня</string>
     <string name="fast_scroll_time_grouper_this_month">Цього місяця</string>
@@ -816,7 +825,7 @@
     <string name="file_picker_select_a_folder_heading">Вибрати папку</string>
     <string name="file_picker_select_button">Вибрати</string>
     <string name="file_picker_storage_permissions_denied_toast">Дозвіл на доступ до локальної пам’яті не надано.</string>
-    <string name="file_too_large_for_upload" formatted="false">Файл \"%1s\" не можна додати на Google Диск через завеликий розмір (%2s, максимальний розмір для цього типу файлів: %3s). Ви зможете додати файл, якщо не конвертуватимете його у формат Google Диска.</string>
+    <string name="file_too_large_for_upload">Файл \"%1$s\" не можна додати на Google Диск через завеликий розмір (%2$s, максимальний розмір для цього типу файлів: %3$s). Ви зможете додати файл, якщо не конвертуватимете його у формат Google Диска.</string>
     <string name="file_too_large_for_upload_okbtn">ОК</string>
     <string name="file_too_large_for_upload_title">Не вдається завантажити</string>
     <string name="file_was_not_sent">Немає спільного доступу до файлу.</string>
@@ -980,17 +989,8 @@
     <string name="manage_addons_playstore_link_description">Перейти до доповнення \"%s\" у магазині Play</string>
     <string name="manage_members_default_members">За умовчанням користувачі можуть завантажувати, змінювати й видаляти файли та запрошувати учасників</string>
     <string name="manage_members_dialog_title">Доступ учасників</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Пам’ять</string>
+    <string name="management_data_loading_failed">Не вдається завантажити цю сторінку</string>
     <string name="member_count_max">Більше 99</string>
     <string name="menu_backup">Резервні копії</string>
     <string name="menu_copy_link">Копія посилання</string>
@@ -1094,7 +1094,6 @@
     <string name="move_error_target_folder_not_exist">Цільова папка не існує.</string>
     <string name="move_notice_lost_access_shared_folders">Елементи переміщено зі спільної папки. Доступ утрачено.</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s Користувачі спільного Диска \"%2$s\" утратили доступ.</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">1 елемент переміщено зі спільного Диска. Доступ утрачено.</string>
     <string name="move_notice_lost_access_team_drives">Елементи переміщено зі спільного Диска. Доступ утрачено.</string>
     <string name="mr_cast_button_connected">Кнопка трансляції. Під’єднано</string>
     <string name="mr_cast_button_connecting">Кнопка трансляції. Під’єднання</string>
@@ -1105,10 +1104,10 @@
     <string name="mr_controller_casting_screen">Трансляція екрана</string>
     <string name="mr_controller_close_description">Закрити</string>
     <string name="mr_controller_collapse_group">Згорнути</string>
-    <string name="mr_controller_disconnect">Відключити</string>
+    <string name="mr_controller_disconnect">Від’єднати</string>
     <string name="mr_controller_expand_group">Розгорнути</string>
     <string name="mr_controller_no_info_available">Немає даних</string>
-    <string name="mr_controller_no_media_selected">Медіа-файл не вибрано</string>
+    <string name="mr_controller_no_media_selected">Не вибрано медіа</string>
     <string name="mr_controller_pause">Призупинити</string>
     <string name="mr_controller_play">Відтворити</string>
     <string name="mr_controller_stop">Припинити</string>
@@ -1149,7 +1148,7 @@
     <string name="no_scheduled_meetings">Немає запланованих зустрічей</string>
     <string name="no_team_drives_title">Немає спільних Дисків</string>
     <string name="no_thanks">Ні, дякую</string>
-    <string name="not_enough_storage_for_upload" formatted="false">Файл \"%1s\" не можна додати на Google Диск через завеликий розмір (%2s, доступно лише %3s). Збільште обсяг пам’яті та спробуйте ще раз.</string>
+    <string name="not_enough_storage_for_upload">Файл \"%1$s\" не можна додати на Google Диск через завеликий розмір (%2$s, доступно лише %3$s). Збільште обсяг пам’яті та спробуйте ще раз.</string>
     <string name="notification_channel_name_default">За умовчанням</string>
     <string name="notification_channel_name_high_priority">Високий пріоритет</string>
     <string name="notification_channel_name_low_priority">Низький пріоритет</string>
@@ -1432,7 +1431,6 @@
     <string name="published_access_anyone">Переглядати опубліковане можуть усі</string>
     <string name="published_access_domain">Переглядати опубліковане можуть усі користувачі домену %s</string>
     <string name="published_access_select_people">Переглядати опубліковане можуть лише певні особи</string>
-    <string name="published_disabled_append">вимкнено</string>
     <string name="published_message_for_anyone_can_edit">Оскільки редагувати можуть усі, будь-хто може переглядати опубліковане.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Оскільки редагувати можуть усі користувачі домену %1$s, будь-хто в домені %1$s може переглядати опубліковане.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Оскільки редагувати можуть усі, хто має посилання, будь-хто може переглядати опубліковане.</string>
@@ -1546,7 +1544,7 @@
     <string name="punch_show_slide">Показати слайд</string>
     <string name="punch_speaker_notes_title">Нотатки доповідача</string>
     <string name="punch_speakernotes_closed">Нотатки доповідача закрито.</string>
-    <string name="punch_thor_invite_email_body" formatted="false">Інформація про доступ:&lt;br> %s &lt;br> %s PIN-код:%s</string>
+    <string name="punch_thor_invite_email_body">Інформація про доступ:&lt;br> %1$s &lt;br> %2$s PIN-код:%3$s</string>
     <string name="punctuation_period">,</string>
     <string name="purchase_dialog_how_storage_used">Обсяг пам’яті розподіляється між службами Gmail, Google Фото й Google Диск</string>
     <string name="purchase_dialog_manage">Керувати обсягами пам’яті</string>
@@ -2006,6 +2004,7 @@
     <string name="suggestions_add_to_dictionary">Додати в словник</string>
     <string name="suggestions_delete_text">Видалити</string>
     <string name="suggestions_popup_opened">Пропозиції варіантів написання</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Помилка синхронізації Google Презентацій</string>
     <string name="sync_more_error">Не вдалось отримати додаткові елементи</string>
     <string name="sync_more_error_offline">Деякі документи можуть не відображатися в режимі офлайн.</string>
@@ -2038,7 +2037,7 @@
     <string name="team_drive_empty_list_message_cannot_create">Коли хтось надасть вам доступ до спільного Диска, ви побачите його тут.</string>
     <string name="team_drive_settings_title">Налаштування</string>
     <string name="team_drive_trash_welcome_snackbar">Елементи в кошику спільних Дисків буде видалено назавжди через 30 днів.</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">%1$s, заголовок</string>
     <string name="template_category_education">Навчання</string>
     <string name="template_category_personal">Особисте</string>
@@ -2112,6 +2111,8 @@
     <string name="unable_to_open_local_document_message">Можливо, його переміщено або видалено.</string>
     <string name="unable_to_open_local_document_title">Не вдається відкрити файл на пристрої</string>
     <string name="unable_to_read_calendar_data">Не вдається зчитати дані календаря</string>
+    <string name="unable_update_published_message">Не можна оновити налаштування опублікованого сайту, поки не буде оновлено налаштування посилання до чернетки</string>
+    <string name="unable_update_published_title">Не вдалось оновити налаштування</string>
     <string name="undeliverable_acl_changed_dialog_title">Скасувати останні зміни в документі?</string>
     <string name="undeliverable_changes_dialog_content">Зміни, внесені в режимі офлайн, може бути втрачено. Обов’язково скопіюйте їх у буфер обміну.</string>
     <string name="undeliverable_changes_dialog_title">Скасувати проблемні зміни в документі?</string>
@@ -2214,6 +2215,8 @@
     <string name="upsell_negbtn">Пізніше</string>
     <string name="upsell_okbtn">Збільшити</string>
     <string name="url_typo_error_msg">З посиланням щось не так. Зробили помилку?</string>
+    <string name="v7_preference_off">ВИМКНЕНО</string>
+    <string name="v7_preference_on">УВІМКНЕНО</string>
     <string name="verbalize_bulleted_list">маркер. %1$s</string>
     <string name="verbalize_numbered_list">%1$s. %2$s</string>
     <string name="verbalize_opened_edit">\"%1$s\" відкрито в режимі редагування.</string>
@@ -2244,6 +2247,7 @@
     <string name="warm_welcome_next_button">Далі</string>
     <string name="warm_welcome_skip_button">Пропустити</string>
     <string name="warning_cannot_share_outside_domain">У налаштуваннях спільного Диска дозволено надавати доступ тільки користувачам із домену %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">У налаштуваннях спільного Диска заборонено надавати доступ користувачам з інших команд і доменів, окрім %s</string>
     <string name="warning_cannot_share_outside_domain_org">У налаштуваннях організації заборонено надавати доступ користувачам з інших організацій</string>
     <string name="warning_cannot_share_outside_team_drive">У налаштуваннях спільного Диска заборонено надавати доступ користувачам з інших команд</string>
     <string name="welcome_button_close">До Презентацій</string>
@@ -2278,7 +2282,7 @@
     <string name="zss_showing_list_of_filters">Показано список доступних фільтрів.</string>
     <string name="zss_team_drive">Пошук на спільному Диску \"%1$s\"</string>
     <string name="zss_type_archive">Архів</string>
-    <string name="zss_type_audio">Аудіо</string>
+    <string name="zss_type_audio">Звук</string>
     <string name="zss_type_documents">Текстові документи</string>
     <string name="zss_type_folder">Папки</string>
     <string name="zss_type_images">Фотографії та зображення</string>

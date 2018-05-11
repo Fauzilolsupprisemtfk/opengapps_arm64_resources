@@ -450,6 +450,7 @@
     <string name="dialog_td_will_disappear">Бұл Team Drive барлығы үшін жойылады және бұл әрекетті кері қайтару мүмкін болмайды.</string>
     <string name="dialog_td_will_disappear_files_in_trash">Осы Team Drive файлдары %1$s себетінде және оларды ешкім қалпына келтіре алмайды. Бұл Team Drive барлығы үшін жойылады және бұл әрекетті кері қайтару мүмкін болмайды.</string>
     <string name="did_you_mean">Сізге қажеті %1$s емес пе?</string>
+    <string name="disabled_append">өшірулі</string>
     <string name="discussion_accept">Қабылдау</string>
     <string name="discussion_acl_fix_access_role_commenter">Түсініктеме жаза алады</string>
     <string name="discussion_acl_fix_access_role_writer">Өзгерте алады</string>
@@ -560,11 +561,11 @@
     <string name="doclist_date_never_label">Ешқашан</string>
     <string name="doclist_date_opened_label">Мен аштым: %s</string>
     <string name="doclist_date_shared_label">Жіберілді: %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s · %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s · %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">Мен жүктеп салдым: %s</string>
     <string name="doclist_detail_fragment_content_description">Элемент сипаттарын көрсету</string>
-    <string name="doclist_entry_content_description" formatted="false">%s %s</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s %s түсі: %s</string>
+    <string name="doclist_entry_content_description">%1$s %2$s</string>
+    <string name="doclist_entry_content_description_with_color">%1$s %2$s түсі: %3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">Шарлау тартпасын ашу</string>
     <string name="doclist_quota_used_label">Пайдаланылған жад: %s</string>
     <string name="doclist_selected_show_preview">Алдын ала қарауды көрсету</string>
@@ -653,6 +654,8 @@
     <string name="draft_options_dialog_title">Вебсайт нобайының параметрлері</string>
     <string name="draft_permission_change_anyone_warning">Вебсайт нобайының параметрі осы күйге өзгертілсе, жарияланған нұсқасын кез келген адам көре алатын болады.</string>
     <string name="draft_permission_change_domain_warning">Вебсайт нобайының параметрі осы күйге өзгертілсе, жарияланған нұсқасын кез келген %s мүшесі көре алатын болады.</string>
+    <string name="draft_permission_downgrade_domain_warning">Осы нобай параметрін өзгертсеңіз, жарияланған сілтемені тек %1$s көре алатын болады</string>
+    <string name="draft_permission_downgrade_specific_warning">Осы нобай параметрін өзгертсеңіз, жарияланған сілтемені тек арнаулы адамдар көре алатын болады</string>
     <string name="drive_file_stream_disabled">Осы Team Drive файлдарын Drive File Stream немесе соған ұқсас қолданбалармен ашу мүмкіндігін шектеу</string>
     <string name="drive_file_stream_enabled">Осы Team Drive файлдарын Drive File Stream немесе соған ұқсас қолданбалармен ашуға рұқсат беру</string>
     <string name="drive_file_stream_title">Drive File Stream</string>
@@ -694,7 +697,7 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="empty_doclist_for_pinned_view_details">Файлдың опциялар мәзірінен \"Офлайн режимінде қолжетімді\" параметрін қосыңыз.</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Файл мәзірінен \"Офлайн қолжетімді\" параметрін таңдаңыз, сонда жұмысты офлайн жалғастыра беру мүмкін болады.</string>
     <string name="empty_doclist_for_recent_view">Жақында ашылған немесе өзгертілген файлдар жоқ.</string>
-    <string name="empty_doclist_for_search_view">Ешнәрсе табылмады.</string>
+    <string name="empty_doclist_for_search_view">Нәтижелер жоқ</string>
     <string name="empty_doclist_for_shared_with_me_view">Сізбен бөліскен файлдар осы жерден көрсетіледі.</string>
     <string name="empty_doclist_for_starred_view">Жұлдызшамен белгіленген ешбір файл жоқ.</string>
     <string name="empty_doclist_for_starred_view_details">Файлды осы тізімге қосу үшін, оның опциялар мәзірінен жұлдызша белгішесін түртіңіз.</string>
@@ -745,13 +748,14 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d басқа үлес қосушы.</string>
     <string name="exit_multiselect_mode_button">Бірнеше элемент таңдау режимінен шығу</string>
+    <string name="expand_button_title">Қосымша</string>
     <string name="expires_future">%1$s күнде аяқталады</string>
     <string name="expires_today">Мерзімі бүгін аяқталады</string>
     <string name="export_download_error_title">Жүктеу қателігі</string>
     <string name="export_error_message">Қателік орын алды.</string>
     <string name="export_error_message_network">Тарату қателігі орын алды. Желі байланысын тексеріңіз.</string>
     <string name="export_error_message_server">Түрлендіру қателігі орын алды. Кейінірек қайталап көріңіз.</string>
-    <string name="export_failure_notification_content">\"%1$s\" файлы сақталмады</string>
+    <string name="export_failure_notification_content">\"%1$s\" сақталмады</string>
     <string name="export_notification_content">\"%1$s\" сақталуда…</string>
     <string name="exporting_start_msg">Экспорттауға дайындалуда...</string>
     <string name="fab_choose_template">Үлгіні таңдау</string>
@@ -761,6 +765,11 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="fab_office_document">Жаңа PowerPoint файлы</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Іздеу нәтижелері</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">ГБ</string>
+    <string name="fast_scroll_size_grouper_kb">КБ</string>
+    <string name="fast_scroll_size_grouper_mb">MБ</string>
     <string name="fast_scroll_time_grouper_earlier">Ескілеу</string>
     <string name="fast_scroll_time_grouper_last_week">Өткен аптада</string>
     <string name="fast_scroll_time_grouper_this_month">Осы айдың басында</string>
@@ -789,7 +798,7 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="file_picker_select_a_folder_heading">Қалтаны таңдау</string>
     <string name="file_picker_select_button">Таңдау</string>
     <string name="file_picker_storage_permissions_denied_toast">Құрылғы жадына кіруге рұқсат берілмеді.</string>
-    <string name="file_too_large_for_upload" formatted="false">%1s файлы Google Drive ішіне жүктеп салу үшін тым үлкен. Оның өлшемі — %2s, бірақ бұл файл түрі %3s өлшемімен шектелген. Бұл файлды Google Drive форматына түрлендірмей сақтауыңызға болады.</string>
+    <string name="file_too_large_for_upload">%1$s файлы Google Drive ішіне жүктеп салу үшін тым үлкен. Оның өлшемі — %2$s, бірақ бұл файл түрі %3$s өлшемімен шектелген. Бұл файлды Google Drive форматына түрлендірмей сақтауыңызға болады.</string>
     <string name="file_too_large_for_upload_okbtn">Жарайды</string>
     <string name="file_too_large_for_upload_title">Жүктеп салу мүмкін емес</string>
     <string name="file_was_not_sent">Файл бөлісілмеді.</string>
@@ -949,17 +958,8 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="make_copy_spinner_message">Көшірілуде...</string>
     <string name="manage_members_default_members">Әдепкі параметр бойынша мүшелердің файлдарды жүктеп салу/өзгерту/жою және басқа мүшелерді шақыру мүмкіндігі бар</string>
     <string name="manage_members_dialog_title">Мүше рұқсаттары</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Жад</string>
+    <string name="management_data_loading_failed">Бұл бет жүктелмеді</string>
     <string name="member_count_max">99+</string>
     <string name="menu_backup">Сақтық көшірмелер</string>
     <string name="menu_copy_link">Сілтемені көшіру</string>
@@ -976,7 +976,7 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="menu_google_photos">Google Photos</string>
     <string name="menu_help_and_feedback">Анықтама және пікір жазу</string>
     <string name="menu_item_manage_members">Мүшелерді басқару</string>
-    <string name="menu_item_skip_email_notification">Хабарландыруларды жіберуді өткізіп жіберу</string>
+    <string name="menu_item_skip_email_notification">Хабарландыру жібермеу</string>
     <string name="menu_item_use_advanced_permission">Жаңа мүшелердің рұқсаттарын реттеу</string>
     <string name="menu_keep_on_device">Офлайн режимінде қолжетімді</string>
     <string name="menu_link_share">Сілтеме бөлісу</string>
@@ -1062,25 +1062,24 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="move_error_target_folder_not_exist">Бұл қалта жоқ.</string>
     <string name="move_notice_lost_access_shared_folders">Элементтер ортақ қалталардан жылжытылды. Адамдар оларға кіру мүмкіндігін жоғалтты.</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s \"%2$s\" тобы кіру мүмкіндігін жоғалтты.</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">1 элемент Team Drive-тан жылжытылды. Мүшелері оған кіру мүмкіндігін жоғалтты.</string>
     <string name="move_notice_lost_access_team_drives">Элементтер Team Drive-тан жылжытылды. Мүшелері оларға кіру мүмкіндігін жоғалтты.</string>
-    <string name="mr_cast_button_connected">\"Трансляциялау\" түймесі. Қосылды</string>
-    <string name="mr_cast_button_connecting">\"Трансляциялау\" түймесі. Қосылуда</string>
-    <string name="mr_cast_button_disconnected">\"Трансляциялау\" түймесі. Ажыратулы</string>
-    <string name="mr_chooser_searching">Құрылғыларды табу</string>
-    <string name="mr_chooser_title">Келесіге трансляциялау</string>
-    <string name="mr_controller_album_art">Альбом шебері</string>
+    <string name="mr_cast_button_connected">Трансляциялау түймесі. Қосылды</string>
+    <string name="mr_cast_button_connecting">Трансляциялау түймесі. Қосылуда</string>
+    <string name="mr_cast_button_disconnected">Трансляциялау түймесі. Ажыратылды</string>
+    <string name="mr_chooser_searching">Құрылғылар ізделуде</string>
+    <string name="mr_chooser_title">Трансляция:</string>
+    <string name="mr_controller_album_art">Альбомның мұқабасы</string>
     <string name="mr_controller_casting_screen">Экранды трансляциялау</string>
     <string name="mr_controller_close_description">Жабу</string>
     <string name="mr_controller_collapse_group">Жию</string>
     <string name="mr_controller_disconnect">Ажырату</string>
     <string name="mr_controller_expand_group">Жаю</string>
-    <string name="mr_controller_no_info_available">Қол жетімді ақпарат жоқ</string>
-    <string name="mr_controller_no_media_selected">Ешбір тасушы таңдалмаған</string>
+    <string name="mr_controller_no_info_available">Қолжетімді ақпарат жоқ</string>
+    <string name="mr_controller_no_media_selected">Ешқандай медиафайл таңдалмаған</string>
     <string name="mr_controller_pause">Кідірту</string>
     <string name="mr_controller_play">Ойнату</string>
     <string name="mr_controller_stop">Тоқтату</string>
-    <string name="mr_controller_stop_casting">Трансляциялауды тоқтату</string>
+    <string name="mr_controller_stop_casting">Трансляцияны тоқтату</string>
     <string name="mr_controller_volume_slider">Дыбыс деңгейінің жүгірткісі</string>
     <string name="mr_user_route_category_name">Құрылғылар</string>
     <string name="native_create_disabled_dialog_message">Есептік жазбаңызда Google Slides презентацияларын жасау мүмкіндігі жоқ.</string>
@@ -1117,7 +1116,7 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="no_scheduled_meetings">Жоспарланған кездесулер жоқ</string>
     <string name="no_team_drives_title">Team Drive-тар табылмады</string>
     <string name="no_thanks">Жоқ, рақмет</string>
-    <string name="not_enough_storage_for_upload" formatted="false">%1s файлы Google Drive-қа жүктеп салу үшін тым үлкен. Оның өлшемі %2s, бірақ қолжетімді жад орны %3s. Жад орнын жаңартып, файлды қайта жүктеп салып көріңіз.</string>
+    <string name="not_enough_storage_for_upload">%1$s файлы Google Drive-қа жүктеп салу үшін тым үлкен. Оның өлшемі %2$s, бірақ қолжетімді жад орны %3$s. Жад орнын жаңартып, файлды қайта жүктеп салып көріңіз.</string>
     <string name="notification_channel_name_default">Әдепкі</string>
     <string name="notification_channel_name_high_priority">Басымдығы жоғары</string>
     <string name="notification_channel_name_low_priority">Аса маңызды емес</string>
@@ -1196,8 +1195,8 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="ouch_title_sawwrie">Кешіріңіз!</string>
     <string name="overwrite_confirm_dialog_message">%1$s файлы бұрыннан бар. Үстінен жазу керек пе?</string>
     <string name="overwrite_confirm_dialog_positive_button_label">Үстінен жазу</string>
-    <string name="owner_not_user">%1$s иелігіндегі емес</string>
-    <string name="owner_user">%1$s иелігіндегі</string>
+    <string name="owner_not_user">%1$s иелігінде емес</string>
+    <string name="owner_user">Кімге тиесілі: %1$s</string>
     <string name="page_1_description">Жұмысты желі байланысы болса да, болмаса да яқтау мүмкіндігі.</string>
     <string name="page_1_heading_editors">Презентациялар әрқашан қолжетімді</string>
     <string name="page_2_description">Өзіңіз жазыңыз немесе үлес қосуға басқаларды шақырыңыз.</string>
@@ -1345,7 +1344,7 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="prefs_cache_category_title">Құжаттар кэші</string>
     <string name="prefs_category_content_description">Бөлімі, %1$s</string>
     <string name="prefs_clear_cache_summary">Барлық кэштелген құжаттарды жою.</string>
-    <string name="prefs_data_usage_category">Дерекқорды пайдалану</string>
+    <string name="prefs_data_usage_category">Дерек шығыны</string>
     <string name="prefs_enable_powerpoint_doc_creation_summary">Google Slides файлдарымен қатар PowerPoint (.pptx) файлдарын жасау опцияларын көрсету.</string>
     <string name="prefs_enable_powerpoint_doc_creation_title">PowerPoint файлдарын жасау</string>
     <string name="prefs_language_category">Тіл</string>
@@ -1511,7 +1510,7 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="punch_show_slide">Слайдты көрсету</string>
     <string name="punch_speaker_notes_title">Баяндамашы жазбалары</string>
     <string name="punch_speakernotes_closed">Баяндамашы жазбалары жабылды.</string>
-    <string name="punch_thor_invite_email_body" formatted="false">Кіру деректері:&lt;br> %s &lt;br> %s PIN код:%s</string>
+    <string name="punch_thor_invite_email_body">Кіру деректері:&lt;br> %1$s &lt;br> %2$s PIN код:%3$s</string>
     <string name="punctuation_period">.</string>
     <string name="purchase_dialog_how_storage_used">Жадты Gmail, Google Фото және Google Drive бойынша ортақ қолдануға болады.</string>
     <string name="purchase_dialog_manage">Жад басқару</string>
@@ -1544,9 +1543,9 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="remove_collection_shared">Жасыру қажет пе?</string>
     <string name="remove_dialog_confirm_delete_button">Мүлдем жою</string>
     <string name="remove_dialog_confirm_delete_for_everyone_button">Барлығы үшін жою</string>
-    <string name="remove_dialog_delete_different_permissions_files">Бұл файлдарға қатысты рұқсаттарыңыз әр түрлі. Кейбіреулері себетке жіберіледі және 30 күннен кейін мүлдем жойылады. Кейбіреулері өшіріледі.</string>
-    <string name="remove_dialog_delete_different_permissions_folders">Бұл қалталарға қатысты рұқсаттарыңыз әр түрлі. Кейбіреулері себетке жіберіледі және 30 күннен кейін мүлдем жойылады. Кейбіреулері өшіріледі.</string>
-    <string name="remove_dialog_delete_different_permissions_items">Бұл элементтерге қатысты рұқсаттарыңыз әр түрлі. Кейбіреулері себетке жіберіледі және 30 күннен кейін мүлдем жойылады. Кейбіреулері өшіріледі.</string>
+    <string name="remove_dialog_delete_different_permissions_files">Бұл файлдарға қатысты рұқсаттарыңыз әртүрлі. Кейбіреулері себетке жіберіледі және 30 күннен кейін мүлдем жойылады. Кейбіреулері өшіріледі.</string>
+    <string name="remove_dialog_delete_different_permissions_folders">Бұл қалталарға қатысты рұқсаттарыңыз әртүрлі. Кейбіреулері себетке жіберіледі және 30 күннен кейін мүлдем жойылады. Кейбіреулері өшіріледі.</string>
+    <string name="remove_dialog_delete_different_permissions_items">Бұл элементтерге қатысты рұқсаттарыңыз әртүрлі. Кейбіреулері себетке жіберіледі және 30 күннен кейін мүлдем жойылады. Кейбіреулері өшіріледі.</string>
     <string name="remove_dialog_delete_different_permissions_title">Кейбір элементтер ғана жойылады</string>
     <string name="remove_dialog_delete_for_everyone_title">Барлығы үшін жою қажет пе?</string>
     <string name="remove_dialog_delete_permanently_for_everyone_text_single">Бұл файл &lt;b>барлық пайдаланушылар үшін мүлдем жойылады.&lt;/b> Бұл әрекетті кері қайтару мүмкін болмайды.</string>
@@ -1968,6 +1967,7 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="suggestions_add_to_dictionary">Сөздікке қосу</string>
     <string name="suggestions_delete_text">Жою</string>
     <string name="suggestions_popup_opened">Емле ұсыныстары</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Google Slides синхрондау қателігі</string>
     <string name="sync_more_error">Қосымша элементтерді шығарып алу қатесі</string>
     <string name="sync_more_error_offline">Кейбір құжаттар офлайн режимінен көрсетілмеуі мүмкін.</string>
@@ -2000,7 +2000,7 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="team_drive_empty_list_message_cannot_create">Сізді біреу Team Drive-қа қосса, мына тізімнен көрсетіледі.</string>
     <string name="team_drive_settings_title">Параметрлер</string>
     <string name="team_drive_trash_welcome_snackbar">Team Drives себетіндегі файлдар 30 күннен кейін мүлдем жойылады.</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">%1$s, санаты</string>
     <string name="template_category_education">Білімі</string>
     <string name="template_category_personal">Жеке деректер</string>
@@ -2074,6 +2074,8 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="unable_to_open_local_document_message">Жылжытылған немесе жойылған болуы мүмкін.</string>
     <string name="unable_to_open_local_document_title">Құрылғыда сақталған файлды ашу мүмкін емес</string>
     <string name="unable_to_read_calendar_data">Күнтізбені сұрау мүмкін емес</string>
+    <string name="unable_update_published_message">Жоба сілтемесінің параметрі жаңартылмайынша, жарияланған сайт параметрі өзгертілмейді</string>
+    <string name="unable_update_published_title">Параметрді жаңарту мүмкін емес</string>
     <string name="undeliverable_acl_changed_dialog_title">Өзгерістерді жойып, құжатты қалпына келтіру қажет пе?</string>
     <string name="undeliverable_changes_dialog_content">Олфайн режимінде жасалған өзгерістер жоғалуы мүмкін. Уақытша сақтағышқа көшіріп қойыңыз.</string>
     <string name="undeliverable_changes_dialog_title">Күрделі өзгерістерді жойып, құжатты қалпына келтіру қажет пе?</string>
@@ -2176,6 +2178,8 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="upsell_negbtn">Кейінірек</string>
     <string name="upsell_okbtn">Жаңарту</string>
     <string name="url_typo_error_msg">Сілтеме дұрыс емес сияқты. Қате жазылған ба?</string>
+    <string name="v7_preference_off">ӨШІРУЛІ</string>
+    <string name="v7_preference_on">ҚОСУЛЫ</string>
     <string name="verbalize_bulleted_list">таңба. %1$s</string>
     <string name="verbalize_numbered_list">%1$s. %2$s</string>
     <string name="verbalize_opened_edit">%1$s файлы өзгерту рұқсаттарымен ашылды.</string>
@@ -2206,8 +2210,9 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="warm_welcome_next_button">Келесі</string>
     <string name="warm_welcome_skip_button">Өткізіп жіберу</string>
     <string name="warning_cannot_share_outside_domain">Бұл Team Drive параметрлері %s доменінен тыс бөлісуге рұқсат бермейді</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Бұл Team Drive параметрлері топқа мүше емес адамдармен немесе %s доменінен тыс бөлісуге рұқсат бермейді</string>
     <string name="warning_cannot_share_outside_domain_org">Бұл ұйым параметрлері ұйымнан тыс бөлісуге рұқсат бермейді</string>
-    <string name="warning_cannot_share_outside_team_drive">Бұл Team Drive параметрлері топтан тыс бөлісуге рұқсат бермейді</string>
+    <string name="warning_cannot_share_outside_team_drive">Бұл Team Drive параметрлері топқа мүше емес адамдармен бөлісуге рұқсат бермейді</string>
     <string name="welcome_button_close">Slides-қа кіру</string>
     <string name="welcome_button_continue">Келесі</string>
     <string name="welcome_offer_button_close">Жабу</string>
@@ -2233,7 +2238,7 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="zss_date_range_yesterday">Кеше</string>
     <string name="zss_entry_types_header_title">Файл түрлері</string>
     <string name="zss_no_filters">Сүзгілер орнатылмаған</string>
-    <string name="zss_owner_header_title">Тиесілі</string>
+    <string name="zss_owner_header_title">Кімге тиесілі:</string>
     <string name="zss_owner_me">Маған тиесілі</string>
     <string name="zss_owner_not_me">Маған тиесілі емес</string>
     <string name="zss_people_header_title">Адамдар</string>
@@ -2243,7 +2248,7 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="zss_type_audio">Aудио</string>
     <string name="zss_type_documents">Мәтіндік құжаттар</string>
     <string name="zss_type_folder">Қалталар</string>
-    <string name="zss_type_images">Суреттер және кескіндер</string>
+    <string name="zss_type_images">Суреттер мен кескіндер</string>
     <string name="zss_type_pdfs">PDF файлдары</string>
     <string name="zss_type_presentations">Презентациялар</string>
     <string name="zss_type_spreadsheets">Электрондық кестелер</string>

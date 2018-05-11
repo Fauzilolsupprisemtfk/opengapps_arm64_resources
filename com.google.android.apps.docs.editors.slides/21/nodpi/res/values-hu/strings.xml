@@ -475,6 +475,7 @@ A művelet nem vonható vissza."</string>
     <string name="dialog_td_will_disappear">A csapatmeghajtót egyetlen felhasználó sem érheti el, és a művelet nem vonható vissza.</string>
     <string name="dialog_td_will_disappear_files_in_trash">A csapatmeghajtó egyes fájljai a(z) %1$s kukájában találhatók, és egy felhasználó sem állíthatja őket vissza. A csapatmeghajtót senki sem látja majd, és a műveletet nem vonhatja vissza.</string>
     <string name="did_you_mean">Így értette: %1$s</string>
+    <string name="disabled_append">letiltva,</string>
     <string name="discussion_accept">Elfogadás</string>
     <string name="discussion_acl_fix_access_role_commenter">Megjegyzésírás</string>
     <string name="discussion_acl_fix_access_role_writer">Szerkesztés</string>
@@ -585,11 +586,11 @@ A művelet nem vonható vissza."</string>
     <string name="doclist_date_never_label">Soha</string>
     <string name="doclist_date_opened_label">Általam megnyitva: %s</string>
     <string name="doclist_date_shared_label">Megosztva: %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s – %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s – %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">Általam feltöltve: %s</string>
     <string name="doclist_detail_fragment_content_description">Elem tulajdonságainak megjelenítése</string>
-    <string name="doclist_entry_content_description" formatted="false">%s %s</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s %s szín:%s</string>
+    <string name="doclist_entry_content_description">%1$s %2$s</string>
+    <string name="doclist_entry_content_description_with_color">%1$s %2$s szín:%3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">Navigációs fiók megnyitása</string>
     <string name="doclist_quota_used_label">Felhasznált tárhely: %s</string>
     <string name="doclist_selected_show_preview">Előnézet megjelenítése</string>
@@ -679,6 +680,8 @@ A művelet nem vonható vissza."</string>
     <string name="draft_options_dialog_title">Webhelypiszkozat beállításai</string>
     <string name="draft_permission_change_anyone_warning">Ha erre a webhelypiszkozat-beállításra vált, bárki láthatja a közzétett verziót.</string>
     <string name="draft_permission_change_domain_warning">Ha erre a webhelypiszkozat-beállításra vált, a(z) %s domain minden tagja láthatja a közzétett verziót.</string>
+    <string name="draft_permission_downgrade_domain_warning">A webhelypiszkozat beállításának módosítását követően a közzétett linket csak a(z) %1$s domainhez tartozó felhasználók láthatják</string>
+    <string name="draft_permission_downgrade_specific_warning">A webhelypiszkozat beállításának módosítását követően a közzétett linket csak bizonyos személyek láthatják</string>
     <string name="drive_file_stream_disabled">A fájloknak a Drive File Stream vagy hasonló alkalmazással való megnyitásának tiltása</string>
     <string name="drive_file_stream_enabled">A fájloknak a Drive File Stream vagy hasonló alkalmazással való megnyitásának engedélyezése</string>
     <string name="drive_file_stream_title">Drive File Stream</string>
@@ -721,7 +724,7 @@ Próbáljon feltölteni egy fájlt!"</string>
     <string name="empty_doclist_for_pinned_view_details">Állítson be offline is elérhető fájlokat a fájl beállítási menüjében</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Ha offline is szeretné szerkeszteni a fájlt, koppintson a „Tárolás offline” elemre a fájl menüjében.</string>
     <string name="empty_doclist_for_recent_view">Nincsenek a közelmúltban megnyitott vagy szerkesztett elemek.</string>
-    <string name="empty_doclist_for_search_view">Nincs találat.</string>
+    <string name="empty_doclist_for_search_view">Nincs találat</string>
     <string name="empty_doclist_for_shared_with_me_view">Az Önnel megosztott fájlok itt fognak megjelenni.</string>
     <string name="empty_doclist_for_starred_view">Nem rendelkezik csillagozott fájlokkal.</string>
     <string name="empty_doclist_for_starred_view_details">Koppintson a Csillag ikonra a fájl menüjében a listához való hozzáadáshoz.</string>
@@ -772,6 +775,7 @@ Kattintson a + gombra prezentáció létrehozásához."</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">További %1$d személy.</string>
     <string name="exit_multiselect_mode_button">Kilépés a többszörös kijelölési módból</string>
+    <string name="expand_button_title">Speciális</string>
     <string name="expires_future">Lejár: %1$s</string>
     <string name="expires_today">Ma jár le</string>
     <string name="export_download_error_title">Letöltési hiba</string>
@@ -788,6 +792,11 @@ Kattintson a + gombra prezentáció létrehozásához."</string>
     <string name="fab_office_document">Új PowerPoint-fájl</string>
     <string name="fast_scroll_month_and_year_grouped">%2$d. %1$s</string>
     <string name="fast_scroll_search_result_grouper">Keresési találatok</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">––</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Régebbiek</string>
     <string name="fast_scroll_time_grouper_last_week">Múlt hét</string>
     <string name="fast_scroll_time_grouper_this_month">Korábban (e hónap)</string>
@@ -816,7 +825,7 @@ Kattintson a + gombra prezentáció létrehozásához."</string>
     <string name="file_picker_select_a_folder_heading">Mappa kiválasztása</string>
     <string name="file_picker_select_button">Kijelölés</string>
     <string name="file_picker_storage_permissions_denied_toast">A helyi tárhelyre vonatkozó hozzáférési kérelem elutasítva.</string>
-    <string name="file_too_large_for_upload" formatted="false">A fájl (%1s) túl nagy a Google Drive szolgáltatásba való feltöltéshez. Mérete %2s, de az ilyen fájlok méretkorlátja %3s. A fájl feltölthető lehet anélkül, hogy konvertálná a Google Drive egyik formátumába.</string>
+    <string name="file_too_large_for_upload">A fájl (%1$s) túl nagy a Google Drive szolgáltatásba való feltöltéshez. Mérete %2$s, de az ilyen fájlok méretkorlátja %3$s. A fájl feltölthető lehet anélkül, hogy konvertálná a Google Drive egyik formátumába.</string>
     <string name="file_too_large_for_upload_okbtn">Rendben</string>
     <string name="file_too_large_for_upload_title">Sikertelen feltöltés</string>
     <string name="file_was_not_sent">Nincs megosztva a fájl.</string>
@@ -980,17 +989,8 @@ Kattintson a + gombra prezentáció létrehozásához."</string>
     <string name="manage_addons_playstore_link_description">Ugrás a következő Play Store-oldalára: %s</string>
     <string name="manage_members_default_members">Alapértelmezés: a tagok feltölthetnek/szerkeszthetnek/törölhetnek fájlokat, és meghívhatnak másokat.</string>
     <string name="manage_members_dialog_title">Taghozzáférés</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Tárhely</string>
+    <string name="management_data_loading_failed">Nem lehet betölteni az oldalt</string>
     <string name="member_count_max">99+</string>
     <string name="menu_backup">Biztonsági másolatok</string>
     <string name="menu_copy_link">Link másolása</string>
@@ -1094,22 +1094,21 @@ Kattintson a + gombra prezentáció létrehozásához."</string>
     <string name="move_error_target_folder_not_exist">A célmappa nem létezik.</string>
     <string name="move_notice_lost_access_shared_folders">Elemek áthelyezve. Egyesek elveszítették a hozzáférésüket.</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s A(z) „%2$s” csapatmeghajtóban már nem érhető el.</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">Egy elem áthelyezve. A tagok elveszítették a hozzáférésüket.</string>
     <string name="move_notice_lost_access_team_drives">Elemek áthelyezve. A tagok elveszítették a hozzáférésüket.</string>
     <string name="mr_cast_button_connected">Átküldés gomb. Csatlakoztatva</string>
     <string name="mr_cast_button_connecting">Átküldés gomb. Csatlakozás</string>
     <string name="mr_cast_button_disconnected">Átküldés gomb. Kapcsolat bontva</string>
     <string name="mr_chooser_searching">Eszközök keresése</string>
-    <string name="mr_chooser_title">Átküldés ide</string>
+    <string name="mr_chooser_title">Átküldés ide:</string>
     <string name="mr_controller_album_art">Lemezborító</string>
-    <string name="mr_controller_casting_screen">Képernyőtartalom átküldése</string>
+    <string name="mr_controller_casting_screen">Képernyőtartalom átküldése…</string>
     <string name="mr_controller_close_description">Bezárás</string>
     <string name="mr_controller_collapse_group">Összecsukás</string>
     <string name="mr_controller_disconnect">Leválasztás</string>
     <string name="mr_controller_expand_group">Kibontás</string>
     <string name="mr_controller_no_info_available">Nincs információ</string>
-    <string name="mr_controller_no_media_selected">Nincs média kiválasztva</string>
-    <string name="mr_controller_pause">Szüneteltetés</string>
+    <string name="mr_controller_no_media_selected">Nincs médiatartalom kiválasztva</string>
+    <string name="mr_controller_pause">Szünet</string>
     <string name="mr_controller_play">Lejátszás</string>
     <string name="mr_controller_stop">Leállítás</string>
     <string name="mr_controller_stop_casting">Átküldés leállítása</string>
@@ -1149,7 +1148,7 @@ Kattintson a + gombra prezentáció létrehozásához."</string>
     <string name="no_scheduled_meetings">Nincsenek ütemezett értekezletek</string>
     <string name="no_team_drives_title">Nincs csapatmeghajtó</string>
     <string name="no_thanks">Köszönöm, nem</string>
-    <string name="not_enough_storage_for_upload" formatted="false">A(z) %1s fájl túl nagy a Google Drive-ba való feltöltéshez. Mérete %2s, azonban a rendelkezésre álló tárhelye csupán %3s. Bővítse a tárhelyet, és próbálkozzon újra.</string>
+    <string name="not_enough_storage_for_upload">A(z) %1$s fájl túl nagy a Google Drive-ba való feltöltéshez. Mérete %2$s, azonban a rendelkezésre álló tárhelye csupán %3$s. Bővítse a tárhelyet, és próbálkozzon újra.</string>
     <string name="notification_channel_name_default">Alapértelmezett</string>
     <string name="notification_channel_name_high_priority">Magas prioritás</string>
     <string name="notification_channel_name_low_priority">Alacsony prioritás</string>
@@ -1432,7 +1431,6 @@ Kattintson a + gombra prezentáció létrehozásához."</string>
     <string name="published_access_anyone">A közzétételt követően mindenki láthatja</string>
     <string name="published_access_domain">A(z) %s domain minden tagja láthatja a közzétételt követően</string>
     <string name="published_access_select_people">Csak bizonyos személyek láthatják a közzétett verziót</string>
-    <string name="published_disabled_append">letiltva,</string>
     <string name="published_message_for_anyone_can_edit">Mivel bárki szerkesztheti, mindenki láthatja a közzétett verziót.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Mivel a(z) %1$s minden tagja szerkesztheti, a(z) %1$s domain minden tagja láthatja a közzétett verziót.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Mivel a link birtokában bárki szerkesztheti, mindenki láthatja a közzétett verziót.</string>
@@ -1546,7 +1544,7 @@ Kattintson a + gombra prezentáció létrehozásához."</string>
     <string name="punch_show_slide">Dia megjelenítése</string>
     <string name="punch_speaker_notes_title">Előadói jegyzetek</string>
     <string name="punch_speakernotes_closed">Bezárta az előadói jegyzeteket.</string>
-    <string name="punch_thor_invite_email_body" formatted="false">Hozzáférési információ:&lt;br> %s &lt;br> %s PIN-kód:%s</string>
+    <string name="punch_thor_invite_email_body">Hozzáférési információ:&lt;br> %1$s &lt;br> %2$s PIN-kód:%3$s</string>
     <string name="punctuation_period">,</string>
     <string name="purchase_dialog_how_storage_used">A tárhelyet közösen használja a Gmail, a Google Fotók és a Google Drive</string>
     <string name="purchase_dialog_manage">Tárhely kezelése</string>
@@ -2006,6 +2004,7 @@ Kattintson a + gombra prezentáció létrehozásához."</string>
     <string name="suggestions_add_to_dictionary">Hozzáadás a szótárhoz</string>
     <string name="suggestions_delete_text">Törlés</string>
     <string name="suggestions_popup_opened">Helyesírási javaslatok</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">A Google Diákban szinkronizálási hiba lépett fel</string>
     <string name="sync_more_error">Hiba történt a további elemek lekérésekor</string>
     <string name="sync_more_error_offline">Előfordulhat, hogy egyes dokumentumok nem láthatók offline.</string>
@@ -2038,7 +2037,7 @@ Kattintson a + gombra prezentáció létrehozásához."</string>
     <string name="team_drive_empty_list_message_cannot_create">Ha valaki hozzáadja egy csapatmeghajtóhoz, az megjelenik ebben a listában.</string>
     <string name="team_drive_settings_title">Beállítások</string>
     <string name="team_drive_trash_welcome_snackbar">A csapatmeghajtó kukájában lévő elemek 30 nap múlva véglegesen törölve lesznek.</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">%1$s, fejléc</string>
     <string name="template_category_education">Oktatás</string>
     <string name="template_category_personal">Személyes</string>
@@ -2112,6 +2111,8 @@ Kattintson a + gombra prezentáció létrehozásához."</string>
     <string name="unable_to_open_local_document_message">Előfordulhat, hogy át lett helyezve vagy törölve lett.</string>
     <string name="unable_to_open_local_document_title">Nem sikerült megnyitni az eszközön mentett fájlt</string>
     <string name="unable_to_read_calendar_data">Nem sikerült lekérni a naptárt</string>
+    <string name="unable_update_published_message">A közzétett webhely beállítása nem módosítható, amíg a piszkozatlink-beállítás nincs frissítve.</string>
+    <string name="unable_update_published_title">Nem sikerült frissíteni a beállítást</string>
     <string name="undeliverable_acl_changed_dialog_title">Törli módosításait, és visszaállítja a dokumentumot?</string>
     <string name="undeliverable_changes_dialog_content">Előfordulhat, hogy az offline módosítások elvesznek. Másolja őket a vágólapra.</string>
     <string name="undeliverable_changes_dialog_title">Törli a problémás módosításokat, és visszaállítja a dokumentumot?</string>
@@ -2214,6 +2215,8 @@ Kattintson a + gombra prezentáció létrehozásához."</string>
     <string name="upsell_negbtn">Később</string>
     <string name="upsell_okbtn">Bővítés</string>
     <string name="url_typo_error_msg">Úgy tűnik, a link hibás. Esetleg elírta?</string>
+    <string name="v7_preference_off">KI</string>
+    <string name="v7_preference_on">BE</string>
     <string name="verbalize_bulleted_list">listajel. %1$s</string>
     <string name="verbalize_numbered_list">%1$s. %2$s</string>
     <string name="verbalize_opened_edit">%1$s megnyitva szerkesztési jogosultsággal.</string>
@@ -2244,8 +2247,9 @@ Kattintson a + gombra prezentáció létrehozásához."</string>
     <string name="warm_welcome_next_button">Következő</string>
     <string name="warm_welcome_skip_button">Kihagyás</string>
     <string name="warning_cannot_share_outside_domain">A csapatmeghajtó beállításai miatt a tartalom nem osztható meg a domainen (%s) kívül</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">A csapatmeghajtó beállításai miatt a tartalom nem osztható meg olyan személyekkel, akik nem tagjai a csapatnak, illetve a(z) %s domainen kívül.</string>
     <string name="warning_cannot_share_outside_domain_org">A szervezet beállításai miatt nem osztható meg a tartalom a szervezeten kívül</string>
-    <string name="warning_cannot_share_outside_team_drive">A csapatmeghajtó beállításai miatt a tartalom nem osztható meg a csapaton kívül</string>
+    <string name="warning_cannot_share_outside_team_drive">A csapatmeghajtó beállításai nem teszik lehetővé a nem tagokkal való megosztást</string>
     <string name="welcome_button_close">Diák megnyitása</string>
     <string name="welcome_button_continue">Tovább</string>
     <string name="welcome_offer_button_close">Bezárás</string>
@@ -2265,7 +2269,7 @@ Kattintson a + gombra prezentáció létrehozásához."</string>
     <string name="zss_accessibility_searching">Keresés: %1$s</string>
     <string name="zss_date_range_header_title">Dátum módosítva</string>
     <string name="zss_date_range_month">Legutóbbi 30 nap</string>
-    <string name="zss_date_range_three_month">Legutóbbi 90 nap</string>
+    <string name="zss_date_range_three_month">A legutóbbi 90 nap</string>
     <string name="zss_date_range_today">Ma</string>
     <string name="zss_date_range_week">Legutóbbi 7 nap</string>
     <string name="zss_date_range_yesterday">Tegnap</string>
@@ -2273,13 +2277,13 @@ Kattintson a + gombra prezentáció létrehozásához."</string>
     <string name="zss_no_filters">Nincsenek szűrők</string>
     <string name="zss_owner_header_title">Tulajdonos</string>
     <string name="zss_owner_me">Saját tulajdonom</string>
-    <string name="zss_owner_not_me">Nem saját tulajdonom</string>
+    <string name="zss_owner_not_me">Nem a saját tulajdonom</string>
     <string name="zss_people_header_title">Személyek</string>
     <string name="zss_showing_list_of_filters">Az elérhető szűrők listájának megjelenítése.</string>
     <string name="zss_team_drive">Keresés a következőben: %1$s</string>
     <string name="zss_type_archive">Archívum</string>
     <string name="zss_type_audio">Hang</string>
-    <string name="zss_type_documents">Szövegfájlok</string>
+    <string name="zss_type_documents">Szöveges dokumentumok</string>
     <string name="zss_type_folder">Mappák</string>
     <string name="zss_type_images">Fotók és képek</string>
     <string name="zss_type_pdfs">PDF-fájlok</string>

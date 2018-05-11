@@ -475,6 +475,7 @@ Esta acción no se puede deshacer."</string>
     <string name="dialog_td_will_disappear">La unidad de equipo desaparecerá para todos los usuarios. Esta acción no se puede deshacer.</string>
     <string name="dialog_td_will_disappear_files_in_trash">Hay archivos de esta unidad de equipo en la papelera de \"%1$s\" y ningún usuario podrá restaurarlos. La unidad de equipo desaparecerá para todos los usuarios. Esta acción no se puede deshacer.</string>
     <string name="did_you_mean">Quizás quisiste decir: %1$s</string>
+    <string name="disabled_append">inhabilitada,</string>
     <string name="discussion_accept">Aceptar</string>
     <string name="discussion_acl_fix_access_role_commenter">Puede comentar</string>
     <string name="discussion_acl_fix_access_role_writer">Puede editar</string>
@@ -585,11 +586,11 @@ Esta acción no se puede deshacer."</string>
     <string name="doclist_date_never_label">Nunca</string>
     <string name="doclist_date_opened_label">Abierto por mí: %s</string>
     <string name="doclist_date_shared_label">Compartido: %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s · %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s · %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">Subido por mí: %s</string>
     <string name="doclist_detail_fragment_content_description">Mostrar propiedades del elemento</string>
-    <string name="doclist_entry_content_description" formatted="false">%s %s</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s %s de color: %s</string>
+    <string name="doclist_entry_content_description">%2$s %1$s</string>
+    <string name="doclist_entry_content_description_with_color">%2$s %1$s de color: %3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">Abrir panel de navegación</string>
     <string name="doclist_quota_used_label">Espacio usado: %s</string>
     <string name="doclist_selected_show_preview">Mostrar vista previa</string>
@@ -679,6 +680,8 @@ Esta acción no se puede deshacer."</string>
     <string name="draft_options_dialog_title">Ajustes del borrador del sitio web</string>
     <string name="draft_permission_change_anyone_warning">Si eliges esta configuración del borrador del sitio web, cualquier usuario podrá verlo cuando se publique.</string>
     <string name="draft_permission_change_domain_warning">Si eliges esta configuración del borrador del sitio web, cualquier usuario de %s podrá verlo cuando se publique.</string>
+    <string name="draft_permission_downgrade_domain_warning">Al cambiar el ajuste del borrador de este sitio web, solo los usuarios de %1$s podrán ver el enlace publicado</string>
+    <string name="draft_permission_downgrade_specific_warning">Al cambiar el ajuste del borrador de este sitio web, solo ciertos usuarios podrán ver el enlace publicado</string>
     <string name="drive_file_stream_disabled">Impedir a los usuarios abrir archivos de esta unidad de equipo con File Stream de Drive o similar</string>
     <string name="drive_file_stream_enabled">Permitir a los usuarios abrir archivos de esta unidad de equipo con File Stream de Drive o similar</string>
     <string name="drive_file_stream_title">File Stream de Drive</string>
@@ -721,7 +724,7 @@ Prueba a subir un archivo."</string>
     <string name="empty_doclist_for_pinned_view_details">Haz que los archivos estén disponibles sin conexión en el menú de opciones del archivo</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Toca Disponible sin conexión en el menú de un archivo para que puedas seguir trabajando en él sin conexión.</string>
     <string name="empty_doclist_for_recent_view">No hay ningún archivo que se haya abierto o editado recientemente.</string>
-    <string name="empty_doclist_for_search_view">No hay resultados.</string>
+    <string name="empty_doclist_for_search_view">Ningún resultado</string>
     <string name="empty_doclist_for_shared_with_me_view">Los archivos compartidos contigo se mostrarán aquí.</string>
     <string name="empty_doclist_for_starred_view">No hay archivos destacados.</string>
     <string name="empty_doclist_for_starred_view_details">Toca el icono de la estrella en el menú de opciones del archivo para añadirlo a esta lista.</string>
@@ -772,6 +775,7 @@ Haz clic en + para crear una presentación."</string>
     <string name="excess_head_count">Más de %1$d</string>
     <string name="excess_head_count_verbalization">y %1$d más.</string>
     <string name="exit_multiselect_mode_button">Salir del modo de selección múltiple</string>
+    <string name="expand_button_title">Avanzado</string>
     <string name="expires_future">Caduca en %1$s</string>
     <string name="expires_today">Caduca hoy</string>
     <string name="export_download_error_title">Error de descarga</string>
@@ -788,6 +792,11 @@ Haz clic en + para crear una presentación."</string>
     <string name="fab_office_document">Nuevo archivo de PowerPoint</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s de %2$d</string>
     <string name="fast_scroll_search_result_grouper">Resultados</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">kB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Anteriores</string>
     <string name="fast_scroll_time_grouper_last_week">La semana pasada</string>
     <string name="fast_scroll_time_grouper_this_month">Este mes antes</string>
@@ -816,7 +825,7 @@ Haz clic en + para crear una presentación."</string>
     <string name="file_picker_select_a_folder_heading">Seleccionar una carpeta</string>
     <string name="file_picker_select_button">Seleccionar</string>
     <string name="file_picker_storage_permissions_denied_toast">No se ha concedido permiso para acceder al almacenamiento local.</string>
-    <string name="file_too_large_for_upload" formatted="false">El archivo %1s es demasiado grande para subirlo a Google Drive. Su tamaño es %2s, pero el límite para este tipo de archivo es %3s. Quizás lo puedas subir sin tener que convertirlo a un formato de Google Drive.</string>
+    <string name="file_too_large_for_upload">El archivo %1$s es demasiado grande para subirlo a Google Drive. Su tamaño es %2$s, pero el límite para este tipo de archivo es %3$s. Quizás lo puedas subir sin tener que convertirlo a un formato de Google Drive.</string>
     <string name="file_too_large_for_upload_okbtn">Aceptar</string>
     <string name="file_too_large_for_upload_title">No se puede subir</string>
     <string name="file_was_not_sent">Archivo no compartido.</string>
@@ -992,17 +1001,8 @@ Haz clic en + para crear una presentación."</string>
     <string name="manage_addons_playstore_link_description">Acceder a la página de Play Store de %s</string>
     <string name="manage_members_default_members">Los miembros pueden subir, editar o eliminar archivos e invitar a otros de forma predeterminada</string>
     <string name="manage_members_dialog_title">Permisos de miembros</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Almacenamiento</string>
+    <string name="management_data_loading_failed">No se ha podido cargar esta página</string>
     <string name="member_count_max">Más de 99</string>
     <string name="menu_backup">Copias de seguridad</string>
     <string name="menu_copy_link">Copiar enlace</string>
@@ -1106,25 +1106,24 @@ Haz clic en + para crear una presentación."</string>
     <string name="move_error_target_folder_not_exist">La carpeta de destino no existe.</string>
     <string name="move_notice_lost_access_shared_folders">Se han sacado elementos de la carpeta compartida.</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s \"%2$s\" ya no puede acceder.</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">Se ha sacado 1 elemento de la unidad de equipo.</string>
     <string name="move_notice_lost_access_team_drives">Se han sacado elementos de la unidad de equipo.</string>
     <string name="mr_cast_button_connected">Botón de enviar. Conectado</string>
     <string name="mr_cast_button_connecting">Botón de enviar. Conectando</string>
     <string name="mr_cast_button_disconnected">Botón de enviar. Desconectado</string>
     <string name="mr_chooser_searching">Buscando dispositivos</string>
     <string name="mr_chooser_title">Enviar a</string>
-    <string name="mr_controller_album_art">Portada del álbum</string>
+    <string name="mr_controller_album_art">Carátula del álbum</string>
     <string name="mr_controller_casting_screen">Enviando pantalla</string>
     <string name="mr_controller_close_description">Cerrar</string>
     <string name="mr_controller_collapse_group">Ocultar</string>
     <string name="mr_controller_disconnect">Desconectar</string>
     <string name="mr_controller_expand_group">Mostrar</string>
     <string name="mr_controller_no_info_available">No hay información disponible</string>
-    <string name="mr_controller_no_media_selected">No se ha seleccionado ningún medio</string>
-    <string name="mr_controller_pause">Pausa</string>
+    <string name="mr_controller_no_media_selected">No se ha seleccionado contenido multimedia</string>
+    <string name="mr_controller_pause">Pausar</string>
     <string name="mr_controller_play">Reproducir</string>
     <string name="mr_controller_stop">Detener</string>
-    <string name="mr_controller_stop_casting">Detener envío de contenido</string>
+    <string name="mr_controller_stop_casting">Detener envío</string>
     <string name="mr_controller_volume_slider">Control deslizante de volumen</string>
     <string name="mr_user_route_category_name">Dispositivos</string>
     <string name="native_create_disabled_dialog_message">Tu cuenta no permite crear presentaciones con Presentaciones de Google.</string>
@@ -1161,7 +1160,7 @@ Haz clic en + para crear una presentación."</string>
     <string name="no_scheduled_meetings">No hay reuniones programadas</string>
     <string name="no_team_drives_title">No hay unidades de equipo</string>
     <string name="no_thanks">No, gracias</string>
-    <string name="not_enough_storage_for_upload" formatted="false">El archivo %1s es demasiado grande para subirlo a Google Drive. Ocupa %2s, pero solo te quedan %3s disponibles. Adquiere más almacenamiento e inténtalo de nuevo.</string>
+    <string name="not_enough_storage_for_upload">El archivo %1$s es demasiado grande para subirlo a Google Drive. Ocupa %2$s, pero solo te quedan %3$s disponibles. Adquiere más almacenamiento e inténtalo de nuevo.</string>
     <string name="notification_channel_name_default">Predeterminado</string>
     <string name="notification_channel_name_high_priority">Prioridad alta</string>
     <string name="notification_channel_name_low_priority">Prioridad baja</string>
@@ -1241,8 +1240,8 @@ Haz clic en + para crear una presentación."</string>
     <string name="ouch_title_sawwrie">Lo sentimos.</string>
     <string name="overwrite_confirm_dialog_message">%1$s ya existe. ¿Quieres sobrescribirlo?</string>
     <string name="overwrite_confirm_dialog_positive_button_label">Sobrescribir</string>
-    <string name="owner_not_user">No pertenecen a %1$s</string>
-    <string name="owner_user">Pertenecen a %1$s</string>
+    <string name="owner_not_user">No son propiedad de %1$s</string>
+    <string name="owner_user">Propiedad de %1$s</string>
     <string name="page_1_description">Haz tus cosas con o sin conexión a Internet.</string>
     <string name="page_1_heading_editors">Presentaciones desde cualquier parte</string>
     <string name="page_2_description">Escribe por tu cuenta o invita a más personas a que participen.</string>
@@ -1444,7 +1443,6 @@ Haz clic en + para crear una presentación."</string>
     <string name="published_access_anyone">Cualquier usuario puede ver la versión publicada</string>
     <string name="published_access_domain">Cualquier usuario de %s puede ver la versión publicada</string>
     <string name="published_access_select_people">Solo ciertos usuarios pueden la versión publicada</string>
-    <string name="published_disabled_append">inhabilitada,</string>
     <string name="published_message_for_anyone_can_edit">Como cualquier usuario puede editar el borrador, cualquiera podrá verlo cuando se publique.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Como cualquier usuario de %1$s puede editar el borrador, cualquiera que pertenezca a %1$s podrá verlo cuando se publique.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Como cualquier usuario con el enlace puede editar el borrador, cualquiera podrá verlo cuando se publique.</string>
@@ -1558,7 +1556,7 @@ Haz clic en + para crear una presentación."</string>
     <string name="punch_show_slide">Mostrar diapositiva</string>
     <string name="punch_speaker_notes_title">Notas del orador</string>
     <string name="punch_speakernotes_closed">Notas del orador cerradas.</string>
-    <string name="punch_thor_invite_email_body" formatted="false">Información de acceso:&lt;br> %s &lt;br> %s PIN:%s</string>
+    <string name="punch_thor_invite_email_body">Información de acceso:&lt;br> %1$s &lt;br> %2$s PIN:%3$s</string>
     <string name="punctuation_period">.</string>
     <string name="purchase_dialog_how_storage_used">El espacio de almacenamiento se comparte entre Gmail, Google Fotos y Google Drive</string>
     <string name="purchase_dialog_manage">Gestionar almacenamiento</string>
@@ -2018,6 +2016,7 @@ Haz clic en + para crear una presentación."</string>
     <string name="suggestions_add_to_dictionary">Añadir al diccionario</string>
     <string name="suggestions_delete_text">Eliminar</string>
     <string name="suggestions_popup_opened">Sugerencias de ortografía</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Error de sincronización de Presentaciones de Google</string>
     <string name="sync_more_error">Error al recuperar elementos adicionales</string>
     <string name="sync_more_error_offline">Puede que algunos documentos no estén visibles mientras no tengas conexión.</string>
@@ -2050,7 +2049,7 @@ Haz clic en + para crear una presentación."</string>
     <string name="team_drive_empty_list_message_cannot_create">Cuando alguien te añada a una unidad de equipo, la verás en esta lista.</string>
     <string name="team_drive_settings_title">Ajustes</string>
     <string name="team_drive_trash_welcome_snackbar">Los elementos de la papelera de unidades de equipo se eliminan a los 30 días.</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">%1$s, título</string>
     <string name="template_category_education">Educación</string>
     <string name="template_category_personal">Personal</string>
@@ -2124,6 +2123,8 @@ Haz clic en + para crear una presentación."</string>
     <string name="unable_to_open_local_document_message">Puede que se haya movido o eliminado.</string>
     <string name="unable_to_open_local_document_title">No se puede abrir el archivo guardado en el dispositivo</string>
     <string name="unable_to_read_calendar_data">No se puede consultar el calendario</string>
+    <string name="unable_update_published_message">El ajuste del sitio web publicado solo se puede cambiar una vez que se haya modificado el ajuste del enlace al borrador</string>
+    <string name="unable_update_published_title">No se puede cambiar el ajuste</string>
     <string name="undeliverable_acl_changed_dialog_title">¿Quieres eliminar los cambios y recuperar la versión anterior del documento?</string>
     <string name="undeliverable_changes_dialog_content">Los cambios sin conexión podrían perderse. No te olvides de copiarlos en el Portapapeles.</string>
     <string name="undeliverable_changes_dialog_title">¿Eliminar los cambios problemáticos y recuperar una versión anterior del documento?</string>
@@ -2226,6 +2227,8 @@ Haz clic en + para crear una presentación."</string>
     <string name="upsell_negbtn">En otro momento</string>
     <string name="upsell_okbtn">Adquirir más almacenamiento</string>
     <string name="url_typo_error_msg">El enlace no parece correcto. ¿Está bien escrito?</string>
+    <string name="v7_preference_off">DESACTIVADO</string>
+    <string name="v7_preference_on">ACTIVADO</string>
     <string name="verbalize_bulleted_list">viñeta. %1$s</string>
     <string name="verbalize_numbered_list">%1$s. %2$s</string>
     <string name="verbalize_opened_edit">Se ha abierto %1$s con permisos para editar.</string>
@@ -2256,8 +2259,9 @@ Haz clic en + para crear una presentación."</string>
     <string name="warm_welcome_next_button">Siguiente</string>
     <string name="warm_welcome_skip_button">Saltar</string>
     <string name="warning_cannot_share_outside_domain">La configuración de esta unidad de equipo impide compartir el archivo fuera de %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">La configuración de esta unidad de equipo impide compartir archivos con usuarios que no pertenezcan a ella y fuera de %s</string>
     <string name="warning_cannot_share_outside_domain_org">La configuración de la organización impide compartir archivos fuera de ella</string>
-    <string name="warning_cannot_share_outside_team_drive">La configuración de esta unidad de equipo impide compartir el archivo fuera del equipo</string>
+    <string name="warning_cannot_share_outside_team_drive">La configuración de esta unidad de equipo impide compartir archivos con usuarios que no pertenezcan a ella</string>
     <string name="welcome_button_close">Ir a Presentaciones</string>
     <string name="welcome_button_continue">Siguiente</string>
     <string name="welcome_offer_button_close">Cerrar</string>
@@ -2279,7 +2283,7 @@ Haz clic en + para crear una presentación."</string>
     <string name="zss_date_range_month">Últimos 30 días</string>
     <string name="zss_date_range_three_month">Últimos 90 días</string>
     <string name="zss_date_range_today">Hoy</string>
-    <string name="zss_date_range_week">Últimos 7 días</string>
+    <string name="zss_date_range_week">Últimos 7 días</string>
     <string name="zss_date_range_yesterday">Ayer</string>
     <string name="zss_entry_types_header_title">Tipos de archivo</string>
     <string name="zss_no_filters">Ningún filtro</string>
@@ -2294,7 +2298,7 @@ Haz clic en + para crear una presentación."</string>
     <string name="zss_type_documents">Documentos de texto</string>
     <string name="zss_type_folder">Carpetas</string>
     <string name="zss_type_images">Fotos e imágenes</string>
-    <string name="zss_type_pdfs">PDF</string>
+    <string name="zss_type_pdfs">Archivos PDF</string>
     <string name="zss_type_presentations">Presentaciones</string>
     <string name="zss_type_spreadsheets">Hojas de cálculo</string>
     <string name="zss_type_video">Vídeos</string>

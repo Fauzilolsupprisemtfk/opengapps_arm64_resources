@@ -475,6 +475,7 @@ Cette action est irréversible."</string>
     <string name="dialog_td_will_disappear">"Ce disque d'équipe disparaîtra pour tout le monde et cette action est irréversible."</string>
     <string name="dialog_td_will_disappear_files_in_trash">"Les fichiers de ce disque d'équipe se trouvent dans la corbeille du disque « %1$s » et aucun utilisateur ne pourra les restaurer. Ce disque d'équipe disparaîtra pour tout le monde et cette action est irréversible."</string>
     <string name="did_you_mean">Vouliez-vous dire : %1$s</string>
+    <string name="disabled_append">désactivée,</string>
     <string name="discussion_accept">Accepter</string>
     <string name="discussion_acl_fix_access_role_commenter">Commentaires autorisés</string>
     <string name="discussion_acl_fix_access_role_writer">Modification autorisée</string>
@@ -585,11 +586,11 @@ Cette action est irréversible."</string>
     <string name="doclist_date_never_label">Jamais</string>
     <string name="doclist_date_opened_label">Ouvert par moi : %s</string>
     <string name="doclist_date_shared_label">Partagé : %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s · %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s · %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">Téléversé par moi : %s</string>
     <string name="doclist_detail_fragment_content_description">"Afficher les propriétés de l'élément"</string>
-    <string name="doclist_entry_content_description" formatted="false">%s %s</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s %s couleur :%s</string>
+    <string name="doclist_entry_content_description">%1$s %2$s</string>
+    <string name="doclist_entry_content_description_with_color">%1$s %2$s couleur :%3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">Ouvrir le panneau de navigation</string>
     <string name="doclist_quota_used_label">Espace de stockage utilisé : %s</string>
     <string name="doclist_selected_show_preview">"Afficher l'aperçu"</string>
@@ -679,6 +680,8 @@ Cette action est irréversible."</string>
     <string name="draft_options_dialog_title">Paramètres du site en construction</string>
     <string name="draft_permission_change_anyone_warning">"Si vous activez ce paramètre de l'ébauche de site, tous les utilisateurs pourront consulter la version publiée."</string>
     <string name="draft_permission_change_domain_warning">"Si vous activez ce paramètre de l'ébauche de site, tous les utilisateurs du domaine %s pourront consulter la version publiée."</string>
+    <string name="draft_permission_downgrade_domain_warning">"Si vous modifiez le paramètre de partage de l'ébauche de site, seuls les membres du domaine %1$s pourront voir le lien publié"</string>
+    <string name="draft_permission_downgrade_specific_warning">"Si vous modifiez le paramètre de partage de l'ébauche de site, seules certaines personnes pourront voir le lien publié"</string>
     <string name="drive_file_stream_disabled">"Empêcher les utilisateurs d'ouvrir des fichiers de ce disque d'équipe à l'aide de Drive File Stream ou d'applications similaires"</string>
     <string name="drive_file_stream_enabled">"Autoriser les utilisateurs à ouvrir des fichiers de ce disque d'équipe à l'aide de Drive File Stream ou d'applications similaires"</string>
     <string name="drive_file_stream_title">Drive File Stream</string>
@@ -721,7 +724,7 @@ Essayez d'y téléverser un fichier."</string>
     <string name="empty_doclist_for_pinned_view_details">Vous pouvez rendre les fichiers disponibles hors connexion dans le menu Options de ces fichiers</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">"Appuyez sur « Disponible hors connexion » dans le menu d'un fichier pour pouvoir continuer d'y travailler hors connexion."</string>
     <string name="empty_doclist_for_recent_view">Aucun fichier ouvert ou modifié récemment.</string>
-    <string name="empty_doclist_for_search_view">Aucun résultat.</string>
+    <string name="empty_doclist_for_search_view">Aucun résultat</string>
     <string name="empty_doclist_for_shared_with_me_view">"Les fichiers partagés avec vous s'afficheront ici."</string>
     <string name="empty_doclist_for_starred_view">"Vous n'avez aucun fichier marqué d'une étoile."</string>
     <string name="empty_doclist_for_starred_view_details">"Appuyez sur l'icône en forme d'étoile dans le menu Options du fichier pour l'ajouter à cette liste."</string>
@@ -772,13 +775,14 @@ Cliquez sur + pour créer une présentation."</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d autres collaborateurs.</string>
     <string name="exit_multiselect_mode_button">Quitter le mode multi-sélection</string>
+    <string name="expand_button_title">Avancé</string>
     <string name="expires_future">Expire dans %1$s</string>
     <string name="expires_today">"Expire aujourd'hui"</string>
     <string name="export_download_error_title">Erreur de téléchargement</string>
     <string name="export_error_message">"Une erreur s'est produite."</string>
     <string name="export_error_message_network">"Une erreur de transmission s'est produite. Vérifiez votre connexion réseau."</string>
     <string name="export_error_message_server">"Une erreur de conversion s'est produite. Veuillez réessayer plus tard."</string>
-    <string name="export_failure_notification_content">Impossible d’enregistrer « %1$s »</string>
+    <string name="export_failure_notification_content">"Impossible d'enregistrer « %1$s »"</string>
     <string name="export_notification_content">Enregistrement du fichier « %1$s » en cours…</string>
     <string name="exporting_start_msg">"Préparation de l'exportation en cours…"</string>
     <string name="fab_choose_template">Sélectionner un modèle</string>
@@ -788,6 +792,11 @@ Cliquez sur + pour créer une présentation."</string>
     <string name="fab_office_document">Nouveau fichier PowerPoint</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Résultats de rech.</string>
+    <string name="fast_scroll_size_grouper_b">O</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">Go</string>
+    <string name="fast_scroll_size_grouper_kb">ko</string>
+    <string name="fast_scroll_size_grouper_mb">Mo</string>
     <string name="fast_scroll_time_grouper_earlier">Plus anciens</string>
     <string name="fast_scroll_time_grouper_last_week">Semaine dernière</string>
     <string name="fast_scroll_time_grouper_this_month">Plus tôt ce mois</string>
@@ -816,7 +825,7 @@ Cliquez sur + pour créer une présentation."</string>
     <string name="file_picker_select_a_folder_heading">Sélectionner un dossier</string>
     <string name="file_picker_select_button">Sélectionner</string>
     <string name="file_picker_storage_permissions_denied_toast">"Autorisation non accordée pour accéder à l'espace de stockage local."</string>
-    <string name="file_too_large_for_upload" formatted="false">Le fichier %1s est trop volumineux pour être téléversé dans Google Disque. Sa taille est de %2s, mais la limite pour ce type de fichier est de %3s. Vous pourriez peut-être le téléverser sans le convertir.</string>
+    <string name="file_too_large_for_upload">Le fichier %1$s est trop volumineux pour être téléversé dans Google Disque. Sa taille est de %2$s, mais la limite pour ce type de fichier est de %3$s. Vous pourriez peut-être le téléverser sans le convertir.</string>
     <string name="file_too_large_for_upload_okbtn">OK</string>
     <string name="file_too_large_for_upload_title">Téléversement impossible</string>
     <string name="file_was_not_sent">Fichier non partagé.</string>
@@ -980,6 +989,8 @@ Cliquez sur + pour créer une présentation."</string>
     <string name="manage_addons_playstore_link_description">Accéder à la page de %s dans la boutique Google Play Store</string>
     <string name="manage_members_default_members">"Droits par défaut : téléverser, modifier et supprimer des fichiers; inviter d'autres membres"</string>
     <string name="manage_members_dialog_title">Accès des membres</string>
+    <string name="management_activity_toolbar_title">Espace de stockage</string>
+    <string name="management_data_loading_failed">Impossible de charger cette page</string>
     <string name="member_count_max">99+</string>
     <string name="menu_backup">Sauvegardes</string>
     <string name="menu_copy_link">Copier le lien</string>
@@ -1083,22 +1094,21 @@ Cliquez sur + pour créer une présentation."</string>
     <string name="move_error_target_folder_not_exist">"Le dossier cible n'existe pas."</string>
     <string name="move_notice_lost_access_shared_folders">Éléments retirés du dossier partagé. Ils sont inaccessibles.</string>
     <string name="move_notice_lost_access_team_drive_single">"%1$s « %2$s » n'y a plus accès."</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">"1 élément retiré du disque d'équipe. Il est inaccessible."</string>
     <string name="move_notice_lost_access_team_drives">"Éléments retirés du disque d'équipe. Ils sont inaccessibles."</string>
     <string name="mr_cast_button_connected">Bouton Diffuser. Connecté</string>
     <string name="mr_cast_button_connecting">Bouton Diffuser. Connexion en cours…</string>
     <string name="mr_cast_button_disconnected">Bouton Diffuser. Déconnecté</string>
     <string name="mr_chooser_searching">"Recherche d'appareils"</string>
-    <string name="mr_chooser_title">Diffuser sur</string>
+    <string name="mr_chooser_title">Diffuser vers</string>
     <string name="mr_controller_album_art">"Image de l'album"</string>
     <string name="mr_controller_casting_screen">"Diffusion de l'écran en cours"</string>
     <string name="mr_controller_close_description">Fermer</string>
     <string name="mr_controller_collapse_group">Réduire</string>
-    <string name="mr_controller_disconnect">Se déconnecter</string>
+    <string name="mr_controller_disconnect">Dissocier</string>
     <string name="mr_controller_expand_group">Développer</string>
-    <string name="mr_controller_no_info_available">Aucune information disponible</string>
+    <string name="mr_controller_no_info_available">Aucune donnée trouvée</string>
     <string name="mr_controller_no_media_selected">Aucun média sélectionné</string>
-    <string name="mr_controller_pause">Interrompre</string>
+    <string name="mr_controller_pause">Pause</string>
     <string name="mr_controller_play">Lire</string>
     <string name="mr_controller_stop">Arrêter</string>
     <string name="mr_controller_stop_casting">Arrêter la diffusion</string>
@@ -1138,7 +1148,7 @@ Cliquez sur + pour créer une présentation."</string>
     <string name="no_scheduled_meetings">Aucune réunion prévue</string>
     <string name="no_team_drives_title">"Aucun disque d'équipe"</string>
     <string name="no_thanks">Non, merci</string>
-    <string name="not_enough_storage_for_upload" formatted="false">"Le fichier %1s est trop volumineux pour être téléversé dans Google Disque. Sa taille est de %2s, mais vous avez seulement %3s d'espace de stockage disponible. Veuillez augmenter votre espace de stockage et réessayer."</string>
+    <string name="not_enough_storage_for_upload">"Le fichier %1$s est trop volumineux pour être téléversé dans Google Disque. Sa taille est de %2$s, mais vous avez seulement %3$s d'espace de stockage disponible. Veuillez augmenter votre espace de stockage et réessayer."</string>
     <string name="notification_channel_name_default">Par défaut</string>
     <string name="notification_channel_name_high_priority">Priorité élevée</string>
     <string name="notification_channel_name_low_priority">Priorité faible</string>
@@ -1218,8 +1228,8 @@ Cliquez sur + pour créer une présentation."</string>
     <string name="ouch_title_sawwrie">Désolés!</string>
     <string name="overwrite_confirm_dialog_message">"Le fichier %1$s existe déjà. Voulez-vous l'écraser?"</string>
     <string name="overwrite_confirm_dialog_positive_button_label">Écraser</string>
-    <string name="owner_not_user">"N'appartient pas à %1$s"</string>
-    <string name="owner_user">Appartient à %1$s</string>
+    <string name="owner_not_user">"N'appartenant pas à %1$s"</string>
+    <string name="owner_user">Appartenant à %1$s</string>
     <string name="page_1_description">Travaillez avec ou sans connexion Internet.</string>
     <string name="page_1_heading_editors">Présentations en déplacement</string>
     <string name="page_2_description">"Travaillez seul(e) ou invitez d'autres utilisateurs à collaborer sur un fichier."</string>
@@ -1420,7 +1430,6 @@ Cliquez sur + pour créer une présentation."</string>
     <string name="published_access_anyone">Consultation de la version publiée autorisée pour tous</string>
     <string name="published_access_domain">Consultation de la version publiée autorisée pour tout utilisateur de %s</string>
     <string name="published_access_select_people">Consultation de la version publiée autorisée pour des personnes précises</string>
-    <string name="published_disabled_append">désactivée,</string>
     <string name="published_message_for_anyone_can_edit">Comme tous les utilisateurs peuvent apporter des modifications, tous les utilisateurs pourront consulter la version publiée.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Comme tous les membres du domaine %1$s peuvent apporter des modifications, tous les membres du domaine %1$s sont autorisés à consulter la version publiée.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Comme tous les utilisateurs disposant du lien peuvent apporter des modifications, tous les utilisateurs pourront consulter la version publiée.</string>
@@ -1534,7 +1543,7 @@ Cliquez sur + pour créer une présentation."</string>
     <string name="punch_show_slide">Afficher la diapositive</string>
     <string name="punch_speaker_notes_title">Commentaires du présentateur</string>
     <string name="punch_speakernotes_closed">Commentaires du présentateur fermés.</string>
-    <string name="punch_thor_invite_email_body" formatted="false">"Données d'accès :&lt;br> %s &lt;br> %s NIP :%s"</string>
+    <string name="punch_thor_invite_email_body">"Données d'accès :&lt;br> %1$s &lt;br> %2$s NIP :%3$s"</string>
     <string name="punctuation_period">.</string>
     <string name="purchase_dialog_how_storage_used">"L'espace de stockage est partagé entre Gmail, Google Photos et Google Disque"</string>
     <string name="purchase_dialog_manage">Gérer le stockage</string>
@@ -1994,6 +2003,7 @@ Cliquez sur + pour créer une présentation."</string>
     <string name="suggestions_add_to_dictionary">Ajouter au dictionnaire</string>
     <string name="suggestions_delete_text">Supprimer</string>
     <string name="suggestions_popup_opened">Suggestions d’orthographe</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Erreur de synchronisation Google Présentations</string>
     <string name="sync_more_error">Une erreur est survenue lors de la récupération d’éléments supplémentaires</string>
     <string name="sync_more_error_offline">Certains documents pourraient ne pas être visibles hors connexion.</string>
@@ -2026,7 +2036,7 @@ Cliquez sur + pour créer une présentation."</string>
     <string name="team_drive_empty_list_message_cannot_create">"Lorsque quelqu'un vous ajoute à un disque d'équipe, ce disque apparaît ici."</string>
     <string name="team_drive_settings_title">Paramètres</string>
     <string name="team_drive_trash_welcome_snackbar">"Éléments dans la corbeille des disques d'équipe supprimés déf. après 30 jours."</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">%1$s, en-tête</string>
     <string name="template_category_education">Éducation</string>
     <string name="template_category_personal">Personnel</string>
@@ -2100,6 +2110,8 @@ Cliquez sur + pour créer une présentation."</string>
     <string name="unable_to_open_local_document_message">Il a peut-être été déplacé ou supprimé.</string>
     <string name="unable_to_open_local_document_title">"Imposs. ouvrir le fichier sur l'appareil"</string>
     <string name="unable_to_read_calendar_data">"Impossible d'interroger l’agenda"</string>
+    <string name="unable_update_published_message">Le paramètre du lien vers le site en construction doit être mis à jour avant que le paramètre du site publié puisse être modifié</string>
+    <string name="unable_update_published_title">Impossible de mettre à jour le paramètre</string>
     <string name="undeliverable_acl_changed_dialog_title">Souhaitez-vous supprimer vos modifications et rétablir le document?</string>
     <string name="undeliverable_changes_dialog_content">"Les modifications apportées hors connexion risquent d'être perdues. Assurez-vous de les avoir copiées dans le presse-papiers."</string>
     <string name="undeliverable_changes_dialog_title">Souhaitez-vous supprimer les modifications qui posent problème et rétablir le document?</string>
@@ -2202,6 +2214,8 @@ Cliquez sur + pour créer une présentation."</string>
     <string name="upsell_negbtn">Plus tard</string>
     <string name="upsell_okbtn">"Augmenter l'espace de stockage"</string>
     <string name="url_typo_error_msg">Le lien semble incorrect. Erreur de saisie?</string>
+    <string name="v7_preference_off">DÉSACTIVÉ</string>
+    <string name="v7_preference_on">ACTIVÉ</string>
     <string name="verbalize_bulleted_list">puce. %1$s</string>
     <string name="verbalize_numbered_list">%1$s. %2$s</string>
     <string name="verbalize_opened_edit">Fichier %1$s ouvert avec autorisation de modification.</string>
@@ -2232,6 +2246,7 @@ Cliquez sur + pour créer une présentation."</string>
     <string name="warm_welcome_next_button">Suivant</string>
     <string name="warm_welcome_skip_button">Ignorer</string>
     <string name="warning_cannot_share_outside_domain">"Les paramètres de ce disque d'équipe empêchent le partage en dehors du domaine %s"</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">"Les paramètres de ce disque d'équipe empêchent le partage en dehors de l'équipe et du domaine %s"</string>
     <string name="warning_cannot_share_outside_domain_org">"Les paramètres de l'organisation empêchent le partage en dehors de celle-ci"</string>
     <string name="warning_cannot_share_outside_team_drive">"Les paramètres de ce disque d'équipe empêchent le partage en dehors de l'équipe"</string>
     <string name="welcome_button_close">Google Présentations</string>
@@ -2251,7 +2266,7 @@ Cliquez sur + pour créer une présentation."</string>
     <string name="welcome_title_highlights">"Panneau d'annonce %1$s."</string>
     <string name="write_access_denied">Accès en écriture au document refusé.</string>
     <string name="zss_accessibility_searching">Recherche de %1$s en cours…</string>
-    <string name="zss_date_range_header_title">Date modifiée</string>
+    <string name="zss_date_range_header_title">Date de modification</string>
     <string name="zss_date_range_month">30 derniers jours</string>
     <string name="zss_date_range_three_month">90 derniers jours</string>
     <string name="zss_date_range_today">"Aujourd'hui"</string>
@@ -2260,12 +2275,12 @@ Cliquez sur + pour créer une présentation."</string>
     <string name="zss_entry_types_header_title">Types de fichiers</string>
     <string name="zss_no_filters">Aucun filtre</string>
     <string name="zss_owner_header_title">Appartenant à</string>
-    <string name="zss_owner_me">Créé(s) par moi</string>
+    <string name="zss_owner_me">"M'appartenant"</string>
     <string name="zss_owner_not_me">"Ne m'appartenant pas"</string>
     <string name="zss_people_header_title">Personnes</string>
     <string name="zss_showing_list_of_filters">Affichage de la liste de filtres disponibles.</string>
     <string name="zss_team_drive">Rechercher dans %1$s</string>
-    <string name="zss_type_archive">Archiver</string>
+    <string name="zss_type_archive">Archive</string>
     <string name="zss_type_audio">Audio</string>
     <string name="zss_type_documents">Documents texte</string>
     <string name="zss_type_folder">Dossiers</string>

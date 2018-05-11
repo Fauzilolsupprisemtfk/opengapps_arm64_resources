@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="abc_action_bar_up_description">மேலே வழிசெலுத்து</string>
+    <string name="abc_action_bar_up_description">மேலே செல்</string>
     <string name="abc_action_menu_overflow_description">மேலும் விருப்பங்கள்</string>
     <string name="abc_action_mode_done">முடிந்தது</string>
     <string name="abc_activity_chooser_view_see_all">எல்லாம் காட்டு</string>
@@ -457,6 +457,7 @@
     <string name="dialog_td_will_disappear">இந்தக் குழு இயக்ககம் இனி எந்த உறுப்பினருக்கும் காட்டப்படாது. இதைச் செயல்தவிர்க்க முடியாது.</string>
     <string name="dialog_td_will_disappear_files_in_trash">இந்தக் குழு இயக்ககத்தில் இருக்கும் கோப்புகள் \"%1$s\" இன் குப்பைக்கு நகர்த்தப்படுவதோடு, அவற்றை எந்தப் பயனராலும் மீட்டெடுக்க முடியாது. இந்தக் குழு இயக்ககம் எந்த உறுப்பினருக்கும் காட்டப்படாது. அத்துடன் இதைச் செயல்தவிர்க்க முடியாது.</string>
     <string name="did_you_mean">இதைக் குறிப்பிட்டீர்களா: %1$s</string>
+    <string name="disabled_append">முடக்கப்பட்டது,</string>
     <string name="discussion_accept">ஏற்றுக்கொள்</string>
     <string name="discussion_acl_fix_access_role_commenter">கருத்து தெரிவிக்கலாம்</string>
     <string name="discussion_acl_fix_access_role_writer">திருத்தலாம்</string>
@@ -567,11 +568,11 @@
     <string name="doclist_date_never_label">ஒருபோதுமில்லை</string>
     <string name="doclist_date_opened_label">நான் திறந்தது: %s</string>
     <string name="doclist_date_shared_label">பகிர்ந்தது: %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s · %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s · %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">நான் பதிவேற்றியது: %s</string>
     <string name="doclist_detail_fragment_content_description">உருப்படி பண்புகளைக் காட்டு</string>
-    <string name="doclist_entry_content_description" formatted="false">%s %s</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s %s வண்ணம்:%s</string>
+    <string name="doclist_entry_content_description">%1$s %2$s</string>
+    <string name="doclist_entry_content_description_with_color">%1$s %2$s வண்ணம்:%3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">வழிசெலுத்தல் டிராயரைத் திற</string>
     <string name="doclist_quota_used_label">பயன்படுத்திய சேமிப்பிட அளவு: %s</string>
     <string name="doclist_selected_show_preview">மாதிரிக்காட்சியைக் காட்டு</string>
@@ -661,6 +662,8 @@
     <string name="draft_options_dialog_title">வரைவுத் தள அமைப்புகள்</string>
     <string name="draft_permission_change_anyone_warning">இந்த வரைவுத் தள அமைப்பிற்கு மாற்றினால், வெளியிட்டிருக்கும் போது அனைவரும் பார்க்கலாம்.</string>
     <string name="draft_permission_change_domain_warning">இந்த வரைவுத் தள அமைப்பிற்கு மாற்றினால், வெளியிட்டிருக்கும் போது %s இல் உள்ள அனைவரும் பார்க்கலாம்.</string>
+    <string name="draft_permission_downgrade_domain_warning">இந்த வரைவு தள அமைப்பை மாற்றினால், %1$s மட்டுமே வெளியிட்ட இணைப்பைப் பார்க்க முடியும்</string>
+    <string name="draft_permission_downgrade_specific_warning">இந்த வரைவு தள அமைப்பை மாற்றினால், குறிப்பிட்ட நபர்களால் மட்டுமே வெளியிட்ட இணைப்பைப் பார்க்க முடியும்</string>
     <string name="drive_file_stream_disabled">இயக்கக நேரடி ஒத்திசைவு அல்லது அதுபோன்ற பயன்பாடுகளைப் பயன்படுத்தி, இந்தக் குழு இயக்ககத்தில் உள்ள கோப்புகளைப் பிறர் திறப்பதைத் தடுக்கும்</string>
     <string name="drive_file_stream_enabled">இயக்கக நேரடி ஒத்திசைவு அல்லது அதுபோன்ற பயன்பாடுகளைப் பயன்படுத்தி, இந்தக் குழு இயக்ககத்தில் உள்ள கோப்புகளைத் திறப்பதற்கு, பிறரை அனுமதிக்கும்</string>
     <string name="drive_file_stream_title">இயக்கக நேரடி ஒத்திசைவு</string>
@@ -702,7 +705,7 @@
     <string name="empty_doclist_for_pinned_view_details">கோப்பின் விருப்பங்கள் மெனுவில் \"ஆஃப்லைனில் கிடைக்கும்படி செய்\" என்பதைத் தேர்ந்தெடுத்து, கோப்புகளை ஆஃப்லைனில் பயன்படுத்தலாம்</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">ஆஃப்லைனிலும் கோப்பைத் தொடர்ந்து பயன்படுத்த, கோப்பின் மெனுவில் \"ஆஃப்லைனில் கிடைக்கும்படி செய்\" என்பதைத் தட்டவும்.</string>
     <string name="empty_doclist_for_recent_view">சமீபத்தில் எந்தக் கோப்பையும் திறக்கவில்லை அல்லது திருத்தவில்லை.</string>
-    <string name="empty_doclist_for_search_view">முடிவுகள் இல்லை.</string>
+    <string name="empty_doclist_for_search_view">முடிவுகள் இல்லை</string>
     <string name="empty_doclist_for_shared_with_me_view">உங்களுடன் பகிரப்பட்ட கோப்புகள் இங்கே தோன்றும்.</string>
     <string name="empty_doclist_for_starred_view">நட்சத்திரமிட்ட கோப்புகள் இல்லை.</string>
     <string name="empty_doclist_for_starred_view_details">கோப்பை இந்தப் பட்டியலில் சேர்க்க, கோப்பின் விருப்ப மெனுவில் உள்ள நட்சத்திர ஐகானைத் தட்டவும்.</string>
@@ -753,6 +756,7 @@
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d பேர்.</string>
     <string name="exit_multiselect_mode_button">பல-தேர்ந்தெடுப்பு முறையிலிருந்து வெளியேறு</string>
+    <string name="expand_button_title">மேம்பட்டது</string>
     <string name="expires_future">%1$s இல் காலாவதியாகும்</string>
     <string name="expires_today">இன்று காலாவதியாகிறது</string>
     <string name="export_download_error_title">பதிவிறக்கப் பிழை</string>
@@ -769,6 +773,11 @@
     <string name="fab_office_document">புதிய Powerpoint கோப்பு</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">தேடல் முடிவுகள்</string>
+    <string name="fast_scroll_size_grouper_b">பை.</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">ஜி.பை.</string>
+    <string name="fast_scroll_size_grouper_kb">கி.பை.</string>
+    <string name="fast_scroll_size_grouper_mb">மெ.பை.</string>
     <string name="fast_scroll_time_grouper_earlier">பழையவை</string>
     <string name="fast_scroll_time_grouper_last_week">கடந்த வாரம்</string>
     <string name="fast_scroll_time_grouper_this_month">இம்மாதத் தொடக்கம்</string>
@@ -797,7 +806,7 @@
     <string name="file_picker_select_a_folder_heading">கோப்புறையைத் தேர்ந்தெடுக்கவும்</string>
     <string name="file_picker_select_button">தேர்ந்தெடு</string>
     <string name="file_picker_storage_permissions_denied_toast">அகச் சேமிப்பகத்தை அணுக, அனுமதி வழங்கப்படவில்லை.</string>
-    <string name="file_too_large_for_upload" formatted="false">%1s கோப்பு மிகவும் பெரிதாக உள்ளதால், அதை Google இயக்ககத்தில் பதிவேற்ற முடியாது. இதன் அளவு %2s, ஆனால் இந்த வகையான கோப்பிற்கான வரம்பு %3s ஆகும். இந்தக் கோப்பை Google இயக்கக வடிவமைப்பிற்கு மாற்றாமல் பதிவேற்றலாம்.</string>
+    <string name="file_too_large_for_upload">%1$s கோப்பு மிகவும் பெரிதாக உள்ளதால், அதை Google இயக்ககத்தில் பதிவேற்ற முடியாது. இதன் அளவு %2$s, ஆனால் இந்த வகையான கோப்பிற்கான வரம்பு %3$s ஆகும். இந்தக் கோப்பை Google இயக்கக வடிவமைப்பிற்கு மாற்றாமல் பதிவேற்றலாம்.</string>
     <string name="file_too_large_for_upload_okbtn">சரி</string>
     <string name="file_too_large_for_upload_title">பதிவேற்ற முடியாது</string>
     <string name="file_was_not_sent">கோப்பு பகிரப்படவில்லை.</string>
@@ -957,17 +966,8 @@
     <string name="make_copy_spinner_message">நகலெடுக்கிறது…</string>
     <string name="manage_members_default_members">உறுப்பினர்களால் கோப்புகளைப் பதிவேற்ற/திருத்த/நீக்க முடியும், பிற உறுப்பினர்களை அழைக்க முடியும்</string>
     <string name="manage_members_dialog_title">உறுப்பினர் அணுகல்</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">சேமிப்பகம்</string>
+    <string name="management_data_loading_failed">பக்கத்தை ஏற்ற முடியவில்லை</string>
     <string name="member_count_max">99+</string>
     <string name="menu_backup">காப்புப் பிரதிகள்</string>
     <string name="menu_copy_link">இணைப்பை நகலெடு</string>
@@ -1070,25 +1070,24 @@
     <string name="move_error_target_folder_not_exist">இலக்குக் கோப்புறை இல்லை.</string>
     <string name="move_notice_lost_access_shared_folders">பகிர்ந்த கோப்புறையிலிருந்து உருப்படிகள் நகர்த்தப்பட்டன.</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s \"%2$s\" இல் உள்ளவர்கள் அணுகலை இழந்தனர்.</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">குழு இயக்ககத்திலிருந்து ஒரு உருப்படி நகர்த்தப்பட்டது.</string>
     <string name="move_notice_lost_access_team_drives">குழு இயக்ககத்திலிருந்து உருப்படிகள் நகர்த்தப்பட்டன.</string>
-    <string name="mr_cast_button_connected">அனுப்புதல் பொத்தான். இணைக்கப்பட்டது</string>
-    <string name="mr_cast_button_connecting">அனுப்புதல் பொத்தான். இணைக்கிறது</string>
-    <string name="mr_cast_button_disconnected">அனுப்புதல் பொத்தான். துண்டிக்கப்பட்டது</string>
+    <string name="mr_cast_button_connected">அலைபரப்பும் பட்டன். இணைக்கப்பட்டது</string>
+    <string name="mr_cast_button_connecting">அலைபரப்பும் பட்டன். இணைக்கிறது</string>
+    <string name="mr_cast_button_disconnected">அலைபரப்பும் பட்டன். துண்டிக்கப்பட்டது</string>
     <string name="mr_chooser_searching">சாதனங்களைத் தேடுகிறது</string>
-    <string name="mr_chooser_title">இதில் திரையிடு</string>
+    <string name="mr_chooser_title">இதற்கு அலைபரப்பு:</string>
     <string name="mr_controller_album_art">ஆல்பம் ஆர்ட்</string>
-    <string name="mr_controller_casting_screen">திரையை அனுப்புகிறீர்கள்</string>
-    <string name="mr_controller_close_description">மூடும்</string>
-    <string name="mr_controller_collapse_group">சுருக்கு</string>
-    <string name="mr_controller_disconnect">தொடர்பைத் துண்டி</string>
-    <string name="mr_controller_expand_group">விரிவாக்கு</string>
+    <string name="mr_controller_casting_screen">திரையை அலைபரப்புகிறது</string>
+    <string name="mr_controller_close_description">மூடுவதற்கான பட்டன்</string>
+    <string name="mr_controller_collapse_group">சுருக்குவதற்கான பட்டன்</string>
+    <string name="mr_controller_disconnect">துண்டி</string>
+    <string name="mr_controller_expand_group">விரிவாக்குவதற்கான பட்டன்</string>
     <string name="mr_controller_no_info_available">தகவல் எதுவுமில்லை</string>
     <string name="mr_controller_no_media_selected">மீடியா எதுவும் தேர்ந்தெடுக்கப்படவில்லை</string>
-    <string name="mr_controller_pause">இடைநிறுத்தும்</string>
-    <string name="mr_controller_play">இயக்கும்</string>
-    <string name="mr_controller_stop">நிறுத்துவதற்கான பொத்தான்</string>
-    <string name="mr_controller_stop_casting">அனுப்புவதை நிறுத்து</string>
+    <string name="mr_controller_pause">இடைநிறுத்துவதற்கான பட்டன்</string>
+    <string name="mr_controller_play">இயக்குவதற்கான பட்டன்</string>
+    <string name="mr_controller_stop">நிறுத்துவதற்கான பட்டன்</string>
+    <string name="mr_controller_stop_casting">அலைபரப்புவதை நிறுத்து</string>
     <string name="mr_controller_volume_slider">ஒலியளவு ஸ்லைடர்</string>
     <string name="mr_user_route_category_name">சாதனங்கள்</string>
     <string name="native_create_disabled_dialog_message">Google ஸ்லைடைப் பயன்படுத்தி விளக்கக்காட்சிகளை உருவாக்குவதை உங்கள் கணக்கு ஆதரிக்கவில்லை.</string>
@@ -1125,7 +1124,7 @@
     <string name="no_scheduled_meetings">திட்டமிட்ட சந்திப்புகள் எதுவுமில்லை</string>
     <string name="no_team_drives_title">குழு இயக்ககங்கள் இல்லை</string>
     <string name="no_thanks">வேண்டாம்</string>
-    <string name="not_enough_storage_for_upload" formatted="false">%1s கோப்பின் அளவு மிகவும் பெரியதாக உள்ளதால், இதை Google இயக்கத்தில் பதிவேற்ற முடியவில்லை. இதன் அளவு %2s. ஆனால், உங்கள் சேமிப்பிடத்தில் %3s மட்டுமே உள்ளது. கூடுதல் சேமிப்பகத்தை வாங்கி, மீண்டும் பதிவேற்ற முயலவும்.</string>
+    <string name="not_enough_storage_for_upload">%1$s கோப்பின் அளவு மிகவும் பெரியதாக உள்ளதால், இதை Google இயக்கத்தில் பதிவேற்ற முடியவில்லை. இதன் அளவு %2$s. ஆனால், உங்கள் சேமிப்பிடத்தில் %3$s மட்டுமே உள்ளது. கூடுதல் சேமிப்பகத்தை வாங்கி, மீண்டும் பதிவேற்ற முயலவும்.</string>
     <string name="notification_channel_name_default">இயல்பு</string>
     <string name="notification_channel_name_high_priority">அதிக முன்னுரிமை</string>
     <string name="notification_channel_name_low_priority">குறைந்த முன்னுரிமை</string>
@@ -1205,8 +1204,8 @@
     <string name="ouch_title_sawwrie">மன்னிக்கவும்!</string>
     <string name="overwrite_confirm_dialog_message">%1$s உள்ளது. மாற்றியமைக்கவா?</string>
     <string name="overwrite_confirm_dialog_positive_button_label">மாற்றியமை</string>
-    <string name="owner_not_user">%1$sக்குச் சொந்தமானது அல்ல</string>
-    <string name="owner_user">%1$sக்குச் சொந்தமானது</string>
+    <string name="owner_not_user">%1$sக்குச் சொந்தமில்லாதவை</string>
+    <string name="owner_user">%1$sக்குச் சொந்தமானவை</string>
     <string name="page_1_description">இணைய இணைப்பு இருந்தாலும், இல்லையென்றாலும் பணியைச் செய்து முடிக்கலாம்.</string>
     <string name="page_1_heading_editors">எங்கும் விளக்கக்காட்சிகளைப் பயன்படுத்தலாம்</string>
     <string name="page_2_description">நீங்களே சொந்தமாக எழுதலாம் அல்லது பங்கேற்பதற்குப் பலரை அழைக்கலாம்.</string>
@@ -1333,8 +1332,8 @@
     <string name="pin_paused">இடைநிறுத்தப்பட்டது</string>
     <string name="pin_pinned_a11y">பொருத்தப்பட்டது</string>
     <string name="pin_sync_broadband_warning_learn_more">மேலும் அறிக</string>
-    <string name="pin_sync_broadband_warning_message">மொபைல் தரவினைக் கொண்டு கோப்புகளை மாற்றுவதால், மொபைல் தரவு திட்டத்தின் அடிப்படையில் கூடுதல் பேமெண்ட்கள் விதிக்கப்படலாம்.</string>
-    <string name="pin_sync_broadband_warning_title">தரவுப் பயன்பாடு எச்சரிக்கை</string>
+    <string name="pin_sync_broadband_warning_message">மொபைல் டேட்டா வழீயாகக் கோப்புகளை மாற்றுவதால், மொபைல் டேட்டா திட்டத்தின் அடிப்படையில் கூடுதல் பேமெண்ட்கள் விதிக்கப்படலாம்.</string>
+    <string name="pin_sync_broadband_warning_title">டேட்டா உபயோக எச்சரிக்கை</string>
     <string name="pin_update">புதிய புதுப்பிப்பு உள்ளது</string>
     <string name="pin_waiting">இறக்கக் காத்திருக்கிறது</string>
     <string name="pin_waiting_for_network">நெட்வொர்க்கிற்காகக் காத்திருக்கிறது</string>
@@ -1355,7 +1354,7 @@
     <string name="prefs_cache_category_title">ஆவண தேக்ககம்</string>
     <string name="prefs_category_content_description">பிரிவு, %1$s</string>
     <string name="prefs_clear_cache_summary">எல்லா தேக்கக ஆவணங்களையும் அகற்று.</string>
-    <string name="prefs_data_usage_category">டேட்டா பயன்பாடு</string>
+    <string name="prefs_data_usage_category">டேட்டா உபயோகம்</string>
     <string name="prefs_enable_powerpoint_doc_creation_summary">Google ஸ்லைடு கோப்புகளுடன் PowerPoint (.pptx) கோப்புகளை உருவாக்குவதற்கான விருப்பங்களைக் காட்டும்.</string>
     <string name="prefs_enable_powerpoint_doc_creation_title">PowerPoint கோப்புகளை உருவாக்கு</string>
     <string name="prefs_language_category">மொழி</string>
@@ -1408,7 +1407,6 @@
     <string name="published_access_anyone">வெளியிட்டிருக்கும் போது, அனைவரும் பார்க்கலாம்</string>
     <string name="published_access_domain">வெளியிட்டிருக்கும் போது, %s இல் உள்ள அனைவரும் பார்க்கலாம்</string>
     <string name="published_access_select_people">குறிப்பிட்டவர்கள் மட்டுமே, வெளியிட்டிருக்கும் போது பார்க்கலாம்</string>
-    <string name="published_disabled_append">முடக்கப்பட்டது,</string>
     <string name="published_message_for_anyone_can_edit">அனைவரும் திருத்த முடியும் என்பதால், வெளியிட்டிருக்கும் போது அனைவரும் பார்க்கலாம்.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">%1$s இல் உள்ள அனைவரும் திருத்த முடியும் என்பதால், வெளியிட்டிருக்கும் போது %1$s இல் உள்ள அனைவரும் பார்க்கலாம்.</string>
     <string name="published_message_for_anyone_with_link_can_edit">இணைப்பைக் கொண்டுள்ள அனைவரும் திருத்த முடியும் என்பதால், வெளியிட்டிருக்கும் போது அனைவரும் பார்க்கலாம்.</string>
@@ -1522,7 +1520,7 @@
     <string name="punch_show_slide">ஸ்லைடைக் காட்டு</string>
     <string name="punch_speaker_notes_title">பேச்சாளர் குறிப்புகள்</string>
     <string name="punch_speakernotes_closed">பேச்சாளர் குறிப்புகள் மூடப்பட்டன.</string>
-    <string name="punch_thor_invite_email_body" formatted="false">அணுகல் தகவல்:&lt;br> %s &lt;br> %s பின்:%s</string>
+    <string name="punch_thor_invite_email_body">அணுகல் தகவல்:&lt;br> %1$s &lt;br> %2$s பின்:%3$s</string>
     <string name="punctuation_period">.</string>
     <string name="purchase_dialog_how_storage_used">Gmail, Google Photos, Google இயக்ககம் ஆகியவற்றில் சேமிப்பிடம் பகிரப்படுகிறது</string>
     <string name="purchase_dialog_manage">சேமிப்பகத்தை நிர்வகி</string>
@@ -1979,6 +1977,7 @@
     <string name="suggestions_add_to_dictionary">அகராதியில் சேர்</string>
     <string name="suggestions_delete_text">நீக்கு</string>
     <string name="suggestions_popup_opened">எழுத்துவரிசை பரிந்துரைகள்</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Google ஸ்லைடு ஒத்திசைவு பிழை</string>
     <string name="sync_more_error">கூடுதல் முடிவுகளைப் பெறுவதில் பிழை</string>
     <string name="sync_more_error_offline">ஆஃப்லைனில் இருக்கும் போது, சில ஆவணங்கள் காட்டப்படாது.</string>
@@ -2011,7 +2010,7 @@
     <string name="team_drive_empty_list_message_cannot_create">யாராவது உங்களைக் குழு இயக்ககத்தில் சேர்த்தால், அது இங்கே பட்டியலிடப்படுவதைப் பார்ப்பீர்கள்.</string>
     <string name="team_drive_settings_title">அமைப்புகள்</string>
     <string name="team_drive_trash_welcome_snackbar">குழு இயக்ககங்களின் குப்பையில் இருப்பவை 30 நாட்களில் நிரந்தரமாக நீக்கப்படும்.</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">%1$s, தலைப்பு</string>
     <string name="template_category_education">கல்வி</string>
     <string name="template_category_personal">தனிப்பட்டது</string>
@@ -2085,6 +2084,8 @@
     <string name="unable_to_open_local_document_message">அது நகர்த்தப்பட்டிருக்கலாம் அல்லது நீக்கப்பட்டிருக்கலாம்.</string>
     <string name="unable_to_open_local_document_title">சாதனத்தில் சேமித்துள்ள கோப்பைத் திறக்க முடியவில்லை</string>
     <string name="unable_to_read_calendar_data">கேலெண்டர் வினவலைக் கேட்க முடியவில்லை</string>
+    <string name="unable_update_published_message">வரைவு இணைப்பு அமைப்பைப் புதுப்பிக்கும் வரை, வெளியிட்ட தளத்தின் அமைப்பை மாற்ற முடியாது</string>
+    <string name="unable_update_published_title">அமைப்பைப் புதுப்பிக்க முடியவில்லை</string>
     <string name="undeliverable_acl_changed_dialog_title">உங்கள் மாற்றங்களை நீக்கிவிட்டு ஆவணத்தை முன்பிருந்தபடி மீட்டமைக்கவா?</string>
     <string name="undeliverable_changes_dialog_content">உங்கள் ஆஃப் லைன் மாற்றங்கள் இழக்கப்படலாம். அவற்றை கிளிப்போர்ட்டிற்கு நகலெடுத்துள்ளீர்கள் என்பதை உறுதிசெய்யவும்.</string>
     <string name="undeliverable_changes_dialog_title">சிக்கலான மாற்றங்களை நீக்கிவிட்டு, ஆவணத்தை மாற்றியமைக்கவா?</string>
@@ -2187,6 +2188,8 @@
     <string name="upsell_negbtn">பின்னர்</string>
     <string name="upsell_okbtn">வாங்கு</string>
     <string name="url_typo_error_msg">இணைப்பு தவறாக உள்ளது போல் தெரிகிறது. தட்டச்சுப் பிழையா?</string>
+    <string name="v7_preference_off">ஆஃப் செய்</string>
+    <string name="v7_preference_on">ஆன் செய்</string>
     <string name="verbalize_bulleted_list">பொட்டுக்குறி. %1$s</string>
     <string name="verbalize_numbered_list">%1$s. %2$s</string>
     <string name="verbalize_opened_edit">திருத்தல் அனுமதிகளுடன் %1$s திறக்கப்பட்டது.</string>
@@ -2217,8 +2220,9 @@
     <string name="warm_welcome_next_button">அடுத்தது</string>
     <string name="warm_welcome_skip_button">தவிர்</string>
     <string name="warning_cannot_share_outside_domain">இந்தக் குழு இயக்ககத்தின் அமைப்புகள், %sஐச் சாராதவர்களுடன் பகிர்வதைத் தடுக்கின்றன</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">இந்தக் குழு இயக்ககத்தின் அமைப்புகள், உறுப்பினர்களாக இல்லாதவர்களுடனும் %sக்கு வெளியே உள்ளவர்களுடனும் பகிர்வதைத் தடுக்கின்றன</string>
     <string name="warning_cannot_share_outside_domain_org">நிறுவனத்தின் அமைப்புகள், நிறுவனத்தைச் சாராதவர்களுடன் பகிர்வதைத் தடுக்கின்றன</string>
-    <string name="warning_cannot_share_outside_team_drive">இந்தக் குழு இயக்ககத்தின் அமைப்புகள், குழுவைச் சாராதவர்களுடன் பகிர்வதைத் தடுக்கின்றன</string>
+    <string name="warning_cannot_share_outside_team_drive">இந்தக் குழு இயக்ககத்தின் அமைப்புகள், உறுப்பினர்களாக இல்லாதவர்களுடன் பகிர்வதைத் தடுக்கின்றன</string>
     <string name="welcome_button_close">ஸ்லைடிற்குச் செல்</string>
     <string name="welcome_button_continue">அடுத்து</string>
     <string name="welcome_offer_button_close">மூடு</string>
@@ -2247,14 +2251,14 @@
     <string name="zss_owner_header_title">எனக்குச் சொந்தமானவை</string>
     <string name="zss_owner_me">எனக்குச் சொந்தமானவை</string>
     <string name="zss_owner_not_me">எனக்குச் சொந்தமில்லாதவை</string>
-    <string name="zss_people_header_title">பயனர்கள்</string>
+    <string name="zss_people_header_title">நபர்கள்</string>
     <string name="zss_showing_list_of_filters">கிடைக்கும் வடிப்பான்களின் பட்டியலைக் காட்டுகிறது.</string>
     <string name="zss_team_drive">%1$s இல் தேடுக</string>
     <string name="zss_type_archive">காப்பகம்</string>
     <string name="zss_type_audio">ஆடியோ</string>
     <string name="zss_type_documents">உரை ஆவணங்கள்</string>
     <string name="zss_type_folder">கோப்புறைகள்</string>
-    <string name="zss_type_images">படங்கள்</string>
+    <string name="zss_type_images">புகைப்படங்கள் &amp; படங்கள்</string>
     <string name="zss_type_pdfs">PDFகள்</string>
     <string name="zss_type_presentations">விளக்கக்காட்சிகள்</string>
     <string name="zss_type_spreadsheets">விரிதாள்கள்</string>

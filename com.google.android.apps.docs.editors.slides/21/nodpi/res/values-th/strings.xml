@@ -97,6 +97,8 @@
     <string name="add_collaborators_acl_list_title">ผู้ที่มีสิทธิ์เข้าถึง</string>
     <string name="add_collaborators_send_button_content_desc">ยืนยันการแชร์และส่งไปยังผู้ทำงานร่วมกัน</string>
     <string name="add_collaborators_textbox_title">ผู้คน</string>
+    <string name="add_confirm_dialog_message_share_files_and_folders">การเพิ่มไฟล์และโฟลเดอร์เหล่านี้จะเป็นการแชร์กับทุกคนที่มีสิทธิ์เข้าถึงโฟลเดอร์ %1$s ที่แชร์ไว้</string>
+    <string name="add_confirm_dialog_title_share_files_and_folders">แชร์ไฟล์และโฟลเดอร์เหล่านี้ไหม</string>
     <string name="add_members_acl_list_title">สมาชิก %1$s</string>
     <string name="add_members_dialog_title">เพิ่มสมาชิกใหม่</string>
     <string name="add_members_send_button_content_desc">ยืนยันการเพิ่มสมาชิกและส่งให้กับสมาชิก</string>
@@ -475,6 +477,7 @@
     <string name="dialog_td_will_disappear">ไดรฟ์ของทีมนี้จะไม่ปรากฏให้ใครเห็นอีก และคุณเลิกทำการทำงานนี้ไม่ได้</string>
     <string name="dialog_td_will_disappear_files_in_trash">ไฟล์จากไดรฟ์ของทีมนี้อยู่ในถังขยะ \"%1$s\" และจะไม่มีผู้ใช้คนไหนกู้คืนได้ ไดรฟ์ของทีมนี้จะไม่ปรากฏให้ใครเห็นอีก และคุณจะเลิกทำการทำงานนี้ไม่ได้</string>
     <string name="did_you_mean">คุณหมายถึง: %1$s ใช่ไหม</string>
+    <string name="disabled_append">ปิดอยู่</string>
     <string name="discussion_accept">ยอมรับ</string>
     <string name="discussion_acl_fix_access_role_commenter">สามารถแสดงความคิดเห็น</string>
     <string name="discussion_acl_fix_access_role_writer">สามารถแก้ไข</string>
@@ -585,11 +588,11 @@
     <string name="doclist_date_never_label">ไม่เคย</string>
     <string name="doclist_date_opened_label">เปิดโดยฉัน: %s</string>
     <string name="doclist_date_shared_label">แชร์เมื่อ: %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s · %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s · %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">อัปโหลดโดยฉัน: %s</string>
     <string name="doclist_detail_fragment_content_description">แสดงคุณสมบัติของรายการ</string>
-    <string name="doclist_entry_content_description" formatted="false">%s %s</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s %s สี:%s</string>
+    <string name="doclist_entry_content_description">%1$s %2$s</string>
+    <string name="doclist_entry_content_description_with_color">%1$s %2$s สี:%3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">เปิดลิ้นชักการนำทาง</string>
     <string name="doclist_quota_used_label">พื้นที่เก็บข้อมูลที่ใช้: %s</string>
     <string name="doclist_selected_show_preview">แสดงตัวอย่าง</string>
@@ -653,6 +656,7 @@
     <string name="download_message_download_manager_disabled">เปิดใช้ Download Manager เพื่อดาวน์โหลด</string>
     <string name="download_message_download_manager_enable">เปิดใช้</string>
     <string name="download_message_download_manager_unavailable">ไม่สามารถดาวน์โหลดได้ Download Manager ไม่พร้อมใช้งาน</string>
+    <string name="download_message_failures">ระบบจะดาวน์โหลด %1$d จาก %2$d รายการ โปรดดูรายละเอียดในการแจ้งเตือน</string>
     <string name="download_notification_complete_text">ดาวน์โหลดแล้ว %1$s</string>
     <string name="download_notification_error_already_exists">มีไฟล์อยู่แล้ว</string>
     <string name="download_notification_error_cannot_resume">ไม่สามารถกลับมาดาวน์โหลดต่อ</string>
@@ -679,6 +683,8 @@
     <string name="draft_options_dialog_title">การตั้งค่าไซต์ฉบับร่าง</string>
     <string name="draft_permission_change_anyone_warning">การเปลี่ยนไปใช้การตั้งค่าเว็บไซต์ฉบับร่างนี้จะทำให้ทุกคนดูได้เมื่อเผยแพร่แล้ว</string>
     <string name="draft_permission_change_domain_warning">การเปลี่ยนไปใช้การตั้งค่าเว็บไซต์ฉบับร่างนี้จะทำให้ทุกคนใน %s ดูได้เมื่อเผยแพร่แล้ว</string>
+    <string name="draft_permission_downgrade_domain_warning">การเปลี่ยนแปลงการตั้งค่าไซต์ฉบับร่างนี้จะทำให้มีเฉพาะ %1$s เท่านั้นที่ดูลิงก์ที่เผยแพร่ได้</string>
+    <string name="draft_permission_downgrade_specific_warning">การเปลี่ยนแปลงการตั้งค่าไซต์ฉบับร่างนี้จะทำให้มีเฉพาะบางคนเท่านั้นที่ดูลิงก์ที่เผยแพร่ได้</string>
     <string name="drive_file_stream_disabled">ป้องกันไม่ให้คนอื่นๆ เปิดไฟล์ในไดรฟ์ของทีมโดยใช้ Drive File Stream หรือแอปพลิเคชันที่คล้ายกัน</string>
     <string name="drive_file_stream_enabled">อนุญาตให้ผู้อื่นเปิดไฟล์ในไดรฟ์ของทีมนี้โดยใช้ Drive File Stream หรือแอปพลิเคชันที่คล้ายกัน</string>
     <string name="drive_file_stream_title">Drive File Stream</string>
@@ -772,6 +778,7 @@
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">และอีก %1$d คน</string>
     <string name="exit_multiselect_mode_button">ออกจากโหมดเลือกหลายรายการ</string>
+    <string name="expand_button_title">ขั้นสูง</string>
     <string name="expires_future">หมดอายุใน %1$s</string>
     <string name="expires_today">หมดอายุวันนี้</string>
     <string name="export_download_error_title">ข้อผิดพลาดในการดาวน์โหลด</string>
@@ -788,6 +795,11 @@
     <string name="fab_office_document">ไฟล์ PowerPoint ใหม่</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">ผลการค้นหา</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">เก่ากว่า</string>
     <string name="fast_scroll_time_grouper_last_week">สัปดาห์ที่แล้ว</string>
     <string name="fast_scroll_time_grouper_this_month">ต้นเดือนนี้</string>
@@ -816,7 +828,7 @@
     <string name="file_picker_select_a_folder_heading">เลือกโฟลเดอร์</string>
     <string name="file_picker_select_button">เลือก</string>
     <string name="file_picker_storage_permissions_denied_toast">ไม่ได้รับสิทธิ์ให้เข้าถึงพื้นที่เก็บข้อมูลในเครื่อง</string>
-    <string name="file_too_large_for_upload" formatted="false">ไฟล์ %1s มีขนาดใหญ่เกินกว่าจะอัปโหลดไปยัง Google ไดรฟ์ ไฟล์นี้มีขนาด %2s แต่ขีดจำกัดสำหรับไฟล์ประเภทนี้คือ %3s คุณอาจอัปโหลดไฟล์นี้ได้โดยไม่ต้องแปลงเป็นรูปแบบ Google ไดรฟ์</string>
+    <string name="file_too_large_for_upload">ไฟล์ %1$s มีขนาดใหญ่เกินกว่าจะอัปโหลดไปยัง Google ไดรฟ์ ไฟล์นี้มีขนาด %2$s แต่ขีดจำกัดสำหรับไฟล์ประเภทนี้คือ %3$s คุณอาจอัปโหลดไฟล์นี้ได้โดยไม่ต้องแปลงเป็นรูปแบบ Google ไดรฟ์</string>
     <string name="file_too_large_for_upload_okbtn">ตกลง</string>
     <string name="file_too_large_for_upload_title">ไม่สามารถอัปโหลด</string>
     <string name="file_was_not_sent">ไม่ได้แชร์ไฟล์</string>
@@ -980,17 +992,8 @@
     <string name="manage_addons_playstore_link_description">ไปที่ Play Store สำหรับ %s</string>
     <string name="manage_members_default_members">สมาชิกสามารถอัปโหลด/แก้ไข/ลบไฟล์ และเชิญสมาชิกคนอื่นๆ ได้โดยค่าเริ่มต้น</string>
     <string name="manage_members_dialog_title">สิทธิ์เข้าถึงของสมาชิก</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">พื้นที่เก็บข้อมูล</string>
+    <string name="management_data_loading_failed">โหลดหน้านี้ไม่สำเร็จ</string>
     <string name="member_count_max">99+</string>
     <string name="menu_backup">ข้อมูลสำรอง</string>
     <string name="menu_copy_link">คัดลอกลิงก์</string>
@@ -1072,11 +1075,13 @@
     <string name="move_confirm_dialog_message_protected_td_domain">ไดรฟ์ของทีมนี้มีข้อจำกัดเพิ่มเติม ผู้ที่อยู่ภายนอก %1$s จะสูญเสียการเข้าถึง</string>
     <string name="move_confirm_dialog_message_protected_td_domain_and_td_members">ไดรฟ์ของทีมนี้มีข้อจำกัดเพิ่มเติม ผู้ที่อยู่ภายนอก %1$s และผู้ที่ไม่ใช่สมาชิกไดรฟ์ของทีมจะสูญเสียการเข้าถึง</string>
     <string name="move_confirm_dialog_message_protected_td_team_members">ไดรฟ์ของทีมนี้มีข้อจำกัดเพิ่มเติม ผู้ที่ไม่ใช่สมาชิกไดรฟ์ของทีมจะสูญเสียการเข้าถึง</string>
+    <string name="move_confirm_dialog_message_share_files_and_folders">การย้ายไฟล์และโฟลเดอร์เหล่านี้จะแชร์ไฟล์และโฟลเดอร์ดังกล่าวกับทุกคนที่มีสิทธิ์เข้าถึงโฟลเดอร์ %1$s ที่แชร์ไว้</string>
     <string name="move_confirm_dialog_title_between_tds">ย้ายระหว่างไดรฟ์ของทีมไหม</string>
     <string name="move_confirm_dialog_title_cannot_undo">คุณไม่สามารถยกเลิกการดำเนินการนี้ได้</string>
     <string name="move_confirm_dialog_title_from_td_to_my_drive">ย้ายไปยังไดรฟ์ของฉันไหม</string>
     <string name="move_confirm_dialog_title_into_td">ย้ายไปที่ไดรฟ์ของทีมไหม</string>
     <string name="move_confirm_dialog_title_lose_access">บางคนจะเข้าถึงไม่ได้</string>
+    <string name="move_confirm_dialog_title_share_files_and_folders">แชร์ไฟล์และโฟลเดอร์เหล่านี้ไหม</string>
     <string name="move_confirm_dialog_title_unshare">ย้ายออกจากโฟลเดอร์ที่แชร์ใช่ไหม</string>
     <string name="move_dialog_title">เลือกปลายสาย</string>
     <string name="move_error_cannot_move_in_folders">ยังไม่สามารถย้ายโฟลเดอร์ไปไว้ในไดรฟ์ของทีมได้</string>
@@ -1094,11 +1099,10 @@
     <string name="move_error_target_folder_not_exist">ไม่มีโฟลเดอร์ปลายทาง</string>
     <string name="move_notice_lost_access_shared_folders">ย้ายรายการจากโฟลเดอร์ที่แชร์แล้ว ผู้ใช้จะเสียสิทธิ์เข้าถึง</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s \"%2$s\" เสียสิทธิ์เข้าถึง</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">ย้าย 1 รายการออกจากไดรฟ์ของทีม สมาชิกจะเสียสิทธิ์เข้าถึง</string>
     <string name="move_notice_lost_access_team_drives">มีการย้ายรายการออกจากไดรฟ์ของทีม สมาชิกจะเสียสิทธิ์เข้าถึง</string>
     <string name="mr_cast_button_connected">ปุ่ม \"แคสต์\" เชื่อมต่อแล้ว</string>
     <string name="mr_cast_button_connecting">ปุ่ม \"แคสต์\" กำลังเชื่อมต่อ</string>
-    <string name="mr_cast_button_disconnected">ปุ่ม \"แคสต์\" ยกเลิกการเชื่อมต่อ</string>
+    <string name="mr_cast_button_disconnected">ปุ่ม \"แคสต์\" ยกเลิกการเชื่อมต่อแล้ว</string>
     <string name="mr_chooser_searching">กำลังค้นหาอุปกรณ์</string>
     <string name="mr_chooser_title">แคสต์ไปยัง</string>
     <string name="mr_controller_album_art">ปกอัลบั้ม</string>
@@ -1149,7 +1153,7 @@
     <string name="no_scheduled_meetings">ไม่มีการประชุมที่กำหนดเวลาไว้</string>
     <string name="no_team_drives_title">ไม่มีไดรฟ์ของทีม</string>
     <string name="no_thanks">ไม่เป็นไร ขอบคุณ</string>
-    <string name="not_enough_storage_for_upload" formatted="false">ไฟล์ %1s มีขนาดใหญ่เกินกว่าจะอัปโหลดไปยัง Google Drive ไฟล์นี้มีขนาด %2s แต่คุณมีพื้นที่เก็บข้อมูลที่ใช้ได้เพียงแค่ %3s โปรดอัปเกรดพื้นที่เก็บข้อมูล แล้วลองอีกครั้ง</string>
+    <string name="not_enough_storage_for_upload">ไฟล์ %1$s มีขนาดใหญ่เกินกว่าจะอัปโหลดไปยัง Google Drive ไฟล์นี้มีขนาด %2$s แต่คุณมีพื้นที่เก็บข้อมูลที่ใช้ได้เพียงแค่ %3$s โปรดอัปเกรดพื้นที่เก็บข้อมูล แล้วลองอีกครั้ง</string>
     <string name="notification_channel_name_default">ค่าเริ่มต้น</string>
     <string name="notification_channel_name_high_priority">ลำดับความสำคัญสูง</string>
     <string name="notification_channel_name_low_priority">ลำดับความสำคัญต่ำ</string>
@@ -1432,7 +1436,6 @@
     <string name="published_access_anyone">ทุกคนจะดูได้เมื่อเผยแพร่แล้ว</string>
     <string name="published_access_domain">ทุกคนใน %s ดูได้เมื่อเผยแพร่แล้ว</string>
     <string name="published_access_select_people">บุคคลที่ระบุจะดูได้เมื่อเผยแพร่แล้ว</string>
-    <string name="published_disabled_append">ปิดอยู่</string>
     <string name="published_message_for_anyone_can_edit">เนื่องจากทุกคนแก้ไขได้ ดังนั้นทุกคนจึงดูได้ด้วยเมื่อเผยแพร่</string>
     <string name="published_message_for_anyone_in_domain_can_edit">เนื่องจากทุกคนใน %1$s มีสิทธิ์แก้ไขได้ ดังนั้นทุกคนที่ %1$s จึงดูได้ด้วยเมื่อเผยแพร่แล้ว</string>
     <string name="published_message_for_anyone_with_link_can_edit">เนื่องจากทุกคนที่มีลิงก์สามารถแก้ไขได้ ดังนั้นทุกคนจึงดูได้ด้วยเมื่อเผยแพร่</string>
@@ -1546,7 +1549,7 @@
     <string name="punch_show_slide">แสดงสไลด์</string>
     <string name="punch_speaker_notes_title">บันทึกของผู้บรรยาย</string>
     <string name="punch_speakernotes_closed">ปิดบันทึกของผู้บรรยายแล้ว</string>
-    <string name="punch_thor_invite_email_body" formatted="false">เข้าถึงข้อมูล:&lt;br> %s &lt;br> %s PIN:%s</string>
+    <string name="punch_thor_invite_email_body">เข้าถึงข้อมูล:&lt;br> %1$s &lt;br> %2$s PIN:%3$s</string>
     <string name="punctuation_period" />
     <string name="purchase_dialog_how_storage_used">พื้นที่เก็บข้อมูลจะแชร์กันระหว่าง Gmail, Google Photos และ Google ไดรฟ์</string>
     <string name="purchase_dialog_manage">จัดการพื้นที่เก็บข้อมูล</string>
@@ -2006,6 +2009,7 @@
     <string name="suggestions_add_to_dictionary">เพิ่มในพจนานุกรม</string>
     <string name="suggestions_delete_text">ลบ</string>
     <string name="suggestions_popup_opened">คำแนะนำในการสะกดคำ</string>
+    <string name="summary_collapsed_preference_list">%1$s %2$s</string>
     <string name="sync_failed">การซิงค์ข้อมูล Google สไลด์เกิดข้อผิดพลาด</string>
     <string name="sync_more_error">เกิดข้อผิดพลาดในการเรียกรายการเพิ่มเติม</string>
     <string name="sync_more_error_offline">เอกสารบางรายการอาจไม่ปรากฏขณะออฟไลน์</string>
@@ -2038,7 +2042,7 @@
     <string name="team_drive_empty_list_message_cannot_create">เมื่อมีคนเพิ่มคุณลงในไดรฟ์ของทีม คุณจะเห็นไดรฟ์นั้นแสดงขึ้นที่นี่</string>
     <string name="team_drive_settings_title">การตั้งค่า</string>
     <string name="team_drive_trash_welcome_snackbar">ระบบจะลบรายการในถังขยะของไดรฟ์ของทีมอย่างถาวรใน 30 วัน</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">%1$s ส่วนหัว</string>
     <string name="template_category_education">การศึกษา</string>
     <string name="template_category_personal">ส่วนตัว</string>
@@ -2112,6 +2116,8 @@
     <string name="unable_to_open_local_document_message">อาจถูกย้ายหรือลบแล้ว</string>
     <string name="unable_to_open_local_document_title">ไม่สามารถเปิดไฟล์ที่บันทึกไว้ในอุปกรณ์</string>
     <string name="unable_to_read_calendar_data">ไม่สามารถค้นหาในปฏิทิน</string>
+    <string name="unable_update_published_message">เปลี่ยนแปลงการตั้งค่าเว็บไซต์ที่เผยแพร่ไม่ได้จนกว่าจะอัปเดตการตั้งค่าลิงก์ฉบับร่าง</string>
+    <string name="unable_update_published_title">อัปเดตการตั้งค่าไม่ได้</string>
     <string name="undeliverable_acl_changed_dialog_title">ลบการเปลี่ยนแปลงและเปลี่ยนเอกสารกลับเป็นเหมือนเดิมใช่ไหม</string>
     <string name="undeliverable_changes_dialog_content">การเปลี่ยนแปลงที่ทำขณะออฟไลน์อาจสูญหายไป โปรดตรวจสอบว่าได้คัดลอกการเปลี่ยนแปลงดังกล่าวไปยังคลิปบอร์ดแล้ว</string>
     <string name="undeliverable_changes_dialog_title">ลบการเปลี่ยนแปลงที่มีปัญหาและเปลี่ยนเอกสารกลับเป็นเหมือนเดิมไหม</string>
@@ -2214,6 +2220,8 @@
     <string name="upsell_negbtn">ไว้ทีหลัง</string>
     <string name="upsell_okbtn">อัปเกรด</string>
     <string name="url_typo_error_msg">ดูเหมือนลิงก์จะไม่ถูกต้อง สะกดผิดใช่ไหม</string>
+    <string name="v7_preference_off">ปิด</string>
+    <string name="v7_preference_on">เปิด</string>
     <string name="verbalize_bulleted_list">หัวข้อย่อย %1$s</string>
     <string name="verbalize_numbered_list">%1$s %2$s</string>
     <string name="verbalize_opened_edit">เปิด %1$s โดยมีสิทธิ์แก้ไขแล้ว</string>
@@ -2244,8 +2252,9 @@
     <string name="warm_welcome_next_button">ถัดไป</string>
     <string name="warm_welcome_skip_button">ข้าม</string>
     <string name="warning_cannot_share_outside_domain">การตั้งค่าไดรฟ์ของทีมนี้ป้องกันไม่ให้มีการแชร์กับภายนอก %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">การตั้งค่าไดรฟ์ของทีมนี้ป้องกันไม่ให้แชร์กับผู้ที่ไม่ใช่สมาชิกและผู้ที่อยู่นอก %s</string>
     <string name="warning_cannot_share_outside_domain_org">การตั้งค่าขององค์กรป้องกันไม่ให้แชร์กับภายนอกองค์กร</string>
-    <string name="warning_cannot_share_outside_team_drive">การตั้งค่าไดรฟ์ของทีมนี้ป้องกันไม่ให้มีการแชร์กับภายนอกทีม</string>
+    <string name="warning_cannot_share_outside_team_drive">การตั้งค่าไดรฟ์ของทีมนี้ป้องกันการแชร์ลิงก์กับผู้ที่ไม่ใช่สมาชิก</string>
     <string name="welcome_button_close">ไปที่สไลด์</string>
     <string name="welcome_button_continue">ต่อไป</string>
     <string name="welcome_offer_button_close">ปิด</string>
@@ -2265,9 +2274,9 @@
     <string name="zss_accessibility_searching">กำลังค้นหา %1$s</string>
     <string name="zss_date_range_header_title">วันที่แก้ไข</string>
     <string name="zss_date_range_month">30 วันที่ผ่านมา</string>
-    <string name="zss_date_range_three_month">90 วันที่ผ่านมา</string>
+    <string name="zss_date_range_three_month">90 วันล่าสุด</string>
     <string name="zss_date_range_today">วันนี้</string>
-    <string name="zss_date_range_week">7 วันที่ผ่านมา</string>
+    <string name="zss_date_range_week">7 วันล่าสุด</string>
     <string name="zss_date_range_yesterday">เมื่อวานนี้</string>
     <string name="zss_entry_types_header_title">ประเภทไฟล์</string>
     <string name="zss_no_filters">ไม่มีตัวกรอง</string>
@@ -2281,7 +2290,7 @@
     <string name="zss_type_audio">เสียง</string>
     <string name="zss_type_documents">เอกสารข้อความ</string>
     <string name="zss_type_folder">โฟลเดอร์</string>
-    <string name="zss_type_images">รูปภาพ</string>
+    <string name="zss_type_images">ภาพถ่ายและรูปภาพ</string>
     <string name="zss_type_pdfs">PDF</string>
     <string name="zss_type_presentations">งานนำเสนอ</string>
     <string name="zss_type_spreadsheets">สเปรดชีต</string>

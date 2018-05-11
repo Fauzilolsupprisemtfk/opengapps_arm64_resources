@@ -468,6 +468,7 @@ Denne handlingen kan ikke angres."</string>
     <string name="dialog_td_will_disappear">Denne team-disken kommer til å forsvinne for alle, og du kan ikke angre denne handlingen.</string>
     <string name="dialog_td_will_disappear_files_in_trash">Det ligger filer fra denne team-disken i papirkurven for «%1$s», og ingen brukere kommer til å kunne gjenopprette dem. Denne team-disken kommer til å forsvinne for alle, og du kan ikke angre denne handlingen.</string>
     <string name="did_you_mean">Mente du %1$s?</string>
+    <string name="disabled_append">deaktivert,</string>
     <string name="discussion_accept">Godta</string>
     <string name="discussion_acl_fix_access_role_commenter">Kan kommentere</string>
     <string name="discussion_acl_fix_access_role_writer">Kan endre</string>
@@ -578,11 +579,11 @@ Denne handlingen kan ikke angres."</string>
     <string name="doclist_date_never_label">Aldri</string>
     <string name="doclist_date_opened_label">Åpnet av meg: %s</string>
     <string name="doclist_date_shared_label">Delt: %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s – %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s – %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">Lastet opp av meg: %s</string>
     <string name="doclist_detail_fragment_content_description">Vis egenskaper for elementet</string>
-    <string name="doclist_entry_content_description" formatted="false">%s %s</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s %s farge:%s</string>
+    <string name="doclist_entry_content_description">%1$s %2$s</string>
+    <string name="doclist_entry_content_description_with_color">%1$s %2$s farge:%3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">Åpne uttrekksmenyen for navigasjon</string>
     <string name="doclist_quota_used_label">Lagringsplass som brukes: %s</string>
     <string name="doclist_selected_show_preview">Vis forhåndsvisning</string>
@@ -671,6 +672,8 @@ Denne handlingen kan ikke angres."</string>
     <string name="draft_options_dialog_title">Innstillinger for nettstedsutkast</string>
     <string name="draft_permission_change_anyone_warning">Hvis du bytter til denne innstillingen for nettstedsutkast, kan alle se det når det er publisert.</string>
     <string name="draft_permission_change_domain_warning">Hvis du bytter til denne innstillingen for nettstedsutkast, kan alle på %s se det når det er publisert.</string>
+    <string name="draft_permission_downgrade_domain_warning">Hvis du endrer denne innstillingen for nettstedsutkastet, blir også den publiserte linken bare synlig for %1$s</string>
+    <string name="draft_permission_downgrade_specific_warning">Hvis du endrer denne innstillingen for nettstedsutkastet, blir også den publiserte linken bare synlig for bestemte personer</string>
     <string name="drive_file_stream_disabled">Ikke tillat at folk åpner filene i denne teamdisken med Disk Filstrømming eller lignende programmer</string>
     <string name="drive_file_stream_enabled">Tillat at folk åpner filene i denne teamdisken med Disk Filstrømming eller lignende programmer</string>
     <string name="drive_file_stream_title">Disk Filstrømming</string>
@@ -713,7 +716,7 @@ Prøv å laste opp en fil."</string>
     <string name="empty_doclist_for_pinned_view_details">Gjør filene «tilgjengelige uten nett» i alternativmenyen for filene</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Trykk på «Tilgjengelig uten nett» i menyen for en fil for å kunne fortsette å arbeide med den uten nettilgang.</string>
     <string name="empty_doclist_for_recent_view">Det finnes ingen filer som nylig er åpnet eller endret.</string>
-    <string name="empty_doclist_for_search_view">Ingen resultater.</string>
+    <string name="empty_doclist_for_search_view">Ingen treff</string>
     <string name="empty_doclist_for_shared_with_me_view">Filer som deles med deg, vises her.</string>
     <string name="empty_doclist_for_starred_view">Du har ingen stjernemerkede filer.</string>
     <string name="empty_doclist_for_starred_view_details">Trykk på stjerneikonet i alternativmenyen for filen for å legge til filen i denne listen.</string>
@@ -764,13 +767,14 @@ Klikk på + for å opprette en ny presentasjon."</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+ %1$d andre.</string>
     <string name="exit_multiselect_mode_button">Avslutt flervalgmodus</string>
+    <string name="expand_button_title">Avansert</string>
     <string name="expires_future">Utløper om %1$s</string>
     <string name="expires_today">Utløper i dag</string>
     <string name="export_download_error_title">Nedlastingsfeil</string>
     <string name="export_error_message">Det oppsto en feil.</string>
     <string name="export_error_message_network">En overføringsfeil har oppstått. Sjekk nettverkstilkoblingen din.</string>
     <string name="export_error_message_server">En konverteringsfeil har oppstått. Prøv igjen senere.</string>
-    <string name="export_failure_notification_content">«%1$s» kunne ikke lagres</string>
+    <string name="export_failure_notification_content">Kunne ikke lagre «%1$s»</string>
     <string name="export_notification_content">Lagrer «%1$s» …</string>
     <string name="exporting_start_msg">Forbereder eksport …</string>
     <string name="fab_choose_template">Velg mal</string>
@@ -780,6 +784,11 @@ Klikk på + for å opprette en ny presentasjon."</string>
     <string name="fab_office_document">Ny PowerPoint-fil</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Søkeresultater</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">kB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Eldre</string>
     <string name="fast_scroll_time_grouper_last_week">Forrige uke</string>
     <string name="fast_scroll_time_grouper_this_month">Tidligere denne måneden</string>
@@ -808,7 +817,7 @@ Klikk på + for å opprette en ny presentasjon."</string>
     <string name="file_picker_select_a_folder_heading">Velg en mappe</string>
     <string name="file_picker_select_button">Velg</string>
     <string name="file_picker_storage_permissions_denied_toast">Det ble ikke gitt tilgang til lokal lagring.</string>
-    <string name="file_too_large_for_upload" formatted="false">Filen %1s er for stor til å lastes opp til Google Disk. Den er på %2s, og grensen for denne typen filer er %3s. Det kan hende du kan laste opp denne filen uten å konvertere den til et Google Disk-format.</string>
+    <string name="file_too_large_for_upload">Filen %1$s er for stor til å lastes opp til Google Disk. Den er på %2$s, og grensen for denne typen filer er %3$s. Det kan hende du kan laste opp denne filen uten å konvertere den til et Google Disk-format.</string>
     <string name="file_too_large_for_upload_okbtn">OK</string>
     <string name="file_too_large_for_upload_title">Kan ikke laste opp</string>
     <string name="file_was_not_sent">Filen ble ikke delt.</string>
@@ -1075,21 +1084,20 @@ Klikk på + for å opprette en ny presentasjon."</string>
     <string name="move_error_target_folder_not_exist">Målmappen finnes ikke.</string>
     <string name="move_notice_lost_access_shared_folders">Elementene er flyttet fra den delte mappen.</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s «%2$s» har mistet tilgangen.</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">1 element er flyttet fra teamdisken.</string>
     <string name="move_notice_lost_access_team_drives">Elementene er flyttet fra teamdisken.</string>
-    <string name="mr_cast_button_connected">Cast-knappen. Tilkoblet</string>
-    <string name="mr_cast_button_connecting">Cast-knappen. Kobler til</string>
-    <string name="mr_cast_button_disconnected">Cast-knappen. Frakoblet</string>
-    <string name="mr_chooser_searching">Søker etter enheter</string>
+    <string name="mr_cast_button_connected">Cast-ikonet. Tilkoblet</string>
+    <string name="mr_cast_button_connecting">Cast-ikonet. Kobler til</string>
+    <string name="mr_cast_button_disconnected">Cast-ikonet. Frakoblet</string>
+    <string name="mr_chooser_searching">Finner enheter</string>
     <string name="mr_chooser_title">Cast til</string>
     <string name="mr_controller_album_art">Albumgrafikk</string>
     <string name="mr_controller_casting_screen">Caster skjermen</string>
     <string name="mr_controller_close_description">Lukk</string>
     <string name="mr_controller_collapse_group">Skjul</string>
     <string name="mr_controller_disconnect">Koble fra</string>
-    <string name="mr_controller_expand_group">Utvid</string>
+    <string name="mr_controller_expand_group">Vis</string>
     <string name="mr_controller_no_info_available">Ingen informasjon er tilgjengelig</string>
-    <string name="mr_controller_no_media_selected">Du har ikke valgt noen medier</string>
+    <string name="mr_controller_no_media_selected">Ingen medier er valgt</string>
     <string name="mr_controller_pause">Sett på pause</string>
     <string name="mr_controller_play">Spill av</string>
     <string name="mr_controller_stop">Stopp</string>
@@ -1130,7 +1138,7 @@ Klikk på + for å opprette en ny presentasjon."</string>
     <string name="no_scheduled_meetings">Ingen planlagte møter</string>
     <string name="no_team_drives_title">Ingen teamdisker</string>
     <string name="no_thanks">Nei takk</string>
-    <string name="not_enough_storage_for_upload" formatted="false">Filen %1s er for stor til å lastes opp til Google Disk. Den er på %2s, men du har bare %3s lagringsplass ledig. Oppgrader lagringsplassen din og prøv på nytt.</string>
+    <string name="not_enough_storage_for_upload">Filen %1$s er for stor til å lastes opp til Google Disk. Den er på %2$s, men du har bare %3$s lagringsplass ledig. Oppgrader lagringsplassen din og prøv på nytt.</string>
     <string name="notification_channel_name_default">Standard</string>
     <string name="notification_channel_name_high_priority">Høy prioritet</string>
     <string name="notification_channel_name_low_priority">Lav prioritet</string>
@@ -1209,8 +1217,8 @@ Klikk på + for å opprette en ny presentasjon."</string>
     <string name="ouch_title_sawwrie">Beklager!</string>
     <string name="overwrite_confirm_dialog_message">%1$s finnes allerede. Vil du overskrive den?</string>
     <string name="overwrite_confirm_dialog_positive_button_label">Overskriv</string>
-    <string name="owner_not_user">Ikke eid av %1$s</string>
-    <string name="owner_user">Eid av %1$s</string>
+    <string name="owner_not_user">Eies ikke av %1$s</string>
+    <string name="owner_user">Eies av %1$s</string>
     <string name="page_1_description">Få ting gjort – med eller uten Internett-tilkobling.</string>
     <string name="page_1_heading_editors">Lag presentasjoner mens du er på farten</string>
     <string name="page_2_description">Skriv på egen hånd, eller inviter andre til å bidra.</string>
@@ -1412,7 +1420,6 @@ Klikk på + for å opprette en ny presentasjon."</string>
     <string name="published_access_anyone">Alle kan se nettstedet når det er publisert</string>
     <string name="published_access_domain">Alle på %s kan se den publiserte versjonen</string>
     <string name="published_access_select_people">Bestemte personer kan se nettstedet når det er publisert</string>
-    <string name="published_disabled_append">deaktivert,</string>
     <string name="published_message_for_anyone_can_edit">Siden alle kan redigere, kan alle se det når det er publisert.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Siden alle på %1$s kan redigere, kan alle på %1$s se det når det legges ut.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Siden alle med linken kan redigere, kan alle se det når det er publisert.</string>
@@ -1526,7 +1533,7 @@ Klikk på + for å opprette en ny presentasjon."</string>
     <string name="punch_show_slide">Vis lysbildet</string>
     <string name="punch_speaker_notes_title">Foredragsnotater</string>
     <string name="punch_speakernotes_closed">Foredragsnotatene er lukket.</string>
-    <string name="punch_thor_invite_email_body" formatted="false">Tilgangsinformasjon:&lt;br> %s &lt;br> %s PIN-kode:%s</string>
+    <string name="punch_thor_invite_email_body">Tilgangsinformasjon:&lt;br> %1$s &lt;br> %2$s PIN-kode:%3$s</string>
     <string name="punctuation_period">.</string>
     <string name="purchase_dialog_how_storage_used">Lagringsplassen deles mellom Gmail, Google Foto og Google Disk</string>
     <string name="purchase_dialog_manage">Administrer lagring</string>
@@ -1986,6 +1993,7 @@ Klikk på + for å opprette en ny presentasjon."</string>
     <string name="suggestions_add_to_dictionary">Legg til i ordlisten</string>
     <string name="suggestions_delete_text">Slett</string>
     <string name="suggestions_popup_opened">Staveforslag</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Synkroniseringsfeil for Google Presentasjoner</string>
     <string name="sync_more_error">Det oppsto en feil da flere elementer skulle hentes</string>
     <string name="sync_more_error_offline">Det kan hende at noen dokumenter ikke vises når enheten er uten nettilkobling.</string>
@@ -2018,7 +2026,7 @@ Klikk på + for å opprette en ny presentasjon."</string>
     <string name="team_drive_empty_list_message_cannot_create">Når noen legger deg til i en teamdisk, vises den i denne listen.</string>
     <string name="team_drive_settings_title">Innstillinger</string>
     <string name="team_drive_trash_welcome_snackbar">Elementer i papirkurven for teamdisker blir slettet for godt etter 30 dager.</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">%1$s, overskrift</string>
     <string name="template_category_education">Utdanning</string>
     <string name="template_category_personal">Personlig</string>
@@ -2092,6 +2100,8 @@ Klikk på + for å opprette en ny presentasjon."</string>
     <string name="unable_to_open_local_document_message">Den kan ha blitt flyttet eller slettet.</string>
     <string name="unable_to_open_local_document_title">Kunne ikke åpne filen som er lagret på enheten</string>
     <string name="unable_to_read_calendar_data">Kunne ikke søke i kalenderen</string>
+    <string name="unable_update_published_message">Den publiserte nettstedsinnstillingen kan ikke endres før innstillingen for link til utkast er oppdatert</string>
+    <string name="unable_update_published_title">Kan ikke oppdatere innstillingen</string>
     <string name="undeliverable_acl_changed_dialog_title">Vil du slette endringene og tilbakestille dokumentet?</string>
     <string name="undeliverable_changes_dialog_content">Endringene dine som ble utført uten nettilgang, kan gå tapt. Sørg for at du har kopiert dem til utklippstavlen.</string>
     <string name="undeliverable_changes_dialog_title">Vil du slette problematiske endringer og tilbakestille dokumentet?</string>
@@ -2194,6 +2204,8 @@ Klikk på + for å opprette en ny presentasjon."</string>
     <string name="upsell_negbtn">Senere</string>
     <string name="upsell_okbtn">Oppgrader</string>
     <string name="url_typo_error_msg">Linken ser ikke riktig ut. Skrivefeil?</string>
+    <string name="v7_preference_off">AV</string>
+    <string name="v7_preference_on">PÅ</string>
     <string name="verbalize_bulleted_list">punkttegn. %1$s</string>
     <string name="verbalize_numbered_list">%1$s. %2$s</string>
     <string name="verbalize_opened_edit">Åpnet %1$s med redigeringstillatelser.</string>
@@ -2224,8 +2236,9 @@ Klikk på + for å opprette en ny presentasjon."</string>
     <string name="warm_welcome_next_button">Neste</string>
     <string name="warm_welcome_skip_button">Hopp over</string>
     <string name="warning_cannot_share_outside_domain">Innstillingene for denne teamdisken forhindrer deling utenfor %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Innstillingene for denne teamdisken forhindrer deling med brukere som ikke er medlemmer, og med brukere som ikke er tilknyttet %s.</string>
     <string name="warning_cannot_share_outside_domain_org">Organisasjonens innstillinger forhindrer deling utenfor organisasjonen</string>
-    <string name="warning_cannot_share_outside_team_drive">Innstillingene for denne teamdisken forhindrer deling utenfor teamet.</string>
+    <string name="warning_cannot_share_outside_team_drive">Innstillingene for denne teamdisken forhindrer deling med brukere som ikke er medlemmer</string>
     <string name="welcome_button_close">Gå til Presentasjoner</string>
     <string name="welcome_button_continue">Neste</string>
     <string name="welcome_offer_button_close">Lukk</string>
@@ -2244,17 +2257,17 @@ Klikk på + for å opprette en ny presentasjon."</string>
     <string name="write_access_denied">Skrivetilgang til dokumentet ble avvist.</string>
     <string name="zss_accessibility_searching">Søker etter %1$s</string>
     <string name="zss_date_range_header_title">Endringsdato</string>
-    <string name="zss_date_range_month">Siste 30 dager</string>
-    <string name="zss_date_range_three_month">Siste 90 dager</string>
+    <string name="zss_date_range_month">De siste 30 dagene</string>
+    <string name="zss_date_range_three_month">De siste 90 dagene</string>
     <string name="zss_date_range_today">I dag</string>
-    <string name="zss_date_range_week">Siste 7 dager</string>
+    <string name="zss_date_range_week">De siste sju dagene</string>
     <string name="zss_date_range_yesterday">I går</string>
     <string name="zss_entry_types_header_title">Filtyper</string>
     <string name="zss_no_filters">Ingen filtre</string>
     <string name="zss_owner_header_title">Eies av</string>
     <string name="zss_owner_me">Eies av meg</string>
     <string name="zss_owner_not_me">Eies ikke av meg</string>
-    <string name="zss_people_header_title">Personer</string>
+    <string name="zss_people_header_title">Folk</string>
     <string name="zss_showing_list_of_filters">Viser listen over tilgjengelige filtre.</string>
     <string name="zss_team_drive">Søk i %1$s</string>
     <string name="zss_type_archive">Arkiv</string>

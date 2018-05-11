@@ -475,6 +475,7 @@
     <string name="dialog_td_will_disappear">這個「團隊雲端硬碟」將會從所有使用者的帳戶中消失，此操作無法復原。</string>
     <string name="dialog_td_will_disappear_files_in_trash">這個「團隊雲端硬碟」的檔案已放入「%1$s」的垃圾桶，任何人都無法還原。這個「團隊雲端硬碟」將會從所有使用者的帳戶中消失，此操作無法復原。</string>
     <string name="did_you_mean">您是不是要搜尋：%1$s</string>
+    <string name="disabled_append">已停用，</string>
     <string name="discussion_accept">接受</string>
     <string name="discussion_acl_fix_access_role_commenter">可以留言</string>
     <string name="discussion_acl_fix_access_role_writer">可以編輯</string>
@@ -585,11 +586,11 @@
     <string name="doclist_date_never_label">永不</string>
     <string name="doclist_date_opened_label">我上次開啟的時間：%s</string>
     <string name="doclist_date_shared_label">共用時間：%s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s · %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s · %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">由我上載的日期：%s</string>
     <string name="doclist_detail_fragment_content_description">顯示項目屬性</string>
-    <string name="doclist_entry_content_description" formatted="false">%s %s</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s %s 顏色：%s</string>
+    <string name="doclist_entry_content_description">%1$s %2$s</string>
+    <string name="doclist_entry_content_description_with_color">%1$s %2$s 顏色：%3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">開啟導覽匣</string>
     <string name="doclist_quota_used_label">已使用的儲存空間：%s</string>
     <string name="doclist_selected_show_preview">顯示預覽</string>
@@ -679,6 +680,8 @@
     <string name="draft_options_dialog_title">草稿網站設定</string>
     <string name="draft_permission_change_anyone_warning">變更此網站草稿設定將允許所有人檢視已發佈的版本。</string>
     <string name="draft_permission_change_domain_warning">變更此網站草稿設定將允許 %s 的所有使用者檢視已發佈的版本。</string>
+    <string name="draft_permission_downgrade_domain_warning">變更這項草擬網站設定也會連帶產生影響，因此只有 %1$s 才能查看已發佈的連結</string>
+    <string name="draft_permission_downgrade_specific_warning">變更這項草擬網站設定也會連帶產生影響，因此只有特定使用者才能查看已發佈的連結</string>
     <string name="drive_file_stream_disabled">防止他人透過「雲端硬碟檔案串流」或類似應用程式，在此「團隊雲端硬碟」中開啟檔案</string>
     <string name="drive_file_stream_enabled">允許他人透過「雲端硬碟檔案串流」或類似應用程式，在此「團隊雲端硬碟」中開啟檔案</string>
     <string name="drive_file_stream_title">雲端硬碟檔案串流</string>
@@ -721,7 +724,7 @@
     <string name="empty_doclist_for_pinned_view_details">在檔案的選項選單中設定檔案為「可離線使用」</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">在檔案的選單中輕按 [可離線使用]，即可在離線時繼續使用檔案。</string>
     <string name="empty_doclist_for_recent_view">沒有最近開啟或編輯過的檔案。</string>
-    <string name="empty_doclist_for_search_view">沒有結果。</string>
+    <string name="empty_doclist_for_search_view">找不到結果</string>
     <string name="empty_doclist_for_shared_with_me_view">與您共用的檔案會在這裡顯示。</string>
     <string name="empty_doclist_for_starred_view">您沒有任何已加星號的檔案。</string>
     <string name="empty_doclist_for_starred_view_details">在檔案的選項選單中輕按星號圖示，即可將它加入此清單。</string>
@@ -772,6 +775,7 @@
     <string name="excess_head_count">+%1$d 個</string>
     <string name="excess_head_count_verbalization">另外超過 %1$d 人。</string>
     <string name="exit_multiselect_mode_button">離開複選模式</string>
+    <string name="expand_button_title">進階</string>
     <string name="expires_future">%1$s後到期</string>
     <string name="expires_today">今天到期</string>
     <string name="export_download_error_title">下載錯誤</string>
@@ -788,6 +792,11 @@
     <string name="fab_office_document">新增 PowerPoint 檔案</string>
     <string name="fast_scroll_month_and_year_grouped">%2$d 年 %1$s</string>
     <string name="fast_scroll_search_result_grouper">搜尋結果</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">較舊</string>
     <string name="fast_scroll_time_grouper_last_week">上星期</string>
     <string name="fast_scroll_time_grouper_this_month">本月稍早</string>
@@ -816,7 +825,7 @@
     <string name="file_picker_select_a_folder_heading">選取資料夾</string>
     <string name="file_picker_select_button">選取</string>
     <string name="file_picker_storage_permissions_denied_toast">尚未獲得存取本機儲存空間的權限。</string>
-    <string name="file_too_large_for_upload" formatted="false">檔案 (%1s) 過大，無法上載到「Google 雲端硬碟」。此檔案大小為 %2s，已超過此檔案類型的上限 %3s。請嘗試直接上載檔案，而不要轉換至「Google 雲端硬碟」格式。</string>
+    <string name="file_too_large_for_upload">檔案 (%1$s) 過大，無法上載到「Google 雲端硬碟」。此檔案大小為 %2$s，已超過此檔案類型的上限 %3$s。請嘗試直接上載檔案，而不要轉換至「Google 雲端硬碟」格式。</string>
     <string name="file_too_large_for_upload_okbtn">確定</string>
     <string name="file_too_large_for_upload_title">無法上載</string>
     <string name="file_was_not_sent">未共用檔案。</string>
@@ -980,6 +989,8 @@
     <string name="manage_addons_playstore_link_description">前往「Play 商店」以取得%s</string>
     <string name="manage_members_default_members">根據預設，成員可以上載/編輯/刪除檔案及邀請其他成員</string>
     <string name="manage_members_dialog_title">成員權限</string>
+    <string name="management_activity_toolbar_title">儲存空間</string>
+    <string name="management_data_loading_failed">無法載入此網頁</string>
     <string name="member_count_max">99+</string>
     <string name="menu_backup">備份</string>
     <string name="menu_copy_link">複製連結</string>
@@ -1083,24 +1094,23 @@
     <string name="move_error_target_folder_not_exist">目標資料夾不存在。</string>
     <string name="move_notice_lost_access_shared_folders">項目已移離共用資料夾，使用者無法再存取。</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s「%2$s」無法再存取。</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">1 個項目已移離「團隊雲端硬碟」，成員無法再存取。</string>
     <string name="move_notice_lost_access_team_drives">多個項目已移離「團隊雲端硬碟」，成員無法再存取。</string>
-    <string name="mr_cast_button_connected">投放按鈕。已連接</string>
-    <string name="mr_cast_button_connecting">投放按鈕。正在連接</string>
-    <string name="mr_cast_button_disconnected">投放按鈕。已解除連接</string>
+    <string name="mr_cast_button_connected">投放按鈕。連咗線</string>
+    <string name="mr_cast_button_connecting">投放按鈕。連緊線</string>
+    <string name="mr_cast_button_disconnected">投放按鈕。解除咗連線</string>
     <string name="mr_chooser_searching">正在尋找裝置</string>
     <string name="mr_chooser_title">投放至</string>
     <string name="mr_controller_album_art">專輯封面</string>
-    <string name="mr_controller_casting_screen">正在投放螢幕</string>
-    <string name="mr_controller_close_description">關閉</string>
+    <string name="mr_controller_casting_screen">正在投放畫面</string>
+    <string name="mr_controller_close_description">閂</string>
     <string name="mr_controller_collapse_group">收合</string>
-    <string name="mr_controller_disconnect">中斷連線</string>
+    <string name="mr_controller_disconnect">解除連線</string>
     <string name="mr_controller_expand_group">展開</string>
-    <string name="mr_controller_no_info_available">沒有詳細資料</string>
-    <string name="mr_controller_no_media_selected">尚未選擇媒體</string>
+    <string name="mr_controller_no_info_available">沒有資料可以提供</string>
+    <string name="mr_controller_no_media_selected">未選取任何媒體</string>
     <string name="mr_controller_pause">暫停</string>
     <string name="mr_controller_play">播放</string>
-    <string name="mr_controller_stop">停止</string>
+    <string name="mr_controller_stop">停</string>
     <string name="mr_controller_stop_casting">停止投放</string>
     <string name="mr_controller_volume_slider">音量滑桿</string>
     <string name="mr_user_route_category_name">裝置</string>
@@ -1138,7 +1148,7 @@
     <string name="no_scheduled_meetings">沒有預定會議</string>
     <string name="no_team_drives_title">沒有「團隊雲端硬碟」</string>
     <string name="no_thanks">不用了，謝謝</string>
-    <string name="not_enough_storage_for_upload" formatted="false">檔案「%1s」過大，無法上載到「Google 雲端硬碟」。該檔案大小為 %2s，但您只有 %3s 的可用儲存空間。請升級您的儲存空間，然後重試。</string>
+    <string name="not_enough_storage_for_upload">檔案「%1$s」過大，無法上載到「Google 雲端硬碟」。該檔案大小為 %2$s，但您只有 %3$s 的可用儲存空間。請升級您的儲存空間，然後重試。</string>
     <string name="notification_channel_name_default">預設</string>
     <string name="notification_channel_name_high_priority">重要</string>
     <string name="notification_channel_name_low_priority">不重要</string>
@@ -1191,7 +1201,7 @@
     <string name="open_document_in_browser">在瀏覽器中開啟</string>
     <string name="open_folder_removed">目前開啟的資料夾已無法再檢視。</string>
     <string name="open_folder_trashed">「%1$s」已移至垃圾桶。</string>
-    <string name="open_in">喺「%1$s」開啟</string>
+    <string name="open_in">使用「%1$s」開啟</string>
     <string name="open_link">進入連結</string>
     <string name="open_pinned_version">開啟裝置上的檔案</string>
     <string name="open_templates_picker_offline">到網上使用範本。</string>
@@ -1533,7 +1543,7 @@
     <string name="punch_show_slide">顯示投影片</string>
     <string name="punch_speaker_notes_title">演講者備忘稿</string>
     <string name="punch_speakernotes_closed">演講者備忘稿已關閉。</string>
-    <string name="punch_thor_invite_email_body" formatted="false">存取資料：&lt;br> %s &lt;br> %s PIN 碼：%s</string>
+    <string name="punch_thor_invite_email_body">存取資料：&lt;br> %1$s &lt;br> %2$s PIN 碼：%3$s</string>
     <string name="punctuation_period">。</string>
     <string name="purchase_dialog_how_storage_used">儲存空間會由 Gmail、「Google 相片」和「Google 雲端硬碟」共用</string>
     <string name="purchase_dialog_manage">管理儲存空間</string>
@@ -1993,6 +2003,7 @@
     <string name="suggestions_add_to_dictionary">新增至字典</string>
     <string name="suggestions_delete_text">刪除</string>
     <string name="suggestions_popup_opened">拼字建議</string>
+    <string name="summary_collapsed_preference_list">%1$s，%2$s</string>
     <string name="sync_failed">「Google 簡報」同步處理錯誤</string>
     <string name="sync_more_error">擷取其他項目時發生錯誤</string>
     <string name="sync_more_error_offline">部分文件可能不會在離線時顯示。</string>
@@ -2025,7 +2036,7 @@
     <string name="team_drive_empty_list_message_cannot_create">當有人將您加到「團隊雲端硬碟」時，就會在這裡列出。</string>
     <string name="team_drive_settings_title">設定</string>
     <string name="team_drive_trash_welcome_snackbar">「團隊雲端硬碟」垃圾桶中的項目會在 30 天後永久刪除。</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">%1$s，標題</string>
     <string name="template_category_education">教育</string>
     <string name="template_category_personal">個人</string>
@@ -2099,6 +2110,8 @@
     <string name="unable_to_open_local_document_message">它可能已被移動或刪除。</string>
     <string name="unable_to_open_local_document_title">無法開啟本機儲存的檔案</string>
     <string name="unable_to_read_calendar_data">無法查詢日曆</string>
+    <string name="unable_update_published_message">草稿連結設定完成更新後，才可以變更已發佈網站的設定</string>
+    <string name="unable_update_published_title">無法更新設定</string>
     <string name="undeliverable_acl_changed_dialog_title">要刪除您所作的變更並還原此文件嗎？</string>
     <string name="undeliverable_changes_dialog_content">您離線時所作的變更可能已遺失。請確定您已將這些變更複製到剪貼簿。</string>
     <string name="undeliverable_changes_dialog_title">要刪除有問題的變更並還原此文件嗎？</string>
@@ -2201,6 +2214,8 @@
     <string name="upsell_negbtn">稍後</string>
     <string name="upsell_okbtn">升級</string>
     <string name="url_typo_error_msg">連結錯誤，請確認您輸入的連結正確無誤。</string>
+    <string name="v7_preference_off">關閉</string>
+    <string name="v7_preference_on">開啟</string>
     <string name="verbalize_bulleted_list">項目符號。%1$s</string>
     <string name="verbalize_numbered_list">%1$s。%2$s</string>
     <string name="verbalize_opened_edit">已透過編輯權限開啟「%1$s」。</string>
@@ -2231,8 +2246,9 @@
     <string name="warm_welcome_next_button">下一步</string>
     <string name="warm_welcome_skip_button">略過</string>
     <string name="warning_cannot_share_outside_domain">此「團隊雲端硬碟」禁止與 %s 外的使用者共用</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">此「團隊雲端硬碟」的設定禁止與非成員和 %s 外的使用者共用</string>
     <string name="warning_cannot_share_outside_domain_org">機構的設定禁止與機構外的使用者共用</string>
-    <string name="warning_cannot_share_outside_team_drive">此「團隊雲端硬碟」禁止與團隊外的使用者共用</string>
+    <string name="warning_cannot_share_outside_team_drive">此「團隊雲端硬碟」的設定禁止與非成員共用j</string>
     <string name="welcome_button_close">前往「簡報」</string>
     <string name="welcome_button_continue">下一頁</string>
     <string name="welcome_offer_button_close">關閉</string>
@@ -2251,21 +2267,21 @@
     <string name="write_access_denied">寫入文件的權限被拒。</string>
     <string name="zss_accessibility_searching">正在搜尋「%1$s」</string>
     <string name="zss_date_range_header_title">修改日期</string>
-    <string name="zss_date_range_month">最近 30 天</string>
-    <string name="zss_date_range_three_month">最近 90 天</string>
+    <string name="zss_date_range_month">過去 30 天</string>
+    <string name="zss_date_range_three_month">過去 90 天</string>
     <string name="zss_date_range_today">今天</string>
-    <string name="zss_date_range_week">最近 7 天</string>
+    <string name="zss_date_range_week">過去 7 天</string>
     <string name="zss_date_range_yesterday">昨天</string>
     <string name="zss_entry_types_header_title">檔案類型</string>
     <string name="zss_no_filters">無篩選器</string>
     <string name="zss_owner_header_title">擁有者</string>
-    <string name="zss_owner_me">我是擁有者</string>
+    <string name="zss_owner_me">我擁有的</string>
     <string name="zss_owner_not_me">不是我擁有的</string>
-    <string name="zss_people_header_title">使用者</string>
+    <string name="zss_people_header_title">聯絡人</string>
     <string name="zss_showing_list_of_filters">正在顯示可用篩選器清單。</string>
     <string name="zss_team_drive">在「%1$s」中搜尋</string>
     <string name="zss_type_archive">封存</string>
-    <string name="zss_type_audio">音效</string>
+    <string name="zss_type_audio">音訊</string>
     <string name="zss_type_documents">文字文件</string>
     <string name="zss_type_folder">資料夾</string>
     <string name="zss_type_images">相片和圖片</string>

@@ -475,6 +475,7 @@
     <string name="dialog_td_will_disappear">Екипният диск ще изчезне за всички и не можете да отмените това действие.</string>
     <string name="dialog_td_will_disappear_files_in_trash">Файловете от този екипен диск са в кошчето на „%1$s“ и потребителите няма да могат да ги възстановят. Този екипен диск ще изчезне за всички и не можете да отмените това действие.</string>
     <string name="did_you_mean">Може би имахте предвид: %1$s</string>
+    <string name="disabled_append">деактивирано,</string>
     <string name="discussion_accept">Приемане</string>
     <string name="discussion_acl_fix_access_role_commenter">Може да коментира</string>
     <string name="discussion_acl_fix_access_role_writer">Може да редактира</string>
@@ -585,11 +586,11 @@
     <string name="doclist_date_never_label">Никога</string>
     <string name="doclist_date_opened_label">Отворено от мен: %s</string>
     <string name="doclist_date_shared_label">Споделено: %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s · %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s · %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">Качено от мен: %s</string>
     <string name="doclist_detail_fragment_content_description">Показване на свойствата на елемента</string>
-    <string name="doclist_entry_content_description" formatted="false">%s %s</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s %s цвят:%s</string>
+    <string name="doclist_entry_content_description">%1$s %2$s</string>
+    <string name="doclist_entry_content_description_with_color">%1$s %2$s цвят:%3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">Отваряне на панела за навигация</string>
     <string name="doclist_quota_used_label">Използвано хранилище: %s</string>
     <string name="doclist_selected_show_preview">Показване на визуализация</string>
@@ -679,6 +680,8 @@
     <string name="draft_options_dialog_title">Настройки на черновия сайт</string>
     <string name="draft_permission_change_anyone_warning">Промяната към тази настройка на черновия сайт ще позволи на всички да преглеждат след публикуването.</string>
     <string name="draft_permission_change_domain_warning">Промяната към тази настройка на черновия сайт ще позволи на всички от %s да преглеждат след публикуването.</string>
+    <string name="draft_permission_downgrade_domain_warning">След промяната на тази настройка за черновия сайт публикуваната връзка ще може да се вижда само от %1$s</string>
+    <string name="draft_permission_downgrade_specific_warning">След промяната на тази настройка за черновия сайт публикуваната връзка ще може да се вижда само от конкретни хора</string>
     <string name="drive_file_stream_disabled">Забрана на отварянето на файлове в екипния диск чрез Файлов поток за Диск или подобни приложения</string>
     <string name="drive_file_stream_enabled">Разрешаване на отварянето на файлове в екипния диск чрез Файлов поток за Диск или подобни приложения</string>
     <string name="drive_file_stream_title">Файлов поток за Диск</string>
@@ -721,7 +724,7 @@
     <string name="empty_doclist_for_pinned_view_details">Направете файлове налице офлайн от менюто им за опции.</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Докоснете „Налице офлайн“ в менюто на файла, за да можете да работите по него офлайн.</string>
     <string name="empty_doclist_for_recent_view">Няма наскоро отваряни или редактирани файлове.</string>
-    <string name="empty_doclist_for_search_view">Няма резултати.</string>
+    <string name="empty_doclist_for_search_view">Няма резултати</string>
     <string name="empty_doclist_for_shared_with_me_view">Споделените с вас файлове ще се покажат тук.</string>
     <string name="empty_doclist_for_starred_view">Нямате файлове със звезда.</string>
     <string name="empty_doclist_for_starred_view_details">Докоснете иконата на звезда в менюто за опции за файла, за да го добавите в този списък.</string>
@@ -772,6 +775,7 @@
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">и още %1$d души.</string>
     <string name="exit_multiselect_mode_button">Излизане от режима за избор на множество елементи</string>
+    <string name="expand_button_title">Разширени</string>
     <string name="expires_future">Изтича след %1$s</string>
     <string name="expires_today">Изтича днес</string>
     <string name="export_download_error_title">Грешка при изтеглянето</string>
@@ -788,6 +792,11 @@
     <string name="fab_office_document">Нов файл в PowerPoint</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d г.</string>
     <string name="fast_scroll_search_result_grouper">Резултати</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">ГБ</string>
+    <string name="fast_scroll_size_grouper_kb">КБ</string>
+    <string name="fast_scroll_size_grouper_mb">МБ</string>
     <string name="fast_scroll_time_grouper_earlier">По-стари</string>
     <string name="fast_scroll_time_grouper_last_week">Миналата седмица</string>
     <string name="fast_scroll_time_grouper_this_month">По-рано този месец</string>
@@ -816,7 +825,7 @@
     <string name="file_picker_select_a_folder_heading">Избор на папка</string>
     <string name="file_picker_select_button">Избиране</string>
     <string name="file_picker_storage_permissions_denied_toast">Не бе дадено разрешение за достъп до локалното хранилище.</string>
-    <string name="file_too_large_for_upload" formatted="false">Файлът „%1s“ е твърде голям, за да бъде качен в Google Диск. Той е %2s, но лимитът за този файлов тип е %3s. Може да успеете да го качите, без да го преобразувате във формат на Google Диск.</string>
+    <string name="file_too_large_for_upload">Файлът „%1$s“ е твърде голям, за да бъде качен в Google Диск. Той е %2$s, но лимитът за този файлов тип е %3$s. Може да успеете да го качите, без да го преобразувате във формат на Google Диск.</string>
     <string name="file_too_large_for_upload_okbtn">ОK</string>
     <string name="file_too_large_for_upload_title">Качването не е възможно</string>
     <string name="file_was_not_sent">Файлът не е споделен.</string>
@@ -980,17 +989,8 @@
     <string name="manage_addons_playstore_link_description">Преминаване към Google Play Магазин за %s</string>
     <string name="manage_members_default_members">По подразбиране членовете могат да качват, редактират и изтриват файлове и да канят други членове</string>
     <string name="manage_members_dialog_title">Достъп на членовете</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Хранилище</string>
+    <string name="management_data_loading_failed">Тази страница не може да се зареди</string>
     <string name="member_count_max">99+</string>
     <string name="menu_backup">Резервни копия</string>
     <string name="menu_copy_link">Копиране</string>
@@ -1094,10 +1094,9 @@
     <string name="move_error_target_folder_not_exist">Целевата папка не съществува.</string>
     <string name="move_notice_lost_access_shared_folders">Елементът бе преместен извън споделената папка.</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s „%2$s“ загуби достъп.</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">1 елемент бе преместен извън екипния диск.</string>
     <string name="move_notice_lost_access_team_drives">Елементите бяха преместени извън екипния диск.</string>
     <string name="mr_cast_button_connected">Бутон за предаване. Установена е връзка</string>
-    <string name="mr_cast_button_connecting">Бутон за предаване. Свързва се</string>
+    <string name="mr_cast_button_connecting">Бутон за предаване. Установява се връзка</string>
     <string name="mr_cast_button_disconnected">Бутон за предаване. Връзката е прекратена</string>
     <string name="mr_chooser_searching">Търсят се устройства</string>
     <string name="mr_chooser_title">Предаване към</string>
@@ -1110,7 +1109,7 @@
     <string name="mr_controller_no_info_available">Няма налична информация</string>
     <string name="mr_controller_no_media_selected">Няма избрана мултимедия</string>
     <string name="mr_controller_pause">Поставяне на пауза</string>
-    <string name="mr_controller_play">Пускане</string>
+    <string name="mr_controller_play">Възпроизвеждане</string>
     <string name="mr_controller_stop">Спиране</string>
     <string name="mr_controller_stop_casting">Спиране на предаването</string>
     <string name="mr_controller_volume_slider">Плъзгач за силата на звука</string>
@@ -1149,7 +1148,7 @@
     <string name="no_scheduled_meetings">Няма насрочени срещи</string>
     <string name="no_team_drives_title">Няма екипни дискове</string>
     <string name="no_thanks">Не, благодаря</string>
-    <string name="not_enough_storage_for_upload" formatted="false">Файлът „%1s“ е твърде голям, за да бъде качен в Google Диск. Той е %2s, но наличното ви хранилище е само %3s. Моля, надстройте хранилището си и опитайте отново.</string>
+    <string name="not_enough_storage_for_upload">Файлът „%1$s“ е твърде голям, за да бъде качен в Google Диск. Той е %2$s, но наличното ви хранилище е само %3$s. Моля, надстройте хранилището си и опитайте отново.</string>
     <string name="notification_channel_name_default">По подразбиране</string>
     <string name="notification_channel_name_high_priority">Висок приоритет</string>
     <string name="notification_channel_name_low_priority">Нисък приоритет</string>
@@ -1432,7 +1431,6 @@
     <string name="published_access_anyone">Всеки може да преглежда след публикуването</string>
     <string name="published_access_domain">Всеки от %s може да преглежда след публикуването</string>
     <string name="published_access_select_people">След публикуването могат да преглеждат конкретни хора</string>
-    <string name="published_disabled_append">деактивирано,</string>
     <string name="published_message_for_anyone_can_edit">Тъй като всеки може да редактира, след публикуването всички ще могат да преглеждат.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Тъй като всеки от %1$s може да редактира, след публикуването всички от %1$s ще могат да преглеждат.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Тъй като всеки с връзката може да редактира, след публикуването всички ще могат да преглеждат.</string>
@@ -1546,7 +1544,7 @@
     <string name="punch_show_slide">Показване на слайда</string>
     <string name="punch_speaker_notes_title">Бележки на водещия</string>
     <string name="punch_speakernotes_closed">Бележките на водещия са затворени.</string>
-    <string name="punch_thor_invite_email_body" formatted="false">Информация за достъп:&lt;br> %s &lt;br> %s ПИН:%s</string>
+    <string name="punch_thor_invite_email_body">Информация за достъп:&lt;br> %1$s &lt;br> %2$s ПИН:%3$s</string>
     <string name="punctuation_period">.</string>
     <string name="purchase_dialog_how_storage_used">Хранилището се споделя между Gmail, Google Фото и Google Диск</string>
     <string name="purchase_dialog_manage">Управление на хранилището</string>
@@ -2006,6 +2004,7 @@
     <string name="suggestions_add_to_dictionary">Добавяне към речника</string>
     <string name="suggestions_delete_text">Изтриване</string>
     <string name="suggestions_popup_opened">Предложения за правопис</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Грешка при синхронизирането на Google Презентации</string>
     <string name="sync_more_error">При извличането на допълнителните елементи възникна грешка</string>
     <string name="sync_more_error_offline">Някои документи може да не се виждат, докато сте офлайн.</string>
@@ -2038,7 +2037,7 @@
     <string name="team_drive_empty_list_message_cannot_create">Когато някой ви добави в екипен диск, ще видите екипния диск тук.</string>
     <string name="team_drive_settings_title">Настройки</string>
     <string name="team_drive_trash_welcome_snackbar">Елементите в кошчето на екипните дискове ще бъдат изтрити завинаги след 30 дни.</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">%1$s, заглавие</string>
     <string name="template_category_education">Образование</string>
     <string name="template_category_personal">Лични</string>
@@ -2112,6 +2111,8 @@
     <string name="unable_to_open_local_document_message">Може да е бил преместен или изтрит.</string>
     <string name="unable_to_open_local_document_title">Файлът на у-вото не може да се отвори</string>
     <string name="unable_to_read_calendar_data">Заявката към календара не бе успешна</string>
+    <string name="unable_update_published_message">Настройката за публикуван сайт не може да бъде променена, докато не се актуализира настройката за връзка за черновия сайт</string>
+    <string name="unable_update_published_title">Настройката не може да се актуализира</string>
     <string name="undeliverable_acl_changed_dialog_title">Да се изтрият ли промените ви и да се върне ли документът в предишно състояние?</string>
     <string name="undeliverable_changes_dialog_content">Възможно е промените, които сте направили офлайн, да бъдат изгубени. Уверете се, че сте ги копирали в буферната памет.</string>
     <string name="undeliverable_changes_dialog_title">Да се изтрият ли проблемните промени и да се върне ли документът в предишно състояние?</string>
@@ -2214,6 +2215,8 @@
     <string name="upsell_negbtn">По-късно</string>
     <string name="upsell_okbtn">Надстройване</string>
     <string name="url_typo_error_msg">Връзката не изглежда както трябва. Може би има печатна грешка?</string>
+    <string name="v7_preference_off">ИЗКЛ.</string>
+    <string name="v7_preference_on">ВКЛ.</string>
     <string name="verbalize_bulleted_list">водещ символ. %1$s</string>
     <string name="verbalize_numbered_list">%1$s. %2$s</string>
     <string name="verbalize_opened_edit">Отворихте „%1$s“ с разрешения за редактиране.</string>
@@ -2244,8 +2247,9 @@
     <string name="warm_welcome_next_button">Напред</string>
     <string name="warm_welcome_skip_button">Пропускане</string>
     <string name="warning_cannot_share_outside_domain">Настройките на този екипен диск не позволяват споделянето извън %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Настройките на този екипен диск не позволяват споделяне с хора извън %s и такива, които не са членове</string>
     <string name="warning_cannot_share_outside_domain_org">Настройките за организацията не позволяват споделяне извън нея</string>
-    <string name="warning_cannot_share_outside_team_drive">Настройките на този екипен диск не позволяват споделянето извън екипа</string>
+    <string name="warning_cannot_share_outside_team_drive">Настройките на този екипен диск не позволяват споделянето с хора, които не са членове</string>
     <string name="welcome_button_close">Към Презентации</string>
     <string name="welcome_button_continue">Напред</string>
     <string name="welcome_offer_button_close">Затваряне</string>
@@ -2276,7 +2280,7 @@
     <string name="zss_owner_not_me">Непритежавани от мен</string>
     <string name="zss_people_header_title">Хора</string>
     <string name="zss_showing_list_of_filters">Показан е списък с наличните филтри.</string>
-    <string name="zss_team_drive">Търсене в %1$s</string>
+    <string name="zss_team_drive">Търсене в/ъв „%1$s“</string>
     <string name="zss_type_archive">Архив</string>
     <string name="zss_type_audio">Аудио</string>
     <string name="zss_type_documents">Текстови документи</string>

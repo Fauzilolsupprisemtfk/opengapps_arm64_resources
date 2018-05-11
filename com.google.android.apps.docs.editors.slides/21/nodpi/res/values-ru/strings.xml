@@ -420,6 +420,7 @@
     <string name="current_slide_label">Текущий</string>
     <string name="current_viewers">Просматривают файл</string>
     <string name="current_viewers_verbalization">Текущие читатели, открыть дополнительную палитру.</string>
+    <string name="custom_color">%1$s похож на %2$s</string>
     <string name="cut">Вырезать</string>
     <string name="decrypting_progress_message">Расшифровка %1$s…</string>
     <string name="default_new_drawing_title">Новый рисунок</string>
@@ -474,6 +475,7 @@
     <string name="dialog_td_will_disappear">Никто больше не сможет пользоваться общим диском. Это действие нельзя отменить.</string>
     <string name="dialog_td_will_disappear_files_in_trash">Файлы с общего диска будут помещены в корзину диска \"%1$s\", а самим диском больше никто не сможет пользоваться. Восстановить файлы и диск будет нельзя.</string>
     <string name="did_you_mean">Возможно, вы имели в виду \"%1$s\"</string>
+    <string name="disabled_append">отключено,</string>
     <string name="discussion_accept">Принять</string>
     <string name="discussion_acl_fix_access_role_commenter">Комментирование</string>
     <string name="discussion_acl_fix_access_role_writer">Редактирование</string>
@@ -584,11 +586,11 @@
     <string name="doclist_date_never_label">Никогда</string>
     <string name="doclist_date_opened_label">Открыто мной: %s</string>
     <string name="doclist_date_shared_label">Открыт совместный доступ: %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s, %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s, %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">Загружено мной: %s</string>
     <string name="doclist_detail_fragment_content_description">Открыть панель свойств</string>
-    <string name="doclist_entry_content_description" formatted="false">%s \"%s\"</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s \"%s\", цвет: %s</string>
+    <string name="doclist_entry_content_description">%2$s \"%1$s\"</string>
+    <string name="doclist_entry_content_description_with_color">%2$s \"%1$s\", цвет: %3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">Открыть панель навигации</string>
     <string name="doclist_quota_used_label">Размер: %s</string>
     <string name="doclist_selected_show_preview">Предварительный просмотр</string>
@@ -678,6 +680,8 @@
     <string name="draft_options_dialog_title">Настройки черновика</string>
     <string name="draft_permission_change_anyone_warning">Если вы выберете для черновика эту настройку, просматривать опубликованную версию смогут все в Интернете.</string>
     <string name="draft_permission_change_domain_warning">Если вы выберете для черновика эту настройку, просматривать опубликованную версию смогут все в домене %s.</string>
+    <string name="draft_permission_downgrade_domain_warning">Если вы поменяете эту настройку для черновика, просматривать опубликованную ссылку смогут только пользователи домена %1$s.</string>
+    <string name="draft_permission_downgrade_specific_warning">Если вы поменяете эту настройку для черновика, просматривать опубликованную ссылку смогут только некоторые пользователи.</string>
     <string name="drive_file_stream_disabled">Запретить открывать файлы на общем диске с помощью Клиента Google Диска или подобного приложения</string>
     <string name="drive_file_stream_enabled">Разрешить открывать файлы на общем диске с помощью Клиента Google Диска или подобного приложения</string>
     <string name="drive_file_stream_title">Клиент Google Диска</string>
@@ -771,13 +775,14 @@
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">и ещё %1$d.</string>
     <string name="exit_multiselect_mode_button">Выключить режим множественного выбора</string>
+    <string name="expand_button_title">Дополнительно</string>
     <string name="expires_future">Доступно ещё %1$s</string>
     <string name="expires_today">Доступно сегодня</string>
     <string name="export_download_error_title">Ошибка</string>
     <string name="export_error_message">Произошла ошибка.</string>
     <string name="export_error_message_network">Ошибка передачи данных. Проверьте подключение к Интернету.</string>
     <string name="export_error_message_server">Ошибка преобразования. Повторите попытку позже.</string>
-    <string name="export_failure_notification_content">Не удалось сохранить файл \"%1$s\"</string>
+    <string name="export_failure_notification_content">Не удалось сохранить файл \"%1$s\".</string>
     <string name="export_notification_content">Сохранение файла \"%1$s\"…</string>
     <string name="exporting_start_msg">Подготовка к экспорту данных…</string>
     <string name="fab_choose_template">Выбрать шаблон</string>
@@ -787,6 +792,11 @@
     <string name="fab_office_document">Создать презентацию PowerPoint</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Результаты поиска</string>
+    <string name="fast_scroll_size_grouper_b">Б</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">ГБ</string>
+    <string name="fast_scroll_size_grouper_kb">КБ</string>
+    <string name="fast_scroll_size_grouper_mb">МБ</string>
     <string name="fast_scroll_time_grouper_earlier">Более ранние</string>
     <string name="fast_scroll_time_grouper_last_week">На прошлой неделе</string>
     <string name="fast_scroll_time_grouper_this_month">В этом месяце</string>
@@ -815,7 +825,7 @@
     <string name="file_picker_select_a_folder_heading">Выберите папку</string>
     <string name="file_picker_select_button">Выбрать</string>
     <string name="file_picker_storage_permissions_denied_toast">Запрос на доступ к хранилищу устройства отклонен</string>
-    <string name="file_too_large_for_upload" formatted="false">Размер файла \"%1s\" (%2s) слишком велик для загрузки на Google Диск. Максимально допустимый размер для файлов этого типа – %3s. Попробуйте загрузить файл, не конвертируя его в формат Google Диска.</string>
+    <string name="file_too_large_for_upload">Размер файла \"%1$s\" (%2$s) слишком велик для загрузки на Google Диск. Максимально допустимый размер для файлов этого типа – %3$s. Попробуйте загрузить файл, не конвертируя его в формат Google Диска.</string>
     <string name="file_too_large_for_upload_okbtn">ОК</string>
     <string name="file_too_large_for_upload_title">Ошибка загрузки</string>
     <string name="file_was_not_sent">Доступ к файлу закрыт.</string>
@@ -991,17 +1001,8 @@
     <string name="manage_addons_playstore_link_description">Найти дополнение \"%s\" в Play Маркете</string>
     <string name="manage_members_default_members">По умолчанию участники могут загружать/редактировать/удалять файлы и приглашать других пользователей</string>
     <string name="manage_members_dialog_title">Управление доступом</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Хранилище</string>
+    <string name="management_data_loading_failed">Не удалось загрузить страницу</string>
     <string name="member_count_max">Более 99</string>
     <string name="menu_backup">Резервные копии</string>
     <string name="menu_copy_link">Копировать ссылку</string>
@@ -1105,22 +1106,21 @@
     <string name="move_error_target_folder_not_exist">Вы пытаетесь переместить объекты в папку, которой не существует.</string>
     <string name="move_notice_lost_access_shared_folders">Объекты перемещены из общей папки.</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s Пользователи диска \"%2$s\" потеряли доступ к данным.</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">Объект перемещен с общего диска.</string>
     <string name="move_notice_lost_access_team_drives">Объекты перемещены с общего диска.</string>
     <string name="mr_cast_button_connected">Кнопка трансляции. Устройство подключено.</string>
     <string name="mr_cast_button_connecting">Кнопка трансляции. Устройство подключается.</string>
     <string name="mr_cast_button_disconnected">Кнопка трансляции. Устройство отключено.</string>
     <string name="mr_chooser_searching">Поиск устройств…</string>
-    <string name="mr_chooser_title">Выберите устройство</string>
+    <string name="mr_chooser_title">Транслировать на устройство</string>
     <string name="mr_controller_album_art">Обложка</string>
     <string name="mr_controller_casting_screen">Подключение к удаленному монитору</string>
     <string name="mr_controller_close_description">Закрыть</string>
-    <string name="mr_controller_collapse_group">Свернуть</string>
+    <string name="mr_controller_collapse_group">Скрыть</string>
     <string name="mr_controller_disconnect">Отключить</string>
     <string name="mr_controller_expand_group">Развернуть</string>
     <string name="mr_controller_no_info_available">Данных нет</string>
-    <string name="mr_controller_no_media_selected">Медиафайл не выбран</string>
-    <string name="mr_controller_pause">Приостановить</string>
+    <string name="mr_controller_no_media_selected">Контент не выбран</string>
+    <string name="mr_controller_pause">Пауза</string>
     <string name="mr_controller_play">Воспроизвести</string>
     <string name="mr_controller_stop">Остановить</string>
     <string name="mr_controller_stop_casting">Прекратить трансляцию</string>
@@ -1160,7 +1160,7 @@
     <string name="no_scheduled_meetings">Запланированных встреч нет</string>
     <string name="no_team_drives_title">Общих дисков нет</string>
     <string name="no_thanks">Нет, спасибо</string>
-    <string name="not_enough_storage_for_upload" formatted="false">Размер файла \"%1s\" (%2s) слишком велик для загрузки на Google Диск. Объем доступного сейчас пространства – %3s. Увеличьте объем хранилища и повторите попытку.</string>
+    <string name="not_enough_storage_for_upload">Размер файла \"%1$s\" (%2$s) слишком велик для загрузки на Google Диск. Объем доступного сейчас пространства – %3$s. Увеличьте объем хранилища и повторите попытку.</string>
     <string name="notification_channel_name_default">По умолчанию</string>
     <string name="notification_channel_name_high_priority">Высокий приоритет</string>
     <string name="notification_channel_name_low_priority">Низкий приоритет</string>
@@ -1240,7 +1240,7 @@
     <string name="ouch_title_sawwrie">Ошибка</string>
     <string name="overwrite_confirm_dialog_message">Файл \"%1$s\" уже существует. Перезаписать?</string>
     <string name="overwrite_confirm_dialog_positive_button_label">Да</string>
-    <string name="owner_not_user">Не принадлежат пользователю %1$s</string>
+    <string name="owner_not_user">Владелец: не %1$s</string>
     <string name="owner_user">Владелец: %1$s</string>
     <string name="page_1_description">Работайте даже без подключения к Интернету.</string>
     <string name="page_1_heading_editors">Презентации, которые всегда под рукой</string>
@@ -1282,7 +1282,6 @@
     <string name="palette_format_font_title">Текст</string>
     <string name="palette_format_font_underline">Подчеркнутый</string>
     <string name="palette_format_menu_item">Форматирование</string>
-    <string name="palette_format_shape_linewidth_value_format">%.0пикс</string>
     <string name="palette_image_from_camera">Сфотографировать</string>
     <string name="palette_image_from_storage">Выбрать из галереи</string>
     <string name="palette_line">Линия</string>
@@ -1443,7 +1442,6 @@
     <string name="published_access_anyone">Просматривать опубликованную версию могут все</string>
     <string name="published_access_domain">Просматривать опубликованную версию могут все в домене %s</string>
     <string name="published_access_select_people">Просматривать опубликованную версию могут выбранные пользователи</string>
-    <string name="published_disabled_append">отключено,</string>
     <string name="published_message_for_anyone_can_edit">Поскольку вносить изменения разрешено всем, просматривать опубликованную версию смогут все в Интернете.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Поскольку вносить изменения разрешено всем в домене %1$s, просматривать опубликованную версию сможет любой пользователь домена %1$s.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Поскольку вносить изменения разрешено всем, у кого есть ссылка, просматривать опубликованную версию смогут все в Интернете.</string>
@@ -1557,7 +1555,7 @@
     <string name="punch_show_slide">Показать слайд</string>
     <string name="punch_speaker_notes_title">Заметки докладчика</string>
     <string name="punch_speakernotes_closed">Заметки докладчика закрыты.</string>
-    <string name="punch_thor_invite_email_body" formatted="false">Данные для доступа:&lt;br>%s&lt;br>%s PIN-код: %s</string>
+    <string name="punch_thor_invite_email_body">Данные для доступа:&lt;br>%1$s&lt;br>%2$s PIN-код: %3$s</string>
     <string name="punctuation_period">.</string>
     <string name="purchase_dialog_how_storage_used">Хранилище используется тремя сервисами: Google Диском, Gmail и Google Фото.</string>
     <string name="purchase_dialog_manage">Управление хранилищем</string>
@@ -2017,6 +2015,7 @@
     <string name="suggestions_add_to_dictionary">Добавить в словарь</string>
     <string name="suggestions_delete_text">Удалить</string>
     <string name="suggestions_popup_opened">Варианты исправления</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Ошибка синхронизации Google Презентаций</string>
     <string name="sync_more_error">Ошибка загрузки</string>
     <string name="sync_more_error_offline">Некоторые документы невозможно посмотреть офлайн</string>
@@ -2049,7 +2048,7 @@
     <string name="team_drive_empty_list_message_cannot_create">Здесь будут общие диски, к которым вам предоставят доступ.</string>
     <string name="team_drive_settings_title">Настройки</string>
     <string name="team_drive_trash_welcome_snackbar">Объекты в корзине общего диска удаляются из нее через 30 дней.</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">Заголовок \"%1$s\"</string>
     <string name="template_category_education">Образование</string>
     <string name="template_category_personal">Для личных целей</string>
@@ -2123,6 +2122,8 @@
     <string name="unable_to_open_local_document_message">Файл перемещен или удален с устройства.</string>
     <string name="unable_to_open_local_document_title">Не удалось открыть файл</string>
     <string name="unable_to_read_calendar_data">Календарь не отвечает на запрос</string>
+    <string name="unable_update_published_message">Изменить настройки опубликованного сайта можно только после обновления настроек доступа по ссылке к черновику.</string>
+    <string name="unable_update_published_title">Не удалось обновить настройки</string>
     <string name="undeliverable_acl_changed_dialog_title">Хотите отменить изменения и восстановить документ?</string>
     <string name="undeliverable_changes_dialog_content">Изменения, внесенные офлайн, могут быть утеряны. Убедитесь, что вся нужная информация скопирована в буфер обмена.</string>
     <string name="undeliverable_changes_dialog_title">Хотите отменить изменения, вызвавшие ошибку, и восстановить документ?</string>
@@ -2225,6 +2226,8 @@
     <string name="upsell_negbtn">Позже</string>
     <string name="upsell_okbtn">Увеличить объем</string>
     <string name="url_typo_error_msg">Возможно, в ссылке есть опечатка.</string>
+    <string name="v7_preference_off">ВЫКЛ.</string>
+    <string name="v7_preference_on">ВКЛ.</string>
     <string name="verbalize_bulleted_list">Маркер списка. %1$s.</string>
     <string name="verbalize_numbered_list">%1$s. %2$s.</string>
     <string name="verbalize_opened_edit">Открытый файл \"%1$s\" можно редактировать.</string>
@@ -2255,8 +2258,9 @@
     <string name="warm_welcome_next_button">Далее</string>
     <string name="warm_welcome_skip_button">Пропустить</string>
     <string name="warning_cannot_share_outside_domain">Объектами на этом общем диске нельзя делиться с пользователями за пределами домена %s.</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Объектами на этом общем диске можно делиться только с пользователями этого диска в домене %s.</string>
     <string name="warning_cannot_share_outside_domain_org">Администратор запретил делиться объектами с пользователями за пределами домена.</string>
-    <string name="warning_cannot_share_outside_team_drive">Объектами на этом общем диске можно делиться только с пользователями этого диска.</string>
+    <string name="warning_cannot_share_outside_team_drive">Объектами на этом общем диске можно делиться только с его пользователями.</string>
     <string name="welcome_button_close">Начать работу</string>
     <string name="welcome_button_continue">Далее</string>
     <string name="welcome_offer_button_close">Закрыть</string>
@@ -2274,7 +2278,7 @@
     <string name="welcome_title_highlights">%1$s. Панель оповещения.</string>
     <string name="write_access_denied">Вы больше не можете редактировать этот документ</string>
     <string name="zss_accessibility_searching">Ваш запрос: %1$s</string>
-    <string name="zss_date_range_header_title">Дата изменения</string>
+    <string name="zss_date_range_header_title">Последнее изменение</string>
     <string name="zss_date_range_month">За последние 30 дней</string>
     <string name="zss_date_range_three_month">За последние 90 дней</string>
     <string name="zss_date_range_today">Сегодня</string>
@@ -2285,14 +2289,14 @@
     <string name="zss_owner_header_title">Владелец</string>
     <string name="zss_owner_me">Только я</string>
     <string name="zss_owner_not_me">Другие пользователи</string>
-    <string name="zss_people_header_title">Пользователи</string>
+    <string name="zss_people_header_title">Люди</string>
     <string name="zss_showing_list_of_filters">Список доступных фильтров</string>
-    <string name="zss_team_drive">Где искать: %1$s</string>
-    <string name="zss_type_archive">Архив</string>
+    <string name="zss_team_drive">Искать на общем диске \"%1$s\"</string>
+    <string name="zss_type_archive">Архивы</string>
     <string name="zss_type_audio">Аудио</string>
     <string name="zss_type_documents">Текстовые документы</string>
     <string name="zss_type_folder">Папки</string>
-    <string name="zss_type_images">Фотографии и картинки</string>
+    <string name="zss_type_images">Изображения</string>
     <string name="zss_type_pdfs">Файлы PDF</string>
     <string name="zss_type_presentations">Презентации</string>
     <string name="zss_type_spreadsheets">Таблицы</string>

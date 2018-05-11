@@ -8,28 +8,6 @@
         <item quantity="other">%s eru ekki gild netföng.</item>
         <item quantity="one">%s er ekki gilt netfang.</item>
     </plurals>
-    <plurals name="add_confirm_dialog_message_share_files">
-        <item quantity="other">Ef þú bætir þessum skrám við verður þeim deilt með öllum sem hafa aðgang að samnýttu möppunni %1$s</item>
-        <item quantity="one">Ef þú bætir þessari skrá við verður henni deilt með öllum sem hafa aðgang að samnýttu möppunni %1$s</item>
-    </plurals>
-    <plurals name="add_confirm_dialog_message_share_files_and_folders">
-        <item quantity="other">Ef þú bætir þessum skrám og möppum við verður þeim deilt með öllum sem hafa aðgang að samnýttu möppunni %1$s</item>
-    </plurals>
-    <plurals name="add_confirm_dialog_message_share_folders">
-        <item quantity="other">Ef þú bætir þessum möppum við verður þeim deilt með öllum sem hafa aðgang að samnýttu möppunni %1$s</item>
-        <item quantity="one">Ef þú bætir þessari möppu við verður henni deilt með öllum sem hafa aðgang að samnýttu möppunni %1$s</item>
-    </plurals>
-    <plurals name="add_confirm_dialog_title_share_files">
-        <item quantity="other">Viltu deila þessum skrám?</item>
-        <item quantity="one">Viltu deila þessari skrá?</item>
-    </plurals>
-    <plurals name="add_confirm_dialog_title_share_files_and_folders">
-        <item quantity="other">Viltu deila þessum skrám og möppum?</item>
-    </plurals>
-    <plurals name="add_confirm_dialog_title_share_folders">
-        <item quantity="other">Viltu deila þessum möppum?</item>
-        <item quantity="one">Viltu deila þessari möppu?</item>
-    </plurals>
     <plurals name="apply_filters">
         <item quantity="other">Nota síur:</item>
         <item quantity="one">Nota síu:</item>
@@ -51,9 +29,6 @@
         <item quantity="other">Ekki tókst að sækja atriðin</item>
         <item quantity="one">Ekki tókst að sækja atriðið</item>
     </plurals>
-    <plurals name="download_message_failures">
-        <item quantity="other">%1$d af %2$d atriðum verða sótt. Sjá tilkynningu til að fá frekari upplýsingar.</item>
-    </plurals>
     <plurals name="download_message_success">
         <item quantity="other">%1$d atriði verða sótt. Sjá tilkynningu til að fá frekari upplýsingar.</item>
         <item quantity="one">%1$d atriði verður sótt. Sjá tilkynningu til að fá frekari upplýsingar.</item>
@@ -65,9 +40,6 @@
     <plurals name="download_notification_list_summary">
         <item quantity="other">%1$d atriði í viðbót</item>
         <item quantity="one">%1$d atriði í viðbót</item>
-    </plurals>
-    <plurals name="download_notification_partial_success_title">
-        <item quantity="other">Ekki tókst að sækja %1$d af %2$d atriðum</item>
     </plurals>
     <plurals name="end_member_string">
         <item quantity="other">eru nú þegar hér</item>
@@ -117,9 +89,6 @@
         <item quantity="other">Ef þú færir þessar skrár verður þeim deilt með öllum sem hafa aðgang að samnýttu möppunni %1$s</item>
         <item quantity="one">Ef þú færir þessa skrá verður henni deilt með öllum sem hafa aðgang að samnýttu möppunni %1$s</item>
     </plurals>
-    <plurals name="move_confirm_dialog_message_share_files_and_folders">
-        <item quantity="other">Ef þú færir þessar skrár og möppur verður þeim deilt með öllum sem hafa aðgang að samnýttu möppunni %1$s</item>
-    </plurals>
     <plurals name="move_confirm_dialog_message_share_folders">
         <item quantity="other">Ef þú færir þessar möppur verður þeim deilt með öllum sem hafa aðgang að samnýttu möppunni %1$s</item>
         <item quantity="one">Ef þú færir þessa möppu verður henni deilt með öllum sem hafa aðgang að samnýttu möppunni %1$s</item>
@@ -128,9 +97,6 @@
         <item quantity="other">Viltu deila þessum skrám?</item>
         <item quantity="one">Viltu deila þessari skrá?</item>
     </plurals>
-    <plurals name="move_confirm_dialog_title_share_files_and_folders">
-        <item quantity="other">Deila þessum skrám og möppum?</item>
-    </plurals>
     <plurals name="move_confirm_dialog_title_share_folders">
         <item quantity="other">Deila þessum möppum?</item>
         <item quantity="one">Viltu deila þessari möppu?</item>
@@ -138,6 +104,10 @@
     <plurals name="move_error_no_permission_src">
         <item quantity="other">Þú hefur ekki heimild til að færa sum atriði úr möppunni þar sem þau eru geymd.</item>
         <item quantity="one">Þú hefur ekki heimild til að færa þetta atriði úr möppunni þar sem það er geymt.</item>
+    </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">Ekki er hægt að færa þessar skrár því að eigandi þeirra er utan %1$s.</item>
+        <item quantity="one">Ekki er hægt að færa skrána því að eigandi hennar er utan %1$s.</item>
     </plurals>
     <plurals name="move_notice_granted_access_team_drive">
         <item quantity="other">%1$s „%2$s“ er nú með aðgang.</item>
@@ -250,9 +220,6 @@
     <plurals name="remove_dialog_delete_for_everyone_items_text">
         <item quantity="other">%1$d atriði verða flutt í ruslakörfu %2$s og þeim eytt fyrir fullt og allt eftir 30 daga.</item>
         <item quantity="one">Atriði verður flutt í ruslakörfu %2$s og því eytt fyrir fullt og allt eftir 30 daga</item>
-    </plurals>
-    <plurals name="remove_dialog_delete_permanently_for_everyone_text_multiple">
-        <item quantity="other">Þessum %1$d skrám verður &lt;b>eytt fyrir fullt og allt og fyrir alla&lt;/b>. Ekki er hægt að afturkalla þessa aðgerð.</item>
     </plurals>
     <plurals name="remove_dialog_delete_permanently_text_multiple">
         <item quantity="other">Þessum %1$d skrám verður eytt fyrir fullt og allt. Ekki er hægt að afturkalla þessa aðgerð.</item>

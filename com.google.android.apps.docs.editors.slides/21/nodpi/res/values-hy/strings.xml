@@ -457,6 +457,7 @@
     <string name="dialog_td_will_disappear">Այս ընդհանուր դրայվը կանհետանա բոլորի համար, և դուք չեք կարողանա հետարկել այս գործողությունը:</string>
     <string name="dialog_td_will_disappear_files_in_trash">Այս ընդհանուր դրայվի ֆայլերը «%1$s»-ի աղբարկղում են, և ոչ ոք չի կարողանա վերականգնել դրանք: Ընդհանուր դրայվը կանհետանա բոլորի համար, և դուք չեք կարողանա հետարկել այս գործողությունը:</string>
     <string name="did_you_mean">Արդյո՞ք նկատի ունեիք՝ %1$s</string>
+    <string name="disabled_append">անջատած է,</string>
     <string name="discussion_accept">Ընդունել</string>
     <string name="discussion_acl_fix_access_role_commenter">Մեկնաբանել</string>
     <string name="discussion_acl_fix_access_role_writer">Փոփոխել</string>
@@ -567,11 +568,11 @@
     <string name="doclist_date_never_label">Երբեք</string>
     <string name="doclist_date_opened_label">Բացել եմ՝ %s</string>
     <string name="doclist_date_shared_label">Կիսվել է՝ %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s · %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s · %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">Վերբեռնել եմ՝ %s</string>
     <string name="doclist_detail_fragment_content_description">Ցուցադրել տարրի հատկությունները</string>
-    <string name="doclist_entry_content_description" formatted="false">%s %s</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s %s գույնը՝ %s</string>
+    <string name="doclist_entry_content_description">%1$s %2$s</string>
+    <string name="doclist_entry_content_description_with_color">%1$s %2$s գույնը՝ %3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">Բացել նավարկման դարակը</string>
     <string name="doclist_quota_used_label">Զբաղեցնում է %s հիշողություն</string>
     <string name="doclist_selected_show_preview">Ցուցադրել նախադիտումը</string>
@@ -661,6 +662,8 @@
     <string name="draft_options_dialog_title">Կայքի սևագրի կարգավորումներ</string>
     <string name="draft_permission_change_anyone_warning">Եթե ընտրեք կայքի սևագրի այս կարգավորումը, ցանկացած օգտատեր կկարողանա դիտել հրապարակված տարբերակը:</string>
     <string name="draft_permission_change_domain_warning">Եթե ընտրեք կայքի սևագրի այս կարգավորումը, %s տիրույթի ցանկացած օգտատեր կկարողանա դիտել հրապարակված տարբերակը:</string>
+    <string name="draft_permission_downgrade_domain_warning">Եթե փոխեք կայքի սևագրի այս կարգավորումը, հրապարակված հղումը կկարողանան բացել միայն %1$s տիրույթի օգտատերերը</string>
+    <string name="draft_permission_downgrade_specific_warning">Եթե փոխեք կայքի սևագրի այս կարգավորումը, հրապարակված հղումը կկարողանան բացել միայն որոշակի օգտատերեր</string>
     <string name="drive_file_stream_disabled">Արգելեք ֆայլեր բացել այս ընդհանուր դրայվում Drive File Stream-ի կամ նմանատիպ հավելվածների միջոցով</string>
     <string name="drive_file_stream_enabled">Թույլատրեք ֆայլեր բացել այս ընդհանուր դրայվում Drive File Stream-ի կամ նմանատիպ հավելվածների միջոցով</string>
     <string name="drive_file_stream_title">Drive File Stream</string>
@@ -702,7 +705,7 @@
     <string name="empty_doclist_for_pinned_view_details">Դարձրեք ֆայլերը «Հասանելի անցանց ռեժիմում» ֆայլի ընտրանքների ցանկից</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Ֆայլի ընտրացանկում հպեք «Հասանելի է անցանց ռեժիմում» տարբերակին, որպեսզի կարողանաք աշխատել ֆայլի վրա անցանց ժամանակ:</string>
     <string name="empty_doclist_for_recent_view">Վերջերս բացված կամ խմբագրված ֆայլեր չկան:</string>
-    <string name="empty_doclist_for_search_view">Արդյունքներ չկան:</string>
+    <string name="empty_doclist_for_search_view">Արդյունքներ չկան</string>
     <string name="empty_doclist_for_shared_with_me_view">Ձեզ հետ կիսված ֆայլերը կհայտնվեն այստեղ:</string>
     <string name="empty_doclist_for_starred_view">Աստղանշված ֆայլեր չկան:</string>
     <string name="empty_doclist_for_starred_view_details">Ֆայլի ընտրանքների ցանկում հպեք աստղանիշի պատկերակին՝ ֆայլն այս ցուցակում ավելացնելու համար:</string>
@@ -753,6 +756,7 @@
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">ու ևս %1$d համահեղինակ:</string>
     <string name="exit_multiselect_mode_button">Դուրս գալ բազմակի ընտրության ռեժիմից</string>
+    <string name="expand_button_title">Լրացուցիչ</string>
     <string name="expires_future">Սպառվում է %1$sից</string>
     <string name="expires_today">Սպառվում է այսօր</string>
     <string name="export_download_error_title">Ներբեռնման սխալ</string>
@@ -769,6 +773,11 @@
     <string name="fab_office_document">Նոր Powerpoint ֆայլ</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Որոնման արդյունքներ</string>
+    <string name="fast_scroll_size_grouper_b">Բ</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">ԳԲ</string>
+    <string name="fast_scroll_size_grouper_kb">ԿԲ</string>
+    <string name="fast_scroll_size_grouper_mb">ՄԲ</string>
     <string name="fast_scroll_time_grouper_earlier">Ավելի հին</string>
     <string name="fast_scroll_time_grouper_last_week">Անցյալ շաբաթ</string>
     <string name="fast_scroll_time_grouper_this_month">Այս ամսվա սկզբին</string>
@@ -797,7 +806,7 @@
     <string name="file_picker_select_a_folder_heading">Ընտրել պանակը</string>
     <string name="file_picker_select_button">Ընտրել</string>
     <string name="file_picker_storage_permissions_denied_toast">Սարքի հիշողությունն օգտագործելու թույլտվություն չկա:</string>
-    <string name="file_too_large_for_upload" formatted="false">%1s ֆայլը չափազանց մեծ է Google Drive-ում վերբեռնելու համար: Դրա ծավալը %2s է, մինչդեռ այս տեսակի ֆայլերի սահմանաչափը %3s է: Փորձեք վերբեռնել այն առանց Google Drive-ի ձևաչափի փոխարկելու։</string>
+    <string name="file_too_large_for_upload">%1$s ֆայլը չափազանց մեծ է Google Drive-ում վերբեռնելու համար: Դրա ծավալը %2$s է, մինչդեռ այս տեսակի ֆայլերի սահմանաչափը %3$s է: Փորձեք վերբեռնել այն առանց Google Drive-ի ձևաչափի փոխարկելու։</string>
     <string name="file_too_large_for_upload_okbtn">Եղավ</string>
     <string name="file_too_large_for_upload_title">Հնարավոր չէ վերբեռնել</string>
     <string name="file_was_not_sent">Ֆայլն անհասանելի է։</string>
@@ -957,17 +966,8 @@
     <string name="make_copy_spinner_message">Պատճենում…</string>
     <string name="manage_members_default_members">Ըստ կանխադրման, անդամները կարող են վերբեռնել/փոփոխել/ջնջել ֆայլեր և հրավիրել այլ անդամների</string>
     <string name="manage_members_dialog_title">Անդամների թույլտվ.</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Հիշողություն</string>
+    <string name="management_data_loading_failed">Չհաջողվեց բեռնել էջը</string>
     <string name="member_count_max">99+</string>
     <string name="menu_backup">Կրկնօրինակներ</string>
     <string name="menu_copy_link">Պատճենել հղումը</string>
@@ -1070,22 +1070,21 @@
     <string name="move_error_target_folder_not_exist">Պանակը, ուր փորձում եք տարրեր տեղափոխել, գոյություն չունի:</string>
     <string name="move_notice_lost_access_shared_folders">Տարրերը տեղափոխվել են ընդհանուր պանակից և այլևս հասանելի չեն</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s Տարրերն այլևս հասանելի չեն «%2$s»-ին:</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">1 տարր տեղափոխվել է ընդհանուր դրայվից և այլևս հասանելի չէ:</string>
     <string name="move_notice_lost_access_team_drives">Տարրերը տեղափոխվել են ընդհանուր դրայվից և այլևս հասանելի չեն</string>
-    <string name="mr_cast_button_connected">Հեռարձակման կոճակ: Սարքը կապակցված է</string>
-    <string name="mr_cast_button_connecting">Հեռարձակման կոճակ: Սարքը կապակցվում է</string>
-    <string name="mr_cast_button_disconnected">Հեռարձակման կոճակ: Սարքն անջատված է</string>
+    <string name="mr_cast_button_connected">Հեռարձակման կոճակ: Սարքը միացված է:</string>
+    <string name="mr_cast_button_connecting">Հեռարձակման կոճակ: Սարքը միանում է:</string>
+    <string name="mr_cast_button_disconnected">Հեռարձակման կոճակ: Սարքն անջատած է:</string>
     <string name="mr_chooser_searching">Սարքերի որոնում</string>
-    <string name="mr_chooser_title">Ընտրեք սարքը</string>
+    <string name="mr_chooser_title">Ընտրեք սարք</string>
     <string name="mr_controller_album_art">Ալբոմի շապիկ</string>
-    <string name="mr_controller_casting_screen">Էկրանը հեռարձակվում է</string>
+    <string name="mr_controller_casting_screen">Էկրանի հեռարձակում</string>
     <string name="mr_controller_close_description">Փակել</string>
     <string name="mr_controller_collapse_group">Կոծկել</string>
     <string name="mr_controller_disconnect">Անջատել</string>
     <string name="mr_controller_expand_group">Ընդարձակել</string>
-    <string name="mr_controller_no_info_available">Տեղեկությունները հասանելի չեն</string>
-    <string name="mr_controller_no_media_selected">Մեդիա ֆայլեր չեն ընտրվել</string>
-    <string name="mr_controller_pause">Դադար</string>
+    <string name="mr_controller_no_info_available">Հասանելի տեղեկություններ չկան</string>
+    <string name="mr_controller_no_media_selected">Մեդիա ֆայլ չի ընտրվել</string>
+    <string name="mr_controller_pause">Ընդհատել</string>
     <string name="mr_controller_play">Նվագարկել</string>
     <string name="mr_controller_stop">Դադարեցնել</string>
     <string name="mr_controller_stop_casting">Դադարեցնել հեռարձակումը</string>
@@ -1125,7 +1124,7 @@
     <string name="no_scheduled_meetings">Ծրագրված հանդիպումներ չկան</string>
     <string name="no_team_drives_title">Ընդհանուր դրայվներ չկան</string>
     <string name="no_thanks">Ոչ</string>
-    <string name="not_enough_storage_for_upload" formatted="false">%1s ֆայլը չափազանց մեծ է Google Drive վերբեռնելու համար: Դրա ծավալը %2s է, իսկ դու ունեք %3s ազատ տարածք: Ավելացրեք տարածք և նորից փորձեք:</string>
+    <string name="not_enough_storage_for_upload">%1$s ֆայլը չափազանց մեծ է Google Drive վերբեռնելու համար: Դրա ծավալը %2$s է, իսկ դու ունեք %3$s ազատ տարածք: Ավելացրեք տարածք և նորից փորձեք:</string>
     <string name="notification_channel_name_default">Կանխադրված</string>
     <string name="notification_channel_name_high_priority">Բարձր առաջնայնություն</string>
     <string name="notification_channel_name_low_priority">Ցածր առաջնայնություն</string>
@@ -1520,7 +1519,7 @@
     <string name="punch_show_slide">Ցուցադրել սլայդը</string>
     <string name="punch_speaker_notes_title">Ներկայացնողի նշումներ</string>
     <string name="punch_speakernotes_closed">Ներկայացնողի նշումները փակվեցին</string>
-    <string name="punch_thor_invite_email_body" formatted="false">Մուտքային տվյալներ՝&lt;br> %s &lt;br> %s PIN կոդ՝%s</string>
+    <string name="punch_thor_invite_email_body">Մուտքային տվյալներ՝&lt;br> %1$s &lt;br> %2$s PIN կոդ՝%3$s</string>
     <string name="punctuation_period">:</string>
     <string name="purchase_dialog_how_storage_used">Պահեստի տարածքը բաշխվում է Gmail-ի, Google Լուսանկարների և Google Drive-ի միջև</string>
     <string name="purchase_dialog_manage">Կառավարել պահեստը</string>
@@ -1977,6 +1976,7 @@
     <string name="suggestions_add_to_dictionary">Ավելացնել բառարանում</string>
     <string name="suggestions_delete_text">Ջնջել</string>
     <string name="suggestions_popup_opened">Ուղղագրության առաջարկներ</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Google Սլայդների համաժամացման սխալ</string>
     <string name="sync_more_error">Լրացուցիչ ֆայլերի առբերման սխալ</string>
     <string name="sync_more_error_offline">Որոշ փաստաթղթեր հնարավոր է տեսանելի չլինեն անցանց ռեժիմում:</string>
@@ -2009,7 +2009,7 @@
     <string name="team_drive_empty_list_message_cannot_create">Այստեղ կցուցադրվեն ձեզ հասանելի ընդհանուր դրայվները:</string>
     <string name="team_drive_settings_title">Կարգավորումներ</string>
     <string name="team_drive_trash_welcome_snackbar">Ընդհանուր դրայվի աղբարկղի տարրերը 30 օրից ընդմիշտ կջնջվեն։</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">%1$s, վերնագիր</string>
     <string name="template_category_education">Կրթություն</string>
     <string name="template_category_personal">Անձնական</string>
@@ -2083,6 +2083,8 @@
     <string name="unable_to_open_local_document_message">Հնարավոր է՝ այն տեղափոխվել կամ ջնջվել է:</string>
     <string name="unable_to_open_local_document_title">Անհնար է բացել սարքում պահված ֆայլը</string>
     <string name="unable_to_read_calendar_data">Օրացույցը չի պատասխանում հարցմանը</string>
+    <string name="unable_update_published_message">Հրապարակված կայքի կարգավորումները չեն կարող փոփոխվել, մինչև կայքի սևագրի հղման կարգավորումները չթարմացվեն</string>
+    <string name="unable_update_published_title">Չհաջողվեց թարմացնել կարգավորումը</string>
     <string name="undeliverable_acl_changed_dialog_title">Ջնջե՞լ փոփոխությունները և հետադարձել փաստաթուղթը:</string>
     <string name="undeliverable_changes_dialog_content">Ցանցից դուրս կատարած փոփոխությունները կարող են չպահվել: Դրանք անպայման պատճենեք սեղմատախտակին:</string>
     <string name="undeliverable_changes_dialog_title">Ջնջե՞լ խնդիր առաջացրած փոփոխությունները և վերադառնալ սկզբնական փաստաթղթին:</string>
@@ -2185,6 +2187,8 @@
     <string name="upsell_negbtn">Ավելի ուշ</string>
     <string name="upsell_okbtn">Ավելացնել</string>
     <string name="url_typo_error_msg">Հղումը, կարծես, սխալ է: Ինչ-որ տառասխա՞լ կա:</string>
+    <string name="v7_preference_off">ԱՆՋԱՏԱԾ</string>
+    <string name="v7_preference_on">ՄԻԱՑՎԱԾ</string>
     <string name="verbalize_bulleted_list">Պարբերակ: %1$s</string>
     <string name="verbalize_numbered_list">%1$s: %2$s</string>
     <string name="verbalize_opened_edit">Բացված %1$s ֆայլը կարելի է խմբագրել:</string>
@@ -2215,8 +2219,9 @@
     <string name="warm_welcome_next_button">Հաջորդը</string>
     <string name="warm_welcome_skip_button">Բաց թողնել</string>
     <string name="warning_cannot_share_outside_domain">Այս ընդհանուր դրայվի կարգավորումները թույլ չեն տալիս կիսվել ֆայլերով %s տիրույթից դուրս</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Այս ընդհանուր դրայվի կարգավորումները թույլ չեն տալիս կիսվել ֆայլերով կողմնակի անձանց հետ և %s տիրույթից դուրս</string>
     <string name="warning_cannot_share_outside_domain_org">Կազմակերպության կարգավորումները թույլ չեն տալիս կիսվել ֆայլերով կազմակերպությունից դուրս</string>
-    <string name="warning_cannot_share_outside_team_drive">Այս ընդհանուր դրայվի կարգավորումները թույլ չեն տալիս կիսվել ֆայլերով ընդհանուր դրայվից դուրս</string>
+    <string name="warning_cannot_share_outside_team_drive">Այս ընդհանուր դրայվի կարգավորումները թույլ չեն տալիս կիսվել ֆայլերով կողմնակի անձանց հետ</string>
     <string name="welcome_button_close">Անցնել Սլայդներ</string>
     <string name="welcome_button_continue">Հաջորդը</string>
     <string name="welcome_offer_button_close">Փակել</string>
@@ -2247,13 +2252,13 @@
     <string name="zss_owner_not_me">Ինձ չպատկանող</string>
     <string name="zss_people_header_title">Մարդիկ</string>
     <string name="zss_showing_list_of_filters">Ցուցադրվում է հասանելի զտիչների ցանկը:</string>
-    <string name="zss_team_drive">Որոնել %1$s-ում</string>
+    <string name="zss_team_drive">Որոնել «%1$s» ընդհանուր դրայվում</string>
     <string name="zss_type_archive">Արխիվ</string>
-    <string name="zss_type_audio">Ձայնային</string>
+    <string name="zss_type_audio">Աուդիո</string>
     <string name="zss_type_documents">Տեքստային փաստաթղթեր</string>
     <string name="zss_type_folder">Պանակներ</string>
     <string name="zss_type_images">Լուսանկարներ և պատկերներ</string>
-    <string name="zss_type_pdfs">PDF-ներ</string>
+    <string name="zss_type_pdfs">PDF ֆայլեր</string>
     <string name="zss_type_presentations">Ներկայացումներ</string>
     <string name="zss_type_spreadsheets">Աղյուսակներ</string>
     <string name="zss_type_video">Տեսանյութեր</string>

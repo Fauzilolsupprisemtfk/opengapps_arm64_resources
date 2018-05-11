@@ -450,6 +450,7 @@
     <string name="dialog_td_will_disappear">Дыск групы знікне для ўсіх, і гэта дзеянне нельга будзе адрабіць.</string>
     <string name="dialog_td_will_disappear_files_in_trash">Файлы з гэтага Дыска групы знаходзяцца ў сметніцы \"%1$s\", і ніводны карыстальнік не зможа іх аднавіць. Гэты Дыск групы знікне для ўсіх, і гэта дзеянне нельга будзе адрабіць.</string>
     <string name="did_you_mean">Ці мелі вы на ўвазе: %1$s</string>
+    <string name="disabled_append">адключана,</string>
     <string name="discussion_accept">Прыняць</string>
     <string name="discussion_acl_fix_access_role_commenter">Можа пакідаць каментарый</string>
     <string name="discussion_acl_fix_access_role_writer">Можа рэдагаваць</string>
@@ -560,11 +561,11 @@
     <string name="doclist_date_never_label">Ніколі</string>
     <string name="doclist_date_opened_label">Адкрыта мной: %s</string>
     <string name="doclist_date_shared_label">Абагулена: %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s · %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s · %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">Запампавана мной: %s</string>
     <string name="doclist_detail_fragment_content_description">Паказаць ўласцівасці элемента</string>
-    <string name="doclist_entry_content_description" formatted="false">%s %s</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s %s колер:%s</string>
+    <string name="doclist_entry_content_description">%1$s %2$s</string>
+    <string name="doclist_entry_content_description_with_color">%1$s %2$s колер:%3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">Адкрыць высоўнае меню навігацыі</string>
     <string name="doclist_quota_used_label">Выкарыстана сховішча: %s</string>
     <string name="doclist_selected_show_preview">Паказаць перадпрагляд</string>
@@ -653,6 +654,8 @@
     <string name="draft_options_dialog_title">Налады чарнавога сайта</string>
     <string name="draft_permission_change_anyone_warning">Змяненне гэтай налады чарнавіка дазволіць любому карыстальніку праглядаць апублікаваную версію сайта.</string>
     <string name="draft_permission_change_domain_warning">Змяненне гэтай налады чарнавіка дазволіць любому карыстальніку ў дамене \"%s\" праглядаць апублікаваную версію сайта.</string>
+    <string name="draft_permission_downgrade_domain_warning">Змяненне налад чарнавіка прывядзе да таго, што апублікаваную спасылку змогуць праглядаць толькі ў дамене %1$s</string>
+    <string name="draft_permission_downgrade_specific_warning">Змяненне налад чарнавіка прывядзе да таго, што апублікаваную спасылку змогуць праглядаць толькі пэўныя карыстальнікі</string>
     <string name="drive_file_stream_disabled">Забараніць адкрываць файлы на гэтым Дыску групы з дапамогай Drive File Stream або аналагічных праграм</string>
     <string name="drive_file_stream_enabled">Дазволіць адкрываць файлы на гэтым Дыску групы з дапамогай Drive File Stream або аналагічных праграм</string>
     <string name="drive_file_stream_title">Drive File Stream</string>
@@ -694,7 +697,7 @@
     <string name="empty_doclist_for_pinned_view_details">У меню параметраў файла выбраць пункт \"Даступны па-за сеткай\"</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">У меню файла выберыце пункт \"Доступ у аўтаномным рэжыме\" і вы зможаце працаваць з гэтым файлам у аўтаномным рэжыме.</string>
     <string name="empty_doclist_for_recent_view">Няма файлаў, якія нядаўна адкрывалі ці рэдагавалі.</string>
-    <string name="empty_doclist_for_search_view">Вынікаў няма.</string>
+    <string name="empty_doclist_for_search_view">Вынікаў няма</string>
     <string name="empty_doclist_for_shared_with_me_view">"Абагуленыя з вамі файлы з'явяцца тут."</string>
     <string name="empty_doclist_for_starred_view">У вас няма файлаў, пазначаных зорачкай.</string>
     <string name="empty_doclist_for_starred_view_details">Дакраніцеся да значка зорачкі ў меню параметраў файла, каб дадаць яго да гэтага спіса.</string>
@@ -745,14 +748,15 @@
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d іншых.</string>
     <string name="exit_multiselect_mode_button">Выйсці з рэжыму выбару некалькіх элементаў</string>
+    <string name="expand_button_title">Высокая</string>
     <string name="expires_future">Тэрмін дзеяння заканчваецца %1$s</string>
     <string name="expires_today">Заканчваецца сёння</string>
     <string name="export_download_error_title">Памылка спампоўкі</string>
     <string name="export_error_message">Адбылася памылка.</string>
     <string name="export_error_message_network">Адбылася памылка перадачы. Праверце сувязь з сеткай.</string>
     <string name="export_error_message_server">Адбылася памылка пераўтварэння. Паўтарыце спробу пазней.</string>
-    <string name="export_failure_notification_content">Немагчыма захаваць файл \"%1$s\"</string>
-    <string name="export_notification_content">Захоўваецца файл \"%1$s\"…</string>
+    <string name="export_failure_notification_content">Не ўдалося захаваць файл \"%1$s\"</string>
+    <string name="export_notification_content">Захоўванне файла \"%1$s\"…</string>
     <string name="exporting_start_msg">Падрыхтоўка да экспарту…</string>
     <string name="fab_choose_template">Выбраць шаблон</string>
     <string name="fab_google_document">Новы файл праграмы \"Слайды\"</string>
@@ -761,6 +765,11 @@
     <string name="fab_office_document">Новы файл Powerpoint</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d г.</string>
     <string name="fast_scroll_search_result_grouper">Вынікі пошуку</string>
+    <string name="fast_scroll_size_grouper_b">Б</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">ГБ</string>
+    <string name="fast_scroll_size_grouper_kb">КБ</string>
+    <string name="fast_scroll_size_grouper_mb">МБ</string>
     <string name="fast_scroll_time_grouper_earlier">Раней, чым</string>
     <string name="fast_scroll_time_grouper_last_week">На мінулым тыдні</string>
     <string name="fast_scroll_time_grouper_this_month">Раней у гэтым мес.</string>
@@ -789,7 +798,7 @@
     <string name="file_picker_select_a_folder_heading">Выбраць папку</string>
     <string name="file_picker_select_button">Выбраць</string>
     <string name="file_picker_storage_permissions_denied_toast">Дазвол на доступ да лакальнага сховішча не атрыманы.</string>
-    <string name="file_too_large_for_upload" formatted="false">Файл %1s занадта вялікі для запампоўкі на Дыск Google. Файл мае памер %2s, а абмежаванне для файлаў гэтага тыпу складае %3s. Паспрабуйце запампаваць яго без канвертацыі ў фармат Дыска Google.</string>
+    <string name="file_too_large_for_upload">Файл %1$s занадта вялікі для запампоўкі на Дыск Google. Файл мае памер %2$s, а абмежаванне для файлаў гэтага тыпу складае %3$s. Паспрабуйце запампаваць яго без канвертацыі ў фармат Дыска Google.</string>
     <string name="file_too_large_for_upload_okbtn">ОК</string>
     <string name="file_too_large_for_upload_title">Немагчыма запампаваць</string>
     <string name="file_was_not_sent">Файл не абагулены.</string>
@@ -1051,26 +1060,25 @@
     <string name="move_error_target_folder_not_exist">Канечная папка не існуе.</string>
     <string name="move_notice_lost_access_shared_folders">Элементы перамешчаны з абагуленай папкі.</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s Члены Дыска групы \"%2$s\" страцілі доступ.</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">1 элемент перамешчаны з Дыска групы.</string>
     <string name="move_notice_lost_access_team_drives">Элементы перамешчаны з Дыска групы.</string>
-    <string name="mr_cast_button_connected">Кнопка трансляцыі. Падключана</string>
-    <string name="mr_cast_button_connecting">Кнопка трансляцыі. Ідзе падключэнне</string>
-    <string name="mr_cast_button_disconnected">Кнопка трансляцыі. Адключана</string>
+    <string name="mr_cast_button_connected">Кнопка трансляцыі. Прылада падключана</string>
+    <string name="mr_cast_button_connecting">Кнопка трансляцыі. Прылада падключаецца</string>
+    <string name="mr_cast_button_disconnected">Кнопка трансляцыі. Прылада адключана</string>
     <string name="mr_chooser_searching">Пошук прылад</string>
-    <string name="mr_chooser_title">Трансліраваць на</string>
+    <string name="mr_chooser_title">Трансліраваць на прыладу</string>
     <string name="mr_controller_album_art">Вокладка альбома</string>
-    <string name="mr_controller_casting_screen">Экран трансляцыі</string>
+    <string name="mr_controller_casting_screen">Экран трансліруецца</string>
     <string name="mr_controller_close_description">Закрыць</string>
     <string name="mr_controller_collapse_group">Згарнуць</string>
-    <string name="mr_controller_disconnect">Адлучыць</string>
+    <string name="mr_controller_disconnect">Адключыць</string>
     <string name="mr_controller_expand_group">Разгарнуць</string>
     <string name="mr_controller_no_info_available">Інфармацыя адсутнічае</string>
     <string name="mr_controller_no_media_selected">Медыяфайл не выбраны</string>
-    <string name="mr_controller_pause">Прыпыніць</string>
+    <string name="mr_controller_pause">Паўза</string>
     <string name="mr_controller_play">Прайграць</string>
     <string name="mr_controller_stop">Спыніць</string>
     <string name="mr_controller_stop_casting">Спыніць трансляцыю</string>
-    <string name="mr_controller_volume_slider">Паўзунок гучнасці</string>
+    <string name="mr_controller_volume_slider">Рэгулятар гучнасці</string>
     <string name="mr_user_route_category_name">Прылады</string>
     <string name="native_create_disabled_dialog_message">Ваш уліковы запіс не падтрымлівае стварэнне прэзентацый у Прэзентацыях Google.</string>
     <string name="native_create_disabled_dialog_title">Вы не можаце ствараць прэзентацыі Google</string>
@@ -1106,7 +1114,7 @@
     <string name="no_scheduled_meetings">Няма запланаваных сустрэч</string>
     <string name="no_team_drives_title">Няма Дыскаў групы</string>
     <string name="no_thanks">Не, дзякуй</string>
-    <string name="not_enough_storage_for_upload" formatted="false">Файл %1s вельмі вялікі для запампоўкі на Дыск Google. Яго памер – %2s, але ў вас толькі %3s прасторы ў сховішчы. Павялічце памер сховішча і паўтарыце спробу.</string>
+    <string name="not_enough_storage_for_upload">Файл %1$s вельмі вялікі для запампоўкі на Дыск Google. Яго памер – %2$s, але ў вас толькі %3$s прасторы ў сховішчы. Павялічце памер сховішча і паўтарыце спробу.</string>
     <string name="notification_channel_name_default">Стандартны</string>
     <string name="notification_channel_name_high_priority">Высокі прыярытэт</string>
     <string name="notification_channel_name_low_priority">Нізкі прыярытэт</string>
@@ -1185,8 +1193,8 @@
     <string name="ouch_title_sawwrie">Памылка.</string>
     <string name="overwrite_confirm_dialog_message">Файл %1$s існуе. Перазапісаць?</string>
     <string name="overwrite_confirm_dialog_positive_button_label">Перазапісаць</string>
-    <string name="owner_not_user">Не належыць %1$s</string>
-    <string name="owner_user">Належыць %1$s</string>
+    <string name="owner_not_user">Не належаць %1$s</string>
+    <string name="owner_user">Належаць %1$s</string>
     <string name="page_1_description">Паспяховая праца з падключэннем да інтэрнэту і без яго.</string>
     <string name="page_1_heading_editors">Прэзентацыя ў руху</string>
     <string name="page_2_description">Магчымасць пісаць самастойна або прапанаваць супрацоўніцтва іншым карыстальнікам.</string>
@@ -1387,7 +1395,6 @@
     <string name="published_access_anyone">Любы карыстальнік можа праглядаць пасля публікацыі</string>
     <string name="published_access_domain">Любы карыстальнік у дамене %s можа праглядаць пасля публікацыі</string>
     <string name="published_access_select_people">Пэўныя карыстальнікі могуць праглядаць пасля публікацыі</string>
-    <string name="published_disabled_append">адключана,</string>
     <string name="published_message_for_anyone_can_edit">Любы карыстальнік можа рэдагаваць, таму і праглядаць пасля публікацыі можа любы карыстальнік.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Любы карыстальнік у дамене %1$s можа рэдагаваць, таму і праглядаць пасля публікацыі можа любы карыстальнік у дамене %1$s.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Любы карыстальнік са спасылкай можа рэдагаваць, таму і праглядаць пасля публікацыі можа любы карыстальнік.</string>
@@ -1501,7 +1508,7 @@
     <string name="punch_show_slide">Паказаць слайд</string>
     <string name="punch_speaker_notes_title">Нататкі дакладчыка</string>
     <string name="punch_speakernotes_closed">Нататкі дакладчыка закрыты.</string>
-    <string name="punch_thor_invite_email_body" formatted="false">Інфармацыя аб доступе:&lt;br> %s &lt;br> %s PIN-код:%s</string>
+    <string name="punch_thor_invite_email_body">Інфармацыя аб доступе:&lt;br> %1$s &lt;br> %2$s PIN-код:%3$s</string>
     <string name="punctuation_period">.</string>
     <string name="purchase_dialog_how_storage_used">Сховішча абагульваецца з Gmail, Фота Google і Дыск Google</string>
     <string name="purchase_dialog_manage">Кіраванне сховішчам</string>
@@ -1563,7 +1570,7 @@
     <string name="rename_team_drive_success">Перайменаваны ў %1$s.</string>
     <string name="report_abuse_title">Паведамленне аб злоўжыванні</string>
     <string name="request_access">Запытаць доступ</string>
-    <string name="request_access_message">Уладальнік атрымае электроннае паштовае паведамленне для асобы, якая запытала доступ.</string>
+    <string name="request_access_message">Уладальнік атрымае электронны ліст для асобы, якая запытала доступ.</string>
     <string name="request_access_send_button_content_desc">Пацвердзіць запыт доступу і адправіць уладальніку</string>
     <string name="request_access_sent">Ваш запыт доступу адпраўлены.</string>
     <string name="requesting_access">Запыт доступу</string>
@@ -1958,6 +1965,7 @@
     <string name="suggestions_add_to_dictionary">Дадаць у слоўнік</string>
     <string name="suggestions_delete_text">Выдаліць</string>
     <string name="suggestions_popup_opened">Прапановы па правапісу</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Памылка сінхранізацыі Google Слайдаў</string>
     <string name="sync_more_error">Памылка атрымання дадатковых элементаў</string>
     <string name="sync_more_error_offline">У пазасеткавым рэжыме некаторыя дакументы могуць быць нябачнымі.</string>
@@ -1990,7 +1998,7 @@
     <string name="team_drive_empty_list_message_cannot_create">Калі нехта дадае вас да Дыска групы, гэта адлюструецца тут.</string>
     <string name="team_drive_settings_title">Налады</string>
     <string name="team_drive_trash_welcome_snackbar">Элементы ў Сметніцы Дыска групы будуць выдалены назаўсёды праз 30 дзён.</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">%1$s, загаловак</string>
     <string name="template_category_education">Адукацыя</string>
     <string name="template_category_personal">Асабістыя</string>
@@ -2064,6 +2072,8 @@
     <string name="unable_to_open_local_document_message">Магчыма, файл быў перамешчаны або выдалены.</string>
     <string name="unable_to_open_local_document_title">Немагчыма адкрыць файл, захаваны на прыладзе</string>
     <string name="unable_to_read_calendar_data">Немагчыма запытаць каляндар</string>
+    <string name="unable_update_published_message">Немагчыма змяніць наладу сайта, пакуль не будзе зменена спасылка для чарнавога сайта</string>
+    <string name="unable_update_published_title">Немагчыма змяніць наладу</string>
     <string name="undeliverable_acl_changed_dialog_title">Адхіліць змяненні ў дакуменце?</string>
     <string name="undeliverable_changes_dialog_content">Змяненні, якія вы зрабілі ў пазасеткавым рэжыме, могуць быць страчаны. Пераканайцеся ў тым, што вы скапіравалі іх у буфер абмену.</string>
     <string name="undeliverable_changes_dialog_title">Выдаліць праблемныя змены і аднавіць дакумент?</string>
@@ -2166,6 +2176,8 @@
     <string name="upsell_negbtn">Пазней</string>
     <string name="upsell_okbtn">Павялічыць</string>
     <string name="url_typo_error_msg">Здаецца, спасылка няправільная. Памыліліся?</string>
+    <string name="v7_preference_off">ВЫКЛ.</string>
+    <string name="v7_preference_on">УКЛ.</string>
     <string name="verbalize_bulleted_list">маркёр. %1$s</string>
     <string name="verbalize_numbered_list">%1$s. %2$s</string>
     <string name="verbalize_opened_edit">Адкрыты файл %1$s з правам рэдагавання.</string>
@@ -2178,6 +2190,7 @@
     <string name="version_app_update">Абнавіць</string>
     <string name="version_app_update_recommended_title">Рэкамендуецца абнавіць праграму</string>
     <string name="version_app_update_required_title">Неабходна абнавіць праграму</string>
+    <string name="version_app_version_document_inaccessible">Усталяваная версія праграмы %1$s не можа адкрыць гэты дакумент. Усталюйце апошнюю версію праграмы.</string>
     <string name="version_app_version_no_longer_supported">Гэта версія праграмы %1$s болей не падтрымліваецца. Абнавіце праграму да апошняй версіі.</string>
     <string name="version_app_version_recommended_update">Падтрымка гэтай версіі праграмы %1$s хутка скончыцца. Абнавіце праграму да апошняй версіі.</string>
     <string name="version_download_pdf">Спампаваць PDF</string>
@@ -2195,8 +2208,9 @@
     <string name="warm_welcome_next_button">Далей</string>
     <string name="warm_welcome_skip_button">Прапусціць</string>
     <string name="warning_cannot_share_outside_domain">Налады гэтага Дыска групы забараняюць абагульванне па-за межамі дамена %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">"Налады гэтага Дыска групы забараняюць абагульванне з карыстальнікамі, якія не з'яўляюцца ўдзельнікамі групы, а таксама знаходзяцца па-за межамі дамена %s"</string>
     <string name="warning_cannot_share_outside_domain_org">Налады арганізацыі забараняюць абагульванне па-за межамі арганізацыі</string>
-    <string name="warning_cannot_share_outside_team_drive">Налады гэтага Дыска групы забараняюць абагульванне па-за межамі групы</string>
+    <string name="warning_cannot_share_outside_team_drive">"Налады гэтага Дыска групы забараняюць абагульванне з карыстальнікамі, якія не з'яўляюцца ўдзельнікамі групы"</string>
     <string name="welcome_button_close">Перайсці ў Слайды</string>
     <string name="welcome_button_continue">Далей</string>
     <string name="welcome_offer_button_close">Закрыць</string>
@@ -2218,22 +2232,22 @@
     <string name="zss_date_range_month">Апошнія 30 дзён</string>
     <string name="zss_date_range_three_month">Апошнія 90 дзён</string>
     <string name="zss_date_range_today">Сёння</string>
-    <string name="zss_date_range_week">За апошнія 7 дзён</string>
+    <string name="zss_date_range_week">Апошнія 7 дзён</string>
     <string name="zss_date_range_yesterday">Учора</string>
     <string name="zss_entry_types_header_title">Тыпы файлаў</string>
     <string name="zss_no_filters">Няма фільтраў</string>
     <string name="zss_owner_header_title">Уладальнік</string>
-    <string name="zss_owner_me">Належыць мне</string>
-    <string name="zss_owner_not_me">Не маё</string>
+    <string name="zss_owner_me">Належаць мне</string>
+    <string name="zss_owner_not_me">Не належаць мне</string>
     <string name="zss_people_header_title">Людзі</string>
     <string name="zss_showing_list_of_filters">Адлюстраванне спіса даступных фільтраў.</string>
-    <string name="zss_team_drive">Пошук у %1$s</string>
+    <string name="zss_team_drive">Шукаць у %1$s</string>
     <string name="zss_type_archive">Архіў</string>
-    <string name="zss_type_audio">Аўдыя</string>
+    <string name="zss_type_audio">Гук</string>
     <string name="zss_type_documents">Тэкставыя дакументы</string>
     <string name="zss_type_folder">Папкі</string>
     <string name="zss_type_images">Фота і відарысы</string>
-    <string name="zss_type_pdfs">PDF</string>
+    <string name="zss_type_pdfs">Файлы PDF</string>
     <string name="zss_type_presentations">Прэзентацыі</string>
     <string name="zss_type_spreadsheets">Электронныя табліцы</string>
     <string name="zss_type_video">Відэа</string>

@@ -475,6 +475,7 @@ Tega dejanja ni mogoče razveljaviti."</string>
     <string name="dialog_td_will_disappear">Ta disk ekipe bo izginil za vse in tega dejanja ne morete razveljaviti.</string>
     <string name="dialog_td_will_disappear_files_in_trash">Datoteke iz tega diska ekipe so v smetnjaku »%1$s« in noben uporabnik jih ne bo mogel obnoviti. Ta disk ekipe izginil za vse in tega dejanja ne morete razveljaviti.</string>
     <string name="did_you_mean">Ste morda mislili: %1$s</string>
+    <string name="disabled_append">onemogočeno</string>
     <string name="discussion_accept">Sprejmi</string>
     <string name="discussion_acl_fix_access_role_commenter">Lahko komentira</string>
     <string name="discussion_acl_fix_access_role_writer">Lahko ureja</string>
@@ -585,11 +586,11 @@ Tega dejanja ni mogoče razveljaviti."</string>
     <string name="doclist_date_never_label">Nikoli</string>
     <string name="doclist_date_opened_label">Odprl jaz: %s</string>
     <string name="doclist_date_shared_label">V skupni rabi: %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s · %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s · %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">Naložil jaz: %s</string>
     <string name="doclist_detail_fragment_content_description">Pokaži lastnosti elementa</string>
-    <string name="doclist_entry_content_description" formatted="false">%s %s</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s %s barva:%s</string>
+    <string name="doclist_entry_content_description">%1$s %2$s</string>
+    <string name="doclist_entry_content_description_with_color">%1$s %2$s barva:%3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">Odpri predal za krmarjenje</string>
     <string name="doclist_quota_used_label">Uporabljeni prostor: %s</string>
     <string name="doclist_selected_show_preview">Pokaži predogled</string>
@@ -679,6 +680,8 @@ Tega dejanja ni mogoče razveljaviti."</string>
     <string name="draft_options_dialog_title">Nastavitve osnutka spletnega mesta</string>
     <string name="draft_permission_change_anyone_warning">Če spremenite nastavitev za osnutek spletnega mesta, si bodo lahko vsi ogledali objavljeno različico.</string>
     <string name="draft_permission_change_domain_warning">Če spremenite nastavitev za osnutek spletnega mesta, si bodo lahko vsi v domeni %s ogledali objavljeno različico.</string>
+    <string name="draft_permission_downgrade_domain_warning">Če spremenite ta osnutek spletnega mesta, si bodo lahko objavljeno povezavo ogledale samo osebe v domeni %1$s</string>
+    <string name="draft_permission_downgrade_specific_warning">Če spremenite ta osnutek spletnega mesta, si bodo lahko objavljeno povezavo ogledale samo določene osebe</string>
     <string name="drive_file_stream_disabled">Prepreči, da bi osebe datoteke v tem disku ekipe odpirale z aplikacijami, kot je Drive File Stream</string>
     <string name="drive_file_stream_enabled">Dovoli osebam, da datoteke v tem disku ekipe odprejo z aplikacijami, kot je Drive File Stream</string>
     <string name="drive_file_stream_title">Drive File Stream</string>
@@ -721,7 +724,7 @@ Poskusite vanj prenesti datoteko."</string>
     <string name="empty_doclist_for_pinned_view_details">V menijskih možnostih datoteke pripravite datoteke, da postanejo »Na voljo brez povezave«</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">V meniju datoteke se dotaknite možnosti »Na voljo brez povezave«, da boste lahko nadaljevali z delom, tudi ko boste brez povezave.</string>
     <string name="empty_doclist_for_recent_view">Ni nedavno odprtih ali urejenih datotek.</string>
-    <string name="empty_doclist_for_search_view">Ni rezultatov.</string>
+    <string name="empty_doclist_for_search_view">Ni rezultatov</string>
     <string name="empty_doclist_for_shared_with_me_view">Datoteke, ki so v skupni rabi z vami, bodo prikazane tukaj.</string>
     <string name="empty_doclist_for_starred_view">Nimate datotek, označenih z zvezdico.</string>
     <string name="empty_doclist_for_starred_view_details">V meniju možnosti se dotaknite ikone zvezdice, če želite dodati datoteko na ta seznam.</string>
@@ -772,13 +775,14 @@ Kliknite +, da ustvarite novo predstavitev."</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+ več (%1$d) drugih.</string>
     <string name="exit_multiselect_mode_button">Izhod iz načina večkratne izbire</string>
+    <string name="expand_button_title">Dodatno</string>
     <string name="expires_future">Poteče čez %1$s</string>
     <string name="expires_today">Poteče danes</string>
     <string name="export_download_error_title">Napaka pri prenosu</string>
     <string name="export_error_message">Prišlo je do napake.</string>
     <string name="export_error_message_network">Prišlo je do napake pri prenosu. Preverite omrežno povezavo.</string>
     <string name="export_error_message_server">Prišlo je do napake pri pretvorbi. Poskusite znova pozneje.</string>
-    <string name="export_failure_notification_content">Datoteke »%1$s« ni mogoče shraniti</string>
+    <string name="export_failure_notification_content">Datoteke »%1$s« ni bilo mogoče shraniti</string>
     <string name="export_notification_content">Shranjevanje datoteke »%1$s« …</string>
     <string name="exporting_start_msg">Poteka priprava za izvoz …</string>
     <string name="fab_choose_template">Izberite predlogo</string>
@@ -788,6 +792,11 @@ Kliknite +, da ustvarite novo predstavitev."</string>
     <string name="fab_office_document">Nova datoteka Powerpoint</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Rezultati iskanja</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Starejša</string>
     <string name="fast_scroll_time_grouper_last_week">Prejšnji teden</string>
     <string name="fast_scroll_time_grouper_this_month">V tem mesecu</string>
@@ -816,7 +825,7 @@ Kliknite +, da ustvarite novo predstavitev."</string>
     <string name="file_picker_select_a_folder_heading">Izberite mapo</string>
     <string name="file_picker_select_button">Izberi</string>
     <string name="file_picker_storage_permissions_denied_toast">Dovoljenje za dostop do lokalne shrambe ni odobreno.</string>
-    <string name="file_too_large_for_upload" formatted="false">Datoteka %1s je prevelika za nalaganje v Google Drive. Velikost dat. je %2s, vendar je omejitev za to vrsto datoteke %3s. To datoteko boste morda lahko naložili tako, da je ne pretvorite v obliko Google Drive.</string>
+    <string name="file_too_large_for_upload">Datoteka %1$s je prevelika za nalaganje v Google Drive. Velikost dat. je %2$s, vendar je omejitev za to vrsto datoteke %3$s. To datoteko boste morda lahko naložili tako, da je ne pretvorite v obliko Google Drive.</string>
     <string name="file_too_large_for_upload_okbtn">V redu</string>
     <string name="file_too_large_for_upload_title">Ni mogoče naložiti</string>
     <string name="file_was_not_sent">Datoteka ni v skupni rabi.</string>
@@ -980,17 +989,8 @@ Kliknite +, da ustvarite novo predstavitev."</string>
     <string name="manage_addons_playstore_link_description">Pomakni se v Trgovino Play za dodatek %s</string>
     <string name="manage_members_default_members">Privzeto lahko člani nalagajo/urejajo/brišejo datoteke in povabijo druge člane.</string>
     <string name="manage_members_dialog_title">Dostop za člane</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Prostor za shranjevanje</string>
+    <string name="management_data_loading_failed">Te strani ni mogoče naložiti</string>
     <string name="member_count_max">99+</string>
     <string name="menu_backup">Varnostne kopije</string>
     <string name="menu_copy_link">Kopiraj povezavo</string>
@@ -1094,7 +1094,6 @@ Kliknite +, da ustvarite novo predstavitev."</string>
     <string name="move_error_target_folder_not_exist">Ciljna mapa ne obstaja.</string>
     <string name="move_notice_lost_access_shared_folders">Premik el. iz mape v skupni rabi. Osebe nimajo več dostopa.</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s Disk ekipe »%2$s« nima več dostopa.</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">Premik 1 elementa iz diska ekipe. Člani nimajo več dostopa.</string>
     <string name="move_notice_lost_access_team_drives">Premik elementov iz diska ekipe. Člani nimajo več dostopa.</string>
     <string name="mr_cast_button_connected">Gumb za predvajanje. Povezava je vzpostavljena.</string>
     <string name="mr_cast_button_connecting">Gumb za predvajanje. Vzpostavljanje povezave.</string>
@@ -1102,15 +1101,15 @@ Kliknite +, da ustvarite novo predstavitev."</string>
     <string name="mr_chooser_searching">Iskanje naprav</string>
     <string name="mr_chooser_title">Predvajanje prek:</string>
     <string name="mr_controller_album_art">Naslovnica albuma</string>
-    <string name="mr_controller_casting_screen">Predvajanje zaslona</string>
+    <string name="mr_controller_casting_screen">Predvajanje vsebine zaslona</string>
     <string name="mr_controller_close_description">Zapri</string>
     <string name="mr_controller_collapse_group">Strni</string>
     <string name="mr_controller_disconnect">Prekini povezavo</string>
     <string name="mr_controller_expand_group">Razširi</string>
-    <string name="mr_controller_no_info_available">Podatki niso na voljo</string>
-    <string name="mr_controller_no_media_selected">Ni izbrane predstavnosti</string>
-    <string name="mr_controller_pause">Zaustavi</string>
-    <string name="mr_controller_play">Predvajanje</string>
+    <string name="mr_controller_no_info_available">Ni podatkov</string>
+    <string name="mr_controller_no_media_selected">Predstavnost ni izbrana</string>
+    <string name="mr_controller_pause">Začasno ustavi</string>
+    <string name="mr_controller_play">Predvajaj</string>
     <string name="mr_controller_stop">Ustavi</string>
     <string name="mr_controller_stop_casting">Ustavi predvajanje</string>
     <string name="mr_controller_volume_slider">Drsnik za glasnost</string>
@@ -1149,7 +1148,7 @@ Kliknite +, da ustvarite novo predstavitev."</string>
     <string name="no_scheduled_meetings">Ni načrtovanih sestankov</string>
     <string name="no_team_drives_title">Ni diskov ekip</string>
     <string name="no_thanks">Ne, hvala</string>
-    <string name="not_enough_storage_for_upload" formatted="false">Datoteka %1s je prevelika za prenos v Google Drive. Velikost datoteke je %2s, vendar je v shrambi na voljo samo %3s. Nadgradite shrambo in poskusite znova.</string>
+    <string name="not_enough_storage_for_upload">Datoteka %1$s je prevelika za prenos v Google Drive. Velikost datoteke je %2$s, vendar je v shrambi na voljo samo %3$s. Nadgradite shrambo in poskusite znova.</string>
     <string name="notification_channel_name_default">Privzeto</string>
     <string name="notification_channel_name_high_priority">Zelo pomembno</string>
     <string name="notification_channel_name_low_priority">Manj pomembno</string>
@@ -1432,7 +1431,6 @@ Kliknite +, da ustvarite novo predstavitev."</string>
     <string name="published_access_anyone">Vsi si lahko ogledajo objavljeno različico</string>
     <string name="published_access_domain">Vsi v domeni %s si lahko ogledajo objavljeno različico</string>
     <string name="published_access_select_people">Določene osebe si lahko ogledajo objavljeno različico</string>
-    <string name="published_disabled_append">onemogočeno</string>
     <string name="published_message_for_anyone_can_edit">Ker lahko vsi urejajo, si lahko prav tako vsi ogledajo objavljeno različico.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Ker lahko urejajo vsi v domeni %1$s, si lahko prav tako vsi v domeni %1$s ogledajo objavljeno različico.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Ker lahko urejajo vsi s povezavo, si lahko prav tako vsi ogledajo objavljeno različico.</string>
@@ -1546,7 +1544,7 @@ Kliknite +, da ustvarite novo predstavitev."</string>
     <string name="punch_show_slide">Prikaži diapozitiv</string>
     <string name="punch_speaker_notes_title">Govornikove opombe</string>
     <string name="punch_speakernotes_closed">Govornikove opombe so bile zaprte.</string>
-    <string name="punch_thor_invite_email_body" formatted="false">Podatki za dostop:&lt;br> %s &lt;br> %s Koda PIN:%s</string>
+    <string name="punch_thor_invite_email_body">Podatki za dostop:&lt;br> %1$s &lt;br> %2$s Koda PIN:%3$s</string>
     <string name="punctuation_period">,</string>
     <string name="purchase_dialog_how_storage_used">Shramba zajema storitve Gmail, Google Foto in Google Drive</string>
     <string name="purchase_dialog_manage">Upravljanje shranjevanja</string>
@@ -2006,6 +2004,7 @@ Kliknite +, da ustvarite novo predstavitev."</string>
     <string name="suggestions_add_to_dictionary">Dodaj v slovar</string>
     <string name="suggestions_delete_text">Izbriši</string>
     <string name="suggestions_popup_opened">Predlogi za črkovanje</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Napaka sinhronizacije v Google Predstavitvah</string>
     <string name="sync_more_error">Napaka pri pridobivanju dodatnih elementov</string>
     <string name="sync_more_error_offline">Nekateri dokumenti morda niso vidni, ko ste brez povezave.</string>
@@ -2038,7 +2037,7 @@ Kliknite +, da ustvarite novo predstavitev."</string>
     <string name="team_drive_empty_list_message_cannot_create">Ko vas nekdo doda v disk ekipe, ga lahko vidite navedenega tukaj.</string>
     <string name="team_drive_settings_title">Nastavitve</string>
     <string name="team_drive_trash_welcome_snackbar">Elementi v smetnjaku diskov ekip bodo trajno izbrisani čez 30 dni.</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">%1$s, naslov</string>
     <string name="template_category_education">Izobraževanje</string>
     <string name="template_category_personal">Osebno</string>
@@ -2112,6 +2111,8 @@ Kliknite +, da ustvarite novo predstavitev."</string>
     <string name="unable_to_open_local_document_message">Datoteka je bila morda premaknjena ali izbrisana.</string>
     <string name="unable_to_open_local_document_title">Datoteke, shranjene v napravi, ni mogoče odpreti</string>
     <string name="unable_to_read_calendar_data">Poizvedba v koledar ni uspela.</string>
+    <string name="unable_update_published_message">Nastavitve objavljenega spletnega mesta ni mogoče spremeniti, dokler ni posodobljena nastavitev povezave osnutka</string>
+    <string name="unable_update_published_title">Nastavitve ni mogoče posodobiti</string>
     <string name="undeliverable_acl_changed_dialog_title">Želite izbrisati spremembe in razveljaviti novo stanje dokumenta?</string>
     <string name="undeliverable_changes_dialog_content">Vaše spremembe, ki ste jih naredili brez povezave, se lahko izgubijo. Poskrbite, da jih boste kopirali v odložišče.</string>
     <string name="undeliverable_changes_dialog_title">Želite izbrisati problematične spremembe in razveljaviti novo stanje dokumenta?</string>
@@ -2214,6 +2215,8 @@ Kliknite +, da ustvarite novo predstavitev."</string>
     <string name="upsell_negbtn">Pozneje</string>
     <string name="upsell_okbtn">Nadgradi</string>
     <string name="url_typo_error_msg">Nekaj ni v redu s povezavo. Ste se zatipkali?</string>
+    <string name="v7_preference_off">IZKLOPLJENO</string>
+    <string name="v7_preference_on">VKLOPLJENO</string>
     <string name="verbalize_bulleted_list">alineja. %1$s</string>
     <string name="verbalize_numbered_list">%1$s. %2$s</string>
     <string name="verbalize_opened_edit">Odprta je datoteka %1$s z dovoljenji za urejanje.</string>
@@ -2244,8 +2247,9 @@ Kliknite +, da ustvarite novo predstavitev."</string>
     <string name="warm_welcome_next_button">Naprej</string>
     <string name="warm_welcome_skip_button">Preskoči</string>
     <string name="warning_cannot_share_outside_domain">Nastavitve tega diska ekipe preprečujejo skupno rabo zunaj domene %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Nastavitve tega diska ekipe preprečujejo skupno rabo z nečlani in zunaj domene %s</string>
     <string name="warning_cannot_share_outside_domain_org">Nastavitve organizacije preprečujejo skupno rabo zunaj organizacije</string>
-    <string name="warning_cannot_share_outside_team_drive">Nastavitve tega diska ekipe preprečujejo skupno rabo zunaj ekipe</string>
+    <string name="warning_cannot_share_outside_team_drive">Nastavitve tega diska ekipe preprečujejo skupno rabo z nečlani</string>
     <string name="welcome_button_close">Pojdi v Predstavitve</string>
     <string name="welcome_button_continue">Naprej</string>
     <string name="welcome_offer_button_close">Zapri</string>
@@ -2273,17 +2277,17 @@ Kliknite +, da ustvarite novo predstavitev."</string>
     <string name="zss_no_filters">Ni filtrov</string>
     <string name="zss_owner_header_title">Lastnik</string>
     <string name="zss_owner_me">Lastnik: jaz</string>
-    <string name="zss_owner_not_me">Lastnik: ne</string>
+    <string name="zss_owner_not_me">Lastnik: ne jaz</string>
     <string name="zss_people_header_title">Osebe</string>
     <string name="zss_showing_list_of_filters">Prikazan je seznam razpoložljivih filtrov.</string>
     <string name="zss_team_drive">Išči v disku ekipe %1$s</string>
     <string name="zss_type_archive">Arhiv</string>
-    <string name="zss_type_audio">Zvočna datoteka</string>
-    <string name="zss_type_documents">Besedilni dokumenti</string>
+    <string name="zss_type_audio">Zvok</string>
+    <string name="zss_type_documents">Dokumenti z besedilom</string>
     <string name="zss_type_folder">Mape</string>
     <string name="zss_type_images">Fotografije in slike</string>
     <string name="zss_type_pdfs">Datoteke PDF</string>
     <string name="zss_type_presentations">Predstavitve</string>
     <string name="zss_type_spreadsheets">Preglednice</string>
-    <string name="zss_type_video">Videoposnetki</string>
+    <string name="zss_type_video">Videi</string>
 </resources>

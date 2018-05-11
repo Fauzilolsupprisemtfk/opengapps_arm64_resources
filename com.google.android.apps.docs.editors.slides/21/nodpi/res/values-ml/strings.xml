@@ -457,6 +457,7 @@
     <string name="dialog_td_will_disappear">ഈ ടീം ഡ്രൈവ് ആർക്കും കാണാനാകാത്ത തരത്തിലാകുന്നതിനാൽ നിങ്ങൾക്ക് ഈ പ്രവർത്തനം പഴയപടിയാക്കാനാകില്ല.</string>
     <string name="dialog_td_will_disappear_files_in_trash">ഈ ടീം ഡ്രൈവിൽ നിന്നുള്ള ഫയലുകൾ \"%1$s\" ട്രാഷിലായതിനാൽ ഉപയോക്താക്കൾക്ക് അവ പുനഃസ്ഥാപിക്കാനാകില്ല. ഈ ടീം ഡ്രൈവ് ആർക്കും കാണാനാകാത്ത തരത്തിലാകുന്നതിനാൽ നിങ്ങൾക്ക് ഈ പ്രവർത്തനം പഴയപടിയാക്കാനാകില്ല.</string>
     <string name="did_you_mean">ഇതാണോ നിങ്ങൾ ഉദ്ദേശിച്ചത്: %1$s</string>
+    <string name="disabled_append">പ്രവർത്തനരഹിതമാക്കി</string>
     <string name="discussion_accept">അംഗീകരിക്കുക</string>
     <string name="discussion_acl_fix_access_role_commenter">കമന്റിടാനാകും</string>
     <string name="discussion_acl_fix_access_role_writer">എഡിറ്റുചെയ്യാനാവും</string>
@@ -567,11 +568,11 @@
     <string name="doclist_date_never_label">ഒരിക്കലും</string>
     <string name="doclist_date_opened_label">ഞാൻ തുറന്നത്: %s</string>
     <string name="doclist_date_shared_label">പങ്കിട്ടത്: %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s · %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s · %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">ഞാൻ അപ്‌ലോഡുചെയ്‌തത്: %s</string>
     <string name="doclist_detail_fragment_content_description">ഇന പ്രോപ്പർട്ടികൾ കാണിക്കുക</string>
-    <string name="doclist_entry_content_description" formatted="false">%s %s</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s %s നിറം:%s</string>
+    <string name="doclist_entry_content_description">%1$s %2$s</string>
+    <string name="doclist_entry_content_description_with_color">%1$s %2$s നിറം:%3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">നാവിഗേഷൻ ഡ്രോയർ തുറക്കുക</string>
     <string name="doclist_quota_used_label">ഉപയോഗിച്ച സ്റ്റോറേജ്: %s</string>
     <string name="doclist_selected_show_preview">പ്രിവ്യൂ കാണിക്കുക</string>
@@ -661,6 +662,8 @@
     <string name="draft_options_dialog_title">ഡ്രാഫ്റ്റ് സൈറ്റ് ക്രമീകരണം</string>
     <string name="draft_permission_change_anyone_warning">"ഈ ഡ്രാഫ്റ്റിലേക്ക് മാറ്റുകയാണെങ്കിൽ, പ്രസിദ്ധീകരിക്കുമ്പോൾ എല്ലാവരെയും കാണാൻ  സൈറ്റ് ക്രമീകരണം അനുവദിക്കും."</string>
     <string name="draft_permission_change_domain_warning">"ഈ ഡ്രാഫ്റ്റിലേക്ക് മാറ്റുകയാണെങ്കിൽ, പ്രസിദ്ധീകരിക്കുമ്പോൾ %s എന്ന ഡൊമെയ്‌നിലെ എല്ലാവരെയും കാണാൻ  സൈറ്റ് ക്രമീകരണം അനുവദിക്കും."</string>
+    <string name="draft_permission_downgrade_domain_warning">ഈ ഡ്രാഫ്‌റ്റ് സൈറ്റ് ക്രമീകരണം മാറ്റുന്നത്, പ്രസിദ്ധീകരിച്ച ലിങ്ക്, %1$s എന്ന ഡൊമെയ്‌നിന് മാത്രം കാണുന്ന തരത്തിലാക്കും</string>
+    <string name="draft_permission_downgrade_specific_warning">ഈ ഡ്രാഫ്‌റ്റ് സൈറ്റ് ക്രമീകരണം മാറ്റുന്നത്, പ്രസിദ്ധീകരിച്ച ലിങ്ക്, നിർദ്ദിഷ്ട വ്യക്തികൾക്ക് മാത്രം കാണുന്ന തരത്തിലാക്കും</string>
     <string name="drive_file_stream_disabled">ഡ്രൈവ് ഫയൽ സ്‌ട്രീം അല്ലെങ്കിൽ സമാന ആപ്പുകൾ ഉപയോഗിച്ച് ടീം ഡ്രൈവിലെ ഫയലുകൾ തുറക്കുന്നതിൽ നിന്ന് ആളുകളെ തടയുക</string>
     <string name="drive_file_stream_enabled">ഡ്രൈവ് ഫയൽ സ്‌ട്രീം അല്ലെങ്കിൽ സമാന ആപ്പുകൾ ഉപയോഗിച്ച് ടീം ഡ്രൈവിൽ ഫയലുകൾ തുറക്കാൻ ആളുകളെ അനുവദിക്കുക</string>
     <string name="drive_file_stream_title">ഡ്രൈവ് ഫയൽ സ്ട്രീം</string>
@@ -702,7 +705,7 @@
     <string name="empty_doclist_for_pinned_view_details">"ഫയലിന്റെ 'ഓപ്‌ഷനുകൾ' മെനുവിൽ ഫയലുകളെ \"ഓഫ്‌ലൈനിൽ ലഭ്യമാക്കുക\" എന്നാക്കുക"</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">ഫയലിന്റെ മെനുവിൽ \"ഓഫ്‌ലൈനിൽ ലഭ്യമാക്കുക\" ടാപ്പുചെയ്യുന്നതിലൂടെ നിങ്ങൾക്ക് ഓഫ്‌ലൈനിൽ അത് തുടർന്നും ഉപയോഗിക്കാം.</string>
     <string name="empty_doclist_for_recent_view">അടുത്തിടെ തുറന്നതോ എഡിറ്റുചെയ്‌തതോ ആയ ഫയലുകളൊന്നുമില്ല.</string>
-    <string name="empty_doclist_for_search_view">ഫലങ്ങൾ ഇല്ല.</string>
+    <string name="empty_doclist_for_search_view">ഫലങ്ങൾ ഇല്ല</string>
     <string name="empty_doclist_for_shared_with_me_view">നിങ്ങളുമായി പങ്കിട്ട ഫയലുകൾ ഇവിടെ ദൃശ്യമാകും.</string>
     <string name="empty_doclist_for_starred_view">നിങ്ങൾക്ക് നക്ഷത്രമിട്ട ഫയലുകളൊന്നുമില്ല.</string>
     <string name="empty_doclist_for_starred_view_details">ഈ ലിസ്‌റ്റിൽ ഫയൽ ചേർക്കാൻ, അതിന്റെ ഓപ്‌ഷൻ മെനുവിലുള്ള നക്ഷത്ര ഐക്കൺ ടാപ്പുചെയ്യുക.</string>
@@ -753,6 +756,7 @@
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d പേർ കൂടി.</string>
     <string name="exit_multiselect_mode_button">ഒന്നിലധിക തിരഞ്ഞെടുക്കൽ മോഡ് അവസാനിപ്പിക്കുക</string>
+    <string name="expand_button_title">വിപുലമായത്</string>
     <string name="expires_future">%1$s-നുള്ളിൽ കാലഹരണപ്പെടും</string>
     <string name="expires_today">ഇന്ന് കാലഹരണപ്പെടും</string>
     <string name="export_download_error_title">ഡൗൺലോഡ് പിശക്</string>
@@ -760,7 +764,7 @@
     <string name="export_error_message_network">ഒരു സംപ്രേക്ഷണ പിശകുണ്ടായി. നിങ്ങളുടെ നെറ്റ്‌വർക്ക് കണക്ഷൻ പരിശോധിക്കുക.</string>
     <string name="export_error_message_server">പരിവർത്തന പിശകുണ്ടായി. പിന്നീട് വീണ്ടും ശ്രമിക്കുക.</string>
     <string name="export_failure_notification_content">\"%1$s\" സംരക്ഷിക്കാനായില്ല</string>
-    <string name="export_notification_content">\"%1$s\" സംരക്ഷിക്കുന്നു...</string>
+    <string name="export_notification_content">\"%1$s\" സംരക്ഷിക്കുന്നു…</string>
     <string name="exporting_start_msg">എക്‌സ്‌പോർട്ടുചെയ്യാൻ തയ്യാറാകുന്നു...</string>
     <string name="fab_choose_template">ടെംപ്ലേറ്റ് തിരഞ്ഞെടുക്കുക</string>
     <string name="fab_google_document">പുതിയ സ്ലൈഡ് ഫയൽ</string>
@@ -769,6 +773,11 @@
     <string name="fab_office_document">പുതിയ Powerpoint ഫയൽ</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">തിരയൽ ഫലങ്ങൾ</string>
+    <string name="fast_scroll_size_grouper_b">\"B\"</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">വളരെ പഴയത്</string>
     <string name="fast_scroll_time_grouper_last_week">കഴിഞ്ഞ ആഴ്‌ച</string>
     <string name="fast_scroll_time_grouper_this_month">ഈ മാസം തുടക്കത്തിൽ</string>
@@ -797,7 +806,7 @@
     <string name="file_picker_select_a_folder_heading">ഒരു ഫോൾഡർ തിരഞ്ഞെടുക്കുക</string>
     <string name="file_picker_select_button">തിരഞ്ഞെടുക്കുക</string>
     <string name="file_picker_storage_permissions_denied_toast">ലോക്കൽ സ്‌റ്റോറേജ് ആക്‌സസ് ചെയ്യാൻ അനുമതി നൽകിയില്ല.</string>
-    <string name="file_too_large_for_upload" formatted="false">Google ഡ്രൈവിലേക്ക് അപ്‌ലോഡുചെയ്യാൻ കഴിയുന്നതിനേക്കാളും വലുതാണ് %1s ഫയൽ. ഇതിന്റെ വലുപ്പം %2s ആണ്, എന്നാൽ ഇത്തരം ഫയലിനായുള്ള പരിധി %3s ആണ്. നിങ്ങൾക്ക് ഈ ഫയലിനെ ഒരു Google ഡ്രൈവ് ഫോർമാറ്റിലേക്ക് പരിവർത്തനം ചെയ്യാതെ തന്നെ അപ്‌ലോഡുചെയ്യാൻ കഴിഞ്ഞേക്കും.</string>
+    <string name="file_too_large_for_upload">Google ഡ്രൈവിലേക്ക് അപ്‌ലോഡുചെയ്യാൻ കഴിയുന്നതിനേക്കാളും വലുതാണ് %1$s ഫയൽ. ഇതിന്റെ വലുപ്പം %2$s ആണ്, എന്നാൽ ഇത്തരം ഫയലിനായുള്ള പരിധി %3$s ആണ്. നിങ്ങൾക്ക് ഈ ഫയലിനെ ഒരു Google ഡ്രൈവ് ഫോർമാറ്റിലേക്ക് പരിവർത്തനം ചെയ്യാതെ തന്നെ അപ്‌ലോഡുചെയ്യാൻ കഴിഞ്ഞേക്കും.</string>
     <string name="file_too_large_for_upload_okbtn">ശരി</string>
     <string name="file_too_large_for_upload_title">അപ്‌ലോഡുചെയ്യാൻ കഴിഞ്ഞില്ല</string>
     <string name="file_was_not_sent">ഫയൽ പങ്കിട്ടില്ല.</string>
@@ -957,17 +966,8 @@
     <string name="make_copy_spinner_message">പകർത്തുന്നു...</string>
     <string name="manage_members_default_members">ഡിഫോൾട്ടായി, അംഗങ്ങൾക്ക് ഫയലുകൾ അപ്‌ലോഡുചെയ്യാനും/എഡിറ്റുചെയ്യാനും/ഇല്ലാതാക്കാനും മറ്റ് അംഗങ്ങളെ ക്ഷണിക്കാനുമാകും</string>
     <string name="manage_members_dialog_title">അംഗത്തിനുള്ള ആക്‌സസ്</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">സ്റ്റോറേജ്</string>
+    <string name="management_data_loading_failed">ഈ പേജ് ലോഡ് ചെയ്യാനാവില്ല.</string>
     <string name="member_count_max">99+</string>
     <string name="menu_backup">ബായ്‌ക്കപ്പുകൾ</string>
     <string name="menu_copy_link">ലിങ്ക് പകർത്തുക</string>
@@ -1070,26 +1070,25 @@
     <string name="move_error_target_folder_not_exist">ലക്ഷ്യസ്ഥാന ഫോൾഡർ നിലവിലില്ല.</string>
     <string name="move_notice_lost_access_shared_folders">പങ്കിട്ട ഫോൾഡറിൽ നിന്ന്‌ ഇനങ്ങൾ നീക്കി. ആളുകൾക്ക്‌ ആക്‌സസ്‌ നഷ്‌ടമായി.</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s \"%2$s\" ഡ്രൈവിന് ആക്‌സസ് നഷ്‌ടമായി.</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">ടീം‌ ഡ്രൈവിൽ നിന്ന്‌ ഒരിനം നീക്കി. അംഗങ്ങൾക്ക്‌ ആക്‌സസ്‌ നഷ്‌ടമായി.</string>
     <string name="move_notice_lost_access_team_drives">ടീം‌ ഡ്രൈവിൽ നിന്ന്‌ ഇനങ്ങൾ നീക്കി. അംഗങ്ങൾക്ക്‌ ആക്‌സസ്‌ നഷ്‌ടമായി.</string>
-    <string name="mr_cast_button_connected">കാസ്റ്റ് ബട്ടൺ. കണക്റ്റുചെയ്തു</string>
-    <string name="mr_cast_button_connecting">കാസ്റ്റ് ബട്ടൺ. കണക്‌റ്റുചെയ്യുന്നു</string>
+    <string name="mr_cast_button_connected">കാസ്റ്റ് ബട്ടൺ. കണക്‌റ്റ് ചെയ്തു</string>
+    <string name="mr_cast_button_connecting">കാസ്‌റ്റ് ബട്ടൺ. കണക്‌റ്റ് ചെയ്യുന്നു</string>
     <string name="mr_cast_button_disconnected">കാസ്റ്റ് ബട്ടൺ. വിച്ഛേദിച്ചു</string>
     <string name="mr_chooser_searching">ഉപകരണങ്ങൾ കണ്ടെത്തുന്നു</string>
-    <string name="mr_chooser_title">ഇതിലേക്ക് കാസ്റ്റുചെയ്യുക</string>
+    <string name="mr_chooser_title">ഇതിലേക്ക് കാസ്‌റ്റ് ചെയ്യുക</string>
     <string name="mr_controller_album_art">ആൽബം ആർട്ട്</string>
-    <string name="mr_controller_casting_screen">സ്‌ക്രീൻ കാസ്റ്റുചെയ്യുന്നു</string>
-    <string name="mr_controller_close_description">അടയ്‌ക്കുക</string>
+    <string name="mr_controller_casting_screen">സ്‌ക്രീൻ കാസ്‌റ്റ് ചെയ്യുന്നു</string>
+    <string name="mr_controller_close_description">അവസാനിപ്പിക്കുക</string>
     <string name="mr_controller_collapse_group">ചുരുക്കുക</string>
     <string name="mr_controller_disconnect">വിച്ഛേദിക്കുക</string>
     <string name="mr_controller_expand_group">വികസിപ്പിക്കുക</string>
     <string name="mr_controller_no_info_available">വിവരങ്ങളൊന്നും ലഭ്യമല്ല</string>
     <string name="mr_controller_no_media_selected">മീഡിയയൊന്നും തിരഞ്ഞെടുത്തിട്ടില്ല</string>
-    <string name="mr_controller_pause">തൽക്കാലം നിർത്തൂ</string>
+    <string name="mr_controller_pause">താൽക്കാലികമായി നിർത്തുക</string>
     <string name="mr_controller_play">പ്ലേ ചെയ്യുക</string>
     <string name="mr_controller_stop">നിര്‍ത്തുക</string>
-    <string name="mr_controller_stop_casting">കാസ്റ്റുചെയ്യൽ നിർത്തുക</string>
-    <string name="mr_controller_volume_slider">വോളിയം സ്ലൈഡർ</string>
+    <string name="mr_controller_stop_casting">കാസ്റ്റ് ചെയ്യുന്നത് നിർത്തുക</string>
+    <string name="mr_controller_volume_slider">ശബ്‌ദ സ്ലൈഡർ</string>
     <string name="mr_user_route_category_name">ഉപകരണങ്ങൾ</string>
     <string name="native_create_disabled_dialog_message">Google സ്ലൈഡ് ഉപയോഗിച്ച് അവതരണങ്ങൾ സൃഷ്‌ടിക്കുന്നതിനെ നിങ്ങളുടെ അക്കൗണ്ട് പിന്തുണയ്ക്കുന്നില്ല.</string>
     <string name="native_create_disabled_dialog_title">നിങ്ങൾക്ക് Google അവതരണങ്ങൾ സൃഷ്‌ടിക്കാൻ കഴിയില്ല</string>
@@ -1125,7 +1124,7 @@
     <string name="no_scheduled_meetings">ഷെഡ്യൂൾ ചെയ്‌ത മീറ്റിംഗുകളൊന്നുമില്ല</string>
     <string name="no_team_drives_title">ടീം ഡ്രൈവുകളൊന്നുമില്ല</string>
     <string name="no_thanks">വേണ്ട, നന്ദി</string>
-    <string name="not_enough_storage_for_upload" formatted="false">Google ഡ്രൈവിലേക്ക് അപ്‌ലോഡ് ചെയ്യാൻ കഴിയുന്നതിലും വലുതാണ് %1s ഫയൽ. ഇതിന്റെ വലുപ്പം %2s ആണ്, എന്നാൽ നിങ്ങൾക്ക് %3s സ്റ്റോറേജ് മാത്രമേയുള്ളൂ. സ്റ്റോറേജ് അപ്‌ഗ്രേഡ് ചെയ്‌ത്, വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="not_enough_storage_for_upload">Google ഡ്രൈവിലേക്ക് അപ്‌ലോഡ് ചെയ്യാൻ കഴിയുന്നതിലും വലുതാണ് %1$s ഫയൽ. ഇതിന്റെ വലുപ്പം %2$s ആണ്, എന്നാൽ നിങ്ങൾക്ക് %3$s സ്റ്റോറേജ് മാത്രമേയുള്ളൂ. സ്റ്റോറേജ് അപ്‌ഗ്രേഡ് ചെയ്‌ത്, വീണ്ടും ശ്രമിക്കുക.</string>
     <string name="notification_channel_name_default">സ്ഥിരമായി</string>
     <string name="notification_channel_name_high_priority">ഉയർന്ന മുൻഗണന</string>
     <string name="notification_channel_name_low_priority">പ്രാധാന്യം കുറഞ്ഞവ</string>
@@ -1178,7 +1177,7 @@
     <string name="open_document_in_browser">ബ്രൗസറിൽ തുറക്കുക</string>
     <string name="open_folder_removed">തുറന്ന ഫോൾഡർ ഇപ്പോൾ കാണാനാകില്ല.</string>
     <string name="open_folder_trashed">%1$s ട്രാഷ് ചെയ്‌തു.</string>
-    <string name="open_in">%1$s-ൽ തുറക്കുക</string>
+    <string name="open_in">%1$s എന്നതിൽ തുറക്കുക</string>
     <string name="open_link">ലിങ്ക് പിന്തുടരുക</string>
     <string name="open_pinned_version">ഉപകരണത്തിൽ നിന്ന് തുറക്കുക</string>
     <string name="open_templates_picker_offline">ടെംപ്ലേറ്റുകൾ ഉപയോഗിക്കാൻ ഓൺലൈനിൽ പോകുക.</string>
@@ -1205,7 +1204,7 @@
     <string name="ouch_title_sawwrie">ഖേദിക്കുന്നു!</string>
     <string name="overwrite_confirm_dialog_message">%1$s നിലവിലുണ്ട്. തിരുത്തിയെഴുതണോ?</string>
     <string name="overwrite_confirm_dialog_positive_button_label">തിരുത്തിയെഴുതുക</string>
-    <string name="owner_not_user">%1$s എന്നയാളുടെ ഉടമസ്ഥതയിലല്ലാത്തത്</string>
+    <string name="owner_not_user">%1$s എന്നയാളുടെ ഉടമസ്ഥതയിൽ അല്ലാത്തത്</string>
     <string name="owner_user">%1$s എന്നയാളുടെ ഉടമസ്ഥതയിലുള്ളത്</string>
     <string name="page_1_description">ഇന്റർനെറ്റ് കണക്ഷൻ ഉപയോഗിച്ചോ അല്ലാതെയോ ഫയലുകൾ ചെയ്തുതീർക്കുക.</string>
     <string name="page_1_heading_editors">യാത്ര ചെയ്യുമ്പോൾ പോലും അവതരണങ്ങൾ</string>
@@ -1521,7 +1520,7 @@
     <string name="punch_show_slide">സ്ലൈഡ് കാണിക്കുക</string>
     <string name="punch_speaker_notes_title">സ്‌പീക്കർ കുറിപ്പുകൾ</string>
     <string name="punch_speakernotes_closed">സ്‌പീക്കർ കുറിപ്പുകൾ അടച്ചിരിക്കുന്നു.</string>
-    <string name="punch_thor_invite_email_body" formatted="false">ആക്‌സസ് വിവരങ്ങൾ:&lt;br> %s &lt;br> %s പിൻ നമ്പർ:%s</string>
+    <string name="punch_thor_invite_email_body">ആക്‌സസ് വിവരങ്ങൾ:&lt;br> %1$s &lt;br> %2$s പിൻ നമ്പർ:%3$s</string>
     <string name="punctuation_period">നിർദ്ദേശങ്ങൾ പാലിക്കുക.</string>
     <string name="purchase_dialog_how_storage_used">Gmail, Google ഫോട്ടോസ്, Google ഡ്രൈവ് എന്നിവയിലുടനീളം സ്‌റ്റോറേജ് പങ്കിടുന്നു</string>
     <string name="purchase_dialog_manage">സംഭരണം നിയന്ത്രിക്കുക</string>
@@ -1978,6 +1977,7 @@
     <string name="suggestions_add_to_dictionary">നിഘണ്ടുവിലേക്ക് ചേര്‍ക്കുക</string>
     <string name="suggestions_delete_text">ഇല്ലാതാക്കുക</string>
     <string name="suggestions_popup_opened">അക്ഷരവിന്യാസ നിർദ്ദേശങ്ങൾ</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Google സ്‌ലൈഡ് സമന്വയ പിശക്</string>
     <string name="sync_more_error">അധിക ഇനങ്ങൾ വീണ്ടെടുക്കുന്നതിൽ പിശക്</string>
     <string name="sync_more_error_offline">ഓഫ്‌ലൈനായിരിക്കുമ്പോൾ ചില ഡോക്യുമെന്റുകൾ ലഭ്യമാകില്ല.</string>
@@ -2010,7 +2010,7 @@
     <string name="team_drive_empty_list_message_cannot_create">നിങ്ങളെ ആരെയെങ്കിലും ഒരു ടീം ഡ്രൈവിലേക്ക് ചേർക്കുമ്പോൾ, ആ വ്യക്തിയെ ഇവിടെ ലിസ്‌റ്റുചെയ്‌തതായി നിങ്ങൾ കാണും.</string>
     <string name="team_drive_settings_title">ക്രമീകരണം</string>
     <string name="team_drive_trash_welcome_snackbar">ടീം ഡ്രൈവ് ട്രാഷിലെ ഇനങ്ങൾ 30 ദിവസത്തിനകം ശാശ്വതമായി ഇല്ലാതാക്കും.</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">%1$s, തലക്കെട്ട്</string>
     <string name="template_category_education">വിദ്യാഭ്യാസം</string>
     <string name="template_category_personal">സ്വകാര്യം</string>
@@ -2084,6 +2084,8 @@
     <string name="unable_to_open_local_document_message">ഇത് നീക്കുകയോ ഇല്ലാതാക്കുകയോ ചെയ്‌തു.</string>
     <string name="unable_to_open_local_document_title">ഉപകരണത്തിൽ സംരക്ഷിച്ച ഫയൽ തുറക്കാനാവില്ല</string>
     <string name="unable_to_read_calendar_data">കലണ്ടർ അന്വേഷിക്കാനാവില്ല</string>
+    <string name="unable_update_published_message">ഡ്രാഫ്റ്റ് ലിങ്ക് ക്രമീകരണം അപ്‌ഡേറ്റ് ചെയ്യുന്നത് വരെ പസിദ്ധീകരിച്ച സൈറ്റിന്റെ ക്രമീകരണം മാറ്റാനാകില്ല</string>
+    <string name="unable_update_published_title">ക്രമീകരണം അപ്ഡേറ്റ് ചെയ്യാൻ കഴിയില്ല</string>
     <string name="undeliverable_acl_changed_dialog_title">നിങ്ങളുടെ മാറ്റങ്ങൾ ഇല്ലാതാക്കി പ്രമാണം പഴയപടിയാക്കണോ?</string>
     <string name="undeliverable_changes_dialog_content">നിങ്ങളുടെ ഓഫ്‌ലൈൻ മാറ്റങ്ങൾ നഷ്‌ടമായേക്കാം. അവ ക്ലിപ്‌ബോർഡിലേക്ക് പകർത്തിയിട്ടുണ്ടെന്ന് ഉറപ്പുവരുത്തുക.</string>
     <string name="undeliverable_changes_dialog_title">പ്രശ്‌നകരമായ മാറ്റങ്ങൾ ഇല്ലാതാക്കി, പ്രമാണം പഴയപടിയാക്കണോ?</string>
@@ -2186,6 +2188,8 @@
     <string name="upsell_negbtn">പിന്നീട്</string>
     <string name="upsell_okbtn">അപ്‌ഗ്രേഡ് ചെയ്യുക</string>
     <string name="url_typo_error_msg">ലിങ്ക് തെറ്റാണെന്ന് തോന്നുന്നു. അക്ഷരപ്പിശകാണോ?</string>
+    <string name="v7_preference_off">ഓഫ്</string>
+    <string name="v7_preference_on">ഓൺ</string>
     <string name="verbalize_bulleted_list">ബുള്ളറ്റ്. %1$s</string>
     <string name="verbalize_numbered_list">%1$s. %2$s</string>
     <string name="verbalize_opened_edit">എഡിറ്റുചെയ്യൽ അനുമതികളോടെ %1$s തുറന്നു.</string>
@@ -2216,8 +2220,9 @@
     <string name="warm_welcome_next_button">അടുത്തത്</string>
     <string name="warm_welcome_skip_button">ഒഴിവാക്കുക</string>
     <string name="warning_cannot_share_outside_domain">ഈ ടീം ഡ്രൈവിന്‍റെ ക്രമീകരണം, %s-ന് പുറത്ത് പങ്കിടുന്നത് തടയുന്നു</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">അംഗങ്ങൾ അല്ലാത്തവരുമായും %s ഡൊമെയ്‌നിന് പുറത്തും പങ്കിടുന്നത്, ഈ ടീം ഡ്രൈവിന്റെ ക്രമീകരണം തടയുന്നു.</string>
     <string name="warning_cannot_share_outside_domain_org">സ്ഥാപനത്തിന് പുറത്ത് പങ്കിടുന്നത് സ്ഥാപനത്തിന്‍റെ ക്രമീകരണം തടയുന്നു</string>
-    <string name="warning_cannot_share_outside_team_drive">ഈ ടീം ഡ്രൈവിന്‍റെ ക്രമീകരണം, ടീമിന് പുറത്ത് പങ്കിടുന്നത് തടയുന്നു</string>
+    <string name="warning_cannot_share_outside_team_drive">അംഗങ്ങൾ അല്ലാത്തവരുമായി പങ്കിടുന്നത്, ഈ ടീം ഡ്രൈവിന്റെ ക്രമീകരണം തടയുന്നു</string>
     <string name="welcome_button_close">സ്ലൈഡിലേക്ക് പോകുക</string>
     <string name="welcome_button_continue">അടുത്തത്</string>
     <string name="welcome_offer_button_close">അടയ്‌ക്കുക</string>
@@ -2235,7 +2240,7 @@
     <string name="welcome_title_highlights">%1$s അറിയിപ്പ് പാനൽ.</string>
     <string name="write_access_denied">ഈ പ്രമാണത്തിലേക്കുള്ള എഴുതൽ ആക്സസ് നിരസിച്ചു.</string>
     <string name="zss_accessibility_searching">%1$s എന്നതിനായി തിരയുന്നു</string>
-    <string name="zss_date_range_header_title">പരിഷ്‌ക്കരിച്ചത്</string>
+    <string name="zss_date_range_header_title">പരിഷ്‌ക്കരിച്ച തീയതി</string>
     <string name="zss_date_range_month">കഴിഞ്ഞ 30 ദിവസം</string>
     <string name="zss_date_range_three_month">കഴിഞ്ഞ 90 ദിവസം</string>
     <string name="zss_date_range_today">ഇന്ന്</string>
@@ -2243,19 +2248,19 @@
     <string name="zss_date_range_yesterday">ഇന്നലെ</string>
     <string name="zss_entry_types_header_title">ഫയൽ തരങ്ങൾ</string>
     <string name="zss_no_filters">ഫിൽട്ടറുകളൊന്നുമില്ല</string>
-    <string name="zss_owner_header_title">ഉടമ</string>
+    <string name="zss_owner_header_title">ഉടമസ്ഥതയിലുള്ളത്</string>
     <string name="zss_owner_me">എന്റെ ഉടമസ്ഥതയിലുള്ളത്</string>
-    <string name="zss_owner_not_me">എന്റെ ഉടമസ്ഥതയിലല്ലാത്തത്</string>
+    <string name="zss_owner_not_me">എന്റെ ഉടമസ്ഥതയിൽ അല്ലാത്തത്</string>
     <string name="zss_people_header_title">ആളുകൾ</string>
     <string name="zss_showing_list_of_filters">ലഭ്യമായ ഫിൽട്ടറുകളുടെ ലിസ്റ്റ് കാണിക്കുന്നു.</string>
     <string name="zss_team_drive">%1$s ഡ്രൈവിൽ തിരയുക</string>
-    <string name="zss_type_archive">ആര്‍ക്കൈവുചെയ്യുക</string>
+    <string name="zss_type_archive">ശേഖരം</string>
     <string name="zss_type_audio">ഓഡിയോ</string>
-    <string name="zss_type_documents">ടെക്‌സ്‌റ്റ് പ്രമാണങ്ങൾ</string>
-    <string name="zss_type_folder">ഫോള്‍ഡറുകൾ</string>
+    <string name="zss_type_documents">വാചക പ്രമാണങ്ങൾ</string>
+    <string name="zss_type_folder">ഫോള്‍ഡറുകള്‍</string>
     <string name="zss_type_images">ഫോട്ടോകളും ചിത്രങ്ങളും</string>
-    <string name="zss_type_pdfs">PDF-കൾ</string>
-    <string name="zss_type_presentations">അവതരണങ്ങള്‍</string>
-    <string name="zss_type_spreadsheets">സ്‌പ്രെഡ്ഷീറ്റുകള്‍</string>
+    <string name="zss_type_pdfs">PDF-കള്‍</string>
+    <string name="zss_type_presentations">അവതരണങ്ങൾ</string>
+    <string name="zss_type_spreadsheets">സ്പ്രെഡ്ഷീറ്റുകള്‍</string>
     <string name="zss_type_video">വീഡിയോകൾ</string>
 </resources>

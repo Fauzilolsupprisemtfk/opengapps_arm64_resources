@@ -12,9 +12,6 @@
         <item quantity="other">Kapag idinagdag mo ang mga file na ito, ibabahagi ang mga ito sa lahat ng taong maaaring maka-access sa nakabahaging folder na %1$s</item>
         <item quantity="one">Kapag idinagdag mo ang file na ito, ibabahagi ito sa lahat ng taong maaaring maka-access sa nakabahaging folder na %1$s</item>
     </plurals>
-    <plurals name="add_confirm_dialog_message_share_files_and_folders">
-        <item quantity="other">Kapag idinagdag mo ang mga file at folder na ito, ibabahagi ang mga ito sa lahat ng taong maaaring maka-access sa nakabahaging folder na %1$s</item>
-    </plurals>
     <plurals name="add_confirm_dialog_message_share_folders">
         <item quantity="other">Kapag idinagdag mo ang mga folder na ito, ibabahagi ang mga ito sa lahat ng taong maaaring maka-access sa nakabahaging folder na %1$s</item>
         <item quantity="one">Kapag idinagdag mo ang folder na ito, ibabahagi ito sa lahat ng taong maaaring maka-access sa nakabahaging folder na %1$s</item>
@@ -22,9 +19,6 @@
     <plurals name="add_confirm_dialog_title_share_files">
         <item quantity="other">Ibahagi ang mga file na ito?</item>
         <item quantity="one">Ibahagi ang file na ito?</item>
-    </plurals>
-    <plurals name="add_confirm_dialog_title_share_files_and_folders">
-        <item quantity="other">Ibahagi ang mga file at folder na ito?</item>
     </plurals>
     <plurals name="add_confirm_dialog_title_share_folders">
         <item quantity="other">Ibahagi ang mga folder na ito?</item>
@@ -51,9 +45,6 @@
         <item quantity="other">Hindi ma-download ang mga item</item>
         <item quantity="one">Hindi ma-download ang item</item>
     </plurals>
-    <plurals name="download_message_failures">
-        <item quantity="other">Ida-download ang %1$d sa %2$d item. Tingnan ang notification para sa detalye</item>
-    </plurals>
     <plurals name="download_message_success">
         <item quantity="other">Ida-download ang %1$d item. Tingnan ang notification para sa mga detalye</item>
         <item quantity="one">Ida-download ang %1$d (na) item. Tingnan ang notification para sa mga detalye</item>
@@ -68,6 +59,7 @@
     </plurals>
     <plurals name="download_notification_partial_success_title">
         <item quantity="other">Hindi na-download ang %1$d sa %2$d</item>
+        <item quantity="one">Hindi na-download ang %1$d sa %2$d</item>
     </plurals>
     <plurals name="end_member_string">
         <item quantity="other">ay nandito na</item>
@@ -117,9 +109,6 @@
         <item quantity="other">Kapag inilipat ang mga file na ito, maibabahagi ang mga ito sa lahat ng may access sa nakabahaging folder na %1$s</item>
         <item quantity="one">Kapag inilipat ang file na ito, maibabahagi ito sa lahat ng may access sa nakabahaging folder na %1$s</item>
     </plurals>
-    <plurals name="move_confirm_dialog_message_share_files_and_folders">
-        <item quantity="other">Kapag inilipat ang mga file at folder na ito, maibabahagi ang mga ito sa lahat ng may access sa nakabahaging folder na %1$s</item>
-    </plurals>
     <plurals name="move_confirm_dialog_message_share_folders">
         <item quantity="other">Kapag inilipat ang mga folder na ito, maibabahagi ang mga ito sa lahat ng may access sa nakabahaging folder na %1$s</item>
         <item quantity="one">Kapag inilipat ang folder na ito, maibabahagi ito sa lahat ng may access sa nakabahaging folder na %1$s</item>
@@ -127,9 +116,6 @@
     <plurals name="move_confirm_dialog_title_share_files">
         <item quantity="other">Ibahagi ang mga file na ito?</item>
         <item quantity="one">Ibahagi ang file na ito?</item>
-    </plurals>
-    <plurals name="move_confirm_dialog_title_share_files_and_folders">
-        <item quantity="other">Ibahagi ang mga file at folder na ito?</item>
     </plurals>
     <plurals name="move_confirm_dialog_title_share_folders">
         <item quantity="other">Ibahagi ang mga folder na ito?</item>
@@ -139,6 +125,10 @@
         <item quantity="other">Wala kang pahintulot na maglipat ng ilang item mula sa folder ng mga ito.</item>
         <item quantity="one">Wala kang pahintulot na ilipat ang item na ito mula sa folder nito.</item>
     </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">Hindi mo maililipat ang mga file na ito dahil wala sa %1$s ang may-ari ng file.</item>
+        <item quantity="one">Hindi mo maililipat ang file na ito dahil wala sa %1$s ang may-ari ng file.</item>
+    </plurals>
     <plurals name="move_notice_granted_access_team_drive">
         <item quantity="other">%1$s Maa-access na ng \"%2$s\" ang mga ito.</item>
         <item quantity="one">%1$s Maa-access na ito ng \"%2$s.\"</item>
@@ -146,6 +136,10 @@
     <plurals name="move_notice_granted_access_team_drive_fallback">
         <item quantity="other">Nailipat ang %1$d (na) item sa Drive ng Team.</item>
         <item quantity="one">Nailipat ang 1 item sa Drive ng Team.</item>
+    </plurals>
+    <plurals name="move_notice_lost_access_team_drives_plural">
+        <item quantity="other">Nailipat mula Team Drive ang %1$d. Nawalan ng access ang member.</item>
+        <item quantity="one">Nailipat mula Team Drive ang %1$d. Nawalan ng access ang member.</item>
     </plurals>
     <plurals name="other_member_string">
         <item quantity="other">%d (na) iba pa</item>
@@ -215,6 +209,10 @@
         <item quantity="other">%1$s (na) Follow up na item</item>
         <item quantity="one">%1$s Follow up na item</item>
     </plurals>
+    <plurals name="prioritydocs_menu_item_text">
+        <item quantity="other">Pag-follow up</item>
+        <item quantity="one">Pag-follow up</item>
+    </plurals>
     <plurals name="punch_qanda_downvotes">
         <item quantity="other">%1$d (na) downvote</item>
         <item quantity="one">%1$d downvote</item>
@@ -253,6 +251,7 @@
     </plurals>
     <plurals name="remove_dialog_delete_permanently_for_everyone_text_multiple">
         <item quantity="other">&lt;b>Permanenteng made-delete para sa lahat&lt;/b> ang %1$d (na) file na ito. Hindi mo maa-undo ang pagkilos na ito.</item>
+        <item quantity="one">&lt;b>Permanenteng made-delete para sa lahat&lt;/b> ang %1$d file na ito. Hindi mo maa-undo ang pagkilos na ito.</item>
     </plurals>
     <plurals name="remove_dialog_delete_permanently_text_multiple">
         <item quantity="other">Permanenteng made-delete ang %1$d (na) file na ito. Hindi mo maa-undo ang pagkilos na ito.</item>

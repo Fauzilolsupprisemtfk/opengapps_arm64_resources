@@ -135,15 +135,15 @@
     <string name="app_installed_dialog_trix_editor_installed_title">‏تم تثبيت جداول بيانات Google</string>
     <string name="app_installed_toast_docs_and_sheets">‏تم تثبيت تطبيقي مستندات Google وجداول بيانات Google.</string>
     <string name="app_name_slides">عروض تقديمية</string>
-    <string name="app_restrictions_description">تعيين على خطأ لتعطيل استخدام واجهات برمجة تطبيقات الطباعة المحلية</string>
+    <string name="app_restrictions_description">تعيين على خطأ لإيقاف استخدام واجهات برمجة تطبيقات الطباعة المحلية</string>
     <string name="app_restrictions_title">يسمح للتطبيق باستخدام واجهات برمجة تطبيقات الطباعة المحلية</string>
     <string name="ask_confirmation_for_document_deletion">سيكون هذا الملف في المهملات لديك إلى أن تحذفه نهائيًا</string>
     <string name="ask_confirmation_for_folder_deletion">سيكون هذا المجلد في المهملات لديك إلى أن تحذفه نهائيًا</string>
     <string name="ask_confirmation_for_shared_document_deletion">لن يظهر هذا الملف في عرضك بعد ذلك</string>
     <string name="ask_confirmation_for_shared_folder_deletion">لن يظهر هذا المجلد في عرضك بعد ذلك</string>
-    <string name="audio_disabled">تمكين الصوت</string>
+    <string name="audio_disabled">تفعيل الصوت</string>
     <string name="audio_disabled_announcement">تم كتم صوت الميكروفون</string>
-    <string name="audio_enabled">تعطيل الصوت</string>
+    <string name="audio_enabled">إيقاف الصوت</string>
     <string name="audio_enabled_announcement">تم إعادة صوت الميكروفون</string>
     <string name="authentication_error">حدث خطأ أثناء الحصول على المصادقة</string>
     <string name="back_content_description">رجوع</string>
@@ -175,9 +175,9 @@
     <string name="call_exited_network_error">تم قطع المكالمة. تحقق من اتصال الشبكة وأعد المحاولة.</string>
     <string name="camera_disabled">تشغيل الكاميرا</string>
     <string name="camera_disabled_announcement">تم إيقاف الكاميرا</string>
-    <string name="camera_disabled_dialog_enable_camera_app_known">لتمكين الكاميرا، انقر على تمكين في إعدادات تطبيق الكاميرا.</string>
-    <string name="camera_disabled_dialog_enable_camera_app_unknown">لتمكين الكاميرا، انتقل إلى الإعدادات > التطبيقات > الكاميرا وانقر على \"تمكين\".</string>
-    <string name="camera_disabled_dialog_title">الكاميرا معطلة على هذا الجهاز</string>
+    <string name="camera_disabled_dialog_enable_camera_app_known">لتفعيل الكاميرا، انقر على تفعيل في إعدادات تطبيق الكاميرا.</string>
+    <string name="camera_disabled_dialog_enable_camera_app_unknown">لتفعيل الكاميرا، انتقل إلى الإعدادات > التطبيقات > الكاميرا وانقر على \"تفعيل\".</string>
+    <string name="camera_disabled_dialog_title">الكاميرا غير مفعّلة على هذا الجهاز</string>
     <string name="camera_enabled">إيقاف الكاميرا</string>
     <string name="camera_enabled_announcement">تم تشغيل الكاميرا</string>
     <string name="camera_image_insert_failed">تعذّر إدراج الصورة. وحدة التخزين الخارجية غير متوفرة.</string>
@@ -367,7 +367,7 @@
     <string name="contact_sharing_reader_td_description">يمكن عرض كل الملفات</string>
     <string name="contact_sharing_reader_td_expanded">وصول للعرض</string>
     <string name="contact_sharing_td_organizer">كامل</string>
-    <string name="contact_sharing_td_organizer_default">وصول كامل (افتراضي)</string>
+    <string name="contact_sharing_td_organizer_default">وصول كامل (تلقائي)</string>
     <string name="contact_sharing_td_organizer_description">يمكن إدارة الأعضاء ويمكن تحميل/تعديل/حذف جميع الملفات</string>
     <string name="contact_sharing_td_organizer_non_selected">وصول كامل</string>
     <string name="contact_sharing_td_remove">إزالة العضو</string>
@@ -475,6 +475,7 @@
     <string name="dialog_td_will_disappear">‏ستختفي مساحة Drive للفريق هذه لدى الجميع ولن تتمكن من التراجع عن هذا الإجراء.</string>
     <string name="dialog_td_will_disappear_files_in_trash">‏الملفات من مساحة Drive للفريق هذه موجودة في مهملات \"%1$s\" ولن يتمكن أي مستخدمين من استعادتها. وستختفي مساحة Drive للفريق هذه للجميع ولن تتمكن من التراجع عن هذا الإجراء.</string>
     <string name="did_you_mean">هل تقصد: %1$s</string>
+    <string name="disabled_append">غير مفعّل،</string>
     <string name="discussion_accept">قبول</string>
     <string name="discussion_acl_fix_access_role_commenter">يُمكن التعليق</string>
     <string name="discussion_acl_fix_access_role_writer">يُمكن التعديل</string>
@@ -554,8 +555,8 @@
     <string name="discussion_resolved">تم الحل</string>
     <string name="discussion_save">حفظ</string>
     <string name="discussion_send_reply">إرسال رد</string>
-    <string name="discussion_server_failure">تعذّرت مزامنة التعليق بسبب خطأ في الشبكة. إمكانية التعليق معطلة حاليًا.</string>
-    <string name="discussion_server_failure_commenting_disabled">إمكانية التعليق معطلة بسبب خطأ في الشبكة. يُرجى إعادة المحاولة لاحقًا.</string>
+    <string name="discussion_server_failure">تعذّرت مزامنة التعليق بسبب خطأ في الشبكة. إمكانية التعليق غير مفعّلة حاليًا.</string>
+    <string name="discussion_server_failure_commenting_disabled">إمكانية التعليق غير مفعّلة بسبب خطأ في الشبكة. يُرجى إعادة المحاولة لاحقًا.</string>
     <string name="discussion_server_recovered">تمت استعادة إمكانية التعليق.</string>
     <string name="discussion_suggestion_accepted">تم قبول الاقتراح</string>
     <string name="discussion_suggestion_created">تم تقديم اقتراح</string>
@@ -585,11 +586,11 @@
     <string name="doclist_date_never_label">أبدًا</string>
     <string name="doclist_date_opened_label">تم الفتح بواسطتي: %s</string>
     <string name="doclist_date_shared_label">تمت المشاركة: %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s · %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s · %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">تاريخ التحميل بواسطتي: %s</string>
     <string name="doclist_detail_fragment_content_description">عرض خصائص العنصر</string>
-    <string name="doclist_entry_content_description" formatted="false">%s %s</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s %s اللون:%s</string>
+    <string name="doclist_entry_content_description">%1$s %2$s</string>
+    <string name="doclist_entry_content_description_with_color">%1$s %2$s اللون:%3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">فتح درج التنقل</string>
     <string name="doclist_quota_used_label">سعة التخزين المستخدمة: %s</string>
     <string name="doclist_selected_show_preview">عرض المعاينة</string>
@@ -637,7 +638,7 @@
     <string name="document_type_zip_archive">‏أرشيف Zip</string>
     <string name="domain">Domain</string>
     <string name="domain_scope_contact_name">نطاق غير معروف</string>
-    <string name="download_app_disabled">تم تعطيل تطبيق عرض التنزيلات</string>
+    <string name="download_app_disabled">تم إيقاف تطبيق عرض التنزيلات</string>
     <string name="download_bytes_format">تم تحميل %1$d من إجمالي %2$d بايت (%3$d%%)</string>
     <string name="download_bytes_format_short">تم تحميل %1$d بايت</string>
     <string name="download_copy_print_disabled">‏منع المعلقين والمشاهدين من تنزيل الملفات أو نسخها أو طباعتها في مساحة Drive المشتركة هذه</string>
@@ -650,8 +651,8 @@
     <string name="download_kilobytes_format_short">تمّ تحميل %1$s كيلوبايت</string>
     <string name="download_megabytes_format">تم تحميل %1$s من %2$s ميغابايت (%3$d%%)</string>
     <string name="download_megabytes_format_short">تم تحميل %1$s ميغابايت</string>
-    <string name="download_message_download_manager_disabled">تمكين مدير التنزيل للتنزيل</string>
-    <string name="download_message_download_manager_enable">تمكين</string>
+    <string name="download_message_download_manager_disabled">تفعيل مدير التنزيل للتنزيل</string>
+    <string name="download_message_download_manager_enable">تفعيل</string>
     <string name="download_message_download_manager_unavailable">لا يمكن التنزيل، مدير التنزيل غير متاح.</string>
     <string name="download_notification_complete_text">تم التنزيل، %1$s</string>
     <string name="download_notification_error_already_exists">الملف موجود من قبل</string>
@@ -679,10 +680,12 @@
     <string name="draft_options_dialog_title">إعدادات مسودة الموقع</string>
     <string name="draft_permission_change_anyone_warning">سيؤدي التغيير إلى إعداد مسودة الموقع هذا إلى السماح لأي شخص بمشاهدته عند نشره.</string>
     <string name="draft_permission_change_domain_warning">سيؤدي التغيير إلى إعداد مسودة الموقع هذا إلى السماح لأي شخص في %s بمشاهدته عند نشره.</string>
+    <string name="draft_permission_downgrade_domain_warning">سيؤدي تغيير إعداد مسودة الموقع الإلكتروني هذا إلى تمكين المستخدمين في النطاق %1$s فقط من عرض الرابط المنشور</string>
+    <string name="draft_permission_downgrade_specific_warning">سيؤدي تغيير إعداد مسودة الموقع الإلكتروني هذا إلى تمكين مستخدمين محددين فقط من عرض الرابط المنشور</string>
     <string name="drive_file_stream_disabled">‏منع الأشخاص من فتح الملفات في مساحة Drive المشتركة هذه باستخدام التصفح السريع في Drive أو تطبيقات مشابهة</string>
     <string name="drive_file_stream_enabled">‏السماح للأشخاص بفتح الملفات في مساحة Drive المشتركة هذه باستخدام التصفح السريع في Drive أو التطبيقات المشابهة</string>
     <string name="drive_file_stream_title">‏التصفح السريع في Drive</string>
-    <string name="drive_not_enabled_notifications">‏يجب تمكين تطبيق Google Drive للحصول على تحديثات على عروضك التقديمية.</string>
+    <string name="drive_not_enabled_notifications">‏يجب تفعيل تطبيق Google Drive للحصول على تحديثات على عروضك التقديمية.</string>
     <string name="drive_not_installed_notifications">‏يجب أن يتوفر لديك تطبيق Google Drive للحصول على تحديثات على عروضك التقديمية.</string>
     <string name="drive_only_learn_more_message">‏لا يمكنك إنشاء ملفات باستخدم العروض التقديمية من Google من هذا الحساب.</string>
     <string name="drive_storage_title">‏تخزين Drive</string>
@@ -721,7 +724,7 @@
     <string name="empty_doclist_for_pinned_view_details">اجعل الملفات \"متاحة بلا اتصال\" في قائمة خيارات الملف</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">انقر على \"متاح بلا اتصال\" في قائمة الملف كي تتمكن من متابعة العمل عليه بلا اتصال.</string>
     <string name="empty_doclist_for_recent_view">ليست هناك ملفات تم فتحها أو تعديلها مؤخرًا.</string>
-    <string name="empty_doclist_for_search_view">لا تتوفر نتائج.</string>
+    <string name="empty_doclist_for_search_view">ليست هناك نتائج</string>
     <string name="empty_doclist_for_shared_with_me_view">ستظهر الملفات التي تمت مشاركتها معك هنا.</string>
     <string name="empty_doclist_for_starred_view">ليست لديك ملفات مميزة بنجمة.</string>
     <string name="empty_doclist_for_starred_view_details">انقر على رمز النجمة في قائمة خيارات الملف لإضافته إلى هذه القائمة.</string>
@@ -733,7 +736,7 @@
     <string name="empty_sharing_list">مشاركة المعلومات غير متاحة</string>
     <string name="empty_team_drives_doclist_can_add">جرّب إضافة ملفات ذات صلة حتى يحصل الجميع على إمكانية الوصول وتتمكنوا من بدء التعاون.</string>
     <string name="empty_team_drives_doclist_cannot_add">‏أي ملفات تتم إضافتها إلى مساحة Drive المشتركة هذه ستظهر هنا.</string>
-    <string name="enable">تمكين</string>
+    <string name="enable">تفعيل</string>
     <string name="enable_accountless_mode_title">‏لتمكين تشغيل التطبيق على الأجهزة بدون حسابات Google</string>
     <string name="enter_new_name">إدخال اسم جديد:</string>
     <string name="entry_title_announcement">عنوان العرض التقديمي</string>
@@ -756,8 +759,8 @@
     <string name="error_print_failed">تتعذر طباعة المستند</string>
     <string name="error_report_button_reload">إعادة التحميل</string>
     <string name="error_report_button_report">الإبلاغ</string>
-    <string name="error_report_corruption_when_opening_offline">حدث خطأ ما، ولا يمكننا فتح هذا الملف. ستتم استعادة إمكانية الدخول إلى هذا الملف فور اتصالك بالإنترنت. وربما يتم فقد بعض التعديلات التي تم إجراؤها في وضع عدم الاتصال.</string>
-    <string name="error_report_corruption_when_opening_online">‏حدث خطأ ما، وإننا نعمل على استعادة محتوى مستندك من Drive. وربما يتم فقد بعض التعديلات التي تم إجراؤها في وضع عدم الاتصال.</string>
+    <string name="error_report_corruption_when_opening_offline">حدث خطأ ما، ولا يمكننا فتح هذا الملف. ستتم استعادة إمكانية الدخول إلى هذا الملف فور اتصالك بالإنترنت. وربما يتم فقد بعض التعديلات التي تم إجراؤها بلا إنترنت.</string>
+    <string name="error_report_corruption_when_opening_online">‏حدث خطأ ما، وإننا نعمل على استعادة محتوى مستندك من Drive. وربما يتم فقد بعض التعديلات التي تم إجراؤها بلا إنترنت.</string>
     <string name="error_report_description">حدث خطأ ما، يُرجى إعادة محاولة تحميل الملف.</string>
     <string name="error_report_message_too_many_changes">إعادة التحميل لمزامنة أحدث إصدار يضم جميع التغييرات.</string>
     <string name="error_report_title">خطأ</string>
@@ -772,6 +775,7 @@
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d آخرون.</string>
     <string name="exit_multiselect_mode_button">الخروج من وضع التحديد المتعدد</string>
+    <string name="expand_button_title">إعدادات متقدمة</string>
     <string name="expires_future">تنتهي الصلاحية في %1$s</string>
     <string name="expires_today">تنتهي الصلاحية اليوم</string>
     <string name="export_download_error_title">خطأ في التنزيل</string>
@@ -788,6 +792,11 @@
     <string name="fab_office_document">‏ملف Powerpoint جديد</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">نتائج البحث</string>
+    <string name="fast_scroll_size_grouper_b">بايت</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">غيغابايت</string>
+    <string name="fast_scroll_size_grouper_kb">كيلوبايت</string>
+    <string name="fast_scroll_size_grouper_mb">ميغابايت</string>
     <string name="fast_scroll_time_grouper_earlier">أقدم</string>
     <string name="fast_scroll_time_grouper_last_week">الأسبوع الماضي</string>
     <string name="fast_scroll_time_grouper_this_month">مطلع الشهر</string>
@@ -816,7 +825,7 @@
     <string name="file_picker_select_a_folder_heading">تحديد مجلد</string>
     <string name="file_picker_select_button">تحديد</string>
     <string name="file_picker_storage_permissions_denied_toast">لم يتم منح الإذن بالوصول إلى السعة التخزينية المحلية.</string>
-    <string name="file_too_large_for_upload" formatted="false">‏حجم الملف %1s كبير جدًا بدرجة لا تسمح بتحميله إلى Google Drive. يبلغ حجمه %2s ولكن الحد المخصص لهذا النوع من الملفات هو %3s. ربما تستطيع تحميل هذا الملف دون تحويله إلى تنسيق Google Drive.</string>
+    <string name="file_too_large_for_upload">‏حجم الملف %1$s كبير جدًا بدرجة لا تسمح بتحميله إلى Google Drive. يبلغ حجمه %2$s ولكن الحد المخصص لهذا النوع من الملفات هو %3$s. ربما تستطيع تحميل هذا الملف دون تحويله إلى تنسيق Google Drive.</string>
     <string name="file_too_large_for_upload_okbtn">حسنًا</string>
     <string name="file_too_large_for_upload_title">لا يمكن التحميل</string>
     <string name="file_was_not_sent">لم تتم مشاركة الملف.</string>
@@ -828,7 +837,7 @@
     <string name="folder_color_cyan_200">أيسلندا</string>
     <string name="folder_color_cyan_500">صدع البحر الكاريبي</string>
     <string name="folder_color_deep_orange_500">يوسفي</string>
-    <string name="folder_color_default">افتراضي</string>
+    <string name="folder_color_default">تلقائي</string>
     <string name="folder_color_google_blue_500">أزرق سماوي</string>
     <string name="folder_color_google_green_400">أخضر رمادي</string>
     <string name="folder_color_google_green_500">أخضر الريحان</string>
@@ -875,8 +884,8 @@
     <string name="hangouts_invite_intent">دعوة عبر...</string>
     <string name="hangouts_local_identity">انضمت باسم %1$s</string>
     <string name="hangouts_local_participant_name">أنت</string>
-    <string name="hangouts_mic_hw_disabled_message">تم تعطيل الميكروفون.</string>
-    <string name="hangouts_mic_hw_enable_button">تمكين</string>
+    <string name="hangouts_mic_hw_disabled_message">تم إيقاف الميكروفون.</string>
+    <string name="hangouts_mic_hw_enable_button">تفعيل</string>
     <string name="hangouts_name_dialog_ok">انضمام</string>
     <string name="hangouts_no_one_here">يبدو أنه ليس هناك أي شخص آخر هنا.</string>
     <string name="hangouts_participant_view_description">%1$s، %2$s، %3$s، %4$s</string>
@@ -943,7 +952,7 @@
     <string name="line_curved">موصِّل منحن</string>
     <string name="line_elbow">موصِّل بشكل مِرفق</string>
     <string name="link_doesnt_exist">‏هذا الرابط غير موجود. تحقق من أن عنوان URL صحيح.</string>
-    <string name="link_sharing_failed">يتعذر تمكين المشاركة باستخدام رابط.</string>
+    <string name="link_sharing_failed">يتعذر تفعيل المشاركة باستخدام رابط.</string>
     <string name="link_sharing_message_dasher">أي شخص في النطاق %1$s ولديه الرابط يمكنه فتح \"%2$s\"</string>
     <string name="link_sharing_message_standard">يمكن لأي شخص لديه الرابط فتح \"%1$s\"، ولا يلزم تسجيل الدخول</string>
     <string name="link_sharing_title_share_link">هل تريد مشاركة الرابط؟</string>
@@ -978,19 +987,10 @@
     <string name="manage_accounts">إدارة الحسابات</string>
     <string name="manage_addons_column_title">الإضافات</string>
     <string name="manage_addons_playstore_link_description">انتقل إلى متجر Play للوصول إلى %s</string>
-    <string name="manage_members_default_members">افتراضيًا، يمكن للأعضاء تحميل/تعديل/حذف الملفات ودعوة أعضاء آخرين</string>
+    <string name="manage_members_default_members">بشكل تلقائي، يمكن للأعضاء تحميل/تعديل/حذف الملفات ودعوة أعضاء آخرين</string>
     <string name="manage_members_dialog_title">وصول الأعضاء</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">سعة التخزين</string>
+    <string name="management_data_loading_failed">لا يمكن تحميل هذه الصفحة.</string>
     <string name="member_count_max">99‎+‎</string>
     <string name="menu_backup">الُنسخ الاحتياطية</string>
     <string name="menu_copy_link">نسخ الرابط</string>
@@ -1059,7 +1059,7 @@
     <string name="menu_trash_delete_forever">حذف</string>
     <string name="menu_trash_restore">استعادة</string>
     <string name="menu_unpin">إزالة من الجهاز</string>
-    <string name="menu_will_be_kept_offline">جارٍ جعله متاحًا في وضع عدم الاتصال...</string>
+    <string name="menu_will_be_kept_offline">جارٍ جعله متاحًا بلا إنترنت...</string>
     <string name="menu_will_no_longer_be_kept_offline">لن يكون العرض التقديمي متاحًا بلا اتصال بعد الآن</string>
     <string name="message_drive_scope_blocked">‏إذا لم تتمكن من الوصول إلى %1$s من Google Drive، فاتصل بمشرف G Suite للحصول على مساعدته.</string>
     <string name="message_drive_scope_cert_error">‏إذا لم تتمكن من الوصول إلى %1$s من Google Drive، فجرّب إلغاء تثبيت %2$s ثم إعادة تثبيته.</string>
@@ -1094,7 +1094,6 @@
     <string name="move_error_target_folder_not_exist">المجلد الهدف غير موجود.</string>
     <string name="move_notice_lost_access_shared_folders">نُقلت العناصر من المجلد المشترك. فقد الأشخاص إمكانية الوصول.</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s فقد \"%2$s\" إمكانية الوصول.</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">‏نُقل عنصر واحد من Drive للفريق. فقد الأعضاء إمكانية الوصول.</string>
     <string name="move_notice_lost_access_team_drives">‏تم نقل العناصر من Drive للفريق. فقد الأعضاء إمكانية الوصول.</string>
     <string name="mr_cast_button_connected">زر الإرسال. تم الاتصال</string>
     <string name="mr_cast_button_connecting">زر الإرسال. جارٍ الاتصال</string>
@@ -1107,8 +1106,8 @@
     <string name="mr_controller_collapse_group">تصغير</string>
     <string name="mr_controller_disconnect">قطع الاتصال</string>
     <string name="mr_controller_expand_group">توسيع</string>
-    <string name="mr_controller_no_info_available">لا تتوفر أية معلومات</string>
-    <string name="mr_controller_no_media_selected">لم يتم اختيار أية وسائط</string>
+    <string name="mr_controller_no_info_available">لا تتوفر أي معلومات</string>
+    <string name="mr_controller_no_media_selected">لم يتم اختيار أي وسائط</string>
     <string name="mr_controller_pause">إيقاف مؤقت</string>
     <string name="mr_controller_play">تشغيل</string>
     <string name="mr_controller_stop">إيقاف</string>
@@ -1140,17 +1139,17 @@
     <string name="no_account_for_upload_setup_account">إعداد الحساب</string>
     <string name="no_account_for_upload_title">‏تحميل إلى Drive</string>
     <string name="no_app_found">تعذر العثور على أي تطبيق يمكنه التعامل مع هذا الإجراء</string>
-    <string name="no_browser_to_open_link_error_details">ستحتاج إلى تمكين متصفح لفتح هذا الرابط.</string>
+    <string name="no_browser_to_open_link_error_details">ستحتاج إلى تفعيل متصفح لفتح هذا الرابط.</string>
     <string name="no_browser_to_open_link_error_dismiss">إغلاق</string>
-    <string name="no_browser_to_open_link_error_enable_default_browser">تمكين المتصفح</string>
+    <string name="no_browser_to_open_link_error_enable_default_browser">تفعيل المتصفح</string>
     <string name="no_browser_to_open_link_error_title">يتعذر فتح الرابط</string>
     <string name="no_current_viewers">ليس هناك مشاهدون حاليون.</string>
     <string name="no_files_in_team_drive_title">لا تتوفر ملفات في %1$s</string>
     <string name="no_scheduled_meetings">ليست هناك اجتماعات مجدولة</string>
     <string name="no_team_drives_title">‏ليس هناك أي مساحات Drive مشتركة</string>
     <string name="no_thanks">لا، شكرًا</string>
-    <string name="not_enough_storage_for_upload" formatted="false">‏الملف %1s كبير جدًا بدرجة لا تسمح بتحميله إلى Google Drive. يبلغ حجمه %2s ولكن لا يتوفر لديك سوى %3s من حجم سعة التخزين. يُرجى ترقية سعة التخزين وإعادة المحاولة.</string>
-    <string name="notification_channel_name_default">افتراضي</string>
+    <string name="not_enough_storage_for_upload">‏الملف %1$s كبير جدًا بدرجة لا تسمح بتحميله إلى Google Drive. يبلغ حجمه %2$s ولكن لا يتوفر لديك سوى %3$s من حجم سعة التخزين. يُرجى ترقية سعة التخزين وإعادة المحاولة.</string>
+    <string name="notification_channel_name_default">تلقائي</string>
     <string name="notification_channel_name_high_priority">أولوية عالية</string>
     <string name="notification_channel_name_low_priority">غير مهمة</string>
     <string name="notification_extra_text_is_too_long">يتعذر التحميل. النص طويل جدًا.</string>
@@ -1286,11 +1285,11 @@
     <string name="palette_paragraph_alignment_left">محاذاة لليسار</string>
     <string name="palette_paragraph_alignment_right">محاذاة لليمين</string>
     <string name="palette_paragraph_bullet">الرموز النقطية</string>
-    <string name="palette_paragraph_bullet_default">الرموز النقطية الافتراضية</string>
+    <string name="palette_paragraph_bullet_default">الرموز النقطية التلقائية</string>
     <string name="palette_paragraph_indent">المسافة البادئة</string>
     <string name="palette_paragraph_linespacing_label">تباعد الأسطر</string>
     <string name="palette_paragraph_number">الأرقام</string>
-    <string name="palette_paragraph_number_default">الأرقام الافتراضية</string>
+    <string name="palette_paragraph_number_default">الأرقام التلقائية</string>
     <string name="palette_paragraph_outdent">تحريك إلى مستوى أعلى</string>
     <string name="palette_replace_image">استبدال صورة</string>
     <string name="palette_selected_subtab_content_description">‏تم تحديد، %1$s علامة تبويب فرعية، %2$d من %3$d</string>
@@ -1545,7 +1544,7 @@
     <string name="punch_show_slide">إظهار الشريحة</string>
     <string name="punch_speaker_notes_title">ملاحظات المتحدث</string>
     <string name="punch_speakernotes_closed">تم إغلاق ملاحظات المتحدث.</string>
-    <string name="punch_thor_invite_email_body" formatted="false">معلومات الوصول:&lt;br> %s &lt;br> %s رقم التعريف الشخصي:%s</string>
+    <string name="punch_thor_invite_email_body">معلومات الوصول:&lt;br> %1$s &lt;br> %2$s رقم التعريف الشخصي:%3$s</string>
     <string name="punctuation_period">.</string>
     <string name="purchase_dialog_how_storage_used">‏السعة التخزينية مشتركة عبر Google Drive وGmail وصور Google‎.</string>
     <string name="purchase_dialog_manage">إدارة سعة التخزين</string>
@@ -1700,7 +1699,7 @@
     <string name="selection_mode_move_to_folder_desc">نقل العناصر المحددة إلى %1$s</string>
     <string name="selection_mode_started">تم بدء وضع التحديد</string>
     <string name="selection_suffix_checked">محدد</string>
-    <string name="selection_suffix_disabled">معطل</string>
+    <string name="selection_suffix_disabled">غير مفعّل</string>
     <string name="selection_suffix_not_checked">غير محدد</string>
     <string name="selection_undo_button">تراجع</string>
     <string name="shape_alternate_process_normal">مخطط انسيابي: معالجة متعاقبة</string>
@@ -1841,9 +1840,9 @@
     <string name="shape_uturn_normal">سهم الدوران للخلف</string>
     <string name="shape_wave_double_normal">موجة مزدوجة</string>
     <string name="shape_wave_normal">موجة</string>
-    <string name="share_card_enabled_link_sharing_toast">تم تمكين ميزة المشاركة الرابط حاليًا</string>
+    <string name="share_card_enabled_link_sharing_toast">تم تفعيل ميزة المشاركة الرابط حاليًا</string>
     <string name="share_card_link_shared_and_copied">تمت مشاركة الرابط ونسخه إلى الحافظة</string>
-    <string name="share_card_link_unshared">المشاركة باستخدام الرابط معطلة الآن</string>
+    <string name="share_card_link_unshared">المشاركة باستخدام الرابط غير مفعّلة الآن</string>
     <string name="share_card_title">من لديه حق الدخول</string>
     <string name="share_choose_format">اختيار تنسيق</string>
     <string name="share_convert_to_gslide">‏حفظ بتنسيق عروض Google التقديمية</string>
@@ -1873,7 +1872,7 @@
     <string name="sharing_cannot_change">غير مسموح لك بتعديل مشاركة هذا المستند.</string>
     <string name="sharing_error">خطأ في الخادم: يتعذر استرداد معلومات المشاركة.</string>
     <string name="sharing_info_loading">لا تزال مشاركة المعلومات قيد التحميل...</string>
-    <string name="sharing_list_offline">قائمة المشاركة غير متاحة في وضع عدم الاتصال بالإنترنت.</string>
+    <string name="sharing_list_offline">قائمة المشاركة غير متاحة بلا إنترنت بالإنترنت.</string>
     <string name="sharing_list_updated">تم تحديث إعدادات المشاركة بنجاح.</string>
     <string name="sharing_message_add_accessors_one">يمكن لـ %s الوصول الآن</string>
     <string name="sharing_message_add_commenters_one">يمكن لـ %s إضافة التعليقات الآن</string>
@@ -1895,7 +1894,7 @@
     <string name="sharing_message_unable_to_change">يتعذر تغيير إعدادات المشاركة</string>
     <string name="sharing_mode_comment_only">للتعليق فقط</string>
     <string name="sharing_mode_view_only">للعرض فقط</string>
-    <string name="sharing_offline">تتعذّر المشاركة في وضع عدم الاتصال بالإنترنت.</string>
+    <string name="sharing_offline">تتعذّر المشاركة بلا إنترنت بالإنترنت.</string>
     <string name="sharing_option_anyone">عام على الويب</string>
     <string name="sharing_option_anyone_can_comment">يمكن لأي شخص التعليق</string>
     <string name="sharing_option_anyone_can_contribute">يمكن لأي شخص التنظيم والإضافة والتعديل</string>
@@ -2005,9 +2004,10 @@
     <string name="suggestions_add_to_dictionary">إضافة إلى المعجم</string>
     <string name="suggestions_delete_text">حذف</string>
     <string name="suggestions_popup_opened">اقتراحات الإملاء</string>
+    <string name="summary_collapsed_preference_list">%1$s، %2$s</string>
     <string name="sync_failed">‏حدث خطأ أثناء مزامنة العروض التقديمية من Google</string>
     <string name="sync_more_error">حدث خطأ أثناء استرداد العناصر الإضافية</string>
-    <string name="sync_more_error_offline">قد لا تكون بعض المستندات مرئية في وضع عدم الاتصال.</string>
+    <string name="sync_more_error_offline">قد لا تكون بعض المستندات مرئية بلا إنترنت.</string>
     <string name="table_insert">إدراج جدول</string>
     <string name="table_insert_column_left">إدراج عمود لليسار</string>
     <string name="table_insert_column_right">إدراج عمود لليمين</string>
@@ -2037,7 +2037,7 @@
     <string name="team_drive_empty_list_message_cannot_create">‏عندما يضيفك شخص ما إلى مساحة Drive مشتركة، ستراها معروضة هنا.</string>
     <string name="team_drive_settings_title">الإعدادات</string>
     <string name="team_drive_trash_welcome_snackbar">‏سيتم حذف العناصر الموجودة في مساحات Drive المشتركة نهائيًا خلال 30 يومًا.</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">%1$s، العنوان</string>
     <string name="template_category_education">التعليم</string>
     <string name="template_category_personal">شخصية</string>
@@ -2111,8 +2111,10 @@
     <string name="unable_to_open_local_document_message">ربما تم نقله أو حذفه.</string>
     <string name="unable_to_open_local_document_title">يتعذر فتح الملف المحفوظ على الجهاز</string>
     <string name="unable_to_read_calendar_data">تعذر إجراء البحث في التقويم</string>
+    <string name="unable_update_published_message">لا يمكن تغيير إعداد الموقع المنشور حتى يتم تحديث إعداد رابط المسودة.</string>
+    <string name="unable_update_published_title">لا يمكن تحديث الإعداد</string>
     <string name="undeliverable_acl_changed_dialog_title">هل تريد حذف التغييرات وإعادة المستند إلى النسخة السابقة؟</string>
-    <string name="undeliverable_changes_dialog_content">ربما يتم فقد التغييرات التي أجريتها في وضع عدم الاتصال. تأكد من نسخها إلى الحافظة.</string>
+    <string name="undeliverable_changes_dialog_content">ربما يتم فقد التغييرات التي أجريتها بلا إنترنت. تأكد من نسخها إلى الحافظة.</string>
     <string name="undeliverable_changes_dialog_title">هل تريد حذف التغييرات التي تتضمن مشكلات وإعادة المستند إلى النسخة السابقة؟</string>
     <string name="undeliverable_changes_ketchup_text">لا يمكن حفظ التغييرات. يمكنك نسخ أي تغييرات حديثة، والعودة إلى نسخة سابقة.</string>
     <string name="undeliverable_changes_revert">العودة إلى النسخة السابقة</string>
@@ -2123,7 +2125,7 @@
     <string name="uneditable_suggested_insertion">اقتراح</string>
     <string name="unfetchable_image_selected_from_picker">عذرا، لم نتمكن من استرداد الصورة. غالبًا ما يرجع السبب في هذا إلى سوء الاتصال.</string>
     <string name="unified_actions_add_to_drive">إضافة إلى ملفاتي</string>
-    <string name="unified_link_sharing_is_off">مشاركة الرابط معطّلة</string>
+    <string name="unified_link_sharing_is_off">مشاركة الرابط غير مفعّلة</string>
     <string name="unified_link_sharing_is_on">مشاركة الرابط قيد التشغيل</string>
     <string name="unrepresentable_value_content_description">قيم مختلطة</string>
     <string name="unsaved_changes_dialog_dont_save">عدم الحفظ</string>
@@ -2213,6 +2215,8 @@
     <string name="upsell_negbtn">لاحقًا</string>
     <string name="upsell_okbtn">ترقية</string>
     <string name="url_typo_error_msg">لا يبدو الرابط صحيحًا. هل هناك خطأ إملائي؟</string>
+    <string name="v7_preference_off">إيقاف</string>
+    <string name="v7_preference_on">تفعيل</string>
     <string name="verbalize_bulleted_list">رمز نقطي. %1$s</string>
     <string name="verbalize_numbered_list">%1$s. %2$s</string>
     <string name="verbalize_opened_edit">‏تم فتح %1$s مع توفر أذونات بالتعديل.</string>
@@ -2243,8 +2247,9 @@
     <string name="warm_welcome_next_button">التالي</string>
     <string name="warm_welcome_skip_button">تخطي</string>
     <string name="warning_cannot_share_outside_domain">‏تحول إعدادات مساحة Drive المشتركة دون المشاركة خارج %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">‏تَحُول إعدادات \"مساحة Drive المشتركة\" هذه دون المشاركة مع غير الأعضاء والأشخاص من خارج النطاق %s</string>
     <string name="warning_cannot_share_outside_domain_org">تحول إعدادات المؤسسة دون المشاركة خارج المؤسسة.</string>
-    <string name="warning_cannot_share_outside_team_drive">‏تحول إعدادات مساحة Drive المشتركة دون المشاركة خارج الفريق</string>
+    <string name="warning_cannot_share_outside_team_drive">‏تَحُول إعدادات \"مساحة Drive المشتركة\" هذه دون المشاركة مع غير الأعضاء</string>
     <string name="welcome_button_close">الانتقال إلى العروض التقديمية</string>
     <string name="welcome_button_continue">التالي</string>
     <string name="welcome_offer_button_close">إغلاق</string>
@@ -2276,13 +2281,13 @@
     <string name="zss_people_header_title">الأشخاص</string>
     <string name="zss_showing_list_of_filters">عرض قائمة بالفلاتر المتاحة</string>
     <string name="zss_team_drive">بحث في %1$s</string>
-    <string name="zss_type_archive">أرشيف</string>
-    <string name="zss_type_audio">صوت</string>
+    <string name="zss_type_archive">الأرشيف</string>
+    <string name="zss_type_audio">الصوت</string>
     <string name="zss_type_documents">المستندات النصية</string>
-    <string name="zss_type_folder">مجلدات</string>
+    <string name="zss_type_folder">المجلّدات</string>
     <string name="zss_type_images">الصور الفوتوغرافية والصور</string>
     <string name="zss_type_pdfs">‏ملفات PDF</string>
-    <string name="zss_type_presentations">عروض تقديمية</string>
-    <string name="zss_type_spreadsheets">جداول بيانات</string>
-    <string name="zss_type_video">مقاطع فيديو</string>
+    <string name="zss_type_presentations">العروض التقديمية</string>
+    <string name="zss_type_spreadsheets">جداول البيانات</string>
+    <string name="zss_type_video">الفيديوهات</string>
 </resources>

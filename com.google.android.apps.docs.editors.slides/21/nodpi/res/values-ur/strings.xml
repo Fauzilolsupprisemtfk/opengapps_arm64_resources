@@ -457,6 +457,7 @@
     <string name="dialog_td_will_disappear">‏یہ Team Drive سبھی کیلئے غائب ہو جائے گی اور آپ اس عمل کو کالعدم نہیں کر سکتے۔</string>
     <string name="dialog_td_will_disappear_files_in_trash">‏اس Team Drive سے فائلز \"%1$s\" کوڑے دان میں ہیں اور کوئی بھی صارف انہیں دوبارہ بحال نہیں کر سکے گا۔ یہ Team Drive سبھی کیلئے غائب ہو جائے گی اور آپ اس عمل کو کالعدم نہیں کر سکتے۔</string>
     <string name="did_you_mean">آپ کا مطلب کیا تھا: %1$s</string>
+    <string name="disabled_append">غیر فعال ہے،</string>
     <string name="discussion_accept">قبول کریں</string>
     <string name="discussion_acl_fix_access_role_commenter">تبصرہ کر سکتا ہے</string>
     <string name="discussion_acl_fix_access_role_writer">ترمیم کر سکتا ہے</string>
@@ -567,11 +568,11 @@
     <string name="doclist_date_never_label">کبھی نہیں</string>
     <string name="doclist_date_opened_label">میرے ذریعے کھولی گئی: %s</string>
     <string name="doclist_date_shared_label">اشتراک کردہ: %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s · %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s · %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">میرے ذریعے اپ لوڈ کردہ: %s</string>
     <string name="doclist_detail_fragment_content_description">آئٹم کی خصوصیات دکھائیں</string>
-    <string name="doclist_entry_content_description" formatted="false">%s %s</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s %s رنگ:%s</string>
+    <string name="doclist_entry_content_description">%1$s %2$s</string>
+    <string name="doclist_entry_content_description_with_color">%1$s %2$s رنگ:%3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">نیویگیشن دراز کھولیں</string>
     <string name="doclist_quota_used_label">استعمال کردہ اسٹوریج: %s</string>
     <string name="doclist_selected_show_preview">پیش منظر دکھائیں</string>
@@ -661,6 +662,8 @@
     <string name="draft_options_dialog_title">مسودہ سائٹ کی ترتیبات</string>
     <string name="draft_permission_change_anyone_warning">اس مسودہ سائٹ کی ترتیبات کو تبدیل کرنے سے شائع ہونے پر ہر کسی کو دیکھنے کی اجازت ہوگی۔</string>
     <string name="draft_permission_change_domain_warning">اس مسودہ سائٹ کی ترتیبات کو تبدیل کرنے سے شائع ہونے پر %s میں موجود ہر کسی کو دیکھنے کی اجازت ہوگی۔</string>
+    <string name="draft_permission_downgrade_domain_warning">اس مسودہ سائٹ کی ترتیب کو تبدیل کرنے سے یہ تبدیل ہو جائے گی تاکہ شائع کردہ لنک صرف %1$s کے ذریعہ ہی دیکھا جا سکے</string>
+    <string name="draft_permission_downgrade_specific_warning">اس مسودہ سائٹ کی ترتیب کو تبدیل کرنے سے یہ تبدیل ہو جائے گی تاکہ صرف مخصوص لوگ ہی شائع کردہ لنک دیکھ سکیں</string>
     <string name="drive_file_stream_disabled">‏Drive فائل اسٹریم یا اس جیسی ایپلیکیشنز کا استعمال کر کے اس Team Drive میں لوگوں کو فائلیں کھولنے سے روکیں</string>
     <string name="drive_file_stream_enabled">‏Drive فائل اسٹریم یا اس جیسی ایپلیکیشنز کا استعمال کر کے اس Team Drive میں لوگوں کو فائلیں کھولنے کی اجازت دیں</string>
     <string name="drive_file_stream_title">‏Drive فائل اسٹریم</string>
@@ -702,7 +705,7 @@
     <string name="empty_doclist_for_pinned_view_details">"فائل کے اختیارات کے مینو میں فائلز کو 'آف لائن دستیاب' بنائیں"</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">"فائل کے مینو میں 'آف لائن دستیاب' تھپپائیں تاکہ آپ اس پر آف لائن رہتے ہوئے بھی کام کر سکیں۔"</string>
     <string name="empty_doclist_for_recent_view">حال ہی میں کھولی گئیں یا ترمیم کی گئیں کوئی فائلز نہیں ہیں۔</string>
-    <string name="empty_doclist_for_search_view">کوئی نتائج نہیں ہیں۔</string>
+    <string name="empty_doclist_for_search_view">کوئی نتیجہ نہیں</string>
     <string name="empty_doclist_for_shared_with_me_view">آپ کے ساتھ اشتراک کردہ فائلز یہاں ظاہر ہوں گی۔</string>
     <string name="empty_doclist_for_starred_view">آپ کے پاس کوئی بھی ستارہ والی فائلز نہیں ہیں۔</string>
     <string name="empty_doclist_for_starred_view_details">فائل کو اس فہرست میں شامل کرنے کیلئے اس کے اختیار مینو میں ستارہ آئیکن پر تھپتھپائیں۔</string>
@@ -753,6 +756,7 @@
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d دیگر۔</string>
     <string name="exit_multiselect_mode_button">کثیر الانتخاب وضع سے خارج ہوں</string>
+    <string name="expand_button_title">جدید ترین</string>
     <string name="expires_future">%1$s میں میعاد ختم ہو جائے گی</string>
     <string name="expires_today">میعاد آج ختم ہو گی</string>
     <string name="export_download_error_title">ڈاؤن لوڈ میں خرابی</string>
@@ -769,6 +773,11 @@
     <string name="fab_office_document">‏نئی Powerpoint فائل</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">تلاش کے نتائج</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">پرانے</string>
     <string name="fast_scroll_time_grouper_last_week">گزشتہ ہفتے</string>
     <string name="fast_scroll_time_grouper_this_month">اس ماہ کے شروع میں</string>
@@ -797,7 +806,7 @@
     <string name="file_picker_select_a_folder_heading">ایک فولڈر منتخب کریں</string>
     <string name="file_picker_select_button">منتخب کریں</string>
     <string name="file_picker_storage_permissions_denied_toast">مقامی اسٹوریج تک رسائی کی اجازت نہیں ملی۔</string>
-    <string name="file_too_large_for_upload" formatted="false">‏فائل %1s اتنی بڑی ہے کہ Google Drive پر اپ لوڈ نہیں کی جا سکتی۔ یہ %2s کی ہے لیکن اس قسم کی فائل کیلئے %3s کی حد مقرر ہے۔ آپ اس فائل کو Google Drive فارمیٹ میں تبدیل کئے بغیر اپ لوڈ کرسکیں گے۔</string>
+    <string name="file_too_large_for_upload">‏فائل %1$s اتنی بڑی ہے کہ Google Drive پر اپ لوڈ نہیں کی جا سکتی۔ یہ %2$s کی ہے لیکن اس قسم کی فائل کیلئے %3$s کی حد مقرر ہے۔ آپ اس فائل کو Google Drive فارمیٹ میں تبدیل کئے بغیر اپ لوڈ کرسکیں گے۔</string>
     <string name="file_too_large_for_upload_okbtn">ٹھیک ہے</string>
     <string name="file_too_large_for_upload_title">اپ لوڈ نہیں کیا جا سکتا</string>
     <string name="file_was_not_sent">فائل کا اشتراک نہیں کیا گیا ہے۔</string>
@@ -957,17 +966,8 @@
     <string name="make_copy_spinner_message">کاپی کیا جا رہا ہے…</string>
     <string name="manage_members_default_members">بذریعہ ڈیفالٹ، اراکین فائلز اپ لوڈ/ترمیم/حذف کر سکتے ہیں اور دیگر اراکین کو مدعو کر سکتے ہیں</string>
     <string name="manage_members_dialog_title">اراکین کی رسائی</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">اسٹوریج</string>
+    <string name="management_data_loading_failed">اس صفحہ کو لوڈ نہیں کر سکتے</string>
     <string name="member_count_max">+99</string>
     <string name="menu_backup">بیک اپس</string>
     <string name="menu_copy_link">لنک کاپی کریں</string>
@@ -1070,15 +1070,14 @@
     <string name="move_error_target_folder_not_exist">مطلوبہ فولڈر موجود نہیں ہے۔</string>
     <string name="move_notice_lost_access_shared_folders">آئٹمز اشتراک کردہ فولڈر سے منتقل ہو گئے۔</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s \" %2$s\" رسائی سے محروم ہو گئی ہے۔</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">‏1 آئٹم Team Drive سے منتقل ہو گیا۔</string>
     <string name="move_notice_lost_access_team_drives">‏آئٹمز Team Drive سے منتقل ہو گئے۔</string>
     <string name="mr_cast_button_connected">کاسٹ کرنے کا بٹن۔ منسلک ہے</string>
     <string name="mr_cast_button_connecting">کاسٹ کرنے کا بٹن۔ منسلک ہو رہا ہے</string>
     <string name="mr_cast_button_disconnected">کاسٹ کرنے کا بٹن۔ غیر منسلک ہے</string>
-    <string name="mr_chooser_searching">آلات تلاش ہو رہے ہیں</string>
+    <string name="mr_chooser_searching">آلات تلاش کئے جا رہے ہیں</string>
     <string name="mr_chooser_title">اس میں کاسٹ کریں</string>
     <string name="mr_controller_album_art">البم آرٹ</string>
-    <string name="mr_controller_casting_screen">سکرین کاسٹ ہو رہی ہے</string>
+    <string name="mr_controller_casting_screen">اسکرین کاسٹ ہو رہی ہے</string>
     <string name="mr_controller_close_description">بند کریں</string>
     <string name="mr_controller_collapse_group">سکیڑیں</string>
     <string name="mr_controller_disconnect">غیر منسلک کریں</string>
@@ -1125,7 +1124,7 @@
     <string name="no_scheduled_meetings">کوئی شیڈول کردہ میٹنگز نہیں ہیں</string>
     <string name="no_team_drives_title">‏کوئی Team Drives نہیں ہے</string>
     <string name="no_thanks">نہیں شکریہ</string>
-    <string name="not_enough_storage_for_upload" formatted="false">‏فائل %1s Google Drive پر اپ لوڈ کرنے کیلئے کافی بڑی ہے۔ یہ %2s کی ہے لیکن آپ کے پاس صرف %3s اسٹوریج دستیاب ہے۔ براہ کرم اپنے اسٹوریج کو اپ گریڈ کریں اور دوبارہ کوشش کریں۔</string>
+    <string name="not_enough_storage_for_upload">‏فائل %1$s Google Drive پر اپ لوڈ کرنے کیلئے کافی بڑی ہے۔ یہ %2$s کی ہے لیکن آپ کے پاس صرف %3$s اسٹوریج دستیاب ہے۔ براہ کرم اپنے اسٹوریج کو اپ گریڈ کریں اور دوبارہ کوشش کریں۔</string>
     <string name="notification_channel_name_default">ڈیفالٹ</string>
     <string name="notification_channel_name_high_priority">اعلی ترجیحی</string>
     <string name="notification_channel_name_low_priority">کم ترجیحی</string>
@@ -1521,7 +1520,7 @@
     <string name="punch_show_slide">سلائیڈ دکھائیں</string>
     <string name="punch_speaker_notes_title">اسپیکر نوٹس</string>
     <string name="punch_speakernotes_closed">اسپیکر نوٹس کو بند کر دیا گیا۔</string>
-    <string name="punch_thor_invite_email_body" formatted="false">‏رسائی کی معلومات:&lt;br>%s&lt;br>%sPIN:%s‎</string>
+    <string name="punch_thor_invite_email_body">‏رسائی کی معلومات:&lt;br>%1$s&lt;br>%2$sPIN:%3$s‎</string>
     <string name="punctuation_period">۔</string>
     <string name="purchase_dialog_how_storage_used">‏اسٹوریج کا اشتراک Gmail، Google تصاویر اور Google Drive پر ہوتا ہے</string>
     <string name="purchase_dialog_manage">اسٹوریج کا نظم کریں</string>
@@ -1978,6 +1977,7 @@
     <string name="suggestions_add_to_dictionary">لغت میں شامل کریں</string>
     <string name="suggestions_delete_text">حذف کریں</string>
     <string name="suggestions_popup_opened">املاء کی تجاویز</string>
+    <string name="summary_collapsed_preference_list">%1$s، %2$s</string>
     <string name="sync_failed">‏Google Slides کی مطابقت پذیری میں خرابی</string>
     <string name="sync_more_error">اضافی آئٹمز کی بازیافت میں خرابی</string>
     <string name="sync_more_error_offline">ہو سکتا ہے کہ کچھ دستاویزات آف لائن مرئی نہ ہوں۔</string>
@@ -2010,7 +2010,7 @@
     <string name="team_drive_empty_list_message_cannot_create">‏جب آپ کو کوئی Team Drive میں شامل کرتا ہے، تو آپ اسے یہاں مندرج دیکھیں گے۔</string>
     <string name="team_drive_settings_title">ترتیبات</string>
     <string name="team_drive_trash_welcome_snackbar">‏Team Drives کوڑے دان کے آئٹمز 30 دنوں میں مستقل طور پر حذف کردیے جائیں گے۔</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">%1$s، سرخی</string>
     <string name="template_category_education">تعلیم</string>
     <string name="template_category_personal">ذاتی</string>
@@ -2084,6 +2084,8 @@
     <string name="unable_to_open_local_document_message">ممکن ہے کہ اسے منتقل یا حذف کر دیا گیا ہو۔</string>
     <string name="unable_to_open_local_document_title">آلہ پر محفوظ فائل کھولی نہیں جا سکتی ہے</string>
     <string name="unable_to_read_calendar_data">کیلنڈر سے استفسار کرنے سے قاصر</string>
+    <string name="unable_update_published_message">مسودہ لنک کی ترتیب اپ ڈیٹ کئے جانے کے بعد ہی سائٹ کی شائع کردہ ترتیب تبدیل کی جا سکتی ہے</string>
+    <string name="unable_update_published_title">ترتیب اپ ڈیٹ نہیں کر سکتے</string>
     <string name="undeliverable_acl_changed_dialog_title">آپ کی تبدیلیاں حذف کریں اور دستاویز کو لوٹائیں؟</string>
     <string name="undeliverable_changes_dialog_content">آپ کی آف لائن تبدیلیاں ممکن ہے ضائع ہوگئی ہوں۔ براہ کرم یقینی بنائیں کہ آپ نے انہیں کلپ بورڈ میں کاپی کر لیا ہے۔</string>
     <string name="undeliverable_changes_dialog_title">پریشان کن تبدیلیاں حذف کریں اور دستاویز میں واپس لوٹیں؟</string>
@@ -2186,6 +2188,8 @@
     <string name="upsell_negbtn">بعد میں</string>
     <string name="upsell_okbtn">اپ گریڈ کریں</string>
     <string name="url_typo_error_msg">لنک صحیح نہیں لگ رہا ہے۔ ٹائپنگ کی غلطی؟</string>
+    <string name="v7_preference_off">آف</string>
+    <string name="v7_preference_on">آن</string>
     <string name="verbalize_bulleted_list">نکتہ۔ %1$s</string>
     <string name="verbalize_numbered_list">%1$s۔ %2$s</string>
     <string name="verbalize_opened_edit">‏ترمیم کرنے کی اجازتوں کے ساتھ ‎%1$s کھولی گئی۔</string>
@@ -2216,8 +2220,9 @@
     <string name="warm_welcome_next_button">اگلا</string>
     <string name="warm_welcome_skip_button">نظر انداز کریں</string>
     <string name="warning_cannot_share_outside_domain">‏اس Team Drive کی ترتیبات %s سے باہر اشتراک سے روکتی ہیں</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">‏اس Team Drive کی ترتیبات غیر اراکین کے ساتھ اور %s سے باہر اشتراک کرنے سے روکتی ہیں</string>
     <string name="warning_cannot_share_outside_domain_org">تنظیم کی ترتیبات تنظیم کے باہر اشتراک سے روکتی ہیں</string>
-    <string name="warning_cannot_share_outside_team_drive">‏اس Team Drive کی ترتیبات ٹیم سے باہر اشتراک سے روکتی ہیں</string>
+    <string name="warning_cannot_share_outside_team_drive">‏اس Team Drive کی ترتیبات غیر اراکین کے ساتھ اشتراک کرنے سے روکتی ہیں</string>
     <string name="welcome_button_close">‏Slides پر جائیں</string>
     <string name="welcome_button_continue">اگلا</string>
     <string name="welcome_offer_button_close">بند کریں</string>
@@ -2239,21 +2244,21 @@
     <string name="zss_date_range_month">گزشتہ 30 دن</string>
     <string name="zss_date_range_three_month">گزشتہ 90 دن</string>
     <string name="zss_date_range_today">آج</string>
-    <string name="zss_date_range_week">گذشتہ 7 دن</string>
+    <string name="zss_date_range_week">گزشتہ 7 دن</string>
     <string name="zss_date_range_yesterday">گزشتہ کل</string>
     <string name="zss_entry_types_header_title">فائل کی قسمیں</string>
     <string name="zss_no_filters">کوئی فلٹرز نہیں</string>
     <string name="zss_owner_header_title">زیر ملکیت</string>
-    <string name="zss_owner_me">میری ملکیت</string>
-    <string name="zss_owner_not_me">میری ملکیت نہیں</string>
+    <string name="zss_owner_me">میری زیر ملکیت</string>
+    <string name="zss_owner_not_me">میری زیر ملکیت نہیں</string>
     <string name="zss_people_header_title">لوگ</string>
     <string name="zss_showing_list_of_filters">دستیاب فلٹرز کی فہرست دکھائی جا رہی ہے۔</string>
     <string name="zss_team_drive">%1$s میں تلاش کریں</string>
-    <string name="zss_type_archive">آرکائیو</string>
+    <string name="zss_type_archive">آرکائیو کریں</string>
     <string name="zss_type_audio">آڈیو</string>
     <string name="zss_type_documents">متنی دستاویزات</string>
     <string name="zss_type_folder">فولڈرز</string>
-    <string name="zss_type_images">تصاویر</string>
+    <string name="zss_type_images">تصاویر اور تصاویر</string>
     <string name="zss_type_pdfs">PDFs</string>
     <string name="zss_type_presentations">پیشکشیں</string>
     <string name="zss_type_spreadsheets">اسپریڈ شیٹس</string>

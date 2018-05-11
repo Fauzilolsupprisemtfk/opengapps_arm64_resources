@@ -457,6 +457,7 @@ Ekintza hau ezin da desegin."</string>
     <string name="dialog_td_will_disappear">Guztien ikuspegitik desagertuko da taldeko unitate hau, eta ezin izango duzu desegin ekintza.</string>
     <string name="dialog_td_will_disappear_files_in_trash">\"%1$s\" zaborrontzian daude taldeko unitate honetako fitxategiak, eta erabiltzaile batek ere ezin ditu leheneratu. Guztien ikuspegitik desagertuko da taldeko unitate hau, eta ezin izango duzu desegin ekintza.</string>
     <string name="did_you_mean">Hau esan nahi zenuen?: %1$s</string>
+    <string name="disabled_append">desgaituta,</string>
     <string name="discussion_accept">Onartu</string>
     <string name="discussion_acl_fix_access_role_commenter">Iruzkin dezake</string>
     <string name="discussion_acl_fix_access_role_writer">Edita dezake</string>
@@ -567,11 +568,11 @@ Ekintza hau ezin da desegin."</string>
     <string name="doclist_date_never_label">Inoiz ez</string>
     <string name="doclist_date_opened_label">Ireki dudaneko data: %s</string>
     <string name="doclist_date_shared_label">Partekatze-data: %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s · %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s · %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">Kargatu dudaneko data: %s</string>
     <string name="doclist_detail_fragment_content_description">Erakutsi elementuaren propietateak</string>
-    <string name="doclist_entry_content_description" formatted="false">%s %s</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s %s kolorea:%s</string>
+    <string name="doclist_entry_content_description">%1$s %2$s</string>
+    <string name="doclist_entry_content_description_with_color">%1$s %2$s kolorea:%3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">Ireki nabigazio-panel lerrakorra</string>
     <string name="doclist_quota_used_label">Hartzen duen tokia: %s</string>
     <string name="doclist_selected_show_preview">Erakutsi aurrebista</string>
@@ -661,6 +662,8 @@ Ekintza hau ezin da desegin."</string>
     <string name="draft_options_dialog_title">Argitaratu gabeko webgunearen ezarpenak</string>
     <string name="draft_permission_change_anyone_warning">Webgunearen zirriborroan ezarpena aldatuz gero, edonork ikusi ahal izango du argitaratzen denean.</string>
     <string name="draft_permission_change_domain_warning">Webgunearen zirriborroan ezarpena aldatuz gero, %s domeinuko edonork ikusi ahal izango du argitaratzen denean.</string>
+    <string name="draft_permission_downgrade_domain_warning">Webgunearen zirriborroan ezarpena aldatuz gero, %1$s domeinuko erabiltzaileek bakarrik ikusi ahal izango dute argitaratutako esteka</string>
+    <string name="draft_permission_downgrade_specific_warning">Webgunearen zirriborroan ezarpena aldatuz gero, erabiltzaile zehatz batzuek bakarrik ikusi ahal izango dute argitaratutako esteka</string>
     <string name="drive_file_stream_disabled">Galarazi erabiltzaileek taldeko unitateko fitxategiak Drive File Stream edo antzeko beste aplikazio bat erabilita irekitzea</string>
     <string name="drive_file_stream_enabled">Baimendu erabiltzaileei taldeko unitateko fitxategiak Drive File Stream edo antzeko beste aplikazio bat erabilita irekitzea</string>
     <string name="drive_file_stream_title">Drive File Stream</string>
@@ -702,7 +705,7 @@ GARRANTZITSUA! Datuak bidali ondoren, garbitu aplikazioko cachea (Ezarpenak -> A
     <string name="empty_doclist_for_pinned_view_details">Ezarri fitxategiak \"Konexiorik gabe erabilgarri\" fitxategien aukeren menuan</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Sakatu fitxategiaren menuko \"Konexiorik gabe erabilgarri\" aukera fitxategian lanean jarraitu ahal izateko.</string>
     <string name="empty_doclist_for_recent_view">Azkenaldian ez da ireki edo editatu fitxategirik.</string>
-    <string name="empty_doclist_for_search_view">Ez da aurkitu emaitzarik.</string>
+    <string name="empty_doclist_for_search_view">Ez dago emaitzarik</string>
     <string name="empty_doclist_for_shared_with_me_view">Hemen agertuko dira zurekin partekatutako fitxategiak.</string>
     <string name="empty_doclist_for_starred_view">Ez duzu fitxategi izardunik.</string>
     <string name="empty_doclist_for_starred_view_details">Sakatu fitxategiaren aukera-menuko izarraren ikonoa zerrendan gehitzeko.</string>
@@ -753,6 +756,7 @@ Sakatu + aurkezpenak sortzeko."</string>
     <string name="excess_head_count">Beste %1$d</string>
     <string name="excess_head_count_verbalization">Eta beste %1$d.</string>
     <string name="exit_multiselect_mode_button">Irten hautapen anizkoitzeko modutik</string>
+    <string name="expand_button_title">Aurreratua</string>
     <string name="expires_future">%1$s barru iraungiko da</string>
     <string name="expires_today">Gaur iraungiko da</string>
     <string name="export_download_error_title">Errorea deskargatzean</string>
@@ -769,6 +773,11 @@ Sakatu + aurkezpenak sortzeko."</string>
     <string name="fab_office_document">PowerPoint fitxategi berria</string>
     <string name="fast_scroll_month_and_year_grouped">%2$d %1$s</string>
     <string name="fast_scroll_search_result_grouper">Bilaketa-emaitzak</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Zaharragoak</string>
     <string name="fast_scroll_time_grouper_last_week">Aurreko astea</string>
     <string name="fast_scroll_time_grouper_this_month">Hilabete-hasiera</string>
@@ -797,7 +806,7 @@ Sakatu + aurkezpenak sortzeko."</string>
     <string name="file_picker_select_a_folder_heading">Hautatu karpeta</string>
     <string name="file_picker_select_button">Hautatu</string>
     <string name="file_picker_storage_permissions_denied_toast">Ez da eman memoria lokala atzitzeko baimenik.</string>
-    <string name="file_too_large_for_upload" formatted="false">Google Drive-ra kargatzeko handiegia da %1s fitxategia. %2s ditu, baina, gehienez, %3s izan ditzakete mota horretako fitxategiek. Agian Google Drive-ren formaturen batera bihurtu gabe kargatu ahal izango duzu.</string>
+    <string name="file_too_large_for_upload">Google Drive-ra kargatzeko handiegia da %1$s fitxategia. %2$s ditu, baina, gehienez, %3$s izan ditzakete mota horretako fitxategiek. Agian Google Drive-ren formaturen batera bihurtu gabe kargatu ahal izango duzu.</string>
     <string name="file_too_large_for_upload_okbtn">Ados</string>
     <string name="file_too_large_for_upload_title">Ezin izan da kargatu</string>
     <string name="file_was_not_sent">Ez da partekatu fitxategia.</string>
@@ -957,6 +966,8 @@ kargatzen"</string>
     <string name="make_copy_spinner_message">Kopiatzen…</string>
     <string name="manage_members_default_members">Modu lehenetsian, kide gehiago gonbidatu eta fitxategiak kargatu, editatu eta ezaba ditzakete kideek</string>
     <string name="manage_members_dialog_title">Kideen baimenak</string>
+    <string name="management_activity_toolbar_title">Biltegiratzea</string>
+    <string name="management_data_loading_failed">Ezin da kargatu orria</string>
     <string name="member_count_max">99 edo gehiago</string>
     <string name="menu_backup">Babeskopiak</string>
     <string name="menu_copy_link">Kopiatu esteka</string>
@@ -1059,7 +1070,6 @@ kargatzen"</string>
     <string name="move_error_target_folder_not_exist">Helburuko karpeta ez dago.</string>
     <string name="move_notice_lost_access_shared_folders">Elementuak karpeta partekatutik atera dira.</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s Sarbidea galdu du \"%2$s\" taldeko unitateak.</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">Elementu bat taldeko unitatetik atera da.</string>
     <string name="move_notice_lost_access_team_drives">Elementuak taldeko unitatetik atera dira.</string>
     <string name="mr_cast_button_connected">Igortzeko botoia. Konektatuta</string>
     <string name="mr_cast_button_connecting">Igortzeko botoia. Konektatzen</string>
@@ -1073,7 +1083,7 @@ kargatzen"</string>
     <string name="mr_controller_disconnect">Deskonektatu</string>
     <string name="mr_controller_expand_group">Zabaldu</string>
     <string name="mr_controller_no_info_available">Ez dago informaziorik</string>
-    <string name="mr_controller_no_media_selected">Ez da hautatu multimedia-edukirik</string>
+    <string name="mr_controller_no_media_selected">Ez da ezer hautatu</string>
     <string name="mr_controller_pause">Pausatu</string>
     <string name="mr_controller_play">Erreproduzitu</string>
     <string name="mr_controller_stop">Gelditu</string>
@@ -1114,7 +1124,7 @@ kargatzen"</string>
     <string name="no_scheduled_meetings">Ez dago bilerarik antolatuta</string>
     <string name="no_team_drives_title">Ez dago taldeko unitaterik</string>
     <string name="no_thanks">Ez, eskerrik asko</string>
-    <string name="not_enough_storage_for_upload" formatted="false">%1s fitxategia handiegia da Google Drive zerbitzuan kargatzeko. %2s ditu, baina %3s soilik dituzu erabilgarri biltegian. Lortu toki gehiago.</string>
+    <string name="not_enough_storage_for_upload">%1$s fitxategia handiegia da Google Drive zerbitzuan kargatzeko. %2$s ditu, baina %3$s soilik dituzu erabilgarri biltegian. Lortu toki gehiago.</string>
     <string name="notification_channel_name_default">Lehenetsiak</string>
     <string name="notification_channel_name_high_priority">Lehentasun handikoak</string>
     <string name="notification_channel_name_low_priority">Lehentasun txikikoak</string>
@@ -1322,7 +1332,7 @@ kargatzen"</string>
     <string name="pin_paused">Pausatu da deskarga</string>
     <string name="pin_pinned_a11y">Ainguratuta</string>
     <string name="pin_sync_broadband_warning_learn_more">Lortu informazio gehiago</string>
-    <string name="pin_sync_broadband_warning_message">Datu mugikorren bidez fitxategiak transferituz gero, baliteke zerbait ordaindu behar izatea, datu mugikorren zer plan duzun.</string>
+    <string name="pin_sync_broadband_warning_message">Datu-konexio bidez fitxategiak transferituz gero, baliteke zerbait ordaindu behar izatea, datu-konexioaren planaren arabera.</string>
     <string name="pin_sync_broadband_warning_title">Datuen erabilerari buruzko abisua</string>
     <string name="pin_update">Eguneratze berria eskuragarri</string>
     <string name="pin_waiting">Deskargatzeko zain</string>
@@ -1396,7 +1406,6 @@ kargatzen"</string>
     <string name="published_access_anyone">Edonork ikus dezake, argitaratzen denean</string>
     <string name="published_access_domain">%s domeinuko edonork ikus dezake, argitaratzen denean</string>
     <string name="published_access_select_people">Pertsona jakin batzuek ikus dezakete, argitaratzen denean</string>
-    <string name="published_disabled_append">desgaituta,</string>
     <string name="published_message_for_anyone_can_edit">Edonork edita dezake; beraz, edonork ikusi ahal izango du argitaratzen denean.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">%1$s domeinuko edonork edita dezake; beraz, %1$s domeinuko edonork ikusi ahal izango du argitaratzen denean.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Esteka duen edonork edita dezake; beraz, edonork ikusi ahal izango du argitaratzen denean.</string>
@@ -1510,7 +1519,7 @@ kargatzen"</string>
     <string name="punch_show_slide">Erakutsi diapositiba</string>
     <string name="punch_speaker_notes_title">Hizlariaren oharrak</string>
     <string name="punch_speakernotes_closed">Hizlariaren oharrak itxi dira.</string>
-    <string name="punch_thor_invite_email_body" formatted="false">Sarbideari buruzko informazioa:&lt;br> %s &lt;br> %s PIN kodea:%s</string>
+    <string name="punch_thor_invite_email_body">Sarbideari buruzko informazioa:&lt;br> %1$s &lt;br> %2$s PIN kodea:%3$s</string>
     <string name="punctuation_period">,</string>
     <string name="purchase_dialog_how_storage_used">Gmail, Google Argazkiak eta Google Drive zerbitzuek erabiltzen dute biltegiratzea</string>
     <string name="purchase_dialog_manage">Kudeatu biltegia</string>
@@ -1967,6 +1976,7 @@ kargatzen"</string>
     <string name="suggestions_add_to_dictionary">Gehitu hiztegian</string>
     <string name="suggestions_delete_text">Ezabatu</string>
     <string name="suggestions_popup_opened">Ortografia-iradokizunak</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Google Aurkezpenak aplikazioaren sinkronizazio-errorea</string>
     <string name="sync_more_error">Errore bat gertatu da elementu gehiago berreskuratzean</string>
     <string name="sync_more_error_offline">Dokumentu batzuk agian ez dira ikusgai egongo konektatuta ez bazaude.</string>
@@ -1999,7 +2009,7 @@ kargatzen"</string>
     <string name="team_drive_empty_list_message_cannot_create">Norbaitek taldeko unitatean gehitzen zaituenean, hemen agertuko da.</string>
     <string name="team_drive_settings_title">Ezarpenak</string>
     <string name="team_drive_trash_welcome_snackbar">30 egun barru, betiko ezabatuko dira zaborrontziko elementuak.</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">%1$s, goiburua</string>
     <string name="template_category_education">Hezkuntza</string>
     <string name="template_category_personal">Pertsonala</string>
@@ -2073,6 +2083,8 @@ kargatzen"</string>
     <string name="unable_to_open_local_document_message">Agian mugitu edo ezabatu egin da.</string>
     <string name="unable_to_open_local_document_title">Ezin da ireki gailuan gordetako fitxategia</string>
     <string name="unable_to_read_calendar_data">Ezin da kontsultatu egutegia</string>
+    <string name="unable_update_published_message">Zirriborroaren estekaren ezarpena kargatu arte ezingo da aldatu argitaratutako webgunearen ezarpena</string>
+    <string name="unable_update_published_title">Ezin da eguneratu ezarpena</string>
     <string name="undeliverable_acl_changed_dialog_title">Aldaketak ezabatu eta dokumentuaren aurreko bertsiora itzuli nahi duzu?</string>
     <string name="undeliverable_changes_dialog_content">Baliteke konexiorik gabe egin dituzun aldaketak galtzea. Ziurtatu arbelean kopiatu dituzula.</string>
     <string name="undeliverable_changes_dialog_title">Arazoak eragin dituzten aldaketak ezabatu eta dokumentuaren aurreko bertsiora itzuli nahi duzu?</string>
@@ -2175,6 +2187,8 @@ kargatzen"</string>
     <string name="upsell_negbtn">Geroago</string>
     <string name="upsell_okbtn">Bertsio-berritu</string>
     <string name="url_typo_error_msg">Ez dirudi esteka zuzena denik. Behar bezala idatzita dago?</string>
+    <string name="v7_preference_off">DESAKTIBATUTA</string>
+    <string name="v7_preference_on">AKTIBATUTA</string>
     <string name="verbalize_bulleted_list">buleta. %1$s</string>
     <string name="verbalize_numbered_list">%1$s. %2$s</string>
     <string name="verbalize_opened_edit">Editatzeko baimenarekin ireki da %1$s.</string>
@@ -2206,7 +2220,6 @@ kargatzen"</string>
     <string name="warm_welcome_skip_button">Saltatu</string>
     <string name="warning_cannot_share_outside_domain">Taldeko unitate honen ezarpenak direla-eta, ezin da partekatu edukia %s domeinutik kanpo</string>
     <string name="warning_cannot_share_outside_domain_org">Erakundearen ezarpenak direla-eta, ezin da partekatu edukia erakundetik kanpo</string>
-    <string name="warning_cannot_share_outside_team_drive">Taldeko unitate honen ezarpenak direla-eta, ezin da partekatu edukia taldetik kanpo</string>
     <string name="welcome_button_close">Joan Aurkezpenak aplikaziora</string>
     <string name="welcome_button_continue">Hurrengoa</string>
     <string name="welcome_offer_button_close">Itxi</string>

@@ -475,6 +475,7 @@
     <string name="dialog_td_will_disappear">ይህ ቡድን የቡድን Drive ለሁሉም የሚጠፋ ሲሆን ይህን እርምጃ መቀልበስ አይችሉም።</string>
     <string name="dialog_td_will_disappear_files_in_trash">ከዚህ የቡድን Drive የመጡ ፋይሎች በ«%1$s» መጣያ ውስጥ ያሉ ሲሆኑ ማንኛውም ተጠቃሚ ወደነበሩበት ሊመልሳቸው አይችልም። ይህ የቡድን Drive ለሁሉም የሚጠፋ ሲሆን ይህን እርምጃ መቀልበስ አይችሉም።</string>
     <string name="did_you_mean">ይህን ለማለት ፈልገው ነው፦ %1$s</string>
+    <string name="disabled_append">ተሰናክሏል፣</string>
     <string name="discussion_accept">ተቀበል</string>
     <string name="discussion_acl_fix_access_role_commenter">አስተያየት መስጠት ይችላሉ</string>
     <string name="discussion_acl_fix_access_role_writer">ማርትዕ ይችላሉ</string>
@@ -585,11 +586,11 @@
     <string name="doclist_date_never_label">በጭራሽ</string>
     <string name="doclist_date_opened_label">እኔ የከፈትኩት፦ %s</string>
     <string name="doclist_date_shared_label">የተጋራው፦ %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s · %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s · %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">በእኔ የተሰቀለው፦ %s</string>
     <string name="doclist_detail_fragment_content_description">የንጥል ባሕሪያትን አሳይ</string>
-    <string name="doclist_entry_content_description" formatted="false">%s %s</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s %s ቀለም፦%s</string>
+    <string name="doclist_entry_content_description">%1$s %2$s</string>
+    <string name="doclist_entry_content_description_with_color">%1$s %2$s ቀለም፦%3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">የአሰሳ መሣቢያውን ክፈት</string>
     <string name="doclist_quota_used_label">ጥቅም ላይ የዋለው ማከማቻ፦ %s</string>
     <string name="doclist_selected_show_preview">ቅድመ-እይታ አሳይ</string>
@@ -679,6 +680,8 @@
     <string name="draft_options_dialog_title">ረቂቅ የጣቢያ ቅንብሮች</string>
     <string name="draft_permission_change_anyone_warning">ወደዚህ ረቂቅ ጣቢያ ቅንብር መቀየር ሲታተም ማንኛውም እንዲመለከተው ያስችላል።</string>
     <string name="draft_permission_change_domain_warning">ወደዚህ ረቂቅ ጣቢያ ቅንብር መቀየር ሲታተም በ%s ውስጥ ያለ ማንኛውም እንዲመለከተው ያስችላል።</string>
+    <string name="draft_permission_downgrade_domain_warning">የዚህ ረቂቅ ጣቢያ ቅንብርን መቀየር የታተመው አገናኝ በ%1$s ብቻ ሊታይ የሚችል እንዲሆን ያደርገዋል።</string>
+    <string name="draft_permission_downgrade_specific_warning">የዚህ ረቂቅ ጣቢያ ቅንብርን መቀየር የታተመው አገናኝ በተወሰኑ ሰዎች ብቻ ሊታይ የሚችል እንዲሆን ያደርገዋል።</string>
     <string name="drive_file_stream_disabled">ሰዎች የDrive ፋይል ዥረት ወይም ተመሳሳይ መተግበሪያዎችን ተጠቅመው በዚህ የቡድን Drive ውስጥ ያሉ ፋይሎችን እንዳይከፍቱ ይከልክሉ</string>
     <string name="drive_file_stream_enabled">ሰዎች የDrive ፋይል ዥረት ወይም ተመሳሳይ መተግበሪያዎችን ተጠቅመው በዚህ የቡድን Drive ውስጥ ያሉ ፋይሎችን እንዲከፍቱ ይፍቀዱ</string>
     <string name="drive_file_stream_title">የDrive ፋይል ዥረት</string>
@@ -721,7 +724,7 @@
     <string name="empty_doclist_for_pinned_view_details">በፋይሉ አማራጮች ምናሌ ውስጥ ፋይሉን «ከመስመር ውጪ ይገኛል» ወደሚል ይቀይሩት።</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">ከመስመር ውጪ በላዩ ላይ መሥራትዎን መቀጠል እንዲችሉ በፋይል ምናሌ ውስጥ «ከመስመር ውጪ ይገኛል» የሚለውን መታ ያድርጉ።</string>
     <string name="empty_doclist_for_recent_view">በቅርብ ጊዜ የተከፈቱ ወይም አርትዖት የተደረገባቸው ምንም ፋይሎች የሉም።</string>
-    <string name="empty_doclist_for_search_view">ምንም ውጤቶች የሉም።</string>
+    <string name="empty_doclist_for_search_view">ምንም ውጤቶች የሉም</string>
     <string name="empty_doclist_for_shared_with_me_view">ከእርስዎ ጋር የተጋሩ ፋይሎች እዚህ ይታያሉ።</string>
     <string name="empty_doclist_for_starred_view">ምንም ኮከብ የተደረገባቸው ፋይሎች የሉዎትም።</string>
     <string name="empty_doclist_for_starred_view_details">ፋይሉን ወደዚህ ዝርዝር ለማከል በፋይሉ የአማራጭ ምናሌ ውስጥ ያለውን የኮከብ አዶውን መታ ያድርጉት።</string>
@@ -772,6 +775,7 @@
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d ሌሎች።</string>
     <string name="exit_multiselect_mode_button">ከባለብዙ ምርጫ ሁነታ ውጣ</string>
+    <string name="expand_button_title">የላቀ</string>
     <string name="expires_future">በ%1$s ውስጥ ጊዜው ያልፍበታል</string>
     <string name="expires_today">ዛሬ ጊዜው ያልፍበታል</string>
     <string name="export_download_error_title">የማውረድ ስህተት</string>
@@ -779,7 +783,7 @@
     <string name="export_error_message_network">የማስተላለፍ ስህተት ተከስቷል። እባክዎ የአውታረ መረብ ግንኙነትዎን ያረጋግጡ።</string>
     <string name="export_error_message_server">የልወጣ ስህተት ተከስቷል። እባክዎ ቆይተው እንደገና ይሞክሩ።</string>
     <string name="export_failure_notification_content">«%1$s»ን ማስቀመጥ አልተቻለም</string>
-    <string name="export_notification_content">«%1$s»ን በማስቀመጥ ላይ...</string>
+    <string name="export_notification_content">«%1$s»ን በማስቀመጥ ላይ…</string>
     <string name="exporting_start_msg">ወደ ውጭ ለመላክ በመዘጋጀት ላይ…</string>
     <string name="fab_choose_template">ቅንብር ደንብ ይምረጡ</string>
     <string name="fab_google_document">አዲስ የስላይዶች ፋይል</string>
@@ -788,6 +792,11 @@
     <string name="fab_office_document">አዲስ የPowerpoint ፋይል</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">የፍለጋ ውጤቶች</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">ጊባ</string>
+    <string name="fast_scroll_size_grouper_kb">ኪባ</string>
+    <string name="fast_scroll_size_grouper_mb">ሜባ</string>
     <string name="fast_scroll_time_grouper_earlier">የቆዩ</string>
     <string name="fast_scroll_time_grouper_last_week">ያለፈው ሳምንት</string>
     <string name="fast_scroll_time_grouper_this_month">በዚህ ወር ቀደም ብሎ</string>
@@ -816,7 +825,7 @@
     <string name="file_picker_select_a_folder_heading">አቃፊ ምረጥ</string>
     <string name="file_picker_select_button">ምረጥ</string>
     <string name="file_picker_storage_permissions_denied_toast">አካባቢያዊ ማከማቻን ለመድረስ ፈቃድ አልተሰጠም።</string>
-    <string name="file_too_large_for_upload" formatted="false">"የ%1s ፋይል ወደ Google Drive ለመስቀል በጣም ትልቅ  ነው። %2s ነው ሆኖም ለዚህ ዓይነት ፋይል ገደብ %3s ነው። ይህን ፋይል ወደ Google Drive ቅርጸት ባለመቀየር መስቀል ምናልባት ትችል ይሆናል።"</string>
+    <string name="file_too_large_for_upload">"የ%1$s ፋይል ወደ Google Drive ለመስቀል በጣም ትልቅ  ነው። %2$s ነው ሆኖም ለዚህ ዓይነት ፋይል ገደብ %3$s ነው። ይህን ፋይል ወደ Google Drive ቅርጸት ባለመቀየር መስቀል ምናልባት ትችል ይሆናል።"</string>
     <string name="file_too_large_for_upload_okbtn">እሺ</string>
     <string name="file_too_large_for_upload_title">መስቀል አልተቻለም</string>
     <string name="file_was_not_sent">ፋይል አልተጋራም።</string>
@@ -980,17 +989,8 @@
     <string name="manage_addons_playstore_link_description">ለ%s ወደ Play መደብር ያስሱ</string>
     <string name="manage_members_default_members">በነባሪነት አባላት ፋይሎችን መስቀል/ማርትዕ/መሰረዝ እና ሌሎች አባላትን መጋበዝ ይችላሉ</string>
     <string name="manage_members_dialog_title">የአባል መዳረሻ</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">ማከማቻ</string>
+    <string name="management_data_loading_failed">ይህን ገጽ መጫን አልተቻለም</string>
     <string name="member_count_max">99+</string>
     <string name="menu_backup">ምትኬዎች</string>
     <string name="menu_copy_link">አገናኝ ቅዳ</string>
@@ -1094,21 +1094,20 @@
     <string name="move_error_target_folder_not_exist">ዒላማ አቃፊ የለም።</string>
     <string name="move_notice_lost_access_shared_folders">ንጥሎች ከተጋራ አቃፊ ተወስደዋል። ሰዎች መዳረሻ አጥተዋል።</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s «%2$s» መዳረሻ አጥተዋል።</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">1 ንጥል ከቡድን Drive ተወስዷል። አባላት መዳረሻ አጥተዋል።</string>
     <string name="move_notice_lost_access_team_drives">ንጥሎች ከቡድን Drive ተወስደዋል። አባላት መዳረሻ አጥተዋል።</string>
-    <string name="mr_cast_button_connected">Cast አዝራር። ተገናኝቷል</string>
-    <string name="mr_cast_button_connecting">Cast አዝራር በማገናኘት ላይ</string>
+    <string name="mr_cast_button_connected">የCast አዝራር። ተገናኝቷል</string>
+    <string name="mr_cast_button_connecting">Cast አዝራር። በመገናኘት ላይ</string>
     <string name="mr_cast_button_disconnected">Cast አዝራር። ግንኙነት ተቋርጧል</string>
     <string name="mr_chooser_searching">መሣሪያዎችን በማግኘት ላይ</string>
     <string name="mr_chooser_title">Cast አድርግ ወደ</string>
     <string name="mr_controller_album_art">የአልበም ስነ-ጥበብ</string>
-    <string name="mr_controller_casting_screen">ማያ ገጽን በመውሰድ ላይ</string>
+    <string name="mr_controller_casting_screen">ማያ ገጽን Cast በማድረግ ላይ</string>
     <string name="mr_controller_close_description">ዝጋ</string>
     <string name="mr_controller_collapse_group">ሰብስብ</string>
     <string name="mr_controller_disconnect">ግንኙነት አቋርጥ</string>
-    <string name="mr_controller_expand_group">አስፋ</string>
+    <string name="mr_controller_expand_group">ዘርጋ</string>
     <string name="mr_controller_no_info_available">ምንም መረጃ አይገኝም</string>
-    <string name="mr_controller_no_media_selected">ምንም ማህደረመረጃ አልተመረጠም</string>
+    <string name="mr_controller_no_media_selected">ምንም ማህደረ መረጃ አልተመረጠም</string>
     <string name="mr_controller_pause">ለአፍታ አቁም</string>
     <string name="mr_controller_play">አጫውት</string>
     <string name="mr_controller_stop">አቁም</string>
@@ -1149,7 +1148,7 @@
     <string name="no_scheduled_meetings">ምንም መርሐግብር የተያዘላቸው ስብሰባዎች የሉም</string>
     <string name="no_team_drives_title">ምንም የቡድን Drives የሉም</string>
     <string name="no_thanks">አይ፣ አመሰግናለሁ</string>
-    <string name="not_enough_storage_for_upload" formatted="false">ፋይል %1s ወደ Google Drive እንዳይሰቀል በጣም ትልቅ ነው። %2s ነው፣ ነገር ግን %3s ማከማቻ ብቻ ነው ያለዎት። እባክዎ ማከማቻዎን ያልቁትና እንደገና ይሞክሩ።</string>
+    <string name="not_enough_storage_for_upload">ፋይል %1$s ወደ Google Drive እንዳይሰቀል በጣም ትልቅ ነው። %2$s ነው፣ ነገር ግን %3$s ማከማቻ ብቻ ነው ያለዎት። እባክዎ ማከማቻዎን ያልቁትና እንደገና ይሞክሩ።</string>
     <string name="notification_channel_name_default">ነባሪ</string>
     <string name="notification_channel_name_high_priority">ከፍተኛ ቅድሚያ የሚሰጠው</string>
     <string name="notification_channel_name_low_priority">ዝቅተኛ ቅድሚያ የሚሰጠው</string>
@@ -1432,7 +1431,6 @@
     <string name="published_access_anyone">ሲታተም ማንኛውም ሰው መመልከት ይችላል</string>
     <string name="published_access_domain">ሲታተም በ%s ውስጥ ያለ ማንኛውም ሰው ሊመለከተው ይችላል</string>
     <string name="published_access_select_people">ሲታተም የተወሰኑ ሰዎች መመልከት ይችላሉ</string>
-    <string name="published_disabled_append">ተሰናክሏል፣</string>
     <string name="published_message_for_anyone_can_edit">ማንኛውም ሰው ማርትዕ ስለሚችል ሲታተም ማንኛውም ሰው ሊመለከተው ይችላል።</string>
     <string name="published_message_for_anyone_in_domain_can_edit">ሲታተም በ%1$s ውስጥ ያለ ማንኛውም ሰው ማርትዕ ስለሚችል %1$s ላይ ያለ ማንኛውም ሰው መመልከት ይችላል።</string>
     <string name="published_message_for_anyone_with_link_can_edit">አገናኙ ያለው ማንኛውም ሰው ማርትዕ ስለሚችል ሲታተም ማንኛውም ሰው ሊመለከተው ይችላል።</string>
@@ -1546,7 +1544,7 @@
     <string name="punch_show_slide">ስላይድን አሳይ</string>
     <string name="punch_speaker_notes_title">የተናጋሪ ማስታወሻዎች</string>
     <string name="punch_speakernotes_closed">የተዘጉ የተናጋሪ ማስታወሻዎች።</string>
-    <string name="punch_thor_invite_email_body" formatted="false">የመዳረሻ መረጃ፦&lt;br> %s &lt;br> %s ፒን፦%s</string>
+    <string name="punch_thor_invite_email_body">የመዳረሻ መረጃ፦&lt;br> %1$s &lt;br> %2$s ፒን፦%3$s</string>
     <string name="punctuation_period">።</string>
     <string name="purchase_dialog_how_storage_used">ማከማቻ በGmail፣ Google ፎቶዎች እና Google Drive ላይ የተጋራ ነው</string>
     <string name="purchase_dialog_manage">ማከማቻን አቀናብር</string>
@@ -2006,6 +2004,7 @@
     <string name="suggestions_add_to_dictionary">ወደ መዝገበ-ቃላት አክል</string>
     <string name="suggestions_delete_text">ሰርዝ</string>
     <string name="suggestions_popup_opened">የፊደል አጻጻፍ ጥቆማዎች</string>
+    <string name="summary_collapsed_preference_list">%1$s፣ %2$s</string>
     <string name="sync_failed">የGoogle ስላይዶች ማመሳሰል ስህተት</string>
     <string name="sync_more_error">ተጨማሪ ንጥሎችን ሰርስሮ ማውጣት ላይ ስህተት</string>
     <string name="sync_more_error_offline">አንዳንድ ሰነዶች ከመስመር ውጭ ሆነው ሳለ ላይታዩ ይችላሉ።</string>
@@ -2038,7 +2037,7 @@
     <string name="team_drive_empty_list_message_cannot_create">የሆነ ሰው እርስዎን ወደ አንድ የቡድን Drive ሲያክል እዚህ ተዘርዝሮ ያዩታል።</string>
     <string name="team_drive_settings_title">ቅንብሮች</string>
     <string name="team_drive_trash_welcome_snackbar">በቡድን Drives መጣያ ውስጥ ያሉ ንጥሎች በ30 ቀኖች ውስጥ እስከመጨረሻው ይሰረዛሉ።</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">%1$s፣ ርዕስ</string>
     <string name="template_category_education">ትምህርት</string>
     <string name="template_category_personal">የግል</string>
@@ -2112,6 +2111,8 @@
     <string name="unable_to_open_local_document_message">ተወስዶ ወይም ተሰርዞ ሊሆን ይችላል።</string>
     <string name="unable_to_open_local_document_title">በመሣሪያ ላይ የተቀመጠ ፋይልን መክፈት አልተቻልም</string>
     <string name="unable_to_read_calendar_data">መጠይቅ ለቀን መቁጠሪያው ማስገባት አልተቻለም</string>
+    <string name="unable_update_published_message">የረቂቅ አገናኙ ቅንብር እስኪዘመን ድረስ የታተመው ጣቢያ ቅንብር ሊቀየር አይችልም</string>
+    <string name="unable_update_published_title">ቅንብርን ማዘመን አልተቻለም</string>
     <string name="undeliverable_acl_changed_dialog_title">ለውጦችዎ ይሰረዙና ሰነዱ ያድህር?</string>
     <string name="undeliverable_changes_dialog_content">የመስመር ውጪ ለውጦችዎ ጠፍተው ሊሆኑ ይችላሉ። ወደ የቅንጥብ ሰሌዳው እንደቀዷቸው እርግጠኛ ይሁኑ።</string>
     <string name="undeliverable_changes_dialog_title">አስቸጋሪ ለውጦች ይሰረዙና ሰነዱ ያድህር?</string>
@@ -2214,6 +2215,8 @@
     <string name="upsell_negbtn">በኋላ</string>
     <string name="upsell_okbtn">ያልቁ</string>
     <string name="url_typo_error_msg">አገናኙ ትክክል አይመስልም። የፊደል ግድፈት?</string>
+    <string name="v7_preference_off">ቅናሽ</string>
+    <string name="v7_preference_on">በርቷል</string>
     <string name="verbalize_bulleted_list">ነጥበ.። %1$s</string>
     <string name="verbalize_numbered_list">%1$s። %2$s</string>
     <string name="verbalize_opened_edit">%1$s ከአርትዖት ፈቃዶች ጋር ተከፍቷል።</string>
@@ -2244,8 +2247,9 @@
     <string name="warm_welcome_next_button">ቀጣይ</string>
     <string name="warm_welcome_skip_button">ዝለል</string>
     <string name="warning_cannot_share_outside_domain">የዚህ ቡድን Drive ቅንብሮች ከ%s ውጭ ማጋራትን ይከለክላል</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">የዚህ ቡድን Drive ቅንብሮች አባል ላልሆኑ እና ከ%s ውጭ ማጋራትን ይከለክላሉ</string>
     <string name="warning_cannot_share_outside_domain_org">የድርጅቱ ቅንብሮች ከድርጅቱ ውጭ ማጋራት ይከለክላሉ</string>
-    <string name="warning_cannot_share_outside_team_drive">የዚህ ቡድን Drive ቅንብሮች ከቡድኑ ውጭ ማጋራትን ይከለክላሉ</string>
+    <string name="warning_cannot_share_outside_team_drive">የዚህ ቡድን Drive ቅንብሮች አባል ላልሆኑ ማጋራትን ይከለክላል</string>
     <string name="welcome_button_close">ወደ ስላይዶች ሂድ</string>
     <string name="welcome_button_continue">ቀጣይ</string>
     <string name="welcome_offer_button_close">ዝጋ</string>
@@ -2263,27 +2267,27 @@
     <string name="welcome_title_highlights">የ%1$s ማስታወቂያ ፓነል።</string>
     <string name="write_access_denied">የሰነዱ የመጻፍ መዳረሻ ተከልክሏል።</string>
     <string name="zss_accessibility_searching">%1$sን በመፈለግ ላይ</string>
-    <string name="zss_date_range_header_title">ቀን ተሻሽሏል</string>
-    <string name="zss_date_range_month">ባለፉት 30 ቀኖች</string>
-    <string name="zss_date_range_three_month">ባለፉት 90 ቀኖች</string>
+    <string name="zss_date_range_header_title">የተቀየረበት ቀን</string>
+    <string name="zss_date_range_month">ያለፉት 30 ቀኖች</string>
+    <string name="zss_date_range_three_month">ያለፉት 90 ቀኖች</string>
     <string name="zss_date_range_today">ዛሬ</string>
-    <string name="zss_date_range_week">ባለፉት 7 ቀኖች</string>
+    <string name="zss_date_range_week">ያለፉት 7 ቀኖች</string>
     <string name="zss_date_range_yesterday">ትላንት</string>
     <string name="zss_entry_types_header_title">የፋይል ዓይነቶች</string>
     <string name="zss_no_filters">ምንም ማጣሪያዎች የሉም</string>
     <string name="zss_owner_header_title">በባለቤትነት የተያዘው በ</string>
-    <string name="zss_owner_me">የእኔ ንብረት የሆኑ</string>
-    <string name="zss_owner_not_me">የእኔ አይደለም</string>
+    <string name="zss_owner_me">በእኔ ባለቤትነት የተያዙ</string>
+    <string name="zss_owner_not_me">የእኔ ያልሆኑ</string>
     <string name="zss_people_header_title">ሰዎች</string>
     <string name="zss_showing_list_of_filters">የሚገኙ የማጣሪያዎች ዝርዝርን በማሳየት ላይ።</string>
     <string name="zss_team_drive">በ%1$s ውስጥ ይፈልጉ</string>
-    <string name="zss_type_archive">አቁር</string>
+    <string name="zss_type_archive">ማህደር</string>
     <string name="zss_type_audio">ኦዲዮ</string>
     <string name="zss_type_documents">የጽሑፍ ሰነዶች</string>
     <string name="zss_type_folder">አቃፊዎች</string>
     <string name="zss_type_images">ፎቶዎች እና ምስሎች</string>
     <string name="zss_type_pdfs">ፒዲኤፎች</string>
     <string name="zss_type_presentations">የዝግጅት አቀራረቦች</string>
-    <string name="zss_type_spreadsheets">የተመን ሉሆች</string>
+    <string name="zss_type_spreadsheets">ተመን ሉሆች</string>
     <string name="zss_type_video">ቪዲዮዎች</string>
 </resources>

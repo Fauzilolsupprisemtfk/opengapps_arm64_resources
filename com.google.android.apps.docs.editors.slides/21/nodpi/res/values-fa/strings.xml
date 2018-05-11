@@ -474,6 +474,7 @@
     <string name="dialog_td_will_disappear">این «‏درایوهای گروه» دیگر برای هیچ‌کس نمایش داده نمی‌شود و نمی‌توانید این کار را واگرد کنید.</string>
     <string name="dialog_td_will_disappear_files_in_trash">فایل‌های این «‏درایوهای گروه» در حذف شده‌های «%1$s» هستند و هیچ کاربری نمی‌تواند آنها را بازیابی کند. این «‏درایوهای گروه» دیگر برای هیچ‌کس نمایش داده نمی‌شود و نمی‌توانید این کار را واگرد کنید.</string>
     <string name="did_you_mean">منظورتان این بود: %1$s</string>
+    <string name="disabled_append">غیرفعال،</string>
     <string name="discussion_accept">پذیرش</string>
     <string name="discussion_acl_fix_access_role_commenter">می‌تواند نظر بگذارد</string>
     <string name="discussion_acl_fix_access_role_writer">می‌تواند ویرایش کند</string>
@@ -584,11 +585,11 @@
     <string name="doclist_date_never_label">هرگز</string>
     <string name="doclist_date_opened_label">زمان باز شدن توسط من: %s</string>
     <string name="doclist_date_shared_label">زمان اشتراک‌گذاری: %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s · %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s · %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">زمان بارگذاری توسط من: %s</string>
     <string name="doclist_detail_fragment_content_description">نمایش مشخصات مورد</string>
-    <string name="doclist_entry_content_description" formatted="false">%s %s</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s %s رنگ:%s</string>
+    <string name="doclist_entry_content_description">%1$s %2$s</string>
+    <string name="doclist_entry_content_description_with_color">%1$s %2$s رنگ:%3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">باز کردن کشوی پیمایش</string>
     <string name="doclist_quota_used_label">میزان حافظه استفاده‌شده: %s</string>
     <string name="doclist_selected_show_preview">نمایش پیش‌نمایش</string>
@@ -678,6 +679,8 @@
     <string name="draft_options_dialog_title">تنظیمات سایت پیش‌نویس</string>
     <string name="draft_permission_change_anyone_warning">اگر تنظیم این سایت پیش‌نویس را تغییر دهید، همه می‌توانند پس از انتشار سایت آن را ببینند.</string>
     <string name="draft_permission_change_domain_warning">اگر تنظیم این سایت پیش‌نویس را تغییر دهید، همه افراد حاضر در %s می‌توانند پس از انتشار سایت آن را ببینند.</string>
+    <string name="draft_permission_downgrade_domain_warning">تغییر دادن این تنظیم پیش‌نویس سایت باعث می‌شود فقط %1$s بتواند پیوند منتشرشده را ببیند.</string>
+    <string name="draft_permission_downgrade_specific_warning">تغییر دادن این تنظیم پیش‌نویس سایت باعث می‌شود فقط افراد خاصی بتوانند پیوند منتشرشده را ببینند.</string>
     <string name="drive_file_stream_disabled">‏جلوگیری از باز شدن فایل‌های موجود در این «درایو گروه» با استفاده از «‫‏فایل جریانی Drive‬» یا برنامه‌های مشابه</string>
     <string name="drive_file_stream_enabled">‏مجاز شدن باز کردن فایل‌های موجود در این «درایو گروه» با استفاده از «‫‏فایل جریانی Drive‬» یا برنامه‌های مشابه</string>
     <string name="drive_file_stream_title">‏‫‏فایل جریانی Drive‬</string>
@@ -720,7 +723,7 @@
     <string name="empty_doclist_for_pinned_view_details">در منوی گزینه‌های فایل، تنظیم کنید فایل‌ها «در حالت آفلاین در دسترس باشند»</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">در منوی فایل روی «در حالت آفلاین در دسترس باشد» ضربه بزنید تا بتوانید همچنان در حالت آفلاین روی آن کار کنید.</string>
     <string name="empty_doclist_for_recent_view">هیچ فایلی اخیراً باز یا ویرایش نشده است.</string>
-    <string name="empty_doclist_for_search_view">نتیجه‌ای پیدا نشد.</string>
+    <string name="empty_doclist_for_search_view">نتیجه‌ای پیدا نشد</string>
     <string name="empty_doclist_for_shared_with_me_view">فایل‌های به اشتراک‌گذاشته‌شده با شما در اینجا نمایش داده می‌شوند.</string>
     <string name="empty_doclist_for_starred_view">هیچ فایل ستاره‌داری ندارید.</string>
     <string name="empty_doclist_for_starred_view_details">روی نماد ستاره در منوی گزینه فایل ضربه بزنید تا به این فهرست اضافه شود.</string>
@@ -771,6 +774,7 @@
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d نفر دیگر</string>
     <string name="exit_multiselect_mode_button">خروج از حالت چند انتخابی</string>
+    <string name="expand_button_title">پیشرفته</string>
     <string name="expires_future">در %1$s منقضی می‌شود</string>
     <string name="expires_today">امروز منقضی می‌شود</string>
     <string name="export_download_error_title">خطای بارگیری</string>
@@ -778,7 +782,7 @@
     <string name="export_error_message_network">هنگام انتقال خطایی روی داد. لطفاً اتصال شبکه‌تان را بررسی کنید.</string>
     <string name="export_error_message_server">هنگام تبدیل خطایی رخ داد. لطفاً بعداً دوباره امتحان کنید.</string>
     <string name="export_failure_notification_content">«%1$s» ذخیره نشد</string>
-    <string name="export_notification_content">در حال ذخیره «%1$s»...</string>
+    <string name="export_notification_content">درحال ذخیره «%1$s»...</string>
     <string name="exporting_start_msg">در حال آماده‌سازی برای صادر کردن…</string>
     <string name="fab_choose_template">انتخاب الگو</string>
     <string name="fab_google_document">فایل اسلایدنگار جدید</string>
@@ -787,6 +791,11 @@
     <string name="fab_office_document">‏فایل Powerpoint جدید</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">نتیجه‌های جستجو</string>
+    <string name="fast_scroll_size_grouper_b">بایت</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">گیگابایت</string>
+    <string name="fast_scroll_size_grouper_kb">کیلوبایت</string>
+    <string name="fast_scroll_size_grouper_mb">مگابایت</string>
     <string name="fast_scroll_time_grouper_earlier">قدیمی‌تر</string>
     <string name="fast_scroll_time_grouper_last_week">هفته گذشته</string>
     <string name="fast_scroll_time_grouper_this_month">اوایل این ماه</string>
@@ -815,7 +824,7 @@
     <string name="file_picker_select_a_folder_heading">انتخاب پوشه</string>
     <string name="file_picker_select_button">انتخاب</string>
     <string name="file_picker_storage_permissions_denied_toast">اجازه دسترسی به فضای ذخیره‌سازی محلی داده نشد.</string>
-    <string name="file_too_large_for_upload" formatted="false">‏فایل %1s برای بارگذاری به Google Drive بیش از حد بزرگ است. اندازه آن %2s است درحالی که محدودیت برای این نوع فایل %3s است. ممکن است بتوانید این فایل را بدون تبدیل به قالب Google Drive بارگذاری کنید.</string>
+    <string name="file_too_large_for_upload">‏فایل %1$s برای بارگذاری به Google Drive بیش از حد بزرگ است. اندازه آن %2$s است درحالی که محدودیت برای این نوع فایل %3$s است. ممکن است بتوانید این فایل را بدون تبدیل به قالب Google Drive بارگذاری کنید.</string>
     <string name="file_too_large_for_upload_okbtn">تأیید</string>
     <string name="file_too_large_for_upload_title">بارگذاری امکان‌پذیر نیست</string>
     <string name="file_was_not_sent">فایل به اشتراک گذاشته نشد.</string>
@@ -978,17 +987,8 @@
     <string name="manage_addons_playstore_link_description">پیمایش به فروشگاه Play برای %s</string>
     <string name="manage_members_default_members">اعضا به‌صورت پیش‌فرض می‌توانند فایل‌ها را بارگذاری/ویرایش/حذف کنند و سایر اعضا را دعوت کنند</string>
     <string name="manage_members_dialog_title">دسترسی عضو</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">فضای ذخیره‌سازی</string>
+    <string name="management_data_loading_failed">صفحه بارگیری نشد.</string>
     <string name="member_count_max">۹۹+</string>
     <string name="menu_backup">نسخه‌های پشتیبان</string>
     <string name="menu_copy_link">کپی کردن پیوند</string>
@@ -1092,21 +1092,20 @@
     <string name="move_error_target_folder_not_exist">پوشه هدف موجود نیست.</string>
     <string name="move_notice_lost_access_shared_folders">موارد از پوشه هم‌رسانی‌شده منتقل شدند. افراد، دیگر دسترسی ندارند.</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s «%2$s» دیگر دسترسی ندارد.</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">‏١ مورد از Team Drive منتقل شد. اعضا دیگر دسترسی ندارند.</string>
     <string name="move_notice_lost_access_team_drives">‏موارد از Team Drive منتقل شدند. اعضا دیگر دسترسی ندارند.</string>
-    <string name="mr_cast_button_connected">دکمه فرستادن. مرتبط شد</string>
-    <string name="mr_cast_button_connecting">دکمه فرستادن. درحال مرتبط‌سازی</string>
-    <string name="mr_cast_button_disconnected">دکمه فرستادن. ارتباط قطع شد</string>
+    <string name="mr_cast_button_connected">دکمه فرستادن. متصل</string>
+    <string name="mr_cast_button_connecting">دکمه فرستادن. درحال اتصال</string>
+    <string name="mr_cast_button_disconnected">دکمه فرستادن. اتصال قطع شد</string>
     <string name="mr_chooser_searching">پیدا کردن دستگاه‌ها</string>
     <string name="mr_chooser_title">ارسال محتوا به</string>
     <string name="mr_controller_album_art">عکس روی جلد آلبوم</string>
-    <string name="mr_controller_casting_screen">درحال فرستادن صفحه</string>
+    <string name="mr_controller_casting_screen">صفحه ارسال محتوا</string>
     <string name="mr_controller_close_description">بستن</string>
     <string name="mr_controller_collapse_group">کوچک کردن</string>
-    <string name="mr_controller_disconnect">قطع ارتباط</string>
+    <string name="mr_controller_disconnect">قطع اتصال</string>
     <string name="mr_controller_expand_group">بزرگ کردن</string>
-    <string name="mr_controller_no_info_available">اطلاعات در دسترس نیست</string>
-    <string name="mr_controller_no_media_selected">رسانه انتخاب نشده است</string>
+    <string name="mr_controller_no_info_available">اطلاعات دردسترس نیست</string>
+    <string name="mr_controller_no_media_selected">رسانه‌ای انتخاب نشده است</string>
     <string name="mr_controller_pause">مکث</string>
     <string name="mr_controller_play">پخش</string>
     <string name="mr_controller_stop">توقف</string>
@@ -1147,7 +1146,7 @@
     <string name="no_scheduled_meetings">هیچ جلسه زمان‌بندی شده‌ای وجود ندارد</string>
     <string name="no_team_drives_title">هیچ درایو گروهی وجود ندارد</string>
     <string name="no_thanks">نه متشکرم</string>
-    <string name="not_enough_storage_for_upload" formatted="false">‏فایل %1s برای بارگذاری در Google Drive بیش‌ازحد بزرگ است. اندازه آن %2s است اما تنها %3s از فضای ذخیره‌سازی شما موجود است. لطفاً فضای ذخیره‌سازی خود را ارتقا دهید و دوباره امتحان کنید.</string>
+    <string name="not_enough_storage_for_upload">‏فایل %1$s برای بارگذاری در Google Drive بیش‌ازحد بزرگ است. اندازه آن %2$s است اما تنها %3$s از فضای ذخیره‌سازی شما موجود است. لطفاً فضای ذخیره‌سازی خود را ارتقا دهید و دوباره امتحان کنید.</string>
     <string name="notification_channel_name_default">پیش‌فرض</string>
     <string name="notification_channel_name_high_priority">اولویت بالا</string>
     <string name="notification_channel_name_low_priority">اولویت پایین</string>
@@ -1543,7 +1542,7 @@
     <string name="punch_show_slide">نمایش اسلاید</string>
     <string name="punch_speaker_notes_title">یادداشت‌های سخنران</string>
     <string name="punch_speakernotes_closed">یادداشت‌های سخنران بسته.</string>
-    <string name="punch_thor_invite_email_body" formatted="false">اطلاعات دسترسی:&lt;br> %s &lt;br> %s پین:%s</string>
+    <string name="punch_thor_invite_email_body">اطلاعات دسترسی:&lt;br> %1$s &lt;br> %2$s پین:%3$s</string>
     <string name="punctuation_period">.</string>
     <string name="purchase_dialog_how_storage_used">‏فضای ذخیره‌سازی در Gmail، ‏Google Photos و Google Drive مشترک است</string>
     <string name="purchase_dialog_manage">مدیریت فضای ذخیره‌سازی</string>
@@ -2003,6 +2002,7 @@
     <string name="suggestions_add_to_dictionary">افزودن به واژه‌نامه</string>
     <string name="suggestions_delete_text">حذف</string>
     <string name="suggestions_popup_opened">پیشنهادهایی برای املا</string>
+    <string name="summary_collapsed_preference_list">%1$s، %2$s</string>
     <string name="sync_failed">‏خطای همگام‌سازی اسلایدنگار Google</string>
     <string name="sync_more_error">خطا در بازیابی موارد بیشتر</string>
     <string name="sync_more_error_offline">ممکن است بعضی از اسناد در حالت آفلاین در دسترس نباشند.</string>
@@ -2035,7 +2035,7 @@
     <string name="team_drive_empty_list_message_cannot_create">وقتی فردی شما را به درایو گروه اضافه می‌کند، آن را در فهرست اینجا می‌بینید.</string>
     <string name="team_drive_settings_title">تنظیمات</string>
     <string name="team_drive_trash_welcome_snackbar">موارد موجود در حذف‌شده‌های «درایوهای گروه» پس از ۳۰ روز به‌طور دائم حذف می‌شوند.</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">%1$s، عنوان</string>
     <string name="template_category_education">آموزش</string>
     <string name="template_category_personal">شخصی</string>
@@ -2109,6 +2109,8 @@
     <string name="unable_to_open_local_document_message">ممکن است منتقل یا حذف شده باشد.</string>
     <string name="unable_to_open_local_document_title">فایل ذخیره شده در دستگاه باز نشد</string>
     <string name="unable_to_read_calendar_data">جستجو در تقویم انجام نشد</string>
+    <string name="unable_update_published_message">تا وقتی که تنظیم پیوند پیش‌نویس به‌روزرسانی نشود، تنظیم سایت منتشرشده را نمی‌توان تغییر داد</string>
+    <string name="unable_update_published_title">تنظیم به‌روزرسانی نمی‌شود</string>
     <string name="undeliverable_acl_changed_dialog_title">تغییرات حذف شوند و سند به حالت قبلی برگردانده شود؟</string>
     <string name="undeliverable_changes_dialog_content">ممکن است تغییرات آفلاینتان از بین برود. بررسی کنید آنها را در کلیپ بورد کپی کرده باشید.</string>
     <string name="undeliverable_changes_dialog_title">تغییرات دارای مشکل حذف شود و سند برگردانده شود؟</string>
@@ -2211,6 +2213,8 @@
     <string name="upsell_negbtn">بعداً</string>
     <string name="upsell_okbtn">ارتقا</string>
     <string name="url_typo_error_msg">پیوند درست به نظر نمی‌رسد. اشتباه تایپی دارد؟</string>
+    <string name="v7_preference_off">خاموش</string>
+    <string name="v7_preference_on">روشن</string>
     <string name="verbalize_bulleted_list">گلوله. %1$s</string>
     <string name="verbalize_numbered_list">%1$s. %2$s</string>
     <string name="verbalize_opened_edit">‏%1$s را با اجازه‌های «ویرایش» باز کرد.</string>
@@ -2241,8 +2245,9 @@
     <string name="warm_welcome_next_button">بعدی</string>
     <string name="warm_welcome_skip_button">رد شدن</string>
     <string name="warning_cannot_share_outside_domain">تنظیمات این «درایو گروه» مانع هم‌رسانی در خارج از %s می‌شود</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">تنظیمات این درایو گروه مانع هم‌رسانی با افراد غیرعضو و خارج از %s می‌شود</string>
     <string name="warning_cannot_share_outside_domain_org">تنظیمات سازمان مانع هم‌رسانی در خارج از سازمان می‌شود</string>
-    <string name="warning_cannot_share_outside_team_drive">تنظیمات این «درایو گروه» مانع هم‌رسانی در خارج از تیم می‌شود</string>
+    <string name="warning_cannot_share_outside_team_drive">تنظیمات این درایو گروه مانع هم‌رسانی با افراد غیرعضو می‌شود</string>
     <string name="welcome_button_close">رفتن به اسلایدنگار</string>
     <string name="welcome_button_continue">بعدی</string>
     <string name="welcome_offer_button_close">بستن</string>
@@ -2275,12 +2280,12 @@
     <string name="zss_showing_list_of_filters">نمایش فهرست فیلترهای موجود</string>
     <string name="zss_team_drive">جستجو در %1$s</string>
     <string name="zss_type_archive">بایگانی</string>
-    <string name="zss_type_audio">صوتی</string>
-    <string name="zss_type_documents">سندهای نوشتاری</string>
-    <string name="zss_type_folder">پوشه‌ها</string>
+    <string name="zss_type_audio">صوت</string>
+    <string name="zss_type_documents">سند نوشتاری</string>
+    <string name="zss_type_folder">پوشه</string>
     <string name="zss_type_images">عکس و تصویر</string>
-    <string name="zss_type_pdfs">‏فایل‌های PDF</string>
-    <string name="zss_type_presentations">ارائه‌ها</string>
-    <string name="zss_type_spreadsheets">صفحه‌گسترده‌ها</string>
-    <string name="zss_type_video">ویدئوها</string>
+    <string name="zss_type_pdfs">PDF</string>
+    <string name="zss_type_presentations">ارائه‌</string>
+    <string name="zss_type_spreadsheets">صفحه‌گسترده</string>
+    <string name="zss_type_video">ویدیو</string>
 </resources>

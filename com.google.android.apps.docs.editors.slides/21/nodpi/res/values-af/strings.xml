@@ -475,6 +475,7 @@ Hierdie handeling kan nie ontdoen word nie."</string>
     <string name="dialog_td_will_disappear">Hierdie Span Drive sal vir almal verdwyn en jy kan nie hierdie handeling ontdoen nie.</string>
     <string name="dialog_td_will_disappear_files_in_trash">Lêers uit hierdie Span Drive is in die \"%1$s\"-asblik en geen gebruiker sal hulle kan herwin nie. Hierdie Span Drive sal vir almal verdwyn en jy kan nie hierdie handeling ontdoen nie.</string>
     <string name="did_you_mean">Het jy bedoel: %1$s</string>
+    <string name="disabled_append">gedeaktiveer</string>
     <string name="discussion_accept">Aanvaar</string>
     <string name="discussion_acl_fix_access_role_commenter">Kan opmerkings maak</string>
     <string name="discussion_acl_fix_access_role_writer">Kan wysig</string>
@@ -585,11 +586,11 @@ Hierdie handeling kan nie ontdoen word nie."</string>
     <string name="doclist_date_never_label">Nooit</string>
     <string name="doclist_date_opened_label">Deur my oopgemaak: %s</string>
     <string name="doclist_date_shared_label">Gedeel: %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s · %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s · %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">Deur my opgelaai: %s</string>
     <string name="doclist_detail_fragment_content_description">Wys itemeienskappe</string>
-    <string name="doclist_entry_content_description" formatted="false">%s %s</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s %s kleur:%s</string>
+    <string name="doclist_entry_content_description">%1$s %2$s</string>
+    <string name="doclist_entry_content_description_with_color">%1$s %2$s kleur:%3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">Maak navigasielaai oop</string>
     <string name="doclist_quota_used_label">Berging gebruik: %s</string>
     <string name="doclist_selected_show_preview">Wys voorskou</string>
@@ -679,6 +680,8 @@ Hierdie handeling kan nie ontdoen word nie."</string>
     <string name="draft_options_dialog_title">Konsepwebwerfinstellings</string>
     <string name="draft_permission_change_anyone_warning">"'n Verandering na hierdie konsepwerfinstelling sal enigiemand toelaat om te bekyk wanneer dit gepubliseer is."</string>
     <string name="draft_permission_change_domain_warning">"'n Verandering na hierdie konsepwerfinstelling sal enigiemand in %s toelaat om te bekyk wanneer dit gepubliseer is."</string>
+    <string name="draft_permission_downgrade_domain_warning">As jy hierdie konsepwebwerf se instelling verander, sal net %1$s die gepubliseerde skakel kan bekyk</string>
+    <string name="draft_permission_downgrade_specific_warning">As jy hierdie konsepwebwerf se instelling verander, sal net spesifieke mense die gepubliseerde skakel kan bekyk</string>
     <string name="drive_file_stream_disabled">Verhoed mense om lêers in Span Drive oop te maak met Drive Lêerstroming of soortgelyke programme</string>
     <string name="drive_file_stream_enabled">Laat mense toe om lêers in Span Drive oop te maak met Drive Lêerstroming of soortgelyke programme</string>
     <string name="drive_file_stream_title">Drive Lêerstroming</string>
@@ -721,7 +724,7 @@ Probeer 'n lêer oplaai."</string>
     <string name="empty_doclist_for_pinned_view_details">Maak lêers \"Vanlyn beskikbaar\" in die lêer se opsieskieslys</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">"Tik op \"Vanlyn beskikbaar\" in 'n lêer se kieslys om steeds daaraan te kan werk wanneer jy vanlyn is."</string>
     <string name="empty_doclist_for_recent_view">Geen onlangs-geopende of -gewysigde lêers nie.</string>
-    <string name="empty_doclist_for_search_view">Geen resultate nie.</string>
+    <string name="empty_doclist_for_search_view">Geen resultate nie</string>
     <string name="empty_doclist_for_shared_with_me_view">Lêers wat met jou gedeel is, sal hier verskyn.</string>
     <string name="empty_doclist_for_starred_view">Jy het geen gesterde lêers nie.</string>
     <string name="empty_doclist_for_starred_view_details">Tik op die ster-ikoon in die lêer se opsieskieslys om dit by hierdie lys te voeg.</string>
@@ -772,13 +775,14 @@ Klik op + om 'n nuwe aanbieding te skep."</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d ander mense.</string>
     <string name="exit_multiselect_mode_button">Verlaat multikeuse-modus</string>
+    <string name="expand_button_title">Gevorderd</string>
     <string name="expires_future">Verval oor %1$s</string>
     <string name="expires_today">Verval vandag</string>
     <string name="export_download_error_title">Aflaaifout</string>
     <string name="export_error_message">"'n Fout het voorgekom."</string>
     <string name="export_error_message_network">"'n Transmissiefout het voorgekom. Gaan asseblief jou netwerkverbinding na."</string>
     <string name="export_error_message_server">"'n Omskakelingsfout het voorgekom. Probeer asseblief later weer."</string>
-    <string name="export_failure_notification_content">Kon \"%1$s\" nie stoor nie</string>
+    <string name="export_failure_notification_content">Kon nie \"%1$s\" stoor nie</string>
     <string name="export_notification_content">Stoor tans \"%1$s\" …</string>
     <string name="exporting_start_msg">Berei tans voor om uit te voer …</string>
     <string name="fab_choose_template">"Kies 'n sjabloon"</string>
@@ -788,6 +792,11 @@ Klik op + om 'n nuwe aanbieding te skep."</string>
     <string name="fab_office_document">Nuwe Powerpoint-lêer</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Soekresultate</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Ouer</string>
     <string name="fast_scroll_time_grouper_last_week">Verlede week</string>
     <string name="fast_scroll_time_grouper_this_month">Vroeër die maand</string>
@@ -816,7 +825,7 @@ Klik op + om 'n nuwe aanbieding te skep."</string>
     <string name="file_picker_select_a_folder_heading">"Kies 'n vouer"</string>
     <string name="file_picker_select_button">Kies</string>
     <string name="file_picker_storage_permissions_denied_toast">Toestemming is nie verleen vir toegang tot plaaslike berging nie.</string>
-    <string name="file_too_large_for_upload" formatted="false">"Die lêer %1s is te groot om na Google Drive toe op te laai. Dit is %2s, maar die limiet vir hierdie tipe lêer is %3s. Jy kan dalk hierdie lêer oplaai sonder om dit na 'n Google Drive-formaat oor te skakel."</string>
+    <string name="file_too_large_for_upload">"Die lêer %1$s is te groot om na Google Drive toe op te laai. Dit is %2$s, maar die limiet vir hierdie tipe lêer is %3$s. Jy kan dalk hierdie lêer oplaai sonder om dit na 'n Google Drive-formaat oor te skakel."</string>
     <string name="file_too_large_for_upload_okbtn">OK</string>
     <string name="file_too_large_for_upload_title">Kan nie oplaai nie</string>
     <string name="file_was_not_sent">Lêer nie gedeel nie.</string>
@@ -980,17 +989,8 @@ Klik op + om 'n nuwe aanbieding te skep."</string>
     <string name="manage_addons_playstore_link_description">Navigeer na Play Winkel vir %s</string>
     <string name="manage_members_default_members">By verstek kan lede lêers oplaai/wysig/uitvee en ander lede nooi</string>
     <string name="manage_members_dialog_title">Lede se toegang</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Berging</string>
+    <string name="management_data_loading_failed">Kan nie hierdie bladsy laai nie</string>
     <string name="member_count_max">99+</string>
     <string name="menu_backup">Rugsteune</string>
     <string name="menu_copy_link">Kopieer skakel</string>
@@ -1094,12 +1094,11 @@ Klik op + om 'n nuwe aanbieding te skep."</string>
     <string name="move_error_target_folder_not_exist">Teikenvouer bestaan ​​nie.</string>
     <string name="move_notice_lost_access_shared_folders">Items geskuif vanaf gedeelde vouer. Toegang is verloor.</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s \"%2$s\" het toegang verloor.</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">1 item uit Span Drive uitgeskuif. Lede het toegang verloor.</string>
     <string name="move_notice_lost_access_team_drives">Items uit Span Drive uitgeskuif. Lede het toegang verloor.</string>
     <string name="mr_cast_button_connected">Uitsaai-knoppie. Gekoppel</string>
     <string name="mr_cast_button_connecting">Uitsaai-knoppie. Koppel tans</string>
     <string name="mr_cast_button_disconnected">Uitsaai-knoppie. Ontkoppel</string>
-    <string name="mr_chooser_searching">Vind tans toestelle</string>
+    <string name="mr_chooser_searching">Soek tans toestelle</string>
     <string name="mr_chooser_title">Saai uit na</string>
     <string name="mr_controller_album_art">Albumkunswerk</string>
     <string name="mr_controller_casting_screen">Saai tans skerm uit</string>
@@ -1107,9 +1106,9 @@ Klik op + om 'n nuwe aanbieding te skep."</string>
     <string name="mr_controller_collapse_group">Vou in</string>
     <string name="mr_controller_disconnect">Ontkoppel</string>
     <string name="mr_controller_expand_group">Vou uit</string>
-    <string name="mr_controller_no_info_available">Geen inligting beskikbaar nie</string>
+    <string name="mr_controller_no_info_available">Geen inligting is beskikbaar nie</string>
     <string name="mr_controller_no_media_selected">Geen media is gekies nie</string>
-    <string name="mr_controller_pause">Laat wag</string>
+    <string name="mr_controller_pause">Onderbreek</string>
     <string name="mr_controller_play">Speel</string>
     <string name="mr_controller_stop">Stop</string>
     <string name="mr_controller_stop_casting">Hou op uitsaai</string>
@@ -1149,7 +1148,7 @@ Klik op + om 'n nuwe aanbieding te skep."</string>
     <string name="no_scheduled_meetings">Geen geskeduleerde vergaderings nie</string>
     <string name="no_team_drives_title">Geen Span Drives nie</string>
     <string name="no_thanks">Nee, dankie</string>
-    <string name="not_enough_storage_for_upload" formatted="false">Die lêer %1s is te groot om na Google Drive toe op te laai. Dit is %2s maar jy het net %3s berging beskikbaar.</string>
+    <string name="not_enough_storage_for_upload">Die lêer %1$s is te groot om na Google Drive toe op te laai. Dit is %2$s maar jy het net %3$s berging beskikbaar.</string>
     <string name="notification_channel_name_default">Verstek</string>
     <string name="notification_channel_name_high_priority">Hoë prioriteit</string>
     <string name="notification_channel_name_low_priority">Lae prioriteit</string>
@@ -1358,7 +1357,7 @@ Klik op + om 'n nuwe aanbieding te skep."</string>
     <string name="pin_pinned_a11y">Vasgespeld</string>
     <string name="pin_sync_broadband_warning_learn_more">Kom meer te wete</string>
     <string name="pin_sync_broadband_warning_message">Om lêers oor mobiele data oor te dra, kan bykomende onkostes tot gevolg hê, afhangende van jou mobiele dataplan.</string>
-    <string name="pin_sync_broadband_warning_title">Dataverbruik-waarskuwing</string>
+    <string name="pin_sync_broadband_warning_title">Dataverbruikwaarskuwing</string>
     <string name="pin_update">Nuwe opdatering beskikbaar</string>
     <string name="pin_waiting">Wag om af te laai</string>
     <string name="pin_waiting_for_network">Wag tans vir netwerk</string>
@@ -1432,7 +1431,6 @@ Klik op + om 'n nuwe aanbieding te skep."</string>
     <string name="published_access_anyone">Enigiemand kan bekyk wanneer dit gepubliseer is</string>
     <string name="published_access_domain">Enigiemand in %s kan bekyk wanneer dit gepubliseer is</string>
     <string name="published_access_select_people">Spesifieke mense kan bekyk wanneer dit gepubliseer is</string>
-    <string name="published_disabled_append">gedeaktiveer</string>
     <string name="published_message_for_anyone_can_edit">Aangesien enigiemand kan wysig, kan enigiemand bekyk wanneer dit gepubliseer is.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Aangesien enigiemand in %1$s kan wysig, kan enigiemand by %1$s dit bekyk wanneer dit gepubliseer is.</string>
     <string name="published_message_for_anyone_with_link_can_edit">"Aangesien enigiemand met 'n skakel kan wysig, kan enigiemand bekyk wanneer dit gepubliseer is."</string>
@@ -1546,7 +1544,7 @@ Klik op + om 'n nuwe aanbieding te skep."</string>
     <string name="punch_show_slide">Wys skyfie</string>
     <string name="punch_speaker_notes_title">Sprekernotas</string>
     <string name="punch_speakernotes_closed">Geslote sprekernotas.</string>
-    <string name="punch_thor_invite_email_body" formatted="false">Toeganginligting:&lt;br> %s &lt;br> %s PIN:%s</string>
+    <string name="punch_thor_invite_email_body">Toeganginligting:&lt;br> %1$s &lt;br> %2$s PIN:%3$s</string>
     <string name="punctuation_period">.</string>
     <string name="purchase_dialog_how_storage_used">"Berging word verdeel tussen Gmail, Google Foto's en Google Drive"</string>
     <string name="purchase_dialog_manage">Bestuur berging</string>
@@ -2006,6 +2004,7 @@ Klik op + om 'n nuwe aanbieding te skep."</string>
     <string name="suggestions_add_to_dictionary">Voeg by woordeboek</string>
     <string name="suggestions_delete_text">Vee uit</string>
     <string name="suggestions_popup_opened">Spelvoorstelle</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Google Skyfies-sinkroniseringsfout</string>
     <string name="sync_more_error">Fout met die herwinning van addisionele items</string>
     <string name="sync_more_error_offline">Sommige dokumente kan dalk nie vanlyn sigbaar wees nie.</string>
@@ -2038,7 +2037,7 @@ Klik op + om 'n nuwe aanbieding te skep."</string>
     <string name="team_drive_empty_list_message_cannot_create">"As iemand jou by 'n Span Drive voeg, sal jy dit hier gelys sien."</string>
     <string name="team_drive_settings_title">Instellings</string>
     <string name="team_drive_trash_welcome_snackbar">Items in Span Drives-asblik sal na 30 dae permanent uitgevee word.</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">%1$s, opskrif</string>
     <string name="template_category_education">Opvoeding</string>
     <string name="template_category_personal">Persoonlik</string>
@@ -2112,6 +2111,8 @@ Klik op + om 'n nuwe aanbieding te skep."</string>
     <string name="unable_to_open_local_document_message">Dis dalk geskuif of uitgevee.</string>
     <string name="unable_to_open_local_document_title">Kan nie lêer wat op toestel gestoor is, oopmaak nie</string>
     <string name="unable_to_read_calendar_data">Kon nie navraag doen oor die kalender nie</string>
+    <string name="unable_update_published_message">Die gepubliseerde werfinstelling kan nie verander word voordat die konsepskakelinstelling opgedateer is nie</string>
+    <string name="unable_update_published_title">Kan nie instelling opdateer nie</string>
     <string name="undeliverable_acl_changed_dialog_title">Vee jou veranderinge uit en stel die dokument terug?</string>
     <string name="undeliverable_changes_dialog_content">Jou vanlyn veranderinge is dalk verlore. Maak seker dat jy dit na die knipbord gekopieer het.</string>
     <string name="undeliverable_changes_dialog_title">Vee problematiese veranderinge uit en stel die dokument terug?</string>
@@ -2214,6 +2215,8 @@ Klik op + om 'n nuwe aanbieding te skep."</string>
     <string name="upsell_negbtn">Later</string>
     <string name="upsell_okbtn">Gradeer op</string>
     <string name="url_typo_error_msg">Skakel lyk nie reg nie. Tikfout?</string>
+    <string name="v7_preference_off">AF</string>
+    <string name="v7_preference_on">AAN</string>
     <string name="verbalize_bulleted_list">kolpunt. %1$s</string>
     <string name="verbalize_numbered_list">%1$s. %2$s</string>
     <string name="verbalize_opened_edit">Het %1$s met wysigingtoestemmings oopgemaak.</string>
@@ -2244,8 +2247,9 @@ Klik op + om 'n nuwe aanbieding te skep."</string>
     <string name="warm_welcome_next_button">Volgende</string>
     <string name="warm_welcome_skip_button">Slaan oor</string>
     <string name="warning_cannot_share_outside_domain">Hierdie Span Drive se instellings verhoed deling buite %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Hierdie Span Drive se instellings verhoed deling met nielede en buite %s</string>
     <string name="warning_cannot_share_outside_domain_org">Die organisasie se instellings verhoed deling buite die organisasie</string>
-    <string name="warning_cannot_share_outside_team_drive">Hierdie Span Drive se instellings verhoed deling buite die span</string>
+    <string name="warning_cannot_share_outside_team_drive">Hierdie Span Drive se instellings verhoed deling met nielede</string>
     <string name="welcome_button_close">Gaan na Skyfies</string>
     <string name="welcome_button_continue">Volgende</string>
     <string name="welcome_offer_button_close">Maak toe</string>
@@ -2263,7 +2267,7 @@ Klik op + om 'n nuwe aanbieding te skep."</string>
     <string name="welcome_title_highlights">%1$s-aankondigingspaneel.</string>
     <string name="write_access_denied">Skryftoegang tot die dokument is geweier.</string>
     <string name="zss_accessibility_searching">Soek tans na %1$s</string>
-    <string name="zss_date_range_header_title">Datum is verander</string>
+    <string name="zss_date_range_header_title">Datum verander</string>
     <string name="zss_date_range_month">Afgelope 30 dae</string>
     <string name="zss_date_range_three_month">Afgelope 90 dae</string>
     <string name="zss_date_range_today">Vandag</string>

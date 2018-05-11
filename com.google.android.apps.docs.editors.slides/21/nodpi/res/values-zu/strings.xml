@@ -475,6 +475,7 @@ Lesi senzo asikwazi ukuhlehliswa."</string>
     <string name="dialog_td_will_disappear">Le Drayivu Yethimba izonyamalala kuwo wonke umuntu futhi awukwazi ukuhlehlisa lesi senzo.</string>
     <string name="dialog_td_will_disappear_files_in_trash">Amafayela asuka kule Drayivu Yethimba akudoti we-\"%1$s\" futhi abekho abasebenzisi abazokwazi ukubabuyisela. Le Drayivu Yethimba izonyamalala kuwo wonke umuntu futhi awukwazi ukuhlehlisa lesi senzo.</string>
     <string name="did_you_mean">Ingabe ubuqonde ukuthi: %1$s</string>
+    <string name="disabled_append">kukhutshaziwe</string>
     <string name="discussion_accept">Yamukela</string>
     <string name="discussion_acl_fix_access_role_commenter">Angabeka amazwana</string>
     <string name="discussion_acl_fix_access_role_writer">Angahlela</string>
@@ -585,11 +586,11 @@ Lesi senzo asikwazi ukuhlehliswa."</string>
     <string name="doclist_date_never_label">Ungalokothi</string>
     <string name="doclist_date_opened_label">Ivulwe yimi: %s</string>
     <string name="doclist_date_shared_label">Kwabelenwe: %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s · %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s · %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">Kulayishwe yimina: %s</string>
     <string name="doclist_detail_fragment_content_description">Bonisa izakhiwo zento</string>
-    <string name="doclist_entry_content_description" formatted="false">%s %s</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s %s umbala:%s</string>
+    <string name="doclist_entry_content_description">%1$s %2$s</string>
+    <string name="doclist_entry_content_description_with_color">%1$s %2$s umbala:%3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">Vula ikhabethe lokuzulazula</string>
     <string name="doclist_quota_used_label">Isitoreji esisetshenzisiwe: %s</string>
     <string name="doclist_selected_show_preview">Bonisa ukubuka kuqala</string>
@@ -679,6 +680,8 @@ Lesi senzo asikwazi ukuhlehliswa."</string>
     <string name="draft_options_dialog_title">Izilungiselelo zesayithi esalungiswa</string>
     <string name="draft_permission_change_anyone_warning">Ukushintshela kulesi silungiselelo sesayithi esalungiswa kuzovumela noma ubani ukuthi abuke uma kushicilelwe.</string>
     <string name="draft_permission_change_domain_warning">Ukushintshela kulesi silungiselelo sesayithi esalungiswa kuzovumela noma ubani ku-%s ukuthi abuke uma kushicilelwe.</string>
+    <string name="draft_permission_downgrade_domain_warning">Ukushintsha lesi silungiselelo sesayithi esalungiswa kuzoyenza ukuthi isixhumanisi esichicilelwe sikwazi ukubukwa ngu-%1$s kuphela</string>
+    <string name="draft_permission_downgrade_specific_warning">Ukushintsha lesi silungiselelo sesayithi esalungiswa kuzoyenza ukuthi isixhumanisi esichicilelwe sikwazi ukubukwa kuphela abantu abathile kuphela</string>
     <string name="drive_file_stream_disabled">Nqanda abantu ukuthi bangavuli amafayela kule Drayivu Yethimba besebenzisa i-Drive File Stream noma izinhlelo zokusebenza ezifanayo</string>
     <string name="drive_file_stream_enabled">Vumela abantu ukuthi bavule amafayela kule Drayivu Yethimba besebenzisa i-Drive File Stream noma izinhlelo zokusebenza ezifanayo</string>
     <string name="drive_file_stream_title">I-Drive File Stream</string>
@@ -721,7 +724,7 @@ Zama ukulayisha ifayela."</string>
     <string name="empty_doclist_for_pinned_view_details">Enza amafayela \"Atholakale ungaxhunyiwe ku-inthanethi\" kumenyu yezinketho zefayela</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Thepha okuthi \"Kutholakala ungaxhunyiwe ku-inthanethi\" kumenyu yefayela ukuze ukwazi ukuqhubeka nokusebenza ngalo ungaxhunyiwe ku-inthanethi.</string>
     <string name="empty_doclist_for_recent_view">Awekho amafayela avuliwe noma ahleliwe muva nje.</string>
-    <string name="empty_doclist_for_search_view">Akunamiphumela.</string>
+    <string name="empty_doclist_for_search_view">Akukho miphumela</string>
     <string name="empty_doclist_for_shared_with_me_view">Amafayela abelwe nawe azovela lapha.</string>
     <string name="empty_doclist_for_starred_view">Awunawo amafayela anenkanyezi.</string>
     <string name="empty_doclist_for_starred_view_details">Thepha isithonjana senkanyezi kumenyu yezinketho zefayela ukuze usengeze kulolu hlu.</string>
@@ -772,6 +775,7 @@ Chofoza + ukuze udale iphrezentheshini entsha."</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">Abanye abangu-+%1$d.</string>
     <string name="exit_multiselect_mode_button">Phuma kunqubo yokukhetha okuningi</string>
+    <string name="expand_button_title">Okuthuthukisiwe</string>
     <string name="expires_future">Kuphelelwa isikhathi ngo-%1$s</string>
     <string name="expires_today">Kiphelelwa isikhathi namuhla</string>
     <string name="export_download_error_title">Iphutha Lokulanda</string>
@@ -788,6 +792,11 @@ Chofoza + ukuze udale iphrezentheshini entsha."</string>
     <string name="fab_office_document">Ifayela le-Powerpoint elisha</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Imiphumela yosesho</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">I-GB</string>
+    <string name="fast_scroll_size_grouper_kb">I-KB</string>
+    <string name="fast_scroll_size_grouper_mb">I-MB</string>
     <string name="fast_scroll_time_grouper_earlier">Kudala kakhulu</string>
     <string name="fast_scroll_time_grouper_last_week">Iviki eledlule</string>
     <string name="fast_scroll_time_grouper_this_month">Ekuqaleni kwale nyanga</string>
@@ -816,7 +825,7 @@ Chofoza + ukuze udale iphrezentheshini entsha."</string>
     <string name="file_picker_select_a_folder_heading">Khetha ifolda</string>
     <string name="file_picker_select_button">Khetha</string>
     <string name="file_picker_storage_permissions_denied_toast">Imvume ayinikeziwe yokufinyelela isitoreji sasendaweni.</string>
-    <string name="file_too_large_for_upload" formatted="false">Ifayela %1s likhulu kakhulu ukuthi lingalayisheka ku-Google Drayivu. Lingu-%2s kodwa umkhawulo walolu hlobo lwefayela ngu-%3s. Ungakwazi ukulayisha leli fayela ngaphandle kokuliguqulela kufomethi ye-Google Drayivu.</string>
+    <string name="file_too_large_for_upload">Ifayela %1$s likhulu kakhulu ukuthi lingalayisheka ku-Google Drayivu. Lingu-%2$s kodwa umkhawulo walolu hlobo lwefayela ngu-%3$s. Ungakwazi ukulayisha leli fayela ngaphandle kokuliguqulela kufomethi ye-Google Drayivu.</string>
     <string name="file_too_large_for_upload_okbtn">KULUNGILE</string>
     <string name="file_too_large_for_upload_title">Asikwazi Ukulayisha</string>
     <string name="file_was_not_sent">Ifayela alabelwe.</string>
@@ -980,6 +989,8 @@ Chofoza + ukuze udale iphrezentheshini entsha."</string>
     <string name="manage_addons_playstore_link_description">Zula uye ku-Play Isitolo ukuze uthole %s</string>
     <string name="manage_members_default_members">Ngokuzenzakalelayo, amalungu angakwazi ukulayisha/ahlele/asuse amafayela futhi ameme amanye amalungu</string>
     <string name="manage_members_dialog_title">Ukufinyelela kwelungu</string>
+    <string name="management_activity_toolbar_title">Isitoreji</string>
+    <string name="management_data_loading_failed">Ayikwazi ukulayisha leli khasi</string>
     <string name="member_count_max">99+</string>
     <string name="menu_backup">Izipele</string>
     <string name="menu_copy_link">Kopisha isixhumanisi</string>
@@ -1083,7 +1094,6 @@ Chofoza + ukuze udale iphrezentheshini entsha."</string>
     <string name="move_error_target_folder_not_exist">Ifolda eyithagethi ayitholakali.</string>
     <string name="move_notice_lost_access_shared_folders">Izinto zihanjiswe ukusuka kufolda eyabelwe. Abantu balahlekelwe ukufinyelela.</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s \" %2$s\" ulahlekelwe ukufinyelela.</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">Into engu-1 ihanjiswe ukusuka kuDrayivu Yethimba. Amalungu alahlekelwe ukufinyelela.</string>
     <string name="move_notice_lost_access_team_drives">Izinto zihanjiswe zisuka kuDrayivu Yethimba. Amalungu alahlekelwe ukufinyelela.</string>
     <string name="mr_cast_button_connected">Inkinobho yokusakaza. Kuxhunyiwe</string>
     <string name="mr_cast_button_connecting">Inkinobho yokusakaza. Kuyaxhunywa</string>
@@ -1138,7 +1148,7 @@ Chofoza + ukuze udale iphrezentheshini entsha."</string>
     <string name="no_scheduled_meetings">Ayikho imihlangano ehleliwe</string>
     <string name="no_team_drives_title">Awekho AmaDrayivu Ethimba</string>
     <string name="no_thanks">Cha Ngiyabonga</string>
-    <string name="not_enough_storage_for_upload" formatted="false">Ifayela elithi %1s likhulu kakhulu ukuthi lingalayishwa ku-Google Drayivu. Lingu-%2s kodwa unesitoreji esitholakalayo esingu-%3s. Sicela uthuthukise isitoreji sakho bese uzame futhi.</string>
+    <string name="not_enough_storage_for_upload">Ifayela elithi %1$s likhulu kakhulu ukuthi lingalayishwa ku-Google Drayivu. Lingu-%2$s kodwa unesitoreji esitholakalayo esingu-%3$s. Sicela uthuthukise isitoreji sakho bese uzame futhi.</string>
     <string name="notification_channel_name_default">Okuzenzakalelayo</string>
     <string name="notification_channel_name_high_priority">Okubaluleke kakhulu</string>
     <string name="notification_channel_name_low_priority">Okungabalulekile kakhulu</string>
@@ -1421,7 +1431,6 @@ Chofoza + ukuze udale iphrezentheshini entsha."</string>
     <string name="published_access_anyone">Noma ubani angakwazi ukubuka lapho ishicilelwe</string>
     <string name="published_access_domain">Noma ubani ku-%s angakwazi ukubuka lapho kushicilelwe</string>
     <string name="published_access_select_people">Abantu abashiwo bangakwazi ukubuka lapho kushicilelwe</string>
-    <string name="published_disabled_append">kukhutshaziwe</string>
     <string name="published_message_for_anyone_can_edit">Njengoba noma ubani ekwazi ukuhlela, noma ubani angakwazi ukubuka lapho kushicilelwe.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Njengoba noma ubani kokuthi %1$s engakwazi ukuhlela, noma ubani kokuthi %1$s angakwazi ukubuka lapho kushicilelwe.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Njengoba noma ubani onesixhumanisi ekwazi ukuhlela, noma ubani angakwazi ukubuka uma kushicilelwe.</string>
@@ -1535,7 +1544,7 @@ Chofoza + ukuze udale iphrezentheshini entsha."</string>
     <string name="punch_show_slide">Bonisa isilayidi</string>
     <string name="punch_speaker_notes_title">Amanothi esikhulumi</string>
     <string name="punch_speakernotes_closed">Kuvalwe amanothi esikhulumi.</string>
-    <string name="punch_thor_invite_email_body" formatted="false">Ulwazi lokufinyelela:&lt;br> %s &lt;br> %s I-PIN:%s</string>
+    <string name="punch_thor_invite_email_body">Ulwazi lokufinyelela:&lt;br> %1$s &lt;br> %2$s I-PIN:%3$s</string>
     <string name="punctuation_period">.</string>
     <string name="purchase_dialog_how_storage_used">Isitoreji sabelwa ku-Gmail, Izithombe Ze-Google ne-Google Drayivu</string>
     <string name="purchase_dialog_manage">Phatha ukugcina</string>
@@ -1995,6 +2004,7 @@ Chofoza + ukuze udale iphrezentheshini entsha."</string>
     <string name="suggestions_add_to_dictionary">Faka kusichazamazwi</string>
     <string name="suggestions_delete_text">Susa</string>
     <string name="suggestions_popup_opened">Iziphakamiso zesipelingi</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Iphutha lokuvumelanisa le-Google Amaslayidi</string>
     <string name="sync_more_error">Iphutha lokubuyisa izinto ezengeziwe</string>
     <string name="sync_more_error_offline">Amanye amadokhumenti angase angabonakali ngesikhathi ungaxhunyiwe ku-inthanethi.</string>
@@ -2027,7 +2037,7 @@ Chofoza + ukuze udale iphrezentheshini entsha."</string>
     <string name="team_drive_empty_list_message_cannot_create">Lapho othile ekwengeza kuDrayivu Yethimba, uzokubona kusohlwini lapha.</string>
     <string name="team_drive_settings_title">Izilungiselelo</string>
     <string name="team_drive_trash_welcome_snackbar">Izinto ezikuDoti weDrayivu Yethimba zizosuswa unomphela ezinsukwini ezingu-30.</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">%1$s, isihloko</string>
     <string name="template_category_education">Imfundo</string>
     <string name="template_category_personal">Okomuntu Siqu</string>
@@ -2101,6 +2111,8 @@ Chofoza + ukuze udale iphrezentheshini entsha."</string>
     <string name="unable_to_open_local_document_message">Kungenzeka lihanjisiwe noma lisusiwe.</string>
     <string name="unable_to_open_local_document_title">Ayikwazi ukuvula ifayela elilondolozwe kudivayisi</string>
     <string name="unable_to_read_calendar_data">Ayikwazi ukubuza ikhalenda</string>
+    <string name="unable_update_published_message">Isilungiselelo sesayithi eshicilelwe asikwazi ukushintshwa kuze kube yilapho kubuyekezwe isilungiselelo sesixhumanisi esisalungiswa</string>
+    <string name="unable_update_published_title">Ayikwazi ukubuyekeza isilungiselelo</string>
     <string name="undeliverable_acl_changed_dialog_title">Susa izinguquko zakho bese ubuyisela idokhumenti?</string>
     <string name="undeliverable_changes_dialog_content">Izinguquko zakho ozenze ungaxhunywanga kungenzeka zilahleke. Qinisekisa ukuthi uzikopisile ebhodini lokunamathisela.</string>
     <string name="undeliverable_changes_dialog_title">Susa izinguquko ezinenkinga futhi ubuyisela idokhumenti?</string>
@@ -2203,6 +2215,8 @@ Chofoza + ukuze udale iphrezentheshini entsha."</string>
     <string name="upsell_negbtn">Emuva kwesikhathi</string>
     <string name="upsell_okbtn">Thuthukisa</string>
     <string name="url_typo_error_msg">Isixhumanisi asibukeki silungile. Ithayipho?</string>
+    <string name="v7_preference_off">VALA</string>
+    <string name="v7_preference_on">VULA</string>
     <string name="verbalize_bulleted_list">ichashazi. %1$s</string>
     <string name="verbalize_numbered_list">%1$s. %2$s</string>
     <string name="verbalize_opened_edit">Ivule %1$s ngezimvume zokuhlela.</string>
@@ -2233,8 +2247,9 @@ Chofoza + ukuze udale iphrezentheshini entsha."</string>
     <string name="warm_welcome_next_button">Okulandelayo</string>
     <string name="warm_welcome_skip_button">Yeqa</string>
     <string name="warning_cannot_share_outside_domain">Izilungiselelo zale Drayivu Yethimba zinqanda ukwabelana ngaphandle kokuthi %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Izilungiselelo zale Drayivu Yethimba zinqanda ukwabelana nabangewona amalungu nangaphandle kokuthi %s</string>
     <string name="warning_cannot_share_outside_domain_org">Amasethingi enhlangano avimba ukwabelana ngaphandle kwenhlangano</string>
-    <string name="warning_cannot_share_outside_team_drive">Izilungiselelo zale Drayivu Yethimba zinqanda ukwabelana ngaphandle kwethimba</string>
+    <string name="warning_cannot_share_outside_team_drive">Lesi silungiselelo seDrayivu Yethimba sinqanda ukwabelana nabangewona amalungu</string>
     <string name="welcome_button_close">Iya ku-Amaslayidi</string>
     <string name="welcome_button_continue">Okulandelayo</string>
     <string name="welcome_offer_button_close">Vala</string>
@@ -2254,25 +2269,25 @@ Chofoza + ukuze udale iphrezentheshini entsha."</string>
     <string name="zss_accessibility_searching">Isesha okuthi %1$s</string>
     <string name="zss_date_range_header_title">Idethi yokulungisa</string>
     <string name="zss_date_range_month">Izinsuku zokugcina ezingu-30</string>
-    <string name="zss_date_range_three_month">Izinsuku zokugcina ezingu-90</string>
-    <string name="zss_date_range_today">Namhlanje</string>
-    <string name="zss_date_range_week">Izinsuku ezidlule ezingu-7</string>
+    <string name="zss_date_range_three_month">Izinsuku ezingu-90 ezedlule</string>
+    <string name="zss_date_range_today">Namuhla</string>
+    <string name="zss_date_range_week">Izinsuku zokugcina ezingu-7</string>
     <string name="zss_date_range_yesterday">Izolo</string>
     <string name="zss_entry_types_header_title">Izinhlobo zamafayela</string>
     <string name="zss_no_filters">Azikho izihlungi</string>
     <string name="zss_owner_header_title">Umnikazi ngu-</string>
     <string name="zss_owner_me">Okungokwami</string>
-    <string name="zss_owner_not_me">Angiyena umnikazi wako</string>
+    <string name="zss_owner_not_me">Angiyena umnikazi wakho</string>
     <string name="zss_people_header_title">Abantu</string>
     <string name="zss_showing_list_of_filters">Ibonisa uhlu lwezihlungi ezitholakalayo.</string>
     <string name="zss_team_drive">Sesha kokuthi %1$s</string>
-    <string name="zss_type_archive">Faka kungobo yomlando</string>
+    <string name="zss_type_archive">Ingobo yomlando</string>
     <string name="zss_type_audio">Umsindo</string>
-    <string name="zss_type_documents">Amadokhumenti wombhalo</string>
+    <string name="zss_type_documents">Amadokhumenti ombhalo</string>
     <string name="zss_type_folder">Amafolda</string>
-    <string name="zss_type_images">Izithombe nemifanekiso</string>
+    <string name="zss_type_images">Izithombe</string>
     <string name="zss_type_pdfs">Ama-PDF</string>
     <string name="zss_type_presentations">Amaphrezentheshini</string>
-    <string name="zss_type_spreadsheets">Amaspredishithi</string>
+    <string name="zss_type_spreadsheets">AmaSpredishithi</string>
     <string name="zss_type_video">Amavidiyo</string>
 </resources>

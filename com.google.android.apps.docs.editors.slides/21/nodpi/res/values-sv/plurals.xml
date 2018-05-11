@@ -8,28 +8,6 @@
         <item quantity="other">%s är inte giltiga e-postadresser.</item>
         <item quantity="one">%s inte en giltig e-postadress.</item>
     </plurals>
-    <plurals name="add_confirm_dialog_message_share_files">
-        <item quantity="other">Om du lägger till de här filerna delas de med alla som har åtkomst till den delade mappen %1$s</item>
-        <item quantity="one">Om du lägger till den här filen delas den med alla som har åtkomst till den delade mappen %1$s</item>
-    </plurals>
-    <plurals name="add_confirm_dialog_message_share_files_and_folders">
-        <item quantity="other">Om du lägger till de här filerna och mapparna delas de med alla som har åtkomst till den delade mappen %1$s</item>
-    </plurals>
-    <plurals name="add_confirm_dialog_message_share_folders">
-        <item quantity="other">Om du lägger till de här mapparna delas de med alla som har åtkomst till den delade mappen %1$s</item>
-        <item quantity="one">Om du lägger till den här mappen delas den med alla som har åtkomst till den delade mappen %1$s</item>
-    </plurals>
-    <plurals name="add_confirm_dialog_title_share_files">
-        <item quantity="other">Dela de här filerna?</item>
-        <item quantity="one">Dela den här filen?</item>
-    </plurals>
-    <plurals name="add_confirm_dialog_title_share_files_and_folders">
-        <item quantity="other">Dela de här filerna och mapparna?</item>
-    </plurals>
-    <plurals name="add_confirm_dialog_title_share_folders">
-        <item quantity="other">Dela de här mapparna?</item>
-        <item quantity="one">Dela den här mappen?</item>
-    </plurals>
     <plurals name="apply_filters">
         <item quantity="other">Använd filter:</item>
         <item quantity="one">Använd filter:</item>
@@ -51,9 +29,6 @@
         <item quantity="other">Det gick inte att ladda ned objekten</item>
         <item quantity="one">Det gick inte att ladda ned objektet</item>
     </plurals>
-    <plurals name="download_message_failures">
-        <item quantity="other">%1$d av %2$d objekt laddas ned. Mer information finns i aviseringen.</item>
-    </plurals>
     <plurals name="download_message_success">
         <item quantity="other">%1$d objekt laddas ned. Mer information finns i aviseringen.</item>
         <item quantity="one">%1$d objekt laddas ned. Mer information finns i aviseringen.</item>
@@ -65,9 +40,6 @@
     <plurals name="download_notification_list_summary">
         <item quantity="other">%1$d objekt till</item>
         <item quantity="one">%1$d objekt till</item>
-    </plurals>
-    <plurals name="download_notification_partial_success_title">
-        <item quantity="other">%1$d av %2$d nedladdningar misslyckades</item>
     </plurals>
     <plurals name="end_member_string">
         <item quantity="other">är redan här</item>
@@ -117,9 +89,6 @@
         <item quantity="other">Flyttas filerna delas de med alla som har åtkomst till den delade mappen %1$s</item>
         <item quantity="one">Flyttas den här filen delas den med alla som har åtkomst till den delade mappen %1$s</item>
     </plurals>
-    <plurals name="move_confirm_dialog_message_share_files_and_folders">
-        <item quantity="other">Flyttas filerna och mapparna delas de med alla som har åtkomst till den delade mappen %1$s</item>
-    </plurals>
     <plurals name="move_confirm_dialog_message_share_folders">
         <item quantity="other">Flyttas mapparna delas de med alla som har åtkomst till den delade mappen %1$s</item>
         <item quantity="one">Flyttas den här mappen delas den med alla som har åtkomst till den delade mappen %1$s</item>
@@ -128,9 +97,6 @@
         <item quantity="other">Dela de här filerna?</item>
         <item quantity="one">Dela den här filen?</item>
     </plurals>
-    <plurals name="move_confirm_dialog_title_share_files_and_folders">
-        <item quantity="other">Vill du dela dessa filer och mappar?</item>
-    </plurals>
     <plurals name="move_confirm_dialog_title_share_folders">
         <item quantity="other">Dela dessa mappar?</item>
         <item quantity="one">Dela den här mappen?</item>
@@ -138,6 +104,10 @@
     <plurals name="move_error_no_permission_src">
         <item quantity="other">Du har inte behörighet att flytta vissa objekt från mapparna de ligger i.</item>
         <item quantity="one">Du har inte behörighet att flytta det här objektet från mappen det ligger i.</item>
+    </plurals>
+    <plurals name="move_error_owner_outside_td_domain">
+        <item quantity="other">Du kan inte flytta filerna eftersom ägaren inte tillhör %1$s.</item>
+        <item quantity="one">Du kan inte flytta filen eftersom ägaren inte tillhör %1$s.</item>
     </plurals>
     <plurals name="move_notice_granted_access_team_drive">
         <item quantity="other">%1$s%2$s har nu åtkomst till dem.</item>
@@ -250,9 +220,6 @@
     <plurals name="remove_dialog_delete_for_everyone_items_text">
         <item quantity="other">%1$d objekt flyttas till papperskorgen för %2$s och raderas permanent efter 30 dagar</item>
         <item quantity="one">Objektet flyttas till papperskorgen för %2$s och raderas permanent efter 30 dagar</item>
-    </plurals>
-    <plurals name="remove_dialog_delete_permanently_for_everyone_text_multiple">
-        <item quantity="other">De här %1$d filerna &lt;b>raderas permanent för alla.&lt;/b> Det går inte att ångra den här åtgärden.</item>
     </plurals>
     <plurals name="remove_dialog_delete_permanently_text_multiple">
         <item quantity="other">De här %1$d filerna raderas permanent. Åtgärden går inte att ångra.</item>

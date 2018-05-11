@@ -457,6 +457,7 @@
     <string name="dialog_td_will_disappear">გუნდის ეს Drive გაქრება ყველასათვის და ამ ქმედების გაუქმებას ვერ შეძლებთ.</string>
     <string name="dialog_td_will_disappear_files_in_trash">ფაილები ამ გუნდის Drive-იდან „%1$s“-ის წაშლილებშია და მის აღდგენას ვერცერთი მომხმარებელი ვერ შეძლებს. ეს გუნდის Drive გაქრება ყველასათვის და ამ ქმედების დაბრუნებას ვერ შეძლებთ.</string>
     <string name="did_you_mean">ხომ არ იგულისხმეთ: %1$s</string>
+    <string name="disabled_append">გათიშული,</string>
     <string name="discussion_accept">დათანხმება</string>
     <string name="discussion_acl_fix_access_role_commenter">შეუძლია კომენტირება</string>
     <string name="discussion_acl_fix_access_role_writer">შეუძლია რედაქტირება</string>
@@ -567,11 +568,11 @@
     <string name="doclist_date_never_label">არასოდეს</string>
     <string name="doclist_date_opened_label">ჩემ მიერ გახსნილი: %s</string>
     <string name="doclist_date_shared_label">გაზიარებული: %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s · %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s · %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">ჩემ მიერ ატვირთული: %s</string>
     <string name="doclist_detail_fragment_content_description">ერთეულის თვისებების ჩვენება</string>
-    <string name="doclist_entry_content_description" formatted="false">%s %s</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s %s ფერი:%s</string>
+    <string name="doclist_entry_content_description">%1$s %2$s</string>
+    <string name="doclist_entry_content_description_with_color">%1$s %2$s ფერი:%3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">ნავიგაციის უჯრის გახსნა</string>
     <string name="doclist_quota_used_label">გამოყენებული მეხსიერება: %s</string>
     <string name="doclist_selected_show_preview">გადახედვა</string>
@@ -661,6 +662,8 @@
     <string name="draft_options_dialog_title">საიტის მონახაზის პარამეტრები</string>
     <string name="draft_permission_change_anyone_warning">საიტის მონახაზის ამ პარამეტრის დაყენება ყველას მისცემს მისი ნახვის უფლებას, როდესაც ის გამოქვეყნდება.</string>
     <string name="draft_permission_change_domain_warning">საიტის მონახაზის ამ პარამეტრის დაყენება ნებისმიერს %s-ში მისცემს მისი ნახვის უფლებას, როდესაც ის გამოქვეყნდება.</string>
+    <string name="draft_permission_downgrade_domain_warning">ამ მონახაზი საიტის პარამეტრის შეცვლით გამოქვეყნებულ ბმულს მხოლოდ %1$s დაინახავს</string>
+    <string name="draft_permission_downgrade_specific_warning">ამ მონახაზი საიტის პარამეტრის შეცვლით გამოქვეყნებულ ბმულს მხოლოდ კონკრეტული ხალხი დაინახავს</string>
     <string name="drive_file_stream_disabled">ხალხისთვის აკრძალვა, გახსნან ფაილები ამ გუნდის Drive-ში Drive File Stream-ით ან მსგავსი აპით</string>
     <string name="drive_file_stream_enabled">ხალხისთვის ნების დართვა, გახსნან ფაილები ამ გუნდის Drive-ში Drive File Stream-ით ან მსგავსი აპით</string>
     <string name="drive_file_stream_title">Drive File Stream</string>
@@ -753,6 +756,7 @@
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d სხვა.</string>
     <string name="exit_multiselect_mode_button">მრავლობითი მონიშვნის რეჟიმიდან გასვლა</string>
+    <string name="expand_button_title">დამატებით</string>
     <string name="expires_future">ვადა ეწურება %1$s-ში</string>
     <string name="expires_today">ვადა ეწურება დღეს</string>
     <string name="export_download_error_title">ჩამოტვირთვის შეცდომა</string>
@@ -769,6 +773,11 @@
     <string name="fab_office_document">ახალი Powerpoint ფაილი</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">ძიების შედეგები</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">გბაიტი</string>
+    <string name="fast_scroll_size_grouper_kb">კბაიტი</string>
+    <string name="fast_scroll_size_grouper_mb">მბაიტი</string>
     <string name="fast_scroll_time_grouper_earlier">ძველი</string>
     <string name="fast_scroll_time_grouper_last_week">წინა კვირის</string>
     <string name="fast_scroll_time_grouper_this_month">ამ თვის დასაწყისის</string>
@@ -797,7 +806,7 @@
     <string name="file_picker_select_a_folder_heading">საქაღალდის არჩევა</string>
     <string name="file_picker_select_button">არჩევა</string>
     <string name="file_picker_storage_permissions_denied_toast">ადგილობრივ მეხსიერებაზე წვდომის ნებართვა მინიჭებული არ არის.</string>
-    <string name="file_too_large_for_upload" formatted="false">%1s ძალიან დიდია Google Drive-ზე ასატვირთად. ის არის %2s, თუმცა ამ ტიპის ფაილისთვის ლიმიტია %3s. ამ ფაილის ატვირთვა შესაძლოა მისი Google Drive ფორმატში კონვერტაციის გარეშე შეძლოთ.</string>
+    <string name="file_too_large_for_upload">%1$s ძალიან დიდია Google Drive-ზე ასატვირთად. ის არის %2$s, თუმცა ამ ტიპის ფაილისთვის ლიმიტია %3$s. ამ ფაილის ატვირთვა შესაძლოა მისი Google Drive ფორმატში კონვერტაციის გარეშე შეძლოთ.</string>
     <string name="file_too_large_for_upload_okbtn">კარგი</string>
     <string name="file_too_large_for_upload_title">ატვირთვა ვერ ხერხდება</string>
     <string name="file_was_not_sent">ფაილი არ ყოფილა გაზიარებული.</string>
@@ -957,17 +966,8 @@
     <string name="make_copy_spinner_message">მიმდინარეობს კოპირება…</string>
     <string name="manage_members_default_members">ნაგულისხმევად, წევრებს შეუძლიათ ფაილების ატვირთვა/რედაქტირება/წაშლა და სხვა წევრების მოწვევა</string>
     <string name="manage_members_dialog_title">წევრების წვდომა</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">მეხსიერება</string>
+    <string name="management_data_loading_failed">ამ გვერდის ჩატვირთვა ვერ მოხერხდა</string>
     <string name="member_count_max">99+</string>
     <string name="menu_backup">სარეზერვო ასლები</string>
     <string name="menu_copy_link">ბმულის კოპირება</string>
@@ -1070,7 +1070,6 @@
     <string name="move_error_target_folder_not_exist">სამიზნე საქაღალდე არ არსებობს.</string>
     <string name="move_notice_lost_access_shared_folders">ერთეულები გადავიდა გაზიარ. საქაღალდეში. ხალხმა წვდ. დაკარგა.</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s „%2$s“-მა წვდომა დაკარგა.</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">1 ერთეული გადავიდა გუნდის Drive-ში. წევრებმა წვდ. დაკარგეს.</string>
     <string name="move_notice_lost_access_team_drives">ერთეულები გადავიდა გუნდის Drive-ში. წევრებმა წვდ. დაკარგეს.</string>
     <string name="mr_cast_button_connected">ტრანსლირების ღილაკი. დაკავშირებული</string>
     <string name="mr_cast_button_connecting">ტრანსლირების ღილაკი. მიმდინარეობს დაკავშირება</string>
@@ -1078,10 +1077,10 @@
     <string name="mr_chooser_searching">მოწყობილობების მოძიება...</string>
     <string name="mr_chooser_title">ტრანსლირება:</string>
     <string name="mr_controller_album_art">ალბომის გარეკანი</string>
-    <string name="mr_controller_casting_screen">მიმდინარეობს ეკრანის გადაცემა</string>
+    <string name="mr_controller_casting_screen">მიმდინარეობს ეკრანის ტრანსლირება</string>
     <string name="mr_controller_close_description">დახურვა</string>
     <string name="mr_controller_collapse_group">ჩაკეცვა</string>
-    <string name="mr_controller_disconnect">კავშირის გაწყვეტა</string>
+    <string name="mr_controller_disconnect">გათიშვა</string>
     <string name="mr_controller_expand_group">გაშლა</string>
     <string name="mr_controller_no_info_available">ინფორმაცია არ არის ხელმისაწვდომი</string>
     <string name="mr_controller_no_media_selected">მედია არჩეული არ არის</string>
@@ -1125,7 +1124,7 @@
     <string name="no_scheduled_meetings">დაგეგმილი შეხვედრები არ არის</string>
     <string name="no_team_drives_title">გუნდის Drive-ები არ არის</string>
     <string name="no_thanks">არა, გმადლობთ</string>
-    <string name="not_enough_storage_for_upload" formatted="false">ფაილი %1s ძალიან დიდია Google Drive-ში ასატვირთად. ის არის %2s, თქვენ კი გაქვთ ხელმისაწვდომი მეხსიერების მხოლოდ %3s. გთხოვთ, გაზარდოთ თქვენი მეხსიერება და სცადოთ ხელახლა.</string>
+    <string name="not_enough_storage_for_upload">ფაილი %1$s ძალიან დიდია Google Drive-ში ასატვირთად. ის არის %2$s, თქვენ კი გაქვთ ხელმისაწვდომი მეხსიერების მხოლოდ %3$s. გთხოვთ, გაზარდოთ თქვენი მეხსიერება და სცადოთ ხელახლა.</string>
     <string name="notification_channel_name_default">ნაგულისხმევი</string>
     <string name="notification_channel_name_high_priority">მაღალი პრიორიტეტი</string>
     <string name="notification_channel_name_low_priority">დაბალი პრიორიტეტი</string>
@@ -1407,7 +1406,6 @@
     <string name="published_access_anyone">როდესაც გამოქვეყნდება, ნებისმიერი შეძლებს ნახვას</string>
     <string name="published_access_domain">როდესაც გამოქვეყნდება, %s-ში ნებისმიერი შეძლებს ნახვას</string>
     <string name="published_access_select_people">როდესაც გამოქვეყნდება, ნახვას კონკრეტული ადამიანები შეძლებენ</string>
-    <string name="published_disabled_append">გათიშული,</string>
     <string name="published_message_for_anyone_can_edit">რადგან ნებისმიერს შეუძლია რედაქტირება, ნებისმიერი შეძლებს ნახვას, როდესაც გამოქვეყნდება.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">რადგანაც ნებისმიერს %1$s-ზე შეუძლია რედაქტირება, ნებისმიერს %1$s-ზე შეუძლია ნახვა, როდესაც გამოქვეყნდება.</string>
     <string name="published_message_for_anyone_with_link_can_edit">რადგან ნებისმიერს ბმულით შეუძლია რედაქტირება, ნებისმიერი შეძლებს ნახვას, როდესაც გამოქვეყნდება.</string>
@@ -1521,7 +1519,7 @@
     <string name="punch_show_slide">სლაიდის ჩვენება</string>
     <string name="punch_speaker_notes_title">პრეზენტატორის შენიშვნები</string>
     <string name="punch_speakernotes_closed">პრეზენტატორის შენიშვნები დაიხურა.</string>
-    <string name="punch_thor_invite_email_body" formatted="false">წვდომის ინფორმაცია:&lt;br> %s &lt;br> %s PIN:%s</string>
+    <string name="punch_thor_invite_email_body">წვდომის ინფორმაცია:&lt;br> %1$s &lt;br> %2$s PIN:%3$s</string>
     <string name="punctuation_period">.</string>
     <string name="purchase_dialog_how_storage_used">მეხსიერება საზიაროა Gmail-ში, Google Photos-სა და Google Drive-ში</string>
     <string name="purchase_dialog_manage">საცავის მართვა</string>
@@ -1978,6 +1976,7 @@
     <string name="suggestions_add_to_dictionary">ლექსიკონში დამატება</string>
     <string name="suggestions_delete_text">წაშლა</string>
     <string name="suggestions_popup_opened">მართლწერის შეთავაზებები</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Google Slides სინქრონიზაციის შეცდომა</string>
     <string name="sync_more_error">შეცდომა დამატებითი ერთეულების მოძიებისას</string>
     <string name="sync_more_error_offline">ზოგიერთი დოკუმენტი შესაძლოა ხაზგარეშე არ გამოჩნდეს.</string>
@@ -2010,7 +2009,7 @@
     <string name="team_drive_empty_list_message_cannot_create">როდესაც გუნდის Drive-ში დაგამატებენ, ის აქ გამოჩნდება.</string>
     <string name="team_drive_settings_title">პარამეტრები</string>
     <string name="team_drive_trash_welcome_snackbar">ერთეულები გუნდის Drive-ების წაშლილებში სამუდამოდ წაიშლება 30 დღეში.</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">%1$s, სათაური</string>
     <string name="template_category_education">განათლება</string>
     <string name="template_category_personal">პირადი</string>
@@ -2084,6 +2083,8 @@
     <string name="unable_to_open_local_document_message">ის შეიძლება გადაადგილებული ან წაშლილი იყოს.</string>
     <string name="unable_to_open_local_document_title">მოწყობილობაზე შენახული ფაილის გახსნა ვერ ხერხდება</string>
     <string name="unable_to_read_calendar_data">კალენდარი მოთხოვნას ვერ პასუხობს</string>
+    <string name="unable_update_published_message">გამოქვეყნებული საიტის პარამეტრის შეცვლა შეუძლებელია მონახაზის ბმულის პარამეტრის განახლების გარეშე</string>
+    <string name="unable_update_published_title">პარამეტრის განახლება შეუძლებელია</string>
     <string name="undeliverable_acl_changed_dialog_title">თქვენი ცვლილებები წაიშლება და დოკუმენტი დაბრუნდება.</string>
     <string name="undeliverable_changes_dialog_content">თქვენი ხაზგარეშე ცვლილებები შესაძლოა დაიკაგა. დარწმუნდით, რომ ცვლილებები კოპირებული გაქვთ გაცვლის ბუფერში.</string>
     <string name="undeliverable_changes_dialog_title">პრობლემური ცვლილებების წაშლა და დოკუმენტის დაბრუნება</string>
@@ -2186,6 +2187,8 @@
     <string name="upsell_negbtn">მოგვიანებით</string>
     <string name="upsell_okbtn">განახლება</string>
     <string name="url_typo_error_msg">როგორც ჩანს, ბმული არასწორია. ხომ არ შეგეშალათ?</string>
+    <string name="v7_preference_off">გამორთული</string>
+    <string name="v7_preference_on">ჩართული</string>
     <string name="verbalize_bulleted_list">ბურთულა. %1$s</string>
     <string name="verbalize_numbered_list">%1$s. %2$s</string>
     <string name="verbalize_opened_edit">%1$s გაიხსნა რედაქტირების უფლებით.</string>
@@ -2216,8 +2219,9 @@
     <string name="warm_welcome_next_button">შემდეგი</string>
     <string name="warm_welcome_skip_button">გამოტოვება</string>
     <string name="warning_cannot_share_outside_domain">ამ გუნდის Drive-ის პარამეტრები ხელს უშლის %s-ის ფარგლებს გარეთ გაზიარებას</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">ამ გუნდის Drive-ის პარამეტრები ხელს უშლის არაწევრებთან და %s-ის ფარგლებს გარეთ გაზიარებას</string>
     <string name="warning_cannot_share_outside_domain_org">ორგანიზაციის პარამეტრები ხელს უშლის ორგანიზაციის ფარგლებს გარეთ გაზიარებას</string>
-    <string name="warning_cannot_share_outside_team_drive">ამ გუნდის Drive-ის პარამეტრები ხელს უშლის გუნდის ფარგლებს გარეთ გაზიარებას</string>
+    <string name="warning_cannot_share_outside_team_drive">ამ გუნდის Drive-ის პარამეტრები ხელს უშლის გაზიარებას არაწევრებთან</string>
     <string name="welcome_button_close">Slides-ზე გადასვლა</string>
     <string name="welcome_button_continue">შემდეგი</string>
     <string name="welcome_offer_button_close">დახურვა</string>
@@ -2254,7 +2258,7 @@
     <string name="zss_type_documents">ტექსტური დოკუმენტები</string>
     <string name="zss_type_folder">საქაღალდეები</string>
     <string name="zss_type_images">ფოტოები და სურათები</string>
-    <string name="zss_type_pdfs">PDF-ები</string>
+    <string name="zss_type_pdfs">PDF ფაილები</string>
     <string name="zss_type_presentations">პრეზენტაციები</string>
     <string name="zss_type_spreadsheets">ელცხრილები</string>
     <string name="zss_type_video">ვიდეოები</string>

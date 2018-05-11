@@ -475,6 +475,7 @@ Diese Aktion kann nicht rückgängig gemacht werden."</string>
     <string name="dialog_td_will_disappear">Diese Teamablage ist dann für niemanden mehr sichtbar. Die Aktion kann nicht rückgängig gemacht werden.</string>
     <string name="dialog_td_will_disappear_files_in_trash">Die Dateien aus dieser Teamablage werden in den Papierkorb von \"%1$s\" verschoben und können danach von keinem Nutzer wiederhergestellt werden. Außerdem ist diese Teamablage dann für niemanden mehr sichtbar. Diese Aktion kann nicht rückgängig gemacht werden.</string>
     <string name="did_you_mean">Meinten Sie: %1$s</string>
+    <string name="disabled_append">deaktiviert,</string>
     <string name="discussion_accept">Annehmen</string>
     <string name="discussion_acl_fix_access_role_commenter">Darf kommentieren</string>
     <string name="discussion_acl_fix_access_role_writer">Darf bearbeiten</string>
@@ -585,11 +586,11 @@ Diese Aktion kann nicht rückgängig gemacht werden."</string>
     <string name="doclist_date_never_label">Nie</string>
     <string name="doclist_date_opened_label">Von mir geöffnet: %s</string>
     <string name="doclist_date_shared_label">Freigegeben: %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s · %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s · %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">Von mir hochgeladen: %s</string>
     <string name="doclist_detail_fragment_content_description">Dokumenteigenschaften anzeigen</string>
-    <string name="doclist_entry_content_description" formatted="false">%s \"%s\"</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s \"%s\" Farbe:%s</string>
+    <string name="doclist_entry_content_description">%2$s \"%1$s\"</string>
+    <string name="doclist_entry_content_description_with_color">%2$s \"%1$s\" Farbe:%3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">Navigationsleiste öffnen</string>
     <string name="doclist_quota_used_label">Belegter Speicherplatz: %s</string>
     <string name="doclist_selected_show_preview">Vorschau anzeigen</string>
@@ -679,6 +680,8 @@ Diese Aktion kann nicht rückgängig gemacht werden."</string>
     <string name="draft_options_dialog_title">Einstellungen für Websiteentwürfe</string>
     <string name="draft_permission_change_anyone_warning">Wenn Sie diese Einstellung für den Websiteentwurf auswählen, darf jeder die veröffentlichte Version ansehen.</string>
     <string name="draft_permission_change_domain_warning">Wenn Sie diese Einstellung für den Websiteentwurf auswählen, darf jeder in %s die veröffentlichte Version ansehen.</string>
+    <string name="draft_permission_downgrade_domain_warning">Wenn Sie die Einstellung dieses Websiteentwurfs ändern, kann der veröffentlichte Link nur noch von %1$s angesehen werden</string>
+    <string name="draft_permission_downgrade_specific_warning">Wenn Sie die Einstellung dieses Websiteentwurfs ändern, kann der veröffentlichte Link nur noch von bestimmten Personen angesehen werden</string>
     <string name="drive_file_stream_disabled">Nutzer dürfen Dateien in dieser Teamablage nicht mit Drive File Stream o. Ä. öffnen</string>
     <string name="drive_file_stream_enabled">Nutzer dürfen Dateien in dieser Teamablage mit Drive File Stream oder ähnlichen Anwendungen öffnen</string>
     <string name="drive_file_stream_title">Drive File Stream</string>
@@ -772,13 +775,14 @@ Zum Erstellen einer Präsentation auf + klicken."</string>
     <string name="excess_head_count">und %1$d weitere</string>
     <string name="excess_head_count_verbalization">+%1$d weitere.</string>
     <string name="exit_multiselect_mode_button">Mehrfachauswahlmodus schließen</string>
+    <string name="expand_button_title">Erweitert</string>
     <string name="expires_future">Läuft in %1$s ab</string>
     <string name="expires_today">Läuft heute ab</string>
     <string name="export_download_error_title">Fehler beim Herunterladen</string>
     <string name="export_error_message">Ein Fehler ist aufgetreten.</string>
     <string name="export_error_message_network">Übertragungsfehler. Bitte überprüfen Sie die Netzwerkverbindung.</string>
     <string name="export_error_message_server">Konvertierungsfehler. Bitte versuchen Sie es später noch einmal.</string>
-    <string name="export_failure_notification_content">\"%1$s\" konnte nicht gespeichert werden.</string>
+    <string name="export_failure_notification_content">\"%1$s\" konnte nicht gespeichert werden</string>
     <string name="export_notification_content">\"%1$s\" wird gespeichert…</string>
     <string name="exporting_start_msg">Vorbereitung für den Export…</string>
     <string name="fab_choose_template">Vorlage auswählen</string>
@@ -788,6 +792,11 @@ Zum Erstellen einer Präsentation auf + klicken."</string>
     <string name="fab_office_document">Neue PowerPoint-Datei</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Suchergebnisse</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Älter</string>
     <string name="fast_scroll_time_grouper_last_week">Letzte Woche</string>
     <string name="fast_scroll_time_grouper_this_month">Diesen Monat</string>
@@ -816,7 +825,7 @@ Zum Erstellen einer Präsentation auf + klicken."</string>
     <string name="file_picker_select_a_folder_heading">Ordner auswählen</string>
     <string name="file_picker_select_button">Auswählen</string>
     <string name="file_picker_storage_permissions_denied_toast">Berechtigung zum Zugriff auf lokalen Speicher nicht gewährt.</string>
-    <string name="file_too_large_for_upload" formatted="false">Die Datei \"%1s\" ist mit %2s zu groß, um in Google Drive hochgeladen zu werden. Für diesen Dateityp sind maximal %3s zulässig. Versuchen Sie, die Datei hochzuladen, ohne sie vorher in ein Google Drive-Format zu konvertieren.</string>
+    <string name="file_too_large_for_upload">Die Datei \"%1$s\" ist mit %2$s zu groß, um in Google Drive hochgeladen zu werden. Für diesen Dateityp sind maximal %3$s zulässig. Versuchen Sie, die Datei hochzuladen, ohne sie vorher in ein Google Drive-Format zu konvertieren.</string>
     <string name="file_too_large_for_upload_okbtn">OK</string>
     <string name="file_too_large_for_upload_title">Upload nicht möglich</string>
     <string name="file_was_not_sent">Datei nicht freigegeben</string>
@@ -992,17 +1001,8 @@ Zum Erstellen einer Präsentation auf + klicken."</string>
     <string name="manage_addons_playstore_link_description">Zu %s im Play Store gehen</string>
     <string name="manage_members_default_members">Standardmäßig dürfen Mitglieder Dateien hochladen/bearbeiten/löschen und andere Mitglieder einladen</string>
     <string name="manage_members_dialog_title">Mitgliederzugriff</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Speicherplatz</string>
+    <string name="management_data_loading_failed">Fehler beim Laden der Seite</string>
     <string name="member_count_max">99+</string>
     <string name="menu_backup">Sicherungen</string>
     <string name="menu_copy_link">Link kopieren</string>
@@ -1106,18 +1106,17 @@ Zum Erstellen einer Präsentation auf + klicken."</string>
     <string name="move_error_target_folder_not_exist">Der Zielordner ist nicht vorhanden.</string>
     <string name="move_notice_lost_access_shared_folders">Elemente wurden aus freigegebenem Ordner entfernt.</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s \"%2$s\" hat keinen Zugriff mehr.</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">1 Element wurde aus der Teamablage entfernt.</string>
     <string name="move_notice_lost_access_team_drives">Elemente wurden aus Teamablage verschoben.</string>
-    <string name="mr_cast_button_connected">Streaming-Schaltfläche. Verbunden</string>
-    <string name="mr_cast_button_connecting">Streaming-Schaltfläche. Verbindung wird hergestellt</string>
-    <string name="mr_cast_button_disconnected">Streaming-Schaltfläche. Nicht verbunden</string>
-    <string name="mr_chooser_searching">Geräte werden gesucht.</string>
+    <string name="mr_cast_button_connected">Cast-Symbol. Verbunden</string>
+    <string name="mr_cast_button_connecting">Cast-Symbol. Verbindung wird hergestellt</string>
+    <string name="mr_cast_button_disconnected">Cast-Symbol. Nicht verbunden</string>
+    <string name="mr_chooser_searching">Keine Geräte gefunden</string>
     <string name="mr_chooser_title">Streamen auf</string>
     <string name="mr_controller_album_art">Albumcover</string>
-    <string name="mr_controller_casting_screen">Bildschirm wird gestreamt.</string>
+    <string name="mr_controller_casting_screen">Bildschirm wird übertragen</string>
     <string name="mr_controller_close_description">Schließen</string>
     <string name="mr_controller_collapse_group">Minimieren</string>
-    <string name="mr_controller_disconnect">Verbindung trennen</string>
+    <string name="mr_controller_disconnect">Trennen</string>
     <string name="mr_controller_expand_group">Maximieren</string>
     <string name="mr_controller_no_info_available">Keine Informationen verfügbar</string>
     <string name="mr_controller_no_media_selected">Keine Medien ausgewählt</string>
@@ -1161,7 +1160,7 @@ Zum Erstellen einer Präsentation auf + klicken."</string>
     <string name="no_scheduled_meetings">Keine geplanten Besprechungen</string>
     <string name="no_team_drives_title">Keine Teamablagen</string>
     <string name="no_thanks">Nein danke</string>
-    <string name="not_enough_storage_for_upload" formatted="false">Die Datei \"%1s\" ist zu groß und kann nicht in Google Drive hochgeladen werden. Sie ist %2s groß, aber Sie haben nur %3s Speicherplatz verfügbar. Erhöhen Sie Ihren Speicherplatz und versuchen Sie es dann noch einmal.</string>
+    <string name="not_enough_storage_for_upload">Die Datei \"%1$s\" ist zu groß und kann nicht in Google Drive hochgeladen werden. Sie ist %2$s groß, aber Sie haben nur %3$s Speicherplatz verfügbar. Erhöhen Sie Ihren Speicherplatz und versuchen Sie es dann noch einmal.</string>
     <string name="notification_channel_name_default">Standard</string>
     <string name="notification_channel_name_high_priority">Hohe Priorität</string>
     <string name="notification_channel_name_low_priority">Niedrige Priorität</string>
@@ -1444,7 +1443,6 @@ Zum Erstellen einer Präsentation auf + klicken."</string>
     <string name="published_access_anyone">Jeder darf die veröffentlichte Version ansehen</string>
     <string name="published_access_domain">Jeder in %s darf die veröffentlichte Version ansehen</string>
     <string name="published_access_select_people">Ausgewählte Nutzer dürfen die veröffentlichte Version ansehen</string>
-    <string name="published_disabled_append">deaktiviert,</string>
     <string name="published_message_for_anyone_can_edit">Da jeder den Entwurf bearbeiten darf, darf auch jeder die veröffentlichte Version ansehen.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Da jeder in %1$s den Entwurf bearbeiten darf, darf auch jeder in %1$s die veröffentlichte Version ansehen.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Da jeder, der über den Link verfügt, den Entwurf bearbeiten darf, darf auch jeder die veröffentlichte Version ansehen.</string>
@@ -1558,7 +1556,7 @@ Zum Erstellen einer Präsentation auf + klicken."</string>
     <string name="punch_show_slide">Folie anzeigen</string>
     <string name="punch_speaker_notes_title">Vortragsnotizen</string>
     <string name="punch_speakernotes_closed">Vortragsnotizen wurden geschlossen.</string>
-    <string name="punch_thor_invite_email_body" formatted="false">Zugriffsinformationen:&lt;br> %s &lt;br> %s PIN:%s</string>
+    <string name="punch_thor_invite_email_body">Zugriffsinformationen:&lt;br> %1$s &lt;br> %2$s PIN:%3$s</string>
     <string name="punctuation_period">.</string>
     <string name="purchase_dialog_how_storage_used">Speicherplatz steht für Gmail, Google Fotos und Google Drive zur Verfügung</string>
     <string name="purchase_dialog_manage">Speicherplatz verwalten</string>
@@ -2012,12 +2010,13 @@ Zum Erstellen einer Präsentation auf + klicken."</string>
     <string name="stepper_button_up_arrow">Vergrößern</string>
     <string name="suggest_pin_dialog_message">Diese Datei ist offline nicht verfügbar. Möchten Sie sie offline verfügbar machen?</string>
     <string name="suggest_pin_dialog_negative_button">Nein danke</string>
-    <string name="suggest_pin_dialog_positive_button">Offline bereitstellen</string>
+    <string name="suggest_pin_dialog_positive_button">Offline verfügbar machen</string>
     <string name="suggest_pin_dialog_title">Keine Verbindung</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s ausgewählt</string>
     <string name="suggestions_add_to_dictionary">Zum Wörterbuch hinzufügen</string>
     <string name="suggestions_delete_text">Löschen</string>
     <string name="suggestions_popup_opened">Rechtschreibvorschläge</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Google Präsentationen-Synchronisierungsfehler</string>
     <string name="sync_more_error">Fehler beim Abrufen weiterer Dokumente</string>
     <string name="sync_more_error_offline">Manche Dokumente sind offline eventuell nicht sichtbar.</string>
@@ -2050,7 +2049,7 @@ Zum Erstellen einer Präsentation auf + klicken."</string>
     <string name="team_drive_empty_list_message_cannot_create">Hier wird angezeigt, wenn jemand Sie einer Teamablage hinzufügt.</string>
     <string name="team_drive_settings_title">Einstellungen</string>
     <string name="team_drive_trash_welcome_snackbar">Elemente im Papierkorb von Teamablagen werden nach 30 Tagen endgültig gelöscht.</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">%1$s, Überschrift</string>
     <string name="template_category_education">Bildung</string>
     <string name="template_category_personal">Persönlich</string>
@@ -2124,6 +2123,8 @@ Zum Erstellen einer Präsentation auf + klicken."</string>
     <string name="unable_to_open_local_document_message">Möglicherweise wurde die Datei verschoben oder gelöscht.</string>
     <string name="unable_to_open_local_document_title">Datei auf Gerät kann nicht geöffnet werden</string>
     <string name="unable_to_read_calendar_data">Fehler beim Abrufen von Kalenderdaten</string>
+    <string name="unable_update_published_message">Die Einstellung für die veröffentlichte Website kann erst geändert werden, wenn die Einstellung für den Link zum Entwurf aktualisiert wurde</string>
+    <string name="unable_update_published_title">Die Einstellung kann nicht aktualisiert werden</string>
     <string name="undeliverable_acl_changed_dialog_title">Möchten Sie die Änderungen löschen und das Dokument wiederherstellen?</string>
     <string name="undeliverable_changes_dialog_content">Ihre Offline-Änderungen könnten verloren gehen. Kopieren Sie sie vorher in die Zwischenablage.</string>
     <string name="undeliverable_changes_dialog_title">Möchten Sie die nicht durchführbaren Änderungen löschen und das Dokument wiederherstellen?</string>
@@ -2226,6 +2227,8 @@ Zum Erstellen einer Präsentation auf + klicken."</string>
     <string name="upsell_negbtn">Später</string>
     <string name="upsell_okbtn">Speicherplatz erhöhen</string>
     <string name="url_typo_error_msg">Der Link scheint fehlerhaft zu sein. Vielleicht ein Tippfehler?</string>
+    <string name="v7_preference_off">AUS</string>
+    <string name="v7_preference_on">AN</string>
     <string name="verbalize_bulleted_list">Aufzählungszeichen. %1$s.</string>
     <string name="verbalize_numbered_list">%1$s. %2$s.</string>
     <string name="verbalize_opened_edit">\"%1$s\" wurde mit Berechtigung zum Bearbeiten geöffnet.</string>
@@ -2256,8 +2259,9 @@ Zum Erstellen einer Präsentation auf + klicken."</string>
     <string name="warm_welcome_next_button">Weiter</string>
     <string name="warm_welcome_skip_button">Überspringen</string>
     <string name="warning_cannot_share_outside_domain">Aufgrund der Einstellungen dieser Teamablage ist die Freigabe außerhalb der Domain %s nicht möglich</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Aufgrund der Einstellungen dieser Teamablage ist die Freigabe für Nichtmitglieder und für Nutzer außerhalb von %s nicht möglich</string>
     <string name="warning_cannot_share_outside_domain_org">Aufgrund der Einstellungen der Organisation ist die Freigabe außerhalb der Organisation nicht möglich</string>
-    <string name="warning_cannot_share_outside_team_drive">Aufgrund der Einstellungen dieser Teamablage ist die Freigabe außerhalb des Teams nicht möglich</string>
+    <string name="warning_cannot_share_outside_team_drive">Aufgrund der Einstellungen dieser Teamablage ist keine Freigabe für Nichtmitglieder möglich</string>
     <string name="welcome_button_close">Zu Präsentationen</string>
     <string name="welcome_button_continue">Weiter</string>
     <string name="welcome_offer_button_close">Schließen</string>
@@ -2274,27 +2278,27 @@ Zum Erstellen einer Präsentation auf + klicken."</string>
     <string name="welcome_title_app_name">Google Präsentationen</string>
     <string name="welcome_title_highlights">%1$s Ankündigungsbereich.</string>
     <string name="write_access_denied">Schreibzugriff auf das Dokument verweigert</string>
-    <string name="zss_accessibility_searching">Suche nach %1$s läuft</string>
+    <string name="zss_accessibility_searching">Suche nach \"%1$s\"</string>
     <string name="zss_date_range_header_title">Änderungsdatum</string>
-    <string name="zss_date_range_month">Letzte 30 Tage</string>
-    <string name="zss_date_range_three_month">Letzte 90 Tage</string>
+    <string name="zss_date_range_month">Letzte 30 Tage</string>
+    <string name="zss_date_range_three_month">Letzte 90 Tage</string>
     <string name="zss_date_range_today">Heute</string>
-    <string name="zss_date_range_week">Letzte 7 Tage</string>
+    <string name="zss_date_range_week">Letzte 7 Tage</string>
     <string name="zss_date_range_yesterday">Gestern</string>
     <string name="zss_entry_types_header_title">Dateitypen</string>
     <string name="zss_no_filters">Keine Filter</string>
     <string name="zss_owner_header_title">Eigentümer</string>
-    <string name="zss_owner_me">Ich bin Eigentümer.</string>
-    <string name="zss_owner_not_me">Ich bin nicht Eigentümer.</string>
+    <string name="zss_owner_me">Ich bin Eigentümer</string>
+    <string name="zss_owner_not_me">Ich bin nicht Eigentümer</string>
     <string name="zss_people_header_title">Personen</string>
     <string name="zss_showing_list_of_filters">Eine Liste mit verfügbaren Filtern wird angezeigt.</string>
-    <string name="zss_team_drive">In %1$s suchen</string>
-    <string name="zss_type_archive">Archivdatei</string>
-    <string name="zss_type_audio">Audiodatei</string>
+    <string name="zss_team_drive">In \"%1$s\" suchen</string>
+    <string name="zss_type_archive">Archiv</string>
+    <string name="zss_type_audio">Audiodateien</string>
     <string name="zss_type_documents">Textdokumente</string>
     <string name="zss_type_folder">Ordner</string>
     <string name="zss_type_images">Fotos und Bilder</string>
-    <string name="zss_type_pdfs">PDF-Dateien</string>
+    <string name="zss_type_pdfs">PDFs</string>
     <string name="zss_type_presentations">Präsentationen</string>
     <string name="zss_type_spreadsheets">Tabellen</string>
     <string name="zss_type_video">Videos</string>

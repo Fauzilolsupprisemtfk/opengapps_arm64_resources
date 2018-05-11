@@ -475,6 +475,7 @@ Deze actie kan niet ongedaan worden gemaakt."</string>
     <string name="dialog_td_will_disappear">Deze Drive van mijn team wordt verwijderd voor iedereen. Je kunt deze actie niet ongedaan maken.</string>
     <string name="dialog_td_will_disappear_files_in_trash">"De bestanden van deze Drive van mijn team bevinden zich in de prullenbak van '%1$s' en kunnen door geen enkele gebruiker meer worden hersteld. Deze Drive van mijn team wordt verwijderd voor iedereen. Je kunt deze actie niet ongedaan maken."</string>
     <string name="did_you_mean">Bedoelde je: %1$s</string>
+    <string name="disabled_append">uitgeschakeld,</string>
     <string name="discussion_accept">Accepteren</string>
     <string name="discussion_acl_fix_access_role_commenter">Mag reageren</string>
     <string name="discussion_acl_fix_access_role_writer">Mag bewerken</string>
@@ -585,11 +586,11 @@ Deze actie kan niet ongedaan worden gemaakt."</string>
     <string name="doclist_date_never_label">Nooit</string>
     <string name="doclist_date_opened_label">Geopend door mij: %s</string>
     <string name="doclist_date_shared_label">Gedeeld: %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s · %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s · %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">Geüpload door mij: %s</string>
     <string name="doclist_detail_fragment_content_description">Eigenschappen voor item weergeven</string>
-    <string name="doclist_entry_content_description" formatted="false">%s %s</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s %s kleur:%s</string>
+    <string name="doclist_entry_content_description">%1$s %2$s</string>
+    <string name="doclist_entry_content_description_with_color">%1$s %2$s kleur:%3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">Zijmenu openen</string>
     <string name="doclist_quota_used_label">Gebruikte opslagruimte: %s</string>
     <string name="doclist_selected_show_preview">Voorbeeld weergeven</string>
@@ -679,6 +680,8 @@ Deze actie kan niet ongedaan worden gemaakt."</string>
     <string name="draft_options_dialog_title">Instellingen conceptsite</string>
     <string name="draft_permission_change_anyone_warning">Als je deze instelling voor de conceptsite gebruikt, kan iedereen de site na publicatie bekijken.</string>
     <string name="draft_permission_change_domain_warning">Als je deze instelling voor de conceptsite gebruikt, kan iedereen binnen het domein %s de site na publicatie bekijken.</string>
+    <string name="draft_permission_downgrade_domain_warning">Als je deze instelling van de conceptsite wijzigt, kan de gepubliceerde link ook alleen door %1$s worden bekeken</string>
+    <string name="draft_permission_downgrade_specific_warning">Als je deze instelling van de conceptsite wijzigt, kan de gepubliceerde link ook alleen door specifieke mensen worden bekeken</string>
     <string name="drive_file_stream_disabled">Mensen mogen bestanden in deze Drive van mijn team niet openen met File Stream of vergelijkbare apps</string>
     <string name="drive_file_stream_enabled">Mensen mogen bestanden in deze Drive van mijn team openen met File Stream of vergelijkbare apps</string>
     <string name="drive_file_stream_title">Drive File Stream</string>
@@ -721,7 +724,7 @@ Hier kun je je bestanden uploaden."</string>
     <string name="empty_doclist_for_pinned_view_details">"Maak bestanden 'Offline beschikbaar' in het optiemenu van het bestand"</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">"Tik op 'Offline beschikbaar' in het menu van een bestand, zodat je eraan kunt blijven werken wanneer je apparaat offline is."</string>
     <string name="empty_doclist_for_recent_view">Er zijn geen onlangs geopende of gewijzigde bestanden.</string>
-    <string name="empty_doclist_for_search_view">Geen resultaten.</string>
+    <string name="empty_doclist_for_search_view">Geen resultaten</string>
     <string name="empty_doclist_for_shared_with_me_view">Bestanden die met jou zijn gedeeld, worden hier weergegeven.</string>
     <string name="empty_doclist_for_starred_view">Je hebt geen bestanden met ster.</string>
     <string name="empty_doclist_for_starred_view_details">Tik op het sterpictogram in het optiemenu van het bestand om het aan deze lijst toe te voegen.</string>
@@ -772,13 +775,14 @@ Klik op + om een nieuwe presentatie te maken."</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d anderen.</string>
     <string name="exit_multiselect_mode_button">Meervoudige selectiemodus sluiten</string>
+    <string name="expand_button_title">Geavanceerd</string>
     <string name="expires_future">Verloopt over %1$s</string>
     <string name="expires_today">Verloopt vandaag</string>
     <string name="export_download_error_title">Downloadfout</string>
     <string name="export_error_message">Er is een fout opgetreden.</string>
     <string name="export_error_message_network">Er is een transmissiefout opgetreden. Controleer je netwerkverbinding.</string>
     <string name="export_error_message_server">Er is een conversiefout opgetreden. Probeer het later opnieuw.</string>
-    <string name="export_failure_notification_content">Kan %1$s niet opslaan</string>
+    <string name="export_failure_notification_content">Kan ‘%1$s’ niet opslaan</string>
     <string name="export_notification_content">‘%1$s’ opslaan…</string>
     <string name="exporting_start_msg">Voorbereiden op exporteren…</string>
     <string name="fab_choose_template">Template kiezen</string>
@@ -788,6 +792,11 @@ Klik op + om een nieuwe presentatie te maken."</string>
     <string name="fab_office_document">Nieuw PowerPoint-bestand</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Zoekresultaten</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">kB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Ouder</string>
     <string name="fast_scroll_time_grouper_last_week">Vorige week</string>
     <string name="fast_scroll_time_grouper_this_month">Eerder deze maand</string>
@@ -816,7 +825,7 @@ Klik op + om een nieuwe presentatie te maken."</string>
     <string name="file_picker_select_a_folder_heading">Een map selecteren</string>
     <string name="file_picker_select_button">Selecteren</string>
     <string name="file_picker_storage_permissions_denied_toast">Geen toegangsrechten voor lokale opslag verleend.</string>
-    <string name="file_too_large_for_upload" formatted="false">Het bestand %1s is te groot om te uploaden naar Google Drive. Het is %2s, maar de limiet voor dit type bestanden is %3s. Mogelijk kun je het uploaden zonder te converteren naar een indeling voor Google Drive.</string>
+    <string name="file_too_large_for_upload">Het bestand %1$s is te groot om te uploaden naar Google Drive. Het is %2$s, maar de limiet voor dit type bestanden is %3$s. Mogelijk kun je het uploaden zonder te converteren naar een indeling voor Google Drive.</string>
     <string name="file_too_large_for_upload_okbtn">OK</string>
     <string name="file_too_large_for_upload_title">Kan niet uploaden</string>
     <string name="file_was_not_sent">Bestand niet gedeeld.</string>
@@ -992,17 +1001,8 @@ Klik op + om een nieuwe presentatie te maken."</string>
     <string name="manage_addons_playstore_link_description">Ga naar de Play Store voor %s</string>
     <string name="manage_members_default_members">Standaard kunnen leden bestanden uploaden/bewerken/verwijderen en andere leden uitnodigen</string>
     <string name="manage_members_dialog_title">Ledentoegang</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Opslag</string>
+    <string name="management_data_loading_failed">Kan deze pagina niet laden</string>
     <string name="member_count_max">99+</string>
     <string name="menu_backup">Back-ups</string>
     <string name="menu_copy_link">Link kopiëren</string>
@@ -1106,7 +1106,6 @@ Klik op + om een nieuwe presentatie te maken."</string>
     <string name="move_error_target_folder_not_exist">De doelmap bestaat niet.</string>
     <string name="move_notice_lost_access_shared_folders">Items verplaatst uit gedeelde map. Leden zijn toegang kwijt.</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s %2$s heeft nu geen toegang meer.</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">1 item verplaatst uit Drive van mijn team.</string>
     <string name="move_notice_lost_access_team_drives">Items verplaatst uit Drive van mijn team.</string>
     <string name="mr_cast_button_connected">Cast-icoon. Verbonden</string>
     <string name="mr_cast_button_connecting">Cast-icoon. Verbinding maken</string>
@@ -1121,7 +1120,7 @@ Klik op + om een nieuwe presentatie te maken."</string>
     <string name="mr_controller_expand_group">Uitvouwen</string>
     <string name="mr_controller_no_info_available">Geen informatie beschikbaar</string>
     <string name="mr_controller_no_media_selected">Geen media geselecteerd</string>
-    <string name="mr_controller_pause">Onderbreken</string>
+    <string name="mr_controller_pause">Pauzeren</string>
     <string name="mr_controller_play">Afspelen</string>
     <string name="mr_controller_stop">Stoppen</string>
     <string name="mr_controller_stop_casting">Casten stoppen</string>
@@ -1161,7 +1160,7 @@ Klik op + om een nieuwe presentatie te maken."</string>
     <string name="no_scheduled_meetings">Geen geplande vergaderingen</string>
     <string name="no_team_drives_title">Geen Drives van mijn team</string>
     <string name="no_thanks">Nee, bedankt</string>
-    <string name="not_enough_storage_for_upload" formatted="false">Het bestand %1s is te groot om te uploaden naar Google Drive. Het is %2s maar je hebt maar %3s opslagruimte beschikbaar. Upgrade je opslag en probeer het opnieuw.</string>
+    <string name="not_enough_storage_for_upload">Het bestand %1$s is te groot om te uploaden naar Google Drive. Het is %2$s maar je hebt maar %3$s opslagruimte beschikbaar. Upgrade je opslag en probeer het opnieuw.</string>
     <string name="notification_channel_name_default">Standaard</string>
     <string name="notification_channel_name_high_priority">Hoge prioriteit</string>
     <string name="notification_channel_name_low_priority">Lage prioriteit</string>
@@ -1241,7 +1240,7 @@ Klik op + om een nieuwe presentatie te maken."</string>
     <string name="ouch_title_sawwrie">Sorry</string>
     <string name="overwrite_confirm_dialog_message">%1$s bestaat al. Overschrijven?</string>
     <string name="overwrite_confirm_dialog_positive_button_label">Overschrijven</string>
-    <string name="owner_not_user">Niet eigendom van %1$s</string>
+    <string name="owner_not_user">Geen eigendom van %1$s</string>
     <string name="owner_user">Eigendom van %1$s</string>
     <string name="page_1_description">Voer je taken uit met of zonder internetverbinding.</string>
     <string name="page_1_heading_editors">Presentaties onderweg</string>
@@ -1444,7 +1443,6 @@ Klik op + om een nieuwe presentatie te maken."</string>
     <string name="published_access_anyone">Iedereen mag de site na publicatie bekijken</string>
     <string name="published_access_domain">Iedereen binnen het domein %s mag de site na publicatie bekijken</string>
     <string name="published_access_select_people">Specifieke mensen mogen de site na publicatie bekijken</string>
-    <string name="published_disabled_append">uitgeschakeld,</string>
     <string name="published_message_for_anyone_can_edit">Omdat iedereen de site kan bewerken, kan iedereen de site na publicatie ook bekijken.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Omdat iedereen binnen het domein %1$s de site kan bewerken, kan iedereen binnen het domein %1$s de site na publicatie ook bekijken.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Omdat iedereen met de link de site kan bewerken, kan iedereen de site na publicatie ook bekijken.</string>
@@ -1558,7 +1556,7 @@ Klik op + om een nieuwe presentatie te maken."</string>
     <string name="punch_show_slide">Dia weergeven</string>
     <string name="punch_speaker_notes_title">Notities van spreker</string>
     <string name="punch_speakernotes_closed">Notities van spreker gesloten.</string>
-    <string name="punch_thor_invite_email_body" formatted="false">Toegangsgegevens:&lt;br> %s &lt;br> %s Pincode:%s</string>
+    <string name="punch_thor_invite_email_body">Toegangsgegevens:&lt;br> %1$s &lt;br> %2$s Pincode:%3$s</string>
     <string name="punctuation_period">.</string>
     <string name="purchase_dialog_how_storage_used">"De opslag wordt gedeeld door Gmail, Google Foto's en Google Drive"</string>
     <string name="purchase_dialog_manage">Opslagruimte beheren</string>
@@ -2018,6 +2016,7 @@ Klik op + om een nieuwe presentatie te maken."</string>
     <string name="suggestions_add_to_dictionary">Toevoegen aan woordenboek</string>
     <string name="suggestions_delete_text">Verwijderen</string>
     <string name="suggestions_popup_opened">Spellingsuggesties</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Synchronisatiefout in Google Presentaties</string>
     <string name="sync_more_error">Fout bij ophalen van extra items</string>
     <string name="sync_more_error_offline">Sommige documenten zijn mogelijk niet zichtbaar wanneer je offline bent.</string>
@@ -2050,7 +2049,7 @@ Klik op + om een nieuwe presentatie te maken."</string>
     <string name="team_drive_empty_list_message_cannot_create">Wanneer iemand je aan een Drive van mijn team toevoegt, wordt dat hier weergegeven.</string>
     <string name="team_drive_settings_title">Instellingen</string>
     <string name="team_drive_trash_welcome_snackbar">Items in de prullenbak van Drives van mijn team worden na 30 dagen definitief verwijderd.</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">%1$s, kop</string>
     <string name="template_category_education">Onderwijs</string>
     <string name="template_category_personal">Persoonlijk</string>
@@ -2124,6 +2123,8 @@ Klik op + om een nieuwe presentatie te maken."</string>
     <string name="unable_to_open_local_document_message">Het bestand is mogelijk verplaatst of verwijderd.</string>
     <string name="unable_to_open_local_document_title">Kan bestand op apparaat niet openen</string>
     <string name="unable_to_read_calendar_data">Kan de agenda niet opvragen</string>
+    <string name="unable_update_published_message">De instelling van de gepubliceerde site kan pas worden gewijzigd als de linkinstelling van de conceptsite is geüpdatet.</string>
+    <string name="unable_update_published_title">Kan instelling niet updaten</string>
     <string name="undeliverable_acl_changed_dialog_title">Je wijzigingen verwijderen en het document terugzetten?</string>
     <string name="undeliverable_changes_dialog_content">Je offline wijzigingen kunnen verloren gaan. Zorg ervoor dat je ze hebt gekopieerd naar het klembord.</string>
     <string name="undeliverable_changes_dialog_title">Problematische wijzigingen verwijderen en het document terugzetten?</string>
@@ -2225,7 +2226,9 @@ Klik op + om een nieuwe presentatie te maken."</string>
     <string name="upsave_dialog_title">Wijzigingen opslaan?</string>
     <string name="upsell_negbtn">Later</string>
     <string name="upsell_okbtn">Upgraden</string>
-    <string name="url_typo_error_msg">De link ziet er niet goed uit. Typefout?</string>
+    <string name="url_typo_error_msg">De link ziet er niet goed uit. Typfout?</string>
+    <string name="v7_preference_off">UIT</string>
+    <string name="v7_preference_on">AAN</string>
     <string name="verbalize_bulleted_list">opsommingsteken. %1$s</string>
     <string name="verbalize_numbered_list">%1$s. %2$s</string>
     <string name="verbalize_opened_edit">%1$s is geopend met bewerkingsrechten.</string>
@@ -2256,8 +2259,9 @@ Klik op + om een nieuwe presentatie te maken."</string>
     <string name="warm_welcome_next_button">Volgende</string>
     <string name="warm_welcome_skip_button">Overslaan</string>
     <string name="warning_cannot_share_outside_domain">Delen buiten %s is uitgeschakeld voor deze Drive van mijn team</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Delen met niet-leden en gebruikers buiten %s is uitgeschakeld voor deze Drive van mijn team</string>
     <string name="warning_cannot_share_outside_domain_org">Delen buiten de organisatie is uitgeschakeld voor deze organisatie</string>
-    <string name="warning_cannot_share_outside_team_drive">Delen buiten het team is uitgeschakeld voor deze Drive van mijn team</string>
+    <string name="warning_cannot_share_outside_team_drive">Delen met niet-leden is uitgeschakeld voor deze Drive van mijn team</string>
     <string name="welcome_button_close">Ga naar Presentaties</string>
     <string name="welcome_button_continue">Volgende</string>
     <string name="welcome_offer_button_close">Sluiten</string>

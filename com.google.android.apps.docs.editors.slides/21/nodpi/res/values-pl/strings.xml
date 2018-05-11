@@ -83,7 +83,7 @@
     <string name="action_card_move_trashed">Przenieś</string>
     <string name="action_card_remove">Usuń</string>
     <string name="action_card_remove_permanently">Usuń na zawsze</string>
-    <string name="action_card_remove_td_item">Usuń dla wszystkich</string>
+    <string name="action_card_remove_td_item">Usuń u wszystkich</string>
     <string name="action_card_rename">Zmień nazwę</string>
     <string name="action_card_share">Dodaj osoby</string>
     <string name="action_card_share_link">Udostępnij link</string>
@@ -475,6 +475,7 @@ Tej czynności nie można cofnąć."</string>
     <string name="dialog_td_will_disappear">Wszyscy utracą dostęp do Dysku zespołu. Tej czynności nie można cofnąć.</string>
     <string name="dialog_td_will_disappear_files_in_trash">Pliki z tego Dysku zespołu znajdują się w koszu dysku „%1$s” i nikt nie będzie mógł ich przywrócić. Wszyscy utracą dostęp do tego Dysku zespołu. Tej czynności nie można cofnąć.</string>
     <string name="did_you_mean">Czy chodziło Ci o: %1$s</string>
+    <string name="disabled_append">wyłączono,</string>
     <string name="discussion_accept">Akceptuj</string>
     <string name="discussion_acl_fix_access_role_commenter">Może komentować</string>
     <string name="discussion_acl_fix_access_role_writer">Może edytować</string>
@@ -585,11 +586,11 @@ Tej czynności nie można cofnąć."</string>
     <string name="doclist_date_never_label">Nigdy</string>
     <string name="doclist_date_opened_label">Otwarte przeze mnie: %s</string>
     <string name="doclist_date_shared_label">Udostępnione: %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s · %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s · %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">Przesłane przeze mnie: %s</string>
     <string name="doclist_detail_fragment_content_description">Pokaż właściwości elementu</string>
-    <string name="doclist_entry_content_description" formatted="false">%s %s</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s %s kolor:%s</string>
+    <string name="doclist_entry_content_description">%1$s %2$s</string>
+    <string name="doclist_entry_content_description_with_color">%1$s %2$s kolor:%3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">Otwórz panel nawigacji</string>
     <string name="doclist_quota_used_label">Zajmowane miejsce: %s</string>
     <string name="doclist_selected_show_preview">Pokaż podgląd</string>
@@ -679,6 +680,8 @@ Tej czynności nie można cofnąć."</string>
     <string name="draft_options_dialog_title">Ustawienia wersji roboczej witryny</string>
     <string name="draft_permission_change_anyone_warning">Zmiana na to ustawienie wersji roboczej witryny sprawi, że każdy będzie mógł wyświetlić tę witrynę po jej opublikowaniu.</string>
     <string name="draft_permission_change_domain_warning">Zmiana na to ustawienie wersji roboczej witryny sprawi, że każdy w domenie %s będzie mógł wyświetlić tę witrynę po jej opublikowaniu.</string>
+    <string name="draft_permission_downgrade_domain_warning">Jeśli zmienisz to ustawienie wersji roboczej witryny, link do opublikowanej witryny będzie widoczny tylko dla osób w domenie %1$s</string>
+    <string name="draft_permission_downgrade_specific_warning">Jeśli zmienisz to ustawienie wersji roboczej witryny, link do opublikowanej witryny będzie widoczny tylko dla określonych osób</string>
     <string name="drive_file_stream_disabled">Nie zezwalaj na otwieranie plików na tym Dysku zespołu przy użyciu Transmisji plików z Dysku i podobnych aplikacji</string>
     <string name="drive_file_stream_enabled">Zezwalaj na otwieranie plików na tym Dysku zespołu przy użyciu Transmisji plików z Dysku i podobnych aplikacji</string>
     <string name="drive_file_stream_title">Transmisja plików z Dysku</string>
@@ -721,7 +724,7 @@ Możesz teraz przesłać pliki."</string>
     <string name="empty_doclist_for_pinned_view_details">Włącz „dostęp offline” do plików w menu opcji</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Kliknij „Dostępny offline” w menu pliku, aby móc go edytować, gdy urządzenie nie będzie połączone z internetem.</string>
     <string name="empty_doclist_for_recent_view">Brak plików niedawno otwieranych lub edytowanych.</string>
-    <string name="empty_doclist_for_search_view">Brak wyników.</string>
+    <string name="empty_doclist_for_search_view">Brak wyników</string>
     <string name="empty_doclist_for_shared_with_me_view">Tu będą widoczne udostępnione Ci pliki.</string>
     <string name="empty_doclist_for_starred_view">Brak plików oznaczonych gwiazdką.</string>
     <string name="empty_doclist_for_starred_view_details">Aby dodać plik do tej listy, kliknij ikonę gwiazdki w jego opcjach.</string>
@@ -772,6 +775,7 @@ Kliknij +, aby utworzyć nową prezentację."</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">i %1$d innych użytkowników.</string>
     <string name="exit_multiselect_mode_button">Wyłącz tryb wielokrotnego wyboru</string>
+    <string name="expand_button_title">Zaawansowane</string>
     <string name="expires_future">Wygasa za %1$s</string>
     <string name="expires_today">Wygasa dzisiaj</string>
     <string name="export_download_error_title">Błąd pobierania</string>
@@ -788,6 +792,11 @@ Kliknij +, aby utworzyć nową prezentację."</string>
     <string name="fab_office_document">Nowy plik PowerPointa</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Wyniki wyszukiwania</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Starsze</string>
     <string name="fast_scroll_time_grouper_last_week">W zeszłym tygodniu</string>
     <string name="fast_scroll_time_grouper_this_month">W tym miesiącu</string>
@@ -816,7 +825,7 @@ Kliknij +, aby utworzyć nową prezentację."</string>
     <string name="file_picker_select_a_folder_heading">Wybierz folder</string>
     <string name="file_picker_select_button">Wybierz</string>
     <string name="file_picker_storage_permissions_denied_toast">Nie zezwolono na dostęp do pamięci lokalnej.</string>
-    <string name="file_too_large_for_upload" formatted="false">Plik %1s o rozmiarze %2s jest za duży, aby można go było przesłać na Dysk Google. Limit dla tego typu plików wynosi %3s. Być może uda Ci się przesłać ten plik bez konwertowania go na format Dysku Google.</string>
+    <string name="file_too_large_for_upload">Plik %1$s o rozmiarze %2$s jest za duży, aby można go było przesłać na Dysk Google. Limit dla tego typu plików wynosi %3$s. Być może uda Ci się przesłać ten plik bez konwertowania go na format Dysku Google.</string>
     <string name="file_too_large_for_upload_okbtn">OK</string>
     <string name="file_too_large_for_upload_title">Nie można przesłać pliku</string>
     <string name="file_was_not_sent">Plik nie jest udostępniony.</string>
@@ -992,17 +1001,8 @@ Kliknij +, aby utworzyć nową prezentację."</string>
     <string name="manage_addons_playstore_link_description">Otwórz stronę dodatku %s w Sklepie Play</string>
     <string name="manage_members_default_members">Domyślnie użytkownicy mogą przesyłać, edytować i usuwać pliki oraz zapraszać inne osoby</string>
     <string name="manage_members_dialog_title">Uprawnienia użytkowników</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Pamięć</string>
+    <string name="management_data_loading_failed">Nie udało się wczytać tej strony</string>
     <string name="member_count_max">Ponad 99</string>
     <string name="menu_backup">Kopie zapasowe</string>
     <string name="menu_copy_link">Kopiuj link</string>
@@ -1106,15 +1106,14 @@ Kliknij +, aby utworzyć nową prezentację."</string>
     <string name="move_error_target_folder_not_exist">Folder docelowy nie istnieje.</string>
     <string name="move_notice_lost_access_shared_folders">Elementy przeniesiono z udostępnionego folderu.</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s Zespół „%2$s” utracił dostęp.</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">Element przeniesiono z Dysku zespołu.</string>
     <string name="move_notice_lost_access_team_drives">Elementy przeniesiono z Dysku zespołu.</string>
-    <string name="mr_cast_button_connected">Przycisk Prześlij ekran. Połączono</string>
-    <string name="mr_cast_button_connecting">Przycisk Prześlij ekran. Łączę</string>
-    <string name="mr_cast_button_disconnected">Przycisk Prześlij ekran. Rozłączono</string>
+    <string name="mr_cast_button_connected">Przycisk Cast. Połączono</string>
+    <string name="mr_cast_button_connecting">Przycisk Cast. Łączę</string>
+    <string name="mr_cast_button_disconnected">Przycisk Cast. Rozłączono</string>
     <string name="mr_chooser_searching">Znajdowanie urządzeń</string>
     <string name="mr_chooser_title">Przesyłaj na</string>
     <string name="mr_controller_album_art">Okładka albumu</string>
-    <string name="mr_controller_casting_screen">Przesyłam ekran</string>
+    <string name="mr_controller_casting_screen">Przesyłanie ekranu</string>
     <string name="mr_controller_close_description">Zamknij</string>
     <string name="mr_controller_collapse_group">Zwiń</string>
     <string name="mr_controller_disconnect">Odłącz</string>
@@ -1161,7 +1160,7 @@ Kliknij +, aby utworzyć nową prezentację."</string>
     <string name="no_scheduled_meetings">Brak zaplanowanych spotkań</string>
     <string name="no_team_drives_title">Brak Dysków zespołu</string>
     <string name="no_thanks">Nie, dziękuję</string>
-    <string name="not_enough_storage_for_upload" formatted="false">Plik %1s jest za duży, aby można go było przesłać na Dysk Google. Zajmuje %2s, a masz tylko %3s wolnego miejsca. Kup więcej miejsca i spróbuj jeszcze raz.</string>
+    <string name="not_enough_storage_for_upload">Plik %1$s jest za duży, aby można go było przesłać na Dysk Google. Zajmuje %2$s, a masz tylko %3$s wolnego miejsca. Kup więcej miejsca i spróbuj jeszcze raz.</string>
     <string name="notification_channel_name_default">Domyślne</string>
     <string name="notification_channel_name_high_priority">Wysoki priorytet</string>
     <string name="notification_channel_name_low_priority">Niski priorytet</string>
@@ -1444,7 +1443,6 @@ Kliknij +, aby utworzyć nową prezentację."</string>
     <string name="published_access_anyone">Każdy może wyświetlić opublikowaną wersję</string>
     <string name="published_access_domain">Każda osoba w domenie %s może wyświetlić opublikowaną wersję</string>
     <string name="published_access_select_people">Określone osoby mogą wyświetlić opublikowaną wersję</string>
-    <string name="published_disabled_append">wyłączono,</string>
     <string name="published_message_for_anyone_can_edit">Każdy może edytować witrynę, więc po jej opublikowaniu każdy będzie mógł ją wyświetlić.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Każda osoba w domenie %1$s może edytować plik, więc po jego opublikowaniu każda osoba w domenie %1$s będzie mogła go wyświetlić.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Każda osoba mająca link może edytować witrynę, więc po jej opublikowaniu każdy będzie mógł ją wyświetlić.</string>
@@ -1558,7 +1556,7 @@ Kliknij +, aby utworzyć nową prezentację."</string>
     <string name="punch_show_slide">Pokaż slajd</string>
     <string name="punch_speaker_notes_title">Notatki</string>
     <string name="punch_speakernotes_closed">Notatki zostały zamknięte.</string>
-    <string name="punch_thor_invite_email_body" formatted="false">Informacje o dostępie:&lt;br> %s &lt;br> %s Kod PIN:%s</string>
+    <string name="punch_thor_invite_email_body">Informacje o dostępie:&lt;br> %1$s &lt;br> %2$s Kod PIN:%3$s</string>
     <string name="punctuation_period">.</string>
     <string name="purchase_dialog_how_storage_used">Miejsce jest współużytkowane przez Gmaila, Zdjęcia Google i Dysk Google</string>
     <string name="purchase_dialog_manage">Zarządzaj miejscem na Dysku</string>
@@ -1590,12 +1588,12 @@ Kliknij +, aby utworzyć nową prezentację."</string>
     <string name="remove_collection">Przenieść do kosza?</string>
     <string name="remove_collection_shared">Usunąć z widoku?</string>
     <string name="remove_dialog_confirm_delete_button">Usuń na zawsze</string>
-    <string name="remove_dialog_confirm_delete_for_everyone_button">Usuń dla wszystkich</string>
+    <string name="remove_dialog_confirm_delete_for_everyone_button">Usuń u wszystkich</string>
     <string name="remove_dialog_delete_different_permissions_files">Masz różne uprawnienia do tych plików. Niektóre pliki zostaną przeniesione do kosza, a po 30 dniach zostaną usunięte na zawsze. Inne zostaną od razu usunięte.</string>
     <string name="remove_dialog_delete_different_permissions_folders">Masz różne uprawnienia do tych folderów. Niektóre foldery zostaną przeniesione do kosza, a po 30 dniach zostaną usunięte na zawsze. Inne zostaną od razu usunięte.</string>
     <string name="remove_dialog_delete_different_permissions_items">Masz różne uprawnienia do tych elementów. Niektóre elementy zostaną przeniesione do kosza, a po 30 dniach zostaną usunięte na zawsze. Inne zostaną od razu usunięte.</string>
     <string name="remove_dialog_delete_different_permissions_title">Tylko niektóre elementy zostaną usunięte</string>
-    <string name="remove_dialog_delete_for_everyone_title">Usunąć dla wszystkich?</string>
+    <string name="remove_dialog_delete_for_everyone_title">Usunąć u wszystkich?</string>
     <string name="remove_dialog_delete_permanently_for_everyone_text_single">Plik zostanie &lt;b>trwale usunięty dla wszystkich użytkowników.&lt;/b> Tej czynności nie można cofnąć.</string>
     <string name="remove_dialog_delete_permanently_text_single">Plik zostanie trwale usunięty. Tej czynności nie można cofnąć.</string>
     <string name="remove_dialog_delete_permanently_title">Usunąć?</string>
@@ -2018,6 +2016,7 @@ Kliknij +, aby utworzyć nową prezentację."</string>
     <string name="suggestions_add_to_dictionary">Dodaj do słownika</string>
     <string name="suggestions_delete_text">Usuń</string>
     <string name="suggestions_popup_opened">Propozycje pisowni</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Błąd synchronizacji Prezentacji Google</string>
     <string name="sync_more_error">Podczas pobierania kolejnych elementów wystąpił błąd</string>
     <string name="sync_more_error_offline">Niektóre dokumenty mogą być niewidoczne, gdy jesteś offline.</string>
@@ -2050,7 +2049,7 @@ Kliknij +, aby utworzyć nową prezentację."</string>
     <string name="team_drive_empty_list_message_cannot_create">Gdy ktoś doda Cię do Dysku zespołu, zobaczysz go tutaj.</string>
     <string name="team_drive_settings_title">Ustawienia</string>
     <string name="team_drive_trash_welcome_snackbar">Elementy w koszu Dysku zespołu są trwale usuwane po 30 dniach.</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">%1$s, nagłówek</string>
     <string name="template_category_education">Edukacja</string>
     <string name="template_category_personal">Osobiste</string>
@@ -2124,6 +2123,8 @@ Kliknij +, aby utworzyć nową prezentację."</string>
     <string name="unable_to_open_local_document_message">Plik prawdopodobnie został przeniesiony lub usunięty.</string>
     <string name="unable_to_open_local_document_title">Nie można otworzyć pliku zapisanego na urządzeniu</string>
     <string name="unable_to_read_calendar_data">Nie udało się wysłać zapytania do kalendarza</string>
+    <string name="unable_update_published_message">Ustawienia opublikowanej witryny nie można zmienić, dopóki nie zostanie zmienione ustawienie linku do wersji roboczej</string>
+    <string name="unable_update_published_title">Nie można zmienić ustawień</string>
     <string name="undeliverable_acl_changed_dialog_title">Usunąć zmiany i przywrócić dokument?</string>
     <string name="undeliverable_changes_dialog_content">Zmiany wprowadzone w trybie offline mogą zostać utracone. Upewnij się, że zostały skopiowane do schowka.</string>
     <string name="undeliverable_changes_dialog_title">Usunąć problematyczne zmiany i przywrócić dokument?</string>
@@ -2226,6 +2227,8 @@ Kliknij +, aby utworzyć nową prezentację."</string>
     <string name="upsell_negbtn">Później</string>
     <string name="upsell_okbtn">Kup więcej miejsca</string>
     <string name="url_typo_error_msg">Link nie wygląda na poprawny. Przyczyną może być literówka.</string>
+    <string name="v7_preference_off">WYŁ.</string>
+    <string name="v7_preference_on">WŁ.</string>
     <string name="verbalize_bulleted_list">punktor. %1$s</string>
     <string name="verbalize_numbered_list">%1$s. %2$s</string>
     <string name="verbalize_opened_edit">Otwarto plik %1$s z uprawnieniami do edytowania.</string>
@@ -2256,6 +2259,7 @@ Kliknij +, aby utworzyć nową prezentację."</string>
     <string name="warm_welcome_next_button">Dalej</string>
     <string name="warm_welcome_skip_button">Pomiń</string>
     <string name="warning_cannot_share_outside_domain">Ustawienia tego Dysku zespołu uniemożliwiają udostępnianie plików poza domenę %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Ustawienia tego Dysku zespołu uniemożliwiają udostępnianie plików użytkownikom spoza zespołu i domeny %s</string>
     <string name="warning_cannot_share_outside_domain_org">Ustawienia tej organizacji uniemożliwiają udostępnianie plików poza organizację.</string>
     <string name="warning_cannot_share_outside_team_drive">Ustawienia tego Dysku zespołu uniemożliwiają udostępnianie plików użytkownikom spoza zespołu</string>
     <string name="welcome_button_close">Otwórz Prezentacje</string>
@@ -2276,25 +2280,25 @@ Kliknij +, aby utworzyć nową prezentację."</string>
     <string name="write_access_denied">Odmowa zapisu w dokumencie.</string>
     <string name="zss_accessibility_searching">Szukam: %1$s</string>
     <string name="zss_date_range_header_title">Data modyfikacji</string>
-    <string name="zss_date_range_month">Ostatnie 30 dni</string>
-    <string name="zss_date_range_three_month">Ostatnie 90 dni</string>
-    <string name="zss_date_range_today">Dzisiaj</string>
-    <string name="zss_date_range_week">Ostatnie 7 dni</string>
+    <string name="zss_date_range_month">Ostatnie 30 dni</string>
+    <string name="zss_date_range_three_month">Ostatnie 90 dni</string>
+    <string name="zss_date_range_today">Dziś</string>
+    <string name="zss_date_range_week">Ostatnie 7 dni</string>
     <string name="zss_date_range_yesterday">Wczoraj</string>
     <string name="zss_entry_types_header_title">Typy plików</string>
     <string name="zss_no_filters">Brak filtrów</string>
-    <string name="zss_owner_header_title">Należące do:</string>
+    <string name="zss_owner_header_title">Należące do</string>
     <string name="zss_owner_me">Należące do mnie</string>
     <string name="zss_owner_not_me">Nienależące do mnie</string>
     <string name="zss_people_header_title">Osoby</string>
     <string name="zss_showing_list_of_filters">Wyświetlana jest lista dostępnych filtrów.</string>
     <string name="zss_team_drive">Szukaj na Dysku zespołu %1$s</string>
-    <string name="zss_type_archive">Archiwum</string>
-    <string name="zss_type_audio">Audio</string>
+    <string name="zss_type_archive">Archiwa</string>
+    <string name="zss_type_audio">Pliki dźwiękowe</string>
     <string name="zss_type_documents">Dokumenty tekstowe</string>
     <string name="zss_type_folder">Foldery</string>
-    <string name="zss_type_images">Zdjęcia/obrazy</string>
-    <string name="zss_type_pdfs">Pliki PDF</string>
+    <string name="zss_type_images">Zdjęcia i obrazy</string>
+    <string name="zss_type_pdfs">PDF-y</string>
     <string name="zss_type_presentations">Prezentacje</string>
     <string name="zss_type_spreadsheets">Arkusze kalkulacyjne</string>
     <string name="zss_type_video">Filmy</string>

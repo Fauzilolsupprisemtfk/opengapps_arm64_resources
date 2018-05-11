@@ -91,6 +91,8 @@
     <string name="add_collaborators_acl_list_title">អ្នក​ដែល​អាច​ចូលប្រើប្រាស់​បាន</string>
     <string name="add_collaborators_send_button_content_desc">បញ្ជាក់​ការ​ចែក​រំលែក​ និង​ផ្ញើ​ទៅ​​អ្នក​សហការ</string>
     <string name="add_collaborators_textbox_title">មនុស្ស</string>
+    <string name="add_confirm_dialog_message_share_files_and_folders">ការបញ្ចូល​ឯកសារ និង​ថត​ទាំង​នេះ​នឹង​ចែករំលែក​ពួកវា​ជាមួយ​អ្នក​គ្រប់គ្នា​ដែល​អាច​ចូល​ប្រើប្រាស់​ថត​ %1$s ដែល​បាន​ចែករំលែក</string>
+    <string name="add_confirm_dialog_title_share_files_and_folders">ចែករំលែក​ឯកសារ និង​ថត​ទាំង​នេះ​ដែរ​ឬ​ទេ?</string>
     <string name="add_members_acl_list_title">សមាជិក %1$s</string>
     <string name="add_members_dialog_title">បញ្ចូល​សមាជិក​ថ្មី</string>
     <string name="add_members_send_button_content_desc">បញ្ជាក់ការបន្ថែមសមាជិក និងផ្ញើទៅសមាជិក</string>
@@ -457,6 +459,7 @@
     <string name="dialog_td_will_disappear">ថាស​ក្រុម​នេះ​នឹង​បាត់​ពី​អ្នក​គ្រប់គ្នា រួច​ហើយ​អ្នក​មិន​អាច​មិន​ធ្វើ​សកម្មភាព​នេះ​វិញ​បាន​ទេ។</string>
     <string name="dialog_td_will_disappear_files_in_trash">ឯកសារ​ពី​ថាស​ក្រុម​នេះ​ស្ថិត​នៅ​ក្នុង​ធុងសំរាម \"%1$s\" និង​មិន​មាន​អ្នក​ប្រើប្រាស់​ណា​ម្នាក់​អាច​ស្ដារ​ឯកសារ​ទាំងនេះ​វិញ​បាន​ទេ។ ថាស​ក្រុម​នេះ​នឹង​បាត់​ពី​អ្នក​គ្រប់​គ្នា រួច​ហើយ​​អ្នក​មិន​អាច​មិន​ធ្វើ​សកម្មភាព​នេះ​វិញ​បាន​ទេ។</string>
     <string name="did_you_mean">តើ​អ្នក​ចង់​និយាយ៖ %1$s</string>
+    <string name="disabled_append">បាន​បិទ</string>
     <string name="discussion_accept">យល់ព្រម</string>
     <string name="discussion_acl_fix_access_role_commenter">អាច​បញ្ចេញមតិ</string>
     <string name="discussion_acl_fix_access_role_writer">អាច​កែ​សម្រួល</string>
@@ -567,11 +570,11 @@
     <string name="doclist_date_never_label">កុំឱ្យសោះ</string>
     <string name="doclist_date_opened_label">បាន​បើក​ដោយ​ខ្ញុំ៖ %s</string>
     <string name="doclist_date_shared_label">បាន​ចែករំលែក៖ %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s · %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s · %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">បាន​បង្ហោះ​​ដោយ​ខ្ញុំ៖ %s</string>
     <string name="doclist_detail_fragment_content_description">បង្ហាញ​លក្ខណៈ​របស់​ធាតុ</string>
-    <string name="doclist_entry_content_description" formatted="false">%s %s</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s %s ពណ៌៖%s</string>
+    <string name="doclist_entry_content_description">%1$s %2$s</string>
+    <string name="doclist_entry_content_description_with_color">%1$s %2$s ពណ៌៖%3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">បិទ​ការ​រុករ​ក​ផ្ទាំង​បញ្ជី​កម្មវិធី</string>
     <string name="doclist_quota_used_label">ទំហំ​ផ្ទុក​បាន​ប្រើ៖%s</string>
     <string name="doclist_selected_show_preview">បង្ហាញ​ការ​មើល​ជាមុន</string>
@@ -635,6 +638,7 @@
     <string name="download_message_download_manager_disabled">បើកកម្មវិធី​គ្រប់គ្រង​ការ​ទាញ​យក​ដើម្បី​ទាញ​យក</string>
     <string name="download_message_download_manager_enable">បើក</string>
     <string name="download_message_download_manager_unavailable">មិន​អាច​ទាញ​យក​​បាន​ទេ។ កម្មវិធី​គ្រប់គ្រង​ការ​ទាញ​យកមិន​អាច​ប្រើប្រាស់​បាន</string>
+    <string name="download_message_failures">ធាតុ %1$d នៃ %2$d នឹង​ត្រូវ​បាន​ទាញ​យក។ មើល​ការ​ជូន​ដំណឹង​សម្រាប់​ព័ត៌មាន​លម្អិត</string>
     <string name="download_notification_complete_text">បាន​ទាញ​យក, %1$s</string>
     <string name="download_notification_error_already_exists">ឯកសារ​មាន​រួច​ហើយ</string>
     <string name="download_notification_error_cannot_resume">មិន​អាច​បន្ត​ការ​ទាញ​យក</string>
@@ -661,6 +665,8 @@
     <string name="draft_options_dialog_title">ការកំណត់​ទំព័រ​ព្រាង</string>
     <string name="draft_permission_change_anyone_warning">ការផ្លាស់​ប្ដូរ​ទៅ​លើ​ការកំណត់​ទំព័រ​ព្រាង​នេះ​នឹង​អនុញ្ញាត​ឱ្យ​គ្រប់​គ្នា​មើល​បាន នៅ​ពេល​បោះពុម្ព​ផ្សាយ។</string>
     <string name="draft_permission_change_domain_warning">ការផ្លាស់​ប្ដូរ​ទៅ​លើ​ការកំណត់​ទំព័រ​ព្រាង​នេះ​នឹង​អនុញ្ញាត​ឱ្យ​គ្រប់​គ្នានៅ​ក្នុង %s ​មើល​បាន នៅ​ពេល​បោះពុម្ព​ផ្សាយ។</string>
+    <string name="draft_permission_downgrade_domain_warning">ការផ្លាស់ប្ដូរ​ការកំណត់​ទំព័រ​ព្រាង​នេះ​នឹង​ធ្វើ​ឱ្យមានតែ %1$s ប៉ុណ្ណោះ ទើប​អាច​មើល​តំណ​ភ្ជាប់​ដែល​បាន​បោះផ្សាយ</string>
+    <string name="draft_permission_downgrade_specific_warning">ការផ្លាស់ប្ដូរ​ការកំណត់​ទំព័រ​ព្រាង​នេះ​នឹង​ធ្វើ​ឱ្យ​មានតែមនុស្ស​ជាក់លាក់​ប៉ុណ្ណោះ ទើប​អាច​មើល​តំណ​ភ្ជាប់​ដែល​បាន​បោះផ្សាយ</string>
     <string name="drive_file_stream_disabled">ការពារ​មនុស្ស​មិន​ឲ្យ​បើក​ឯកសារ​នៅ​ក្នុង​ថាស​ក្រុម​នេះ ដោយ​ប្រើប្រាស់ Drive File Stream ឬ​កម្មវិធី​ដែល​ស្រដៀង​គ្នា</string>
     <string name="drive_file_stream_enabled">អនុញ្ញាត​ឲ្យ​មនុស្ស​បើក​ឯកសារ​នៅ​ក្នុង​ថាស​ក្រុម​នេះ ដោយ​ប្រើប្រាស់ Drive File Stream ឬ​កម្មវិធី​ដែល​ស្រដៀង​គ្នា</string>
     <string name="drive_file_stream_title">Drive File Stream</string>
@@ -702,7 +708,7 @@
     <string name="empty_doclist_for_pinned_view_details">ធ្វើ​ឲ្យ​ឯកសារ \"អាច​ប្រើ​បាន​ក្រៅ​អ៊ីនធឺណិត\" នៅ​​ក្នុង​ម៉ឺនុយ​ជម្រើស​របស់​ឯកសារ</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">ប៉ះ \"អាច​ប្រើ​បាន​ក្រៅ​អ៊ីនធឺណិត\" នៅ​ក្នុង​ម៉ឺនុយ​របស់​ឯកសារ ដូច្នេះ​អ្នក​អាច​​បន្ត​ធ្វើការ​លើ​វា​ដោយ​គ្មាន​អ៊ីនធឺណីត។</string>
     <string name="empty_doclist_for_recent_view">គ្មាន​​​ឯកសារ​ដែល​ទើប​តែ​បាន​បើក​ ​ឬ​​កែសម្រួល​ទេ។</string>
-    <string name="empty_doclist_for_search_view">គ្មាន​លទ្ធផល។</string>
+    <string name="empty_doclist_for_search_view">គ្មាន​លទ្ធផល</string>
     <string name="empty_doclist_for_shared_with_me_view">ឯកសារ​ដែល​បាន​ចែក​រំលែក​ជាមួយ​អ្នក​នឹង​លេចឡើង​នៅ​ទីនេះ។</string>
     <string name="empty_doclist_for_starred_view">អ្នក​មិន​មាន​ឯកសារ ដែល​​​បាន​ដាក់​ផ្កាយ​ទេ។</string>
     <string name="empty_doclist_for_starred_view_details">ចុចលើ​រូបផ្កាយ​ក្នុង​ម៉ឺនុយ​ជម្រើស​របស់ឯកសារ​ ដើម្បី​បញ្ចូល​វាទៅក្នុង​បញ្ជីនេះ។</string>
@@ -753,14 +759,15 @@
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d ផ្សេង​ទៀត។</string>
     <string name="exit_multiselect_mode_button">ចេញ​ពី​របៀប​ជ្រើស​ច្រើន</string>
+    <string name="expand_button_title">កម្រិតខ្ពស់</string>
     <string name="expires_future">ផុត​កំណត់​ក្នុង​រយៈពេល %1$s</string>
     <string name="expires_today">ផុត​កំណត់​​នៅ​ថ្ងៃ​នេះ</string>
     <string name="export_download_error_title">កំហុស​ទាញ​យក</string>
     <string name="export_error_message">មាន​បញ្ហា​មួយ​បាន​កើតឡើង។</string>
     <string name="export_error_message_network">កំហុស​ពេល​បញ្ជូន​​បាន​កើត​ឡើង​​។ សូម​ពិនិត្យ​មើល​ការ​​ភ្ជាប់​បណ្ដាញ​របស់​អ្នក​។</string>
     <string name="export_error_message_server">កំហុស​ពេល​បម្លែង​បាន​​កើត​ឡើង​។ សូម​ព្យាយាម​ម្ដង​ទៀត​នៅ​ពេល​ក្រោយ​។</string>
-    <string name="export_failure_notification_content">មិន​អាច​រក្សាទុក \"%1$s\"</string>
-    <string name="export_notification_content">កំពុង​រក្សាទុក \"%1$s\"...</string>
+    <string name="export_failure_notification_content">មិន​អាច​រក្សាទុក \"%1$s\" បាន​ទេ</string>
+    <string name="export_notification_content">កំពុង​រក្សាទុក \"%1$s\"…</string>
     <string name="exporting_start_msg">កំពុង​រៀបចំ​​​​នាំ​ចេញ...</string>
     <string name="fab_choose_template">ជ្រើស​ពុម្ព​គំរូ</string>
     <string name="fab_google_document">ឯកសារ​ស្លាយ​​​ថ្មី</string>
@@ -769,6 +776,11 @@
     <string name="fab_office_document">ឯកសារ PowerPoint ថ្មី</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">លទ្ធផល​ស្វែងរក</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">ចាស់</string>
     <string name="fast_scroll_time_grouper_last_week">សប្ដាហ៍​មុន</string>
     <string name="fast_scroll_time_grouper_this_month">ដើម​ខែ​នេះ</string>
@@ -797,7 +809,7 @@
     <string name="file_picker_select_a_folder_heading">ជ្រើសរើស​​ថត</string>
     <string name="file_picker_select_button">ជ្រើសរើស</string>
     <string name="file_picker_storage_permissions_denied_toast">មិន​បាន​ផ្ដល់​ការ​អនុញ្ញាត​ដើម្បី​ចូល​ដំណើរការ​ទំហំ​ផ្ទុក​ក្នុង​តំបន់​​ទេ។</string>
-    <string name="file_too_large_for_upload" formatted="false">ឯកសារ %1s​ ​ធំ​ពេក​ក្នុង​ការ​ផ្ទុក​ឡើង​ទៅ​ ​Google​ ថាស​។ វា​មាន​ទំហំ ​%2s ​តែ​ទំហំ​កំណត់​សម្រាប់​ប្រភេទ​ឯកសារ​នេះ​ គឺ%3s។ ​អ្នក​គួរ​តែ​អាច​ផ្ទុក​ឯកសារ​នេះ​ឡើង ដោយ​​មិន​ចាំបាច់​បំប្លែង​​​វា​ទៅ​ជា​ទម្រង់​ Google Drive ទេ​​។</string>
+    <string name="file_too_large_for_upload">ឯកសារ %1$s​ ​ធំ​ពេក​ក្នុង​ការ​ផ្ទុក​ឡើង​ទៅ​ ​Google​ ថាស​។ វា​មាន​ទំហំ ​%2$s ​តែ​ទំហំ​កំណត់​សម្រាប់​ប្រភេទ​ឯកសារ​នេះ​ គឺ%3$s។ ​អ្នក​គួរ​តែ​អាច​ផ្ទុក​ឯកសារ​នេះ​ឡើង ដោយ​​មិន​ចាំបាច់​បំប្លែង​​​វា​ទៅ​ជា​ទម្រង់​ Google Drive ទេ​​។</string>
     <string name="file_too_large_for_upload_okbtn">យល់ព្រម</string>
     <string name="file_too_large_for_upload_title">មិន​អាច​បង្ហោះ​បាន​ទេ</string>
     <string name="file_was_not_sent">ឯកសារ​មិន​បាន​ចែករំលែក។</string>
@@ -957,17 +969,8 @@
     <string name="make_copy_spinner_message">កំពុង​ចម្លង...</string>
     <string name="manage_members_default_members">តាម​លំនាំដើម សមាជិក​អាច​បង្ហោះ/កែ/លុប​ឯកសារ និង​អញ្ជើញ​សមាជិក​ផ្សេង​បាន</string>
     <string name="manage_members_dialog_title">ការ​ចូល​ប្រើប្រាស់​របស់​សមាជិក</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">ទំហំផ្ទុក</string>
+    <string name="management_data_loading_failed">មិនអាចផ្ទុកទំព័រនេះបានទេ</string>
     <string name="member_count_max">99+</string>
     <string name="menu_backup">ការបម្រុងទុក</string>
     <string name="menu_copy_link">ចម្លង​តំណ</string>
@@ -1048,11 +1051,13 @@
     <string name="move_confirm_dialog_message_protected_td_domain">ថាស​ក្រុម​នេះ​មាន​ការដាក់​កំហិត​បន្ថែម​​លើ​វា។ មនុស្ស​ដែល​នៅ​​ក្រៅ %1$s នឹង​មិន​អាច​ចូល​ប្រើប្រាស់​បាន​ទេ។</string>
     <string name="move_confirm_dialog_message_protected_td_domain_and_td_members">ថាស​ក្រុម​នេះ​មាន​ការដាក់​កំហិត​បន្ថែម​​លើ​វា។ មនុស្ស​ដែល​នៅ​​ក្រៅ %1$s និង​អ្នក​ដែល​មិន​មែន​ជា​សមាជិក​ថាស​ក្រុម នឹង​មិន​អាច​ចូល​ប្រើប្រាស់​បាន​ទេ។</string>
     <string name="move_confirm_dialog_message_protected_td_team_members">ថាស​ក្រុម​នេះ​មាន​ការដាក់​កំហិត​បន្ថែម​លើ​វា។ អ្នក​ដែល​មិន​មែន​ជា​សមាជិក​ថាស​ក្រុម នឹង​មិន​អាច​ចូលប្រើប្រាស់​បាន​ទេ។</string>
+    <string name="move_confirm_dialog_message_share_files_and_folders">ការ​ផ្លាស់ទី​ឯកសារ​ និង​ថត​ទាំងនេះ​នឹង​ចែក​រំលែក​ពួកវា​ជាមួយ​អ្នក​គ្រប់​គ្នា​ដែល​អាច​ចូល​ប្រើប្រាស់​ថត %1$s ដែល​បាន​ចែក​រំលែក</string>
     <string name="move_confirm_dialog_title_between_tds">ផ្លាស់ទីរវាង​ថាស​ក្រុម?</string>
     <string name="move_confirm_dialog_title_cannot_undo">អ្នក​មិន​អាច​មិន​​​ធ្វើ​សកម្មភាព​នេះ​វិញ​បាន​ទេ</string>
     <string name="move_confirm_dialog_title_from_td_to_my_drive">ផ្លាស់ទី​ទៅ​ថាស​ខ្ញុំ?</string>
     <string name="move_confirm_dialog_title_into_td">ផ្លាស់ទីទៅក្នុងថាស​ក្រុម​ដែរ​ឬ​ទេ?</string>
     <string name="move_confirm_dialog_title_lose_access">មនុស្ស​ខ្លះ​នឹង​មិន​អាច​ចូល​​ដំណើរការ​បាន​ទេ</string>
+    <string name="move_confirm_dialog_title_share_files_and_folders">ចែករំលែក​ឯកសារ និង​ថត​ទាំង​នេះ​ដែរ​ឬ​ទេ?</string>
     <string name="move_confirm_dialog_title_unshare">ផ្លាស់ទី​ចេញ​ពី​ថត​ចែក​រំលែក​ឬ?</string>
     <string name="move_dialog_title">ជ្រើសរើស​ទិសដៅ</string>
     <string name="move_error_cannot_move_in_folders">មិន​ទាន់​​​អាច​ផ្លាស់ទី​ថត​ទៅ​ក្នុង​ថាស​ក្រុម​​បាន​​ទេ។</string>
@@ -1070,25 +1075,24 @@
     <string name="move_error_target_folder_not_exist">មិន​ទាន់​មាន​ថត​គោលដៅ​ទេ។</string>
     <string name="move_notice_lost_access_shared_folders">បាន​ផ្លាស់ទី​ធាតុ​ពី​ថត​ដែល​បាន​ចែករំលែក។ មនុស្ស​នឹងមិន​អាច​ចូល​ប្រើប្រាស់​បាន​ទៀត​ទេ។</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s \"%2$s\" មិន​អាច​ចូលប្រើប្រាស់​បាន​ទេ។</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">បាន​ផ្លាស់ទី​ធាតុ​ 1 ពី​​ថាស​ក្រុម។ សមាជិក​នឹងមិន​អាច​ចូល​ប្រើប្រាស់​បាន​ទៀត​ទេ។</string>
     <string name="move_notice_lost_access_team_drives">បាន​ផ្លាស់ទី​ធាតុ​ពី​​ថាស​ក្រុម។ សមាជិក​នឹងមិន​អាច​ចូល​ប្រើប្រាស់​បាន​ទៀត​ទេ។</string>
-    <string name="mr_cast_button_connected">ខាសប៊ូតុង៖ បានភ្ជាប់ហើយ</string>
-    <string name="mr_cast_button_connecting">ខាសប៊ូតុង៖ កំពុងភ្ជាប់</string>
-    <string name="mr_cast_button_disconnected">ខាសប៊ូតុង៖ បានកាត់ផ្តាច់</string>
-    <string name="mr_chooser_searching">កំពុងស្វែងរកឧបករណ៍</string>
-    <string name="mr_chooser_title">បញ្ជូនទៅ</string>
-    <string name="mr_controller_album_art">ស្នាដៃសិល្បៈអាល់ប៊ុម</string>
-    <string name="mr_controller_casting_screen">កំពុងខាសអេក្រង់</string>
+    <string name="mr_cast_button_connected">ប៊ូតុង​បញ្ជូន។ បាន​ភ្ជាប់​ហើយ</string>
+    <string name="mr_cast_button_connecting">ប៊ូតុង​បញ្ជូន។ កំពុង​ភ្ជាប់</string>
+    <string name="mr_cast_button_disconnected">ប៊ូតុង​បញ្ជូន។ បាន​ផ្តាច់</string>
+    <string name="mr_chooser_searching">កំពុង​ស្វែងរក​ឧបករណ៍</string>
+    <string name="mr_chooser_title">បញ្ជូន​ទៅ</string>
+    <string name="mr_controller_album_art">រូបភាព​សិល្បៈ​ក្រប​អាល់ប៊ុម</string>
+    <string name="mr_controller_casting_screen">កំពុង​បញ្ជូន​អេក្រង់</string>
     <string name="mr_controller_close_description">បិទ</string>
     <string name="mr_controller_collapse_group">បង្រួម</string>
     <string name="mr_controller_disconnect">ផ្ដាច់</string>
     <string name="mr_controller_expand_group">ពង្រីក</string>
     <string name="mr_controller_no_info_available">មិនមានព័ត៌មានទេ</string>
-    <string name="mr_controller_no_media_selected">គ្មានការជ្រើសមេឌៀទេ</string>
+    <string name="mr_controller_no_media_selected">មិនបាន​ជ្រើសរើស​មេឌៀ​ទេ</string>
     <string name="mr_controller_pause">ផ្អាក</string>
     <string name="mr_controller_play">ចាក់</string>
-    <string name="mr_controller_stop">ឈប់</string>
-    <string name="mr_controller_stop_casting">ឈប់ភ្ជាប់</string>
+    <string name="mr_controller_stop">បញ្ឈប់</string>
+    <string name="mr_controller_stop_casting">បញ្ឈប់​ការបញ្ជូន</string>
     <string name="mr_controller_volume_slider">របារកម្រិតសំឡេង</string>
     <string name="mr_user_route_category_name">ឧបករណ៍</string>
     <string name="native_create_disabled_dialog_message">គណនី​របស់​អ្នក​មិន​អាចបង្កើត​បទ​បង្ហាញ​ដោយ​ប្រើ Google បទ​បង្ហាញ​ទេ។</string>
@@ -1125,7 +1129,7 @@
     <string name="no_scheduled_meetings">គ្មាន​ការ​ប្រជុំ​ដែល​បាន​គ្រោង</string>
     <string name="no_team_drives_title">មិន​មាន​ថាស​ក្រុម</string>
     <string name="no_thanks">ទេ​ អរគុណ</string>
-    <string name="not_enough_storage_for_upload" formatted="false">ឯកសារ %1s ធំ​ពេក មិន​អាច​បង្ហោះ​ទៅ Google ថាស​បាន​ទេ។ វា​មាន​ទំហំ %2s ប៉ុន្តែ​អ្នក​មាន​ទំហំ​ផ្ទុក​ទំនេរ​តែ %3s ប៉ុណ្ណោះ។ សូម​បង្កើន​ទំហំ​ផ្ទុក​របស់​អ្នក ហើយ​ព្យាយាម​ម្ដង​ទៀត។</string>
+    <string name="not_enough_storage_for_upload">ឯកសារ %1$s ធំ​ពេក មិន​អាច​បង្ហោះ​ទៅ Google ថាស​បាន​ទេ។ វា​មាន​ទំហំ %2$s ប៉ុន្តែ​អ្នក​មាន​ទំហំ​ផ្ទុក​ទំនេរ​តែ %3$s ប៉ុណ្ណោះ។ សូម​បង្កើន​ទំហំ​ផ្ទុក​របស់​អ្នក ហើយ​ព្យាយាម​ម្ដង​ទៀត។</string>
     <string name="notification_channel_name_default">លំនាំ​ដើម</string>
     <string name="notification_channel_name_high_priority">អាទិភាព​ខ្ពស់</string>
     <string name="notification_channel_name_low_priority">អាទិភាព​ទាប</string>
@@ -1205,8 +1209,8 @@
     <string name="ouch_title_sawwrie">សូមទោស!</string>
     <string name="overwrite_confirm_dialog_message">%1$s ​មាន​ស្រាប់។ សរសេរ​ជាន់?</string>
     <string name="overwrite_confirm_dialog_positive_button_label">សរសេរ​ជាន់</string>
-    <string name="owner_not_user">មិន​បាន​គ្រប់គ្រង​ដោយ %1$s</string>
-    <string name="owner_user">បាន​គ្រប់គ្រង​ដោយ %1$s</string>
+    <string name="owner_not_user">ក្រៅ​ពី​របស់ %1$s</string>
+    <string name="owner_user">ជា​របស់ %1$s</string>
     <string name="page_1_description">បញ្ចប់​ការងារ​របស់​អ្នក​ដោយ​មាន​ ឬ​គ្មាន​តភ្ជាប់​អ៊ីនធឺណិត​។</string>
     <string name="page_1_heading_editors">បទ​​បង្ហាញ​​កំពុង​ដំណើរការ</string>
     <string name="page_2_description">សរសេរ​ដោយ​ខ្លួន​ឯង​ផ្ទាល់ ​ឬ​អញ្ជើញ​មនុស្ស​បន្ថែម​ទៀត​​ដើម្បី​ចូលរួម​ចំណែក​។</string>
@@ -1407,7 +1411,6 @@
     <string name="published_access_anyone">អ្នក​ណា​ក៏​អាច​មើល​បាន នៅ​ពេល​បោះ​ពុម្ព​ផ្សាយ</string>
     <string name="published_access_domain">គ្រប់​គ្នា​នៅ​ក្នុង %s អាច​មើល​បាន នៅ​ពេល​បោះ​ពុម្ព​ផ្សាយ</string>
     <string name="published_access_select_people">មនុស្ស​ជាក់​លាក់​អាច​មើល​បាន នៅ​ពេល​បោះ​ពុម្ព​ផ្សាយ</string>
-    <string name="published_disabled_append">បាន​បិទ</string>
     <string name="published_message_for_anyone_can_edit">ដោយសារ​គ្រប់​គ្នា​អាច​កែ​សម្រួល​បាន គ្រប់​គ្នា​អាច​មើល​បាន នៅ​ពេល​បោះពុម្ព​ផ្សាយ។</string>
     <string name="published_message_for_anyone_in_domain_can_edit">ដោយសារ​គ្រប់​គ្នា​នៅ %1$s អាច​កែ​សម្រួល​បាន គ្រប់​គ្នា​នៅ %1$s អាច​មើល​បាន នៅ​ពេល​បោះពុម្ព​ផ្សាយ។</string>
     <string name="published_message_for_anyone_with_link_can_edit">ដោយសារ​គ្រប់​គ្នា​ដែល​មាន​តំណ​អាច​កែ​សម្រួល​បាន គ្រប់​គ្នា​អាច​មើល​បាន នៅ​ពេល​បោះពុម្ព​ផ្សាយ។</string>
@@ -1521,7 +1524,7 @@
     <string name="punch_show_slide">បង្ហាញ​ស្លាយ</string>
     <string name="punch_speaker_notes_title">ចំណាំ​អ្នក​និយាយ</string>
     <string name="punch_speakernotes_closed">បាន​បិទ​ចំណាំ​អ្នក​និយាយ​​។</string>
-    <string name="punch_thor_invite_email_body" formatted="false">ព័ត៌មាន​អំពី​ការ​ចូល​ប្រើប្រាស់៖ &lt;br> %s &lt;br> %s PIN:%s</string>
+    <string name="punch_thor_invite_email_body">ព័ត៌មាន​អំពី​ការ​ចូល​ប្រើប្រាស់៖ &lt;br> %1$s &lt;br> %2$s PIN:%3$s</string>
     <string name="punctuation_period">.</string>
     <string name="purchase_dialog_how_storage_used">ទំហំ​ផ្ទុក​ត្រូវ​បាន​ចែករំលែក​​​នៅ​តាម Gmail, Google រូបថត និង Google ថាស</string>
     <string name="purchase_dialog_manage">គ្រប់គ្រង​ទំហំ​ផ្ទុក</string>
@@ -1978,6 +1981,7 @@
     <string name="suggestions_add_to_dictionary">បន្ថែម​ទៅ​វចនានុក្រម</string>
     <string name="suggestions_delete_text">លុប</string>
     <string name="suggestions_popup_opened">ការ​ផ្ដល់​យោបល់​ប្រកប</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">កំហុស​ក្នុង​ការ​ធ្វើ​សម​កាល​កម្ម​ Google ស្លាយ</string>
     <string name="sync_more_error">មាន​កំហុស​ក្នុង​ការ​ទាញ​យក​ធាតុ​បន្ថែម</string>
     <string name="sync_more_error_offline">ឯកសារ​ខ្លះ​​ប្រហែល​មិន​​អាច​មើល​ឃើញ​ពេល​គ្មាន​អ៊ីនធឺណិត។</string>
@@ -2010,7 +2014,7 @@
     <string name="team_drive_empty_list_message_cannot_create">នៅ​ពេល​មាន​អ្នក​ណា​ម្នាក់​​បញ្ចូល​អ្នក​ទៅ​ក្នុង​ថាស​ក្រុម អ្នក​នឹង​​ឃើញ​វា​បង្ហាញ​នៅ​ទីនេះ។</string>
     <string name="team_drive_settings_title">ការ​កំណត់</string>
     <string name="team_drive_trash_welcome_snackbar">ធាតុដែលស្ថិត​​​នៅ​ក្នុង​ធុង​សំរាម​ថាស​ក្រុម នឹង​ត្រូវ​លុប​ចេញ​ជារៀងរហូត​ក្នុង​រយៈពេល 30 ថ្ងៃ។</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">ចំណង​ជើង %1$s</string>
     <string name="template_category_education">ការអប់រំ</string>
     <string name="template_category_personal">ផ្ទាល់ខ្លួន</string>
@@ -2084,6 +2088,8 @@
     <string name="unable_to_open_local_document_message">វា​អាច​ត្រូវ​បាន​ផ្លាស់ទី ឬ​លុប។</string>
     <string name="unable_to_open_local_document_title">មិន​អាច​បើក​ឯកសារ​ដែល​បាន​រក្សា​ទុក​នៅ​លើ​ឧបករណ៍</string>
     <string name="unable_to_read_calendar_data">មិន​អាច​ដាក់​សំណួរ​ក្នុង​ប្រតិទិន</string>
+    <string name="unable_update_published_message">មិន​អាច​ផ្លាស់ប្ដូរ​ការកំណត់​ទំព័រ​ដែល​បាន​បោះផ្សាយ​បាន​ទេ រហូត​ទាល់តែ​ធ្វើ​បច្ចុប្បន្នភាព​ការកំណត់​តំណ​ព្រាង​សិន</string>
+    <string name="unable_update_published_title">មិន​អាច​ធ្វើ​បច្ចុប្បន្នភាព​ការកំណត់​បាន​ទេ</string>
     <string name="undeliverable_acl_changed_dialog_title">លុប​ការ​ផ្លាស់ប្ដូរ​​របស់​អ្នក​ និង​ត្រឡប់​​ទៅ​ឯកសារ​វិញ​មែន​ទេ?</string>
     <string name="undeliverable_changes_dialog_content">ការ​ផ្លាស់ប្ដូរ​ក្រៅ​បណ្ដាញ​របស់​អ្នក​អាច​បាត់បង់​។ ធ្វើ​ឱ្យ​ប្រាកដ​ថា ​អ្នក​បាន​ចម្លង​ពួក​វា​ទៅ​ក្ដារ​តម្បៀត​ខ្ទាស់​។</string>
     <string name="undeliverable_changes_dialog_title">លុប​ការ​ផ្លាស់ប្ដូរ​ដែល​មាន​បញ្ហា​ និង​ត្រឡប់​ទៅ​ឯកសារ​វិញ​មែនទេ?</string>
@@ -2186,6 +2192,8 @@
     <string name="upsell_negbtn">ពេល​ក្រោយ</string>
     <string name="upsell_okbtn">បង្កើន​ទំហំ​ផ្ទុក</string>
     <string name="url_typo_error_msg">តំណ​ហាក់​ដូច​ជា​មិន​ត្រឹម​ត្រូវ។ វាយ​ខុស?</string>
+    <string name="v7_preference_off">បិទ</string>
+    <string name="v7_preference_on">បើក</string>
     <string name="verbalize_bulleted_list">ចំណុច។ %1$s</string>
     <string name="verbalize_numbered_list">%1$s ។ %2$s</string>
     <string name="verbalize_opened_edit">បាន​បើក %1$s ដោយ​អនុញ្ញាត​កែសម្រួល។</string>
@@ -2216,8 +2224,9 @@
     <string name="warm_welcome_next_button">បន្ទាប់</string>
     <string name="warm_welcome_skip_button">រំលង</string>
     <string name="warning_cannot_share_outside_domain">ការកំណត់​របស់​ថាស​ក្រុម​នេះ​រារាំង​ការចែក​រំលែក​ក្រៅ %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">ការកំណត់​របស់​ថាស​ក្រុម​នេះ​រារាំង​ការចែក​រំលែក​ជាមួយ​អ្នក​ដែល​មិន​មែន​ជា​សមាជិក និង​ក្រៅ %s</string>
     <string name="warning_cannot_share_outside_domain_org">ការកំណត់​របស់​ស្ថាប័ន​រារាំង​ការចែក​រំលែក​ក្រៅ​ស្ថាប័ន</string>
-    <string name="warning_cannot_share_outside_team_drive">ការកំណត់​របស់​ថាស​ក្រុម​នេះ​រារាំង​ការចែក​រំលែក​ក្រៅ​ក្រុម</string>
+    <string name="warning_cannot_share_outside_team_drive">ការកំណត់​របស់​ថាស​ក្រុម​នេះ​រារាំង​ការចែក​រំលែក​ជាមួយ​អ្នក​ដែល​មិនមែន​ជា​សមាជិក</string>
     <string name="welcome_button_close">ចូល​ទៅ​កាន់​ស្លាយ</string>
     <string name="welcome_button_continue">បន្ទាប់</string>
     <string name="welcome_offer_button_close">បិទ</string>
@@ -2235,27 +2244,27 @@
     <string name="welcome_title_highlights">%1$s ផ្ទាំង​ប្រកាស​ព័ត៌មាន។</string>
     <string name="write_access_denied">ដំណើរការ​កត់ត្រា​ចូល​ឯកសារ​បាន​បដិសេធ។</string>
     <string name="zss_accessibility_searching">កំពុង​ស្វែង​រក %1$s</string>
-    <string name="zss_date_range_header_title">កាលបរិច្ឆេទ​បាន​​កែប្រែ</string>
-    <string name="zss_date_range_month">៣០ ​ថ្ងៃ​មុន</string>
-    <string name="zss_date_range_three_month">៩០ ថ្ងៃ​មុន</string>
+    <string name="zss_date_range_header_title">កាលបរិច្ឆេទ​ដែល​បាន​កែ</string>
+    <string name="zss_date_range_month">30 ថ្ងៃចុង​ក្រោយ</string>
+    <string name="zss_date_range_three_month">90 ថ្ងៃ​ចុង​ក្រោយ</string>
     <string name="zss_date_range_today">ថ្ងៃនេះ</string>
-    <string name="zss_date_range_week">៧​ ថ្ងៃ​មុន</string>
-    <string name="zss_date_range_yesterday">ម្សិលមិញ</string>
+    <string name="zss_date_range_week">7 ថ្ងៃចុង​ក្រោយ</string>
+    <string name="zss_date_range_yesterday">ម្សិល​មិញ</string>
     <string name="zss_entry_types_header_title">ប្រភេទ​ឯកសារ</string>
     <string name="zss_no_filters">គ្មាន​តម្រង</string>
-    <string name="zss_owner_header_title">គ្រប់គ្រង​​ដោយ​</string>
-    <string name="zss_owner_me">ខ្ញុំ​ជា​ម្ចាស់</string>
-    <string name="zss_owner_not_me">ខ្ញុំ​មិនមែន​ជា​ម្ចាស់​ទេ</string>
+    <string name="zss_owner_header_title">ជា​របស់</string>
+    <string name="zss_owner_me">ជា​របស់​ខ្ញុំ</string>
+    <string name="zss_owner_not_me">ក្រៅពី​របស់​ខ្ញុំ</string>
     <string name="zss_people_header_title">មនុស្ស</string>
     <string name="zss_showing_list_of_filters">បង្ហាញ​បញ្ជី​នៃ​តម្រង​ដែល​មាន។</string>
     <string name="zss_team_drive">ស្វែងរកក្នុង %1$s</string>
-    <string name="zss_type_archive">ប័ណ្ណសារ</string>
-    <string name="zss_type_audio">អូឌីយ៉ូ</string>
+    <string name="zss_type_archive">បណ្ណសារ</string>
+    <string name="zss_type_audio">សំឡេង</string>
     <string name="zss_type_documents">ឯកសារ​អត្ថបទ</string>
-    <string name="zss_type_folder">ថត​</string>
-    <string name="zss_type_images">រូបថត &amp; រូបភាព</string>
+    <string name="zss_type_folder">ថត</string>
+    <string name="zss_type_images">រូបថត​ &amp; ​រូបភាព</string>
     <string name="zss_type_pdfs">PDFs</string>
     <string name="zss_type_presentations">បទ​បង្ហាញ</string>
-    <string name="zss_type_spreadsheets">សៀវភៅ​បញ្ជី</string>
+    <string name="zss_type_spreadsheets">បញ្ជី</string>
     <string name="zss_type_video">វីដេអូ</string>
 </resources>

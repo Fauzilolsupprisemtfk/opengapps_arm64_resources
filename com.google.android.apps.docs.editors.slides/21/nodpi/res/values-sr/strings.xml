@@ -475,6 +475,7 @@
     <string name="dialog_td_will_disappear">Овај Диск тима ће нестати за свакога и нећете моћи да опозовете ову радњу.</string>
     <string name="dialog_td_will_disappear_files_in_trash">Датотеке из овог Диска тима су у отпаду диска „%1$s“ и корисници неће моћи да их врате. Овај Диск тима ће нестати за свакога и нећете моћи да опозовете ову радњу.</string>
     <string name="did_you_mean">Да ли сте мислили: %1$s</string>
+    <string name="disabled_append">онемогућено,</string>
     <string name="discussion_accept">Прихвати</string>
     <string name="discussion_acl_fix_access_role_commenter">Може да коментарише</string>
     <string name="discussion_acl_fix_access_role_writer">Може да измени</string>
@@ -585,11 +586,11 @@
     <string name="doclist_date_never_label">Никад</string>
     <string name="doclist_date_opened_label">Отварао/ла ја: %s</string>
     <string name="doclist_date_shared_label">Дељено: %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s · %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s · %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">Отпремио/ла ја: %s</string>
     <string name="doclist_detail_fragment_content_description">Прикажи својства ставке</string>
-    <string name="doclist_entry_content_description" formatted="false">%s %s</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s %s, боја: %s</string>
+    <string name="doclist_entry_content_description">%1$s %2$s</string>
+    <string name="doclist_entry_content_description_with_color">%2$s %1$s, боја: %3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">Отвори одељак за навигацију</string>
     <string name="doclist_quota_used_label">Искоришћена меморија: %s</string>
     <string name="doclist_selected_show_preview">Прикажи преглед</string>
@@ -679,6 +680,8 @@
     <string name="draft_options_dialog_title">Подешавања радне верзије сајта</string>
     <string name="draft_permission_change_anyone_warning">Ако пребаците на ово подешавање радне верзије сајта, омогућићете свакоме да види објављену верзију.</string>
     <string name="draft_permission_change_domain_warning">Ако пребаците на ово подешавање радне верзије сајта, омогућићете свакоме на %s да види објављену верзију.</string>
+    <string name="draft_permission_downgrade_domain_warning">Ако промените ово подешавање радне верзије сајта, објављени линк ће моћи да виде само људи на %1$s</string>
+    <string name="draft_permission_downgrade_specific_warning">Ако промените ово подешавање радне верзије сајта, објављени линк ће моћи да виде само одређени људи</string>
     <string name="drive_file_stream_disabled">Спречите отварање датотека у Диску тима помоћу Стрима датотека са Диска и сличних апликација</string>
     <string name="drive_file_stream_enabled">Дозволите отварање датотека у Диску тима помоћу Стрима датотека са Диска и сличних апликација</string>
     <string name="drive_file_stream_title">Стрим датотека са Диска</string>
@@ -721,7 +724,7 @@
     <string name="empty_doclist_for_pinned_view_details">Омогућите коришћење датотека офлајн у менију са опцијама датотеке</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Додирните „Доступно офлајн“ у менију датотеке да бисте наставили да радите на њој офлајн.</string>
     <string name="empty_doclist_for_recent_view">Нема недавно отвараних ни измењених датотека.</string>
-    <string name="empty_doclist_for_search_view">Нема резултата.</string>
+    <string name="empty_doclist_for_search_view">Нема резултата</string>
     <string name="empty_doclist_for_shared_with_me_view">Датотеке које се деле са вама ће бити приказане овде.</string>
     <string name="empty_doclist_for_starred_view">Немате датотеке са звездицом.</string>
     <string name="empty_doclist_for_starred_view_details">Додирните икону звездице у менију са опцијама датотеке да бисте је додали на ову листу.</string>
@@ -772,6 +775,7 @@
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+ још %1$d.</string>
     <string name="exit_multiselect_mode_button">Изађи из режима за избор више ставки</string>
+    <string name="expand_button_title">Напредно</string>
     <string name="expires_future">Истиче за %1$s</string>
     <string name="expires_today">Истиче данас</string>
     <string name="export_download_error_title">Грешка при преузимању</string>
@@ -788,6 +792,11 @@
     <string name="fab_office_document">Нова Powerpoint датотека</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d.</string>
     <string name="fast_scroll_search_result_grouper">Резултати претраге</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">kB</string>
+    <string name="fast_scroll_size_grouper_mb">МВ</string>
     <string name="fast_scroll_time_grouper_earlier">Старије</string>
     <string name="fast_scroll_time_grouper_last_week">Прошле недеље</string>
     <string name="fast_scroll_time_grouper_this_month">Раније овог месеца</string>
@@ -816,7 +825,7 @@
     <string name="file_picker_select_a_folder_heading">Изаберите директоријум</string>
     <string name="file_picker_select_button">Изабери</string>
     <string name="file_picker_storage_permissions_denied_toast">Дозвола за приступ локалном меморијском простору није одобрена.</string>
-    <string name="file_too_large_for_upload" formatted="false">Датотека %1s је превелика за отпремање у Google диск. Има %2s, а ограничење за овај тип датотеке је %3s. Можда ћете моћи да отпремите ову датотеку без њеног конвертовања у формат Google диска.</string>
+    <string name="file_too_large_for_upload">Датотека %1$s је превелика за отпремање у Google диск. Има %2$s, а ограничење за овај тип датотеке је %3$s. Можда ћете моћи да отпремите ову датотеку без њеног конвертовања у формат Google диска.</string>
     <string name="file_too_large_for_upload_okbtn">ПОТВРДИ</string>
     <string name="file_too_large_for_upload_title">Отпремање није успело</string>
     <string name="file_was_not_sent">Датотека се не дели.</string>
@@ -980,17 +989,8 @@
     <string name="manage_addons_playstore_link_description">Идите у Play продавницу за %s</string>
     <string name="manage_members_default_members">Чланови подразумевано могу да отпремају/измене/бришу датотеке и позивају друге чланове</string>
     <string name="manage_members_dialog_title">Приступ за чланове</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Меморијски простор</string>
+    <string name="management_data_loading_failed">Учитавање ове странице није успело</string>
     <string name="member_count_max">99+</string>
     <string name="menu_backup">Резервне копије</string>
     <string name="menu_copy_link">Копирај линк</string>
@@ -1094,20 +1094,19 @@
     <string name="move_error_target_folder_not_exist">Одредишни директоријум не постоји.</string>
     <string name="move_notice_lost_access_shared_folders">Ставке су премештене из дељеног директоријума.</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s Тим „%2$s“ је изгубио приступ.</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">1 ставка је премештена из Диска тима.</string>
     <string name="move_notice_lost_access_team_drives">Ставке су премештене из Диска тима.</string>
     <string name="mr_cast_button_connected">Дугме Пребаци. Повезан је</string>
     <string name="mr_cast_button_connecting">Дугме Пребаци. Повезује се</string>
     <string name="mr_cast_button_disconnected">Дугме Пребаци. Веза је прекинута</string>
-    <string name="mr_chooser_searching">Проналажење уређаја</string>
-    <string name="mr_chooser_title">Пребацуј на</string>
+    <string name="mr_chooser_searching">Траже се уређаји</string>
+    <string name="mr_chooser_title">Пребаците на</string>
     <string name="mr_controller_album_art">Омот албума</string>
     <string name="mr_controller_casting_screen">Пребацује се екран</string>
     <string name="mr_controller_close_description">Затвори</string>
     <string name="mr_controller_collapse_group">Скупи</string>
     <string name="mr_controller_disconnect">Прекини везу</string>
     <string name="mr_controller_expand_group">Прошири</string>
-    <string name="mr_controller_no_info_available">Нису доступне никакве информације</string>
+    <string name="mr_controller_no_info_available">Нема доступних информација</string>
     <string name="mr_controller_no_media_selected">Нема изабраних медија</string>
     <string name="mr_controller_pause">Паузирај</string>
     <string name="mr_controller_play">Пусти</string>
@@ -1149,7 +1148,7 @@
     <string name="no_scheduled_meetings">Нема заказаних састанака</string>
     <string name="no_team_drives_title">Нема Дискова тимова</string>
     <string name="no_thanks">Не, хвала</string>
-    <string name="not_enough_storage_for_upload" formatted="false">Датотека %1s је превелика за отпремање у Google диск. Њена величина је %2s, а ви имате само %3s доступног меморијског простора. Надоградите меморијски простор и пробајте поново.</string>
+    <string name="not_enough_storage_for_upload">Датотека %1$s је превелика за отпремање у Google диск. Њена величина је %2$s, а ви имате само %3$s доступног меморијског простора. Надоградите меморијски простор и пробајте поново.</string>
     <string name="notification_channel_name_default">Подразумевано</string>
     <string name="notification_channel_name_high_priority">Висок приоритет</string>
     <string name="notification_channel_name_low_priority">Низак приоритет</string>
@@ -1202,7 +1201,7 @@
     <string name="open_document_in_browser">Отвори у прегледачу</string>
     <string name="open_folder_removed">Више не можете погледати директоријум.</string>
     <string name="open_folder_trashed">%1$s је премештен у отпад.</string>
-    <string name="open_in">Отвори у %1$s</string>
+    <string name="open_in">Отворите у %1$s</string>
     <string name="open_link">Прати линк</string>
     <string name="open_pinned_version">Отвори са уређаја</string>
     <string name="open_templates_picker_offline">Идите онлајн да бисте користили шаблоне.</string>
@@ -1432,7 +1431,6 @@
     <string name="published_access_anyone">Свако може да види објављену верзију сајта</string>
     <string name="published_access_domain">Свако на %s може да види објављену верзију сајта</string>
     <string name="published_access_select_people">Одређени људи могу да виде објављену верзију сајта</string>
-    <string name="published_disabled_append">онемогућено,</string>
     <string name="published_message_for_anyone_can_edit">Пошто свако може да измени, свако може да види објављену верзију.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Пошто свако на %1$s може да измени, свако на %1$s може да види објављену верзију.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Пошто свако са линком може да измени, свако може да види објављену верзију.</string>
@@ -1546,7 +1544,7 @@
     <string name="punch_show_slide">Прикажи слајд</string>
     <string name="punch_speaker_notes_title">Белешке говорника</string>
     <string name="punch_speakernotes_closed">Белешке говорника су затворене.</string>
-    <string name="punch_thor_invite_email_body" formatted="false">Информације о приступу:&lt;br> %s &lt;br> %s PIN:%s</string>
+    <string name="punch_thor_invite_email_body">Информације о приступу:&lt;br> %1$s &lt;br> %2$s PIN:%3$s</string>
     <string name="punctuation_period">.</string>
     <string name="purchase_dialog_how_storage_used">Меморијски простор деле Gmail, Google слике и Google диск</string>
     <string name="purchase_dialog_manage">Управљај меморијским простором</string>
@@ -2006,6 +2004,7 @@
     <string name="suggestions_add_to_dictionary">Додај у речник</string>
     <string name="suggestions_delete_text">Избриши</string>
     <string name="suggestions_popup_opened">Правописни предлози</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Грешка у синхронизацији Google презентација</string>
     <string name="sync_more_error">Грешка при преузимању додатних ставки</string>
     <string name="sync_more_error_offline">Неки документи можда неће бити видљиви офлајн.</string>
@@ -2038,7 +2037,7 @@
     <string name="team_drive_empty_list_message_cannot_create">Кад вас неко дода у Диск тима, видећете га овде.</string>
     <string name="team_drive_settings_title">Подешавања</string>
     <string name="team_drive_trash_welcome_snackbar">Ставке у отпаду Диска тима ће бити трајно избрисане за 30 дана.</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">%1$s, наслов</string>
     <string name="template_category_education">Образовање</string>
     <string name="template_category_personal">Лично</string>
@@ -2112,6 +2111,8 @@
     <string name="unable_to_open_local_document_message">Можда је премештена или избрисана.</string>
     <string name="unable_to_open_local_document_title">Није могуће отворити датотеку сачувану на уређају</string>
     <string name="unable_to_read_calendar_data">Упит за календар није успео</string>
+    <string name="unable_update_published_message">Не можете да промените подешавање објављеног сајта док не ажурирате подешавање линка радне верзије</string>
+    <string name="unable_update_published_title">Ажурирање подешавања није успело</string>
     <string name="undeliverable_acl_changed_dialog_title">Желите да избришете промене и вратите документ?</string>
     <string name="undeliverable_changes_dialog_content">Офлајн промене ће можда бити изгубљене. Проверите да ли сте их копирали у привремену меморију.</string>
     <string name="undeliverable_changes_dialog_title">Желите да избришете проблематичне промене и вратите документ?</string>
@@ -2214,6 +2215,8 @@
     <string name="upsell_negbtn">Касније</string>
     <string name="upsell_okbtn">Надогради</string>
     <string name="url_typo_error_msg">Изгледа да линк није исправан. Словна грешка?</string>
+    <string name="v7_preference_off">ИСКЉУЧЕНО</string>
+    <string name="v7_preference_on">УКЉУЧЕНО</string>
     <string name="verbalize_bulleted_list">знак за набрајање. %1$s</string>
     <string name="verbalize_numbered_list">%1$s. %2$s</string>
     <string name="verbalize_opened_edit">Отворена је датотека %1$s са дозволама за унос измена.</string>
@@ -2244,8 +2247,9 @@
     <string name="warm_welcome_next_button">Даље</string>
     <string name="warm_welcome_skip_button">Прескочи</string>
     <string name="warning_cannot_share_outside_domain">Подешавања овог Диска тима не дозвољавају дељење ван %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Подешавања овог Диска тима не дозвољавају дељење ван %s и са корисницима који нису чланови</string>
     <string name="warning_cannot_share_outside_domain_org">Подешавања организације не дозвољавају дељење ван организације</string>
-    <string name="warning_cannot_share_outside_team_drive">Подешавања овог Диска тима не дозвољавају дељење ван тима</string>
+    <string name="warning_cannot_share_outside_team_drive">Подешавања овог Диска тима не дозвољавају дељење са корисницима који нису чланови</string>
     <string name="welcome_button_close">Иди у Презентације</string>
     <string name="welcome_button_continue">Даље</string>
     <string name="welcome_offer_button_close">Затвори</string>
@@ -2278,7 +2282,7 @@
     <string name="zss_showing_list_of_filters">Приказана је листа доступних филтера.</string>
     <string name="zss_team_drive">Претражите у %1$s</string>
     <string name="zss_type_archive">Архива</string>
-    <string name="zss_type_audio">Аудио</string>
+    <string name="zss_type_audio">Звук</string>
     <string name="zss_type_documents">Текстуални документи</string>
     <string name="zss_type_folder">Директоријуми</string>
     <string name="zss_type_images">Фотографије и слике</string>

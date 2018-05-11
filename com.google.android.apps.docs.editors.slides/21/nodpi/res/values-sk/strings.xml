@@ -475,6 +475,7 @@ Túto akciu nie je možné vrátiť späť."</string>
     <string name="dialog_td_will_disappear">Tento tímový disk sa všetkým prestane zobrazovať a túto akciu nebudete môcť vrátiť späť.</string>
     <string name="dialog_td_will_disappear_files_in_trash">Súbory z tohto tímového disku sú v koši disku %1$s a žiadny používateľ ich nebude môcť obnoviť. Tento tímový disk sa všetkým prestane zobrazovať a túto akciu nebudete môcť vrátiť späť.</string>
     <string name="did_you_mean">Mali ste na mysli: %1$s</string>
+    <string name="disabled_append">zakázané</string>
     <string name="discussion_accept">Prijať</string>
     <string name="discussion_acl_fix_access_role_commenter">Môže komentovať</string>
     <string name="discussion_acl_fix_access_role_writer">Môže upraviť</string>
@@ -585,11 +586,11 @@ Túto akciu nie je možné vrátiť späť."</string>
     <string name="doclist_date_never_label">Nikdy</string>
     <string name="doclist_date_opened_label">Otvorené mnou: %s</string>
     <string name="doclist_date_shared_label">Zdieľané: %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s – %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s – %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">Nahrané mnou: %s</string>
     <string name="doclist_detail_fragment_content_description">Zobraziť vlastnosti položky</string>
-    <string name="doclist_entry_content_description" formatted="false">%s %s</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s %s farba: %s</string>
+    <string name="doclist_entry_content_description">%1$s %2$s</string>
+    <string name="doclist_entry_content_description_with_color">%1$s %2$s farba: %3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">Otvoriť navigačnú ponuku</string>
     <string name="doclist_quota_used_label">Využité úložisko: %s</string>
     <string name="doclist_selected_show_preview">Zobraziť ukážku</string>
@@ -679,6 +680,8 @@ Túto akciu nie je možné vrátiť späť."</string>
     <string name="draft_options_dialog_title">Nastavenia konceptu webu</string>
     <string name="draft_permission_change_anyone_warning">Zmena na toto nastavenie konceptu webu umožní zobraziť položku pri zverejnení komukoľvek.</string>
     <string name="draft_permission_change_domain_warning">Zmena na toto nastavenie konceptu webu umožní zobraziť položku pri zverejnení komukoľvek v doméne %s.</string>
+    <string name="draft_permission_downgrade_domain_warning">Zmena nastavenia tohto konceptu webu spôsobí, že zverejnený odkaz bude viditeľný iba pre ľudí v doméne %1$s</string>
+    <string name="draft_permission_downgrade_specific_warning">Zmena nastavenia tohto konceptu webu spôsobí, že zverejnený odkaz bude viditeľný iba pre konkrétnych ľudí</string>
     <string name="drive_file_stream_disabled">Zabrániť ľuďom otvárať súbory na tím. disku cez Streamovanie z Disku Google alebo podobnú aplikáciu</string>
     <string name="drive_file_stream_enabled">Povoliť ľuďom otvárať súbory na tím. disku cez Streamovanie z Disku Google alebo podobnú aplikáciu</string>
     <string name="drive_file_stream_title">Streamovanie z Disku</string>
@@ -772,6 +775,7 @@ Kliknutím na položku + vytvoríte novú prezentáciu."</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+ ďalší (%1$d).</string>
     <string name="exit_multiselect_mode_button">Ukončiť režim viacnásobného výberu</string>
+    <string name="expand_button_title">Rozšírené</string>
     <string name="expires_future">Vyprší o %1$s</string>
     <string name="expires_today">Platnosť vyprší dnes</string>
     <string name="export_download_error_title">Chyba pri sťahovaní</string>
@@ -788,6 +792,11 @@ Kliknutím na položku + vytvoríte novú prezentáciu."</string>
     <string name="fab_office_document">Nový súbor PowerPoint</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Výsledky vyhľad.</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">kB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Staršie</string>
     <string name="fast_scroll_time_grouper_last_week">Minulý týždeň</string>
     <string name="fast_scroll_time_grouper_this_month">Tento mesiac</string>
@@ -816,7 +825,7 @@ Kliknutím na položku + vytvoríte novú prezentáciu."</string>
     <string name="file_picker_select_a_folder_heading">Vybrať priečinok</string>
     <string name="file_picker_select_button">Vybrať</string>
     <string name="file_picker_storage_permissions_denied_toast">Na prístup do miestneho úložiska nebolo udelené povolenie.</string>
-    <string name="file_too_large_for_upload" formatted="false">Súbor %1s je na nahranie na Disk Google príliš veľký. Veľkosť tohto súboru je %2s, pričom limit pre tento typ súboru je %3s. Tento súbor možno budete môcť nahrať bez konverzie na formát Disku Google.</string>
+    <string name="file_too_large_for_upload">Súbor %1$s je na nahranie na Disk Google príliš veľký. Veľkosť tohto súboru je %2$s, pričom limit pre tento typ súboru je %3$s. Tento súbor možno budete môcť nahrať bez konverzie na formát Disku Google.</string>
     <string name="file_too_large_for_upload_okbtn">OK</string>
     <string name="file_too_large_for_upload_title">Súbor nie je možné nahrať</string>
     <string name="file_was_not_sent">Súbor sa nezdieľa</string>
@@ -980,17 +989,8 @@ Kliknutím na položku + vytvoríte novú prezentáciu."</string>
     <string name="manage_addons_playstore_link_description">Prejsť do Obchodu Play a získať doplnok %s</string>
     <string name="manage_members_default_members">Členovia môžu predvolene nahrávať, upravovať a odstraňovať súbory a pozývať ďalších členov</string>
     <string name="manage_members_dialog_title">Prístup členov</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Úložisko</string>
+    <string name="management_data_loading_failed">Táto stránka sa nedá načítať</string>
     <string name="member_count_max">99 a viac</string>
     <string name="menu_backup">Zálohy</string>
     <string name="menu_copy_link">Kopírovať odkaz</string>
@@ -1094,13 +1094,12 @@ Kliknutím na položku + vytvoríte novú prezentáciu."</string>
     <string name="move_error_target_folder_not_exist">Cieľový priečinok neexistuje.</string>
     <string name="move_notice_lost_access_shared_folders">Položky presun. zo zdieľ. priečinka. Ľudia stratili prístup.</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s – disk %2$s stratil prístup.</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">Položka pres. z tímového disku. Členovia stratili prístup.</string>
     <string name="move_notice_lost_access_team_drives">Položky pres. z tímového disku. Členovia stratili prístup.</string>
     <string name="mr_cast_button_connected">Tlačidlo prenosu. Pripojené</string>
     <string name="mr_cast_button_connecting">Tlačidlo prenosu. Pripája sa</string>
     <string name="mr_cast_button_disconnected">Tlačidlo prenosu. Odpojené</string>
     <string name="mr_chooser_searching">Hľadajú sa zariadenia</string>
-    <string name="mr_chooser_title">Prenos do</string>
+    <string name="mr_chooser_title">Prenos do zariadenia</string>
     <string name="mr_controller_album_art">Obrázok albumu</string>
     <string name="mr_controller_casting_screen">Prenáša sa obrazovka</string>
     <string name="mr_controller_close_description">Zavrieť</string>
@@ -1111,8 +1110,8 @@ Kliknutím na položku + vytvoríte novú prezentáciu."</string>
     <string name="mr_controller_no_media_selected">Nie sú vybrané žiadne médiá</string>
     <string name="mr_controller_pause">Pozastaviť</string>
     <string name="mr_controller_play">Prehrať</string>
-    <string name="mr_controller_stop">Zastaviť</string>
-    <string name="mr_controller_stop_casting">Zastaviť prenášanie</string>
+    <string name="mr_controller_stop">Ukončiť</string>
+    <string name="mr_controller_stop_casting">Zastaviť prenos</string>
     <string name="mr_controller_volume_slider">Posúvač hlasitosti</string>
     <string name="mr_user_route_category_name">Zariadenia</string>
     <string name="native_create_disabled_dialog_message">Váš účet nepodporuje vytváranie prezentácií pomocou Prezentácií Google.</string>
@@ -1149,7 +1148,7 @@ Kliknutím na položku + vytvoríte novú prezentáciu."</string>
     <string name="no_scheduled_meetings">Žiadne naplánované schôdzky</string>
     <string name="no_team_drives_title">Žiadne tímové disky</string>
     <string name="no_thanks">Nie, ďakujem</string>
-    <string name="not_enough_storage_for_upload" formatted="false">Súbor %1s je na nahranie na Disk Google príliš veľký. Má %2s, no vy máte k dispozícii iba úložisko %3s. Inovujte si úložisko a skúste to znova.</string>
+    <string name="not_enough_storage_for_upload">Súbor %1$s je na nahranie na Disk Google príliš veľký. Má %2$s, no vy máte k dispozícii iba úložisko %3$s. Inovujte si úložisko a skúste to znova.</string>
     <string name="notification_channel_name_default">Predvolené</string>
     <string name="notification_channel_name_high_priority">Vysoká priorita</string>
     <string name="notification_channel_name_low_priority">Nízka priorita</string>
@@ -1432,7 +1431,6 @@ Kliknutím na položku + vytvoríte novú prezentáciu."</string>
     <string name="published_access_anyone">Po zverejnení môže zobraziť ktokoľvek</string>
     <string name="published_access_domain">Po zverejnení môže zobraziť ktokoľvek v doméne %s</string>
     <string name="published_access_select_people">Po zverejnení môžu zobraziť konkrétni ľudia</string>
-    <string name="published_disabled_append">zakázané</string>
     <string name="published_message_for_anyone_can_edit">Keďže upravovať môže ktokoľvek, po zverejnení môže položku zobraziť ktokoľvek.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Keďže upravovať môže ktokoľvek v doméne %1$s, po zverejnení môže položku zobraziť ktokoľvek v doméne %1$s.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Keďže upravovať môže ktokoľvek s odkazom, po zverejnení môže položku zobraziť ktokoľvek.</string>
@@ -1546,7 +1544,7 @@ Kliknutím na položku + vytvoríte novú prezentáciu."</string>
     <string name="punch_show_slide">Zobraziť snímku</string>
     <string name="punch_speaker_notes_title">Poznámky rečníka</string>
     <string name="punch_speakernotes_closed">Poznámky rečníka boli zatvorené.</string>
-    <string name="punch_thor_invite_email_body" formatted="false">Informácie o prístupe:&lt;br> %s &lt;br> %s PIN:%s</string>
+    <string name="punch_thor_invite_email_body">Informácie o prístupe:&lt;br> %1$s &lt;br> %2$s PIN:%3$s</string>
     <string name="punctuation_period">.</string>
     <string name="purchase_dialog_how_storage_used">Úložisko sa zdieľa s Gmailom, Fotkami Google a Diskom Google</string>
     <string name="purchase_dialog_manage">Spravovať úložisko</string>
@@ -2006,6 +2004,7 @@ Kliknutím na položku + vytvoríte novú prezentáciu."</string>
     <string name="suggestions_add_to_dictionary">Pridať do slovníka</string>
     <string name="suggestions_delete_text">Odstrániť</string>
     <string name="suggestions_popup_opened">Návrhy na opravu pravopisu</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Chyba synchronizácie s aplikáciou Prezentácie Google</string>
     <string name="sync_more_error">Chyba pri načítavaní ďalších položiek</string>
     <string name="sync_more_error_offline">Niektoré dokumenty nemusia byť v režime offline viditeľné.</string>
@@ -2038,7 +2037,7 @@ Kliknutím na položku + vytvoríte novú prezentáciu."</string>
     <string name="team_drive_empty_list_message_cannot_create">Keď vás niekto pridá na tímový disk, uvidíte to tu.</string>
     <string name="team_drive_settings_title">Nastavenia</string>
     <string name="team_drive_trash_welcome_snackbar">Položky v koši tímových diskov budú za 30 dní natrvalo odstránené.</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">%1$s, nadpis</string>
     <string name="template_category_education">Vzdelávanie</string>
     <string name="template_category_personal">Osobné</string>
@@ -2112,6 +2111,8 @@ Kliknutím na položku + vytvoríte novú prezentáciu."</string>
     <string name="unable_to_open_local_document_message">Možno bol presunutý alebo odstránený</string>
     <string name="unable_to_open_local_document_title">Nedá sa otvoriť súbor uložený v zariadení</string>
     <string name="unable_to_read_calendar_data">Nepodarilo sa vykonať dopyt na kalendár</string>
+    <string name="unable_update_published_message">Nastavenie zverejneného webu nie je možné zmeniť, kým nebude aktualizované nastavenie odkazu konceptu</string>
+    <string name="unable_update_published_title">Nastavenie nie je možné aktualizovať</string>
     <string name="undeliverable_acl_changed_dialog_title">Chcete odstrániť zmeny a vrátiť dokument späť?</string>
     <string name="undeliverable_changes_dialog_content">Zmeny v offline režime sa môžu stratiť. Uistite sa, že ste ich skopírovali do schránky.</string>
     <string name="undeliverable_changes_dialog_title">Chcete odstrániť problematické zmeny a vrátiť dokument späť?</string>
@@ -2214,6 +2215,8 @@ Kliknutím na položku + vytvoríte novú prezentáciu."</string>
     <string name="upsell_negbtn">Neskôr</string>
     <string name="upsell_okbtn">Inovovať</string>
     <string name="url_typo_error_msg">Zdá sa, že odkaz nie je správny. Obsahuje preklep?</string>
+    <string name="v7_preference_off">VYP.</string>
+    <string name="v7_preference_on">ZAP.</string>
     <string name="verbalize_bulleted_list">odrážka. %1$s</string>
     <string name="verbalize_numbered_list">%1$s. %2$s</string>
     <string name="verbalize_opened_edit">Súbor %1$s bol otvorený s povoleniami na úpravy.</string>
@@ -2244,8 +2247,9 @@ Kliknutím na položku + vytvoríte novú prezentáciu."</string>
     <string name="warm_welcome_next_button">Ďalej</string>
     <string name="warm_welcome_skip_button">Preskočiť</string>
     <string name="warning_cannot_share_outside_domain">Nastavenia tohto tímového disku bránia zdieľaniu mimo domény %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Nastavenia tohto tímového disku bránia zdieľaniu s nečlenmi a používateľmi mimo domény %s</string>
     <string name="warning_cannot_share_outside_domain_org">Nastavenia organizácie bránia zdieľaniu mimo organizácie</string>
-    <string name="warning_cannot_share_outside_team_drive">Nastavenia tohto tímového disku bránia zdieľaniu mimo tímu</string>
+    <string name="warning_cannot_share_outside_team_drive">Nastavenia tohto tímového disku bránia zdieľaniu s nečlenmi</string>
     <string name="welcome_button_close">Spustiť Prezentácie</string>
     <string name="welcome_button_continue">Ďalej</string>
     <string name="welcome_offer_button_close">Zavrieť</string>

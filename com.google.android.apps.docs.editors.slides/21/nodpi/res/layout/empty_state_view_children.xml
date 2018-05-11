@@ -2,7 +2,7 @@
 <merge
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
-        <ImageView android:layout_gravity="center" android:id="@id/empty_circle_view" android:layout_width="@dimen/empty_circle_size" android:layout_height="@dimen/empty_circle_size" android:src="@drawable/empty_icon_bg" android:importantForAccessibility="no" />
+        <ImageView android:layout_gravity="center" android:id="@id/empty_icon_bg" android:layout_width="@dimen/empty_circle_size" android:layout_height="@dimen/empty_circle_size" android:src="@drawable/empty_icon_bg" android:importantForAccessibility="no" />
         <ImageView android:layout_gravity="center" android:id="@id/empty_icon" android:layout_width="@dimen/empty_icon_size" android:layout_height="@dimen/empty_icon_size" android:importantForAccessibility="no" />
     </FrameLayout>
     <android.support.constraint.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/m_grid_2x">
@@ -13,7 +13,7 @@
             <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/m_grid_2x">
                 <TextView android:enabled="true" android:textSize="@dimen/m_text_size_body" android:textColor="@color/quantum_grey600" android:textColorLink="@color/quantum_googblue500" android:gravity="center" android:id="@id/empty_message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="480.0dip" android:lineSpacingExtra="2.0dip" />
             </LinearLayout>
-            <Button android:theme="@style/CallToActionButton" android:id="@id/call_to_action_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/m_grid_3x" />
+            <Button android:id="@id/call_to_action_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/m_grid_3x" style="@style/Widget.GoogleMaterial.Button" />
             <TextView android:textSize="@dimen/m_text_size_body" android:textColor="@color/quantum_googblue500" android:id="@id/empty_help_link" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" />
         </LinearLayout>
     </android.support.constraint.ConstraintLayout>

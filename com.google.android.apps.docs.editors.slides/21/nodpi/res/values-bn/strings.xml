@@ -457,6 +457,7 @@
     <string name="dialog_td_will_disappear">এই টিম ড্রাইভটি সবার জন্য অদৃশ্য হয়ে যাবে এবং আপনি এই কাজটিকে পূর্বাবস্থায় ফেরাতে পারবেন না৷</string>
     <string name="dialog_td_will_disappear_files_in_trash">এই টিম ড্রাইভের ফাইলগুলি \"%1$s\" ট্র্যাশে রয়েছে এবং কোনো ব্যবহারকারী সেগুলিকে পুনরুদ্ধার করতে পারবে না৷ এই টিম ড্রাইভটি সবার জন্য অদৃশ্য হয়ে যাবে এবং আপনি এই কাজটিকে পূর্বাবস্থায় ফেরাতে পারবেন না৷</string>
     <string name="did_you_mean">আপনি কি এটি বলতে চাইছেন: %1$s</string>
+    <string name="disabled_append">বন্ধ করা আছে,</string>
     <string name="discussion_accept">স্বীকার করুন</string>
     <string name="discussion_acl_fix_access_role_commenter">মন্তব্য করতে পারবেন</string>
     <string name="discussion_acl_fix_access_role_writer">সম্পাদনা করতে পারবেন</string>
@@ -567,11 +568,11 @@
     <string name="doclist_date_never_label">কখনও নয়</string>
     <string name="doclist_date_opened_label">আমি খুলেছি: %s</string>
     <string name="doclist_date_shared_label">শেয়ার করা: %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s · %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s · %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">আমার দ্বারা আপলোড হয়েছে: %s</string>
     <string name="doclist_detail_fragment_content_description">আইটেম বৈশিষ্ট্যাবলী দেখান</string>
-    <string name="doclist_entry_content_description" formatted="false">%s %s</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s %s রঙ:%s</string>
+    <string name="doclist_entry_content_description">%1$s %2$s</string>
+    <string name="doclist_entry_content_description_with_color">%1$s %2$s রঙ:%3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">নেভিগেশান ড্রয়ার খুলুন</string>
     <string name="doclist_quota_used_label">ব্যবহৃত সঞ্চয়স্থান: %s</string>
     <string name="doclist_selected_show_preview">পূর্বরূপ দেখান</string>
@@ -661,6 +662,8 @@
     <string name="draft_options_dialog_title">খসড়া সাইটের সেটিংস</string>
     <string name="draft_permission_change_anyone_warning">সাইটের খসড়ার সেটিং এ এই পরিবর্তনটি করলে সাইটটি প্রকাশ করার পরে যেকেউ এটি দেখতে পাবেন।</string>
     <string name="draft_permission_change_domain_warning">সাইটের খসড়ার সেটিং এ এই পরিবর্তনটি করলে সাইটটি প্রকাশ করার পরে %s এর যেকেউ এটি দেখতে পাবেন।</string>
+    <string name="draft_permission_downgrade_domain_warning">এই খসড়া সেটিংসটি পরিবর্তন করলে প্রকাশিত লিঙ্কটি শুধুমাত্র %1$s দেখতে পারবে</string>
+    <string name="draft_permission_downgrade_specific_warning">এই খসড়া সেটিংসটি পরিবর্তন করলে প্রকাশিত লিঙ্কটি শুধুমাত্র নির্দিষ্ট লোকেরাই দেখতে পারবেন</string>
     <string name="drive_file_stream_disabled">ড্রাইভ ফাইল স্ট্রিম বা একই রকম অ্যাপ্লিকেশন ব্যবহার করে এই টিম ড্রাইভের ফাইল খোলার বিকল্প বন্ধ রাখুন</string>
     <string name="drive_file_stream_enabled">ড্রাইভ ফাইল স্ট্রিম অথবা একই রকম অ্যাপ্লিকেশন ব্যবহার করে এই টিম ড্রাইভের ফাইল খোলার অনুমতি দিন</string>
     <string name="drive_file_stream_title">ড্রাইভ ফাইল স্ট্রিম</string>
@@ -702,7 +705,7 @@
     <string name="empty_doclist_for_pinned_view_details">ফাইলের বিকল্প মেনু থেকে ফাইলগুলিকে \"অফলাইনে উপলব্ধ করুন\"</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">কোনো ফাইলের মেনুর মধ্যে \"অফলাইনে উপলব্ধ\" -তে আলতো চাপুন যাতে অফলাইনে আপনি এটিতে কাজ করতে পারেন।</string>
     <string name="empty_doclist_for_recent_view">কোনো সম্প্রতি খোলা বা সম্পাদিত ফাইল নেই৷</string>
-    <string name="empty_doclist_for_search_view">কোনো ফলাফল নেই।</string>
+    <string name="empty_doclist_for_search_view">কোনও ফলাফল নেই</string>
     <string name="empty_doclist_for_shared_with_me_view">আপনার সাথে শেয়ার করা ফাইলগুলি এখানে থাকবে৷</string>
     <string name="empty_doclist_for_starred_view">আপনার কোনো তারকাচিহ্নিত ফাইল নেই৷</string>
     <string name="empty_doclist_for_starred_view_details">"এটিকে এই তালিকাতে যোগ করতে ফাইলের বিকল্প মেনুতে থাকা 'তারাঙ্কিত করা' আইকনটিতে আলতো করে চাপ দিন৷"</string>
@@ -753,6 +756,7 @@
     <string name="excess_head_count">+%1$d জন</string>
     <string name="excess_head_count_verbalization">+অন্যান্য %1$d জন৷</string>
     <string name="exit_multiselect_mode_button">মাল্টি নির্বাচন মোড থেকে প্রস্থান করুন</string>
+    <string name="expand_button_title">উন্নত</string>
     <string name="expires_future">%1$s এ মেয়াদ শেষ হবে</string>
     <string name="expires_today">আজ মেয়াদ শেষ হবে</string>
     <string name="export_download_error_title">ডাউনলোড ক্রটি</string>
@@ -769,6 +773,11 @@
     <string name="fab_office_document">নতুন Powerpoint ফাইল</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">অনুসন্ধানের ফলাফল</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">পুরানো</string>
     <string name="fast_scroll_time_grouper_last_week">গত সপ্তাহে</string>
     <string name="fast_scroll_time_grouper_this_month">এই মাসের শুরুর দিকে</string>
@@ -797,7 +806,7 @@
     <string name="file_picker_select_a_folder_heading">একটি ফোল্ডার বেছে নিন</string>
     <string name="file_picker_select_button">বেছে নিন</string>
     <string name="file_picker_storage_permissions_denied_toast">স্থানীয় স্টোরেজ অ্যাক্সেস করার অনুমতি দেওয়া হয়নি।</string>
-    <string name="file_too_large_for_upload" formatted="false">Google ড্রাইভে আপলোড করার জন্য %1s ফাইলটি অতি দীর্ঘ। এটি হল %2s কিন্তু এই ধরনের ফাইলের সীমা হল%3s। Google ড্রাইভ ফর্ম্যাটে রূপান্তর করা ছাড়াই আপনি এই ফাইল আপলোড করতে সক্ষম হতে পারেন।</string>
+    <string name="file_too_large_for_upload">Google ড্রাইভে আপলোড করার জন্য %1$s ফাইলটি অতি দীর্ঘ। এটি হল %2$s কিন্তু এই ধরনের ফাইলের সীমা হল%3$s। Google ড্রাইভ ফর্ম্যাটে রূপান্তর করা ছাড়াই আপনি এই ফাইল আপলোড করতে সক্ষম হতে পারেন।</string>
     <string name="file_too_large_for_upload_okbtn">ঠিক আছে</string>
     <string name="file_too_large_for_upload_title">আপলোড করা যাবে না</string>
     <string name="file_was_not_sent">ফাইল শেয়ার করা হয়নি৷</string>
@@ -957,17 +966,8 @@
     <string name="make_copy_spinner_message">কপি করা হচ্ছে…</string>
     <string name="manage_members_default_members">ডিফল্ট ভাবে, সদস্যরা ফাইলগুলিকে আপলোড/সম্পাদনা/মুছতে এবং অন্যান্য সদস্যদের আমন্ত্রণ জানাতে পারবেন</string>
     <string name="manage_members_dialog_title">সদস্যের অ্যাক্সেস</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">স্টোরেজ</string>
+    <string name="management_data_loading_failed">পৃষ্ঠাটি লোড করা যাচ্ছে না</string>
     <string name="member_count_max">99+</string>
     <string name="menu_backup">ব্যাকআপ</string>
     <string name="menu_copy_link">লিঙ্ক কপি করুন</string>
@@ -1070,27 +1070,26 @@
     <string name="move_error_target_folder_not_exist">যে ফোল্ডারে সরানো হবে সেটি নেই৷</string>
     <string name="move_notice_lost_access_shared_folders">শেয়ার করা ফোল্ডার থেকে আইটেমগুলি সরানো হয়েছে৷ লোকজন অ্যাক্সেস হারিয়েছেন৷</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s \"%2$s\" এ অ্যাক্সেস হারিয়েছেন৷</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">টিম ড্রাইভ থেকে ১টি আইটেম সরানো হয়েছে৷ সদস্যরা অ্যাক্সেস হারিয়েছেন৷</string>
     <string name="move_notice_lost_access_team_drives">টিম ড্রাইভ থেকে আইটেমগুলি সরানো হয়েছে৷ সদস্যরা অ্যাক্সেস হারিয়েছেন৷</string>
-    <string name="mr_cast_button_connected">কাস্ট করার বোতাম৷ সংযুক্ত হয়েছে</string>
-    <string name="mr_cast_button_connecting">কাস্ট করার বোতাম৷ সংযোগ করা হচ্ছে</string>
-    <string name="mr_cast_button_disconnected">কাস্ট করার বোতাম৷ সংযোগ বিচ্ছিন্ন হয়েছে</string>
-    <string name="mr_chooser_searching">ডিভাইসগুলিকে খোঁজা হচ্ছে</string>
-    <string name="mr_chooser_title">এতে কাস্ট করুন</string>
-    <string name="mr_controller_album_art">অ্যালবাম শৈলি</string>
-    <string name="mr_controller_casting_screen">স্ক্রীন কাস্ট করা হচ্ছে</string>
+    <string name="mr_cast_button_connected">কাস্ট করার বোতাম। কানেক্ট হয়েছে</string>
+    <string name="mr_cast_button_connecting">কাস্ট করার বোতাম। কানেক্ট করা হচ্ছে</string>
+    <string name="mr_cast_button_disconnected">কাস্ট করার বোতাম। কানেক্ট করা নেই</string>
+    <string name="mr_chooser_searching">ডিভাইস খোঁজা হচ্ছে</string>
+    <string name="mr_chooser_title">এখানে কাস্ট করুন</string>
+    <string name="mr_controller_album_art">অ্যালবাম আর্ট</string>
+    <string name="mr_controller_casting_screen">স্ক্রিন কাস্ট করা হচ্ছে</string>
     <string name="mr_controller_close_description">বন্ধ করুন</string>
-    <string name="mr_controller_collapse_group">সঙ্কুচিত করুন</string>
-    <string name="mr_controller_disconnect">সংযোগ বিচ্ছিন্ন করুন</string>
-    <string name="mr_controller_expand_group">বড় করুন</string>
-    <string name="mr_controller_no_info_available">কোনো তথ্য উপলব্ধ নেই</string>
-    <string name="mr_controller_no_media_selected">কোনো মিডিয়া নির্বাচন করা হয়নি</string>
-    <string name="mr_controller_pause">বিরাম দিন</string>
+    <string name="mr_controller_collapse_group">আড়াল করুন</string>
+    <string name="mr_controller_disconnect">ডিসকানেক্ট</string>
+    <string name="mr_controller_expand_group">বড় করে দেখুন</string>
+    <string name="mr_controller_no_info_available">কোনও তথ্য উপলভ্য নেই</string>
+    <string name="mr_controller_no_media_selected">কোনও মিডিয়া বেছে নেওয়া হয়নি</string>
+    <string name="mr_controller_pause">পজ করুন</string>
     <string name="mr_controller_play">চালান</string>
     <string name="mr_controller_stop">থামান</string>
     <string name="mr_controller_stop_casting">কাস্ট করা বন্ধ করুন</string>
     <string name="mr_controller_volume_slider">ভলিউম স্লাইডার</string>
-    <string name="mr_user_route_category_name">ডিভাইসগুলি</string>
+    <string name="mr_user_route_category_name">ডিভাইস</string>
     <string name="native_create_disabled_dialog_message">আপনার অ্যাকাউন্টে Google স্লাইড ব্যবহার করে উপস্থাপনা তৈরি করা যায় না।</string>
     <string name="native_create_disabled_dialog_title">আপনি Google উপস্থাপনা তৈরি করতে পারবেন না</string>
     <string name="native_punch_open_failed">উপস্থাপনাটি খুলতে ব্যর্থ হয়েছে৷</string>
@@ -1125,7 +1124,7 @@
     <string name="no_scheduled_meetings">কোনো মিটিং নির্ধারিত নেই</string>
     <string name="no_team_drives_title">কোনও টিম ড্রাইভ নেই</string>
     <string name="no_thanks">না থাক</string>
-    <string name="not_enough_storage_for_upload" formatted="false">Google ড্রাইভে আপলোড করার জন্য %1s ফাইলটি আকারে বড়। এটির আকার %2s কিন্তু আপনার কাছে শুধুমাত্র %3s স্টোরেজ উপলভ্য। আপনার স্টোরেজ আপগ্রেড করে আবার চেষ্টা করুন।</string>
+    <string name="not_enough_storage_for_upload">Google ড্রাইভে আপলোড করার জন্য %1$s ফাইলটি আকারে বড়। এটির আকার %2$s কিন্তু আপনার কাছে শুধুমাত্র %3$s স্টোরেজ উপলভ্য। আপনার স্টোরেজ আপগ্রেড করে আবার চেষ্টা করুন।</string>
     <string name="notification_channel_name_default">ডিফল্ট</string>
     <string name="notification_channel_name_high_priority">বেশি অগ্রাধিকার</string>
     <string name="notification_channel_name_low_priority">নিম্ন অগ্রাধিকার</string>
@@ -1178,7 +1177,7 @@
     <string name="open_document_in_browser">ব্রাউজারের মধ্যে খুলুন</string>
     <string name="open_folder_removed">খোলা ফোল্ডারটি আর দেখা যাবে না৷</string>
     <string name="open_folder_trashed">%1$s ট্র্যাশে পাঠানো হয়েছে৷</string>
-    <string name="open_in">%1$s এ খুলুন</string>
+    <string name="open_in">%1$s অ্যাপে খুলুন</string>
     <string name="open_link">লিঙ্ক অনুসরণ করুন</string>
     <string name="open_pinned_version">ডিভাইস থেকে খুলুন</string>
     <string name="open_templates_picker_offline">টেমপ্লেটগুলি ব্যবহার করতে অনলাইনে যান।</string>
@@ -1205,8 +1204,8 @@
     <string name="ouch_title_sawwrie">দুঃখিত!</string>
     <string name="overwrite_confirm_dialog_message">ফাইলটি %1$s নামে রয়েছে। অন্য নাম লিখতে চান?</string>
     <string name="overwrite_confirm_dialog_positive_button_label">ওভাররাইট করুন</string>
-    <string name="owner_not_user">%1$s এর মালিকানাধীন নয়</string>
-    <string name="owner_user">%1$s এর মালিকানাধীন</string>
+    <string name="owner_not_user">%1$s-এর মালিকানাধীন নয়</string>
+    <string name="owner_user">%1$s-এর মালিকানাধীন</string>
     <string name="page_1_description">ইন্টারনেটে সংযোগ থাকা অবস্থায় বা না থাকা অবস্থায় কাজগুলি সম্পন্ন করুন৷</string>
     <string name="page_1_heading_editors">যেতে যেতে উপস্থাপনাগুলিতে কাজ করুন</string>
     <string name="page_2_description">আপনি নিজে লিখুন বা লেখার জন্য আরও ব্যক্তিগণকে আমন্ত্রণ জানান৷</string>
@@ -1247,7 +1246,6 @@
     <string name="palette_format_font_title">পাঠ্য</string>
     <string name="palette_format_font_underline">নিম্নরেখা</string>
     <string name="palette_format_menu_item">ফর্ম্যাট</string>
-    <string name="palette_format_shape_linewidth_value_format">Px এর % .</string>
     <string name="palette_image_from_camera">ক্যামেরা থেকে</string>
     <string name="palette_image_from_storage">ফটোগুলি থেকে</string>
     <string name="palette_line">লাইন</string>
@@ -1269,6 +1267,8 @@
     <string name="palette_paragraph_number_default">ডিফল্ট সংখ্যা</string>
     <string name="palette_paragraph_outdent">আউটডেন্ট</string>
     <string name="palette_replace_image">ছবি পরিবর্তন করুন</string>
+    <string name="palette_selected_subtab_content_description">"%1$s এর সাব-ট্যাব,  %3$d এর %2$d, নির্বাচন করা হয়েছে"</string>
+    <string name="palette_selected_tab_content_description">নির্বাচিত, %1$s এর ট্যাব, %3$d এর মধ্যে %2$d</string>
     <string name="palette_set_text_direction_lefttoright">পাঠ্যের বিন্যাস বাঁ থেকে ডান দিকে সেট করুন</string>
     <string name="palette_set_text_direction_righttoleft">পাঠ্যের বিন্যাস ডান থেকে বাঁ দিকে সেট করুন</string>
     <string name="palette_shape">আকৃতি</string>
@@ -1518,7 +1518,7 @@
     <string name="punch_show_slide">স্লাইডটি দেখুন</string>
     <string name="punch_speaker_notes_title">স্পীকার নোট</string>
     <string name="punch_speakernotes_closed">স্পীকার নোটগুলি বন্ধ করুন৷</string>
-    <string name="punch_thor_invite_email_body" formatted="false">অ্যাক্সেসের তথ্য:&lt;br> %s &lt;br> %s পিন:%s</string>
+    <string name="punch_thor_invite_email_body">অ্যাক্সেসের তথ্য:&lt;br> %1$s &lt;br> %2$s পিন:%3$s</string>
     <string name="punctuation_period">।</string>
     <string name="purchase_dialog_how_storage_used">Gmail, Google Photos এবং Google ড্রাইভ জুড়ে সঞ্চয়স্থানকে ভাগ করা হয়</string>
     <string name="purchase_dialog_manage">সঞ্চয়স্থান পরিচালনা করুন</string>
@@ -1975,6 +1975,7 @@
     <string name="suggestions_add_to_dictionary">অভিধানে যুক্ত করুন</string>
     <string name="suggestions_delete_text">মুছুন</string>
     <string name="suggestions_popup_opened">বানান পরামর্শগুলি</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Google স্লাইড্স্ সিংক্রোনাইজ করতে ত্রুটি ঘটেছে</string>
     <string name="sync_more_error">অতিরিক্ত আইটেমগুলি উদ্ধার করতে সমস্যা হয়েছে</string>
     <string name="sync_more_error_offline">অফলাইনে থাকাকালীন কিছু দস্তাবেজ দৃশ্যমান নাও হতে পারে৷</string>
@@ -2007,7 +2008,7 @@
     <string name="team_drive_empty_list_message_cannot_create">কেউ আপনাকে কোনও টিম ড্রাইভে যোগ করলে সেটি আপনি এখানে দেখতে পাবেন।</string>
     <string name="team_drive_settings_title">সেটিংস</string>
     <string name="team_drive_trash_welcome_snackbar">টিম ড্রাইভের ট্র্যাশে থাকা আইটেমগুলি ৩০ দিনের মধ্যে স্থায়ীভাবে মুছে ফেলা হবে।</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">%1$s, শিরোলেখ</string>
     <string name="template_category_education">শিক্ষা</string>
     <string name="template_category_personal">ব্যক্তিগত</string>
@@ -2081,6 +2082,8 @@
     <string name="unable_to_open_local_document_message">এটি সরানো বা মোছা হয়ে থাকতে পারে৷</string>
     <string name="unable_to_open_local_document_title">ডিভাইসে সংরক্ষিত ফাইল খোলা যায়নি</string>
     <string name="unable_to_read_calendar_data">ক্যালেন্ডার ক্যোয়ারী করতে অক্ষম হয়েছে</string>
+    <string name="unable_update_published_message">ড্রাফ্ট লিঙ্কের সেটিং আপডেট না করা পর্যন্ত, প্রকাশ করা সাইটের সেটিং পরিবর্তন করা যাবে না</string>
+    <string name="unable_update_published_title">সেটিং আপডেট করা যাবে না</string>
     <string name="undeliverable_acl_changed_dialog_title">আপনার পরিবর্তনগুলি মুছে দিন এবং দস্তাবেজটি প্রত্যাবর্তন করুন?</string>
     <string name="undeliverable_changes_dialog_content">আপনার অফলাইন পরিবর্তনগুলি হারিয়ে যেতে পারে৷ আপনি নিশ্চিত করুন যে ক্লিপবোর্ডে তাদের অনুলিপি করেছেন৷</string>
     <string name="undeliverable_changes_dialog_title">সমস্যাযুক্ত পরিবর্তন মুছবেন এবং দস্তাবেজটি ফেরাবেন?</string>
@@ -2183,6 +2186,8 @@
     <string name="upsell_negbtn">পরে</string>
     <string name="upsell_okbtn">আপগ্রেড করুন</string>
     <string name="url_typo_error_msg">লিঙ্কটি সঠিক বলে মনে হচ্ছে না৷ টাইপো?</string>
+    <string name="v7_preference_off">বন্ধ</string>
+    <string name="v7_preference_on">চালু</string>
     <string name="verbalize_bulleted_list">বুলেট। %1$s</string>
     <string name="verbalize_numbered_list">%1$s। %2$s</string>
     <string name="verbalize_opened_edit">সম্পাদনা করার অনুমতিসহ %1$s খোলা হয়েছে৷</string>
@@ -2195,10 +2200,15 @@
     <string name="version_app_update">আপডেট করুন</string>
     <string name="version_app_update_recommended_title">অ্যাপ্লিকেশান আপডেট সুপারিশ করা</string>
     <string name="version_app_update_required_title">অ্যাপ্লিকেশান আপডেট প্রয়োজন</string>
+    <string name="version_app_version_document_inaccessible">%1$s এর এই সংস্করণটি এই দস্তাবেজটি খুলতে পারবে না। সর্বশেষ সংস্করণে আপডেট করুন।</string>
+    <string name="version_app_version_no_longer_supported">%1$s এর এই সংস্করণটি এখন আর সমর্থিত নয়। সর্বশেষ সংস্করণে আপডেট করুন।</string>
+    <string name="version_app_version_recommended_update">%1$s এর এই সংস্করণ সমর্থন শীঘ্রই শেষ হয়ে যাবে। সর্বশেষ সংস্করণে আপডেট করুন।</string>
     <string name="version_download_pdf">PDF ডাউনলোড করুন</string>
     <string name="version_system_update_recommended_title">সিস্টেম আপডেট সুপারিশ করা হচ্ছে</string>
     <string name="version_system_update_required_title">সিস্টেম আপডেট প্রয়োজন</string>
     <string name="version_system_version_document_inaccessible">Android এর এই সংস্করণ এই দস্তাবেজকে আর সমর্থন করে না। একটি সিস্টেম আপডেটের জন্য ডিভাইস সেটিংস এ যান।</string>
+    <string name="version_system_version_no_longer_supported">%1$s এর আর Android এর এই সংস্করণ সমর্থন করে না। একটি সিস্টেম আপডেটের জন্য চেক করতে ডিভাইস সেটিংস এ যান।</string>
+    <string name="version_system_version_recommended_update">Android এর এই সংস্করণের জন্য %1$s এর সমর্থন শীঘ্রই শেষ হয়ে যাবে। একটি সিস্টেম আপডেটের জন্য চেক করতে ডিভাইস সেটিংস এ যান।</string>
     <string name="version_too_old">দুঃখিত, Google স্লাইড্সের এই সংস্করণ আর সমর্থিত নয়৷ অনুগ্রহ করে একটি নতুন সংস্করণে আপগ্রেড করুন৷</string>
     <string name="version_too_old_close">বন্ধ করুন</string>
     <string name="version_too_old_title">সংস্করণটি অতি পুরোনো</string>
@@ -2208,8 +2218,9 @@
     <string name="warm_welcome_next_button">পরবর্তী</string>
     <string name="warm_welcome_skip_button">এড়িয়ে যান</string>
     <string name="warning_cannot_share_outside_domain">এই টিম ড্রাইভের সেটিংস অনুযায়ী %s এর বাইরের কারও সাথে এটি শেয়ার করা যাবে না</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">এই টিম ড্রাইভের সেটিংস অনুযায়ী, টিমের অথবা %s এর বাইরের কারও সাথে এটি শেয়ার করা যাবে না</string>
     <string name="warning_cannot_share_outside_domain_org">প্রতিষ্ঠানের সেটিংস অনুযায়ী প্রতিষ্ঠানের বাইরের কারও সাথে এটি শেয়ার করা যাবে না।</string>
-    <string name="warning_cannot_share_outside_team_drive">এই টিম ড্রাইভের সেটিংস অনুযায়ী টিমের বাইরের কারও সাথে এটি শেয়ার করা যাবে না</string>
+    <string name="warning_cannot_share_outside_team_drive">এই টিম ড্রাইভের সেটিংস অনুযায়ী, যারা সদস্য নন তাদের সাথে ফাইল শেয়ার করা যাবে না</string>
     <string name="welcome_button_close">স্লাইড্সে যান</string>
     <string name="welcome_button_continue">পরবর্তী</string>
     <string name="welcome_offer_button_close">বন্ধ করুন</string>
@@ -2227,27 +2238,27 @@
     <string name="welcome_title_highlights">%1$s এর ঘোষণা প্যানেল।</string>
     <string name="write_access_denied">দস্তাবেজে লেখার অ্যাক্সেস অস্বীকৃত হয়েছে৷</string>
     <string name="zss_accessibility_searching">%1$s খোঁজা হচ্ছে</string>
-    <string name="zss_date_range_header_title">তারিখ সংশোধন করা হয়েছে</string>
-    <string name="zss_date_range_month">গত ৩০ দিন</string>
-    <string name="zss_date_range_three_month">গত ৯০ দিন</string>
+    <string name="zss_date_range_header_title">তারিখ পরিবর্তন করা হয়েছে</string>
+    <string name="zss_date_range_month">গত ৩০ দিনে</string>
+    <string name="zss_date_range_three_month">গত ৯০ দিনে</string>
     <string name="zss_date_range_today">আজ</string>
-    <string name="zss_date_range_week">গত ৭ দিন</string>
+    <string name="zss_date_range_week">গত ৭ দিনে</string>
     <string name="zss_date_range_yesterday">গতকাল</string>
-    <string name="zss_entry_types_header_title">ফাইলের প্রকারগুলি</string>
+    <string name="zss_entry_types_header_title">ফাইলের ধরন</string>
     <string name="zss_no_filters">কোনো ফিল্টার নেই</string>
-    <string name="zss_owner_header_title">এটার মালিকা</string>
-    <string name="zss_owner_me">আমি মালিক</string>
-    <string name="zss_owner_not_me">আমি মালিক নই</string>
+    <string name="zss_owner_header_title">এটির মালিক</string>
+    <string name="zss_owner_me">আমার মালিকানাধীন</string>
+    <string name="zss_owner_not_me">আমার মালিকানাধীন নয়</string>
     <string name="zss_people_header_title">লোকজন</string>
     <string name="zss_showing_list_of_filters">উপলব্ধ ফিল্টারগুলির তালিকা দেখানো হচ্ছে৷</string>
-    <string name="zss_team_drive">%1$s এ খুঁজুন</string>
-    <string name="zss_type_archive">সেভ করুন</string>
+    <string name="zss_team_drive">%1$s-এ খুঁজুন</string>
+    <string name="zss_type_archive">আর্কাইভ করুন</string>
     <string name="zss_type_audio">অডিও</string>
-    <string name="zss_type_documents">পাঠ্য দস্তাবেজগুলি</string>
-    <string name="zss_type_folder">ফোল্ডারগুলি</string>
-    <string name="zss_type_images">ফটো ও ছবিগুলি</string>
-    <string name="zss_type_pdfs">PDFগুলি</string>
-    <string name="zss_type_presentations">উপস্থাপনাগুলি</string>
-    <string name="zss_type_spreadsheets">স্প্রেডশীটগুলি</string>
-    <string name="zss_type_video">ভিডিওগুলি</string>
+    <string name="zss_type_documents">টেক্সট ডকুমেন্ট</string>
+    <string name="zss_type_folder">ফোল্ডার</string>
+    <string name="zss_type_images">ফটো ও ছবি</string>
+    <string name="zss_type_pdfs">PDF</string>
+    <string name="zss_type_presentations">প্রেজেন্টেশন</string>
+    <string name="zss_type_spreadsheets">স্প্রেডশিট</string>
+    <string name="zss_type_video">ভিডিও</string>
 </resources>

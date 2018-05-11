@@ -475,6 +475,7 @@ Kitendo hiki hakiwezi kutenduliwa."</string>
     <string name="dialog_td_will_disappear">Hifadhi hii ya Timu haitapatikana tena na mtu yeyote na huwezi kutendua kitendo hiki.</string>
     <string name="dialog_td_will_disappear_files_in_trash">Faili za Hifadhi hii ya Timu zipo kwenye tupio la \"%1$s\" na hakuna atakayeweza kuzirejesha. Hifadhi hii ya Timu haitapatikana tena na mtu yeyote na huwezi kutendua kitendo hiki.</string>
     <string name="did_you_mean">Je, ulimaanisha: %1$s</string>
+    <string name="disabled_append">limezimwa,</string>
     <string name="discussion_accept">Kubali</string>
     <string name="discussion_acl_fix_access_role_commenter">Anaweza kutoa maoni</string>
     <string name="discussion_acl_fix_access_role_writer">Anaweza kubadilisha</string>
@@ -585,11 +586,11 @@ Kitendo hiki hakiwezi kutenduliwa."</string>
     <string name="doclist_date_never_label">Haijawahi kutokea</string>
     <string name="doclist_date_opened_label">Nilizofungua: %s</string>
     <string name="doclist_date_shared_label">Zilizoshirikiwa: %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s · %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s · %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">Nilizopakia: %s</string>
     <string name="doclist_detail_fragment_content_description">Onyesha sifa za kipengee</string>
-    <string name="doclist_entry_content_description" formatted="false">%s %s</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s %s rangi:%s</string>
+    <string name="doclist_entry_content_description">%1$s %2$s</string>
+    <string name="doclist_entry_content_description_with_color">%1$s %2$s rangi:%3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">Fungua droo ya usogezaji</string>
     <string name="doclist_quota_used_label">Nafasi iliyotumika: %s</string>
     <string name="doclist_selected_show_preview">Fungua onyesho la kuchungulia</string>
@@ -679,6 +680,8 @@ Kitendo hiki hakiwezi kutenduliwa."</string>
     <string name="draft_options_dialog_title">Mipangilio ya tovuti rasimu</string>
     <string name="draft_permission_change_anyone_warning">Ukibadilisha kuwa mipangilio hii ya rasimu ya tovuti utaruhusu mtu yeyote aangalie inapochapishwa.</string>
     <string name="draft_permission_change_domain_warning">Ukibadilisha kuwa mipangilio hii ya rasimu ya tovuti utaruhusu mtu yeyote katika kikoa cha %s aangalie inapochapishwa.</string>
+    <string name="draft_permission_downgrade_domain_warning">Kubadilisha mipangilio hii ya tovuti ya rasimu kutasababisha kiungo kilichochapishwa kitazamwe na watu walio kwenye %1$s pekee</string>
+    <string name="draft_permission_downgrade_specific_warning">Kubadilisha mipangilio hii ya tovuti ya rasimu kutasababisha watu mahususi pekee waangalie kiungo kilichochapishwa</string>
     <string name="drive_file_stream_disabled">Ruhusu watu wafungue faili zilizo katika Hifadhi hii ya Timu wakitumia Programu ya kufikia faili za Hifadhi au programu nyingine kama hizo</string>
     <string name="drive_file_stream_enabled">Ruhusu watu wafungue faili zilizo katika Hifadhi hii ya Timu wakitumia Programu ya kufikia faili za Hifadhi au programu nyingine kama hizo</string>
     <string name="drive_file_stream_title">Programu ya kufikia faili za Hifadhi</string>
@@ -721,7 +724,7 @@ Jaribu kupakia faili."</string>
     <string name="empty_doclist_for_pinned_view_details">Hufanya faili \"Ipatikane nje ya mtandao\" katika menyu ya chaguo za faili</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Gusa \"Ipatikane nje ya mtandao\" katika menyu ya faili ili uendelee kuifanyia kazi wakati haupo mtandaoni.</string>
     <string name="empty_doclist_for_recent_view">Hakuna faili zilizofunguliwa au kubadilishwa hivi majuzi.</string>
-    <string name="empty_doclist_for_search_view">Hakuna matokeo yoyote yaliyopatikana.</string>
+    <string name="empty_doclist_for_search_view">Hakuna matokeo</string>
     <string name="empty_doclist_for_shared_with_me_view">Faili zilizoshirikiwa nawe zitaonekana hapa.</string>
     <string name="empty_doclist_for_starred_view">Huna faili zozote zilizotiwa nyota.</string>
     <string name="empty_doclist_for_starred_view_details">Gonga aikoni ya nyota katika menyu ya faili ya chaguo ili uiongeze kwenye orodha hii.</string>
@@ -772,13 +775,14 @@ Bofya + ili uunde wasilisho jipya."</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">na wengine %1$d.</string>
     <string name="exit_multiselect_mode_button">Ondoka kwenye hali ya uchaguzi mwingi</string>
+    <string name="expand_button_title">Mipangilio ya Kina</string>
     <string name="expires_future">Muda wake utaisha baada ya %1$s</string>
     <string name="expires_today">Muda wake unaisha leo</string>
     <string name="export_download_error_title">Hitilafu ya Kupakua</string>
     <string name="export_error_message">Kuna hitilafu.</string>
     <string name="export_error_message_network">Hitilafu ya usambazaji data imetokea. Tafadhali kagua muunganisho wa mtandao.</string>
     <string name="export_error_message_server">Hitilafu ya kubadilisha imetokea. Tafadhali jaribu tena baadaye.</string>
-    <string name="export_failure_notification_content">Haikuhifadhi %1$s</string>
+    <string name="export_failure_notification_content">Imeshindwa kuhifadhi \"%1$s\"</string>
     <string name="export_notification_content">Inahifadhi \"%1$s\"…</string>
     <string name="exporting_start_msg">Inatayarishwa ili ihamishwe…</string>
     <string name="fab_choose_template">Chagua kiolezo</string>
@@ -788,6 +792,11 @@ Bofya + ili uunde wasilisho jipya."</string>
     <string name="fab_office_document">Faili mpya ya Powerpoint</string>
     <string name="fast_scroll_month_and_year_grouped">%1$sMONTH %2$dYEAR</string>
     <string name="fast_scroll_search_result_grouper">Matokeo ya Utafutaji</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Nzee zaidi</string>
     <string name="fast_scroll_time_grouper_last_week">Wiki iliyopita</string>
     <string name="fast_scroll_time_grouper_this_month">Mapema mwezi huu</string>
@@ -816,7 +825,7 @@ Bofya + ili uunde wasilisho jipya."</string>
     <string name="file_picker_select_a_folder_heading">Chagua folda</string>
     <string name="file_picker_select_button">Chagua</string>
     <string name="file_picker_storage_permissions_denied_toast">Ruhusa ya kufikia hifadhi ya ndani haijatolewa.</string>
-    <string name="file_too_large_for_upload" formatted="false">Faili %1s ni kubwa sana haiwezi kupakiwa kwenye Hifadhi ya Google. Ni %2s lakini kikomo cha aina hii ya faili ni %3s . Unaweza kupakia faili hii bila kuibadilisha hadi muundo wa Hifadhi ya Google.</string>
+    <string name="file_too_large_for_upload">Faili %1$s ni kubwa sana haiwezi kupakiwa kwenye Hifadhi ya Google. Ni %2$s lakini kikomo cha aina hii ya faili ni %3$s . Unaweza kupakia faili hii bila kuibadilisha hadi muundo wa Hifadhi ya Google.</string>
     <string name="file_too_large_for_upload_okbtn">SAWA</string>
     <string name="file_too_large_for_upload_title">Haiwezi Kupakia</string>
     <string name="file_was_not_sent">Faili haijashirikiwa.</string>
@@ -980,17 +989,8 @@ Bofya + ili uunde wasilisho jipya."</string>
     <string name="manage_addons_playstore_link_description">Nenda kwenye Duka la Google Play ili upate %s</string>
     <string name="manage_members_default_members">Kwa chaguo-msingi washiriki wanaweza kupakia, kubadilisha, kufuta faili na kualika washiriki wengine</string>
     <string name="manage_members_dialog_title">Idhini za washiriki</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Hifadhi</string>
+    <string name="management_data_loading_failed">Imeshindwa kupakia ukurasa huu</string>
     <string name="member_count_max">99+</string>
     <string name="menu_backup">Hifadhi ya nakala rudufu</string>
     <string name="menu_copy_link">Nakili kiungo</string>
@@ -1094,10 +1094,9 @@ Bofya + ili uunde wasilisho jipya."</string>
     <string name="move_error_target_folder_not_exist">Folda lengwa haipo.</string>
     <string name="move_notice_lost_access_shared_folders">Vipengee vimehamishwa kutoka kwenye folda ya pamoja. Watu hawawezi kuvifikia tena.</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s \" %2$s\" haitaweza kuvifikia tena.</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">Kipengee 1 kimehamishwa kutoka kwenye Hifadhi ya Timu. Washiriki hawawezi kukifikia tena.</string>
     <string name="move_notice_lost_access_team_drives">Vipengee vimehamishwa kutoka kwenye Hifadhi ya Timu. Washiriki hawawezi kuvifikia tena.</string>
     <string name="mr_cast_button_connected">Kitufe cha kutuma. Kimeunganishwa</string>
-    <string name="mr_cast_button_connecting">Kitufe cha kutuma. Kinaunganisha</string>
+    <string name="mr_cast_button_connecting">Kitufe cha kutuma. Kinaunganishwa</string>
     <string name="mr_cast_button_disconnected">Kitufe cha kutuma. Kimeondolewa</string>
     <string name="mr_chooser_searching">Inatafuta vifaa</string>
     <string name="mr_chooser_title">Tuma kwenye</string>
@@ -1113,7 +1112,7 @@ Bofya + ili uunde wasilisho jipya."</string>
     <string name="mr_controller_play">Cheza</string>
     <string name="mr_controller_stop">Simamisha</string>
     <string name="mr_controller_stop_casting">Acha kutuma</string>
-    <string name="mr_controller_volume_slider">Kitelezi cha sauti</string>
+    <string name="mr_controller_volume_slider">Kidhibiti cha sauti</string>
     <string name="mr_user_route_category_name">Vifaa</string>
     <string name="native_create_disabled_dialog_message">Akaunti yako haiwezi kutumiwa kuunda mawasilisho kwenye huduma ya Slaidi za Google.</string>
     <string name="native_create_disabled_dialog_title">Huwezi kuunda mawasilisho ya Google</string>
@@ -1149,7 +1148,7 @@ Bofya + ili uunde wasilisho jipya."</string>
     <string name="no_scheduled_meetings">Hakuna mikutano iliyopangwa</string>
     <string name="no_team_drives_title">Hakuna Hifadhi za Timu</string>
     <string name="no_thanks">Hapana, Asante</string>
-    <string name="not_enough_storage_for_upload" formatted="false">Faili %1s ni kubwa mno kuweza kupakiwa kwenye Hifadhi ya Google. Ina ukubwa wa %2s lakini nafasi iliyopo ni %3s. Tafadhali nunua nafasi ya hifadhi na ujaribu tena.</string>
+    <string name="not_enough_storage_for_upload">Faili %1$s ni kubwa mno kuweza kupakiwa kwenye Hifadhi ya Google. Ina ukubwa wa %2$s lakini nafasi iliyopo ni %3$s. Tafadhali nunua nafasi ya hifadhi na ujaribu tena.</string>
     <string name="notification_channel_name_default">Chaguo msingi</string>
     <string name="notification_channel_name_high_priority">Kipaumbele cha juu</string>
     <string name="notification_channel_name_low_priority">Isiyo ya muhimu</string>
@@ -1229,8 +1228,8 @@ Bofya + ili uunde wasilisho jipya."</string>
     <string name="ouch_title_sawwrie">Samahani!</string>
     <string name="overwrite_confirm_dialog_message">%1$s ipo. Je, ungependa kuibadili?</string>
     <string name="overwrite_confirm_dialog_positive_button_label">Badili</string>
-    <string name="owner_not_user">Haimilikiwi na %1$s</string>
-    <string name="owner_user">Inamilikiwa na %1$s</string>
+    <string name="owner_not_user">Isiyomilikiwa na %1$s</string>
+    <string name="owner_user">Inayomilikiwa na %1$s</string>
     <string name="page_1_description">Pata kufanya kazi zako iwe una muunganisho wa intaneti au huna.</string>
     <string name="page_1_heading_editors">Mawasilisho popote ulipo</string>
     <string name="page_2_description">Andika wewe mwenyewe ama ualike watu zaidi wachangie.</string>
@@ -1432,7 +1431,6 @@ Bofya + ili uunde wasilisho jipya."</string>
     <string name="published_access_anyone">Mtu yeyote anaweza kuona inapochapishwa</string>
     <string name="published_access_domain">Mtu yeyote katika kikoa cha %s anaweza kuangalia inapochapishwa</string>
     <string name="published_access_select_people">Watu mahususi wanaweza kuangalia linapochapishwa</string>
-    <string name="published_disabled_append">imezimwa,</string>
     <string name="published_message_for_anyone_can_edit">Kwa kuwa mtu yeyote anaweza kubadilisha, mtu yeyote anaweza kuangalia inapochapishwa.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Kwa kuwa mtu yeyote katika kikoa cha %1$s anaweza kubadilisha, mtu yeyote katika kikoa cha %1$s anaweza kuangalia inapochapishwa.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Kwa kuwa mtu yeyote aliye na kiungo anaweza kubadilisha, mtu yeyote anaweza kuangalia inapochapishwa.</string>
@@ -1546,7 +1544,7 @@ Bofya + ili uunde wasilisho jipya."</string>
     <string name="punch_show_slide">Onyesha slaidi</string>
     <string name="punch_speaker_notes_title">Vidokezo vya mzungumzaji</string>
     <string name="punch_speakernotes_closed">Vidokezo vya mzungumzaji vimefungwa.</string>
-    <string name="punch_thor_invite_email_body" formatted="false">Maelezo ya kujiunga:&lt;br> %s &lt;br> %s PIN:%s</string>
+    <string name="punch_thor_invite_email_body">Maelezo ya kujiunga:&lt;br> %1$s &lt;br> %2$s PIN:%3$s</string>
     <string name="punctuation_period">.</string>
     <string name="purchase_dialog_how_storage_used">Hifadhi inatumika kwa pamoja na huduma za Gmail, Picha kwenye Google na Hifadhi ya Google.</string>
     <string name="purchase_dialog_manage">Simamia nafasi ya kuhifadhi</string>
@@ -1654,7 +1652,7 @@ Bofya + ili uunde wasilisho jipya."</string>
     <string name="select_team_drive_desc">Chagua Hifadhi ya Timu</string>
     <string name="select_team_drive_title">Chagua Hifadhi ya Timu</string>
     <string name="selected_account">Umeingia katika akaunti %1$s</string>
-    <string name="selection_action_bar_drop_to_current_folder_header">Hamisha hadi</string>
+    <string name="selection_action_bar_drop_to_current_folder_header">Hamishia kwenye</string>
     <string name="selection_action_bar_drop_to_current_folder_header_as_add">Ongeza kwenye</string>
     <string name="selection_cannot_move_into_self">Kipengee hakiwezi kujisogezea</string>
     <string name="selection_item_select_button">Chagua %1$s%2$s</string>
@@ -1668,10 +1666,10 @@ Bofya + ili uunde wasilisho jipya."</string>
     <string name="selection_menu_download">Pakua nakala</string>
     <string name="selection_menu_download_content_desc">Pakua vipengee vilivyochaguliwa</string>
     <string name="selection_menu_download_multiple">Pakua nakala</string>
-    <string name="selection_menu_move_to">Hamisha hadi…</string>
+    <string name="selection_menu_move_to">Hamishia kwenye…</string>
     <string name="selection_menu_move_to_content_desc">Hamisha vipengee vilivyochaguliwa hadi kwenye folda nyingine</string>
     <string name="selection_menu_move_to_trashed_content_desc">Rejesha vipengee vilivyoteuliwa na uvihamishe hadi kwenye folda nyingine</string>
-    <string name="selection_menu_move_trashed_to">Hamisha hadi…</string>
+    <string name="selection_menu_move_trashed_to">Hamishia kwenye…</string>
     <string name="selection_menu_overflow_content_desc">Chaguo zaidi za kukokotoa za vipengee vilivyochaguliwa</string>
     <string name="selection_menu_pin">Iwe nje ya mtandao</string>
     <string name="selection_menu_pin_content_desc">Fanya vipengee vilivyochaguliwa vipatikane nje ya mtandao</string>
@@ -2006,6 +2004,7 @@ Bofya + ili uunde wasilisho jipya."</string>
     <string name="suggestions_add_to_dictionary">Ongeza kwenye kamusi</string>
     <string name="suggestions_delete_text">Futa</string>
     <string name="suggestions_popup_opened">Mapendekezo ya maendelezo</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Hitilafu ya Kusawazisha Slaidi za Google</string>
     <string name="sync_more_error">Hitilafu ya kurejesha vipengee vya ziada</string>
     <string name="sync_more_error_offline">Huenda baadhi ya hati zisionekane ukiwa nje ya mtandao.</string>
@@ -2038,7 +2037,7 @@ Bofya + ili uunde wasilisho jipya."</string>
     <string name="team_drive_empty_list_message_cannot_create">Mtu anapokuongeza kwenye Hifadhi ya Timu, utaiona ikiwa imeorodheshwa hapa.</string>
     <string name="team_drive_settings_title">Mipangilio</string>
     <string name="team_drive_trash_welcome_snackbar">Faili zilizo katika Tupio la Hifadhi ya Timu zitafutwa kabisa baada ya siku 30.</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">%1$s, kichwa</string>
     <string name="template_category_education">Elimu</string>
     <string name="template_category_personal">Binafsi</string>
@@ -2112,6 +2111,8 @@ Bofya + ili uunde wasilisho jipya."</string>
     <string name="unable_to_open_local_document_message">Inaweza kuwa imehamishiwa kwingine au imefutwa.</string>
     <string name="unable_to_open_local_document_title">Haijafungua faili iliyohifadhiwa kwenye kifaa</string>
     <string name="unable_to_read_calendar_data">Haikuweza kuwasilisha hoja kwenye kalenda</string>
+    <string name="unable_update_published_message">Mipangilio ya tovuti iliyochapishwa haiwezi kubadilishwa hadi mipangilio ya kiungo rasimu isasishwe</string>
+    <string name="unable_update_published_title">Imeshindwa kusasisha mipangilio</string>
     <string name="undeliverable_acl_changed_dialog_title">Je, ungependa kufuta mabadiliko uliyofanya na urejeshe nakala ya awali?</string>
     <string name="undeliverable_changes_dialog_content">Mabadiliko uliyofanya nje ya mtandao huenda yatapotea. Hakikisha umeyanakili kwenye ubao nakili.</string>
     <string name="undeliverable_changes_dialog_title">Je, ungependa kufuta mabadiliko yenye matatizo na urejeshe nakala ya awali ya hati?</string>
@@ -2214,11 +2215,13 @@ Bofya + ili uunde wasilisho jipya."</string>
     <string name="upsell_negbtn">Baadaye</string>
     <string name="upsell_okbtn">Pata toleo jipya</string>
     <string name="url_typo_error_msg">Inaonekana kiungo si sahihi. Je, kuna kosa la tahajia?</string>
+    <string name="v7_preference_off">IMEZIMWA</string>
+    <string name="v7_preference_on">IMEWASHWA</string>
     <string name="verbalize_bulleted_list">kitone. %1$s</string>
     <string name="verbalize_numbered_list">%1$s. %2$s</string>
-    <string name="verbalize_opened_edit">Umefungua 1$s na una idhini ya kuibadilisha.</string>
-    <string name="verbalize_opened_suggest">Umefungua 1$s na una idhini ya kutoa maoni.</string>
-    <string name="verbalize_opened_view">Umefungua 1$s na una idhini ya kuiangalia.</string>
+    <string name="verbalize_opened_edit">Umefungua %1$s na una idhini ya kuibadilisha.</string>
+    <string name="verbalize_opened_suggest">Umefungua %1$s na una idhini ya kutoa maoni.</string>
+    <string name="verbalize_opened_view">Umefungua %1$s na una idhini ya kuiangalia.</string>
     <string name="version_app_close_document">Funga hati</string>
     <string name="version_app_dismiss">Ondoa</string>
     <string name="version_app_quit">Acha</string>
@@ -2244,8 +2247,9 @@ Bofya + ili uunde wasilisho jipya."</string>
     <string name="warm_welcome_next_button">Inayofuata</string>
     <string name="warm_welcome_skip_button">Ruka</string>
     <string name="warning_cannot_share_outside_domain">Mipangilio ya Hifadhi hii ya Timu inazuia kushiriki nje ya kikoa cha %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Mipangilio ya Hifadhi hii ya Timu inazuia kushiriki na watu wasio washiriki na nje ya %s.</string>
     <string name="warning_cannot_share_outside_domain_org">Mipangilio ya shirika inazuia kushiriki nje ya shirika</string>
-    <string name="warning_cannot_share_outside_team_drive">Mipangilio ya Hifadhi hii ya Timu inazuia kushiriki nje ya timu</string>
+    <string name="warning_cannot_share_outside_team_drive">Mipangilio ya Hifadhi hii ya Timu inazuia kushiriki na wasio washiriki</string>
     <string name="welcome_button_close">Nenda kwenye Slaidi za Google</string>
     <string name="welcome_button_continue">Inayofuata</string>
     <string name="welcome_offer_button_close">Funga</string>

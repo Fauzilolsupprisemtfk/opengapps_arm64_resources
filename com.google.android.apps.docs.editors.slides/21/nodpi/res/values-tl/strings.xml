@@ -90,6 +90,8 @@
     <string name="add_collaborators_acl_list_title">Sino ang may access</string>
     <string name="add_collaborators_send_button_content_desc">Kumpirmahin ang pagbabahagi at ipadala sa mga collaborator</string>
     <string name="add_collaborators_textbox_title">Mga Tao</string>
+    <string name="add_confirm_dialog_message_share_files_and_folders">Kapag idinagdag mo ang mga file at folder na ito, ibabahagi ang mga ito sa lahat ng taong maaaring maka-access sa nakabahaging folder na %1$s</string>
+    <string name="add_confirm_dialog_title_share_files_and_folders">Ibahagi ang mga file at folder na ito?</string>
     <string name="add_members_acl_list_title">Mga miyembro ng %1$s</string>
     <string name="add_members_dialog_title">Magdagdag ng mga bagong miyembro</string>
     <string name="add_members_send_button_content_desc">Kumpirmahin ang pagdaragdag ng mga miyembro at ipadala sa mga miyembro</string>
@@ -468,6 +470,7 @@ Hindi maaaring ma-undo ang pagkilos na ito."</string>
     <string name="dialog_td_will_disappear">Mawawala ang Drive ng Team na ito para sa lahat at hindi mo maaaring ma-undo ang pagkilos na ito.</string>
     <string name="dialog_td_will_disappear_files_in_trash">Ang mga file mula sa Drive ng Team na ito ay nasa trash ng \"%1$s\" at walang user ang makakapag-restore sa mga ito. Mawawala ang Drive ng Team na ito para sa lahat at hindi mo maaaring ma-undo ang pagkilos na ito.</string>
     <string name="did_you_mean">Ang ibig mo bang sabihin ay: %1$s</string>
+    <string name="disabled_append">naka-disable,</string>
     <string name="discussion_accept">Tanggapin</string>
     <string name="discussion_acl_fix_access_role_commenter">Maaaring magkomento</string>
     <string name="discussion_acl_fix_access_role_writer">Maaaring mag-edit</string>
@@ -578,11 +581,11 @@ Hindi maaaring ma-undo ang pagkilos na ito."</string>
     <string name="doclist_date_never_label">Hindi kailanman</string>
     <string name="doclist_date_opened_label">Binuksan ko: %s</string>
     <string name="doclist_date_shared_label">Ibinahagi: %s</string>
-    <string name="doclist_date_shared_with_owner_label" formatted="false">%s · %s</string>
+    <string name="doclist_date_shared_with_owner_label">%1$s · %2$s</string>
     <string name="doclist_date_uploaded_by_me_label">Na-upload ko: %s</string>
     <string name="doclist_detail_fragment_content_description">Ipinapakita ang mga property ng item</string>
-    <string name="doclist_entry_content_description" formatted="false">%s %s</string>
-    <string name="doclist_entry_content_description_with_color" formatted="false">%s %s kulay:%s</string>
+    <string name="doclist_entry_content_description">%1$s %2$s</string>
+    <string name="doclist_entry_content_description_with_color">%1$s %2$s kulay:%3$s</string>
     <string name="doclist_open_navigation_drawer_content_description">Buksan ang navigation drawer</string>
     <string name="doclist_quota_used_label">Nagamit na storage: %s</string>
     <string name="doclist_selected_show_preview">Ipakita ang preview</string>
@@ -645,6 +648,7 @@ Hindi maaaring ma-undo ang pagkilos na ito."</string>
     <string name="download_message_download_manager_disabled">I-enable ang Download Manager upang mag-download</string>
     <string name="download_message_download_manager_enable">I-enable</string>
     <string name="download_message_download_manager_unavailable">Hindi ma-download. Hindi available ang Download Manager</string>
+    <string name="download_message_failures">Ida-download ang %1$d sa %2$d (na) item. Tingnan ang notification para sa mga detalye</string>
     <string name="download_notification_complete_text">Na-download na, %1$s</string>
     <string name="download_notification_error_already_exists">May ganito nang file</string>
     <string name="download_notification_error_cannot_resume">Hindi maipagpatuloy ang pag-download</string>
@@ -671,6 +675,8 @@ Hindi maaaring ma-undo ang pagkilos na ito."</string>
     <string name="draft_options_dialog_title">Mga setting ng draft na site</string>
     <string name="draft_permission_change_anyone_warning">Kung gagamitin mo ang setting na ito ng draft na site, matitingnan ito ng sinuman kapag na-publish.</string>
     <string name="draft_permission_change_domain_warning">Kung gagamitin mo ang setting na ito ng draft na site, matitingnan ito ng sinuman sa %s kapag na-publish.</string>
+    <string name="draft_permission_downgrade_domain_warning">Kapag binago ang setting ng site ng draft na ito, ang %1$s lang ang makakakita sa na-publish na link</string>
+    <string name="draft_permission_downgrade_specific_warning">Kapag binago ang setting ng site ng draft na ito, mga partikular na tao lang ang makakakita sa na-publish na link</string>
     <string name="drive_file_stream_disabled">Pigilang buksan ang file sa Drive ng Team gamit ang Drive File Stream o mga katulad na application</string>
     <string name="drive_file_stream_enabled">Payagang buksan ang file sa Drive ng Team gamit ang Drive File Stream o mga katulad na application</string>
     <string name="drive_file_stream_title">Drive File Stream</string>
@@ -713,7 +719,7 @@ Subukang mag-upload ng file."</string>
     <string name="empty_doclist_for_pinned_view_details">Gawing \"Available sa offline\" ang mga file sa menu ng mga opsyon ng file</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">I-tap ang \"Available sa offline\" sa menu ng file upang makagawa ka pa rin rito offline.</string>
     <string name="empty_doclist_for_recent_view">Walang kamakailang binuksan o na-edit na file.</string>
-    <string name="empty_doclist_for_search_view">Walang mga resulta.</string>
+    <string name="empty_doclist_for_search_view">Walang resulta</string>
     <string name="empty_doclist_for_shared_with_me_view">Dito lalabas ang mga file na ibinahagi sa iyo.</string>
     <string name="empty_doclist_for_starred_view">Wala kang naka-star na file.</string>
     <string name="empty_doclist_for_starred_view_details">I-tap ang icon na star sa menu ng opsyon ng file upang idagdag iyon sa listahang ito.</string>
@@ -764,6 +770,7 @@ I-click ang + upang gumawa ng bagong presentasyon."</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d iba pa.</string>
     <string name="exit_multiselect_mode_button">Lumabas sa multi-select mode</string>
+    <string name="expand_button_title">Advanced</string>
     <string name="expires_future">Mag-e-expire pagkalipas ng %1$s</string>
     <string name="expires_today">Mag-e-expire ngayon</string>
     <string name="export_download_error_title">Error sa Pag-download</string>
@@ -780,6 +787,11 @@ I-click ang + upang gumawa ng bagong presentasyon."</string>
     <string name="fab_office_document">Bagong Powerpoint file</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Mga Search Result</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Mas Luma</string>
     <string name="fast_scroll_time_grouper_last_week">Nakaraang linggo</string>
     <string name="fast_scroll_time_grouper_this_month">Unang bahagi ng buwang ito</string>
@@ -808,7 +820,7 @@ I-click ang + upang gumawa ng bagong presentasyon."</string>
     <string name="file_picker_select_a_folder_heading">Pumili ng folder</string>
     <string name="file_picker_select_button">Piliin</string>
     <string name="file_picker_storage_permissions_denied_toast">Hindi pinahintulutan ang access sa lokal na storage.</string>
-    <string name="file_too_large_for_upload" formatted="false">Masyadong malaki ang file na %1s upang i-upload sa Google Drive. %2s ito ngunit %3s ang limitasyon para sa ganitong file. Maaaring i-upload ang file nang hindi kino-convert sa isang format ng Google Drive.</string>
+    <string name="file_too_large_for_upload">Masyadong malaki ang file na %1$s upang i-upload sa Google Drive. %2$s ito ngunit %3$s ang limitasyon para sa ganitong file. Maaaring i-upload ang file nang hindi kino-convert sa isang format ng Google Drive.</string>
     <string name="file_too_large_for_upload_okbtn">OK</string>
     <string name="file_too_large_for_upload_title">Hindi Ma-upload</string>
     <string name="file_was_not_sent">Hindi nakabahagi ang file.</string>
@@ -1053,11 +1065,13 @@ I-click ang + upang gumawa ng bagong presentasyon."</string>
     <string name="move_confirm_dialog_message_protected_td_domain">May mga karagdagang paghihigpit sa Drive ng Team na ito. Mawawalan ng access ang mga taong nasa labas ng %1$s.</string>
     <string name="move_confirm_dialog_message_protected_td_domain_and_td_members">May mga karagdagang paghihigpit sa Drive ng Team na ito. Mawawalan ng access ang mga taong nasa labas ng %1$s at hindi miyembro ng Drive ng Team.</string>
     <string name="move_confirm_dialog_message_protected_td_team_members">May mga karagdagang paghihigpit sa Drive ng Team na ito. Mawawalan ng access ang mga hindi miyembro ng Drive ng Team.</string>
+    <string name="move_confirm_dialog_message_share_files_and_folders">Kapag inilipat ang mga file at folder na ito, ibabahagi ang mga ito sa lahat ng taong maaaring maka-access sa nakabahaging folder na %1$s</string>
     <string name="move_confirm_dialog_title_between_tds">Ilipat sa ibang Drive ng Team?</string>
     <string name="move_confirm_dialog_title_cannot_undo">Hindi mo maa-undo ang pagkilos na ito</string>
     <string name="move_confirm_dialog_title_from_td_to_my_drive">Ilipat sa Aking Drive?</string>
     <string name="move_confirm_dialog_title_into_td">Ilipat sa Drive ng Team?</string>
     <string name="move_confirm_dialog_title_lose_access">Mawawalan ng access ang ilang tao</string>
+    <string name="move_confirm_dialog_title_share_files_and_folders">Ibahagi ang mga file at folder na ito?</string>
     <string name="move_confirm_dialog_title_unshare">Lumabas sa ibinahaging folder?</string>
     <string name="move_dialog_title">Pumili ng patutunguhan</string>
     <string name="move_error_cannot_move_in_folders">Hindi pa makakapaglipat ng mga folder sa Mga Drive ng Team.</string>
@@ -1075,7 +1089,6 @@ I-click ang + upang gumawa ng bagong presentasyon."</string>
     <string name="move_error_target_folder_not_exist">Walang ganoong target na folder.</string>
     <string name="move_notice_lost_access_shared_folders">Nailipat ang mga item mula sa nakabahaging folder.</string>
     <string name="move_notice_lost_access_team_drive_single">%1$s Nawalan ng access ang \"%2$s.\"</string>
-    <string name="move_notice_lost_access_team_drive_single_fallback">Nailipat ang 1 item mula sa Drive ng Team.</string>
     <string name="move_notice_lost_access_team_drives">Nailipat ang mga item mula sa Drive ng Team.</string>
     <string name="mr_cast_button_connected">Button na I-cast. Nakakonekta</string>
     <string name="mr_cast_button_connecting">Button na I-cast. Kumokonekta</string>
@@ -1083,13 +1096,13 @@ I-click ang + upang gumawa ng bagong presentasyon."</string>
     <string name="mr_chooser_searching">Naghahanap ng mga device</string>
     <string name="mr_chooser_title">I-cast sa</string>
     <string name="mr_controller_album_art">Album art</string>
-    <string name="mr_controller_casting_screen">Kina-cast ang screen</string>
+    <string name="mr_controller_casting_screen">Ikina-cast ang screen</string>
     <string name="mr_controller_close_description">Isara</string>
     <string name="mr_controller_collapse_group">I-collapse</string>
     <string name="mr_controller_disconnect">Idiskonekta</string>
-    <string name="mr_controller_expand_group">Palawakin</string>
+    <string name="mr_controller_expand_group">I-expand</string>
     <string name="mr_controller_no_info_available">Walang available na impormasyon</string>
-    <string name="mr_controller_no_media_selected">Walang piniling media</string>
+    <string name="mr_controller_no_media_selected">Walang napiling media</string>
     <string name="mr_controller_pause">I-pause</string>
     <string name="mr_controller_play">I-play</string>
     <string name="mr_controller_stop">Ihinto</string>
@@ -1130,7 +1143,7 @@ I-click ang + upang gumawa ng bagong presentasyon."</string>
     <string name="no_scheduled_meetings">Walang naka-iskedyul na mga pulong</string>
     <string name="no_team_drives_title">Walang Drive ng Team</string>
     <string name="no_thanks">Hindi, Salamat na Lang</string>
-    <string name="not_enough_storage_for_upload" formatted="false">Masyadong malaki ang file na %1s para i-upload sa Google Drive. %2s ito ngunit %3s na lang ang available mong storage. Paki-upgrade ang iyong storage at subukang muli.</string>
+    <string name="not_enough_storage_for_upload">Masyadong malaki ang file na %1$s para i-upload sa Google Drive. %2$s ito ngunit %3$s na lang ang available mong storage. Paki-upgrade ang iyong storage at subukang muli.</string>
     <string name="notification_channel_name_default">Default</string>
     <string name="notification_channel_name_high_priority">Mataas na priyoridad</string>
     <string name="notification_channel_name_low_priority">Mababang priyoridad</string>
@@ -1412,7 +1425,6 @@ I-click ang + upang gumawa ng bagong presentasyon."</string>
     <string name="published_access_anyone">Matitingnan ng sinuman kapag na-publish</string>
     <string name="published_access_domain">Matitingnan ng sinuman sa %s kapag naka-publish</string>
     <string name="published_access_select_people">Matitingnan ng mga partikular na tao kapag na-publish</string>
-    <string name="published_disabled_append">naka-disable,</string>
     <string name="published_message_for_anyone_can_edit">Dahil makakapag-edit ang sinuman, matitingnan ito ng sinuman kapag na-publish.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Dahil makakapag-edit ang sinuman sa %1$s, matitingnan ito ng sinuman sa %1$s kapag na-publish ito.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Dahil makakapag-edit ang sinumang may link, matitingnan ito ng sinuman kapag na-publish.</string>
@@ -1526,7 +1538,7 @@ I-click ang + upang gumawa ng bagong presentasyon."</string>
     <string name="punch_show_slide">Ipakita ang slide</string>
     <string name="punch_speaker_notes_title">Mga note ng speaker</string>
     <string name="punch_speakernotes_closed">Isinara ang mga note ng speaker.</string>
-    <string name="punch_thor_invite_email_body" formatted="false">Impormasyon sa pag-access:&lt;br> %s &lt;br> %s PIN:%s</string>
+    <string name="punch_thor_invite_email_body">Impormasyon sa pag-access:&lt;br> %1$s &lt;br> %2$s PIN:%3$s</string>
     <string name="punctuation_period">.</string>
     <string name="purchase_dialog_how_storage_used">Ang storage ay ibinabahagi sa Gmail, Google Photos at Google Drive</string>
     <string name="purchase_dialog_manage">Pamahalaan ang storage</string>
@@ -1986,6 +1998,7 @@ I-click ang + upang gumawa ng bagong presentasyon."</string>
     <string name="suggestions_add_to_dictionary">Idagdag sa diksyunaryo</string>
     <string name="suggestions_delete_text">I-delete</string>
     <string name="suggestions_popup_opened">Mga suhestiyong spelling</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Error sa Pag-synchronize sa Google Slides</string>
     <string name="sync_more_error">Nagkaroon ng error sa pagkuha ng mga karagdagang item</string>
     <string name="sync_more_error_offline">Maaaring hindi makita ang ilang dokumento habang offline.</string>
@@ -2018,7 +2031,7 @@ I-click ang + upang gumawa ng bagong presentasyon."</string>
     <string name="team_drive_empty_list_message_cannot_create">Kapag may nagdagdag sa iyo sa isang Drive ng Team, makikita mo itong nakalista rito.</string>
     <string name="team_drive_settings_title">Mga Setting</string>
     <string name="team_drive_trash_welcome_snackbar">Tuluyang made-delete ang mga item sa Trash ng Drive ng Team sa loob ng 30 araw.</string>
-    <string name="teamdrive_members_and_domain" formatted="false">%s • %s</string>
+    <string name="teamdrive_members_and_domain">%1$s • %2$s</string>
     <string name="template_category_a11y_text">%1$s, heading</string>
     <string name="template_category_education">Edukasyon</string>
     <string name="template_category_personal">Personal</string>
@@ -2092,6 +2105,8 @@ I-click ang + upang gumawa ng bagong presentasyon."</string>
     <string name="unable_to_open_local_document_message">Maaaring inilipat o na-delete na ito.</string>
     <string name="unable_to_open_local_document_title">Hindi mabuksan ang file na naka-save sa device</string>
     <string name="unable_to_read_calendar_data">Hindi ma-query ang kalendaryo</string>
+    <string name="unable_update_published_message">"Hindi mababago ang setting ng na-publish na site hangga't hindi naa-update ang setting ng draft na link"</string>
+    <string name="unable_update_published_title">Hindi ma-update ang setting</string>
     <string name="undeliverable_acl_changed_dialog_title">I-delete ang iyong mga pagbabago at i-revert ang dokumento?</string>
     <string name="undeliverable_changes_dialog_content">Baka mawala ang mga ginawa mong pagbabago sa offline. Tiyaking nakopya mo ang mga ito sa clipboard.</string>
     <string name="undeliverable_changes_dialog_title">I-delete ang mga pagbabagong may problema at i-revert ang dokumento?</string>
@@ -2194,6 +2209,8 @@ I-click ang + upang gumawa ng bagong presentasyon."</string>
     <string name="upsell_negbtn">Saka na</string>
     <string name="upsell_okbtn">I-upgrade</string>
     <string name="url_typo_error_msg">Parang may mali sa link. Baka may typo?</string>
+    <string name="v7_preference_off">NAKA-OFF</string>
+    <string name="v7_preference_on">NAKA-ON</string>
     <string name="verbalize_bulleted_list">bullet. %1$s</string>
     <string name="verbalize_numbered_list">%1$s. %2$s</string>
     <string name="verbalize_opened_edit">Binuksan ang %1$s na may mga pahintulot na mag-edit.</string>
@@ -2224,8 +2241,9 @@ I-click ang + upang gumawa ng bagong presentasyon."</string>
     <string name="warm_welcome_next_button">Susunod</string>
     <string name="warm_welcome_skip_button">Laktawan</string>
     <string name="warning_cannot_share_outside_domain">Pinipigilan ng mga setting ng Drive ng Team na ito ang pagbabahagi sa labas ng %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Pinipigilan ng mga setting ng Drive ng Team na ito ang pagbabahagi sa labas ng %s at sa mga hindi miyembro</string>
     <string name="warning_cannot_share_outside_domain_org">Pinipigilan ng mga setting ng organisasyon ang pagbabahagi sa labas ng organisasyon</string>
-    <string name="warning_cannot_share_outside_team_drive">Pinipigilan ng mga setting ng Drive ng Team na ito ang pagbabahagi sa labas ng team</string>
+    <string name="warning_cannot_share_outside_team_drive">Pinipigilan ng mga setting ng Drive ng Team na ito ang pagbabahagi sa mga hindi miyembro</string>
     <string name="welcome_button_close">Pumunta sa Slides</string>
     <string name="welcome_button_continue">Susunod</string>
     <string name="welcome_offer_button_close">Isara</string>
@@ -2244,26 +2262,26 @@ I-click ang + upang gumawa ng bagong presentasyon."</string>
     <string name="write_access_denied">Hindi pinahintulutan ang access sa pagsulat sa dokumento.</string>
     <string name="zss_accessibility_searching">Naghahanap ng %1$s</string>
     <string name="zss_date_range_header_title">Petsa noong nabago</string>
-    <string name="zss_date_range_month">Nakaraang 30 araw</string>
-    <string name="zss_date_range_three_month">Nakaraang 90 araw</string>
-    <string name="zss_date_range_today">Ngayon</string>
-    <string name="zss_date_range_week">Nakaraang 7 araw</string>
+    <string name="zss_date_range_month">Huling 30 araw</string>
+    <string name="zss_date_range_three_month">Huling 90 araw</string>
+    <string name="zss_date_range_today">Ngayong Araw</string>
+    <string name="zss_date_range_week">Huling 7 araw</string>
     <string name="zss_date_range_yesterday">Kahapon</string>
     <string name="zss_entry_types_header_title">Mga uri ng file</string>
     <string name="zss_no_filters">Walang mga filter</string>
-    <string name="zss_owner_header_title">Pag-aari ni</string>
+    <string name="zss_owner_header_title">Pagmamay-ari ni</string>
     <string name="zss_owner_me">Pagmamay-ari ko</string>
     <string name="zss_owner_not_me">Hindi ko pagmamay-ari</string>
     <string name="zss_people_header_title">Mga Tao</string>
     <string name="zss_showing_list_of_filters">Ipinapakita ang listahan ng mga available na filter.</string>
     <string name="zss_team_drive">Maghanap sa %1$s</string>
-    <string name="zss_type_archive">I-archive</string>
+    <string name="zss_type_archive">Archive</string>
     <string name="zss_type_audio">Audio</string>
     <string name="zss_type_documents">Mga text document</string>
     <string name="zss_type_folder">Mga Folder</string>
-    <string name="zss_type_images">Mga litrato at larawan</string>
+    <string name="zss_type_images">Mga larawan at imahe</string>
     <string name="zss_type_pdfs">Mga PDF</string>
-    <string name="zss_type_presentations">Mga Presentasyon</string>
+    <string name="zss_type_presentations">Mga Presentation</string>
     <string name="zss_type_spreadsheets">Mga Spreadsheet</string>
     <string name="zss_type_video">Mga Video</string>
 </resources>
