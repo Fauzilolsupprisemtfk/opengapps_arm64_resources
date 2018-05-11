@@ -640,7 +640,7 @@ Proovige fail üles laadida."</string>
     <string name="empty_doclist_for_pinned_view_details">Saate teha failid võrguühenduseta saadavaks faili valikute menüüs</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Puudutage faili menüüs valikut „Saadaval võrguühenduseta”, et saaksite jätkata sellega töötamist ka võrguühenduseta olekus.</string>
     <string name="empty_doclist_for_recent_view">Pole ühtegi hiljuti avatud või muudetud faili.</string>
-    <string name="empty_doclist_for_search_view">Tulemusi ei ole.</string>
+    <string name="empty_doclist_for_search_view">Tulemusi ei ole</string>
     <string name="empty_doclist_for_shared_with_me_view">Teiega jagatud failid kuvatakse siin.</string>
     <string name="empty_doclist_for_starred_view">Teil pole tärniga tähistatud faile.</string>
     <string name="empty_doclist_for_starred_view_details">Puudutage faili valikute menüüs tärniikooni, et see antud loendisse lisada.</string>
@@ -689,6 +689,7 @@ Uue arvutustabeli loomiseks klõpsake nupul +."</string>
     <string name="error_video_not_available">Videot pole töödeldud. Proovige hiljem uuesti.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+ veel %1$d.</string>
+    <string name="expand_button_title">Täpsemad</string>
     <string name="expires_future">Aegub %1$s</string>
     <string name="expires_today">Aegub täna</string>
     <string name="export_download_error_title">Viga allalaadimisel</string>
@@ -706,6 +707,11 @@ Uue arvutustabeli loomiseks klõpsake nupul +."</string>
     <string name="fab_office_document">Uus Exceli fail</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Otsingutulemused</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">kB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Vanem</string>
     <string name="fast_scroll_time_grouper_last_week">Eelmine nädal</string>
     <string name="fast_scroll_time_grouper_this_month">Varem sel kuul</string>
@@ -836,17 +842,8 @@ Uue arvutustabeli loomiseks klõpsake nupul +."</string>
     <string name="make_copy_spinner_message">Kopeerimine…</string>
     <string name="manage_members_default_members">Vaikimisi saavad liikmed faile üles laadida, muuta ja kustutada ning teisi liikmeid kutsuda</string>
     <string name="manage_members_dialog_title">Liikmete load</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Salvestusruum</string>
+    <string name="management_data_loading_failed">Seda lehte ei saa laadida</string>
     <string name="menu_backup">Varukoopiad</string>
     <string name="menu_copy_link">Kopeeri link</string>
     <string name="menu_create_shortcut">Lisa avakuvale</string>
@@ -1246,7 +1243,6 @@ Uue arvutustabeli loomiseks klõpsake nupul +."</string>
     <string name="published_access_anyone">Igaüks saab vaadata, kui on avaldatud</string>
     <string name="published_access_domain">Igaüks domeenis %s saab vaadata, kui on avaldatud</string>
     <string name="published_access_select_people">Kindlad inimesed saavad vaadata, kui on avaldatud</string>
-    <string name="published_disabled_append">keelatud,</string>
     <string name="published_message_for_anyone_can_edit">Kuna igaüks saab muuta, saab igaüks vaadata, kui on avaldatud.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Kuna igaüks domeenis %1$s saab muuta, saab igaüks domeenis %1$s vaadata, kui on avaldatud.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Kuna igaüks, kellel on link, saab muuta, saab igaüks vaadata, kui on avaldatud.</string>
@@ -1422,6 +1418,7 @@ Uue arvutustabeli loomiseks klõpsake nupul +."</string>
     <string name="ritz_cannot_back_local_filter_with_named_range">Vaatamisrežiimis ei saa muuta filtrit nimega vahemikust sõltuvaks.</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">Lehe kaitset ei saa muuta vahemiku kaitseks ja vastupidi.</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">Te ei saa lisada vahelduvaid taustavärve vahemikule, millel on juba vahelduvad taustavärvid.</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">Sellele lehele ei saa filtrit lisada, kuna see on ühendatud andmebaasiga. Looge selle asemel filtrivaade.</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">Te ei saa luua filtrit lehel, millel juba on filter.</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">Te ei saa vertikaalseid ühendusi sisaldavale vahemikule filtrit luua.</string>
     <string name="ritz_cannot_create_filter_within_merge">Te ei saa ühendusi sisaldavas vahemikus filtrit luua.</string>
@@ -1471,6 +1468,7 @@ Uue arvutustabeli loomiseks klõpsake nupul +."</string>
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">Seda toimingut ei toetata sorditud filtri kuva vahemikus. Keelake filtri kuva ja proovige uuesti.</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">Seda toimingut ei toetata vahemikus, kus rida on välja filtreeritud.</string>
     <string name="ritz_cannot_pivot_drill_down">Te ei saa kuvada üksikasju lahtri puhul, mis ei ole liigendtabelis</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">Sellele lehele ei saa kaitset lisada, kuna see on ühendatud andmebaasiga.</string>
     <string name="ritz_cannot_protect_deleted_sheet">Leht, mida püüate kaitsta, on kustutatud.</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">Kehtetu valemiga ei saa reeglit salvestada.</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">Selles liidetud lahtris ei saa andmeid määrata. Kui teil on aktiivne filtrivaade, proovige see eemaldada.</string>
@@ -2005,7 +2003,6 @@ Uue arvutustabeli loomiseks klõpsake nupul +."</string>
     <string name="ritz_generic_sheet_activated">Leht %1$s on aktiveeritud.</string>
     <string name="ritz_get_pivot_table_message_for_average">Keskmine – %1$s, iga %2$s</string>
     <string name="ritz_get_pivot_table_message_for_count">Arv kokku – %1$s, iga %2$s</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">Erinevate arv kokku – %1$s, iga %2$s</string>
     <string name="ritz_get_pivot_table_message_for_sum">Summa – %1$s, iga %2$s</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">Lahtiütlus: pakkumisi ei hangita kõigilt turgudelt ja need võivad kuni 20 minutit viibida. Teavet pakutakse põhimõttel „nagu on” ja ainult informatiivsel eesmärgil, mitte kaubanduslikuks tegevuseks ega nõuannetena.</string>
@@ -2727,6 +2724,7 @@ Uue arvutustabeli loomiseks klõpsake nupul +."</string>
     <string name="suggest_pin_dialog_positive_button">Tee võrguühenduseta saadavaks</string>
     <string name="suggest_pin_dialog_title">Ühendus puudub</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, valitud</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Google’i arvutustabelite sünkroonimisviga</string>
     <string name="sync_more_error">Viga lisaüksuste toomisel</string>
     <string name="sync_more_error_offline">Mõni dokument ei pruugi olla võrguühenduseta nähtav.</string>
@@ -2915,6 +2913,8 @@ Uue arvutustabeli loomiseks klõpsake nupul +."</string>
     <string name="upsave_dialog_title">Kas salvestada muudatused?</string>
     <string name="upsell_negbtn">Hiljem</string>
     <string name="upsell_okbtn">Täienda</string>
+    <string name="v7_preference_off">VÄLJAS</string>
+    <string name="v7_preference_on">SEES</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{Kõik on {VALUE}, v.a üks, {EXCEPTIONS}.}=2{Kõik on {VALUE}, v.a kaks, {EXCEPTIONS}.}=3{Kõik on {VALUE}, v.a kolm, {EXCEPTIONS}.}=4{Kõik on {VALUE}, v.a neli, {EXCEPTIONS}.}other{Kõik on {VALUE}, v.a {NUMBER_OF_EXCEPTIONS}, {EXCEPTIONS}.}}</string>
     <string name="verbal_all_different">Kõik väärtused on erinevad.</string>
     <string name="verbal_all_same">Kõik väärtused on %1$s.</string>
@@ -3101,8 +3101,9 @@ Uue arvutustabeli loomiseks klõpsake nupul +."</string>
     <string name="warm_welcome_next_button">Järgmine</string>
     <string name="warm_welcome_skip_button">Jäta vahele</string>
     <string name="warning_cannot_share_outside_domain">Selle tiimiketta seaded takistavad väljaspool domeeni %s jagamist</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Selle tiimiketta seaded takistavad mitteliikmetega ja väljaspool domeeni %s jagamist</string>
     <string name="warning_cannot_share_outside_domain_org">Organisatsiooni seaded takistavad väljaspool organisatsiooni jagamist</string>
-    <string name="warning_cannot_share_outside_team_drive">Selle tiimiketta seaded takistavad väljaspool tiimi jagamist</string>
+    <string name="warning_cannot_share_outside_team_drive">Selle tiimiketta seaded takistavad mitteliikmetega jagamist</string>
     <string name="warning_csv_edits_unsupported">Vormindatud sisu, diagrammide, kujutiste või täiendavate vahekaartide lisamiseks peate salvestama faili Google’i arvutustabelina.</string>
     <string name="warning_sheet_add_unsupported">Uue lehe lisamiseks peate salvestama faili Google’i arvutustabelina.</string>
     <string name="welcome_button_close">Ava Arvutustabelid</string>
@@ -3122,7 +3123,7 @@ Uue arvutustabeli loomiseks klõpsake nupul +."</string>
     <string name="welcome_title_highlights">Rakenduse %1$s teadaandepaneel.</string>
     <string name="write_access_denied">Dokumendi kirjutuspääs on keelatud.</string>
     <string name="zss_accessibility_searching">Päringu %1$s otsimine</string>
-    <string name="zss_date_range_header_title">Muutmise kuupäev</string>
+    <string name="zss_date_range_header_title">Muutmiskuupäev</string>
     <string name="zss_date_range_month">Viimased 30 päeva</string>
     <string name="zss_date_range_three_month">Viimased 90 päeva</string>
     <string name="zss_date_range_today">Täna</string>

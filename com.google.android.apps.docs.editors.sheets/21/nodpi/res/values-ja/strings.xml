@@ -659,7 +659,7 @@
     <string name="empty_doclist_for_pinned_view_details">ファイルのオプション メニューにアクセスし、ファイルを [オフラインで使用可] にしてください</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">ファイルのメニューで [オフラインで使用可] をタップすると、オフラインでもそのファイルで作業できるようになります。</string>
     <string name="empty_doclist_for_recent_view">最近開いたファイルや編集したファイルはありません。</string>
-    <string name="empty_doclist_for_search_view">一致する結果はありません。</string>
+    <string name="empty_doclist_for_search_view">一致する結果はありません</string>
     <string name="empty_doclist_for_shared_with_me_view">共有されたファイルがここに表示されます。</string>
     <string name="empty_doclist_for_starred_view">スター付きのファイルはありません。</string>
     <string name="empty_doclist_for_starred_view_details">ファイルのオプション メニューでスターのアイコンをタップすると、このリストに追加できます。</string>
@@ -708,6 +708,7 @@
     <string name="error_video_not_available">動画が処理されていません。しばらくしてからもう一度お試しください。</string>
     <string name="excess_head_count">他 %1$d 人</string>
     <string name="excess_head_count_verbalization">他 %1$d 人。</string>
+    <string name="expand_button_title">詳細設定</string>
     <string name="expires_future">あと %1$sで期限切れ</string>
     <string name="expires_today">今日で期限切れ</string>
     <string name="export_download_error_title">ダウンロード エラー</string>
@@ -725,6 +726,11 @@
     <string name="fab_office_document">新しいExcelファイル</string>
     <string name="fast_scroll_month_and_year_grouped">%2$d年%1$s</string>
     <string name="fast_scroll_search_result_grouper">検索結果</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">それ以前</string>
     <string name="fast_scroll_time_grouper_last_week">先週</string>
     <string name="fast_scroll_time_grouper_this_month">今月</string>
@@ -871,17 +877,8 @@
     <string name="manage_addons_playstore_link_description">%s の Play ストアに移動</string>
     <string name="manage_members_default_members">デフォルトでは、メンバーはファイルのアップロード、編集、削除と、他のメンバーの招待を行えます</string>
     <string name="manage_members_dialog_title">メンバーの権限</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">保存容量</string>
+    <string name="management_data_loading_failed">ページを読み込めません</string>
     <string name="menu_backup">バックアップ</string>
     <string name="menu_copy_link">リンクをコピー</string>
     <string name="menu_create_shortcut">ホーム画面に追加</string>
@@ -1457,6 +1454,7 @@
     <string name="ritz_cannot_back_local_filter_with_named_range">表示専用モードでは、名前付き範囲を使用するフィルタは作成できません。</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">シートの保護を範囲の保護に変更することはできません（その逆も同じです）。</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">既に交互の背景色が適用されている範囲に交互の背景色を追加することはできません。</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">このシートはデータベースに接続されているため、フィルタを追加できません。代わりにフィルタ表示を作成してください。</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">すでにフィルタが適用されているシートではフィルタを作成できません。</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">垂直方向の結合を含む範囲にフィルタを作成することはできません。</string>
     <string name="ritz_cannot_create_filter_within_merge">結合したセルを含む範囲内にフィルタを作成することはできません。</string>
@@ -1506,6 +1504,7 @@
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">この操作は並べ替えたフィルタ表示を含む範囲ではサポートされていません。フィルタ表示を無効にしてから、もう一度お試しください。</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">この操作は除外した行を含む範囲ではサポートされていません。</string>
     <string name="ritz_cannot_pivot_drill_down">ピボット テーブルに含まれていないセルの詳細を表示することはできません</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">このシートはデータベースに接続されているため、保護を追加できません。</string>
     <string name="ritz_cannot_protect_deleted_sheet">保護しようとしているシートは削除されています。</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">無効な数式でルールを保存することはできません。</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">この結合されたセルにデータを設定できませんでした。フィルタ表示を有効にしている場合はフィルタを削除してください。</string>
@@ -2040,7 +2039,6 @@
     <string name="ritz_generic_sheet_activated">シート「%1$s」をアクティブにしました。</string>
     <string name="ritz_get_pivot_table_message_for_average">各 %2$s の %1$s の平均値</string>
     <string name="ritz_get_pivot_table_message_for_count">各 %2$s の %1$s の数</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">各 %2$s の固有の %1$s の数</string>
     <string name="ritz_get_pivot_table_message_for_sum">各 %2$s の %1$s の合計</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">免責事項: 株価情報はすべての市場から提供されているわけではなく、また、最大 20 分の遅延の可能性があります。情報は「現状有姿」で提供されるものであり、取引目的や助言ではなく、情報提供のみを目的として提供されています。</string>
@@ -2765,6 +2763,7 @@
     <string name="suggest_pin_dialog_positive_button">オフラインで使用可能にする</string>
     <string name="suggest_pin_dialog_title">接続されていません</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s さんが選択されました</string>
+    <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
     <string name="sync_failed">Google スプレッドシートの同期エラー</string>
     <string name="sync_more_error">追加アイテムの取得中にエラーが発生しました</string>
     <string name="sync_more_error_offline">オフライン時は一部のドキュメントを表示できない可能性があります。</string>
@@ -2953,6 +2952,8 @@
     <string name="upsave_dialog_title">変更を保存しますか？</string>
     <string name="upsell_negbtn">後で</string>
     <string name="upsell_okbtn">アップグレード</string>
+    <string name="v7_preference_off">OFF</string>
+    <string name="v7_preference_on">ON</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{{EXCEPTIONS}以外はすべて{VALUE}です。}=2{{EXCEPTIONS}の2個以外はすべて{VALUE}です。}=3{{EXCEPTIONS}の3個以外はすべて{VALUE}です。}=4{{EXCEPTIONS}の4個以外はすべて{VALUE}です。}other{{EXCEPTIONS}の{NUMBER_OF_EXCEPTIONS}個以外はすべて{VALUE}です。}}</string>
     <string name="verbal_all_different">値はすべて異なります。</string>
     <string name="verbal_all_same">すべての値は%1$sです。</string>
@@ -3139,8 +3140,9 @@
     <string name="warm_welcome_next_button">次へ</string>
     <string name="warm_welcome_skip_button">スキップ</string>
     <string name="warning_cannot_share_outside_domain">このチームドライブの設定により、%s 外と共有することはできなくなります。</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">このチームドライブの設定により、メンバー以外や %s 外とは共有できません</string>
     <string name="warning_cannot_share_outside_domain_org">組織の設定により、組織外とは共有できません</string>
-    <string name="warning_cannot_share_outside_team_drive">このチームドライブの設定により、チーム外と共有することはできなくなります。</string>
+    <string name="warning_cannot_share_outside_team_drive">このチームドライブの設定により、メンバー以外とは共有できません</string>
     <string name="warning_csv_edits_unsupported">表示形式を設定したコンテンツ、グラフ、画像、タブを追加するには、ファイルを Google スプレッドシート形式で保存してください。</string>
     <string name="warning_sheet_add_unsupported">新しいシートを追加するには、ファイルを Google スプレッドシート形式で保存してください。</string>
     <string name="welcome_button_close">スプレッドシートへ</string>
@@ -3161,10 +3163,10 @@
     <string name="write_access_denied">ドキュメントへの書き込みが拒否されました。</string>
     <string name="zss_accessibility_searching">「%1$s」を検索しています</string>
     <string name="zss_date_range_header_title">更新日</string>
-    <string name="zss_date_range_month">過去30日間</string>
-    <string name="zss_date_range_three_month">過去90日間</string>
+    <string name="zss_date_range_month">過去 30 日間</string>
+    <string name="zss_date_range_three_month">過去 90 日間</string>
     <string name="zss_date_range_today">今日</string>
-    <string name="zss_date_range_week">過去7日間</string>
+    <string name="zss_date_range_week">過去 7 日間</string>
     <string name="zss_date_range_yesterday">昨日</string>
     <string name="zss_entry_types_header_title">ファイル形式</string>
     <string name="zss_no_filters">フィルタなし</string>
@@ -3176,9 +3178,9 @@
     <string name="zss_team_drive">%1$s を検索</string>
     <string name="zss_type_archive">アーカイブ</string>
     <string name="zss_type_audio">音声</string>
-    <string name="zss_type_documents">テキストドキュメント</string>
+    <string name="zss_type_documents">テキスト ドキュメント</string>
     <string name="zss_type_folder">フォルダ</string>
-    <string name="zss_type_images">写真と画像</string>
+    <string name="zss_type_images">写真や画像</string>
     <string name="zss_type_pdfs">PDF</string>
     <string name="zss_type_presentations">プレゼンテーション</string>
     <string name="zss_type_spreadsheets">スプレッドシート</string>

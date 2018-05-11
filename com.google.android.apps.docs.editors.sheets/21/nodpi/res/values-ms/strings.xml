@@ -640,7 +640,7 @@ Cuba memuat naik fail."</string>
     <string name="empty_doclist_for_pinned_view_details">Jadikan fail \"Tersedia di luar talian\" dalam menu pilihan fail</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Ketik \"Tersedia di luar talian\" dalam menu fail supaya anda dapat terus mengendalikannya di luar talian.</string>
     <string name="empty_doclist_for_recent_view">Tiada fail dibuka atau diedit baru-baru ini.</string>
-    <string name="empty_doclist_for_search_view">Tiada hasil.</string>
+    <string name="empty_doclist_for_search_view">Tiada hasil carian</string>
     <string name="empty_doclist_for_shared_with_me_view">Fail yang dikongsi dengan anda akan muncul di sini.</string>
     <string name="empty_doclist_for_starred_view">Anda tiada fail berbintang.</string>
     <string name="empty_doclist_for_starred_view_details">Ketik ikon bintang dalam menu pilihan fail untuk menambahkan ikon tersebut pada senarai ini.</string>
@@ -689,6 +689,7 @@ Klik + untuk buat hamparan baharu."</string>
     <string name="error_video_not_available">Video belum diproses. Sila cuba sebentar lagi.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d yang lain.</string>
+    <string name="expand_button_title">Lanjutan</string>
     <string name="expires_future">Tamat tempoh dalam masa %1$s</string>
     <string name="expires_today">Tmt tempoh hari ini</string>
     <string name="export_download_error_title">Ralat Muat Turun</string>
@@ -706,6 +707,11 @@ Klik + untuk buat hamparan baharu."</string>
     <string name="fab_office_document">Fail Excel baharu</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Hasil Carian</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Lebih lama</string>
     <string name="fast_scroll_time_grouper_last_week">Minggu lalu</string>
     <string name="fast_scroll_time_grouper_this_month">Awal bulan ini</string>
@@ -836,17 +842,8 @@ Klik + untuk buat hamparan baharu."</string>
     <string name="make_copy_spinner_message">Menyalin…</string>
     <string name="manage_members_default_members">Secara lalainya, ahli boleh memuat naik/mengedit/memadamkan fail &amp; menjemput ahli lain</string>
     <string name="manage_members_dialog_title">Akses ahli</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Storan</string>
+    <string name="management_data_loading_failed">Tidak dapat memuatkan halaman ini</string>
     <string name="menu_backup">Sandaran</string>
     <string name="menu_copy_link">Salin pautan</string>
     <string name="menu_create_shortcut">Tambah pada Skrin utama</string>
@@ -1246,7 +1243,6 @@ Klik + untuk buat hamparan baharu."</string>
     <string name="published_access_anyone">Sesiapa sahaja boleh melihat apabila diterbitkan</string>
     <string name="published_access_domain">Sesiapa sahaja dalam %s boleh melihat apabila diterbitkan</string>
     <string name="published_access_select_people">Orang yang tertentu boleh melihat apabila diterbitkan</string>
-    <string name="published_disabled_append">dilumpuhkan.</string>
     <string name="published_message_for_anyone_can_edit">Disebabkan sesiapa sahaja boleh mengedit, maka sesiapa sahaja boleh melihat apabila diterbitkan.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Disebabkan sesiapa sahaja di %1$s boleh mengedit, maka sesiapa sahaja di %1$s boleh melihat apabila diterbitkan.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Disebabkan sesiapa sahaja yang mempunyai pautan boleh mengedit, maka sesiapa sahaja boleh melihat apabila diterbitkan.</string>
@@ -1422,6 +1418,7 @@ Klik + untuk buat hamparan baharu."</string>
     <string name="ritz_cannot_back_local_filter_with_named_range">Anda tidak boleh menjadikan penapis bergantung pada julat yang dinamakan apabila dalam mod lihat sahaja.</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">Anda tidak boleh menukar perlindungan helaian kepada perlindungan julat atau sebaliknya.</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">Anda tidak boleh menambahkan warna latar berselang-seli pada julat yang sudah pun mempunyai warna latar berselang-seli.</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">Anda tidak dapat menambahkan penapis pada helaian ini kerana helaian disambungkan ke pangkalan data. Sebaliknya, sila buat paparan penapis.</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">Anda tidak boleh membuat penapis dalam helaian yang sudah ada penapis.</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">Anda tidak boleh membuat penapis melangkaui julat yang mengandungi cantuman menegak.</string>
     <string name="ritz_cannot_create_filter_within_merge">Anda tidak boleh membuat penapis dalam julat yang mengandungi cantuman.</string>
@@ -1471,6 +1468,7 @@ Klik + untuk buat hamparan baharu."</string>
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">Pengendalian ini tidak disokong pada julat yang mempunyai Paparan Penapis yang diisih. Sila lumpuhkan Paparan Penapis dan cuba lagi.</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">Operasi ini tidak disokong pada julat yang mempunyai baris ditapis keluar.</string>
     <string name="ritz_cannot_pivot_drill_down">Anda tidak boleh menunjukkan butiran sel yang bukan dalam jadual pangsi</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">Tidak dapat menambahkan perlindungan pada helaian ini kerana helaian disambungkan ke pangkalan data.</string>
     <string name="ritz_cannot_protect_deleted_sheet">Helaian yang anda cuba lindungi telah dipadamkan.</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">Tidak boleh menyimpan peraturan dengan formula yang tidak sah.</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">Tidak dapat menetapkan data dalam sel bercantum ini. Jika anda mempunyai paparan penapis yang aktif, cuba alihkannya keluar.</string>
@@ -2005,7 +2003,6 @@ Klik + untuk buat hamparan baharu."</string>
     <string name="ritz_generic_sheet_activated">Helaian %1$s diaktifkan.</string>
     <string name="ritz_get_pivot_table_message_for_average">Purata %1$s untuk setiap %2$s</string>
     <string name="ritz_get_pivot_table_message_for_count">Bilangan %1$s untuk setiap %2$s</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">Bilangan %1$s yang berbeza untuk setiap %2$s</string>
     <string name="ritz_get_pivot_table_message_for_sum">Jumlah %1$s untuk setiap %2$s</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">"Penafian: Sebut harga tidak bersumber daripada semua pasaran dan mungkin tertangguh sehingga 20 minit. Maklumat diberikan 'seperti yang sedia ada' dan untuk tujuan maklumat semata-mata, bukan untuk tujuan perdagangan atau nasihat."</string>
@@ -2727,6 +2724,7 @@ Klik + untuk buat hamparan baharu."</string>
     <string name="suggest_pin_dialog_positive_button">Sediakan untuk luar talian</string>
     <string name="suggest_pin_dialog_title">Tiada sambungan</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, dipilih</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Ralat Penyegerakan Helaian Google</string>
     <string name="sync_more_error">Ralat semasa mendapatkan item tambahan</string>
     <string name="sync_more_error_offline">Sesetengah dokumen mungkin tidak kelihatan semasa di luar talian.</string>
@@ -2915,6 +2913,8 @@ Klik + untuk buat hamparan baharu."</string>
     <string name="upsave_dialog_title">Simpan Perubahan?</string>
     <string name="upsell_negbtn">Kemudian</string>
     <string name="upsell_okbtn">Tingkatkan</string>
+    <string name="v7_preference_off">MATI</string>
+    <string name="v7_preference_on">HIDUP</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{Kesemuanya {VALUE} kecuali satu, {EXCEPTIONS}.}=2{Kesemuanya {VALUE} kecuali dua, {EXCEPTIONS}.}=3{Kesemuanya {VALUE} kecuali tiga, {EXCEPTIONS}.}=4{Kesemuanya {VALUE} kecuali empat, {EXCEPTIONS}.}other{Kesemuanya {VALUE} kecuali {NUMBER_OF_EXCEPTIONS}, {EXCEPTIONS}.}}</string>
     <string name="verbal_all_different">Kesemua nilai berbeza-beza.</string>
     <string name="verbal_all_same">Kesemua nilai ialah %1$s.</string>
@@ -3101,8 +3101,9 @@ Klik + untuk buat hamparan baharu."</string>
     <string name="warm_welcome_next_button">Seterusnya</string>
     <string name="warm_welcome_skip_button">Langkau</string>
     <string name="warning_cannot_share_outside_domain">Tetapan Drive Pasukan ini menghalang perkongsian di luar %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Tetapan Drive Pasukan ini menghalang perkongsian dengan bukan ahli dan di luar %s</string>
     <string name="warning_cannot_share_outside_domain_org">Tetapan organisasi menghalang perkongsian di luar organisasi</string>
-    <string name="warning_cannot_share_outside_team_drive">Tetapan Drive Pasukan ini menghalang perkongsian di luar pasukan</string>
+    <string name="warning_cannot_share_outside_team_drive">Tetapan Drive Pasukan ini menghalang perkongsian dengan bukan ahli</string>
     <string name="warning_csv_edits_unsupported">Untuk menambahkan kandungan yang diformat, carta, imej atau tab tambahan, anda perlu menyimpan fail sebagai hamparan Google.</string>
     <string name="warning_sheet_add_unsupported">Untuk menambahkan helaian baharu, anda perlu menyimpan fail sebagai hamparan Google.</string>
     <string name="welcome_button_close">Pergi ke Helaian</string>
@@ -3125,7 +3126,7 @@ Klik + untuk buat hamparan baharu."</string>
     <string name="zss_date_range_header_title">Tarikh diubah suai</string>
     <string name="zss_date_range_month">30 hari yang lalu</string>
     <string name="zss_date_range_three_month">90 hari yang lalu</string>
-    <string name="zss_date_range_today">Hari ini</string>
+    <string name="zss_date_range_today">Hari Ini</string>
     <string name="zss_date_range_week">7 hari yang lalu</string>
     <string name="zss_date_range_yesterday">Semalam</string>
     <string name="zss_entry_types_header_title">Jenis fail</string>

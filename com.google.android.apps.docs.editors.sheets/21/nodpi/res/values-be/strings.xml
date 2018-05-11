@@ -632,7 +632,7 @@
     <string name="empty_doclist_for_pinned_view_details">У меню параметраў файла выбраць пункт \"Даступны па-за сеткай\"</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">У меню файла выберыце пункт \"Доступ у аўтаномным рэжыме\" і вы зможаце працаваць з гэтым файлам у аўтаномным рэжыме.</string>
     <string name="empty_doclist_for_recent_view">Няма файлаў, якія нядаўна адкрывалі ці рэдагавалі.</string>
-    <string name="empty_doclist_for_search_view">Вынікаў няма.</string>
+    <string name="empty_doclist_for_search_view">Вынікаў няма</string>
     <string name="empty_doclist_for_shared_with_me_view">"Абагуленыя з вамі файлы з'явяцца тут."</string>
     <string name="empty_doclist_for_starred_view">У вас няма файлаў, пазначаных зорачкай.</string>
     <string name="empty_doclist_for_starred_view_details">Дакраніцеся да значка зорачкі ў меню параметраў файла, каб дадаць яго да гэтага спіса.</string>
@@ -681,6 +681,7 @@
     <string name="error_video_not_available">Відэа не было апрацавана. Паўтарыце спробу пазней.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d іншых.</string>
+    <string name="expand_button_title">Высокая</string>
     <string name="expires_future">Тэрмін дзеяння заканчваецца %1$s</string>
     <string name="expires_today">Заканчваецца сёння</string>
     <string name="export_download_error_title">Памылка спампоўкі</string>
@@ -698,6 +699,11 @@
     <string name="fab_office_document">Новы файл Excel</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d г.</string>
     <string name="fast_scroll_search_result_grouper">Вынікі пошуку</string>
+    <string name="fast_scroll_size_grouper_b">Б</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">ГБ</string>
+    <string name="fast_scroll_size_grouper_kb">КБ</string>
+    <string name="fast_scroll_size_grouper_mb">МБ</string>
     <string name="fast_scroll_time_grouper_earlier">Раней, чым</string>
     <string name="fast_scroll_time_grouper_last_week">На мінулым тыдні</string>
     <string name="fast_scroll_time_grouper_this_month">Раней у гэтым мес.</string>
@@ -1048,8 +1054,8 @@
     <string name="ouch_title_sawwrie">Памылка.</string>
     <string name="overwrite_confirm_dialog_message">Файл %1$s існуе. Перазапісаць?</string>
     <string name="overwrite_confirm_dialog_positive_button_label">Перазапісаць</string>
-    <string name="owner_not_user">Не належыць %1$s</string>
-    <string name="owner_user">Належыць %1$s</string>
+    <string name="owner_not_user">Не належаць %1$s</string>
+    <string name="owner_user">Належаць %1$s</string>
     <string name="page_1_description">Паспяховая праца з падключэннем да інтэрнэту і без яго.</string>
     <string name="page_1_heading_editors">Электронныя табліцы ў дарозе</string>
     <string name="page_2_description">Пішыце самастойна або прапануйце супрацоўніцтва іншым карыстальнікам.</string>
@@ -1225,7 +1231,6 @@
     <string name="published_access_anyone">Любы карыстальнік можа праглядаць пасля публікацыі</string>
     <string name="published_access_domain">Любы карыстальнік у дамене %s можа праглядаць пасля публікацыі</string>
     <string name="published_access_select_people">Пэўныя карыстальнікі могуць праглядаць пасля публікацыі</string>
-    <string name="published_disabled_append">адключана,</string>
     <string name="published_message_for_anyone_can_edit">Любы карыстальнік можа рэдагаваць, таму і праглядаць пасля публікацыі можа любы карыстальнік.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Любы карыстальнік у дамене %1$s можа рэдагаваць, таму і праглядаць пасля публікацыі можа любы карыстальнік у дамене %1$s.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Любы карыстальнік са спасылкай можа рэдагаваць, таму і праглядаць пасля публікацыі можа любы карыстальнік.</string>
@@ -1294,7 +1299,7 @@
     <string name="replace_hint">Замяніць…</string>
     <string name="report_abuse_title">Паведамленне аб злоўжыванні</string>
     <string name="request_access">Запытаць доступ</string>
-    <string name="request_access_message">Уладальнік атрымае электроннае паштовае паведамленне для асобы, якая запытала доступ.</string>
+    <string name="request_access_message">Уладальнік атрымае электронны ліст для асобы, якая запытала доступ.</string>
     <string name="request_access_send_button_content_desc">Пацвердзіць запыт доступу і адправіць уладальніку</string>
     <string name="request_access_sent">Ваш запыт доступу адпраўлены.</string>
     <string name="requesting_access">Запыт доступу</string>
@@ -1401,6 +1406,7 @@
     <string name="ritz_cannot_back_local_filter_with_named_range">Немагчыма стварыць фільтр на базе найменнага дыяпазону ў рэжыме \"толькі для прагляду\".</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">Нельга замяніць абарону аркуша абаронай дыяпазону, і наадварот.</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">Нельга дадаваць альтэрнатыўныя фонавыя колеры ў дыяпазон, які ўжо мае альтэрнатыўныя фонавыя колеры.</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">Вы не можаце дадаць фільтр да гэтага аркуша, таму што ён злучаны з базай даных. Паспрабуйце стварыць рэжым фільтрацыі.</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">Немагчыма стварыць фільтр у аркушы, які ўжо мае фільтр.</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">"Немагчыма стварыць фільтр у дыяпазоне, які ўтрымлівае ячэйкі, аб'яднаныя па вертыкалі."</string>
     <string name="ritz_cannot_create_filter_within_merge">"Нельга стварыць фільтр у дыяпазоне з аб'яднанымі ячэйкамі."</string>
@@ -1450,6 +1456,7 @@
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">Гэта аперацыя не падтрымліваецца ў дыяпазоне з адсартаваным Filter View. Адключыце Filter View і паўтарыце спробу.</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">Гэтая аперацыя не падтрымліваецца ў дыяпазоне з адфільтраваным радком.</string>
     <string name="ritz_cannot_pivot_drill_down">"Нельга паказаць дэталі ячэйкі, якая не з'яўляецца часткай зводнай табліцы"</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">Немагчыма ўключыць абарону гэтага аркуша, таму што ён злучаны з базай даных.</string>
     <string name="ritz_cannot_protect_deleted_sheet">Аркуш, які вы хочаце абараніць, выдалены.</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">Немагчыма захаваць правіла з несапраўднай формулай.</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">"Немагчыма ўсталяваць даныя ў гэту аб'яднаную ячэйку. Калі ў вас ёсць актыўны Filter View, паспрабуйце выдаліць яго."</string>
@@ -1984,7 +1991,6 @@
     <string name="ritz_generic_sheet_activated">Актывіраваны ліст %1$s.</string>
     <string name="ritz_get_pivot_table_message_for_average">Сярэдняе значэнне \"%1$s\" для кожнага значэння \"%2$s\"</string>
     <string name="ritz_get_pivot_table_message_for_count">Колькасць значэнняў \"%1$s\" для кожнага значэння \"%2$s\"</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">Колькасць пэўных значэнняў \"%1$s\" для кожнага значэння \"%2$s\"</string>
     <string name="ritz_get_pivot_table_message_for_sum">Сума значэнняў \"%1$s\" для кожнага значэння \"%2$s\"</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">Адмова ад абавязацельстваў.Прапановы паступаюць не з усіх рынкаў, і могуць затрымлівацца на перыяд да 20 хвілін. Інфармацыя падаецца ў выглядзе \"як ёсць\", выключна ў інфармацыйных, а не гандлёвых мэтах і не ў якасці рэкамендацый.</string>
@@ -2706,6 +2712,7 @@
     <string name="suggest_pin_dialog_positive_button">Зрабіць даступным у аўтаномным рэжыме</string>
     <string name="suggest_pin_dialog_title">Няма падключэння</string>
     <string name="suggested_name_selected_accessibility_announcement">Выбраны карыстальнік %1$s</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Памылка сінхранізацыі Табліц Google</string>
     <string name="sync_more_error">Памылка атрымання дадатковых элементаў</string>
     <string name="sync_more_error_offline">У пазасеткавым рэжыме некаторыя дакументы могуць быць нябачнымі.</string>
@@ -2894,6 +2901,8 @@
     <string name="upsave_dialog_title">Захаваць змены?</string>
     <string name="upsell_negbtn">Пазней</string>
     <string name="upsell_okbtn">Павялічыць</string>
+    <string name="v7_preference_off">ВЫКЛ.</string>
+    <string name="v7_preference_on">УКЛ.</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{Усе роўныя {VALUE} акрамя аднаго {EXCEPTIONS}.}=2{Усе роўныя {VALUE}, акрамя двух {EXCEPTIONS}.}=3{Усе роўныя {VALUE}, акрамя трох, {EXCEPTIONS}.}=4{Усе роўныя {VALUE}, акрамя чатырох, {EXCEPTIONS}.}one{Усе роўныя {VALUE}, акрамя {NUMBER_OF_EXCEPTIONS}, {EXCEPTIONS}.}few{Усе роўныя {VALUE}, акрамя {NUMBER_OF_EXCEPTIONS}, {EXCEPTIONS}.}many{Усе роўныя {VALUE}, акрамя {NUMBER_OF_EXCEPTIONS}, {EXCEPTIONS}.}other{Усе роўныя {VALUE}, акрамя {NUMBER_OF_EXCEPTIONS}, {EXCEPTIONS}.}}</string>
     <string name="verbal_all_different">Усе значэнні розныя.</string>
     <string name="verbal_all_same">Усе значэнні роўныя %1$s.</string>
@@ -3080,7 +3089,6 @@
     <string name="warm_welcome_skip_button">Прапусціць</string>
     <string name="warning_cannot_share_outside_domain">Налады гэтага Дыска групы забараняюць абагульванне па-за межамі дамена %s</string>
     <string name="warning_cannot_share_outside_domain_org">Налады арганізацыі забараняюць абагульванне па-за межамі арганізацыі</string>
-    <string name="warning_cannot_share_outside_team_drive">Налады гэтага Дыска групы забараняюць абагульванне па-за межамі групы</string>
     <string name="warning_csv_edits_unsupported">Каб дадаць фармаціраваны змест, дыяграмы, відарысы або дадатковыя ўкладкі, неабходна захаваць ваш файл як электронную табліцу Google.</string>
     <string name="warning_sheet_add_unsupported">Каб дадаць новы аркуш, неабходна захаваць файл як электронную табліцу Google.</string>
     <string name="welcome_button_close">Перайсці ў Табліцы</string>
@@ -3104,22 +3112,22 @@
     <string name="zss_date_range_month">Апошнія 30 дзён</string>
     <string name="zss_date_range_three_month">Апошнія 90 дзён</string>
     <string name="zss_date_range_today">Сёння</string>
-    <string name="zss_date_range_week">За апошнія 7 дзён</string>
+    <string name="zss_date_range_week">Апошнія 7 дзён</string>
     <string name="zss_date_range_yesterday">Учора</string>
     <string name="zss_entry_types_header_title">Тыпы файлаў</string>
     <string name="zss_no_filters">Няма фільтраў</string>
     <string name="zss_owner_header_title">Уладальнік</string>
-    <string name="zss_owner_me">Належыць мне</string>
-    <string name="zss_owner_not_me">Не маё</string>
+    <string name="zss_owner_me">Належаць мне</string>
+    <string name="zss_owner_not_me">Не належаць мне</string>
     <string name="zss_people_header_title">Людзі</string>
     <string name="zss_showing_list_of_filters">Адлюстраванне спіса даступных фільтраў.</string>
-    <string name="zss_team_drive">Пошук у %1$s</string>
+    <string name="zss_team_drive">Шукаць у %1$s</string>
     <string name="zss_type_archive">Архіў</string>
-    <string name="zss_type_audio">Аўдыя</string>
+    <string name="zss_type_audio">Гук</string>
     <string name="zss_type_documents">Тэкставыя дакументы</string>
     <string name="zss_type_folder">Папкі</string>
     <string name="zss_type_images">Фота і відарысы</string>
-    <string name="zss_type_pdfs">PDF</string>
+    <string name="zss_type_pdfs">Файлы PDF</string>
     <string name="zss_type_presentations">Прэзентацыі</string>
     <string name="zss_type_spreadsheets">Электронныя табліцы</string>
     <string name="zss_type_video">Відэа</string>

@@ -659,7 +659,7 @@ Intenta subir un archivo."</string>
     <string name="empty_doclist_for_pinned_view_details">Configura los archivos como \"Disponibles sin conexión\" en el menú de opciones del archivo</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Presiona \"Disponible sin conexión\" en el menú de un archivo para seguir trabajando en él aunque estés desconectado.</string>
     <string name="empty_doclist_for_recent_view">No hay archivos abiertos o editados recientemente.</string>
-    <string name="empty_doclist_for_search_view">No hay resultados.</string>
+    <string name="empty_doclist_for_search_view">No hay resultados</string>
     <string name="empty_doclist_for_shared_with_me_view">Los archivos compartidos contigo aparecerán aquí.</string>
     <string name="empty_doclist_for_starred_view">No tienes archivos destacados.</string>
     <string name="empty_doclist_for_starred_view_details">Presiona el ícono de estrella en el menú de opciones del archivo para agregarlo a esta lista.</string>
@@ -708,6 +708,7 @@ Haz clic en + para crear una hoja de cálculo."</string>
     <string name="error_video_not_available">El video no se ha procesado. Inténtalo de nuevo más tarde.</string>
     <string name="excess_head_count">Más de %1$d</string>
     <string name="excess_head_count_verbalization">Más de %1$d</string>
+    <string name="expand_button_title">Avanzado</string>
     <string name="expires_future">Vence en %1$s</string>
     <string name="expires_today">Vence hoy</string>
     <string name="export_download_error_title">Error de descarga</string>
@@ -725,6 +726,11 @@ Haz clic en + para crear una hoja de cálculo."</string>
     <string name="fab_office_document">Nuevo archivo de Excel</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s de %2$d</string>
     <string name="fast_scroll_search_result_grouper">Result. de búsq.</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Antiguos</string>
     <string name="fast_scroll_time_grouper_last_week">La semana pasada</string>
     <string name="fast_scroll_time_grouper_this_month">Antes este mes</string>
@@ -1081,7 +1087,7 @@ Haz clic en + para crear una hoja de cálculo."</string>
     <string name="ouch_title_sawwrie">Lo sentimos</string>
     <string name="overwrite_confirm_dialog_message">%1$s ya existe. ¿Deseas sobrescribirlo?</string>
     <string name="overwrite_confirm_dialog_positive_button_label">Sobrescribir</string>
-    <string name="owner_not_user">No son propiedad de %1$s</string>
+    <string name="owner_not_user">Ajenos a %1$s</string>
     <string name="owner_user">Propiedad de %1$s</string>
     <string name="page_1_description">Trabaja con o sin conexión a Internet.</string>
     <string name="page_1_heading_editors">Hojas de cálculo dondequiera que estés</string>
@@ -1434,6 +1440,7 @@ Haz clic en + para crear una hoja de cálculo."</string>
     <string name="ritz_cannot_back_local_filter_with_named_range">No puedes hacer que un filtro dependa de un rango con nombre en el modo de solo lectura.</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">No puedes cambiar la protección de la hoja a la protección del rango ni viceversa.</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">No puedes agregar colores de fondo alternativos a un rango que ya tiene colores de fondo alternativos.</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">No puedes agregar un filtro a esta hoja porque está asociada a una base de datos. Mejor crea una vista de filtro.</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">No puedes crear un filtro en una hoja que ya tenga uno.</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">No puedes crear un filtro sobre un intervalo que contenga combinaciones verticales.</string>
     <string name="ritz_cannot_create_filter_within_merge">No puedes crear un filtro sobre un intervalo que contenga combinaciones.</string>
@@ -1483,6 +1490,7 @@ Haz clic en + para crear una hoja de cálculo."</string>
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">Esta operación no se admite en un rango con una vista de filtro ordenada. Inhabilita la vista de filtro y vuelve a intentarlo.</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">Esta operación no se admite en un rango con una fila filtrada.</string>
     <string name="ritz_cannot_pivot_drill_down">No puedes mostrar los detalles de una celda que no está dentro de una tabla dinámica</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">No se puede agregar protección a esta hoja porque está conectada a una base de datos.</string>
     <string name="ritz_cannot_protect_deleted_sheet">Se borró la hoja que estás intentando proteger.</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">No se puede guardar la regla con una fórmula no válida.</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">No se pueden definir datos en esta celda combinada. Si activaste una vista de filtro, intenta quitarla.</string>
@@ -2017,7 +2025,6 @@ Haz clic en + para crear una hoja de cálculo."</string>
     <string name="ritz_generic_sheet_activated">Se activó la hoja %1$s.</string>
     <string name="ritz_get_pivot_table_message_for_average">Promedio de %1$s para cada %2$s</string>
     <string name="ritz_get_pivot_table_message_for_count">Recuento de %1$s para cada %2$s</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">Recuento de %1$s diferentes para cada %2$s</string>
     <string name="ritz_get_pivot_table_message_for_sum">Suma de %1$s para cada %2$s</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">Renuncia de responsabilidad: Las cotizaciones no provienen de todos los mercados y podrían tener una demora de hasta veinte minutos. La información se proporciona \"tal como está\" y únicamente para fines informativos, pero no para comercialización ni asesoramiento.</string>
@@ -2742,6 +2749,7 @@ Haz clic en + para crear una hoja de cálculo."</string>
     <string name="suggest_pin_dialog_positive_button">Permitir acceso sin conexión</string>
     <string name="suggest_pin_dialog_title">No hay conexión</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, seleccionada</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Error de sincronización de Hojas de cálculo de Google</string>
     <string name="sync_more_error">Se produjo un error al intentar recuperar elementos adicionales.</string>
     <string name="sync_more_error_offline">Algunos documentos podrían no mostrarse sin conexión.</string>
@@ -2930,6 +2938,8 @@ Haz clic en + para crear una hoja de cálculo."</string>
     <string name="upsave_dialog_title">¿Quieres guardar los cambios?</string>
     <string name="upsell_negbtn">Más tarde</string>
     <string name="upsell_okbtn">Actualizar</string>
+    <string name="v7_preference_off">DESACTIVADO</string>
+    <string name="v7_preference_on">ACTIVADO</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{Todos son {VALUE}, excepto uno, {EXCEPTIONS}.}=2{Todos son {VALUE}, excepto dos, {EXCEPTIONS}.}=3{Todos son {VALUE}, excepto tres, {EXCEPTIONS}.}=4{Todos son {VALUE}, excepto cuatro, {EXCEPTIONS}.}other{Todos son {VALUE}, excepto {NUMBER_OF_EXCEPTIONS}, {EXCEPTIONS}.}}</string>
     <string name="verbal_all_different">Todos los valores son diferentes.</string>
     <string name="verbal_all_same">Todos los valores son %1$s.</string>
@@ -3116,6 +3126,7 @@ Haz clic en + para crear una hoja de cálculo."</string>
     <string name="warm_welcome_next_button">Siguiente</string>
     <string name="warm_welcome_skip_button">Omitir</string>
     <string name="warning_cannot_share_outside_domain">La configuración de esta unidad de equipo no permite compartir elementos fuera de %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">La configuración de esta unidad de equipo no permite compartir elementos con personas ajenas a ella y a %s</string>
     <string name="warning_cannot_share_outside_domain_org">La configuración de la organización no permite compartir elementos fuera de ella</string>
     <string name="warning_cannot_share_outside_team_drive">La configuración de esta unidad de equipo no permite compartir elementos con personas ajenas a ella</string>
     <string name="warning_csv_edits_unsupported">Para agregar contenido con formato, gráficos, imágenes o pestañas adicionales, debes guardar el archivo como una hoja de cálculo de Google.</string>
@@ -3143,15 +3154,15 @@ Haz clic en + para crear una hoja de cálculo."</string>
     <string name="zss_date_range_today">Hoy</string>
     <string name="zss_date_range_week">Últimos 7 días</string>
     <string name="zss_date_range_yesterday">Ayer</string>
-    <string name="zss_entry_types_header_title">Tipos de archivos</string>
+    <string name="zss_entry_types_header_title">Tipos de archivo</string>
     <string name="zss_no_filters">No hay filtros</string>
     <string name="zss_owner_header_title">Propiedad de</string>
     <string name="zss_owner_me">De mi propiedad</string>
-    <string name="zss_owner_not_me">Ajenos a mi propiedad</string>
+    <string name="zss_owner_not_me">De otros usuarios</string>
     <string name="zss_people_header_title">Personas</string>
     <string name="zss_showing_list_of_filters">Se muestra la lista de filtros disponibles.</string>
     <string name="zss_team_drive">Buscar en %1$s</string>
-    <string name="zss_type_archive">Archivar</string>
+    <string name="zss_type_archive">Archivo</string>
     <string name="zss_type_audio">Audio</string>
     <string name="zss_type_documents">Documentos de texto</string>
     <string name="zss_type_folder">Carpetas</string>

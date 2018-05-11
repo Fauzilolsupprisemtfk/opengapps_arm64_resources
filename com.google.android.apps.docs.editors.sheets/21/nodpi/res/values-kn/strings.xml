@@ -640,7 +640,7 @@
     <string name="empty_doclist_for_pinned_view_details">ಫೈಲ್‌ನ ಆಯ್ಕೆಗಳ ಮೆನುನಲ್ಲಿ ಫೈಲ್‌ಗಳು \"ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಲಭ್ಯವಾಗಿಸು\" ಮಾಡಿ</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">ಮೆನುನಲ್ಲಿರುವ \"ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಲಭ್ಯವಾಗಿಸು\" ಟ್ಯಾಪ್‌ ಮಾಡಿ ಈ ಮೂಲಕ ನೀವು ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಲೇ ಇರಬಹುದು.</string>
     <string name="empty_doclist_for_recent_view">ಇತ್ತೀಚೆಗೆ ತೆರೆಯಲಾದ ಅಥವಾ ಸಂಪಾದಿಸಿದ ಯಾವುದೇ ಫೈಲ್‌ಗಳಿಲ್ಲ.</string>
-    <string name="empty_doclist_for_search_view">ಯಾವುದೇ ಫಲಿತಾಂಶಗಳಿಲ್ಲ.</string>
+    <string name="empty_doclist_for_search_view">ಯಾವುದೇ ಫಲಿತಾಂಶಗಳಿಲ್ಲ</string>
     <string name="empty_doclist_for_shared_with_me_view">ನಿಮ್ಮ ಜೊತೆ ಹಂಚಿಕೊಳ್ಳಲಾದ ಫೈಲ್‌ಗಳು ಇಲ್ಲಿ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತವೆ.</string>
     <string name="empty_doclist_for_starred_view">ನಿಮ್ಮ ಬಳಿ ಯಾವುದೇ ನಕ್ಷತ್ರ ಹಾಕಿದ ಫೈಲ್‌ಗಳಿಲ್ಲ.</string>
     <string name="empty_doclist_for_starred_view_details">ಈ ಪಟ್ಟಿಗೆ ಇದನ್ನು ಸೇರಿಸಲು ಫೈಲ್‌ನ ಆಯ್ಕೆ ಮೆನುನಲ್ಲಿನ ನಕ್ಷತ್ರ ಐಕಾನ್‌ ಟ್ಯಾಪ್‌ ಮಾಡಿ.</string>
@@ -689,6 +689,7 @@
     <string name="error_video_not_available">ವೀಡಿಯೊವನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲಾಗಿಲ್ಲ. ದಯವಿಟ್ಟು ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d ಇತರರು.</string>
+    <string name="expand_button_title">ಸುಧಾರಿತ</string>
     <string name="expires_future">%1$s ರಲ್ಲಿ ಅಂತ್ಯಗೊಳ್ಳುತ್ತದೆ</string>
     <string name="expires_today">ಇಂದು ಕೊನೆಗೊಳ್ಳುತ್ತದೆ</string>
     <string name="export_download_error_title">ಡೌನ್‌ಲೋಡ್ ದೋಷ</string>
@@ -706,6 +707,11 @@
     <string name="fab_office_document">ಹೊಸ Excel ಫೈಲ್‌</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">ಹುಡುಕಾಟ ಫಲಿತಾಂಶಗಳು</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">ಹಳೆಯದು</string>
     <string name="fast_scroll_time_grouper_last_week">ಕೊನೆಯ ವಾರ</string>
     <string name="fast_scroll_time_grouper_this_month">ಈ ತಿಂಗಳ ಪ್ರಾರಂಭದಲ್ಲಿ</string>
@@ -836,17 +842,8 @@
     <string name="make_copy_spinner_message">ನಕಲಿಸಲಾಗುತ್ತಿದೆ...</string>
     <string name="manage_members_default_members">ಡಿಫಾಲ್ಟ್ ಆಗಿ, ಸದಸ್ಯರು ಫೈಲ್‌ಗಳನ್ನು ಅಪ್‌ಲೋಡ್/ಎಡಿಟ್/ಅಳಿಸಬಹುದು ಮತ್ತು ಇತರ ಸದಸ್ಯರನ್ನು ಆಹ್ವಾನಿಸಬಹುದು</string>
     <string name="manage_members_dialog_title">ಸದಸ್ಯರ ಪ್ರವೇಶ</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">ಸಂಗ್ರಹಣೆ</string>
+    <string name="management_data_loading_failed">ಈ ಪುಟ ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ</string>
     <string name="menu_backup">ಬ್ಯಾಕಪ್‌ಗಳು</string>
     <string name="menu_copy_link">ಲಿಂಕ್ ನಕಲಿಸಿ</string>
     <string name="menu_create_shortcut">ಮುಖಪುಟಕ್ಕೆ ಸೇರಿಸು</string>
@@ -1198,7 +1195,7 @@
     <string name="plus_photo_item_remove_items_dialog_text_single">%1$s ಅನ್ನು ಅನುಪಯುಕ್ತಕ್ಕೆ ಸರಿಸಲಾಗುತ್ತದೆ. ಇದನ್ನು Google ಫೋಟೋಗಳು ನಿಂದಲೂ ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ.</string>
     <string name="policy_privacy">ಗೌಪ್ಯತೆ</string>
     <string name="policy_terms">ನಿಯಮಗಳು</string>
-    <string name="preferences_license_title">ಮುಕ್ತ ಮೂಲ ಪರವಾನಗಿಗಳು</string>
+    <string name="preferences_license_title">ಓಪನ್ ಸೋರ್ಸ್ ಪರವಾನಗಿಗಳು</string>
     <string name="prefs_abuse_program_policies">ಪ್ರೋಗ್ರಾಮ್ ನೀತಿಗಳು</string>
     <string name="prefs_cache_category_title">ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳ ಸಂಗ್ರಹಣೆ</string>
     <string name="prefs_category_content_description">ವಿಭಾಗ, %1$s</string>
@@ -1207,7 +1204,7 @@
     <string name="prefs_enable_excel_doc_creation_summary">Google ಶೀಟ್‌ಗಳ ಫೈಲ್‌ಗಳ ಜೊತೆಗೆ Excel (.xlsx) ಫೈಲ್‌ಗಳನ್ನು ರಚಿಸಲು ಆಯ್ಕೆಗಳನ್ನು ತೋರಿಸಿ.</string>
     <string name="prefs_enable_excel_doc_creation_title">Excel ಫೈಲ್‌ಗಳನ್ನು ರಚಿಸಿ</string>
     <string name="prefs_language_category">ಭಾಷೆ</string>
-    <string name="prefs_legal">ಮುಕ್ತ ಮೂಲ ಪರವಾನಗಿಗಳು</string>
+    <string name="prefs_legal">ಓಪನ್ ಸೋರ್ಸ್ ಪರವಾನಗಿಗಳು</string>
     <string name="prefs_notification_category">ಅಧಿಸೂಚನೆ</string>
     <string name="prefs_notification_settings_summary">%1$s ಇಮೇಲ್‌ಗೆ ಅಧಿಸೂಚನೆಯ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬದಲಾಯಿಸಿ</string>
     <string name="prefs_notification_settings_title">ಅಧಿಸೂಚನೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
@@ -1420,6 +1417,7 @@
     <string name="ritz_cannot_back_local_filter_with_named_range">ವೀಕ್ಷಣೆ-ಮಾತ್ರದ ಮೋಡ್‌ನಲ್ಲಿರುವಾಗ ಹೆಸರಿಸಿದ ಶ್ರೇಣಿಯು ಫಿಲ್ಟರ್ ಅನ್ನು ಅವಲಂಬಿಸುವಂತೆ ಮಾಡಲು ನಿಮಗೆ ಸಾಧ್ಯವಿಲ್ಲ.</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">ನೀವು ಶೀಟ್ ಸುರಕ್ಷತೆಯನ್ನು ವ್ಯಾಪ್ತಿ ಸುರಕ್ಷತೆ ಅಥವಾ ಇದಕ್ಕೆ ವಿರುದ್ಧವಾಗಿ ಬದಲಾಯಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">ಈಗಾಗಲೇ ಪರ್ಯಾಯ ಹಿನ್ನೆಲೆ ಬಣ್ಣಗಳನ್ನು ಹೊಂದಿರುವ ಶ್ರೇಣಿಗೆ ನೀವು ಪರ್ಯಾಯ ಹಿನ್ನೆಲೆ ಬಣ್ಣಗಳನ್ನು ಸೇರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">ಡೇಟಾಬೇಸ್‌ಗೆ ಸಂಪರ್ಕಗೊಂಡಿರುವ ಕಾರಣ ನೀವು ಈ ಶೀಟ್‌ಗೆ ಫಿಲ್ಟರ್‌ ಅನ್ನು ಸೇರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ಬದಲಿಗೆ ಫಿಲ್ಟರ್ ವೀಕ್ಷಣೆಯನ್ನು ರಚಿಸಿ.</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">ಈಗಾಗಲೇ ಫಿಲ್ಟರ್ ಹೊಂದಿರುವ ಶೀಟ್‌ನಲ್ಲಿ ಫಿಲ್ಟರ್ ಅನ್ನು ರಚಿಸಲು ನಿಮಗೆ ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ.</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">ಲಂಬ ಒಗ್ಗೂಡಿಸುವಿಕೆಗಳನ್ನು ಹೊಂದಿರುವ ಶ್ರೇಣಿಯ ಮೂಲಕ ಫಿಲ್ಟರ್ ರಚಿಸಲು ನಿಮಗೆ ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ.</string>
     <string name="ritz_cannot_create_filter_within_merge">ಒಗ್ಗೂಡಿಸುವಿಕೆಗಳನ್ನು ಹೊಂದಿರುವ ವ್ಯಾಪ್ತಿಯಲ್ಲಿಯೇ ಫಿಲ್ಟರ್ ರಚಿಸಲು ನಿಮಗೆ ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ.</string>
@@ -1469,6 +1467,7 @@
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">ವಿಂಗಡಿಸಿದ ಫಿಲ್ಟರ್ ವೀಕ್ಷಣೆಯೊಂದಿಗೆ ಈ ಕಾರ್ಯಾಚರಣೆಯು ಶ್ರೇಣಿಯಲ್ಲಿ ಬೆಂಬಲಿಸುವುದಿಲ್ಲ. ಫಿಲ್ಟರ್ ವೀಕ್ಷಣೆಯನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ ಹಾಗೂ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">ಫಿಲ್ಟರ್ ಮಾಡಿರುವ ಸಾಲಿನ ವ್ಯಾಪ್ತಿಯಲ್ಲಿ ಈ ಕಾರ್ಯಾಚರಣೆ ಬೆಂಬಲಿಸುವುದಿಲ್ಲ.</string>
     <string name="ritz_cannot_pivot_drill_down">ಪೈವೊಟ್ ಕೋಷ್ಟಕದ ಒಳಗಡೆ ಇಲ್ಲದ ಸೆಲ್‌ನ ವಿವರಗಳನ್ನು ನೀವು ತೋರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">ಡೇಟಾಬೇಸ್‌ಗೆ ಸಂಪರ್ಕಗೊಂಡಿರುವ ಕಾರಣ ನೀವು ಈ ಶೀಟ್‌ಗೆ ಸಂರಕ್ಷಣೆಯನ್ನು ಸೇರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</string>
     <string name="ritz_cannot_protect_deleted_sheet">ನೀವು ರಕ್ಷಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತಿರುವ ಶೀಟ್ ಅನ್ನು ಅಳಿಸಲಾಗಿದೆ.</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">ಅಮಾನ್ಯವಾದ ಫಾರ್ಮುಲಾದ ಜೊತೆಗೆ ನಿಯಮವನ್ನು ಉಳಿಸಲಾಗುವುದಿಲ್ಲ.</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">ಈ ವಿಲೀನಗೊಳಿಸಿದ ಸೆಲ್‌ನಲ್ಲಿ ಡೇಟಾವನ್ನು ಹೊಂದಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ನೀವು ಸಕ್ರಿಯ ಫಿಲ್ಟರ್ ವೀಕ್ಷಣೆಯನ್ನು ಹೊಂದಿದ್ದರೆ, ಅದನ್ನು ತೆಗೆದುಹಾಕಲು ಪ್ರಯತ್ನಿಸಿ.</string>
@@ -2003,7 +2002,6 @@
     <string name="ritz_generic_sheet_activated">%1$s ಶೀಟ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ.</string>
     <string name="ritz_get_pivot_table_message_for_average">ಪ್ರತಿಯೊಂದು %2$s ಗೆ ಸರಾಸರಿ %1$s</string>
     <string name="ritz_get_pivot_table_message_for_count">ಪ್ರತಿಯೊಂದು %2$s ಗೆ ಒಟ್ಟು ಎಣಿಕೆ %1$s</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">ಪ್ರತಿಯೊಂದು %2$s ಗೆ ಒಟ್ಟು ಭಿನ್ನ ಎಣಿಕೆ %1$s</string>
     <string name="ritz_get_pivot_table_message_for_sum">ಪ್ರತಿಯೊಂದು %2$s ಗೆ ಒಟ್ಟು ಮೊತ್ತ %1$s</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">"ಹಕ್ಕು ನಿರಾಕರಣೆ: ಕೋಟ್ಸ್ ಎಲ್ಲಾ ಮಾರ್ಕೆಟ್‌ಗಳಿಂದ ಮೂಲವಾಗಿಲ್ಲ ಮತ್ತು ಇದು 20 ನಿಮಿಷಗಳಷ್ಟು ತಡವಾಗಬಹುದು. 'ಹೇಗಿದೆಯೋ ಹಾಗೇ' ಮಾಹಿತಿಯನ್ನು ನೀಡಲಾಗುತ್ತಿದ್ದು, ಇದು ಕೇವಲ ಮಾಹಿತಿಗಳಿಗಾಗಿ ಮಾತ್ರ. ಯಾವುದೇ ವ್ಯವಹಾರ ಅಥವಾ ಸಲಹೆಗಾಗಿ ಅಲ್ಲ."</string>
@@ -2725,6 +2723,7 @@
     <string name="suggest_pin_dialog_positive_button">ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಲಭ್ಯವಿರುವಂತೆ ಮಾಡಿ</string>
     <string name="suggest_pin_dialog_title">ಸಂಪರ್ಕವಿಲ್ಲ</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Google ಶೀಟ್‌ಗಳು ಸಿಂಕ್ರೊನೈಸೇಶನ್ ದೋಷ</string>
     <string name="sync_more_error">ಹೆಚ್ಚುವರಿ ಐಟಂಗಳನ್ನು ಮರುಪಡೆಯುವಲ್ಲಿ ದೋಷವಿದೆ</string>
     <string name="sync_more_error_offline">ಕೆಲವು ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳು ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿರುವಾಗ ಗೋಚರಿಸದಿರಬಹುದು.</string>
@@ -2913,6 +2912,8 @@
     <string name="upsave_dialog_title">ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸುವುದೇ?</string>
     <string name="upsell_negbtn">ನಂತರ</string>
     <string name="upsell_okbtn">ಅಪ್‌ಗ್ರೇಡ್‌‌</string>
+    <string name="v7_preference_off">ಆಫ್</string>
+    <string name="v7_preference_on">ಆನ್</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{ಒಂದು ಹೊರತುಪಡಿಸಿ ಎಲ್ಲವೂ {VALUE} ಆಗಿವೆ, {EXCEPTIONS}.}=2{ಎರಡು ಹೊರತುಪಡಿಸಿ ಎಲ್ಲವೂ {VALUE} ಆಗಿವೆ, {EXCEPTIONS}.}=3{ಮೂರು ಹೊರತುಪಡಿಸಿ ಎಲ್ಲವೂ {VALUE} ಆಗಿವೆ, {EXCEPTIONS}.}=4{ನಾಲ್ಕು ಹೊರತುಪಡಿಸಿ ಎಲ್ಲವೂ {VALUE} ಆಗಿವೆ, {EXCEPTIONS}.}one{{NUMBER_OF_EXCEPTIONS} ಹೊರತುಪಡಿಸಿ ಎಲ್ಲವೂ {VALUE} ಆಗಿವೆ, {EXCEPTIONS}.}other{{NUMBER_OF_EXCEPTIONS} ಹೊರತುಪಡಿಸಿ ಎಲ್ಲವೂ {VALUE} ಆಗಿವೆ, {EXCEPTIONS}.}}</string>
     <string name="verbal_all_different">ಎಲ್ಲಾ ಮೌಲ್ಯಗಳು ಭಿನ್ನವಾಗಿವೆ.</string>
     <string name="verbal_all_same">ಎಲ್ಲಾ ಮೌಲ್ಯಗಳು %1$s ಆಗಿವೆ.</string>
@@ -3099,8 +3100,9 @@
     <string name="warm_welcome_next_button">ಮುಂದೆ</string>
     <string name="warm_welcome_skip_button">ಸ್ಕಿಪ್‌</string>
     <string name="warning_cannot_share_outside_domain">ಈ ತಂಡದ ಡ್ರೈವ್‌ನ ಸೆಟ್ಟಿಂಗ್‌ಗಳು %s ನ ಹೊರಗೆ ಹಂಚಿಕೊಳ್ಳುವುದನ್ನು ತಡೆಯುತ್ತವೆ</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">ಸದಸ್ಯರಲ್ಲದ ಮತ್ತು ಹೊರಗಿನವರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳುವುದನ್ನು ಈ ಟೀಮ್ ಡ್ರೈವ್‌ನ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ತಡೆಯುತ್ತವೆ %s.</string>
     <string name="warning_cannot_share_outside_domain_org">ಈ ಸಂಸ್ಥೆಯ ಸೆಟ್ಟಿಂಗ್‌ಗಳು, ಸಂಸ್ಥೆಯ ಹೊರಗಿನವರೊಂದಿಗೆ ಫೈಲ್‌ಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳುವುದನ್ನು ತಡೆಯುತ್ತವೆ</string>
-    <string name="warning_cannot_share_outside_team_drive">ಈ ತಂಡದ ಡ್ರೈವ್‌ನ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ತಂಡದ ಹೊರಗೆ ಹಂಚಿಕೊಳ್ಳುವುದನ್ನು ತಡೆಯುತ್ತವೆ</string>
+    <string name="warning_cannot_share_outside_team_drive">ಈ ಟೀಮ್ ಡ್ರೈವ್‌ನ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಸದಸ್ಯರಲ್ಲದವರೊಂದಿಗೆ ಲಿಂಕ್ ಹಂಚುವುದನ್ನು ತಡೆಯುತ್ತದೆ</string>
     <string name="warning_csv_edits_unsupported">ಫಾರ್ಮ್ಯಾಟ್ ಮಾಡಿದ ವಿಷಯ, ಚಾರ್ಟ್‌ಗಳು, ಚಿತ್ರಗಳು ಅಥವಾ ಹೆಚ್ಚುವರಿ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಸೇರಿಸಲು, ನಿಮ್ಮ ಫೈಲ್ ಅನ್ನು ನೀವು Google ಸ್ಪ್ರೆಡ್‌ಶೀಟ್ ಆಗಿ ಉಳಿಸಬೇಕು.</string>
     <string name="warning_sheet_add_unsupported">ಹೊಸ ಹಾಳೆಯನ್ನು ಸೇರಿಸಲು, ನಿಮ್ಮ ಫೈಲ್ ಅನ್ನು ನೀವು Google ಸ್ಪ್ರೆಡ್‌ಶೀಟ್ ಆಗಿ ಉಳಿಸಬೇಕು.</string>
     <string name="welcome_button_close">ಶೀಟ್‍ಗಳಿಗೆ ಹೋಗಿ</string>
@@ -3131,7 +3133,7 @@
     <string name="zss_owner_header_title">ಇವರ ಮಾಲೀಕತ್ವದಲ್ಲಿದೆ</string>
     <string name="zss_owner_me">ನನ್ನ ಮಾಲೀಕತ್ವದಲ್ಲಿರುವುದು</string>
     <string name="zss_owner_not_me">ನನ್ನ ಮಾಲೀಕತ್ವದಲ್ಲಿ ಇಲ್ಲದೇ ಇರುವುದು</string>
-    <string name="zss_people_header_title">ಜನರು</string>
+    <string name="zss_people_header_title">ಜನರ</string>
     <string name="zss_showing_list_of_filters">ಲಭ್ಯವಿರುವ ಫಿಲ್ಟರ್‌ಗಳ ಪಟ್ಟಿ ತೋರಿಸಲಾಗುತ್ತಿದೆ.</string>
     <string name="zss_team_drive">%1$s ನಲ್ಲಿ ಹುಡುಕಿ</string>
     <string name="zss_type_archive">ಆರ್ಕೈವ್</string>

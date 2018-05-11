@@ -708,6 +708,7 @@
     <string name="error_video_not_available">ยังไม่ได้ประมวลผลวิดีโอ โปรดลองอีกครั้งในภายหลัง</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">และอีก %1$d คน</string>
+    <string name="expand_button_title">ขั้นสูง</string>
     <string name="expires_future">หมดอายุใน %1$s</string>
     <string name="expires_today">หมดอายุวันนี้</string>
     <string name="export_download_error_title">ข้อผิดพลาดในการดาวน์โหลด</string>
@@ -725,6 +726,11 @@
     <string name="fab_office_document">ไฟล์ Excel ใหม่</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">ผลการค้นหา</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">เก่ากว่า</string>
     <string name="fast_scroll_time_grouper_last_week">สัปดาห์ที่แล้ว</string>
     <string name="fast_scroll_time_grouper_this_month">ต้นเดือนนี้</string>
@@ -859,17 +865,8 @@
     <string name="manage_addons_playstore_link_description">ไปที่ Play Store สำหรับ %s</string>
     <string name="manage_members_default_members">สมาชิกสามารถอัปโหลด/แก้ไข/ลบไฟล์ และเชิญสมาชิกคนอื่นๆ ได้โดยค่าเริ่มต้น</string>
     <string name="manage_members_dialog_title">สิทธิ์เข้าถึงของสมาชิก</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">พื้นที่เก็บข้อมูล</string>
+    <string name="management_data_loading_failed">โหลดหน้านี้ไม่ได้</string>
     <string name="menu_backup">ข้อมูลสำรอง</string>
     <string name="menu_copy_link">คัดลอกลิงก์</string>
     <string name="menu_create_shortcut">เพิ่มลงในหน้าจอหลัก</string>
@@ -1270,7 +1267,6 @@
     <string name="published_access_anyone">ทุกคนจะดูได้เมื่อเผยแพร่แล้ว</string>
     <string name="published_access_domain">ทุกคนใน %s ดูได้เมื่อเผยแพร่แล้ว</string>
     <string name="published_access_select_people">บุคคลที่ระบุจะดูได้เมื่อเผยแพร่แล้ว</string>
-    <string name="published_disabled_append">ปิดอยู่</string>
     <string name="published_message_for_anyone_can_edit">เนื่องจากทุกคนแก้ไขได้ ดังนั้นทุกคนจึงดูได้ด้วยเมื่อเผยแพร่</string>
     <string name="published_message_for_anyone_in_domain_can_edit">เนื่องจากทุกคนใน %1$s มีสิทธิ์แก้ไขได้ ดังนั้นทุกคนที่ %1$s จึงดูได้ด้วยเมื่อเผยแพร่แล้ว</string>
     <string name="published_message_for_anyone_with_link_can_edit">เนื่องจากทุกคนที่มีลิงก์สามารถแก้ไขได้ ดังนั้นทุกคนจึงดูได้ด้วยเมื่อเผยแพร่</string>
@@ -1446,6 +1442,7 @@
     <string name="ritz_cannot_back_local_filter_with_named_range">คุณไม่สามารถกำหนดให้ตัวกรองอ้างอิงช่วงที่ตั้งชื่อขณะที่อยู่ในโหมดดูอย่างเดียว</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">คุณไม่สามารถเปลี่ยนการป้องกันแผ่นงานเป็นการป้องกันช่วงหรือสลับกันได้</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">คุณไม่สามารถเพิ่มสีพื้นหลังแบบสลับสีให้กับช่วงที่มีสีพื้นหลังแบบสลับสีอยู่แล้ว</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">คุณเพิ่มตัวกรองในชีตนี้ไม่ได้เนื่องจากมีการเชื่อมต่อกับฐานข้อมูลอยู่ โปรดสร้างมุมมองตัวกรองแทน</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">คุณสร้างตัวกรองในแผ่นงานที่มีตัวกรองอยู่แล้วไม่ได้</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">คุณไม่สามารถสร้างตัวกรองในช่วงที่มีการผสานในแนวตั้ง</string>
     <string name="ritz_cannot_create_filter_within_merge">คุณไม่สามารถสร้างตัวกรองในช่วงที่มีการผสาน</string>
@@ -1495,6 +1492,7 @@
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">ระบบไม่สนับสนุนการดำเนินการนี้ในช่วงที่มีมุมมองตัวกรองที่ได้รับการจัดเรียง โปรดปิดมุมมองตัวกรองและลองอีกครั้ง</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">ระบบไม่สนับสนุนการดำเนินการนี้ในช่วงซึ่งมีแถวที่ถูกคัดกรองออกไป</string>
     <string name="ritz_cannot_pivot_drill_down">คุณไม่สามารถแสดงรายละเอียดของเซลล์ที่ไม่อยู่ในตาราง Pivot</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">เพิ่มการปกป้องให้ชีตนี้ไม่ได้เนื่องจากมีการเชื่อมต่อกับฐานข้อมูลอยู่</string>
     <string name="ritz_cannot_protect_deleted_sheet">แผ่นงานที่ต้องการป้องกันถูกลบแล้ว</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">ไม่สามารถบันทึกกฎซึ่งมีสูตรที่ไม่ถูกต้อง</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">ไม่สามารถตั้งค่าข้อมูลในเซลล์ที่ผสานนี้ ถ้าคุณมีมุมมองตัวกรองที่ใช้งานอยู่ โปรดลองนำออก</string>
@@ -2029,7 +2027,6 @@
     <string name="ritz_generic_sheet_activated">เปิดใช้แผ่นงาน %1$s แล้ว</string>
     <string name="ritz_get_pivot_table_message_for_average">ค่าเฉลี่ยของคอลัมน์ %1$s สำหรับแต่ละกลุ่มคอลัมน์ %2$s</string>
     <string name="ritz_get_pivot_table_message_for_count">จำนวนของคอลัมน์ %1$s สำหรับแต่ละกลุ่มคอลัมน์ %2$s</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">จำนวนที่แตกต่างกันของคอลัมน์ %1$s สำหรับแต่ละกลุ่มคอลัมน์ %2$s</string>
     <string name="ritz_get_pivot_table_message_for_sum">ผลรวมของคอลัมน์ %1$s สำหรับแต่ละกลุ่มคอลัมน์ %2$s</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">ข้อจำกัดความรับผิดชอบ: ข้อมูลราคาไม่ได้มาจากทุกตลาดและอาจล่าช้าได้ถึง 20 นาที เรานำเสนอข้อมูล \"ตามที่เห็น\" และมีวัตถุประสงค์เพื่อเป็นข้อมูลเท่านั้น ไม่ใช่เพื่อจุดประสงค์หรือคำแนะนำในการซื้อขายหลักทรัพย์</string>
@@ -2754,6 +2751,7 @@
     <string name="suggest_pin_dialog_positive_button">ทำให้พร้อมใช้งานแบบออฟไลน์</string>
     <string name="suggest_pin_dialog_title">ไม่มีการเชื่อมต่อ</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s เลือกแล้ว</string>
+    <string name="summary_collapsed_preference_list">%1$s %2$s</string>
     <string name="sync_failed">การซิงค์ข้อมูล Google ชีตเกิดข้อผิดพลาด</string>
     <string name="sync_more_error">เกิดข้อผิดพลาดในการเรียกรายการเพิ่มเติม</string>
     <string name="sync_more_error_offline">เอกสารบางรายการอาจไม่ปรากฏขณะออฟไลน์</string>
@@ -2942,6 +2940,8 @@
     <string name="upsave_dialog_title">บันทึกการเปลี่ยนแปลงไหม</string>
     <string name="upsell_negbtn">ไว้ทีหลัง</string>
     <string name="upsell_okbtn">อัปเกรด</string>
+    <string name="v7_preference_off">ปิด</string>
+    <string name="v7_preference_on">เปิด</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{ทั้งหมดเป็น {VALUE} ยกเว้น 1 รายการเป็น {EXCEPTIONS}}=2{ทั้งหมดเป็น {VALUE} ยกเว้น 2 รายการเป็น {EXCEPTIONS}}=3{ทั้งหมดเป็น {VALUE} ยกเว้น 3 รายการเป็น {EXCEPTIONS}}=4{ทั้งหมดเป็น {VALUE} ยกเว้น 4 รายการเป็น {EXCEPTIONS}}other{ทั้งหมดเป็น {VALUE} ยกเว้น {NUMBER_OF_EXCEPTIONS} รายการเป็น {EXCEPTIONS}}}</string>
     <string name="verbal_all_different">ค่าทั้งหมดแตกต่างกัน</string>
     <string name="verbal_all_same">ค่าทั้งหมดเป็น %1$s</string>
@@ -3128,8 +3128,9 @@
     <string name="warm_welcome_next_button">ถัดไป</string>
     <string name="warm_welcome_skip_button">ข้าม</string>
     <string name="warning_cannot_share_outside_domain">การตั้งค่าไดรฟ์ของทีมนี้ป้องกันไม่ให้มีการแชร์กับภายนอก %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">การตั้งค่าไดรฟ์ของทีมนี้ป้องกันไม่ให้แชร์กับผู้ที่ไม่ใช่สมาชิกและผู้ที่อยู่นอก %s</string>
     <string name="warning_cannot_share_outside_domain_org">การตั้งค่าขององค์กรป้องกันไม่ให้แชร์กับภายนอกองค์กร</string>
-    <string name="warning_cannot_share_outside_team_drive">การตั้งค่าไดรฟ์ของทีมนี้ป้องกันไม่ให้มีการแชร์กับภายนอกทีม</string>
+    <string name="warning_cannot_share_outside_team_drive">การตั้งค่าไดรฟ์ของทีมนี้ป้องกันการแชร์ลิงก์กับผู้ที่ไม่ใช่สมาชิก</string>
     <string name="warning_csv_edits_unsupported">หากต้องการเพิ่มเนื้อหา แผนภูมิ รูปภาพ หรือแท็บ คุณจะต้องบันทึกไฟล์เป็นสเปรดชีตของ Google</string>
     <string name="warning_sheet_add_unsupported">หากต้องการเพิ่มแผ่นงานใหม่ คุณจะต้องบันทึกไฟล์เป็นสเปรดชีตของ Google</string>
     <string name="welcome_button_close">ไปที่ชีต</string>
@@ -3151,9 +3152,9 @@
     <string name="zss_accessibility_searching">กำลังค้นหา %1$s</string>
     <string name="zss_date_range_header_title">วันที่แก้ไข</string>
     <string name="zss_date_range_month">30 วันที่ผ่านมา</string>
-    <string name="zss_date_range_three_month">90 วันที่ผ่านมา</string>
+    <string name="zss_date_range_three_month">90 วันล่าสุด</string>
     <string name="zss_date_range_today">วันนี้</string>
-    <string name="zss_date_range_week">7 วันที่ผ่านมา</string>
+    <string name="zss_date_range_week">7 วันล่าสุด</string>
     <string name="zss_date_range_yesterday">เมื่อวานนี้</string>
     <string name="zss_entry_types_header_title">ประเภทไฟล์</string>
     <string name="zss_no_filters">ไม่มีตัวกรอง</string>
@@ -3167,7 +3168,7 @@
     <string name="zss_type_audio">เสียง</string>
     <string name="zss_type_documents">เอกสารข้อความ</string>
     <string name="zss_type_folder">โฟลเดอร์</string>
-    <string name="zss_type_images">รูปภาพ</string>
+    <string name="zss_type_images">ภาพถ่ายและรูปภาพ</string>
     <string name="zss_type_pdfs">PDF</string>
     <string name="zss_type_presentations">งานนำเสนอ</string>
     <string name="zss_type_spreadsheets">สเปรดชีต</string>

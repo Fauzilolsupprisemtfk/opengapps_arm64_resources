@@ -659,7 +659,7 @@ Próbáljon feltölteni egy fájlt!"</string>
     <string name="empty_doclist_for_pinned_view_details">Állítson be offline is elérhető fájlokat a fájl beállítási menüjében</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Ha offline is szeretné szerkeszteni a fájlt, koppintson a „Tárolás offline” elemre a fájl menüjében.</string>
     <string name="empty_doclist_for_recent_view">Nincsenek a közelmúltban megnyitott vagy szerkesztett elemek.</string>
-    <string name="empty_doclist_for_search_view">Nincs találat.</string>
+    <string name="empty_doclist_for_search_view">Nincs találat</string>
     <string name="empty_doclist_for_shared_with_me_view">Az Önnel megosztott fájlok itt fognak megjelenni.</string>
     <string name="empty_doclist_for_starred_view">Nem rendelkezik csillagozott fájlokkal.</string>
     <string name="empty_doclist_for_starred_view_details">Koppintson a Csillag ikonra a fájl menüjében a listához való hozzáadáshoz.</string>
@@ -708,6 +708,7 @@ Kattintson a + gombra táblázat létrehozásához."</string>
     <string name="error_video_not_available">A videót még dolgoztuk fel. Próbálkozzon újra később.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">További %1$d személy.</string>
+    <string name="expand_button_title">Speciális</string>
     <string name="expires_future">Lejár: %1$s</string>
     <string name="expires_today">Ma jár le</string>
     <string name="export_download_error_title">Letöltési hiba</string>
@@ -725,6 +726,11 @@ Kattintson a + gombra táblázat létrehozásához."</string>
     <string name="fab_office_document">Új Excel-fájl</string>
     <string name="fast_scroll_month_and_year_grouped">%2$d. %1$s</string>
     <string name="fast_scroll_search_result_grouper">Keresési találatok</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">––</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Régebbiek</string>
     <string name="fast_scroll_time_grouper_last_week">Múlt hét</string>
     <string name="fast_scroll_time_grouper_this_month">Korábban (e hónap)</string>
@@ -859,17 +865,8 @@ Kattintson a + gombra táblázat létrehozásához."</string>
     <string name="manage_addons_playstore_link_description">Ugrás a következő Play Store-oldalára: %s</string>
     <string name="manage_members_default_members">Alapértelmezés: a tagok feltölthetnek/szerkeszthetnek/törölhetnek fájlokat, és meghívhatnak másokat.</string>
     <string name="manage_members_dialog_title">Taghozzáférés</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Tárhely</string>
+    <string name="management_data_loading_failed">Nem lehet betölteni az oldalt</string>
     <string name="menu_backup">Biztonsági másolatok</string>
     <string name="menu_copy_link">Link másolása</string>
     <string name="menu_create_shortcut">A kezdőképernyőhöz</string>
@@ -1270,7 +1267,6 @@ Kattintson a + gombra táblázat létrehozásához."</string>
     <string name="published_access_anyone">A közzétételt követően mindenki láthatja</string>
     <string name="published_access_domain">A(z) %s domain minden tagja láthatja a közzétételt követően</string>
     <string name="published_access_select_people">Csak bizonyos személyek láthatják a közzétett verziót</string>
-    <string name="published_disabled_append">letiltva,</string>
     <string name="published_message_for_anyone_can_edit">Mivel bárki szerkesztheti, mindenki láthatja a közzétett verziót.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Mivel a(z) %1$s minden tagja szerkesztheti, a(z) %1$s domain minden tagja láthatja a közzétett verziót.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Mivel a link birtokában bárki szerkesztheti, mindenki láthatja a közzétett verziót.</string>
@@ -1446,6 +1442,7 @@ Kattintson a + gombra táblázat létrehozásához."</string>
     <string name="ritz_cannot_back_local_filter_with_named_range">Csak megtekintési módban nem hozhat létre szűrőt névvel ellátott tartomány alapján.</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">A munkalapvédelmet nem módosíthatja tartományvédelemre és viszont.</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">Nem adhat váltakozó háttérszínt olyan tartományhoz, amelyhez már tartozik váltakozó háttérszín.</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">Nem adhat hozzá szűrőt ehhez a munkalaphoz, mert az csatlakoztatva van egy adatbázishoz. Hozzon inkább létre szűrőnézetet.</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">Nem hozhat létre szűrőt olyan munkalapon, amelyhez már tartozik szűrő.</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">Függőleges egyesítést tartalmazó tartományban nem hozható létre szűrő.</string>
     <string name="ritz_cannot_create_filter_within_merge">Egyesítést tartalmazó tartományban nem hozható létre szűrő.</string>
@@ -1495,6 +1492,7 @@ Kattintson a + gombra táblázat létrehozásához."</string>
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">Ez a művelet nem támogatott olyan tartományokban, amelyekben rendezett szűrőnézet aktív. Kapcsolja ki a szűrőnézetet, majd próbálja újra!</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">Ez a művelet nem támogatott olyan tartományokban, amelyekben ki van szűrve egy sor.</string>
     <string name="ritz_cannot_pivot_drill_down">Nem jelenítheti meg olyan cella részleteit, amely nem része a kimutatási táblázatnak.</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">A munkalap védelme nem állítható be, mert csatlakoztatva van egy adatbázishoz.</string>
     <string name="ritz_cannot_protect_deleted_sheet">A táblázatot, amelynek biztonsági beállításait módosítani kívánja, törölték.</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">A szabályt nem lehet hibás képlettel menteni.</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">Nem állítható be adat ebben az egyesített cellában. Ha egy szűrőnézet aktív, távolítsa azt el.</string>
@@ -2029,7 +2027,6 @@ Kattintson a + gombra táblázat létrehozásához."</string>
     <string name="ritz_generic_sheet_activated">Aktiválta a(z) %1$s munkalapot.</string>
     <string name="ritz_get_pivot_table_message_for_average">%1$s átlaga a következő szerint: %2$s</string>
     <string name="ritz_get_pivot_table_message_for_count">%1$s darabszáma a következő szerint: %2$s</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">Eltérő %1$s száma a következő szerint: %2$s</string>
     <string name="ritz_get_pivot_table_message_for_sum">%1$s összege a következő szerint: %2$s</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">Jogi nyilatkozat: Az árfolyamok adatait nem minden piacról szerzik be és maximum 20 perces késéssel jelennek meg. A közvetített információ kizárólag tájékoztatási célokat szolgál, nem alkalmas kereskedelmi döntések támogatására.</string>
@@ -2754,6 +2751,7 @@ Kattintson a + gombra táblázat létrehozásához."</string>
     <string name="suggest_pin_dialog_positive_button">Legyen elérhető offline</string>
     <string name="suggest_pin_dialog_title">Nincs kapcsolat</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, kiválasztva</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">A Google Táblázatokban szinkronizálási hiba lépett fel</string>
     <string name="sync_more_error">Hiba történt a további elemek lekérésekor</string>
     <string name="sync_more_error_offline">Előfordulhat, hogy egyes dokumentumok nem láthatók offline.</string>
@@ -2942,6 +2940,8 @@ Kattintson a + gombra táblázat létrehozásához."</string>
     <string name="upsave_dialog_title">Menti a változtatásokat?</string>
     <string name="upsell_negbtn">Később</string>
     <string name="upsell_okbtn">Bővítés</string>
+    <string name="v7_preference_off">KI</string>
+    <string name="v7_preference_on">BE</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{Mindegyik értéke {VALUE}, egy kivételével: {EXCEPTIONS}.}=2{Mindegyik értéke {VALUE}, kettő kivételével: {EXCEPTIONS}.}=3{Mindegyik értéke {VALUE}, három kivételével: {EXCEPTIONS}.}=4{Mindegyik értéke {VALUE}, négy kivételével: {EXCEPTIONS}.}other{Mindegyik értéke {VALUE}, a következők kivételével: {NUMBER_OF_EXCEPTIONS}, {EXCEPTIONS}.}}</string>
     <string name="verbal_all_different">Mindegyik érték eltérő.</string>
     <string name="verbal_all_same">Mindegyik érték %1$s.</string>
@@ -3128,8 +3128,9 @@ Kattintson a + gombra táblázat létrehozásához."</string>
     <string name="warm_welcome_next_button">Következő</string>
     <string name="warm_welcome_skip_button">Kihagyás</string>
     <string name="warning_cannot_share_outside_domain">A csapatmeghajtó beállításai miatt a tartalom nem osztható meg a domainen (%s) kívül</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">A csapatmeghajtó beállításai miatt a tartalom nem osztható meg olyan személyekkel, akik nem tagjai a csapatnak, illetve a(z) %s domainen kívül.</string>
     <string name="warning_cannot_share_outside_domain_org">A szervezet beállításai miatt nem osztható meg a tartalom a szervezeten kívül</string>
-    <string name="warning_cannot_share_outside_team_drive">A csapatmeghajtó beállításai miatt a tartalom nem osztható meg a csapaton kívül</string>
+    <string name="warning_cannot_share_outside_team_drive">A csapatmeghajtó beállításai nem teszik lehetővé a nem tagokkal való megosztást</string>
     <string name="warning_csv_edits_unsupported">Formázott tartalmak, diagramok, képek vagy további lapok hozzáadásához mentse a fájlt Google-táblázatként.</string>
     <string name="warning_sheet_add_unsupported">Új lap hozzáadásához mentse a fájlt Google-táblázatként.</string>
     <string name="welcome_button_close">Táblázatok megnyit.</string>
@@ -3151,7 +3152,7 @@ Kattintson a + gombra táblázat létrehozásához."</string>
     <string name="zss_accessibility_searching">Keresés: %1$s</string>
     <string name="zss_date_range_header_title">Dátum módosítva</string>
     <string name="zss_date_range_month">Legutóbbi 30 nap</string>
-    <string name="zss_date_range_three_month">Legutóbbi 90 nap</string>
+    <string name="zss_date_range_three_month">A legutóbbi 90 nap</string>
     <string name="zss_date_range_today">Ma</string>
     <string name="zss_date_range_week">Legutóbbi 7 nap</string>
     <string name="zss_date_range_yesterday">Tegnap</string>
@@ -3159,13 +3160,13 @@ Kattintson a + gombra táblázat létrehozásához."</string>
     <string name="zss_no_filters">Nincsenek szűrők</string>
     <string name="zss_owner_header_title">Tulajdonos</string>
     <string name="zss_owner_me">Saját tulajdonom</string>
-    <string name="zss_owner_not_me">Nem saját tulajdonom</string>
+    <string name="zss_owner_not_me">Nem a saját tulajdonom</string>
     <string name="zss_people_header_title">Személyek</string>
     <string name="zss_showing_list_of_filters">Az elérhető szűrők listájának megjelenítése.</string>
     <string name="zss_team_drive">Keresés a következőben: %1$s</string>
     <string name="zss_type_archive">Archívum</string>
     <string name="zss_type_audio">Hang</string>
-    <string name="zss_type_documents">Szövegfájlok</string>
+    <string name="zss_type_documents">Szöveges dokumentumok</string>
     <string name="zss_type_folder">Mappák</string>
     <string name="zss_type_images">Fotók és képek</string>
     <string name="zss_type_pdfs">PDF-fájlok</string>

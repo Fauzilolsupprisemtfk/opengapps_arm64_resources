@@ -640,7 +640,7 @@ Faylı yükləməyə cəhd edin."</string>
     <string name="empty_doclist_for_pinned_view_details">Faylın seçimlər menyusunda faylı \"Oflayn əlçatan\" edin.</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Oflayn olarkən işləyə bilmək üçün \"Oflayn Saxlayın\" seçiminə basın.</string>
     <string name="empty_doclist_for_recent_view">Yenicə açılmış və ya düzəliş edilmiş fayl yoxdur.</string>
-    <string name="empty_doclist_for_search_view">Nəticə yoxdur.</string>
+    <string name="empty_doclist_for_search_view">Nəticə yoxdur</string>
     <string name="empty_doclist_for_shared_with_me_view">Sizinlə paylaşılmış fayl burada görünəcək.</string>
     <string name="empty_doclist_for_starred_view">Ulduzlanmış fayllarınız yoxdur.</string>
     <string name="empty_doclist_for_starred_view_details">Siyahıya əlavə etmək üçün faylın seçimlər menyusunda ulduz ikonasına tıklayın.</string>
@@ -689,6 +689,7 @@ Yeni cədvəl yaratmaq üçün + klikləyin."</string>
     <string name="error_video_not_available">Video emal edilmədi. Sonra yenidən cəhd edin.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d digərləri.</string>
+    <string name="expand_button_title">Qabaqcıl</string>
     <string name="expires_future">%1$s tarixində bitir</string>
     <string name="expires_today">Vaxtı bugün bitir</string>
     <string name="export_download_error_title">Endirmə Xətası</string>
@@ -706,6 +707,11 @@ Yeni cədvəl yaratmaq üçün + klikləyin."</string>
     <string name="fab_office_document">Yeni Excel faylı</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Axtarış nəticələri</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Əvvəlki</string>
     <string name="fast_scroll_time_grouper_last_week">Keçən həftə</string>
     <string name="fast_scroll_time_grouper_this_month">Bu ayın əvvəli</string>
@@ -836,17 +842,8 @@ Yeni cədvəl yaratmaq üçün + klikləyin."</string>
     <string name="make_copy_spinner_message">Kopyalanır...</string>
     <string name="manage_members_default_members">Defolt olaraq üzvlər faylları yükləyə/redaktə edə/silə bilər və digər üzvlər dəvət edə bilər</string>
     <string name="manage_members_dialog_title">Üzv girişi</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Yaddaş</string>
+    <string name="management_data_loading_failed">Bu səhifəni yükləmək mümkün deyil</string>
     <string name="menu_backup">Yedəkləmələr</string>
     <string name="menu_copy_link">Linki kopyalayın</string>
     <string name="menu_create_shortcut">Əsas ekrana əlavə edin</string>
@@ -1245,7 +1242,6 @@ Yeni cədvəl yaratmaq üçün + klikləyin."</string>
     <string name="published_access_anyone">Hər kəs paylaşılmış versiyanı görə bilər</string>
     <string name="published_access_domain">%s domenində hər kəs paylaşılmış versiyanı görə bilər</string>
     <string name="published_access_select_people">Xüsusi qrup insanlar paylaşılmış versiyanı görə bilər</string>
-    <string name="published_disabled_append">deaktiv edildi,</string>
     <string name="published_message_for_anyone_can_edit">İstənilən şəxs redaktə edə bildiyi üçün hər kəs paylaşılmış versiyanı görə bilər.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">%1$s domenində istənilən şəxs redaktə edə bildiyi üçün %1$s domenində hər kəs paylaşılmış versiyanı görə bilər.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Linki bilən istənilən şəxs redaktə edə bildiyi üçün hər kəs paylaşılmış versiyanı görə bilər.</string>
@@ -1421,6 +1417,7 @@ Yeni cədvəl yaratmaq üçün + klikləyin."</string>
     <string name="ritz_cannot_back_local_filter_with_named_range">Yalnız baxmaq üçün rejimdə adlı cərgəni filtrləyə bilməzsiniz.</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">Cədvəl qorunmasını cərgə qorunmasına və ya əksinə dəyişə bilməzsiniz.</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">Artıq alternativ arxa fon rəngi olan aralığa başqa rəng əlavə edə bilməzsiniz.</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">Bu cədvəl data bazası ilə əlaqələndirildiyi üçün ona filter əlavə etmək mümkün deyil. Əvəzində, filter görünüşü yaradın.</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">Filtr olan cədvəldə yeni filtr yarada bilməzsiniz.</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">Vertikal qovuşma içərən aralıq üzərində filtr yarada bilməzsiniz.</string>
     <string name="ritz_cannot_create_filter_within_merge">Vertikal qovuşma içərən aralıq daxilində filtr yarada bilməzsiniz.</string>
@@ -1470,6 +1467,7 @@ Yeni cədvəl yaratmaq üçün + klikləyin."</string>
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">Bu əməliyyat çeşidli Filtr Görüntülü diapazonda dəstəklənmir. Lütfən, Filtr Görüntüsünü dekativ edin və yenidən cəhd edin.</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">Bu əməliyyat kənar filtrlənmiş sıralı diapazonda dəstəklənmir.</string>
     <string name="ritz_cannot_pivot_drill_down">Pivot cədvəlində olmayan xana məlumatını göstərmək mümkün deyil</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">Bu cədvəl data bazası ilə əlaqələndirildiyi üçün ona qoruma funksiyası əlavə etmək mümkün deyil.</string>
     <string name="ritz_cannot_protect_deleted_sheet">Qorumağa çalışdığınız cədvəl qorunur</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">Yanlış düstur ilə olan qayda saxlanıla bilməz.</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">Bu birləşmiş kamerada məlumatların müəyyən edə bilməz. Əgər fəal filter görünüşü varsa, aradan qaldırılması cəhd edin.</string>
@@ -2004,7 +2002,6 @@ Yeni cədvəl yaratmaq üçün + klikləyin."</string>
     <string name="ritz_generic_sheet_activated">%1$s cədvəli aktivləşdi.</string>
     <string name="ritz_get_pivot_table_message_for_average">Hər %2$s üçün %1$s ortalaması</string>
     <string name="ritz_get_pivot_table_message_for_count">Hər %2$s üçün %1$s sayı</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">Hər %2$s üçün fərqli %1$s sayı</string>
     <string name="ritz_get_pivot_table_message_for_sum">Hər %2$s üçün %1$s yekunu</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">"İmtina: Qiymətlər bütün bazarlara əsaslanmır və 20 dəqiqə gecikə bilər. 'Olduğu kimi' təqdim olunan məlumat yalnız məlumat xarakterlidir və kommersiya və ya tövsiyə məqsədi daşımır."</string>
@@ -2726,6 +2723,7 @@ Yeni cədvəl yaratmaq üçün + klikləyin."</string>
     <string name="suggest_pin_dialog_positive_button">Oflayn zamanı əlçatımlı edin</string>
     <string name="suggest_pin_dialog_title">Bağlantı yoxdur</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, seçildi</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Google Cədvəl Sinxronlaşma Xətası</string>
     <string name="sync_more_error">Əlavə elementlər əldə olunan zaman xəta</string>
     <string name="sync_more_error_offline">Bəzi sənədlər oflayn görünməyə bilər.</string>
@@ -2914,6 +2912,8 @@ Yeni cədvəl yaratmaq üçün + klikləyin."</string>
     <string name="upsave_dialog_title">Dəyişiklik yadda saxlansın?</string>
     <string name="upsell_negbtn">Sonra</string>
     <string name="upsell_okbtn">Təkmilləşdirin</string>
+    <string name="v7_preference_off">DEAKTİV</string>
+    <string name="v7_preference_on">AKTİV</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{Birindən başqa hamısı {VALUE} vardır, {EXCEPTIONS}.}=2{İkisindən başqa hamısı {VALUE} vardır, {EXCEPTIONS}.}=3{Üçündən başqa hamısı {VALUE} vardır, {EXCEPTIONS}.}=4{Dördündən başqa hamısı {VALUE} vardır, {EXCEPTIONS}.}other{{NUMBER_OF_EXCEPTIONS} ədəddən başqa hamısı {VALUE} vardır, {EXCEPTIONS}.}}</string>
     <string name="verbal_all_different">Bütün dəyərlər fərqlidir.</string>
     <string name="verbal_all_same">Bütün dəyərlər %1$s dəyəridir.</string>
@@ -3100,8 +3100,9 @@ Yeni cədvəl yaratmaq üçün + klikləyin."</string>
     <string name="warm_welcome_next_button">Növbəti</string>
     <string name="warm_welcome_skip_button">Ötürün</string>
     <string name="warning_cannot_share_outside_domain">Bu Komanda Diskinin ayarları %s xaricində paylaşımlara icazə vermir</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Bu Komanda Diskinin ayarları %s xaricində qeyri-üzvlərlə paylaşıma icazə vermir</string>
     <string name="warning_cannot_share_outside_domain_org">Təşkilat ayarları təşkilatdan kənar paylaşımlara icazə vermir</string>
-    <string name="warning_cannot_share_outside_team_drive">Bu Komanda Diskinin ayarları komanda xaricində paylaşımlara icazə vermir</string>
+    <string name="warning_cannot_share_outside_team_drive">Bu Komanda Diskinin ayarları qeyri-üzvlərlə paylaşıma icazə vermir</string>
     <string name="warning_csv_edits_unsupported">Google vərəqi olaraq yadda saxlamalı olduğunuz fayla format edilmiş məzmun, cədvəl, şəkil və ya ayrıca panel əlavə edin.</string>
     <string name="warning_sheet_add_unsupported">Yeni vərəq əlavə etmək üçün faylınızı Google vərəqi olaraq yadda saxlamalısınız.</string>
     <string name="welcome_button_close">Cədvələ keçin</string>
@@ -3129,9 +3130,9 @@ Yeni cədvəl yaratmaq üçün + klikləyin."</string>
     <string name="zss_date_range_yesterday">Dünən</string>
     <string name="zss_entry_types_header_title">Fayl növləri</string>
     <string name="zss_no_filters">Filtr yoxdur</string>
-    <string name="zss_owner_header_title">Sahib</string>
-    <string name="zss_owner_me">Mənə məxsus olan</string>
-    <string name="zss_owner_not_me">Mənə məxsus olmayan</string>
+    <string name="zss_owner_header_title">Sahib:</string>
+    <string name="zss_owner_me">Mənə məxsusdur</string>
+    <string name="zss_owner_not_me">Mənə məxsus deyil</string>
     <string name="zss_people_header_title">Şəxslər</string>
     <string name="zss_showing_list_of_filters">Əlçatan filtrlərin siyahısı göstərilir.</string>
     <string name="zss_team_drive">%1$s daxilində axtarın</string>
@@ -3140,7 +3141,7 @@ Yeni cədvəl yaratmaq üçün + klikləyin."</string>
     <string name="zss_type_documents">Mətn sənədləri</string>
     <string name="zss_type_folder">Qovluqlar</string>
     <string name="zss_type_images">Foto və şəkillər</string>
-    <string name="zss_type_pdfs">PDF</string>
+    <string name="zss_type_pdfs">PDF-lər</string>
     <string name="zss_type_presentations">Təqdimatlar</string>
     <string name="zss_type_spreadsheets">Cədvəllər</string>
     <string name="zss_type_video">Videolar</string>

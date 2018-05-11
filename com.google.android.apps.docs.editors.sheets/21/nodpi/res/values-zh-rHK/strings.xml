@@ -659,7 +659,7 @@
     <string name="empty_doclist_for_pinned_view_details">在檔案的選項選單中設定檔案為「可離線使用」</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">在檔案的選單中輕按 [可離線使用]，即可在離線時繼續使用檔案。</string>
     <string name="empty_doclist_for_recent_view">沒有最近開啟或編輯過的檔案。</string>
-    <string name="empty_doclist_for_search_view">沒有結果。</string>
+    <string name="empty_doclist_for_search_view">找不到結果</string>
     <string name="empty_doclist_for_shared_with_me_view">與您共用的檔案會在這裡顯示。</string>
     <string name="empty_doclist_for_starred_view">您沒有任何已加星號的檔案。</string>
     <string name="empty_doclist_for_starred_view_details">在檔案的選項選單中輕按星號圖示，即可將它加入此清單。</string>
@@ -708,6 +708,7 @@
     <string name="error_video_not_available">影片尚未處理，請稍後再試。</string>
     <string name="excess_head_count">+%1$d 個</string>
     <string name="excess_head_count_verbalization">另外超過 %1$d 人。</string>
+    <string name="expand_button_title">進階</string>
     <string name="expires_future">%1$s後到期</string>
     <string name="expires_today">今天到期</string>
     <string name="export_download_error_title">下載錯誤</string>
@@ -725,6 +726,11 @@
     <string name="fab_office_document">新增 Excel 檔案</string>
     <string name="fast_scroll_month_and_year_grouped">%2$d 年 %1$s</string>
     <string name="fast_scroll_search_result_grouper">搜尋結果</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">較舊</string>
     <string name="fast_scroll_time_grouper_last_week">上星期</string>
     <string name="fast_scroll_time_grouper_this_month">本月稍早</string>
@@ -859,6 +865,8 @@
     <string name="manage_addons_playstore_link_description">前往「Play 商店」以取得%s</string>
     <string name="manage_members_default_members">根據預設，成員可以上載/編輯/刪除檔案及邀請其他成員</string>
     <string name="manage_members_dialog_title">成員權限</string>
+    <string name="management_activity_toolbar_title">儲存空間</string>
+    <string name="management_data_loading_failed">無法載入此網頁</string>
     <string name="menu_backup">備份</string>
     <string name="menu_copy_link">複製連結</string>
     <string name="menu_create_shortcut">新增至主螢幕</string>
@@ -1054,7 +1062,7 @@
     <string name="open_document_in_browser">在瀏覽器中開啟</string>
     <string name="open_folder_removed">目前開啟的資料夾已無法再檢視。</string>
     <string name="open_folder_trashed">「%1$s」已移至垃圾桶。</string>
-    <string name="open_in">喺「%1$s」開啟</string>
+    <string name="open_in">使用「%1$s」開啟</string>
     <string name="open_link">進入連結</string>
     <string name="open_pinned_version">開啟裝置上的檔案</string>
     <string name="open_templates_picker_offline">到網上使用範本。</string>
@@ -1433,6 +1441,7 @@
     <string name="ritz_cannot_back_local_filter_with_named_range">您無法在僅供檢視模式下將篩選器設為使用已命名範圍。</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">您無法將試算表保護改成範圍保護，反之亦然。</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">您無法新增交替背景顏色到已使用交替背景顏色的範圍。</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">由於已連接到資料庫，所以無法為此工作表加入篩選器。請另行建立篩選器檢視。</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">您無法在已有篩選器的工作表中建立篩選器。</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">您無法對包含垂直合併儲存格的範圍建立篩選器。</string>
     <string name="ritz_cannot_create_filter_within_merge">您無法對包含合併儲存格的範圍建立篩選器。</string>
@@ -1482,6 +1491,7 @@
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">這項操作不支援已排序的「篩選器檢視」範圍。請停用「篩選器檢視」並再試一次。</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">這項操作不支援已篩選列範圍。</string>
     <string name="ritz_cannot_pivot_drill_down">您無法顯示不在資料透視表內儲存格中的詳細資料</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">由於已連接到資料庫，所以無法為此工作表加入保護功能。</string>
     <string name="ritz_cannot_protect_deleted_sheet">您嘗試保護的工作表已刪除。</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">無法儲存含無效公式的規則。</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">無法在此合併儲存格中設定資料。如果您有使用中的篩選器檢視，建議您先移除。</string>
@@ -2016,7 +2026,6 @@
     <string name="ritz_generic_sheet_activated">已啟用「%1$s」工作表。</string>
     <string name="ritz_get_pivot_table_message_for_average">每個%2$s的%1$s平均值</string>
     <string name="ritz_get_pivot_table_message_for_count">每個%2$s的%1$s數量</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">每個%2$s的%1$s不重複數量</string>
     <string name="ritz_get_pivot_table_message_for_sum">每個%2$s的%1$s總和</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">免責聲明：報價並非取自所有市場，可能會延後最多 20 分鐘。系統提供的資訊均以現狀提供，因此僅供參考之用，不宜作為買賣的依據或諮詢。</string>
@@ -2741,6 +2750,7 @@
     <string name="suggest_pin_dialog_positive_button">設為可在離線時使用</string>
     <string name="suggest_pin_dialog_title">沒有連線</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s (已選取)</string>
+    <string name="summary_collapsed_preference_list">%1$s，%2$s</string>
     <string name="sync_failed">「Google 試算表」同步處理錯誤</string>
     <string name="sync_more_error">擷取其他項目時發生錯誤</string>
     <string name="sync_more_error_offline">部分文件可能不會在離線時顯示。</string>
@@ -2929,6 +2939,8 @@
     <string name="upsave_dialog_title">儲存變更？</string>
     <string name="upsell_negbtn">稍後</string>
     <string name="upsell_okbtn">升級</string>
+    <string name="v7_preference_off">關閉</string>
+    <string name="v7_preference_on">開啟</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{全部均為 {VALUE}，但有 1 個例外情況：{EXCEPTIONS}。}=2{全部均為 {VALUE}，但有 2 個例外情況：{EXCEPTIONS}。}=3{全部均為 {VALUE}，但有 3 個例外情況：{EXCEPTIONS}。}=4{全部均為 {VALUE}，但有 4 個例外情況：{EXCEPTIONS}。}other{全部均為 {VALUE}，但有 {NUMBER_OF_EXCEPTIONS} 個例外情況：{EXCEPTIONS}。}}</string>
     <string name="verbal_all_different">所有數值均不相同。</string>
     <string name="verbal_all_same">所有數值均為 %1$s。</string>
@@ -3115,8 +3127,9 @@
     <string name="warm_welcome_next_button">下一步</string>
     <string name="warm_welcome_skip_button">略過</string>
     <string name="warning_cannot_share_outside_domain">此「團隊雲端硬碟」禁止與 %s 外的使用者共用</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">此「團隊雲端硬碟」的設定禁止與非成員和 %s 外的使用者共用</string>
     <string name="warning_cannot_share_outside_domain_org">機構的設定禁止與機構外的使用者共用</string>
-    <string name="warning_cannot_share_outside_team_drive">此「團隊雲端硬碟」禁止與團隊外的使用者共用</string>
+    <string name="warning_cannot_share_outside_team_drive">此「團隊雲端硬碟」的設定禁止與非成員共用j</string>
     <string name="warning_csv_edits_unsupported">如要加入有格式的內容、圖表、圖片或額外標籤，您需要將檔案儲存為 Google 試算表。</string>
     <string name="warning_sheet_add_unsupported">如要加入新工作表，您需要將檔案儲存為 Google 試算表。</string>
     <string name="welcome_button_close">前往「試算表」</string>
@@ -3137,21 +3150,21 @@
     <string name="write_access_denied">寫入文件的權限被拒。</string>
     <string name="zss_accessibility_searching">正在搜尋「%1$s」</string>
     <string name="zss_date_range_header_title">修改日期</string>
-    <string name="zss_date_range_month">最近 30 天</string>
-    <string name="zss_date_range_three_month">最近 90 天</string>
+    <string name="zss_date_range_month">過去 30 天</string>
+    <string name="zss_date_range_three_month">過去 90 天</string>
     <string name="zss_date_range_today">今天</string>
-    <string name="zss_date_range_week">最近 7 天</string>
+    <string name="zss_date_range_week">過去 7 天</string>
     <string name="zss_date_range_yesterday">昨天</string>
     <string name="zss_entry_types_header_title">檔案類型</string>
     <string name="zss_no_filters">無篩選器</string>
     <string name="zss_owner_header_title">擁有者</string>
-    <string name="zss_owner_me">我是擁有者</string>
+    <string name="zss_owner_me">我擁有的</string>
     <string name="zss_owner_not_me">不是我擁有的</string>
-    <string name="zss_people_header_title">使用者</string>
+    <string name="zss_people_header_title">聯絡人</string>
     <string name="zss_showing_list_of_filters">正在顯示可用篩選器清單。</string>
     <string name="zss_team_drive">在「%1$s」中搜尋</string>
     <string name="zss_type_archive">封存</string>
-    <string name="zss_type_audio">音效</string>
+    <string name="zss_type_audio">音訊</string>
     <string name="zss_type_documents">文字文件</string>
     <string name="zss_type_folder">資料夾</string>
     <string name="zss_type_images">相片和圖片</string>

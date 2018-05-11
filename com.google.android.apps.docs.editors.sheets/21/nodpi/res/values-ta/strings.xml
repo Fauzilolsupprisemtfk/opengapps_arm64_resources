@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="abc_action_bar_up_description">மேலே வழிசெலுத்து</string>
+    <string name="abc_action_bar_up_description">மேலே செல்</string>
     <string name="abc_action_menu_overflow_description">மேலும் விருப்பங்கள்</string>
     <string name="abc_action_mode_done">முடிந்தது</string>
     <string name="abc_activity_chooser_view_see_all">எல்லாம் காட்டு</string>
@@ -640,7 +640,7 @@
     <string name="empty_doclist_for_pinned_view_details">கோப்பின் விருப்பங்கள் மெனுவில் \"ஆஃப்லைனில் கிடைக்கும்படி செய்\" என்பதைத் தேர்ந்தெடுத்து, கோப்புகளை ஆஃப்லைனில் பயன்படுத்தலாம்</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">ஆஃப்லைனிலும் கோப்பைத் தொடர்ந்து பயன்படுத்த, கோப்பின் மெனுவில் \"ஆஃப்லைனில் கிடைக்கும்படி செய்\" என்பதைத் தட்டவும்.</string>
     <string name="empty_doclist_for_recent_view">சமீபத்தில் எந்தக் கோப்பையும் திறக்கவில்லை அல்லது திருத்தவில்லை.</string>
-    <string name="empty_doclist_for_search_view">முடிவுகள் இல்லை.</string>
+    <string name="empty_doclist_for_search_view">முடிவுகள் இல்லை</string>
     <string name="empty_doclist_for_shared_with_me_view">உங்களுடன் பகிரப்பட்ட கோப்புகள் இங்கே தோன்றும்.</string>
     <string name="empty_doclist_for_starred_view">நட்சத்திரமிட்ட கோப்புகள் இல்லை.</string>
     <string name="empty_doclist_for_starred_view_details">கோப்பை இந்தப் பட்டியலில் சேர்க்க, கோப்பின் விருப்ப மெனுவில் உள்ள நட்சத்திர ஐகானைத் தட்டவும்.</string>
@@ -689,6 +689,7 @@
     <string name="error_video_not_available">வீடியோ செயல்படுத்தப்படவில்லை. பிறகு முயலவும்.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d பேர்.</string>
+    <string name="expand_button_title">மேம்பட்டது</string>
     <string name="expires_future">%1$s இல் காலாவதியாகும்</string>
     <string name="expires_today">இன்று காலாவதியாகிறது</string>
     <string name="export_download_error_title">பதிவிறக்கப் பிழை</string>
@@ -706,6 +707,11 @@
     <string name="fab_office_document">புதிய Excel கோப்பு</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">தேடல் முடிவுகள்</string>
+    <string name="fast_scroll_size_grouper_b">பை.</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">ஜி.பை.</string>
+    <string name="fast_scroll_size_grouper_kb">கி.பை.</string>
+    <string name="fast_scroll_size_grouper_mb">மெ.பை.</string>
     <string name="fast_scroll_time_grouper_earlier">பழையவை</string>
     <string name="fast_scroll_time_grouper_last_week">கடந்த வாரம்</string>
     <string name="fast_scroll_time_grouper_this_month">இம்மாதத் தொடக்கம்</string>
@@ -836,17 +842,8 @@
     <string name="make_copy_spinner_message">நகலெடுக்கிறது…</string>
     <string name="manage_members_default_members">உறுப்பினர்களால் கோப்புகளைப் பதிவேற்ற/திருத்த/நீக்க முடியும், பிற உறுப்பினர்களை அழைக்க முடியும்</string>
     <string name="manage_members_dialog_title">உறுப்பினர் அணுகல்</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">சேமிப்பகம்</string>
+    <string name="management_data_loading_failed">பக்கத்தை ஏற்ற முடியவில்லை</string>
     <string name="menu_backup">காப்புப் பிரதிகள்</string>
     <string name="menu_copy_link">இணைப்பை நகலெடு</string>
     <string name="menu_create_shortcut">முகப்பில் சேர்</string>
@@ -1068,8 +1065,8 @@
     <string name="ouch_title_sawwrie">மன்னிக்கவும்!</string>
     <string name="overwrite_confirm_dialog_message">%1$s உள்ளது. மாற்றியமைக்கவா?</string>
     <string name="overwrite_confirm_dialog_positive_button_label">மாற்றியமை</string>
-    <string name="owner_not_user">%1$sக்குச் சொந்தமானது அல்ல</string>
-    <string name="owner_user">%1$sக்குச் சொந்தமானது</string>
+    <string name="owner_not_user">%1$sக்குச் சொந்தமில்லாதவை</string>
+    <string name="owner_user">%1$sக்குச் சொந்தமானவை</string>
     <string name="page_1_description">இணைய இணைப்பு இருந்தாலும், இல்லையென்றாலும் பணியைச் செய்து முடிக்கலாம்.</string>
     <string name="page_1_heading_editors">எங்கும் விரிதாள்களைப் பயன்படுத்தலாம்</string>
     <string name="page_2_description">நீங்களே சொந்தமாக எழுதலாம் அல்லது பங்கேற்பதற்குப் பலரை அழைக்கலாம்.</string>
@@ -1182,8 +1179,8 @@
     <string name="pin_paused">இடைநிறுத்தப்பட்டது</string>
     <string name="pin_pinned_a11y">பொருத்தப்பட்டது</string>
     <string name="pin_sync_broadband_warning_learn_more">மேலும் அறிக</string>
-    <string name="pin_sync_broadband_warning_message">மொபைல் தரவினைக் கொண்டு கோப்புகளை மாற்றுவதால், மொபைல் தரவு திட்டத்தின் அடிப்படையில் கூடுதல் பேமெண்ட்கள் விதிக்கப்படலாம்.</string>
-    <string name="pin_sync_broadband_warning_title">தரவுப் பயன்பாடு எச்சரிக்கை</string>
+    <string name="pin_sync_broadband_warning_message">மொபைல் டேட்டா வழீயாகக் கோப்புகளை மாற்றுவதால், மொபைல் டேட்டா திட்டத்தின் அடிப்படையில் கூடுதல் பேமெண்ட்கள் விதிக்கப்படலாம்.</string>
+    <string name="pin_sync_broadband_warning_title">டேட்டா உபயோக எச்சரிக்கை</string>
     <string name="pin_update">புதிய புதுப்பிப்பு உள்ளது</string>
     <string name="pin_waiting">இறக்கக் காத்திருக்கிறது</string>
     <string name="pin_waiting_for_network">நெட்வொர்க்கிற்காகக் காத்திருக்கிறது</string>
@@ -1204,7 +1201,7 @@
     <string name="prefs_cache_category_title">ஆவண தேக்ககம்</string>
     <string name="prefs_category_content_description">பிரிவு, %1$s</string>
     <string name="prefs_clear_cache_summary">எல்லா தேக்கக ஆவணங்களையும் அகற்று.</string>
-    <string name="prefs_data_usage_category">டேட்டா பயன்பாடு</string>
+    <string name="prefs_data_usage_category">டேட்டா உபயோகம்</string>
     <string name="prefs_enable_excel_doc_creation_summary">Google விரிதாள் கோப்புகளுடன் சேர்த்து, Excel (.xlsx) கோப்புகளை உருவாக்குவதற்கான விருப்பங்களைக் காட்டும்.</string>
     <string name="prefs_enable_excel_doc_creation_title">Excel கோப்புகளை உருவாக்கு</string>
     <string name="prefs_language_category">மொழி</string>
@@ -1246,7 +1243,6 @@
     <string name="published_access_anyone">வெளியிட்டிருக்கும் போது, அனைவரும் பார்க்கலாம்</string>
     <string name="published_access_domain">வெளியிட்டிருக்கும் போது, %s இல் உள்ள அனைவரும் பார்க்கலாம்</string>
     <string name="published_access_select_people">குறிப்பிட்டவர்கள் மட்டுமே, வெளியிட்டிருக்கும் போது பார்க்கலாம்</string>
-    <string name="published_disabled_append">முடக்கப்பட்டது,</string>
     <string name="published_message_for_anyone_can_edit">அனைவரும் திருத்த முடியும் என்பதால், வெளியிட்டிருக்கும் போது அனைவரும் பார்க்கலாம்.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">%1$s இல் உள்ள அனைவரும் திருத்த முடியும் என்பதால், வெளியிட்டிருக்கும் போது %1$s இல் உள்ள அனைவரும் பார்க்கலாம்.</string>
     <string name="published_message_for_anyone_with_link_can_edit">இணைப்பைக் கொண்டுள்ள அனைவரும் திருத்த முடியும் என்பதால், வெளியிட்டிருக்கும் போது அனைவரும் பார்க்கலாம்.</string>
@@ -1422,6 +1418,7 @@
     <string name="ritz_cannot_back_local_filter_with_named_range">பார்க்க மட்டுமேயான பயன்முறையில் இருக்கும் போது, பெயரிடப்பட்ட வரம்பைச் சார்ந்த வடிப்பானை உருவாக்க முடியாது.</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">தாள் பாதுகாப்பை வரம்பு பாதுகாப்பாக அல்லது அதற்கு நேர்மாறாக மாற்ற முடியாது.</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">ஏற்கனவே ஒன்று விட்டு ஒன்றாக பின்னணி வண்ணம் மாறும் வரம்பில், மற்றொருமுறை, ஒன்று விட்டு ஒன்றாக மாறும் பின்னணி வண்ணங்களைச் சேர்க்க முடியாது.</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">இந்தத் தாளானது தரவுத்தளத்துடன் இணைக்கப்பட்டுள்ளதால், வடிப்பானைச் சேர்க்க முடியவில்லை. அதற்குப் பதிலாக, வடிப்பான் காட்சியை உருவாக்கவும்.</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">ஏற்கனவே வடிப்பான் உள்ள தாளில், வடிப்பானை உருவாக்க முடியாது.</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">செங்குத்தான பிணைப்புகளைக் கொண்டிருக்கும் வரம்பில் வடிப்பானை உருவாக்க முடியாது.</string>
     <string name="ritz_cannot_create_filter_within_merge">பிணைப்புகளைக் கொண்ட வரம்பிற்குள் வடிப்பானை உருவாக்க முடியாது.</string>
@@ -1471,6 +1468,7 @@
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">இந்தச் செயல்பாடானது, வரிசைப்படுத்தப்பட்ட வடிப்பான் காட்சியின் வரம்பில் ஆதரிக்கப்படாது. வடிப்பான் காட்சியை முடக்கி, மீண்டும் முயற்சிக்கவும்.</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">இந்தச் செயல்பாடானது வடிப்பான் இல்லாத வரிசையின் வரம்பில் ஆதரிக்கப்படாது.</string>
     <string name="ritz_cannot_pivot_drill_down">பைவட் அட்டவணையில் இல்லாத கலத்தின் விவரங்களைக் காட்ட முடியாது</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">இந்தத் தாளானது தரவுத்தளத்துடன் இணைக்கப்பட்டுள்ளதால், பாதுகாப்பைச் சேர்க்க முடியவில்லை.</string>
     <string name="ritz_cannot_protect_deleted_sheet">பாதுகாக்க முயற்சிக்கும் தாள் நீக்கப்பட்டது.</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">தவறான சூத்திரத்துடன் விதியைச் சேமிக்க முடியாது.</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">பிணைக்கப்பட்ட இந்தக் கலத்தில் தரவை அமைக்க முடியாது. வடிப்பான் பயன்படுத்தப்பட்டிருந்தால், அதை அகற்றிவிட்டு முயற்சிக்கவும்.</string>
@@ -2005,7 +2003,6 @@
     <string name="ritz_generic_sheet_activated">%1$s தாள் செயல்படுத்தப்பட்டது.</string>
     <string name="ritz_get_pivot_table_message_for_average">ஒவ்வொரு %2$sக்கான %1$s இன் சராசரி மதிப்பு</string>
     <string name="ritz_get_pivot_table_message_for_count">ஒவ்வொரு %2$sக்கான %1$s இன் எண்ணிக்கை</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">ஒவ்வொரு %2$sக்கான %1$s இல் இருக்கும் வெவ்வேறு மதிப்புகளின் எண்ணிக்கை</string>
     <string name="ritz_get_pivot_table_message_for_sum">ஒவ்வொரு %2$sக்கான %1$s இன் கூட்டுத்தொகை</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">"பொறுப்பு துறப்பு: நிகழ்நேர விலைகள் எல்லா சந்தைகளில் இருந்தும் பெறப்பட்டவையல்ல, மேலும் அவை 20 நிமிடங்கள் வரை தாமதமாக இருக்கக்கூடும். தகவல் 'உள்ளது உள்ளபடியே' அளிக்கப்பட்டுள்ளது, இது தெரிந்துகொள்வதற்காக மட்டுமேயன்றி, வர்த்தக நோக்கத்திற்காகவோ அல்லது அறிவுரைக்காகவோ அல்ல."</string>
@@ -2727,6 +2724,7 @@
     <string name="suggest_pin_dialog_positive_button">ஆஃப்லைனில் கிடைக்கச் செய்</string>
     <string name="suggest_pin_dialog_title">இணைய இணைப்பு இல்லை</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, தேர்ந்தெடுக்கப்பட்டது</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Google விரிதாள் ஒத்திசைவுப் பிழை</string>
     <string name="sync_more_error">கூடுதல் முடிவுகளைப் பெறுவதில் பிழை</string>
     <string name="sync_more_error_offline">ஆஃப்லைனில் இருக்கும் போது, சில ஆவணங்கள் காட்டப்படாது.</string>
@@ -2915,6 +2913,8 @@
     <string name="upsave_dialog_title">மாற்றங்களைச் சேமிக்கவா?</string>
     <string name="upsell_negbtn">பின்னர்</string>
     <string name="upsell_okbtn">வாங்கு</string>
+    <string name="v7_preference_off">ஆஃப் செய்</string>
+    <string name="v7_preference_on">ஆன் செய்</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{ஒரு மதிப்பு ({EXCEPTIONS}) தவிர்த்து, அனைத்தும் {VALUE} ஆகும்.}=2{இரண்டு மதிப்பு ({EXCEPTIONS}) தவிர்த்து, அனைத்தும் {VALUE} ஆகும்.}=3{மூன்று மதிப்பு ({EXCEPTIONS}) தவிர்த்து, அனைத்தும் {VALUE} ஆகும்.}=4{நான்கு மதிப்பு ({EXCEPTIONS}) தவிர்த்து, அனைத்தும் {VALUE} ஆகும்.}other{{NUMBER_OF_EXCEPTIONS} மதிப்புகள் ({EXCEPTIONS}) தவிர்த்து, அனைத்தும் {VALUE} ஆகும்.}}</string>
     <string name="verbal_all_different">மதிப்புகள் எல்லாம் வெவ்வேறாக உள்ளன.</string>
     <string name="verbal_all_same">எல்லா மதிப்புகளும் %1$s ஆகும்.</string>
@@ -3101,8 +3101,9 @@
     <string name="warm_welcome_next_button">அடுத்தது</string>
     <string name="warm_welcome_skip_button">தவிர்</string>
     <string name="warning_cannot_share_outside_domain">இந்தக் குழு இயக்ககத்தின் அமைப்புகள், %sஐச் சாராதவர்களுடன் பகிர்வதைத் தடுக்கின்றன</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">இந்தக் குழு இயக்ககத்தின் அமைப்புகள், உறுப்பினர்களாக இல்லாதவர்களுடனும் %sக்கு வெளியே உள்ளவர்களுடனும் பகிர்வதைத் தடுக்கின்றன</string>
     <string name="warning_cannot_share_outside_domain_org">நிறுவனத்தின் அமைப்புகள், நிறுவனத்தைச் சாராதவர்களுடன் பகிர்வதைத் தடுக்கின்றன</string>
-    <string name="warning_cannot_share_outside_team_drive">இந்தக் குழு இயக்ககத்தின் அமைப்புகள், குழுவைச் சாராதவர்களுடன் பகிர்வதைத் தடுக்கின்றன</string>
+    <string name="warning_cannot_share_outside_team_drive">இந்தக் குழு இயக்ககத்தின் அமைப்புகள், உறுப்பினர்களாக இல்லாதவர்களுடன் பகிர்வதைத் தடுக்கின்றன</string>
     <string name="warning_csv_edits_unsupported">வடிவமைக்கப்பட்ட உள்ளடக்கம், விளக்கப்படங்கள், படங்கள் அல்லது கூடுதல் தாவல்கள் ஆகியவற்றைச் சேர்க்க, Google விரிதாளாக கோப்பைச் சேமிக்க வேண்டும்.</string>
     <string name="warning_sheet_add_unsupported">புதிய தாளைச் சேர்க்க, Google விரிதாளாக கோப்பைச் சேமிக்க வேண்டும்.</string>
     <string name="welcome_button_close">விரிதாளிற்குச் செல்</string>
@@ -3133,14 +3134,14 @@
     <string name="zss_owner_header_title">எனக்குச் சொந்தமானவை</string>
     <string name="zss_owner_me">எனக்குச் சொந்தமானவை</string>
     <string name="zss_owner_not_me">எனக்குச் சொந்தமில்லாதவை</string>
-    <string name="zss_people_header_title">பயனர்கள்</string>
+    <string name="zss_people_header_title">நபர்கள்</string>
     <string name="zss_showing_list_of_filters">கிடைக்கும் வடிப்பான்களின் பட்டியலைக் காட்டுகிறது.</string>
     <string name="zss_team_drive">%1$s இல் தேடுக</string>
     <string name="zss_type_archive">காப்பகம்</string>
     <string name="zss_type_audio">ஆடியோ</string>
     <string name="zss_type_documents">உரை ஆவணங்கள்</string>
     <string name="zss_type_folder">கோப்புறைகள்</string>
-    <string name="zss_type_images">படங்கள்</string>
+    <string name="zss_type_images">புகைப்படங்கள் &amp; படங்கள்</string>
     <string name="zss_type_pdfs">PDFகள்</string>
     <string name="zss_type_presentations">விளக்கக்காட்சிகள்</string>
     <string name="zss_type_spreadsheets">விரிதாள்கள்</string>

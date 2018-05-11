@@ -659,7 +659,7 @@ Prova a caricare un file."</string>
     <string name="empty_doclist_for_pinned_view_details">Scegli \"Disponibile offline\" dal menu di opzioni di ciascun file</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Tocca \"Disponibile offline\" nel menu del file per continuare a lavorare offline.</string>
     <string name="empty_doclist_for_recent_view">Nessun file aperto o modificato di recente.</string>
-    <string name="empty_doclist_for_search_view">Nessun risultato.</string>
+    <string name="empty_doclist_for_search_view">Nessun risultato</string>
     <string name="empty_doclist_for_shared_with_me_view">I file condivisi con te verranno visualizzati qui.</string>
     <string name="empty_doclist_for_starred_view">Nessun file aggiunto a Speciali.</string>
     <string name="empty_doclist_for_starred_view_details">"Tocca l'icona a forma di stella nel menu delle opzioni del file per aggiungerlo a questo elenco."</string>
@@ -708,6 +708,7 @@ Fai clic su + per creare un nuovo foglio di lavoro."</string>
     <string name="error_video_not_available">Impossibile elaborare il video. Riprova più tardi.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">e altri %1$d.</string>
+    <string name="expand_button_title">Avanzate</string>
     <string name="expires_future">Scade tra %1$s</string>
     <string name="expires_today">Scade oggi</string>
     <string name="export_download_error_title">Errore di download</string>
@@ -725,6 +726,11 @@ Fai clic su + per creare un nuovo foglio di lavoro."</string>
     <string name="fab_office_document">Nuovo file di Excel</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Risultati ricerca</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Meno recente</string>
     <string name="fast_scroll_time_grouper_last_week">Ultima settimana</string>
     <string name="fast_scroll_time_grouper_this_month">Questo mese</string>
@@ -871,17 +877,8 @@ Fai clic su + per creare un nuovo foglio di lavoro."</string>
     <string name="manage_addons_playstore_link_description">Accedi a Play Store per visualizzare %s</string>
     <string name="manage_members_default_members">Per impostazione predefinita, i membri possono caricare/modificare/eliminare file e invitare altri membri</string>
     <string name="manage_members_dialog_title">Accesso membri</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Spazio di archiviazione</string>
+    <string name="management_data_loading_failed">Impossibile caricare la pagina</string>
     <string name="menu_backup">Backup</string>
     <string name="menu_copy_link">Copia link</string>
     <string name="menu_create_shortcut">Aggiungi a Home</string>
@@ -1282,7 +1279,6 @@ Fai clic su + per creare un nuovo foglio di lavoro."</string>
     <string name="published_access_anyone">Chiunque può visualizzare la versione pubblicata</string>
     <string name="published_access_domain">Chiunque in %s può visualizzare la versione pubblicata</string>
     <string name="published_access_select_people">Persone specifiche possono visualizzare la versione pubblicata</string>
-    <string name="published_disabled_append">disattivata</string>
     <string name="published_message_for_anyone_can_edit">Dal momento che chiunque può modificare, chiunque può visualizzare la versione pubblicata.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Dal momento che chiunque in %1$s può modificare, chiunque in %1$s può visualizzare la versione pubblicata.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Dal momento che chiunque abbia il link può modificare, chiunque può visualizzare la versione pubblicata.</string>
@@ -1458,6 +1454,7 @@ Fai clic su + per creare un nuovo foglio di lavoro."</string>
     <string name="ritz_cannot_back_local_filter_with_named_range">Non puoi rendere un filtro dipendente da un intervallo denominato quando ti trovi in modalità di sola visualizzazione.</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">"Non puoi cambiare la protezione del foglio in protezione dell'intervallo o viceversa."</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">Non puoi aggiungere colori di sfondo alternati a un intervallo che ne contiene già.</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">Non è possibile aggiungere un filtro a questo foglio perché è collegato a un database. In alternativa, puoi creare una visualizzazione filtrata.</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">Non puoi creare un filtro in un foglio che contiene già un filtro.</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">Non puoi creare un filtro su un intervallo contenente unioni verticali.</string>
     <string name="ritz_cannot_create_filter_within_merge">"Non puoi creare un filtro all'interno di un intervallo contenente unioni."</string>
@@ -1507,6 +1504,7 @@ Fai clic su + per creare un nuovo foglio di lavoro."</string>
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">"Quest'operazione non è supportata su un intervallo con Visualizzazione filtrata ordinata. Disattiva la Visualizzazione filtrata e riprova."</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">"Quest'operazione non è supportata su un intervallo con una riga filtrata."</string>
     <string name="ritz_cannot_pivot_drill_down">Non puoi visualizzare i dettagli di una cella che non si trova in una tabella pivot</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">Non è possibile aggiungere la protezione a questo foglio perché è collegato a un database.</string>
     <string name="ritz_cannot_protect_deleted_sheet">Il foglio che stai tentando di proteggere è stato eliminato.</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">Impossibile salvare la regola con formula non valida.</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">Impossibile impostare i dati di questa cella unita. Se hai una visualizzazione filtrata attiva, prova a rimuoverla.</string>
@@ -2041,7 +2039,6 @@ Fai clic su + per creare un nuovo foglio di lavoro."</string>
     <string name="ritz_generic_sheet_activated">Il foglio %1$s è stato attivato.</string>
     <string name="ritz_get_pivot_table_message_for_average">Media di %1$s per ogni %2$s</string>
     <string name="ritz_get_pivot_table_message_for_count">Conteggio di %1$s per ogni %2$s</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">Conteggio di %1$s distinte per ogni %2$s</string>
     <string name="ritz_get_pivot_table_message_for_sum">Somma di %1$s per ogni %2$s</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">Disclaimer. Le quotazioni non riguardano tutti i mercati e possono subire un ritardo di 20 minuti. Queste informazioni sono fornite \"così come sono\" e hanno scopo esclusivamente informativo. Non hanno pertanto alcuno scopo commerciale né di consulenza.</string>
@@ -2766,6 +2763,7 @@ Fai clic su + per creare un nuovo foglio di lavoro."</string>
     <string name="suggest_pin_dialog_positive_button">Rendi disponibile offline</string>
     <string name="suggest_pin_dialog_title">Nessuna connessione</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, selezionato</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Errore di sincronizzazione di Fogli Google</string>
     <string name="sync_more_error">Errore durante il recupero di ulteriori elementi</string>
     <string name="sync_more_error_offline">Alcuni documenti potrebbero non essere disponibili offline.</string>
@@ -2954,6 +2952,8 @@ Fai clic su + per creare un nuovo foglio di lavoro."</string>
     <string name="upsave_dialog_title">Salvare le modifiche?</string>
     <string name="upsell_negbtn">Più tardi</string>
     <string name="upsell_okbtn">"Esegui l'upgrade"</string>
+    <string name="v7_preference_off">OFF</string>
+    <string name="v7_preference_on">ON</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{Tutti appartengono a {VALUE} a eccezione di uno, {EXCEPTIONS}.}=2{Tutti appartengono a {VALUE} a eccezione di due, {EXCEPTIONS}.}=3{Tutti appartengono a {VALUE} a eccezione di tre, {EXCEPTIONS}.}=4{Tutti appartengono a {VALUE} a eccezione di quattro, {EXCEPTIONS}.}other{Tutti appartengono a {VALUE} a eccezione di {NUMBER_OF_EXCEPTIONS}, {EXCEPTIONS}.}}</string>
     <string name="verbal_all_different">Tutti i valori sono differenti.</string>
     <string name="verbal_all_same">Tutti i valori sono %1$s.</string>
@@ -3140,8 +3140,9 @@ Fai clic su + per creare un nuovo foglio di lavoro."</string>
     <string name="warm_welcome_next_button">Avanti</string>
     <string name="warm_welcome_skip_button">Salta</string>
     <string name="warning_cannot_share_outside_domain">"Le impostazioni di questo Drive del team impediscono la condivisione all'esterno di %s"</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">"Le impostazioni di questo Drive del team impediscono la condivisione con i non membri e all'esterno di %s"</string>
     <string name="warning_cannot_share_outside_domain_org">"Le impostazioni dell'organizzazione impediscono la condivisione all'esterno dell'organizzazione"</string>
-    <string name="warning_cannot_share_outside_team_drive">"Le impostazioni di questo Drive del team impediscono la condivisione all'esterno del team."</string>
+    <string name="warning_cannot_share_outside_team_drive">Le impostazioni di questo Drive del team impediscono la condivisione con i non membri</string>
     <string name="warning_csv_edits_unsupported">Per aggiungere contenuti formattati, grafici, immagini o schede aggiuntive, devi salvare il file come foglio di lavoro Google.</string>
     <string name="warning_sheet_add_unsupported">Per aggiungere un nuovo foglio, devi salvare il file come foglio di lavoro Google.</string>
     <string name="welcome_button_close">Vai a Fogli</string>
@@ -3175,7 +3176,7 @@ Fai clic su + per creare un nuovo foglio di lavoro."</string>
     <string name="zss_people_header_title">Persone</string>
     <string name="zss_showing_list_of_filters">Visualizzazione di un elenco di filtri disponibili.</string>
     <string name="zss_team_drive">Cerca in %1$s</string>
-    <string name="zss_type_archive">Archivio</string>
+    <string name="zss_type_archive">Archivia</string>
     <string name="zss_type_audio">Audio</string>
     <string name="zss_type_documents">Documenti di testo</string>
     <string name="zss_type_folder">Cartelle</string>

@@ -708,6 +708,7 @@ Kliknutím na položku + vytvoríte novú tabuľku."</string>
     <string name="error_video_not_available">Video nebolo spracované. Skúste to znova neskôr.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+ ďalší (%1$d).</string>
+    <string name="expand_button_title">Rozšírené</string>
     <string name="expires_future">Vyprší o %1$s</string>
     <string name="expires_today">Platnosť vyprší dnes</string>
     <string name="export_download_error_title">Chyba pri sťahovaní</string>
@@ -725,6 +726,11 @@ Kliknutím na položku + vytvoríte novú tabuľku."</string>
     <string name="fab_office_document">Nový súbor Excel</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Výsledky vyhľad.</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">kB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Staršie</string>
     <string name="fast_scroll_time_grouper_last_week">Minulý týždeň</string>
     <string name="fast_scroll_time_grouper_this_month">Tento mesiac</string>
@@ -859,17 +865,8 @@ Kliknutím na položku + vytvoríte novú tabuľku."</string>
     <string name="manage_addons_playstore_link_description">Prejsť do Obchodu Play a získať doplnok %s</string>
     <string name="manage_members_default_members">Členovia môžu predvolene nahrávať, upravovať a odstraňovať súbory a pozývať ďalších členov</string>
     <string name="manage_members_dialog_title">Prístup členov</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Úložisko</string>
+    <string name="management_data_loading_failed">Táto stránka sa nedá načítať</string>
     <string name="menu_backup">Zálohy</string>
     <string name="menu_copy_link">Kopírovať odkaz</string>
     <string name="menu_create_shortcut">Pridať na plochu</string>
@@ -1270,7 +1267,6 @@ Kliknutím na položku + vytvoríte novú tabuľku."</string>
     <string name="published_access_anyone">Po zverejnení môže zobraziť ktokoľvek</string>
     <string name="published_access_domain">Po zverejnení môže zobraziť ktokoľvek v doméne %s</string>
     <string name="published_access_select_people">Po zverejnení môžu zobraziť konkrétni ľudia</string>
-    <string name="published_disabled_append">zakázané</string>
     <string name="published_message_for_anyone_can_edit">Keďže upravovať môže ktokoľvek, po zverejnení môže položku zobraziť ktokoľvek.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Keďže upravovať môže ktokoľvek v doméne %1$s, po zverejnení môže položku zobraziť ktokoľvek v doméne %1$s.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Keďže upravovať môže ktokoľvek s odkazom, po zverejnení môže položku zobraziť ktokoľvek.</string>
@@ -1446,6 +1442,7 @@ Kliknutím na položku + vytvoríte novú tabuľku."</string>
     <string name="ritz_cannot_back_local_filter_with_named_range">V režime Iba zobrazenie nemôže byť filter závislý od pomenovaného rozsahu.</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">Ochranu hárka nemôžete zmeniť na ochranu rozsahu, ani naopak</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">Do rozsahu, ktorý už má meniace sa farby pozadia, nemôžete pridať meniace sa farby pozadia.</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">K tomuto hárku nie je možné pridať filter, pretože je pripojený k databáze. Vytvorte radšej zobrazenie filtra.</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">Nemôžete vytvoriť filter v hárku, ktorý filter už má.</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">Nemôžete vytvoriť filter pre rozsah obsahujúci zvislé zlúčenia.</string>
     <string name="ritz_cannot_create_filter_within_merge">Nemôžete vytvoriť filter v rámci rozsahu obsahujúceho zlúčenia.</string>
@@ -1495,6 +1492,7 @@ Kliknutím na položku + vytvoríte novú tabuľku."</string>
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">Táto operácia nie je podporovaná na rozsahu so zoradeným zobrazením filtra. Vypnite zobrazenie filtra a skúste to znova.</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">Táto operácia nie je podporovaná na rozsahu s odfiltrovaným riadkom.</string>
     <string name="ritz_cannot_pivot_drill_down">Nie je možné zobraziť podrobnosti bunky, ktorá sa nenachádza v kontingenčnej tabuľke</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">K tomuto hárku nie je možné pridať zabezpečenie, pretože je pripojený k databáze.</string>
     <string name="ritz_cannot_protect_deleted_sheet">Hárok, ktorý sa pokúšate chrániť, bol odstránený.</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">Pravidlo nemožno uložiť s neplatným vzorcom.</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">Nie je možné nastaviť údaje v tejto zlúčenej bunke. Ak máte zapnuté zobrazenie filtra, skúste ho odstrániť.</string>
@@ -2029,7 +2027,6 @@ Kliknutím na položku + vytvoríte novú tabuľku."</string>
     <string name="ritz_generic_sheet_activated">Hárok %1$s je aktivovaný.</string>
     <string name="ritz_get_pivot_table_message_for_average">Priemer stĺpcov %1$s pre každý stĺpec %2$s</string>
     <string name="ritz_get_pivot_table_message_for_count">Počet stĺpcov %1$s pre každý stĺpec %2$s</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">Počet odlišných stĺpcov %1$s pre každý stĺpec %2$s</string>
     <string name="ritz_get_pivot_table_message_for_sum">Súčet stĺpcov %1$s pre každý stĺpec %2$s</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">Vylúčenie zodpovednosti: Kvóty nepochádzajú zo zdrojov na všetkých trhoch a môžu sa oneskoriť až o 20 minút. Informácie sú poskytované tak, ako sú, a slúžia len na informačné účely. Neslúžia na účely predaja ani poskytovania rád.</string>
@@ -2754,6 +2751,7 @@ Kliknutím na položku + vytvoríte novú tabuľku."</string>
     <string name="suggest_pin_dialog_positive_button">Sprístupniť offline</string>
     <string name="suggest_pin_dialog_title">Bez pripojenia</string>
     <string name="suggested_name_selected_accessibility_announcement">Vybratý používateľ: %1$s</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Chyba synchronizácie s Tabuľkami Google</string>
     <string name="sync_more_error">Chyba pri načítavaní ďalších položiek</string>
     <string name="sync_more_error_offline">Niektoré dokumenty nemusia byť v režime offline viditeľné.</string>
@@ -2942,6 +2940,8 @@ Kliknutím na položku + vytvoríte novú tabuľku."</string>
     <string name="upsave_dialog_title">Uložiť zmeny?</string>
     <string name="upsell_negbtn">Neskôr</string>
     <string name="upsell_okbtn">Inovovať</string>
+    <string name="v7_preference_off">VYP.</string>
+    <string name="v7_preference_on">ZAP.</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{Všetky hodnoty sú {VALUE} okrem jednej: {EXCEPTIONS}.}=2{Všetky hodnoty sú {VALUE} okrem dvoch: {EXCEPTIONS}.}=3{Všetky hodnoty sú {VALUE} okrem troch: {EXCEPTIONS}.}=4{Všetky hodnoty sú {VALUE} okrem štyroch: {EXCEPTIONS}.}many{Všetky hodnoty sú {VALUE} okrem {NUMBER_OF_EXCEPTIONS}: {EXCEPTIONS}.}other{Všetky hodnoty sú {VALUE} okrem {NUMBER_OF_EXCEPTIONS}: {EXCEPTIONS}.}}</string>
     <string name="verbal_all_different">Všetky hodnoty sú rozdielne.</string>
     <string name="verbal_all_same">Všetky hodnoty sú %1$s.</string>
@@ -3128,8 +3128,9 @@ Kliknutím na položku + vytvoríte novú tabuľku."</string>
     <string name="warm_welcome_next_button">Ďalej</string>
     <string name="warm_welcome_skip_button">Preskočiť</string>
     <string name="warning_cannot_share_outside_domain">Nastavenia tohto tímového disku bránia zdieľaniu mimo domény %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Nastavenia tohto tímového disku bránia zdieľaniu s nečlenmi a používateľmi mimo domény %s</string>
     <string name="warning_cannot_share_outside_domain_org">Nastavenia organizácie bránia zdieľaniu mimo organizácie</string>
-    <string name="warning_cannot_share_outside_team_drive">Nastavenia tohto tímového disku bránia zdieľaniu mimo tímu</string>
+    <string name="warning_cannot_share_outside_team_drive">Nastavenia tohto tímového disku bránia zdieľaniu s nečlenmi</string>
     <string name="warning_csv_edits_unsupported">Ak chcete pridať formátovaný obsah, grafy, obrázky alebo karty navyše, súbor budete musieť uložiť ako tabuľku Google.</string>
     <string name="warning_sheet_add_unsupported">Ak chcete pridať nový hárok, súbor budete musieť uložiť ako tabuľku Google.</string>
     <string name="welcome_button_close">Prejsť na Tabuľky</string>

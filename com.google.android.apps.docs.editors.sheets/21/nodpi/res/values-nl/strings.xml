@@ -659,7 +659,7 @@ Hier kun je je bestanden uploaden."</string>
     <string name="empty_doclist_for_pinned_view_details">"Maak bestanden 'Offline beschikbaar' in het optiemenu van het bestand"</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">"Tik op 'Offline beschikbaar' in het menu van een bestand, zodat je eraan kunt blijven werken wanneer je apparaat offline is."</string>
     <string name="empty_doclist_for_recent_view">Er zijn geen onlangs geopende of gewijzigde bestanden.</string>
-    <string name="empty_doclist_for_search_view">Geen resultaten.</string>
+    <string name="empty_doclist_for_search_view">Geen resultaten</string>
     <string name="empty_doclist_for_shared_with_me_view">Bestanden die met jou zijn gedeeld, worden hier weergegeven.</string>
     <string name="empty_doclist_for_starred_view">Je hebt geen bestanden met ster.</string>
     <string name="empty_doclist_for_starred_view_details">Tik op het sterpictogram in het optiemenu van het bestand om het aan deze lijst toe te voegen.</string>
@@ -708,6 +708,7 @@ Klik op + om een nieuwe spreadsheet te maken."</string>
     <string name="error_video_not_available">De video is niet verwerkt. Probeer het later opnieuw.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d anderen.</string>
+    <string name="expand_button_title">Geavanceerd</string>
     <string name="expires_future">Verloopt over %1$s</string>
     <string name="expires_today">Verloopt vandaag</string>
     <string name="export_download_error_title">Downloadfout</string>
@@ -725,6 +726,11 @@ Klik op + om een nieuwe spreadsheet te maken."</string>
     <string name="fab_office_document">Nieuw Excel-bestand</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Zoekresultaten</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">kB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Ouder</string>
     <string name="fast_scroll_time_grouper_last_week">Vorige week</string>
     <string name="fast_scroll_time_grouper_this_month">Eerder deze maand</string>
@@ -871,17 +877,8 @@ Klik op + om een nieuwe spreadsheet te maken."</string>
     <string name="manage_addons_playstore_link_description">Ga naar de Play Store voor %s</string>
     <string name="manage_members_default_members">Standaard kunnen leden bestanden uploaden/bewerken/verwijderen en andere leden uitnodigen</string>
     <string name="manage_members_dialog_title">Ledentoegang</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Opslag</string>
+    <string name="management_data_loading_failed">Kan deze pagina niet laden</string>
     <string name="menu_backup">Back-ups</string>
     <string name="menu_copy_link">Link kopiëren</string>
     <string name="menu_create_shortcut">Toev. aan startsch</string>
@@ -1104,7 +1101,7 @@ Klik op + om een nieuwe spreadsheet te maken."</string>
     <string name="ouch_title_sawwrie">Sorry</string>
     <string name="overwrite_confirm_dialog_message">%1$s bestaat al. Overschrijven?</string>
     <string name="overwrite_confirm_dialog_positive_button_label">Overschrijven</string>
-    <string name="owner_not_user">Niet eigendom van %1$s</string>
+    <string name="owner_not_user">Geen eigendom van %1$s</string>
     <string name="owner_user">Eigendom van %1$s</string>
     <string name="page_1_description">Voer je taken uit met of zonder internetverbinding.</string>
     <string name="page_1_heading_editors">Spreadsheets onderweg</string>
@@ -1282,7 +1279,6 @@ Klik op + om een nieuwe spreadsheet te maken."</string>
     <string name="published_access_anyone">Iedereen mag de site na publicatie bekijken</string>
     <string name="published_access_domain">Iedereen binnen het domein %s mag de site na publicatie bekijken</string>
     <string name="published_access_select_people">Specifieke mensen mogen de site na publicatie bekijken</string>
-    <string name="published_disabled_append">uitgeschakeld,</string>
     <string name="published_message_for_anyone_can_edit">Omdat iedereen de site kan bewerken, kan iedereen de site na publicatie ook bekijken.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Omdat iedereen binnen het domein %1$s de site kan bewerken, kan iedereen binnen het domein %1$s de site na publicatie ook bekijken.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Omdat iedereen met de link de site kan bewerken, kan iedereen de site na publicatie ook bekijken.</string>
@@ -1458,6 +1454,7 @@ Klik op + om een nieuwe spreadsheet te maken."</string>
     <string name="ritz_cannot_back_local_filter_with_named_range">"Je kunt een filter niet afhankelijk maken van een benoemd bereik in de modus 'Alleen weergeven'."</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">Je kunt bladbeveiliging niet wijzigen in bereikbeveiliging of omgekeerd.</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">Je kunt geen afwisselende achtergrondkleuren toevoegen aan een bereik dat al afwisselende achtergrondkleuren heeft.</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">Je kunt geen filter aan dit blad toevoegen omdat het is verbonden met een database. Maak in plaats daarvan een filterweergave.</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">Je kunt geen filter maken op een blad dat al een filter heeft.</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">Je kunt geen filter maken voor een bereik dat verticale samenvoegingen bevat.</string>
     <string name="ritz_cannot_create_filter_within_merge">Je kunt geen filter maken binnen een bereik dat samenvoegingen bevat.</string>
@@ -1507,6 +1504,7 @@ Klik op + om een nieuwe spreadsheet te maken."</string>
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">Deze bewerking wordt niet ondersteund in een bereik met een gesorteerde filterweergave. Schakel de filterweergave uit en probeer het opnieuw.</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">Deze bewerking wordt niet ondersteund in een bereik met een uitgefilterde rij.</string>
     <string name="ritz_cannot_pivot_drill_down">Je kunt geen details weergeven voor een cel die niet in een draaitabel staat</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">Kan geen beveiliging aan dit blad toevoegen omdat het is verbonden met een database.</string>
     <string name="ritz_cannot_protect_deleted_sheet">Het blad dat je probeert te beveiligen, is verwijderd.</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">Kan de regel niet opslaan met een ongeldige formule.</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">Kan geen gegevens instellen in deze samengevoegde cel. Als er een filterweergave actief is, schakel deze dan uit.</string>
@@ -2041,7 +2039,6 @@ Klik op + om een nieuwe spreadsheet te maken."</string>
     <string name="ritz_generic_sheet_activated">Blad %1$s geactiveerd.</string>
     <string name="ritz_get_pivot_table_message_for_average">Gemiddelde %1$s voor elk(e) %2$s</string>
     <string name="ritz_get_pivot_table_message_for_count">Aantal %1$s voor elk(e) %2$s</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">Aantal afzonderlijke %1$s voor elk(e) %2$s</string>
     <string name="ritz_get_pivot_table_message_for_sum">Som van %1$s voor elk(e) %2$s</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">Disclaimer: de koersen zijn niet voor alle markten beschikbaar en kunnen met 20 minuten vertraging worden weergegeven. De informatie wordt in de huidige staat aangeboden en is alleen bedoeld ter informatie, niet voor handelsdoeleinden of advies.</string>
@@ -2766,6 +2763,7 @@ Klik op + om een nieuwe spreadsheet te maken."</string>
     <string name="suggest_pin_dialog_positive_button">Offline beschikbaar maken</string>
     <string name="suggest_pin_dialog_title">Geen verbinding</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, geselecteerd</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Synchronisatiefout in Google Spreadsheets</string>
     <string name="sync_more_error">Fout bij ophalen van extra items</string>
     <string name="sync_more_error_offline">Sommige documenten zijn mogelijk niet zichtbaar wanneer je offline bent.</string>
@@ -2954,6 +2952,8 @@ Klik op + om een nieuwe spreadsheet te maken."</string>
     <string name="upsave_dialog_title">Wijzigingen opslaan?</string>
     <string name="upsell_negbtn">Later</string>
     <string name="upsell_okbtn">Upgraden</string>
+    <string name="v7_preference_off">UIT</string>
+    <string name="v7_preference_on">AAN</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{Allemaal {VALUE} op één na: {EXCEPTIONS}.}=2{Allemaal {VALUE} op twee na: {EXCEPTIONS}.}=3{Allemaal {VALUE} op drie na: {EXCEPTIONS}.}=4{Allemaal {VALUE} op vier na: {EXCEPTIONS}.}other{Allemaal {VALUE}, behalve {NUMBER_OF_EXCEPTIONS}, {EXCEPTIONS}.}}</string>
     <string name="verbal_all_different">Alle waarden verschillen.</string>
     <string name="verbal_all_same">Alle waarden zijn %1$s.</string>
@@ -3140,8 +3140,9 @@ Klik op + om een nieuwe spreadsheet te maken."</string>
     <string name="warm_welcome_next_button">Volgende</string>
     <string name="warm_welcome_skip_button">Overslaan</string>
     <string name="warning_cannot_share_outside_domain">Delen buiten %s is uitgeschakeld voor deze Drive van mijn team</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Delen met niet-leden en gebruikers buiten %s is uitgeschakeld voor deze Drive van mijn team</string>
     <string name="warning_cannot_share_outside_domain_org">Delen buiten de organisatie is uitgeschakeld voor deze organisatie</string>
-    <string name="warning_cannot_share_outside_team_drive">Delen buiten het team is uitgeschakeld voor deze Drive van mijn team</string>
+    <string name="warning_cannot_share_outside_team_drive">Delen met niet-leden is uitgeschakeld voor deze Drive van mijn team</string>
     <string name="warning_csv_edits_unsupported">Als je opgemaakte content, diagrammen, afbeeldingen of extra tabbladen wilt toevoegen, moet je het bestand als Google-spreadsheet opslaan.</string>
     <string name="warning_sheet_add_unsupported">Als je een nieuw blad wilt toevoegen, moet je het bestand als Google-spreadsheet opslaan.</string>
     <string name="welcome_button_close">Ga naar Spreadsheets</string>

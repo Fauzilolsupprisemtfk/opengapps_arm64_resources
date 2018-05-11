@@ -659,7 +659,7 @@ Pokušajte prenijeti datoteku."</string>
     <string name="empty_doclist_for_pinned_view_details">Odaberite \"Dostupno izvanmrežno\" na izborniku opcija datoteke</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">U izborniku datoteke dodirnite \"Dostupno izvan mreže\" da biste je mogli izvanmrežno uređivati.</string>
     <string name="empty_doclist_for_recent_view">Nema nedavno otvorenih ili uređivanih datoteka.</string>
-    <string name="empty_doclist_for_search_view">Nema rezultata.</string>
+    <string name="empty_doclist_for_search_view">Nema rezultata</string>
     <string name="empty_doclist_for_shared_with_me_view">Ovdje će se pojaviti datoteke koje se dijele s vama.</string>
     <string name="empty_doclist_for_starred_view">Nemate datoteka sa zvjezdicom.</string>
     <string name="empty_doclist_for_starred_view_details">Dodirnite ikonu zvjezdice u izborniku opcija datoteke da biste je dodali na popis.</string>
@@ -708,6 +708,7 @@ Kliknite + za izradu nove proračunske tablice."</string>
     <string name="error_video_not_available">Videozapis nije obrađen. Pokušajte ponovno kasnije.</string>
     <string name="excess_head_count">+ %1$d</string>
     <string name="excess_head_count_verbalization">Još suradnika (njih %1$d).</string>
+    <string name="expand_button_title">Napredno</string>
     <string name="expires_future">Istječe za %1$s</string>
     <string name="expires_today">Istječe danas</string>
     <string name="export_download_error_title">Pogreška pri preuzimanju</string>
@@ -725,6 +726,11 @@ Kliknite + za izradu nove proračunske tablice."</string>
     <string name="fab_office_document">Nova Excel datoteka</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Rezultati pretraživanja</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Starije</string>
     <string name="fast_scroll_time_grouper_last_week">Prošli tjedan</string>
     <string name="fast_scroll_time_grouper_this_month">Ranije u mjesecu</string>
@@ -859,17 +865,8 @@ Kliknite + za izradu nove proračunske tablice."</string>
     <string name="manage_addons_playstore_link_description">Navigirajte do trgovine Play radi dodatka %s</string>
     <string name="manage_members_default_members">Prema zadanim postavkama članovi mogu uređivati, organizirati i brisati datoteke i pozivati druge članove</string>
     <string name="manage_members_dialog_title">Ulaz za članove</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Pohrana</string>
+    <string name="management_data_loading_failed">Učitavanje stranice nije uspjelo</string>
     <string name="menu_backup">Sigurnosne kopije</string>
     <string name="menu_copy_link">Kopiraj vezu</string>
     <string name="menu_create_shortcut">Na početni zaslon</string>
@@ -1065,7 +1062,7 @@ Kliknite + za izradu nove proračunske tablice."</string>
     <string name="open_document_in_browser">Otvori u pregledniku</string>
     <string name="open_folder_removed">Otvorena se mapu više ne može pregledavati.</string>
     <string name="open_folder_trashed">Mapa %1$s premještena je u otpad.</string>
-    <string name="open_in">Otvoreno u aplikaciji: %1$s</string>
+    <string name="open_in">Otvorite u aplikaciji %1$s</string>
     <string name="open_link">Slijedi vezu</string>
     <string name="open_pinned_version">Otvori s uređaja</string>
     <string name="open_templates_picker_offline">Da biste koristili predloške, povežite se s internetom</string>
@@ -1270,7 +1267,6 @@ Kliknite + za izradu nove proračunske tablice."</string>
     <string name="published_access_anyone">Svatko može vidjeti nakon objave</string>
     <string name="published_access_domain">Svatko na domeni %s može pregledati nakon objave</string>
     <string name="published_access_select_people">Određene osobe mogu pregledati nakon objave</string>
-    <string name="published_disabled_append">onemogućeno,</string>
     <string name="published_message_for_anyone_can_edit">Budući da svatko može uređivati, svatko može pregledati nakon objave.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Budući da svako na domeni %1$s može uređivati, svatko na domeni %1$s može pregledati nakon objave.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Budući da svatko s vezom može uređivati, svatko može pregledati nakon objave.</string>
@@ -1446,6 +1442,7 @@ Kliknite + za izradu nove proračunske tablice."</string>
     <string name="ritz_cannot_back_local_filter_with_named_range">Ne možete napraviti filtar koji se odnosi na imenovani raspon kada ste u načinu samo za prikaz.</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">Ne možete promijeniti zaštitu lista u zaštitu raspona ili obrnuto.</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">Ne možete dodavati izmjenične boje pozadine u raspon koji već ima dodijeljene takve boje pozadine.</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">Ne možete dodati filtar u ovu tablicu jer je povezana s bazom podataka. Umjesto toga izradite filtrirani prikaz.</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">Ne možete izraditi filtar u proračunskoj tablici koja već ima filtar.</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">Nije moguće izraditi filtar preko raspona koji sadrži okomite spojene ćelije.</string>
     <string name="ritz_cannot_create_filter_within_merge">Nije moguće izraditi filtar u rasponu koji sadrži spojene ćelije.</string>
@@ -1495,6 +1492,7 @@ Kliknite + za izradu nove proračunske tablice."</string>
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">Ova operacija nije podržana u rasponu sa sortiranim filtriranim prikazom. Onemogućite filtrirani prikaz i pokušajte ponovno.</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">Ova operacija nije podržana u rasponu s filtriranim retkom.</string>
     <string name="ritz_cannot_pivot_drill_down">Pojedinosti o ćeliji koja se ne nalazi unutar zaokretne tablice ne mogu se prikazati</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">U ovu se tablicu ne može dodati zaštita jer je povezana s bazom podataka.</string>
     <string name="ritz_cannot_protect_deleted_sheet">List koji pokušavate zaštititi izbrisan je.</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">Nije moguće spremiti pravilo s nevažećom formulom.</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">Nije moguće postaviti podatke u ovu spojenu ćeliju. Ako je aktivan filtrirani prikaz, pokušajte ga ukloniti.</string>
@@ -2029,7 +2027,6 @@ Kliknite + za izradu nove proračunske tablice."</string>
     <string name="ritz_generic_sheet_activated">Aktiviran je list %1$s.</string>
     <string name="ritz_get_pivot_table_message_for_average">Prosjek stupca %1$s za svaki %2$s</string>
     <string name="ritz_get_pivot_table_message_for_count">Broj stupaca %1$s za svaki %2$s</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">Broj različitih stupaca %1$s za svaki %2$s</string>
     <string name="ritz_get_pivot_table_message_for_sum">Zbroj stupca %1$s za svaki %2$s</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">Ponude se ne preuzimaju sa svih tržišta i možda će se odgoditi do 20 minuta. Informacije se navode \"kakve jesu\" i isključivo u informativne svrhe, a ne u svrhu trgovanja ili savjetovanja.</string>
@@ -2754,6 +2751,7 @@ Kliknite + za izradu nove proračunske tablice."</string>
     <string name="suggest_pin_dialog_positive_button">Učini dostupnim izvan mreže</string>
     <string name="suggest_pin_dialog_title">Niste povezani</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, odabrano</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Pogreška u sinkronizaciji Google tablica</string>
     <string name="sync_more_error">Pogreška prilikom dohvaćanja dodatnih stavki</string>
     <string name="sync_more_error_offline">Neki dokumenti možda neće biti vidljivi dok ste izvan mreže.</string>
@@ -2940,6 +2938,8 @@ Kliknite + za izradu nove proračunske tablice."</string>
     <string name="upsave_dialog_title">Želite li spremiti promjene?</string>
     <string name="upsell_negbtn">Kasnije</string>
     <string name="upsell_okbtn">Nadogradi</string>
+    <string name="v7_preference_off">ISKLJUČENO</string>
+    <string name="v7_preference_on">UKLJUČENO</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{Sve su vrijednosti {VALUE}, osim jedne: {EXCEPTIONS}.}=2{Sve su vrijednosti {VALUE}, osim dvije: {EXCEPTIONS}.}=3{Sve su vrijednosti {VALUE}, osim tri: {EXCEPTIONS}.}=4{Sve su vrijednosti {VALUE}, osim četiri: {EXCEPTIONS}.}one{Sve su vrijednosti {VALUE}, osim: {NUMBER_OF_EXCEPTIONS}, {EXCEPTIONS}.}few{Sve su vrijednosti {VALUE}, osim: {NUMBER_OF_EXCEPTIONS}, {EXCEPTIONS}.}other{Sve su vrijednosti {VALUE}, osim: {NUMBER_OF_EXCEPTIONS}, {EXCEPTIONS}.}}</string>
     <string name="verbal_all_different">Sve su vrijednosti različite.</string>
     <string name="verbal_all_same">Sve su vrijednosti %1$s.</string>
@@ -3126,8 +3126,9 @@ Kliknite + za izradu nove proračunske tablice."</string>
     <string name="warm_welcome_next_button">Dalje</string>
     <string name="warm_welcome_skip_button">Preskoči</string>
     <string name="warning_cannot_share_outside_domain">Postavke ovog Diska tima sprječavaju dijeljenje izvan domene %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Postavke ovog Diska tima sprječavaju dijeljenje s osobama koje nisu članovi tima i izvan domene %s</string>
     <string name="warning_cannot_share_outside_domain_org">Postavke organizacije sprječavanju dijeljenje izvan organizacije</string>
-    <string name="warning_cannot_share_outside_team_drive">Postavke ovog Diska tima sprječavaju dijeljenje izvan tima</string>
+    <string name="warning_cannot_share_outside_team_drive">Postavke Diska tima sprječavaju dijeljenje s osobama koje nisu članovi</string>
     <string name="warning_csv_edits_unsupported">Da biste dodali oblikovani sadržaj, grafikone, slike ili dodatne kartice, datoteku ćete morati spremiti kao Google proračunsku tablicu.</string>
     <string name="warning_sheet_add_unsupported">Da biste dodali novi list,datoteku ćete morati spremiti kao Google proračunsku tablicu.</string>
     <string name="welcome_button_close">Otvori Tablice</string>
@@ -3149,7 +3150,7 @@ Kliknite + za izradu nove proračunske tablice."</string>
     <string name="zss_accessibility_searching">Pretraživanje: %1$s</string>
     <string name="zss_date_range_header_title">Datum izmjene</string>
     <string name="zss_date_range_month">Posljednjih 30 dana</string>
-    <string name="zss_date_range_three_month">Posljednjih 90 dana</string>
+    <string name="zss_date_range_three_month">Zadnjih 90 dana</string>
     <string name="zss_date_range_today">Danas</string>
     <string name="zss_date_range_week">Posljednjih 7 dana</string>
     <string name="zss_date_range_yesterday">Jučer</string>
@@ -3157,13 +3158,13 @@ Kliknite + za izradu nove proračunske tablice."</string>
     <string name="zss_no_filters">Nema filtara</string>
     <string name="zss_owner_header_title">U vlasništvu</string>
     <string name="zss_owner_me">U mojem vlasništvu</string>
-    <string name="zss_owner_not_me">Nije u mojem vlasništvu</string>
+    <string name="zss_owner_not_me">U vlasništvu nekog drugog</string>
     <string name="zss_people_header_title">Osobe</string>
     <string name="zss_showing_list_of_filters">Prikazuje se popis dostupnih filtara.</string>
-    <string name="zss_team_drive">Traži u Disku tima %1$s</string>
+    <string name="zss_team_drive">Traži na Disku tima %1$s</string>
     <string name="zss_type_archive">Arhiva</string>
-    <string name="zss_type_audio">Audiozapis</string>
-    <string name="zss_type_documents">Tekstualni dokumenti</string>
+    <string name="zss_type_audio">Zvuk</string>
+    <string name="zss_type_documents">Tekstni dokumenti</string>
     <string name="zss_type_folder">Mape</string>
     <string name="zss_type_images">Fotografije i slike</string>
     <string name="zss_type_pdfs">PDF-ovi</string>

@@ -123,7 +123,7 @@
     <string name="back_content_description">पछाडि जानुहोस्</string>
     <string name="basesearchsuggestion_date_modified_label">परिमार्जित: %1$s</string>
     <string name="button_close">बन्द गर्नुहोस्</string>
-    <string name="button_ok">ठीक छ</string>
+    <string name="button_ok">ठिक छ</string>
     <string name="button_retry">पुनः प्रयास गर्नुहोस्</string>
     <string name="buy_content_description">%2$sमा %1$sकिन्नुहोस्</string>
     <string name="bytes_in_gb">%.1f जि. बि.</string>
@@ -640,7 +640,7 @@
     <string name="empty_doclist_for_pinned_view_details">फाइलको विकल्पहरू मेनुमा फाइलहरूलाई \"अफलाइनमा उपलब्ध\" बनाउनुहोस्</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">अफलाइन काम गर्न सकियोस् भन्नका खाति फाइलको मेनुमा \"अफलाइन उपलब्ध\" ट्याप गर्नुहोस्।</string>
     <string name="empty_doclist_for_recent_view">हाल खोलिएका वा सम्पादन गरिएका कुनै फाइलहरू छैनन्।</string>
-    <string name="empty_doclist_for_search_view">कुनै परिणामहरू छैनन्।</string>
+    <string name="empty_doclist_for_search_view">कुनै पनि परिणाम छैन</string>
     <string name="empty_doclist_for_shared_with_me_view">तपाईंसँग साझेदारी गरिएका फाइलहरू यहाँ देखा पर्नेछन्।</string>
     <string name="empty_doclist_for_starred_view">तपाईंसँग कुनै ताराङ्कित फाइलहरू छैनन्।</string>
     <string name="empty_doclist_for_starred_view_details">यो सूचीमा यसलाई थप्न फाइलको विकल्प मेनुको तारा आइकनमा ट्याप गर्नुहोस्।</string>
@@ -683,12 +683,13 @@
     <string name="error_request_access">कागजात माथि पहुँच गर्ने अनुरोध गर्न सकिएन।</string>
     <string name="error_ssl_generic_template">"'%2$s' मा जडान गर्दा SSL त्रुटि भयो (कोड %1$d) ।"</string>
     <string name="error_ssl_idmismatch_template">"'%2$s' मा जडान गर्दा SSL त्रुटि भयो (कोड %1$d) : होस्टनाम मिलेन।"</string>
-    <string name="error_ssl_validity_template">%2$s मा जडान गर्दा SSL त्रुटि भयो(कोड %1$d): प्रमाणपत्रको समय अवधि सकिएको हो वा यो अझै अमान्य छ; यस उपकरणको मिति सेटिङ ठीक छ?</string>
+    <string name="error_ssl_validity_template">%2$s मा जडान गर्दा SSL त्रुटि भयो(कोड %1$d): प्रमाणपत्रको समय अवधि सकिएको हो वा यो अझै अमान्य छ; यस उपकरणको मिति सेटिङ ठिक छ?</string>
     <string name="error_unable_to_open_file">Google पानाले तपाईंको स्प्रिेडसिट खोल्न असमर्थ भयो।</string>
     <string name="error_unsupported_format">Google पानाले यो ढाँचा समर्थन गर्दैन।</string>
     <string name="error_video_not_available">भिडियो प्रशोधित गरिएको छैन। कृपया पछि पुन: प्रयास गर्नुहोस्।</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d अन्य।</string>
+    <string name="expand_button_title">उन्नत</string>
     <string name="expires_future">%1$s मा म्याद सकिन्छ</string>
     <string name="expires_today">आज म्याद सकिन्छ</string>
     <string name="export_download_error_title">डाउनलोड गर्दा त्रुटि</string>
@@ -706,6 +707,11 @@
     <string name="fab_office_document">नयाँ Excel फाइल</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">परिणामहरू खोज्ने</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">जि.बि.</string>
+    <string name="fast_scroll_size_grouper_kb">के.बि.</string>
+    <string name="fast_scroll_size_grouper_mb">एम.बि.</string>
     <string name="fast_scroll_time_grouper_earlier">अझ पुरानो</string>
     <string name="fast_scroll_time_grouper_last_week">गत हप्ता</string>
     <string name="fast_scroll_time_grouper_this_month">यो महिनाको सुरुमा</string>
@@ -734,7 +740,7 @@
     <string name="file_picker_select_button">चयन गर्नुहोस्</string>
     <string name="file_picker_storage_permissions_denied_toast">स्थानीय भण्डारणमाथि पहुँच राख्न अनुमति दिइएन।</string>
     <string name="file_too_large_for_upload" formatted="false">फाइल %1s Google ड्राइभमा अपलोड गर्नाका लागि ज्यादै ठूलो छ। यसको आकार %2s छ, तर यस किसिमको फाइलको सीमा %3s मात्रै हो। तपाईंले यो फाइललाई Google ड्राइभको ढाँचामा रूपान्तर नगरिकनै अपलोड गर्न सक्षम हुन सक्नुहुन्छ।</string>
-    <string name="file_too_large_for_upload_okbtn">ठीक छ</string>
+    <string name="file_too_large_for_upload_okbtn">ठिक छ</string>
     <string name="file_too_large_for_upload_title">अपलोड गर्न सकिँदैन</string>
     <string name="file_was_not_sent">फाइल साझा गरिएन।</string>
     <string name="find_hint">फेला पार्नुहोस्…</string>
@@ -783,7 +789,7 @@
     <string name="help_card_button_label_not_now">अहिले होइन</string>
     <string name="insert_link_palette_link_dialog_title_edit">लिंग्क सम्पादन गर्नुहोस्</string>
     <string name="insert_link_palette_link_dialog_title_insert">लिङ्क सम्मिलित गर्नुहोस्</string>
-    <string name="insert_link_palette_link_error_message">तपाईंको URL ठीक छ जस्तो देखिदैन। टाइपो?</string>
+    <string name="insert_link_palette_link_error_message">तपाईंको URL ठिक छ जस्तो देखिदैन। टाइपो?</string>
     <string name="insert_link_palette_link_title">लेबल</string>
     <string name="insert_link_palette_link_url">URL</string>
     <string name="insert_tool_insert_button">सम्मिलित गर्नुहोस्</string>
@@ -791,7 +797,7 @@
     <string name="install_file_viewer">तपाईँको यन्त्रमा कुनै पनि दर्शक उपलब्ध छैन</string>
     <string name="internal_release_dialog_line_1">Google पानाको यो संस्करण आन्तरिक मात्र हो।</string>
     <string name="internal_release_dialog_line_2">कृपया यसको बारेमा कुरा नगर्नुहोस् वा Google बाहिरको मानिस नदेखाउनुहोस्</string>
-    <string name="internal_release_dialog_ok">ठीक छ</string>
+    <string name="internal_release_dialog_ok">ठिक छ</string>
     <string name="internal_release_dialog_title">यस गोपनीय छ</string>
     <string name="invalid_link">अमान्य लिंक</string>
     <string name="invalid_uri_error">यो फाइल कुनै मान्य कागजात नभएकोले उक्त फाइल खोल्न सकिएन।</string>
@@ -836,17 +842,8 @@
     <string name="make_copy_spinner_message">प्रतिलिपि बनाउँदै…</string>
     <string name="manage_members_default_members">पूर्वनिर्धारित रूपमा, सदस्यहरूले फाइल अपलोड/सम्पादन गर्न/ मेट्न र अन्य सदस्यलाई निमन्त्रण गर्न सक्ने</string>
     <string name="manage_members_dialog_title">सदस्यको पहुँच</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">भण्डारण</string>
+    <string name="management_data_loading_failed">यो पृष्ठ लोड गर्न सकिँदैन</string>
     <string name="menu_backup">ब्याकअप</string>
     <string name="menu_copy_link">लिंक प्रतिलिपि गर्नुहोस्</string>
     <string name="menu_create_shortcut">गृह स्क्रिनमा थप्ने</string>
@@ -1188,7 +1185,7 @@
     <string name="pin_waiting">डाउन्लोडको लागि प्रतिक्षा गर्दै</string>
     <string name="pin_waiting_for_network">नेटवर्कको प्रतीक्षा गरिँदै</string>
     <string name="pin_warning_external_storage_not_ready">कागजातलाई नत्थी गरियो तर बाह्य भण्डारण तयार नभएसम्म डाउनलोड हुने छैन।</string>
-    <string name="pin_warning_external_storage_not_ready_ok">ठीक छ</string>
+    <string name="pin_warning_external_storage_not_ready_ok">ठिक छ</string>
     <string name="pinned_item_unavailable_dialog_message">तपाईँले अर्को पटक इन्टरनेट चलाउँदा यो फाइल अफलाइनमा उपलब्ध गराइने छ।</string>
     <string name="pinned_item_unavailable_dialog_title">%1$s माथि पहुँच गर्न असमर्थ।</string>
     <string name="please_save_document_before_converting">रूपान्तरित गर्नु अघि तपाईंले यो फाइल बचत गर्नुपर्छ।</string>
@@ -1245,7 +1242,6 @@
     <string name="published_access_anyone">प्रकाशित भएपछि जोसुकैले हेर्न सक्छन्‌</string>
     <string name="published_access_domain">%s डोमेनमा रहेका जोसुकैले प्रकाशित भएपछि हेर्न सक्छन्‌</string>
     <string name="published_access_select_people">प्रकाशित भएपछि खास मान्छेहरूले हेर्न सक्छन्‌</string>
-    <string name="published_disabled_append">असक्षम पारियो,</string>
     <string name="published_message_for_anyone_can_edit">जोसुकैले सम्पादन गर्न सक्ने भएका कारण प्रकाशित भएपछि जोसुकैले हेर्न सक्छन्‌।</string>
     <string name="published_message_for_anyone_in_domain_can_edit">%1$s मा रहेका जोसुकैले सम्पादन गर्न सक्ने भएका कारण प्रकाशित भएपछि %1$s मा भएका जोसुकैले हेर्न सक्छन्‌।</string>
     <string name="published_message_for_anyone_with_link_can_edit">लिंक भएका जोसुकैले सम्पादन गर्न सक्ने भएका कारण प्रकाशित भएपछि जोसुकैले हेर्न सक्छन्‌।</string>
@@ -1421,6 +1417,7 @@
     <string name="ritz_cannot_back_local_filter_with_named_range">केवल-हेर्ने मोडमा हुँदा तपाईं नाम दिइएको दायरामा निर्भर रहने फिल्टर बनाउन सक्नुहुन्न।</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">तपाईंले पाना सुरक्षालाई दायरा सुरक्षा वा विपरीत दायरामा परिवर्तन गर्न सक्नुहुँदैन।</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">तपाईले पहिले नै एकान्तर हुने पृष्ठभूमिका रङहरू भएको कुनै दायरामा एकान्तर हुने पृष्ठभूमिका रङहरू थप्न सक्नुहुन्न।</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">यो पाना कुनै डेटाबेससँग जडान भएका कारण तपाईंले यसमा फिल्टर थप्न सक्नुहुन्न। कृपया यसको सट्टा फिल्टरको दृश्य सिर्जना गर्नुहोस्।</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">तपाईं पहिलेदेखि नै कुनै फिल्टर भएको पानामा फिल्टर सिर्जना गर्न सक्नुहुन्न।</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">तपाईंले ठाडो मर्जहरू सम्मिलत दायरामा फिल्टर सिर्जना गर्न सक्नुहुदैन।</string>
     <string name="ritz_cannot_create_filter_within_merge">तपाईंले मर्जहरू शामिल भएको दायराभित्र फिल्टर सिर्जना गर्न सक्नुहुदैन।</string>
@@ -1470,6 +1467,7 @@
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">यस अपरेसन क्रमबद्ध फिल्टर दर्शीको साथमा रहेको दायरामा समर्थित छैन। कृपया फिल्टर दर्शीलाई निस्कृिय गर्नुहोस् र पुन: प्रयास गर्नुहोस्।</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">यो कार्य फिल्रट गरिएको पङ्क्ति भएको दायरामा समर्थित छैन।</string>
     <string name="ritz_cannot_pivot_drill_down">तपाईं पिभोट तालिकाभित्र नरहेको कक्षका विवरणहरू देखाउन सक्नुहुन्न</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">यो पाना कुनै डेटाबेससँग जडान भएका कारण यसमा संरक्षण गर्ने सुविधा थप्न सकिँदैन।</string>
     <string name="ritz_cannot_protect_deleted_sheet">तपाईँले सुरक्षित गर्न खोज्नुभएको पाना मेटाइएको छ।</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">अमान्य सुत्र भएको नियम बचत गर्न सकिन्न।</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">यस मर्ज गरिएको सेलमा डेटा सेट गर्न सकिँदैन। यदि तपाईंसँग एउटा सक्रिय फिल्टर दृश्य छ भने, यसलाई हटाउने प्रयास गर्नुहोस्।</string>
@@ -2004,7 +2002,6 @@
     <string name="ritz_generic_sheet_activated">पाना %1$s सक्रिय भयो</string>
     <string name="ritz_get_pivot_table_message_for_average">प्रत्येक %2$s को %1$s को औसत</string>
     <string name="ritz_get_pivot_table_message_for_count">प्रत्येक %2$s को %1$s को गणना</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">प्रत्येक %2$s को पृथक %1$s को गणना</string>
     <string name="ritz_get_pivot_table_message_for_sum">प्रत्येक %2$s को %1$s को योगफल</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">डिस्क्लेमर: उद्धरणहरू सबै बजारबाट ल्याइएका छैनन् र बढीमा २० मिनेटसम्म ढिलाइ हुन सक्छ। जानकारी \"जस्तो छ त्यस्तै\" र विशुद्ध जानकारीमूलक उद्देश्यका लागि प्रदान गरिएको छ, व्यापार उद्देश्य वा सल्लाहका लागि हैन।</string>
@@ -2395,7 +2392,7 @@
     <string name="ritz_sheets_tab_add_description">नयाँ पाना थप गर्नुहोस्</string>
     <string name="ritz_sheets_tab_menu_cancel">रद्द गर्नुहोस्</string>
     <string name="ritz_sheets_tab_menu_change_name">पाना नाम परिवर्तन गर्नुहोस्</string>
-    <string name="ritz_sheets_tab_menu_ok">ठीक छ</string>
+    <string name="ritz_sheets_tab_menu_ok">ठिक छ</string>
     <string name="ritz_should_be_between_exclusive">%1$s को मान %2$s हो। मान्य मानहरू विशेष %3$s र %4$s को बीचमा छन।</string>
     <string name="ritz_should_be_between_inclusive_function">%1$s ले दायरा भन्दा बाहिरको %2$s मान %3$s लाई मूल्याङ्कन गर्छ । वैध मानहरू सम्मिलित रूपमा %4$s र %5$s को बिचमा हुन्छन्।</string>
     <string name="ritz_should_be_between_inclusive_parameter">%1$s मान %2$s हो। मान्य मानहरू सम्मिलित रूपमा %3$s र %4$s बीचमा हुन्छन्।</string>
@@ -2726,6 +2723,7 @@
     <string name="suggest_pin_dialog_positive_button">अफलाइन उपलब्ध गराउनुहोस्</string>
     <string name="suggest_pin_dialog_title">जडान छैन</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, चयन गरियो</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Google पानाको सिंक्रोनाइजेसनमा त्रुटि भयो</string>
     <string name="sync_more_error">अतिरिक्त वस्तु पुनः प्राप्त गर्नमा त्रुटि</string>
     <string name="sync_more_error_offline">अफलाइन हुँदा केही कागजातहरू नदेखिन सक्छन्।</string>
@@ -2790,7 +2788,7 @@
     <string name="text_internal_storage_itemized">आन्तरिक भण्डारण - %1$d</string>
     <string name="text_rotation_custom_angle_fragment_cancel">रद्द गर्नुहोस्</string>
     <string name="text_rotation_custom_angle_fragment_no_selection">ग्रिड चयन गरिएको छैन</string>
-    <string name="text_rotation_custom_angle_fragment_ok">ठीक छ</string>
+    <string name="text_rotation_custom_angle_fragment_ok">ठिक छ</string>
     <string name="text_rotation_custom_angle_fragment_title">आफू अनुकूल कोण प्रविष्ट गर्नुहोस्</string>
     <string name="text_rotation_custom_angle_input_invalid_angle_error_message">-९०° देखि ९०° बीचको संख्या प्रविष्ट गर्नुहोस्</string>
     <string name="text_sd_card">SD कार्ड</string>
@@ -2914,6 +2912,8 @@
     <string name="upsave_dialog_title">परिवर्तनहरू सुरक्षित गर्ने हो?</string>
     <string name="upsell_negbtn">पछि</string>
     <string name="upsell_okbtn">स्तरवृद्धि गर्नुहोस्</string>
+    <string name="v7_preference_off">निष्क्रिय छ</string>
+    <string name="v7_preference_on">सक्रिय छ</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{सबै {VALUE} हो एकको लागि बाहेक, {EXCEPTIONS}।}=2{सबै {VALUE} हो दुईको लागि बाहेक, {EXCEPTIONS}।}=3{ सबै {VALUE} हो तीनको लागि बाहेक, {EXCEPTIONS}।}=4{ सबै {VALUE} हो चारको लागि बाहेक, {EXCEPTIONS}।}other{ सबै {VALUE} हो {NUMBER_OF_EXCEPTIONS} को लागि बाहेक, {EXCEPTIONS}।}}</string>
     <string name="verbal_all_different">सबै मानहरू भिन्न छन्।</string>
     <string name="verbal_all_same">मानको सबै %1$s हुन्।</string>
@@ -3100,8 +3100,9 @@
     <string name="warm_welcome_next_button">अर्को</string>
     <string name="warm_welcome_skip_button">छाड्नुहोस्</string>
     <string name="warning_cannot_share_outside_domain">यो टिम ड्राइभका सेटिङहरूले %s बाहिरका मान्छेहरूसँग आदान प्रदान गर्न दिँदैनन्</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">यो टिम ड्राइभका सेटिङहरूले गैरसदस्य तथा %s बाहिरका मान्छेहरूसँग आदान प्रदान गर्न दिँदैनन्</string>
     <string name="warning_cannot_share_outside_domain_org">यो सङ्गठनका सेटिङहरूले सङ्गठनबाहिरका मान्छेहरूसँग आदान प्रदान गर्न दिँदैनन्</string>
-    <string name="warning_cannot_share_outside_team_drive">यो टिम ड्राइभका सेटिङहरूले टोलीबाहिरका मान्छेहरूसँग आदान प्रदान गर्न दिँदैनन्</string>
+    <string name="warning_cannot_share_outside_team_drive">यो टिम ड्राइभका सेटिङहरूले गैरसदस्यहरूसँग आदान प्रदान गर्न दिँदैनन्</string>
     <string name="warning_csv_edits_unsupported">ढाँचाबद्ध सामग्री, चार्ट, छवि वा अतिरिक्त ट्याबहरू थप्न तपाईंले आफ्ना फाइलहरू Google स्प्रेडसिटको रूपमा सुरक्षित गर्न आवश्यक हुनेछ।</string>
     <string name="warning_sheet_add_unsupported">नयाँ पाना थप्न तपाईंले आफ्ना फाइलहरू Google स्प्रेडसिटको रूपमा सुरक्षित गर्न आवश्यक हुनेछ।</string>
     <string name="welcome_button_close">पानामा जानुहोस्</string>
@@ -3120,27 +3121,27 @@
     <string name="welcome_title_app_name">Google पाना</string>
     <string name="welcome_title_highlights">%1$s घोषणा प्यानेल।</string>
     <string name="write_access_denied">कागजातमा लेख्‍न मिल्ने पहुँच अस्वीकार गरियो।</string>
-    <string name="zss_accessibility_searching">%1$s खोज्दै</string>
+    <string name="zss_accessibility_searching">%1$s लाई खोजी गर्दै</string>
     <string name="zss_date_range_header_title">मिति परिमार्जन गरियो</string>
-    <string name="zss_date_range_month">पछिल्लो ३० दिन</string>
-    <string name="zss_date_range_three_month">पछिल्लो ९० दिन</string>
+    <string name="zss_date_range_month">पछिल्ला ३० दिन</string>
+    <string name="zss_date_range_three_month">पछिल्ला ९० दिन</string>
     <string name="zss_date_range_today">आज</string>
-    <string name="zss_date_range_week">पछिल्लो ७ दिन</string>
+    <string name="zss_date_range_week">पछिल्ला ७ दिन</string>
     <string name="zss_date_range_yesterday">हिजो</string>
-    <string name="zss_entry_types_header_title">फाइल प्रकारहरू</string>
+    <string name="zss_entry_types_header_title">फाइलका प्रकारहरू</string>
     <string name="zss_no_filters">कुनै फिल्टरहरू छैनन्</string>
     <string name="zss_owner_header_title">यसको स्वामित्वमा रहेको</string>
     <string name="zss_owner_me">मेरो स्वामित्वमा रहेको</string>
-    <string name="zss_owner_not_me">मैले स्वामित्व नराखेको</string>
+    <string name="zss_owner_not_me">मेरो स्वामित्वमा नरहेको</string>
     <string name="zss_people_header_title">मान्छेहरू</string>
     <string name="zss_showing_list_of_filters">उपलब्ध फिल्टरहरूको सूची देखाउँदै।</string>
     <string name="zss_team_drive">%1$s मा खोज्नुहोस्</string>
     <string name="zss_type_archive">अभिलेख राख्नुहोस्</string>
     <string name="zss_type_audio">अडियो</string>
-    <string name="zss_type_documents">पाठ कागजातहरू</string>
+    <string name="zss_type_documents">पाठ सन्देशका कागजातहरू</string>
     <string name="zss_type_folder">फोल्डरहरू</string>
-    <string name="zss_type_images">तस्बिर र छविहरू</string>
-    <string name="zss_type_pdfs">PDFहरू</string>
+    <string name="zss_type_images">तस्बिर तथा छविहरू</string>
+    <string name="zss_type_pdfs">PDF हरू</string>
     <string name="zss_type_presentations">प्रस्तुतिहरू</string>
     <string name="zss_type_spreadsheets">स्प्रेडसिटहरू</string>
     <string name="zss_type_video">भिडियोहरू</string>

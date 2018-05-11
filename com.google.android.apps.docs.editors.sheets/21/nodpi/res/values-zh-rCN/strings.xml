@@ -659,7 +659,7 @@
     <string name="empty_doclist_for_pinned_view_details">在文件的选项菜单中将文件设为“可离线使用”</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">在文件的菜单中点按“可离线使用”，即可在设备未联网时继续使用该文件。</string>
     <string name="empty_doclist_for_recent_view">最近未打开或编辑过任何文件。</string>
-    <string name="empty_doclist_for_search_view">没有结果。</string>
+    <string name="empty_doclist_for_search_view">无结果</string>
     <string name="empty_doclist_for_shared_with_me_view">与您共享的文件会出现在此处。</string>
     <string name="empty_doclist_for_starred_view">没有任何已加星标的文件。</string>
     <string name="empty_doclist_for_starred_view_details">点按文件的选项菜单中的“加注星标”图标即可将其添加到此列表中。</string>
@@ -708,6 +708,7 @@
     <string name="error_video_not_available">视频尚未处理，请稍后重试。</string>
     <string name="excess_head_count">+ %1$d</string>
     <string name="excess_head_count_verbalization">还有另外 %1$d 个。</string>
+    <string name="expand_button_title">高级</string>
     <string name="expires_future">%1$s后到期</string>
     <string name="expires_today">今天到期</string>
     <string name="export_download_error_title">下载错误</string>
@@ -725,6 +726,11 @@
     <string name="fab_office_document">新建 Excel 文件</string>
     <string name="fast_scroll_month_and_year_grouped">%2$d 年 %1$s</string>
     <string name="fast_scroll_search_result_grouper">搜索结果</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">更早</string>
     <string name="fast_scroll_time_grouper_last_week">上周</string>
     <string name="fast_scroll_time_grouper_this_month">本月稍早</string>
@@ -871,17 +877,8 @@
     <string name="manage_addons_playstore_link_description">转到 Play 商店中的%s</string>
     <string name="manage_members_default_members">默认情况下，成员可以上传/编辑/删除文件和邀请其他成员</string>
     <string name="manage_members_dialog_title">成员权限</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">存储空间</string>
+    <string name="management_data_loading_failed">无法加载此页面</string>
     <string name="menu_backup">备份</string>
     <string name="menu_copy_link">复制链接</string>
     <string name="menu_create_shortcut">添加到主屏幕</string>
@@ -1282,7 +1279,6 @@
     <string name="published_access_anyone">发布后可供任何人查看</string>
     <string name="published_access_domain">发布后，%s 中的任何人都可以查看</string>
     <string name="published_access_select_people">发布后可供特定人员查看</string>
-    <string name="published_disabled_append">已停用，</string>
     <string name="published_message_for_anyone_can_edit">由于任何人都可以编辑，因此草稿网站发布后任何人均可查看。</string>
     <string name="published_message_for_anyone_in_domain_can_edit">由于 %1$s 中的任何人都可以编辑，因此网站发布后 %1$s 中的任何人都可以查看。</string>
     <string name="published_message_for_anyone_with_link_can_edit">由于知道链接的任何人都可以编辑，因此草稿网站发布后任何人均可查看。</string>
@@ -1458,6 +1454,7 @@
     <string name="ritz_cannot_back_local_filter_with_named_range">您无法在“只能查看”模式下为已命名范围创建过滤器。</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">您无法将工作表保护更改为范围保护，反之亦然。</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">您无法向已具有交替背景色的范围添加交替背景色。</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">无法将过滤器添加到此工作表，因为它与数据库关联。请改为创建过滤器视图。</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">您无法在已有过滤器的工作表中创建过滤器。</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">您不能对包含纵向合并单元格的范围创建过滤器。</string>
     <string name="ritz_cannot_create_filter_within_merge">您不能对包含合并单元格的范围创建过滤器。</string>
@@ -1507,6 +1504,7 @@
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">对于采用排序“过滤视图”的范围不支持此操作。请停用该“过滤视图”，然后重试。</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">对于存在被滤除行的范围，不支持此操作。</string>
     <string name="ritz_cannot_pivot_drill_down">无法显示不在数据透视表中的单元格的详细信息</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">无法为该工作表添加保护设置，因为它与数据库关联。</string>
     <string name="ritz_cannot_protect_deleted_sheet">您尝试保护的工作表已被删除。</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">无法保存含无效公式的规则。</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">无法在此合并单元格中输入数据。如果您正在使用过滤视图，请尝试将其移除。</string>
@@ -2041,7 +2039,6 @@
     <string name="ritz_generic_sheet_activated">工作表%1$s已激活。</string>
     <string name="ritz_get_pivot_table_message_for_average">每个%2$s的%1$s的平均值</string>
     <string name="ritz_get_pivot_table_message_for_count">每个%2$s的%1$s的计数</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">每个%2$s的不同%1$s的计数</string>
     <string name="ritz_get_pivot_table_message_for_sum">每个%2$s的%1$s总和</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">免责声明：报价并非源自所有市场，而且可能延迟最多 20 分钟。信息是按“现状”提供，仅作参考，不可用于商业用途或咨询。</string>
@@ -2766,6 +2763,7 @@
     <string name="suggest_pin_dialog_positive_button">设为可离线使用</string>
     <string name="suggest_pin_dialog_title">无网络连接</string>
     <string name="suggested_name_selected_accessibility_announcement">已选中%1$s</string>
+    <string name="summary_collapsed_preference_list">当前显示了 %1$s 项（已添加 %2$s 项）</string>
     <string name="sync_failed">Google 表格同步错误</string>
     <string name="sync_more_error">检索更多内容时出错</string>
     <string name="sync_more_error_offline">部分文档在离线时可能无法显示。</string>
@@ -2954,6 +2952,8 @@
     <string name="upsave_dialog_title">要保存更改吗？</string>
     <string name="upsell_negbtn">稍后</string>
     <string name="upsell_okbtn">升级</string>
+    <string name="v7_preference_off">关闭</string>
+    <string name="v7_preference_on">开启</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{所有都是{VALUE}，除了 1 个是{EXCEPTIONS}。}=2{所有都是{VALUE}，除了 2 个是{EXCEPTIONS}。}=3{所有都是{VALUE}，除了 3 个是{EXCEPTIONS}。}=4{所有都是{VALUE}，除了 4 个是{EXCEPTIONS}。}other{所有都是{VALUE}，除了 {NUMBER_OF_EXCEPTIONS} 个是{EXCEPTIONS}。}}</string>
     <string name="verbal_all_different">所有值都各不相同。</string>
     <string name="verbal_all_same">所有值都是%1$s。</string>
@@ -3140,8 +3140,9 @@
     <string name="warm_welcome_next_button">下一步</string>
     <string name="warm_welcome_skip_button">跳过</string>
     <string name="warning_cannot_share_outside_domain">根据此团队云端硬盘的设置，不得在 %s 外共享内容</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">根据此团队云端硬盘的设置，不得与非成员用户和 %s 外部用户共享内容</string>
     <string name="warning_cannot_share_outside_domain_org">根据此单位的设置，不得在单位外共享内容</string>
-    <string name="warning_cannot_share_outside_team_drive">根据此团队云端硬盘的设置，不得在此团队外共享内容</string>
+    <string name="warning_cannot_share_outside_team_drive">根据此团队云端硬盘的设置，不得与非成员用户共享内容</string>
     <string name="warning_csv_edits_unsupported">要添加已设置格式的内容、图表、图片或额外标签，您需要将文件保存为 Google 电子表格。</string>
     <string name="warning_sheet_add_unsupported">要添加新工作表，您需要将文件保存为 Google 电子表格。</string>
     <string name="welcome_button_close">转到 Google 表格</string>
@@ -3172,10 +3173,10 @@
     <string name="zss_owner_header_title">所有者：</string>
     <string name="zss_owner_me">归我所有</string>
     <string name="zss_owner_not_me">不归我所有</string>
-    <string name="zss_people_header_title">人员</string>
+    <string name="zss_people_header_title">用户</string>
     <string name="zss_showing_list_of_filters">目前显示的是可用过滤器列表。</string>
     <string name="zss_team_drive">在“%1$s”中搜索</string>
-    <string name="zss_type_archive">压缩文件</string>
+    <string name="zss_type_archive">归档</string>
     <string name="zss_type_audio">音频</string>
     <string name="zss_type_documents">文本文档</string>
     <string name="zss_type_folder">文件夹</string>

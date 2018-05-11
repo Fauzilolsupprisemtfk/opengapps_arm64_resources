@@ -640,7 +640,7 @@
     <string name="empty_doclist_for_pinned_view_details">"ഫയലിന്റെ 'ഓപ്‌ഷനുകൾ' മെനുവിൽ ഫയലുകളെ \"ഓഫ്‌ലൈനിൽ ലഭ്യമാക്കുക\" എന്നാക്കുക"</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">ഫയലിന്റെ മെനുവിൽ \"ഓഫ്‌ലൈനിൽ ലഭ്യമാക്കുക\" ടാപ്പുചെയ്യുന്നതിലൂടെ നിങ്ങൾക്ക് ഓഫ്‌ലൈനിൽ അത് തുടർന്നും ഉപയോഗിക്കാം.</string>
     <string name="empty_doclist_for_recent_view">അടുത്തിടെ തുറന്നതോ എഡിറ്റുചെയ്‌തതോ ആയ ഫയലുകളൊന്നുമില്ല.</string>
-    <string name="empty_doclist_for_search_view">ഫലങ്ങൾ ഇല്ല.</string>
+    <string name="empty_doclist_for_search_view">ഫലങ്ങൾ ഇല്ല</string>
     <string name="empty_doclist_for_shared_with_me_view">നിങ്ങളുമായി പങ്കിട്ട ഫയലുകൾ ഇവിടെ ദൃശ്യമാകും.</string>
     <string name="empty_doclist_for_starred_view">നിങ്ങൾക്ക് നക്ഷത്രമിട്ട ഫയലുകളൊന്നുമില്ല.</string>
     <string name="empty_doclist_for_starred_view_details">ഈ ലിസ്‌റ്റിൽ ഫയൽ ചേർക്കാൻ, അതിന്റെ ഓപ്‌ഷൻ മെനുവിലുള്ള നക്ഷത്ര ഐക്കൺ ടാപ്പുചെയ്യുക.</string>
@@ -689,6 +689,7 @@
     <string name="error_video_not_available">വീഡിയോ പ്രോസസ്സുചെയ്തില്ല. പിന്നീട് വീണ്ടും ശ്രമിക്കുക.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d പേർ കൂടി.</string>
+    <string name="expand_button_title">വിപുലമായത്</string>
     <string name="expires_future">%1$s-നുള്ളിൽ കാലഹരണപ്പെടും</string>
     <string name="expires_today">ഇന്ന് കാലഹരണപ്പെടും</string>
     <string name="export_download_error_title">ഡൗൺലോഡ് പിശക്</string>
@@ -706,6 +707,11 @@
     <string name="fab_office_document">പുതിയ Excel ഫയൽ</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">തിരയൽ ഫലങ്ങൾ</string>
+    <string name="fast_scroll_size_grouper_b">\"B\"</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">വളരെ പഴയത്</string>
     <string name="fast_scroll_time_grouper_last_week">കഴിഞ്ഞ ആഴ്‌ച</string>
     <string name="fast_scroll_time_grouper_this_month">ഈ മാസം തുടക്കത്തിൽ</string>
@@ -836,17 +842,8 @@
     <string name="make_copy_spinner_message">പകർത്തുന്നു...</string>
     <string name="manage_members_default_members">ഡിഫോൾട്ടായി, അംഗങ്ങൾക്ക് ഫയലുകൾ അപ്‌ലോഡുചെയ്യാനും/എഡിറ്റുചെയ്യാനും/ഇല്ലാതാക്കാനും മറ്റ് അംഗങ്ങളെ ക്ഷണിക്കാനുമാകും</string>
     <string name="manage_members_dialog_title">അംഗത്തിനുള്ള ആക്‌സസ്</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">സ്റ്റോറേജ്</string>
+    <string name="management_data_loading_failed">ഈ പേജ് ലോഡ് ചെയ്യാനാവില്ല.</string>
     <string name="menu_backup">ബായ്‌ക്കപ്പുകൾ</string>
     <string name="menu_copy_link">ലിങ്ക് പകർത്തുക</string>
     <string name="menu_create_shortcut">ഹോം സ്ക്രീനിൽ ചേർക്കുക</string>
@@ -1041,7 +1038,7 @@
     <string name="open_document_in_browser">ബ്രൗസറിൽ തുറക്കുക</string>
     <string name="open_folder_removed">തുറന്ന ഫോൾഡർ ഇപ്പോൾ കാണാനാകില്ല.</string>
     <string name="open_folder_trashed">%1$s ട്രാഷ് ചെയ്‌തു.</string>
-    <string name="open_in">%1$s-ൽ തുറക്കുക</string>
+    <string name="open_in">%1$s എന്നതിൽ തുറക്കുക</string>
     <string name="open_link">ലിങ്ക് പിന്തുടരുക</string>
     <string name="open_pinned_version">ഉപകരണത്തിൽ നിന്ന് തുറക്കുക</string>
     <string name="open_templates_picker_offline">ടെംപ്ലേറ്റുകൾ ഉപയോഗിക്കാൻ ഓൺലൈനിൽ പോകുക.</string>
@@ -1068,7 +1065,7 @@
     <string name="ouch_title_sawwrie">ഖേദിക്കുന്നു!</string>
     <string name="overwrite_confirm_dialog_message">%1$s നിലവിലുണ്ട്. തിരുത്തിയെഴുതണോ?</string>
     <string name="overwrite_confirm_dialog_positive_button_label">തിരുത്തിയെഴുതുക</string>
-    <string name="owner_not_user">%1$s എന്നയാളുടെ ഉടമസ്ഥതയിലല്ലാത്തത്</string>
+    <string name="owner_not_user">%1$s എന്നയാളുടെ ഉടമസ്ഥതയിൽ അല്ലാത്തത്</string>
     <string name="owner_user">%1$s എന്നയാളുടെ ഉടമസ്ഥതയിലുള്ളത്</string>
     <string name="page_1_description">ഇന്റർനെറ്റ് കണക്ഷൻ ഉപയോഗിച്ചോ അല്ലാതെയോ ഫയലുകൾ ചെയ്തുതീർക്കുക.</string>
     <string name="page_1_heading_editors">യാത്ര ചെയ്യുമ്പോൾ പോലും സ്‌പ്രെഡ്‌ഷീറ്റുകൾ</string>
@@ -1421,6 +1418,7 @@
     <string name="ritz_cannot_back_local_filter_with_named_range">കാഴ്‌ച മാത്രം മോഡിലായിരിക്കുമ്പോൾ നിങ്ങൾക്ക് പേരുനൽകിയിട്ടുള്ള ഒരു ശ്രേണിയെ ആശ്രയിച്ചുള്ള ഫിൽട്ടർ സൃഷ്‌ടിക്കാനാവില്ല.</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">നിങ്ങൾക്ക് ഷീറ്റ് പരിരക്ഷ ശ്രേണി പരിരക്ഷയിലേക്കും അതുപോലെ തിരിച്ചും മാറ്റാനാകില്ല.</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">നിലവിൽ ഒന്നിടവിട്ടുള്ള പശ്ചാത്തല വർണ്ണങ്ങളുള്ള ശ്രേണിയിൽ നിങ്ങൾക്ക് വീണ്ടും അത് ചേർക്കാനാവില്ല.</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">ഈ ഷീറ്റൊരു ഡാറ്റാബേസിലേക്ക് കണക്‌റ്റ് ചെയ്തിരിക്കുന്നതിനാൽ ഇതിലേക്ക് ഫിൽട്ടർ ചേർക്കാനാവില്ല. പകരം, ഒരു ഫിൽട്ടർ കാഴ്‌ച സൃഷ്ടിക്കുക.</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">ഇതിനകം തന്നെ ഒരു ഫിൽട്ടറുള്ള ഒരു ഷീറ്റിൽ നിങ്ങൾക്കൊരു ഫിൽട്ടർ സൃഷ്ടിക്കാനാകില്ല.</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">ലംബമായ ലയിപ്പിച്ചവ അടങ്ങിയിരിക്കുന്ന ഒരു ശ്രേണിയിൽ നിങ്ങൾക്ക് ഫിൽട്ടർ സൃഷ്‌ടിക്കാനാകില്ല.</string>
     <string name="ritz_cannot_create_filter_within_merge">ലയിപ്പച്ചവ അടങ്ങിയിരിക്കുന്ന ഒരു ശ്രേണിയിൽ നിങ്ങൾക്ക് ഫിൽട്ടർ സൃഷ്‌ടിക്കാനാകില്ല.</string>
@@ -1470,6 +1468,7 @@
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">ഒരു അടുക്കിയ ഫിൽട്ടർ കാഴ്‌ചയോടുകൂടിയ ശ്രേണിയിൽ ഈ പ്രവർത്തനം പിന്തുണയ്‌ക്കില്ല. ഫിൽറ്റർ കാഴ്‌ച പ്രവർത്തനരഹിതമാക്കിയിട്ട് വീണ്ടും ശ്രമിക്കുക.</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">ഫിൽട്ടർ ചെയ്‌ത വരിയുടെ ഒരു പരിധിയിൽ ഈ പ്രവർത്തനത്തെ പിന്തുണയ്ക്കില്ല.</string>
     <string name="ritz_cannot_pivot_drill_down">പിവറ്റ് ടേബിളിന്റെ ഭാഗമല്ലാത്തൊരു സെല്ലിന്റെ വിശദാംശങ്ങൾ നിങ്ങൾക്ക് കാണാൻ കഴിയുകയില്ല</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">ഈ ഷീറ്റൊരു ഡാറ്റാബേസിലേക്ക് കണക്‌റ്റ് ചെയ്തിരിക്കുന്നതിനാൽ പരിരക്ഷ ചേർക്കാനാവില്ല.</string>
     <string name="ritz_cannot_protect_deleted_sheet">നിങ്ങൾ പരിരക്ഷിക്കാൻ ശ്രമിക്കുന്ന ഷീറ്റ് ഇല്ലാതാക്കി.</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">അസാധുവായ ഫോർമുല ഉപയോഗിച്ച് റൂൾ സംരക്ഷിക്കാനാകില്ല.</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">ഈ ലയിപ്പിച്ച സെല്ലിൽ ഡാറ്റ സജ്ജമാക്കാനാവില്ല. നിങ്ങൾക്ക് സജീവ ഫിൽട്ടർ കാഴ്‌ച ഉണ്ടെങ്കിൽ, അത് നീക്കംചെയ്‌ത് ശ്രമിക്കുക.</string>
@@ -2004,7 +2003,6 @@
     <string name="ritz_generic_sheet_activated">%1$s ഷീറ്റ് സജീവമാക്കി.</string>
     <string name="ritz_get_pivot_table_message_for_average">ഓരോ %2$s എന്നതിനുമായുള്ള %1$s എന്നതിന്‍റെ ശരാശരി</string>
     <string name="ritz_get_pivot_table_message_for_count">ഓരോ %2$s എന്നതിനുമായുള്ള %1$s എന്നതിന്‍റെ എണ്ണം</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">ഓരോ %2$s എന്നതിനുമായുള്ള വ്യതിരിക്ത %1$s എന്നതിന്‍റെ എണ്ണം</string>
     <string name="ritz_get_pivot_table_message_for_sum">ഓരോ %2$s എന്നതിനുമായുള്ള %1$s എന്നതിന്‍റെ മൊത്തം</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">"നിരാകരണം: ഉദ്ധരണികള്‍ എല്ലാ വിപണികളിൽ നിന്നും ഉള്ളതല്ലാത്തതിനാൽ 20 മിനിറ്റ് വരെ വൈകാം. വിവരങ്ങൾ 'അതേ പടി' നൽകിയിരിക്കുന്നു, ഇവ വിവര ഉദ്ദേശ്യത്തിനുമാത്രമുള്ളതാണ്, വ്യാപാര ലക്ഷ്യങ്ങൾക്കോ ഉപദേശങ്ങൾക്കോ ഉള്ളതല്ല."</string>
@@ -2726,6 +2724,7 @@
     <string name="suggest_pin_dialog_positive_button">ഓഫ്‌ലൈനിൽ ലഭ്യമാക്കുക</string>
     <string name="suggest_pin_dialog_title">കണക്ഷനൊന്നുമില്ല</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, തിരഞ്ഞെടുത്തു</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Google ഷീറ്റ് സമന്വയ പിശക്</string>
     <string name="sync_more_error">അധിക ഇനങ്ങൾ വീണ്ടെടുക്കുന്നതിൽ പിശക്</string>
     <string name="sync_more_error_offline">ഓഫ്‌ലൈനായിരിക്കുമ്പോൾ ചില ഡോക്യുമെന്റുകൾ ലഭ്യമാകില്ല.</string>
@@ -2914,6 +2913,8 @@
     <string name="upsave_dialog_title">മാറ്റങ്ങൾ സംരക്ഷിക്കണോ?</string>
     <string name="upsell_negbtn">പിന്നീട്</string>
     <string name="upsell_okbtn">അപ്‌ഗ്രേഡ് ചെയ്യുക</string>
+    <string name="v7_preference_off">ഓഫ്</string>
+    <string name="v7_preference_on">ഓൺ</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{ഒരെണ്ണത്തിനൊഴികെ എല്ലാത്തിനും {VALUE}, {EXCEPTIONS}.}=2{രണ്ടെണ്ണത്തിനൊഴികെ എല്ലാത്തിനും {VALUE}, {EXCEPTIONS}.}=3{മൂന്നെണ്ണത്തിനൊഴികെ എല്ലാത്തിനും {VALUE}, {EXCEPTIONS}.}=4{നാലെണ്ണത്തിനൊഴികെ എല്ലാത്തിനും {VALUE}, {EXCEPTIONS}.}other{{NUMBER_OF_EXCEPTIONS} എന്നതിനൊഴികെ എല്ലാത്തിനും {VALUE}, {EXCEPTIONS}.}}</string>
     <string name="verbal_all_different">എല്ലാ മൂല്യങ്ങളും വ്യത്യസ്തമാണ്.</string>
     <string name="verbal_all_same">എല്ലാ മൂല്യങ്ങളും %1$s ആണ്.</string>
@@ -3100,8 +3101,9 @@
     <string name="warm_welcome_next_button">അടുത്തത്</string>
     <string name="warm_welcome_skip_button">ഒഴിവാക്കുക</string>
     <string name="warning_cannot_share_outside_domain">ഈ ടീം ഡ്രൈവിന്‍റെ ക്രമീകരണം, %s-ന് പുറത്ത് പങ്കിടുന്നത് തടയുന്നു</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">അംഗങ്ങൾ അല്ലാത്തവരുമായും %s ഡൊമെയ്‌നിന് പുറത്തും പങ്കിടുന്നത്, ഈ ടീം ഡ്രൈവിന്റെ ക്രമീകരണം തടയുന്നു.</string>
     <string name="warning_cannot_share_outside_domain_org">സ്ഥാപനത്തിന് പുറത്ത് പങ്കിടുന്നത് സ്ഥാപനത്തിന്‍റെ ക്രമീകരണം തടയുന്നു</string>
-    <string name="warning_cannot_share_outside_team_drive">ഈ ടീം ഡ്രൈവിന്‍റെ ക്രമീകരണം, ടീമിന് പുറത്ത് പങ്കിടുന്നത് തടയുന്നു</string>
+    <string name="warning_cannot_share_outside_team_drive">അംഗങ്ങൾ അല്ലാത്തവരുമായി പങ്കിടുന്നത്, ഈ ടീം ഡ്രൈവിന്റെ ക്രമീകരണം തടയുന്നു</string>
     <string name="warning_csv_edits_unsupported">ഫോർമാറ്റുചെയ്‌ത ഉള്ളടക്കം, ചാർട്ടുകൾ, ചിത്രങ്ങൾ, കൂടുതൽ ടാബുകൾ എന്നിവ ചേർക്കൻ, നിങ്ങളുടെ ഫയൽ ഒരു Google സ്‌പ്രെഡ്‌ഷീറ്റായി സംരക്ഷിക്കേണ്ടതുണ്ട്.</string>
     <string name="warning_sheet_add_unsupported">ഒരു പുതിയ ഷീറ്റ് ചേർക്കാൻ, നിങ്ങളുടെ ഫയൽ Google സ്‌പ്രെഡ്‌ഷീറ്റായി സംരക്ഷിക്കേണ്ടതുണ്ട്.</string>
     <string name="welcome_button_close">ഷീറ്റിലേക്ക് പോകുക</string>
@@ -3121,7 +3123,7 @@
     <string name="welcome_title_highlights">%1$s അറിയിപ്പ് പാനൽ.</string>
     <string name="write_access_denied">ഈ പ്രമാണത്തിലേക്കുള്ള എഴുതൽ ആക്സസ് നിരസിച്ചു.</string>
     <string name="zss_accessibility_searching">%1$s എന്നതിനായി തിരയുന്നു</string>
-    <string name="zss_date_range_header_title">പരിഷ്‌ക്കരിച്ചത്</string>
+    <string name="zss_date_range_header_title">പരിഷ്‌ക്കരിച്ച തീയതി</string>
     <string name="zss_date_range_month">കഴിഞ്ഞ 30 ദിവസം</string>
     <string name="zss_date_range_three_month">കഴിഞ്ഞ 90 ദിവസം</string>
     <string name="zss_date_range_today">ഇന്ന്</string>
@@ -3129,19 +3131,19 @@
     <string name="zss_date_range_yesterday">ഇന്നലെ</string>
     <string name="zss_entry_types_header_title">ഫയൽ തരങ്ങൾ</string>
     <string name="zss_no_filters">ഫിൽട്ടറുകളൊന്നുമില്ല</string>
-    <string name="zss_owner_header_title">ഉടമ</string>
+    <string name="zss_owner_header_title">ഉടമസ്ഥതയിലുള്ളത്</string>
     <string name="zss_owner_me">എന്റെ ഉടമസ്ഥതയിലുള്ളത്</string>
-    <string name="zss_owner_not_me">എന്റെ ഉടമസ്ഥതയിലല്ലാത്തത്</string>
+    <string name="zss_owner_not_me">എന്റെ ഉടമസ്ഥതയിൽ അല്ലാത്തത്</string>
     <string name="zss_people_header_title">ആളുകൾ</string>
     <string name="zss_showing_list_of_filters">ലഭ്യമായ ഫിൽട്ടറുകളുടെ ലിസ്റ്റ് കാണിക്കുന്നു.</string>
     <string name="zss_team_drive">%1$s ഡ്രൈവിൽ തിരയുക</string>
-    <string name="zss_type_archive">ആര്‍ക്കൈവുചെയ്യുക</string>
+    <string name="zss_type_archive">ശേഖരം</string>
     <string name="zss_type_audio">ഓഡിയോ</string>
-    <string name="zss_type_documents">ടെക്‌സ്‌റ്റ് പ്രമാണങ്ങൾ</string>
-    <string name="zss_type_folder">ഫോള്‍ഡറുകൾ</string>
+    <string name="zss_type_documents">വാചക പ്രമാണങ്ങൾ</string>
+    <string name="zss_type_folder">ഫോള്‍ഡറുകള്‍</string>
     <string name="zss_type_images">ഫോട്ടോകളും ചിത്രങ്ങളും</string>
-    <string name="zss_type_pdfs">PDF-കൾ</string>
-    <string name="zss_type_presentations">അവതരണങ്ങള്‍</string>
-    <string name="zss_type_spreadsheets">സ്‌പ്രെഡ്ഷീറ്റുകള്‍</string>
+    <string name="zss_type_pdfs">PDF-കള്‍</string>
+    <string name="zss_type_presentations">അവതരണങ്ങൾ</string>
+    <string name="zss_type_spreadsheets">സ്പ്രെഡ്ഷീറ്റുകള്‍</string>
     <string name="zss_type_video">വീഡിയോകൾ</string>
 </resources>

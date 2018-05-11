@@ -659,7 +659,7 @@
     <string name="empty_doclist_for_pinned_view_details">Омогућите коришћење датотека офлајн у менију са опцијама датотеке</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Додирните „Доступно офлајн“ у менију датотеке да бисте наставили да радите на њој офлајн.</string>
     <string name="empty_doclist_for_recent_view">Нема недавно отвараних ни измењених датотека.</string>
-    <string name="empty_doclist_for_search_view">Нема резултата.</string>
+    <string name="empty_doclist_for_search_view">Нема резултата</string>
     <string name="empty_doclist_for_shared_with_me_view">Датотеке које се деле са вама ће бити приказане овде.</string>
     <string name="empty_doclist_for_starred_view">Немате датотеке са звездицом.</string>
     <string name="empty_doclist_for_starred_view_details">Додирните икону звездице у менију са опцијама датотеке да бисте је додали на ову листу.</string>
@@ -708,6 +708,7 @@
     <string name="error_video_not_available">Видео није обрађен. Пробајте поново касније.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+ још %1$d.</string>
+    <string name="expand_button_title">Напредно</string>
     <string name="expires_future">Истиче за %1$s</string>
     <string name="expires_today">Истиче данас</string>
     <string name="export_download_error_title">Грешка при преузимању</string>
@@ -725,6 +726,11 @@
     <string name="fab_office_document">Нова Excel датотека</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d.</string>
     <string name="fast_scroll_search_result_grouper">Резултати претраге</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">kB</string>
+    <string name="fast_scroll_size_grouper_mb">МВ</string>
     <string name="fast_scroll_time_grouper_earlier">Старије</string>
     <string name="fast_scroll_time_grouper_last_week">Прошле недеље</string>
     <string name="fast_scroll_time_grouper_this_month">Раније овог месеца</string>
@@ -859,17 +865,8 @@
     <string name="manage_addons_playstore_link_description">Идите у Play продавницу за %s</string>
     <string name="manage_members_default_members">Чланови подразумевано могу да отпремају/измене/бришу датотеке и позивају друге чланове</string>
     <string name="manage_members_dialog_title">Приступ за чланове</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Меморијски простор</string>
+    <string name="management_data_loading_failed">Учитавање ове странице није успело</string>
     <string name="menu_backup">Резервне копије</string>
     <string name="menu_copy_link">Копирај линк</string>
     <string name="menu_create_shortcut">Додај на почетни</string>
@@ -1065,7 +1062,7 @@
     <string name="open_document_in_browser">Отвори у прегледачу</string>
     <string name="open_folder_removed">Више не можете погледати директоријум.</string>
     <string name="open_folder_trashed">%1$s је премештен у отпад.</string>
-    <string name="open_in">Отвори у %1$s</string>
+    <string name="open_in">Отворите у %1$s</string>
     <string name="open_link">Прати линк</string>
     <string name="open_pinned_version">Отвори са уређаја</string>
     <string name="open_templates_picker_offline">Идите онлајн да бисте користили шаблоне.</string>
@@ -1270,7 +1267,6 @@
     <string name="published_access_anyone">Свако може да види објављену верзију сајта</string>
     <string name="published_access_domain">Свако на %s може да види објављену верзију сајта</string>
     <string name="published_access_select_people">Одређени људи могу да виде објављену верзију сајта</string>
-    <string name="published_disabled_append">онемогућено,</string>
     <string name="published_message_for_anyone_can_edit">Пошто свако може да измени, свако може да види објављену верзију.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Пошто свако на %1$s може да измени, свако на %1$s може да види објављену верзију.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Пошто свако са линком може да измени, свако може да види објављену верзију.</string>
@@ -1446,6 +1442,7 @@
     <string name="ritz_cannot_back_local_filter_with_named_range">Не можете да направите филтер који зависи од именованог опсега када сте у режиму само за гледање.</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">Није могуће мењати заштиту табела у заштиту опсега или обрнуто.</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">Не можете да додате наизменичне боје позадине у опсег који их већ има.</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">Не можете да додате филтер у ову табелу зато што је повезана са базом података. Можете да направите приказ филтера.</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">Не можете да направите филтер у табели која већ има филтер.</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">Не можете да направите филтер за опсег који садржи вертикално обједињене ћелије.</string>
     <string name="ritz_cannot_create_filter_within_merge">Не можете да направите филтер у опсегу који садржи обједињене ћелије.</string>
@@ -1495,6 +1492,7 @@
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">Ова операција није подржана у опсегу са сортираним приказом филтера. Онемогућите приказ филтера и покушајте поново.</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">Ова операција није подржана у опсегу са редом који је искључен филтрирањем.</string>
     <string name="ritz_cannot_pivot_drill_down">Не можете да прикажете детаље ћелије која није унутар изведене табеле</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">Не можете да додате заштиту у ову табелу зато што је повезана са базом података.</string>
     <string name="ritz_cannot_protect_deleted_sheet">Табела коју покушавате да заштитите је избрисана.</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">Није могуће сачувати правило са неважећим формулом.</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">Не можете да поставите податке у ову обједињену ћелију. Ако имате приказ активног филтера, покушајте да га уклоните.</string>
@@ -2029,7 +2027,6 @@
     <string name="ritz_generic_sheet_activated">Табела %1$s је активирана.</string>
     <string name="ritz_get_pivot_table_message_for_average">Просек: %1$s за сваку колону %2$s</string>
     <string name="ritz_get_pivot_table_message_for_count">Број: %1$s за сваку колону %2$s</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">Број јединствених вредности колоне %1$s за сваку колону %2$s</string>
     <string name="ritz_get_pivot_table_message_for_sum">Збир: %1$s за сваку колону %2$s</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">Одрицање одговорности: Цене акција се не преузимају са свих тржишта и могу да касне до 20 минута. Информације се пружају „какве јесу“ и само за потребе информисања, а не као савет или у сврху трговине.</string>
@@ -2754,6 +2751,7 @@
     <string name="suggest_pin_dialog_positive_button">Учини доступним офлајн</string>
     <string name="suggest_pin_dialog_title">Веза није успостављена</string>
     <string name="suggested_name_selected_accessibility_announcement">Изабрана је особа %1$s</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Грешка у синхронизацији Google табела</string>
     <string name="sync_more_error">Грешка при преузимању додатних ставки</string>
     <string name="sync_more_error_offline">Неки документи можда неће бити видљиви офлајн.</string>
@@ -2942,6 +2940,8 @@
     <string name="upsave_dialog_title">Желите да сачувате промене?</string>
     <string name="upsell_negbtn">Касније</string>
     <string name="upsell_okbtn">Надогради</string>
+    <string name="v7_preference_off">ИСКЉУЧЕНО</string>
+    <string name="v7_preference_on">УКЉУЧЕНО</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{Све вредности су {VALUE} осим једне, {EXCEPTIONS}.}=2{Све вредности су {VALUE} осим две, {EXCEPTIONS}.}=3{Све вредности су {VALUE} осим три, {EXCEPTIONS}.}=4{Све вредности су {VALUE} осим четири, {EXCEPTIONS}.}one{Све вредности су {VALUE} осим {NUMBER_OF_EXCEPTIONS}, {EXCEPTIONS}.}few{Све вредности су {VALUE} осим {NUMBER_OF_EXCEPTIONS}, {EXCEPTIONS}.}other{Све вредности су {VALUE} осим {NUMBER_OF_EXCEPTIONS}, {EXCEPTIONS}.}}</string>
     <string name="verbal_all_different">Све вредности су различите.</string>
     <string name="verbal_all_same">Све вредности су %1$s.</string>
@@ -3128,8 +3128,9 @@
     <string name="warm_welcome_next_button">Даље</string>
     <string name="warm_welcome_skip_button">Прескочи</string>
     <string name="warning_cannot_share_outside_domain">Подешавања овог Диска тима не дозвољавају дељење ван %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Подешавања овог Диска тима не дозвољавају дељење ван %s и са корисницима који нису чланови</string>
     <string name="warning_cannot_share_outside_domain_org">Подешавања организације не дозвољавају дељење ван организације</string>
-    <string name="warning_cannot_share_outside_team_drive">Подешавања овог Диска тима не дозвољавају дељење ван тима</string>
+    <string name="warning_cannot_share_outside_team_drive">Подешавања овог Диска тима не дозвољавају дељење са корисницима који нису чланови</string>
     <string name="warning_csv_edits_unsupported">Да бисте додали форматирани садржај, графиконе, слике или додатне картице, морате да сачувате датотеку као Google табелу.</string>
     <string name="warning_sheet_add_unsupported">Да бисте додали нову табелу, морате да сачувате датотеку као Google табелу.</string>
     <string name="welcome_button_close">Иди у Табеле</string>
@@ -3164,7 +3165,7 @@
     <string name="zss_showing_list_of_filters">Приказана је листа доступних филтера.</string>
     <string name="zss_team_drive">Претражите у %1$s</string>
     <string name="zss_type_archive">Архива</string>
-    <string name="zss_type_audio">Аудио</string>
+    <string name="zss_type_audio">Звук</string>
     <string name="zss_type_documents">Текстуални документи</string>
     <string name="zss_type_folder">Директоријуми</string>
     <string name="zss_type_images">Фотографије и слике</string>

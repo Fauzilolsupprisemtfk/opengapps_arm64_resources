@@ -640,7 +640,7 @@
     <string name="empty_doclist_for_pinned_view_details">ফাইলের বিকল্প মেনু থেকে ফাইলগুলিকে \"অফলাইনে উপলব্ধ করুন\"</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">কোনো ফাইলের মেনুর মধ্যে \"অফলাইনে উপলব্ধ\" -তে আলতো চাপুন যাতে অফলাইনে আপনি এটিতে কাজ করতে পারেন।</string>
     <string name="empty_doclist_for_recent_view">কোনো সম্প্রতি খোলা বা সম্পাদিত ফাইল নেই৷</string>
-    <string name="empty_doclist_for_search_view">কোনো ফলাফল নেই।</string>
+    <string name="empty_doclist_for_search_view">কোনও ফলাফল নেই</string>
     <string name="empty_doclist_for_shared_with_me_view">আপনার সাথে শেয়ার করা ফাইলগুলি এখানে থাকবে৷</string>
     <string name="empty_doclist_for_starred_view">আপনার কোনো তারকাচিহ্নিত ফাইল নেই৷</string>
     <string name="empty_doclist_for_starred_view_details">"এটিকে এই তালিকাতে যোগ করতে ফাইলের বিকল্প মেনুতে থাকা 'তারাঙ্কিত করা' আইকনটিতে আলতো করে চাপ দিন৷"</string>
@@ -689,6 +689,7 @@
     <string name="error_video_not_available">ভিডিওর প্রক্রিয়াকরণ করা হয়নি৷ অনুগ্রহ করে পরে আবার চেষ্টা করুন৷</string>
     <string name="excess_head_count">+%1$d জন</string>
     <string name="excess_head_count_verbalization">+অন্যান্য %1$d জন৷</string>
+    <string name="expand_button_title">উন্নত</string>
     <string name="expires_future">%1$s এ মেয়াদ শেষ হবে</string>
     <string name="expires_today">আজ মেয়াদ শেষ হবে</string>
     <string name="export_download_error_title">ডাউনলোড ক্রটি</string>
@@ -706,6 +707,11 @@
     <string name="fab_office_document">নতুন Excel ফাইল</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">অনুসন্ধানের ফলাফল</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">পুরানো</string>
     <string name="fast_scroll_time_grouper_last_week">গত সপ্তাহে</string>
     <string name="fast_scroll_time_grouper_this_month">এই মাসের শুরুর দিকে</string>
@@ -836,17 +842,8 @@
     <string name="make_copy_spinner_message">কপি করা হচ্ছে…</string>
     <string name="manage_members_default_members">ডিফল্ট ভাবে, সদস্যরা ফাইলগুলিকে আপলোড/সম্পাদনা/মুছতে এবং অন্যান্য সদস্যদের আমন্ত্রণ জানাতে পারবেন</string>
     <string name="manage_members_dialog_title">সদস্যের অ্যাক্সেস</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">স্টোরেজ</string>
+    <string name="management_data_loading_failed">পৃষ্ঠাটি লোড করা যাচ্ছে না</string>
     <string name="menu_backup">ব্যাকআপ</string>
     <string name="menu_copy_link">লিঙ্ক কপি করুন</string>
     <string name="menu_create_shortcut">হোম স্ক্রীনে যোগ করুন</string>
@@ -1041,7 +1038,6 @@
     <string name="open_document_in_browser">ব্রাউজারের মধ্যে খুলুন</string>
     <string name="open_folder_removed">খোলা ফোল্ডারটি আর দেখা যাবে না৷</string>
     <string name="open_folder_trashed">%1$s ট্র্যাশে পাঠানো হয়েছে৷</string>
-    <string name="open_in">%1$s এ খুলুন</string>
     <string name="open_link">লিঙ্ক অনুসরণ করুন</string>
     <string name="open_pinned_version">ডিভাইস থেকে খুলুন</string>
     <string name="open_templates_picker_offline">টেমপ্লেটগুলি ব্যবহার করতে অনলাইনে যান।</string>
@@ -1068,8 +1064,6 @@
     <string name="ouch_title_sawwrie">দুঃখিত!</string>
     <string name="overwrite_confirm_dialog_message">ফাইলটি %1$s নামে রয়েছে। অন্য নাম লিখতে চান?</string>
     <string name="overwrite_confirm_dialog_positive_button_label">ওভাররাইট করুন</string>
-    <string name="owner_not_user">%1$s এর মালিকানাধীন নয়</string>
-    <string name="owner_user">%1$s এর মালিকানাধীন</string>
     <string name="page_1_description">ইন্টারনেটে সংযোগ থাকা অবস্থায় বা না থাকা অবস্থায় কাজগুলি সম্পন্ন করুন৷</string>
     <string name="page_1_heading_editors">যেতে যেতে স্প্রেডশীটগুলিতে কাজ করুন</string>
     <string name="page_2_description">আপনি নিজে লিখুন বা লেখার জন্য আরও ব্যক্তিগণকে আমন্ত্রণ জানান৷</string>
@@ -1395,7 +1389,7 @@
     <string name="ritz_banding_first_color_label">রঙ ১</string>
     <string name="ritz_banding_footer_label">পাদলেখ</string>
     <string name="ritz_banding_header_label">শিরোনাম</string>
-    <string name="ritz_banding_preset_suggestion_label">বিন্যাস শৈলী</string>
+    <string name="ritz_banding_preset_suggestion_label">বিন্যাস স্টাইল</string>
     <string name="ritz_banding_range_input_label">ব্যাপ্তিতে প্রয়োগ করুন</string>
     <string name="ritz_banding_remove_button_label">সরান</string>
     <string name="ritz_banding_second_color_label">রঙ ২</string>
@@ -1418,6 +1412,7 @@
     <string name="ritz_cannot_back_local_filter_with_named_range">কেবল দর্শনযোগ্য মোডে থাকাকালীন একটি নামাঙ্কিত ব্যাপ্তির উপর নির্ভর করে আপনি একটি ফিল্টার তৈরি করতে পারবেন না৷</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">পরিসর সুরক্ষা বা তদ্বিপরীতে আপনি পত্রক সুরক্ষা পরিবর্তন করতে পারবেন না৷</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">ইতিমধ্যেই পরিবর্তনশীল পটভূমির রঙ রয়েছে এমন একটি পরিসরের মধ্যে আপনি পরিবর্তনশীল পটভূমির রঙ যোগ করতে পারবেন না৷</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">এই শিটটি একটি ডেটাবেসের সাথে সংযুক্ত আছে, তাই আপনি এটিতে কোনও ফিল্টার যোগ করতে পারবেন না। এর বদলে ফিল্টার ভিউ তৈরি করে নিন।</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">আগে থেকেই ফিল্টার আছে এমন কোনও শিটে আপনি আর একটি ফিল্টার তৈরি করতে পারবেন না।</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">উল্লম্বভাবে মার্জ করা আছে এমন কোনো ব্যাপ্তির উপরে আপনি ফিল্টার তৈরি করতে পারবেন না৷</string>
     <string name="ritz_cannot_create_filter_within_merge">মার্জ করা আছে এমন কোনো ব্যাপ্তির মধ্যে আপনি ফিল্টার তৈরি করতে পারবেন না৷</string>
@@ -1467,6 +1462,7 @@
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">একটি সাজানো ফিল্টার দর্শন সহ ব্যাপ্তির মধ্যে এই ক্রিয়াকলাপটি সমর্থিত নয়৷ দয়া করে ফিল্টার দর্শন অক্ষম করে আবার চেষ্টা করুন৷</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">ফিল্টার করা সারি সহ একটি ব্যাপ্তির মধ্যে এই ক্রিয়াকলাপটি সমর্থিত নয়৷</string>
     <string name="ritz_cannot_pivot_drill_down">পিভট সারণীর অন্তর্ভুক্ত নয় এমন কক্ষের বিশদ বিবরণ দেখতে পাবেন না</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">এই শিটে সুরক্ষা যোগ করা যাবে না কারণ এটি ডেটাবেসের সাথে সংযুক্ত আছে।</string>
     <string name="ritz_cannot_protect_deleted_sheet">আপনি যে পত্রকটি রক্ষা করার চেষ্টা করছেন সেটি মুছে ফেলা হয়েছে।</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">অবৈধ সূত্র থাকায় নিয়মটির সংরক্ষণ করা যাবে না৷</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">মার্জ করা কক্ষে ডেটা সেট করা যায়নি৷ আপনার যদি কোনো সক্রিয় ফিল্টার দর্শন থাকে তাহলে সেটিকে সরানোর চেষ্টা করুন৷</string>
@@ -1638,7 +1634,7 @@
     <string name="ritz_conditional_formatting_edit_rule_dialog_title">একটি নিয়ম সম্পাদনা করুন</string>
     <string name="ritz_conditional_formatting_format_condition_subtitle">কক্ষগুলি বিন্যাস করুন যদি...</string>
     <string name="ritz_conditional_formatting_format_custom_style_subtitle">কাস্টম</string>
-    <string name="ritz_conditional_formatting_format_style_subtitle">বিন্যাস শৈলী</string>
+    <string name="ritz_conditional_formatting_format_style_subtitle">বিন্যাস স্টাইল</string>
     <string name="ritz_conditional_formatting_gradient_format_description">%1$s থেকে %2$s</string>
     <string name="ritz_conditional_formatting_maximum_value_color_button_indicator_description">সর্বোচ্চপয়েন্ট রঙের মান</string>
     <string name="ritz_conditional_formatting_midpoint_value_color_button_indicator_description">মিডপয়েন্ট রঙের মান</string>
@@ -2001,7 +1997,6 @@
     <string name="ritz_generic_sheet_activated">%1$s পত্রকটি সক্রিয় হয়েছে৷</string>
     <string name="ritz_get_pivot_table_message_for_average">প্রতিটি %2$s এর জন্য %1$s এর গড়</string>
     <string name="ritz_get_pivot_table_message_for_count">প্রতিটি %2$s এর জন্য %1$s এর গণনা</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">প্রতিটি %2$s এর জন্য স্বতন্ত্র %1$s এর গণনা</string>
     <string name="ritz_get_pivot_table_message_for_sum">প্রতিটি %2$s এর জন্য %1$s এর সমষ্টি</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">"অস্বীকৃতি: উদ্ধৃতিগুলি সমস্ত মার্কেটের সূত্র থেকে আসে না এবং আসতে ২০ মিনিট পর্যন্ত দেরি হতে পারে। তথ্য 'যেমন আছে তেমন হিসেবে' এবং শুধুমাত্র তথ্য সংক্রান্ত উদ্দ্যেশ্যেই সরবরাহ করা হয়, তা ব্যবসা সংক্রান্ত উদ্দেশ্য বা পরামর্শের জন্য নয়৷"</string>
@@ -2723,6 +2718,7 @@
     <string name="suggest_pin_dialog_positive_button">অফলাইনে উপলভ্য করুন</string>
     <string name="suggest_pin_dialog_title">কোনো সংযোগ নেই</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$sকে বেছে নেওয়া হয়েছে</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Google পত্রক সিংক্রোনাইজ করার ত্রুটি</string>
     <string name="sync_more_error">অতিরিক্ত আইটেমগুলি উদ্ধার করতে সমস্যা হয়েছে</string>
     <string name="sync_more_error_offline">অফলাইনে থাকাকালীন কিছু দস্তাবেজ দৃশ্যমান নাও হতে পারে৷</string>
@@ -2911,6 +2907,8 @@
     <string name="upsave_dialog_title">পরিবর্তনগুলি সংরক্ষণ করবেন?</string>
     <string name="upsell_negbtn">পরে</string>
     <string name="upsell_okbtn">আপগ্রেড করুন</string>
+    <string name="v7_preference_off">বন্ধ</string>
+    <string name="v7_preference_on">চালু</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{সব কটি হল {VALUE},একটি {EXCEPTIONS} ছারা।}=2{সব কটি হল {VALUE}, দুটি {EXCEPTIONS} ছারা।}=3{সব কটি হল {VALUE}, তিনটি {EXCEPTIONS} ছারা।}=4{সব কটি হল {VALUE}, চারটি {EXCEPTIONS} ছারা।}one{সব কটি হল {VALUE}, {NUMBER_OF_EXCEPTIONS}টি, {EXCEPTIONS} ছারা।}other{সব কটি হল {VALUE}, {NUMBER_OF_EXCEPTIONS}টি , {EXCEPTIONS} ছারা।}}</string>
     <string name="verbal_all_different">সব কটি মান আলাদা।</string>
     <string name="verbal_all_same">মানগুলির সবই হল %1$s।</string>
@@ -3093,7 +3091,6 @@
     <string name="warm_welcome_skip_button">এড়িয়ে যান</string>
     <string name="warning_cannot_share_outside_domain">এই টিম ড্রাইভের সেটিংস অনুযায়ী %s এর বাইরের কারও সাথে এটি শেয়ার করা যাবে না</string>
     <string name="warning_cannot_share_outside_domain_org">প্রতিষ্ঠানের সেটিংস অনুযায়ী প্রতিষ্ঠানের বাইরের কারও সাথে এটি শেয়ার করা যাবে না।</string>
-    <string name="warning_cannot_share_outside_team_drive">এই টিম ড্রাইভের সেটিংস অনুযায়ী টিমের বাইরের কারও সাথে এটি শেয়ার করা যাবে না</string>
     <string name="warning_csv_edits_unsupported">ফর্ম্যাট করা সামগ্রী, তালিকা, ছবি এবং অতিরিক্ত ট্যাবগুলি যোগ করার জন্য আপনাকে একটি Google স্প্রেডশীট হিসেবে আপনার ফাইল সংরক্ষণ করতে হবে৷</string>
     <string name="warning_sheet_add_unsupported">কোনো নতুন পত্রক যোগ করতে, আপনাকে একটি Google স্প্রেডশীট হিসেবে আপনার ফাইল সংরক্ষণ করতে হবে৷</string>
     <string name="welcome_button_close">পত্রকে যান</string>
@@ -3112,28 +3109,6 @@
     <string name="welcome_title_app_name">Google পত্রক</string>
     <string name="welcome_title_highlights">%1$s এর ঘোষণা প্যানেল।</string>
     <string name="write_access_denied">দস্তাবেজে লেখার অ্যাক্সেস অস্বীকৃত হয়েছে৷</string>
-    <string name="zss_accessibility_searching">%1$s খোঁজা হচ্ছে</string>
-    <string name="zss_date_range_header_title">তারিখ সংশোধন করা হয়েছে</string>
-    <string name="zss_date_range_month">গত ৩০ দিন</string>
-    <string name="zss_date_range_three_month">গত ৯০ দিন</string>
-    <string name="zss_date_range_today">আজ</string>
-    <string name="zss_date_range_week">গত ৭ দিন</string>
-    <string name="zss_date_range_yesterday">গতকাল</string>
-    <string name="zss_entry_types_header_title">ফাইলের প্রকারগুলি</string>
     <string name="zss_no_filters">কোনো ফিল্টার নেই</string>
-    <string name="zss_owner_header_title">এটার মালিকা</string>
-    <string name="zss_owner_me">আমি মালিক</string>
-    <string name="zss_owner_not_me">আমি মালিক নই</string>
-    <string name="zss_people_header_title">লোকজন</string>
     <string name="zss_showing_list_of_filters">উপলব্ধ ফিল্টারগুলির তালিকা দেখানো হচ্ছে৷</string>
-    <string name="zss_team_drive">%1$s এ খুঁজুন</string>
-    <string name="zss_type_archive">সেভ করুন</string>
-    <string name="zss_type_audio">অডিও</string>
-    <string name="zss_type_documents">পাঠ্য দস্তাবেজগুলি</string>
-    <string name="zss_type_folder">ফোল্ডারগুলি</string>
-    <string name="zss_type_images">ফটো ও ছবিগুলি</string>
-    <string name="zss_type_pdfs">PDFগুলি</string>
-    <string name="zss_type_presentations">উপস্থাপনাগুলি</string>
-    <string name="zss_type_spreadsheets">স্প্রেডশীটগুলি</string>
-    <string name="zss_type_video">ভিডিওগুলি</string>
 </resources>

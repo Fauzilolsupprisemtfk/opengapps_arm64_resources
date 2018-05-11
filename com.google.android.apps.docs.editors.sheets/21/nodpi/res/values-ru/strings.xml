@@ -707,6 +707,7 @@
     <string name="error_video_not_available">Видео не обработано. Повторите попытку позже.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">и ещё %1$d.</string>
+    <string name="expand_button_title">Дополнительно</string>
     <string name="expires_future">Доступно ещё %1$s</string>
     <string name="expires_today">Доступно сегодня</string>
     <string name="export_download_error_title">Ошибка</string>
@@ -724,6 +725,11 @@
     <string name="fab_office_document">Создать таблицу Excel</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Результаты поиска</string>
+    <string name="fast_scroll_size_grouper_b">Б</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">ГБ</string>
+    <string name="fast_scroll_size_grouper_kb">КБ</string>
+    <string name="fast_scroll_size_grouper_mb">МБ</string>
     <string name="fast_scroll_time_grouper_earlier">Более ранние</string>
     <string name="fast_scroll_time_grouper_last_week">На прошлой неделе</string>
     <string name="fast_scroll_time_grouper_this_month">В этом месяце</string>
@@ -870,17 +876,8 @@
     <string name="manage_addons_playstore_link_description">Найти дополнение \"%s\" в Play Маркете</string>
     <string name="manage_members_default_members">По умолчанию участники могут загружать/редактировать/удалять файлы и приглашать других пользователей</string>
     <string name="manage_members_dialog_title">Управление доступом</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Хранилище</string>
+    <string name="management_data_loading_failed">Не удалось загрузить страницу</string>
     <string name="menu_backup">Резервные копии</string>
     <string name="menu_copy_link">Копировать ссылку</string>
     <string name="menu_create_shortcut">На главный экран</string>
@@ -1103,7 +1100,7 @@
     <string name="ouch_title_sawwrie">Ошибка</string>
     <string name="overwrite_confirm_dialog_message">Файл \"%1$s\" уже существует. Перезаписать?</string>
     <string name="overwrite_confirm_dialog_positive_button_label">Да</string>
-    <string name="owner_not_user">Не принадлежат пользователю %1$s</string>
+    <string name="owner_not_user">Владелец: не %1$s</string>
     <string name="owner_user">Владелец: %1$s</string>
     <string name="page_1_description">Работайте даже без подключения к Интернету.</string>
     <string name="page_1_heading_editors">Таблицы, которые всегда под рукой</string>
@@ -1281,7 +1278,6 @@
     <string name="published_access_anyone">Просматривать опубликованную версию могут все</string>
     <string name="published_access_domain">Просматривать опубликованную версию могут все в домене %s</string>
     <string name="published_access_select_people">Просматривать опубликованную версию могут выбранные пользователи</string>
-    <string name="published_disabled_append">отключено,</string>
     <string name="published_message_for_anyone_can_edit">Поскольку вносить изменения разрешено всем, просматривать опубликованную версию смогут все в Интернете.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Поскольку вносить изменения разрешено всем в домене %1$s, просматривать опубликованную версию сможет любой пользователь домена %1$s.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Поскольку вносить изменения разрешено всем, у кого есть ссылка, просматривать опубликованную версию смогут все в Интернете.</string>
@@ -1457,6 +1453,7 @@
     <string name="ritz_cannot_back_local_filter_with_named_range">В режиме просмотра фильтр не может использовать именованный диапазон.</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">Защиту листа нельзя заменить защитой диапазона и наоборот.</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">Нельзя задать чередующиеся цвета фона в диапазоне, в котором они уже определены.</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">Добавить фильтр на этот лист нельзя, так как он связан с базой данных. Создайте режим фильтрации.</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">На листе можно создать только один фильтр.</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">Невозможно применить фильтр к диапазону, содержащему объединенные по вертикали ячейки.</string>
     <string name="ritz_cannot_create_filter_within_merge">Невозможно применить фильтр внутри диапазона, содержащего объединенные ячейки.</string>
@@ -1506,6 +1503,7 @@
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">Это действие невозможно выполнить в диапазоне, к которому применен фильтр. Отключите фильтр и повторите попытку.</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">Это действие нельзя выполнить, если к одной из строк диапазона применен фильтр.</string>
     <string name="ritz_cannot_pivot_drill_down">Невозможно показать сведения о ячейке, которая не входит в сводную таблицу</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">Невозможно защитить лист, так как он связан с базой данных.</string>
     <string name="ritz_cannot_protect_deleted_sheet">Лист, который вы пытаетесь защитить, удален.</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">Не удалось сохранить правило из-за неверной формулы.</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">Невозможно указать или изменить данные в объединенных ячейках. Удалите активный фильтр.</string>
@@ -2040,7 +2038,6 @@
     <string name="ritz_generic_sheet_activated">Выбран лист %1$s.</string>
     <string name="ritz_get_pivot_table_message_for_average">Среднее значений \"%1$s\" для каждого значения \"%2$s\"</string>
     <string name="ritz_get_pivot_table_message_for_count">Число значений \"%1$s\" для каждого значения \"%2$s\"</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">Число уникальных значений \"%1$s\" для каждого значения \"%2$s\"</string>
     <string name="ritz_get_pivot_table_message_for_sum">Сумма значений \"%1$s\" для каждого значения \"%2$s\"</string>
     <string name="ritz_google_category">Функции Google</string>
     <string name="ritz_google_finance_disclaimer">Отказ от обязательств: возможна задержка котировок до 20 минут. Информация предоставляется по принципу \"как есть\" исключительно для ознакомительных целей, не связанных с проведением торгов или консультированием.</string>
@@ -2765,6 +2762,7 @@
     <string name="suggest_pin_dialog_positive_button">Да</string>
     <string name="suggest_pin_dialog_title">Нет подключения к Интернету</string>
     <string name="suggested_name_selected_accessibility_announcement">Выбран пользователь %1$s</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Ошибка синхронизации Google Таблиц</string>
     <string name="sync_more_error">Ошибка загрузки</string>
     <string name="sync_more_error_offline">Некоторые документы невозможно посмотреть офлайн</string>
@@ -2953,6 +2951,8 @@
     <string name="upsave_dialog_title">Сохранить изменения?</string>
     <string name="upsell_negbtn">Позже</string>
     <string name="upsell_okbtn">Увеличить объем</string>
+    <string name="v7_preference_off">ВЫКЛ.</string>
+    <string name="v7_preference_on">ВКЛ.</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{Все значения: {VALUE}, 1  исключение: {EXCEPTIONS}.}=2{Все значения: {VALUE}, 2 исключения: {EXCEPTIONS}.}=3{Все значения: {VALUE}, 3 исключения: {EXCEPTIONS}.}=4{Все значения: {VALUE}, 4 исключения: {EXCEPTIONS}.}one{Все значения: {VALUE}, {NUMBER_OF_EXCEPTIONS} исключение: {EXCEPTIONS}.}few{Все значения: {VALUE}, {NUMBER_OF_EXCEPTIONS} исключения: {EXCEPTIONS}.}many{Все значения: {VALUE}, {NUMBER_OF_EXCEPTIONS} исключений: {EXCEPTIONS}.}other{Все значения: {VALUE}, {NUMBER_OF_EXCEPTIONS} исключения: {EXCEPTIONS}.}}</string>
     <string name="verbal_all_different">Все значения различны.</string>
     <string name="verbal_all_same">Все значения: %1$s.</string>
@@ -3140,7 +3140,6 @@
     <string name="warm_welcome_skip_button">Пропустить</string>
     <string name="warning_cannot_share_outside_domain">Объектами на этом общем диске нельзя делиться с пользователями за пределами домена %s.</string>
     <string name="warning_cannot_share_outside_domain_org">Администратор запретил делиться объектами с пользователями за пределами домена.</string>
-    <string name="warning_cannot_share_outside_team_drive">Объектами на этом общем диске можно делиться только с пользователями этого диска.</string>
     <string name="warning_csv_edits_unsupported">Чтобы добавить отформатированный контент, диаграммы, изображения или дополнительные вкладки, сохраните файл в виде таблицы Google.</string>
     <string name="warning_sheet_add_unsupported">Чтобы добавить новый лист, сохраните файл в виде таблицы Google.</string>
     <string name="welcome_button_close">Открыть Таблицы</string>
@@ -3160,7 +3159,7 @@
     <string name="welcome_title_highlights">%1$s. Панель оповещения.</string>
     <string name="write_access_denied">Вы больше не можете редактировать этот документ</string>
     <string name="zss_accessibility_searching">Ваш запрос: %1$s</string>
-    <string name="zss_date_range_header_title">Дата изменения</string>
+    <string name="zss_date_range_header_title">Последнее изменение</string>
     <string name="zss_date_range_month">За последние 30 дней</string>
     <string name="zss_date_range_three_month">За последние 90 дней</string>
     <string name="zss_date_range_today">Сегодня</string>
@@ -3171,14 +3170,14 @@
     <string name="zss_owner_header_title">Владелец</string>
     <string name="zss_owner_me">Только я</string>
     <string name="zss_owner_not_me">Другие пользователи</string>
-    <string name="zss_people_header_title">Пользователи</string>
+    <string name="zss_people_header_title">Люди</string>
     <string name="zss_showing_list_of_filters">Список доступных фильтров</string>
-    <string name="zss_team_drive">Где искать: %1$s</string>
-    <string name="zss_type_archive">Архив</string>
+    <string name="zss_team_drive">Искать на общем диске \"%1$s\"</string>
+    <string name="zss_type_archive">Архивы</string>
     <string name="zss_type_audio">Аудио</string>
     <string name="zss_type_documents">Текстовые документы</string>
     <string name="zss_type_folder">Папки</string>
-    <string name="zss_type_images">Фотографии и картинки</string>
+    <string name="zss_type_images">Изображения</string>
     <string name="zss_type_pdfs">Файлы PDF</string>
     <string name="zss_type_presentations">Презентации</string>
     <string name="zss_type_spreadsheets">Таблицы</string>

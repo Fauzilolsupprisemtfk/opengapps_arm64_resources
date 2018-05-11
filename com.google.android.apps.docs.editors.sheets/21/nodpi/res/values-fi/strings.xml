@@ -659,7 +659,7 @@ Kokeile tiedoston lähettämistä."</string>
     <string name="empty_doclist_for_pinned_view_details">Ota tiedostot käyttöön valitsemalla tiedoston valikosta Käytettävissä offline-tilassa.</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Voit jatkaa tiedoston käyttöä offline-tilassa, kun valitset tiedoston valikosta Käytettävissä offline-tilassa.</string>
     <string name="empty_doclist_for_recent_view">Äskettäin avattuja tai muokattuja tiedostoja ei ole.</string>
-    <string name="empty_doclist_for_search_view">Ei tuloksia.</string>
+    <string name="empty_doclist_for_search_view">Ei tuloksia</string>
     <string name="empty_doclist_for_shared_with_me_view">Sinulle jaetut tiedostot näkyvät tässä.</string>
     <string name="empty_doclist_for_starred_view">Sinulla ei ole tähdellä merkittyjä tiedostoja.</string>
     <string name="empty_doclist_for_starred_view_details">Lisää tiedosto tähän luetteloon napauttamalla tiedoston asetusvalikossa olevaa tähtikuvaketta.</string>
@@ -708,6 +708,7 @@ Luo uusi laskentataulukko klikkaamalla +."</string>
     <string name="error_video_not_available">Videota ei ole käsitelty. Yritä myöhemmin uudelleen.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d muuta.</string>
+    <string name="expand_button_title">Lisätiedot</string>
     <string name="expires_future">Aikaa jäljellä %1$s</string>
     <string name="expires_today">Vanhenee tänään</string>
     <string name="export_download_error_title">Latausvirhe</string>
@@ -725,6 +726,11 @@ Luo uusi laskentataulukko klikkaamalla +."</string>
     <string name="fab_office_document">Uusi Excel-tiedosto</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Hakutulokset</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">Gt</string>
+    <string name="fast_scroll_size_grouper_kb">kt</string>
+    <string name="fast_scroll_size_grouper_mb">Mt</string>
     <string name="fast_scroll_time_grouper_earlier">Vanhempi</string>
     <string name="fast_scroll_time_grouper_last_week">Viime viikolla</string>
     <string name="fast_scroll_time_grouper_this_month">Tässä kuussa</string>
@@ -859,17 +865,8 @@ Luo uusi laskentataulukko klikkaamalla +."</string>
     <string name="manage_addons_playstore_link_description">Siirry laajennuksen %s Play Kauppaan</string>
     <string name="manage_members_default_members">Jäsenet voivat oletuksena ladata, muokata ja poistaa tiedostoja ja kutsua muita jäseniä.</string>
     <string name="manage_members_dialog_title">Jäsenten oikeudet</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Tallennustila</string>
+    <string name="management_data_loading_failed">Sivun lataaminen epäonnistui.</string>
     <string name="menu_backup">Varmuuskopiot</string>
     <string name="menu_copy_link">Kopioi linkki</string>
     <string name="menu_create_shortcut">Lisää aloitusnäyt.</string>
@@ -1270,7 +1267,6 @@ Luo uusi laskentataulukko klikkaamalla +."</string>
     <string name="published_access_anyone">Kuka tahansa voi tarkastella julkaistaessa</string>
     <string name="published_access_domain">Kuka tahansa verkkotunnuksessa %s voi tarkastella julkaistaessa</string>
     <string name="published_access_select_people">Tietyt henkilöt voivat tarkastella julkaistaessa</string>
-    <string name="published_disabled_append">pois käytöstä</string>
     <string name="published_message_for_anyone_can_edit">Koska kaikki voivat muokata, kuka tahansa voi tarkastella julkaistua kohdetta.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Koska kaikki verkkotunnuksessa %1$s voivat muokata, kuka tahansa verkkotunnuksessa %1$s voi tarkastella julkaistua kohdetta.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Koska kaikki linkin saaneet voivat muokata, kuka tahansa voi tarkastella julkaistua kohdetta.</string>
@@ -1446,6 +1442,7 @@ Luo uusi laskentataulukko klikkaamalla +."</string>
     <string name="ritz_cannot_back_local_filter_with_named_range">Et voi luoda nimetystä välistä riippuvaista suodatinta, kun käytössä on vain luku -tila.</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">Et voi muuttaa taulukon suojausta alueen suojaukseksi tai päinvastoin.</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">Et voi lisätä vuorottelevia taustavärejä alueelle, jossa vuorottelevat taustavärit on jo valittu.</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">Et voi lisätä suodatinta tähän taulukkoon, koska se on liitetty tietokantaan. Voit sen sijaan luoda suodatinnäkymän.</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">Suodatinta ei voi luoda taulukkoon, jossa on jo suodatin.</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">Suodatinta ei voi luoda pystysuuntaisia yhdistettyjä osia sisältävälle välille.</string>
     <string name="ritz_cannot_create_filter_within_merge">Suodatinta ei voi luoda yhdistettyjä osia sisältävälle välille.</string>
@@ -1495,6 +1492,7 @@ Luo uusi laskentataulukko klikkaamalla +."</string>
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">Tätä toimintoa ei tueta, kun käytössä on lajiteltu suodatetun näkymän väli. Poista näkymän suodatin käytöstä ja yritä uudelleen.</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">Tätä toimintoa ei tueta, kun rivi on suodatettu väliltä.</string>
     <string name="ritz_cannot_pivot_drill_down">Et voi näyttää pivot-taulukkoon kuulumattoman solun tietoja.</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">Tähän taulukkoon ei voi lisätä suojausta, koska se on yhdistetty tietokantaan.</string>
     <string name="ritz_cannot_protect_deleted_sheet">Taulukko, jonka yrität suojata, on poistettu.</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">Sääntöä ei voi tallentaa, koska kaava on virheellinen.</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">Tämän yhdistetyn solun tietoja ei voi määrittää. Jos käytössä on aktiivinen suodatinnäkymä, kokeile poistaa se.</string>
@@ -2029,7 +2027,6 @@ Luo uusi laskentataulukko klikkaamalla +."</string>
     <string name="ritz_generic_sheet_activated">Taulukko %1$s aktivoitiin.</string>
     <string name="ritz_get_pivot_table_message_for_average">%1$s-arvojen keskiarvo jokaista %2$s-arvoa kohden</string>
     <string name="ritz_get_pivot_table_message_for_count">%1$s-arvojen lukumäärä %2$s-arvoa kohden</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">Erilaisten %1$s-arvojen lukumäärä jokaista %2$s-arvoa kohden</string>
     <string name="ritz_get_pivot_table_message_for_sum">%1$s-arvojen summa jokaista %2$s-arvoa kohden</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">Vastuuvapauslauseke: Tarjouksia ei hankita kaikilta markkinoilta ja niissä voi olla jopa 20 minuutin viive. Tiedot tarjotaan sellaisenaan ja vain tiedotustarkoituksessa, ei kaupankäyntiä tai neuvoja varten.</string>
@@ -2754,6 +2751,7 @@ Luo uusi laskentataulukko klikkaamalla +."</string>
     <string name="suggest_pin_dialog_positive_button">Ota käyttöön offline-tilassa</string>
     <string name="suggest_pin_dialog_title">Ei yhteyttä</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, valittu</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Google Sheetsin synkronointivirhe</string>
     <string name="sync_more_error">Virhe noudettaessa lisää kohteita</string>
     <string name="sync_more_error_offline">Kaikki dokumentit eivät välttämättä näy offline-tilassa.</string>
@@ -2942,6 +2940,8 @@ Luo uusi laskentataulukko klikkaamalla +."</string>
     <string name="upsave_dialog_title">Tallennetaanko muutokset?</string>
     <string name="upsell_negbtn">Myöhemmin</string>
     <string name="upsell_okbtn">Päivitä</string>
+    <string name="v7_preference_off">POIS PÄÄLTÄ</string>
+    <string name="v7_preference_on">PÄÄLLÄ</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{Kaikki ovat {VALUE} paitsi yksi, joka on {EXCEPTIONS}.}=2{Kaikki ovat {VALUE} paitsi kaksi, jotka ovat {EXCEPTIONS}.}=3{Kaikki ovat {VALUE} paitsi kolme, jotka ovat {EXCEPTIONS}.}=4{Kaikki ovat {VALUE} paitsi neljä, jotka ovat {EXCEPTIONS}.}other{Kaikki ovat {VALUE} paitsi {NUMBER_OF_EXCEPTIONS}, jotka ovat {EXCEPTIONS}.}}</string>
     <string name="verbal_all_different">Kaikki arvot eroavat toisistaan.</string>
     <string name="verbal_all_same">Kaikki arvot ovat %1$s.</string>
@@ -3128,8 +3128,9 @@ Luo uusi laskentataulukko klikkaamalla +."</string>
     <string name="warm_welcome_next_button">Seuraava</string>
     <string name="warm_welcome_skip_button">Ohita</string>
     <string name="warning_cannot_share_outside_domain">Tämän Tiimin Driven asetukset estävät jakamisen verkkotunnuksen %s ulkopuolelle</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Tämän Tiimin Driven asetukset estävät jakamisen verkkotunnuksen %s ulkopuolelle ja muille kuin jäsenille.</string>
     <string name="warning_cannot_share_outside_domain_org">Organisaation asetukset estävät jakamisen organisaation ulkopuolelle</string>
-    <string name="warning_cannot_share_outside_team_drive">Tämän Tiimin Driven asetukset estävät jakamisen tiimin ulkopuolelle</string>
+    <string name="warning_cannot_share_outside_team_drive">Tämän Tiimin Driven asetukset estävät jakamisen muille kuin jäsenille</string>
     <string name="warning_csv_edits_unsupported">Jos haluat lisätä tiedostoon muotoiltua sisältöä, kaavioita, kuvia tai ylimääräisiä välilehtiä, se täytyy tallentaa Google-laskentataulukkona.</string>
     <string name="warning_sheet_add_unsupported">Jos haluat lisätä tiedostoon uuden taulukon, tiedosto täytyy tallentaa Google-laskentataulukkona.</string>
     <string name="welcome_button_close">Siirry Sheetsiin</string>
@@ -3150,16 +3151,16 @@ Luo uusi laskentataulukko klikkaamalla +."</string>
     <string name="write_access_denied">Asiakirjan kirjoitusoikeus estetty.</string>
     <string name="zss_accessibility_searching">Haetaan lausekkeella %1$s</string>
     <string name="zss_date_range_header_title">Muokkauspäivä</string>
-    <string name="zss_date_range_month">Viimeiset 30 päivää</string>
-    <string name="zss_date_range_three_month">Viimeiset 90 päivää</string>
+    <string name="zss_date_range_month">Viimeiset 30 päivää</string>
+    <string name="zss_date_range_three_month">Viimeiset 90 päivää</string>
     <string name="zss_date_range_today">Tänään</string>
-    <string name="zss_date_range_week">Viimeiset 7 päivää</string>
+    <string name="zss_date_range_week">Viimeiset 7 päivää</string>
     <string name="zss_date_range_yesterday">Eilen</string>
     <string name="zss_entry_types_header_title">Tiedostotyypit</string>
     <string name="zss_no_filters">Ei suodattimia</string>
     <string name="zss_owner_header_title">Omistaja:</string>
-    <string name="zss_owner_me">Omistaja: minä</string>
-    <string name="zss_owner_not_me">Omistaja: muu kuin minä</string>
+    <string name="zss_owner_me">Omistamani</string>
+    <string name="zss_owner_not_me">Jonkun muun kuin minun omistama</string>
     <string name="zss_people_header_title">Henkilöt</string>
     <string name="zss_showing_list_of_filters">Näytetään luettelo käytettävissä olevista suodattimista.</string>
     <string name="zss_team_drive">Hae Tiimin Drivesta %1$s</string>

@@ -659,7 +659,7 @@ Essayez d'y téléverser un fichier."</string>
     <string name="empty_doclist_for_pinned_view_details">Vous pouvez rendre les fichiers disponibles hors connexion dans le menu Options de ces fichiers</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">"Appuyez sur « Disponible hors connexion » dans le menu d'un fichier pour pouvoir continuer d'y travailler hors connexion."</string>
     <string name="empty_doclist_for_recent_view">Aucun fichier ouvert ou modifié récemment.</string>
-    <string name="empty_doclist_for_search_view">Aucun résultat.</string>
+    <string name="empty_doclist_for_search_view">Aucun résultat</string>
     <string name="empty_doclist_for_shared_with_me_view">"Les fichiers partagés avec vous s'afficheront ici."</string>
     <string name="empty_doclist_for_starred_view">"Vous n'avez aucun fichier marqué d'une étoile."</string>
     <string name="empty_doclist_for_starred_view_details">"Appuyez sur l'icône en forme d'étoile dans le menu Options du fichier pour l'ajouter à cette liste."</string>
@@ -708,6 +708,7 @@ Cliquez sur + pour créer une feuille."</string>
     <string name="error_video_not_available">"La vidéo n'a pas été traitée. Veuillez réessayer plus tard."</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d autres collaborateurs.</string>
+    <string name="expand_button_title">Avancé</string>
     <string name="expires_future">Expire dans %1$s</string>
     <string name="expires_today">"Expire aujourd'hui"</string>
     <string name="export_download_error_title">Erreur de téléchargement</string>
@@ -725,6 +726,11 @@ Cliquez sur + pour créer une feuille."</string>
     <string name="fab_office_document">Nouveau fichier Excel</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Résultats de rech.</string>
+    <string name="fast_scroll_size_grouper_b">O</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">Go</string>
+    <string name="fast_scroll_size_grouper_kb">ko</string>
+    <string name="fast_scroll_size_grouper_mb">Mo</string>
     <string name="fast_scroll_time_grouper_earlier">Plus anciens</string>
     <string name="fast_scroll_time_grouper_last_week">Semaine dernière</string>
     <string name="fast_scroll_time_grouper_this_month">Plus tôt ce mois</string>
@@ -859,6 +865,8 @@ Cliquez sur + pour créer une feuille."</string>
     <string name="manage_addons_playstore_link_description">Accéder à la page de %s dans la boutique Google Play Store</string>
     <string name="manage_members_default_members">"Droits par défaut : téléverser, modifier et supprimer des fichiers; inviter d'autres membres"</string>
     <string name="manage_members_dialog_title">Accès des membres</string>
+    <string name="management_activity_toolbar_title">Stockage</string>
+    <string name="management_data_loading_failed">Impossible de charger cette page</string>
     <string name="menu_backup">Sauvegardes</string>
     <string name="menu_copy_link">Copier le lien</string>
     <string name="menu_create_shortcut">Aj. à écr. accueil</string>
@@ -1081,8 +1089,8 @@ Cliquez sur + pour créer une feuille."</string>
     <string name="ouch_title_sawwrie">Désolés!</string>
     <string name="overwrite_confirm_dialog_message">"Le fichier %1$s existe déjà. Voulez-vous l'écraser?"</string>
     <string name="overwrite_confirm_dialog_positive_button_label">Écraser</string>
-    <string name="owner_not_user">"N'appartient pas à %1$s"</string>
-    <string name="owner_user">Appartient à %1$s</string>
+    <string name="owner_not_user">"N'appartenant pas à %1$s"</string>
+    <string name="owner_user">Appartenant à %1$s</string>
     <string name="page_1_description">Travaillez avec ou sans connexion Internet.</string>
     <string name="page_1_heading_editors">Feuilles de calcul en déplacement</string>
     <string name="page_2_description">"Travaillez seul(e) ou invitez d'autres utilisateurs à collaborer sur un fichier."</string>
@@ -1258,7 +1266,6 @@ Cliquez sur + pour créer une feuille."</string>
     <string name="published_access_anyone">Consultation de la version publiée autorisée pour tous</string>
     <string name="published_access_domain">Consultation de la version publiée autorisée pour tout utilisateur de %s</string>
     <string name="published_access_select_people">Consultation de la version publiée autorisée pour des personnes précises</string>
-    <string name="published_disabled_append">désactivée,</string>
     <string name="published_message_for_anyone_can_edit">Comme tous les utilisateurs peuvent apporter des modifications, tous les utilisateurs pourront consulter la version publiée.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Comme tous les membres du domaine %1$s peuvent apporter des modifications, tous les membres du domaine %1$s sont autorisés à consulter la version publiée.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Comme tous les utilisateurs disposant du lien peuvent apporter des modifications, tous les utilisateurs pourront consulter la version publiée.</string>
@@ -1434,6 +1441,7 @@ Cliquez sur + pour créer une feuille."</string>
     <string name="ritz_cannot_back_local_filter_with_named_range">Vous ne pouvez pas associer un filtre à une plage nommée en mode affichage seul.</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">Vous ne pouvez pas faire passer la protection de la feuille à la protection de la plage, et inversement.</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">"Vous ne pouvez pas ajouter de couleurs d'arrière-plan en alternance à une plage qui en possède déjà."</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">Vous ne pouvez pas ajouter de filtre à cette feuille, car elle est associée à une base de données. Veuillez plutôt créer un affichage filtré.</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">Vous ne pouvez pas créer de filtre dans une feuille qui présente déjà un filtre.</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">Vous ne pouvez pas créer de filtre pour une plage comportant des cellules fusionnées verticalement.</string>
     <string name="ritz_cannot_create_filter_within_merge">Vous ne pouvez pas créer de filtre pour une plage comportant des cellules fusionnées.</string>
@@ -1483,6 +1491,7 @@ Cliquez sur + pour créer une feuille."</string>
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">"Cette opération n'est pas prise en charge sur une plage avec un affichage filtré trié. Veuillez désactiver l'affichage filtré et réessayer."</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">"Cette opération n'est pas prise en charge sur une plage avec une ligne filtrée."</string>
     <string name="ritz_cannot_pivot_drill_down">"Vous ne pouvez pas afficher les détails d'une cellule qui ne fait pas partie d'un tableau croisé"</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">"Impossible d'ajouter une protection à cette feuille, car elle est associée à une base de données."</string>
     <string name="ritz_cannot_protect_deleted_sheet">La feuille que vous voulez protéger a été supprimée.</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">"Impossible d'enregistrer la règle avec une formule incorrecte."</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">"Impossible de définir des données dans cette cellule fusionnée. Si vous disposez d'un filtre actif, essayez de le supprimer."</string>
@@ -1529,7 +1538,7 @@ Cliquez sur + pour créer une feuille."</string>
     <string name="ritz_chart_legend_position_inside">Intérieur</string>
     <string name="ritz_chart_legend_position_labeled">Libellés</string>
     <string name="ritz_chart_legend_position_left">À gauche</string>
-    <string name="ritz_chart_legend_position_none">Aucun</string>
+    <string name="ritz_chart_legend_position_none">Aucune</string>
     <string name="ritz_chart_legend_position_right">À droite</string>
     <string name="ritz_chart_legend_position_top">En haut</string>
     <string name="ritz_chart_legend_right_position_disabled_help">"La légende ne peut pas être placée à droite pour ce graphique, soit parce que le graphique est affiché en taille maximale, soit parce que l'axe droit comporte des données."</string>
@@ -1727,7 +1736,7 @@ Cliquez sur + pour créer une feuille."</string>
     <string name="ritz_conditional_option_less_than_eq">Inférieur ou égal à %1$s</string>
     <string name="ritz_conditional_option_less_than_eq_default_label">Inférieur(e) ou égal(e) à</string>
     <string name="ritz_conditional_option_less_than_eq_instruction">Saisissez un nombre inférieur ou égal à %1$s</string>
-    <string name="ritz_conditional_option_none_default_label">Aucun</string>
+    <string name="ritz_conditional_option_none_default_label">Aucune</string>
     <string name="ritz_conditional_option_not_between">"N'est pas compris entre %1$s et %2$s"</string>
     <string name="ritz_conditional_option_not_between_default_label">N’est pas compris entre</string>
     <string name="ritz_conditional_option_not_between_instruction">"Saisissez un nombre qui n'est pas compris entre %1$s et %2$s"</string>
@@ -2017,7 +2026,6 @@ Cliquez sur + pour créer une feuille."</string>
     <string name="ritz_generic_sheet_activated">La feuille %1$s est activée.</string>
     <string name="ritz_get_pivot_table_message_for_average">Moyenne de la colonne %1$s pour chaque colonne %2$s</string>
     <string name="ritz_get_pivot_table_message_for_count">"Nombre d'éléments de la colonne %1$s pour chaque colonne %2$s"</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">"Nombre d'éléments distincts de la colonne %1$s pour chaque %2$s"</string>
     <string name="ritz_get_pivot_table_message_for_sum">Somme de la colonne %1$s pour chaque colonne %2$s</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">"Clause de non-responsabilité : Les cours des actions ne proviennent pas de tous les marchés et peuvent être différés d'une durée allant jusqu'à 20 minutes. Les renseignements sont fournis « en l'état », uniquement à titre d'information, et non à des fins commerciales ou de conseils."</string>
@@ -2742,6 +2750,7 @@ Cliquez sur + pour créer une feuille."</string>
     <string name="suggest_pin_dialog_positive_button">Rendre disponible hors connexion</string>
     <string name="suggest_pin_dialog_title">Aucune connexion</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, sélectionné(e)</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Erreur de synchronisation de Google Feuilles de calcul.</string>
     <string name="sync_more_error">Une erreur est survenue lors de la récupération d’éléments supplémentaires</string>
     <string name="sync_more_error_offline">Certains documents pourraient ne pas être visibles hors connexion.</string>
@@ -2930,6 +2939,8 @@ Cliquez sur + pour créer une feuille."</string>
     <string name="upsave_dialog_title">Enregistrer les modifications?</string>
     <string name="upsell_negbtn">Plus tard</string>
     <string name="upsell_okbtn">"Augmenter l'espace de stockage"</string>
+    <string name="v7_preference_off">DÉSACTIVÉ</string>
+    <string name="v7_preference_on">ACTIVÉ</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{Toutes les valeurs sont {VALUE}, sauf une : {EXCEPTIONS}.}=2{Toutes les valeurs sont {VALUE}, sauf deux : {EXCEPTIONS}.}=3{Toutes les valeurs sont {VALUE}, sauf trois : {EXCEPTIONS}.}=4{Toutes les valeurs sont {VALUE}, sauf quatre : {EXCEPTIONS}.}one{Toutes les valeurs sont {VALUE}, sauf {NUMBER_OF_EXCEPTIONS}, {EXCEPTIONS}.}other{Toutes les valeurs sont {VALUE}, sauf {NUMBER_OF_EXCEPTIONS}, {EXCEPTIONS}.}}</string>
     <string name="verbal_all_different">Toutes les valeurs sont différentes.</string>
     <string name="verbal_all_same">Toutes les valeurs sont %1$s.</string>
@@ -3116,6 +3127,7 @@ Cliquez sur + pour créer une feuille."</string>
     <string name="warm_welcome_next_button">Suivant</string>
     <string name="warm_welcome_skip_button">Ignorer</string>
     <string name="warning_cannot_share_outside_domain">"Les paramètres de ce disque d'équipe empêchent le partage en dehors du domaine %s"</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">"Les paramètres de ce disque d'équipe empêchent le partage en dehors de l'équipe et du domaine %s"</string>
     <string name="warning_cannot_share_outside_domain_org">"Les paramètres de l'organisation empêchent le partage en dehors de celle-ci"</string>
     <string name="warning_cannot_share_outside_team_drive">"Les paramètres de ce disque d'équipe empêchent le partage en dehors de l'équipe"</string>
     <string name="warning_csv_edits_unsupported">Pour ajouter du contenu formaté, des graphiques, des images ou des onglets supplémentaires, vous devez enregistrer votre fichier au format Google Feuilles de calcul.</string>
@@ -3137,7 +3149,7 @@ Cliquez sur + pour créer une feuille."</string>
     <string name="welcome_title_highlights">"Panneau d'annonce %1$s."</string>
     <string name="write_access_denied">Accès en écriture au document refusé.</string>
     <string name="zss_accessibility_searching">Recherche de %1$s en cours…</string>
-    <string name="zss_date_range_header_title">Date modifiée</string>
+    <string name="zss_date_range_header_title">Date de modification</string>
     <string name="zss_date_range_month">30 derniers jours</string>
     <string name="zss_date_range_three_month">90 derniers jours</string>
     <string name="zss_date_range_today">"Aujourd'hui"</string>
@@ -3146,12 +3158,12 @@ Cliquez sur + pour créer une feuille."</string>
     <string name="zss_entry_types_header_title">Types de fichiers</string>
     <string name="zss_no_filters">Aucun filtre</string>
     <string name="zss_owner_header_title">Appartenant à</string>
-    <string name="zss_owner_me">Créé(s) par moi</string>
+    <string name="zss_owner_me">"M'appartenant"</string>
     <string name="zss_owner_not_me">"Ne m'appartenant pas"</string>
     <string name="zss_people_header_title">Personnes</string>
     <string name="zss_showing_list_of_filters">Affichage de la liste de filtres disponibles.</string>
     <string name="zss_team_drive">Rechercher dans %1$s</string>
-    <string name="zss_type_archive">Archiver</string>
+    <string name="zss_type_archive">Archive</string>
     <string name="zss_type_audio">Audio</string>
     <string name="zss_type_documents">Documents texte</string>
     <string name="zss_type_folder">Dossiers</string>

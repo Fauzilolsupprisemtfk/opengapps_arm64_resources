@@ -659,7 +659,7 @@ Prova de pujar un fitxer."</string>
     <string name="empty_doclist_for_pinned_view_details">"Aneu al menú d'opcions dels fitxers i feu que estiguin disponibles sense connexió"</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">"Al menú d'un fitxer, toqueu Disponible sense connexió per poder continuar treballant-hi fora de línia."</string>
     <string name="empty_doclist_for_recent_view">No hi cap fitxer obert o editat recentment.</string>
-    <string name="empty_doclist_for_search_view">No hi ha resultats.</string>
+    <string name="empty_doclist_for_search_view">"No s'ha trobat cap resultat"</string>
     <string name="empty_doclist_for_shared_with_me_view">Els fitxers compartits es mostraran aquí.</string>
     <string name="empty_doclist_for_starred_view">No tens cap fitxer destacat.</string>
     <string name="empty_doclist_for_starred_view_details">"Toca la icona d'estrella al menú d'opcions del fitxer per afegir-lo en aquesta llista."</string>
@@ -708,6 +708,7 @@ Fes clic a + per crear un full de càlcul."</string>
     <string name="error_video_not_available">"El vídeo no s'ha processat. Torneu-ho a provar més tard."</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">I %1$d més</string>
+    <string name="expand_button_title">Opcions avançades</string>
     <string name="expires_future">"Caduca d'aquí a %1$s"</string>
     <string name="expires_today">Caduca avui</string>
     <string name="export_download_error_title">Error de baixada</string>
@@ -725,6 +726,11 @@ Fes clic a + per crear un full de càlcul."</string>
     <string name="fab_office_document">"Fitxer d'Excel nou"</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Resultats de la cerca</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">kB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Anterior</string>
     <string name="fast_scroll_time_grouper_last_week">La setmana passada</string>
     <string name="fast_scroll_time_grouper_this_month">A principis de mes</string>
@@ -859,17 +865,8 @@ Fes clic a + per crear un full de càlcul."</string>
     <string name="manage_addons_playstore_link_description">Obre %s a Play Store</string>
     <string name="manage_members_default_members">Per defecte, els membres poden penjar, editar i suprimir fitxers, així com convidar altres membres</string>
     <string name="manage_members_dialog_title">Accés dels membres</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Emmagatzematge</string>
+    <string name="management_data_loading_failed">No es pot carregar aquesta pàgina</string>
     <string name="menu_backup">Còpies de seguretat</string>
     <string name="menu_copy_link">"Copia l'enllaç"</string>
     <string name="menu_create_shortcut">Afegeix a Inici</string>
@@ -1092,8 +1089,8 @@ Fes clic a + per crear un full de càlcul."</string>
     <string name="ouch_title_sawwrie">Error inesperat</string>
     <string name="overwrite_confirm_dialog_message">"El fitxer %1$s ja existeix. Vols sobreescriure'l?"</string>
     <string name="overwrite_confirm_dialog_positive_button_label">Sobreescriu</string>
-    <string name="owner_not_user">No pertanyen a %1$s</string>
-    <string name="owner_user">Pertanyen a %1$s</string>
+    <string name="owner_not_user">No són propietat de %1$s</string>
+    <string name="owner_user">Propietat de %1$s</string>
     <string name="page_1_description">Treballeu amb o sense connexió a Internet.</string>
     <string name="page_1_heading_editors">Fulls de càlcul sigueu on sigueu</string>
     <string name="page_2_description">Escriviu sols o en col·laboració amb altres persones.</string>
@@ -1270,7 +1267,6 @@ Fes clic a + per crear un full de càlcul."</string>
     <string name="published_access_anyone">Tothom pot veure la versió publicada</string>
     <string name="published_access_domain">Tothom del domini %s pot veure la versió publicada</string>
     <string name="published_access_select_people">Només persones concretes poden veure la versió publicada</string>
-    <string name="published_disabled_append">desactivat,</string>
     <string name="published_message_for_anyone_can_edit">Com que tothom pot editar, també tothom pot veure la versió publicada.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">"Com que tothom del domini %1$s pot editar l'esborrany, tothom del domini %1$s pot veure'n la versió publicada."</string>
     <string name="published_message_for_anyone_with_link_can_edit">"Com que tothom que tingui l'enllaç pot editar, també tothom pot veure la versió publicada."</string>
@@ -1446,6 +1442,7 @@ Fes clic a + per crear un full de càlcul."</string>
     <string name="ritz_cannot_back_local_filter_with_named_range">"No es pot fer que un filtre depengui d'un interval amb nom en mode només de lectura."</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">"No podeu canviar la protecció de full a la protecció d'interval ni viceversa."</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">No podeu afegir colors de fons alterns a un interval que ja en tingui.</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">No pots afegir un filtre a aquest full perquè està connectat a una base de dades. Prova de crear una visualització de filtre.</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">No pots crear un filtre en un full que ja en té un.</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">No es pot crear cap filtre per a un interval que conté combinacions verticals.</string>
     <string name="ritz_cannot_create_filter_within_merge">"No es pot crear cap filtre dins d'un interval que conté combinacions."</string>
@@ -1495,6 +1492,7 @@ Fes clic a + per crear un full de càlcul."</string>
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">No es pot realitzar aquesta acció en un interval amb una visualització amb filtre ordenada. Desactiveu la visualització amb filtre i torneu-ho a provar.</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">No es pot realitzar aquesta acció en un interval amb una fila filtrada per excloure-la.</string>
     <string name="ritz_cannot_pivot_drill_down">"No es poden mostrar dades detallades d'una cel·la que no formi part d'una taula dinàmica"</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">No pots afegir protecció a aquest full perquè està connectat a una base de dades.</string>
     <string name="ritz_cannot_protect_deleted_sheet">"El full que voleu protegir s'ha suprimit."</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">No es pot desar la regla que té una fórmula no vàlida.</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">No es poden definir les dades en aquesta cel·la combinada. Si teniu activada una visualització de filtre, desactiveu-la.</string>
@@ -2029,7 +2027,6 @@ Fes clic a + per crear un full de càlcul."</string>
     <string name="ritz_generic_sheet_activated">"S'ha activat el full %1$s."</string>
     <string name="ritz_get_pivot_table_message_for_average">Mitjana de la columna %1$s per a cada %2$s</string>
     <string name="ritz_get_pivot_table_message_for_count">Recompte de la columna %1$s per a cada %2$s</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">Recompte dels valors diferents de la columna %1$s per a cada %2$s</string>
     <string name="ritz_get_pivot_table_message_for_sum">Suma de la columna %1$s per a cada %2$s</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">"Avís d'exempció de responsabilitat: les cotitzacions no s'obtenen de tots els mercats i poden presentar retards de fins a 20 minuts. La informació se subministra \"tal com és\", només amb finalitat informativa i sense cap objectiu comercial o d'assessorament."</string>
@@ -2754,6 +2751,7 @@ Fes clic a + per crear un full de càlcul."</string>
     <string name="suggest_pin_dialog_positive_button">Disponible sense connexió</string>
     <string name="suggest_pin_dialog_title">Sense connexió</string>
     <string name="suggested_name_selected_accessibility_announcement">"S'ha seleccionat %1$s"</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Error de sincronització a Fulls de càlcul de Google</string>
     <string name="sync_more_error">"S'ha produït un error en recuperar elements addicionals."</string>
     <string name="sync_more_error_offline">És possible que alguns documents no es puguin veure sense connexió.</string>
@@ -2942,6 +2940,8 @@ Fes clic a + per crear un full de càlcul."</string>
     <string name="upsave_dialog_title">Voleu desar els canvis?</string>
     <string name="upsell_negbtn">Més tard</string>
     <string name="upsell_okbtn">Actualitza</string>
+    <string name="v7_preference_off">DESACTIVAT</string>
+    <string name="v7_preference_on">ACTIVAT</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{Tots els valors són {VALUE} excepte un: {EXCEPTIONS}.}=2{Tots els valors són {VALUE} excepte dos: {EXCEPTIONS}.}=3{Tots els valors són {VALUE} excepte tres: {EXCEPTIONS}.}=4{Tots els valors són {VALUE} excepte quatre: {EXCEPTIONS}.}other{Tots els valors són {VALUE} excepte {NUMBER_OF_EXCEPTIONS}: {EXCEPTIONS}.}}</string>
     <string name="verbal_all_different">Tots els valors són diferents.</string>
     <string name="verbal_all_same">Tots els valors són %1$s.</string>
@@ -3128,8 +3128,9 @@ Fes clic a + per crear un full de càlcul."</string>
     <string name="warm_welcome_next_button">Següent</string>
     <string name="warm_welcome_skip_button">Omet</string>
     <string name="warning_cannot_share_outside_domain">"La configuració d'aquesta unitat d'equip impedeix compartir fitxers fora del domini %s"</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">"La configuració d'aquesta unitat d'equip impedeix compartir fitxers amb qui no n'és membre i fora del domini %s"</string>
     <string name="warning_cannot_share_outside_domain_org">"La configuració de l'organització impedeix compartir fitxers amb persones externes al domini"</string>
-    <string name="warning_cannot_share_outside_team_drive">"La configuració d'aquesta unitat d'equip impedeix compartir fitxers amb algú de fora de l'equip"</string>
+    <string name="warning_cannot_share_outside_team_drive">"La configuració d'aquesta unitat d'equip impedeix compartir fitxers amb qui no n'és membre"</string>
     <string name="warning_csv_edits_unsupported">Per poder afegir gràfics, imatges, pestanyes addicionals o contingut amb format, hauràs de desar el fitxer com un full de càlcul de Google.</string>
     <string name="warning_sheet_add_unsupported">Per poder afegir un full nou, hauràs de desar el fitxer com a full de càlcul de Google.</string>
     <string name="welcome_button_close">Ves a Fulls de càlcul</string>
@@ -3148,14 +3149,14 @@ Fes clic a + per crear un full de càlcul."</string>
     <string name="welcome_title_app_name">Fulls de càlcul de Google</string>
     <string name="welcome_title_highlights">"Tauler d'anuncis de l'aplicació %1$s."</string>
     <string name="write_access_denied">"S'ha denegat l'accés d'escriptura al document."</string>
-    <string name="zss_accessibility_searching">"S'està cercant %1$s"</string>
+    <string name="zss_accessibility_searching">"S'està cercant \"%1$s\""</string>
     <string name="zss_date_range_header_title">Data de modificació</string>
-    <string name="zss_date_range_month">Últims 30 dies</string>
-    <string name="zss_date_range_three_month">Últims 90 dies</string>
+    <string name="zss_date_range_month">30 darrers dies</string>
+    <string name="zss_date_range_three_month">90 darrers dies</string>
     <string name="zss_date_range_today">Avui</string>
     <string name="zss_date_range_week">7 darrers dies</string>
     <string name="zss_date_range_yesterday">Ahir</string>
-    <string name="zss_entry_types_header_title">Tipus de fitxer</string>
+    <string name="zss_entry_types_header_title">Tipus de fitxers</string>
     <string name="zss_no_filters">Cap filtre</string>
     <string name="zss_owner_header_title">Propietat de</string>
     <string name="zss_owner_me">En soc el propietari</string>

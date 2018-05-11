@@ -48,7 +48,7 @@
     <string name="action_bar_comments">Kommentarer</string>
     <string name="action_bar_details">Detaljer…</string>
     <string name="action_bar_find_and_replace">Søk og erstatt</string>
-    <string name="action_bar_get_more_addons">Skaff deg tillegg…</string>
+    <string name="action_bar_get_more_addons">Installer tillegg…</string>
     <string name="action_bar_help">Hjelp og tilbakemelding</string>
     <string name="action_bar_insert">Sett inn</string>
     <string name="action_bar_insert_chart">Diagram</string>
@@ -651,7 +651,7 @@ Prøv å laste opp en fil."</string>
     <string name="empty_doclist_for_pinned_view_details">Gjør filene «tilgjengelige uten nett» i alternativmenyen for filene</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Trykk på «Tilgjengelig uten nett» i menyen for en fil for å kunne fortsette å arbeide med den uten nettilgang.</string>
     <string name="empty_doclist_for_recent_view">Det finnes ingen filer som nylig er åpnet eller endret.</string>
-    <string name="empty_doclist_for_search_view">Ingen resultater.</string>
+    <string name="empty_doclist_for_search_view">Ingen treff</string>
     <string name="empty_doclist_for_shared_with_me_view">Filer som deles med deg, vises her.</string>
     <string name="empty_doclist_for_starred_view">Du har ingen stjernemerkede filer.</string>
     <string name="empty_doclist_for_starred_view_details">Trykk på stjerneikonet i alternativmenyen for filen for å legge til filen i denne listen.</string>
@@ -700,6 +700,7 @@ Klikk på + for å opprette et nytt regneark."</string>
     <string name="error_video_not_available">Videoen har ikke blitt behandlet. Prøv igjen senere.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+ %1$d andre.</string>
+    <string name="expand_button_title">Avansert</string>
     <string name="expires_future">Utløper om %1$s</string>
     <string name="expires_today">Utløper i dag</string>
     <string name="export_download_error_title">Nedlastingsfeil</string>
@@ -717,6 +718,11 @@ Klikk på + for å opprette et nytt regneark."</string>
     <string name="fab_office_document">Ny Excel-fil</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Søkeresultater</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">kB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Eldre</string>
     <string name="fast_scroll_time_grouper_last_week">Forrige uke</string>
     <string name="fast_scroll_time_grouper_this_month">Tidligere denne måneden</string>
@@ -1072,8 +1078,8 @@ Klikk på + for å opprette et nytt regneark."</string>
     <string name="ouch_title_sawwrie">Beklager!</string>
     <string name="overwrite_confirm_dialog_message">%1$s finnes allerede. Vil du overskrive den?</string>
     <string name="overwrite_confirm_dialog_positive_button_label">Overskriv</string>
-    <string name="owner_not_user">Ikke eid av %1$s</string>
-    <string name="owner_user">Eid av %1$s</string>
+    <string name="owner_not_user">Eies ikke av %1$s</string>
+    <string name="owner_user">Eies av %1$s</string>
     <string name="page_1_description">Få ting gjort – med eller uten Internett-tilkobling.</string>
     <string name="page_1_heading_editors">Lag regneark mens du er på farten</string>
     <string name="page_2_description">Skriv på egen hånd, eller inviter andre til å bidra.</string>
@@ -1250,7 +1256,6 @@ Klikk på + for å opprette et nytt regneark."</string>
     <string name="published_access_anyone">Alle kan se nettstedet når det er publisert</string>
     <string name="published_access_domain">Alle på %s kan se den publiserte versjonen</string>
     <string name="published_access_select_people">Bestemte personer kan se nettstedet når det er publisert</string>
-    <string name="published_disabled_append">deaktivert,</string>
     <string name="published_message_for_anyone_can_edit">Siden alle kan redigere, kan alle se det når det er publisert.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Siden alle på %1$s kan redigere, kan alle på %1$s se det når det legges ut.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Siden alle med linken kan redigere, kan alle se det når det er publisert.</string>
@@ -1426,6 +1431,7 @@ Klikk på + for å opprette et nytt regneark."</string>
     <string name="ritz_cannot_back_local_filter_with_named_range">Du kan ikke gjøre et filter avhengig av et navngitt område når du er i lesetilgang.</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">Du kan ikke endre arkbeskyttelse til områdebeskyttelse eller omvendt.</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">Du kan ikke legge til vekslende bakgrunnsfarger i et område der det allerede finnes vekslende bakgrunnsfarger.</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">Du kan ikke legge til filtre i dette regnearket, da det er koblet til en database. Opprett en filtervisning i stedet.</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">Du kan ikke opprette et filter i et ark som allerede har et filter.</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">Du kan ikke opprette et filter over et område som inneholder vertikale sammenslåinger.</string>
     <string name="ritz_cannot_create_filter_within_merge">Du kan ikke opprette et filter i et område som inneholder sammenslåinger.</string>
@@ -1475,6 +1481,7 @@ Klikk på + for å opprette et nytt regneark."</string>
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">Denne operasjonen støttes ikke for et område med sortert filtervisning. Deaktiver filtervisningen, og prøv på nytt.</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">Denne operasjonen støttes ikke for et område der en rad er filtrert ut.</string>
     <string name="ritz_cannot_pivot_drill_down">Du kan ikke se detaljer for celler som ikke ligger inne i en pivottabell</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">Kan ikke legge til beskyttelse for dette regnearket, da det er koblet til en database.</string>
     <string name="ritz_cannot_protect_deleted_sheet">Arket du prøver å beskytte, er slettet.</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">Kan ikke lagre regelen med en ugyldig formel.</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">Data kan ikke konfigureres i denne sammenslåtte cellen. Hvis du har en aktiv filtervisning, kan du prøve å fjerne den.</string>
@@ -2009,7 +2016,6 @@ Klikk på + for å opprette et nytt regneark."</string>
     <string name="ritz_generic_sheet_activated">Arket %1$s er aktivert.</string>
     <string name="ritz_get_pivot_table_message_for_average">Gjennomsnittet av %1$s per %2$s</string>
     <string name="ritz_get_pivot_table_message_for_count">Antallet %1$s per %2$s</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">Antallet unike %1$s per %2$s</string>
     <string name="ritz_get_pivot_table_message_for_sum">Summen av %1$s per %2$s</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">Ansvarsfraskrivelse: Kursene er ikke hentet fra alle markeder, og de kan være forsinket med opptil 20 minutter. Informasjonen tilbys «som den er» og bare til informasjonsformål, ikke til handelsformål eller som rådgivning.</string>
@@ -2734,6 +2740,7 @@ Klikk på + for å opprette et nytt regneark."</string>
     <string name="suggest_pin_dialog_positive_button">Gjør tilgjengelig uten nett</string>
     <string name="suggest_pin_dialog_title">Ingen tilkobling</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, valgt</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Synkroniseringsfeil i Google Regneark</string>
     <string name="sync_more_error">Det oppsto en feil da flere elementer skulle hentes</string>
     <string name="sync_more_error_offline">Det kan hende at noen dokumenter ikke vises når enheten er uten nettilkobling.</string>
@@ -2922,6 +2929,8 @@ Klikk på + for å opprette et nytt regneark."</string>
     <string name="upsave_dialog_title">Vil du lagre endringene?</string>
     <string name="upsell_negbtn">Senere</string>
     <string name="upsell_okbtn">Oppgrader</string>
+    <string name="v7_preference_off">AV</string>
+    <string name="v7_preference_on">PÅ</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{Alle verdiene er {VALUE} bortsett fra én, {EXCEPTIONS}.}=2{Alle verdiene er {VALUE} bortsett fra to, {EXCEPTIONS}.}=3{Alle verdiene er {VALUE} bortsett fra tre, {EXCEPTIONS}.}=4{Alle verdiene er {VALUE} bortsett fra fire, {EXCEPTIONS}.}other{Alle verdiene er {VALUE} bortsett fra {NUMBER_OF_EXCEPTIONS}, {EXCEPTIONS}.}}</string>
     <string name="verbal_all_different">Alle verdiene er ulike.</string>
     <string name="verbal_all_same">Alle verdiene er %1$s.</string>
@@ -3108,8 +3117,9 @@ Klikk på + for å opprette et nytt regneark."</string>
     <string name="warm_welcome_next_button">Neste</string>
     <string name="warm_welcome_skip_button">Hopp over</string>
     <string name="warning_cannot_share_outside_domain">Innstillingene for denne teamdisken forhindrer deling utenfor %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Innstillingene for denne teamdisken forhindrer deling med brukere som ikke er medlemmer, og med brukere som ikke er tilknyttet %s.</string>
     <string name="warning_cannot_share_outside_domain_org">Organisasjonens innstillinger forhindrer deling utenfor organisasjonen</string>
-    <string name="warning_cannot_share_outside_team_drive">Innstillingene for denne teamdisken forhindrer deling utenfor teamet.</string>
+    <string name="warning_cannot_share_outside_team_drive">Innstillingene for denne teamdisken forhindrer deling med brukere som ikke er medlemmer</string>
     <string name="warning_csv_edits_unsupported">For å kunne legge til formatert innhold, diagrammer, bilder eller ekstra faner må du lagre filen din som et Google-regneark.</string>
     <string name="warning_sheet_add_unsupported">For å kunne legge til et nytt ark må du lagre filen din som et Google-regneark.</string>
     <string name="welcome_button_close">Gå til Regneark</string>
@@ -3130,17 +3140,17 @@ Klikk på + for å opprette et nytt regneark."</string>
     <string name="write_access_denied">Skrivetilgang til dokumentet ble avvist.</string>
     <string name="zss_accessibility_searching">Søker etter %1$s</string>
     <string name="zss_date_range_header_title">Endringsdato</string>
-    <string name="zss_date_range_month">Siste 30 dager</string>
-    <string name="zss_date_range_three_month">Siste 90 dager</string>
+    <string name="zss_date_range_month">De siste 30 dagene</string>
+    <string name="zss_date_range_three_month">De siste 90 dagene</string>
     <string name="zss_date_range_today">I dag</string>
-    <string name="zss_date_range_week">Siste 7 dager</string>
+    <string name="zss_date_range_week">De siste sju dagene</string>
     <string name="zss_date_range_yesterday">I går</string>
     <string name="zss_entry_types_header_title">Filtyper</string>
     <string name="zss_no_filters">Ingen filtre</string>
     <string name="zss_owner_header_title">Eies av</string>
     <string name="zss_owner_me">Eies av meg</string>
     <string name="zss_owner_not_me">Eies ikke av meg</string>
-    <string name="zss_people_header_title">Personer</string>
+    <string name="zss_people_header_title">Folk</string>
     <string name="zss_showing_list_of_filters">Viser listen over tilgjengelige filtre.</string>
     <string name="zss_team_drive">Søk i %1$s</string>
     <string name="zss_type_archive">Arkiv</string>

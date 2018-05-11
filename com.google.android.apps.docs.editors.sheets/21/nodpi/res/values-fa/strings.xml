@@ -658,7 +658,7 @@
     <string name="empty_doclist_for_pinned_view_details">در منوی گزینه‌های فایل، تنظیم کنید فایل‌ها «در حالت آفلاین در دسترس باشند»</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">در منوی فایل روی «در حالت آفلاین در دسترس باشد» ضربه بزنید تا بتوانید همچنان در حالت آفلاین روی آن کار کنید.</string>
     <string name="empty_doclist_for_recent_view">هیچ فایلی اخیراً باز یا ویرایش نشده است.</string>
-    <string name="empty_doclist_for_search_view">نتیجه‌ای پیدا نشد.</string>
+    <string name="empty_doclist_for_search_view">نتیجه‌ای پیدا نشد</string>
     <string name="empty_doclist_for_shared_with_me_view">فایل‌های به اشتراک‌گذاشته‌شده با شما در اینجا نمایش داده می‌شوند.</string>
     <string name="empty_doclist_for_starred_view">هیچ فایل ستاره‌داری ندارید.</string>
     <string name="empty_doclist_for_starred_view_details">روی نماد ستاره در منوی گزینه فایل ضربه بزنید تا به این فهرست اضافه شود.</string>
@@ -707,6 +707,7 @@
     <string name="error_video_not_available">ویدئو پردازش نشد. لطفاً بعداً دوباره امتحان کنید.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d نفر دیگر</string>
+    <string name="expand_button_title">پیشرفته</string>
     <string name="expires_future">در %1$s منقضی می‌شود</string>
     <string name="expires_today">امروز منقضی می‌شود</string>
     <string name="export_download_error_title">خطای بارگیری</string>
@@ -724,6 +725,11 @@
     <string name="fab_office_document">‏فایل Excel جدید</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">نتیجه‌های جستجو</string>
+    <string name="fast_scroll_size_grouper_b">بایت</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">گیگابایت</string>
+    <string name="fast_scroll_size_grouper_kb">کیلوبایت</string>
+    <string name="fast_scroll_size_grouper_mb">مگابایت</string>
     <string name="fast_scroll_time_grouper_earlier">قدیمی‌تر</string>
     <string name="fast_scroll_time_grouper_last_week">هفته گذشته</string>
     <string name="fast_scroll_time_grouper_this_month">اوایل این ماه</string>
@@ -858,17 +864,8 @@
     <string name="manage_addons_playstore_link_description">پیمایش به فروشگاه Play برای %s</string>
     <string name="manage_members_default_members">اعضا به‌صورت پیش‌فرض می‌توانند فایل‌ها را بارگذاری/ویرایش/حذف کنند و سایر اعضا را دعوت کنند</string>
     <string name="manage_members_dialog_title">دسترسی عضو</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">فضای ذخیره‌سازی</string>
+    <string name="management_data_loading_failed">صفحه بارگیری نشد.</string>
     <string name="menu_backup">نسخه‌های پشتیبان</string>
     <string name="menu_copy_link">کپی کردن پیوند</string>
     <string name="menu_create_shortcut">افزودن به صفحه اصلی</string>
@@ -1009,7 +1006,7 @@
     <string name="notification_title">‏نمی‌توان به فایل از Drive دسترسی داشت.</string>
     <string name="number_format_palette_accounting">حسابداری</string>
     <string name="number_format_palette_automatic">خودکار</string>
-    <string name="number_format_palette_currency">واحد پول</string>
+    <string name="number_format_palette_currency">ارز</string>
     <string name="number_format_palette_currency_whole">ارز (گردشده)</string>
     <string name="number_format_palette_custom">سفارشی</string>
     <string name="number_format_palette_custom_currency">ارز سفارشی</string>
@@ -1444,6 +1441,7 @@
     <string name="ritz_cannot_back_local_filter_with_named_range">وقتی در حالت محدود به دیدن هستید، نمی‌توانید فیلتری را وابسته به یک محدوده نام‌دار کنید.</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">نمی‌توانید محافظت برگ را به محافظت محدوده تغییر دهید، یا برعکس.</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">نمی‌توانید به گستره‌ای که از قبل رنگ‌های پس‌زمینه متناوب دارد، رنگ‌های پس‌زمینه متناوب اضافه کنید.</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">نمی‌توانید فیلتری به این برگ اضافه کنید زیرا به پایگاه داده‌ای متصل است. لطفاً به‌جای این کار، نمای فیلتری ایجاد کنید.</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">نمی‌توانید در برگی که از قبل فیلتر دارد، فیلتر ایجاد کنید.</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">نمی‌توانید روی محدوده‌ای که شامل ادغام‌های عمودی است، فیلتر ایجاد کنید.</string>
     <string name="ritz_cannot_create_filter_within_merge">نمی‌توانید در محدوده‌ای که شامل ادغام است، فیلتر ایجاد کنید.</string>
@@ -1493,6 +1491,7 @@
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">این عملیات در محدوده‌ای که نمای فیلتر مرتب‌شده داشته باشد پشتیبانی نمی‌‌شود. لطفاً نمای فیلتر را از کار بیندازید و دوباره امتحان کنید.</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">این عملیات در محدوده‌ای که ردیف فیلترشده داشته باشد پشتیبانی نمی‌‌شود.</string>
     <string name="ritz_cannot_pivot_drill_down">نمی‌توانید جزئیات سلولی را نشان دهید که در جدول محوری نیست</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">نمی‌توانید محافظتی به این برگ اضافه کنید زیرا به پایگاه داده‌ای متصل است.</string>
     <string name="ritz_cannot_protect_deleted_sheet">برگی که می‌خواهید از آن محافظت کنید، حذف شده است.</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">ذخیره قانون با فرمول نامعتبر ممکن نیست.</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">داده در این سلول ادغام شده، تنظیم نشد. اگر نمای فیلتر فعالی دارید، آن را بردارید.</string>
@@ -2027,7 +2026,6 @@
     <string name="ritz_generic_sheet_activated">برگه %1$s به کار افتاد.</string>
     <string name="ritz_get_pivot_table_message_for_average">میانگین %1$s برای هر %2$s</string>
     <string name="ritz_get_pivot_table_message_for_count">تعداد %1$s برای هر %2$s</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">تعداد %1$s متمایز برای هر %2$s</string>
     <string name="ritz_get_pivot_table_message_for_sum">مجموع %1$s برای هر %2$s</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">سلب مسئولیت: منبع نقل‌قول‌ها از همه بازارها نیست و ممکن است حداکثر ۲۰ دقیقه تأخیر داشته باشند. اطلاعات «همانطور که هست» ارائه شده‌اند، تنها برای اطلاع‌رسانی هستند و نه برای اهداف و پیشنهادهای تجاری.</string>
@@ -2257,7 +2255,7 @@
     <string name="ritz_notes_title">نکته‌ها</string>
     <string name="ritz_number_format_accounting">حسابداری</string>
     <string name="ritz_number_format_automatic">خودکار</string>
-    <string name="ritz_number_format_currency">واحد پول</string>
+    <string name="ritz_number_format_currency">ارز</string>
     <string name="ritz_number_format_currency_whole">ارز (گردشده)</string>
     <string name="ritz_number_format_date">تاریخ</string>
     <string name="ritz_number_format_date_time">تاریخ و زمان</string>
@@ -2752,6 +2750,7 @@
     <string name="suggest_pin_dialog_positive_button">در حالت آفلاین در دسترس باشد</string>
     <string name="suggest_pin_dialog_title">ارتباط برقرار نیست</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s، انتخاب شد</string>
+    <string name="summary_collapsed_preference_list">%1$s، %2$s</string>
     <string name="sync_failed">‏خطا در همگام‌سازی ‏‫‫کاربرگ‌نگار Google‬</string>
     <string name="sync_more_error">خطا در بازیابی موارد بیشتر</string>
     <string name="sync_more_error_offline">ممکن است بعضی از اسناد در حالت آفلاین در دسترس نباشند.</string>
@@ -2940,6 +2939,8 @@
     <string name="upsave_dialog_title">تغییرات ذخیره شود؟</string>
     <string name="upsell_negbtn">بعداً</string>
     <string name="upsell_okbtn">ارتقا</string>
+    <string name="v7_preference_off">خاموش</string>
+    <string name="v7_preference_on">روشن</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{همگی {VALUE} هستند به‌جز یک مورد، {EXCEPTIONS}.}=2{همگی {VALUE} هستند به‌جز دو مورد، {EXCEPTIONS}.}=3{همگی {VALUE} هستند به‌جز سه مورد، {EXCEPTIONS}.}=4{همگی {VALUE} هستند به‌جز چهار مورد، {EXCEPTIONS}.}one{همگی {VALUE} هستند به‌جز {NUMBER_OF_EXCEPTIONS}، {EXCEPTIONS}.}other{همگی {VALUE} هستند به‌جز {NUMBER_OF_EXCEPTIONS}، {EXCEPTIONS}.}}</string>
     <string name="verbal_all_different">همه مقدارها متفاوت هستند.</string>
     <string name="verbal_all_same">همه مقدارها %1$s هستند.</string>
@@ -3126,8 +3127,9 @@
     <string name="warm_welcome_next_button">بعدی</string>
     <string name="warm_welcome_skip_button">رد شدن</string>
     <string name="warning_cannot_share_outside_domain">تنظیمات این «درایو گروه» مانع هم‌رسانی در خارج از %s می‌شود</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">تنظیمات این درایو گروه مانع هم‌رسانی با افراد غیرعضو و خارج از %s می‌شود</string>
     <string name="warning_cannot_share_outside_domain_org">تنظیمات سازمان مانع هم‌رسانی در خارج از سازمان می‌شود</string>
-    <string name="warning_cannot_share_outside_team_drive">تنظیمات این «درایو گروه» مانع هم‌رسانی در خارج از تیم می‌شود</string>
+    <string name="warning_cannot_share_outside_team_drive">تنظیمات این درایو گروه مانع هم‌رسانی با افراد غیرعضو می‌شود</string>
     <string name="warning_csv_edits_unsupported">‏برای افزودن نمودارهای محتوای قالب‌بندی شده، تصاویر یا برگه‌های اضافی، لازم است فایلتان را به‌عنوان صفحه‌گسترده Google ذخیره کنید.</string>
     <string name="warning_sheet_add_unsupported">‏برای افزودن برگ جدید، لازم است فایلتان را به‌عنوان صفحه‌گسترده Google ذخیره کنید.</string>
     <string name="welcome_button_close">رفتن به کاربرگ‌نگار</string>
@@ -3162,12 +3164,12 @@
     <string name="zss_showing_list_of_filters">نمایش فهرست فیلترهای موجود</string>
     <string name="zss_team_drive">جستجو در %1$s</string>
     <string name="zss_type_archive">بایگانی</string>
-    <string name="zss_type_audio">صوتی</string>
-    <string name="zss_type_documents">سندهای نوشتاری</string>
-    <string name="zss_type_folder">پوشه‌ها</string>
+    <string name="zss_type_audio">صوت</string>
+    <string name="zss_type_documents">سند نوشتاری</string>
+    <string name="zss_type_folder">پوشه</string>
     <string name="zss_type_images">عکس و تصویر</string>
-    <string name="zss_type_pdfs">‏فایل‌های PDF</string>
-    <string name="zss_type_presentations">ارائه‌ها</string>
-    <string name="zss_type_spreadsheets">صفحه‌گسترده‌ها</string>
-    <string name="zss_type_video">ویدئوها</string>
+    <string name="zss_type_pdfs">PDF</string>
+    <string name="zss_type_presentations">ارائه‌</string>
+    <string name="zss_type_spreadsheets">صفحه‌گسترده</string>
+    <string name="zss_type_video">ویدیو</string>
 </resources>

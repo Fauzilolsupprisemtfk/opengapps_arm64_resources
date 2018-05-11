@@ -651,7 +651,7 @@ Probajte da otpremite datoteku."</string>
     <string name="empty_doclist_for_pinned_view_details">Omogućite korišćenje datoteka oflajn u meniju sa opcijama datoteke</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Dodirnite „Dostupno oflajn“ u meniju datoteke da biste nastavili da radite na njoj oflajn.</string>
     <string name="empty_doclist_for_recent_view">Nema nedavno otvaranih ni izmenjenih datoteka.</string>
-    <string name="empty_doclist_for_search_view">Nema rezultata.</string>
+    <string name="empty_doclist_for_search_view">Nema rezultata</string>
     <string name="empty_doclist_for_shared_with_me_view">Datoteke koje se dele sa vama će biti prikazane ovde.</string>
     <string name="empty_doclist_for_starred_view">Nemate datoteke sa zvezdicom.</string>
     <string name="empty_doclist_for_starred_view_details">Dodirnite ikonu zvezdice u meniju sa opcijama datoteke da biste je dodali na ovu listu.</string>
@@ -700,6 +700,7 @@ Kliknite na + da biste napravili novu tabelu."</string>
     <string name="error_video_not_available">Video nije obrađen. Probajte ponovo kasnije.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+ još %1$d.</string>
+    <string name="expand_button_title">Napredno</string>
     <string name="expires_future">Ističe za %1$s</string>
     <string name="expires_today">Ističe danas</string>
     <string name="export_download_error_title">Greška pri preuzimanju</string>
@@ -717,6 +718,11 @@ Kliknite na + da biste napravili novu tabelu."</string>
     <string name="fab_office_document">Nova Excel datoteka</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d.</string>
     <string name="fast_scroll_search_result_grouper">Rezultati pretrage</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">kB</string>
+    <string name="fast_scroll_size_grouper_mb">MV</string>
     <string name="fast_scroll_time_grouper_earlier">Starije</string>
     <string name="fast_scroll_time_grouper_last_week">Prošle nedelje</string>
     <string name="fast_scroll_time_grouper_this_month">Ranije ovog meseca</string>
@@ -850,17 +856,6 @@ Kliknite na + da biste napravili novu tabelu."</string>
     <string name="manage_addons_playstore_link_description">Idite u Play prodavnicu za %s</string>
     <string name="manage_members_default_members">Članovi podrazumevano mogu da otpremaju/izmene/brišu datoteke i pozivaju druge članove</string>
     <string name="manage_members_dialog_title">Pristup za članove</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
     <string name="menu_backup">Rezervne kopije</string>
     <string name="menu_copy_link">Kopiraj link</string>
     <string name="menu_create_shortcut">Dodaj na početni</string>
@@ -1055,7 +1050,7 @@ Kliknite na + da biste napravili novu tabelu."</string>
     <string name="open_document_in_browser">Otvori u pregledaču</string>
     <string name="open_folder_removed">Više ne možete pogledati direktorijum.</string>
     <string name="open_folder_trashed">%1$s je premešten u otpad.</string>
-    <string name="open_in">Otvori u %1$s</string>
+    <string name="open_in">Otvorite u %1$s</string>
     <string name="open_link">Prati link</string>
     <string name="open_pinned_version">Otvori sa uređaja</string>
     <string name="open_templates_picker_offline">Idite onlajn da biste koristili šablone.</string>
@@ -1259,7 +1254,6 @@ Kliknite na + da biste napravili novu tabelu."</string>
     <string name="published_access_anyone">Svako može da vidi objavljenu verziju sajta</string>
     <string name="published_access_domain">Svako na %s može da vidi objavljenu verziju sajta</string>
     <string name="published_access_select_people">Određeni ljudi mogu da vide objavljenu verziju sajta</string>
-    <string name="published_disabled_append">onemogućeno,</string>
     <string name="published_message_for_anyone_can_edit">Pošto svako može da izmeni, svako može da vidi objavljenu verziju.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Pošto svako na %1$s može da izmeni, svako na %1$s može da vidi objavljenu verziju.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Pošto svako sa linkom može da izmeni, svako može da vidi objavljenu verziju.</string>
@@ -1435,6 +1429,7 @@ Kliknite na + da biste napravili novu tabelu."</string>
     <string name="ritz_cannot_back_local_filter_with_named_range">Ne možete da napravite filter koji zavisi od imenovanog opsega kada ste u režimu samo za gledanje.</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">Nije moguće menjati zaštitu tabela u zaštitu opsega ili obrnuto.</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">Ne možete da dodate naizmenične boje pozadine u opseg koji ih već ima.</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">Ne možete da dodate filter u ovu tabelu zato što je povezana sa bazom podataka. Možete da napravite prikaz filtera.</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">Ne možete da napravite filter u tabeli koja već ima filter.</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">Ne možete da napravite filter za opseg koji sadrži vertikalno objedinjene ćelije.</string>
     <string name="ritz_cannot_create_filter_within_merge">Ne možete da napravite filter u opsegu koji sadrži objedinjene ćelije.</string>
@@ -1484,6 +1479,7 @@ Kliknite na + da biste napravili novu tabelu."</string>
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">Ova operacija nije podržana u opsegu sa sortiranim prikazom filtera. Onemogućite prikaz filtera i pokušajte ponovo.</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">Ova operacija nije podržana u opsegu sa redom koji je isključen filtriranjem.</string>
     <string name="ritz_cannot_pivot_drill_down">Ne možete da prikažete detalje ćelije koja nije unutar izvedene tabele</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">Ne možete da dodate zaštitu u ovu tabelu zato što je povezana sa bazom podataka.</string>
     <string name="ritz_cannot_protect_deleted_sheet">Tabela koju pokušavate da zaštitite je izbrisana.</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">Nije moguće sačuvati pravilo sa nevažećim formulom.</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">Ne možete da postavite podatke u ovu objedinjenu ćeliju. Ako imate prikaz aktivnog filtera, pokušajte da ga uklonite.</string>
@@ -2018,7 +2014,6 @@ Kliknite na + da biste napravili novu tabelu."</string>
     <string name="ritz_generic_sheet_activated">Tabela %1$s je aktivirana.</string>
     <string name="ritz_get_pivot_table_message_for_average">Prosek: %1$s za svaku kolonu %2$s</string>
     <string name="ritz_get_pivot_table_message_for_count">Broj: %1$s za svaku kolonu %2$s</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">Broj jedinstvenih vrednosti kolone %1$s za svaku kolonu %2$s</string>
     <string name="ritz_get_pivot_table_message_for_sum">Zbir: %1$s za svaku kolonu %2$s</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">Odricanje odgovornosti: Cene akcija se ne preuzimaju sa svih tržišta i mogu da kasne do 20 minuta. Informacije se pružaju „kakve jesu“ i samo za potrebe informisanja, a ne kao savet ili u svrhu trgovine.</string>
@@ -2743,6 +2738,7 @@ Kliknite na + da biste napravili novu tabelu."</string>
     <string name="suggest_pin_dialog_positive_button">Učini dostupnim oflajn</string>
     <string name="suggest_pin_dialog_title">Veza nije uspostavljena</string>
     <string name="suggested_name_selected_accessibility_announcement">Izabrana je osoba %1$s</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Greška u sinhronizaciji Google tabela</string>
     <string name="sync_more_error">Greška pri preuzimanju dodatnih stavki</string>
     <string name="sync_more_error_offline">Neki dokumenti možda neće biti vidljivi oflajn.</string>
@@ -2931,6 +2927,8 @@ Kliknite na + da biste napravili novu tabelu."</string>
     <string name="upsave_dialog_title">Želite da sačuvate promene?</string>
     <string name="upsell_negbtn">Kasnije</string>
     <string name="upsell_okbtn">Nadogradi</string>
+    <string name="v7_preference_off">ISKLJUČENO</string>
+    <string name="v7_preference_on">UKLJUČENO</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{Sve vrednosti su {VALUE} osim jedne, {EXCEPTIONS}.}=2{Sve vrednosti su {VALUE} osim dve, {EXCEPTIONS}.}=3{Sve vrednosti su {VALUE} osim tri, {EXCEPTIONS}.}=4{Sve vrednosti su {VALUE} osim četiri, {EXCEPTIONS}.}one{Sve vrednosti su {VALUE} osim {NUMBER_OF_EXCEPTIONS}, {EXCEPTIONS}.}few{Sve vrednosti su {VALUE} osim {NUMBER_OF_EXCEPTIONS}, {EXCEPTIONS}.}other{Sve vrednosti su {VALUE} osim {NUMBER_OF_EXCEPTIONS}, {EXCEPTIONS}.}}</string>
     <string name="verbal_all_different">Sve vrednosti su različite.</string>
     <string name="verbal_all_same">Sve vrednosti su %1$s.</string>
@@ -3117,8 +3115,9 @@ Kliknite na + da biste napravili novu tabelu."</string>
     <string name="warm_welcome_next_button">Dalje</string>
     <string name="warm_welcome_skip_button">Preskoči</string>
     <string name="warning_cannot_share_outside_domain">Podešavanja ovog Diska tima ne dozvoljavaju deljenje van %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Podešavanja ovog Diska tima ne dozvoljavaju deljenje van %s i sa korisnicima koji nisu članovi</string>
     <string name="warning_cannot_share_outside_domain_org">Podešavanja organizacije ne dozvoljavaju deljenje van organizacije</string>
-    <string name="warning_cannot_share_outside_team_drive">Podešavanja ovog Diska tima ne dozvoljavaju deljenje van tima</string>
+    <string name="warning_cannot_share_outside_team_drive">Podešavanja ovog Diska tima ne dozvoljavaju deljenje sa korisnicima koji nisu članovi</string>
     <string name="warning_csv_edits_unsupported">Da biste dodali formatirani sadržaj, grafikone, slike ili dodatne kartice, morate da sačuvate datoteku kao Google tabelu.</string>
     <string name="warning_sheet_add_unsupported">Da biste dodali novu tabelu, morate da sačuvate datoteku kao Google tabelu.</string>
     <string name="welcome_button_close">Idi u Tabele</string>
@@ -3153,7 +3152,7 @@ Kliknite na + da biste napravili novu tabelu."</string>
     <string name="zss_showing_list_of_filters">Prikazana je lista dostupnih filtera.</string>
     <string name="zss_team_drive">Pretražite u %1$s</string>
     <string name="zss_type_archive">Arhiva</string>
-    <string name="zss_type_audio">Audio</string>
+    <string name="zss_type_audio">Zvuk</string>
     <string name="zss_type_documents">Tekstualni dokumenti</string>
     <string name="zss_type_folder">Direktorijumi</string>
     <string name="zss_type_images">Fotografije i slike</string>

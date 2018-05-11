@@ -640,7 +640,7 @@
     <string name="empty_doclist_for_pinned_view_details">Сонголтын цэснээс файлуудыг \"Офлайнаар ашиглах боломжтой\" болгоно уу</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Төхөөрөмж офлайн байх үед файл дээр ажилладаг байхын тулд файлын цэснээс \"Офлайнаар ашиглах\" гэснийг товшино уу.</string>
     <string name="empty_doclist_for_recent_view">Саяхан нээсэн эсвэл зассан файл байхгүй.</string>
-    <string name="empty_doclist_for_search_view">Илэрц байхгүй.</string>
+    <string name="empty_doclist_for_search_view">Илэрц байхгүй</string>
     <string name="empty_doclist_for_shared_with_me_view">Тантай хуваалцсан файлууд энд харагдах болно.</string>
     <string name="empty_doclist_for_starred_view">Танд одоор тэмдэглэсэн файл байхгүй.</string>
     <string name="empty_doclist_for_starred_view_details">Файлыг энэ жагсаалтад нэмэх бол сонголтын цэснээс одны дүрсийг товшино уу.</string>
@@ -689,6 +689,7 @@
     <string name="error_video_not_available">Видеог боловсруулж чадсангүй. Дараа дахин оролдоно уу.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+ өөр %1$d.</string>
+    <string name="expand_button_title">Нарийвчилсан</string>
     <string name="expires_future">%1$s-н дараа хугацаа дуусна</string>
     <string name="expires_today">Өнөөдөр дуусна</string>
     <string name="export_download_error_title">Татаж авахад алдаа гарсан</string>
@@ -706,6 +707,11 @@
     <string name="fab_office_document">Шинэ Excel файл</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Хайлтын илэрц</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">ГБ</string>
+    <string name="fast_scroll_size_grouper_kb">КБ</string>
+    <string name="fast_scroll_size_grouper_mb">МБ</string>
     <string name="fast_scroll_time_grouper_earlier">Хуучин</string>
     <string name="fast_scroll_time_grouper_last_week">Өнгөрсөн долоо хоног</string>
     <string name="fast_scroll_time_grouper_this_month">Энэ сарын эхээр</string>
@@ -836,17 +842,8 @@
     <string name="make_copy_spinner_message">Хуулж байна...</string>
     <string name="manage_members_default_members">Өгөгдмөл байдлаар гишүүд файл байршуулах/засах/устгах болон өөр гишүүн урих эрхтэй</string>
     <string name="manage_members_dialog_title">Гишүүний хандах эрх</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Хадгалах сан</string>
+    <string name="management_data_loading_failed">Энэ хуудсыг ачаалах боломжгүй</string>
     <string name="menu_backup">Нөөцлөлт</string>
     <string name="menu_copy_link">Холбоосыг хуулах</string>
     <string name="menu_create_shortcut">Нүүр дэлгэцэнд нэмэх</string>
@@ -1245,7 +1242,6 @@
     <string name="published_access_anyone">Дурын хүн нийтлэгдсэн үед нь харах боломжтой</string>
     <string name="published_access_domain">%s дээрх дурын хүн нийтлэгдсэн үед үзэх боломжтой</string>
     <string name="published_access_select_people">Нийтэлсэн үед нь тодорхой хүмүүс үзэх боломжтой</string>
-    <string name="published_disabled_append">идэвхгүй болгосон</string>
     <string name="published_message_for_anyone_can_edit">Дурын хүн засах боломжтой учир нийтлэгдсэн үед нь дурын хүн харах боломжтой.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">%1$s дээрх дурын хүн засах боломжтой учир нийтлэгдсэн үед нь %1$s дээрх дурын хүн үзэх боломжтой.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Холбоосыг мэддэг дурын хүн засах боломжтой учир нийтлэгдсэн үед нь дурын хүн харах боломжтой.</string>
@@ -1259,9 +1255,9 @@
     <string name="purchase_error">Асуудал гарлаа</string>
     <string name="purchase_error_connect">Холбох боломжгүй байна</string>
     <string name="purchase_per_month">%1$s сард</string>
-    <string name="purge_trash_dialog_confirm_delete_button">Хогийн савыг хоослох</string>
+    <string name="purge_trash_dialog_confirm_delete_button">Хогийн савыг цэвэрлэх</string>
     <string name="purge_trash_dialog_message">Таны хогийн саванд байгаа бүх файл, фолдерыг бүрмөсөн устгах болно.Анхааруулга: Та энэ үйлдлийг буцаах боломжгүй.</string>
-    <string name="purge_trash_dialog_title">Хогийн савыг хоослох уу?</string>
+    <string name="purge_trash_dialog_title">Хогийн савыг цэвэрлэх үү?</string>
     <string name="quota_cannot_determine">тодорхойлох боломжгүй</string>
     <string name="quota_range_large">10 МБ-с 100 МБ хүртэл</string>
     <string name="quota_range_larger">100 МБ-с 1 ГБ хүртэл</string>
@@ -1421,6 +1417,7 @@
     <string name="ritz_cannot_back_local_filter_with_named_range">Үзэх горимтой үед та нэрлэсэн хүрээгээр шүүлтүүр хийх боломжгүй.</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">Та хїрээний хамгаалалт эсвэл эсрэгээр хуудасны хамгаалалтыг єєрчилж чадахгїй.</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">Та аль хэдийн хувирах дэвсгэр өнгөтэй байгаа мужид хувирах дэвсгэр өнгө нэмэх боломжгүй.</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">Энэ хүснэгт датасантай холбогдсон тул үүнд шүүлтүүр нэмэх боломжгүй. Оронд нь шүүлтүүр харагч үүсгэнэ үү.</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">Та аль хэдийн шүүлтүүртэй хүснэгт дотор шүүлтүүр үүсгэх боломжгүй.</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">Босоо нэгтгэл агуулсан хүрээнд шүүлтүүр үүсгэх боломжгүй.</string>
     <string name="ritz_cannot_create_filter_within_merge">Нэгтгэсэн нүдийг агуулж байгаа мужид шүүлтүүр үүсгэх боломжгүй.</string>
@@ -1470,6 +1467,7 @@
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">Энэ үйлдэл нь эрэмбэлэгдсэн шүүлтүүр харах ашигласан муж дээр дэмжигдээгүй. Шүүлтүүр харахыг идэвхгүй болгоод дахин оролдоно уу.</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">Энэ үйлдэл нь шүүлтүүр хийгдсэн мөртэй муж дээр дэмжигдээгүй.</string>
     <string name="ritz_cannot_pivot_drill_down">Та пивот хүснэгтэнд ороогүй нүдний дэлгэрэнгүйг харуулах боломжгүй</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">Энэ хүснэгт датасантай холбогдсон тул үүнийг хамгаалах боломжгүй.</string>
     <string name="ritz_cannot_protect_deleted_sheet">Таны хамгаалах гэж буй шийтийг устгасан байна.</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">Буруу томьёололтой тул дүрмийг хадгалах боломжгүй.</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">Энэхүү нэгтгэсэн нүдэнд өгөгдөл байршуулах боломжгүй. Та шүүлтүүрийн харагдацыг идэвхжүүлсэн бол нүд нэгтгэсэн үйлдлээ буцаана уу.</string>
@@ -2004,7 +2002,6 @@
     <string name="ritz_generic_sheet_activated">%1$s хуудас идэвхжсэн.</string>
     <string name="ritz_get_pivot_table_message_for_average">%2$s бүрт %1$s-н дундаж</string>
     <string name="ritz_get_pivot_table_message_for_count">%2$s бүрт %1$s-н тоо</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">%2$s бүрт ялгаатай %1$s-н тоо</string>
     <string name="ritz_get_pivot_table_message_for_sum">%2$s бүрт %1$s-н нийлбэр</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">"Татгалзал: Үнийн саналыг бүх захаас аваагүй бөгөөд 20 хүртэл минут саатаж болно. Мэдээллийг 'байгаагаар нь' өгсөн бөгөөд худалдааны буюу зөвлөгөө өгөх зорилгогүй, зөвхөн мэдээлэл өгөх зорилготой."</string>
@@ -2726,6 +2723,7 @@
     <string name="suggest_pin_dialog_positive_button">Офлайнаар ашиглах боломжтой болгох</string>
     <string name="suggest_pin_dialog_title">Холболт байхгүй</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, сонгосон</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Google Хүснэгтийн синкийн алдаа</string>
     <string name="sync_more_error">Нэмэлт зүйлсийг дуудахад алдаа гарав</string>
     <string name="sync_more_error_offline">Зарим документ офлайн үед харагдахгүй байж магадгүй.</string>
@@ -2914,6 +2912,8 @@
     <string name="upsave_dialog_title">Өөрчлөлтийг хадгалах уу?</string>
     <string name="upsell_negbtn">Дараа</string>
     <string name="upsell_okbtn">Сайжруулах</string>
+    <string name="v7_preference_off">УНТРААТАЙ</string>
+    <string name="v7_preference_on">АСААЛТТАЙ</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{ {EXCEPTIONS} нэгээс бусад нь {VALUE} байна.}=2{ {EXCEPTIONS} хоёроос бусад нь {VALUE} байна.}=3{{EXCEPTIONS} гурваас бусад нь {VALUE} байна.}=4{{EXCEPTIONS} дөрвөөс бусад нь {VALUE} байна.}other{{EXCEPTIONS}{NUMBER_OF_EXCEPTIONS}-с бусад нь {VALUE} байна.}}</string>
     <string name="verbal_all_different">Бүх утга нь ялгаатай байна.</string>
     <string name="verbal_all_same">Бүх утга нь %1$s байна.</string>
@@ -3100,8 +3100,9 @@
     <string name="warm_welcome_next_button">Дараах</string>
     <string name="warm_welcome_skip_button">Алгасах</string>
     <string name="warning_cannot_share_outside_domain">Энэ Багийн Драйвын тохиргоо %s-с гадуур хуваалцахыг зөвшөөрөөгүй байна</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Энэ Багийн Драйвын тохиргоо %s-с гадуур болон гишүүн бус хүнтэй хуваалцахыг зөвшөөрөхгүй</string>
     <string name="warning_cannot_share_outside_domain_org">Байгууллагаас гадагш хуваалцахыг байгууллагын тохиргоо зөвшөөрөөгүй байна</string>
-    <string name="warning_cannot_share_outside_team_drive">Энэ Багийн Драйвын тохиргоо багаас гадуур хуваалцахыг зөвшөөрөөгүй байна</string>
+    <string name="warning_cannot_share_outside_team_drive">Энэ Багийн Драйвын тохиргоо гишүүн бус хүнтэй хуваалцахыг зөвшөөрөхгүй байна</string>
     <string name="warning_csv_edits_unsupported">Форматтай агуулга, диаграм, зураг, илүү таб нэмэх бол та файлаа Google хүснэгт болгон хадгалах шаардлагатай.</string>
     <string name="warning_sheet_add_unsupported">Шинэ хүснэгт нэмэх бол та файлаа Google хүснэгт болгон хадгалах шаардлагатай.</string>
     <string name="welcome_button_close">Хүснэгт рүү очих</string>
@@ -3122,16 +3123,16 @@
     <string name="write_access_denied">Документод бичих хандалтаас татгалзсан.</string>
     <string name="zss_accessibility_searching">%1$s-г хайж байна</string>
     <string name="zss_date_range_header_title">Өөрчилсөн огноо</string>
-    <string name="zss_date_range_month">Сүүлийн 30 өдөр</string>
-    <string name="zss_date_range_three_month">Сүүлийн 90 өдөр</string>
+    <string name="zss_date_range_month">Сүүлийн 30 хоног</string>
+    <string name="zss_date_range_three_month">Сүүлийн 90 хоног</string>
     <string name="zss_date_range_today">Өнөөдөр</string>
-    <string name="zss_date_range_week">Сүүлийн 7 өдөр</string>
+    <string name="zss_date_range_week">Сүүлийн 7 хоног</string>
     <string name="zss_date_range_yesterday">Өчигдөр</string>
-    <string name="zss_entry_types_header_title">Файлын төрөл</string>
+    <string name="zss_entry_types_header_title">Файлын төрлүүд</string>
     <string name="zss_no_filters">Шүүлтүүр байхгүй</string>
     <string name="zss_owner_header_title">Эзэмшигч</string>
     <string name="zss_owner_me">Миний эзэмшдэг</string>
-    <string name="zss_owner_not_me">Миний эзэмшилд байдаггүй</string>
+    <string name="zss_owner_not_me">Миний эзэмшдэггүй</string>
     <string name="zss_people_header_title">Хүмүүс</string>
     <string name="zss_showing_list_of_filters">Ашиглах боломжтой шүүлтүүрийн жагсаалт.</string>
     <string name="zss_team_drive">%1$s дотроос хайх</string>
@@ -3139,7 +3140,7 @@
     <string name="zss_type_audio">Аудио</string>
     <string name="zss_type_documents">Текст документ</string>
     <string name="zss_type_folder">Фолдер</string>
-    <string name="zss_type_images">Фото &amp; зураг</string>
+    <string name="zss_type_images">Фото болон зураг</string>
     <string name="zss_type_pdfs">PDF</string>
     <string name="zss_type_presentations">Үзүүлэн</string>
     <string name="zss_type_spreadsheets">Хүснэгт</string>

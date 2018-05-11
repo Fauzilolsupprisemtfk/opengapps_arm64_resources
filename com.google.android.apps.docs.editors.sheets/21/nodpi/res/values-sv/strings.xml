@@ -659,7 +659,7 @@ Försök att överföra en fil."</string>
     <string name="empty_doclist_for_pinned_view_details">Gör filer tillgängliga offline på filens alternativmeny</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Tryck på Tillgänglig offline på filens meny så att du kan fortsätta jobba med den offline.</string>
     <string name="empty_doclist_for_recent_view">Inga nyligen öppnade eller redigerade filer.</string>
-    <string name="empty_doclist_for_search_view">Inga resultat.</string>
+    <string name="empty_doclist_for_search_view">Inga resultat</string>
     <string name="empty_doclist_for_shared_with_me_view">Filer som delas med dig visas här.</string>
     <string name="empty_doclist_for_starred_view">Du har inga stjärnmärkta filer.</string>
     <string name="empty_doclist_for_starred_view_details">Tryck på stjärnikonen på filens alternativmeny för att lägga till den på den här listan.</string>
@@ -708,6 +708,7 @@ Klicka på + för att skapa ett nytt kalkylark."</string>
     <string name="error_video_not_available">Videon har inte bearbetats. Försök igen senare.</string>
     <string name="excess_head_count">+ %1$d</string>
     <string name="excess_head_count_verbalization">+%1$d andra.</string>
+    <string name="expand_button_title">Avancerat</string>
     <string name="expires_future">Löper ut %1$s</string>
     <string name="expires_today">Upphör idag</string>
     <string name="export_download_error_title">Nedladdningsfel</string>
@@ -725,6 +726,11 @@ Klicka på + för att skapa ett nytt kalkylark."</string>
     <string name="fab_office_document">Ny Excel-fil</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Sökresultat</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">kB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Äldre</string>
     <string name="fast_scroll_time_grouper_last_week">Förra veckan</string>
     <string name="fast_scroll_time_grouper_this_month">Tidigare den här månaden</string>
@@ -871,17 +877,8 @@ Klicka på + för att skapa ett nytt kalkylark."</string>
     <string name="manage_addons_playstore_link_description">Navigera till Play Butik för %s</string>
     <string name="manage_members_default_members">Som standard kan medlemmar ladda upp/redigera/ta bort filer och bjuda in andra medlemmar</string>
     <string name="manage_members_dialog_title">Medlemsåtkomst</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Lagring</string>
+    <string name="management_data_loading_failed">Det går inte att läsa in den här sidan</string>
     <string name="menu_backup">Säkerhetskopior</string>
     <string name="menu_copy_link">Kopiera länken</string>
     <string name="menu_create_shortcut">Lägg till på startskärmen</string>
@@ -1282,7 +1279,6 @@ Klicka på + för att skapa ett nytt kalkylark."</string>
     <string name="published_access_anyone">Alla kan visa den publicerade versionen</string>
     <string name="published_access_domain">Alla på %s får visa efter publicering</string>
     <string name="published_access_select_people">Vissa personer kan visa den publicerade versionen</string>
-    <string name="published_disabled_append">inaktiverat,</string>
     <string name="published_message_for_anyone_can_edit">Eftersom alla kan redigera, kan alla se webbplatsen när den har publicerats.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Eftersom alla på %1$s kan redigera, kan alla på %1$s se webbplatsen när den har publicerats.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Eftersom alla med länken kan redigera, kan alla se webbplatsen när den har publicerats.</string>
@@ -1458,6 +1454,7 @@ Klicka på + för att skapa ett nytt kalkylark."</string>
     <string name="ritz_cannot_back_local_filter_with_named_range">Du kan inte göra ett filter beroende av ett namngivet område i skrivskyddat läge.</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">Du kan inte ändra skyddet för arbetsbladet till intervallskydd eller tvärt om.</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">Du kan inte lägga till alternerande bakgrundsfärger i ett område som redan har alternerande bakgrundsfärger.</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">Det går inte att lägga till ett filter på arbetsbladet eftersom det är anslutet till en databas. Skapa en filtervy istället.</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">Du kan inte skapa ett filer i ett kalkylark som redan har ett filter.</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">Det går inte att skapa ett filter över ett intervall som innehåller vertikala sammanfogningar.</string>
     <string name="ritz_cannot_create_filter_within_merge">Det går inte att skapa ett filter över ett intervall som innehåller sammanfogningar.</string>
@@ -1507,6 +1504,7 @@ Klicka på + för att skapa ett nytt kalkylark."</string>
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">Den här funktionen stöds inte i områden med sorterad filtervy. Inaktivera Filtervy och försök igen.</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">Den här funktionen stöds inte i områden med en bortfiltrerad rad.</string>
     <string name="ritz_cannot_pivot_drill_down">Det går inte att visa uppgifter om en cell som inte finns i en pivottabell</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">Det gick inte att skydda arbetsbladet eftersom det är anslutet till en databas.</string>
     <string name="ritz_cannot_protect_deleted_sheet">Arbetsbladet du vill skydda är borttaget.</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">Det går inte att spara regeln med ogiltig formel.</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">Det går inte att ange data i den här sammanfogade cellen. Om du har en aktiv filtervy ska du testa att ta bort den.</string>
@@ -2041,7 +2039,6 @@ Klicka på + för att skapa ett nytt kalkylark."</string>
     <string name="ritz_generic_sheet_activated">Blad %1$s har aktiverats.</string>
     <string name="ritz_get_pivot_table_message_for_average">Genomsnitt av %1$s för varje %2$s</string>
     <string name="ritz_get_pivot_table_message_for_count">Antal för %1$s för varje %2$s</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">Summan av distinkta %1$s för varje %2$s</string>
     <string name="ritz_get_pivot_table_message_for_sum">Summan för %1$s för varje %2$s</string>
     <string name="ritz_google_category">Google Irland</string>
     <string name="ritz_google_finance_disclaimer">Börsnoteringsinformation kan vara upp till 20 minuter gammal. Informationen tillhandahålls i befintligt skick och bara i informationssyfte, inte för handel eller rådgivning.</string>
@@ -2766,6 +2763,7 @@ Klicka på + för att skapa ett nytt kalkylark."</string>
     <string name="suggest_pin_dialog_positive_button">Gör tillgänglig offline</string>
     <string name="suggest_pin_dialog_title">Ingen anslutning</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s är vald</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Synkroniseringsfel för Google Kalkylark</string>
     <string name="sync_more_error">Det gick inte att hämta fler objekt</string>
     <string name="sync_more_error_offline">Vissa dokument kanske inte syns när du är offline.</string>
@@ -2954,6 +2952,8 @@ Klicka på + för att skapa ett nytt kalkylark."</string>
     <string name="upsave_dialog_title">Spara ändringar?</string>
     <string name="upsell_negbtn">Senare</string>
     <string name="upsell_okbtn">Uppgradera</string>
+    <string name="v7_preference_off">AV</string>
+    <string name="v7_preference_on">PÅ</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{Alla är {VALUE} utom för en, {EXCEPTIONS}.}=2{Alla är {VALUE} utom för två, {EXCEPTIONS}.}=3{Alla är {VALUE} utom för tre, {EXCEPTIONS}.}=4{Alla är {VALUE} utom för fyra, {EXCEPTIONS}.}other{Alla är {VALUE} utom för {NUMBER_OF_EXCEPTIONS}, {EXCEPTIONS}.}}</string>
     <string name="verbal_all_different">Alla värden är olika.</string>
     <string name="verbal_all_same">Samtliga värden är %1$s.</string>
@@ -3140,8 +3140,9 @@ Klicka på + för att skapa ett nytt kalkylark."</string>
     <string name="warm_welcome_next_button">Nästa</string>
     <string name="warm_welcome_skip_button">Hoppa över</string>
     <string name="warning_cannot_share_outside_domain">Inställningarna för denna teamenhet förhindrar delning utanför %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Inställningarna för denna teamenhet förhindrar delning utanför teamet och %s.</string>
     <string name="warning_cannot_share_outside_domain_org">Inställningarna för organisationen förhindrar delning utanför organisationen</string>
-    <string name="warning_cannot_share_outside_team_drive">Inställningarna för denna teamenhet förhindrar delning utanför teamet</string>
+    <string name="warning_cannot_share_outside_team_drive">Inställningarna för denna teamenhet förhindrar delning med personer som inte är medlemmar</string>
     <string name="warning_csv_edits_unsupported">Om du vill lägga till formaterat innehåll, diagram, bilder eller extra flikar, måste du spara filen som ett Google-kalkylark.</string>
     <string name="warning_sheet_add_unsupported">Om du vill lägga till ett nytt blad måste du spara filen som ett Google-kalkylark.</string>
     <string name="welcome_button_close">Öppna Kalkylark</string>
@@ -3162,10 +3163,10 @@ Klicka på + för att skapa ett nytt kalkylark."</string>
     <string name="write_access_denied">Skrivåtkomst till dokumentet nekades</string>
     <string name="zss_accessibility_searching">Söker efter %1$s</string>
     <string name="zss_date_range_header_title">Ändringsdatum</string>
-    <string name="zss_date_range_month">De senaste 30 dagarna</string>
+    <string name="zss_date_range_month">Senaste 30 dagarna</string>
     <string name="zss_date_range_three_month">Senaste 90 dagarna</string>
     <string name="zss_date_range_today">I dag</string>
-    <string name="zss_date_range_week">Senaste 7 dagar</string>
+    <string name="zss_date_range_week">Senaste 7 dagarna</string>
     <string name="zss_date_range_yesterday">I går</string>
     <string name="zss_entry_types_header_title">Filtyper</string>
     <string name="zss_no_filters">Inga filter</string>
@@ -3175,12 +3176,12 @@ Klicka på + för att skapa ett nytt kalkylark."</string>
     <string name="zss_people_header_title">Personer</string>
     <string name="zss_showing_list_of_filters">Visar listan över tillgängliga filter.</string>
     <string name="zss_team_drive">Sök i %1$s</string>
-    <string name="zss_type_archive">Arkivera</string>
+    <string name="zss_type_archive">Arkiv</string>
     <string name="zss_type_audio">Ljud</string>
     <string name="zss_type_documents">Textdokument</string>
     <string name="zss_type_folder">Mappar</string>
     <string name="zss_type_images">Foton och bilder</string>
-    <string name="zss_type_pdfs">Pdf-filer</string>
+    <string name="zss_type_pdfs">PDF-filer</string>
     <string name="zss_type_presentations">Presentationer</string>
     <string name="zss_type_spreadsheets">Kalkylark</string>
     <string name="zss_type_video">Videor</string>

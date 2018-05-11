@@ -689,6 +689,7 @@
     <string name="error_video_not_available">ვიდეო არ დამუშავებულა. გთხოვთ, მოგვიანებით ისევ სცადოთ.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d სხვა.</string>
+    <string name="expand_button_title">დამატებით</string>
     <string name="expires_future">ვადა ეწურება %1$s-ში</string>
     <string name="expires_today">ვადა ეწურება დღეს</string>
     <string name="export_download_error_title">ჩამოტვირთვის შეცდომა</string>
@@ -706,6 +707,11 @@
     <string name="fab_office_document">ახალი Excel ფაილი</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">ძიების შედეგები</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">გბაიტი</string>
+    <string name="fast_scroll_size_grouper_kb">კბაიტი</string>
+    <string name="fast_scroll_size_grouper_mb">მბაიტი</string>
     <string name="fast_scroll_time_grouper_earlier">ძველი</string>
     <string name="fast_scroll_time_grouper_last_week">წინა კვირის</string>
     <string name="fast_scroll_time_grouper_this_month">ამ თვის დასაწყისის</string>
@@ -836,17 +842,8 @@
     <string name="make_copy_spinner_message">მიმდინარეობს კოპირება…</string>
     <string name="manage_members_default_members">ნაგულისხმევად, წევრებს შეუძლიათ ფაილების ატვირთვა/რედაქტირება/წაშლა და სხვა წევრების მოწვევა</string>
     <string name="manage_members_dialog_title">წევრების წვდომა</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">მეხსიერება</string>
+    <string name="management_data_loading_failed">ამ გვერდის ჩატვირთვა ვერ მოხერხდა</string>
     <string name="menu_backup">სარეზერვო ასლები</string>
     <string name="menu_copy_link">ბმულის კოპირება</string>
     <string name="menu_create_shortcut">მთავარ ეკრანზე დამატება</string>
@@ -1245,7 +1242,6 @@
     <string name="published_access_anyone">როდესაც გამოქვეყნდება, ნებისმიერი შეძლებს ნახვას</string>
     <string name="published_access_domain">როდესაც გამოქვეყნდება, %s-ში ნებისმიერი შეძლებს ნახვას</string>
     <string name="published_access_select_people">როდესაც გამოქვეყნდება, ნახვას კონკრეტული ადამიანები შეძლებენ</string>
-    <string name="published_disabled_append">გათიშული,</string>
     <string name="published_message_for_anyone_can_edit">რადგან ნებისმიერს შეუძლია რედაქტირება, ნებისმიერი შეძლებს ნახვას, როდესაც გამოქვეყნდება.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">რადგანაც ნებისმიერს %1$s-ზე შეუძლია რედაქტირება, ნებისმიერს %1$s-ზე შეუძლია ნახვა, როდესაც გამოქვეყნდება.</string>
     <string name="published_message_for_anyone_with_link_can_edit">რადგან ნებისმიერს ბმულით შეუძლია რედაქტირება, ნებისმიერი შეძლებს ნახვას, როდესაც გამოქვეყნდება.</string>
@@ -1421,6 +1417,7 @@
     <string name="ritz_cannot_back_local_filter_with_named_range">მხოლოდ დათვალიერების რეჟიმში ფილტრი ვერ გამოიყენებს სახელდებულ დიაპაზონს.</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">ფურცლის დაცვას დიაპაზონის დაცვით ვერ ჩაანაცვლებთ, და პირიქით.</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">ფონის მონაცვლე ფერების დამატება შეუძლებელია იმ დიაპაზონში, რომელსაც უკვე აქვს ფონის მონაცვლე ფერები.</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">ამ ფურცლისთვის ფილტრის დამატება შეუძლებელია, რადგან ის დაკავშირებულია მონაცემთა ბაზასთან. ამის ნაცვლად, გთხოვთ, შექმნათ ფილტრის ხედი.</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">ფურცელზე, რომელსაც უკვე აქვს ფილტრი, ფილტრს ვერ შექმნით.</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">ვერტიკალურად გაერთიანებული მონაკვეთების არეალზე ფილტრს ვერ შექმნით.</string>
     <string name="ritz_cannot_create_filter_within_merge">გაერთიანებული მონაკვეთების არეალში ფილტრს ვერ შექმნით.</string>
@@ -1470,6 +1467,7 @@
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">ეს ოპერაცია მხარდაჭერილი არ არის სორტირებული ფილტრის ხედიან დიაპაზონზე. გთხოვთ, გააუქმოთ ფილტრის ხედი და სცადოთ ისევ.</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">ეს ოპერაცია მხარდაჭერილი არ არის გაფილტრულ რიგიან დიაპაზონზე.</string>
     <string name="ritz_cannot_pivot_drill_down">იმ უჯრედის დეტალების ჩვენება, რომელიც კრებსით ცხრილში არ მდებარეობს, შეუძლებელია</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">ამ ფურცლისთვის დაცვის დამატებას ვერ შეძლებთ, რადგან ის დაკავშირებულია მონაცემთა ბაზასთან.</string>
     <string name="ritz_cannot_protect_deleted_sheet">ფურცელი, რომლის დაცვასაც ცდილობთ, წაშლილია.</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">წესის შენახვა არასწორი ფორმულით ვერ ხერხდება.</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">გაერთიანებული უჯრედის მონაცემების დაყენება ვერ მოხერხდა. თუ გაქვთ გააქტიურებული ფილტრის ხედი,სცადეთ მისი გაუქმება.</string>
@@ -2004,7 +2002,6 @@
     <string name="ritz_generic_sheet_activated">ფურცელი %1$s გააქტიურდა.</string>
     <string name="ritz_get_pivot_table_message_for_average">%1$s-ის საშუალო არითმეტიკული თითოეული %2$s-ისთვის</string>
     <string name="ritz_get_pivot_table_message_for_count">%1$s-ის რაოდენობა თითოეული %2$s-ისთვის</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">განსხვავებული %1$s-ის რაოდენობა თითოეული %2$s-ისთვის</string>
     <string name="ritz_get_pivot_table_message_for_sum">%1$s-ის ჯამი თითოეული %2$s-ისთვის</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">პასუხისმგებლობის უარყოფა: კოტირებების წყაროს არ წარმოადგენს სრული ბაზარი და შესაძლოა 20 წუთით დაყოვნებული იყოს. ინფორმაცია მოწოდებულია „როგორც არის“, მხოლოდ საინფორმაციო და არა სავაჭრო დანიშნულებით ან რჩევის მიცემის მიზნით.</string>
@@ -2726,6 +2723,7 @@
     <string name="suggest_pin_dialog_positive_button">გახდეს ხაზგარეშე ხელმისაწვდომი</string>
     <string name="suggest_pin_dialog_title">კავშირი არ არის</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, არჩეულია</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Google Sheets სინქრონიზაციის შეცდომა</string>
     <string name="sync_more_error">შეცდომა დამატებითი ერთეულების მოძიებისას</string>
     <string name="sync_more_error_offline">ზოგიერთი დოკუმენტი შესაძლოა ხაზგარეშე არ გამოჩნდეს.</string>
@@ -2914,6 +2912,8 @@
     <string name="upsave_dialog_title">გსურთ ცვლილებების შენახვა?</string>
     <string name="upsell_negbtn">მოგვიანებით</string>
     <string name="upsell_okbtn">განახლება</string>
+    <string name="v7_preference_off">გამორთული</string>
+    <string name="v7_preference_on">ჩართული</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{ყველა არის {VALUE}, ერთის ({EXCEPTIONS}) გარდა.}=2{ყველა არის {VALUE}, ორის ({EXCEPTIONS}) გარდა.}=3{ყველა არის {VALUE}, სამის ({EXCEPTIONS}) გარდა.}=4{ყველა არის {VALUE}, ოთხის ({EXCEPTIONS}) გარდა.}other{ყველა არის {VALUE}, {NUMBER_OF_EXCEPTIONS}-ის გარდა ({EXCEPTIONS}).}}</string>
     <string name="verbal_all_different">ყველა მნიშვნელობა სხვადასხვაა.</string>
     <string name="verbal_all_same">ყველა მნიშვნელობა არის %1$s.</string>
@@ -3100,8 +3100,9 @@
     <string name="warm_welcome_next_button">შემდეგი</string>
     <string name="warm_welcome_skip_button">გამოტოვება</string>
     <string name="warning_cannot_share_outside_domain">ამ გუნდის Drive-ის პარამეტრები ხელს უშლის %s-ის ფარგლებს გარეთ გაზიარებას</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">ამ გუნდის Drive-ის პარამეტრები ხელს უშლის არაწევრებთან და %s-ის ფარგლებს გარეთ გაზიარებას</string>
     <string name="warning_cannot_share_outside_domain_org">ორგანიზაციის პარამეტრები ხელს უშლის ორგანიზაციის ფარგლებს გარეთ გაზიარებას</string>
-    <string name="warning_cannot_share_outside_team_drive">ამ გუნდის Drive-ის პარამეტრები ხელს უშლის გუნდის ფარგლებს გარეთ გაზიარებას</string>
+    <string name="warning_cannot_share_outside_team_drive">ამ გუნდის Drive-ის პარამეტრები ხელს უშლის გაზიარებას არაწევრებთან</string>
     <string name="warning_csv_edits_unsupported">ფორმატირებული კონტენტის, დიაგრამების, სურათების ან დამატებითი ჩანართების დასამატებლად თქვენი ფაილი Google ელცხრილად უნდა შეინახოთ.</string>
     <string name="warning_sheet_add_unsupported">ახალი ფურცლის დასამატებლად თქვენი ფაილი Google ელცხრილად უნდა შეინახოთ.</string>
     <string name="welcome_button_close">Sheets-ზე გადასვლა</string>
@@ -3140,7 +3141,7 @@
     <string name="zss_type_documents">ტექსტური დოკუმენტები</string>
     <string name="zss_type_folder">საქაღალდეები</string>
     <string name="zss_type_images">ფოტოები და სურათები</string>
-    <string name="zss_type_pdfs">PDF-ები</string>
+    <string name="zss_type_pdfs">PDF ფაილები</string>
     <string name="zss_type_presentations">პრეზენტაციები</string>
     <string name="zss_type_spreadsheets">ელცხრილები</string>
     <string name="zss_type_video">ვიდეოები</string>

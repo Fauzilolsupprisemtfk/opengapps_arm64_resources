@@ -659,7 +659,7 @@
     <string name="empty_doclist_for_pinned_view_details">"파일 옵션 메뉴에서 파일을 '오프라인에서 사용 가능'하도록 지정합니다."</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">"파일 메뉴에서 '오프라인에서 사용 가능'을 탭하여 오프라인에서도 계속 작업하세요."</string>
     <string name="empty_doclist_for_recent_view">최근에 열거나 수정한 파일이 없습니다.</string>
-    <string name="empty_doclist_for_search_view">결과가 없습니다.</string>
+    <string name="empty_doclist_for_search_view">검색결과 없음</string>
     <string name="empty_doclist_for_shared_with_me_view">나와 공유된 파일이 여기에 표시됩니다.</string>
     <string name="empty_doclist_for_starred_view">별표표시한 파일이 없습니다.</string>
     <string name="empty_doclist_for_starred_view_details">파일을 이 목록에 추가하려면 파일의 옵션 메뉴에 있는 별표 아이콘을 탭하세요.</string>
@@ -708,6 +708,7 @@
     <string name="error_video_not_available">동영상이 처리되지 않았습니다. 나중에 다시 시도해 주세요.</string>
     <string name="excess_head_count">+%1$d명</string>
     <string name="excess_head_count_verbalization">외 %1$d명</string>
+    <string name="expand_button_title">고급</string>
     <string name="expires_future">%1$s 후 만료</string>
     <string name="expires_today">오늘 만료</string>
     <string name="export_download_error_title">다운로드 오류</string>
@@ -725,6 +726,11 @@
     <string name="fab_office_document">새 Excel 파일</string>
     <string name="fast_scroll_month_and_year_grouped">%2$d년 %1$s</string>
     <string name="fast_scroll_search_result_grouper">검색결과</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">이전</string>
     <string name="fast_scroll_time_grouper_last_week">지난주</string>
     <string name="fast_scroll_time_grouper_this_month">이번 달 초</string>
@@ -871,17 +877,8 @@
     <string name="manage_addons_playstore_link_description">Play 스토어에서 %s 찾기</string>
     <string name="manage_members_default_members">기본적으로 멤버는 파일을 업로드, 수정 및 삭제할 수 있으며 다른 멤버를 초대할 수 있습니다.</string>
     <string name="manage_members_dialog_title">멤버 액세스 권한</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">저장용량</string>
+    <string name="management_data_loading_failed">이 페이지를 로드할 수 없습니다.</string>
     <string name="menu_backup">백업</string>
     <string name="menu_copy_link">링크 복사</string>
     <string name="menu_create_shortcut">홈 화면에 추가</string>
@@ -1457,6 +1454,7 @@
     <string name="ritz_cannot_back_local_filter_with_named_range">보기 전용 모드에서는 이름이 지정된 범위에 따라 필터가 결정되도록 할 수 없습니다.</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">시트 보호를 범위 보호로 변경하거나 범위 보호를 시트 보호로 변경할 수 없습니다.</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">이미 교차되는 배경 색상이 있는 범위에는 교차 배경 색상을 추가할 수 없습니다.</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">데이터베이스에 연결되어 있기 때문에 이 시트에 필터를 추가할 수 없습니다. 대신 필터 보기를 만드세요.</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">이미 필터가 포함된 시트에서 필터를 만들 수 없습니다.</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">수직 병합이 포함된 범위에 대해 필터를 만들 수 없습니다.</string>
     <string name="ritz_cannot_create_filter_within_merge">병합이 포함된 범위 내에 필터를 만들 수 없습니다.</string>
@@ -1506,6 +1504,7 @@
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">필터 보기로 정렬된 범위에 대해서는 지원되지 않는 작업입니다. 필터 보기를 사용 중지하고 다시 시도해 보세요.</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">필터로 숨겨진 행이 있는 범위에는 지원되지 않는 작업입니다.</string>
     <string name="ritz_cannot_pivot_drill_down">피봇 테이블에 없는 셀의 세부정보를 표시할 수 없습니다.</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">데이터베이스에 연결되어 있기 때문에 이 시트의 보안을 강화할 수 없습니다.</string>
     <string name="ritz_cannot_protect_deleted_sheet">보호하려는 시트가 삭제되었습니다.</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">잘못된 수식이 포함된 규칙은 저장할 수 없습니다.</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">이 병합된 셀에 데이터를 입력할 수 없습니다. 사용 중인 필터 보기가 있는 경우 이 보기를 제거해 주세요.</string>
@@ -2040,7 +2039,6 @@
     <string name="ritz_generic_sheet_activated">시트 %1$s이(가) 활성화됨.</string>
     <string name="ritz_get_pivot_table_message_for_average">각 %2$s의 평균 %1$s</string>
     <string name="ritz_get_pivot_table_message_for_count">각 %2$s의 %1$s 개수</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">각 %2$s의 고유 %1$s 개수</string>
     <string name="ritz_get_pivot_table_message_for_sum">각 %2$s의 %1$s 합계</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">"면책조항: 증시가격은 모든 주식 시장의 증시가격을 표시하는 것은 아니며 최대 20분 전 정보임을 참고하시기 바랍니다. 정보는 '있는 그대로' 제공되며 거래 목적이나 조언이 아닌 정보 제공 목적으로만 제공됩니다"</string>
@@ -2765,6 +2763,7 @@
     <string name="suggest_pin_dialog_positive_button">오프라인에서 사용하도록 설정</string>
     <string name="suggest_pin_dialog_title">연결되지 않음</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s님 선택됨</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Google 스프레드시트 동기화 오류</string>
     <string name="sync_more_error">추가 항목을 검색하는 동안 오류가 발생했습니다.</string>
     <string name="sync_more_error_offline">일부 문서가 오프라인에서 표시되지 않을 수 있습니다.</string>
@@ -2953,6 +2952,8 @@
     <string name="upsave_dialog_title">변경사항을 저장하시겠습니까?</string>
     <string name="upsell_negbtn">나중에</string>
     <string name="upsell_okbtn">업그레이드</string>
+    <string name="v7_preference_off">사용 안함</string>
+    <string name="v7_preference_on">사용</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{모든 값이 {VALUE}이며 {EXCEPTIONS} 1개만 예외입니다.}=2{모든 값이 {VALUE}이며 {EXCEPTIONS} 2개만 예외입니다.}=3{모든 값이 {VALUE}이며 {EXCEPTIONS} 3개만 예외입니다.}=4{모든 값이 {VALUE}이며 {EXCEPTIONS} 4개만 예외입니다.}other{모든 값이 {VALUE}이며 {NUMBER_OF_EXCEPTIONS}개만 {EXCEPTIONS}(으)로 예외입니다.}}</string>
     <string name="verbal_all_different">값이 모두 다릅니다.</string>
     <string name="verbal_all_same">값이 모두 %1$s입니다.</string>
@@ -3139,8 +3140,9 @@
     <string name="warm_welcome_next_button">다음</string>
     <string name="warm_welcome_skip_button">건너뛰기</string>
     <string name="warning_cannot_share_outside_domain">이 팀 드라이브의 설정으로 인해 %s 외부로 공유할 수 없습니다.</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">이 팀 드라이브의 설정으로 인해 멤버가 아닌 사용자 및 %s 외부로 공유할 수 없습니다.</string>
     <string name="warning_cannot_share_outside_domain_org">조직의 설정으로 인해 조직 외부로 공유할 수 없습니다.</string>
-    <string name="warning_cannot_share_outside_team_drive">이 팀 드라이브의 설정으로 인해 팀 외부로 공유할 수 없습니다.</string>
+    <string name="warning_cannot_share_outside_team_drive">이 팀 드라이브의 설정으로 인해 멤버가 아닌 사용자와 공유할 수 없습니다.</string>
     <string name="warning_csv_edits_unsupported">서식이 있는 콘텐츠, 차트, 이미지 또는 기타 탭을 추가하려면 파일을 Google 스프레드시트로 저장해야 합니다.</string>
     <string name="warning_sheet_add_unsupported">새 시트를 추가하려면 파일을 Google 스프레드시트로 저장해야 합니다.</string>
     <string name="welcome_button_close">스프레드시트로 이동</string>
@@ -3161,10 +3163,10 @@
     <string name="write_access_denied">문서에 대한 쓰기 액세스가 거부되었습니다.</string>
     <string name="zss_accessibility_searching">%1$s 검색</string>
     <string name="zss_date_range_header_title">수정 날짜</string>
-    <string name="zss_date_range_month">최근 30일</string>
-    <string name="zss_date_range_three_month">최근 90일</string>
+    <string name="zss_date_range_month">지난 30일</string>
+    <string name="zss_date_range_three_month">지난 90일</string>
     <string name="zss_date_range_today">오늘</string>
-    <string name="zss_date_range_week">최근 7일</string>
+    <string name="zss_date_range_week">지난 7일</string>
     <string name="zss_date_range_yesterday">어제</string>
     <string name="zss_entry_types_header_title">파일 형식</string>
     <string name="zss_no_filters">필터 없음</string>

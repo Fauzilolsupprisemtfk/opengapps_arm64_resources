@@ -640,7 +640,7 @@
     <string name="empty_doclist_for_pinned_view_details">Դարձրեք ֆայլերը «Հասանելի անցանց ռեժիմում» ֆայլի ընտրանքների ցանկից</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Ֆայլի ընտրացանկում հպեք «Հասանելի է անցանց ռեժիմում» տարբերակին, որպեսզի կարողանաք աշխատել ֆայլի վրա անցանց ժամանակ:</string>
     <string name="empty_doclist_for_recent_view">Վերջերս բացված կամ խմբագրված ֆայլեր չկան:</string>
-    <string name="empty_doclist_for_search_view">Արդյունքներ չկան:</string>
+    <string name="empty_doclist_for_search_view">Արդյունքներ չկան</string>
     <string name="empty_doclist_for_shared_with_me_view">Ձեզ հետ կիսված ֆայլերը կհայտնվեն այստեղ:</string>
     <string name="empty_doclist_for_starred_view">Աստղանշված ֆայլեր չկան:</string>
     <string name="empty_doclist_for_starred_view_details">Ֆայլի ընտրանքների ցանկում հպեք աստղանիշի պատկերակին՝ ֆայլն այս ցուցակում ավելացնելու համար:</string>
@@ -689,6 +689,7 @@
     <string name="error_video_not_available">Տեսանյութը չի մշակվել: Խնդրում ենք փորձել մի փոքր ուշ:</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">ու ևս %1$d համահեղինակ:</string>
+    <string name="expand_button_title">Լրացուցիչ</string>
     <string name="expires_future">Սպառվում է %1$sից</string>
     <string name="expires_today">Սպառվում է այսօր</string>
     <string name="export_download_error_title">Ներբեռնման սխալ</string>
@@ -706,6 +707,11 @@
     <string name="fab_office_document">Նոր Excel ֆայլ</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Որոնման արդյունքներ</string>
+    <string name="fast_scroll_size_grouper_b">Բ</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">ԳԲ</string>
+    <string name="fast_scroll_size_grouper_kb">ԿԲ</string>
+    <string name="fast_scroll_size_grouper_mb">ՄԲ</string>
     <string name="fast_scroll_time_grouper_earlier">Ավելի հին</string>
     <string name="fast_scroll_time_grouper_last_week">Անցյալ շաբաթ</string>
     <string name="fast_scroll_time_grouper_this_month">Այս ամսվա սկզբին</string>
@@ -836,17 +842,8 @@
     <string name="make_copy_spinner_message">Պատճենում…</string>
     <string name="manage_members_default_members">Ըստ կանխադրման, անդամները կարող են վերբեռնել/փոփոխել/ջնջել ֆայլեր և հրավիրել այլ անդամների</string>
     <string name="manage_members_dialog_title">Անդամների թույլտվ.</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Հիշողություն</string>
+    <string name="management_data_loading_failed">Չհաջողվեց բեռնել էջը</string>
     <string name="menu_backup">Կրկնօրինակներ</string>
     <string name="menu_copy_link">Պատճենել հղումը</string>
     <string name="menu_create_shortcut">Ավելացնել էկրանին</string>
@@ -1041,7 +1038,6 @@
     <string name="open_document_in_browser">Բացել դիտարկիչում</string>
     <string name="open_folder_removed">Պանակն այլևս հնարավոր չէ դիտել:</string>
     <string name="open_folder_trashed">%1$s-ն ուղարկվել է աղբարկղ:</string>
-    <string name="open_in">Բացել %1$s հավելվածում</string>
     <string name="open_link">Անցնել հղումով</string>
     <string name="open_pinned_version">Բացել սարքից</string>
     <string name="open_templates_picker_offline">Դարձեք առցանց՝ ձևանմուշներից օգտվելու համար:</string>
@@ -1068,8 +1064,6 @@
     <string name="ouch_title_sawwrie">Ներողությո՛ւն:</string>
     <string name="overwrite_confirm_dialog_message">%1$s անունով ֆայլ արդեն կա: Վերագրանցե՞լ:</string>
     <string name="overwrite_confirm_dialog_positive_button_label">Վերագրանցել</string>
-    <string name="owner_not_user">%1$s-ին չպատկանող</string>
-    <string name="owner_user">%1$s-ին պատկանող</string>
     <string name="page_1_description">Աշխատեք առցանց և անցանց ռեժիմներում:</string>
     <string name="page_1_heading_editors">Միշտ ձեռքի տակ</string>
     <string name="page_2_description">Ստեղծեք փաստաթղթեր ինքնուրույն կամ հրավիրեք այլ օգտատերերի՝ համագործակցելու:</string>
@@ -1420,6 +1414,7 @@
     <string name="ritz_cannot_back_local_filter_with_named_range">Միայն դիտման ռեժիմում հնարավոր չէ զտիչը դարձնել անվանում ունեցող ընդգրկույթից կախյալ:</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">Հնարավոր չէ թերթի պաշտպանությունը փոխել ընդգրկույթի պաշտպանության կամ հակառակը:</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">Դուք չեք կարող ավելացնել փոփոխվող ֆոնային գույներ մի ընդգրկույթում, որտեղ արդեն այդպիսիք կան:</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">Դուք չեք կարող զտիչ ավելացնել այս թերթին, քանի որ այն կապված է տվյալների շտեմարանի հետ: Փոխարենը ստեղծեք զտման ռեժիմ։</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">Դուք չեք կարող զտիչ ստեղծել մի թերթում, որն արդեն զտիչ ունի:</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">Հնարավոր չէ ստեղծել զտիչ ուղղահայաց միավորված բջիջների վրա:</string>
     <string name="ritz_cannot_create_filter_within_merge">Հնարավոր չէ զտիչ ստեղծել միավորումներ պարունակող ընդգրկույթի ներսում:</string>
@@ -1469,6 +1464,7 @@
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">Այս գործողությունը չի աջակցվում ընդգրկույթում, որի նկատմամբ զտիչ է կիրառվել: Անջատեք զտիչը և փորձեք նորից:</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">Այս գործողությունը չի աջակցվում զտված տողով ընդգրկույթում:</string>
     <string name="ritz_cannot_pivot_drill_down">Բջիջի մանրամասները հնարավոր չէ ցուցադրել, քանի որ այն ներառված չէ ամփոփիչ աղյուսակում</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">Դուք չեք կարող պաշտպանություն ավելացնել այս թերթին, քանի որ այն կապված է տվյալների շտեմարանի հետ:</string>
     <string name="ritz_cannot_protect_deleted_sheet">Թերթը, որը փորձում եք պաշտպանել, ջնջված է:</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">Հնարավոր չէ պահել անվավեր բանաձևով կանոնը:</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">Անհնար է նշել կամ փոփոխել տվյալներն այս միավորված բջջի մեջ: Եթե կա գործող զտիչ, փորձեք հեռացնել այն:</string>
@@ -2003,7 +1999,6 @@
     <string name="ritz_generic_sheet_activated">%1$s թերթն ակտիվացվել է:</string>
     <string name="ritz_get_pivot_table_message_for_average">«%1$s»-ի միջին արժեքը յուրաքանչյուր «%2$s»-ի համար</string>
     <string name="ritz_get_pivot_table_message_for_count">«%1$s»-ի քանակը յուրաքանչյուր «%2$s»-ի համար</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">Եզակի «%1$s»-ի քանակը յուրաքանչյուր «%2$s»-ի համար</string>
     <string name="ritz_get_pivot_table_message_for_sum">«%1$s» արժեքների գումարը յուրաքանչյուր «%2$s» արժեքի համար</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">Հրաժարագիր: Գնանշումները վերցված են ոչ բոլոր շուկաներից և հնարավոր է ներկայացվեն մինչև 20 րոպե ուշացումով: Տեղեկատվությունը տրամադրվում է առանց երաշխիքի և զուտ տեղեկատվական նպատակներով, այլ ոչ թե առևտրային կամ խորհրդատվական:</string>
@@ -2725,6 +2720,7 @@
     <string name="suggest_pin_dialog_positive_button">Հասանելի դարձնել անցանց</string>
     <string name="suggest_pin_dialog_title">Կապ չկա</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, ընտրված է</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Google Աղյուսակների համաժամեցման սխալ</string>
     <string name="sync_more_error">Լրացուցիչ ֆայլերի առբերման սխալ</string>
     <string name="sync_more_error_offline">Որոշ փաստաթղթեր հնարավոր է տեսանելի չլինեն անցանց ռեժիմում:</string>
@@ -2913,6 +2909,8 @@
     <string name="upsave_dialog_title">Պահե՞լ փոփոխությունները:</string>
     <string name="upsell_negbtn">Ավելի ուշ</string>
     <string name="upsell_okbtn">Ավելացնել</string>
+    <string name="v7_preference_off">ԱՆՋԱՏԱԾ</string>
+    <string name="v7_preference_on">ՄԻԱՑՎԱԾ</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{Բոլորը {VALUE} են, բացի մեկից՝ {EXCEPTIONS}:}=2{Բոլորը {VALUE} են, բացի երկուսից՝ {EXCEPTIONS}:}=3{Բոլորը {VALUE} են բացի երեքից՝ {EXCEPTIONS}:}=4{Բոլորը {VALUE} են բացի չորսից՝ {EXCEPTIONS}:}one{All are {VALUE} except for {NUMBER_OF_EXCEPTIONS}, {EXCEPTIONS}.}other{Բոլորը {VALUE} են, բացի {NUMBER_OF_EXCEPTIONS}-ից՝ {EXCEPTIONS}:}}</string>
     <string name="verbal_all_different">Բոլոր արժեքները տարբեր են:</string>
     <string name="verbal_all_same">Բոլոր արժեքները՝ %1$s:</string>
@@ -3099,8 +3097,9 @@
     <string name="warm_welcome_next_button">Հաջորդը</string>
     <string name="warm_welcome_skip_button">Բաց թողնել</string>
     <string name="warning_cannot_share_outside_domain">Այս ընդհանուր դրայվի կարգավորումները թույլ չեն տալիս կիսվել ֆայլերով %s տիրույթից դուրս</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Այս ընդհանուր դրայվի կարգավորումները թույլ չեն տալիս կիսվել ֆայլերով կողմնակի անձանց հետ և %s տիրույթից դուրս</string>
     <string name="warning_cannot_share_outside_domain_org">Կազմակերպության կարգավորումները թույլ չեն տալիս կիսվել ֆայլերով կազմակերպությունից դուրս</string>
-    <string name="warning_cannot_share_outside_team_drive">Այս ընդհանուր դրայվի կարգավորումները թույլ չեն տալիս կիսվել ֆայլերով ընդհանուր դրայվից դուրս</string>
+    <string name="warning_cannot_share_outside_team_drive">Այս ընդհանուր դրայվի կարգավորումները թույլ չեն տալիս կիսվել ֆայլերով կողմնակի անձանց հետ</string>
     <string name="warning_csv_edits_unsupported">Ձևաչափված բովանդակություն, գծապատկերներ, պատկերներ կամ լրացուցիչ ներդիրներ ավելացնելու համար դուք պետք է պահեք ձեր ֆայլը որպես Google աղյուսակ:</string>
     <string name="warning_sheet_add_unsupported">Նոր թերթ ավելացնելու համար դուք պետք է պահեք ձեր ֆայլը որպես Google աղյուսակ:</string>
     <string name="welcome_button_close">Անցնել Աղյուսակներ</string>
@@ -3119,28 +3118,6 @@
     <string name="welcome_title_app_name">Google Աղյուսակներ</string>
     <string name="welcome_title_highlights">%1$s-ի հայտարարությունների վահանակ</string>
     <string name="write_access_denied">Փաստաթուղթը խմբագրելու թույլտվությունը մերժվել է:</string>
-    <string name="zss_accessibility_searching">Որոնվում են %1$s</string>
-    <string name="zss_date_range_header_title">Փոփոխության ամսաթիվը</string>
-    <string name="zss_date_range_month">Վերջին 30 օրը</string>
-    <string name="zss_date_range_three_month">Վերջին 90 օրը</string>
-    <string name="zss_date_range_today">Այսօր</string>
-    <string name="zss_date_range_week">Վերջին 7 օրը</string>
-    <string name="zss_date_range_yesterday">Երեկ</string>
-    <string name="zss_entry_types_header_title">Ֆայլի տեսակներ</string>
     <string name="zss_no_filters">Զտիչներ չկան</string>
-    <string name="zss_owner_header_title">Սեփականատեր՝</string>
-    <string name="zss_owner_me">Ինձ պատկանող</string>
-    <string name="zss_owner_not_me">Ինձ չպատկանող</string>
-    <string name="zss_people_header_title">Մարդիկ</string>
     <string name="zss_showing_list_of_filters">Ցուցադրվում է հասանելի զտիչների ցանկը:</string>
-    <string name="zss_team_drive">Որոնել %1$s-ում</string>
-    <string name="zss_type_archive">Արխիվ</string>
-    <string name="zss_type_audio">Ձայնային</string>
-    <string name="zss_type_documents">Տեքստային փաստաթղթեր</string>
-    <string name="zss_type_folder">Պանակներ</string>
-    <string name="zss_type_images">Լուսանկարներ և պատկերներ</string>
-    <string name="zss_type_pdfs">PDF-ներ</string>
-    <string name="zss_type_presentations">Ներկայացումներ</string>
-    <string name="zss_type_spreadsheets">Աղյուսակներ</string>
-    <string name="zss_type_video">Տեսանյութեր</string>
 </resources>

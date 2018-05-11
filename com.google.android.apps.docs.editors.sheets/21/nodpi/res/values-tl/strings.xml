@@ -651,7 +651,7 @@ Subukang mag-upload ng file."</string>
     <string name="empty_doclist_for_pinned_view_details">Gawing \"Available sa offline\" ang mga file sa menu ng mga opsyon ng file</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">I-tap ang \"Available sa offline\" sa menu ng file upang makagawa ka pa rin rito offline.</string>
     <string name="empty_doclist_for_recent_view">Walang kamakailang binuksan o na-edit na file.</string>
-    <string name="empty_doclist_for_search_view">Walang mga resulta.</string>
+    <string name="empty_doclist_for_search_view">Walang resulta</string>
     <string name="empty_doclist_for_shared_with_me_view">Dito lalabas ang mga file na ibinahagi sa iyo.</string>
     <string name="empty_doclist_for_starred_view">Wala kang naka-star na file.</string>
     <string name="empty_doclist_for_starred_view_details">I-tap ang icon na star sa menu ng opsyon ng file upang idagdag iyon sa listahang ito.</string>
@@ -700,6 +700,7 @@ I-click ang + upang gumawa ng bagong spreadsheet."</string>
     <string name="error_video_not_available">Hindi naproseso ang video. Pakisubukang muli sa ibang pagkakataon.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d iba pa.</string>
+    <string name="expand_button_title">Advanced</string>
     <string name="expires_future">Mag-e-expire pagkalipas ng %1$s</string>
     <string name="expires_today">Mag-e-expire ngayon</string>
     <string name="export_download_error_title">Error sa Pag-download</string>
@@ -717,6 +718,11 @@ I-click ang + upang gumawa ng bagong spreadsheet."</string>
     <string name="fab_office_document">Bagong Excel file</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Mga Search Result</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Mas Luma</string>
     <string name="fast_scroll_time_grouper_last_week">Nakaraang linggo</string>
     <string name="fast_scroll_time_grouper_this_month">Unang bahagi ng buwang ito</string>
@@ -1250,7 +1256,6 @@ I-click ang + upang gumawa ng bagong spreadsheet."</string>
     <string name="published_access_anyone">Matitingnan ng sinuman kapag na-publish</string>
     <string name="published_access_domain">Matitingnan ng sinuman sa %s kapag naka-publish</string>
     <string name="published_access_select_people">Matitingnan ng mga partikular na tao kapag na-publish</string>
-    <string name="published_disabled_append">naka-disable,</string>
     <string name="published_message_for_anyone_can_edit">Dahil makakapag-edit ang sinuman, matitingnan ito ng sinuman kapag na-publish.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Dahil makakapag-edit ang sinuman sa %1$s, matitingnan ito ng sinuman sa %1$s kapag na-publish ito.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Dahil makakapag-edit ang sinumang may link, matitingnan ito ng sinuman kapag na-publish.</string>
@@ -1426,6 +1431,7 @@ I-click ang + upang gumawa ng bagong spreadsheet."</string>
     <string name="ritz_cannot_back_local_filter_with_named_range">Hindi mo maaaring ipadepende ang isang filter sa isang pinangalanang hanay kapag nasa view-only mode.</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">Hindi mo maaaring baguhin ang proteksyon ng sheet papunt sa proteksyon ng range o vice versa.</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">Hindi ka maaaring magdagdag ng mga pasalit-salit na kulay ng background sa isang range na mayroon nang mga pasalit-salit na kulay ng background.</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">Hindi ka makakapagdagdag ng filter sa sheet na ito dahil nakakonekta ito sa isang database. Gumawa na lang ng view ng filter.</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">Hindi ka makakagawa ng filter sa isang sheet na may filter na.</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">Hindi ka makakagawa ng filter sa isang range na may mga vertical merge.</string>
     <string name="ritz_cannot_create_filter_within_merge">Hindi ka makakagawa ng filter sa loob ng isang range na may mga merge.</string>
@@ -1475,6 +1481,7 @@ I-click ang + upang gumawa ng bagong spreadsheet."</string>
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">Ang operasyong ito ay hindi suportado sa range na may pinagbukud-bukod na Filter View. Paki-disable ang Filter View at subukang muli.</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">Ang operasyong ito ay hindi suportado sa isang range na may naka-filter out na row.</string>
     <string name="ritz_cannot_pivot_drill_down">Hindi ka maaaring magpakita ng mga detalye ng cell na wala sa loob ng isang pivot table</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">Hindi makakapagdagdag ng proteksyon sa sheet na ito dahil nakakonekta ito sa isang database.</string>
     <string name="ritz_cannot_protect_deleted_sheet">Na-delete ang sheet na sinusubukan mong protektahan.</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">Hindi mai-save ang panuntunan na may di-wastong formula.</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">Hindi maitakda ang data sa na-merge na cell na ito. Kung mayroon kang active filter view, subukang alisin ito.</string>
@@ -2009,7 +2016,6 @@ I-click ang + upang gumawa ng bagong spreadsheet."</string>
     <string name="ritz_generic_sheet_activated">Na-activate ang sheet %1$s.</string>
     <string name="ritz_get_pivot_table_message_for_average">Average ng %1$s para sa bawat %2$s</string>
     <string name="ritz_get_pivot_table_message_for_count">Bilang ng %1$s para sa bawat %2$s</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">Bilang ng natatanging %1$s para sa bawat %2$s</string>
     <string name="ritz_get_pivot_table_message_for_sum">Sum ng %1$s para sa bawat %2$s</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">"Disclaimer: Hindi kukunin ang mga presyo sa lahat ng merkado at maaaring maantala ng hanggang 20 minuto. Ipapakita ang impormasyon nang 'ganoon mismo' at magagamit lang para sa mga layuning pang-impormasyon, at hindi para sa mga layuning pangkalakalan o pagpapayo."</string>
@@ -2734,6 +2740,7 @@ I-click ang + upang gumawa ng bagong spreadsheet."</string>
     <string name="suggest_pin_dialog_positive_button">Gawing available offline</string>
     <string name="suggest_pin_dialog_title">Walang koneksyon</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, pinili</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Error sa synchronization ng Google Sheets</string>
     <string name="sync_more_error">Nagkaroon ng error sa pagkuha ng mga karagdagang item</string>
     <string name="sync_more_error_offline">Maaaring hindi makita ang ilang dokumento habang offline.</string>
@@ -2922,6 +2929,8 @@ I-click ang + upang gumawa ng bagong spreadsheet."</string>
     <string name="upsave_dialog_title">I-save ang Mga Pagbabago?</string>
     <string name="upsell_negbtn">Saka na</string>
     <string name="upsell_okbtn">I-upgrade</string>
+    <string name="v7_preference_off">NAKA-OFF</string>
+    <string name="v7_preference_on">NAKA-ON</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{Ang lahat ay {VALUE} maliban sa isa, {EXCEPTIONS}.}=2{Ang lahat ay {VALUE} maliban sa dalawa, {EXCEPTIONS}.}=3{Ang lahat ay {VALUE} maliban sa tatlo, {EXCEPTIONS}.}=4{Ang lahat ay {VALUE} maliban sa apat, {EXCEPTIONS}.}one{Ang lahat ay {VALUE} maliban sa {NUMBER_OF_EXCEPTIONS}, {EXCEPTIONS}.}other{Ang lahat ay {VALUE} maliban sa {NUMBER_OF_EXCEPTIONS}, {EXCEPTIONS}.}}</string>
     <string name="verbal_all_different">Magkakaiba ang lahat ng value.</string>
     <string name="verbal_all_same">Ang lahat ng value ay %1$s.</string>
@@ -3108,8 +3117,9 @@ I-click ang + upang gumawa ng bagong spreadsheet."</string>
     <string name="warm_welcome_next_button">Susunod</string>
     <string name="warm_welcome_skip_button">Laktawan</string>
     <string name="warning_cannot_share_outside_domain">Pinipigilan ng mga setting ng Drive ng Team na ito ang pagbabahagi sa labas ng %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Pinipigilan ng mga setting ng Drive ng Team na ito ang pagbabahagi sa labas ng %s at sa mga hindi miyembro</string>
     <string name="warning_cannot_share_outside_domain_org">Pinipigilan ng mga setting ng organisasyon ang pagbabahagi sa labas ng organisasyon</string>
-    <string name="warning_cannot_share_outside_team_drive">Pinipigilan ng mga setting ng Drive ng Team na ito ang pagbabahagi sa labas ng team</string>
+    <string name="warning_cannot_share_outside_team_drive">Pinipigilan ng mga setting ng Drive ng Team na ito ang pagbabahagi sa mga hindi miyembro</string>
     <string name="warning_csv_edits_unsupported">Upang makapagdagdag ng naka-format na content, mga chart, larawan o karagdagang tab, kakailanganin mong i-save ang iyong file bilang isang Google spreadsheet.</string>
     <string name="warning_sheet_add_unsupported">Upang makapagdagdag ng bagong sheet, kakailanganin mong i-save ang iyong file bilang isang Google spreadsheet.</string>
     <string name="welcome_button_close">Pumunta sa Sheets</string>
@@ -3130,26 +3140,26 @@ I-click ang + upang gumawa ng bagong spreadsheet."</string>
     <string name="write_access_denied">Hindi pinahintulutan ang access sa pagsulat sa dokumento.</string>
     <string name="zss_accessibility_searching">Naghahanap ng %1$s</string>
     <string name="zss_date_range_header_title">Petsa noong nabago</string>
-    <string name="zss_date_range_month">Nakaraang 30 araw</string>
-    <string name="zss_date_range_three_month">Nakaraang 90 araw</string>
-    <string name="zss_date_range_today">Ngayon</string>
-    <string name="zss_date_range_week">Nakaraang 7 araw</string>
+    <string name="zss_date_range_month">Huling 30 araw</string>
+    <string name="zss_date_range_three_month">Huling 90 araw</string>
+    <string name="zss_date_range_today">Ngayong Araw</string>
+    <string name="zss_date_range_week">Huling 7 araw</string>
     <string name="zss_date_range_yesterday">Kahapon</string>
     <string name="zss_entry_types_header_title">Mga uri ng file</string>
     <string name="zss_no_filters">Walang mga filter</string>
-    <string name="zss_owner_header_title">Pag-aari ni</string>
+    <string name="zss_owner_header_title">Pagmamay-ari ni</string>
     <string name="zss_owner_me">Pagmamay-ari ko</string>
     <string name="zss_owner_not_me">Hindi ko pagmamay-ari</string>
     <string name="zss_people_header_title">Mga Tao</string>
     <string name="zss_showing_list_of_filters">Ipinapakita ang listahan ng mga available na filter.</string>
     <string name="zss_team_drive">Maghanap sa %1$s</string>
-    <string name="zss_type_archive">I-archive</string>
+    <string name="zss_type_archive">Archive</string>
     <string name="zss_type_audio">Audio</string>
     <string name="zss_type_documents">Mga text document</string>
     <string name="zss_type_folder">Mga Folder</string>
-    <string name="zss_type_images">Mga litrato at larawan</string>
+    <string name="zss_type_images">Mga larawan at imahe</string>
     <string name="zss_type_pdfs">Mga PDF</string>
-    <string name="zss_type_presentations">Mga Presentasyon</string>
+    <string name="zss_type_presentations">Mga Presentation</string>
     <string name="zss_type_spreadsheets">Mga Spreadsheet</string>
     <string name="zss_type_video">Mga Video</string>
 </resources>

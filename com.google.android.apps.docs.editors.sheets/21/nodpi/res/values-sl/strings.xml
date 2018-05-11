@@ -659,7 +659,7 @@ Poskusite vanj prenesti datoteko."</string>
     <string name="empty_doclist_for_pinned_view_details">V menijskih možnostih datoteke pripravite datoteke, da postanejo »Na voljo brez povezave«</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">V meniju datoteke se dotaknite možnosti »Na voljo brez povezave«, da boste lahko nadaljevali z delom, tudi ko boste brez povezave.</string>
     <string name="empty_doclist_for_recent_view">Ni nedavno odprtih ali urejenih datotek.</string>
-    <string name="empty_doclist_for_search_view">Ni rezultatov.</string>
+    <string name="empty_doclist_for_search_view">Ni rezultatov</string>
     <string name="empty_doclist_for_shared_with_me_view">Datoteke, ki so v skupni rabi z vami, bodo prikazane tukaj.</string>
     <string name="empty_doclist_for_starred_view">Nimate datotek, označenih z zvezdico.</string>
     <string name="empty_doclist_for_starred_view_details">V meniju možnosti se dotaknite ikone zvezdice, če želite dodati datoteko na ta seznam.</string>
@@ -708,6 +708,7 @@ Kliknite +, da ustvarite novo preglednico."</string>
     <string name="error_video_not_available">Videoposnetek ni bil obdelan. Poskusite ponovno pozneje.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+ več (%1$d) drugih.</string>
+    <string name="expand_button_title">Dodatno</string>
     <string name="expires_future">Poteče čez %1$s</string>
     <string name="expires_today">Poteče danes</string>
     <string name="export_download_error_title">Napaka pri prenosu</string>
@@ -725,6 +726,11 @@ Kliknite +, da ustvarite novo preglednico."</string>
     <string name="fab_office_document">Nova preglednica Excel</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Rezultati iskanja</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Starejša</string>
     <string name="fast_scroll_time_grouper_last_week">Prejšnji teden</string>
     <string name="fast_scroll_time_grouper_this_month">V tem mesecu</string>
@@ -859,17 +865,8 @@ Kliknite +, da ustvarite novo preglednico."</string>
     <string name="manage_addons_playstore_link_description">Pomakni se v Trgovino Play za dodatek %s</string>
     <string name="manage_members_default_members">Privzeto lahko člani nalagajo/urejajo/brišejo datoteke in povabijo druge člane.</string>
     <string name="manage_members_dialog_title">Dostop za člane</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Prostor za shranjevanje</string>
+    <string name="management_data_loading_failed">Te strani ni mogoče naložiti</string>
     <string name="menu_backup">Varnostne kopije</string>
     <string name="menu_copy_link">Kopiraj povezavo</string>
     <string name="menu_create_shortcut">Dodaj na zač. zas.</string>
@@ -1270,7 +1267,6 @@ Kliknite +, da ustvarite novo preglednico."</string>
     <string name="published_access_anyone">Vsi si lahko ogledajo objavljeno različico</string>
     <string name="published_access_domain">Vsi v domeni %s si lahko ogledajo objavljeno različico</string>
     <string name="published_access_select_people">Določene osebe si lahko ogledajo objavljeno različico</string>
-    <string name="published_disabled_append">onemogočeno</string>
     <string name="published_message_for_anyone_can_edit">Ker lahko vsi urejajo, si lahko prav tako vsi ogledajo objavljeno različico.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Ker lahko urejajo vsi v domeni %1$s, si lahko prav tako vsi v domeni %1$s ogledajo objavljeno različico.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Ker lahko urejajo vsi s povezavo, si lahko prav tako vsi ogledajo objavljeno različico.</string>
@@ -1446,6 +1442,7 @@ Kliknite +, da ustvarite novo preglednico."</string>
     <string name="ritz_cannot_back_local_filter_with_named_range">V načinu samo za ogled ne morete določiti, da je filter odvisen od imenovanega obsega.</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">Ne morete spremeniti zaščite lista v zaščito obsega ali obratno.</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">V obseg, ki že ima izmenične barve ozadja, ne morete dodati izmeničnih barv ozadja.</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">Filtra ne morete dodati temu listu, ker je povezan z zbirko podatkov. Namesto tega ustvarite pogled filtra.</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">Ne morete ustvariti filtra na listu, ki že vsebuje filter.</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">Ne morete ustvariti filtra prek obsega, ki vsebuje navpična spajanja.</string>
     <string name="ritz_cannot_create_filter_within_merge">Ne morete ustvariti filtra znotraj obsega, ki vsebuje spajanja.</string>
@@ -1495,6 +1492,7 @@ Kliknite +, da ustvarite novo preglednico."</string>
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">Ta operacija ni podprta v obsegu z razvrščenim pogledom filtrov. Onemogočite pogled filtrov in poskusite znova.</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">Ta operacija ni podprta v obsegu z vrstico, ki jo filter izključuje.</string>
     <string name="ritz_cannot_pivot_drill_down">Podrobnosti o celici, ki ni del vrtilne tabele, ni mogoče prikazati.</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">Tega lista ni mogoče zaščititi, ker je povezan z zbirko podatkov.</string>
     <string name="ritz_cannot_protect_deleted_sheet">Preglednica, ki jo poskušate zaščititi, je bila izbrisana.</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">Pravila ni mogoče shraniti z neveljavno formulo.</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">V tej spojeni celici ni mogoče nastaviti podatkov. Če imate aktiven filter, ga odstranite.</string>
@@ -2029,7 +2027,6 @@ Kliknite +, da ustvarite novo preglednico."</string>
     <string name="ritz_generic_sheet_activated">List %1$s je aktiviran.</string>
     <string name="ritz_get_pivot_table_message_for_average">Povprečje stolpca %1$s za vsak stolpec %2$s</string>
     <string name="ritz_get_pivot_table_message_for_count">Rezultat štetja za stolpec %1$s za vsak stolpec %2$s</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">Rezultat štetja različnih vrednosti stolpca %1$s za vsak stolpec %2$s</string>
     <string name="ritz_get_pivot_table_message_for_sum">Vsota stolpca %1$s za vsak stolpec %2$s</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">Izjava o omejitvi odgovornosti: stanje borznih tečajev ni posredovano z vseh trgov in je lahko zamaknjeno tudi za 20 minut. Informacije so posredovane »take, kot so« zgolj v informativne namene, in ne za namene trgovanja ali svetovanja.</string>
@@ -2754,6 +2751,7 @@ Kliknite +, da ustvarite novo preglednico."</string>
     <string name="suggest_pin_dialog_positive_button">Omogoči dostop brez povezave</string>
     <string name="suggest_pin_dialog_title">Ni povezave</string>
     <string name="suggested_name_selected_accessibility_announcement">Izbrano je: %1$s</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Napaka sinhronizacije v Google Preglednicah</string>
     <string name="sync_more_error">Napaka pri pridobivanju dodatnih elementov</string>
     <string name="sync_more_error_offline">Nekateri dokumenti morda niso vidni, ko ste brez povezave.</string>
@@ -2942,6 +2940,8 @@ Kliknite +, da ustvarite novo preglednico."</string>
     <string name="upsave_dialog_title">Želite shraniti spremembe?</string>
     <string name="upsell_negbtn">Pozneje</string>
     <string name="upsell_okbtn">Nadgradi</string>
+    <string name="v7_preference_off">IZKLOPLJENO</string>
+    <string name="v7_preference_on">VKLOPLJENO</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{Vse so vrednost {VALUE} razen ene, {EXCEPTIONS}.}=2{Vse so vrednost {VALUE} razen dveh, {EXCEPTIONS}.}=3{Vse so vrednost {VALUE} razen treh, {EXCEPTIONS}.}=4{Vse so vrednost {VALUE} razen štirih, {EXCEPTIONS}.}one{Vse so vrednost {VALUE} razen {NUMBER_OF_EXCEPTIONS} vrednosti, {EXCEPTIONS}.}two{Vse so vrednost {VALUE} razen {NUMBER_OF_EXCEPTIONS} vrednosti, {EXCEPTIONS}.}few{Vse so vrednost {VALUE} razen {NUMBER_OF_EXCEPTIONS} vrednosti, {EXCEPTIONS}.}other{Vse so vrednost {VALUE} razen {NUMBER_OF_EXCEPTIONS} vrednosti, {EXCEPTIONS}.}}</string>
     <string name="verbal_all_different">Vse vrednosti so različne.</string>
     <string name="verbal_all_same">Vse vrednosti so %1$s.</string>
@@ -3128,8 +3128,9 @@ Kliknite +, da ustvarite novo preglednico."</string>
     <string name="warm_welcome_next_button">Naprej</string>
     <string name="warm_welcome_skip_button">Preskoči</string>
     <string name="warning_cannot_share_outside_domain">Nastavitve tega diska ekipe preprečujejo skupno rabo zunaj domene %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Nastavitve tega diska ekipe preprečujejo skupno rabo z nečlani in zunaj domene %s</string>
     <string name="warning_cannot_share_outside_domain_org">Nastavitve organizacije preprečujejo skupno rabo zunaj organizacije</string>
-    <string name="warning_cannot_share_outside_team_drive">Nastavitve tega diska ekipe preprečujejo skupno rabo zunaj ekipe</string>
+    <string name="warning_cannot_share_outside_team_drive">Nastavitve tega diska ekipe preprečujejo skupno rabo z nečlani</string>
     <string name="warning_csv_edits_unsupported">Če želite dodati oblikovano vsebino, grafikone, slike ali dodatne zavihke, morate datoteko shraniti kot Google Preglednico.</string>
     <string name="warning_sheet_add_unsupported">Če želite dodati nov list, morate datoteko shraniti kot Google Preglednico.</string>
     <string name="welcome_button_close">Pojdi v Preglednice</string>
@@ -3159,17 +3160,17 @@ Kliknite +, da ustvarite novo preglednico."</string>
     <string name="zss_no_filters">Ni filtrov</string>
     <string name="zss_owner_header_title">Lastnik</string>
     <string name="zss_owner_me">Lastnik: jaz</string>
-    <string name="zss_owner_not_me">Lastnik: ne</string>
+    <string name="zss_owner_not_me">Lastnik: ne jaz</string>
     <string name="zss_people_header_title">Osebe</string>
     <string name="zss_showing_list_of_filters">Prikazan je seznam razpoložljivih filtrov.</string>
     <string name="zss_team_drive">Išči v disku ekipe %1$s</string>
     <string name="zss_type_archive">Arhiv</string>
-    <string name="zss_type_audio">Zvočna datoteka</string>
-    <string name="zss_type_documents">Besedilni dokumenti</string>
+    <string name="zss_type_audio">Zvok</string>
+    <string name="zss_type_documents">Dokumenti z besedilom</string>
     <string name="zss_type_folder">Mape</string>
     <string name="zss_type_images">Fotografije in slike</string>
     <string name="zss_type_pdfs">Datoteke PDF</string>
     <string name="zss_type_presentations">Predstavitve</string>
     <string name="zss_type_spreadsheets">Preglednice</string>
-    <string name="zss_type_video">Videoposnetki</string>
+    <string name="zss_type_video">Videi</string>
 </resources>

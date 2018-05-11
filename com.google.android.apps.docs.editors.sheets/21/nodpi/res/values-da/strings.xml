@@ -659,7 +659,7 @@ Prøv at uploade en fil."</string>
     <string name="empty_doclist_for_pinned_view_details">Du gør en fil \"Tilgængelig offline\" i filens indstillingsmenu</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Hvis du trykker på \"Tilgængelig offline\" i en fils menu, kan du fortsætte med at arbejde på den, når du er offline.</string>
     <string name="empty_doclist_for_recent_view">Der er ingen nyligt åbnede eller redigerede filer.</string>
-    <string name="empty_doclist_for_search_view">Der er ingen resultater.</string>
+    <string name="empty_doclist_for_search_view">Ingen resultater</string>
     <string name="empty_doclist_for_shared_with_me_view">Filer, der er delt med dig, vises her.</string>
     <string name="empty_doclist_for_starred_view">Du har ingen stjernemarkerede filer.</string>
     <string name="empty_doclist_for_starred_view_details">Tryk på stjerneikonet i filens menu Valgmuligheder for at føje den til denne liste.</string>
@@ -708,6 +708,7 @@ Klik på + for at oprette et nyt regneark."</string>
     <string name="error_video_not_available">Videoen er ikke blevet behandlet. Prøv igen senere.</string>
     <string name="excess_head_count">og %1$d andre</string>
     <string name="excess_head_count_verbalization">og %1$d andre.</string>
+    <string name="expand_button_title">Avanceret</string>
     <string name="expires_future">Udløber om %1$s</string>
     <string name="expires_today">Udløber i dag</string>
     <string name="export_download_error_title">Downloadfejl</string>
@@ -725,6 +726,11 @@ Klik på + for at oprette et nyt regneark."</string>
     <string name="fab_office_document">Ny Excel-fil</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Søgeresultater</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">kB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Ældre</string>
     <string name="fast_scroll_time_grouper_last_week">Sidste uge</string>
     <string name="fast_scroll_time_grouper_this_month">Tidligere i denne måned</string>
@@ -871,17 +877,8 @@ Klik på + for at oprette et nyt regneark."</string>
     <string name="manage_addons_playstore_link_description">Naviger til Play Butik for %s</string>
     <string name="manage_members_default_members">Medlemmer kan som standard uploade/redigere/slette filer og invitere andre medlemmer</string>
     <string name="manage_members_dialog_title">Medlemsadgang</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Lagerplads</string>
+    <string name="management_data_loading_failed">Siden kunne ikke indlæses</string>
     <string name="menu_backup">Backups</string>
     <string name="menu_copy_link">Kopiér link</string>
     <string name="menu_create_shortcut">Føj til startskærm</string>
@@ -1104,8 +1101,8 @@ Klik på + for at oprette et nyt regneark."</string>
     <string name="ouch_title_sawwrie">Beklager!</string>
     <string name="overwrite_confirm_dialog_message">%1$s findes allerede. Vil du overskrive?</string>
     <string name="overwrite_confirm_dialog_positive_button_label">Overskriv</string>
-    <string name="owner_not_user">Ikke ejet af %1$s</string>
-    <string name="owner_user">Ejet af %1$s</string>
+    <string name="owner_not_user">Ejes ikke af %1$s</string>
+    <string name="owner_user">Ejes af %1$s</string>
     <string name="page_1_description">Få arbejdet fra hånden med eller uden internetforbindelse.</string>
     <string name="page_1_heading_editors">Regneark på farten</string>
     <string name="page_2_description">Skriv det hele selv, eller inviter andre til at bidrage.</string>
@@ -1282,7 +1279,6 @@ Klik på + for at oprette et nyt regneark."</string>
     <string name="published_access_anyone">Alle kan se websitet, når det er offentliggjort</string>
     <string name="published_access_domain">Alle på %s kan se websitet, når det er offentliggjort</string>
     <string name="published_access_select_people">Bestemte personer kan se websitet, når det er offentliggjort</string>
-    <string name="published_disabled_append">deaktiveret,</string>
     <string name="published_message_for_anyone_can_edit">Da alle brugere kan redigere, får alle brugere adgang til websitet, når det er offentliggjort.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Da alle brugere på %1$s kan redigere, kan alle brugere på %1$s se indholdet, når det er offentliggjort.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Da alle brugere med linket kan redigere, får alle brugere adgang til websitet, når det er offentliggjort.</string>
@@ -1458,6 +1454,7 @@ Klik på + for at oprette et nyt regneark."</string>
     <string name="ritz_cannot_back_local_filter_with_named_range">Du kan ikke gøre et filter afhængigt af et navngivet områdenavn, når du er i tilstanden kun visning.</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">Du kan ikke ændre arkbeskyttelse til områdebeskyttelse og omvendt.</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">Du kan ikke føje skiftende baggrundsfarver til et områdenavn, som allerede har skiftende baggrundsfarver.</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">Du kan ikke føje et filter til dette regneark, da det er knyttet til en database. Opret en filtervisning i stedet.</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">Du kan ikke oprette et filter i et ark, der allerede indeholder et filter.</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">Du kan ikke oprette et filter over et områdenavn, der indeholder lodrette fletninger.</string>
     <string name="ritz_cannot_create_filter_within_merge">Du kan ikke oprette et filter i et områdenavn, der indeholder fletninger.</string>
@@ -1507,6 +1504,7 @@ Klik på + for at oprette et nyt regneark."</string>
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">Denne funktion understøttes ikke for et område med en sorteret filtervisning. Deaktiver filtervisningen, og prøv igen.</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">Denne funktion understøttes ikke for et område med en række, der er filtreret fra.</string>
     <string name="ritz_cannot_pivot_drill_down">Du kan ikke vise oplysninger for en celle, der ikke indgår i en pivottabel</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">Dette regneark kan ikke beskyttes, da det er knyttet til en database.</string>
     <string name="ritz_cannot_protect_deleted_sheet">Det ark, du prøver at beskytte, er slettet.</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">Reglen kan ikke gemmes med en ugyldig formel.</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">Der kan ikke angives data i denne flettede celle. Hvis du har en aktiv filtervisning, kan du prøve at fjerne den.</string>
@@ -2041,7 +2039,6 @@ Klik på + for at oprette et nyt regneark."</string>
     <string name="ritz_generic_sheet_activated">Arket %1$s blev aktiveret.</string>
     <string name="ritz_get_pivot_table_message_for_average">Gennemsnittet af %1$s for hver kolonne ved navn %2$s</string>
     <string name="ritz_get_pivot_table_message_for_count">Antallet af %1$s for hver kolonne ved navn %2$s</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">Antallet af forskellige %1$s for hver %2$s</string>
     <string name="ritz_get_pivot_table_message_for_sum">Summen af %1$s for hver kolonne ved navn %2$s</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">Fraskrivelse: Der indhentes ikke data fra alle markeder, og de viste data kan være forsinket i op til 20 minutter. Oplysningerne leveres \"som de er og forefindes\" og udelukkende til orientering. Oplysningerne leveres ikke med henblik på handel eller rådgivning.</string>
@@ -2766,6 +2763,7 @@ Klik på + for at oprette et nyt regneark."</string>
     <string name="suggest_pin_dialog_positive_button">Gør tilgængelig offline</string>
     <string name="suggest_pin_dialog_title">Der er ingen forbindelse</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s er valgt</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Der opstod en fejl under synkronisering af Google Sheets</string>
     <string name="sync_more_error">Der opstod en fejl under hentning af flere elementer</string>
     <string name="sync_more_error_offline">Nogle dokumenter vises muligvis ikke, mens du er offline.</string>
@@ -2954,6 +2952,8 @@ Klik på + for at oprette et nyt regneark."</string>
     <string name="upsave_dialog_title">Vil du gemme ændringerne?</string>
     <string name="upsell_negbtn">Senere</string>
     <string name="upsell_okbtn">Opgrader</string>
+    <string name="v7_preference_off">FRA</string>
+    <string name="v7_preference_on">TIL</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{Alle er {VALUE} undtagen én, {EXCEPTIONS}.}=2{Alle er {VALUE} undtagen to, {EXCEPTIONS}.}=3{Alle er {VALUE} undtagen tre, {EXCEPTIONS}.}=4{Alle er {VALUE} undtagen fire, {EXCEPTIONS}.}one{Alle er {VALUE} undtagen {NUMBER_OF_EXCEPTIONS}, {EXCEPTIONS}.}other{Alle er {VALUE} undtagen {NUMBER_OF_EXCEPTIONS}, {EXCEPTIONS}.}}</string>
     <string name="verbal_all_different">Alle værdier er forskellige.</string>
     <string name="verbal_all_same">Alle værdier er %1$s.</string>
@@ -3141,7 +3141,6 @@ Klik på + for at oprette et nyt regneark."</string>
     <string name="warm_welcome_skip_button">Spring over</string>
     <string name="warning_cannot_share_outside_domain">Indstillingerne for dette fællesdrev forhindrer deling uden for %s</string>
     <string name="warning_cannot_share_outside_domain_org">Organisationens indstillinger forhindrer deling uden for organisationen.</string>
-    <string name="warning_cannot_share_outside_team_drive">Indstillingerne for dette fællesdrev forhindrer deling uden for teamet</string>
     <string name="warning_csv_edits_unsupported">Hvis du vil tilføje formateret indhold, diagrammer, billeder eller ekstra faner, skal du gemme din fil som et Google-regneark.</string>
     <string name="warning_sheet_add_unsupported">Hvis du vil tilføje et nyt ark, skal du gemme din fil som et Google-regneark.</string>
     <string name="welcome_button_close">Gå til Sheets</string>
@@ -3162,16 +3161,16 @@ Klik på + for at oprette et nyt regneark."</string>
     <string name="write_access_denied">Skriveadgang til dokumentet blev nægtet.</string>
     <string name="zss_accessibility_searching">Søger efter %1$s</string>
     <string name="zss_date_range_header_title">Ændringsdato</string>
-    <string name="zss_date_range_month">De seneste 30 dage</string>
-    <string name="zss_date_range_three_month">De seneste 90 dage</string>
+    <string name="zss_date_range_month">Seneste 30 dage</string>
+    <string name="zss_date_range_three_month">Seneste 90 dage</string>
     <string name="zss_date_range_today">I dag</string>
-    <string name="zss_date_range_week">De seneste syv dage</string>
+    <string name="zss_date_range_week">Seneste 7 dage</string>
     <string name="zss_date_range_yesterday">I går</string>
     <string name="zss_entry_types_header_title">Filtyper</string>
     <string name="zss_no_filters">Ingen filtre</string>
-    <string name="zss_owner_header_title">Ejet af</string>
-    <string name="zss_owner_me">Ejet af mig</string>
-    <string name="zss_owner_not_me">Ikke ejet af mig</string>
+    <string name="zss_owner_header_title">Ejes af</string>
+    <string name="zss_owner_me">Ejes af mig</string>
+    <string name="zss_owner_not_me">Ejes ikke af mig</string>
     <string name="zss_people_header_title">Personer</string>
     <string name="zss_showing_list_of_filters">Viser liste over tilgængelige filtre.</string>
     <string name="zss_team_drive">Søg i %1$s</string>

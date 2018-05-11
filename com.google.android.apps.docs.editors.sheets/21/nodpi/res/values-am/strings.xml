@@ -659,7 +659,7 @@
     <string name="empty_doclist_for_pinned_view_details">በፋይሉ አማራጮች ምናሌ ውስጥ ፋይሉን «ከመስመር ውጪ ይገኛል» ወደሚል ይቀይሩት።</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">ከመስመር ውጪ በላዩ ላይ መሥራትዎን መቀጠል እንዲችሉ በፋይል ምናሌ ውስጥ «ከመስመር ውጪ ይገኛል» የሚለውን መታ ያድርጉ።</string>
     <string name="empty_doclist_for_recent_view">በቅርብ ጊዜ የተከፈቱ ወይም አርትዖት የተደረገባቸው ምንም ፋይሎች የሉም።</string>
-    <string name="empty_doclist_for_search_view">ምንም ውጤቶች የሉም።</string>
+    <string name="empty_doclist_for_search_view">ምንም ውጤቶች የሉም</string>
     <string name="empty_doclist_for_shared_with_me_view">ከእርስዎ ጋር የተጋሩ ፋይሎች እዚህ ይታያሉ።</string>
     <string name="empty_doclist_for_starred_view">ምንም ኮከብ የተደረገባቸው ፋይሎች የሉዎትም።</string>
     <string name="empty_doclist_for_starred_view_details">ፋይሉን ወደዚህ ዝርዝር ለማከል በፋይሉ የአማራጭ ምናሌ ውስጥ ያለውን የኮከብ አዶውን መታ ያድርጉት።</string>
@@ -708,6 +708,7 @@
     <string name="error_video_not_available">ቪድዮ አልተሰራም ነበር። እባክዎ ቆይተው እንደገና ይሞክሩ።</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d ሌሎች።</string>
+    <string name="expand_button_title">የላቀ</string>
     <string name="expires_future">በ%1$s ውስጥ ጊዜው ያልፍበታል</string>
     <string name="expires_today">ዛሬ ጊዜው ያልፍበታል</string>
     <string name="export_download_error_title">የማውረድ ስህተት</string>
@@ -725,6 +726,11 @@
     <string name="fab_office_document">አዲስ የExcel ፋይል</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">የፍለጋ ውጤቶች</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">ጊባ</string>
+    <string name="fast_scroll_size_grouper_kb">ኪባ</string>
+    <string name="fast_scroll_size_grouper_mb">ሜባ</string>
     <string name="fast_scroll_time_grouper_earlier">የቆዩ</string>
     <string name="fast_scroll_time_grouper_last_week">ያለፈው ሳምንት</string>
     <string name="fast_scroll_time_grouper_this_month">በዚህ ወር ቀደም ብሎ</string>
@@ -859,17 +865,8 @@
     <string name="manage_addons_playstore_link_description">ለ%s ወደ Play መደብር ያስሱ</string>
     <string name="manage_members_default_members">በነባሪነት አባላት ፋይሎችን መስቀል/ማርትዕ/መሰረዝ እና ሌሎች አባላትን መጋበዝ ይችላሉ</string>
     <string name="manage_members_dialog_title">የአባል መዳረሻ</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">ማከማቻ</string>
+    <string name="management_data_loading_failed">ይህን ገጽ መጫን አልተቻለም</string>
     <string name="menu_backup">ምትኬዎች</string>
     <string name="menu_copy_link">አገናኝ ቅዳ</string>
     <string name="menu_create_shortcut">ወደ መነሻ ማያ ገጽ አክል</string>
@@ -1270,7 +1267,6 @@
     <string name="published_access_anyone">ሲታተም ማንኛውም ሰው መመልከት ይችላል</string>
     <string name="published_access_domain">ሲታተም በ%s ውስጥ ያለ ማንኛውም ሰው ሊመለከተው ይችላል</string>
     <string name="published_access_select_people">ሲታተም የተወሰኑ ሰዎች መመልከት ይችላሉ</string>
-    <string name="published_disabled_append">ተሰናክሏል፣</string>
     <string name="published_message_for_anyone_can_edit">ማንኛውም ሰው ማርትዕ ስለሚችል ሲታተም ማንኛውም ሰው ሊመለከተው ይችላል።</string>
     <string name="published_message_for_anyone_in_domain_can_edit">ሲታተም በ%1$s ውስጥ ያለ ማንኛውም ሰው ማርትዕ ስለሚችል %1$s ላይ ያለ ማንኛውም ሰው መመልከት ይችላል።</string>
     <string name="published_message_for_anyone_with_link_can_edit">አገናኙ ያለው ማንኛውም ሰው ማርትዕ ስለሚችል ሲታተም ማንኛውም ሰው ሊመለከተው ይችላል።</string>
@@ -1446,6 +1442,7 @@
     <string name="ritz_cannot_back_local_filter_with_named_range">በእይታ ብቻ ሁነታ ላይ አንድ ማጣሪያ በተሰየመ ክልል ላይ እንዲወሰን ማድረግ አይችሉም።</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">የሉህ ጥበቃ ወደ የክልል ጥበቃ ወይም ወደ ተቃራኒው መቀየር አይችሉም።</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">አስቀድሞ ተለዋዋጭ የዳራ ቀለማት ባለው ክልል ላይ ተለዋዋጭ የዳራ ቀለማትን ማከል አይችሉም።</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">ይህ ሉህ ከውሂብ ጎታ ጋር የተገናኘ ስለሆነ ማጣሪያ ሊያክሉበት አይችሉም። እባክዎ በምትኩ አዲስ ማጣሪያ ይፍጠሩ።</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">አስቀድሞ ማጣሪያ ባለው ሉህ ውስጥ ማጣሪያ መፍጠር አይችሉም።</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">አቀባዊ ውህዶችን በያዘ ክልል ላይ ማጣሪያ መፍጠር አይችሉም።</string>
     <string name="ritz_cannot_create_filter_within_merge">ውህዶችን በያዘ ክልል ውስጥ ማጣሪያ መፍጠር አይችሉም።</string>
@@ -1495,6 +1492,7 @@
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">ይህ ክዋኔ አንድ የተደረደረ የማጣሪያ እይታ ባለው ክልል ላይ አይደገፍም። እባክዎ የማጣሪያ እይታውን ያስወግዱና እንደገና ይሞክሩ።</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">ይህ ክዋኔ ተጣርቶ የወጣ ረድፍ ባለው ክልል ላይ የሚደገፍ አይደለም።</string>
     <string name="ritz_cannot_pivot_drill_down">በምስሶ ሠንጠረዥ ውስጥ ያልሆነ የሕዋስ ዝርዝሮችን ማሳየት አይችሉም።</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">ይህ ሉህ ከውሂብ ጎታ ጋር የተገናኘ ስለሆነ ለሉሁ ጥበቃን ማከል አይቻልም።</string>
     <string name="ritz_cannot_protect_deleted_sheet">ለመጠበቅ እየሞከሩት ያለው ሉህ ተሰርዟል።</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">ደንቡን ልክ ባልሆነ ቀመር ማስቀመጥ አይችሉም።</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">በዚህ የተዋሃደ ሕዋስ ውስጥ ውሂብን ማዘጋጀት አልተቻለም። አንድ ገቢር የማጣሪያ እይታ ካለዎት እሱን አስወግደው ይሞክሩ።</string>
@@ -2029,7 +2027,6 @@
     <string name="ritz_generic_sheet_activated">ሉህ %1$s ገባሪ ሆኗል።</string>
     <string name="ritz_get_pivot_table_message_for_average">ለእያንዳንዱ %2$s የ%1$s አማካይ</string>
     <string name="ritz_get_pivot_table_message_for_count">ለእያንዳንዱ %2$s የ%1$s ብዛት</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">ለእያንዳንዱ %2$s የተለየ %1$s ብዛት</string>
     <string name="ritz_get_pivot_table_message_for_sum">ለእያንዳንዱ %2$s የ%1$s ድምር</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">የኃላፊነት ማስተባበያ፦ የዋጋ ጥሪዎች ከሁሉም ገበያዎች የተውጣጡ አይደሉም፣ እና እስከ 20 ደቂቃዎች ድረስ ሊዘገዩ ይችላሉ። መረጃ የሚቀርበው «ባለበት መልኩ» እና ለመረጃ ዓላማዎች ብቻ ነው፣ ለንግድ ዓላማዎች ወይም ለምክር አይደለም።</string>
@@ -2754,6 +2751,7 @@
     <string name="suggest_pin_dialog_positive_button">ከመስመር ውጭ እንዲገኝ አድርግ</string>
     <string name="suggest_pin_dialog_title">ግንኙነት የለም</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s፣ ተመርጠዋል</string>
+    <string name="summary_collapsed_preference_list">%1$s፣ %2$s</string>
     <string name="sync_failed">የGoogle ሉሆች ስምረት ስህተት</string>
     <string name="sync_more_error">ተጨማሪ ንጥሎችን ሰርስሮ ማውጣት ላይ ስህተት</string>
     <string name="sync_more_error_offline">አንዳንድ ሰነዶች ከመስመር ውጭ ሆነው ሳለ ላይታዩ ይችላሉ።</string>
@@ -2942,6 +2940,8 @@
     <string name="upsave_dialog_title">ለውጦች ይቀመጡ?</string>
     <string name="upsell_negbtn">በኋላ</string>
     <string name="upsell_okbtn">ያልቁ</string>
+    <string name="v7_preference_off">ቅናሽ</string>
+    <string name="v7_preference_on">በርቷል</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{ከአንድ፣ {EXCEPTIONS}፣ በስተቀር ሁሉም {VALUE} ናቸው።}=2{ከሁለት፣ {EXCEPTIONS}፣ በስተቀር ሁሉም {VALUE} ናቸው።}=3{ከሶስት፣ {EXCEPTIONS}፣ በስተቀር ሁሉም {VALUE} ናቸው።}=4{ከአራት፣ {EXCEPTIONS}፣ በስተቀር ሁሉም {VALUE} ናቸው።}one{ከ{NUMBER_OF_EXCEPTIONS}፣ {EXCEPTIONS}፣ በስተቀር ሁሉም {VALUE} ናቸው።}other{ከ{NUMBER_OF_EXCEPTIONS}፣ {EXCEPTIONS}፣ በስተቀር ሁሉም {VALUE} ናቸው።}}</string>
     <string name="verbal_all_different">ሁሉም እሴቶች የተለያዩ ናቸው።</string>
     <string name="verbal_all_same">ሁሉም እሴቶቹ %1$s ናቸው።</string>
@@ -3128,8 +3128,9 @@
     <string name="warm_welcome_next_button">ቀጣይ</string>
     <string name="warm_welcome_skip_button">ዝለል</string>
     <string name="warning_cannot_share_outside_domain">የዚህ ቡድን Drive ቅንብሮች ከ%s ውጭ ማጋራትን ይከለክላል</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">የዚህ ቡድን Drive ቅንብሮች አባል ላልሆኑ እና ከ%s ውጭ ማጋራትን ይከለክላሉ</string>
     <string name="warning_cannot_share_outside_domain_org">የድርጅቱ ቅንብሮች ከድርጅቱ ውጭ ማጋራት ይከለክላሉ</string>
-    <string name="warning_cannot_share_outside_team_drive">የዚህ ቡድን Drive ቅንብሮች ከቡድኑ ውጭ ማጋራትን ይከለክላሉ</string>
+    <string name="warning_cannot_share_outside_team_drive">የዚህ ቡድን Drive ቅንብሮች አባል ላልሆኑ ማጋራትን ይከለክላል</string>
     <string name="warning_csv_edits_unsupported">ቅርጸት ያለው ይዘት፣ ገበታዎች፣ ምስሎች ወይም ተጨማሪ ትሮችን ለማከል ፋይልዎን እንደ የGoogle ተመን ሉህ አድርገው ማስቀመጥ ይኖርብዎታል።</string>
     <string name="warning_sheet_add_unsupported">አዲስ ሉህ ለማከል ፋይልዎን እንደ የGoogle ተመን ሉህ አድርገው ማስቀመጥ ይኖርብዎታል።</string>
     <string name="welcome_button_close">ወደ ሉሆች ሂድ</string>
@@ -3149,27 +3150,27 @@
     <string name="welcome_title_highlights">የ%1$s ማስታወቂያ ፓነል።</string>
     <string name="write_access_denied">የሰነዱ የመጻፍ መዳረሻ ተከልክሏል።</string>
     <string name="zss_accessibility_searching">%1$sን በመፈለግ ላይ</string>
-    <string name="zss_date_range_header_title">ቀን ተሻሽሏል</string>
-    <string name="zss_date_range_month">ባለፉት 30 ቀኖች</string>
-    <string name="zss_date_range_three_month">ባለፉት 90 ቀኖች</string>
+    <string name="zss_date_range_header_title">የተቀየረበት ቀን</string>
+    <string name="zss_date_range_month">ያለፉት 30 ቀኖች</string>
+    <string name="zss_date_range_three_month">ያለፉት 90 ቀኖች</string>
     <string name="zss_date_range_today">ዛሬ</string>
-    <string name="zss_date_range_week">ባለፉት 7 ቀኖች</string>
+    <string name="zss_date_range_week">ያለፉት 7 ቀኖች</string>
     <string name="zss_date_range_yesterday">ትላንት</string>
     <string name="zss_entry_types_header_title">የፋይል ዓይነቶች</string>
     <string name="zss_no_filters">ምንም ማጣሪያዎች የሉም</string>
     <string name="zss_owner_header_title">በባለቤትነት የተያዘው በ</string>
-    <string name="zss_owner_me">የእኔ ንብረት የሆኑ</string>
-    <string name="zss_owner_not_me">የእኔ አይደለም</string>
+    <string name="zss_owner_me">በእኔ ባለቤትነት የተያዙ</string>
+    <string name="zss_owner_not_me">የእኔ ያልሆኑ</string>
     <string name="zss_people_header_title">ሰዎች</string>
     <string name="zss_showing_list_of_filters">የሚገኙ የማጣሪያዎች ዝርዝርን በማሳየት ላይ።</string>
     <string name="zss_team_drive">በ%1$s ውስጥ ይፈልጉ</string>
-    <string name="zss_type_archive">አቁር</string>
+    <string name="zss_type_archive">ማህደር</string>
     <string name="zss_type_audio">ኦዲዮ</string>
     <string name="zss_type_documents">የጽሑፍ ሰነዶች</string>
     <string name="zss_type_folder">አቃፊዎች</string>
     <string name="zss_type_images">ፎቶዎች እና ምስሎች</string>
     <string name="zss_type_pdfs">ፒዲኤፎች</string>
     <string name="zss_type_presentations">የዝግጅት አቀራረቦች</string>
-    <string name="zss_type_spreadsheets">የተመን ሉሆች</string>
+    <string name="zss_type_spreadsheets">ተመን ሉሆች</string>
     <string name="zss_type_video">ቪዲዮዎች</string>
 </resources>

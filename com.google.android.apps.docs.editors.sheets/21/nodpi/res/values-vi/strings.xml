@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="abc_action_bar_up_description">Điều hướng lên trên</string>
-    <string name="abc_action_menu_overflow_description">Thêm tùy chọn</string>
+    <string name="abc_action_menu_overflow_description">Tùy chọn khác</string>
     <string name="abc_action_mode_done">Xong</string>
     <string name="abc_activity_chooser_view_see_all">Xem tất cả</string>
     <string name="abc_activitychooserview_choose_application">Chọn một ứng dụng</string>
@@ -659,7 +659,7 @@ Hãy thử tải một tệp lên."</string>
     <string name="empty_doclist_for_pinned_view_details">Đặt các tệp \"Khả dụng khi ngoại tuyến\" trong menu tùy chọn của tệp</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Nhấn vào \"Khả dụng khi ngoại tuyến\" trong menu của tệp để bạn có thể tiếp tục xử lý tệp ngoại tuyến.</string>
     <string name="empty_doclist_for_recent_view">Không có tệp nào được mở hoặc chỉnh sửa gần đây.</string>
-    <string name="empty_doclist_for_search_view">Không có kết quả nào.</string>
+    <string name="empty_doclist_for_search_view">Không có kết quả nào</string>
     <string name="empty_doclist_for_shared_with_me_view">Những tệp được chia sẻ với bạn sẽ xuất hiện ở đây.</string>
     <string name="empty_doclist_for_starred_view">Bạn không có tệp được gắn dấu sao nào.</string>
     <string name="empty_doclist_for_starred_view_details">Nhấn vào biểu tượng ngôi sao trong menu tùy chọn của tệp để thêm tệp đó vào danh sách này.</string>
@@ -708,6 +708,7 @@ Nhấp vào + để tạo bảng tính mới."</string>
     <string name="error_video_not_available">Video chưa được xử lý. Vui lòng thử lại sau.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d cộng tác viên khác.</string>
+    <string name="expand_button_title">Nâng cao</string>
     <string name="expires_future">Hết hạn vào %1$s</string>
     <string name="expires_today">Hết hạn hôm nay</string>
     <string name="export_download_error_title">Lỗi tải xuống</string>
@@ -725,6 +726,11 @@ Nhấp vào + để tạo bảng tính mới."</string>
     <string name="fab_office_document">Tệp Excel mới</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Kết quả tìm kiếm</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Cũ hơn</string>
     <string name="fast_scroll_time_grouper_last_week">Tuần trước</string>
     <string name="fast_scroll_time_grouper_this_month">Đầu tháng này</string>
@@ -859,17 +865,8 @@ Nhấp vào + để tạo bảng tính mới."</string>
     <string name="manage_addons_playstore_link_description">Điều hướng đến Cửa hàng Play cho %s</string>
     <string name="manage_members_default_members">Theo mặc định, thành viên có thể tải lên/chỉnh sửa/xóa tệp và mời thành viên khác</string>
     <string name="manage_members_dialog_title">Truy cập của t.viên</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Bộ nhớ</string>
+    <string name="management_data_loading_failed">Không thể tải trang này</string>
     <string name="menu_backup">Bản sao lưu</string>
     <string name="menu_copy_link">Sao chép liên kết</string>
     <string name="menu_create_shortcut">Thêm vào Màn hình chính</string>
@@ -1445,6 +1442,7 @@ Nhấp vào + để tạo bảng tính mới."</string>
     <string name="ritz_cannot_back_local_filter_with_named_range">Bạn không thể tạo bộ lọc phụ thuộc vào dải ô được đặt tên khi ở trong chế độ chỉ xem.</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">Bạn không thể thay đổi chế độ bảo vệ trang tính thành bảo vệ dải ô hoặc ngược lại.</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">Bạn không thể thêm màu nền thay thế vào một dải ô đã có màu nền thay thế.</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">Bạn không thể thêm bộ lọc vào trang tính này vì trang tính được kết nối với cơ sở dữ liệu. Hãy tạo chế độ xem bộ lọc.</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">Bạn không thể tạo bộ lọc trong một trang tính đã có bộ lọc.</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">Bạn không thể tạo bộ lọc trên dải ô có chứa các ô được hợp nhất theo chiều dọc.</string>
     <string name="ritz_cannot_create_filter_within_merge">Bạn không thể tạo bộ lọc bên trong dải ô có chứa các ô được hợp nhất.</string>
@@ -1494,6 +1492,7 @@ Nhấp vào + để tạo bảng tính mới."</string>
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">Thao tác này không được hỗ trợ trên dải ô có Chế độ xem bộ lọc được sắp xếp. Vui lòng tắt Chế độ xem bộ lọc và thử lại.</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">Thao tác này không được hỗ trợ trên dải ô có một hàng đã bị lọc bỏ.</string>
     <string name="ritz_cannot_pivot_drill_down">Bạn không thể hiển thị chi tiết của ô không thuộc bảng tổng hợp</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">Không thể tăng cường bảo vệ cho trang tính này vì trang tính được kết nối với một cơ sở dữ liệu.</string>
     <string name="ritz_cannot_protect_deleted_sheet">Trang tính bạn đang cố bảo vệ đã bị xóa.</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">Không thể lưu quy tắc với công thức không hợp lệ.</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">Không thể đặt dữ liệu trong ô được hợp nhất này. Nếu bạn có chế độ xem bộ lọc đang hoạt động, hãy thử xóa bỏ.</string>
@@ -2028,7 +2027,6 @@ Nhấp vào + để tạo bảng tính mới."</string>
     <string name="ritz_generic_sheet_activated">Đã kích hoạt trang tính %1$s.</string>
     <string name="ritz_get_pivot_table_message_for_average">%1$s trung bình cho mỗi %2$s</string>
     <string name="ritz_get_pivot_table_message_for_count">Tổng số %1$s cho mỗi %2$s</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">Tổng số %1$s khác nhau cho mỗi %2$s</string>
     <string name="ritz_get_pivot_table_message_for_sum">Tổng %1$s cho mỗi %2$s</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">"Tuyên bố từ chối trách nhiệm: Các trích dẫn không được trích nguồn từ tất cả các thị trường và có thể bị trì hoãn tối đa 20 phút. Thông tin được cung cấp 'nguyên trạng' và chỉ vì mục đích thông báo, không phải vì mục đích kinh doanh hoặc tư vấn."</string>
@@ -2753,6 +2751,7 @@ Nhấp vào + để tạo bảng tính mới."</string>
     <string name="suggest_pin_dialog_positive_button">Cho phép ngoại tuyến</string>
     <string name="suggest_pin_dialog_title">Không có kết nối</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, đã chọn</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Lỗi đồng bộ hóa Google Trang tính</string>
     <string name="sync_more_error">Lỗi khi truy xuất thêm mục</string>
     <string name="sync_more_error_offline">Một số tài liệu có thể không hiển thị khi ngoại tuyến.</string>
@@ -2941,6 +2940,8 @@ Nhấp vào + để tạo bảng tính mới."</string>
     <string name="upsave_dialog_title">Bạn muốn lưu thay đổi?</string>
     <string name="upsell_negbtn">Để sau</string>
     <string name="upsell_okbtn">Nâng cấp</string>
+    <string name="v7_preference_off">TẮT</string>
+    <string name="v7_preference_on">BẬT</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{Tất cả đều là {VALUE} ngoại trừ một quốc gia, {EXCEPTIONS}.}=2{Tất cả đều là {VALUE} ngoại trừ hai quốc gia, {EXCEPTIONS}.}=3{Tất cả đều là {VALUE} ngoại trừ ba quốc gia, {EXCEPTIONS}.}=4{Tất cả đều là {VALUE} ngoại trừ bốn quốc gia, {EXCEPTIONS}.}other{Tất cả đều là {VALUE} ngoại trừ {NUMBER_OF_EXCEPTIONS}, {EXCEPTIONS}.}}</string>
     <string name="verbal_all_different">Tất cả các giá trị là khác nhau.</string>
     <string name="verbal_all_same">Tất cả giá trị đều là %1$s.</string>
@@ -3125,8 +3126,9 @@ Nhấp vào + để tạo bảng tính mới."</string>
     <string name="warm_welcome_next_button">Tiếp theo</string>
     <string name="warm_welcome_skip_button">Bỏ qua</string>
     <string name="warning_cannot_share_outside_domain">Các cài đặt của Drive nhóm này ngăn chặn chia sẻ ra bên ngoài %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Các mục cài đặt của Drive nhóm này ngăn chặn chia sẻ ra bên ngoài %s và với những người không phải là thành viên</string>
     <string name="warning_cannot_share_outside_domain_org">Các cài đặt của tổ chức chặn chia sẻ ra bên ngoài tổ chức</string>
-    <string name="warning_cannot_share_outside_team_drive">Các cài đặt của Drive nhóm này ngăn chặn chia sẻ ra bên ngoài nhóm</string>
+    <string name="warning_cannot_share_outside_team_drive">Các cài đặt của Drive nhóm này ngăn chia sẻ với người không phải là thành viên</string>
     <string name="warning_csv_edits_unsupported">Để thêm hình ảnh, biểu đồ, nội dung đã định dạng hoặc các tab khác, bạn cần phải lưu tệp của mình dưới dạng bảng tính Google.</string>
     <string name="warning_sheet_add_unsupported">Để thêm trang tính mới, bạn cần phải lưu tệp của mình dưới dạng bảng tính Google.</string>
     <string name="welcome_button_close">Chuyển tới Trang tính</string>
@@ -3155,12 +3157,12 @@ Nhấp vào + để tạo bảng tính mới."</string>
     <string name="zss_entry_types_header_title">Loại tệp</string>
     <string name="zss_no_filters">Không có bộ lọc nào</string>
     <string name="zss_owner_header_title">Thuộc sở hữu của</string>
-    <string name="zss_owner_me">Do tôi sở hữu</string>
-    <string name="zss_owner_not_me">Không do tôi sở hữu</string>
+    <string name="zss_owner_me">Thuộc sở hữu của tôi</string>
+    <string name="zss_owner_not_me">Không thuộc sở hữu của tôi</string>
     <string name="zss_people_header_title">Mọi người</string>
     <string name="zss_showing_list_of_filters">Hiển thị danh sách bộ lọc có sẵn.</string>
     <string name="zss_team_drive">Tìm kiếm trong %1$s</string>
-    <string name="zss_type_archive">Lưu trữ</string>
+    <string name="zss_type_archive">Mục lưu trữ</string>
     <string name="zss_type_audio">Âm thanh</string>
     <string name="zss_type_documents">Tài liệu văn bản</string>
     <string name="zss_type_folder">Thư mục</string>

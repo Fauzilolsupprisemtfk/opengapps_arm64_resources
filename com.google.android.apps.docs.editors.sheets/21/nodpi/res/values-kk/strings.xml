@@ -632,7 +632,7 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="empty_doclist_for_pinned_view_details">Файлдың опциялар мәзірінен \"Офлайн режимінде қолжетімді\" параметрін қосыңыз.</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Файл мәзірінен \"Офлайн қолжетімді\" параметрін таңдаңыз, сонда жұмысты офлайн жалғастыра беру мүмкін болады.</string>
     <string name="empty_doclist_for_recent_view">Жақында ашылған немесе өзгертілген файлдар жоқ.</string>
-    <string name="empty_doclist_for_search_view">Ешнәрсе табылмады.</string>
+    <string name="empty_doclist_for_search_view">Нәтижелер жоқ</string>
     <string name="empty_doclist_for_shared_with_me_view">Сізбен бөліскен файлдар осы жерден көрсетіледі.</string>
     <string name="empty_doclist_for_starred_view">Жұлдызшамен белгіленген ешбір файл жоқ.</string>
     <string name="empty_doclist_for_starred_view_details">Файлды осы тізімге қосу үшін, оның опциялар мәзірінен жұлдызша белгішесін түртіңіз.</string>
@@ -681,6 +681,7 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="error_video_not_available">Бейне өңделмеді. Кейінірек қайталаңыз.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d басқа үлес қосушы.</string>
+    <string name="expand_button_title">Қосымша</string>
     <string name="expires_future">%1$s күнде аяқталады</string>
     <string name="expires_today">Мерзімі бүгін аяқталады</string>
     <string name="export_download_error_title">Жүктеу қателігі</string>
@@ -698,6 +699,11 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="fab_office_document">Жаңа Excel файлы</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Іздеу нәтижелері</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">ГБ</string>
+    <string name="fast_scroll_size_grouper_kb">КБ</string>
+    <string name="fast_scroll_size_grouper_mb">MБ</string>
     <string name="fast_scroll_time_grouper_earlier">Ескілеу</string>
     <string name="fast_scroll_time_grouper_last_week">Өткен аптада</string>
     <string name="fast_scroll_time_grouper_this_month">Осы айдың басында</string>
@@ -828,17 +834,8 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="make_copy_spinner_message">Көшірілуде...</string>
     <string name="manage_members_default_members">Әдепкі параметр бойынша мүшелердің файлдарды жүктеп салу/өзгерту/жою және басқа мүшелерді шақыру мүмкіндігі бар</string>
     <string name="manage_members_dialog_title">Мүше рұқсаттары</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Жад</string>
+    <string name="management_data_loading_failed">Бұл бет жүктелмеді</string>
     <string name="menu_backup">Сақтық көшірмелер</string>
     <string name="menu_copy_link">Сілтемені көшіру</string>
     <string name="menu_create_shortcut">Нег. экранға қосу</string>
@@ -1059,8 +1056,8 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="ouch_title_sawwrie">Кешіріңіз!</string>
     <string name="overwrite_confirm_dialog_message">%1$s файлы бұрыннан бар. Үстінен жазу керек пе?</string>
     <string name="overwrite_confirm_dialog_positive_button_label">Үстінен жазу</string>
-    <string name="owner_not_user">%1$s иелігіндегі емес</string>
-    <string name="owner_user">%1$s иелігіндегі</string>
+    <string name="owner_not_user">%1$s иелігінде емес</string>
+    <string name="owner_user">Кімге тиесілі: %1$s</string>
     <string name="page_1_description">Жұмысты желі байланысы болғанда да болмағанда аяқтау мүмкіндігі</string>
     <string name="page_1_heading_editors">Электрондық кестелерді мобильдік құрылғыдан пайдаланыңыз</string>
     <string name="page_2_description">Өзіңіз жазыңыз немесе үлес қосуға басқаларды шақырыңыз.</string>
@@ -1194,7 +1191,7 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="prefs_cache_category_title">Құжаттар кэші</string>
     <string name="prefs_category_content_description">Бөлімі, %1$s</string>
     <string name="prefs_clear_cache_summary">Барлық кэштелген құжаттарды жою.</string>
-    <string name="prefs_data_usage_category">Дерекқорды пайдалану</string>
+    <string name="prefs_data_usage_category">Дерек шығыны</string>
     <string name="prefs_enable_excel_doc_creation_summary">Google Sheets файлдарымен қатар Excel (.xlsx) файлдарын жасау опциясын көрсету.</string>
     <string name="prefs_enable_excel_doc_creation_title">Excel файлдарын жасау</string>
     <string name="prefs_language_category">Тіл</string>
@@ -1273,9 +1270,9 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="remove_collection_shared">Жасыру қажет пе?</string>
     <string name="remove_dialog_confirm_delete_button">Мүлдем жою</string>
     <string name="remove_dialog_confirm_delete_for_everyone_button">Барлығы үшін жою</string>
-    <string name="remove_dialog_delete_different_permissions_files">Бұл файлдарға қатысты рұқсаттарыңыз әр түрлі. Кейбіреулері себетке жіберіледі және 30 күннен кейін мүлдем жойылады. Кейбіреулері өшіріледі.</string>
-    <string name="remove_dialog_delete_different_permissions_folders">Бұл қалталарға қатысты рұқсаттарыңыз әр түрлі. Кейбіреулері себетке жіберіледі және 30 күннен кейін мүлдем жойылады. Кейбіреулері өшіріледі.</string>
-    <string name="remove_dialog_delete_different_permissions_items">Бұл элементтерге қатысты рұқсаттарыңыз әр түрлі. Кейбіреулері себетке жіберіледі және 30 күннен кейін мүлдем жойылады. Кейбіреулері өшіріледі.</string>
+    <string name="remove_dialog_delete_different_permissions_files">Бұл файлдарға қатысты рұқсаттарыңыз әртүрлі. Кейбіреулері себетке жіберіледі және 30 күннен кейін мүлдем жойылады. Кейбіреулері өшіріледі.</string>
+    <string name="remove_dialog_delete_different_permissions_folders">Бұл қалталарға қатысты рұқсаттарыңыз әртүрлі. Кейбіреулері себетке жіберіледі және 30 күннен кейін мүлдем жойылады. Кейбіреулері өшіріледі.</string>
+    <string name="remove_dialog_delete_different_permissions_items">Бұл элементтерге қатысты рұқсаттарыңыз әртүрлі. Кейбіреулері себетке жіберіледі және 30 күннен кейін мүлдем жойылады. Кейбіреулері өшіріледі.</string>
     <string name="remove_dialog_delete_different_permissions_title">Кейбір элементтер ғана жойылады</string>
     <string name="remove_dialog_delete_for_everyone_title">Барлығы үшін жою қажет пе?</string>
     <string name="remove_dialog_delete_permanently_for_everyone_text_single">Бұл файл &lt;b>барлық пайдаланушылар үшін мүлдем жойылады.&lt;/b> Бұл әрекетті кері қайтару мүмкін болмайды.</string>
@@ -1411,6 +1408,7 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="ritz_cannot_back_local_filter_with_named_range">Тек қана көру режимінде сүзгіні атауы бар аумаққа тәуелді ету мүмкін емес.</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">Парақ қорғауды аймақ қорғау қылып өзгерту немесе керісінше жасау мүмкін емес.</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">Фоны бірнеше түсті аумаққа бірнеше түсті фон қосу мүмкін емес.</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">Осы парақ дерекқорға қосылғандықтан, оған сүзгі қосылмайды. Оның орнына сүзгі көрінісін жасаңыз.</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">Сүзгі орнатылған бетте сүзгіні жасау мүмкін емес.</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">Тігінен біріктірілген аумақты іріктеу мүмкіндігін қосуға болады.</string>
     <string name="ritz_cannot_create_filter_within_merge">Құрамында бірікітірілген жолдары бар аймаққа сүзгі орнату мүмкін емес.</string>
@@ -1460,6 +1458,7 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">Бұл әрекетті сүзгі көрінісімен көрсетілген аймаққа қолдану мүмкін емес. Сүзгі көрінісін өшіріп, қайталап көріңіз.</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">Бұл әрекет сүзгі орнатылған жолы бар аймақта орындалмайды.</string>
     <string name="ritz_cannot_pivot_drill_down">Жиынтық кестеден тыс ұяшықтың деректерін көрсету мүмкін емес</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">Осы парақ дерекқорға қосылғандықтан, оған қорғау қосылмайды.</string>
     <string name="ritz_cannot_protect_deleted_sheet">Сіз қорғамақ болған парақ жойылған.</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">Жарамсыз формуласы бар ережені сақтау мүмкін емес.</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">Осы біріктірілген ұяшыққа деректер салу мүмкін емес. Белсенді сүзгі көрінісі болса, оны өшіру қажет.</string>
@@ -1601,7 +1600,7 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="ritz_color_white">Ақ</string>
     <string name="ritz_column_a11y_description">%1$s бағаны</string>
     <string name="ritz_comment">Пікір жазу</string>
-    <string name="ritz_complex_numbers_with_different_suffixes">Суффикстері әр түрлі күрделі сандарды формула үшін қолдану мүмкін емес.</string>
+    <string name="ritz_complex_numbers_with_different_suffixes">Суффикстері әртүрлі күрделі сандарды формула үшін қолдану мүмкін емес.</string>
     <string name="ritz_condition_gradient_point_type_max">Максималды мәні</string>
     <string name="ritz_condition_gradient_point_type_min">Минималды мәні</string>
     <string name="ritz_condition_gradient_point_type_none">Ешқандай</string>
@@ -1994,7 +1993,6 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="ritz_generic_sheet_activated">%1$s парағы іске қосылды.</string>
     <string name="ritz_get_pivot_table_message_for_average">Әр %2$s үшін орташа %1$s</string>
     <string name="ritz_get_pivot_table_message_for_count">Әр %2$s үшін %1$s саны</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">Әр %2$s үшін нақты %1$s саны</string>
     <string name="ritz_get_pivot_table_message_for_sum">Әр %2$s үшін %1$s қосындысы</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">"Жауапкершіліктен бас тарту: Квоталар барлық нарықтардан емес және 20  минутқа дейін кешігуі мүмкін. Мәліметтеер тек қана ақпараттық мақсатта қолдануға берілген және сауда үшін немесе кеңес мақсатында қолданылмайды."</string>
@@ -2716,6 +2714,7 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="suggest_pin_dialog_positive_button">Офлайн режимде қолжетімді ету</string>
     <string name="suggest_pin_dialog_title">Байланыс жоқ</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s, таңдалды</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_failed">Google Sheets синхрондау қателігі</string>
     <string name="sync_more_error">Қосымша элементтерді шығарып алу қатесі</string>
     <string name="sync_more_error_offline">Кейбір құжаттар офлайн режимінен көрсетілмеуі мүмкін.</string>
@@ -2904,6 +2903,8 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="upsave_dialog_title">Өзгертулерді сақтау қажет пе?</string>
     <string name="upsell_negbtn">Кейінірек</string>
     <string name="upsell_okbtn">Жаңарту</string>
+    <string name="v7_preference_off">ӨШІРУЛІ</string>
+    <string name="v7_preference_on">ҚОСУЛЫ</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{Барлығы {VALUE}, {EXCEPTIONS} қоспағанда.}=2{Барлығы {VALUE}, {EXCEPTIONS} екеуін қоспағанда.}=3{Барлығы {VALUE}, {EXCEPTIONS} үшеуін қоспағанда.}=4{Барлығы {VALUE}, {EXCEPTIONS} төртеуін қоспағанда.}other{Барлығы {VALUE}, {NUMBER_OF_EXCEPTIONS}, {EXCEPTIONS} қоспағанда.}}</string>
     <string name="verbal_all_different">Барлық мәндері әртүрлі.</string>
     <string name="verbal_all_same">Барлық мәндер %1$s тең.</string>
@@ -3090,8 +3091,9 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="warm_welcome_next_button">Келесі</string>
     <string name="warm_welcome_skip_button">Өткізіп жіберу</string>
     <string name="warning_cannot_share_outside_domain">Бұл Team Drive параметрлері %s доменінен тыс бөлісуге рұқсат бермейді</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Бұл Team Drive параметрлері топқа мүше емес адамдармен немесе %s доменінен тыс бөлісуге рұқсат бермейді</string>
     <string name="warning_cannot_share_outside_domain_org">Бұл ұйым параметрлері ұйымнан тыс бөлісуге рұқсат бермейді</string>
-    <string name="warning_cannot_share_outside_team_drive">Бұл Team Drive параметрлері топтан тыс бөлісуге рұқсат бермейді</string>
+    <string name="warning_cannot_share_outside_team_drive">Бұл Team Drive параметрлері топқа мүше емес адамдармен бөлісуге рұқсат бермейді</string>
     <string name="warning_csv_edits_unsupported">Форматталған мазмұнды, диаграммаларды, суреттерді немесе қосымша қойындыларды қосу үшін, файлды Google электрондық кесте ретінде сақтау қажет.</string>
     <string name="warning_sheet_add_unsupported">Жаңа парақ қосу үшін, файлды Google электрондық кестесі ретінде сақтау қажет.</string>
     <string name="welcome_button_close">Sheets қолданбасына өту</string>
@@ -3119,7 +3121,7 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="zss_date_range_yesterday">Кеше</string>
     <string name="zss_entry_types_header_title">Файл түрлері</string>
     <string name="zss_no_filters">Сүзгілер орнатылмаған</string>
-    <string name="zss_owner_header_title">Тиесілі</string>
+    <string name="zss_owner_header_title">Кімге тиесілі:</string>
     <string name="zss_owner_me">Маған тиесілі</string>
     <string name="zss_owner_not_me">Маған тиесілі емес</string>
     <string name="zss_people_header_title">Адамдар</string>
@@ -3129,9 +3131,9 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="zss_type_audio">Aудио</string>
     <string name="zss_type_documents">Мәтіндік құжаттар</string>
     <string name="zss_type_folder">Қалталар</string>
-    <string name="zss_type_images">Суреттер және кескіндер</string>
-    <string name="zss_type_pdfs">PDF файлдары</string>
+    <string name="zss_type_images">Суреттер мен кескіндер</string>
+    <string name="zss_type_pdfs">PDF-тер</string>
     <string name="zss_type_presentations">Презентациялар</string>
-    <string name="zss_type_spreadsheets">Электрондық кестелер</string>
+    <string name="zss_type_spreadsheets">Кестелер</string>
     <string name="zss_type_video">Бейнелер</string>
 </resources>

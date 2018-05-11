@@ -640,7 +640,7 @@
     <string name="empty_doclist_for_pinned_view_details">"فائل کے اختیارات کے مینو میں فائلز کو 'آف لائن دستیاب' بنائیں"</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">"فائل کے مینو میں 'آف لائن دستیاب' تھپپائیں تاکہ آپ اس پر آف لائن رہتے ہوئے بھی کام کر سکیں۔"</string>
     <string name="empty_doclist_for_recent_view">حال ہی میں کھولی گئیں یا ترمیم کی گئیں کوئی فائلز نہیں ہیں۔</string>
-    <string name="empty_doclist_for_search_view">کوئی نتائج نہیں ہیں۔</string>
+    <string name="empty_doclist_for_search_view">کوئی نتیجہ نہیں</string>
     <string name="empty_doclist_for_shared_with_me_view">آپ کے ساتھ اشتراک کردہ فائلز یہاں ظاہر ہوں گی۔</string>
     <string name="empty_doclist_for_starred_view">آپ کے پاس کوئی بھی ستارہ والی فائلز نہیں ہیں۔</string>
     <string name="empty_doclist_for_starred_view_details">فائل کو اس فہرست میں شامل کرنے کیلئے اس کے اختیار مینو میں ستارہ آئیکن پر تھپتھپائیں۔</string>
@@ -689,6 +689,7 @@
     <string name="error_video_not_available">ویڈیو پر کارروائی نہیں ہوئی ہے۔ براہ کرم بعد میں دوبارہ کوشش کریں۔</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d دیگر۔</string>
+    <string name="expand_button_title">جدید ترین</string>
     <string name="expires_future">%1$s میں میعاد ختم ہو جائے گی</string>
     <string name="expires_today">میعاد آج ختم ہو گی</string>
     <string name="export_download_error_title">ڈاؤن لوڈ میں خرابی</string>
@@ -706,6 +707,11 @@
     <string name="fab_office_document">‏نئی Excel فائل</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">تلاش کے نتائج</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">پرانے</string>
     <string name="fast_scroll_time_grouper_last_week">گزشتہ ہفتے</string>
     <string name="fast_scroll_time_grouper_this_month">اس ماہ کے شروع میں</string>
@@ -836,17 +842,8 @@
     <string name="make_copy_spinner_message">کاپی کیا جا رہا ہے…</string>
     <string name="manage_members_default_members">بذریعہ ڈیفالٹ، اراکین فائلز اپ لوڈ/ترمیم/حذف کر سکتے ہیں اور دیگر اراکین کو مدعو کر سکتے ہیں</string>
     <string name="manage_members_dialog_title">اراکین کی رسائی</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">اسٹوریج</string>
+    <string name="management_data_loading_failed">اس صفحہ کو لوڈ نہیں کر سکتے</string>
     <string name="menu_backup">بیک اپس</string>
     <string name="menu_copy_link">لنک کاپی کریں</string>
     <string name="menu_create_shortcut">ہوم اسکرین میں شامل کریں</string>
@@ -1421,6 +1418,7 @@
     <string name="ritz_cannot_back_local_filter_with_named_range">صرف دیکھنے کی وضع میں ہونے پر آپ کسی نامزد رینج پر منحصر فلٹر نہیں بنا سکتے ہیں۔</string>
     <string name="ritz_cannot_change_protection_from_sheet_to_range_or_vice_versa">آپ شیٹ کے تحفظ کو رینج کے تحفظ میں تبدیل یا اس کے برعکس نہیں کر سکتے ہیں۔</string>
     <string name="ritz_cannot_create_banded_range_that_intersects_with_another">آپ ایسی رینج میں متبادل پس منظر رنگ شامل نہیں کر سکتے جس میں پہلے سے متبادل پس منظر رنگ موجود ہوں۔</string>
+    <string name="ritz_cannot_create_filter_in_data_connector_sheet">آپ اس شیٹ میں فلٹر شامل نہیں کر سکتے ہیں کیوں کہ یہ ڈیٹا بیس سے منسلک ہے۔ براہ کرم اس کے بجائے فلٹر ویو تخلیق کريں۔</string>
     <string name="ritz_cannot_create_filter_in_sheet_has_filter">آپ کسی ایسی شیٹ میں فلٹر نہیں بنا سکتے جس میں پہلے ہی سے ایک فلٹر موجود ہے۔</string>
     <string name="ritz_cannot_create_filter_over_vertical_merge">آپ عمودی انضمامات پر مشتمل رینج پر کوئی فلٹر نہیں بنا سکتے ہیں۔</string>
     <string name="ritz_cannot_create_filter_within_merge">آپ انضمامات پر مشتمل رینج میں کوئی فلٹر نہیں بنا سکتے ہیں۔</string>
@@ -1470,6 +1468,7 @@
     <string name="ritz_cannot_perform_operation_on_data_in_a_sorted_filter_view">یہ عمل ایک مرتب فلٹر منظر والی رینج پر تعاون یافتہ نہیں ہے۔ براہ کرم فلٹر منظر کو غیر فعال کریں اور دوبارہ کوشش کریں۔</string>
     <string name="ritz_cannot_perform_operation_on_rows_that_are_filtered_out">یہ عمل فلٹر کردہ قطار کے ساتھ ایک رینج پر تعاون یافتہ نہیں ہے۔</string>
     <string name="ritz_cannot_pivot_drill_down">جو سیل پیوٹ ٹیبل میں نہیں ہے آپ اس کی تفصیلات نہیں دکھا سکتے ہیں</string>
+    <string name="ritz_cannot_protect_data_connector_sheet">اس شیٹ میں تحفظ شامل نہیں کر سکتے کیونکہ یہ ایک ڈیٹا بیس سے منسلک ہے۔</string>
     <string name="ritz_cannot_protect_deleted_sheet">جس شیٹ کی حفاظت کیلئے آپ کوشش کر رہے ہیں وہ حذف ہو چکی ہے۔</string>
     <string name="ritz_cannot_save_conditional_format_rule_with_invalid_formula">غلط فارمولہ والے اصول کو محفوظ نہیں کیا جا سکتا ہے۔</string>
     <string name="ritz_cannot_set_in_non_root_merge_cell">اس ضم کردہ سیل میں ڈيٹا سیٹ نہیں کیا جا سکتا ہے۔ اگر آپ کے پاس ایک فعال فلٹر منظر ہے تو اسے ہٹانے کی کوشش کریں۔</string>
@@ -2004,7 +2003,6 @@
     <string name="ritz_generic_sheet_activated">شیٹ %1$s فعال کر دی گئی۔</string>
     <string name="ritz_get_pivot_table_message_for_average">ہر ایک %2$s کے لئے %1$s کی اوسط</string>
     <string name="ritz_get_pivot_table_message_for_count">ہر ایک %2$s کے لئے %1$s کی کل تعداد</string>
-    <string name="ritz_get_pivot_table_message_for_count_unique">ہر ایک %2$s کے لئے %1$s کی امتیازی تعداد</string>
     <string name="ritz_get_pivot_table_message_for_sum">ہر ایک %2$s کے لئے %1$s کا کل میزان</string>
     <string name="ritz_google_category">Google</string>
     <string name="ritz_google_finance_disclaimer">"اعلان دستبرداری: نرخ سبھی مارکیٹس سے نہیں لیے جاتے اور ان میں 20 منٹ تک کی تاخیر ہو سکتی ہے۔ معلومات تجارتی مقاصد یا مشورے کیلئے نہیں، بلکہ 'جوں کی توں' اور محض معلوماتی مقاصد کیلئے فراہم کی جاتی ہے۔"</string>
@@ -2726,6 +2724,7 @@
     <string name="suggest_pin_dialog_positive_button">آف لائن دستیاب کریں</string>
     <string name="suggest_pin_dialog_title">کوئی کنکشن نہیں ہے</string>
     <string name="suggested_name_selected_accessibility_announcement">%1$s، منتخب کیا گیا</string>
+    <string name="summary_collapsed_preference_list">%1$s، %2$s</string>
     <string name="sync_failed">‏Google Sheets مطابقت پذیری کی خرابی</string>
     <string name="sync_more_error">اضافی آئٹمز کی بازیافت میں خرابی</string>
     <string name="sync_more_error_offline">ہو سکتا ہے کہ کچھ دستاویزات آف لائن مرئی نہ ہوں۔</string>
@@ -2914,6 +2913,8 @@
     <string name="upsave_dialog_title">تبدیلیاں محفوظ کریں؟</string>
     <string name="upsell_negbtn">بعد میں</string>
     <string name="upsell_okbtn">اپ گریڈ کریں</string>
+    <string name="v7_preference_off">آف</string>
+    <string name="v7_preference_on">آن</string>
     <string name="verbal_all_but">{NUMBER_OF_EXCEPTIONS,plural,offset:0 =1{ایک کو چھوڑ کر سبھی {VALUE} ہیں، {EXCEPTIONS}۔}=2{دو کو چھوڑ کر سبھی {VALUE} ہیں، {EXCEPTIONS}۔}=3{تین کو چھوڑ کر سبھی {VALUE} ہیں، {EXCEPTIONS}۔}=4{چار کو چھوڑ کر سبھی {VALUE} ہیں، {EXCEPTIONS}۔}other{{NUMBER_OF_EXCEPTIONS} کو چھوڑ کر سبھی {VALUE} ہیں، {EXCEPTIONS}۔}}</string>
     <string name="verbal_all_different">سبھی اقدار مختلف ہیں۔</string>
     <string name="verbal_all_same">سبھی اقدار %1$s ہیں۔</string>
@@ -3100,8 +3101,9 @@
     <string name="warm_welcome_next_button">اگلا</string>
     <string name="warm_welcome_skip_button">نظر انداز کریں</string>
     <string name="warning_cannot_share_outside_domain">‏اس Team Drive کی ترتیبات %s سے باہر اشتراک سے روکتی ہیں</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">‏اس Team Drive کی ترتیبات غیر اراکین کے ساتھ اور %s سے باہر اشتراک کرنے سے روکتی ہیں</string>
     <string name="warning_cannot_share_outside_domain_org">تنظیم کی ترتیبات تنظیم کے باہر اشتراک سے روکتی ہیں</string>
-    <string name="warning_cannot_share_outside_team_drive">‏اس Team Drive کی ترتیبات ٹیم سے باہر اشتراک سے روکتی ہیں</string>
+    <string name="warning_cannot_share_outside_team_drive">‏اس Team Drive کی ترتیبات غیر اراکین کے ساتھ اشتراک کرنے سے روکتی ہیں</string>
     <string name="warning_csv_edits_unsupported">‏فارمیٹ کردہ مواد، چارٹس، تصاویر یا اضافی ٹیبز شامل کرنے کیلئے آپ کو فائل ایک Google اسپریڈشیٹ کے بطور محفوظ کرنی ہوگی۔</string>
     <string name="warning_sheet_add_unsupported">‏ایک نئی شیٹ شامل کرنے کیلئے آپ کو فائل Google اسپریڈشیٹ کے بطور محفوظ کرنی ہوگی۔</string>
     <string name="welcome_button_close">‏Sheets پر جائیں</string>
@@ -3125,21 +3127,21 @@
     <string name="zss_date_range_month">گزشتہ 30 دن</string>
     <string name="zss_date_range_three_month">گزشتہ 90 دن</string>
     <string name="zss_date_range_today">آج</string>
-    <string name="zss_date_range_week">گذشتہ 7 دن</string>
+    <string name="zss_date_range_week">گزشتہ 7 دن</string>
     <string name="zss_date_range_yesterday">گزشتہ کل</string>
     <string name="zss_entry_types_header_title">فائل کی قسمیں</string>
     <string name="zss_no_filters">کوئی فلٹرز نہیں</string>
     <string name="zss_owner_header_title">زیر ملکیت</string>
-    <string name="zss_owner_me">میری ملکیت</string>
-    <string name="zss_owner_not_me">میری ملکیت نہیں</string>
+    <string name="zss_owner_me">میری زیر ملکیت</string>
+    <string name="zss_owner_not_me">میری زیر ملکیت نہیں</string>
     <string name="zss_people_header_title">لوگ</string>
     <string name="zss_showing_list_of_filters">دستیاب فلٹرز کی فہرست دکھائی جا رہی ہے۔</string>
     <string name="zss_team_drive">%1$s میں تلاش کریں</string>
-    <string name="zss_type_archive">آرکائیو</string>
+    <string name="zss_type_archive">آرکائیو کریں</string>
     <string name="zss_type_audio">آڈیو</string>
     <string name="zss_type_documents">متنی دستاویزات</string>
     <string name="zss_type_folder">فولڈرز</string>
-    <string name="zss_type_images">تصاویر</string>
+    <string name="zss_type_images">تصاویر اور تصاویر</string>
     <string name="zss_type_pdfs">PDFs</string>
     <string name="zss_type_presentations">پیشکشیں</string>
     <string name="zss_type_spreadsheets">اسپریڈ شیٹس</string>
