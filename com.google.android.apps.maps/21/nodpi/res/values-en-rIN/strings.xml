@@ -164,6 +164,8 @@
     <string name="ACCOUNT_LINKING_CONTINUE">Continue</string>
     <string name="ACCOUNT_LINKING_GOOGLE_SIGN_IN">Get started</string>
     <string name="ACCOUNT_SWITCH">Switch</string>
+    <string name="ACCURATE_PRICES_CONSENT_DESCRIPTION">Send your starting point and destination to ride services when you search for a ride</string>
+    <string name="ACCURATE_PRICES_CONSENT_TITLE">Get fares for ride services</string>
     <string name="ACTION_MANAGE_LOCATION_SHARING_SETTINGS">Settings</string>
     <string name="ACTION_SEND_FEEDBACK">Send feedback</string>
     <string name="ACTION_SHOW_HELP">Help</string>
@@ -657,6 +659,7 @@ Try again"</string>
     <string name="CONTRIBUTIONS">Your contributions</string>
     <string name="CONTRIBUTIONS_LOGIN_PROMPT_BODY">Sign in to add photos, reviews and more to Google Maps.</string>
     <string name="CONTRIBUTIONS_LOGIN_PROMPT_TITLE">Share your experiences</string>
+    <string name="CONTRIBUTIONS_PHOTO_SORTED_ACCESSIBILITY_ANNOUNCEMENT">Photos sorted to %1$s</string>
     <string name="CONTRIBUTIONS_SHARE_BUTTON_DESCRIPTION">Share contributions</string>
     <string name="CONTRIBUTIONS_SHARE_ERROR_MESSAGE">Service unavailable. Please try again later.</string>
     <string name="CONTRIBUTIONS_SHARE_TITLE_CURRENT_USER">"See what I've posted to Google Maps"</string>
@@ -664,6 +667,13 @@ Try again"</string>
     <string name="CONTRIBUTIONS_SHORTCUT_ALREADY_EXIST">Shortcut already exists</string>
     <string name="CONTRIBUTIONS_SHORTCUT_MENU_ITEM_TITLE">Add to Home screen</string>
     <string name="CONTRIBUTIONS_SHORTCUT_NAME">Contribute</string>
+    <string name="CONTRIBUTIONS_SORT_BUTTON">Sort</string>
+    <string name="CONTRIBUTIONS_SORT_BUTTON_ACCESSIBILITY_DESCRIPTION">Sort, %1$s selected</string>
+    <string name="CONTRIBUTIONS_SORT_BY_HIGHEST_RATING">Highest rating</string>
+    <string name="CONTRIBUTIONS_SORT_BY_LOWEST_RATING">Lowest rating</string>
+    <string name="CONTRIBUTIONS_SORT_BY_MOST_RELEVANT">Most relevant</string>
+    <string name="CONTRIBUTIONS_SORT_BY_MOST_VIEWED">Most viewed</string>
+    <string name="CONTRIBUTIONS_SORT_BY_NEWEST">Newest</string>
     <string name="CONTRIBUTION_STATS_BREAKDOWN_SECTION_TITLE">Number of Contributions</string>
     <string name="COPIED_ADDRESS_LABEL">Copied place</string>
     <string name="COPIED_ADDRESS_TOAST">Address copied to clipboard</string>
@@ -678,7 +688,6 @@ Try again"</string>
     <string name="COPIED_TO_CLIPBOARD">Copied to clipboard</string>
     <string name="COPYRIGHT">©2018 Google Inc.</string>
     <string name="COPY_ADDRESS">Copy address</string>
-    <string name="COPY_LINK_BUTTON_TEXT">Copy link</string>
     <string name="COPY_LINK_TO_CLIPBOARD">Copy link to clipboard</string>
     <string name="COPY_PLACE_NAME">Copy place name</string>
     <string name="COULDNT_AVOID_FERRIES">"Couldn't avoid ferries"</string>
@@ -871,7 +880,6 @@ slower"</string>
     <string name="DESTINATION_JUSTIFICATION_EMAIL_EVENT">From your email</string>
     <string name="DESTINATION_JUSTIFICATION_LOCATION_HISTORY">From your timeline</string>
     <string name="DESTINATION_JUSTIFICATION_RECENT_HISTORY">From your recent searches</string>
-    <string name="DESTINATION_PLACEHOLDER_TEXT">Finding fastest route to %1$s</string>
     <string name="DESTINATION_REFINEMENT_DIRECTIONS_ICON_VOICE_DESCRIPTION">Directions to %s</string>
     <string name="DESTINATION_REFINEMENT_NON_NAVIGABLE_BICYCLE_TOAST_TEXT">"Can't get there by cycling, using original destination."</string>
     <string name="DESTINATION_REFINEMENT_NON_NAVIGABLE_TAXI_TOAST_TEXT">"Can't get there by ride, using original destination."</string>
@@ -955,8 +963,13 @@ slower"</string>
     <string name="DIRECTIONS_SET_TIME">Set</string>
     <string name="DIRECTIONS_STEP_LIST_TO">To %s</string>
     <string name="DIRECTIONS_SUMMARY_FROM_TO">From %1$s to %2$s.</string>
+    <string name="DIRECTIONS_TAXI_ACCURATE_PRICE_CONSENT_BUTTON_TEXT">Accept &amp; see rides</string>
+    <string name="DIRECTIONS_TAXI_ACCURATE_PRICE_CONSENT_TEXT">To see fares and waiting times, let Google send your starting point and destination to ride services. You can turn this off in Settings.</string>
+    <string name="DIRECTIONS_TAXI_ACCURATE_PRICE_CONSENT_TITLE">Compare &amp; book rides on Maps</string>
+    <string name="DIRECTIONS_TAXI_ACCURATE_PRICE_REQUEST_FAILED">"Couldn't load ride options"</string>
     <string name="DIRECTIONS_TAXI_AWAY_TIME">%1$s away</string>
     <string name="DIRECTIONS_TAXI_CALLOUT_WAIT_TIME">%1$s wait</string>
+    <string name="DIRECTIONS_TAXI_COST_FREE">Free</string>
     <string name="DIRECTIONS_TAXI_FARES_AND_TIMES_ARE_ESTIMATES">Fares and times are estimates</string>
     <string name="DIRECTIONS_TAXI_FARE_MULTIPLIER_ACTIVE">%1$s high-demand fare</string>
     <string name="DIRECTIONS_TAXI_LAUNCH_EXTERNAL_APP">Open App</string>
@@ -966,6 +979,7 @@ slower"</string>
     <string name="DIRECTIONS_TAXI_PROMO_BODY">Compare pick-up times and prices for ride services</string>
     <string name="DIRECTIONS_TAXI_PROMO_DISMISS_DESCRIPTION">Dismiss</string>
     <string name="DIRECTIONS_TAXI_PROMO_HEADER">Get a taxi in minutes</string>
+    <string name="DIRECTIONS_TAXI_PROVIDER_LOWEST_PRICE">From %1$s</string>
     <string name="DIRECTIONS_TAXI_RIDE_IN_PROGRESS">Ride in progress</string>
     <string name="DIRECTIONS_TAXI_SELECTED_PRODUCT">%1$s selected</string>
     <string name="DIRECTIONS_TAXI_SELECTED_PROVIDER">%1$s selected</string>
@@ -1292,7 +1306,6 @@ comment"</string>
     <string name="FEEDBACK_TYPE_YOUR_LOCATION_DESCRIPTION">Report that your blue dot is in the wrong place or points in the wrong direction</string>
     <string name="FEEDBACK_TYPE_YOUR_OPINIONS">Your opinions about Maps</string>
     <string name="FEEDBACK_TYPE_YOUR_OPINIONS_DESCRIPTION">Share feedback, suggest new features or report technical issues</string>
-    <string name="FEWER_RATES">Fewer rates</string>
     <string name="FINDING_BEST_ROUTE">Finding best route...</string>
     <string name="FINDING_RIDE_SERVICES">Finding ride services...</string>
     <string name="FIND_PARKING">Find parking</string>
@@ -1393,7 +1406,6 @@ comment"</string>
     <string name="HELP_CARD_DESCRIPTION">If you lost something or need to report an incident, visit %1$s for help</string>
     <string name="HELP_CARD_HEADER">Support and help</string>
     <string name="HELP_NOT_AVAILABLE_OFFLINE">Help content is not available offline</string>
-    <string name="HELP_OTHERS_DISCOVER_THIS_PLACE">Help others discover this place</string>
     <string name="HIDDEN_FROM_MAP_TOAST">%s was hidden from the map</string>
     <string name="HIDDEN_PEOPLE_SECTION_HEADER">Hidden from map</string>
     <string name="HIDE_BUTTON">Hide</string>
@@ -1497,11 +1509,11 @@ comment"</string>
     <string name="INCORRECTLY_DRAWN">Incorrectly drawn</string>
     <string name="INCREMENT_DURATION_DESCRIPTION">Increase sharing duration</string>
     <string name="INFERRED_COMMUTE_DESTINATION_NOTIFICATION_TRAFFIC_WARMUP_BANNER_CONTENT">Continue getting real-time traffic updates based on your Location History. You can change this any time under Settings.</string>
-    <string name="INFERRED_COMMUTE_DESTINATION_NOTIFICATION_TRAFFIC_WARMUP_BANNER_TITLE">"You're getting travel times for your commute"</string>
+    <string name="INFERRED_COMMUTE_DESTINATION_NOTIFICATION_TRAFFIC_WARMUP_BANNER_TITLE">"Don't get stuck in a jam"</string>
     <string name="INFERRED_COMMUTE_DESTINATION_NOTIFICATION_TRANSIT_WARMUP_BANNER_CONTENT">Continue getting departure times &amp; delays based on your Location History. You can change this any time under Settings.</string>
     <string name="INFERRED_COMMUTE_DESTINATION_NOTIFICATION_TRANSIT_WARMUP_BANNER_TITLE">"You're getting transit updates for your commute"</string>
     <string name="INFERRED_COMMUTE_DESTINATION_NOTIFICATION_WARMUP_BANNER_ACCEPT">OK</string>
-    <string name="INFERRED_COMMUTE_DESTINATION_NOTIFICATION_WARMUP_BANNER_DECLINE">No, thanks</string>
+    <string name="INFERRED_COMMUTE_DESTINATION_NOTIFICATION_WARMUP_BANNER_DECLINE">Turn off updates</string>
     <string name="INLINE_HOTEL_BOOKING_HEADER">Check availability</string>
     <string name="INLINE_PHOTO_PICKER_DONE">DONE</string>
     <string name="INSTALL_PLAY_SERVICES_FOR_LOCATION_MESSAGE">Improve your location by installing Google Play services.</string>
@@ -1526,6 +1538,7 @@ comment"</string>
     <string name="JOURNEY_CANCEL">Cancel</string>
     <string name="JOURNEY_RETRY">Retry</string>
     <string name="JOURNEY_SHARE_BUTTON">Share trip progress</string>
+    <string name="JOURNEY_SHARING_APP_NAME">Journey Sharing</string>
     <string name="JOURNEY_SHARING_CREATED">Sharing your location until you arrive</string>
     <string name="JOURNEY_SHARING_CREATED_ONE_USER">%1$s can see your location until you arrive</string>
     <string name="JOURNEY_SHARING_ETA_DESCRIPTION">Expected arrival: %s</string>
@@ -1716,6 +1729,8 @@ comment"</string>
     <string name="LOCATION_SHARING_NOTIFICATIONS_OPT_OUT_SETTINGS_TITLE">Location sharing</string>
     <string name="LOCATION_SHARING_NOT_AVAILABLE_OFFLINE">"Location sharing isn't available offline"</string>
     <string name="LOCATION_SHARING_OFFLINE_RETRY">Retry</string>
+    <string name="LOCATION_SHARING_REQUEST_NOTIFICATIONS_OPT_OUT_SETTINGS_SUMMARY">Let others request your real-time location</string>
+    <string name="LOCATION_SHARING_REQUEST_NOTIFICATIONS_OPT_OUT_SETTINGS_TITLE">Location-sharing requests</string>
     <string name="LOCATION_SHARING_USER_IS_OFFLINE">%1$s is offline</string>
     <string name="LOCATION_SOURCE_WIFI">Wi-Fi</string>
     <string name="LOCATION_UPDATED_JUST_NOW_SHORT">Just now</string>
@@ -1733,7 +1748,6 @@ comment"</string>
     <string name="MADDEN_VERTICAL_TAB_TITLE_FITNESS">Get fit</string>
     <string name="MALLS_INDOOR_MAP_TITLE">Indoor Map</string>
     <string name="MANAGE_LOCATION_REPORT_TEXT">Location Reporting setting</string>
-    <string name="MANAGE_WEB_AND_APP_ACTIVITY">Manage Web &amp; App Activity</string>
     <string name="MAPS_ACTIVITY_ADD_ACTIVITY">Add activity</string>
     <string name="MAPS_ACTIVITY_ADD_A_PLACE">Add a place</string>
     <string name="MAPS_ACTIVITY_ADD_NOTE">Add a note</string>
@@ -1982,6 +1996,7 @@ This information will be deleted from Google and you will not be able to retriev
     <string name="NAVIGATION_STATS_UNITS_YARDS">Yards</string>
     <string name="NAVIGATION_STEP_LIST_DISTANCE_TO_NEXT_STEP">In %1$s</string>
     <string name="NAVIGATION_TRANSIT_NEARBY_STATIONS_FULLSCREEN_TITLE">Stations nearby</string>
+    <string name="NAV_BOTTOM_SHEET_EDIT_LABEL">Edit</string>
     <string name="NAV_BOTTOM_SHEET_EXIT_LABEL">Exit</string>
     <string name="NAV_RESTORE_LOADING">Resuming navigation…</string>
     <string name="NEARBY_NEED_DONT_NOTIFY_HERE">"Don't notify here"</string>
@@ -2386,6 +2401,8 @@ This information will be deleted from Google and you will not be able to retriev
     <string name="PARKING_LOCATION_NOTIFICATION_CONTENT_SAVED">Saved %s</string>
     <string name="PARKING_LOCATION_NOTIFICATION_TITLE">Parking location</string>
     <string name="PARKING_LOCATION_ODELAY_CARD_TITLE">Parking location</string>
+    <string name="PARKING_LOCATION_SHEET_HEADER_SUBTITLE_DETECTED">Detected %s ago</string>
+    <string name="PARKING_LOCATION_SHEET_HEADER_SUBTITLE_DETECTED_ONE_MINUTE">Detected &lt; 1 min ago</string>
     <string name="PARKING_LOCATION_SHEET_HEADER_SUBTITLE_EXPIRED">Expired %s ago</string>
     <string name="PARKING_LOCATION_SHEET_HEADER_SUBTITLE_EXPIRED_ONE_MINUTE">Expired &lt; 1 min ago</string>
     <string name="PARKING_LOCATION_SHEET_HEADER_SUBTITLE_EXPIRES">Time left: %s</string>
@@ -2533,8 +2550,9 @@ The original email containing this booking will not be changed."</string>
     <string name="PLACE_GAS_PRICE_PREMIUM">Premium</string>
     <string name="PLACE_GAS_PRICE_REGULAR">Regular</string>
     <string name="PLACE_GAS_PRICE_STALENESS_WARNING_ASTERISK">%1$s Price as of 24+ hours ago</string>
-    <string name="PLACE_HEADER_INFO">Info</string>
     <string name="PLACE_HOURS_UNKNOWN">Hours unknown</string>
+    <string name="PLACE_LIST_ADD_PLACE_ACTION">Add</string>
+    <string name="PLACE_LIST_EDIT_LIST_ACTION">Edit</string>
     <string name="PLACE_LIST_HEADER">Places nearby</string>
     <string name="PLACE_MENU">Menu</string>
     <string name="PLACE_MORE_INFO">More info</string>
@@ -2544,7 +2562,6 @@ The original email containing this booking will not be changed."</string>
     <string name="PLACE_OPEN_NOW_HOURS_UNKNOWN">Open now</string>
     <string name="PLACE_OPEN_UNTIL">Open until %s</string>
     <string name="PLACE_PAGE_COLLAPSED_NUMBER_OF_REVIEWS">(%1$d)</string>
-    <string name="PLACE_PAGE_COPIED_LINK_TOAST">Copied</string>
     <string name="PLACE_PARKING">Customer parking</string>
     <string name="PLACE_PARKING_FREE">Free</string>
     <string name="PLACE_PARKING_PAID">Paid</string>
@@ -3081,20 +3098,12 @@ You can turn this on and off in Notification settings."</string>
     <string name="SCHEMATIC_MAP_GLOBAL_BAN_NOTIFICATION">Turn off metro and train map notifications?</string>
     <string name="SCHEMATIC_MAP_PER_STATION_BAN_NOTIFICATION_TITLE">Turn off metro and train map notifications at this station?</string>
     <string name="SCHOOL_LOCATION">School/University</string>
-    <string name="SCREENSHOT_BUTTON_TEXT">Screenshot</string>
-    <string name="SCREENSHOT_FAILED_TOAST">"Couldn't save screenshot right now."</string>
-    <string name="SCREENSHOT_SAVED_TOAST">Screenshot saved to device. It may contain personal information.</string>
-    <string name="SCREENSHOT_STARTED_TOAST">Taking screenshot...</string>
     <string name="SEARCH">Search</string>
     <string name="SEARCH_DID_YOU_MEAN">Did you mean</string>
     <string name="SEARCH_FAILED">"Can't search"</string>
     <string name="SEARCH_FOR_REVIEW">Search reviews</string>
     <string name="SEARCH_FOR_REVIEW_EXAMPLE">Search reviews (e.g. %1$s)</string>
     <string name="SEARCH_FOR_REVIEW_NONE_FOUND">No results found</string>
-    <string name="SEARCH_FOR_REVIEW_SORT_BY_HIGHEST_SCORE">Highest score</string>
-    <string name="SEARCH_FOR_REVIEW_SORT_BY_LOWEST_SCORE">Lowest score</string>
-    <string name="SEARCH_FOR_REVIEW_SORT_BY_MOST_HELPFUL">Most helpful</string>
-    <string name="SEARCH_FOR_REVIEW_SORT_BY_MOST_RECENT">Most recent</string>
     <string name="SEARCH_FOR_SUGGESTION">Search for %1$s</string>
     <string name="SEARCH_HINT">Search here</string>
     <string name="SEARCH_LABEL_PROMO_BODY">Add a label to get directions to this place faster next time</string>
@@ -3104,7 +3113,7 @@ You can turn this on and off in Notification settings."</string>
     <string name="SEARCH_LIST_GAS_PRICE_ASTERISK">*</string>
     <string name="SEARCH_LIST_GAS_PRICE_LABELED">%1$s/%2$s %3$s</string>
     <string name="SEARCH_LIST_GAS_PRICE_STALENESS">%1$sPrices as of 24+ hours ago</string>
-    <string name="SEARCH_LIST_RESULTS">Show List</string>
+    <string name="SEARCH_LIST_RESULTS">Show list</string>
     <string name="SEARCH_NO_RESULTS">No results for %1$s</string>
     <string name="SEARCH_NO_RESULTS_POPUP_LINK_ADD_PLACE">Add \"%1$s\"</string>
     <string name="SEARCH_NO_RESULTS_POPUP_MESSAGE_ADD_PLACE">"Check the spelling or try adding a town/city, county or postcode.
@@ -3114,6 +3123,8 @@ You can turn this on and off in Notification settings."</string>
     <string name="SEARCH_OFFLINE_NO_RESULTS">Offline: No results found in your offline areas.</string>
     <string name="SEARCH_PARTIAL_UNDERSTANDING_AAP_LINK">Add a place</string>
     <string name="SEARCH_PARTIAL_UNDERSTANDING_AAP_TITLE">"Don't see what you're looking for?"</string>
+    <string name="SEARCH_RESULTS_LIST_VIEW_TOGGLE">List View</string>
+    <string name="SEARCH_RESULTS_MAP_VIEW_TOGGLE">Map View</string>
     <string name="SEARCH_SORT_BY">Sort by</string>
     <string name="SEARCH_SORT_RELEVANCE">Relevance</string>
     <string name="SEARCH_SUGGESTED_SET_SUBTITLE_SEPARATOR">", "</string>
@@ -3144,6 +3155,9 @@ You can turn this on and off in Notification settings."</string>
     <string name="SENDING">Sending...</string>
     <string name="SENDING_REVIEW_FOR_PLACE">Sending review</string>
     <string name="SEND_FEEDBACK">Send feedback</string>
+    <string name="SEND_FEEDBACK_CARD_BUTTON">Send feedback</string>
+    <string name="SEND_FEEDBACK_CARD_SUBTEXT">"Share your thoughts about the info that you've seen here"</string>
+    <string name="SEND_FEEDBACK_CARD_TITLE">What do you think?</string>
     <string name="SEND_TO_PHONE_DIRECTIONS">Directions</string>
     <string name="SEND_TO_PHONE_NAVIGATE">Navigate</string>
     <string name="SEND_TO_PHONE_PLACES_AND_DIRECTIONS">Places &amp; directions from desktop</string>
@@ -3583,7 +3597,6 @@ You can turn this on and off in Notification settings."</string>
     <string name="TRANSIT_FROM_STATION">from %1$s</string>
     <string name="TRANSIT_GLOBAL_BAN_NOTIFICATION">Turn off departure time notifications?</string>
     <string name="TRANSIT_GUIDANCE_APPROXIMATE_DURATION">About %1$s</string>
-    <string name="TRANSIT_GUIDANCE_ARRIVE_TIME">Arrive at %1$s (%2$s)</string>
     <string name="TRANSIT_GUIDANCE_NOTIFICATION_ACCESSIBILITY_NEXT_STEP">Next step</string>
     <string name="TRANSIT_GUIDANCE_NOTIFICATION_ACCESSIBILITY_PREVIOUS_STEP">Previous step</string>
     <string name="TRANSIT_GUIDANCE_NOTIFICATION_ACTION_SHARE_TRIP">Share trip</string>
@@ -3721,6 +3734,9 @@ You can turn this on and off in Notification settings."</string>
     <string name="TRANSIT_TRANSFER_DESCRIPTION">%1$s %2$s</string>
     <string name="TRANSIT_TRANSFER_DESCRIPTION_WITH_EXPRESS_TYPE">%1$s %2$s %3$s</string>
     <string name="TRANSIT_TRAVEL_MODE_LABEL">public transport</string>
+    <string name="TRANSIT_TRIP_START_FOOTER_PROMO_BODY">Stay on route with next steps and trip updates as you go</string>
+    <string name="TRANSIT_TRIP_START_FOOTER_PROMO_GET_OFF_SOON">Get off soon</string>
+    <string name="TRANSIT_TRIP_START_FOOTER_PROMO_TITLE">New! Live directions</string>
     <string name="TRANSIT_TYPE_FILTER_BUS">Bus</string>
     <string name="TRANSIT_TYPE_FILTER_SUBWAY">Metro</string>
     <string name="TRANSIT_TYPE_FILTER_TRAIN">Train</string>
@@ -3947,6 +3963,7 @@ You can turn this on and off in Notification settings."</string>
     <string name="UPDATE_BUTTON">Update</string>
     <string name="UPDATE_PLAY_SERVICES_FOR_LOCATION_MESSAGE">Improve your location by upgrading to the latest version of Google Play services.</string>
     <string name="UPDATE_PLAY_SERVICES_FOR_LOCATION_TITLE">Update Google Play Services</string>
+    <string name="UPDATE_ROUTES_AND_TRAFFIC">Update routes and traffic</string>
     <string name="UPDATE_SHARES_OPERATION_FAILED">Something went wrong. Please check your Internet connection and try again.</string>
     <string name="UPDATE_SHARES_OPERATION_FAILED_LONGER_SHARE_EXISTS">"You're already sharing your location with this person for a longer period of time"</string>
     <string name="UPDATE_SHARES_OPERATION_FAILED_SELF_SHARE">"Can't share location with yourself"</string>
@@ -4000,6 +4017,7 @@ You can turn this on and off in Notification settings."</string>
     <string name="VIEWPORT_CHECK_WAIT">Please wait…</string>
     <string name="VIEW_ALL">View all</string>
     <string name="VIEW_DETAILS">View details</string>
+    <string name="VIEW_MAP">View map</string>
     <string name="VIEW_WEBSITE">View website</string>
     <string name="VISITED_PLACES_ACCESSIBILITY_PLACE_REMOVED">Removed %1$s from your visits</string>
     <string name="VISITED_PLACES_EMPTY_STATE_DETAILS">"You'll see those places soon after your visit. Make sure that you take your signed-in device with you."</string>
@@ -4056,6 +4074,7 @@ You can turn this on and off in Notification settings."</string>
     <string name="WAIT_FOR_WIFI_SWITCH_TITLE">Wait for Wi-Fi before uploading</string>
     <string name="WAIT_TIMES_LIVE">Live</string>
     <string name="WAIT_TIMES_SEPARATOR">: </string>
+    <string name="WAIT_TIMES_TAP_HOURS_INSTRUCTION">Tap hours to see usual waiting times</string>
     <string name="WAIT_TIMES_WAIT">Wait</string>
     <string name="WALKING_TRAVEL_MODE_LABEL">walking</string>
     <string name="WAYPOINT_EDIT_MODE_PARKING_LETTER">P</string>
