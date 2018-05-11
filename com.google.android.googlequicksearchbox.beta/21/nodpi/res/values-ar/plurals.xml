@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">قبل %d يوم</item>
+        <item quantity="zero">قبل %d يوم</item>
+        <item quantity="one">قبل %d يوم</item>
+        <item quantity="two">قبل يومين (%d)</item>
+        <item quantity="few">قبل %d أيام</item>
+        <item quantity="many">قبل %d يومًا</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">قبل %d دقيقة</item>
+        <item quantity="zero">قبل %d دقيقة</item>
+        <item quantity="one">قبل %d دقيقة</item>
+        <item quantity="two">قبل دقيقتين (%d)</item>
+        <item quantity="few">قبل %d دقائق</item>
+        <item quantity="many">قبل %d دقيقة</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">قبل %d سنة</item>
+        <item quantity="zero">قبل %d سنة</item>
+        <item quantity="one">قبل %d سنة</item>
+        <item quantity="two">قبل سنتين (%d)</item>
+        <item quantity="few">قبل %d سنوات</item>
+        <item quantity="many">قبل %d سنة</item>
+    </plurals>
     <plurals name="agenda_card_history_desc">
         <item quantity="other">%d حدث</item>
         <item quantity="zero">%d حدث</item>
@@ -23,6 +47,30 @@
         <item quantity="two">‏تقييمك: نجمتان (%d).</item>
         <item quantity="few">‏تقييمك: %d نجوم.</item>
         <item quantity="many">‏تقييمك: %d نجمة.</item>
+    </plurals>
+    <plurals name="all_day_more_event_only">
+        <item quantity="other">‏طوال اليوم. هناك %d حدث آخر طوال اليوم.</item>
+        <item quantity="zero">‏طوال اليوم. هناك %d حدث آخر طوال اليوم.</item>
+        <item quantity="one">‏طوال اليوم. هناك حدث واحد (%d) آخر طوال اليوم.</item>
+        <item quantity="two">‏طوال اليوم. هناك حدثان (%d) آخران طوال اليوم.</item>
+        <item quantity="few">‏طوال اليوم. هناك %d أحداث أخرى طوال اليوم.</item>
+        <item quantity="many">‏طوال اليوم. هناك %d حدثًا آخر طوال اليوم.</item>
+    </plurals>
+    <plurals name="all_day_more_mixed">
+        <item quantity="other">‏طوال اليوم. عدد الأحداث والتذكيرات الأخرى: %d.</item>
+        <item quantity="zero">‏طوال اليوم. عدد الأحداث والتذكيرات الأخرى: %d.</item>
+        <item quantity="one">‏طوال اليوم. عدد الأحداث والتذكيرات الأخرى: %d.</item>
+        <item quantity="two">‏طوال اليوم. عدد الأحداث والتذكيرات الأخرى: %d.</item>
+        <item quantity="few">‏طوال اليوم. عدد الأحداث والتذكيرات الأخرى: %d.</item>
+        <item quantity="many">‏طوال اليوم. عدد الأحداث والتذكيرات الأخرى: %d.</item>
+    </plurals>
+    <plurals name="all_day_more_reminder_only">
+        <item quantity="other">‏طوال اليوم. هناك %d تذكير آخر.</item>
+        <item quantity="zero">‏طوال اليوم. هناك %d تذكير آخر.</item>
+        <item quantity="one">‏طوال اليوم. هناك تذكير واحد (%d) آخر.</item>
+        <item quantity="two">‏طوال اليوم. هناك تذكيران (%d) آخران.</item>
+        <item quantity="few">‏طوال اليوم. هناك %d تذكيرات أخرى.</item>
+        <item quantity="many">‏طوال اليوم. هناك %d تذكيرًا آخر.</item>
     </plurals>
     <plurals name="assistant_settings_home_assign_rooms_progress">
         <item quantity="other">جارٍ تعيين %1$s جهاز للغرف</item>

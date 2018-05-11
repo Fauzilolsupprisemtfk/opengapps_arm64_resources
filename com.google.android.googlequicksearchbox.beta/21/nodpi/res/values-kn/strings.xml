@@ -12,6 +12,16 @@
     <string name="abc_activitychooserview_choose_application">ಒಂದು ಅಪ್ಲಿಕೇಶನ್ ಆಯ್ಕೆಮಾಡಿ</string>
     <string name="abc_capital_off">ಆಫ್</string>
     <string name="abc_capital_on">ಆನ್</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
     <string name="abc_search_hint">ಹುಡುಕಿ…</string>
     <string name="abc_searchview_description_clear">ಪ್ರಶ್ನೆಯನ್ನು ತೆರವುಗೊಳಿಸು</string>
     <string name="abc_searchview_description_query">ಪ್ರಶ್ನೆಯನ್ನು ಹುಡುಕಿ</string>
@@ -20,6 +30,8 @@
     <string name="abc_searchview_description_voice">ಧ್ವನಿ ಹುಡುಕಾಟ</string>
     <string name="abc_shareactionprovider_share_with">ಇವರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಿ</string>
     <string name="abc_shareactionprovider_share_with_application">%s ನೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="abc_slice_error">ಸಂಪರ್ಕಿಸಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ</string>
+    <string name="abc_slice_more">ಇನ್ನಷ್ಟು</string>
     <string name="abc_slice_more_content">+ %1$d</string>
     <string name="abc_slice_permission_allow">ಅನುಮತಿಸಿ</string>
     <string name="abc_slice_permission_checkbox">ಯಾವುದೇ ಅಪ್ಲಿಕೇಶನ್‌ನಿಂದ ಸ್ಲೈಸ್‌ಗಳನ್ನು ತೋರಿಸಲು %1$s ಅನ್ನು ಅನುಮತಿಸಿ</string>
@@ -27,6 +39,8 @@
     <string name="abc_slice_permission_text_1">- ಇದು %1$s ನಿಂದ ಮಾಹಿತಿಯನ್ನು ಓದಬಹುದು</string>
     <string name="abc_slice_permission_text_2">- ಇದು %1$s ಒಳಗಡೆ ಕ್ರಿಯೆಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಬಹುದು</string>
     <string name="abc_slice_permission_title">%2$s ಸ್ಲೈಸ್‌ಗಳನ್ನು ತೋರಿಸಲು %1$s ಅನ್ನು ಅನುಮತಿಸುವುದೇ?</string>
+    <string name="abc_slice_show_more">ಹೆಚ್ಚು ತೋರಿಸಿ</string>
+    <string name="abc_slice_updated">%1$s ಅನ್ನು ಅಪ್‌ಡೇಟ್‌ ಮಾಡಲಾಗಿದೆ</string>
     <string name="abc_slices_permission_request">%2$s ಸ್ಲೈಸ್‌ಗಳನ್ನು %1$s ತೋರಿಸಲು ಬಯಸಿದೆ</string>
     <string name="abc_toolbar_collapse_description">ಸಂಕುಚಿಸು</string>
     <string name="acessibility_recurrence_choose_end_date_description">ಅಂತಿಮ ದಿನಾಂಕವನ್ನು ಬದಲಾಯಿಸಿ</string>
@@ -176,6 +190,7 @@
     <string name="entry_desc">%2$d ನ %1$d ಪ್ರವೇಶ</string>
     <string name="episode_completed">ಪೂರ್ಣಗೊಂಡಿದೆ</string>
     <string name="episode_subtitle_format">%1$s ⸱ %2$s</string>
+    <string name="episodes_for_you">ನಿಮಗಾಗಿ</string>
     <string name="error">ದೋಷ</string>
     <string name="error_message">ಹುಡುಕಾಟ ವಿಫಲವಾಗಿದೆ. ನಂತರ ಪ್ರಯತ್ನಿಸಿ.</string>
     <string name="event_group_header">ಈವೆಂಟ್‌ಗಳು</string>
@@ -207,13 +222,13 @@
     <string name="gcm_fallback_notification_channel_label">ಇತರೆ</string>
     <string name="gdi_add_button">ಸೇರಿಸಿ</string>
     <string name="gdi_add_phone_number">ಫೋನ್ ಸೇರಿಸಿ</string>
-    <string name="gdi_add_phone_number_consent_text">"ಸಂದೇಶ ರವಾನಿಸುವುದು, ಸೈನ್-ಇನ್ ಮಾಡುವುದು, Google ಸಹಾಯಕ ಹಾಗೂ ಬೇರೆ Google ಸೇವೆಗಳಿಗಾಗಿ ಬಳಕೆ ಮಾಡಲು ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ಸೇರಿಸಿ. "</string>
+    <string name="gdi_add_phone_number_consent_text">ಸಂದೇಶ ರವಾನಿಸುವುದು, ಸೈನ್-ಇನ್ ಮಾಡುವುದು, Google ಸಹಾಯಕ ಹಾಗೂ ಬೇರೆ Google ಸೇವೆಗಳಿಗಾಗಿ ಬಳಕೆ ಮಾಡಲು ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ಸೇರಿಸಿ.</string>
     <string name="gdi_add_phone_number_disclaimer">ಇದು ನಿಮ್ಮದೇ ಫೋನ್ ಸಂಖ್ಯೆ ಎಂದು ದೃಢೀಕರಿಸಿಕೊಳ್ಳಲು Google ನಿಮಗೆ ಒಂದು ಪಠ್ಯ ಸಂದೇಶವನ್ನು ಕಳುಹಿಸುತ್ತದೆ. ಪ್ರಮಾಣಿತ ಶುಲ್ಕಗಳು ಅನ್ವಯಿಸುತ್ತವೆ.</string>
-    <string name="gdi_add_phone_number_error">ಫೋನ್ ಅನ್ನು ಸೇರಿಸಿ</string>
+    <string name="gdi_add_phone_number_error">ಫೋನ್ ಅನ್ನು ಸೇರಿಸಿ</string>
     <string name="gdi_add_phone_number_heading">%1$s ಜೊತೆಗೆ ಖಾತೆ ರಚಿಸಲು ಫೋನ್ ಸಂಖ್ಯೆ ಸೇರಿಸಿ</string>
-    <string name="gdi_add_your_phone">ನಿಮ್ಮ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ಸೇರಿಸಿ</string>
+    <string name="gdi_add_your_phone">ನಿಮ್ಮ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ಸೇರಿಸಿ</string>
     <string name="gdi_allow">ಅನುಮತಿಸಿ</string>
-    <string name="gdi_and_spaced">" ಮತ್ತು "</string>
+    <string name="gdi_and_spaced">ಮತ್ತು</string>
     <string name="gdi_app_terms">ಅಪ್ಲಿಕೇಷನ್ ನಿಯಮಗಳು</string>
     <string name="gdi_back">ಹಿಂದೆ</string>
     <string name="gdi_bbb_already_have_account">ನಾನು ಈಗಾಗಲೇ %1$s ಖಾತೆಯನ್ನು ಹೊಂದಿದ್ದೇನೆ</string>
@@ -229,7 +244,7 @@
     <string name="gdi_bbb_trouble_completing_request">ವಿನಂತಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸುವಲ್ಲಿ ದೋಷವಿದೆ.</string>
     <string name="gdi_bbb_try_again_later">ನಂತರ ಪುನಃ ಪ್ರಯತ್ನಿಸಿ.</string>
     <string name="gdi_bbb_verification_error">ತಪ್ಪಾದ ಪರಿಶೀಲನಾ ಕೋಡ್</string>
-    <string name="gdi_bbb_verification_message">"ನಿಮ್ಮ ಸಂಖ್ಯೆಯನ್ನು ದೃಢೀಕರಿಸಲು Google ಪರಿಶೀಲನೆ ಕೋಡ್ ಅನ್ನು ಕಳುಹಿಸುತ್ತದೆ. "</string>
+    <string name="gdi_bbb_verification_message">ನಿಮ್ಮ ಸಂಖ್ಯೆಯನ್ನು ದೃಢೀಕರಿಸಲು Google ಪರಿಶೀಲನೆ ಕೋಡ್ ಅನ್ನು ಕಳುಹಿಸುತ್ತದೆ.</string>
     <string name="gdi_cancel">ರದ್ದುಮಾಡಿ</string>
     <string name="gdi_choose_account_title">ಮುಂದುವರಿಯುವುದಕ್ಕಾಗಿ ನಿಮ್ಮ Google ಖಾತೆಗೆ %1$s ಅನ್ನು ಲಿಂಕ್ ಮಾಡಿ</string>
     <string name="gdi_close">ಮುಚ್ಚಿ</string>
@@ -244,9 +259,9 @@
     <string name="gdi_current_city_level_location">ಪ್ರಸ್ತುತ ನಗರ-ಹಂತದ ಸ್ಥಳ</string>
     <string name="gdi_enter_code_subheading">"
 %1$s ಗೆ ನಾವು ಪರಿಶೀಲನೆ ಕೋಡ್ ಅನ್ನು ಕಳುಹಿಸಿದ್ದೇವೆ"</string>
-    <string name="gdi_enter_the_code">ಕೋಡ್ ನಮೂದಿಸಿ</string>
-    <string name="gdi_fine_print_middle">" ಹಾಗೂ Google ನಿಮ್ಮ %1$s ಖಾತೆ ಮಾಹಿತಿಯನ್ನು ಪ್ರವೇಶಿಸಬಹುದು ಎಂಬುದಕ್ಕೆ ಒಪ್ಪುವಿರಿ."</string>
-    <string name="gdi_fine_print_preamble">"ಮುಂದುವರಿಯುವ ಮೂಲಕ ನೀವು %1$s ಗೆ ಒಪ್ಪುವಿರಿ "</string>
+    <string name="gdi_enter_the_code">ಕೋಡ್ ನಮೂದಿಸಿ</string>
+    <string name="gdi_fine_print_middle">ಹಾಗೂ Google ನಿಮ್ಮ %1$s ಖಾತೆ ಮಾಹಿತಿಯನ್ನು ಪ್ರವೇಶಿಸಬಹುದು ಎಂಬುದಕ್ಕೆ ಒಪ್ಪುವಿರಿ.</string>
+    <string name="gdi_fine_print_preamble">ಮುಂದುವರಿಯುವ ಮೂಲಕ ನೀವು %1$s ಗೆ ಒಪ್ಪುವಿರಿ</string>
     <string name="gdi_finish">ಪೂರ್ಣಗೊಳಿಸಿ</string>
     <string name="gdi_invalid_number_error">ಅಮಾನ್ಯ ಸಂಖ್ಯೆ</string>
     <string name="gdi_learn_more_link">ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ</string>
@@ -268,7 +283,7 @@
     <string name="gdi_use_another_account">ಇನ್ನೊಂದು %1$s ಖಾತೆಯನ್ನು ಬಳಕೆ ಮಾಡಿ</string>
     <string name="gdi_verify_button_text">ಪರಿಶೀಲಿಸಿ</string>
     <string name="gdi_verifying">ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ...</string>
-    <string name="gdi_verifying_message">ನಿಮ್ಮ ಸಂಪರ್ಕವನ್ನು ಆಧರಿಸಿ ಇದು ಕೆಲವು ನಿಮಿಷಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಬಹುದು</string>
+    <string name="gdi_verifying_message">ನಿಮ್ಮ ಸಂಪರ್ಕವನ್ನು ಆಧರಿಸಿ ಇದು ಕೆಲವು ನಿಮಿಷಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಬಹುದು</string>
     <string name="generic_error_message">ಯಾವುದೋ ದೋಷ ಎದುರಾಗಿದೆ</string>
     <string name="gmail_update_required">ಈ ಫೋನ್‌ನಲ್ಲಿರುವ Gmail ನ ಆವೃತ್ತಿಗೆ ಬೆಂಬಲವಿಲ್ಲ. ಹೊಚ್ಚಹೊಸ ಆವೃತ್ತಿಗೆ ಅಪ್‌ಡೇಟ್ ಮಾಡಿ.</string>
     <string name="gmscore_update_required">ಈ ಫೋನ್‌ನಲ್ಲಿನ Google Play ಸೇವೆಗಳ ಆವೃತ್ತಿಗೆ ಬೆಂಬಲವಿಲ್ಲ. ಹೊಚ್ಚಹೊಸ ಆವೃತ್ತಿಗೆ ಅಪ್‌ಡೇಟ್ ಮಾಡಿ.</string>
@@ -446,11 +461,10 @@
     <string name="no_chip_desc">ಎಲ್ಲಾ ಫಲಿತಾಂಶಗಳನ್ನು ವೀಕ್ಷಿಸಿ.</string>
     <string name="no_connection">ಯಾವುದೇ ಸಂಪರ್ಕವಿಲ್ಲ</string>
     <string name="no_downloaded_episodes">ಡೌನ್‌ಲೋಡ್ ಮಾಡಿಲ್ಲದ ಎಪಿಸೋಡ್‌ಗಳು</string>
+    <string name="no_episodes_in_progress">ಯಾವುದೇ ಎಪಿಸೋಡ್‌ಗಳು ಪ್ರಗತಿಯಲ್ಲಿಲ್ಲ</string>
     <string name="no_longer_available">ಇನ್ನು ಮುಂದೆ ಲಭ್ಯವಿಲ್ಲ</string>
-    <string name="no_newest_episodes">ಯಾವುದೇ ಹೊಸ ಎಪಿಸೋಡ್‌ಗಳಿಲ್ಲ</string>
     <string name="no_personal_content_ipa">ಯಾವುದೇ ವೈಯಕ್ತಿಕ ವಿಷಯ ಕಂಡುಬಂದಿಲ್ಲ</string>
     <string name="no_podcasts_found">ಪೋಡ್‌ಕಾಸ್ಟ್‌ಗಳು ಕಂಡುಬರಲಿಲ್ಲ</string>
-    <string name="no_recently_played_episodes">ಯಾವುದೇ ಇತ್ತೀಚಿನ ಪ್ಲೇ ಮಾಡಿದ ಎಪಿಸೋಡ್‌ಗಳಿಲ್ಲ</string>
     <string name="no_results_found">ಯಾವ ಫಲಿತಾಂಶಗಳೂ ಕಂಡುಬಂದಿಲ್ಲ</string>
     <string name="no_results_found_link">ಇತರ ವೈಯಕ್ತಿಕ ಫಲಿತಾಂಶಗಳನ್ನು ನೋಡಿ</string>
     <string name="no_results_snippet">ಯಾವುದೇ ವೈಯಕ್ತಿಕ ವಿಷಯಕ್ಕೆ ನಿಮ್ಮ ಹುಡುಕಾಟ ಹೊಂದಾಣಿಕೆಯಾಗಲಿಲ್ಲ</string>
@@ -484,8 +498,9 @@
     <string name="play">ಪ್ಲೇ</string>
     <string name="play_this_episode">ಈ ಎಪಿಸೋಡ್ ಪ್ಲೇ ಮಾಡು</string>
     <string name="playback_error_cancel">ರದ್ದುಗೊಳಿಸು</string>
+    <string name="playback_error_message">ಈ ಸಂಚಿಕೆಯನ್ನು ಪ್ಲೇ ಮಾಡಲಾಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="playback_error_ok">ಸರಿ</string>
     <string name="playback_error_retry">ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ</string>
-    <string name="playback_error_title">ವಿನಂತಿಸಿದ ಎಪಿಸೋಡ್ ಪ್ಲೇ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
     <string name="playback_panel_error">ಪ್ಲೇಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ</string>
     <string name="playback_status_buffering">ಬಫರ್ ಮಾಡುತ್ತಿದೆ...</string>
     <string name="please_select">ದಯವಿಟ್ಟು ಆಯ್ಕೆಮಾಡಿ</string>
@@ -517,6 +532,7 @@
     <string name="recently_disabled_card_text">ನೀವು ಭೇಟಿ ನೀಡಿದ ಪುಟಗಳ ರೆಕಾರ್ಡ್ ಅನ್ನು ಇರಿಸಲು ಮತ್ತು ನಂತರ ಅವುಗಳನ್ನು ತ್ವರಿತವಾಗಿ ಕಂಡುಕೊಳ್ಳಲು ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಇತ್ತೀಚಿನದನ್ನು ಆನ್ ಮಾಡಿ.</string>
     <string name="recently_entry_interaction_offline">ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿರುವಾಗ ವಿನಂತಿಸಿರುವ ಪುಟವನ್ನು ತೆರೆಯಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ.</string>
     <string name="recently_feed_entry">ಫೀಡ್</string>
+    <string name="recently_google_doodle_for">%sಗಾಗಿ Google ಡೂಡಲ್‌</string>
     <string name="recently_onboarding_compare_message">ಏನನ್ನು ಖರೀದಿಸಬೇಕೆಂಬುದನ್ನು ತೀರ್ಮಾನಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲವೇ? ನೀವು ಹುಡುಕಿರುವ ಆಯ್ಕೆಗಳನ್ನು ಅಕ್ಕಪಕ್ಕದಲ್ಲಿ ಹೋಲಿಸಿರಿ.</string>
     <string name="recently_onboarding_compare_title">ಹೋಲಿಸಿ</string>
     <string name="recently_onboarding_find_that_page_message">ಕೆಲವು ದಿನಗಳ ಹಿಂದಿನಿಂದಲೂ ಆ ರೆಸಿಪಿ, ಲೇಖನ ಅಥವಾ ಸೈಟ್ ಅನ್ನು ಬಯಸುತ್ತಿರುವಿರಾ? ಹುಡುಕುವ ಸಮಯವನ್ನು ಉಳಿಸಿ. ಇಲ್ಲಿ ಅದನ್ನು ಮೊದಲು ಪತ್ತೆ ಮಾಡಿ.</string>
@@ -542,10 +558,16 @@
 "<a href="http://myactivity.google.com">myactivity.google.com</a></string>
     <string name="recently_removed_item_dialog_ok">ಅರ್ಥವಾಯಿತು</string>
     <string name="recently_removed_item_dialog_title">ಇತ್ತೀಚಿನ ಪುಟಗಳಿಂದ ತೆಗೆದುಹಾಕಲಾಗಿದೆ</string>
+    <string name="recently_screenshot_from_agsa">ನನ್ನ Google ಅಪ್ಲಿಕೇಶನ್ ನಿಂದ ತೆಗೆದ ಸ್ಕ್ರೀನ್‌ಶಾಟ್</string>
     <string name="recently_search_history_authenticating_cancel">ರದ್ದುಮಾಡಿ</string>
     <string name="recently_search_history_authenticating_message">%1$s ನಂತೆ ಸೈನ್‌ ಇನ್‌ ಮಾಡಲಾಗುತ್ತಿದೆ…</string>
     <string name="recently_search_history_authenticating_title">ಸೈನ್ ಇನ್ ಮಾಡಲಾಗುತ್ತಿದೆ</string>
+    <string name="recently_search_results_for">%sಗಾಗಿ ಹುಡುಕಾಟದ ಫಲಿತಾಂಶಗಳು</string>
+    <string name="recently_share_search_url">"%1$s
+
+https://www.google.com/search?q=%1$s&amp;tbm=%2$sಗಾಗಿ ಹುಡುಕಾಟದ ಫಲಿತಾಂಶಗಳು"</string>
     <string name="recently_sharebear_subtitle">ಸ್ಕ್ರೀನ್‌ಶಾಟ್</string>
+    <string name="recently_shared_from_agsa">ನನ್ನ Google ಅಪ್ಲಿಕೇಶನ್‌ನಿಂದ ಹಂಚಿಕೊಳ್ಳಲಾಗಿದೆ</string>
     <string name="recently_simple_onboarding_pinch_message">ಸಲಹೆ: ಹಿಂದಕ್ಕೆ ಅವುಗಳನ್ನು ಸ್ಕ್ರಾಲ್ ಮಾಡಿದಾಗ ಗುಂಪುಗಳು ನಿಮಗೆ ಮುಚ್ಚುತ್ತವೆ</string>
     <string name="recently_simple_onboarding_pinch_title">ಗುಂಪುಗಳನ್ನು ಮುಚ್ಚಲು ಪಿಂಚ್ ಮಾಡಿ</string>
     <string name="recently_simple_onboarding_recent_message">ಇನ್ನಷ್ಟನ್ನು ನೋಡುವುದಕ್ಕಾಗಿ ಈ ಪುಟಗಳ ಗುಂಪನ್ನು ತೆರೆಯಿರಿ.</string>
@@ -666,10 +688,14 @@
     <string name="space">.</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="subscribe_button_label">ಚಂದಾದಾರರಾಗಿ</string>
+    <string name="subscribe_to_see_new_episodes">ಹೊಸ ಸಂಚಿಕೆಗಳನ್ನು ನೋಡಲು ಪೋಡ್‌ಕಾಸ್ಟ್‌ಗಳಿಗೆ ಸಬ್‌ಸ್ಕ್ರೈಬ್‌ ಆಗಿ</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="suw_back_button_label">ಹಿಂದೆ</string>
     <string name="suw_more_button_label">ಇನ್ನಷ್ಟು</string>
     <string name="suw_next_button_label">ಮುಂದೆ</string>
+    <string name="tab_downloaded_episodes">ಡೌನ್‌ಲೋಡ್ ಆಗಿದೆ</string>
+    <string name="tab_episodes_in_progress">ಪ್ರಗತಿಯಲ್ಲಿದೆ</string>
+    <string name="tab_new_episodes">ಹೊಸ</string>
     <string name="toast_hide">%s ಅವರನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಮರೆಮಾಡಲಾಗಿದೆ.</string>
     <string name="toast_hide_fail">ಏನೋ ತಪ್ಪಾಗಿದೆ! %s ಅವರನ್ನು ಮರೆಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</string>
     <string name="toast_unhide">%s ಅವರನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಮರೆಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</string>
@@ -678,6 +704,7 @@
     <string name="tomorrow">ನಾಳೆ</string>
     <string name="top_contacts_group_header">ಉನ್ನತ ಸಂಪರ್ಕಗಳು</string>
     <string name="transportation_title">%1$s ದಿಂದ %2$s ವರೆಗೆ</string>
+    <string name="trim_silence">ನಿಶ್ಶಬ್ದವನ್ನು ಟ್ರಿಮ್ ಮಾಡಿ</string>
     <string name="undo">ರದ್ದುಮಾಡಿ</string>
     <string name="uninstall_system_app_text">ಇದೊಂದು ಅಪ್ಲಿಕೇಶನ್ ಆಗಿದೆ ಮತ್ತು ಅಸ್ಥಾಪಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</string>
     <string name="unknown">ಅಪರಿಚಿತ</string>
@@ -686,9 +713,9 @@
     <string name="unrecognized_format_pin_code">ಮಾನ್ಯ ಪಿನ್‌ಕೋಡ್ ನಮೂದಿಸಿ</string>
     <string name="unrecognized_format_postal_code">ಮಾನ್ಯ ಕೋಡ್ ನಮೂದಿಸಿ</string>
     <string name="unrecognized_format_zip_code">ಮಾನ್ಯ ZIP ನಮೂದಿಸಿ</string>
-    <string name="unreplied_emails_group_header">Unreplied Emails</string>
-    <string name="unreplied_group_header">Unreplied</string>
-    <string name="unreplied_messages_group_header">Unreplied Messages</string>
+    <string name="unreplied_emails_group_header">ಆದ್ಯತೆಯ ಇಮೇಲ್‌ಗಳು</string>
+    <string name="unreplied_group_header">ಆದ್ಯತೆಯ ಸಂವಾದ</string>
+    <string name="unreplied_messages_group_header">ಆದ್ಯತೆಯ ಸಂದೇಶಗಳು</string>
     <string name="unsubscribe_button_label">ಚಂದಾದಾರರಾಗಿದ್ದಾರೆ</string>
     <string name="up">ಮೇಲಕ್ಕೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡು</string>
     <string name="upcoming_event_group_header">ಮುಂಬರುವ</string>

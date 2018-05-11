@@ -5,15 +5,14 @@
         <layer-list>
             <item>
                 <shape android:shape="oval">
-                    <stroke android:width="@dimen/home_automation_seek_bar_thumb_stroke_width" android:color="@color/home_automation_grey_color" />
-                    <solid android:color="@android:color/transparent" />
+                    <solid android:color="@color/home_automation_brightness_card_color" />
                     <size android:height="@dimen/home_automation_seek_bar_outer_thumb_size" android:width="@dimen/home_automation_seek_bar_outer_thumb_size" />
                 </shape>
             </item>
             <item>
                 <shape android:shape="oval">
-                    <stroke android:width="@dimen/home_automation_seek_bar_diff_thumb_size" android:color="@color/quantum_white_100" />
-                    <solid android:color="@color/home_automation_brightness_card_color" />
+                    <stroke android:width="@dimen/home_automation_seek_bar_diff_thumb_size" android:color="@android:color/transparent" />
+                    <solid android:color="@color/quantum_white_100" />
                     <size android:height="@dimen/home_automation_seek_bar_inner_thumb_size" android:width="@dimen/home_automation_seek_bar_inner_thumb_size" />
                 </shape>
             </item>

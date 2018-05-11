@@ -15,6 +15,16 @@
     <string name="abc_activitychooserview_choose_application">Odabir aplikacije</string>
     <string name="abc_capital_off">ISKLJUČENO</string>
     <string name="abc_capital_on">UKLJUČENO</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">razmaknica</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
     <string name="abc_search_hint">Pretražite…</string>
     <string name="abc_searchview_description_clear">Izbriši upit</string>
     <string name="abc_searchview_description_query">Upit za pretraživanje</string>
@@ -23,6 +33,8 @@
     <string name="abc_searchview_description_voice">Glasovno pretraživanje</string>
     <string name="abc_shareactionprovider_share_with">Dijeljenje sa</string>
     <string name="abc_shareactionprovider_share_with_application">Dijeli putem aplikacije %s</string>
+    <string name="abc_slice_error">Povezivanje nije moguće</string>
+    <string name="abc_slice_more">Više</string>
     <string name="abc_slice_more_content">još %1$d</string>
     <string name="abc_slice_permission_allow">Dopusti</string>
     <string name="abc_slice_permission_checkbox">Dopusti aplikaciji %1$s da prikazuje isječke iz bilo koje aplikacije</string>
@@ -30,6 +42,8 @@
     <string name="abc_slice_permission_text_1">– može čitati informacije aplikacije %1$s</string>
     <string name="abc_slice_permission_text_2">– može vršiti radnje u aplikaciji %1$s</string>
     <string name="abc_slice_permission_title">Želite li dopustiti aplikaciji %1$s da prikazuje isječke aplikacije %2$s?</string>
+    <string name="abc_slice_show_more">Prikaži više</string>
+    <string name="abc_slice_updated">Ažurirano %1$s</string>
     <string name="abc_slices_permission_request">%1$s želi prikazivati isječke aplikacije %2$s</string>
     <string name="abc_toolbar_collapse_description">Sažmi</string>
     <string name="about">O aplikaciji</string>
@@ -60,7 +74,6 @@
     <string name="accessibility_see_results_on_google">Pogledajte rezultate na Googleu</string>
     <string name="accessibility_select">Odabir teksta na zaslonu</string>
     <string name="accessibility_share">Dijeljenje zaslona</string>
-    <string name="accessibility_visual_search_button">Vizualno pretraživanje</string>
     <string name="accessibility_voice_search_button">Glasovno pretraživanje</string>
     <string name="account_item">Prebacite se na %1$s</string>
     <string name="account_list">Popis računa</string>
@@ -228,7 +241,11 @@
     <string name="agenda_eyes_free_list_last_two_items">%1$s i %2$s</string>
     <string name="agenda_eyes_free_timed_event">U %1$s, %2$s.</string>
     <string name="agenda_eyes_free_timed_event_with_day">%1$s u %2$s: %3$s.</string>
-    <string name="agenda_hub_title">Sljedeće</string>
+    <string name="agenda_group_today_title">Danas</string>
+    <string name="agenda_group_tomorrow_title">Sutra</string>
+    <string name="agenda_hub_title">Sljedeće za vas</string>
+    <string name="agenda_icon_description">ikona rasporeda</string>
+    <string name="agenda_section_title">Sljedeće za vas</string>
     <string name="agent_bookmark_added">Spremljeno u oznake</string>
     <string name="agent_bookmark_error">Došlo je do pogreške. Pokušajte ponovo kasnije.</string>
     <string name="agent_bookmark_removed">Uklonjeno iz oznaka</string>
@@ -304,6 +321,7 @@ Prijeđite na taj račun u Asistentu za nastavak."</string>
     <string name="all_chain_locations">Sve lokacije</string>
     <string name="all_day">Cijeli dan</string>
     <string name="all_day_at_location">Cijeli dan na lokaciji %1$s</string>
+    <string name="all_day_event">Cijeli dan</string>
     <string name="all_day_event_text">Cijeli dan</string>
     <string name="all_downloaded_episodes">Sve preuzete epizode</string>
     <string name="all_language_packs">Sve</string>
@@ -624,6 +642,7 @@ Asistent će upotrebljavati tu postavku za pitanja o vašem putovanju na posao"<
     <string name="assistant_settings_no_device_linked">Voice Match omogućuje Asistentu da vam pruža osobne podatke kada prepozna vaš glas. Do šest osoba može pristupiti svojem kalendaru, glazbi itd.</string>
     <string name="assistant_settings_no_language_title">Dodavanje jezika</string>
     <string name="assistant_settings_no_shopping_list">Nemate popisa za kupnju.</string>
+    <string name="assistant_settings_notes_lists_title">Bilješke i popisi</string>
     <string name="assistant_settings_oobe_vpp_title">Osobni telefonski broj</string>
     <string name="assistant_settings_other_bike_key">OSTALO Bicikl</string>
     <string name="assistant_settings_other_drive_key">OSTALO Vožnja automobila</string>
@@ -868,6 +887,7 @@ Možda ćete morati platiti prijenos podataka."</string>
     <string name="auto_update_wifi_only">Ažuriraj jezike automatski samo putem Wi-Fi veze.</string>
     <string name="available_pick_up">Dostupno za preuzimanje</string>
     <string name="back">Natrag</string>
+    <string name="back_of_card_close">Zatvori</string>
     <string name="background_notification_onboarding">Niste povezani s internetom? Nema problema. Aplikacija Google zapamtit će vaše pretraživanje i poslati vam obavijest kada rezultati budu spremni.</string>
     <string name="background_notification_onboarding_accept">U redu</string>
     <string name="background_notification_onboarding_decline">Isključi</string>
@@ -887,7 +907,6 @@ Možda ćete morati platiti prijenos podataka."</string>
     <string name="barcode_image_description">Slika crtičnoga koda</string>
     <string name="batterysaver_off">Štednja baterije isključena</string>
     <string name="batterysaver_on">Štednja baterije uključena</string>
-    <string name="beta_tag">BETA</string>
     <string name="birthday_message">Danas ste navršili %1$s sekunda.</string>
     <string name="birthday_today">Rođendan danas</string>
     <string name="bisto_onboarding_chip_text">Dovršite postavljanje slušalica</string>
@@ -999,6 +1018,8 @@ Možda ćete morati platiti prijenos podataka."</string>
     <string name="common_device_personal_info_permission_title">Osobni rezultati</string>
     <string name="common_device_personal_suggestion_permission_summary">Omogućite osobne rezultate, kao i prilagođene preporuke videozapisa na YouTubeu, na početnom zaslonu ili kao obavijesti, a da ih ne morate tražiti. Napomena: oni koji se nalaze u blizini također mogu dodirnuti te rezultate i koristiti se njima. %1$s</string>
     <string name="common_device_personal_suggestion_permission_title">Početni zaslon i obavijesti</string>
+    <string name="common_device_youtube_restricted_mode_summary">Sakrijte pjesme i videozapise s potencijalno neprimjerenim sadržajem</string>
+    <string name="common_device_youtube_restricted_mode_title">Ograničeni način rada na YouTubeu</string>
     <string name="common_google_logo">Googleov logotip</string>
     <string name="common_google_play_services_enable_button">Omogući</string>
     <string name="common_google_play_services_enable_text">%1$s neće funkcionirati ako ne omogućite usluge Google Playa.</string>
@@ -1107,6 +1128,7 @@ Te razgovore možete pregledavati i upravljati njima u odjeljku %1$s u postavkam
     <string name="continue_listening_section_title">Nastavite slušati</string>
     <string name="continue_to_enable_storage_permission">Nastavi</string>
     <string name="conversation_group_header">Razgovori</string>
+    <string name="conversation_starters_suggestion_icon_description">Ikona koja se prikazuje na lijevoj strani žetona prijedloga za početak razgovora</string>
     <string name="copied_to_clipboard">Kopirano u međuspremnik</string>
     <string name="corpus_name_images_animated">GIF</string>
     <string name="corpus_name_images_black_and_white">Crno-bijelo</string>
@@ -1232,6 +1254,7 @@ Morat ćemo zaključiti koja je vaša približna lokacija na temelju drugih poda
     <string name="done_interest">Gotovo</string>
     <string name="done_label">Gotovo</string>
     <string name="dont_notify_me">Prekini pretraživanje</string>
+    <string name="doodle_content_description">Slika Google doodle logotipa</string>
     <string name="doodle_notifications_setting_summary">Nove igre, videozapisi i interaktivni doživljaji na doodle logotipima</string>
     <string name="doodle_notifications_setting_title">Doodle logotipi</string>
     <string name="download">Preuzimanje %1$s</string>
@@ -1282,6 +1305,7 @@ Morat ćemo zaključiti koja je vaša približna lokacija na temelju drugih poda
     <string name="email_guests">E-poruka gostima</string>
     <string name="email_keep_track_justification">Nedavna e-poruka spominje taj događaj</string>
     <string name="email_subject">Re: %1$s</string>
+    <string name="empty_agenda">Vaš raspored ne sadrži nijedan unos za sljedeća dva tjedna.</string>
     <string name="empty_relationship_subtitle">Još niste postavili nijedan nadimak. U aplikaciji Google ili na bilo kojem početnom zaslonu na pokretaču Googlea dodirnite mikrofon ili recite \"Ok Google\", a zatim \"Call Mom\" (Nazovi mamu).</string>
     <string name="empty_relationship_title">Izradite nadimke za kontakte svojih uređaja s Googleom</string>
     <string name="empty_state_text">Trenutačno nije dostupan nikakav sadržaj</string>
@@ -1301,6 +1325,7 @@ Morat ćemo zaključiti koja je vaša približna lokacija na temelju drugih poda
     <string name="entry_desc">Unos %1$d od %2$d.</string>
     <string name="episode_completed">Dovršeno</string>
     <string name="episode_subtitle_format">%1$s ⸱ %2$s</string>
+    <string name="episodes_for_you">Za vas</string>
     <string name="error">Pogreška</string>
     <string name="error_adding_location_snackbar_text">Pogreška prilikom dodavanja lokacije</string>
     <string name="error_authenticating_user">Pogreška prijave</string>
@@ -1375,16 +1400,27 @@ Provjerite vezu i pokušajte ponovo"</string>
     <string name="eyes_no_permission_camera">Nemam dopuštenje za upotrebu kamere</string>
     <string name="eyes_no_permission_write_external_storage">Nemam dopuštenje za spremanje datoteka</string>
     <string name="eyes_offline">Telefon nije povezan s internetom, pa vam trenutačno ne mogu pružiti traženu pomoć</string>
+    <string name="eyes_onboarding_brand_name">Google objektiv</string>
     <string name="eyes_onboarding_button_continue">Nastavi</string>
-    <string name="eyes_onboarding_button_sign_in">Prijavite se da biste nastavili</string>
+    <string name="eyes_onboarding_button_sign_in">Prijavite se da biste isprobali Objektiv</string>
     <string name="eyes_onboarding_camera_permission_denied_dismiss_button">Odbaci</string>
     <string name="eyes_onboarding_camera_permission_denied_message">Da bi pravilno funkcionirao, Objektiv treba snimati slike i videozapise. Dopuštenje možete dati u postavkama.</string>
     <string name="eyes_onboarding_camera_permission_denied_settings_button">Postavke</string>
     <string name="eyes_onboarding_camera_permission_denied_title">Pogreška Objektiva</string>
-    <string name="eyes_onboarding_message">Google objektiv neprekidno će analizirati ono što vidite da bi vam brže prikazivao informacije</string>
-    <string name="eyes_onboarding_title_places">Pronađite mjesta pomoću Objektiva</string>
-    <string name="eyes_onboarding_title_products">Pronađite proizvode pomoću Objektiva</string>
-    <string name="eyes_onboarding_title_text">Skenirajte tekst pomoću Objektiva</string>
+    <string name="eyes_onboarding_legal_body">"Kada otvorite tražilo Google objektiva, Objektiv će neprekidno analizirati ono što vidite kako bi vam prikazivao rezultate u stvarnom vremenu.
+
+Ako vam je postavka Aktivnost na webu i u aplikacijama uključena, vaša aktivnost na Google objektivu, uključujući slike koje ste upotrijebili s Objektivom, spremat će se na vaš Google račun. To se odnosi na vašu upotrebu Objektiva na Google fotografijama i Google asistentu, kao i na svim drugim proizvodima. Ako želite vidjeti i izbrisati svoje podatke ili promijeniti postavke računa, možete to učiniti na stranici account.google.com.
+
+Google objektiv ne zna sve i u nekim situacijama još uvijek učimo. Upotrebom Google objektiva preuzimate rizik na sebe; odgovorni ste za svoje ponašanje i njegove posljedice."</string>
+    <string name="eyes_onboarding_legal_title">Dobro došli na Google objektiv!</string>
+    <string name="eyes_onboarding_subtitle_places">Informacije o zanimljivim mjestima</string>
+    <string name="eyes_onboarding_subtitle_products">Nađite proizvode i usporedite cijene</string>
+    <string name="eyes_onboarding_subtitle_products_tier_3">Provjerite što je to</string>
+    <string name="eyes_onboarding_subtitle_text">Potražite riječ, spremite kontakt</string>
+    <string name="eyes_onboarding_title_places">Otkrijte nova mjesta</string>
+    <string name="eyes_onboarding_title_products">Kupujte pametnije</string>
+    <string name="eyes_onboarding_title_products_tier_3">Saznajte više o objektima</string>
+    <string name="eyes_onboarding_title_text">Skenirajte tekst</string>
     <string name="eyes_remember_this_suggestion">Zapamti ovo</string>
     <string name="eyes_request_timed_out_message">Nešto nije u redu</string>
     <string name="eyes_share_suggestion">Dijeli</string>
@@ -1536,13 +1572,13 @@ Pokušajte ponovo potražiti podcast."</string>
     <string name="gcm_fallback_notification_channel_label">Razno</string>
     <string name="gdi_add_button">Dodaj</string>
     <string name="gdi_add_phone_number">Dodajte telefon</string>
-    <string name="gdi_add_phone_number_consent_text">"Dodajte telefonski broj da biste ga upotrebljavali za slanje i primanje poruka, prijavu, Google asistenta i druge Googleove usluge. "</string>
+    <string name="gdi_add_phone_number_consent_text">Dodajte telefonski broj da biste ga upotrebljavali za slanje i primanje poruka, prijavu, Google asistenta i druge Googleove usluge.</string>
     <string name="gdi_add_phone_number_disclaimer">Google će vam poslati jednokratnu SMS poruku da bi potvrdio da je to vaš broj. Primjenjuju se standardne tarife.</string>
     <string name="gdi_add_phone_number_error">Dodajte telefonski broj</string>
     <string name="gdi_add_phone_number_heading">Dodaj telefonski broj da biste izradili račun na usluzi %1$s</string>
     <string name="gdi_add_your_phone">Dodajte telefonski broj</string>
     <string name="gdi_allow">Dopusti</string>
-    <string name="gdi_and_spaced">" i "</string>
+    <string name="gdi_and_spaced">i</string>
     <string name="gdi_app_terms">Uvjete aplikacije</string>
     <string name="gdi_back">natrag</string>
     <string name="gdi_bbb_already_have_account">Već imam %1$s račun</string>
@@ -1558,7 +1594,7 @@ Pokušajte ponovo potražiti podcast."</string>
     <string name="gdi_bbb_trouble_completing_request">Pojavile su se poteškoće s izvršavanjem zahtjeva.</string>
     <string name="gdi_bbb_try_again_later">Pokušajte ponovo kasnije.</string>
     <string name="gdi_bbb_verification_error">Netočan kontrolni kôd</string>
-    <string name="gdi_bbb_verification_message">"Google će poslati kontrolni kôd za potvrdu broja. "</string>
+    <string name="gdi_bbb_verification_message">Google će poslati kontrolni kôd za potvrdu broja.</string>
     <string name="gdi_cancel">Odustani</string>
     <string name="gdi_choose_account_title">Da biste nastavili, povežite uslugu %1$s sa svojim Google računom</string>
     <string name="gdi_close">zatvori</string>
@@ -1574,8 +1610,8 @@ Pokušajte ponovo potražiti podcast."</string>
     <string name="gdi_enter_code_subheading">"Poslali smo kontrolni kôd na broj 
 %1$s"</string>
     <string name="gdi_enter_the_code">Unesite kôd</string>
-    <string name="gdi_fine_print_middle">" te prihvaćate da Google može pristupiti podacima o vašem %1$s računu."</string>
-    <string name="gdi_fine_print_preamble">"Nastavljanjem prihvaćate %1$s "</string>
+    <string name="gdi_fine_print_middle">te prihvaćate da Google može pristupiti podacima o vašem %1$s računu.</string>
+    <string name="gdi_fine_print_preamble">Nastavljanjem prihvaćate %1$s</string>
     <string name="gdi_finish">završi</string>
     <string name="gdi_invalid_number_error">Broj nije važeći</string>
     <string name="gdi_learn_more_link">Saznajte više</string>
@@ -1626,8 +1662,6 @@ Pokušajte ponovo potražiti podcast."</string>
     <string name="google_home_device_change_language_dialog_message">Vaši Google Home uređaji imaju isti jezik. Ovom promjenom svi će se prebaciti na %1$s.</string>
     <string name="google_home_device_change_language_dialog_title">Želite li promijeniti jezik na svim Google Home uređajima?</string>
     <string name="google_home_device_change_language_dialog_yes">Da</string>
-    <string name="google_home_device_youtube_restricted_mode_summary">Sakrij pjesme i videozapise koji mogu imati neprikladan sadržaj</string>
-    <string name="google_home_device_youtube_restricted_mode_title">Ograničeni način rada na YouTubeu</string>
     <string name="google_home_hotword_enrollment_bottom_summary_text">Pozovite druge kod kuće da također postave Voice Match</string>
     <string name="google_location_service_required_text">Da biste vidjeli kartice koje se temelje na lokaciji, na primjer, lokalno vrijeme ili stanje prometa na putu na posao, uključite Googleovu uslugu lokacije.</string>
     <string name="google_play_services">Usluge za Google Play</string>
@@ -1649,6 +1683,7 @@ Pokušajte ponovo potražiti podcast."</string>
     <string name="gsa_home">Dom</string>
     <string name="gws_fetch_failed">Povezivanje s poslužiteljem nije uspjelo.</string>
     <string name="gws_fetch_unauthenticated">Prijavite se da biste vidjeli dodatni sadržaj.</string>
+    <string name="ha_card_title">Vaš dom</string>
     <string name="hands_free_unlock_device_bluetooth">Kada to budete mogli učiniti bez opasnosti, prvo ćete morati dodirnuti obavijest. Zatim možete dopustiti Bluetooth uređajima da rade s vašim telefonom kada je zaključan.</string>
     <string name="hands_free_unlock_device_wired_headsets">Kada to budete mogli učiniti bez opasnosti, prvo ćete morati dodirnuti obavijest. Zatim možete dopustiti slušalicama da rade s vašim telefonom kada je zaključan.</string>
     <string name="hangout_keep_track_justification">Taj se događaj spominje u nedavnom razgovoru na Hangoutsu.</string>
@@ -1822,8 +1857,6 @@ Osobne rezultate isključite u postavkama Asistenta"</string>
     <string name="hotword_enrollment_trustedvoice_header_title">Otključajte telefon pomoću Voice Matcha</string>
     <string name="hotword_enrollment_trustedvoice_learn_more">&lt;a href=%1$s>Saznajte više&lt;/a></string>
     <string name="hotword_enrollment_trustedvoice_next_glif">Dalje</string>
-    <string name="hotword_enrollment_trustedvoice_summary_item1">Pouzdani glas omogućuje uređaju da automatski prepozna vaš glas i otključa se kada kažete \"%1$s\" dok je zaslon zaključan.</string>
-    <string name="hotword_enrollment_trustedvoice_summary_item1_glif">Pouzdani glas omogućuje vam da upotrebljavate \"%1$s\" čak i kada je telefon zaključan.</string>
     <string name="hotword_enrollment_trustedvoice_summary_item2">To će vam omogućiti izvođenje glasovnih radnji dok je zaslon zaključan. Na primjer, recite \"%1$s, postavi odbrojavanje\".</string>
     <string name="hotword_enrollment_trustedvoice_switch_text">Uređaj će automatski prepoznati vaš glas i otključati se nakon što kažete \"%1$s\".</string>
     <string name="hotword_enrollment_trustedvoice_switch_text_opa">Samo recite \"%1$s\" da biste otključali uređaj i izravno pristupili Asistentu.</string>
@@ -1842,11 +1875,12 @@ Osobne rezultate isključite u postavkama Asistenta"</string>
     <string name="hotword_pref_subtitle_disabled_administrator">Tu je značajku isključio vaš administrator.</string>
     <string name="hotword_pref_subtitle_disabled_device">Značajka trenutačno nije dostupna na ovom uređaju</string>
     <string name="hotword_pref_subtitle_disabled_google_play">Ažurirajte usluge Google Play za upotrebu ove značajke</string>
+    <string name="hotword_pref_subtitle_disabled_insecure_keyguard">Uključite zaključavanje zaslona u postavkama telefona da biste upotrebljavali tu značajku</string>
     <string name="hotword_pref_subtitle_disabled_locale">Značajka trenutačno nije dostupna za ovaj jezik</string>
     <string name="hotword_pref_subtitle_disabled_os_version">Vaša verzija operacijskog sustava ne podržava tu značajku</string>
     <string name="hotword_pref_subtitle_opa_supported_locale">Recite Google asistentu što da napravi</string>
     <string name="hotword_pref_subtitle_opa_unsupported_locale">Govorite da biste dobili informacije, slali poruke i drugo</string>
-    <string name="hotword_pref_summary_always_on">Reagira na vaš glas. Funkcionira bez obzira na to je li zaslon uključen ili isključen</string>
+    <string name="hotword_pref_summary_always_on">Svaki put kada kažete \"%1$s\", možete pristupiti Googleu, čak i ako je zaslon isključen ili upotrebljavate svoje omiljene aplikacije</string>
     <string name="hotword_pref_summary_always_on_not_default_vis">Da biste to uključili, idite na Postavke > Jezik i unos > Glasovni unos i odaberite \"Poboljšane Googleove usluge\"</string>
     <string name="hotword_pref_summary_during_androidauto_navigation">Funkcionira na Android Autu</string>
     <string name="hotword_pref_summary_during_gmm_and_androidauto_navigation">Funkcionira na Google kartama i Android Autu</string>
@@ -1855,16 +1889,16 @@ Osobne rezultate isključite u postavkama Asistenta"</string>
     <string name="hotword_pref_summary_homescreen">Recite \"%1$s\" da biste pokrenuli glasovno pretraživanje iz aplikacije Google ili s bilo kojeg početnog zaslona u Pokretaču za Google Now</string>
     <string name="hotword_pref_summary_lock_personal_results">Omogućite osobne rezultate pretraživanja i radnje dok je telefon sigurnosno zaključan</string>
     <string name="hotword_pref_summary_mic_permission">Dopustite upotrebu mikrofona za otkrivanje pokretača značajke \"%1$s\"</string>
-    <string name="hotword_pref_summary_opa">Uređaj prepoznaje vaš glas kada kažete \"%1$s\", čak i ako je zaslon isključen ili upotrebljavate svoje omiljene aplikacije</string>
-    <string name="hotword_pref_summary_opa_non_dsp">Uređaj prepoznaje vaš glas kada kažete \"%1$s\", čak i kada upotrebljavate svoje omiljene aplikacije</string>
+    <string name="hotword_pref_summary_opa">Svaki put kada kažete \"%1$s\", možete pristupiti Asistentu, čak i ako je zaslon isključen ili upotrebljavate svoje omiljene aplikacije</string>
+    <string name="hotword_pref_summary_opa_non_dsp">Asistentu možete pristupiti svaki put kada kažete \"%1$s\" dok je zaslon uključen</string>
     <string name="hotword_pref_summary_voice_unlock">Neka \"%1$s\" otključa vaš uređaj kada zvuk odgovara vašem glasovnom modelu</string>
     <string name="hotword_pref_title">Otkrivanje pokretača značajke \"%1$s\"</string>
     <string name="hotword_pref_title_always_on">Uvijek uključeno</string>
     <string name="hotword_pref_title_during_gmm_navigation">Tijekom vožnje</string>
     <string name="hotword_pref_title_lock_screen_2_opa">Otključavanje pomoću Voice Matcha</string>
     <string name="hotword_pref_title_locked_personal_results">Osobni rezultati pretraživanja</string>
-    <string name="hotword_pref_title_opa">Recite \"%1$s\" u bilo kojem trenutku</string>
-    <string name="hotword_prefs_voice_everywhere_subtitle">Reagira na vaš glas. Funkcionira kada je zaslon uključen.</string>
+    <string name="hotword_pref_title_opa">Pristup pomoću Voice Matcha</string>
+    <string name="hotword_prefs_voice_everywhere_subtitle">Googleu možete pristupiti svaki put kada kažete \"%1$s\" dok je zaslon uključen</string>
     <string name="hotword_prefs_voice_everywhere_subtitle_no_account">Prijavite se svojim Google računom da biste omogućili tu značajku</string>
     <string name="hotword_prefs_voice_everywhere_title">S bilo kojeg zaslona</string>
     <string name="hotword_setup_wizard_connection_error_message">Provjerite vezu i pokušajte ponovo.</string>
@@ -2055,6 +2089,7 @@ Osobne rezultate isključite u postavkama Asistenta"</string>
     <string name="jasper_unlink_duo_warning_dialog_summary">Više nećete moći upućivati niti primati pozive putem aplikacije Duo na ovom uređaju</string>
     <string name="jasper_unlink_duo_warning_dialog_title">Želite li prekinuti vezu aplikacije Duo s ovim uređajem?</string>
     <string name="keep_track_question">Želite li pratiti taj događaj?</string>
+    <string name="keep_track_section_title">Pratite događaje</string>
     <string name="kepler_awareness_tip_badge_text">NOVO</string>
     <string name="kph">km/h</string>
     <string name="label_assistant_speaker_id_toast_more_action">Više</string>
@@ -2101,8 +2136,21 @@ Osobne rezultate isključite u postavkama Asistenta"</string>
     <string name="leave_alert_scheduled_header">Dobit ćete upozorenje kada budete trebali krenuti.</string>
     <string name="leave_from">Polazište</string>
     <string name="legal_documents">Pravne informacije</string>
-    <string name="lens_info_panel_live_camera_title">Dodirnite bilo gdje da biste dobili informacije</string>
+    <string name="lens_education_card_barcodes_heading">Crtični kodovi</string>
+    <string name="lens_education_card_barcodes_paragraph">Skenirajte crtične kodove i pronađite pojedinosti o proizvodu</string>
+    <string name="lens_education_card_media_heading">Knjige i mediji</string>
+    <string name="lens_education_card_media_paragraph">Potražite knjige, filmove, glazbene albume i videoigre prema omotu</string>
+    <string name="lens_education_card_places_heading">Mjesta</string>
+    <string name="lens_education_card_places_paragraph">Saznajte više o znamenitostima, zanimljivim mjestima i poznatim građevinama</string>
+    <string name="lens_education_card_products_heading">Proizvodi</string>
+    <string name="lens_education_card_products_paragraph">Pronađite slične artikle za proizvode kao što su namještaj i odjeća</string>
+    <string name="lens_education_card_text_heading">Tekst</string>
+    <string name="lens_education_card_text_paragraph">Kopirajte tekst kao što su telefonski brojevi, datumi i adrese</string>
+    <string name="lens_education_card_title">Što Objektiv može učiniti?</string>
+    <string name="lens_info_panel_header_preview_tag">pregled</string>
+    <string name="lens_info_panel_live_camera_title">Dodirnite objekte i tekst</string>
     <string name="lens_info_panel_loading_message">Traženje rezultata…</string>
+    <string name="lens_title">Google objektiv</string>
     <string name="less_contact_apps">Prikaži manje aplikacija za kontakt</string>
     <string name="less_than_one_minute_left">Preostalo je manje od 1 minute</string>
     <string name="libraries_material_featurehighlight_dismiss">Odbacivanje</string>
@@ -2113,6 +2161,7 @@ Osobne rezultate isključite u postavkama Asistenta"</string>
     <string name="link_to_show_page">Veza prema stranici za prikaz</string>
     <string name="listen_for_music">Slušanje glazbe</string>
     <string name="listening_for_music_status">Slušanje glazbe…</string>
+    <string name="loading">Učitavanje</string>
     <string name="local_results_map_description">Karta lokacije %1$s</string>
     <string name="location_access_required_text_klp">Da biste vidjeli kartice na temelju lokacije, primjerice, lokalno vrijeme ili stanje u prometu do posla, uključite pristup lokaciji</string>
     <string name="location_added_snackbar_text">Lokacija je dodana</string>
@@ -2180,7 +2229,6 @@ Osobne rezultate isključite u postavkama Asistenta"</string>
     <string name="menu_view_original_image">Prikaži izvornu sliku</string>
     <string name="menu_visit_page">Posjeti stranicu</string>
     <string name="message_card_feedback">Povratne informacije</string>
-    <string name="message_card_troubleshoot">Riješi problem</string>
     <string name="message_image">Slika</string>
     <string name="message_no_sound_search_results_tts">Ne prepoznajem to.</string>
     <string name="message_no_text">Nema teksta</string>
@@ -2235,6 +2283,7 @@ Osobne rezultate isključite u postavkama Asistenta"</string>
     <string name="more_description">Prikaži više</string>
     <string name="more_info_text">Statistika, vijesti i vremenska traka</string>
     <string name="more_information">Više informacija</string>
+    <string name="more_suggests_expansion_text">Više</string>
     <string name="move_to_empty_cell">Premještanje u redak %1$s, stupac %2$s</string>
     <string name="move_to_hotseat_position">Premještanje na položaj favorita %1$s</string>
     <string name="move_to_position">Premještanje na položaj %1$s</string>
@@ -2329,11 +2378,11 @@ Sva svoja pretraživanja na Googleu i više otkrijte i kontrolirajte na stranici
     <string name="nexus_device_google_assistant_title">Google asistent</string>
     <string name="nexus_device_hands_free_preference_title">Ostale postavke bez upotrebe ruku</string>
     <string name="nexus_device_hotword_category_title">Zatražite pomoć bez upotrebe ruku pomoću Voice Matcha</string>
-    <string name="nexus_device_hotword_preference_alwayson_summary">Pristupite Asistentu svaki put kad kažete \"%1$s\"</string>
+    <string name="nexus_device_hotword_preference_alwayson_summary">Svaki put kada kažete \"%1$s\", možete pristupiti Asistentu, čak i ako je zaslon isključen ili upotrebljavate svoje omiljene aplikacije</string>
     <string name="nexus_device_hotword_preference_screenon_summary">Pristupite Asistentu svaki put kad kažete \"%1$s\" dok je zaslon uključen</string>
-    <string name="nexus_device_hotword_preference_title">Slušaj \"%1$s\"</string>
-    <string name="nexus_device_navigation_popup_message">I dalje možete upotrebljavati otkrivanje pokretača značajke \"%1$s\" u nekim aplikacijama za vožnju, kao što su Google karte i Android Auto. Možete ga isključiti u bilo kojem trenutku u postavkama ove aplikacije. %2$s</string>
-    <string name="nexus_device_navigation_popup_settings_link">Postavke vožnje</string>
+    <string name="nexus_device_hotword_preference_title">Pristup pomoću Voice Matcha</string>
+    <string name="nexus_device_navigation_popup_message">I dalje možete upotrebljavati \"%1$s\" u nekim aplikacijama za vožnju, kao što su Google karte i Android Auto. %2$s možete isključiti u bilo kojem trenutku u postavkama ove aplikacije</string>
+    <string name="nexus_device_navigation_popup_settings_link">Postavku vožnje</string>
     <string name="nexus_device_navigation_popup_title">Tijekom vožnje</string>
     <string name="nexus_device_use_screen_context_summary">"Od Googlea traži da vam prikaže informacije o onom što se prikazuje na zaslonu kada  pritisnete gumb početnog zaslona ili pretražujete glasovno"</string>
     <string name="nexus_device_use_screen_context_title">Koristi kontekst na zaslonu</string>
@@ -2362,6 +2411,7 @@ Sva svoja pretraživanja na Googleu i više otkrijte i kontrolirajte na stranici
     <string name="no_device_found_title">Nije pronađen nijedan uređaj</string>
     <string name="no_downloaded_episodes">Nema preuzetih epizoda</string>
     <string name="no_email_guests_intent">Za slanje e-poruka gostima potrebna je aplikacija Google kalendar</string>
+    <string name="no_episodes_in_progress">Nijedna epizoda nije u tijeku</string>
     <string name="no_info">–</string>
     <string name="no_installable_language_packs">Za vaš uređaj nije dostupno nijedno preuzimanje jezika</string>
     <string name="no_installed_language_packs">Nijedan jezik nije instaliran</string>
@@ -2373,11 +2423,9 @@ Sva svoja pretraživanja na Googleu i više otkrijte i kontrolirajte na stranici
     <string name="no_matches_offline_mode_explanation">I dalje možete upotrebljavati mikrofon za pokretanje poziva. Recite \"Nazovi\" pa ime ili broj.</string>
     <string name="no_matches_offline_mode_title">Trenutačno nije moguće kontaktirati Google.</string>
     <string name="no_matching_results">Nema rezultata pretraživanja</string>
-    <string name="no_newest_episodes">Nema novih epizoda</string>
     <string name="no_option_selected_content_description">Odaberite razlog za prijavu ove stavke prije slanja povratnih informacija. Gumb Pošalji.</string>
     <string name="no_personal_content_ipa">Osobni sadržaj nije pronađen</string>
     <string name="no_podcasts_found">Nije pronađen nijedan podcast</string>
-    <string name="no_recently_played_episodes">Nema nedavno slušanih epizoda</string>
     <string name="no_results_found">Rezultati nisu pronađeni</string>
     <string name="no_results_found_link">POGLEDAJTE OSTALE OSOBNE REZULTATE</string>
     <string name="no_results_found_status">Nije bilo moguće pronaći približan rezultat</string>
@@ -2394,10 +2442,12 @@ Sva svoja pretraživanja na Googleu i više otkrijte i kontrolirajte na stranici
     <string name="no_wifi_title">Uključite Wi-Fi</string>
     <string name="no_zero_prefix_suggestion_shown">Rezultati nisu dostupni</string>
     <string name="none">Ništa</string>
+    <string name="notes_and_lists_icon_text" />
     <string name="notification_access_link_text">Isključite pristup obavijestima</string>
     <string name="notification_accessable_apps_category_title">Pristup obavijestima</string>
     <string name="notification_cancel_text">Kada se ponovo povežete s internetom, neće se poslati obavijest.</string>
     <string name="notification_cancel_title">Pretraživanje otkazano</string>
+    <string name="notification_dismiss">Odbaci</string>
     <string name="notification_set_text">Primit ćete obavijest kada rezultati budu spremni.</string>
     <string name="notification_set_title">Upozorenje postavljeno</string>
     <string name="notification_subtext">Prikvačena utakmica</string>
@@ -2495,6 +2545,7 @@ Sva svoja pretraživanja na Googleu i više otkrijte i kontrolirajte na stranici
     <string name="on_device_contact_suggestion_content_description">Ime kontakta: %s.</string>
     <string name="on_device_message">Generirano na uređaju</string>
     <string name="on_device_url_suggestion_content_description">Otvori stranicu %s u pregledniku.</string>
+    <string name="onboarding_action_scroll_down">Više</string>
     <string name="onboarding_entry_topdeck_title">Dodirnite ovdje da biste krenuli u obilazak</string>
     <string name="onboarding_loading_content">To može potrajati minutu-dvije</string>
     <string name="onboarding_loading_title">Samo trenutak...</string>
@@ -2511,9 +2562,7 @@ Sva svoja pretraživanja na Googleu i više otkrijte i kontrolirajte na stranici
     <string name="opa_assist_app_screen_explanation">Da biste pristupili svojem Google asistentu, odaberite aplikaciju Google u postavkama za pomoć i glasovni unos</string>
     <string name="opa_assist_app_screen_title">Aplikacija Google nije vaša zadana aplikacija za pomoć</string>
     <string name="opa_assistant_logo_content_description">Glasovno pretraživanje</string>
-    <string name="opa_consent_check_error_button">ZATVORI</string>
-    <string name="opa_consent_check_error_button_notavailable">PROMIJENI RAČUN</string>
-    <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">Vaša upotreba Asistenta bit će ograničena na stvari kao što su rezultati s weba, šale i lokalne informacije.</string>
+    <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">Ovisno o postavkama računa, vaša upotreba Asistenta može biti ograničena na stvari kao što su rezultati s weba, šale i lokalne informacije.</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_text">Ne, hvala</string>
     <string name="opa_consent_check_error_confirmreject_personalize_radio_button_show_less">Prikaži manje</string>
     <string name="opa_consent_check_error_confirmreject_personalize_radio_button_show_more">Prikaži više</string>
@@ -2560,11 +2609,9 @@ Brisanje iz povijesti Asistenta neće utjecati na transakcije niti poništiti ra
     <string name="opa_error_consent_retry_message_conn_error">Provjerite vezu i pokušajte ponovo</string>
     <string name="opa_error_consent_retry_negative">Odustani</string>
     <string name="opa_error_consent_retry_positive">Pokušajte ponovo</string>
-    <string name="opa_error_gaia_button">PRIJAVA</string>
     <string name="opa_error_gaia_message">Vaš Pomoćnik poznaje vas prema vašem Google računu i može vam pomoći s kalendarom, uputama za putovanje na posao i brojnim drugim stvarima.</string>
     <string name="opa_error_gaia_skip_button">Ne, hvala</string>
     <string name="opa_error_gaia_title">Prijavite se kako biste Google pomoćnika prilagodili sebi</string>
-    <string name="opa_error_network_button">MREŽNE POSTAVKE</string>
     <string name="opa_error_network_message">Za upotrebu Google pomoćnika potrebna je internetska veza. Provjerite vezu i pokušajte ponovo.</string>
     <string name="opa_error_network_title">Čini se da ste offline</string>
     <string name="opa_error_udc_spinner_content">To može potrajati minutu-dvije</string>
@@ -2576,7 +2623,6 @@ Brisanje iz povijesti Asistenta neće utjecati na transakcije niti poništiti ra
     <string name="opa_error_unsupported_locale_button">PROMIJENI JEZIK</string>
     <string name="opa_error_unsupported_locale_message">Da biste pristupili Google pomoćniku, promijenite postavke sustava u odjeljku Jezici.</string>
     <string name="opa_error_unsupported_locale_title">Google asistent trenutačno nije dostupan za %1$s</string>
-    <string name="opa_error_update_playstore_button">AŽURIRAJ U TRGOVINI PLAY</string>
     <string name="opa_error_update_playstore_message">Otvorite Trgovinu Play i ažurirajte aplikaciju Google kako biste dobili najnovija poboljšanja</string>
     <string name="opa_error_update_required_title">Vašem su Pomoćniku potrebne neke nove mogućnosti</string>
     <string name="opa_error_update_started_message">To ne bi trebalo dugo trajati. Pomoćnik će vam uskoro moći pomoći obavljati zadatke tijekom dana.</string>
@@ -2601,19 +2647,18 @@ Brisanje iz povijesti Asistenta neće utjecati na transakcije niti poništiti ra
     <string name="opa_first_screen_hotword_transition_skip_button_text">Preskoči</string>
     <string name="opa_first_screen_hotword_transition_summary">Recite \"%1$s\" da biste razgovarali s Pomoćnikom u bilo kojem trenutku, čak i ako je zaslon isključen ili kada upotrebljavate omiljene aplikacije.</string>
     <string name="opa_first_screen_hotword_transition_summary_no_dsp">Recite \"%1$s\" da biste razgovarali s Pomoćnikom u bilo kojem trenutku. Da bi to bilo moguće, zaslon mora biti uključen.</string>
+    <string name="opa_first_screen_hotword_transition_summary_short">Voice Match omogućuje izravan glasovni pristup Asistentu, čak i kada je zaslon isključen.</string>
     <string name="opa_first_screen_hotword_transition_summary_short_no_dsp">Voice Match omogućuje izravan glasovni pristup Asistentu.</string>
     <string name="opa_first_screen_hotword_transition_title">Pristupite Asistentu pomoću Voice Matcha</string>
     <string name="opa_first_screen_tgoogle_summary">Moći ćete izravno pristupiti Asistentu tako što ćete reći \"%1$s\"</string>
     <string name="opa_first_screen_tgoogle_title">Naučite Asistent da prepoznaje \"%1$s\"</string>
     <string name="opa_fix_user_recoverable_error">ISPRAVITE</string>
+    <string name="opa_gdpr_footer">"Jedinstveni model vašeg glasa izradit će se na ovom uređaju, što će Asistentu omogućiti da vas prepozna i razlikuje od drugih. 
+
+"<b>Napomena:</b> Asistentu bi mogao pristupiti i netko sa sličnim glasom ili snimkom. Dopuštenje za Voice Match možete ukloniti kasnije tako što ćete ga isključiti u postavkama Asistenta.</string>
     <string name="opa_gearhead_opt_in_notification_body">Tijekom vožnje možete razgovarati s Google pomoćnikom</string>
     <string name="opa_gearhead_opt_in_notification_title">Upotreba Google pomoćnika tijekom vožnje</string>
     <string name="opa_gearhead_opt_in_speech">Kada bude sigurno, prvo ćete morati dodirnuti obavijest. Zatim ćete moći upotrebljavati Google asistenta tijekom vožnje.</string>
-    <string name="opa_gmscore_unavailable_button_disabled">POSTAVKE</string>
-    <string name="opa_gmscore_unavailable_button_missing">INSTALIRAJ</string>
-    <string name="opa_gmscore_unavailable_button_no_recovery">ZATVORI</string>
-    <string name="opa_gmscore_unavailable_button_permissions">AŽURIRAJ</string>
-    <string name="opa_gmscore_unavailable_button_update">AŽURIRAJ</string>
     <string name="opa_gmscore_unavailable_message_disabled">Da biste počeli raditi s Pomoćnikom, morat ćete uključiti Google Play usluge u postavkama uređaja.</string>
     <string name="opa_gmscore_unavailable_message_invalid">Vaš uređaj ne podržava Google Play usluge.</string>
     <string name="opa_gmscore_unavailable_message_missing">Da biste počeli raditi s Pomoćnikom, morat ćete instalirati Google Play usluge.</string>
@@ -2635,6 +2680,13 @@ i upravljati njome na stranici"</string>
     <string name="opa_history_my_activity_title">Moja aktivnost</string>
     <string name="opa_hold_timeout_message">Nešto nije u redu</string>
     <string name="opa_hold_timeout_message_with_provider_name">%1$s trenutačno ne odgovara. Pokušajte ponovo kasnije</string>
+    <string name="opa_home_automation_brightness_card_trait_title">Svjetlina</string>
+    <string name="opa_home_automation_off">Isključeno</string>
+    <string name="opa_home_automation_on">Uključeno</string>
+    <string name="opa_home_automation_switch_card_trait_title">Prekidač</string>
+    <string name="opa_home_automation_temperature_card_trait_title">Temperatura na %1$d°</string>
+    <string name="opa_home_automation_turn_off">Isključi</string>
+    <string name="opa_home_automation_turn_on">Uključi</string>
     <string name="opa_hq_suggestion_chip_title">Istražite što je novo</string>
     <string name="opa_in_chat_handoff_resume_failed">Izgleda da nešto nije u redu. Pokušajte ponovo.</string>
     <string name="opa_in_chat_no_network_message">Nema mrežne veze.</string>
@@ -2711,7 +2763,7 @@ i upravljati njome na stranici"</string>
     <string name="opa_unlock_device_for_response">Otključajte da biste nastavili...</string>
     <string name="opa_upgrade_promo_tooltip_text">Pritisnite gumb početnog zaslona</string>
     <string name="opa_value_proposition_cancel">Ne, hvala</string>
-    <string name="opa_value_proposition_continue">NASTAVI</string>
+    <string name="opa_value_proposition_continue">Nastavi</string>
     <string name="opa_value_proposition_message_1p">Postavite mu pitanja. Dajte mu naredbe. To je vaš osobni Google, uvijek spreman pomoći.</string>
     <string name="opa_value_proposition_message_title">Upoznajte svoj Google asistent</string>
     <string name="opa_value_proposition_next">Dalje</string>
@@ -2824,6 +2876,7 @@ i upravljati njome na stranici"</string>
     <string name="payments_auth_too_many_fingerprint_retries_should_use_password">Previše pokušaja. Unesite zaporku.</string>
     <string name="payments_auth_unknown_fingerprint_error">Pogreška prilikom upotrebe otiska prsta. Unesite zaporku za Google da biste nastavili.</string>
     <string name="payments_auth_use_fingerprint_checkbox_hint">Upotrebljavajte otisak prsta za buduća odobrenja</string>
+    <string name="penalties">Penali</string>
     <string name="pending_searches">Pretraživanja na čekanju</string>
     <string name="permdesc_install_shortcut">Aplikaciji omogućuje dodavanje prečaca bez intervencije korisnika.</string>
     <string name="permdesc_read_settings">Aplikaciji omogućuje čitanje postavki i prečaca na početnom zaslonu.</string>
@@ -2929,8 +2982,9 @@ Osobne rezultate možete isključiti u postavkama Asistenta ili u Family Linku.}
     <string name="play_video">Reproduciraj videozapis</string>
     <string name="play_video_icon">Reproduciraj videozapis</string>
     <string name="playback_error_cancel">Odustani</string>
+    <string name="playback_error_message">Reprodukcija epizode nije uspjela. Pokušajte ponovo kasnije.</string>
+    <string name="playback_error_ok">U redu</string>
     <string name="playback_error_retry">Pokušaj ponovo</string>
-    <string name="playback_error_title">Reproduciranje tražene epizode nije uspjelo</string>
     <string name="playback_panel_error">Repr. nije moguća</string>
     <string name="playback_status_buffering">Stavljanje u međuspremnik...</string>
     <string name="please_select">Odaberite</string>
@@ -3047,6 +3101,7 @@ Osobne rezultate možete isključiti u postavkama Asistenta ili u Family Linku.}
     <string name="recently_disabled_card_text">Uključite opciju Nedavno u postavkama da biste vodili evidenciju stranica koje ste posjetili i kasnije ih brzo pronašli.</string>
     <string name="recently_entry_interaction_offline">Zatražena stranica ne može se otvoriti offline.</string>
     <string name="recently_feed_entry">Feed</string>
+    <string name="recently_google_doodle_for">Google doodle logotip za temu %s</string>
     <string name="recently_onboarding_compare_message">Ne možete odlučiti što kupiti? Paralelno usporedite pronađene opcije.</string>
     <string name="recently_onboarding_compare_title">Usporedi</string>
     <string name="recently_onboarding_find_that_page_message">Želite li se vratiti na recept, članak ili web-lokaciju koje ste gledali prije nekoliko dana? Uštedite vrijeme i pronađite ih ovdje.</string>
@@ -3072,10 +3127,16 @@ Time ih nećete izbrisati sa svojeg Google računa"</string>
 "<a href="http://myactivity.google.com">myactivity.google.com</a></string>
     <string name="recently_removed_item_dialog_ok">Shvaćam</string>
     <string name="recently_removed_item_dialog_title">Uklonjeno iz nedavnih stranica</string>
+    <string name="recently_screenshot_from_agsa">Snimka zaslona iz moje aplikacije Google</string>
     <string name="recently_search_history_authenticating_cancel">Odustani</string>
     <string name="recently_search_history_authenticating_message">Prijavljujete se kao %1$s…</string>
     <string name="recently_search_history_authenticating_title">Prijava</string>
+    <string name="recently_search_results_for">Rezultati pretraživanja za pojam %s</string>
+    <string name="recently_share_search_url">"Rezultati pretraživanja za %1$s
+
+https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="recently_sharebear_subtitle">Snimka zaslona</string>
+    <string name="recently_shared_from_agsa">Podijeljeno iz moje aplikacije Google</string>
     <string name="recently_simple_onboarding_pinch_message">Savjet: grupe se zatvaraju kada ih pomaknete prema gore ili dolje</string>
     <string name="recently_simple_onboarding_pinch_title">Spojite prste da biste zatvorili grupe</string>
     <string name="recently_simple_onboarding_recent_message">Otvorite ovu grupu stranica da biste vidjeli više</string>
@@ -3323,6 +3384,7 @@ Pokušajte ponovo pretražiti podcast."</string>
     <string name="second_quarter">2. četvrtina</string>
     <string name="second_quarter_abbrev">2. četvrtina</string>
     <string name="seconds">Sekunde</string>
+    <string name="see_all">+ Prikaži sve</string>
     <string name="see_more_movies">Prikaži više filmova</string>
     <string name="see_results_on_google">Pogledajte rezultate na Googleu</string>
     <string name="select_day">Odaberite mjesec i dan</string>
@@ -3349,7 +3411,9 @@ Pokušajte ponovo pretražiti podcast."</string>
     <string name="send_to_device_positive_button">Pošalji</string>
     <string name="send_to_device_snackbar_text">Pošalji na %1$s</string>
     <string name="send_to_device_title">Slanje na uređaj</string>
+    <string name="sender_says_message">%1$s kaže: %2$s.</string>
     <string name="sending_audio_to_account_toast">Slanje audiozapisa na %1$s…</string>
+    <string name="separator">-</string>
     <string name="server_error">Trenutačno nije moguće kontaktirati Google.</string>
     <string name="server_error_fetching_weather_data_status_text">Nešto nije u redu. Pokušajte ponovo kasnije.</string>
     <string name="set_duration">Postavljanje trajanja</string>
@@ -3400,6 +3464,7 @@ Pokušajte ponovo pretražiti podcast."</string>
     <string name="sharebear_storage_permission_request_info_part1">Izrađujete li mnogo snimki zaslona?</string>
     <string name="sharebear_storage_permission_request_info_part2">Omogućite aplikaciji Google da vam pomogne urediti i dijeliti snimke zaslona</string>
     <string name="sharebear_storage_permission_request_info_yes">U redu</string>
+    <string name="shared_links_desc">Pregled veza poslanih i primljenih putem e-pošte ili poruka</string>
     <string name="shared_links_group_header">Podijeljene veze</string>
     <string name="shared_links_title">Podijeljene veze</string>
     <string name="shared_links_via">%1$s, putem aplikacije %2$s</string>
@@ -3456,6 +3521,7 @@ Ta emisija trenutačno nije dostupna."</string>
     <string name="single_transit_line_delayed">Linija %1$s %2$skasni%3$s</string>
     <string name="single_transit_line_limited_service">%1$sOgraničena usluga%2$s na liniji %3$s</string>
     <string name="single_transit_station_closed">Stanica %1$s je %2$szatvorena%3$s</string>
+    <string name="slice_suggestion_message">Ovaj je sadržaj s instalirane aplikacije i povezan je s onim što upisujete.</string>
     <string name="smartspace_calendar_summary">Upozorenja o sljedećem sastanku</string>
     <string name="smartspace_calendar_title">Događaji iz kalendara</string>
     <string name="smartspace_commute_summary">Upozorenja o neuobičajenim promjenama u prometu</string>
@@ -3539,6 +3605,7 @@ Ta emisija trenutačno nije dostupna."</string>
     <string name="streaming_text_recognizing">Prepoznavanje...</string>
     <string name="street_address_label">Ulica i kućni broj</string>
     <string name="subscribe_button_label">Pretplati se</string>
+    <string name="subscribe_to_see_new_episodes">Pretplatite se na podcastove da biste vidjeli nove epizode</string>
     <string name="suggest">Samodovršavanje</string>
     <string name="suggest_contact_removal_body" formatted="false">Time će se &lt;b>%s&lt;/b> ukloniti s vašeg popisa najčešćih kontakata. Kontakt &lt;b>%s&lt;/b> i dalje ćete moći pronaći pretraživanjem.</string>
     <string name="suggest_contact_removal_cancel">ODUSTANI</string>
@@ -3558,6 +3625,7 @@ Ta emisija trenutačno nije dostupna."</string>
     <string name="suggest_toast_unhide_fail">Nešto je pošlo po zlu! Otkrivanje kontakta %s nije uspjelo</string>
     <string name="suggest_trends_summary">Prikaz aktualnih vijesti u vašem području</string>
     <string name="suggest_trends_title">Prikaži aktualne vijesti</string>
+    <string name="suggestfeedback_done">GOTOVO</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="suw_back_button_label">Natrag</string>
     <string name="suw_more_button_label">Više</string>
@@ -3571,6 +3639,9 @@ Ta emisija trenutačno nije dostupna."</string>
     <string name="swc_title">Da biste ponovno uredili svoj widget</string>
     <string name="symbol_and_exchange">%1$s (%2$s)</string>
     <string name="symbol_and_price_color">%1$s &lt;font color=%2$s>·&lt;/font> %3$s</string>
+    <string name="tab_downloaded_episodes">Preuzeto</string>
+    <string name="tab_episodes_in_progress">U tijeku</string>
+    <string name="tab_new_episodes">Novo</string>
     <string name="tab_title_10_days">10 dana</string>
     <string name="tab_title_today">Danas</string>
     <string name="tab_title_tomorrow">Sutra</string>
@@ -3729,6 +3800,7 @@ Ta emisija trenutačno nije dostupna."</string>
     <string name="travel_time_work_notification_title">Vrijeme do posla</string>
     <string name="trending_topdeck_subtitle">Aktualno</string>
     <string name="trends_suggestion_message">Ovo je pretraživanje aktualno u vašem području.</string>
+    <string name="trim_silence">Obreži tišinu</string>
     <string name="trusted_voice_paused_notification_content">Otključavanje bez pokretača značajke \"%1$s\".</string>
     <string name="trusted_voice_paused_notification_title">Nismo prepoznali vaš glas</string>
     <string name="trusted_voice_paused_notification_with_overlay_content">Otključajte ručno da biste nastavili.</string>
@@ -3768,9 +3840,9 @@ Ta emisija trenutačno nije dostupna."</string>
     <string name="unrecognized_format_pin_code">Unesite važeći PIN kôd</string>
     <string name="unrecognized_format_postal_code">Unesite važeći kôd</string>
     <string name="unrecognized_format_zip_code">Unesite važeći ZIP</string>
-    <string name="unreplied_emails_group_header">Unreplied Emails</string>
-    <string name="unreplied_group_header">Unreplied</string>
-    <string name="unreplied_messages_group_header">Unreplied Messages</string>
+    <string name="unreplied_emails_group_header">Prioritetne e-poruke</string>
+    <string name="unreplied_group_header">Prioritetni razgovor</string>
+    <string name="unreplied_messages_group_header">Prioritetne poruke</string>
     <string name="unsubscribe_button_label">Pretplaćeni ste</string>
     <string name="unsupported_action">Ovaj uređaj ne može izvršiti traženu radnju</string>
     <string name="uos_account_picker_content_description">%1$s. Padajući izbornik za odabir računa.</string>
@@ -3945,6 +4017,8 @@ Prijavljeni ste kao %1$s"</string>
     <string name="v2_terms_of_service">Uvjeti pružanja usluge</string>
     <string name="v7_preference_off">ISKLJUČENO</string>
     <string name="v7_preference_on">UKLJUČENO</string>
+    <string name="valyrian_immersive_actions_cancel">Otkaži</string>
+    <string name="valyrian_immersive_actions_confirm">Potvrdi</string>
     <string name="vanagon_unlock_phone_tts">Otključajte telefon da biste mogli upotrebljavati glasovne naredbe u Android Autu</string>
     <string name="variation_and_time_color">&lt;font color=%1$s> %2$s%3$s&lt;/font> · %%s</string>
     <string name="vasco_suggestion_message">Već ste pretraživali nešto slično. Ovo je povezano pretraživanje.</string>
@@ -3958,14 +4032,12 @@ Prijavljeni ste kao %1$s"</string>
     <string name="video_rounded_corner_frame">video_rounded_corner_frame</string>
     <string name="video_suggestion_dialog_goto_button">Otvori aplikaciju %s</string>
     <string name="video_suggestion_message">To ste već gledali i povezano je s onim što upisujete. U aplikaciji &lt;b>%s&lt;/b> možete to ukloniti iz povijesti gledanja i pretraživanja na svim svojim uređajima.</string>
-    <string name="video_watch_on_youtube">Pogledajte na YouTubeu</string>
     <string name="videos_mode_landing_text">Pretraživanje videozapisa</string>
     <string name="view_all_items_a11y_action">prikaz svih stavki</string>
     <string name="view_all_of_interest_button">Prikaži sve (%1$d)</string>
     <string name="view_email">Prikaz e-pošte</string>
     <string name="violent">Nasilje</string>
     <string name="visit_website">Posjetite web-lokaciju</string>
-    <string name="visual_search">Vizualno pretraživanje</string>
     <string name="voiceSearchPreferences">Postavke za Glasovno</string>
     <string name="voice_ime_language_auto">Automatski</string>
     <string name="voice_language_preference_change">Vaš jezik za glasovne naredbe također je promijenjen u %s</string>
@@ -4047,4 +4119,6 @@ Prijavljeni ste kao %1$s"</string>
     <string name="your_bus_reservation">Vaša rezervacija autobusa</string>
     <string name="your_location_search_menu_text">Vaša lokacija</string>
     <string name="your_train_reservation">Vaša rezervacija vlaka</string>
+    <string name="zerostate_explore_section_more">Više</string>
+    <string name="zerostate_explore_section_title">Istražite pomoću Asistenta</string>
 </resources>

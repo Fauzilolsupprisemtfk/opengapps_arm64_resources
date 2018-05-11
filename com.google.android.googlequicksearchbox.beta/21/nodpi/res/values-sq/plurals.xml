@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d ditë më parë</item>
+        <item quantity="one">%d ditë më parë</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d minuta më parë</item>
+        <item quantity="one">%d minutë më parë</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d vite më parë</item>
+        <item quantity="one">%d vit më parë</item>
+    </plurals>
     <plurals name="agenda_card_history_desc">
         <item quantity="other">%d ngjarje</item>
         <item quantity="one">%d ngjarje</item>
@@ -11,6 +23,18 @@
     <plurals name="agent_directory_a11y_user_rating">
         <item quantity="other">Vlerësimi yt: %d yje.</item>
         <item quantity="one">Vlerësimi yt: %d yll.</item>
+    </plurals>
+    <plurals name="all_day_more_event_only">
+        <item quantity="other">E gjithë dita. %d ngjarje të tjera që zgjasin gjithë ditën.</item>
+        <item quantity="one">E gjithë dita. %d ngjarje tjetër që zgjat gjithë ditën.</item>
+    </plurals>
+    <plurals name="all_day_more_mixed">
+        <item quantity="other">E gjithë dita. %d të tjera.</item>
+        <item quantity="one">E gjithë dita. %d tjetër.</item>
+    </plurals>
+    <plurals name="all_day_more_reminder_only">
+        <item quantity="other">E gjithë dita. %d alarme rikujtuese të tjera.</item>
+        <item quantity="one">E gjithë dita. %d alarm rikujtues tjetër.</item>
     </plurals>
     <plurals name="assistant_settings_home_assign_rooms_progress">
         <item quantity="other">Po caktohen %1$s pajisje te dhomat</item>

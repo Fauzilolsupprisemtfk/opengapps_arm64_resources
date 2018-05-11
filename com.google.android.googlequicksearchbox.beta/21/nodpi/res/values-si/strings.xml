@@ -12,6 +12,16 @@
     <string name="abc_activitychooserview_choose_application">යෙදුමක් තෝරන්න</string>
     <string name="abc_capital_off">ක්‍රියාවිරහිතයි</string>
     <string name="abc_capital_on">ක්‍රියාත්මකයි</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">මකන්න</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
     <string name="abc_search_hint">සොයන්න...</string>
     <string name="abc_searchview_description_clear">විමසුම හිස් කරන්න</string>
     <string name="abc_searchview_description_query">සෙවුම් විමසුම</string>
@@ -20,6 +30,8 @@
     <string name="abc_searchview_description_voice">හඬ සෙවීම</string>
     <string name="abc_shareactionprovider_share_with">සමඟ බෙදාගන්න</string>
     <string name="abc_shareactionprovider_share_with_application">%s සමඟ බෙදා ගන්න</string>
+    <string name="abc_slice_error">සම්බන්ධ වීමට නොහැකි විය</string>
+    <string name="abc_slice_more">තව</string>
     <string name="abc_slice_more_content">+ %1$d</string>
     <string name="abc_slice_permission_allow">ඉඩ දෙන්න</string>
     <string name="abc_slice_permission_checkbox">ඕනෑම යෙදුමකින් කොටස් පෙන්වීමට %1$s හට ඉඩ දෙන්න</string>
@@ -27,6 +39,8 @@
     <string name="abc_slice_permission_text_1">- එයට %1$s වෙතින් තොරතුරු කියවිය හැකිය</string>
     <string name="abc_slice_permission_text_2">- එයට %1$s ඇතුළත ක්‍රියාමාර්ග ගත හැකිය</string>
     <string name="abc_slice_permission_title">%1$s හට කොටස් %2$sක් පෙන්වීමට ඉඩ දෙන්නද?</string>
+    <string name="abc_slice_show_more">තව පෙන්වන්න</string>
+    <string name="abc_slice_updated">%1$s යාවත්කාලීන කරන ලදී</string>
     <string name="abc_slices_permission_request">%1$s හට කොටස් %2$sක් පෙන්වීමට අවශ්‍යයි</string>
     <string name="abc_toolbar_collapse_description">හකුළන්න</string>
     <string name="acessibility_recurrence_choose_end_date_description">අවසන් වන දිනය වෙනස් කරන්න</string>
@@ -176,6 +190,7 @@
     <string name="entry_desc">%2$d හි %1$d ඇතුළත් කිරීම.</string>
     <string name="episode_completed">සම්පූර්ණයි</string>
     <string name="episode_subtitle_format">%1$s ⸱ %2$s</string>
+    <string name="episodes_for_you">ඔබට</string>
     <string name="error">දෝෂය</string>
     <string name="error_message">සෙවීමට අසමත් විය. පසුව උත්සාහ කරන්න.</string>
     <string name="event_group_header">සිදුවීම්</string>
@@ -207,13 +222,13 @@
     <string name="gcm_fallback_notification_channel_label">විවිධ</string>
     <string name="gdi_add_button">එක් කරන්න</string>
     <string name="gdi_add_phone_number">දුරකථනය එක් කරන්න</string>
-    <string name="gdi_add_phone_number_consent_text">"පණිවිඩකරණය, පුරනය, Google සහායක සහ වෙනත් Google සේවාවල භාවිතය සඳහා ඔබේ දුරකථනය එක් කරන්න. "</string>
+    <string name="gdi_add_phone_number_consent_text">පණිවිඩකරණය, පුරනය, Google සහායක සහ වෙනත් Google සේවාවල භාවිතය සඳහා ඔබේ දුරකථනය එක් කරන්න.</string>
     <string name="gdi_add_phone_number_disclaimer">මෙය ඔබේ අංකය බව තහවුරු කිරීමට Google ඔබට එක්-කාලීන පෙළ පණිවිඩයක් එවනු ඇත. සම්මත ගාස්තු අදාළ වේ.</string>
     <string name="gdi_add_phone_number_error">දුරකථනයක් එක් කරන්න</string>
     <string name="gdi_add_phone_number_heading">%1$s සමඟ ගිණුමක් සෑදීමට දුරකථන අංකය එක් කරන්න</string>
     <string name="gdi_add_your_phone">ඔබේ දුරකථන අංකය එක් කරන්න</string>
     <string name="gdi_allow">අනුමත කරන්න</string>
-    <string name="gdi_and_spaced">" සහ "</string>
+    <string name="gdi_and_spaced">සහ</string>
     <string name="gdi_app_terms">යෙදුම් නියම</string>
     <string name="gdi_back">ආපසු</string>
     <string name="gdi_bbb_already_have_account">මට දැනටමත් %1$s ගිණුමක් ඇත</string>
@@ -229,7 +244,7 @@
     <string name="gdi_bbb_trouble_completing_request">ඉල්ලීම සම්පූර්ණ කිරීමේ ගැටලුවකි.</string>
     <string name="gdi_bbb_try_again_later">පසුව නැවත උත්සාහ කරන්න.</string>
     <string name="gdi_bbb_verification_error">වැරදි සත්‍යාපන කේතයකි</string>
-    <string name="gdi_bbb_verification_message">"ඔබේ අංකය තහවුරු කිරීමට Google සත්‍යාපන කේතයක් එවනු ඇත. "</string>
+    <string name="gdi_bbb_verification_message">ඔබේ අංකය තහවුරු කිරීමට Google සත්‍යාපන කේතයක් එවනු ඇත.</string>
     <string name="gdi_cancel">අවලංගු කරන්න</string>
     <string name="gdi_choose_account_title">දිගටම කරගෙන යාමට, %1$s ඔබගේ Google ගිණුම වෙත සබැඳි කරන්න</string>
     <string name="gdi_close">වසන්න</string>
@@ -245,8 +260,8 @@
     <string name="gdi_enter_code_subheading">"අපි 
 %1$s වෙත සත්‍යාපන කේතයක් එවුවා"</string>
     <string name="gdi_enter_the_code">කේතය ඇතුළු කරන්න</string>
-    <string name="gdi_fine_print_middle">" සමග එකඟ වන අතර Google ඔබේ %1$s ගිණුම් තොරතුරු වෙත පිවිසිය හැකි බවට එකඟ වේ."</string>
-    <string name="gdi_fine_print_preamble">"දිගටම කරගෙන යාම මගින් ඔබ %1$sගේ "</string>
+    <string name="gdi_fine_print_middle">සමග එකඟ වන අතර Google ඔබේ %1$s ගිණුම් තොරතුරු වෙත පිවිසිය හැකි බවට එකඟ වේ.</string>
+    <string name="gdi_fine_print_preamble">දිගටම කරගෙන යාම මගින් ඔබ %1$sගේ</string>
     <string name="gdi_finish">අවසන් කරන්න</string>
     <string name="gdi_invalid_number_error">වලංගු නොවන අංකය</string>
     <string name="gdi_learn_more_link">තව දැන ගන්න</string>
@@ -446,11 +461,10 @@
     <string name="no_chip_desc">සියලු ප්‍රතිඵල බලන්න.</string>
     <string name="no_connection">සබැඳුමක් නැත</string>
     <string name="no_downloaded_episodes">බාගත් කථාංග නැත</string>
+    <string name="no_episodes_in_progress">කථාංග කිසිවක් ක්‍රියාවේ නොපවතියි</string>
     <string name="no_longer_available">තවදුරටත් නොතිබේ</string>
-    <string name="no_newest_episodes">අලුත් කථාංග නොමැත</string>
     <string name="no_personal_content_ipa">පුද්ගලික අන්තර්ගතය හමු නොවිණි</string>
     <string name="no_podcasts_found">පොඩ්කාස්ට් හමු නොවීය</string>
-    <string name="no_recently_played_episodes">මෑතක දී වාදනය කළ කථාංග නැත</string>
     <string name="no_results_found">ප්‍රතිඑල කිසිවක් හමු නොවිණි</string>
     <string name="no_results_found_link">වෙනත් පුද්ගලික ප්‍රතිඵල බලන්න</string>
     <string name="no_results_snippet">ඔබේ සෙවීම කිසිදු පුද්ගලික අන්තර්ගතයකට ගැළපුණේ නැත</string>
@@ -484,8 +498,9 @@
     <string name="play">වාදනය කරන්න</string>
     <string name="play_this_episode">මෙම කථාංගය වාදනය කරන්න</string>
     <string name="playback_error_cancel">අවලංගු කරන්න</string>
+    <string name="playback_error_message">මෙම කථාංගය ධාවනය කළ නොහැකි විය. කරුණාකර පසුව නැවත උත්සාහ කරන්න.</string>
+    <string name="playback_error_ok">හරි</string>
     <string name="playback_error_retry">නැවත උත්සාහ කරන්න</string>
-    <string name="playback_error_title">ඉල්ලූ කථාංගය වාදනය කළ නොහැකියි</string>
     <string name="playback_panel_error">වාදනය කළ නොහැකිය</string>
     <string name="playback_status_buffering">අන්තරාචය කරමින්...</string>
     <string name="please_select">කරුණාකර තෝරන්න</string>
@@ -515,6 +530,7 @@
     <string name="recently_disabled_card_text">ඔබ මෑතකදී පිවිසි පිටුවල වාර්තාවක් තබා ගැනීමට සහ පසුව ඒවා ඉක්මනින් සොයා ගැනීමට සැකසීම් තුළ මෑත ක්‍රියාත්මක කරන්න.</string>
     <string name="recently_entry_interaction_offline">නොබැඳි අතරතුර ඉල්ලූ පිටුව විවෘත කළ නොහැකිය.</string>
     <string name="recently_feed_entry">සංග්‍රහය</string>
+    <string name="recently_google_doodle_for">%s සඳහා Google Doodle</string>
     <string name="recently_onboarding_compare_message">මිලදී ගත යුත්තේ කුමක්ද කියා තීරණය කළ නොහැකිද? පැත්තෙන් පැත්තට ඔබට හමු වූ විකල්ප සසඳන්න.</string>
     <string name="recently_onboarding_compare_title">සසඳන්න</string>
     <string name="recently_onboarding_find_that_page_message">දින කිහිපයකට පෙර හමුවූ ඒ කෑම වට්ටෝරුව, ලිපි හෝ අඩවිය අවශ්‍ය ද? සෙවීම කාලය වැය නොකරන්න සහ එය මෙහි දී සොයන්න.</string>
@@ -540,10 +556,16 @@
 "<a href="http://myactivity.google.com">myactivity.google.com</a></string>
     <string name="recently_removed_item_dialog_ok">තේරුණා</string>
     <string name="recently_removed_item_dialog_title">මෑත පිටු වෙතින් ඉවත් කරන ලදි</string>
+    <string name="recently_screenshot_from_agsa">මගේ Google යෙදුමෙන් තිරපිටපත</string>
     <string name="recently_search_history_authenticating_cancel">අවලංගු කරන්න</string>
     <string name="recently_search_history_authenticating_message">%1$s ලෙස පුරනය වෙයි…</string>
     <string name="recently_search_history_authenticating_title">පුරනය වෙමින්</string>
+    <string name="recently_search_results_for">%s සඳහා සෙවුම් ප්‍රතිඵල</string>
+    <string name="recently_share_search_url">"%1$s
+
+https://www.google.com/search?q=%1$s&amp;tbm=%2$s සඳහා සෙවුම් ප්‍රතිඵල"</string>
     <string name="recently_sharebear_subtitle">තිර රුව</string>
+    <string name="recently_shared_from_agsa">මගේ Google යෙදුමෙන් බෙදාගත්</string>
     <string name="recently_simple_onboarding_pinch_message">ඉඟිය: ඔබ සමූහ පසුකොට අනුචලනය කළ විට ඒවා ඔබ වෙනුවෙන් වැසේ</string>
     <string name="recently_simple_onboarding_pinch_title">සමූහ වැසීමට කොනහන්න</string>
     <string name="recently_simple_onboarding_recent_message">තව බැලීමට මෙම පිටු සමූහය විවෘත කරන්න</string>
@@ -664,10 +686,14 @@
     <string name="space">﻿</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="subscribe_button_label">දායක වන්න</string>
+    <string name="subscribe_to_see_new_episodes">නව කථාංග බැලීමට පොඩ්කාස්ට් වෙත දායක වන්න</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="suw_back_button_label">ආපසු</string>
     <string name="suw_more_button_label">තවත්</string>
     <string name="suw_next_button_label">ඊළඟ</string>
+    <string name="tab_downloaded_episodes">බාගන්නා ලදී</string>
+    <string name="tab_episodes_in_progress">කෙරෙමින් පවතී</string>
+    <string name="tab_new_episodes">නව</string>
     <string name="toast_hide">%s සාර්ථකව සඟවා ඇත.</string>
     <string name="toast_hide_fail">යම් දෙයක් වැරදිණි! %s නොසඟවන ලදී.</string>
     <string name="toast_unhide">%s සාර්ථකව සැඟවීම ඉවත් කර ඇත.</string>
@@ -676,6 +702,7 @@
     <string name="tomorrow">හෙට</string>
     <string name="top_contacts_group_header">ඉහළම සම්බන්ධතා</string>
     <string name="transportation_title">%1$s සිට %2$s දක්වා</string>
+    <string name="trim_silence">නිශ්ශබ්දව කෙටි කිරීම</string>
     <string name="undo">පසුගමනය</string>
     <string name="uninstall_system_app_text">මෙය පද්ධති යෙදුමක් වන අතර අස්ථාපනය කළ නොහැක.</string>
     <string name="unknown">නොදනී</string>
@@ -684,9 +711,9 @@
     <string name="unrecognized_format_pin_code">වලංගු PIN කේතය ඇ. ක.</string>
     <string name="unrecognized_format_postal_code">වලංගු කේතය ඇතුළු ක.</string>
     <string name="unrecognized_format_zip_code">වලංගු ZIP කේතය ඇ. ක.</string>
-    <string name="unreplied_emails_group_header">Unreplied Emails</string>
-    <string name="unreplied_group_header">Unreplied</string>
-    <string name="unreplied_messages_group_header">Unreplied Messages</string>
+    <string name="unreplied_emails_group_header">ප්‍රමුඛතා ඊ-තැපැල්</string>
+    <string name="unreplied_group_header">ප්‍රමුඛතා සංවාදය</string>
+    <string name="unreplied_messages_group_header">ප්‍රමුඛතා පණිවිඩ</string>
     <string name="unsubscribe_button_label">දායකත්වය දක්වන ලදි</string>
     <string name="up">උඩට සංචාලනය කරන්න</string>
     <string name="upcoming_event_group_header">ඉදිරියට එන</string>

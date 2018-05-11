@@ -46,6 +46,7 @@
     <string name="abc_searchview_description_voice">Voice search</string>
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_slice_error">"Couldn't connect"</string>
     <string name="abc_slice_more">More</string>
     <string name="abc_slice_more_content">+ %1$d</string>
     <string name="abc_slice_permission_allow">Allow</string>
@@ -55,6 +56,7 @@
     <string name="abc_slice_permission_text_2">- It can take actions inside %1$s</string>
     <string name="abc_slice_permission_title">Allow %1$s to show %2$s slices?</string>
     <string name="abc_slice_show_more">Show more</string>
+    <string name="abc_slice_updated">Updated %1$s</string>
     <string name="abc_slices_permission_request">%1$s wants to show %2$s slices</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="about">About</string>
@@ -90,7 +92,6 @@
     <string name="accessibility_tooltip_done_button">Homescreen notification done</string>
     <string name="accessibility_topdeck_done_button">Homescreen notification done</string>
     <string name="accessibility_topdeck_icon">Homescreen notification icon</string>
-    <string name="accessibility_visual_search_button">Visual Search</string>
     <string name="accessibility_voice_search_button">Voice Search</string>
     <string name="account_item">Switch to %1$s</string>
     <string name="account_item_default">Switch account</string>
@@ -236,7 +237,6 @@
     <string name="add_shortcut_reject">No thanks</string>
     <string name="add_snackbar_action">Add</string>
     <string name="add_this_location_to_your_list_snackbar_text">Add this location to your list?</string>
-    <string name="add_to_contact">Add to contact</string>
     <string name="add_to_folder">Add to folder: %1$s</string>
     <string name="add_to_folder_with_app">Add to folder with %1$s</string>
     <string name="add_to_home_screen">Add to home screen</string>
@@ -246,7 +246,6 @@
     <string name="add_your_relationship_subject">Remember %2$s as your %1$s?</string>
     <string name="added_to_folder">Item added to folder</string>
     <string name="additional_stock_query_string">stock</string>
-    <string name="address">Address</string>
     <string name="address_cancel_button">Not now</string>
     <string name="address_data_loading">Loading…</string>
     <string name="address_error">Could not verify this address.</string>
@@ -272,9 +271,9 @@
     <string name="agenda_eyes_free_timed_event_with_day">%1$s at %2$s: %3$s.</string>
     <string name="agenda_group_today_title">Today</string>
     <string name="agenda_group_tomorrow_title">Tomorrow</string>
-    <string name="agenda_hub_title">Upcoming</string>
+    <string name="agenda_hub_title">Coming up for you</string>
     <string name="agenda_icon_description">agenda icon</string>
-    <string name="agenda_section_title">Upcoming</string>
+    <string name="agenda_section_title">Coming up for you</string>
     <string name="agent_bookmark_added">Saved to bookmarks</string>
     <string name="agent_bookmark_error">There was an error. Please try again later.</string>
     <string name="agent_bookmark_removed">Removed from bookmarks</string>
@@ -345,7 +344,6 @@ Switch to this account in assistant to continue."</string>
     <string name="airplane_mode_enabled">"By the way, airplane mode is on, so you won't hear your notifications."</string>
     <string name="airplanemode_off">Airplane Mode off</string>
     <string name="airplanemode_on">Airplane Mode on</string>
-    <string name="all">All</string>
     <string name="all_apps_button_label">Apps</string>
     <string name="all_apps_home_button_label">Home</string>
     <string name="all_apps_loading_message">Loading Apps…</string>
@@ -357,7 +355,6 @@ Switch to this account in assistant to continue."</string>
     <string name="all_day_at_location">All day at %1$s</string>
     <string name="all_day_event">All day</string>
     <string name="all_day_event_text">All day</string>
-    <string name="all_day_more_events">All day and %s more all-day events</string>
     <string name="all_downloaded_episodes">All downloaded episodes</string>
     <string name="all_language_packs">All</string>
     <string name="allow_bluetooth_button_with_device_locked_notification_body">When the phone is locked, you can use your voice to make calls and more with a Bluetooth device</string>
@@ -454,6 +451,7 @@ Allow Google to keep and analyze your screen search screenshots indefinitely"</s
     <string name="assistant_account_preference">assistantProfile</string>
     <string name="assistant_all_devices_preference_category">assistantAllDevicesCategory</string>
     <string name="assistant_all_features_preference_category">assistantAllFeaturesCategory</string>
+    <string name="assistant_avocado_preference">assistantAvocado</string>
     <string name="assistant_bottom_group_holder">assistantBottomHolder</string>
     <string name="assistant_brief_preference">assistantBrief</string>
     <string name="assistant_calendar_preference">assistantCalendar</string>
@@ -499,6 +497,7 @@ Allow Google to keep and analyze your screen search screenshots indefinitely"</s
     <string name="assistant_middle_group_holder">assistantMiddleHolder</string>
     <string name="assistant_music_preference">assistantMusic</string>
     <string name="assistant_news_preference">assistantNews</string>
+    <string name="assistant_notes_lists_preference">assistantNotesLists</string>
     <string name="assistant_payments_preference">assistantPayments</string>
     <string name="assistant_personal_info_nickname_preference">assistantPersonalInfoNickname</string>
     <string name="assistant_personal_info_phone_number_preference">assistantPhoneNumber</string>
@@ -542,6 +541,7 @@ Allow Google to keep and analyze your screen search screenshots indefinitely"</s
     <string name="assistant_settings_availability_joiner">and</string>
     <string name="assistant_settings_availability_phone_and_tablet">Android 6.0+ phones and tablets</string>
     <string name="assistant_settings_availability_wear">watches</string>
+    <string name="assistant_settings_avocado_title">Avocado</string>
     <string name="assistant_settings_brief_finance_disclaimers">Finance disclaimers</string>
     <string name="assistant_settings_brief_finance_disclaimers_url">https://www.google.com/googlefinance/disclaimer/</string>
     <string name="assistant_settings_brief_title">My Day</string>
@@ -758,6 +758,7 @@ Your Assistant will use this setting for questions about your commute"</string>
     <string name="assistant_settings_no_language_summary">None</string>
     <string name="assistant_settings_no_language_title">Add a language</string>
     <string name="assistant_settings_no_shopping_list">You have no shopping list.</string>
+    <string name="assistant_settings_notes_lists_title">Notes and Lists</string>
     <string name="assistant_settings_oobe_vpp_title">Personal phone number</string>
     <string name="assistant_settings_other_bike_key">OTHER Bike</string>
     <string name="assistant_settings_other_drive_key">OTHER Drive a car</string>
@@ -1038,7 +1039,7 @@ Data charges may apply."</string>
     <string name="autoplay_video_description">Autoplaying video preview, double tap to play full video.</string>
     <string name="available_pick_up">Available for Pickup</string>
     <string name="back">Back</string>
-    <string name="back_button">Back button</string>
+    <string name="back_of_card_close">Close</string>
     <string name="background_notification_onboarding">Offline? No problem. The Google app will remember your search and send you a notification when results are ready.</string>
     <string name="background_notification_onboarding_accept">Ok</string>
     <string name="background_notification_onboarding_decline">Turn off</string>
@@ -1058,12 +1059,10 @@ Data charges may apply."</string>
     <string name="bar_shading_title">Bar shading</string>
     <string name="bar_shape_title">Bar shape</string>
     <string name="barcode_image_description">Barcode image</string>
-    <string name="barcodes">Barcodes</string>
     <string name="battery_level">"Your headset's battery is at %1$d percent."</string>
     <string name="battery_toast">%1$s battery at %2$d%%</string>
     <string name="batterysaver_off">Battery Saver off</string>
     <string name="batterysaver_on">Battery Saver on</string>
-    <string name="beta_tag">BETA</string>
     <string name="birthday_message">You are %1$s seconds young today.</string>
     <string name="birthday_today">Birthday today</string>
     <string name="bisto_app_notifications_global_toggle_summary">Hear incoming notifications read aloud</string>
@@ -1197,7 +1196,6 @@ Data charges may apply."</string>
     <string name="call">Call</string>
     <string name="call_business">Call %1$s</string>
     <string name="call_person">Call %1$s</string>
-    <string name="camera_flash">Toggle flash</string>
     <string name="cancel">Cancel</string>
     <string name="cancel_button_text">Cancel</string>
     <string name="cancel_download">Cancel download</string>
@@ -1230,7 +1228,6 @@ Data charges may apply."</string>
     <string name="cast_notification_connecting_message">Connecting to %1$s</string>
     <string name="cast_notification_default_channel_name">Cast</string>
     <string name="cast_notification_disconnect">Disconnect</string>
-    <string name="cats">Cats</string>
     <string name="cct_account_mismatch_card_button_text">Open %1$s</string>
     <string name="cct_account_mismatch_card_header">View your web pages</string>
     <string name="cct_account_mismatch_card_text">To see the pages you find here, update &lt;b>%1$s settings&lt;/b> and turn on sync for &lt;b>%2$s&lt;/b></string>
@@ -1259,7 +1256,6 @@ Data charges may apply."</string>
     <string name="close_button">Close</string>
     <string name="close_button_desc">Exit</string>
     <string name="closet_offline_warning_title">"Can't reach settings at the moment"</string>
-    <string name="clothing">Clothing</string>
     <string name="cloud_search_history_fetch_failed_toast">Could not retrieve settings. Please retry later.</string>
     <string name="cloud_search_history_summary_fetching">Retrieving settings…</string>
     <string name="collapse">Collapse</string>
@@ -1310,7 +1306,10 @@ Data charges may apply."</string>
     <string name="collections_item_type_shopping_product">products</string>
     <string name="collections_item_type_videos">videos</string>
     <string name="collections_item_type_webpages">pages</string>
+    <string name="collections_list_collection_created">Collection created</string>
+    <string name="collections_list_collection_created_failure">Failed to create Collection</string>
     <string name="collections_list_collection_removed">Collection removed</string>
+    <string name="collections_list_failed_to_remove_collection">Failed to remove Collection</string>
     <string name="collections_list_last_added_items">Last added items</string>
     <string name="collections_list_last_added_items_collection">Added to %s</string>
     <string name="collections_list_name_favorite">Favorite %s</string>
@@ -1323,7 +1322,6 @@ Data charges may apply."</string>
     <string name="collections_toast_contents_up_to_date">Up to date</string>
     <string name="collections_toast_no_network_found">No network found</string>
     <string name="collections_undo">Undo</string>
-    <string name="color_palette">Color Palette</string>
     <string name="comment_hint">Additional comments (Optional).</string>
     <string name="common_address_clear_button_label">Clear</string>
     <string name="common_address_clear_confirm_button">Delete</string>
@@ -1337,6 +1335,8 @@ Data charges may apply."</string>
     <string name="common_device_personal_info_permission_title">Personal results</string>
     <string name="common_device_personal_suggestion_permission_summary">Allow personal results, plus personalized YouTube video recommendations, on the Home screen or as notifications, without you having to ask for them. Note: Those nearby can also tap and act on these results. %1$s</string>
     <string name="common_device_personal_suggestion_permission_title">Home screen &amp; notifications</string>
+    <string name="common_device_youtube_restricted_mode_summary">Hide songs and videos that may contain inappropriate content</string>
+    <string name="common_device_youtube_restricted_mode_title">YouTube Restricted Mode</string>
     <string name="common_google_logo">Google logo</string>
     <string name="common_google_play_services_enable_button">Enable</string>
     <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
@@ -1458,9 +1458,8 @@ You can view and manage these conversations in the %1$s section of your Google A
     <string name="continue_listening_section_title">Continue listening</string>
     <string name="continue_to_enable_storage_permission">Continue</string>
     <string name="conversation_group_header">Conversations</string>
-    <string name="conversation_starters_expand_icon_content_description">Icon to expand the conversation starters container</string>
+    <string name="conversation_starters_suggestion_icon_description">Icon that is shown on the left side of a conversation starters suggestion chip</string>
     <string name="copied_to_clipboard">Copied to clipboard</string>
-    <string name="copy_text">Copy text</string>
     <string name="corpora_config_uri_24_plus" />
     <string name="corpus_name_images_animated">GIF</string>
     <string name="corpus_name_images_black_and_white">Black &amp; White</string>
@@ -1491,7 +1490,6 @@ You can view and manage these conversations in the %1$s section of your Google A
     <string name="corpus_name_websearch_shopping">Shopping</string>
     <string name="corpus_name_websearch_videos">Videos</string>
     <string name="create_event">Create event</string>
-    <string name="create_event_in_calendar">Create Event in Calendar</string>
     <string name="create_folder_name">Create</string>
     <string name="create_folder_with">Create folder with: %1$s</string>
     <string name="cricket_first_innings">1st innings</string>
@@ -1530,7 +1528,6 @@ You can view and manage these conversations in the %1$s section of your Google A
     <string name="daily_conditions_sky_condition">Sky condition: %s</string>
     <string name="dangerous_harmful">Dangerous and harmful activity</string>
     <string name="data_disconnected">Data disconnected.</string>
-    <string name="date">Date</string>
     <string name="date_at_time">%1$s at %2$s</string>
     <string name="date_in_the_past">%1$s &lt;font color=\"#9E9E9E\"> is in the past&lt;/font></string>
     <string name="day_of_week_label_typeface">sans-serif</string>
@@ -1565,7 +1562,6 @@ You can view and manage these conversations in the %1$s section of your Google A
     <string name="departure_time_and_express_class_with_relative_time">%1$s (%2$s - %%s)</string>
     <string name="departure_time_with_relative_time">%1$s (%%s)</string>
     <string name="description">Go to the <a href="https://support.google.com/legal/answer/3110420">Legal Help page</a>" to request content changes for legal reasons. "</string>
-    <string name="details_button_description">More about this suggestion</string>
     <string name="device_country">US</string>
     <string name="device_history_api_client_param">device</string>
     <string name="device_id_add_device_address_summary">This device needs a precise location to give you accurate answers about local weather, traffic, businesses, and more.</string>
@@ -1586,6 +1582,7 @@ We will have to infer your approximate location using other info like your devic
     <string name="disable_assistant_confirm_message">"Your headphones won't have access to the Google Assistant, so you won't hear your messages, calendar events, and other important info. However, your use of these headphones is still subject to the "<a href="https://www.google.com/policies/terms/">Terms of Service</a>".
 
 If you want to set up your Assistant later, touch &amp; hold the Home button on your phone."</string>
+    <string name="disabled_message">Temporarily unavailable, be back soon!</string>
     <string name="disclaimer">Disclaimer</string>
     <string name="dismiss_text">Drag down to dismiss</string>
     <string name="display_suggestion_text">\"%s\"</string>
@@ -1597,7 +1594,6 @@ If you want to set up your Assistant later, touch &amp; hold the Home button on 
     <string name="dnd_announcement_alarms">"By the way, Do Not Disturb mode is on, so you won't hear your incoming notifications."</string>
     <string name="dnd_announcement_priority">"By the way, Do Not Disturb mode is on, so you won't hear all of your incoming notifications."</string>
     <string name="docs_group_header">Documents</string>
-    <string name="dogs">Dogs</string>
     <string name="donate">Donate</string>
     <string name="donate_button_label">Donate</string>
     <string name="donate_screenshot_preference">donateScreenshotPreference</string>
@@ -1608,6 +1604,7 @@ If you want to set up your Assistant later, touch &amp; hold the Home button on 
     <string name="done_interest">Done</string>
     <string name="done_label">Done</string>
     <string name="dont_notify_me">Cancel search</string>
+    <string name="doodle_content_description">Google Doodle image</string>
     <string name="doodle_notifications_setting_summary">New Doodle games, videos, and interactive experiences</string>
     <string name="doodle_notifications_setting_title">Doodles</string>
     <string name="download">Download (%1$s)</string>
@@ -1659,7 +1656,7 @@ If you want to set up your Assistant later, touch &amp; hold the Home button on 
     <string name="email_guests">Email guests</string>
     <string name="email_keep_track_justification">A recent email mentions this event</string>
     <string name="email_subject">Re: %1$s</string>
-    <string name="empty_agenda">Your agenda is clear today.</string>
+    <string name="empty_agenda">Your agenda is clear for the next 2 weeks.</string>
     <string name="empty_relationship_subtitle">"You haven't set up any nicknames yet. From the Google app or any Home screen in the Google launcher, try tapping the microphone or saying \"Ok Google\" then \"Call Mom\"."</string>
     <string name="empty_relationship_title">Create nicknames for your device contacts with Google</string>
     <string name="empty_state_text">No content currently available</string>
@@ -1673,7 +1670,6 @@ If you want to set up your Assistant later, touch &amp; hold the Home button on 
     <string name="enable_screen_assist_preference">enableScreenAssistPreference</string>
     <string name="enable_screen_assist_summary_now_emphasis">"Asks Google to show you info related to what's on your screen when you hold the Home button or search by voice"</string>
     <string name="enable_screen_assist_title">Screen search</string>
-    <string name="enable_user_image_logging">Logging images</string>
     <string name="enable_video_preview_autoplay">Autoplay</string>
     <string name="enable_video_preview_autoplay_on_mobile_data">Allow on mobile networks</string>
     <string name="enable_video_preview_autoplay_on_mobile_data_preference">enableVideoPreviewAutoplayOnMobileDataPreference</string>
@@ -1688,6 +1684,7 @@ If you want to set up your Assistant later, touch &amp; hold the Home button on 
     <string name="entry_desc">Entry %1$d of %2$d.</string>
     <string name="episode_completed">Completed</string>
     <string name="episode_subtitle_format">%1$s ⸱ %2$s</string>
+    <string name="episodes_for_you">For you</string>
     <string name="error">Error</string>
     <string name="error_adding_location_snackbar_text">Error adding location</string>
     <string name="error_authenticating_user">Sign-in error</string>
@@ -1775,16 +1772,27 @@ Consider checking your connection and try again"</string>
     <string name="eyes_no_permission_camera">"I don't have permission to use the camera"</string>
     <string name="eyes_no_permission_write_external_storage">"I don't have permission to save files"</string>
     <string name="eyes_offline">"Your phone's offline, so I can't help you with that at the moment"</string>
+    <string name="eyes_onboarding_brand_name">Google Lens</string>
     <string name="eyes_onboarding_button_continue">Continue</string>
-    <string name="eyes_onboarding_button_sign_in">Sign in to continue</string>
+    <string name="eyes_onboarding_button_sign_in">Sign in to try Lens</string>
     <string name="eyes_onboarding_camera_permission_denied_dismiss_button">Dismiss</string>
     <string name="eyes_onboarding_camera_permission_denied_message">To function properly, Lens needs to take pictures and record video. Go to Settings to grant permission.</string>
     <string name="eyes_onboarding_camera_permission_denied_settings_button">Settings</string>
     <string name="eyes_onboarding_camera_permission_denied_title">Lens error</string>
-    <string name="eyes_onboarding_message">Google Lens will continuously analyze what you see to show you information more quickly</string>
-    <string name="eyes_onboarding_title_places">Find places with Lens</string>
-    <string name="eyes_onboarding_title_products">Find products with Lens</string>
-    <string name="eyes_onboarding_title_text">Scan text with Lens</string>
+    <string name="eyes_onboarding_legal_body">"When you open the Google Lens viewfinder, Lens will continually analyze what you see to show you results in real time.
+
+If your Web &amp; App Activity setting is turned on, your Google Lens activity - including images that you use with Lens - will be saved to your Google Account. This is true whether you use Lens in Google Photos, Google Assistant, or another product. You can see your data, delete it, and change your account settings at account.google.com.
+
+Google Lens is not all-knowing and sometimes we’re still learning. Use Google Lens at your own risk; you’re responsible for your conduct and its consequences."</string>
+    <string name="eyes_onboarding_legal_title">Welcome to Google Lens!</string>
+    <string name="eyes_onboarding_subtitle_places">Get info on points of interest</string>
+    <string name="eyes_onboarding_subtitle_products">Find products &amp; compare prices</string>
+    <string name="eyes_onboarding_subtitle_products_tier_3">Look up what it is</string>
+    <string name="eyes_onboarding_subtitle_text">Look up a word, save contact info</string>
+    <string name="eyes_onboarding_title_places">Discover new places</string>
+    <string name="eyes_onboarding_title_products">Shop smarter</string>
+    <string name="eyes_onboarding_title_products_tier_3">Learn more about objects</string>
+    <string name="eyes_onboarding_title_text">Scan text</string>
     <string name="eyes_remember_this_suggestion">Remember this</string>
     <string name="eyes_request_timed_out_message">Sorry, something went wrong</string>
     <string name="eyes_share_suggestion">Share</string>
@@ -1948,7 +1956,6 @@ Try saying \"What can you do?\""</string>
     <string name="flight_stops">Stops at %1$s</string>
     <string name="flight_terminal">Terminal</string>
     <string name="flights_mode_landing_text">Search flights</string>
-    <string name="flowers">Flowers</string>
     <string name="folder_closed">Folder closed</string>
     <string name="folder_created">Folder created</string>
     <string name="folder_hint_text">Unnamed Folder</string>
@@ -2085,8 +2092,6 @@ Try searching for the podcast again."</string>
     <string name="google_home_device_change_language_dialog_message">Your Google Home devices share the same language. This will change them all to %1$s.</string>
     <string name="google_home_device_change_language_dialog_title">Change language on all Google Home devices?</string>
     <string name="google_home_device_change_language_dialog_yes">Yes</string>
-    <string name="google_home_device_youtube_restricted_mode_summary">Hide songs and videos that may contain inappropriate content</string>
-    <string name="google_home_device_youtube_restricted_mode_title">YouTube Restricted Mode</string>
     <string name="google_home_hotword_enrollment_bottom_summary_text">Invite others at home to set up Voice Match as well</string>
     <string name="google_location_service_required_text">"To see location-based cards such as local weather and commute traffic, turn on Google's location service"</string>
     <string name="google_play_services">Google Play services</string>
@@ -2112,7 +2117,6 @@ Try searching for the podcast again."</string>
     <string name="gws_fetch_failed">Failed to connect to server.</string>
     <string name="gws_fetch_unauthenticated">Please log in to see additional content.</string>
     <string name="ha_card_title">Your Home</string>
-    <string name="handbags">Handbags</string>
     <string name="hands_free_unlock_device_bluetooth">"When it's safe, you'll first need to tap the notification. Then you can let Bluetooth devices work with your phone when it's locked."</string>
     <string name="hands_free_unlock_device_wired_headsets">"When it's safe, you'll first need to tap the notification. Then you can let headsets work with your phone when it's locked."</string>
     <string name="hangout_keep_track_justification">A recent Hangouts conversation mentions this event</string>
@@ -2259,7 +2263,7 @@ You can get answers just for you, too! Start by installing the Google Home app: 
     <string name="hotword_enrollment_optin_udc_summary_item3">You can change this setting or manage your private data at %1$s whenever you like. Remember that when Voice &amp; Audio Activity is on, this data may be saved from any of your signed-in devices.</string>
     <string name="hotword_enrollment_optin_udc_summary_item3_link">myaccount.google.com</string>
     <string name="hotword_enrollment_optin_udc_title">Save Voice &amp; Audio Activity</string>
-    <string name="hotword_enrollment_parent_intro_summary">"{GENDER, select, male {With the Google Assistant, {PERSON} can do things like play games or check when their class party is on Calendar. While some experiences are designed for kids, most content is intended for general audiences. &lt;a href=\"{LINK}\">Learn more&lt;/a>&lt;br>&lt;br>Voice Match helps the Assistant identify {PERSON}'s voice and tell him apart from others by creating a unique model of his voice on this device.&lt;br>&lt;br>Keep in mind: A similar voice or recording might be able to access {PERSON}'s personal results, too. You can remove Voice Match permission later by turning it off in Assistant settings or Family Link.} female {With the Google Assistant, {PERSON} can do things like play games or check when their class party is on Calendar. While some experiences are designed for kids, most content is intended for general audiences. &lt;a href=\"{LINK}\">Learn more&lt;/a>&lt;br>&lt;br>Voice Match helps the Assistant identify {PERSON}'s voice and tell her apart from others by creating a unique model of her voice on this device.&lt;br>&lt;br>nKeep in mind: A similar voice or recording might be able to access {PERSON}'s personal results, too. You can remove Voice Match permission later by turning it off in Assistant settings or Family Link.} other {With the Google Assistant, {PERSON} can do things like play games or check when their class party is on Calendar. While some experiences are designed for kids, most content is intended for general audiences. &lt;a href=\"{LINK}\">Learn more&lt;/a>&lt;br>&lt;br>Voice Match helps the Assistant identify {PERSON}'s voice and tell them apart from others by creating a unique model of their voice on this device.&lt;br>&lt;br>Keep in mind: A similar voice or recording might be able to access {PERSON}'s personal results, too. You can remove Voice Match permission later by turning it off in Assistant settings or Family Link.}}"</string>
+    <string name="hotword_enrollment_parent_intro_summary">"{GENDER, select, male {With the Google Assistant, {PERSON} can do things like play games or check when their class party is on Calendar. While some experiences are designed for kids, most content is intended for general audiences. &lt;a href=\"{LINK}\">Learn more&lt;/a>&lt;br>&lt;br>Voice Match helps the Assistant identify {PERSON}'s voice and tell him apart from others by creating a unique model of his voice on this device.&lt;br>&lt;br>Keep in mind: A similar voice or recording might be able to access {PERSON}'s personal results, too. You can remove Voice Match permission later by turning it off in Assistant settings or Family Link.} female {With the Google Assistant, {PERSON} can do things like play games or check when their class party is on Calendar. While some experiences are designed for kids, most content is intended for general audiences. &lt;a href=\"{LINK}\">Learn more&lt;/a>&lt;br>&lt;br>Voice Match helps the Assistant identify {PERSON}'s voice and tell her apart from others by creating a unique model of her voice on this device.&lt;br>&lt;br>Keep in mind: A similar voice or recording might be able to access {PERSON}'s personal results, too. You can remove Voice Match permission later by turning it off in Assistant settings or Family Link.} other {With the Google Assistant, {PERSON} can do things like play games or check when their class party is on Calendar. While some experiences are designed for kids, most content is intended for general audiences. &lt;a href=\"{LINK}\">Learn more&lt;/a>&lt;br>&lt;br>Voice Match helps the Assistant identify {PERSON}'s voice and tell them apart from others by creating a unique model of their voice on this device.&lt;br>&lt;br>Keep in mind: A similar voice or recording might be able to access {PERSON}'s personal results, too. You can remove Voice Match permission later by turning it off in Assistant settings or Family Link.}}"</string>
     <string name="hotword_enrollment_parent_intro_summary_learn_more_link">https://support.google.com/families/answer/7521263</string>
     <string name="hotword_enrollment_parent_intro_title">"Teach your Assistant to recognize %1$s's voice"</string>
     <string name="hotword_enrollment_parent_selector_family_fetch_failed">Error fetching family.</string>
@@ -2326,11 +2330,12 @@ You can turn off personal results in Assistant settings."</string>
     <string name="hotword_pref_subtitle_disabled_administrator">This feature has been turned off by your administrator</string>
     <string name="hotword_pref_subtitle_disabled_device">This feature is currently unavailable on this device</string>
     <string name="hotword_pref_subtitle_disabled_google_play">Update Google Play Services to use this feature</string>
+    <string name="hotword_pref_subtitle_disabled_insecure_keyguard">"Turn on Screen lock in your phone's settings to use this feature"</string>
     <string name="hotword_pref_subtitle_disabled_locale">This feature is currently unavailable for this language</string>
     <string name="hotword_pref_subtitle_disabled_os_version">"Your OS version doesn't support this feature"</string>
     <string name="hotword_pref_subtitle_opa_supported_locale">Talk to the Google Assistant to get things done</string>
     <string name="hotword_pref_subtitle_opa_unsupported_locale">Talk to get info, send texts, set alarms &amp; more</string>
-    <string name="hotword_pref_summary_always_on">Responds to your voice. Works whether the screen is on or off</string>
+    <string name="hotword_pref_summary_always_on">Access Google any time you say \"%1$s\", even if your screen is off or you’re using your favorite apps</string>
     <string name="hotword_pref_summary_always_on_not_default_vis">To turn this on, go to Settings > Language &amp; input > Voice input and select \"Enhanced Google services\"</string>
     <string name="hotword_pref_summary_during_androidauto_navigation">Works in Android Auto</string>
     <string name="hotword_pref_summary_during_gmm_and_androidauto_navigation">Works in Google Maps and Android Auto</string>
@@ -2339,16 +2344,16 @@ You can turn off personal results in Assistant settings."</string>
     <string name="hotword_pref_summary_homescreen">Say \"%1$s\" to start a voice search from the Google app or any Home screen in the Google Now Launcher</string>
     <string name="hotword_pref_summary_lock_personal_results">Allow personal results and actions when your phone is securely locked</string>
     <string name="hotword_pref_summary_mic_permission">Grant the microphone permission to use \"%1$s\" detection</string>
-    <string name="hotword_pref_summary_opa">"Your device recognizes your voice when you say \"%1$s\", even if the screen is off or you're using your favorite apps"</string>
-    <string name="hotword_pref_summary_opa_non_dsp">"Your device recognizes your voice when you say \"%1$s\", even when you're using your favorite apps"</string>
+    <string name="hotword_pref_summary_opa">Access your Assistant any time you say \"%1$s\", even if your screen is off or you’re using your favorite apps</string>
+    <string name="hotword_pref_summary_opa_non_dsp">Access your Assistant any time you say \"%1$s\" when your screen is on</string>
     <string name="hotword_pref_summary_voice_unlock">Let \"%1$s\" unlock your device when the sound matches your voice model</string>
     <string name="hotword_pref_title">\"%1$s\" detection</string>
     <string name="hotword_pref_title_always_on">Always on</string>
     <string name="hotword_pref_title_during_gmm_navigation">While driving</string>
     <string name="hotword_pref_title_lock_screen_2_opa">Unlock with Voice Match</string>
     <string name="hotword_pref_title_locked_personal_results">Personal results</string>
-    <string name="hotword_pref_title_opa">Say \"%1$s\" any time</string>
-    <string name="hotword_prefs_voice_everywhere_subtitle">Responds to your voice. Works when the screen is on.</string>
+    <string name="hotword_pref_title_opa">Access with Voice Match</string>
+    <string name="hotword_prefs_voice_everywhere_subtitle">Access Google any time you say \"%1$s\" when your screen is on</string>
     <string name="hotword_prefs_voice_everywhere_subtitle_no_account">Please log in with your Google account to enable this feature</string>
     <string name="hotword_prefs_voice_everywhere_title">From any screen</string>
     <string name="hotword_setup_wizard_connection_error_message">Check your connection and try again.</string>
@@ -2493,9 +2498,6 @@ You can turn off personal results in Assistant settings."</string>
     <string name="immersive_actions_voice_delight_second_timeout">"No, I still didn't get that."</string>
     <string name="immersive_actions_voice_delight_third_timeout">"No, I still don't understand you."</string>
     <string name="immersive_contact_disambiguation_header_label">%1$s...</string>
-    <string name="improve_visual_search_change_later">You can also change your preference from the Google App settings menu later.</string>
-    <string name="improve_visual_search_message">Help improve our service by allowing Google to retain images from visual search.</string>
-    <string name="improve_visual_search_title">Improve visual search</string>
     <string name="inactive_state_text">"Game information isn't up-to-date."</string>
     <string name="incoming_call">Call from %1$s</string>
     <string name="incoming_call_hangouts">Hangouts call from %1$s. %2$s</string>
@@ -2617,8 +2619,21 @@ You can turn off personal results in Assistant settings."</string>
     <string name="leave_from">From</string>
     <string name="legal_documents">Legal</string>
     <string name="legal_notices_url">https://m.google.com/legalnotices</string>
-    <string name="lens_info_panel_live_camera_title">Tap on anything to get info</string>
+    <string name="lens_education_card_barcodes_heading">Barcodes</string>
+    <string name="lens_education_card_barcodes_paragraph">Scan barcodes and find product details</string>
+    <string name="lens_education_card_media_heading">Books &amp; Media</string>
+    <string name="lens_education_card_media_paragraph">Look up books, movies, music albums, and video games by the cover</string>
+    <string name="lens_education_card_places_heading">Places</string>
+    <string name="lens_education_card_places_paragraph">Learn more about landmarks, points of interest, and notable buildings</string>
+    <string name="lens_education_card_products_heading">Products</string>
+    <string name="lens_education_card_products_paragraph">Find similar items for products like furniture and clothing</string>
+    <string name="lens_education_card_text_heading">Text</string>
+    <string name="lens_education_card_text_paragraph">Copy text like phone numbers, dates, and addresses</string>
+    <string name="lens_education_card_title">What can Lens do?</string>
+    <string name="lens_info_panel_header_preview_tag">preview</string>
+    <string name="lens_info_panel_live_camera_title">Tap on objects and text</string>
     <string name="lens_info_panel_loading_message">Looking for results…</string>
+    <string name="lens_title">Google Lens</string>
     <string name="less_contact_apps">Show less contact apps</string>
     <string name="less_than_one_minute_left">Less than 1 min left</string>
     <string name="libraries_material_featurehighlight_dismiss">Dismiss</string>
@@ -2635,6 +2650,7 @@ You can turn off personal results in Assistant settings."</string>
     <string name="listen_interruptive_instructiont_2">Double tap the right earbud.</string>
     <string name="listening_for_music_status">Listening for music…</string>
     <string name="listening_for_tv_status">Listening for TV…</string>
+    <string name="loading">Loading</string>
     <string name="local_intent_search">Looks like you are trying to find a location while offline.</string>
     <string name="local_results_map_description">Map of %1$s</string>
     <string name="location_access_required_text_klp">To see location-based cards such as local weather and commute traffic, turn on location access</string>
@@ -2710,7 +2726,6 @@ You can turn off personal results in Assistant settings."</string>
     <string name="menu_view_in_browser">View in Browser</string>
     <string name="menu_view_original_image">View original image</string>
     <string name="menu_visit_page">Visit Page</string>
-    <string name="message">Message</string>
     <string name="message_card_feedback">Feedback</string>
     <string name="message_card_troubleshoot">Troubleshoot</string>
     <string name="message_contents">%1$s.</string>
@@ -2775,6 +2790,7 @@ You can turn off personal results in Assistant settings."</string>
     <string name="more_description">Show more</string>
     <string name="more_info_text">Stats, news and timeline</string>
     <string name="more_information">More information</string>
+    <string name="more_suggests_expansion_text">More</string>
     <string name="move_to_empty_cell">Move to row %1$s column %2$s</string>
     <string name="move_to_hotseat_position">Move to favorites position %1$s</string>
     <string name="move_to_position">Move to position %1$s</string>
@@ -2876,11 +2892,11 @@ Discover and control all your Google searches and more in My Activity."</string>
     <string name="nexus_device_google_assistant_title">Google Assistant</string>
     <string name="nexus_device_hands_free_preference_title">Other hands-free settings</string>
     <string name="nexus_device_hotword_category_title">Get hands-free help with Voice Match</string>
-    <string name="nexus_device_hotword_preference_alwayson_summary">Access your Assistant any time you say \"%1$s\"</string>
+    <string name="nexus_device_hotword_preference_alwayson_summary">"Access your Assistant any time you say \"%1$s\", even if your screen is off or you're using your favorite apps"</string>
     <string name="nexus_device_hotword_preference_screenon_summary">Access your Assistant any time you say \"%1$s\" when your screen is on</string>
-    <string name="nexus_device_hotword_preference_title">\"%1$s\" detection</string>
-    <string name="nexus_device_navigation_popup_message">You can still use \"%1$s\" detection in some driving apps, like Google Maps and Android Auto. You can turn this off anytime in these apps’ Settings. %2$s</string>
-    <string name="nexus_device_navigation_popup_settings_link">Driving settings</string>
+    <string name="nexus_device_hotword_preference_title">Access with Voice Match</string>
+    <string name="nexus_device_navigation_popup_message">"You can still use \"%1$s\" in some driving apps, like Google Maps and Android Auto. You can turn this %2$s off any time through any of these apps' settings"</string>
+    <string name="nexus_device_navigation_popup_settings_link">Driving Setting</string>
     <string name="nexus_device_navigation_popup_title">While driving</string>
     <string name="nexus_device_typing_input_mode">typing</string>
     <string name="nexus_device_use_screen_context_summary">"Asks Google to show you info related to what's on your screen when you hold the Home button or search by voice"</string>
@@ -2894,7 +2910,6 @@ Discover and control all your Google searches and more in My Activity."</string>
     <string name="no_activity_to_display_location">Maps application is required to complete this action.</string>
     <string name="no_activity_to_handle_generic">No activity found to handle this action.</string>
     <string name="no_agenda_results">No matching events found</string>
-    <string name="no_camera">No camera available</string>
     <string name="no_cards">No cards available right now</string>
     <string name="no_cards_greeting_afternoon">Good afternoon!</string>
     <string name="no_cards_greeting_dead_of_night">Hello!</string>
@@ -2903,8 +2918,6 @@ Discover and control all your Google searches and more in My Activity."</string>
     <string name="no_cards_greeting_night">Good evening!</string>
     <string name="no_chip_desc">View all results.</string>
     <string name="no_connection">No connection</string>
-    <string name="no_connection_found">No connection</string>
-    <string name="no_connection_showcase">NO CONNECTION</string>
     <string name="no_contact_found">"%1$s &lt;font color=\"#9E9E9E\"> couldn't be found&lt;/font>"</string>
     <string name="no_contact_found_pick_another_contact">%1$s. no contact found. Pick another contact</string>
     <string name="no_departures_within_the_next_hour">No departures within the next hour</string>
@@ -2914,6 +2927,7 @@ Discover and control all your Google searches and more in My Activity."</string>
     <string name="no_device_found_title">No devices found</string>
     <string name="no_downloaded_episodes">No downloaded episodes</string>
     <string name="no_email_guests_intent">The Google Calendar app is required to email guests</string>
+    <string name="no_episodes_in_progress">No episodes in progress</string>
     <string name="no_info">—</string>
     <string name="no_installable_language_packs">No language downloads available for your device</string>
     <string name="no_installed_language_packs">No languages installed</string>
@@ -2926,15 +2940,12 @@ Discover and control all your Google searches and more in My Activity."</string>
     <string name="no_matches_offline_mode_title">"Can't reach Google at the moment."</string>
     <string name="no_matches_offline_mode_tts">"I see you have limited network access, so you'll only be able to make phone calls. For example, you can say \"Call Mom, mobile.\""</string>
     <string name="no_matching_results">No matching results</string>
-    <string name="no_newest_episodes">No new episodes</string>
     <string name="no_notif_permission_fetch">"To hear your notifications, turn on notification access on your phone. Just touch and hold the Home button, then tap 'headphones settings'."</string>
     <string name="no_notifications_in_queue">"You don't have new notifications right now."</string>
     <string name="no_option_selected_content_description">Please choose a reason for reporting this item before sending feedback. Send Button.</string>
     <string name="no_personal_content_ipa">No personal content found</string>
-    <string name="no_photos_found">NO PHOTOS FOUND</string>
     <string name="no_podcasts_found">No podcasts found</string>
     <string name="no_query_screen_locked">"I can't do that while your phone screen is locked."</string>
-    <string name="no_recently_played_episodes">No recently played episodes</string>
     <string name="no_results_found">No results found</string>
     <string name="no_results_found_link">SEE OTHER PERSONAL RESULTS</string>
     <string name="no_results_found_status">"Couldn't find a close match"</string>
@@ -2959,6 +2970,11 @@ Discover and control all your Google searches and more in My Activity."</string>
     <string name="not_access_screen_explanation">To hear your messages, calendar events, and other important info, give your Assistant access to your notifications</string>
     <string name="not_access_screen_title">Have your Assistant read your notifications to you</string>
     <string name="not_access_toast">Turn on notification access for %1$s.</string>
+    <string name="notes_and_lists_icon_text" />
+    <string name="notes_lists_category_title">Lists and notes services</string>
+    <string name="notes_lists_none_preference_summary">Secondary information</string>
+    <string name="notes_lists_none_preference_title">None</string>
+    <string name="notes_lists_title">Your Assistant will use this provider by default when creating a note or list.</string>
     <string name="notification_access_link_text">Turn off notification access</string>
     <string name="notification_accessable_apps_category_title">Notification access</string>
     <string name="notification_cancel_text">"A notification will not be sent when you're back online."</string>
@@ -2966,6 +2982,7 @@ Discover and control all your Google searches and more in My Activity."</string>
     <string name="notification_channel_headset_important">Important alerts for headphones</string>
     <string name="notification_channel_headset_info">Informational alerts for headphones</string>
     <string name="notification_channel_headset_min">Background alerts for headphones</string>
+    <string name="notification_dismiss">Dismiss</string>
     <string name="notification_override_key">notificationOverride</string>
     <string name="notification_set_text">"You'll get notified when results are ready."</string>
     <string name="notification_set_title">Alert set</string>
@@ -3055,7 +3072,6 @@ Discover and control all your Google searches and more in My Activity."</string>
     <string name="offline_voice_actions_error">Offline voice actions unavailable.</string>
     <string name="ok">OK</string>
     <string name="ok_prompt">OK</string>
-    <string name="okay">OKAY</string>
     <string name="old_launcher_provider_uri">content://com.google.android.launcher.oldhome.settings/favorites?notify=true</string>
     <string name="omniconsent_action_button_scroll">More</string>
     <string name="omniconsent_confirm_partial_experience_action_button_text">Continue</string>
@@ -3076,6 +3092,7 @@ Discover and control all your Google searches and more in My Activity."</string>
     <string name="on_device_contact_suggestion_content_description">Contact %s.</string>
     <string name="on_device_message">Generated on your device</string>
     <string name="on_device_url_suggestion_content_description">Open %s in browser.</string>
+    <string name="onboarding_action_scroll_down">More</string>
     <string name="onboarding_entry_topdeck_title">Tap here to take a tour</string>
     <string name="onboarding_loading_content">This may take a minute or two</string>
     <string name="onboarding_loading_title">Just a sec...</string>
@@ -3092,9 +3109,10 @@ Discover and control all your Google searches and more in My Activity."</string>
     <string name="opa_assist_app_screen_explanation">To access your Google Assistant, choose the Google App in your Assist &amp; voice input settings</string>
     <string name="opa_assist_app_screen_title">"The Google App isn't your default Assist App"</string>
     <string name="opa_assistant_logo_content_description">Voice search</string>
+    <string name="opa_bottom_bar_tooltip_text_v1">See updates for your Google Assistant</string>
     <string name="opa_consent_check_error_button">CLOSE</string>
     <string name="opa_consent_check_error_button_notavailable">SWITCH ACCOUNTS</string>
-    <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">Your Assistant experience will be limited to things like web results, jokes, and local info.</string>
+    <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">Depending on your account settings, your Assistant experience may be limited to things like web results, jokes, and local info.</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_text">No Thanks</string>
     <string name="opa_consent_check_error_confirmreject_personalize_radio_button_show_less">Show less</string>
     <string name="opa_consent_check_error_confirmreject_personalize_radio_button_show_more">Show more</string>
@@ -3184,16 +3202,15 @@ Deleting from your Assistant history will not affect transactions or undo action
     <string name="opa_first_screen_hotword_transition_skip_button_text">Skip</string>
     <string name="opa_first_screen_hotword_transition_summary">"Say \"%1$s\" to talk to your Assistant anytime: even if your screen is off or you're using your favorite apps."</string>
     <string name="opa_first_screen_hotword_transition_summary_no_dsp">Say \"%1$s\" to talk to your Assistant anytime, as long as your screen is on.</string>
-    <string name="opa_first_screen_hotword_transition_summary_short">"Voice Match lets you access your Assistant directly by using your voice, even when your screen is off.
-
-A unique model of your voice will be created on this device, which will help your Assistant identify you and tell you apart from others. .
-
-"<b>Keep in mind:</b> A similar voice or recording might be able to access your Assistant, too. You can remove Voice Match permission later by turning it off in Assistant settings.</string>
+    <string name="opa_first_screen_hotword_transition_summary_short">Voice Match lets you access your Assistant directly by using your voice, even when your screen is off.</string>
     <string name="opa_first_screen_hotword_transition_summary_short_no_dsp">Voice Match lets you access your Assistant directly by using your voice.</string>
     <string name="opa_first_screen_hotword_transition_title">Access your Assistant with Voice Match</string>
     <string name="opa_first_screen_tgoogle_summary">"You'll be able to access your Assistant directly by saying \"%1$s\""</string>
     <string name="opa_first_screen_tgoogle_title">Teach your Assistant to recognize \"%1$s\"</string>
     <string name="opa_fix_user_recoverable_error">FIX</string>
+    <string name="opa_gdpr_footer">"A unique model of your voice will be created on this device, which will help your Assistant identify you and tell you apart from others. 
+
+"<b>Keep in mind:</b> A similar voice or recording might be able to access your Assistant, too. You can remove Voice Match permission later by turning it off in Assistant settings.</string>
     <string name="opa_gearhead_opt_in_notification_body">When driving, you can use your voice to talk to the Google Assistant</string>
     <string name="opa_gearhead_opt_in_notification_title">Use the Google Assistant while driving</string>
     <string name="opa_gearhead_opt_in_speech">"When it's safe, you'll first need to tap the notification. Then you can use the Google Assistant while driving."</string>
@@ -3224,6 +3241,8 @@ Account history from"</string>
     <string name="opa_hold_timeout_message">Sorry, something went wrong</string>
     <string name="opa_hold_timeout_message_with_provider_name">"%1$s isn't responding right now. Try again soon"</string>
     <string name="opa_home_automation_brightness_card_trait_title">Brightness</string>
+    <string name="opa_home_automation_off">Off</string>
+    <string name="opa_home_automation_on">On</string>
     <string name="opa_home_automation_switch_card_trait_title">Switch</string>
     <string name="opa_home_automation_temperature_card_trait_title">Temperature at %1$d°</string>
     <string name="opa_home_automation_turn_off">Turn off</string>
@@ -3309,7 +3328,7 @@ Account history from"</string>
     <string name="opa_unlock_device_for_response">Unlock to continue...</string>
     <string name="opa_upgrade_promo_tooltip_text">Hold Down the Home Button</string>
     <string name="opa_value_proposition_cancel">No Thanks</string>
-    <string name="opa_value_proposition_continue">CONTINUE</string>
+    <string name="opa_value_proposition_continue">Continue</string>
     <string name="opa_value_proposition_message_1p">"Ask it questions. Tell it to do things. It's your own personal Google, always ready to help."</string>
     <string name="opa_value_proposition_message_title">Meet your Google Assistant</string>
     <string name="opa_value_proposition_next">Next</string>
@@ -3336,12 +3355,10 @@ Account history from"</string>
     <string name="opa_wuwa_notification_action_stop">STOP</string>
     <string name="opa_wuwa_notification_content">Alarm at %1$s</string>
     <string name="opa_wuwa_offline_notification_content">"Your Assistant can't run this routine while you're offline."</string>
-    <string name="open">Open</string>
     <string name="open_app_template">Open %s</string>
     <string name="open_in_google_translate">Open in Translate</string>
     <string name="open_in_inbox">OPEN IN INBOX</string>
     <string name="open_in_keep">OPEN IN GOOGLE KEEP</string>
-    <string name="open_in_maps">Open in Maps</string>
     <string name="open_settings">Settings</string>
     <string name="open_settings_button_text">Open Settings</string>
     <string name="open_until">Open until %1$s</string>
@@ -3467,6 +3484,7 @@ If Wi-Fi is turned off, your cellular data will be used to download the 5 MB upd
     <string name="payments_auth_too_many_fingerprint_retries_should_use_password">Too many tries. Enter password instead.</string>
     <string name="payments_auth_unknown_fingerprint_error">Error using fingerprint, please enter your Google password to continue.</string>
     <string name="payments_auth_use_fingerprint_checkbox_hint">Use fingerprint for future approvals</string>
+    <string name="penalties">Penalties</string>
     <string name="pending_searches">Pending searches</string>
     <string name="permdesc_install_shortcut">Allows an app to add shortcuts without user intervention.</string>
     <string name="permdesc_read_settings">Allows the app to read the settings and shortcuts in Home.</string>
@@ -3513,6 +3531,11 @@ If Wi-Fi is turned off, your cellular data will be used to download the 5 MB upd
     <string name="personal_mode_landing_text">Search personal content</string>
     <string name="personal_results_action_button">Allow</string>
     <string name="personal_results_cancel_button">Skip</string>
+    <string name="personal_results_enabled_explanation">"You've turned on personal results but not Voice Match. This means your Assistant won't check your voice before giving you them.
+
+Tip: Turn on Voice Match in Assistant settings once you've finished setting up this device."</string>
+    <string name="personal_results_enabled_positive_button">Close</string>
+    <string name="personal_results_enabled_title">Make personal results more secure</string>
     <string name="personal_results_explanation">The Google Assistant can use your personal info (e.g. calendar and flights) to assist you. Anyone speaking to the Assistant can access this info.</string>
     <string name="personal_results_title">Allow personal results</string>
     <string name="personal_results_unicorn_explanation">"{GENDER, select, male {Voice Match has been set up.
@@ -3530,7 +3553,6 @@ Now you can turn on personal results so that {PERSON} can use their voice to acc
 You can turn off personal results in Assistant settings or Family Link.}}"</string>
     <string name="personal_results_unicorn_title">"{GENDER, select, other {Get personal results with {PERSON}'s voice.} }"</string>
     <string name="personal_search">Personal Search</string>
-    <string name="phone">Phone</string>
     <string name="phone_display_name">Call</string>
     <string name="phone_endpoint_instance_disambig_eyes_free_tts">Choose from the following list. %3$s?</string>
     <string name="phone_endpoint_instance_disambig_nomatch_1_eyes_free_tts">"Didn't get that. Choose from the following list. %3$s?"</string>
@@ -3562,7 +3584,6 @@ You can turn off personal results in Assistant settings or Family Link.}}"</stri
     <string name="photo_group_header">Photos</string>
     <string name="photo_spot_nearby">Nearby photo spots</string>
     <string name="photo_view_count" formatted="false">%d of %d</string>
-    <string name="photos_library">Photos library</string>
     <string name="pick_duration_complete">Done</string>
     <string name="pick_image">My photos</string>
     <string name="pick_wallpaper">Wallpapers</string>
@@ -3573,7 +3594,6 @@ You can turn off personal results in Assistant settings or Family Link.}}"</stri
     <string name="place_autocomplete_clear_button">Clear search</string>
     <string name="place_autocomplete_search_hint">Search</string>
     <string name="place_group_header">Places</string>
-    <string name="places">Places</string>
     <string name="places_deletion_message">To remove this place, you need to remove it from your saved private places. Click Learn More to manage your places.</string>
     <string name="play">Play</string>
     <string name="play_by_play">Play-by-play</string>
@@ -3584,8 +3604,9 @@ You can turn off personal results in Assistant settings or Family Link.}}"</stri
     <string name="play_video_icon">Play the video.</string>
     <string name="playback_audio">Playback</string>
     <string name="playback_error_cancel">Cancel</string>
+    <string name="playback_error_message">This episode couldn’t be played. Please try again later.</string>
+    <string name="playback_error_ok">OK</string>
     <string name="playback_error_retry">Try again</string>
-    <string name="playback_error_title">Couldn’t play the requested episode</string>
     <string name="playback_panel_error">Unable to play</string>
     <string name="playback_status_buffering">Buffering...</string>
     <string name="please_select">Please select</string>
@@ -3647,7 +3668,7 @@ If you make this change, you will get:"</string>
     <string name="price_and_percent_variation">%1$s (%2$s)</string>
     <string name="price_range_separator">" · "</string>
     <string name="primes_marker">PrImEs</string>
-    <string name="primes_version">193447717</string>
+    <string name="primes_version">195183697</string>
     <string name="priority_notifications_description">When your notifications are high priority, your phone will alert you based on your priority notification settings</string>
     <string name="priority_notifications_preference_category_key">priorityNotificationsPreferenceCategory</string>
     <string name="priority_notifications_preferences_category">Priority notifications</string>
@@ -3704,6 +3725,7 @@ If you make this change, you will get:"</string>
     <string name="quartz_device_qualifier_w" />
     <string name="quartz_done_label">Done</string>
     <string name="quartz_entity_image_description">entity image</string>
+    <string name="quartz_ganache_continue_cooking_label">Continue cooking</string>
     <string name="quartz_ganache_done_instruction_suggestion">"I'm done"</string>
     <string name="quartz_ganache_hide_ingredient_label">Hide ingredients</string>
     <string name="quartz_ganache_image_desc">Cooking image</string>
@@ -3719,6 +3741,11 @@ If you make this change, you will get:"</string>
     <string name="quartz_ganache_show_ingredient_label">Show ingredients</string>
     <string name="quartz_ganache_skip_to_instruction_suggestion">Skip to instructions</string>
     <string name="quartz_ganache_start_cooking_label">Start cooking</string>
+    <string name="quartz_greeting_good_afternoon">Good afternoon</string>
+    <string name="quartz_greeting_good_evening">Good evening</string>
+    <string name="quartz_greeting_good_morning">Good morning</string>
+    <string name="quartz_greeting_good_night">Good night</string>
+    <string name="quartz_home_module_updated">%1$s • Updated %2$s</string>
     <string name="quartz_image_load_failed">Sorry, the image could not be loaded.</string>
     <string name="quartz_image_load_try_again">Try again</string>
     <string name="quartz_image_search_annotation_price_format" formatted="false">%s%.2f</string>
@@ -3726,7 +3753,7 @@ If you make this change, you will get:"</string>
     <string name="quartz_image_search_annotation_product_in_stock">In stock</string>
     <string name="quartz_image_search_annotation_product_out_of_stock">Out of stock</string>
     <string name="quartz_image_search_annotation_recipe_cook_time_prefix">Cook Time</string>
-    <string name="quartz_image_search_annotation_recipe_ingredients_title">Ingredients</string>
+    <string name="quartz_image_search_annotation_recipe_ingredients_title">INGREDIENTS</string>
     <string name="quartz_image_search_annotation_recipe_yield_prefix">Yield</string>
     <string name="quartz_image_search_annotation_reviews_count_format">(%d)</string>
     <string name="quartz_image_search_annotation_stars_rating_format">%.1f</string>
@@ -3736,12 +3763,13 @@ If you make this change, you will get:"</string>
     <string name="quartz_image_search_annotation_video_upload_date_prefix">Published</string>
     <string name="quartz_image_search_annotation_video_uploaded_by_prefix">Uploaded by</string>
     <string name="quartz_image_search_annotation_video_views_count_prefix">Views</string>
-    <string name="quartz_image_search_disclaimer">Images may be subject to copyright</string>
+    <string name="quartz_image_search_disclaimer">Images may be subject to copyright.</string>
     <string name="quartz_image_search_label_product">Product</string>
     <string name="quartz_image_search_label_recipe">Recipe</string>
     <string name="quartz_image_search_related_image_description">Related image</string>
     <string name="quartz_image_search_related_images">Related images</string>
     <string name="quartz_image_search_visit_link_prefix">Visit</string>
+    <string name="quartz_knowledge_attribution_delimiter">", "</string>
     <string name="quartz_libassistant_connection_permanently_disconnected">Something went wrong, please restart the device.</string>
     <string name="quartz_libassistant_connection_temporarily_suspended">Connecting to your Google Assistant…</string>
     <string name="quartz_list_transition_content_view">quartz_transition_content_view</string>
@@ -3764,6 +3792,7 @@ If you make this change, you will get:"</string>
     <string name="quartz_meals_cook_title">Cook</string>
     <string name="quartz_meals_description_title">Description</string>
     <string name="quartz_meals_explore_cook_time">%1$d mins</string>
+    <string name="quartz_meals_explore_default_title">Recipes</string>
     <string name="quartz_meals_home_background_image_description">quartz_meals_home_background_image_description</string>
     <string name="quartz_meals_home_recipe_site_icon_description">quartz_meals_home_recipe_site_icon_description</string>
     <string name="quartz_meals_ingredient_summary_title">Ingredients</string>
@@ -3793,6 +3822,7 @@ If you make this change, you will get:"</string>
     <string name="quartz_notification_title">Notification</string>
     <string name="quartz_notification_title_with_time">• %1$s %2$s</string>
     <string name="quartz_notification_title_without_time">• %s</string>
+    <string name="quartz_notifications_home_module_username_time">%1$s • %2$s</string>
     <string name="quartz_opening_hours_logo_description">opening hours</string>
     <string name="quartz_pair_notification_subject">Start pairing {device_name}</string>
     <string name="quartz_pair_notification_subject_unknown_device_name">Start pairing this device</string>
@@ -3810,25 +3840,23 @@ If you make this change, you will get:"</string>
     <string name="quartz_pairing_welcome_prelude_finding_device">Finding device…</string>
     <string name="quartz_pairing_welcome_prelude_select_device">Which device would you like to pair with?</string>
     <string name="quartz_pairing_welcome_welcome">Welcome! Let’s get you set up.</string>
-    <string name="quartz_pause_suggestion">”Pause timer“</string>
     <string name="quartz_phone_logo_description">phone</string>
     <string name="quartz_photo_list_slideshow_button_grid_content_description">Show gallery</string>
     <string name="quartz_photo_list_slideshow_button_play_content_description">Play</string>
     <string name="quartz_photo_list_slideshow_date_and_location">%1$s, %2$s</string>
     <string name="quartz_reboot_required_message">Please reboot to finish update</string>
+    <string name="quartz_recommendation_image_label">Thumbnail</string>
     <string name="quartz_relative_time_days_future">{days, plural, other {in #d}}</string>
     <string name="quartz_relative_time_days_past">{days, plural, other {#d ago}}</string>
     <string name="quartz_relative_time_hours_future">{hours, plural, other {in #h}}</string>
     <string name="quartz_relative_time_hours_past">{hours, plural, other {#h ago}}</string>
     <string name="quartz_relative_time_minutes_future">{minutes, plural, other {in #m}}</string>
     <string name="quartz_relative_time_minutes_past">{minutes, plural, other {#m ago}}</string>
-    <string name="quartz_remove_suggestion">”Stop timer“</string>
     <string name="quartz_resetdialog_button_no">No</string>
     <string name="quartz_resetdialog_button_yes">Yes, perform reset</string>
     <string name="quartz_resetdialog_message">Are you sure you want to reset Quartz?</string>
     <string name="quartz_resetdialog_title">Reset</string>
     <string name="quartz_resume_btn">resume</string>
-    <string name="quartz_resume_suggestion">”Resume timer“</string>
     <string name="quartz_shopping_cart_checkout_button_text">Checkout</string>
     <string name="quartz_shopping_cart_empty_card_subtitle">To shop, just say “add olive oil to my cart” or “buy pasta sauce”.</string>
     <string name="quartz_shopping_cart_empty_card_title">Your cart is empty</string>
@@ -3844,6 +3872,7 @@ If you make this change, you will get:"</string>
     <string name="quartz_show_resetdialog_button">Reset Quartz</string>
     <string name="quartz_suggestions_prompt">Try saying</string>
     <string name="quartz_summary_logo_description">summary</string>
+    <string name="quartz_timer_secondary_title">%s Timer</string>
     <string name="quartz_voice_plate_user_greeting">Hi, %1$s</string>
     <string name="quartz_weather_image_description">weather image</string>
     <string name="quartz_web_page_logo_description">web page</string>
@@ -3891,6 +3920,7 @@ If you make this change, you will get:"</string>
     <string name="recently_disabled_card_text">"Turn on Recent in Settings to keep a record of pages you've visited and quickly find them later."</string>
     <string name="recently_entry_interaction_offline">Cannot open requested page while offline.</string>
     <string name="recently_feed_entry">Feed</string>
+    <string name="recently_google_doodle_for">Google Doodle for %s</string>
     <string name="recently_onboarding_compare_message">"Can't decide on what to buy? Compare the options you found side by side."</string>
     <string name="recently_onboarding_compare_title">Compare</string>
     <string name="recently_onboarding_find_that_page_message">Want that recipe, article, or site from a few days ago? Save time hunting and find it here first.</string>
@@ -3916,10 +3946,16 @@ This won't delete them from your Google Account."</string>
 "<a href="http://myactivity.google.com">myactivity.google.com</a></string>
     <string name="recently_removed_item_dialog_ok">Got it</string>
     <string name="recently_removed_item_dialog_title">Removed from recent pages</string>
+    <string name="recently_screenshot_from_agsa">Screenshot from my Google App</string>
     <string name="recently_search_history_authenticating_cancel">Cancel</string>
     <string name="recently_search_history_authenticating_message">Signing in as %1$s…</string>
     <string name="recently_search_history_authenticating_title">Signing in</string>
+    <string name="recently_search_results_for">Search results for %s</string>
+    <string name="recently_share_search_url">"Search results for %1$s
+
+https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="recently_sharebear_subtitle">Screenshot</string>
+    <string name="recently_shared_from_agsa">Shared from my Google app</string>
     <string name="recently_simple_onboarding_pinch_message">Tip: Groups close for you when you scroll past them</string>
     <string name="recently_simple_onboarding_pinch_title">Pinch to close groups</string>
     <string name="recently_simple_onboarding_recent_message">Open up this group of pages to see more</string>
@@ -4040,7 +4076,6 @@ This won't delete them from your Google Account."</string>
     <string name="room_picker_create_new">Create new</string>
     <string name="room_picker_explanation">What space is this device in?</string>
     <string name="room_picker_my_room">My rooms</string>
-    <string name="rotate_camera">Rotate camera</string>
     <string name="runs_header">R</string>
     <string name="runs_header_full_length">Runs</string>
     <string name="s1">Save image</string>
@@ -4112,7 +4147,6 @@ This won't delete them from your Google Account."</string>
     <string name="screenshot_web_desc">Visit %s.</string>
     <string name="scroll_left">Scroll left</string>
     <string name="scroll_right">Scroll right</string>
-    <string name="search">Search</string>
     <string name="search_activity_name">Google</string>
     <string name="search_apps_and_web">Search apps and web…</string>
     <string name="search_apps_hint">Search apps…</string>
@@ -4220,18 +4254,19 @@ Try searching for the podcast again."</string>
     <item type="string" name="selection_radius_multiplier">0.16</item>
     <string name="selection_retry_ocr">Try again</string>
     <string name="send_feedback">Send feedback</string>
-    <string name="send_feedback_card">Send feedback</string>
     <string name="send_to_device_negative_button">Cancel</string>
     <string name="send_to_device_positive_button">Send</string>
     <string name="send_to_device_snackbar_text">Sent to %1$s</string>
     <string name="send_to_device_title">Send To Device</string>
     <string name="sender_and_message_contents">%1$s says, %2$s.</string>
+    <string name="sender_says_message">%1$s says: %2$s.</string>
     <string name="sending_audio_to_account_toast">Sending audio to %1$s…</string>
     <string name="sensitive_state_dump_checkbox">Include detailed app state</string>
     <string name="sensitive_state_dump_consent_details">This information hugely increases our ability to understand your issue and may include things like your email address, identity, search history or location, and it’ll be stored for up to 90 days. Access to this information is restricted and monitored by appropriate engineering and feedback teams.</string>
     <string name="sensitive_state_dump_consent_save_prompt">Remember my decision (toggle in Settings)</string>
     <string name="sensitive_state_dump_summary">Send detailed debugging information with feedback reports. Googler only.</string>
     <string name="sensitive_state_dump_title">Detailed debugging information</string>
+    <string name="separator">-</string>
     <string name="server_error">"Can't reach Google at the moment."</string>
     <string name="server_error_fetching_weather_data_status_text">Something went wrong. Please try again later.</string>
     <string name="serviceLabel">Google</string>
@@ -4259,7 +4294,6 @@ Try searching for the podcast again."</string>
     <string name="sexually_explicit">Sexually explicit</string>
     <string name="shake_to_send_feedback_summary">Shake phone to send feedback when Google Search is active. Googler only.</string>
     <string name="shake_to_send_feedback_title">Shake to send feedback</string>
-    <string name="share">Share</string>
     <string name="share_display_name">Share</string>
     <string name="sharebear_chooser_pane_edit">Edit</string>
     <string name="sharebear_chooser_pane_share">Share</string>
@@ -4289,7 +4323,7 @@ Try searching for the podcast again."</string>
     <string name="shared_audio">Shared audio with you</string>
     <string name="shared_contact">Shared a contact with you</string>
     <string name="shared_document">Shared a document with you</string>
-    <string name="shared_links_desc">Links sent and received via emails or messages</string>
+    <string name="shared_links_desc">Preview of links sent and received via emails or messages</string>
     <string name="shared_links_group_header">Shared Links</string>
     <string name="shared_links_title">Shared Links</string>
     <string name="shared_links_via">%1$s, via %2$s</string>
@@ -4299,8 +4333,8 @@ Try searching for the podcast again."</string>
     <string name="shared_video">Shared a video with you</string>
     <string name="shipped">Shipped</string>
     <string name="shipped_with_estimation">Shipped, delivery expected %s</string>
-    <string name="shoes">Shoes</string>
     <string name="shootout_abbreviation">SO</string>
+    <string name="shopping_list_category_title">Shopping services</string>
     <string name="shopping_mode_landing_text">Search shopping</string>
     <string name="short_google_play_services_enable_required">Google Play services needs to be enabled</string>
     <string name="short_google_play_services_install_required">Google Play services needs to be installed</string>
@@ -4346,7 +4380,6 @@ This show is not available right now."</string>
     <string name="signing_in_action">Signing in…</string>
     <string name="silent_dsp_unenroll">Unenrolling from always-on</string>
     <string name="silent_ringtone">Silent</string>
-    <string name="similar_images">Similar Images</string>
     <string name="single_device_found_title">Device found</string>
     <string name="single_device_not_available">%1$s not available. %2$s</string>
     <string name="single_notification_announcement_non_optimized">%1$s. %2$s</string>
@@ -4359,6 +4392,7 @@ This show is not available right now."</string>
     <string name="single_transit_station_closed">%1$s is %2$sclosed%3$s</string>
     <string name="sleep_mode_screen_apollo_message">To put the Google Pixel Buds in sleep mode, place them in the case or disconnect them from Bluetooth. To wake them, take them out of the case or double-tap the right earbud.</string>
     <string name="sleep_mode_screen_title">Sleep mode &amp; Charging</string>
+    <string name="slice_suggestion_message">This content comes from an installed app and is related to what you’re typing.</string>
     <string name="smartspace_calendar_summary">Next upcoming meeting alerts</string>
     <string name="smartspace_calendar_title">Calendar events</string>
     <string name="smartspace_commute_summary">Unusual traffic change alerts</string>
@@ -4367,6 +4401,8 @@ This show is not available right now."</string>
     <string name="smartspace_flight_title">Upcoming flight information</string>
     <string name="smartspace_no_settings_msg">No available settings</string>
     <string name="smartspace_settings_title">At A Glance</string>
+    <string name="smartspacewidget_beta_name">At a glance (Beta)</string>
+    <string name="smartspacewidget_name">At a glance</string>
     <string name="sms_display_name">Text</string>
     <string name="sms_provider_title">SMS</string>
     <string name="snackbar_action_undo">Undo</string>
@@ -4451,6 +4487,7 @@ This show is not available right now."</string>
     <string name="streaming_text_recognizing">Recognizing…</string>
     <string name="street_address_label">Street address</string>
     <string name="subscribe_button_label">Subscribe</string>
+    <string name="subscribe_to_see_new_episodes">Subscribe to podcasts to see new episodes</string>
     <string name="suggest">Autocomplete</string>
     <string name="suggest_contact_removal_body" formatted="false">This will remove &lt;b>%s&lt;/b> from your list of Top Contacts. You can still find &lt;b>%s&lt;/b> by searching.</string>
     <string name="suggest_contact_removal_cancel">CANCEL</string>
@@ -4470,11 +4507,11 @@ This show is not available right now."</string>
     <string name="suggest_toast_unhide_fail">Something went wrong! Failed to unhide %s</string>
     <string name="suggest_trends_summary">Display trending stories in your area</string>
     <string name="suggest_trends_title">Show trending stories</string>
+    <string name="suggestfeedback_done">DONE</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summer_time_mode_availability_preference">summerTimeModeAvailability</string>
     <string name="summer_time_mode_settings_preference">summerTimeModeSettings</string>
     <string name="summer_time_mode_switch_preference">summerTimeModeSwitch</string>
-    <string name="sunglasses">Sunglasses</string>
     <string name="suwFontSecondary">google-sans</string>
     <string name="suwFontSecondaryMedium">google-sans-medium</string>
     <string name="suw_back_button_label">Back</string>
@@ -4489,13 +4526,15 @@ This show is not available right now."</string>
     <string name="swc_title">To edit your widget again</string>
     <string name="symbol_and_exchange">%1$s (%2$s)</string>
     <string name="symbol_and_price_color">%1$s &lt;font color=%2$s>·&lt;/font> %3$s</string>
+    <string name="tab_downloaded_episodes">Downloaded</string>
+    <string name="tab_episodes_in_progress">In progress</string>
+    <string name="tab_new_episodes">New</string>
     <string name="tab_title_10_days">10 days</string>
     <string name="tab_title_today">Today</string>
     <string name="tab_title_tomorrow">Tomorrow</string>
     <string name="tap_mic_to_speak">Tap mic to start speaking</string>
     <string name="temperature_display">%1$s %2$s</string>
     <string name="terms_link">Terms</string>
-    <string name="text">Text</string>
     <string name="text_selection_menu_translate_action">Translate</string>
     <item type="string" name="text_size_multiplier_inner">0.14</item>
     <item type="string" name="text_size_multiplier_normal">0.17</item>
@@ -4564,7 +4603,6 @@ This show is not available right now."</string>
     <string name="timestamp_view_offline_network_status">Offline</string>
     <string name="title_font_family">google-sans</string>
     <string name="titles" formatted="false">%s, %s</string>
-    <string name="toast_camera_permission_denied">Visual search cannot be used without the camera permission.</string>
     <string name="toast_custom_tabs_account">Signed in as %1$s</string>
     <string name="toast_custom_tabs_first_run_experience">You can change web settings in Chrome</string>
     <string name="toast_hide">%s has been successfully hidden.</string>
@@ -4686,6 +4724,7 @@ Improve your headphone experience by sending headphone diagnostics, usage data, 
     <string name="trending_topdeck_subtitle">Trending</string>
     <string name="trends_learn_more_url">https://support.google.com/websearch/answer/106230?hl=%s</string>
     <string name="trends_suggestion_message">This search is trending in your area.</string>
+    <string name="trim_silence">Trim silence</string>
     <string name="trusted_voice_learn_more_url">https://support.google.com/websearch/answer/6031948</string>
     <string name="trusted_voice_paused_notification_content">Unlock without \"%1$s\".</string>
     <string name="trusted_voice_paused_notification_title">"Couldn't recognize your voice"</string>
@@ -4742,9 +4781,9 @@ Improve your headphone experience by sending headphone diagnostics, usage data, 
     <string name="unrecognized_format_pin_code">Enter valid Pincode</string>
     <string name="unrecognized_format_postal_code">Enter valid code</string>
     <string name="unrecognized_format_zip_code">Enter valid ZIP</string>
-    <string name="unreplied_emails_group_header">Unreplied Emails</string>
-    <string name="unreplied_group_header">Unreplied</string>
-    <string name="unreplied_messages_group_header">Unreplied Messages</string>
+    <string name="unreplied_emails_group_header">Priority Emails</string>
+    <string name="unreplied_group_header">Priority Conversation</string>
+    <string name="unreplied_messages_group_header">Priority Messages</string>
     <string name="unsubscribe_button_label">Subscribed</string>
     <string name="unsupported_action">This device cannot perform the action you requested</string>
     <string name="uos_account_picker_content_description">%1$s. Account selection drop down.</string>
@@ -4930,7 +4969,7 @@ Signed in as %1$s"</string>
     <string name="vehicle_integration_confirmation_dialog_message">Your car can work better with the Google app by enabling the bluetooth audio routing setting. Do that automatically?</string>
     <string name="vehicle_integration_confirmation_dialog_title">Update Google Settings?</string>
     <string name="velour_apk_compat">CggKBnZlbHZldAoVChN2ZWx2ZXRfZXhwZXJpbWVudGFs</string>
-    <string name="velour_release_config">CgYxOTA3LjQSx08KCG1haW5fYXBrKP___________wEw____________AUAASl8KCnNtYXJ0c3BhY2USCG5vdC11c2VkGkdjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUuc2VydmljZS53b3JrZXIuV29ya2VyRW50cnlQb2ludEplChBzbWFydHNwYWNld2lkZ2V0Eghub3QtdXNlZBpHY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5jb3JlLnNlcnZpY2Uud29ya2VyLldvcmtlckVudHJ5UG9pbnRKZwoSc2VhcmNobm93Ym9vdHN0cmFwEghub3QtdXNlZBpHY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5jb3JlLnNlcnZpY2Uud29ya2VyLldvcmtlckVudHJ5UG9pbnRKtAEKEWhvdHdvcmRlbnJvbGxtZW50Eldjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc3RhdGljcGx1Z2lucy5ob3R3b3JkZW5yb2xsbWVudC5Ib3R3b3JkRW5yb2xsbWVudEVudHJ5UG9pbnQaRmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS52ZWxvdXIuZHluYW1pY2hvc3RzLmFwaS5BY3Rpdml0eUVudHJ5UG9pbnRKywEKC2NvbGxlY3Rpb25zEjpjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EucGx1Z2lucy5jb2xsZWN0aW9ucy5FbnRyeVBvaW50GkRjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUubW9uZXQuTW9uZXRTZXJ2aWNlRW50cnlQb2ludBo6Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNoYXJlZC5tb25ldC5Nb25ldFVpRW50cnlQb2ludEqdAgoQZXhwbG9yZW9uY29udGVudBI-Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMuZXhwbG9yZS5jb250ZW50LkVudHJ5UG9pbnQaRGNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zZWFyY2guY29yZS5tb25ldC5Nb25ldFNlcnZpY2VFbnRyeVBvaW50Gjpjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2hhcmVkLm1vbmV0Lk1vbmV0VWlFbnRyeVBvaW50Gkdjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUuc2VydmljZS53b3JrZXIuV29ya2VyRW50cnlQb2ludEqGAgoEc2F2ZRIzY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMuc2F2ZS5FbnRyeVBvaW50GkRjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUubW9uZXQuTW9uZXRTZXJ2aWNlRW50cnlQb2ludBo6Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNoYXJlZC5tb25ldC5Nb25ldFVpRW50cnlQb2ludBpHY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5jb3JlLnNlcnZpY2Uud29ya2VyLldvcmtlckVudHJ5UG9pbnRKlAIKB3dlYXRoZXISNmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5wbHVnaW5zLndlYXRoZXIuRW50cnlQb2ludBpGY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnZlbG91ci5keW5hbWljaG9zdHMuYXBpLkFjdGl2aXR5RW50cnlQb2ludBo_Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5hcGkuTmF0aXZlSHlicmlkVWlFbnRyeVBvaW50Gkhjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUud2Vidmlldy5hcGkuSmF2YXNjcmlwdEVudHJ5UG9pbnRKlAEKDHdlYXRoZXJfaW5pdBI6Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMud2VhdGhlci5Jbml0RW50cnlQb2ludBpIY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5jb3JlLndlYnZpZXcuYXBpLkphdmFzY3JpcHRFbnRyeVBvaW50SqUBCgxpbmFwcHdlYnBhZ2USTWNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zdGF0aWNwbHVnaW5zLmluYXBwd2VicGFnZS5JbkFwcFdlYlBhZ2VFbnRyeVBvaW50GkZjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EudmVsb3VyLmR5bmFtaWNob3N0cy5hcGkuQWN0aXZpdHlFbnRyeVBvaW50SsQBCghyZWNlbnRseRI2Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMucmVjZW50cy5FbnRyeVBvaW50GkRjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUubW9uZXQuTW9uZXRTZXJ2aWNlRW50cnlQb2ludBo6Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNoYXJlZC5tb25ldC5Nb25ldFVpRW50cnlQb2ludErzAwoPd2Vybmlja2VfcGxheWVyEjxjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EucGx1Z2lucy5wb2RjYXN0cGxheWVyLkVudHJ5UG9pbnQaOmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zaGFyZWQubW9uZXQuTW9uZXRVaUVudHJ5UG9pbnQaRGNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zZWFyY2guY29yZS5tb25ldC5Nb25ldFNlcnZpY2VFbnRyeVBvaW50GkZjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EudmVsb3VyLmR5bmFtaWNob3N0cy5hcGkuQWN0aXZpdHlFbnRyeVBvaW50GkVjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EudmVsb3VyLmR5bmFtaWNob3N0cy5hcGkuU2VydmljZUVudHJ5UG9pbnQaSGNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zZWFyY2guY29yZS53ZWJ2aWV3LmFwaS5KYXZhc2NyaXB0RW50cnlQb2ludBpHY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5jb3JlLnNlcnZpY2Uud29ya2VyLldvcmtlckVudHJ5UG9pbnRKiAEKCm5vd2NvbnRlbnQSOWNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5wbHVnaW5zLm5vd2NvbnRlbnQuRW50cnlQb2ludBo_Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLm5vdy5ub3djb250ZW50Lk5vd0NvbnRlbnRFbnRyeVBvaW50Ss0DCgZjYW52YXMSVWNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5wbHVnaW5zLm5hdGl2ZXJlc3VsdHMuY2FudmFzLk5hdGl2ZUh5YnJpZENhbnZhc0VudHJ5UG9pbnQaTmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zZWFyY2guY29yZS5uYXRpdmVzcnB1aS5hcGkuQ2FudmFzV29ya2VyRW50cnlQb2ludBpGY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5zaGFyZWQubmF0aXZlc3JwdWkuQ2FudmFzRW50cnlQb2ludBpLY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5zaGFyZWQubmF0aXZlc3JwdWkuQ2FyZEZhY3RvcnlFbnRyeVBvaW50Gj9jb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmFwaS5OYXRpdmVIeWJyaWRVaUVudHJ5UG9pbnQaRmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS52ZWxvdXIuZHluYW1pY2hvc3RzLmFwaS5BY3Rpdml0eUVudHJ5UG9pbnRKpwEKFnNlYXJjaHJlc3VsdHNfYWN0aXZpdHkSRWNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5wbHVnaW5zLm5hdGl2ZXJlc3VsdHMuYWN0aXZpdHkuRW50cnlQb2ludBpGY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnZlbG91ci5keW5hbWljaG9zdHMuYXBpLkFjdGl2aXR5RW50cnlQb2ludErFAgoDaXBhEjJjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EucGx1Z2lucy5pcGEuRW50cnlQb2ludBpCY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5jYWx5cHNvLmlwYS5JcGFTZWFyY2hFbnRyeVBvaW50Gj5jb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoYm94LnVpLlNlYXJjaGJveFVpRW50cnlQb2ludBo-Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnRhc2tzLmFwaS5CYWNrZ3JvdW5kVGFza0VudHJ5UG9pbnQaRmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS52ZWxvdXIuZHluYW1pY2hvc3RzLmFwaS5BY3Rpdml0eUVudHJ5UG9pbnRKpAIKCWltZ3ZpZXdlchI8Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMuaW1hZ2VzLnZpZXdlci5FbnRyeVBvaW50Gkhjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUud2Vidmlldy5hcGkuSmF2YXNjcmlwdEVudHJ5UG9pbnQaRmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS52ZWxvdXIuZHluYW1pY2hvc3RzLmFwaS5BY3Rpdml0eUVudHJ5UG9pbnQaR2NvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zZWFyY2guY29yZS5zZXJ2aWNlLndvcmtlci5Xb3JrZXJFbnRyeVBvaW50SokBCgZjaGtwa2cSNWNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5wbHVnaW5zLmNoa3BrZy5FbnRyeVBvaW50Gkhjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUud2Vidmlldy5hcGkuSmF2YXNjcmlwdEVudHJ5UG9pbnRSB01BSU5ERVhapC8KB01BSU5ERVgSbAoKc21hcnRzcGFjZRIIbm90LXVzZWQaVApHY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5jb3JlLnNlcnZpY2Uud29ya2VyLldvcmtlckVudHJ5UG9pbnRKCQoHIgUSAwjlJBJyChBzbWFydHNwYWNld2lkZ2V0Eghub3QtdXNlZBpUCkdjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUuc2VydmljZS53b3JrZXIuV29ya2VyRW50cnlQb2ludEoJCgciBRIDCP8nEokBChJzZWFyY2hub3dib290c3RyYXASCG5vdC11c2VkGmkKR2NvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zZWFyY2guY29yZS5zZXJ2aWNlLndvcmtlci5Xb3JrZXJFbnRyeVBvaW50Sh4KHCIaEhgIzx8IxigIhhQI0h0Imx4IvCII5iUIrCcSkwMKEWhvdHdvcmRlbnJvbGxtZW50Eldjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc3RhdGljcGx1Z2lucy5ob3R3b3JkZW5yb2xsbWVudC5Ib3R3b3JkRW5yb2xsbWVudEVudHJ5UG9pbnQapAIKRmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS52ZWxvdXIuZHluYW1pY2hvc3RzLmFwaS5BY3Rpdml0eUVudHJ5UG9pbnQS2QEKaQoTZW5yb2xsbWVudC1hY3Rpdml0eRABGAIqTmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zdGF0aWNwbHVnaW5zLmhvdHdvcmRlbnJvbGxtZW50LkVucm9sbG1lbnRBY3Rpdml0eQpsChVkc3AtdW5lbnJvbGwtYWN0aXZpdHkQAhgCKk9jb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc3RhdGljcGx1Z2lucy5ob3R3b3JkZW5yb2xsbWVudC5Ec3BVbmVucm9sbEFjdGl2aXR5Es8BCgtjb2xsZWN0aW9ucxI6Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMuY29sbGVjdGlvbnMuRW50cnlQb2ludBpGCkRjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUubW9uZXQuTW9uZXRTZXJ2aWNlRW50cnlQb2ludBo8Cjpjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2hhcmVkLm1vbmV0Lk1vbmV0VWlFbnRyeVBvaW50EoEDChBleHBsb3Jlb25jb250ZW50Ej5jb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EucGx1Z2lucy5leHBsb3JlLmNvbnRlbnQuRW50cnlQb2ludBpGCkRjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUubW9uZXQuTW9uZXRTZXJ2aWNlRW50cnlQb2ludBo8Cjpjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2hhcmVkLm1vbmV0Lk1vbmV0VWlFbnRyeVBvaW50GqQBCkdjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUuc2VydmljZS53b3JrZXIuV29ya2VyRW50cnlQb2ludEpZClcKSWNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5wbHVnaW5zLmV4cGxvcmUuY29udGVudC5zZXJ2aWNlLkV4cGxvcmVXb3JrZXISB2V4cGxvcmUYngMgNBLZAgoEc2F2ZRIzY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMuc2F2ZS5FbnRyeVBvaW50GkYKRGNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zZWFyY2guY29yZS5tb25ldC5Nb25ldFNlcnZpY2VFbnRyeVBvaW50GjwKOmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zaGFyZWQubW9uZXQuTW9uZXRVaUVudHJ5UG9pbnQakwEKR2NvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zZWFyY2guY29yZS5zZXJ2aWNlLndvcmtlci5Xb3JrZXJFbnRyeVBvaW50SkgKRgo7Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMuc2F2ZS5zZXJ2aWNlLlNhdmVXb3JrZXISBHNhdmUYjAMgMhKtAwoHd2VhdGhlchI2Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMud2VhdGhlci5FbnRyeVBvaW50GngKRmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS52ZWxvdXIuZHluYW1pY2hvc3RzLmFwaS5BY3Rpdml0eUVudHJ5UG9pbnQSLgoWCg9XZWF0aGVyQWN0aXZpdHkYAzCrAgoUCg1Qcm94eUFjdGl2aXR5GAMwrAIaiAEKP2NvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zZWFyY2guYXBpLk5hdGl2ZUh5YnJpZFVpRW50cnlQb2ludDJFCkNjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EucGx1Z2lucy53ZWF0aGVyLldlYXRoZXJSZXN1bHRzUHJlc2VudGVyGmAKSGNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zZWFyY2guY29yZS53ZWJ2aWV3LmFwaS5KYXZhc2NyaXB0RW50cnlQb2ludBoUChJ3ZWF0aGVyX2NvbnRyb2xsZXIgJzCDAhL8AQoMd2VhdGhlcl9pbml0Ejpjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EucGx1Z2lucy53ZWF0aGVyLkluaXRFbnRyeVBvaW50GqoBCkhjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUud2Vidmlldy5hcGkuSmF2YXNjcmlwdEVudHJ5UG9pbnQaXgoEaW5pdBJWCk5jb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EucGx1Z2lucy53ZWF0aGVyLkVudHJ5UG9pbnQuV2VhdGhlckphdmFzY3JpcHRPYmplY3QSBGluaXQgKDCDAhKTAgoMaW5hcHB3ZWJwYWdlEk1jb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc3RhdGljcGx1Z2lucy5pbmFwcHdlYnBhZ2UuSW5BcHBXZWJQYWdlRW50cnlQb2ludBquAQpGY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnZlbG91ci5keW5hbWljaG9zdHMuYXBpLkFjdGl2aXR5RW50cnlQb2ludBJkCmIKDGluYXBwd2VicGFnZRADGAEqS2NvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zdGF0aWNwbHVnaW5zLmluYXBwd2VicGFnZS5JbkFwcFdlYlBhZ2VBY3Rpdml0eTCbAiAzMO4BEtkBCghyZWNlbnRseRI2Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMucmVjZW50cy5FbnRyeVBvaW50GkYKRGNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zZWFyY2guY29yZS5tb25ldC5Nb25ldFNlcnZpY2VFbnRyeVBvaW50GjwKOmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zaGFyZWQubW9uZXQuTW9uZXRVaUVudHJ5UG9pbnQ6D1JlY2VudHNBY3Rpdml0eRLqCAoPd2Vybmlja2VfcGxheWVyEjxjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EucGx1Z2lucy5wb2RjYXN0cGxheWVyLkVudHJ5UG9pbnQaPAo6Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNoYXJlZC5tb25ldC5Nb25ldFVpRW50cnlQb2ludBpGCkRjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUubW9uZXQuTW9uZXRTZXJ2aWNlRW50cnlQb2ludBqBAQpGY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnZlbG91ci5keW5hbWljaG9zdHMuYXBpLkFjdGl2aXR5RW50cnlQb2ludBI3ChUKDlBsYXllckFjdGl2aXR5GAMwogIKHgoTV2ViTGF1bmNoZXJBY3Rpdml0eRACGAMgAjCAAxqcAQpFY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnZlbG91ci5keW5hbWljaG9zdHMuYXBpLlNlcnZpY2VFbnRyeVBvaW50IlMKUQoNUG9kY2FzdFBsYXllchpAY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMucG9kY2FzdHBsYXllci5Qb2RjYXN0U2VydmljZRq-AQpIY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5jb3JlLndlYnZpZXcuYXBpLkphdmFzY3JpcHRFbnRyeVBvaW50GnIKEWpzX3BsYXllcl9zdGFydGVyEl0KSGNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5wbHVnaW5zLnBvZGNhc3RwbGF5ZXIuUGxheWVySmF2YXNjcmlwdE9iamVjdBIRanNfcGxheWVyX3N0YXJ0ZXIalQMKR2NvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zZWFyY2guY29yZS5zZXJ2aWNlLndvcmtlci5Xb3JrZXJFbnRyeVBvaW50SskCClkKRWNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5wbHVnaW5zLnBvZGNhc3RwbGF5ZXIuUG9kY2FzdFBsYXllcldvcmtlchINcG9kY2FzdHBsYXllchjdAwpvClBjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EucGx1Z2lucy5wb2RjYXN0cGxheWVyLndvcmtlci5QbGF5ZXJEYXRhTG9hZGluZ1dvcmtlchIYcG9kY2FzdHBsYXllcmRhdGFsb2FkaW5nGK4ECnsKVmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5wbHVnaW5zLnBvZGNhc3RwbGF5ZXIud29ya2VyLlJlY29tbWVuZGVkU2hvd3NMb2FkaW5nV29ya2VyEh5wb2RjYXN0cmVjb21tZW5kZWRzaG93c2xvYWRpbmcYsQQgKTCEAjoSUG9kY2FzdFBsYXllclByZWZzEo8BCgpub3djb250ZW50Ejljb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EucGx1Z2lucy5ub3djb250ZW50LkVudHJ5UG9pbnQaQQo_Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLm5vdy5ub3djb250ZW50Lk5vd0NvbnRlbnRFbnRyeVBvaW50IBww-AESxQQKBmNhbnZhcxJVY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMubmF0aXZlcmVzdWx0cy5jYW52YXMuTmF0aXZlSHlicmlkQ2FudmFzRW50cnlQb2ludBpQCk5jb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUubmF0aXZlc3JwdWkuYXBpLkNhbnZhc1dvcmtlckVudHJ5UG9pbnQaSApGY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5zaGFyZWQubmF0aXZlc3JwdWkuQ2FudmFzRW50cnlQb2ludBpNCktjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLnNoYXJlZC5uYXRpdmVzcnB1aS5DYXJkRmFjdG9yeUVudHJ5UG9pbnQajgEKP2NvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zZWFyY2guYXBpLk5hdGl2ZUh5YnJpZFVpRW50cnlQb2ludDJLCkljb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EucGx1Z2lucy5uYXRpdmVyZXN1bHRzLmNhbnZhcy5DYW52YXNDb250cm9sbGVyGmMKRmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS52ZWxvdXIuZHluYW1pY2hvc3RzLmFwaS5BY3Rpdml0eUVudHJ5UG9pbnQSGQoXCg5EaWFsb2dBY3Rpdml0eRACGAEwkAIgCTDiARLOAQoWc2VhcmNocmVzdWx0c19hY3Rpdml0eRJFY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMubmF0aXZlcmVzdWx0cy5hY3Rpdml0eS5FbnRyeVBvaW50GmgKRmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS52ZWxvdXIuZHluYW1pY2hvc3RzLmFwaS5BY3Rpdml0eUVudHJ5UG9pbnQSHgocChVTZWFyY2hSZXN1bHRzQWN0aXZpdHkYAjCmAiAiMP0BEssDCgNpcGESMmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5wbHVnaW5zLmlwYS5FbnRyeVBvaW50GkQKQmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zZWFyY2guY2FseXBzby5pcGEuSXBhU2VhcmNoRW50cnlQb2ludBpACj5jb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoYm94LnVpLlNlYXJjaGJveFVpRW50cnlQb2ludBqdAQo-Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnRhc2tzLmFwaS5CYWNrZ3JvdW5kVGFza0VudHJ5UG9pbnQ6WwpZChFJcGFCYWNrZ3JvdW5kVGFzaxJEY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMuaXBhLmJhY2tncm91bmQuSXBhQmFja2dyb3VuZFRhc2saYwpGY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnZlbG91ci5keW5hbWljaG9zdHMuYXBpLkFjdGl2aXR5RW50cnlQb2ludBIZChcKE0NwMkRlZXBsaW5rQWN0aXZpdHkYAiATMO8BErQDCglpbWd2aWV3ZXISPGNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5wbHVnaW5zLmltYWdlcy52aWV3ZXIuRW50cnlQb2ludBpXCkhjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUud2Vidmlldy5hcGkuSmF2YXNjcmlwdEVudHJ5UG9pbnQaCwoJaW1ndmlld2VyGmgKRmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS52ZWxvdXIuZHluYW1pY2hvc3RzLmFwaS5BY3Rpdml0eUVudHJ5UG9pbnQSHgocChNJbWFnZVZpZXdlckFjdGl2aXR5EAIYAjCaAhqgAQpHY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5jb3JlLnNlcnZpY2Uud29ya2VyLldvcmtlckVudHJ5UG9pbnRKVQpTCkNjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EucGx1Z2lucy5pbWFnZXMudmlld2VyLkltYWdlVmlld2VyV29ya2VyEglpbWd2aWV3ZXIYrgMgETDtARKaAQoGY2hrcGtnEjVjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EucGx1Z2lucy5jaGtwa2cuRW50cnlQb2ludBpUCkhjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUud2Vidmlldy5hcGkuSmF2YXNjcmlwdEVudHJ5UG9pbnQaCAoGY2hrcGtnIAow4wEiCG1haW5fYXBrkAEBILyydA</string>
+    <string name="velour_release_config">CgYxOTU1LjIS51gKCG1haW5fYXBrKP___________wEw____________AUAASl8KCnNtYXJ0c3BhY2USCG5vdC11c2VkGkdjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUuc2VydmljZS53b3JrZXIuV29ya2VyRW50cnlQb2ludEplChBzbWFydHNwYWNld2lkZ2V0Eghub3QtdXNlZBpHY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5jb3JlLnNlcnZpY2Uud29ya2VyLldvcmtlckVudHJ5UG9pbnRKZwoSc2VhcmNobm93Ym9vdHN0cmFwEghub3QtdXNlZBpHY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5jb3JlLnNlcnZpY2Uud29ya2VyLldvcmtlckVudHJ5UG9pbnRKtAEKEWhvdHdvcmRlbnJvbGxtZW50Eldjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc3RhdGljcGx1Z2lucy5ob3R3b3JkZW5yb2xsbWVudC5Ib3R3b3JkRW5yb2xsbWVudEVudHJ5UG9pbnQaRmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS52ZWxvdXIuZHluYW1pY2hvc3RzLmFwaS5BY3Rpdml0eUVudHJ5UG9pbnRKywEKC2NvbGxlY3Rpb25zEjpjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EucGx1Z2lucy5jb2xsZWN0aW9ucy5FbnRyeVBvaW50GkRjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUubW9uZXQuTW9uZXRTZXJ2aWNlRW50cnlQb2ludBo6Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNoYXJlZC5tb25ldC5Nb25ldFVpRW50cnlQb2ludEqdAgoQZXhwbG9yZW9uY29udGVudBI-Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMuZXhwbG9yZS5jb250ZW50LkVudHJ5UG9pbnQaRGNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zZWFyY2guY29yZS5tb25ldC5Nb25ldFNlcnZpY2VFbnRyeVBvaW50Gjpjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2hhcmVkLm1vbmV0Lk1vbmV0VWlFbnRyeVBvaW50Gkdjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUuc2VydmljZS53b3JrZXIuV29ya2VyRW50cnlQb2ludEqGAgoEc2F2ZRIzY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMuc2F2ZS5FbnRyeVBvaW50GkRjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUubW9uZXQuTW9uZXRTZXJ2aWNlRW50cnlQb2ludBo6Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNoYXJlZC5tb25ldC5Nb25ldFVpRW50cnlQb2ludBpHY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5jb3JlLnNlcnZpY2Uud29ya2VyLldvcmtlckVudHJ5UG9pbnRKlAIKB3dlYXRoZXISNmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5wbHVnaW5zLndlYXRoZXIuRW50cnlQb2ludBpGY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnZlbG91ci5keW5hbWljaG9zdHMuYXBpLkFjdGl2aXR5RW50cnlQb2ludBo_Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5hcGkuTmF0aXZlSHlicmlkVWlFbnRyeVBvaW50Gkhjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUud2Vidmlldy5hcGkuSmF2YXNjcmlwdEVudHJ5UG9pbnRKlAEKDHdlYXRoZXJfaW5pdBI6Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMud2VhdGhlci5Jbml0RW50cnlQb2ludBpIY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5jb3JlLndlYnZpZXcuYXBpLkphdmFzY3JpcHRFbnRyeVBvaW50SqUBCgxpbmFwcHdlYnBhZ2USTWNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zdGF0aWNwbHVnaW5zLmluYXBwd2VicGFnZS5JbkFwcFdlYlBhZ2VFbnRyeVBvaW50GkZjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EudmVsb3VyLmR5bmFtaWNob3N0cy5hcGkuQWN0aXZpdHlFbnRyeVBvaW50SsQBCghyZWNlbnRseRI2Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMucmVjZW50cy5FbnRyeVBvaW50GkRjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUubW9uZXQuTW9uZXRTZXJ2aWNlRW50cnlQb2ludBo6Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNoYXJlZC5tb25ldC5Nb25ldFVpRW50cnlQb2ludErzAwoPd2Vybmlja2VfcGxheWVyEjxjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EucGx1Z2lucy5wb2RjYXN0cGxheWVyLkVudHJ5UG9pbnQaOmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zaGFyZWQubW9uZXQuTW9uZXRVaUVudHJ5UG9pbnQaRGNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zZWFyY2guY29yZS5tb25ldC5Nb25ldFNlcnZpY2VFbnRyeVBvaW50GkZjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EudmVsb3VyLmR5bmFtaWNob3N0cy5hcGkuQWN0aXZpdHlFbnRyeVBvaW50GkVjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EudmVsb3VyLmR5bmFtaWNob3N0cy5hcGkuU2VydmljZUVudHJ5UG9pbnQaSGNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zZWFyY2guY29yZS53ZWJ2aWV3LmFwaS5KYXZhc2NyaXB0RW50cnlQb2ludBpHY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5jb3JlLnNlcnZpY2Uud29ya2VyLldvcmtlckVudHJ5UG9pbnRKiAEKCm5vd2NvbnRlbnQSOWNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5wbHVnaW5zLm5vd2NvbnRlbnQuRW50cnlQb2ludBo_Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLm5vdy5ub3djb250ZW50Lk5vd0NvbnRlbnRFbnRyeVBvaW50Ss0DCgZjYW52YXMSVWNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5wbHVnaW5zLm5hdGl2ZXJlc3VsdHMuY2FudmFzLk5hdGl2ZUh5YnJpZENhbnZhc0VudHJ5UG9pbnQaTmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zZWFyY2guY29yZS5uYXRpdmVzcnB1aS5hcGkuQ2FudmFzV29ya2VyRW50cnlQb2ludBpGY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5zaGFyZWQubmF0aXZlc3JwdWkuQ2FudmFzRW50cnlQb2ludBpLY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5zaGFyZWQubmF0aXZlc3JwdWkuQ2FyZEZhY3RvcnlFbnRyeVBvaW50Gj9jb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmFwaS5OYXRpdmVIeWJyaWRVaUVudHJ5UG9pbnQaRmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS52ZWxvdXIuZHluYW1pY2hvc3RzLmFwaS5BY3Rpdml0eUVudHJ5UG9pbnRKpwEKFnNlYXJjaHJlc3VsdHNfYWN0aXZpdHkSRWNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5wbHVnaW5zLm5hdGl2ZXJlc3VsdHMuYWN0aXZpdHkuRW50cnlQb2ludBpGY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnZlbG91ci5keW5hbWljaG9zdHMuYXBpLkFjdGl2aXR5RW50cnlQb2ludErFAgoDaXBhEjJjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EucGx1Z2lucy5pcGEuRW50cnlQb2ludBpCY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5jYWx5cHNvLmlwYS5JcGFTZWFyY2hFbnRyeVBvaW50Gj5jb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoYm94LnVpLlNlYXJjaGJveFVpRW50cnlQb2ludBo-Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnRhc2tzLmFwaS5CYWNrZ3JvdW5kVGFza0VudHJ5UG9pbnQaRmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS52ZWxvdXIuZHluYW1pY2hvc3RzLmFwaS5BY3Rpdml0eUVudHJ5UG9pbnRKpAIKCWltZ3ZpZXdlchI8Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMuaW1hZ2VzLnZpZXdlci5FbnRyeVBvaW50Gkhjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUud2Vidmlldy5hcGkuSmF2YXNjcmlwdEVudHJ5UG9pbnQaRmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS52ZWxvdXIuZHluYW1pY2hvc3RzLmFwaS5BY3Rpdml0eUVudHJ5UG9pbnQaR2NvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zZWFyY2guY29yZS5zZXJ2aWNlLndvcmtlci5Xb3JrZXJFbnRyeVBvaW50Sp8BChRkb29kbGVfbm90aWZpY2F0aW9ucxJEY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMuZG9vZGxlcy5ub3RpZmljYXRpb25zLkVudHJ5UG9pbnQaQWNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zZWFyY2guY29yZS5nY20uUHVzaE1lc3NhZ2VFbnRyeVBvaW50SokBCgZjaGtwa2cSNWNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5wbHVnaW5zLmNoa3BrZy5FbnRyeVBvaW50Gkhjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUud2Vidmlldy5hcGkuSmF2YXNjcmlwdEVudHJ5UG9pbnRKhQEKBGNhbGwSM2NvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5wbHVnaW5zLmNhbGwuRW50cnlQb2ludBpIY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5jb3JlLndlYnZpZXcuYXBpLkphdmFzY3JpcHRFbnRyeVBvaW50SuQBCg5iaXJ0aGRheWRvb2RsZRI_Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMuZG9vZGxlcy5iaXJ0aGRheS5FbnRyeVBvaW50GkZjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EudmVsb3VyLmR5bmFtaWNob3N0cy5hcGkuQWN0aXZpdHlFbnRyeVBvaW50Gkljb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2hhcmVkLnNlYXJjaC5kb29kbGUuYXBpLkRvb2RsZVZpZXdFbnRyeVBvaW50UgdNQUlOREVYWrM0CgdNQUlOREVYEmwKCnNtYXJ0c3BhY2USCG5vdC11c2VkGlQKR2NvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zZWFyY2guY29yZS5zZXJ2aWNlLndvcmtlci5Xb3JrZXJFbnRyeVBvaW50SgkKByIFEgMI5SQScgoQc21hcnRzcGFjZXdpZGdldBIIbm90LXVzZWQaVApHY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5jb3JlLnNlcnZpY2Uud29ya2VyLldvcmtlckVudHJ5UG9pbnRKCQoHIgUSAwj_JxKeAQoSc2VhcmNobm93Ym9vdHN0cmFwEghub3QtdXNlZBp-Ckdjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUuc2VydmljZS53b3JrZXIuV29ya2VyRW50cnlQb2ludEozCjEiLxItCM8fCMYoCIYUCNIdCJseCLwiCOYlCKwnCJYRCKkpCPUpCIgqCIErCM8pCNoqEpMDChFob3R3b3JkZW5yb2xsbWVudBJXY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnN0YXRpY3BsdWdpbnMuaG90d29yZGVucm9sbG1lbnQuSG90d29yZEVucm9sbG1lbnRFbnRyeVBvaW50GqQCCkZjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EudmVsb3VyLmR5bmFtaWNob3N0cy5hcGkuQWN0aXZpdHlFbnRyeVBvaW50EtkBCmkKE2Vucm9sbG1lbnQtYWN0aXZpdHkQARgCKk5jb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc3RhdGljcGx1Z2lucy5ob3R3b3JkZW5yb2xsbWVudC5FbnJvbGxtZW50QWN0aXZpdHkKbAoVZHNwLXVuZW5yb2xsLWFjdGl2aXR5EAIYAipPY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnN0YXRpY3BsdWdpbnMuaG90d29yZGVucm9sbG1lbnQuRHNwVW5lbnJvbGxBY3Rpdml0eRLPAQoLY29sbGVjdGlvbnMSOmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5wbHVnaW5zLmNvbGxlY3Rpb25zLkVudHJ5UG9pbnQaRgpEY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5jb3JlLm1vbmV0Lk1vbmV0U2VydmljZUVudHJ5UG9pbnQaPAo6Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNoYXJlZC5tb25ldC5Nb25ldFVpRW50cnlQb2ludBKBAwoQZXhwbG9yZW9uY29udGVudBI-Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMuZXhwbG9yZS5jb250ZW50LkVudHJ5UG9pbnQaRgpEY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5jb3JlLm1vbmV0Lk1vbmV0U2VydmljZUVudHJ5UG9pbnQaPAo6Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNoYXJlZC5tb25ldC5Nb25ldFVpRW50cnlQb2ludBqkAQpHY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5jb3JlLnNlcnZpY2Uud29ya2VyLldvcmtlckVudHJ5UG9pbnRKWQpXCkljb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EucGx1Z2lucy5leHBsb3JlLmNvbnRlbnQuc2VydmljZS5FeHBsb3JlV29ya2VyEgdleHBsb3JlGJ4DIDQS2QIKBHNhdmUSM2NvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5wbHVnaW5zLnNhdmUuRW50cnlQb2ludBpGCkRjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUubW9uZXQuTW9uZXRTZXJ2aWNlRW50cnlQb2ludBo8Cjpjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2hhcmVkLm1vbmV0Lk1vbmV0VWlFbnRyeVBvaW50GpMBCkdjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUuc2VydmljZS53b3JrZXIuV29ya2VyRW50cnlQb2ludEpICkYKO2NvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5wbHVnaW5zLnNhdmUuc2VydmljZS5TYXZlV29ya2VyEgRzYXZlGIwDIDISrQMKB3dlYXRoZXISNmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5wbHVnaW5zLndlYXRoZXIuRW50cnlQb2ludBp4CkZjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EudmVsb3VyLmR5bmFtaWNob3N0cy5hcGkuQWN0aXZpdHlFbnRyeVBvaW50Ei4KFgoPV2VhdGhlckFjdGl2aXR5GAMwqwIKFAoNUHJveHlBY3Rpdml0eRgDMKwCGogBCj9jb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmFwaS5OYXRpdmVIeWJyaWRVaUVudHJ5UG9pbnQyRQpDY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMud2VhdGhlci5XZWF0aGVyUmVzdWx0c1ByZXNlbnRlchpgCkhjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUud2Vidmlldy5hcGkuSmF2YXNjcmlwdEVudHJ5UG9pbnQaFAoSd2VhdGhlcl9jb250cm9sbGVyICcwgwIS_AEKDHdlYXRoZXJfaW5pdBI6Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMud2VhdGhlci5Jbml0RW50cnlQb2ludBqqAQpIY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5jb3JlLndlYnZpZXcuYXBpLkphdmFzY3JpcHRFbnRyeVBvaW50Gl4KBGluaXQSVgpOY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMud2VhdGhlci5FbnRyeVBvaW50LldlYXRoZXJKYXZhc2NyaXB0T2JqZWN0EgRpbml0ICgwgwISkwIKDGluYXBwd2VicGFnZRJNY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnN0YXRpY3BsdWdpbnMuaW5hcHB3ZWJwYWdlLkluQXBwV2ViUGFnZUVudHJ5UG9pbnQargEKRmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS52ZWxvdXIuZHluYW1pY2hvc3RzLmFwaS5BY3Rpdml0eUVudHJ5UG9pbnQSZApiCgxpbmFwcHdlYnBhZ2UQAxgBKktjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc3RhdGljcGx1Z2lucy5pbmFwcHdlYnBhZ2UuSW5BcHBXZWJQYWdlQWN0aXZpdHkwmwIgMzDuARLZAQoIcmVjZW50bHkSNmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5wbHVnaW5zLnJlY2VudHMuRW50cnlQb2ludBpGCkRjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUubW9uZXQuTW9uZXRTZXJ2aWNlRW50cnlQb2ludBo8Cjpjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2hhcmVkLm1vbmV0Lk1vbmV0VWlFbnRyeVBvaW50Og9SZWNlbnRzQWN0aXZpdHkS6ggKD3dlcm5pY2tlX3BsYXllchI8Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMucG9kY2FzdHBsYXllci5FbnRyeVBvaW50GjwKOmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zaGFyZWQubW9uZXQuTW9uZXRVaUVudHJ5UG9pbnQaRgpEY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5jb3JlLm1vbmV0Lk1vbmV0U2VydmljZUVudHJ5UG9pbnQagQEKRmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS52ZWxvdXIuZHluYW1pY2hvc3RzLmFwaS5BY3Rpdml0eUVudHJ5UG9pbnQSNwoVCg5QbGF5ZXJBY3Rpdml0eRgDMKICCh4KE1dlYkxhdW5jaGVyQWN0aXZpdHkQAhgDIAIwgAManAEKRWNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS52ZWxvdXIuZHluYW1pY2hvc3RzLmFwaS5TZXJ2aWNlRW50cnlQb2ludCJTClEKDVBvZGNhc3RQbGF5ZXIaQGNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5wbHVnaW5zLnBvZGNhc3RwbGF5ZXIuUG9kY2FzdFNlcnZpY2UavgEKSGNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zZWFyY2guY29yZS53ZWJ2aWV3LmFwaS5KYXZhc2NyaXB0RW50cnlQb2ludBpyChFqc19wbGF5ZXJfc3RhcnRlchJdCkhjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EucGx1Z2lucy5wb2RjYXN0cGxheWVyLlBsYXllckphdmFzY3JpcHRPYmplY3QSEWpzX3BsYXllcl9zdGFydGVyGpUDCkdjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUuc2VydmljZS53b3JrZXIuV29ya2VyRW50cnlQb2ludErJAgpZCkVjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EucGx1Z2lucy5wb2RjYXN0cGxheWVyLlBvZGNhc3RQbGF5ZXJXb3JrZXISDXBvZGNhc3RwbGF5ZXIY3QMKbwpQY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMucG9kY2FzdHBsYXllci53b3JrZXIuUGxheWVyRGF0YUxvYWRpbmdXb3JrZXISGHBvZGNhc3RwbGF5ZXJkYXRhbG9hZGluZxiuBAp7ClZjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EucGx1Z2lucy5wb2RjYXN0cGxheWVyLndvcmtlci5SZWNvbW1lbmRlZFNob3dzTG9hZGluZ1dvcmtlchIecG9kY2FzdHJlY29tbWVuZGVkc2hvd3Nsb2FkaW5nGLEEICkwhAI6ElBvZGNhc3RQbGF5ZXJQcmVmcxKPAQoKbm93Y29udGVudBI5Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMubm93Y29udGVudC5FbnRyeVBvaW50GkEKP2NvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5ub3cubm93Y29udGVudC5Ob3dDb250ZW50RW50cnlQb2ludCAcMPgBEsUECgZjYW52YXMSVWNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5wbHVnaW5zLm5hdGl2ZXJlc3VsdHMuY2FudmFzLk5hdGl2ZUh5YnJpZENhbnZhc0VudHJ5UG9pbnQaUApOY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5jb3JlLm5hdGl2ZXNycHVpLmFwaS5DYW52YXNXb3JrZXJFbnRyeVBvaW50GkgKRmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zZWFyY2guc2hhcmVkLm5hdGl2ZXNycHVpLkNhbnZhc0VudHJ5UG9pbnQaTQpLY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5zaGFyZWQubmF0aXZlc3JwdWkuQ2FyZEZhY3RvcnlFbnRyeVBvaW50Go4BCj9jb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmFwaS5OYXRpdmVIeWJyaWRVaUVudHJ5UG9pbnQySwpJY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMubmF0aXZlcmVzdWx0cy5jYW52YXMuQ2FudmFzQ29udHJvbGxlchpjCkZjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EudmVsb3VyLmR5bmFtaWNob3N0cy5hcGkuQWN0aXZpdHlFbnRyeVBvaW50EhkKFwoORGlhbG9nQWN0aXZpdHkQAhgBMJACIAkw4gESzgEKFnNlYXJjaHJlc3VsdHNfYWN0aXZpdHkSRWNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5wbHVnaW5zLm5hdGl2ZXJlc3VsdHMuYWN0aXZpdHkuRW50cnlQb2ludBpoCkZjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EudmVsb3VyLmR5bmFtaWNob3N0cy5hcGkuQWN0aXZpdHlFbnRyeVBvaW50Eh4KHAoVU2VhcmNoUmVzdWx0c0FjdGl2aXR5GAIwpgIgIjD9ARLLAwoDaXBhEjJjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EucGx1Z2lucy5pcGEuRW50cnlQb2ludBpECkJjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNhbHlwc28uaXBhLklwYVNlYXJjaEVudHJ5UG9pbnQaQAo-Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaGJveC51aS5TZWFyY2hib3hVaUVudHJ5UG9pbnQanQEKPmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS50YXNrcy5hcGkuQmFja2dyb3VuZFRhc2tFbnRyeVBvaW50OlsKWQoRSXBhQmFja2dyb3VuZFRhc2sSRGNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5wbHVnaW5zLmlwYS5iYWNrZ3JvdW5kLklwYUJhY2tncm91bmRUYXNrGmMKRmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS52ZWxvdXIuZHluYW1pY2hvc3RzLmFwaS5BY3Rpdml0eUVudHJ5UG9pbnQSGQoXChNDcDJEZWVwbGlua0FjdGl2aXR5GAIgEzDvARK0AwoJaW1ndmlld2VyEjxjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EucGx1Z2lucy5pbWFnZXMudmlld2VyLkVudHJ5UG9pbnQaVwpIY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnNlYXJjaC5jb3JlLndlYnZpZXcuYXBpLkphdmFzY3JpcHRFbnRyeVBvaW50GgsKCWltZ3ZpZXdlchpoCkZjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EudmVsb3VyLmR5bmFtaWNob3N0cy5hcGkuQWN0aXZpdHlFbnRyeVBvaW50Eh4KHAoTSW1hZ2VWaWV3ZXJBY3Rpdml0eRACGAIwmgIaoAEKR2NvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zZWFyY2guY29yZS5zZXJ2aWNlLndvcmtlci5Xb3JrZXJFbnRyeVBvaW50SlUKUwpDY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMuaW1hZ2VzLnZpZXdlci5JbWFnZVZpZXdlcldvcmtlchIJaW1ndmlld2VyGK4DIBEw7QESxwEKFGRvb2RsZV9ub3RpZmljYXRpb25zEkRjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2EucGx1Z2lucy5kb29kbGVzLm5vdGlmaWNhdGlvbnMuRW50cnlQb2ludBpkCkFjb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5nc2Euc2VhcmNoLmNvcmUuZ2NtLlB1c2hNZXNzYWdlRW50cnlQb2ludCofCh0KGURvb2RsZU5vdGlmaWNhdGlvbkhhbmRsZXIYAyAxMOkBEpoBCgZjaGtwa2cSNWNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5wbHVnaW5zLmNoa3BrZy5FbnRyeVBvaW50GlQKSGNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zZWFyY2guY29yZS53ZWJ2aWV3LmFwaS5KYXZhc2NyaXB0RW50cnlQb2ludBoICgZjaGtwa2cgCjDjARKbAQoEY2FsbBIzY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMuY2FsbC5FbnRyeVBvaW50GlkKSGNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zZWFyY2guY29yZS53ZWJ2aWV3LmFwaS5KYXZhc2NyaXB0RW50cnlQb2ludBoNCgtkaXJlY3RfY2FsbCAIMOEBEo8CCg5iaXJ0aGRheWRvb2RsZRI_Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMuZ3NhLnBsdWdpbnMuZG9vZGxlcy5iaXJ0aGRheS5FbnRyeVBvaW50GmoKRmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS52ZWxvdXIuZHluYW1pY2hvc3RzLmFwaS5BY3Rpdml0eUVudHJ5UG9pbnQSIAoeChVIYXBweUJpcnRoZGF5QWN0aXZpdHkQARgBMJgCGksKSWNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmdzYS5zaGFyZWQuc2VhcmNoLmRvb2RsZS5hcGkuRG9vZGxlVmlld0VudHJ5UG9pbnQgAjDdASIIbWFpbl9hcGuQAQEguql3</string>
     <string name="velvet_activity_allow_task_reparenting">false</string>
     <string name="velvet_activity_task_affinity" />
     <string name="velvetgsabridge_interface_name">velvetgsabridge</string>
@@ -4947,17 +4986,13 @@ Signed in as %1$s"</string>
     <string name="video_suggestion_dialog_goto_button">Go to %s</string>
     <string name="video_suggestion_message">You viewed this before and it’s related to what you’re typing. Go to &lt;b>%s&lt;/b> to remove it from your watch and search history on all your devices.</string>
     <string name="video_watch_on_youtube">Watch on YouTube</string>
+    <string name="videoplayer_close_button">Close</string>
     <string name="videos_mode_landing_text">Search videos</string>
     <string name="view_all_items_a11y_action">view all items</string>
     <string name="view_all_of_interest_button">View all (%1$d)</string>
     <string name="view_email">View email</string>
-    <string name="view_image_source">View image source</string>
     <string name="violent">Violent</string>
     <string name="visit_website">Visit website</string>
-    <string name="visual_search">Visual Search</string>
-    <string name="visual_search_log_user_images_preference_desc">Help improve our service by allowing Google to retain images from visual search.</string>
-    <string name="visual_search_preference_title">Visual search</string>
-    <string name="visually_similar_images">Visually similar images</string>
     <string name="voiceSearchPreferences">Voice Search settings</string>
     <string name="voice_ime_language_auto">Automatic</string>
     <string name="voice_language_preference_change">Your language for voice commands has also been changed to %s</string>
@@ -4975,7 +5010,6 @@ Signed in as %1$s"</string>
     <string name="voice_unlock_disclaimer">This is a less secure feature. A similar voice or recording of your voice could unlock your device. After one or more failed attempts, you must unlock your device another way.</string>
     <string name="voice_unlock_shared_title">Unlock with Voice Match</string>
     <string name="volume">Volume</string>
-    <string name="vs_feedback_entrypoint_no_results_card">Send Feedback</string>
     <string name="vs_hint_tap_to_cancel">Tap to cancel</string>
     <string name="vs_hint_tap_to_finish">Tap to finish</string>
     <string name="vs_hint_tap_to_speak">Voice search button, tap to speak</string>
@@ -5013,7 +5047,6 @@ Signed in as %1$s"</string>
     <string name="web_mode_landing_text">Search web</string>
     <string name="web_search_connection_error">"Can't load search results"</string>
     <string name="web_suggest_updating">Updating…</string>
-    <string name="website">Website</string>
     <string name="weekly_simple">Weekly</string>
     <string name="weekly_simple_lower">weekly</string>
     <string name="welcome_message">Get the most out of yout Assistant. Order takeout, shop for groceries, buy movie tickets, and more.</string>
@@ -5062,6 +5095,7 @@ Signed in as %1$s"</string>
     <string name="your_location_search_menu_text">Your location</string>
     <string name="your_train_reservation">Your train reservation</string>
     <string name="zero_state_hint">Swipe up to see what I have for you</string>
+    <string name="zero_state_hint_text">Swipe up to see your updates</string>
     <string name="zero_state_network_error_toast_message">"Can't reach Google at the moment.
 Your content may be stale."</string>
     <string name="zerostate_explore_section_more">More</string>

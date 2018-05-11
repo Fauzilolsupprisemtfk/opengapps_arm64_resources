@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.google.android.googlequicksearchbox" platformBuildVersionCode="27" platformBuildVersionName="P">
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="com.google.android.googlequicksearchbox" platformBuildVersionCode="28" platformBuildVersionName="9">
     <permission android:description="@string/audio_file_access_desc" android:label="@string/audio_file_access" android:name="com.google.android.voicesearch.AUDIO_FILE_ACCESS" android:protectionLevel="signature"/>
     <permission android:name="com.google.android.googlequicksearchbox.permission.FINISH_GEL_ACTIVITY" android:protectionLevel="signature"/>
     <uses-permission android:name="com.google.android.googlequicksearchbox.permission.FINISH_GEL_ACTIVITY"/>
@@ -895,10 +895,6 @@
         <activity android:exported="false" android:name="com.google.android.apps.gsa.staticplugins.opa.setupwizard.SuwActivity" android:process=":search" android:theme="@style/Theme.Transparent"/>
         <activity-alias android:exported="true" android:name="com.google.android.apps.gsa.staticplugins.opa.setupwizard.SetupWizardActivity" android:permission="com.google.android.apps.now.OPT_IN_WIZARD" android:targetActivity="com.google.android.apps.gsa.staticplugins.opa.setupwizard.SuwActivity">
             <intent-filter>
-                <action android:name="com.google.android.apps.gsa.opa.OPA_OPT_IN"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-            </intent-filter>
-            <intent-filter>
                 <action android:name="com.google.android.apps.gsa.opa.OPA_OPT_IN_WRAPPED"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
@@ -936,7 +932,12 @@
         <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:label="@string/sharebear_screenshotter_activity_label" android:name="com.google.android.apps.gsa.staticplugins.sharebear.ScreenshotterActivity" android:process=":search" android:taskAffinity="" android:theme="@style/ScreenshotterActivityTheme"/>
         <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:label="@string/sharebear_crop_and_edit_screenshot_activity_label" android:name="com.google.android.apps.gsa.staticplugins.sharebear.CropAndEditScreenshotActivity" android:process=":search" android:taskAffinity="" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:label="Storage permission explanation" android:name="com.google.android.apps.gsa.staticplugins.sharebear.StoragePermissionDialogActivity" android:process=":search" android:taskAffinity="" android:theme="@style/Theme.Velvet.Popup"/>
-        <activity android:name="com.google.android.apps.gsa.staticplugins.visualsearch.VisualSearchActivity" android:process=":search" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <receiver android:enabled="@bool/enable_smartspace_widget" android:label="@string/smartspacewidget_beta_name" android:name="com.google.android.apps.gsa.staticplugins.smartspace.widget.SmartspaceWidgetProvider" android:process=":search">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/smartspacewidget_info"/>
+        </receiver>
         <service android:exported="true" android:name="com.google.android.apps.gsa.tasks.BackgroundTasksGcmService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" android:process=":search">
             <intent-filter>
                 <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"/>

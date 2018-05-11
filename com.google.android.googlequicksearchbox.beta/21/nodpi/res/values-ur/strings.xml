@@ -12,6 +12,16 @@
     <string name="abc_activitychooserview_choose_application">ایک ایپ منتخب کریں</string>
     <string name="abc_capital_off">آف</string>
     <string name="abc_capital_on">آن</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+‎</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+‎</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+‎</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+‎</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+‎</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+‎</string>
+    <string name="abc_prepend_shortcut_label">Menu+‎</string>
     <string name="abc_search_hint">تلاش کریں…</string>
     <string name="abc_searchview_description_clear">استفسار صاف کریں</string>
     <string name="abc_searchview_description_query">استفسار تلاش کریں</string>
@@ -20,6 +30,8 @@
     <string name="abc_searchview_description_voice">صوتی تلاش</string>
     <string name="abc_shareactionprovider_share_with">اشتراک کریں مع</string>
     <string name="abc_shareactionprovider_share_with_application">%s کے ساتھ اشتراک کریں</string>
+    <string name="abc_slice_error">منسلک نہیں ہو سکا</string>
+    <string name="abc_slice_more">مزید</string>
     <string name="abc_slice_more_content">‎‎‎‎‎+ %1$d‎‎</string>
     <string name="abc_slice_permission_allow">اجازت دیں</string>
     <string name="abc_slice_permission_checkbox">%1$s کو کسی بھی ایپ سے سلائسز دکھانے کی اجازت دیں</string>
@@ -27,6 +39,8 @@
     <string name="abc_slice_permission_text_1">- یہ %1$s کی معلومات پڑھ سکتا ہے</string>
     <string name="abc_slice_permission_text_2">- یہ %1$s کے اندر کارروائیاں کر سکتا ہے</string>
     <string name="abc_slice_permission_title">%1$s کو %2$s کے سلائسز دکھانے کی اجازت دیں؟</string>
+    <string name="abc_slice_show_more">مزید دکھائیں</string>
+    <string name="abc_slice_updated">%1$s اپ ڈیٹ کیا گیا</string>
     <string name="abc_slices_permission_request">%1$s %2$s کے سلائسز دکھانا چاہتی ہے</string>
     <string name="abc_toolbar_collapse_description">سکیڑیں</string>
     <string name="acessibility_recurrence_choose_end_date_description">تاریخ اختتام تبدیل کریں</string>
@@ -176,6 +190,7 @@
     <string name="entry_desc">‏%2$d میں سے ‎%1$d کا اندراج۔</string>
     <string name="episode_completed">مکمل</string>
     <string name="episode_subtitle_format">%1$s ⸱ %2$s</string>
+    <string name="episodes_for_you">آپ کے لیے</string>
     <string name="error">خرابی</string>
     <string name="error_message">تلاش ناکام ہو گئی۔ براہ کرم بعد میں کوشش کریں۔</string>
     <string name="event_group_header">ایونٹس</string>
@@ -207,13 +222,13 @@
     <string name="gcm_fallback_notification_channel_label">متفرقات</string>
     <string name="gdi_add_button">شامل کریں</string>
     <string name="gdi_add_phone_number">فون شامل کریں</string>
-    <string name="gdi_add_phone_number_consent_text">"پیغام رسانی، سائن ان، Google معاون اور Google کی دیگر سروسز میں استعمال کیلئے اپنا فون شامل کریں۔ "</string>
+    <string name="gdi_add_phone_number_consent_text">پیغام رسانی، سائن ان، Google اسسٹنٹ اور Google کی دیگر سروسز میں استعمال کیلئے اپنا فون شامل کریں۔</string>
     <string name="gdi_add_phone_number_disclaimer">اس بات کو یقینی بنانے کیلئے کہ یہ آپ کا نمبر ہے Google آپ کو ایک یک وقتی متنی پیغام بھیجے گا۔ معیاری قیمتیں لاگو ہوتی ہیں۔</string>
     <string name="gdi_add_phone_number_error">براہ کرم ایک فون شامل کریں</string>
     <string name="gdi_add_phone_number_heading">%1$s کے ساتھ اکاؤنٹ تخلیق کرنے کیلئے فون نمبر شامل کریں</string>
     <string name="gdi_add_your_phone">اپنا فون نمبر شامل کریں</string>
     <string name="gdi_allow">اجازت دیں</string>
-    <string name="gdi_and_spaced">" اور "</string>
+    <string name="gdi_and_spaced">اور</string>
     <string name="gdi_app_terms">ایپ کی شرائط</string>
     <string name="gdi_back">پیچھے</string>
     <string name="gdi_bbb_already_have_account">میرے پاس پہلے سے %1$s اکاؤنٹ ہے</string>
@@ -229,7 +244,7 @@
     <string name="gdi_bbb_trouble_completing_request">درخواست مکمل کرنے میں دشواری۔</string>
     <string name="gdi_bbb_try_again_later">بعد میں دوبارہ کوشش کریں۔</string>
     <string name="gdi_bbb_verification_error">غلط توثیقی کوڈ</string>
-    <string name="gdi_bbb_verification_message">"آپ کے نمبر کی تصدیق کیلئے، Google ایک توثیقی کوڈ بھیجے گا۔ "</string>
+    <string name="gdi_bbb_verification_message">آپ کے نمبر کی تصدیق کیلئے، Google ایک توثیقی کوڈ بھیجے گا۔</string>
     <string name="gdi_cancel">منسوخ کریں</string>
     <string name="gdi_choose_account_title">جاری رکھنے کیلئے، %1$s کو اپنے Google اکاؤنٹ سے لنک کریں</string>
     <string name="gdi_close">بند کریں</string>
@@ -245,8 +260,8 @@
     <string name="gdi_enter_code_subheading">"ہم نے 
 %1$s پر ایک توثیقی کوڈ بھیجا ہے"</string>
     <string name="gdi_enter_the_code">کوڈ درج کریں</string>
-    <string name="gdi_fine_print_middle">" سے اتفاق کرتے ہیں اور اس بات سے بھی کہ Google آپ کے %1$s اکاؤنٹ کی معلومات تک رسائی حاصل کر سکتا ہے۔"</string>
-    <string name="gdi_fine_print_preamble">"جاری رکھ کر آپ %1$s کی "</string>
+    <string name="gdi_fine_print_middle">سے اتفاق کرتے ہیں اور اس بات سے بھی کہ Google آپ کے %1$s اکاؤنٹ کی معلومات تک رسائی حاصل کر سکتا ہے۔</string>
+    <string name="gdi_fine_print_preamble">جاری رکھ کر آپ %1$s کی</string>
     <string name="gdi_finish">مکمل کریں</string>
     <string name="gdi_invalid_number_error">غلط نمبر</string>
     <string name="gdi_learn_more_link">مزید جانیں</string>
@@ -272,7 +287,7 @@
     <string name="generic_error_message">کچھ غلط ہو گیا</string>
     <string name="gmail_update_required">‏اس فون پر Gmail کا ورژن غیر تعاون یافتہ ہے۔ براہ کرم تازہ ترین ورژن پر اپ ڈیٹ کریں۔</string>
     <string name="gmscore_update_required">‏اس فون پر Google Play سروسز کا ورژن غیر تعاون یافتہ ہے۔ براہ کرم تازہ ترین ورژن پر اپ ڈیٹ کریں۔</string>
-    <string name="goto_system_settings">Settings</string>
+    <string name="goto_system_settings">ترتیبات</string>
     <string name="group_desc">‏%2$d میں سے ‎%1$d کا گروپ۔</string>
     <string name="gws_fetch_failed">سرور سے منسلک ہونے میں ناکام۔</string>
     <string name="gws_fetch_unauthenticated">براہ کرم اضافی مواد دیکھنے کیلئے لاگ ان کریں۔</string>
@@ -446,11 +461,10 @@
     <string name="no_chip_desc">سبھی نتائج دیکھیں۔</string>
     <string name="no_connection">کوئی کنکشن نہیں ہے</string>
     <string name="no_downloaded_episodes">کوئی ڈاؤن لوڈ کردہ ایپی سوڈ نہیں ہے</string>
+    <string name="no_episodes_in_progress">کوئی ایپی سوڈ پیشرفت میں نہیں ہے</string>
     <string name="no_longer_available">مزید دستیاب نہیں ہے</string>
-    <string name="no_newest_episodes">کوئی نیا ایپی سوڈ نہیں ہے</string>
     <string name="no_personal_content_ipa">کوئی ذاتی مواد نہیں ملا</string>
     <string name="no_podcasts_found">کوئی پوڈکاسٹس نہیں ملے</string>
-    <string name="no_recently_played_episodes">حال ہی میں چلایا گیا کوئی ایپی سوڈ نہیں ہے</string>
     <string name="no_results_found">کوئی نتائج نہیں ملے</string>
     <string name="no_results_found_link">دیگر ذاتی نتائج دیکھیں</string>
     <string name="no_results_snippet">آپ کی تلاش کسی ذاتی مواد سے مماثل نہیں ہے</string>
@@ -484,8 +498,9 @@
     <string name="play">چلائیں</string>
     <string name="play_this_episode">یہ ایپی سوڈ چلائیں</string>
     <string name="playback_error_cancel">منسوخ کریں</string>
+    <string name="playback_error_message">This episode couldn’t be played. Please try again later.</string>
+    <string name="playback_error_ok">OK</string>
     <string name="playback_error_retry">دوبارہ کوشش کریں</string>
-    <string name="playback_error_title">درخواست کردہ ایپی سوڈ نہیں چلائی جا سکی</string>
     <string name="playback_panel_error">چلانے سے قاصر</string>
     <string name="playback_status_buffering">بفرنگ ہو رہی ہے...</string>
     <string name="please_select">براہ کرم منتخب کریں</string>
@@ -517,6 +532,7 @@
     <string name="recently_disabled_card_text">"اپنے ملاحظہ کردہ صفحات کا ریکارڈ رکھنے کیلئے 'ترتیبات' میں 'حالیہ' آن کریں اور بعد میں انہیں فوری طور پر تلاش کریں۔"</string>
     <string name="recently_entry_interaction_offline">آف لائن رہتے ہوئے مطلوبہ صفحہ نہیں کھل سکتا۔</string>
     <string name="recently_feed_entry">فیڈ</string>
+    <string name="recently_google_doodle_for">Google Doodle for %s</string>
     <string name="recently_onboarding_compare_message">کیا خریدنا چاہیے اس کا فیصلہ نہیں کر سکتے؟ ملنے والے اختیارات کا موازنہ ساتھ ساتھ کریں۔</string>
     <string name="recently_onboarding_compare_title">موازنہ کریں</string>
     <string name="recently_onboarding_find_that_page_message">کچھ دن پہلے کا وہ نسخہ، مضمون یا سائٹ چاہیے؟ تلاش کا وقت بچائیں اور پہلے اسے یہاں تلاش کریں۔</string>
@@ -542,10 +558,16 @@
 "<a href="http://myactivity.google.com">myactivity.google.com</a>‎</string>
     <string name="recently_removed_item_dialog_ok">سمجھ آ گئی</string>
     <string name="recently_removed_item_dialog_title">حالیہ صفحات سے ہٹا دیا گیا</string>
+    <string name="recently_screenshot_from_agsa">Screenshot from my Google App</string>
     <string name="recently_search_history_authenticating_cancel">منسوخ کریں</string>
     <string name="recently_search_history_authenticating_message">%1$s کے بطور سائن ان ہو رہا ہے…</string>
     <string name="recently_search_history_authenticating_title">سائن ان ہو رہا ہے</string>
+    <string name="recently_search_results_for">Search results for %s</string>
+    <string name="recently_share_search_url">"Search results for %1$s
+
+https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="recently_sharebear_subtitle">اسکرین شاٹ</string>
+    <string name="recently_shared_from_agsa">Shared from my Google app</string>
     <string name="recently_simple_onboarding_pinch_message">تجویز: جب گروپس کو نظر انداز کر کے آپ اسکرول کرتے ہیں تو وہ آپ کیلئے بند ہو جاتے ہیں</string>
     <string name="recently_simple_onboarding_pinch_title">گروپ بند کرنے کیلئے چٹکی بھریں</string>
     <string name="recently_simple_onboarding_recent_message">مزید دیکھنے کیلئے صفحات کے اس گروپ کو کھولیں</string>
@@ -565,7 +587,7 @@
     <string name="recurrence_end_date_label">ایک مخصوص تاریخ تک</string>
     <string name="recurrence_month_pattern_by_day">ہر ماہ اسی دن</string>
     <string name="recurrence_month_pattern_last_day">مہینے کے آخری دن</string>
-    <string name="reject_storage_permission">Not now</string>
+    <string name="reject_storage_permission">ابھی نہیں</string>
     <string name="reminders_accessibility_add_reminder">نئی یاددہانی بنائیں</string>
     <string name="reminders_accessibility_back">پیچھے</string>
     <string name="reminders_accessibility_repeating">تکراری</string>
@@ -596,9 +618,9 @@
     <string name="remove_completed_episodes">مکمل شدہ ایپی سوڈز کو ہٹائیں</string>
     <string name="remove_downloaded_episode">ڈاؤن لوڈ کردہ ایپی سوڈ کو ہٹائیں</string>
     <string name="remove_unfinished_episodes">نامکمل ایپی سوڈز کو ہٹائیں</string>
-    <string name="request_storage_message">To download episodes, allow access to your device storage</string>
-    <string name="request_storage_permission_dialog_message">To download episodes, Google needs access to your device storage</string>
-    <string name="request_storage_permission_dialog_title">Allow storage access</string>
+    <string name="request_storage_message">ایپی سوڈز ڈاؤن لوڈ کرنے کیلئے، اپنے آلے کے اسٹوریج تک رسائی کی اجازت دیں</string>
+    <string name="request_storage_permission_dialog_message">‏ایپی سوڈز ڈاؤن لوڈ کرنے کیلئے، Google کو آپ کے آلے کے اسٹوریج تک رسائی درکار ہے</string>
+    <string name="request_storage_permission_dialog_title">اسٹوریج تک رسائی کی اجازت دیں</string>
     <string name="reservation_group_header">ریزرویشنز</string>
     <string name="retry_failed_download">دوبارہ ڈاؤن لوڈ کرنے کی کوشش کریں</string>
     <string name="returned">واپس کر دیا گیا</string>
@@ -666,10 +688,14 @@
     <string name="space">﻿</string>
     <string name="status_bar_notification_info_overflow">+999</string>
     <string name="subscribe_button_label">سبسکرائب کریں</string>
+    <string name="subscribe_to_see_new_episodes">نئے ایپی سوڈز دیکھنے کے لیے پوڈکاسٹس کو سبسکرائب کریں</string>
     <string name="summary_collapsed_preference_list">%1$s، %2$s</string>
     <string name="suw_back_button_label">پیچھے</string>
     <string name="suw_more_button_label">مزید</string>
     <string name="suw_next_button_label">آگے</string>
+    <string name="tab_downloaded_episodes">ڈاؤن لوڈ کردہ</string>
+    <string name="tab_episodes_in_progress">پیشرفت میں ہے</string>
+    <string name="tab_new_episodes">نیا</string>
     <string name="toast_hide">%s کو کامیابی کے ساتھ مخفی کر دیا گیا۔</string>
     <string name="toast_hide_fail">کچھ غلط ہو گیا! %s مخفی نہیں ہوا۔</string>
     <string name="toast_unhide">%s کی پوشیدگی کامیابی کے ساتھ ختم کی گئی۔</string>
@@ -678,6 +704,7 @@
     <string name="tomorrow">آئندہ کل</string>
     <string name="top_contacts_group_header">سر فہرست رابطے</string>
     <string name="transportation_title">%1$s تا %2$s</string>
+    <string name="trim_silence">Trim silence</string>
     <string name="undo">کالعدم کریں</string>
     <string name="uninstall_system_app_text">یہ ایک سسٹم ایپ ہے اور اسے اَن انسٹال نہیں کیا جا سکتا ہے۔</string>
     <string name="unknown">نامعلوم</string>
@@ -686,9 +713,9 @@
     <string name="unrecognized_format_pin_code">درست پن کوڈ درج کریں</string>
     <string name="unrecognized_format_postal_code">درست کوڈ درج کریں</string>
     <string name="unrecognized_format_zip_code">‏درست ZIP درج کریں</string>
-    <string name="unreplied_emails_group_header">Unreplied Emails</string>
-    <string name="unreplied_group_header">Unreplied</string>
-    <string name="unreplied_messages_group_header">Unreplied Messages</string>
+    <string name="unreplied_emails_group_header">ترجیحی ای میلز</string>
+    <string name="unreplied_group_header">ترجیحی گفتگو</string>
+    <string name="unreplied_messages_group_header">ترجیحی پیغامات</string>
     <string name="unsubscribe_button_label">سبسکرائب کردہ</string>
     <string name="up">اوپر نیویگیٹ کریں</string>
     <string name="upcoming_event_group_header">آئندہ</string>

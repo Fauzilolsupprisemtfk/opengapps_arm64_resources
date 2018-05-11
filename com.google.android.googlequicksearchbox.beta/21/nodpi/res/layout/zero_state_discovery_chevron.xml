@@ -1,3 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ImageView android:layout_gravity="bottom|center" android:id="@id/zero_state_discovery_chevron" android:paddingBottom="@dimen/zero_state_discovery_chevron_padding_bottom" android:layout_width="@dimen/zero_state_expander_size" android:layout_height="@dimen/zero_state_expander_size" android:src="@drawable/quantum_ic_keyboard_arrow_up_black_24" android:scaleType="center" android:layout_alignParentBottom="true"
+<TextView android:layout_gravity="center" android:id="@id/zero_state_discovery_chevron" android:background="@android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/zero_state_hint_text" style="@style/ChatUi.ZS.Chevron.Text"
   xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -12,6 +12,16 @@
     <string name="abc_activitychooserview_choose_application">ជ្រើស​កម្មវិធី​​</string>
     <string name="abc_capital_off">បិទ</string>
     <string name="abc_capital_on">បើក</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
     <string name="abc_search_hint">ស្វែងរក…</string>
     <string name="abc_searchview_description_clear">សម្អាត​សំណួរ</string>
     <string name="abc_searchview_description_query">ស្វែងរក​សំណួរ</string>
@@ -20,6 +30,8 @@
     <string name="abc_searchview_description_voice">ការស្វែងរក​សំឡេង</string>
     <string name="abc_shareactionprovider_share_with">ចែករំលែក​ជាមួយ</string>
     <string name="abc_shareactionprovider_share_with_application">ចែក​រំលែក​ជា​មួយ %s</string>
+    <string name="abc_slice_error">មិន​អាចភ្ជាប់​បានទេ</string>
+    <string name="abc_slice_more">ច្រើន​ទៀត</string>
     <string name="abc_slice_more_content">+ %1$d</string>
     <string name="abc_slice_permission_allow">អនុញ្ញាត</string>
     <string name="abc_slice_permission_checkbox">អនុញ្ញាត​ឱ្យ %1$s បង្ហាញ​ស្ថិតិ​ប្រើប្រាស់​ពី​កម្មវិធី​នានា</string>
@@ -27,6 +39,8 @@
     <string name="abc_slice_permission_text_1">- វា​អាច​អាន​ព័ត៌មាន​ពី %1$s</string>
     <string name="abc_slice_permission_text_2">- វាអាច​ធ្វើសកម្មភាព​នៅក្នុង %1$s</string>
     <string name="abc_slice_permission_title">អនុញ្ញាតឱ្យ %1$s បង្ហាញ​ស្ថិតិប្រើប្រាស់​របស់ %2$s ?</string>
+    <string name="abc_slice_show_more">បង្ហាញ​ច្រើនទៀត</string>
+    <string name="abc_slice_updated">បាន​ធ្វើ​បច្ចុប្បន្នភាព​កាលពី %1$s</string>
     <string name="abc_slices_permission_request">%1$s ចង់​បង្ហាញ​ស្ថិតិ​ប្រើប្រាស់​របស់ %2$s</string>
     <string name="abc_toolbar_collapse_description">បង្រួម</string>
     <string name="acessibility_recurrence_choose_end_date_description">ប្ដូរ​កាលបរិច្ឆេទ​បញ្ចប់</string>
@@ -176,6 +190,7 @@
     <string name="entry_desc">ធាតុចូល %1$d នៃ %2$d ។</string>
     <string name="episode_completed">បានបញ្ចប់ហើយ</string>
     <string name="episode_subtitle_format">%1$s ⸱ %2$s</string>
+    <string name="episodes_for_you">សម្រាប់អ្នក</string>
     <string name="error">បញ្ហា</string>
     <string name="error_message">ការស្វែងរកបានបរាជ័យ សូមព្យាយាមនៅពេលក្រោយ។</string>
     <string name="event_group_header">ព្រឹត្តិការណ៍</string>
@@ -207,13 +222,13 @@
     <string name="gcm_fallback_notification_channel_label">ផ្សេងៗ</string>
     <string name="gdi_add_button">បន្ថែម</string>
     <string name="gdi_add_phone_number">បន្ថែមលេខទូរសព្ទ</string>
-    <string name="gdi_add_phone_number_consent_text">"បញ្ចូល​លេខ​ទូរសព្ទ​របស់​អ្នក​សម្រាប់​ប្រើ ដើម្បី​ផ្ញើ​សារ, ចូល​គណនី,​ ប្រើ​ Google​ ជំនួយការ​ និង​ប្រើ​សេវាកម្ម​ Google​ ផ្សេង​ទៀត​។ "</string>
+    <string name="gdi_add_phone_number_consent_text">បញ្ចូល​លេខ​ទូរសព្ទ​របស់​អ្នក​សម្រាប់​ប្រើ ដើម្បី​ផ្ញើ​សារ, ចូល​គណនី,​ ប្រើ​ Google​ ជំនួយការ​ និង​ប្រើ​សេវាកម្ម​ Google​ ផ្សេង​ទៀត​។</string>
     <string name="gdi_add_phone_number_disclaimer">Google នឹង​ផ្ញើ​សារ​ជាអក្សរតែម្តង​ទៅ​អ្នក ដើម្បីបញ្ជាក់​ថា​នេះ​គឺជា​​លេខទូរសព្ទរបស់អ្នក។ គិតប្រាក់ក្នុងអត្រាទូទៅ។</string>
     <string name="gdi_add_phone_number_error">សូម​បញ្ចូល​លេខទូរសព្ទ</string>
     <string name="gdi_add_phone_number_heading">បញ្ចូលលេខទូរសព្ទ​ ដើម្បីបង្កើតគណនី​ជាមួយ %1$s</string>
     <string name="gdi_add_your_phone">បញ្ចូលលេខទូរសព្ទរបស់អ្នក</string>
     <string name="gdi_allow">អនុញ្ញាត</string>
-    <string name="gdi_and_spaced">" ​និង "</string>
+    <string name="gdi_and_spaced">​និង</string>
     <string name="gdi_app_terms">លក្ខខណ្ឌកម្មវិធី</string>
     <string name="gdi_back">ថយក្រោយ</string>
     <string name="gdi_bbb_already_have_account">ខ្ញុំមានគណនី %1$s រួចហើយ</string>
@@ -229,7 +244,7 @@
     <string name="gdi_bbb_trouble_completing_request">មានបញ្ហា​ក្នុងការបំពេញ​តាមសំណើ។</string>
     <string name="gdi_bbb_try_again_later">សូម​ព្យាយាម​ម្តងទៀត​នៅពេល​ក្រោយ។</string>
     <string name="gdi_bbb_verification_error">លេខ​កូដ​ផ្ទៀងផ្ទាត់​មិន​ត្រឹមត្រូវទេ</string>
-    <string name="gdi_bbb_verification_message">"Google នឹងផ្ញើ​កូដផ្ទៀងផ្ទាត់​ដើម្បីបញ្ជាក់​លេខទូរសព្ទ​របស់អ្នក។ "</string>
+    <string name="gdi_bbb_verification_message">Google នឹងផ្ញើ​កូដផ្ទៀងផ្ទាត់​ដើម្បីបញ្ជាក់​លេខទូរសព្ទ​របស់អ្នក។</string>
     <string name="gdi_cancel">បោះបង់</string>
     <string name="gdi_choose_account_title">ដើម្បីបន្ត សូមភ្ជាប់ %1$s ទៅគណនី Google របស់អ្នក</string>
     <string name="gdi_close">បិទ</string>
@@ -245,8 +260,8 @@
     <string name="gdi_enter_code_subheading">"យើងបានផ្ញើលេខកូដផ្ទៀងផ្ទាត់ទៅ 
 %1$s"</string>
     <string name="gdi_enter_the_code">បញ្ចូលលេខកូដ</string>
-    <string name="gdi_fine_print_middle">" ហើយយល់ព្រមថា Google អាចនឹងចូលប្រើព័ត៌មានគណនី %1$s របស់អ្នក។"</string>
-    <string name="gdi_fine_print_preamble">"ប្រសិនបើបន្ត នោះអ្នកយល់ព្រមតាម %1$s "</string>
+    <string name="gdi_fine_print_middle">ហើយយល់ព្រមថា Google អាចនឹងចូលប្រើព័ត៌មានគណនី %1$s របស់អ្នក។</string>
+    <string name="gdi_fine_print_preamble">ប្រសិនបើបន្ត នោះអ្នកយល់ព្រមតាម %1$s</string>
     <string name="gdi_finish">បញ្ចប់</string>
     <string name="gdi_invalid_number_error">លេខ​​មិន​ត្រឹមត្រូវ</string>
     <string name="gdi_learn_more_link">ស្វែង​យល់​បន្ថែម</string>
@@ -446,11 +461,10 @@
     <string name="no_chip_desc">មើល​លទ្ធផល​ទាំងអស់។</string>
     <string name="no_connection">គ្មាន​ការ​តភ្ជាប់ទេ</string>
     <string name="no_downloaded_episodes">មិន​មាន​ភាគ​ដែល​បានទាញ​យក​ទេ</string>
+    <string name="no_episodes_in_progress">មិនមាន​ភាគ​ដែល​មិន​ទាន់​បញ្ចប់​ទេ</string>
     <string name="no_longer_available">មិនអាចប្រើបានទៀតទេ</string>
-    <string name="no_newest_episodes">គ្មានភាគ​ថ្មីទេ</string>
     <string name="no_personal_content_ipa">រក​មិន​ឃើញ​ខ្លឹមសារ​ផ្ទាល់ខ្លួន​ទេ</string>
     <string name="no_podcasts_found">រកមិនឃើញផតខាសទេ</string>
-    <string name="no_recently_played_episodes">គ្មានភាគដែលបានទស្សនាថ្មី​ៗនេះ​ទេ</string>
     <string name="no_results_found">រកមិន​ឃើញ​លទ្ធផល​ទេ</string>
     <string name="no_results_found_link">មើល​លទ្ធផល​ផ្ទាល់ខ្លួន​ផ្សេងទៀត</string>
     <string name="no_results_snippet">ការ​ស្វែងរក​របស់អ្នក​មិន​ត្រូវ​គ្នា​ជាមួយ​ខ្លឹមសារ​ផ្ទាល់ខ្លួន​ណាមួយឡើយ</string>
@@ -484,8 +498,9 @@
     <string name="play">ចាក់</string>
     <string name="play_this_episode">ចាក់ភាគនេះ</string>
     <string name="playback_error_cancel">បោះបង់</string>
+    <string name="playback_error_message">ភាគ​នេះ​មិន​អាច​ចាក់​បានទេ។ សូម​ព្យាយាម​ម្តង​ទៀត​នៅ​ពេលក្រោយ។</string>
+    <string name="playback_error_ok">យល់ព្រម</string>
     <string name="playback_error_retry">ព្យាយាមម្ដងទៀត</string>
-    <string name="playback_error_title">មិនអាចចាក់ភាគដែលបានស្នើទេ</string>
     <string name="playback_panel_error">មិនអាចចាក់បានទេ</string>
     <string name="playback_status_buffering">កំពុង​បម្រុងទុក...</string>
     <string name="please_select">សូម​ជ្រើស</string>
@@ -515,6 +530,7 @@
     <string name="recently_disabled_card_text">បើក ថ្មីៗ នៅក្នុងការកំណត់ដើម្បីរក្សាទុកទំព័រដែលអ្នកបានចូលទៅកាន់ និងដើម្បីស្វែងរកពួកវាឱ្យបានរហ័សនៅពេលក្រោយ។</string>
     <string name="recently_entry_interaction_offline">មិនអាច​បើក​ទំព័រ​ដែលបាន​ស្នើសុំ​នៅពេល​គ្មាន​អ៊ីនធឺណិត​បានទេ។</string>
     <string name="recently_feed_entry">ព័ត៌មាន</string>
+    <string name="recently_google_doodle_for">Google Doodle សម្រាប់ %s</string>
     <string name="recently_onboarding_compare_message">មិន​អាច​សម្រេច​ចិត្ត​ថា​ត្រូវ​ទិញ​របស់​មួយណា​មែនទេ? ប្រៀប​ធៀប​ជម្រើសដែល​អ្នក​បាន​រកឃើញ​នៅ​ផ្នែក​ទាំង​សង​ខាង។</string>
     <string name="recently_onboarding_compare_title">ប្រៀបធៀប</string>
     <string name="recently_onboarding_find_that_page_message">ចង់​បាន​រូបមន្ត​ធ្វើម្ហូប អត្ថបទ ឬ​ទំព័រ​កាល​ពីប៉ុន្មាន​ថ្ងៃមុន​ដែរទេ? កុំខ្ជះខ្ជាយពេលវេលាស្វែងរកអី។ សូម​ស្វែងរក​វា​នៅ​ទីនេះ​ជាមុន​សិន។</string>
@@ -540,10 +556,16 @@
 "<a href="http://myactivity.google.com">myactivity.google.com</a></string>
     <string name="recently_removed_item_dialog_ok">យល់ហើយ</string>
     <string name="recently_removed_item_dialog_title">បាន​ដក​ចេញ​ពី​ទំព័រ​ថ្មីៗ</string>
+    <string name="recently_screenshot_from_agsa">រូបថត​អេក្រង់​ពី​កម្មវិធី Google របស់ខ្ញុំ</string>
     <string name="recently_search_history_authenticating_cancel">បោះបង់</string>
     <string name="recently_search_history_authenticating_message">កំពុង​ចូល​ជា %1$s…</string>
     <string name="recently_search_history_authenticating_title">កំពុងចូល</string>
+    <string name="recently_search_results_for">ស្វែងរក​លទ្ធផល​សម្រាប់ %s</string>
+    <string name="recently_share_search_url">"លទ្ធផល​ស្វែងរកសម្រាប់ %1$s
+
+https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="recently_sharebear_subtitle">រូបថត​អេក្រង់</string>
+    <string name="recently_shared_from_agsa">បាន​ចែក​រំលែក​ពី​កម្មវិធី Google របស់ខ្ញុំ</string>
     <string name="recently_simple_onboarding_pinch_message">ជំនួយ៖ ក្រុមនឹងបិទជំនួសអ្នក នៅពេលដែលអ្នករំកិលកាត់ពួកវា</string>
     <string name="recently_simple_onboarding_pinch_title">ច្បិចលើអេក្រង់ដើម្បីបិទក្រុម</string>
     <string name="recently_simple_onboarding_recent_message">បើក​ក្រុម​ទំព័រ​នេះ​ដើម្បី​មើល​ប្រធានបទ​ជា​ច្រើនទៀត</string>
@@ -664,10 +686,14 @@
     <string name="space">﻿</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="subscribe_button_label">​ជាវ​</string>
+    <string name="subscribe_to_see_new_episodes">ជាវ​ផតខាស ដើម្បី​មើល​ភាគថ្មី</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="suw_back_button_label">ថយក្រោយ</string>
     <string name="suw_more_button_label">ច្រើនទៀត</string>
     <string name="suw_next_button_label">បន្ទាប់</string>
+    <string name="tab_downloaded_episodes">បាន​ទាញ​យក</string>
+    <string name="tab_episodes_in_progress">មិនទាន់បញ្ចប់</string>
+    <string name="tab_new_episodes">ថ្មី</string>
     <string name="toast_hide">%s ត្រូវបានលាក់ដោយជោគជ័យ។</string>
     <string name="toast_hide_fail">មានអ្វីមួយខុសប្រក្រតី! %s មិនត្រូវបានលាក់ទេ។</string>
     <string name="toast_unhide">%s ត្រូវបានឈប់លាក់ដោយជោគជ័យ។</string>
@@ -676,6 +702,7 @@
     <string name="tomorrow">ថ្ងៃស្អែក</string>
     <string name="top_contacts_group_header">ទំនាក់ទំនងពេញនិយម</string>
     <string name="transportation_title">%1$s ទៅ %2$s</string>
+    <string name="trim_silence">កាត់សំឡេងស្ងាត់</string>
     <string name="undo">ត្រឡប់វិញ</string>
     <string name="uninstall_system_app_text">នេះ​​​ជា​កម្មវិធី​ប្រព័ន្ធ មិន​អាច​លុប​បាន​ទេ។</string>
     <string name="unknown">មិនស្គាល់</string>
@@ -684,9 +711,9 @@
     <string name="unrecognized_format_pin_code">បញ្ចូលកូដ Pin ដែលត្រឹមត្រូវ</string>
     <string name="unrecognized_format_postal_code">បញ្ចូលកូដដែលត្រឹមត្រូវ</string>
     <string name="unrecognized_format_zip_code">បញ្ចូលកូដប្រៃសណីយ៍ដែលត្រឹមត្រូវ</string>
-    <string name="unreplied_emails_group_header">Unreplied Emails</string>
-    <string name="unreplied_group_header">Unreplied</string>
-    <string name="unreplied_messages_group_header">Unreplied Messages</string>
+    <string name="unreplied_emails_group_header">អ៊ីមែលជាអាទិភាព</string>
+    <string name="unreplied_group_header">ការសន្ទនាជា​អាទិភាព</string>
+    <string name="unreplied_messages_group_header">សារជាអាទិភាព</string>
     <string name="unsubscribe_button_label">បាន​ជាវ</string>
     <string name="up">ទៅលើ</string>
     <string name="upcoming_event_group_header">នាពេលខាងមុខ</string>
