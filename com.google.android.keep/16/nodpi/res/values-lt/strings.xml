@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">Elemento įtrauka pašalinta</string>
+    <string name="a11y_item_indented_under">Elementui pritaikyta įtrauka po %1$s</string>
+    <string name="a11y_item_moved_above">Elementas perkeltas virš %1$s</string>
+    <string name="a11y_item_moved_below">Elementas perkeltas po %1$s</string>
     <string name="abc_action_bar_home_description">Eiti į pagrindinį puslapį</string>
     <string name="abc_action_bar_up_description">Eiti į viršų</string>
     <string name="abc_action_menu_overflow_description">Daugiau parinkčių</string>
@@ -25,10 +29,14 @@
     <string name="account_sync_off">Sinchronizavimas išjungtas. Vėl įjunkite sinchronizavimą, kad būtų išsaugoti visi pakeitimai.</string>
     <string name="acessibility_recurrence_choose_end_date_description">keisti pabaigos datą</string>
     <string name="action">Veiksmas</string>
+    <string name="action_dedent_item">Pašalinti įtrauką</string>
     <string name="action_download_chrome">Atsisiųsti „Chrome“</string>
     <string name="action_fix">Pataisyti</string>
     <string name="action_get_google_app">Gauti programą</string>
+    <string name="action_indent_item">Pritaikyti įtrauką</string>
     <string name="action_label">Grįžti</string>
+    <string name="action_move_item_down">Perkelti žemyn</string>
+    <string name="action_move_item_up">Perkelti aukštyn</string>
     <string name="action_retry">Band. dar kartą</string>
     <string name="add">Pridėti</string>
     <string name="add_account">Pridėti paskyrą</string>
@@ -257,6 +265,7 @@
     <string name="go_to_note">Eiti į užrašą</string>
     <string name="google_assistant_shopping_list_change">„Google“ padėjėjo pirkinių sąrašas keičiamas.</string>
     <string name="google_keep_document">„Google Keep“ dokumentas</string>
+    <string name="got_it">Supratau</string>
     <string name="grabbing_image_text">Užfiksuojamas vaizdo tekstas…</string>
     <string name="grabbing_image_text_cancelled">Vaizdo teksto fiksavimas atšauktas</string>
     <string name="grant_access_generic_error">Klaida bandant surasti naudotoją %s. Vėliau bandykite dar kartą.</string>
@@ -283,6 +292,7 @@
     <string name="image_content_description">Vaizdas</string>
     <string name="image_deleted">Vaizdas ištrintas</string>
     <string name="image_text_grabbed">Vaizdo tekstas užfiksuotas</string>
+    <string name="indent_coach_mark_header_text">Perbraukite sąraše esančius elementus, kad pritaikytumėte įtrauką</string>
     <string name="ink_clear_canvas">Išvalyti drobę</string>
     <string name="ink_clear_dialog_cancel">Atšaukti</string>
     <string name="ink_clear_dialog_ok">Išvalyti</string>
@@ -455,7 +465,6 @@
     <string name="partially_checked_checkbox">Iš dalies pažymėtas žymimasis laukelis</string>
     <string name="photo_view_count" formatted="false">%d iš %d</string>
     <string name="pinned_note_content_description">Prisegtas užrašas</string>
-    <string name="pinning_action_button_coach_mark">Prisekite svarbius užrašus viršuje.</string>
     <string name="place_autocomplete_clear_button">Išvalyti paiešką</string>
     <string name="place_autocomplete_search_hint">Paieška</string>
     <string name="place_reminder_content_description">Vietos priminimas: %s</string>
@@ -642,7 +651,6 @@
     <string name="warm_welcome_screen_two_title">Užfiksuokite viską</string>
     <string name="weekly_simple">Kas savaitę</string>
     <string name="weekly_simple_lower">kas savaitę</string>
-    <string name="welcome_card_got_it">SUPRATAU</string>
     <string name="whats_new_description">Prisekite svarbius užrašus viršuje.</string>
     <string name="whats_new_in_keep">Kas naujo „Keep“</string>
     <string name="widget_add_note">Prid. past.</string>

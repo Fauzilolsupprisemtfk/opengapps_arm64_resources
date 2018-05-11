@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">مورد از تورفتگی درآورده شد</string>
+    <string name="a11y_item_indented_under">مورد %1$s دارای فرورفتگی شد</string>
+    <string name="a11y_item_moved_above">مورد به بالای %1$s منتقل شد</string>
+    <string name="a11y_item_moved_below">مورد به پایین %1$s منتقل شد</string>
     <string name="abc_action_bar_home_description">پیمایش به صفحه اصلی</string>
     <string name="abc_action_bar_up_description">پیمایش به بالا</string>
     <string name="abc_action_menu_overflow_description">گزینه‌های بیشتر</string>
@@ -25,10 +29,14 @@
     <string name="account_sync_off">همگام‌سازی خاموش است. برای اطمینان از اینکه همه تغییراتتان ذخیره می‌شوند، دوباره همگام‌سازی را روشن کنید.</string>
     <string name="acessibility_recurrence_choose_end_date_description">تغییر تاریخ پایان</string>
     <string name="action">اقدام</string>
+    <string name="action_dedent_item">لغو تورفتگی</string>
     <string name="action_download_chrome">‏بارگیری Chrome</string>
     <string name="action_fix">رفع اشکال</string>
     <string name="action_get_google_app">دریافت برنامه</string>
+    <string name="action_indent_item">تورفتگی</string>
     <string name="action_label">بازگشت</string>
+    <string name="action_move_item_down">انتقال به پایین</string>
+    <string name="action_move_item_up">انتقال به بالا</string>
     <string name="action_retry">تلاش مجدد</string>
     <string name="add">افزودن</string>
     <string name="add_account">افزودن حساب</string>
@@ -257,6 +265,7 @@
     <string name="go_to_note">رفتن به یادداشت</string>
     <string name="google_assistant_shopping_list_change">‏فهرست خرید «دستیار Google» درحال تغییر کردن است.</string>
     <string name="google_keep_document">‏سند Google Keep</string>
+    <string name="got_it">متوجه شدم</string>
     <string name="grabbing_image_text">گرفتن نوشتار تصویر…</string>
     <string name="grabbing_image_text_cancelled">گرفتن نوشتار تصویر لغو شد</string>
     <string name="grant_access_generic_error">خطا در پیدا کردن کاربر %s. لطفاً بعداً دوباره امتحان کنید.</string>
@@ -283,6 +292,7 @@
     <string name="image_content_description">تصویر</string>
     <string name="image_deleted">تصویر حذف شد</string>
     <string name="image_text_grabbed">نوشتار تصویر دریافت شد</string>
+    <string name="indent_coach_mark_header_text">برای ایجاد تورفتگی، سریع انگشتتان را روی موارد موجود در فهرست بکشید</string>
     <string name="ink_clear_canvas">پاک کردن بوم</string>
     <string name="ink_clear_dialog_cancel">لغو</string>
     <string name="ink_clear_dialog_ok">پاک کردن</string>
@@ -455,7 +465,6 @@
     <string name="partially_checked_checkbox">برخی از کادرهای تأیید علامت‌گذاری شدند</string>
     <string name="photo_view_count" formatted="false">%d از %d</string>
     <string name="pinned_note_content_description">یادداشت پین شد</string>
-    <string name="pinning_action_button_coach_mark">یادداشت‌های مهم را در بالا پین کنید.</string>
     <string name="place_autocomplete_clear_button">پاک کردن جستجو</string>
     <string name="place_autocomplete_search_hint">جستجو</string>
     <string name="place_reminder_content_description">یادآوری مکان %s</string>
@@ -577,7 +586,7 @@
     <string name="share_with_name">اشتراک‌گذاری با %s</string>
     <string name="shared_from">توسط %s به اشتراک گذاشته شد</string>
     <string name="shared_note_email_not_found">این یادداشت با %s به اشتراک گذاشته شد. لازم است حساب را به این دستگاه اضافه کنید.</string>
-    <string name="shared_notification_title">%s یادداشتی را با شما به اشتراک گذاشت</string>
+    <string name="shared_notification_title">%s یادداشتی را با شما هم‌رسانی کرد</string>
     <string name="sharee_avatar_content_description">با %s به اشتراک گذاشته شد</string>
     <string name="sharee_avatar_overflow_description">با %d نفر دیگر به اشتراک گذاشته شد</string>
     <string name="sharee_avatars_content_description">یادداشت با %s به اشتراک گذاشته شد</string>
@@ -587,7 +596,7 @@
     <string name="sharing_add_repeated_sharee">این رایانامه از قبل وجود دارد.</string>
     <string name="sharing_add_sharee">اشتراک‌گذاری یادداشت</string>
     <string name="sharing_add_sharee_hint_text">شخص یا رایانامه برای اشتراک‌گذاری با آن</string>
-    <string name="sharing_error_description_generic">نمی‌توان با کاربران زیر به اشتراک گذاشت.</string>
+    <string name="sharing_error_description_generic">نمی‌توان با کاربران زیر هم‌رسانی کرد.</string>
     <string name="sharing_error_description_oad">کاربران زیر به اشتراک گذاشته نمی‌شوند زیرا سرپرستتان اشتراک‌گذاری با خارج از دامنه‌تان را غیرفعال کرده است.</string>
     <string name="sharing_error_description_srd">کاربران زیر به اشتراک گذاشته نمی‌شوند زیرا سرپرستشان اشتراک‌گذاری با دامنه‌شان را غیرفعال کرده است.</string>
     <string name="sharing_error_description_srd_and_oad">کاربران زیر به اشتراک گذاشته نمی‌شوند زیرا یا سرپرست آنها اشتراک‌گذاری با دامنه‌شان را غیرفعال کرده است، یا سرپرست شما اشتراک‌گذاری با خارج از دامنه‌تان را غیرفعال کرده است.</string>
@@ -597,7 +606,7 @@
     <string name="sharing_max_sharee_number_exceeded">این یادداشت با حداکثر تعداد افراد به اشتراک گذاشته شده است.</string>
     <string name="show_account_list">نمایش حساب‌ها</string>
     <string name="show_less">نمایش موارد کمتر</string>
-    <string name="show_more">نمایش موارد بیشتر</string>
+    <string name="show_more">بیشتر ببینید</string>
     <string name="sign_in">ورود به سیستم</string>
     <string name="signed_in_account">به‌عنوان %s وارد سیستم شدید</string>
     <string name="single_invalid_sharee_error_message">خطا: %s</string>
@@ -642,7 +651,6 @@
     <string name="warm_welcome_screen_two_title">هر چیزی را ثبت کنید</string>
     <string name="weekly_simple">هفتگی</string>
     <string name="weekly_simple_lower">هفتگی</string>
-    <string name="welcome_card_got_it">متوجه شدم</string>
     <string name="whats_new_description">یادداشت‌های مهم را در بالا پین کنید.</string>
     <string name="whats_new_in_keep">‏تازه‌‌های Keep</string>
     <string name="widget_add_note">افزودن یادداشت</string>

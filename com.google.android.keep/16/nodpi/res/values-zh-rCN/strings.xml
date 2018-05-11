@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">内容已取消缩进</string>
+    <string name="a11y_item_indented_under">内容已在“%1$s”下方缩进</string>
+    <string name="a11y_item_moved_above">内容已移至“%1$s”上方</string>
+    <string name="a11y_item_moved_below">内容已移至“%1$s”下方</string>
     <string name="abc_action_bar_home_description">转到主屏幕</string>
     <string name="abc_action_bar_up_description">转到上一层级</string>
     <string name="abc_action_menu_overflow_description">更多选项</string>
@@ -25,10 +29,14 @@
     <string name="account_sync_off">同步功能已关闭。请重新开启同步功能，以确保所有更改均能保存。</string>
     <string name="acessibility_recurrence_choose_end_date_description">更改结束日期</string>
     <string name="action">操作</string>
+    <string name="action_dedent_item">取消缩进</string>
     <string name="action_download_chrome">下载 Chrome</string>
     <string name="action_fix">修正</string>
     <string name="action_get_google_app">获取应用</string>
+    <string name="action_indent_item">缩进</string>
     <string name="action_label">回车</string>
+    <string name="action_move_item_down">下移</string>
+    <string name="action_move_item_up">上移</string>
     <string name="action_retry">重试</string>
     <string name="add">添加</string>
     <string name="add_account">添加帐号</string>
@@ -257,6 +265,7 @@
     <string name="go_to_note">转到备注</string>
     <string name="google_assistant_shopping_list_change">Google 智能助理购物清单有变化。</string>
     <string name="google_keep_document">Google Keep 文档</string>
+    <string name="got_it">知道了</string>
     <string name="grabbing_image_text">正在抓取图片文字…</string>
     <string name="grabbing_image_text_cancelled">已取消抓取图片文字</string>
     <string name="grant_access_generic_error">尝试查找用户%s时出错，请稍后重试。</string>
@@ -283,6 +292,7 @@
     <string name="image_content_description">图片</string>
     <string name="image_deleted">图片已删除</string>
     <string name="image_text_grabbed">已抓取图片文字</string>
+    <string name="indent_coach_mark_header_text">滑动列表中的内容即可缩进</string>
     <string name="ink_clear_canvas">清空画布</string>
     <string name="ink_clear_dialog_cancel">取消</string>
     <string name="ink_clear_dialog_ok">清除</string>
@@ -455,7 +465,6 @@
     <string name="partially_checked_checkbox">部分勾选复选框</string>
     <string name="photo_view_count" formatted="false">第 %d 张，共 %d 张</string>
     <string name="pinned_note_content_description">已固定的记事</string>
-    <string name="pinning_action_button_coach_mark">将重要记事置顶。</string>
     <string name="place_autocomplete_clear_button">清除搜索内容</string>
     <string name="place_autocomplete_search_hint">搜索</string>
     <string name="place_reminder_content_description">地点提醒：%s</string>
@@ -642,7 +651,6 @@
     <string name="warm_welcome_screen_two_title">记录一切事项</string>
     <string name="weekly_simple">每周</string>
     <string name="weekly_simple_lower">每周</string>
-    <string name="welcome_card_got_it">知道了</string>
     <string name="whats_new_description">将重要记事置顶。</string>
     <string name="whats_new_in_keep">Keep 的新变化</string>
     <string name="widget_add_note">添加记事</string>

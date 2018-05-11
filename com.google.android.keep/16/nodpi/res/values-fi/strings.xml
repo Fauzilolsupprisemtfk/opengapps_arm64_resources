@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">Kohteen sisennys kumottu</string>
+    <string name="a11y_item_indented_under">Kohde sisennetty tekstin %1$s alle</string>
+    <string name="a11y_item_moved_above">Kohte siirretty tekstin %1$s edelle</string>
+    <string name="a11y_item_moved_below">Kohde siirretty tekstin %1$s jälkeen</string>
     <string name="abc_action_bar_home_description">Siirry etusivulle</string>
     <string name="abc_action_bar_up_description">Siirry ylös</string>
     <string name="abc_action_menu_overflow_description">Lisää</string>
@@ -25,10 +29,14 @@
     <string name="account_sync_off">Synkronointi on pois päältä. Ota synkronointi takaisin käyttöön varmistaaksesi, että kaikki muutoksesi tallennetaan.</string>
     <string name="acessibility_recurrence_choose_end_date_description">muuta lopetuspäivää</string>
     <string name="action">Toiminto</string>
+    <string name="action_dedent_item">Poista sisennys</string>
     <string name="action_download_chrome">Lataa Chrome</string>
     <string name="action_fix">Korjaa</string>
     <string name="action_get_google_app">Lataa sovellus</string>
+    <string name="action_indent_item">Sisennä</string>
     <string name="action_label">Enter</string>
+    <string name="action_move_item_down">Siirrä alas</string>
+    <string name="action_move_item_up">Siirrä ylös</string>
     <string name="action_retry">Yritä uudelleen</string>
     <string name="add">Lisää</string>
     <string name="add_account">Lisää tili</string>
@@ -257,6 +265,7 @@
     <string name="go_to_note">Avaa muistiinpano</string>
     <string name="google_assistant_shopping_list_change">Google Assistantin ostoslista on muuttumassa.</string>
     <string name="google_keep_document">Google Keep -dokumentti</string>
+    <string name="got_it">Selvä</string>
     <string name="grabbing_image_text">…</string>
     <string name="grabbing_image_text_cancelled">Kuvan tekstin kopiointi peruutettiin.</string>
     <string name="grant_access_generic_error">Käyttäjän %s etsimisessä tapahtui virhe. Yritä myöhemmin uudelleen.</string>
@@ -283,6 +292,7 @@
     <string name="image_content_description">Kuva</string>
     <string name="image_deleted">Kuva poistettiin.</string>
     <string name="image_text_grabbed">Kuvan teksti kopioitu</string>
+    <string name="indent_coach_mark_header_text">Sisennä luettelon kohteet pyyhkäisemällä</string>
     <string name="ink_clear_canvas">Poista kaikki</string>
     <string name="ink_clear_dialog_cancel">Peruuta</string>
     <string name="ink_clear_dialog_ok">Tyhjennä</string>
@@ -455,7 +465,6 @@
     <string name="partially_checked_checkbox">Osittain valittu valintaruutu</string>
     <string name="photo_view_count" formatted="false">%d/%d</string>
     <string name="pinned_note_content_description">Kiinnitetty muistiinpano</string>
-    <string name="pinning_action_button_coach_mark">Kiinnitä tärkeät muistiinpanot ylös.</string>
     <string name="place_autocomplete_clear_button">Tyhjennä haku.</string>
     <string name="place_autocomplete_search_hint">Haku</string>
     <string name="place_reminder_content_description">Paikkamuistutus: %s</string>
@@ -642,7 +651,6 @@
     <string name="warm_welcome_screen_two_title">Tallenna mitä tahansa</string>
     <string name="weekly_simple">Viikoittain</string>
     <string name="weekly_simple_lower">viikoittain</string>
-    <string name="welcome_card_got_it">SELVÄ</string>
     <string name="whats_new_description">Kiinnitä tärkeät muistiinpanot ylös.</string>
     <string name="whats_new_in_keep">Keepin uudet ominaisuudet</string>
     <string name="widget_add_note">Uusi</string>

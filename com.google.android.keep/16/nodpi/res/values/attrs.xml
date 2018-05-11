@@ -298,7 +298,7 @@
     <attr name="itemIconSize" format="dimension" />
     <attr name="itemTextAppearanceInactive" format="reference" />
     <attr name="itemTextAppearanceActive" format="reference" />
-    <attr name="itemHorizontalTranslation" format="boolean" />
+    <attr name="itemHorizontalTranslationEnabled" format="boolean" />
     <attr name="behavior_peekHeight" format="dimension">
         <enum name="auto" value="-1" />
     </attr>
@@ -525,6 +525,11 @@
     <attr name="layout_flexGrow" format="float" />
     <attr name="layout_flexShrink" format="float" />
     <attr name="layout_flexBasisPercent" format="fraction" />
+    <attr name="layout_minWidth" format="dimension" />
+    <attr name="layout_minHeight" format="dimension" />
+    <attr name="layout_maxWidth" format="dimension" />
+    <attr name="layout_maxHeight" format="dimension" />
+    <attr name="layout_wrapBefore" format="boolean" />
     <attr name="layout_alignSelf">
         <enum name="center" value="2" />
         <enum name="auto" value="-1" />
@@ -533,11 +538,6 @@
         <enum name="baseline" value="3" />
         <enum name="stretch" value="4" />
     </attr>
-    <attr name="layout_minWidth" format="dimension" />
-    <attr name="layout_minHeight" format="dimension" />
-    <attr name="layout_maxWidth" format="dimension" />
-    <attr name="layout_maxHeight" format="dimension" />
-    <attr name="layout_wrapBefore" format="boolean" />
     <attr name="fabSize">
         <enum name="normal" value="0" />
         <enum name="auto" value="-1" />
@@ -920,15 +920,15 @@
         <enum name="filled" value="1" />
         <enum name="outline" value="2" />
     </attr>
-    <attr name="boxPaddingLeft" format="dimension" />
+    <attr name="boxPaddingStart" format="dimension" />
     <attr name="boxCollapsedPaddingTop" format="dimension" />
     <attr name="boxExpandedPaddingTop" format="dimension" />
-    <attr name="boxPaddingRight" format="dimension" />
+    <attr name="boxPaddingEnd" format="dimension" />
     <attr name="boxCollapsedPaddingBottom" format="dimension" />
-    <attr name="boxCornerRadiusTopLeft" format="dimension" />
-    <attr name="boxCornerRadiusTopRight" format="dimension" />
-    <attr name="boxCornerRadiusBottomLeft" format="dimension" />
-    <attr name="boxCornerRadiusBottomRight" format="dimension" />
+    <attr name="boxCornerRadiusTopStart" format="dimension" />
+    <attr name="boxCornerRadiusTopEnd" format="dimension" />
+    <attr name="boxCornerRadiusBottomStart" format="dimension" />
+    <attr name="boxCornerRadiusBottomEnd" format="dimension" />
     <attr name="boxExpandedPaddingBottom" format="dimension" />
     <attr name="boxStrokeColor" format="color" />
     <attr name="boxBackgroundColor" format="color" />

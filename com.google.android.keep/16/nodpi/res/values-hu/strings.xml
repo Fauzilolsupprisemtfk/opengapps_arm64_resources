@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">Elem behúzása visszavonva</string>
+    <string name="a11y_item_indented_under">Elem behúzva a következő alá: %1$s</string>
+    <string name="a11y_item_moved_above">Elem áthelyezve a következő fölé: %1$s</string>
+    <string name="a11y_item_moved_below">Elem áthelyezve a következő alá: %1$s</string>
     <string name="abc_action_bar_home_description">Ugrás a főoldalra</string>
     <string name="abc_action_bar_up_description">Felfelé mozgatás</string>
     <string name="abc_action_menu_overflow_description">További lehetőségek</string>
@@ -25,10 +29,14 @@
     <string name="account_sync_off">A szinkronizálás ki van kapcsolva. Kapcsolja be újra a szinkronizálást, hogy biztosan elmentse a módosításokat.</string>
     <string name="acessibility_recurrence_choose_end_date_description">záró dátum módosítása</string>
     <string name="action">Művelet</string>
+    <string name="action_dedent_item">Behúzás visszavonása</string>
     <string name="action_download_chrome">A Google Chrome letöltése</string>
     <string name="action_fix">Javítás</string>
     <string name="action_get_google_app">Az alkalmazás letöltése</string>
+    <string name="action_indent_item">Behúzás</string>
     <string name="action_label">Enter</string>
+    <string name="action_move_item_down">Áthelyezés lefelé</string>
+    <string name="action_move_item_up">Áthelyezés felfelé</string>
     <string name="action_retry">Újra</string>
     <string name="add">Hozzáadás</string>
     <string name="add_account">Fiók hozzáadása</string>
@@ -257,6 +265,7 @@
     <string name="go_to_note">Ugrás a jegyzetre</string>
     <string name="google_assistant_shopping_list_change">A Google Segéd-bevásárlólista módosul.</string>
     <string name="google_keep_document">Google Keep-dokumentum</string>
+    <string name="got_it">Értem</string>
     <string name="grabbing_image_text">Képhez tartozó szöveg lekérése…</string>
     <string name="grabbing_image_text_cancelled">A kép szövegének beolvasása törölve</string>
     <string name="grant_access_generic_error">Hiba a következő felhasználó keresésekor: %s. Próbálja újra később.</string>
@@ -283,6 +292,7 @@
     <string name="image_content_description">Kép</string>
     <string name="image_deleted">Kép törölve</string>
     <string name="image_text_grabbed">Kép szövege beolvasva</string>
+    <string name="indent_coach_mark_header_text">A behúzáshoz csúsztassa el a listán lévő elemeket</string>
     <string name="ink_clear_canvas">Felület törlése</string>
     <string name="ink_clear_dialog_cancel">Mégse</string>
     <string name="ink_clear_dialog_ok">Törlés</string>
@@ -455,7 +465,6 @@
     <string name="partially_checked_checkbox">Részlegesen bejelölt négyzet</string>
     <string name="photo_view_count" formatted="false">%d/%d</string>
     <string name="pinned_note_content_description">Rögzített jegyzet</string>
-    <string name="pinning_action_button_coach_mark">Rögzítse felülre a fontos jegyzeteket.</string>
     <string name="place_autocomplete_clear_button">Keresés törlése</string>
     <string name="place_autocomplete_search_hint">Keresés</string>
     <string name="place_reminder_content_description">Helyalapú emlékeztető: %s</string>
@@ -642,7 +651,6 @@
     <string name="warm_welcome_screen_two_title">Bármit lejegyezhet</string>
     <string name="weekly_simple">Hetente</string>
     <string name="weekly_simple_lower">hetente</string>
-    <string name="welcome_card_got_it">MEGÉRTETTEM</string>
     <string name="whats_new_description">Rögzítse felülre a fontos jegyzeteket.</string>
     <string name="whats_new_in_keep">A Keep újdonságai</string>
     <string name="widget_add_note">Hozzáadás</string>

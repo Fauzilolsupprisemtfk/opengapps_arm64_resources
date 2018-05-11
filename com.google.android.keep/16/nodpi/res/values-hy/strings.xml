@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">Ցանկի կետի նահանջը հեռացվեց</string>
+    <string name="a11y_item_indented_under">Ցանկի կետին ավելացվեց նահանջ, և այդ կետը դարձավ «%1$s» կետի ենթակետ</string>
+    <string name="a11y_item_moved_above">Ցանկի կետը տեղափոխվեց «%1$s» կետից վերև</string>
+    <string name="a11y_item_moved_below">Ցանկի կետը տեղափոխվեց «%1$s» կետից ներքև</string>
     <string name="abc_action_bar_home_description">Ուղղվել տուն</string>
     <string name="abc_action_bar_up_description">Ուղղվել վերև</string>
     <string name="abc_action_menu_overflow_description">Այլ ընտրանքներ</string>
@@ -21,9 +25,13 @@
     <string name="account_sync_off">Համաժամեցումն անջատված է: Նորից միացրեք համաժամեցումը՝ ձեր բոլոր փոփոխությունները պահելու համար:</string>
     <string name="acessibility_recurrence_choose_end_date_description">փոխել ավարտի ամսաթիվը</string>
     <string name="action">Գործողություն</string>
+    <string name="action_dedent_item">Հեռացնել նահանջը</string>
     <string name="action_download_chrome">Ներբեռնել Chrome</string>
     <string name="action_fix">Շտկել</string>
     <string name="action_get_google_app">Ներբեռնել հավելվածը</string>
+    <string name="action_indent_item">Ավելացնել նահանջ</string>
+    <string name="action_move_item_down">Տեղափոխել ներքև</string>
+    <string name="action_move_item_up">Տեղափոխել վերև</string>
     <string name="action_retry">Նորից փորձել</string>
     <string name="add">Ավելացնել</string>
     <string name="add_checkboxes">Նշավանդակներ</string>
@@ -244,6 +252,7 @@
     <string name="go_to_note">Բացել նշումը</string>
     <string name="google_assistant_shopping_list_change">Google Օգնականի գնումների ցուցակը փոփոխվում է:</string>
     <string name="google_keep_document">Google Keep փաստաթուղթ</string>
+    <string name="got_it">Եղավ</string>
     <string name="grabbing_image_text">Պատկերը մշակվում է...</string>
     <string name="grabbing_image_text_cancelled">Պատկերի տեքստի կորզումը չեղարկվել է</string>
     <string name="grant_access_generic_error">%s օգտատիրոջը որոնելիս սխալ տեղի ունոցավ: Փորձեք կրկին մի փոքր ուշ:</string>
@@ -269,6 +278,7 @@
     <string name="image_content_description">Պատկեր</string>
     <string name="image_deleted">Պատկերը ջնջվել է</string>
     <string name="image_text_grabbed">Պատկերի տեքստը ճանաչվեց</string>
+    <string name="indent_coach_mark_header_text">Սահեցրեք մատը ցանկի կետերի վրայով՝ նահանջ ավելացնելու համար</string>
     <string name="ink_clear_canvas">Մաքրել կտավը</string>
     <string name="ink_clear_dialog_cancel">Չեղարկել</string>
     <string name="ink_clear_dialog_ok">Մաքրել</string>
@@ -438,7 +448,6 @@
     <string name="open_source_licenses_title">Բաց կոդի արտոնագրեր</string>
     <string name="partially_checked_checkbox">Մասամբ նշված նշավանդակ</string>
     <string name="pinned_note_content_description">Ամրացված նշում</string>
-    <string name="pinning_action_button_coach_mark">Ամրացրեք կարևոր նշումները վերևում:</string>
     <string name="place_autocomplete_clear_button">Մաքրել որոնման դաշտը</string>
     <string name="place_autocomplete_search_hint">Որոնում</string>
     <string name="place_reminder_content_description">%s վայրի հիշեցում</string>
@@ -618,7 +627,6 @@
     <string name="warm_welcome_screen_two_title">Լուսանկարահանում</string>
     <string name="weekly_simple">Ամեն շաբաթ</string>
     <string name="weekly_simple_lower">ամեն շաբաթ</string>
-    <string name="welcome_card_got_it">ԵՂԱՎ</string>
     <string name="whats_new_description">Ամրացրեք կարևոր նշումները վերևում:</string>
     <string name="whats_new_in_keep">Keep-ի նորույթները</string>
     <string name="widget_add_note">Ավելացնել նշում</string>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">Έγινε κατάργηση εσοχής στοιχείου</string>
+    <string name="a11y_item_indented_under">Έγινε εισαγωγή του στοιχείου με εσοχή κάτω από %1$s</string>
+    <string name="a11y_item_moved_above">Το στοιχείο μετακινήθηκε πάνω από %1$s</string>
+    <string name="a11y_item_moved_below">Το στοιχείο μετακινήθηκε κάτω από %1$s</string>
     <string name="abc_action_bar_home_description">Πλοήγηση στην αρχική σελίδα</string>
     <string name="abc_action_bar_up_description">Πλοήγηση προς τα επάνω</string>
     <string name="abc_action_menu_overflow_description">Περισσότερες επιλογές</string>
@@ -25,10 +29,14 @@
     <string name="account_sync_off">Ο συγχρονισμός είναι ανενεργός. Ενεργοποιήστε ξανά το συγχρονισμό για να βεβαιωθείτε ότι όλες οι αλλαγές σας αποθηκεύονται.</string>
     <string name="acessibility_recurrence_choose_end_date_description">αλλαγή ημερομηνίας λήξης</string>
     <string name="action">Ενέργεια</string>
+    <string name="action_dedent_item">Κατάργηση εσοχής</string>
     <string name="action_download_chrome">Λήψη του Chrome</string>
     <string name="action_fix">Διόρθωση</string>
     <string name="action_get_google_app">Λήψη της εφαρμογής</string>
+    <string name="action_indent_item">Εσοχή</string>
     <string name="action_label">Επιστροφή</string>
+    <string name="action_move_item_down">Μετακίνηση προς τα κάτω</string>
+    <string name="action_move_item_up">Μετακίνηση προς τα επάνω</string>
     <string name="action_retry">Επανάληψη</string>
     <string name="add">Προσθήκη</string>
     <string name="add_account">Προσθήκη λογαριασμού</string>
@@ -257,6 +265,7 @@
     <string name="go_to_note">Μετάβ. στη σημείωση</string>
     <string name="google_assistant_shopping_list_change">Η λίστα αγορών του Βοηθού Google αλλάζει.</string>
     <string name="google_keep_document">Έγγραφο Google Keep</string>
+    <string name="got_it">Έγινε</string>
     <string name="grabbing_image_text">Λήψη κειμένου εικόνας…</string>
     <string name="grabbing_image_text_cancelled">Η λήψη του κειμένου της εικόνας ακυρώθηκε</string>
     <string name="grant_access_generic_error">Σφάλμα κατά την προσπάθεια αναζήτησης του χρήστη %s. Δοκιμάστε ξανά αργότερα.</string>
@@ -283,6 +292,7 @@
     <string name="image_content_description">Εικόνα</string>
     <string name="image_deleted">Η εικόνα διαγράφηκε</string>
     <string name="image_text_grabbed">Έγινε λήψη του κειμένου εικόνας</string>
+    <string name="indent_coach_mark_header_text">Σύρετε στοιχεία στη λίστα σας για εισαγωγή εσοχής</string>
     <string name="ink_clear_canvas">Διαγραφή καμβά</string>
     <string name="ink_clear_dialog_cancel">Άκυρο</string>
     <string name="ink_clear_dialog_ok">Διαγραφή</string>
@@ -455,7 +465,6 @@
     <string name="partially_checked_checkbox">Μερικώς επιλεγμένο πλαίσιο ελέγχου</string>
     <string name="photo_view_count" formatted="false">%d από %d</string>
     <string name="pinned_note_content_description">Καρφιτσωμένη σημείωση</string>
-    <string name="pinning_action_button_coach_mark">Καρφιτσώστε τις σημαντικές σημειώσεις σας στην κορυφή.</string>
     <string name="place_autocomplete_clear_button">Διαγραφή αναζητήσεων</string>
     <string name="place_autocomplete_search_hint">Αναζήτηση</string>
     <string name="place_reminder_content_description">Υπενθύμιση μέρους %s</string>
@@ -642,7 +651,6 @@
     <string name="warm_welcome_screen_two_title">Καταγράψτε οτιδήποτε</string>
     <string name="weekly_simple">Εβδομαδιαία</string>
     <string name="weekly_simple_lower">εβδομαδιαία</string>
-    <string name="welcome_card_got_it">OK</string>
     <string name="whats_new_description">Καρφιτσώστε τις σημαντικές σημειώσεις σας στην κορυφή.</string>
     <string name="whats_new_in_keep">Τι νέο υπάρχει στο Keep</string>
     <string name="widget_add_note">Νέα σημείωση</string>

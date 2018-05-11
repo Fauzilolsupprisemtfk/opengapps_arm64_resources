@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">تم إلغاء المسافة البادئة للعنصر</string>
+    <string name="a11y_item_indented_under">تمت إضافة مسافة بادئة للعنصر تحت %1$s</string>
+    <string name="a11y_item_moved_above">تم نقل العنصر فوق %1$s</string>
+    <string name="a11y_item_moved_below">تم نقل العنصر تحت %1$s</string>
     <string name="abc_action_bar_home_description">التنقل إلى الشاشة الرئيسية</string>
     <string name="abc_action_bar_up_description">التنقل إلى أعلى</string>
     <string name="abc_action_menu_overflow_description">خيارات إضافية</string>
@@ -25,10 +29,14 @@
     <string name="account_sync_off">المزامنة قيد الإيقاف؛ فأعد تشغيلها لضمان حفظ كل التغييرات التي تجريها.</string>
     <string name="acessibility_recurrence_choose_end_date_description">تغيير تاريخ الانتهاء</string>
     <string name="action">تنفيذ</string>
+    <string name="action_dedent_item">إلغاء المسافة البادئة</string>
     <string name="action_download_chrome">‏تنزيل Chrome</string>
     <string name="action_fix">إصلاح</string>
     <string name="action_get_google_app">الحصول على التطبيق</string>
+    <string name="action_indent_item">إضافة مسافة بادئة</string>
     <string name="action_label">رجوع</string>
+    <string name="action_move_item_down">نقل للأسفل</string>
+    <string name="action_move_item_up">نقل للأعلى</string>
     <string name="action_retry">إعادة المحاولة</string>
     <string name="add">إضافة</string>
     <string name="add_account">إضافة حساب</string>
@@ -187,7 +195,7 @@
     <string name="empty_view_no_search_results">ليست هناك ملاحظات متطابقة</string>
     <string name="empty_view_no_trashed_notes">ليست هناك ملاحظات في المهملات</string>
     <string name="enable_account_sync_action">تشغيل المزامنة</string>
-    <string name="enable_sharing">تمكين المشاركة</string>
+    <string name="enable_sharing">تفعيل المشاركة</string>
     <string name="enable_web_embeds">عرض معاينات الروابط المنسقة</string>
     <string name="endByDate">؛ حتى %s</string>
     <string name="enter_label_name">أدخل اسم التصنيف</string>
@@ -257,6 +265,7 @@
     <string name="go_to_note">انتقال إلى الملاحظة</string>
     <string name="google_assistant_shopping_list_change">‏يتم تغيير قائمة تسوق مساعد Google.</string>
     <string name="google_keep_document">‏مستند Google Keep</string>
+    <string name="got_it">حسنًا</string>
     <string name="grabbing_image_text">جارٍ جلب نص الصورة…</string>
     <string name="grabbing_image_text_cancelled">تم إلغاء جلب نص الصورة</string>
     <string name="grant_access_generic_error">حدث خطأ أثناء محاولة البحث عن المستخدم %s. يُرجى إعادة المحاولة لاحقًا.</string>
@@ -283,6 +292,7 @@
     <string name="image_content_description">صورة</string>
     <string name="image_deleted">تم حذف الصورة</string>
     <string name="image_text_grabbed">تم استخلاص النص من الصورة</string>
+    <string name="indent_coach_mark_header_text">مرّر العناصر سريعًا في القائمة لإضافة مسافات بادئة لها</string>
     <string name="ink_clear_canvas">مسح اللوحة</string>
     <string name="ink_clear_dialog_cancel">إلغاء</string>
     <string name="ink_clear_dialog_ok">محو</string>
@@ -455,7 +465,6 @@
     <string name="partially_checked_checkbox">مربع اختيار محدّد جزئيًا</string>
     <string name="photo_view_count" formatted="false">%d من %d</string>
     <string name="pinned_note_content_description">ملاحظة مثبتة</string>
-    <string name="pinning_action_button_coach_mark">ثبّت الملاحظات المهمة في الأعلى.</string>
     <string name="place_autocomplete_clear_button">مسح البحث</string>
     <string name="place_autocomplete_search_hint">البحث</string>
     <string name="place_reminder_content_description">تذكير بمكان: %s</string>
@@ -572,7 +581,7 @@
     <string name="settings_move_checked_items_to_bottom">نقل العناصر المحددة إلى أسفل القائمة</string>
     <string name="settings_reminders">إعدادات التذكير</string>
     <string name="settings_sharing">المشاركة</string>
-    <string name="share_disabled_message">تم تعطيل المشاركة.</string>
+    <string name="share_disabled_message">تم إيقاف المشاركة.</string>
     <string name="share_error_share_offline">تتعذر المشاركة في وضع عدم الاتصال</string>
     <string name="share_with_name">مشاركة مع %s</string>
     <string name="shared_from">تمت المشاركة من %s</string>
@@ -588,9 +597,9 @@
     <string name="sharing_add_sharee">مشاركة ملاحظة</string>
     <string name="sharing_add_sharee_hint_text">الشخص أو البريد الإلكتروني الذي تريد المشاركة معه</string>
     <string name="sharing_error_description_generic">لا يمكن المشاركة مع المستخدمين التاليين.</string>
-    <string name="sharing_error_description_oad">لا يمكن المشاركة مع المستخدمين التاليين لأن المشرف لديك قد عطّل المشاركة خارج نطاقك.</string>
-    <string name="sharing_error_description_srd">لا يمكن المشاركة مع المستخدمين التاليين لأن المشرف لديهم قد عطّل المشاركة إلى نطاقهم.</string>
-    <string name="sharing_error_description_srd_and_oad">لا يمكن المشاركة مع المستخدمين التاليين لأنه إما المشرف لديهم قد عطّل المشاركة إلى نطاقهم، أو أن المشرف لديك قد عطّل المشاركة خارج نطاقك.</string>
+    <string name="sharing_error_description_oad">لا يمكن المشاركة مع المستخدمين التاليين لأن المشرف لديك قد أوقف المشاركة خارج نطاقك.</string>
+    <string name="sharing_error_description_srd">لا يمكن المشاركة مع المستخدمين التاليين لأن المشرف لديهم قد أوقف المشاركة إلى نطاقهم.</string>
+    <string name="sharing_error_description_srd_and_oad">لا يمكن المشاركة مع المستخدمين التاليين لأنه إما المشرف لديهم قد أوقف المشاركة إلى نطاقهم، أو أن المشرف لديك قد أوقف المشاركة خارج نطاقك.</string>
     <string name="sharing_error_over_quota">المشاركة ليست متاحة الآن</string>
     <string name="sharing_error_remove_sharees">حذفهم</string>
     <string name="sharing_invalid_email">هذه الرسالة الإلكترونية ليست صالحة</string>
@@ -642,7 +651,6 @@
     <string name="warm_welcome_screen_two_title">إمكانية الاحتفاظ بكل شيء</string>
     <string name="weekly_simple">أسبوعيًا</string>
     <string name="weekly_simple_lower">أسبوعيًا</string>
-    <string name="welcome_card_got_it">حسنًا</string>
     <string name="whats_new_description">ثبّت الملاحظات المهمة في الأعلى.</string>
     <string name="whats_new_in_keep">‏الميزات الجديدة في Keep</string>
     <string name="widget_add_note">إضافة ملاحظة</string>

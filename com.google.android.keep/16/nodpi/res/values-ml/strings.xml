@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">ഇനം അണ്‍-ഇന്‍ഡെന്റ് ചെയ്‌തു</string>
+    <string name="a11y_item_indented_under">%1$s-ന് കീഴിൽ ഇനം ഇൻഡന്റ് ചെയ്തു</string>
+    <string name="a11y_item_moved_above">ഇനം %1$s-ന് മുകളിലേക്ക് നീക്കി</string>
+    <string name="a11y_item_moved_below">ഇനം %1$s-ന് താഴേയ്ക്ക് നീക്കി</string>
     <string name="abc_action_bar_home_description">ഹോമിലേക്ക് നാവിഗേറ്റുചെയ്യുക</string>
     <string name="abc_action_bar_up_description">മുകളിലേക്ക് നാവിഗേറ്റുചെയ്യുക</string>
     <string name="abc_action_menu_overflow_description">കൂടുതൽ‍ ഓപ്‌ഷനുകള്‍</string>
@@ -21,9 +25,13 @@
     <string name="account_sync_off">സമന്വയം ഓഫാണ്. നിങ്ങളുടെ എല്ലാ മാറ്റങ്ങളും സംരക്ഷിച്ചുവെന്ന് ഉറപ്പുവരുത്താൻ സമന്വയം വീണ്ടും ഓണാക്കുക.</string>
     <string name="acessibility_recurrence_choose_end_date_description">അവസാനിക്കുന്ന ദിവസം മാറ്റുക</string>
     <string name="action">പ്രവർത്തനം</string>
+    <string name="action_dedent_item">അണ്‍-ഇന്‍ഡെന്റ്</string>
     <string name="action_download_chrome">Chrome ഡൗൺലോഡ് ചെയ്യുക</string>
     <string name="action_fix">പരിഹരിക്കുക</string>
     <string name="action_get_google_app">ആപ്പ് സ്വന്തമാക്കുക</string>
+    <string name="action_indent_item">ഇൻഡന്റ്</string>
+    <string name="action_move_item_down">താഴേക്ക് നീക്കുക</string>
+    <string name="action_move_item_up">മുകളിലേക്ക് നീക്കുക</string>
     <string name="action_retry">വീണ്ടുംശ്രമിക്കൂ</string>
     <string name="add">ചേർക്കുക</string>
     <string name="add_checkboxes">ചെക്ക്‌ബോക്‌സുകൾ</string>
@@ -244,6 +252,7 @@
     <string name="go_to_note">കുറിപ്പിലേക്ക് പോകുക</string>
     <string name="google_assistant_shopping_list_change">Google അസിസ്‌റ്റന്റ് ഷോപ്പിംഗ് ലിസ്‌റ്റ് മാറ്റുന്നു.</string>
     <string name="google_keep_document">Google Keep പ്രമാണം</string>
+    <string name="got_it">മനസ്സിലായി</string>
     <string name="grabbing_image_text">ഇമേജ് ടെക്‌സ്റ്റ് നേടുന്നു…</string>
     <string name="grabbing_image_text_cancelled">ഇമേജ് ടെക്‌സ്റ്റ് സ്വന്തമാക്കുന്നത് റദ്ദാക്കി</string>
     <string name="grant_access_generic_error">%s എന്ന ഉപയോക്താവിനെ തിരയാൻ ശ്രമിക്കുന്നതിൽ പിശക്. പിന്നീട് വീണ്ടും ശ്രമിക്കുക.</string>
@@ -269,6 +278,7 @@
     <string name="image_content_description">ചിത്രം</string>
     <string name="image_deleted">ചിത്രം ഇല്ലാതാക്കി</string>
     <string name="image_text_grabbed">ചിത്രത്തിൽ നിന്ന് ടെക്‌സ്‌റ്റ് നേടി</string>
+    <string name="indent_coach_mark_header_text">ഇന്‍ഡെന്റ് ചെയ്യാൻ നിങ്ങളുടെ ലിസ്‌റ്റിൽ ഇനങ്ങൾ സ്വൈപ്പ് ചെയ്യുക</string>
     <string name="ink_clear_canvas">കാൻവാസ് മായ്ക്കുക</string>
     <string name="ink_clear_dialog_cancel">റദ്ദാക്കുക</string>
     <string name="ink_clear_dialog_ok">മായ്‌ക്കുക</string>
@@ -438,7 +448,6 @@
     <string name="open_source_licenses_title">ഓപ്പൺ സോഴ്‌സ് ലൈസൻസുകൾ</string>
     <string name="partially_checked_checkbox">ചെക്കുബോക്‌സ് ഭാഗികമായി ചെക്കുചെയ്‌തു</string>
     <string name="pinned_note_content_description">കുറിപ്പ് പിൻ ചെയ്‌തു</string>
-    <string name="pinning_action_button_coach_mark">നിങ്ങളുടെ പ്രധാനപ്പെട്ട കുറിപ്പുകൾ മുകളിൽ പിൻ ചെയ്യുക.</string>
     <string name="place_autocomplete_clear_button">തിരയുന്നത് മായ്‌ക്കുക</string>
     <string name="place_autocomplete_search_hint">തിരയുക</string>
     <string name="place_reminder_content_description">സ്ഥല റിമൈൻഡർ %s</string>
@@ -620,7 +629,6 @@
     <string name="warm_welcome_screen_two_title">എന്തും ക്യാപ്ച്വർ ചെയ്യുക</string>
     <string name="weekly_simple">പ്രതിവാരം</string>
     <string name="weekly_simple_lower">എല്ലാ ആഴ്‌ചയും</string>
-    <string name="welcome_card_got_it">മനസ്സിലായി</string>
     <string name="whats_new_description">നിങ്ങളുടെ പ്രധാനപ്പെട്ട കുറിപ്പുകൾ മുകളിൽ പിൻ ചെയ്യുക.</string>
     <string name="whats_new_in_keep">Keep-ൽ പുതിയതായി എന്താണുള്ളത്</string>
     <string name="widget_add_note">കുറിപ്പ് ചേർക്കുക</string>

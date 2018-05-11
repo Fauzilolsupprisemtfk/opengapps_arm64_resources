@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">Item sem avanço</string>
+    <string name="a11y_item_indented_under">Item com avanço em %1$s</string>
+    <string name="a11y_item_moved_above">Item movido para cima de %1$s</string>
+    <string name="a11y_item_moved_below">Item movido para baixo de %1$s</string>
     <string name="abc_action_bar_home_description">Navegar para a página inicial</string>
     <string name="abc_action_bar_up_description">Navegar para cima</string>
     <string name="abc_action_menu_overflow_description">Mais opções</string>
@@ -25,10 +29,14 @@
     <string name="account_sync_off">A sincronização está desativada. Ative-a para se certificar de que todas as alterações são guardadas.</string>
     <string name="acessibility_recurrence_choose_end_date_description">alterar data de conclusão</string>
     <string name="action">Ação</string>
+    <string name="action_dedent_item">Anular avanço</string>
     <string name="action_download_chrome">Transferir o Google Chrome</string>
     <string name="action_fix">Corrigir</string>
     <string name="action_get_google_app">Obter aplicação</string>
+    <string name="action_indent_item">Avanço</string>
     <string name="action_label">Voltar</string>
+    <string name="action_move_item_down">Mover para baixo</string>
+    <string name="action_move_item_up">Mover para cima</string>
     <string name="action_retry">Repetir</string>
     <string name="add">Adicionar</string>
     <string name="add_account">Adicionar conta</string>
@@ -257,6 +265,7 @@
     <string name="go_to_note">Ir para a nota</string>
     <string name="google_assistant_shopping_list_change">A Lista de compras do Assistente Google está a mudar.</string>
     <string name="google_keep_document">Documento do Google Keep</string>
+    <string name="got_it">Compreendi</string>
     <string name="grabbing_image_text">A obter o texto da imagem…</string>
     <string name="grabbing_image_text_cancelled">Obtenção do texto da imagem cancelada</string>
     <string name="grant_access_generic_error">Erro ao tentar procurar o utilizador %s. Tente novamente mais tarde.</string>
@@ -283,6 +292,7 @@
     <string name="image_content_description">Imagem</string>
     <string name="image_deleted">Imagem eliminada</string>
     <string name="image_text_grabbed">Texto da imagem capturado</string>
+    <string name="indent_coach_mark_header_text">Deslizar rapidamente os itens na sua lista para avançar</string>
     <string name="ink_clear_canvas">Limpar tela</string>
     <string name="ink_clear_dialog_cancel">Cancelar</string>
     <string name="ink_clear_dialog_ok">Limpar</string>
@@ -455,7 +465,6 @@
     <string name="partially_checked_checkbox">Caixa de verificação marc. parcialmente</string>
     <string name="photo_view_count" formatted="false">%d de %d</string>
     <string name="pinned_note_content_description">Nota afixada</string>
-    <string name="pinning_action_button_coach_mark">Afixe as suas notas importantes na parte superior.</string>
     <string name="place_autocomplete_clear_button">Limpar pesquisa</string>
     <string name="place_autocomplete_search_hint">Pesquisar</string>
     <string name="place_reminder_content_description">Lembrete de local: %s</string>
@@ -642,7 +651,6 @@
     <string name="warm_welcome_screen_two_title">Registe tudo</string>
     <string name="weekly_simple">Semanalmente</string>
     <string name="weekly_simple_lower">semanalmente</string>
-    <string name="welcome_card_got_it">COMPREENDI</string>
     <string name="whats_new_description">Afixe as suas notas importantes na parte superior.</string>
     <string name="whats_new_in_keep">Novidades no Google Keep</string>
     <string name="widget_add_note">Adic. nota</string>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">ਅਣ-ਵਿੱਥ ਕੀਤੀ ਆਈਟਮ</string>
+    <string name="a11y_item_indented_under">ਆਈਟਮ ਦੀ ਵਿੱਥ %1$s ਅਧਾਰਿਤ ਕੀਤੀ ਗਈ</string>
+    <string name="a11y_item_moved_above">ਆਈਟਮ %1$s ਦੇ ਉੱਪਰ ਲਿਜਾਓ ਗਈ</string>
+    <string name="a11y_item_moved_below">ਆਈਟਮ %1$s ਦੇ ਹੇਠਾ ਲਿਜਾਈ ਗਈ</string>
     <string name="abc_action_bar_home_description">"ਹੋਮ 'ਤੇ ਜਾਓ"</string>
     <string name="abc_action_bar_up_description">ਉੱਪਰ ਜਾਓ</string>
     <string name="abc_action_menu_overflow_description">ਹੋਰ ਚੋਣਾਂ</string>
@@ -21,9 +25,13 @@
     <string name="account_sync_off">ਸਿੰਕ ਬੰਦ ਹੈ। ਇਹ ਯਕੀਨੀ ਬਣਾਉਣ ਲਈ ਸਿੰਕ ਨੂੰ ਦੁਬਾਰਾ ਚਾਲੂ ਕਰੋ ਕਿ ਤੁਹਾਡੇ ਸਾਰੇ ਬਦਲਾਵ ਸੁਰੱਖਿਅਤ ਕੀਤੇ ਗਏ ਹਨ।</string>
     <string name="acessibility_recurrence_choose_end_date_description">ਸਮਾਪਤੀ ਮਿਤੀ ਬਦਲੋ</string>
     <string name="action">ਕਾਰਵਾਈ</string>
+    <string name="action_dedent_item">ਅਣ-ਵਿੱਥ</string>
     <string name="action_download_chrome">Chrome ਡਾਊਨਲੋਡ ਕਰੋ</string>
     <string name="action_fix">ਫਿਕਸ ਕਰੋ</string>
     <string name="action_get_google_app">ਐਪ ਪ੍ਰਾਪਤ ਕਰੋ</string>
+    <string name="action_indent_item">ਵਿੱਥ</string>
+    <string name="action_move_item_down">ਹੇਠਾਂ ਲਿਜਾਓ</string>
+    <string name="action_move_item_up">ਉੱਪਰ ਲਿਜਾਓ</string>
     <string name="action_retry">ਮੁੜ-ਕੋਸ਼ਿਸ਼ ਕਰੋ</string>
     <string name="add">ਜੋੜੋ</string>
     <string name="add_checkboxes">ਚੈੱਕਬਾਕਸ</string>
@@ -244,6 +252,7 @@
     <string name="go_to_note">"ਨੋਟਕਥਨ 'ਤੇ ਜਾਓ"</string>
     <string name="google_assistant_shopping_list_change">Google ਸਹਾਇਕ ਖਰੀਦਦਾਰੀ ਸੂਚੀ ਬਦਲ ਰਹੀ ਹੈ।</string>
     <string name="google_keep_document">Google Keep Document</string>
+    <string name="got_it">ਸਮਝ ਲਿਆ</string>
     <string name="grabbing_image_text">ਚਿੱਤਰ ਟੈਕਸਟ ਲਿਆ ਰਿਹਾ ਹੈ…</string>
     <string name="grabbing_image_text_cancelled">ਚਿੱਤਰ ਟੈਕਸਟ ਲੈਣਾ ਰੱਦ ਹੋ ਗਿਆ</string>
     <string name="grant_access_generic_error">ਉਪਭੋਗਤਾ %s ਨੂੰ ਖੋਜਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਨ ਵੇਲੇ ਅਸ਼ੁੱਧੀ। ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
@@ -269,6 +278,7 @@
     <string name="image_content_description">ਚਿਤਰ</string>
     <string name="image_deleted">ਚਿੱਤਰ ਮਿਟਾਇਆ ਗਿਆ</string>
     <string name="image_text_grabbed">ਚਿੱਤਰ ਦੀ ਲਿਖਤ ਹਾਸਲ ਕੀਤੀ ਗਈ</string>
+    <string name="indent_coach_mark_header_text">"ਵਿੱਥ ਨਿਰਧਾਰਤ ਕਰਨ ਲਈ ਆਪਣੀ ਸੂਚੀ ' ਆਈਟਮਾਂ ਨੂੰ ਸਵਾਈਪ ਕਰੋ"</string>
     <string name="ink_clear_canvas">ਸਾਫ ਕੈਨਵਾਸ</string>
     <string name="ink_clear_dialog_cancel">ਰੱਦ ਕਰੋ</string>
     <string name="ink_clear_dialog_ok">ਹਟਾਓ</string>
@@ -438,7 +448,6 @@
     <string name="open_source_licenses_title">ਖੁੱਲ੍ਹਾ ਸਰੋਤ ਲਾਇਸੰਸ</string>
     <string name="partially_checked_checkbox">ਅੰਸ਼ਿਕ ਤੌਰ ਤੇ ਸਹੀ ਦਾ ਨਿਸ਼ਾਨ ਲਗਾਏ ਚੈਕਬੌਕਸ</string>
     <string name="pinned_note_content_description">ਪਿੰਨ ਕੀਤਾ ਗਿਆ ਨੋਟ-ਕਥਨ</string>
-    <string name="pinning_action_button_coach_mark">"ਆਪਣੇ ਮਹੱਤਵਪੂਰਨ ਨੋਟ-ਕਥਨ ਸਿਖਰ 'ਤੇ ਪਿੰਨ ਕਰੋ।"</string>
     <string name="place_autocomplete_clear_button">ਖੋਜ ਹਟਾਓ</string>
     <string name="place_autocomplete_search_hint">ਖੋਜੋ</string>
     <string name="place_reminder_content_description">ਥਾਂ ਯਾਦ-ਦਹਾਨੀ %s</string>
@@ -618,7 +627,6 @@
     <string name="warm_welcome_screen_two_title">ਕੁਝ ਵੀ ਕੈਪਚਰ ਕਰੋ</string>
     <string name="weekly_simple">ਹਫ਼ਤਾਵਾਰ</string>
     <string name="weekly_simple_lower">ਹਫ਼ਤਾਵਾਰ</string>
-    <string name="welcome_card_got_it">ਸਮਝ ਲਿਆ</string>
     <string name="whats_new_description">"ਆਪਣੇ ਮਹੱਤਵਪੂਰਨ ਨੋਟ-ਕਥਨ ਸਿਖਰ 'ਤੇ ਪਿੰਨ ਕਰੋ।"</string>
     <string name="whats_new_in_keep">Keep ਵਿੱਚ ਨਵਾਂ ਕੀ ਹੈ</string>
     <string name="widget_add_note">ਨੋਟ-ਕਥਨ ਜੋੜੋ</string>

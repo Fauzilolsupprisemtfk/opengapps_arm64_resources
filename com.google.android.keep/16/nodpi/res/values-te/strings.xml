@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">అంశం ఇండెంట్ చేయబడలేదు</string>
+    <string name="a11y_item_indented_under">అంశం %1$s కింద ఇండెంట్ చేయబడింది</string>
+    <string name="a11y_item_moved_above">అంశం %1$s పైకి తరలించబడింది</string>
+    <string name="a11y_item_moved_below">అంశం %1$s దిగువకు తరలించబడింది</string>
     <string name="abc_action_bar_home_description">హోమ్‌కు నావిగేట్ చేయండి</string>
     <string name="abc_action_bar_up_description">పైకి నావిగేట్ చేయండి</string>
     <string name="abc_action_menu_overflow_description">మరిన్ని ఎంపికలు</string>
@@ -21,9 +25,13 @@
     <string name="account_sync_off">సమకాలీకరణ ఆఫ్‌లో ఉంది. మీ అన్ని మార్పులు సేవ్ అయినట్లు నిర్ధారించుకోవడానికి సమకాలీకరణను తిరిగి ఆన్ చేయండి.</string>
     <string name="acessibility_recurrence_choose_end_date_description">ముగింపు తేదీని మారుస్తుంది</string>
     <string name="action">చర్య</string>
+    <string name="action_dedent_item">ఇండెంట్ చేయబడలేదు</string>
     <string name="action_download_chrome">Chromeని డౌన్‌లోడ్ చేయండి</string>
     <string name="action_fix">పరిష్కరించండి</string>
     <string name="action_get_google_app">యాప్‌ను పొందండి</string>
+    <string name="action_indent_item">ఇండెంట్</string>
+    <string name="action_move_item_down">కిందకు తరలించు</string>
+    <string name="action_move_item_up">పైకి తరలించు</string>
     <string name="action_retry">మళ్లీ ప్రయత్నించండి</string>
     <string name="add">జోడించు</string>
     <string name="add_checkboxes">తనిఖీ పెట్టెలు</string>
@@ -244,6 +252,7 @@
     <string name="go_to_note">గమనికకు వెళ్లు</string>
     <string name="google_assistant_shopping_list_change">Google సహాయకం షాపింగ్ జాబితా మారుతోంది.</string>
     <string name="google_keep_document">Google Keep పత్రం</string>
+    <string name="got_it">అర్థమైంది</string>
     <string name="grabbing_image_text">చిత్రం వచనాన్ని సంగ్రహిస్తోంది…</string>
     <string name="grabbing_image_text_cancelled">చిత్ర వచనం పొందే ప్రక్రియ రద్దు చేయబడింది</string>
     <string name="grant_access_generic_error">%s అనే వినియోగదారుని కనుగొంటున్నప్పుడు లోపం సంభవించింది. దయచేసి తర్వాత మళ్లీ ప్రయత్నించండి.</string>
@@ -269,6 +278,7 @@
     <string name="image_content_description">చిత్రం</string>
     <string name="image_deleted">చిత్రం తొలగించబడింది</string>
     <string name="image_text_grabbed">చిత్ర వచనం సంగ్రహించబడింది</string>
+    <string name="indent_coach_mark_header_text">ఇండెంట్ చేయడానికి మీ జాబితాలోని అంశాలను స్వైప్ చేయండి</string>
     <string name="ink_clear_canvas">కాన్వాస్‌ను తుడిచివేయి</string>
     <string name="ink_clear_dialog_cancel">రద్దు చేయి</string>
     <string name="ink_clear_dialog_ok">తీసివేయి</string>
@@ -438,7 +448,6 @@
     <string name="open_source_licenses_title">ఓపెన్ సోర్స్ లైసెన్స్‌లు</string>
     <string name="partially_checked_checkbox">పాక్షికంగా ఎంచుకున్న తనిఖీ పెట్టె</string>
     <string name="pinned_note_content_description">పిన్ చేసిన గమనిక</string>
-    <string name="pinning_action_button_coach_mark">మీ ముఖ్యమైన గమనికలను పైభాగానికి పిన్ చేయండి.</string>
     <string name="place_autocomplete_clear_button">శోధనను తీసివేస్తుంది</string>
     <string name="place_autocomplete_search_hint">శోధించండి</string>
     <string name="place_reminder_content_description">స్థల రిమైండర్ %s</string>
@@ -620,7 +629,6 @@
     <string name="warm_welcome_screen_two_title">ఏదైనా క్యాప్చర్ చేస్తుంది</string>
     <string name="weekly_simple">ప్రతి వారం</string>
     <string name="weekly_simple_lower">ప్రతి వారం</string>
-    <string name="welcome_card_got_it">అర్థమైంది</string>
     <string name="whats_new_description">మీ ముఖ్యమైన గమనికలను పైభాగానికి పిన్ చేయండి.</string>
     <string name="whats_new_in_keep">Keepలో కొత్తగా ఏమి ఉన్నాయి</string>
     <string name="widget_add_note">గమనికను జోడించండి</string>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">Зүйлийн догол мөрийг болиулсан</string>
+    <string name="a11y_item_indented_under">%1$s доор догол мөртэй зүйл</string>
+    <string name="a11y_item_moved_above">%1$s дээр зөөгдсөн зүйл</string>
+    <string name="a11y_item_moved_below">%1$s доор зөөгдсөн зүйл</string>
     <string name="abc_action_bar_home_description">Нүүр хуудас руу шилжих</string>
     <string name="abc_action_bar_up_description">Дээш шилжих</string>
     <string name="abc_action_menu_overflow_description">Нэмэлт сонголтууд</string>
@@ -21,9 +25,13 @@
     <string name="account_sync_off">Тохиргоо нь идэвхгүй байна. Бүх өөрчлөлт хадгалагдсан эсэхийг баталгаажуулахын тулд тохиргоог эргэн асаах.</string>
     <string name="acessibility_recurrence_choose_end_date_description">дуусах огноог өөрчлөх</string>
     <string name="action">Үйлдэл</string>
+    <string name="action_dedent_item">Догол мөр арилгах</string>
     <string name="action_download_chrome">Chrome татаж авах</string>
     <string name="action_fix">Засах</string>
     <string name="action_get_google_app">Апп татах</string>
+    <string name="action_indent_item">Догол мөр</string>
+    <string name="action_move_item_down">Доош зөөх</string>
+    <string name="action_move_item_up">Дээш зөөх</string>
     <string name="action_retry">Дахин оролдох</string>
     <string name="add">Нэмэх</string>
     <string name="add_checkboxes">Чекбокс</string>
@@ -167,7 +175,7 @@
     <string name="embed_removed_toast">Холбоос урьдчилан үзэхийг устгасан.</string>
     <string name="embed_url_copied_toast">URL-г санах ойд хуулсан.</string>
     <string name="empty_trash_message">Хогийн саванд байгаа бүх тэмдэглэлүүд бүрмөсөн устах болно.</string>
-    <string name="empty_trash_title">Хогийн савыг хоослох уу?</string>
+    <string name="empty_trash_title">Хогийн савыг цэвэрлэх үү?</string>
     <string name="empty_view_no_active_notes">Таны нэмэх тэмдэглэлүүд энд гарч ирэх болно</string>
     <string name="empty_view_no_archived_notes">Таны архивлагдсан тэмдэглэл энд гарч ирнэ</string>
     <string name="empty_view_no_labels">Энэ шошгон дээр ямар нэгэн тэмдэглэл одоогоор байхгүй байна</string>
@@ -244,6 +252,7 @@
     <string name="go_to_note">Тэмдэглэл рүү очих</string>
     <string name="google_assistant_shopping_list_change">Google Туслагчийн худалдан авах зүйлийн жагсаалтыг өөрчилж байна.</string>
     <string name="google_keep_document">Google Keep Document</string>
+    <string name="got_it">Ойлголоо</string>
     <string name="grabbing_image_text">Зургийн текстийг таниж байна…</string>
     <string name="grabbing_image_text_cancelled">Зургийн текст таталтыг цуцаллаа</string>
     <string name="grant_access_generic_error">%s хэрэглэгчийг хайхад алдаа гарлаа. Дараа дахин оролдоно уу.</string>
@@ -269,6 +278,7 @@
     <string name="image_content_description">Зураг</string>
     <string name="image_deleted">Зургийг устгасан</string>
     <string name="image_text_grabbed">Зургийн текстийг татсан</string>
+    <string name="indent_coach_mark_header_text">Жагсаалт дээрх зүйлсээ догол мөр рүү шудрана уу</string>
     <string name="ink_clear_canvas">Зураг арилгах</string>
     <string name="ink_clear_dialog_cancel">Цуцлах</string>
     <string name="ink_clear_dialog_ok">Цэвэрлэх</string>
@@ -438,7 +448,6 @@
     <string name="open_source_licenses_title">Нээлттэй Эхийн Лиценз</string>
     <string name="partially_checked_checkbox">Хагас зөвлөсөн шалгах нүд</string>
     <string name="pinned_note_content_description">Тогтоосон тэмдэглэл</string>
-    <string name="pinning_action_button_coach_mark">Чухал тэмдэглэлүүдээ дээр нь тогтооно уу.</string>
     <string name="place_autocomplete_clear_button">Хайлтыг цэвэрлэх</string>
     <string name="place_autocomplete_search_hint">Хайх</string>
     <string name="place_reminder_content_description">Газар сануулагч %s</string>
@@ -618,7 +627,6 @@
     <string name="warm_welcome_screen_two_title">Хүссэнээ тэмдэглэн аваарай</string>
     <string name="weekly_simple">Долоо хоног бүр</string>
     <string name="weekly_simple_lower">долоо хоног бүр</string>
-    <string name="welcome_card_got_it">Ойлголоо</string>
     <string name="whats_new_description">Чухал тэмдэглэлүүдээ дээр нь тогтооно уу.</string>
     <string name="whats_new_in_keep">Keep дээр шинэ сонин зүйл юу байна</string>
     <string name="widget_add_note">Тэмдэглэл нэмэх</string>

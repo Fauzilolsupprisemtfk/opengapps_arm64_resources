@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">ერთეულის შეწევა გაუქმებულია</string>
+    <string name="a11y_item_indented_under">ერთეული შეწეულია %1$s-ის ქვეშ</string>
+    <string name="a11y_item_moved_above">ერთეული გადატანილია %1$s-ის ზემოთ</string>
+    <string name="a11y_item_moved_below">ერთეული გადატანილია %1$s-ის ქვემოთ</string>
     <string name="abc_action_bar_home_description">მთავარზე ნავიგაცია</string>
     <string name="abc_action_bar_up_description">ზემოთ ნავიგაცია</string>
     <string name="abc_action_menu_overflow_description">მეტი ვარიანტები</string>
@@ -21,9 +25,13 @@
     <string name="account_sync_off">სინქრონიზება გამორთულია. ჩართეთ სინქრონიზება ხელახლა, რათა დარწმუნდეთ, რომ ყველა თქვენი ცვლილებები შენახულია.</string>
     <string name="acessibility_recurrence_choose_end_date_description">დასრულების თარიღის შეცვლა</string>
     <string name="action">ქმედება</string>
+    <string name="action_dedent_item">შეწევის გაუქმება</string>
     <string name="action_download_chrome">Chrome-ის ჩამოტვირთვა</string>
     <string name="action_fix">შესწორება</string>
     <string name="action_get_google_app">აპის ჩამოტვირთვა</string>
+    <string name="action_indent_item">შეწევა</string>
+    <string name="action_move_item_down">ქვემოთ გადატანა</string>
+    <string name="action_move_item_up">ზემოთ გადატანა</string>
     <string name="action_retry">ხელახლა ცდა</string>
     <string name="add">დამატება</string>
     <string name="add_checkboxes">მოსანიშნი უჯრედები</string>
@@ -244,6 +252,7 @@
     <string name="go_to_note">ჩანიშვნაზე გადასვლა</string>
     <string name="google_assistant_shopping_list_change">Google ასისტენტის საყიდლების სია იცვლება.</string>
     <string name="google_keep_document">Google Keep დოკუმენტი</string>
+    <string name="got_it">გასაგებია</string>
     <string name="grabbing_image_text">სურათიდან ტექსტის ამოღება…</string>
     <string name="grabbing_image_text_cancelled">სურათიდან ტექსტის გაუქმება გაუქმდა</string>
     <string name="grant_access_generic_error">%s მომხმარებლის მოძებნა ვერ მოხერხდა. გთხოვთ, სცადოთ მოგვიანებით.</string>
@@ -269,6 +278,7 @@
     <string name="image_content_description">სურათი</string>
     <string name="image_deleted">სურათი წაიშალა</string>
     <string name="image_text_grabbed">სურათიდან ტექსტი ამოღებულია</string>
+    <string name="indent_coach_mark_header_text">სააბზაცო შეწევისთვის გადაფურცლეთ ერთეულები თქვენს სიაში</string>
     <string name="ink_clear_canvas">ტილოს გასუფთავება</string>
     <string name="ink_clear_dialog_cancel">გაუქმება</string>
     <string name="ink_clear_dialog_ok">გასუფთავება</string>
@@ -438,7 +448,6 @@
     <string name="open_source_licenses_title">ღია კოდის ლიცენზიები</string>
     <string name="partially_checked_checkbox">ნაწილობრივ მონიშნული მოსანიშნი ველი</string>
     <string name="pinned_note_content_description">ჩამაგრებული ჩანიშვნა</string>
-    <string name="pinning_action_button_coach_mark">თქვენი მნიშვნელოვანი ჩანიშვნები ჩაამაგრეთ ზემოთ.</string>
     <string name="place_autocomplete_clear_button">ძიების გასუფთავება</string>
     <string name="place_autocomplete_search_hint">ძიება</string>
     <string name="place_reminder_content_description">ადგილის შეხსენება: %s</string>
@@ -618,7 +627,6 @@
     <string name="warm_welcome_screen_two_title">აღბეჭდეთ ნებისმიერი რამ</string>
     <string name="weekly_simple">ყოველკვირა</string>
     <string name="weekly_simple_lower">ყოველკვირა</string>
-    <string name="welcome_card_got_it">დახურვა</string>
     <string name="whats_new_description">თქვენი მნიშვნელოვანი ჩანიშვნები ჩაამაგრეთ ზემოთ.</string>
     <string name="whats_new_in_keep">სიახლეები Keep-ში</string>
     <string name="widget_add_note">ჩანიშვნის დამატება</string>

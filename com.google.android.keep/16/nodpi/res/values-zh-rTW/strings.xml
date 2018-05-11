@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">已取消縮排項目</string>
+    <string name="a11y_item_indented_under">已縮排「%1$s」之下的項目</string>
+    <string name="a11y_item_moved_above">已將項目移至「%1$s」上方</string>
+    <string name="a11y_item_moved_below">已將項目移至「%1$s」下方</string>
     <string name="abc_action_bar_home_description">瀏覽首頁</string>
     <string name="abc_action_bar_up_description">向上瀏覽</string>
     <string name="abc_action_menu_overflow_description">更多選項</string>
@@ -25,10 +29,14 @@
     <string name="account_sync_off">同步處理已關閉。請重新開啟同步處理，確保儲存所有變更。</string>
     <string name="acessibility_recurrence_choose_end_date_description">變更結束日期</string>
     <string name="action">動作</string>
+    <string name="action_dedent_item">取消縮排</string>
     <string name="action_download_chrome">下載 Chrome</string>
     <string name="action_fix">修正</string>
     <string name="action_get_google_app">取得應用程式</string>
+    <string name="action_indent_item">縮排</string>
     <string name="action_label">返回</string>
+    <string name="action_move_item_down">下移</string>
+    <string name="action_move_item_up">上移</string>
     <string name="action_retry">重試</string>
     <string name="add">新增</string>
     <string name="add_account">新增帳戶</string>
@@ -255,8 +263,9 @@
     <string name="full_screen">全螢幕</string>
     <string name="gallery_unavailable">無法使用媒體庫</string>
     <string name="go_to_note">查看記事</string>
-    <string name="google_assistant_shopping_list_change">Google 個人助理購物清單最新異動。</string>
+    <string name="google_assistant_shopping_list_change">Google 助理購物清單最新異動。</string>
     <string name="google_keep_document">Google Keep 說明文件</string>
+    <string name="got_it">我知道了</string>
     <string name="grabbing_image_text">正在擷取圖片文字…</string>
     <string name="grabbing_image_text_cancelled">已取消擷取圖片文字</string>
     <string name="grant_access_generic_error">嘗試查詢使用者%s時發生錯誤，請稍後再試。</string>
@@ -283,6 +292,7 @@
     <string name="image_content_description">圖片</string>
     <string name="image_deleted">已刪除圖片</string>
     <string name="image_text_grabbed">已擷取的圖片文字</string>
+    <string name="indent_coach_mark_header_text">滑動清單中的項目即可縮排</string>
     <string name="ink_clear_canvas">清除畫布</string>
     <string name="ink_clear_dialog_cancel">取消</string>
     <string name="ink_clear_dialog_ok">清除</string>
@@ -455,7 +465,6 @@
     <string name="partially_checked_checkbox">部分勾選的核取方塊</string>
     <string name="photo_view_count" formatted="false">第 %d 張 (共 %d 張)</string>
     <string name="pinned_note_content_description">已固定的記事</string>
-    <string name="pinning_action_button_coach_mark">將你的重要記事置頂。</string>
     <string name="place_autocomplete_clear_button">清除搜尋</string>
     <string name="place_autocomplete_search_hint">搜尋</string>
     <string name="place_reminder_content_description">地點提醒：%s</string>
@@ -642,7 +651,6 @@
     <string name="warm_welcome_screen_two_title">以各種形式記錄所思所想</string>
     <string name="weekly_simple">每週</string>
     <string name="weekly_simple_lower">每週</string>
-    <string name="welcome_card_got_it">知道了</string>
     <string name="whats_new_description">將你的重要記事置頂。</string>
     <string name="whats_new_in_keep">Keep 新功能</string>
     <string name="widget_add_note">新增附註</string>

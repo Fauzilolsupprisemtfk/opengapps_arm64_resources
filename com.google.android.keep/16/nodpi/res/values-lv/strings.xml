@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">Vienuma atkāpe ir noņemta</string>
+    <string name="a11y_item_indented_under">Vienumam pievienota atkāpe zem %1$s</string>
+    <string name="a11y_item_moved_above">Vienums ir pārvietots virs %1$s</string>
+    <string name="a11y_item_moved_below">Vienums ir pārvietots zem %1$s</string>
     <string name="abc_action_bar_home_description">Pārvietoties uz sākuma ekrānu</string>
     <string name="abc_action_bar_up_description">Pārvietoties augšup</string>
     <string name="abc_action_menu_overflow_description">Vairāk opciju</string>
@@ -25,10 +29,14 @@
     <string name="account_sync_off">Sinhronizācija ir izslēgta. Lai visas izmaiņas tiktu saglabātas, atkārtoti ieslēdziet sinhronizāciju.</string>
     <string name="acessibility_recurrence_choose_end_date_description">mainīt beigu datumu</string>
     <string name="action">Darbība</string>
+    <string name="action_dedent_item">Noņemt atkāpi</string>
     <string name="action_download_chrome">Lejupielādēt Chrome</string>
     <string name="action_fix">Labot</string>
     <string name="action_get_google_app">Iegūt lietotni</string>
+    <string name="action_indent_item">Atkāpe</string>
     <string name="action_label">Atgriezties</string>
+    <string name="action_move_item_down">Pārvietot uz leju</string>
+    <string name="action_move_item_up">Pārvietot uz augšu</string>
     <string name="action_retry">Mēģināt vēlreiz</string>
     <string name="add">Pievienot</string>
     <string name="add_account">Pievienot kontu</string>
@@ -257,6 +265,7 @@
     <string name="go_to_note">Doties uz piezīmi</string>
     <string name="google_assistant_shopping_list_change">Google asistenta iepirkumu sarakstā ir veiktas izmaiņas.</string>
     <string name="google_keep_document">Google Keep dokuments</string>
+    <string name="got_it">Labi</string>
     <string name="grabbing_image_text">Notiek attēla teksta satveršana…</string>
     <string name="grabbing_image_text_cancelled">Attēla teksta satveršana ir atcelta</string>
     <string name="grant_access_generic_error">Meklējot lietotāju %s, radās kļūda. Lūdzu, vēlāk mēģiniet vēlreiz.</string>
@@ -283,6 +292,7 @@
     <string name="image_content_description">Attēls</string>
     <string name="image_deleted">Attēls ir izdzēsts</string>
     <string name="image_text_grabbed">Attēla teksts ir izgūts</string>
+    <string name="indent_coach_mark_header_text">Velciet saraksta vienumus, lai pievienotu atkāpi</string>
     <string name="ink_clear_canvas">Notīrīt audeklu</string>
     <string name="ink_clear_dialog_cancel">Atcelt</string>
     <string name="ink_clear_dialog_ok">Notīrīt</string>
@@ -455,7 +465,6 @@
     <string name="partially_checked_checkbox">Daļēji atzīmēta izvēles rūtiņa</string>
     <string name="photo_view_count" formatted="false">%d. no %d</string>
     <string name="pinned_note_content_description">Piesprausta piezīme</string>
-    <string name="pinning_action_button_coach_mark">Piespraudiet svarīgas piezīmes augšdaļā.</string>
     <string name="place_autocomplete_clear_button">Notīrīt meklēšanas vaicājumu</string>
     <string name="place_autocomplete_search_hint">Meklēt</string>
     <string name="place_reminder_content_description">Vietas atgādinājums %s</string>
@@ -642,7 +651,6 @@
     <string name="warm_welcome_screen_two_title">Uzņemiet fotoattēlus</string>
     <string name="weekly_simple">Katru nedēļu</string>
     <string name="weekly_simple_lower">katru nedēļu</string>
-    <string name="welcome_card_got_it">SAPRATU</string>
     <string name="whats_new_description">Piespraudiet svarīgas piezīmes augšdaļā.</string>
     <string name="whats_new_in_keep">Jaunumi lietotnē Keep</string>
     <string name="widget_add_note">Piev. piez.</string>

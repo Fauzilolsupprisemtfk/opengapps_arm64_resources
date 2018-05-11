@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">Einzug für Element entfernt</string>
+    <string name="a11y_item_indented_under">Element unter \"%1$s\" eingerückt</string>
+    <string name="a11y_item_moved_above">Element befindet sich jetzt oberhalb von \"%1$s\"</string>
+    <string name="a11y_item_moved_below">Element befindet sich jetzt unterhalb von \"%1$s\"</string>
     <string name="abc_action_bar_home_description">Zur Startseite</string>
     <string name="abc_action_bar_up_description">Nach oben</string>
     <string name="abc_action_menu_overflow_description">Weitere Optionen</string>
@@ -25,10 +29,14 @@
     <string name="account_sync_off">Die Synchronisierung ist deaktiviert. Aktivieren Sie die Synchronisierung, damit alle Änderungen gespeichert werden.</string>
     <string name="acessibility_recurrence_choose_end_date_description">Enddatum ändern</string>
     <string name="action">Aktion</string>
+    <string name="action_dedent_item">Einzug entfernen</string>
     <string name="action_download_chrome">Google Chrome herunterladen</string>
     <string name="action_fix">Beheben</string>
     <string name="action_get_google_app">App herunterladen</string>
+    <string name="action_indent_item">Einrücken</string>
     <string name="action_label">Zurück</string>
+    <string name="action_move_item_down">Nach unten</string>
+    <string name="action_move_item_up">Nach oben</string>
     <string name="action_retry">Wiederholen</string>
     <string name="add">Hinzufügen</string>
     <string name="add_account">Konto hinzufügen</string>
@@ -257,6 +265,7 @@
     <string name="go_to_note">Notiz aufrufen</string>
     <string name="google_assistant_shopping_list_change">Google Assistant-Einkaufsliste ändert sich.</string>
     <string name="google_keep_document">Google Notizen-Dokument</string>
+    <string name="got_it">OK</string>
     <string name="grabbing_image_text">Bildtext wird erfasst…</string>
     <string name="grabbing_image_text_cancelled">Erfassung des Bildtexts abgebrochen</string>
     <string name="grant_access_generic_error">Fehler beim Nachschlagen des Nutzers \"%s\". Bitte versuchen Sie es später erneut.</string>
@@ -283,6 +292,7 @@
     <string name="image_content_description">Bild</string>
     <string name="image_deleted">Bild gelöscht</string>
     <string name="image_text_grabbed">Bildtext erfasst</string>
+    <string name="indent_coach_mark_header_text">Listeneinträge lassen sich durch Ziehen einrücken</string>
     <string name="ink_clear_canvas">Arbeitsbereich leeren</string>
     <string name="ink_clear_dialog_cancel">Abbrechen</string>
     <string name="ink_clear_dialog_ok">Leeren</string>
@@ -455,7 +465,6 @@
     <string name="partially_checked_checkbox">Kästchen ist teilweise angeklickt</string>
     <string name="photo_view_count" formatted="false">%d von %d</string>
     <string name="pinned_note_content_description">Angeheftete Notiz</string>
-    <string name="pinning_action_button_coach_mark">Wichtige Notizen oben anpinnen.</string>
     <string name="place_autocomplete_clear_button">Suche zurücksetzen</string>
     <string name="place_autocomplete_search_hint">Suche</string>
     <string name="place_reminder_content_description">Ortserinnerung: %s</string>
@@ -642,7 +651,6 @@
     <string name="warm_welcome_screen_two_title">Alles erfassen</string>
     <string name="weekly_simple">Wöchentlich</string>
     <string name="weekly_simple_lower">wöchentlich</string>
-    <string name="welcome_card_got_it">OK</string>
     <string name="whats_new_description">Wichtige Notizen oben anpinnen.</string>
     <string name="whats_new_in_keep">Neue Funktionen in Google Notizen</string>
     <string name="widget_add_note">Notiz hinzufügen</string>

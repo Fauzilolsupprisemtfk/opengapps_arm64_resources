@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">"S'ha suprimit el sagnat de l'element"</string>
+    <string name="a11y_item_indented_under">"S'ha sagnat a sota de l'element %1$s"</string>
+    <string name="a11y_item_moved_above">"S'ha mogut a sobre de l'element %1$s"</string>
+    <string name="a11y_item_moved_below">"S'ha mogut a sota de l'element %1$s"</string>
     <string name="abc_action_bar_home_description">"Navega a la pàgina d'inici"</string>
     <string name="abc_action_bar_up_description">Navega cap a dalt</string>
     <string name="abc_action_menu_overflow_description">Més opcions</string>
@@ -25,10 +29,14 @@
     <string name="account_sync_off">"La sincronització està desactivada. Torna-la a activar per assegurar-te que tots els canvis s'hagin desat."</string>
     <string name="acessibility_recurrence_choose_end_date_description">canvia la data de finalització</string>
     <string name="action">Acció</string>
+    <string name="action_dedent_item">Suprimeix el sagnat</string>
     <string name="action_download_chrome">Baixa Chrome</string>
     <string name="action_fix">Corregeix</string>
     <string name="action_get_google_app">"Baixa l'aplicació"</string>
+    <string name="action_indent_item">Sagna</string>
     <string name="action_label">Torna</string>
+    <string name="action_move_item_down">Baixa</string>
+    <string name="action_move_item_up">Puja</string>
     <string name="action_retry">Torna-ho a provar</string>
     <string name="add">Afegeix</string>
     <string name="add_account">Afegeix un compte</string>
@@ -257,6 +265,7 @@
     <string name="go_to_note">Ves a la nota</string>
     <string name="google_assistant_shopping_list_change">"Es produiran canvis a la Llista de la compra de l'Assistent de Google."</string>
     <string name="google_keep_document">Document de Google Keep</string>
+    <string name="got_it">"D'acord"</string>
     <string name="grabbing_image_text">"S'està obtenint el text de la imatge..."</string>
     <string name="grabbing_image_text_cancelled">"S'ha cancel·lat l'acció d'obtenir el text de la imatge"</string>
     <string name="grant_access_generic_error">"S'ha produït un error en provar de cercar l'usuari %s. Torna-ho a provar més tard."</string>
@@ -283,6 +292,7 @@
     <string name="image_content_description">Imatge</string>
     <string name="image_deleted">Imatge suprimida</string>
     <string name="image_text_grabbed">"S'ha afegit el text de la imatge"</string>
+    <string name="indent_coach_mark_header_text">Fes lliscar els elements de la llista per aplicar-hi sagnat</string>
     <string name="ink_clear_canvas">Esborra el llenç</string>
     <string name="ink_clear_dialog_cancel">Cancel·la</string>
     <string name="ink_clear_dialog_ok">Esborra</string>
@@ -455,7 +465,6 @@
     <string name="partially_checked_checkbox">Casella seleccionada parcialment</string>
     <string name="photo_view_count" formatted="false">%d de %d</string>
     <string name="pinned_note_content_description">Nota fixada</string>
-    <string name="pinning_action_button_coach_mark">Fixa les teves notes importants a la part superior.</string>
     <string name="place_autocomplete_clear_button">Esborra la cerca</string>
     <string name="place_autocomplete_search_hint">Cerca</string>
     <string name="place_reminder_content_description">Recordatori de lloc: %s</string>
@@ -642,7 +651,6 @@
     <string name="warm_welcome_screen_two_title">Captura tot el que imaginis</string>
     <string name="weekly_simple">Setmanalment</string>
     <string name="weekly_simple_lower">setmanalment</string>
-    <string name="welcome_card_got_it">"D'ACORD"</string>
     <string name="whats_new_description">Fixa les teves notes importants a la part superior.</string>
     <string name="whats_new_in_keep">Novetats de Keep</string>
     <string name="widget_add_note">Afegeix una nota</string>

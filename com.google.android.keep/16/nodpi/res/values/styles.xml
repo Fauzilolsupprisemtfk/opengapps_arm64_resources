@@ -480,6 +480,7 @@
         <item name="colorSwitchThumbNormal">@color/switch_thumb_material_light</item>
         <item name="colorBackgroundFloating">@color/background_floating_material_light</item>
     </style>
+    <style name="Base.ThemeOverlay.MaterialComponents.Dialog.Alert" parent="@style/Base.V14.ThemeOverlay.MaterialComponents.Dialog.Alert" />
     <style name="Base.V14.Theme.MaterialComponents" parent="@style/Platform.MaterialComponents">
         <item name="bottomAppBarStyle">@style/Widget.MaterialComponents.BottomAppBar</item>
         <item name="bottomNavigationStyle">@style/Widget.MaterialComponents.BottomNavigationView.Colored</item>
@@ -530,12 +531,12 @@
         <item name="textAppearanceSubtitle1">@style/TextAppearance.MaterialComponents.Subtitle1</item>
         <item name="textAppearanceSubtitle2">@style/TextAppearance.MaterialComponents.Subtitle2</item>
         <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.FilledBox</item>
-        <item name="buttonBarButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
         <item name="borderlessButtonStyle">@style/Widget.MaterialComponents.Button.TextButton</item>
         <item name="colorPrimary">@color/design_default_color_primary</item>
         <item name="colorPrimaryDark">@color/design_default_color_primary_dark</item>
         <item name="colorAccent">?colorSecondary</item>
         <item name="colorBackgroundFloating">@color/background_floating_material_dark</item>
+        <item name="alertDialogTheme">@style/ThemeOverlay.MaterialComponents.Dialog.Alert</item>
         <item name="viewInflaterClass">android.support.design.theme.MaterialComponentsViewInflater</item>
         <item name="snackbarButtonStyle">?borderlessButtonStyle</item>
     </style>
@@ -648,12 +649,12 @@
         <item name="textAppearanceSubtitle1">@style/TextAppearance.MaterialComponents.Subtitle1</item>
         <item name="textAppearanceSubtitle2">@style/TextAppearance.MaterialComponents.Subtitle2</item>
         <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.FilledBox</item>
-        <item name="buttonBarButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
         <item name="borderlessButtonStyle">@style/Widget.MaterialComponents.Button.TextButton</item>
         <item name="colorPrimary">@color/design_default_color_primary</item>
         <item name="colorPrimaryDark">@color/design_default_color_primary_dark</item>
         <item name="colorAccent">?colorSecondary</item>
         <item name="colorBackgroundFloating">@color/background_floating_material_light</item>
+        <item name="alertDialogTheme">@style/ThemeOverlay.MaterialComponents.Dialog.Alert</item>
         <item name="viewInflaterClass">android.support.design.theme.MaterialComponentsViewInflater</item>
         <item name="snackbarButtonStyle">?borderlessButtonStyle</item>
     </style>
@@ -715,6 +716,9 @@
         <item name="colorBackgroundFloating">@color/background_floating_material_light</item>
         <item name="viewInflaterClass">android.support.design.theme.MaterialComponentsViewInflater</item>
         <item name="snackbarButtonStyle">?borderlessButtonStyle</item>
+    </style>
+    <style name="Base.V14.ThemeOverlay.MaterialComponents.Dialog.Alert" parent="@style/ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="buttonBarButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
     </style>
     <style name="Base.V7.Theme.AppCompat" parent="@style/Platform.AppCompat">
         <item name="android:panelBackground">@android:color/transparent</item>
@@ -1376,15 +1380,15 @@
     </style>
     <style name="Base.Widget.MaterialComponents.TextInputLayout" parent="@style/Widget.Design.TextInputLayout">
         <item name="boxBackgroundMode">outline</item>
-        <item name="boxPaddingLeft">@dimen/mtrl_textinput_box_padding_left</item>
+        <item name="boxPaddingStart">@dimen/mtrl_textinput_box_padding_start</item>
         <item name="boxCollapsedPaddingTop">@dimen/mtrl_textinput_outline_box_collapsed_padding_top</item>
         <item name="boxExpandedPaddingTop">@dimen/mtrl_textinput_outline_box_expanded_padding</item>
-        <item name="boxPaddingRight">@dimen/mtrl_textinput_box_padding_right</item>
+        <item name="boxPaddingEnd">@dimen/mtrl_textinput_box_padding_end</item>
         <item name="boxCollapsedPaddingBottom">@dimen/mtrl_textinput_outline_box_collapsed_padding_bottom</item>
-        <item name="boxCornerRadiusTopLeft">@dimen/mtrl_textinput_box_corner_radius_medium</item>
-        <item name="boxCornerRadiusTopRight">@dimen/mtrl_textinput_box_corner_radius_medium</item>
-        <item name="boxCornerRadiusBottomLeft">@dimen/mtrl_textinput_box_corner_radius_medium</item>
-        <item name="boxCornerRadiusBottomRight">@dimen/mtrl_textinput_box_corner_radius_medium</item>
+        <item name="boxCornerRadiusTopStart">@dimen/mtrl_textinput_box_corner_radius_medium</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/mtrl_textinput_box_corner_radius_medium</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/mtrl_textinput_box_corner_radius_medium</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/mtrl_textinput_box_corner_radius_medium</item>
         <item name="boxExpandedPaddingBottom">@dimen/mtrl_textinput_outline_box_expanded_padding</item>
         <item name="boxStrokeColor">?colorControlActivated</item>
         <item name="boxBackgroundColor">@null</item>
@@ -1884,6 +1888,7 @@
         <item name="android:layout_gravity">top</item>
         <item name="android:background">@null</item>
         <item name="android:paddingLeft">@dimen/list_details_content_padding</item>
+        <item name="android:paddingTop">@dimen/list_details_list_item_text_top_padding</item>
         <item name="android:paddingRight">@dimen/list_details_content_padding</item>
         <item name="android:paddingBottom">@dimen/list_details_list_item_text_bottom_padding</item>
         <item name="android:layout_width">fill_parent</item>
@@ -3298,7 +3303,7 @@
     <style name="ThemeOverlay.MaterialComponents.Dark" parent="@style/ThemeOverlay.AppCompat.Dark" />
     <style name="ThemeOverlay.MaterialComponents.Dark.ActionBar" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
     <style name="ThemeOverlay.MaterialComponents.Dialog" parent="@style/ThemeOverlay.AppCompat.Dialog" />
-    <style name="ThemeOverlay.MaterialComponents.Dialog.Alert" parent="@style/ThemeOverlay.AppCompat.Dialog.Alert" />
+    <style name="ThemeOverlay.MaterialComponents.Dialog.Alert" parent="@style/Base.ThemeOverlay.MaterialComponents.Dialog.Alert" />
     <style name="ThemeOverlay.MaterialComponents.Light" parent="@style/ThemeOverlay.AppCompat.Light" />
     <style name="ThemeOverlay.Popup" parent="@style/ThemeOverlay.AppCompat.Light">
         <item name="colorControlNormal">#ffa9a9a9</item>
@@ -3491,7 +3496,7 @@
         <item name="elevation">@dimen/design_bottom_navigation_elevation</item>
         <item name="labelVisibilityMode">auto</item>
         <item name="itemIconSize">@dimen/design_bottom_navigation_icon_size</item>
-        <item name="itemHorizontalTranslation">true</item>
+        <item name="itemHorizontalTranslationEnabled">true</item>
         <item name="itemBackground">?selectableItemBackgroundBorderless</item>
     </style>
     <style name="Widget.Design.BottomSheet.Modal" parent="@android:style/Widget">
@@ -3569,7 +3574,7 @@
         <item name="android:background">@android:color/white</item>
         <item name="itemTextAppearanceInactive">@style/TextAppearance.MaterialComponents.BottomNavigationView</item>
         <item name="itemTextAppearanceActive">@style/TextAppearance.MaterialComponents.BottomNavigationView.Active</item>
-        <item name="itemHorizontalTranslation">false</item>
+        <item name="itemHorizontalTranslationEnabled">false</item>
         <item name="itemIconTint">@color/mtrl_bottom_nav_item_tint</item>
     </style>
     <style name="Widget.MaterialComponents.BottomNavigationView.Colored" parent="@style/Widget.MaterialComponents.BottomNavigationView">
@@ -3672,8 +3677,8 @@
         <item name="boxCollapsedPaddingTop">@dimen/mtrl_textinput_filled_box_collapsed_padding</item>
         <item name="boxExpandedPaddingTop">@dimen/mtrl_textinput_filled_box_expanded_padding</item>
         <item name="boxCollapsedPaddingBottom">@dimen/mtrl_textinput_box_padding_bottom</item>
-        <item name="boxCornerRadiusBottomLeft">@dimen/mtrl_textinput_box_corner_radius_small</item>
-        <item name="boxCornerRadiusBottomRight">@dimen/mtrl_textinput_box_corner_radius_small</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/mtrl_textinput_box_corner_radius_small</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/mtrl_textinput_box_corner_radius_small</item>
         <item name="boxExpandedPaddingBottom">@dimen/mtrl_textinput_outline_box_expanded_padding</item>
         <item name="boxBackgroundColor">@color/mtrl_textinput_filled_box_default_background_color</item>
     </style>

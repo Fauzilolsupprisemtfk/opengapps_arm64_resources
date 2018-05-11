@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">আইটেমটি ইন্ডেন্ট মুক্ত করা হয়েছে</string>
+    <string name="a11y_item_indented_under">%1$s-এর অধীনে আইটেমটি ইন্ডেন্ট করা হয়েছে</string>
+    <string name="a11y_item_moved_above">%1$s-এর উপরে আইটেমটি সরানো হয়েছে</string>
+    <string name="a11y_item_moved_below">%1$s-এর নিচে আইটেমটি সরানো হয়েছে</string>
     <string name="abc_action_bar_home_description">হোম এ নেভিগেট করুন</string>
     <string name="abc_action_bar_up_description">উপরের দিকে নেভিগেট করুন</string>
     <string name="abc_action_menu_overflow_description">আরও বিকল্প</string>
@@ -21,9 +25,13 @@
     <string name="account_sync_off">সিঙ্ক করা বন্ধ রয়েছে৷ আপনার সমস্ত পরিবর্তন সংরক্ষণ করা রয়েছে তা নিশ্চিত করার জন্য আবার সিঙ্ক করা চালু করুন৷</string>
     <string name="acessibility_recurrence_choose_end_date_description">সমাপ্তির তারিখ পরিবর্তন করুন</string>
     <string name="action">ক্রিয়া</string>
+    <string name="action_dedent_item">ইন্ডেন্ট মুক্ত</string>
     <string name="action_download_chrome">Chrome ডাউনলোড করুন</string>
     <string name="action_fix">সমাধান করুন</string>
     <string name="action_get_google_app">অ্যাপ ডাউনলোড করুন</string>
+    <string name="action_indent_item">ইন্ডেন্ট</string>
+    <string name="action_move_item_down">নিচের দিকে সরান</string>
+    <string name="action_move_item_up">উপরের দিকে সরান</string>
     <string name="action_retry">পুনঃচেষ্টা করুন</string>
     <string name="add">যোগ করুন</string>
     <string name="add_checkboxes">চেকবাক্সগুলি</string>
@@ -244,6 +252,7 @@
     <string name="go_to_note">নোটে যান</string>
     <string name="google_assistant_shopping_list_change">Google সহায়ক শপিং তালিকায় পরিবর্তন আনা হচ্ছে।</string>
     <string name="google_keep_document">Google Keep দস্তাবেজ</string>
+    <string name="got_it">বুঝেছি</string>
     <string name="grabbing_image_text">চিত্রের পাঠ্য নিয়ে আসা হচ্ছে…</string>
     <string name="grabbing_image_text_cancelled">চিত্রেব্র পাঠ্য সনাক্তকরণ বাতিল হয়েছে</string>
     <string name="grant_access_generic_error">%s নামক ব্যবহারকারী খুঁজতে গিয়ে সমস্যা দেখা দিয়েছে৷ দয়া করে পরে আবার চেষ্টা করুন৷</string>
@@ -269,6 +278,7 @@
     <string name="image_content_description">ছবি</string>
     <string name="image_deleted">ছবি মোছা হয়েছে</string>
     <string name="image_text_grabbed">ছবির আকারের পাঠ্য শনাক্ত হয়েছে</string>
+    <string name="indent_coach_mark_header_text">ইন্ডেন্টের জন্য আপনার তালিকায় আইটেমটি সোয়াইপ করুন</string>
     <string name="ink_clear_canvas">ক্যানভাস সাফ করুন</string>
     <string name="ink_clear_dialog_cancel">বাতিল করুন</string>
     <string name="ink_clear_dialog_ok">সাফ করুন</string>
@@ -438,7 +448,6 @@
     <string name="open_source_licenses_title">মুক্ত উৎস লাইসেন্সগুলি</string>
     <string name="partially_checked_checkbox">আংশিকভাবে টিক চিহ্ন দেওয়া চেকবাক্স</string>
     <string name="pinned_note_content_description">পিন করা নোট</string>
-    <string name="pinning_action_button_coach_mark">আপনার গুরুত্বপূর্ণ নোটগুলিকে শীর্ষে পিন করুন৷</string>
     <string name="place_autocomplete_clear_button">অনুসন্ধান সাফ করুন</string>
     <string name="place_autocomplete_search_hint">অনুসন্ধান করুন</string>
     <string name="place_reminder_content_description">স্থানের অনুস্মারক %s</string>
@@ -620,7 +629,6 @@
     <string name="warm_welcome_screen_two_title">সবকিছু ক্যাপচার করুন</string>
     <string name="weekly_simple">সাপ্তাহিক</string>
     <string name="weekly_simple_lower">সাপ্তাহিক</string>
-    <string name="welcome_card_got_it">বুঝেছি</string>
     <string name="whats_new_description">আপনার গুরুত্বপূর্ণ নোটগুলিকে শীর্ষে পিন করুন৷</string>
     <string name="whats_new_in_keep">Keep এ নতুন কী রয়েছে</string>
     <string name="widget_add_note">নোট জুড়ুন</string>

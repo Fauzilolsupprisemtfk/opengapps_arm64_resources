@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">Stavka je izvučena</string>
+    <string name="a11y_item_indented_under">Stavka je uvučena pod stavku %1$s</string>
+    <string name="a11y_item_moved_above">Stavka je pomjerena iznad stavke %1$s</string>
+    <string name="a11y_item_moved_below">Stavka je pomjerena ispod stavke %1$s</string>
     <string name="abc_action_bar_home_description">Vrati se na početnu stranicu</string>
     <string name="abc_action_bar_up_description">Navigiraj prema gore</string>
     <string name="abc_action_menu_overflow_description">Više opcija</string>
@@ -21,9 +25,13 @@
     <string name="account_sync_off">Sinhronizacija je isključena. Uključite sinhronizaciju da bi sve vaše promjene bile sačuvane.</string>
     <string name="acessibility_recurrence_choose_end_date_description">promjena datuma završetka</string>
     <string name="action">Radnja</string>
+    <string name="action_dedent_item">Izvuci</string>
     <string name="action_download_chrome">Preuzmite Chrome</string>
     <string name="action_fix">Ispravi</string>
     <string name="action_get_google_app">Preuzmi aplikaciju</string>
+    <string name="action_indent_item">Uvuci</string>
+    <string name="action_move_item_down">Pomjeri prema dolje</string>
+    <string name="action_move_item_up">Pomjeri prema gore</string>
     <string name="action_retry">Ponovi</string>
     <string name="add">Dodaj</string>
     <string name="add_checkboxes">Potvrdni okviri</string>
@@ -244,6 +252,7 @@
     <string name="go_to_note">Idi na bilješku</string>
     <string name="google_assistant_shopping_list_change">Lista kupovine Google Asistenta se mijenja.</string>
     <string name="google_keep_document">Google Keep dokument</string>
+    <string name="got_it">Razumijem</string>
     <string name="grabbing_image_text">Dohvaćanje teksta sa slike…</string>
     <string name="grabbing_image_text_cancelled">Dohvaćanje teksta sa slike je otkazano</string>
     <string name="grant_access_generic_error">Greška prilikom traženja korisnika %s. Pokušajte ponovo kasnije.</string>
@@ -269,6 +278,7 @@
     <string name="image_content_description">Slika</string>
     <string name="image_deleted">Slika je izbrisana</string>
     <string name="image_text_grabbed">Tekst sa slike je dohvaćen</string>
+    <string name="indent_coach_mark_header_text">Prevucite stavke na listi radi uvlačenja</string>
     <string name="invalid_drawing_background_image">Nije moguće crtati na ovoj slici.</string>
     <string name="item_is_selected">%1$s je izabran</string>
     <string name="label_added_to_note">Oznaka %s je dodana bilješci</string>
@@ -386,7 +396,6 @@
     <string name="open_source_licenses_title">Licence otvorenog koda</string>
     <string name="partially_checked_checkbox">Djelomično označeno polje za potvrdu</string>
     <string name="pinned_note_content_description">Bilješka je zakačena</string>
-    <string name="pinning_action_button_coach_mark">Važne bilješke zakačite na vrh.</string>
     <string name="place_autocomplete_clear_button">Obriši pretraživanje</string>
     <string name="place_autocomplete_search_hint">Traži</string>
     <string name="place_reminder_content_description">Podsjetnik za mjesto %s</string>
@@ -566,7 +575,6 @@
     <string name="warm_welcome_screen_two_title">Snimajte sve što želite</string>
     <string name="weekly_simple">Sedmično</string>
     <string name="weekly_simple_lower">sedmično</string>
-    <string name="welcome_card_got_it">RAZUMIJEM</string>
     <string name="whats_new_description">Važne bilješke zakačite na vrh.</string>
     <string name="whats_new_in_keep">Šta je novo u aplikaciji Keep</string>
     <string name="widget_add_note">Dodaj bilješku</string>

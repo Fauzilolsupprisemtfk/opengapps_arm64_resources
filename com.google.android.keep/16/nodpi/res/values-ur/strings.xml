@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">آئٹم کا حاشیہ ختم کیا گیا</string>
+    <string name="a11y_item_indented_under">%1$s کے نیچے آئٹم کا حاشیہ لگایا گیا</string>
+    <string name="a11y_item_moved_above">آئٹم کو %1$s کے اوپر منتقل کیا گیا</string>
+    <string name="a11y_item_moved_below">آئٹم کو %1$s کے نیچے منتقل کیا گیا</string>
     <string name="abc_action_bar_home_description">ہوم پر نیویگیٹ کریں</string>
     <string name="abc_action_bar_up_description">اوپر نیویگیٹ کریں</string>
     <string name="abc_action_menu_overflow_description">مزید اختیارات</string>
@@ -21,9 +25,13 @@
     <string name="account_sync_off">مطابقت پذیری آف ہے۔ اس بات کو یقینی بنانے کیلئے کہ آپ کی سبھی تبدیلیاں محفوظ ہو گئیں ہیں مطابقت پذیری کو دوبارہ آن کریں۔</string>
     <string name="acessibility_recurrence_choose_end_date_description">تاریخ اختتام تبدیل کریں</string>
     <string name="action">کارروائی</string>
+    <string name="action_dedent_item">حاشیہ ختم کریں</string>
     <string name="action_download_chrome">‏Chrome ڈاؤن لوڈ کریں</string>
     <string name="action_fix">حل کریں</string>
     <string name="action_get_google_app">ایپ حاصل کریں</string>
+    <string name="action_indent_item">حاشیہ</string>
+    <string name="action_move_item_down">نیچے منتقل کریں</string>
+    <string name="action_move_item_up">اوپر منتقل کریں</string>
     <string name="action_retry">دوبارہ آزمائیں</string>
     <string name="add">شامل کریں</string>
     <string name="add_checkboxes">چیک باکسز</string>
@@ -244,6 +252,7 @@
     <string name="go_to_note">نوٹ پر جائیں</string>
     <string name="google_assistant_shopping_list_change">‏Google اسسٹنٹ خریداری کی فہرست میں تبدیلی ہو رہی ہے۔</string>
     <string name="google_keep_document">‏Google Keep دستاویز</string>
+    <string name="got_it">سمجھ آ گئی</string>
     <string name="grabbing_image_text">تصویر سے متن اخذ کیا جا رہا ہے…</string>
     <string name="grabbing_image_text_cancelled">تصویر سے متن اخذ کرنا منسوخ کر دیا گیا</string>
     <string name="grant_access_generic_error">صارف %s کو تلاش کرنے کی کوشش کرنے میں خرابی۔ براہ کرم بعد میں دوبارہ کوشش کریں۔</string>
@@ -269,6 +278,7 @@
     <string name="image_content_description">تصویر</string>
     <string name="image_deleted">تصویر حذف کر دی گئی</string>
     <string name="image_text_grabbed">تصویر سے متن اخذ کر لیا گیا</string>
+    <string name="indent_coach_mark_header_text">حاشیہ لگانے کیلئے اپنی فہرست پر آئٹمز کو سوائپ کریں</string>
     <string name="ink_clear_canvas">کینوس صاف کریں</string>
     <string name="ink_clear_dialog_cancel">منسوخ کریں</string>
     <string name="ink_clear_dialog_ok">صاف کریں</string>
@@ -438,7 +448,6 @@
     <string name="open_source_licenses_title">اوپن سورس لائسنسز</string>
     <string name="partially_checked_checkbox">جزوی طور پر نشان زد کیا گیا چیک باکس</string>
     <string name="pinned_note_content_description">پن کردہ نوٹ</string>
-    <string name="pinning_action_button_coach_mark">اپنے اہم نوٹس کو سب سے اوپر پن کریں۔</string>
     <string name="place_autocomplete_clear_button">تلاش صاف کریں</string>
     <string name="place_autocomplete_search_hint">تلاش</string>
     <string name="place_reminder_content_description">مقام کی یاد دہانی %s</string>
@@ -620,7 +629,6 @@
     <string name="warm_welcome_screen_two_title">کچھ بھی کیپچر کریں</string>
     <string name="weekly_simple">ہفتہ وار</string>
     <string name="weekly_simple_lower">ہفتہ وار</string>
-    <string name="welcome_card_got_it">سمجھ آ گئی</string>
     <string name="whats_new_description">اپنے اہم نوٹس کو سب سے اوپر پن کریں۔</string>
     <string name="whats_new_in_keep">‏Keep میں کیا نیا ہے</string>
     <string name="widget_add_note">نوٹ شامل کریں</string>

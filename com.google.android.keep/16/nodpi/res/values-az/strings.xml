@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">Elementin abzası silindi</string>
+    <string name="a11y_item_indented_under">%1$s mətninin altında abzas qoyulan element</string>
+    <string name="a11y_item_moved_above">Element %1$s mətnindən yuxarıya köçürüldü</string>
+    <string name="a11y_item_moved_below">Element %1$s mətnindən aşağıya köçürüldü</string>
     <string name="abc_action_bar_home_description">Evə naviqasiya et</string>
     <string name="abc_action_bar_up_description">Yuxarı get</string>
     <string name="abc_action_menu_overflow_description">Digər variantlar</string>
@@ -21,9 +25,13 @@
     <string name="account_sync_off">Sinxronlaşdırma qeyri-aktivdir. Bütün dəyişikliklərinizin saxlandığından əmin olmaq üçün sinxronlaşdırmanı aktiv edin.</string>
     <string name="acessibility_recurrence_choose_end_date_description">son tarixi dəyiş</string>
     <string name="action">Əməliyyat</string>
+    <string name="action_dedent_item">Abzası silin</string>
     <string name="action_download_chrome">Chrome Endirin</string>
     <string name="action_fix">Təmir</string>
     <string name="action_get_google_app">Tətbiqi Əldə edin</string>
+    <string name="action_indent_item">Abzas</string>
+    <string name="action_move_item_down">Aşağı köçürün</string>
+    <string name="action_move_item_up">Yuxarı köçürün</string>
     <string name="action_retry">Yenidən sınayın</string>
     <string name="add">Əlavə edin</string>
     <string name="add_checkboxes">Qeyd qutuları</string>
@@ -244,6 +252,7 @@
     <string name="go_to_note">Qeydə keçin</string>
     <string name="google_assistant_shopping_list_change">Google Assistent Alış-veriş Siyahısı dəyişikliyə uğrayır.</string>
     <string name="google_keep_document">Google Saxla Sənədi</string>
+    <string name="got_it">Anladım</string>
     <string name="grabbing_image_text">Şəkil mətni çəkilir...</string>
     <string name="grabbing_image_text_cancelled">Şəkil mətninin seçilməsi ləğv edildi</string>
     <string name="grant_access_generic_error">%s adlı istifadəçini axtaran zaman xəta oldu. Sonra yenidən cəhd edin.</string>
@@ -269,6 +278,7 @@
     <string name="image_content_description">Şəkil</string>
     <string name="image_deleted">Şəkil silindi</string>
     <string name="image_text_grabbed">Şəkil mətni çəkilib</string>
+    <string name="indent_coach_mark_header_text">Abzas qoymaq üçün siyahıdakı elementləri sürüşdürün</string>
     <string name="ink_clear_canvas">Kətanı təmizlə</string>
     <string name="ink_clear_dialog_cancel">Ləğv edin</string>
     <string name="ink_clear_dialog_ok">Silin</string>
@@ -438,7 +448,6 @@
     <string name="open_source_licenses_title">Açıq mənbə lisenziyaları</string>
     <string name="partially_checked_checkbox">Qismən Yoxlanılmış Seçim Xanası</string>
     <string name="pinned_note_content_description">Qeyd taxıldı</string>
-    <string name="pinning_action_button_coach_mark">Vacib qeydləri yuxarı sancın.</string>
     <string name="place_autocomplete_clear_button">Axtarışı təmizləyin</string>
     <string name="place_autocomplete_search_hint">Axtarın</string>
     <string name="place_reminder_content_description">Məkan xatırladıcı %s</string>
@@ -618,7 +627,6 @@
     <string name="warm_welcome_screen_two_title">Hər hansı bir şeyi ələ keçirin</string>
     <string name="weekly_simple">Həftəlik</string>
     <string name="weekly_simple_lower">həftəl</string>
-    <string name="welcome_card_got_it">ANLADIM</string>
     <string name="whats_new_description">Vacib qeydləri yuxarı sancın.</string>
     <string name="whats_new_in_keep">Saxlada nə yeniliklər var</string>
     <string name="widget_add_note">Qeyd əlavə edin</string>

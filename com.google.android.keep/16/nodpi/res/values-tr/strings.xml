@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">Öğenin girintisi kaldırıldı</string>
+    <string name="a11y_item_indented_under">Öğeye %1$s altında girinti eklendi</string>
+    <string name="a11y_item_moved_above">Öğe %1$s metninin yukarısına taşındı</string>
+    <string name="a11y_item_moved_below">Öğe %1$s metninin aşağısına taşındı</string>
     <string name="abc_action_bar_home_description">Ana ekrana git</string>
     <string name="abc_action_bar_up_description">Yukarı git</string>
     <string name="abc_action_menu_overflow_description">Diğer seçenekler</string>
@@ -25,10 +29,14 @@
     <string name="account_sync_off">Senkronizasyon kapalı. Tüm değişikliklerinizin kaydedildiğinden emin olmak için senkronizasyonu tekrar açın.</string>
     <string name="acessibility_recurrence_choose_end_date_description">bitiş tarihini değiştirin</string>
     <string name="action">İşlem</string>
+    <string name="action_dedent_item">Girintiyi kaldır</string>
     <string name="action_download_chrome">"Chrome'u indir"</string>
     <string name="action_fix">Düzelt</string>
     <string name="action_get_google_app">Uygulamayı Al</string>
+    <string name="action_indent_item">Girinti ekle</string>
     <string name="action_label">Enter</string>
+    <string name="action_move_item_down">Aşağı taşı</string>
+    <string name="action_move_item_up">Yukarı taşı</string>
     <string name="action_retry">Yeniden dene</string>
     <string name="add">Ekle</string>
     <string name="add_account">Hesap ekle</string>
@@ -257,6 +265,7 @@
     <string name="go_to_note">Nota git</string>
     <string name="google_assistant_shopping_list_change">Google Asistan Alışveriş Listesi değişiyor.</string>
     <string name="google_keep_document">Google Keep Dokümanı</string>
+    <string name="got_it">Anladım</string>
     <string name="grabbing_image_text">Resim metni alınıyor</string>
     <string name="grabbing_image_text_cancelled">Metin resmini alma işlemi iptal edildi</string>
     <string name="grant_access_generic_error">%s adlı kullanıcı aranmaya çalışılırken bir hata oluştu. Lütfen daha sonra tekrar deneyin.</string>
@@ -283,6 +292,7 @@
     <string name="image_content_description">Resim</string>
     <string name="image_deleted">Resim silindi</string>
     <string name="image_text_grabbed">Resimdeki metin yakalandı</string>
+    <string name="indent_coach_mark_header_text">Girinti eklemek için listenizdeki öğeleri kaydırın</string>
     <string name="ink_clear_canvas">Tuvali temizle</string>
     <string name="ink_clear_dialog_cancel">İptal</string>
     <string name="ink_clear_dialog_ok">Temizle</string>
@@ -455,7 +465,6 @@
     <string name="partially_checked_checkbox">Kısmi olarak işaretlenmiş onay kutusu</string>
     <string name="photo_view_count" formatted="false">%d / %d</string>
     <string name="pinned_note_content_description">Sabitlenmiş not</string>
-    <string name="pinning_action_button_coach_mark">Önemli notlarınızı en üste sabitleyin.</string>
     <string name="place_autocomplete_clear_button">Aramayı temizle</string>
     <string name="place_autocomplete_search_hint">Ara</string>
     <string name="place_reminder_content_description">Yere dayalı hatırlatıcı: %s</string>
@@ -642,7 +651,6 @@
     <string name="warm_welcome_screen_two_title">Her şeyi yakalayın</string>
     <string name="weekly_simple">Her hafta</string>
     <string name="weekly_simple_lower">her hafta</string>
-    <string name="welcome_card_got_it">TAMAM</string>
     <string name="whats_new_description">Önemli notlarınızı en üste sabitleyin.</string>
     <string name="whats_new_in_keep">"Keep'teki yenilikler"</string>
     <string name="widget_add_note">Not ekle</string>

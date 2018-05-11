@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">Xatboshi olib tashlandi</string>
+    <string name="a11y_item_indented_under">%1$s ostiga xatboshi qo‘shildi</string>
+    <string name="a11y_item_moved_above">Element %1$s ustiga ko‘chirildi</string>
+    <string name="a11y_item_moved_below">Element %1$s ostiga ko‘chirildi</string>
     <string name="abc_action_bar_home_description">Boshiga o‘tish</string>
     <string name="abc_action_bar_up_description">Yuqoriga o‘tish</string>
     <string name="abc_action_menu_overflow_description">Boshqa parametrlar</string>
@@ -21,9 +25,13 @@
     <string name="account_sync_off">Sinxronizatsiya o‘chiq. Barcha o‘zgarishlar saqlanishi uchun sinxronizatsiyani qayta yoqing.</string>
     <string name="acessibility_recurrence_choose_end_date_description">tugash sanasini o‘zgartirish</string>
     <string name="action">Amal</string>
+    <string name="action_dedent_item">Xatboshini olib tashlash</string>
     <string name="action_download_chrome">Chrome brauzerini yuklab olish</string>
     <string name="action_fix">Tuzatish</string>
     <string name="action_get_google_app">Ilovani yuklab olish</string>
+    <string name="action_indent_item">Xatboshi</string>
+    <string name="action_move_item_down">Pastga siljitish</string>
+    <string name="action_move_item_up">Tepaga siljitish</string>
     <string name="action_retry">Qayta urinish</string>
     <string name="add">Qo‘shish</string>
     <string name="add_checkboxes">Belgilash katakchalari</string>
@@ -203,7 +211,7 @@
     <string name="explore_dialer_suggestion_action_text">Telefon qilish</string>
     <string name="explore_dismiss_suggestion_description">Taklifni yopish</string>
     <string name="explore_empty_header_sub_text">Masalan, “Chiqindini payshanba kuni olib chiqib tashlash” kabi so‘rov matnini kiriting</string>
-    <string name="explore_empty_header_text">Hech narsa yo‘q</string>
+    <string name="explore_empty_header_text">Hech narsa topilmadi</string>
     <string name="explore_empty_header_text_shared_note">Hech qanday taklif yo‘q.</string>
     <string name="explore_feedback_error">Hozir fikr va mulohaza yuborib bo‘lmaydi. Keyinroq qayta urining.</string>
     <string name="explore_feedback_submitted">Yuborildi.</string>
@@ -244,6 +252,7 @@
     <string name="go_to_note">Qaydni ochish</string>
     <string name="google_assistant_shopping_list_change">Google Assistent xaridlar ro‘yxatida o‘zgarish.</string>
     <string name="google_keep_document">Google Keep hujjati</string>
+    <string name="got_it">OK</string>
     <string name="grabbing_image_text">Rasmdagi matn aniqlanmoqda…</string>
     <string name="grabbing_image_text_cancelled">Tasvirdagi matnni aniqlash bekor qilindi</string>
     <string name="grant_access_generic_error">%s ismli foydalanuvchi topilmadi. Keyinroq qaytadan urining.</string>
@@ -269,6 +278,7 @@
     <string name="image_content_description">Rasm</string>
     <string name="image_deleted">Rasm o‘chirib tashlandi</string>
     <string name="image_text_grabbed">Rasmdagi matn aniqlandi</string>
+    <string name="indent_coach_mark_header_text">Xatboshi qo‘shish uchun ro‘yxatdagi elementlarni barmoq bilan suring</string>
     <string name="ink_clear_canvas">Oynani tozalash</string>
     <string name="ink_clear_dialog_cancel">Bekor qilish</string>
     <string name="ink_clear_dialog_ok">Tozalash</string>
@@ -438,7 +448,6 @@
     <string name="open_source_licenses_title">Ochiq kodli DT litsenziyalari</string>
     <string name="partially_checked_checkbox">Muayyan bandlar belgilandi</string>
     <string name="pinned_note_content_description">Mahkamlangan qayd</string>
-    <string name="pinning_action_button_coach_mark">Muhim qaydlarni ro‘yxat boshiga mahkamlang.</string>
     <string name="place_autocomplete_clear_button">Qidiruv maydonini tozalash</string>
     <string name="place_autocomplete_search_hint">Qidirish</string>
     <string name="place_reminder_content_description">Joy bo‘yicha eslatma: %s</string>
@@ -542,7 +551,7 @@
     <string name="select_minutes">Daqiqani tanlang</string>
     <string name="select_year">Yilni tanlash</string>
     <string name="send_drawing">Chizmani yuborish</string>
-    <string name="send_feedback">Fikr-mulohaza yuborish</string>
+    <string name="send_feedback">Fikr-mulohaza</string>
     <string name="send_note">Qaydni yuborish</string>
     <string name="send_via_other_apps">Boshqa ilovalar orqali yuborish</string>
     <string name="settings">Sozlamalar</string>
@@ -618,7 +627,6 @@
     <string name="warm_welcome_screen_two_title">Bu juda qulay</string>
     <string name="weekly_simple">Har hafta</string>
     <string name="weekly_simple_lower">har hafta</string>
-    <string name="welcome_card_got_it">OK</string>
     <string name="whats_new_description">Muhim qaydlarni ro‘yxat boshiga mahkamlang.</string>
     <string name="whats_new_in_keep">Google Keep yangiliklari</string>
     <string name="widget_add_note">Yangi qayd</string>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">Odsazení položky zrušeno</string>
+    <string name="a11y_item_indented_under">Položka odsazena pod položkou %1$s</string>
+    <string name="a11y_item_moved_above">Položka přesunuta nad položku %1$s</string>
+    <string name="a11y_item_moved_below">Položka přesunuta pod položku %1$s</string>
     <string name="abc_action_bar_home_description">Přejít na plochu</string>
     <string name="abc_action_bar_up_description">Přejít nahoru</string>
     <string name="abc_action_menu_overflow_description">Více možností</string>
@@ -25,10 +29,14 @@
     <string name="account_sync_off">Synchronizace je vypnuta. Chcete-li zajistit, že všechny změny budou uloženy, znovu synchronizaci zapněte.</string>
     <string name="acessibility_recurrence_choose_end_date_description">změnit datum ukončení</string>
     <string name="action">Akce</string>
+    <string name="action_dedent_item">Zrušit odsazení</string>
     <string name="action_download_chrome">Stáhnout prohlížeč Chrome</string>
     <string name="action_fix">Opravit</string>
     <string name="action_get_google_app">Stáhnout aplikaci</string>
+    <string name="action_indent_item">Odsadit</string>
     <string name="action_label">Enter</string>
+    <string name="action_move_item_down">Přesunout dolů</string>
+    <string name="action_move_item_up">Přesunout nahoru</string>
     <string name="action_retry">Opakovat</string>
     <string name="add">Přidat</string>
     <string name="add_account">Přidat účet</string>
@@ -257,6 +265,7 @@
     <string name="go_to_note">Přejít na poznámku</string>
     <string name="google_assistant_shopping_list_change">Nákupní seznam Asistenta Google se mění.</string>
     <string name="google_keep_document">Dokument aplikace Google Keep</string>
+    <string name="got_it">Rozumím</string>
     <string name="grabbing_image_text">Načítání textu obrázku…</string>
     <string name="grabbing_image_text_cancelled">Načítání textu z obrázku bylo zrušeno.</string>
     <string name="grant_access_generic_error">Při vyhledávání uživatele %s došlo k chybě. Zkuste to prosím znovu později.</string>
@@ -283,6 +292,7 @@
     <string name="image_content_description">Obrázek</string>
     <string name="image_deleted">Obrázek byl smazán</string>
     <string name="image_text_grabbed">Text z obrázku byl načten</string>
+    <string name="indent_coach_mark_header_text">Položky na seznamu můžete odsadit, když po nich přejedete prstem</string>
     <string name="ink_clear_canvas">Vymazat plátno</string>
     <string name="ink_clear_dialog_cancel">Zrušit</string>
     <string name="ink_clear_dialog_ok">Vymazat</string>
@@ -455,7 +465,6 @@
     <string name="partially_checked_checkbox">Částečně zaškrtnuté políčko</string>
     <string name="photo_view_count" formatted="false">%d z %d</string>
     <string name="pinned_note_content_description">Připnutá poznámka</string>
-    <string name="pinning_action_button_coach_mark">Připněte si důležité poznámky nahoru.</string>
     <string name="place_autocomplete_clear_button">Vymazat vyhledávání</string>
     <string name="place_autocomplete_search_hint">Vyhledávání</string>
     <string name="place_reminder_content_description">Připomenutí pro místo %s</string>
@@ -642,7 +651,6 @@
     <string name="warm_welcome_screen_two_title">Zaznamenejte cokoli</string>
     <string name="weekly_simple">Každý týden</string>
     <string name="weekly_simple_lower">každý týden</string>
-    <string name="welcome_card_got_it">ROZUMÍM</string>
     <string name="whats_new_description">Připněte si důležité poznámky nahoru.</string>
     <string name="whats_new_in_keep">Novinky v aplikaci Keep</string>
     <string name="widget_add_note">Přidat poznámku</string>

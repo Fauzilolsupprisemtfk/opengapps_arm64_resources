@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">Cofnięto zagnieżdżenie elementu</string>
+    <string name="a11y_item_indented_under">Element został zagnieżdżony w elemencie %1$s</string>
+    <string name="a11y_item_moved_above">Element został przeniesiony nad element %1$s</string>
+    <string name="a11y_item_moved_below">Element został przeniesiony pod element %1$s</string>
     <string name="abc_action_bar_home_description">Przejdź do strony głównej</string>
     <string name="abc_action_bar_up_description">Przejdź wyżej</string>
     <string name="abc_action_menu_overflow_description">Więcej opcji</string>
@@ -25,10 +29,14 @@
     <string name="account_sync_off">Synchronizacja jest wyłączona. Włącz ją z powrotem, by mieć pewność, że wszystkie zmiany się zapiszą.</string>
     <string name="acessibility_recurrence_choose_end_date_description">zmień datę zakończenia</string>
     <string name="action">Działanie</string>
+    <string name="action_dedent_item">Usuń wcięcie</string>
     <string name="action_download_chrome">Pobierz Chrome</string>
     <string name="action_fix">Popraw</string>
     <string name="action_get_google_app">Pobierz aplikację</string>
+    <string name="action_indent_item">Dodaj wcięcie</string>
     <string name="action_label">Enter</string>
+    <string name="action_move_item_down">Przenieś w dół</string>
+    <string name="action_move_item_up">Przenieś w górę</string>
     <string name="action_retry">Ponów</string>
     <string name="add">Dodaj</string>
     <string name="add_account">Dodaj konto</string>
@@ -257,6 +265,7 @@
     <string name="go_to_note">Przejdź do notatki</string>
     <string name="google_assistant_shopping_list_change">Lista zakupów Asystenta Google się zmienia.</string>
     <string name="google_keep_document">Dokument z Google Keep</string>
+    <string name="got_it">OK</string>
     <string name="grabbing_image_text">Pobieram tekst obrazu…</string>
     <string name="grabbing_image_text_cancelled">Wyciąganie tekstu z obrazu zostało anulowane</string>
     <string name="grant_access_generic_error">Podczas wyszukiwania użytkownika %s wystąpił błąd. Spróbuj ponownie później.</string>
@@ -283,6 +292,7 @@
     <string name="image_content_description">Obraz</string>
     <string name="image_deleted">Obraz został usunięty</string>
     <string name="image_text_grabbed">Tekst z obrazu został zapisany</string>
+    <string name="indent_coach_mark_header_text">Przeciągnij elementy listy, aby dodać wcięcia</string>
     <string name="ink_clear_canvas">Wyczyść obszar roboczy</string>
     <string name="ink_clear_dialog_cancel">Anuluj</string>
     <string name="ink_clear_dialog_ok">Wyczyść</string>
@@ -455,7 +465,6 @@
     <string name="partially_checked_checkbox">Częściowo zaznaczone pole</string>
     <string name="photo_view_count" formatted="false">%d z %d</string>
     <string name="pinned_note_content_description">Przypięta notatka</string>
-    <string name="pinning_action_button_coach_mark">Przypinaj ważne notatki do początku strumienia.</string>
     <string name="place_autocomplete_clear_button">Wyczyść wyszukiwanie</string>
     <string name="place_autocomplete_search_hint">Szukaj</string>
     <string name="place_reminder_content_description">Przypomnienie w miejscu %s</string>
@@ -642,7 +651,6 @@
     <string name="warm_welcome_screen_two_title">Notuj bez ograniczeń</string>
     <string name="weekly_simple">Co tydzień</string>
     <string name="weekly_simple_lower">co tydzień</string>
-    <string name="welcome_card_got_it">OK</string>
     <string name="whats_new_description">Przypinaj ważne notatki do początku strumienia.</string>
     <string name="whats_new_in_keep">Co nowego w Keep</string>
     <string name="widget_add_note">Dodaj notatkę</string>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">ធាតុ​ត្រូវ​បាន​លុប​ការចូល​បន្ទាត់</string>
+    <string name="a11y_item_indented_under">ធាតុ​ត្រូវ​បាន​ចូល​បន្ទាត់​ក្រោម %1$s</string>
+    <string name="a11y_item_moved_above">ធាតុ​ត្រូវ​បាន​ផ្លាស់ទី​ទៅ​ពី​លើ %1$s</string>
+    <string name="a11y_item_moved_below">ធាតុ​ត្រូវ​បាន​ផ្លាស់ទី​ទៅ​ពី​ក្រោម %1$s</string>
     <string name="abc_action_bar_home_description">រកមើល​ទៅ​ដើម</string>
     <string name="abc_action_bar_up_description">រកមើល​ឡើងលើ</string>
     <string name="abc_action_menu_overflow_description">ជម្រើស​ច្រើន​ទៀត</string>
@@ -21,9 +25,13 @@
     <string name="account_sync_off">សមកាលត្រូវបានបិទ។ បើកសមកាលវិញដើម្បីប្រាកដថាការផ្លាស់ប្តូររបស់អ្នកត្រូវបានរក្សាទុក។</string>
     <string name="acessibility_recurrence_choose_end_date_description">ប្ដូរ​កាលបរិច្ឆេទ​បញ្ចប់</string>
     <string name="action">សកម្មភាព</string>
+    <string name="action_dedent_item">លុប​ការចូល​បន្ទាត់</string>
     <string name="action_download_chrome">ទាញ​យក Chrome</string>
     <string name="action_fix">កែ</string>
     <string name="action_get_google_app">យក​កម្មវិធី</string>
+    <string name="action_indent_item">ចូល​បន្ទាត់</string>
+    <string name="action_move_item_down">ផ្លាស់ទី​ចុះ​ក្រោម</string>
+    <string name="action_move_item_up">ផ្លាស់ទី​​ឡើង​លើ</string>
     <string name="action_retry">ព្យាយាម​ម្ដងទៀត</string>
     <string name="add">បន្ថែម</string>
     <string name="add_checkboxes">ប្រអប់​ធីក</string>
@@ -244,6 +252,7 @@
     <string name="go_to_note">ទៅ​កាន់​ចំណាំ</string>
     <string name="google_assistant_shopping_list_change">បញ្ជីទិញទំនិញ Google ជំនួយការ កំពុង​ផ្លាស់ប្ដូរ។</string>
     <string name="google_keep_document">ឯកសារ Google Keep</string>
+    <string name="got_it">យល់ហើយ</string>
     <string name="grabbing_image_text">កំពុង​ចាប់​យក​អត្ថបទ​រូបភាព…</string>
     <string name="grabbing_image_text_cancelled">បានបោះបង់ការចាប់យកអត្ថបទរូបភាព</string>
     <string name="grant_access_generic_error">កំហុស​ក្នុង​ការ​ព្យាយាម​រក​មើល​អ្នកប្រើ %s ។ សូម​ព្យាយាម​ម្ដង​ទៀត​ពេល​ក្រោយ។</string>
@@ -269,6 +278,7 @@
     <string name="image_content_description">រូបភាព</string>
     <string name="image_deleted">បានលុបរូបភាព</string>
     <string name="image_text_grabbed">បាន​ចាប់​យក​អក្សរ​ចេញ​ពី​រូបភាព</string>
+    <string name="indent_coach_mark_header_text">អូស​ធាតុ​លើ​បញ្ជី​របស់​អ្នក ដើម្បី​ចូល​បន្ទាត់</string>
     <string name="ink_clear_canvas">សម្អាត canvas</string>
     <string name="ink_clear_dialog_cancel">បោះបង់</string>
     <string name="ink_clear_dialog_ok">សម្អាត</string>
@@ -438,7 +448,6 @@
     <string name="open_source_licenses_title">អាជ្ញាប័ណ្ណ​កម្មវិធី​​​​ប្រភព​កូដ​ចំហ</string>
     <string name="partially_checked_checkbox">ប្រអប់ធីកដែលបានធីកដោយផ្នែក</string>
     <string name="pinned_note_content_description">បាន​ខ្ទាស់​ចំណាំ</string>
-    <string name="pinning_action_button_coach_mark">ខ្ទាស់​ចំណាំ​ដែល​សំខាន់​ទៅ​លើ​គេ។</string>
     <string name="place_autocomplete_clear_button">សម្អាតការស្វែងរក</string>
     <string name="place_autocomplete_search_hint">ស្វែងរក</string>
     <string name="place_reminder_content_description">ការរំលឹក​ទីកន្លែង %s</string>
@@ -618,7 +627,6 @@
     <string name="warm_welcome_screen_two_title">ថតអ្វីដែលអ្នកពេញចិត្ត</string>
     <string name="weekly_simple">ប្រចាំ​​សប្ដាហ៍</string>
     <string name="weekly_simple_lower">ប្រចាំសប្តាហ៏</string>
-    <string name="welcome_card_got_it">យល់​ហើយ</string>
     <string name="whats_new_description">ខ្ទាស់​ចំណាំ​ដែល​សំខាន់​ទៅ​លើ​គេ។</string>
     <string name="whats_new_in_keep">តើមានអ្វីថ្មីនៅក្នុង Keep</string>
     <string name="widget_add_note">បន្ថែម​ចំណាំ</string>

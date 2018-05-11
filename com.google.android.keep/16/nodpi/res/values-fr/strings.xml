@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">"Mise en retrait de l'élément annulée"</string>
+    <string name="a11y_item_indented_under">Élément mis en retrait sous %1$s</string>
+    <string name="a11y_item_moved_above">Élément déplacé au-dessus de %1$s</string>
+    <string name="a11y_item_moved_below">Élément déplacé sous %1$s</string>
     <string name="abc_action_bar_home_description">"Revenir à l'accueil"</string>
     <string name="abc_action_bar_up_description">Revenir en haut de la page</string>
     <string name="abc_action_menu_overflow_description">"Plus d'options"</string>
@@ -25,10 +29,14 @@
     <string name="account_sync_off">La synchronisation est désactivée. Réactivez-la pour que toutes vos modifications soient enregistrées.</string>
     <string name="acessibility_recurrence_choose_end_date_description">modifier la date de fin</string>
     <string name="action">Action</string>
+    <string name="action_dedent_item">Annuler la mise en retrait</string>
     <string name="action_download_chrome">Télécharger Chrome</string>
     <string name="action_fix">Corriger</string>
     <string name="action_get_google_app">"Télécharger l'appli"</string>
+    <string name="action_indent_item">Mettre en retrait</string>
     <string name="action_label">Entrée</string>
+    <string name="action_move_item_down">Déplacer vers le bas</string>
+    <string name="action_move_item_up">Déplacer vers le haut</string>
     <string name="action_retry">Réessayer</string>
     <string name="add">Ajouter</string>
     <string name="add_account">Ajouter un compte</string>
@@ -257,6 +265,7 @@
     <string name="go_to_note">Accéder à la note</string>
     <string name="google_assistant_shopping_list_change">La liste de courses Assistant Google est en cours de modification…</string>
     <string name="google_keep_document">Document Google Keep</string>
+    <string name="got_it">OK</string>
     <string name="grabbing_image_text">"Extraction du texte de l'image en cours…"</string>
     <string name="grabbing_image_text_cancelled">"L'extraction du texte de l'image a été annulée."</string>
     <string name="grant_access_generic_error">"Erreur lors de la recherche de l'utilisateur %s. Veuillez réessayer plus tard."</string>
@@ -283,6 +292,7 @@
     <string name="image_content_description">Une image.</string>
     <string name="image_deleted">"L'image a été supprimée."</string>
     <string name="image_text_grabbed">"Texte de l'image extrait"</string>
+    <string name="indent_coach_mark_header_text">Mettre en retrait les éléments de la liste en les faisant glisser</string>
     <string name="ink_clear_canvas">Effacer la toile</string>
     <string name="ink_clear_dialog_cancel">Annuler</string>
     <string name="ink_clear_dialog_ok">Effacer</string>
@@ -455,7 +465,6 @@
     <string name="partially_checked_checkbox">Case partiellement cochée</string>
     <string name="photo_view_count" formatted="false">%d sur %d</string>
     <string name="pinned_note_content_description">Note épinglée</string>
-    <string name="pinning_action_button_coach_mark">"Épinglez les notes importantes en haut de l'écran."</string>
     <string name="place_autocomplete_clear_button">Effacer la recherche</string>
     <string name="place_autocomplete_search_hint">Rechercher</string>
     <string name="place_reminder_content_description">Rappel par lieu %s</string>
@@ -642,7 +651,6 @@
     <string name="warm_welcome_screen_two_title">Enregistrez tout</string>
     <string name="weekly_simple">Toutes les semaines</string>
     <string name="weekly_simple_lower">toutes les semaines</string>
-    <string name="welcome_card_got_it">OK</string>
     <string name="whats_new_description">"Épinglez les notes importantes en haut de l'écran."</string>
     <string name="whats_new_in_keep">Nouveautés dans Keep</string>
     <string name="widget_add_note">Ajouter note</string>

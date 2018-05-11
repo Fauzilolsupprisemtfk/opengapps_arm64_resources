@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">Видалено відступ для елемента</string>
+    <string name="a11y_item_indented_under">Додано відступ для елемента під текстом \"%1$s\"</string>
+    <string name="a11y_item_moved_above">Елемент переміщено вище тексту \"%1$s\"</string>
+    <string name="a11y_item_moved_below">Елемент переміщено нижче тексту \"%1$s\"</string>
     <string name="abc_action_bar_home_description">Перейти на головний</string>
     <string name="abc_action_bar_up_description">Перейти вгору</string>
     <string name="abc_action_menu_overflow_description">Інші опції</string>
@@ -25,10 +29,14 @@
     <string name="account_sync_off">Синхронізацію вимкнено. Увімкніть її, щоб зберігати всі зміни.</string>
     <string name="acessibility_recurrence_choose_end_date_description">змінити дату завершення</string>
     <string name="action">Дія</string>
+    <string name="action_dedent_item">Видалити відступ</string>
     <string name="action_download_chrome">Завантажити Chrome</string>
     <string name="action_fix">Виправити</string>
     <string name="action_get_google_app">Завантажити додаток</string>
+    <string name="action_indent_item">Додати відступ</string>
     <string name="action_label">Назад</string>
+    <string name="action_move_item_down">Перемістити вниз</string>
+    <string name="action_move_item_up">Перемістити вгору</string>
     <string name="action_retry">Повторити</string>
     <string name="add">Додати</string>
     <string name="add_account">Додати обліковий запис</string>
@@ -257,6 +265,7 @@
     <string name="go_to_note">Перейти до нотатки</string>
     <string name="google_assistant_shopping_list_change">Список покупок у Google Асистенту змінюється.</string>
     <string name="google_keep_document">Документ Google Keep</string>
+    <string name="got_it">OK</string>
     <string name="grabbing_image_text">Отримання тексту зображення…</string>
     <string name="grabbing_image_text_cancelled">Отримання тексту зображення скасовано</string>
     <string name="grant_access_generic_error">Помилка пошуку користувача %s. Спробуйте пізніше.</string>
@@ -283,6 +292,7 @@
     <string name="image_content_description">Зображення</string>
     <string name="image_deleted">Зображення видалено</string>
     <string name="image_text_grabbed">Текст зображення розпізнано</string>
+    <string name="indent_coach_mark_header_text">Щоб додати відступ, проведіть пальцем по елементу в списку</string>
     <string name="ink_clear_canvas">Очистити полотно</string>
     <string name="ink_clear_dialog_cancel">Скасувати</string>
     <string name="ink_clear_dialog_ok">Очистити</string>
@@ -455,7 +465,6 @@
     <string name="partially_checked_checkbox">Частково позначено</string>
     <string name="photo_view_count" formatted="false">%d з %d</string>
     <string name="pinned_note_content_description">Закріплена нотатка</string>
-    <string name="pinning_action_button_coach_mark">Закріплюйте важливі нотатки вгорі.</string>
     <string name="place_autocomplete_clear_button">Очистити поле пошуку</string>
     <string name="place_autocomplete_search_hint">Пошук</string>
     <string name="place_reminder_content_description">Нагадування за місцем: %s</string>
@@ -642,7 +651,6 @@
     <string name="warm_welcome_screen_two_title">Зберігайте будь-що</string>
     <string name="weekly_simple">Щотижня</string>
     <string name="weekly_simple_lower">щотижня</string>
-    <string name="welcome_card_got_it">ЗРОЗУМІЛО</string>
     <string name="whats_new_description">Закріплюйте важливі нотатки вгорі.</string>
     <string name="whats_new_in_keep">Що нового в Keep</string>
     <string name="widget_add_note">Нова нотатка</string>

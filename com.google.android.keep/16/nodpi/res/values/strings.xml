@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">Item unindented</string>
+    <string name="a11y_item_indented_under">Item indented under %1$s</string>
+    <string name="a11y_item_moved_above">Item moved above %1$s</string>
+    <string name="a11y_item_moved_below">Item moved below %1$s</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
     <string name="abc_action_menu_overflow_description">More options</string>
@@ -48,10 +52,14 @@
     <string name="account_sync_off">Sync is off. Turn sync back on to make sure all your changes are saved.</string>
     <string name="acessibility_recurrence_choose_end_date_description">change end date</string>
     <string name="action">Action</string>
+    <string name="action_dedent_item">Unindent</string>
     <string name="action_download_chrome">Download Chrome</string>
     <string name="action_fix">Fix</string>
     <string name="action_get_google_app">Get App</string>
+    <string name="action_indent_item">Indent</string>
     <string name="action_label">Return</string>
+    <string name="action_move_item_down">Move down</string>
+    <string name="action_move_item_up">Move up</string>
     <string name="action_retry">Retry</string>
     <string name="add">Add</string>
     <string name="add_account">Add account</string>
@@ -90,6 +98,7 @@
     <string name="cannot_load_image">Cannot load the image</string>
     <string name="cannot_resolve_intent_uri">Cannot find corresponding note or list.</string>
     <string name="cant_edit_in_trash">Can’t edit in Trash</string>
+    <string name="character_counter_content_description">Character limit exceeded %1$d of %2$d</string>
     <string name="character_counter_pattern">%1$d / %2$d</string>
     <string name="checked_item_suggestion">checked item %s</string>
     <string name="checked_list_items_content_description">Checked</string>
@@ -341,6 +350,7 @@
     <string name="ga_action_cancel_edit_reminder">Cancel edit reminder</string>
     <string name="ga_action_check_empty_note_with_uninitialized_model">Check empty note with uninitialized model</string>
     <string name="ga_action_check_list_item">Check List Item</string>
+    <string name="ga_action_check_parent_list_item">Check list item with sub-items</string>
     <string name="ga_action_clone">Clone</string>
     <string name="ga_action_close_actions_menu">Close actions menu on action bar</string>
     <string name="ga_action_close_add_menu">Close add menu on action bar</string>
@@ -376,6 +386,7 @@
     <string name="ga_action_create_note">Create new note</string>
     <string name="ga_action_creating_typeface_error">Error creating typeface</string>
     <string name="ga_action_cut_text">Cut Text</string>
+    <string name="ga_action_dedent_list_item">Dedent list item</string>
     <string name="ga_action_delete">Delete</string>
     <string name="ga_action_delete_audio">Delete Audio</string>
     <string name="ga_action_delete_checked">Delete Checked</string>
@@ -383,8 +394,10 @@
     <string name="ga_action_delete_forever">Delete Forever</string>
     <string name="ga_action_delete_image">Delete image</string>
     <string name="ga_action_delete_label">Delete label</string>
+    <string name="ga_action_delete_list_item">Delete List Item</string>
     <string name="ga_action_delete_location_reminder">Delete Location Reminder</string>
     <string name="ga_action_delete_multiple">Delete Multiple</string>
+    <string name="ga_action_delete_parent_list_item">Delete list item with sub-items</string>
     <string name="ga_action_delete_recurring_reminder">Delete Recurring Reminder</string>
     <string name="ga_action_delete_single">Delete Single</string>
     <string name="ga_action_delete_time_reminder">Delete Time Reminder</string>
@@ -453,6 +466,10 @@
     <string name="ga_action_import_from_brix">Import snapshot from local Brix doc</string>
     <string name="ga_action_import_from_brix_failed">Snapshot import failed</string>
     <string name="ga_action_import_from_brix_failed_retryable">Snapshot import failed but retryable</string>
+    <string name="ga_action_indent_beyond_max">Attempt to indent list item beyond max level</string>
+    <string name="ga_action_indent_coachmark_completed">Indent coach mark completed</string>
+    <string name="ga_action_indent_coachmark_dismissed">Indent coach mark dismissed</string>
+    <string name="ga_action_indent_list_item">Indent list item</string>
     <string name="ga_action_insert_drawing">InsertDrawing called</string>
     <string name="ga_action_insert_drawing_unrecognized_error">InsertDrawing returned unrecognized error</string>
     <string name="ga_action_invalid_list_item_for_shared_note">Invalid local list item for shared note</string>
@@ -525,8 +542,6 @@
     <string name="ga_action_pin">Pin</string>
     <string name="ga_action_pin_multiple">Pin Multiple</string>
     <string name="ga_action_pin_single">Pin Single</string>
-    <string name="ga_action_pinning_coachmark_completed">Pinning coach mark completed</string>
-    <string name="ga_action_pinning_coachmark_dismissed">Pinning coach mark dismissed</string>
     <string name="ga_action_playback_audio">Play Back Audio</string>
     <string name="ga_action_presets_not_loaded">Presets not loaded</string>
     <string name="ga_action_realtime_model_version_mismatch">Realtime Version Mismatch</string>
@@ -551,6 +566,7 @@
     <string name="ga_action_rename_label">Rename label</string>
     <string name="ga_action_reorder_list_item">Reorder List Item</string>
     <string name="ga_action_reorder_note">Reorder Note</string>
+    <string name="ga_action_reorder_parent_list_item">Reorder list item with sub-items</string>
     <string name="ga_action_replace_text">Replace Text</string>
     <string name="ga_action_reset_list">Reset List</string>
     <string name="ga_action_resolving_gms_connection_error">Resolving gms connection error</string>
@@ -687,6 +703,7 @@
     <string name="ga_action_unarchive_multiple">Unarchive Multiple</string>
     <string name="ga_action_unarchive_single">Unarchive Single</string>
     <string name="ga_action_uncheck_list_item">Uncheck List Item</string>
+    <string name="ga_action_uncheck_parent_list_item">Uncheck list item with sub-items</string>
     <string name="ga_action_unhandled_brix_server_error">Unhandled Brix Server Error</string>
     <string name="ga_action_unpin">Unpin</string>
     <string name="ga_action_unpin_multiple">Unpin Multiple</string>
@@ -828,6 +845,7 @@
     <string name="google_app_id">1:192748556389:android:454204a8efc917d3</string>
     <string name="google_assistant_shopping_list_change">Google Assistant Shopping List is changing.</string>
     <string name="google_keep_document">Google Keep Document</string>
+    <string name="got_it">Got it</string>
     <string name="grabbing_image_text">Grabbing image text…</string>
     <string name="grabbing_image_text_cancelled">Grabbing image text cancelled</string>
     <string name="grant_access_generic_error">Error trying to look up the user %s. Please try again later.</string>
@@ -856,6 +874,7 @@
     <string name="image_content_description">Image</string>
     <string name="image_deleted">Image deleted</string>
     <string name="image_text_grabbed">Image text grabbed</string>
+    <string name="indent_coach_mark_header_text">Swipe items on your list to indent</string>
     <string name="ink_clear_canvas">Clear canvas</string>
     <string name="ink_clear_dialog_cancel">Cancel</string>
     <string name="ink_clear_dialog_ok">Clear</string>
@@ -997,7 +1016,7 @@
     <string name="more_entities_count">+%d</string>
     <string name="more_string">+%1$d</string>
     <string name="movie_suggestion">movie %s</string>
-    <string name="mtrl_chip_close_icon_content_description">Close icon</string>
+    <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
     <string name="multiple_invalid_sharees_error_message">Email address errors</string>
     <string name="name_requested_access">%1$s (%2$s) has requested access to this note</string>
     <string name="new_label_created">New label created</string>
@@ -1034,14 +1053,13 @@
     <string name="open_google_doc">Open</string>
     <string name="open_source_licenses_title">Open source licenses</string>
     <string name="partially_checked_checkbox">Partially checked checkbox</string>
-    <string name="password_toggle_content_description">Toggle password visibility</string>
+    <string name="password_toggle_content_description">Show password</string>
     <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
     <string name="photo_view_count" formatted="false">%d of %d</string>
     <string name="pinned_note_content_description">Pinned note</string>
-    <string name="pinning_action_button_coach_mark">Pin your important notes to the top.</string>
     <string name="place_autocomplete_clear_button">Clear search</string>
     <string name="place_autocomplete_search_hint">Search</string>
     <string name="place_reminder_content_description">Place reminder %s</string>
@@ -1049,7 +1067,7 @@
     <string name="preferences_license_summary">License details for open source software</string>
     <string name="preferences_license_title">Open source licenses</string>
     <string name="primes_marker">PrImEs</string>
-    <string name="primes_version">192219083</string>
+    <string name="primes_version">194016220</string>
     <string name="privacy_policy_title">Privacy Policy</string>
     <string name="profile_avatar_content_description">Profile Avatar</string>
     <string name="quick_edit_note_error">Note could not be added.</string>
@@ -1240,7 +1258,6 @@
     <string name="warm_welcome_screen_two_title">Capture anything</string>
     <string name="weekly_simple">Weekly</string>
     <string name="weekly_simple_lower">weekly</string>
-    <string name="welcome_card_got_it">GOT IT</string>
     <string name="whats_new_description">Pin your important notes to the top.</string>
     <string name="whats_new_in_keep">What’s new in Keep</string>
     <string name="widget_add_note">Add note</string>

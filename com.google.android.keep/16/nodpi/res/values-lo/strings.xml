@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">ຫຍໍ້ໜ້າອອກແລ້ວ</string>
+    <string name="a11y_item_indented_under">ຫຍໍ້ໜ້າລາຍການເຂົ້າຢູ່ກ້ອງ %1$s ແລ້ວ</string>
+    <string name="a11y_item_moved_above">ຍ້າຍລາຍການຂຶ້ນໄປຢູ່ເທິງ %1$s ແລ້ວ</string>
+    <string name="a11y_item_moved_below">ຍ້າຍລາຍການລົງໄປຢູ່ກ້ອງ %1$s ແລ້ວ</string>
     <string name="abc_action_bar_home_description">ກັບໄປໜ້າຫຼັກ</string>
     <string name="abc_action_bar_up_description">ຂຶ້ນເທິງ</string>
     <string name="abc_action_menu_overflow_description">ໂຕເລືອກອື່ນ</string>
@@ -21,9 +25,13 @@
     <string name="account_sync_off">ຊິງ​ຄ໌​ປິດ​ແລ້ວ. ເປີດ​ການ​ຊິງ​ຄ໌​ກັບ​ຄືນ ເພື່ອ​ເບິ່ງ​ໃຫ້​ແນ່​ໃຈ​ວ່າ ທຸກ​ການ​ປ່ຽນ​ແປງ​ຂອງ​ທ່ານ​ຖືກ​ບັນ​ທຶກ​ໄວ້ແລ້ວ.</string>
     <string name="acessibility_recurrence_choose_end_date_description">ປ່ຽນມື້ສິ້ນສຸດ</string>
     <string name="action">ຄຳສັ່ງ</string>
+    <string name="action_dedent_item">ຫຍໍ້ໜ້າອອກ</string>
     <string name="action_download_chrome">ດາວໂຫລດ Chrome</string>
     <string name="action_fix">ແປງ</string>
     <string name="action_get_google_app">ດາວໂຫຼດແອັບ</string>
+    <string name="action_indent_item">ຫຍໍ້ໜ້າເຂົ້າ</string>
+    <string name="action_move_item_down">ຍ້າຍລົງ</string>
+    <string name="action_move_item_up">ຍ້າຍຂຶ້ນ</string>
     <string name="action_retry">ລອງໃໝ່</string>
     <string name="add">ເພີ່ມ</string>
     <string name="add_checkboxes">ກ່ອງເຄື່ອງໝາຍ</string>
@@ -244,6 +252,7 @@
     <string name="go_to_note">ໄປທີ່ບັນທຶກ</string>
     <string name="google_assistant_shopping_list_change">Google Assistant Shopping List ກຳລັງມີການປ່ຽນແປງ.</string>
     <string name="google_keep_document">ເອ​ກະ​ສານ Google Keep</string>
+    <string name="got_it">ເຂົ້າໃຈແລ້ວ</string>
     <string name="grabbing_image_text">ກຳ​ລັງ​ດຶງ​ຂໍ້​ຄວາມ​ຮູບ​ພາບ…</string>
     <string name="grabbing_image_text_cancelled">ການ​ດຶງ​ເອົາ​ຂໍ້​ຄວາມ​ຮູບ​ຖືກ​ຍົກ​ເລີກ​ແລ້ວ</string>
     <string name="grant_access_generic_error">​ເກີດ​ຂໍ້​ຜິດ​ພາດ​ໃນ​ການ​ຊອກ​ຫາ​ຜູ່​ໃຊ້ %s. ​ກະ​ລຸ​ນາ​ລອງ​ໃໝ່​ໃນ​ພາຍຫຼັງ.</string>
@@ -269,6 +278,7 @@
     <string name="image_content_description">ຮູບພາບ</string>
     <string name="image_deleted">ລຶບຮູບແລ້ວ</string>
     <string name="image_text_grabbed">ຈັບຂໍ້ຄວາມໃນພາບແລ້ວ</string>
+    <string name="indent_coach_mark_header_text">ປັດລາຍການຢູ່ລາຍຊື່ຂອງທ່ານເພື່ອຫຍໍ້ໜ້າເຂົ້າ</string>
     <string name="ink_clear_canvas">ລຶບຮູບແຕ້ມ</string>
     <string name="ink_clear_dialog_cancel">ຍົກ​ເລີກ​</string>
     <string name="ink_clear_dialog_ok">ລຶບ</string>
@@ -438,7 +448,6 @@
     <string name="open_source_licenses_title">ລິຂະສິດໂອເພນຊອດ</string>
     <string name="partially_checked_checkbox">ກ່ອງໝາຍທີ່ຖືກໝາຍເອົາບາງສ່ວນ</string>
     <string name="pinned_note_content_description">ປັກໝຸດບັນທຶກແລ້ວ</string>
-    <string name="pinning_action_button_coach_mark">ປັກໝຸດບັນທຶກສຳຄັນຂອງທ່ານໄວ້ເທິງສຸດ.</string>
     <string name="place_autocomplete_clear_button">ລຶບ​ການ​ຊອກ​ຫາ</string>
     <string name="place_autocomplete_search_hint">ຄົ້ນຫາ</string>
     <string name="place_reminder_content_description">ແຈ້ງເຕືອນສະຖານທີ່ %s</string>
@@ -618,7 +627,6 @@
     <string name="warm_welcome_screen_two_title">ບັນທຶກທຸກສິ່ງ</string>
     <string name="weekly_simple">ທຸກໆອາທິດ</string>
     <string name="weekly_simple_lower">ທຸກໆອາທິດ</string>
-    <string name="welcome_card_got_it">ເຂົ້າໃຈແລ້ວ</string>
     <string name="whats_new_description">ປັກໝຸດບັນທຶກສຳຄັນຂອງທ່ານໄວ້ເທິງສຸດ.</string>
     <string name="whats_new_in_keep">ມີຫຍັງໃໝ່ໃນ Keep?</string>
     <string name="widget_add_note">ເພີ່ມບັນທຶກ</string>

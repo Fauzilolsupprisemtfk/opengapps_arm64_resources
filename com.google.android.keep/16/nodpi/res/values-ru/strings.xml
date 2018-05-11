@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">Отступ удален</string>
+    <string name="a11y_item_indented_under">Добавлен отступ под элементом \"%1$s\"</string>
+    <string name="a11y_item_moved_above">Элемент теперь находится выше, чем \"%1$s\"</string>
+    <string name="a11y_item_moved_below">Элемент теперь находится ниже, чем \"%1$s\"</string>
     <string name="abc_action_bar_home_description">Перейти на главный экран</string>
     <string name="abc_action_bar_up_description">Перейти вверх</string>
     <string name="abc_action_menu_overflow_description">Другие параметры</string>
@@ -25,10 +29,14 @@
     <string name="account_sync_off">Синхронизация отключена. Включите ее, чтобы не потерять изменения.</string>
     <string name="acessibility_recurrence_choose_end_date_description">Изменить дату окончания</string>
     <string name="action">Действие</string>
+    <string name="action_dedent_item">Убрать отступ</string>
     <string name="action_download_chrome">Скачать Chrome</string>
     <string name="action_fix">Исправить</string>
     <string name="action_get_google_app">Установить</string>
+    <string name="action_indent_item">Отступ</string>
     <string name="action_label">Ввод</string>
+    <string name="action_move_item_down">Переместить вниз</string>
+    <string name="action_move_item_up">Переместить вверх</string>
     <string name="action_retry">Повторить</string>
     <string name="add">Добавить</string>
     <string name="add_account">Добавить аккаунт</string>
@@ -257,6 +265,7 @@
     <string name="go_to_note">Открыть заметку</string>
     <string name="google_assistant_shopping_list_change">Изменения в списке покупок Google Ассистента</string>
     <string name="google_keep_document">Документ Google Keep</string>
+    <string name="got_it">ОК</string>
     <string name="grabbing_image_text">Обработка изображения…</string>
     <string name="grabbing_image_text_cancelled">Обработка изображения отменена</string>
     <string name="grant_access_generic_error">Не удалось найти пользователя %s. Повторите попытку позже.</string>
@@ -283,6 +292,7 @@
     <string name="image_content_description">Изображение</string>
     <string name="image_deleted">Изображение удалено</string>
     <string name="image_text_grabbed">Текст распознан</string>
+    <string name="indent_coach_mark_header_text">Листайте элементы списка, чтобы добавить отступ</string>
     <string name="ink_clear_canvas">Очистить холст</string>
     <string name="ink_clear_dialog_cancel">Отмена</string>
     <string name="ink_clear_dialog_ok">Очистить</string>
@@ -455,7 +465,6 @@
     <string name="partially_checked_checkbox">Выбраны отдельные пункты</string>
     <string name="photo_view_count" formatted="false">%d из %d</string>
     <string name="pinned_note_content_description">Заметка закреплена</string>
-    <string name="pinning_action_button_coach_mark">Закрепляйте важные заметки в верхней части списка.</string>
     <string name="place_autocomplete_clear_button">Удалить поисковый запрос</string>
     <string name="place_autocomplete_search_hint">Поиск</string>
     <string name="place_reminder_content_description">Напоминание по месту: %s</string>
@@ -642,7 +651,6 @@
     <string name="warm_welcome_screen_two_title">Удобный формат</string>
     <string name="weekly_simple">Каждую неделю</string>
     <string name="weekly_simple_lower">каждую неделю</string>
-    <string name="welcome_card_got_it">ОК</string>
     <string name="whats_new_description">Закрепляйте важные заметки в верхней части списка.</string>
     <string name="whats_new_in_keep">Новое в Google Keep</string>
     <string name="widget_add_note">Новая заметка</string>

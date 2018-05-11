@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">የንጥሉ ገብ ተወግዷል</string>
+    <string name="a11y_item_indented_under">ንጥል በ%1$s ስር ገብ ተደርጎለታል</string>
+    <string name="a11y_item_moved_above">ንጥል ወደ ከ%1$s በላይ ተወስዷል</string>
+    <string name="a11y_item_moved_below">ንጥል ወደ ከ%1$s በታች ተወስዷል</string>
     <string name="abc_action_bar_home_description">ወደ መነሻ ይዳስሱ</string>
     <string name="abc_action_bar_up_description">ወደ ላይ ይዳስሱ</string>
     <string name="abc_action_menu_overflow_description">ተጨማሪ አማራጮች</string>
@@ -25,10 +29,14 @@
     <string name="account_sync_off">አመሳስል ጠፍቷል። ሁሉም ለውጦችዎ መቀመጣቸውን ለማረጋገጥ አመሳስልን መልሰው ያብሩት።</string>
     <string name="acessibility_recurrence_choose_end_date_description">የማብቂያውን ቀን ይለውጡ</string>
     <string name="action">እርምጃ</string>
+    <string name="action_dedent_item">ገብ አስወግድ</string>
     <string name="action_download_chrome">Chrome አውርድ</string>
     <string name="action_fix">አስተካክል</string>
     <string name="action_get_google_app">መተግበሪያ አግኝ</string>
+    <string name="action_indent_item">ገብ አድርግ</string>
     <string name="action_label">ተመለስ</string>
+    <string name="action_move_item_down">ወደ ታች ውሰድ</string>
+    <string name="action_move_item_up">ወደ ላይ ውሰድ</string>
     <string name="action_retry">እንደገና ሞክር</string>
     <string name="add">አክል</string>
     <string name="add_account">መለያ አክል</string>
@@ -257,6 +265,7 @@
     <string name="go_to_note">ወደ ማስታወሻ ይሂዱ</string>
     <string name="google_assistant_shopping_list_change">የGoogle ረዳት ግዢ ዝርዝር እየተቀየረ ነው።</string>
     <string name="google_keep_document">የGoogle Keep ሰነድ</string>
+    <string name="got_it">ገባኝ</string>
     <string name="grabbing_image_text">የምስል ጽሁፍ በመያዝ ላይ…</string>
     <string name="grabbing_image_text_cancelled">የምስል ጽሑፍን መያዝ ተትቷል</string>
     <string name="grant_access_generic_error">ተጠቃሚ %sን ለማግኘት በመሞከር ላይ ስህተት። እባክዎ ቆይተው እንደገና ይሞክሩ።</string>
@@ -283,6 +292,7 @@
     <string name="image_content_description">ምስል</string>
     <string name="image_deleted">ምስል ተሰርዟል</string>
     <string name="image_text_grabbed">የምስል ጽሑፍ ተይዟል</string>
+    <string name="indent_coach_mark_header_text">ገብ ለማስገባት በዝርዝርዎ ላይ ባሉ ንጥሎች ላይ ያንሸራትቱ</string>
     <string name="ink_clear_canvas">ሸራን አጽዳ</string>
     <string name="ink_clear_dialog_cancel">ተወው</string>
     <string name="ink_clear_dialog_ok">አጽዳ</string>
@@ -455,7 +465,6 @@
     <string name="partially_checked_checkbox">በከፊል ምልክት የተደረገበት አመልካች ሳጥን</string>
     <string name="photo_view_count" formatted="false">%d ከ%d</string>
     <string name="pinned_note_content_description">ማስታወሻ ተሰክቷል</string>
-    <string name="pinning_action_button_coach_mark">አስፈላጊ ማስታወሻዎችዎን አናት ላይ ይሰኩ።</string>
     <string name="place_autocomplete_clear_button">ፍለጋን አጽዳ</string>
     <string name="place_autocomplete_search_hint">ይፈልጉ</string>
     <string name="place_reminder_content_description">የቦታ አስታዋሽ %s</string>
@@ -642,7 +651,6 @@
     <string name="warm_welcome_screen_two_title">ማንኛውንም ነገር ቅረፅ</string>
     <string name="weekly_simple">በየሳምንቱ</string>
     <string name="weekly_simple_lower">በየሳምንቱ</string>
-    <string name="welcome_card_got_it">ገባኝ</string>
     <string name="whats_new_description">አስፈላጊ ማስታወሻዎችዎን አናት ላይ ይሰኩ።</string>
     <string name="whats_new_in_keep">Keep ውስጥ ምን አዲስ ነገር አለ</string>
     <string name="widget_add_note">ማስታወሻ አክል</string>

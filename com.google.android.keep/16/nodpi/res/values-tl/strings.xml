@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">Na-unindent ang item</string>
+    <string name="a11y_item_indented_under">Na-indent ang item sa ilalim ng %1$s</string>
+    <string name="a11y_item_moved_above">Inilipat ang item sa itaas ng %1$s</string>
+    <string name="a11y_item_moved_below">Inilipat ang item sa ibaba ng %1$s</string>
     <string name="abc_action_bar_home_description">Mag-navigate patungo sa home</string>
     <string name="abc_action_bar_up_description">Mag-navigate pataas</string>
     <string name="abc_action_menu_overflow_description">Higit pang mga opsyon</string>
@@ -25,10 +29,14 @@
     <string name="account_sync_off">Naka-off ang pag-sync. I-on muli ang pag-sync upang matiyak na nase-save ang lahat ng iyong pagbabago.</string>
     <string name="acessibility_recurrence_choose_end_date_description">baguhin ang petsa ng pagtatapos</string>
     <string name="action">Pagkilos</string>
+    <string name="action_dedent_item">I-unindent</string>
     <string name="action_download_chrome">I-download ang Chrome</string>
     <string name="action_fix">Ayusin</string>
     <string name="action_get_google_app">Kunin ang App</string>
+    <string name="action_indent_item">I-indent</string>
     <string name="action_label">Bumalik</string>
+    <string name="action_move_item_down">Ilipat pababa</string>
+    <string name="action_move_item_up">Ilipat pataas</string>
     <string name="action_retry">Subukang Muli</string>
     <string name="add">Magdagdag</string>
     <string name="add_account">Magdagdag ng account</string>
@@ -257,6 +265,7 @@
     <string name="go_to_note">Pumunta sa tala</string>
     <string name="google_assistant_shopping_list_change">Nagbabago ang Listahan sa Pamimili ng Google Assistant.</string>
     <string name="google_keep_document">Dokumento sa Google Keep</string>
+    <string name="got_it">OK</string>
     <string name="grabbing_image_text">Kinukuha ang text ng larawan…</string>
     <string name="grabbing_image_text_cancelled">Kinansela ang pagkuha ng text ng larawan</string>
     <string name="grant_access_generic_error">Error sa pagtatangkang hanapin ang user na si %s. Mangyaring subukan muli sa ibang pagkakataon.</string>
@@ -283,6 +292,7 @@
     <string name="image_content_description">Larawan</string>
     <string name="image_deleted">Na-delete ang larawan</string>
     <string name="image_text_grabbed">Nakuha ang text ng larawan</string>
+    <string name="indent_coach_mark_header_text">Mag-swipe ng mga item sa iyong listahan para mag-indent</string>
     <string name="ink_clear_canvas">I-clear ang canvas</string>
     <string name="ink_clear_dialog_cancel">Kanselahin</string>
     <string name="ink_clear_dialog_ok">I-clear</string>
@@ -455,7 +465,6 @@
     <string name="partially_checked_checkbox">Checkbox na hindi kumpleto ang check</string>
     <string name="photo_view_count" formatted="false">%d ng %d</string>
     <string name="pinned_note_content_description">Naka-pin na tala</string>
-    <string name="pinning_action_button_coach_mark">I-pin ang iyong mahahalagang tala sa itaas.</string>
     <string name="place_autocomplete_clear_button">I-clear ang paghahanap</string>
     <string name="place_autocomplete_search_hint">Maghanap</string>
     <string name="place_reminder_content_description">Lokasyon ng Paalala %s</string>
@@ -642,7 +651,6 @@
     <string name="warm_welcome_screen_two_title">Mag-capture ng anumang bagay</string>
     <string name="weekly_simple">Linggu-linggo</string>
     <string name="weekly_simple_lower">linggu-linggo</string>
-    <string name="welcome_card_got_it">NAKUHA KO</string>
     <string name="whats_new_description">I-pin ang iyong mahahalagang tala sa itaas.</string>
     <string name="whats_new_in_keep">"Ano'ng bago sa Keep"</string>
     <string name="widget_add_note">Magdagdag ng tala</string>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">အကြောင်းအရာကို အင်တင်းထားခြင်းမှ ဖြုတ်လိုက်ပါပြီ</string>
+    <string name="a11y_item_indented_under">အကြောင်းအရာကို %1$s အောက်တွင် အင်တင်းလိုက်သည်</string>
+    <string name="a11y_item_moved_above">အကြောင်းအရာကို %1$s အပေါ်သို့ ရွှေ့လိုက်ပါပြီ</string>
+    <string name="a11y_item_moved_below">အကြောင်းအရာကို %1$s အောက်သို့ ရွှေ့လိုက်သည်</string>
     <string name="abc_action_bar_home_description">မူလနေရာကို သွားရန်</string>
     <string name="abc_action_bar_up_description">အပေါ်သို့သွားရန်</string>
     <string name="abc_action_menu_overflow_description">ပိုမိုရွေးချယ်စရာများ</string>
@@ -21,9 +25,13 @@
     <string name="account_sync_off">ထပ်တူပြုခြင်းပိတ်ထားသည်။ သင့်ပြောင်းလဲခြင်းများ အားလုံးသိမ်းဆည်းမှု သေချာစေရန် ထပ်တူပြုခြင်းကို ပြန်ဖွင့်ပါ။</string>
     <string name="acessibility_recurrence_choose_end_date_description">ပြီးစီးရက်စွဲပြောင်းပါ</string>
     <string name="action">လုပ်ဆောင်ချက်</string>
+    <string name="action_dedent_item">အင်တင်းမှုဖြုတ်ရန်</string>
     <string name="action_download_chrome">Chrome ကို ဒေါင်းလုဒ်လုပ်ရန်</string>
     <string name="action_fix">ဖြေရှင်းရန်</string>
     <string name="action_get_google_app">အက်ပ်ကို ရယူရန်</string>
+    <string name="action_indent_item">အင်တင်းရန်</string>
+    <string name="action_move_item_down">အောက်သို့ ရွှေ့ရန်</string>
+    <string name="action_move_item_up">အပေါ်သို့ ရွှေ့ရန်</string>
     <string name="action_retry">ထပ်စမ်းကြည့်ရန်</string>
     <string name="add">ထည့်ရန်</string>
     <string name="add_checkboxes">အမှန်ခြစ်အကွက်များ</string>
@@ -244,6 +252,7 @@
     <string name="go_to_note">မှတ်စုသို့ သွားပါ</string>
     <string name="google_assistant_shopping_list_change">Google Assistant Shopping စာရင်းမှာ ပြောင်းလဲနေပါသည်။</string>
     <string name="google_keep_document">Google Keep မှတ်သားစာ</string>
+    <string name="got_it">ရပါပြီ</string>
     <string name="grabbing_image_text">ပုံ၏ စာသားကို ဆုပ်ယူနေ…</string>
     <string name="grabbing_image_text_cancelled">ပုံပါစာကိုဆုပ်ယူခြင်းအားဖျက်သိမ်းခဲ့သည်</string>
     <string name="grant_access_generic_error">အသုံးပြုသူ %sအား ကြည့်ရန် ကြိုးစားစဉ် အမှား။ ကျေးဇူးပြုပြီး နောက်မှာ ထပ်စမ်းပါ။</string>
@@ -269,6 +278,7 @@
     <string name="image_content_description">ရုပ်ပုံ</string>
     <string name="image_deleted">ပုံကို ဖျက်ပြီး</string>
     <string name="image_text_grabbed">ပုံစာသားကို ဆွဲယူလိုက်ပါပြီ</string>
+    <string name="indent_coach_mark_header_text">သင့်စာရင်းရှိ အကြောင်းအရာများကို အင်တင်းရန် ပွတ်ဆွဲပါ</string>
     <string name="ink_clear_canvas">ကြည်လင်‌သော ပတ္တူဆွဲ</string>
     <string name="ink_clear_dialog_cancel">မလုပ်တော့ပါ</string>
     <string name="ink_clear_dialog_ok">ရှင်းလင်းရန်</string>
@@ -438,7 +448,6 @@
     <string name="open_source_licenses_title">Open source လိုင်စင်များ</string>
     <string name="partially_checked_checkbox">တပိုင်းတစ ခြစ်ထားသော အကွက်</string>
     <string name="pinned_note_content_description">မှတ်စုကို ပင်တွဲထားပါသည်</string>
-    <string name="pinning_action_button_coach_mark">သင်၏အရေးကြီးမှတ်စုများကို ထိပ်ဆုံးတွင် ပင်တွဲရန်။</string>
     <string name="place_autocomplete_clear_button">ရှာဖွေမှုကို ရှင်းပါ</string>
     <string name="place_autocomplete_search_hint">ရှာဖွေရန်</string>
     <string name="place_reminder_content_description">နေရာသတိပေးချက် %s</string>
@@ -618,7 +627,6 @@
     <string name="warm_welcome_screen_two_title">အရာရာကို သိမ်းဆည်းထားပါသည်</string>
     <string name="weekly_simple">အပတ်စဉ်</string>
     <string name="weekly_simple_lower">အပတ်စဉ်</string>
-    <string name="welcome_card_got_it">ရပါပြီ</string>
     <string name="whats_new_description">သင်၏အရေးကြီးမှတ်စုများကို ထိပ်ဆုံးတွင် ပင်တွဲလိုက်ပါ။</string>
     <string name="whats_new_in_keep">Keep ရှိ အသစ်အဆန်းများ</string>
     <string name="widget_add_note">မှတ်စု ထည့်</string>

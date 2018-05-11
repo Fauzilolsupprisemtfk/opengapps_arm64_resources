@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">वस्तुलाई अनइन्डेन्ट गरियो</string>
+    <string name="a11y_item_indented_under">वस्तुलाई %1$s अन्तर्गत इन्डेन्ट गरियो</string>
+    <string name="a11y_item_moved_above">वस्तुलाई %1$s माथि सारियो</string>
+    <string name="a11y_item_moved_below">वस्तुलाई %1$s तल सारियो</string>
     <string name="abc_action_bar_home_description">गृह खोज्नुहोस्</string>
     <string name="abc_action_bar_up_description">माथि खोज्नुहोस्</string>
     <string name="abc_action_menu_overflow_description">थप विकल्पहरू</string>
@@ -21,9 +25,13 @@
     <string name="account_sync_off">सिंक बन्द छ। तपाईंका सबै परिवर्तनहरू सुरक्षित गरिएको छ भनी निश्चित गर्न सिंक सक्रिय गर्नुहोस्।</string>
     <string name="acessibility_recurrence_choose_end_date_description">अन्त्य हुने मिति परिवर्तन गर्नुहोस्</string>
     <string name="action">कारबाही</string>
+    <string name="action_dedent_item">अनइन्डेन्ट गर्नुहोस्</string>
     <string name="action_download_chrome">Chrome डाउनलोड गर्नुहोस्</string>
     <string name="action_fix">फिक्स</string>
     <string name="action_get_google_app">अनुप्रयोग प्राप्त गर्नुहोस्</string>
+    <string name="action_indent_item">इन्डेन्ट गर्नुहोस्</string>
+    <string name="action_move_item_down">तल सार्नुहोस्</string>
+    <string name="action_move_item_up">माथि सार्नुहोस्</string>
     <string name="action_retry">पुनःप्रयास गर्नुहोस्</string>
     <string name="add">थप्नुहोस्</string>
     <string name="add_checkboxes">जाँच बाकसहरू</string>
@@ -244,6 +252,7 @@
     <string name="go_to_note">टिपोटमा जानुहोस्</string>
     <string name="google_assistant_shopping_list_change">Google सहायकको किनमेल सूची परिवर्तन हुँदैछ।</string>
     <string name="google_keep_document">Google Keep कागजात</string>
+    <string name="got_it">बुझेँ</string>
     <string name="grabbing_image_text">तस्बिर पाठ निकाल्दै...</string>
     <string name="grabbing_image_text_cancelled">छवि पाठ समात्न रद्द गरियो</string>
     <string name="grant_access_generic_error">प्रयोगकर्ता %s हेर्नलाई प्रयास गर्दा त्रुटि। पछि पुनः प्रयास गर्नुहोस्।</string>
@@ -269,6 +278,7 @@
     <string name="image_content_description">छवि</string>
     <string name="image_deleted">छवि मेटाइयो</string>
     <string name="image_text_grabbed">छविमा भएको पाठ लिइयो</string>
+    <string name="indent_coach_mark_header_text">इन्डेन्ट गर्नका लागि आफ्नो सूचीमा रहेका वस्तुहरू स्वाइप गर्नुहोस्</string>
     <string name="ink_clear_canvas">क्यानभास खाली गर्नुहोस्</string>
     <string name="ink_clear_dialog_cancel">रद्द गर्नुहोस्</string>
     <string name="ink_clear_dialog_ok">खाली गर्नुहोस्</string>
@@ -364,7 +374,7 @@
     <string name="menu_change_labels">लेबलहरू परिवर्तन गर्नुहोस्</string>
     <string name="menu_clone">प्रतिलिपि बनाउनुहोस्</string>
     <string name="menu_collaborator">साझेदार</string>
-    <string name="menu_confirm">ठीक</string>
+    <string name="menu_confirm">ठिक</string>
     <string name="menu_copy_to_docs">Google कागजातमा प्रतिलिपि राख्नुहोस्</string>
     <string name="menu_delete">मेटाउनुहोस्</string>
     <string name="menu_delete_checked">जाँच गरिएका वस्तुहरू मेट्नुहोस्</string>
@@ -438,7 +448,6 @@
     <string name="open_source_licenses_title">खुला स्रोतका इजाजतपत्रहरू</string>
     <string name="partially_checked_checkbox">आंशिकरूपमा जाँच गरिएको बाकस</string>
     <string name="pinned_note_content_description">नत्थी गरिएको टिपोट</string>
-    <string name="pinning_action_button_coach_mark">आफ्ना महत्त्वपूर्ण टिपोटहरूलाई टुप्पामा नत्थी गर्नुहोस्।</string>
     <string name="place_autocomplete_clear_button">खोज खाली गर्नुहोस्</string>
     <string name="place_autocomplete_search_hint">खोज</string>
     <string name="place_reminder_content_description">स्थानको अनुस्मारक %s</string>
@@ -618,7 +627,6 @@
     <string name="warm_welcome_screen_two_title">सबै कुरा कैद गर्नुहोस्</string>
     <string name="weekly_simple">साप्ताहिक</string>
     <string name="weekly_simple_lower">साप्ताहिक</string>
-    <string name="welcome_card_got_it">GOT IT</string>
     <string name="whats_new_description">आफ्ना महत्त्वपूर्ण टिपोटहरूलाई टुप्पामा नत्थी गर्नुहोस्।</string>
     <string name="whats_new_in_keep">Keep मा नयाँ के छ</string>
     <string name="widget_add_note">नोट थप्नुहोस्</string>

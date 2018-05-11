@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">आइटम से इंडेंट हटाया गया</string>
+    <string name="a11y_item_indented_under">आइटम %1$s के तहत इंडेंट किया गया है</string>
+    <string name="a11y_item_moved_above">आइटम को %1$s के ऊपर ले जाया गया</string>
+    <string name="a11y_item_moved_below">आइटम को %1$s के नीचे ले जाया गया</string>
     <string name="abc_action_bar_home_description">होम पेज पर जाएं</string>
     <string name="abc_action_bar_up_description">ऊपर जाएं</string>
     <string name="abc_action_menu_overflow_description">ज़्यादा विकल्प</string>
@@ -25,10 +29,14 @@
     <string name="account_sync_off">समन्वयन बंद है. यह सुनिश्चित करने के लिए कि आपके सभी बदलाव सहेज लिए गए हैं, समन्वयन को वापस चालू करें.</string>
     <string name="acessibility_recurrence_choose_end_date_description">समाप्ति दिनांक बदलें</string>
     <string name="action">कार्रवाई</string>
+    <string name="action_dedent_item">इंडेंट हटाएं</string>
     <string name="action_download_chrome">Chrome डाउनलोड करें</string>
     <string name="action_fix">ठीक करें</string>
     <string name="action_get_google_app">ऐप्लिकेशन पाएं</string>
+    <string name="action_indent_item">इंडेंट</string>
     <string name="action_label">Return</string>
+    <string name="action_move_item_down">नीचे ले जाएं</string>
+    <string name="action_move_item_up">ऊपर ले जाएं</string>
     <string name="action_retry">पुनः कोशिश करें</string>
     <string name="add">जोड़ें</string>
     <string name="add_account">खाता जोड़ें</string>
@@ -257,6 +265,7 @@
     <string name="go_to_note">नोट पर जाएं</string>
     <string name="google_assistant_shopping_list_change">Google Assistant शॉपिंग लिस्ट बदली जा रही है.</string>
     <string name="google_keep_document">Google Keep दस्‍तावेज़</string>
+    <string name="got_it">ठीक है</string>
     <string name="grabbing_image_text">चित्र लेख पहचाना जा रहा है…</string>
     <string name="grabbing_image_text_cancelled">चित्र लेख को पहचानना रोका गया</string>
     <string name="grant_access_generic_error">उपयोगकर्ता %s को खोजने का प्रयास करने में गड़बड़ी. कृपया बाद में पुनः प्रयास करें.</string>
@@ -283,6 +292,7 @@
     <string name="image_content_description">चित्र</string>
     <string name="image_deleted">चित्र हटा दिया गया</string>
     <string name="image_text_grabbed">चित्र लेख पहचाना गया</string>
+    <string name="indent_coach_mark_header_text">अपनी सूची पर मौजूद आइटम इंडेंट करने के लिए उन्हें स्वाइप करें</string>
     <string name="ink_clear_canvas">कैनवस साफ़ करें</string>
     <string name="ink_clear_dialog_cancel">अभी नहीं</string>
     <string name="ink_clear_dialog_ok">साफ़ करें</string>
@@ -455,7 +465,6 @@
     <string name="partially_checked_checkbox">आंशिक रूप से चेक किया गया चेकबॉक्‍स</string>
     <string name="photo_view_count" formatted="false">%d में से %d</string>
     <string name="pinned_note_content_description">पिन किया गया नोट</string>
-    <string name="pinning_action_button_coach_mark">अपने महत्वपूर्ण नोट शीर्ष पर पिन करें.</string>
     <string name="place_autocomplete_clear_button">खोज साफ़ करें</string>
     <string name="place_autocomplete_search_hint">खोजें</string>
     <string name="place_reminder_content_description">स्थान रिमाइंडर %s</string>
@@ -642,7 +651,6 @@
     <string name="warm_welcome_screen_two_title">कुछ भी कैप्‍चर करना</string>
     <string name="weekly_simple">साप्ताहिक</string>
     <string name="weekly_simple_lower">साप्ताहिक</string>
-    <string name="welcome_card_got_it">समझ लिया</string>
     <string name="whats_new_description">अपने महत्वपूर्ण नोट शीर्ष पर पिन करें.</string>
     <string name="whats_new_in_keep">Keep में नया क्या है</string>
     <string name="widget_add_note">नोट जोड़ें</string>

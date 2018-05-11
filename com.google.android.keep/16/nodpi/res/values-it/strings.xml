@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">"Rientro annullato per l'elemento"</string>
+    <string name="a11y_item_indented_under">"Rientro sotto a %1$s applicato per l'elemento"</string>
+    <string name="a11y_item_moved_above">Elemento spostato sopra a %1$s</string>
+    <string name="a11y_item_moved_below">Elemento spostato sotto a %1$s</string>
     <string name="abc_action_bar_home_description">Vai alla home page</string>
     <string name="abc_action_bar_up_description">Vai in alto</string>
     <string name="abc_action_menu_overflow_description">Altre opzioni</string>
@@ -25,10 +29,14 @@
     <string name="account_sync_off">La sincronizzazione non è attiva. Riattiva la sincronizzazione per fare in modo che tutte le modifiche vengano salvate.</string>
     <string name="acessibility_recurrence_choose_end_date_description">modifica data di fine</string>
     <string name="action">Azione</string>
+    <string name="action_dedent_item">Annulla rientro</string>
     <string name="action_download_chrome">Scarica Chrome</string>
     <string name="action_fix">Risolvi</string>
     <string name="action_get_google_app">"Scarica l'app"</string>
+    <string name="action_indent_item">Rientro</string>
     <string name="action_label">Invio</string>
+    <string name="action_move_item_down">Sposta giù</string>
+    <string name="action_move_item_up">Sposta su</string>
     <string name="action_retry">Riprova</string>
     <string name="add">Aggiungi</string>
     <string name="add_account">Aggiungi account</string>
@@ -257,6 +265,7 @@
     <string name="go_to_note">Vai alla nota</string>
     <string name="google_assistant_shopping_list_change">La lista della spesa di Assistente Google sta cambiando.</string>
     <string name="google_keep_document">Documento di Google Keep</string>
+    <string name="got_it">OK</string>
     <string name="grabbing_image_text">"Recupero del testo dell'immagine…"</string>
     <string name="grabbing_image_text_cancelled">"Recupero del testo dell'immagine annullato"</string>
     <string name="grant_access_generic_error">"Errore durante il tentativo di ricerca dell'utente %s. Riprova più tardi."</string>
@@ -283,6 +292,7 @@
     <string name="image_content_description">Immagine</string>
     <string name="image_deleted">Immagine eliminata</string>
     <string name="image_text_grabbed">"Testo dell'immagine recuperato"</string>
+    <string name="indent_coach_mark_header_text">"Fai scorrere gli elementi dell'elenco per applicare il rientro"</string>
     <string name="ink_clear_canvas">Cancella canvas</string>
     <string name="ink_clear_dialog_cancel">Annulla</string>
     <string name="ink_clear_dialog_ok">Cancella</string>
@@ -455,7 +465,6 @@
     <string name="partially_checked_checkbox">Casella di controllo Selezione parziale</string>
     <string name="photo_view_count" formatted="false">%d di %d</string>
     <string name="pinned_note_content_description">Nota appuntata</string>
-    <string name="pinning_action_button_coach_mark">Fissa le note importanti nella parte superiore.</string>
     <string name="place_autocomplete_clear_button">Cancella ricerca</string>
     <string name="place_autocomplete_search_hint">Cerca</string>
     <string name="place_reminder_content_description">Promemoria basato sul luogo %s</string>
@@ -642,7 +651,6 @@
     <string name="warm_welcome_screen_two_title">Registra tutto</string>
     <string name="weekly_simple">ogni settimana</string>
     <string name="weekly_simple_lower">ogni settimana</string>
-    <string name="welcome_card_got_it">OK</string>
     <string name="whats_new_description">Fissa le note importanti nella parte superiore.</string>
     <string name="whats_new_in_keep">Novità di Keep</string>
     <string name="widget_add_note">Aggiungi nota</string>

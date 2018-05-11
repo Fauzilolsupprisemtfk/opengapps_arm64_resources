@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">בוטלה כניסת פסקה של פריט</string>
+    <string name="a11y_item_indented_under">בוצעה כניסת פסקה של פריט בקטע %1$s</string>
+    <string name="a11y_item_moved_above">פריט הועבר אל מעל לטקסט %1$s</string>
+    <string name="a11y_item_moved_below">פריט הועבר אל מתחת לטקסט %1$s</string>
     <string name="abc_action_bar_home_description">נווט לדף הבית</string>
     <string name="abc_action_bar_up_description">נווט למעלה</string>
     <string name="abc_action_menu_overflow_description">עוד אפשרויות</string>
@@ -25,10 +29,14 @@
     <string name="account_sync_off">הסנכרון כבוי. הפעל שוב את הסנכרון כדי לוודא שכל השינויים יישמרו.</string>
     <string name="acessibility_recurrence_choose_end_date_description">שינוי של תאריך הסיום</string>
     <string name="action">פעולה</string>
+    <string name="action_dedent_item">ביטול כניסת פסקה</string>
     <string name="action_download_chrome">‏הורד את Chrome</string>
     <string name="action_fix">תקן</string>
     <string name="action_get_google_app">להורדת האפליקציה</string>
+    <string name="action_indent_item">כניסת פסקה</string>
     <string name="action_label">חזור</string>
+    <string name="action_move_item_down">הזזה למטה</string>
+    <string name="action_move_item_up">הזזה למעלה</string>
     <string name="action_retry">ניסיון נוסף</string>
     <string name="add">הוסף</string>
     <string name="add_account">הוסף חשבון</string>
@@ -257,6 +265,7 @@
     <string name="go_to_note">כניסה להערה</string>
     <string name="google_assistant_shopping_list_change">‏שינוי ברשימת הקניות של Google Assistant.</string>
     <string name="google_keep_document">‏מסמך Google Keep</string>
+    <string name="got_it">הבנתי</string>
     <string name="grabbing_image_text">מביא את טקסט התמונה…</string>
     <string name="grabbing_image_text_cancelled">צילום טקסט התמונה בוטל</string>
     <string name="grant_access_generic_error">אירעה שגיאה בעת ניסיון לחפש את המשתמש %s. נסה שוב מאוחר יותר.</string>
@@ -283,6 +292,7 @@
     <string name="image_content_description">תמונה</string>
     <string name="image_deleted">התמונה נמחקה</string>
     <string name="image_text_grabbed">הטקסט מהתמונה נוסף להערה</string>
+    <string name="indent_coach_mark_header_text">כדי להוסיף כניסת פסקה לפריטים ברשימה, צריך להחליק</string>
     <string name="ink_clear_canvas">נקה את הדף</string>
     <string name="ink_clear_dialog_cancel">בטל</string>
     <string name="ink_clear_dialog_ok">נקה</string>
@@ -455,7 +465,6 @@
     <string name="partially_checked_checkbox">תיבת סימון שסומנה באופן חלקי</string>
     <string name="photo_view_count" formatted="false">%d מתוך %d</string>
     <string name="pinned_note_content_description">ההערה מוצמדת</string>
-    <string name="pinning_action_button_coach_mark">הצמד למעלה הערות שחשובות לך.</string>
     <string name="place_autocomplete_clear_button">נקה את החיפוש</string>
     <string name="place_autocomplete_search_hint">חיפוש</string>
     <string name="place_reminder_content_description">תזכורת מבוססת מקום %s</string>
@@ -642,7 +651,6 @@
     <string name="warm_welcome_screen_two_title">תעד כל מה שתרצה</string>
     <string name="weekly_simple">כל שבוע</string>
     <string name="weekly_simple_lower">כל שבוע</string>
-    <string name="welcome_card_got_it">הבנתי</string>
     <string name="whats_new_description">הצמד למעלה הערות שחשובות לך.</string>
     <string name="whats_new_in_keep">‏מה חדש ב-Keep</string>
     <string name="widget_add_note">הוסף הערה</string>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">Ставката е порамнета</string>
+    <string name="a11y_item_indented_under">Ставката е вовлечена под %1$s</string>
+    <string name="a11y_item_moved_above">Ставката е преместена над %1$s</string>
+    <string name="a11y_item_moved_below">Ставката е преместена под %1$s</string>
     <string name="abc_action_bar_home_description">Движи се кон дома</string>
     <string name="abc_action_bar_up_description">Движи се нагоре</string>
     <string name="abc_action_menu_overflow_description">Повеќе опции</string>
@@ -21,9 +25,13 @@
     <string name="account_sync_off">Синхронизацијата е исклучена. Повторно вклучете ја синхоринизацијата за да се осигурите дека сите ваши промени се зачувани.</string>
     <string name="acessibility_recurrence_choose_end_date_description">променете го крајниот датум</string>
     <string name="action">Дејство</string>
+    <string name="action_dedent_item">Порамни ставка во список</string>
     <string name="action_download_chrome">Преземете Chrome</string>
     <string name="action_fix">Поправи</string>
     <string name="action_get_google_app">Преземете ја апликацијата</string>
+    <string name="action_indent_item">Вовлечи ставка во список</string>
+    <string name="action_move_item_down">Премести надолу</string>
+    <string name="action_move_item_up">Премести нагоре</string>
     <string name="action_retry">Обиди се пак</string>
     <string name="add">Додај</string>
     <string name="add_checkboxes">Полиња за избор</string>
@@ -244,6 +252,7 @@
     <string name="go_to_note">Одете на белешката</string>
     <string name="google_assistant_shopping_list_change">Списокот за пазарење на „Помошник на Google“ се променува.</string>
     <string name="google_keep_document">Документ на Google Keep</string>
+    <string name="got_it">Сфатив</string>
     <string name="grabbing_image_text">Се зема текстот на сликата…</string>
     <string name="grabbing_image_text_cancelled">Земањето на текстот од сликата е откажано</string>
     <string name="grant_access_generic_error">Грешка при обидот да се побара корисникот %s. Обидете се повторно подоцна.</string>
@@ -269,6 +278,7 @@
     <string name="image_content_description">Слика</string>
     <string name="image_deleted">Сликата е избришана</string>
     <string name="image_text_grabbed">Земен е текст од слика</string>
+    <string name="indent_coach_mark_header_text">Повлечете ставки во списокот за вовлекување</string>
     <string name="ink_clear_canvas">Исчисти платно</string>
     <string name="ink_clear_dialog_cancel">Откажи</string>
     <string name="ink_clear_dialog_ok">Отстрани</string>
@@ -438,7 +448,6 @@
     <string name="open_source_licenses_title">Лиценци на софтвер со отв. код</string>
     <string name="partially_checked_checkbox">Делумно означено поле</string>
     <string name="pinned_note_content_description">Закачена белешка</string>
-    <string name="pinning_action_button_coach_mark">Закачете ги важните белешки на врвот.</string>
     <string name="place_autocomplete_clear_button">Исчисти го пребарувањето</string>
     <string name="place_autocomplete_search_hint">Пребарај</string>
     <string name="place_reminder_content_description">Потсетник за место %s</string>
@@ -618,7 +627,6 @@
     <string name="warm_welcome_screen_two_title">Снимајте сѐ и сешто</string>
     <string name="weekly_simple">Седмично</string>
     <string name="weekly_simple_lower">седмично</string>
-    <string name="welcome_card_got_it">СФАТИВ</string>
     <string name="whats_new_description">Закачете ги важните белешки на врвот.</string>
     <string name="whats_new_in_keep">Што е ново во Keep</string>
     <string name="widget_add_note">Додај белешка</string>

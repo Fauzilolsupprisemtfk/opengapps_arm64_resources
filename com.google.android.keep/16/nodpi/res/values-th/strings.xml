@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">รายการที่ยกเลิกการเยื้อง</string>
+    <string name="a11y_item_indented_under">รายการที่เยื้องใต้ %1$s</string>
+    <string name="a11y_item_moved_above">ย้ายรายการขึ้นไปด้านบน %1$s แล้ว</string>
+    <string name="a11y_item_moved_below">ย้ายรายการลงมาไว้ด้านล่าง %1$s แล้ว</string>
     <string name="abc_action_bar_home_description">นำทางไปหน้าแรก</string>
     <string name="abc_action_bar_up_description">นำทางขึ้น</string>
     <string name="abc_action_menu_overflow_description">ตัวเลือกอื่น</string>
@@ -25,10 +29,14 @@
     <string name="account_sync_off">การซิงค์ปิดอยู่ โปรดเปิดการซิงค์เพื่อให้มั่นใจได้ว่าการเปลี่ยนแปลงทั้งหมดจะได้รับการบันทึก</string>
     <string name="acessibility_recurrence_choose_end_date_description">เปลี่ยนวันที่สิ้นสุด</string>
     <string name="action">การทำงาน</string>
+    <string name="action_dedent_item">ยกเลิกการเยื้อง</string>
     <string name="action_download_chrome">ดาวน์โหลด Chrome</string>
     <string name="action_fix">แก้ไข</string>
     <string name="action_get_google_app">รับแอป</string>
+    <string name="action_indent_item">เยื้อง</string>
     <string name="action_label">เสร็จสิ้น</string>
+    <string name="action_move_item_down">ย้ายลง</string>
+    <string name="action_move_item_up">ย้ายขึ้น</string>
     <string name="action_retry">ลองใหม่</string>
     <string name="add">เพิ่ม</string>
     <string name="add_account">เพิ่มบัญชี</string>
@@ -257,6 +265,7 @@
     <string name="go_to_note">ไปที่บันทึก</string>
     <string name="google_assistant_shopping_list_change">กำลังมีการเปลี่ยนแปลงรายการซื้อสินค้าของ Google Assistant</string>
     <string name="google_keep_document">เอกสาร Google Keep</string>
+    <string name="got_it">รับทราบ</string>
     <string name="grabbing_image_text">กำลังจับข้อความจากรูปภาพ…</string>
     <string name="grabbing_image_text_cancelled">ยกเลิกการจับข้อความจากรูปภาพแล้ว</string>
     <string name="grant_access_generic_error">เกิดข้อผิดพลาดขณะที่ค้นหาผู้ใช้ %s โปรดลองอีกครั้งในภายหลัง</string>
@@ -283,6 +292,7 @@
     <string name="image_content_description">รูปภาพ</string>
     <string name="image_deleted">ลบรูปภาพแล้ว</string>
     <string name="image_text_grabbed">จับข้อความจากรูปภาพแล้ว</string>
+    <string name="indent_coach_mark_header_text">เลื่อนรายการต่างๆ เพื่อเยื้อง</string>
     <string name="ink_clear_canvas">ล้างผ้าใบ</string>
     <string name="ink_clear_dialog_cancel">ยกเลิก</string>
     <string name="ink_clear_dialog_ok">ล้างข้อมูล</string>
@@ -455,7 +465,6 @@
     <string name="partially_checked_checkbox">เลือกช่องทำเครื่องหมายบางส่วน</string>
     <string name="photo_view_count" formatted="false">%d จาก %d</string>
     <string name="pinned_note_content_description">โน้ตที่ตรึงไว้</string>
-    <string name="pinning_action_button_coach_mark">ตรึงโน้ตสำคัญไว้ด้านบน</string>
     <string name="place_autocomplete_clear_button">ล้างการค้นหา</string>
     <string name="place_autocomplete_search_hint">ค้นหา</string>
     <string name="place_reminder_content_description">การเตือนความจำสถานที่ %s</string>
@@ -642,7 +651,6 @@
     <string name="warm_welcome_screen_two_title">บันทึกทุกสิ่ง</string>
     <string name="weekly_simple">ทุกสัปดาห์</string>
     <string name="weekly_simple_lower">ทุกสัปดาห์</string>
-    <string name="welcome_card_got_it">รับทราบ</string>
     <string name="whats_new_description">ตรึงโน้ตสำคัญไว้ด้านบน</string>
     <string name="whats_new_in_keep">มีอะไรใหม่ใน Keep</string>
     <string name="widget_add_note">เพิ่มบันทึก</string>

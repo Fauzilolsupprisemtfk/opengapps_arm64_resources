@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">Üksuse taane on eemaldatud</string>
+    <string name="a11y_item_indented_under">Üksus lisati taandega üksuse %1$s alla</string>
+    <string name="a11y_item_moved_above">Üksus teisaldati üksuse %1$s kohale</string>
+    <string name="a11y_item_moved_below">Üksus teisaldati üksuse %1$s alla</string>
     <string name="abc_action_bar_home_description">Navigeerimine avaekraanile</string>
     <string name="abc_action_bar_up_description">Navigeerimine üles</string>
     <string name="abc_action_menu_overflow_description">Rohkem valikuid</string>
@@ -21,9 +25,13 @@
     <string name="account_sync_off">Sünkroonimine on välja lülitatud. Kõikide muudatuste salvestamiseks lülitage sünkroonimine uuesti sisse.</string>
     <string name="acessibility_recurrence_choose_end_date_description">lõppkuupäeva muutmine</string>
     <string name="action">Tegevus</string>
+    <string name="action_dedent_item">Eemalda taane</string>
     <string name="action_download_chrome">Laadi Chrome alla</string>
     <string name="action_fix">Paranda</string>
     <string name="action_get_google_app">Hangi rakendus</string>
+    <string name="action_indent_item">Lisa taane</string>
+    <string name="action_move_item_down">Teisalda alla</string>
+    <string name="action_move_item_up">Teisalda üles</string>
     <string name="action_retry">Proovi uuesti</string>
     <string name="add">Lisa</string>
     <string name="add_checkboxes">Märkeruudud</string>
@@ -244,6 +252,7 @@
     <string name="go_to_note">Ava märge</string>
     <string name="google_assistant_shopping_list_change">Google’i abimehe ostuloendit muudetakse.</string>
     <string name="google_keep_document">Google Keepi dokument</string>
+    <string name="got_it">Selge</string>
     <string name="grabbing_image_text">Pildi teksti haaramine ...</string>
     <string name="grabbing_image_text_cancelled">Kujutise teksti hõivamine on tühistatud</string>
     <string name="grant_access_generic_error">Kasutaja %s otsimisel ilmnes viga. Proovige hiljem uuesti.</string>
@@ -269,6 +278,7 @@
     <string name="image_content_description">Kujutis</string>
     <string name="image_deleted">Kujutis on kustutatud</string>
     <string name="image_text_grabbed">Kujutise tekst on hõivatud</string>
+    <string name="indent_coach_mark_header_text">Libistage loendis olevaid üksusi neile taande lisamiseks</string>
     <string name="ink_clear_canvas">Tühjenda lõuend</string>
     <string name="ink_clear_dialog_cancel">Tühista</string>
     <string name="ink_clear_dialog_ok">Kustuta</string>
@@ -438,7 +448,6 @@
     <string name="open_source_licenses_title">Avatud lähtekood. litsen.</string>
     <string name="partially_checked_checkbox">Osaliselt märgitud ruut</string>
     <string name="pinned_note_content_description">Märge on kinnitatud</string>
-    <string name="pinning_action_button_coach_mark">Saate tähtsad märkmed ülaossa kinnitada.</string>
     <string name="place_autocomplete_clear_button">Otsingu kustutamine</string>
     <string name="place_autocomplete_search_hint">Otsing</string>
     <string name="place_reminder_content_description">Kohameeldetuletus %s</string>
@@ -620,7 +629,6 @@
     <string name="warm_welcome_screen_two_title">Jäädvustage kõike</string>
     <string name="weekly_simple">Iga nädal</string>
     <string name="weekly_simple_lower">iga nädal</string>
-    <string name="welcome_card_got_it">SELGE</string>
     <string name="whats_new_description">Saate tähtsad märkmed ülaossa kinnitada.</string>
     <string name="whats_new_in_keep">Mis on Keepis uut?</string>
     <string name="widget_add_note">Lisa märge</string>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">Kendu zaio koska elementuari</string>
+    <string name="a11y_item_indented_under">Jarri zaio koska elementuari \"%1$s\" barruan</string>
+    <string name="a11y_item_moved_above">Eraman da elementua \"%1$s\" gainera</string>
+    <string name="a11y_item_moved_below">Eraman da elementua \"%1$s\" azpira</string>
     <string name="abc_action_bar_home_description">Joan orri nagusira</string>
     <string name="abc_action_bar_up_description">Joan gora</string>
     <string name="abc_action_menu_overflow_description">Aukera gehiago</string>
@@ -21,9 +25,13 @@
     <string name="account_sync_off">Sinkronizazioa desaktibatuta dago. Aktiba ezazu aldaketa guztiak gorde direla ziurtatzeko.</string>
     <string name="acessibility_recurrence_choose_end_date_description">aldatu amaiera-data</string>
     <string name="action">Ekintza</string>
+    <string name="action_dedent_item">Kendu koska</string>
     <string name="action_download_chrome">Deskargatu Chrome</string>
     <string name="action_fix">Konpondu</string>
     <string name="action_get_google_app">Eskuratu aplikazioa</string>
+    <string name="action_indent_item">Jarri koska</string>
+    <string name="action_move_item_down">Eraman behera</string>
+    <string name="action_move_item_up">Eraman gora</string>
     <string name="action_retry">Saiatu berriro</string>
     <string name="add">Gehitu</string>
     <string name="add_checkboxes">Kontrol-laukiak</string>
@@ -244,6 +252,7 @@
     <string name="go_to_note">Joan oharrera</string>
     <string name="google_assistant_shopping_list_change">Google Laguntzailea eginbidearen erosketa-zerrenda aldatzear da.</string>
     <string name="google_keep_document">Google Keep dokumentua</string>
+    <string name="got_it">Ados</string>
     <string name="grabbing_image_text">Irudiko testua hartzen…</string>
     <string name="grabbing_image_text_cancelled">Utzi da bertan behera irudiko testua hartzeko prozesua</string>
     <string name="grant_access_generic_error">Ezin izan da %s erabiltzailea bilatu. Saiatu berriro geroago.</string>
@@ -269,6 +278,7 @@
     <string name="image_content_description">Irudia</string>
     <string name="image_deleted">Ezabatu da irudia</string>
     <string name="image_text_grabbed">Irudiko testua hartu da</string>
+    <string name="indent_coach_mark_header_text">Koska jartzeko, pasatu hatza zerrendako elementuetatik</string>
     <string name="ink_clear_canvas">Oihal garbia</string>
     <string name="ink_clear_dialog_cancel">Utzi</string>
     <string name="ink_clear_dialog_ok">Garbitu</string>
@@ -438,7 +448,6 @@
     <string name="open_source_licenses_title">Kode irekiko lizentziak</string>
     <string name="partially_checked_checkbox">Erdi-markatutako kontrol-laukia</string>
     <string name="pinned_note_content_description">Ainguratutako oharra</string>
-    <string name="pinning_action_button_coach_mark">Ainguratu ohar garrantzitsuak goialdean.</string>
     <string name="place_autocomplete_clear_button">Garbitu bilaketa</string>
     <string name="place_autocomplete_search_hint">Bilaketa</string>
     <string name="place_reminder_content_description">Kokapenean oinarritutako abisua: %s</string>
@@ -618,7 +627,6 @@
     <string name="warm_welcome_screen_two_title">Bildu denetarik</string>
     <string name="weekly_simple">Astero</string>
     <string name="weekly_simple_lower">astero</string>
-    <string name="welcome_card_got_it">ADOS</string>
     <string name="whats_new_description">Ainguratu ohar garrantzitsuak goialdean.</string>
     <string name="whats_new_in_keep">Keep zerbitzuko berritasunak</string>
     <string name="widget_add_note">Gehitu oharra</string>

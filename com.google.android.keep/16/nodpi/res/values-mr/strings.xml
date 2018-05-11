@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">आयटमचा समास काढला</string>
+    <string name="a11y_item_indented_under">आयटमला %1$s च्‍या खाली समास दिला</string>
+    <string name="a11y_item_moved_above">आयटम %1$s च्‍या वर हलवला</string>
+    <string name="a11y_item_moved_below">आयटम %1$s च्‍या खाली हलवला</string>
     <string name="abc_action_bar_home_description">होमवर नेव्‍हिगेट करा</string>
     <string name="abc_action_bar_up_description">वर नेव्‍हिगेट करा</string>
     <string name="abc_action_menu_overflow_description">अधिक पर्याय</string>
@@ -21,9 +25,13 @@
     <string name="account_sync_off">संकालन बंद आहे. आपले सर्व बदल जतन झाले आहेत हे सुनिश्चित करण्यासाठी संकालन परत चालू करा.</string>
     <string name="acessibility_recurrence_choose_end_date_description">समाप्ती तारीख बदला</string>
     <string name="action">क्रिया</string>
+    <string name="action_dedent_item">समास काढा</string>
     <string name="action_download_chrome">Chrome डाउनलोड करा</string>
     <string name="action_fix">निश्चित करा</string>
     <string name="action_get_google_app">अॅप मिळवा</string>
+    <string name="action_indent_item">समास</string>
+    <string name="action_move_item_down">खाली हलवा</string>
+    <string name="action_move_item_up">वर हलवा</string>
     <string name="action_retry">पुन्हा प्रयत्न करा</string>
     <string name="add">जोडा</string>
     <string name="add_checkboxes">चेकबॉक्स</string>
@@ -244,6 +252,7 @@
     <string name="go_to_note">टीपेवर जा</string>
     <string name="google_assistant_shopping_list_change">Google साहाय्यक खरेदी सूची बदलत आहे.</string>
     <string name="google_keep_document">Google Keep दस्तऐवज</string>
+    <string name="got_it">समजले</string>
     <string name="grabbing_image_text">प्रतिमा मजकूर हस्तगत करत आहे...</string>
     <string name="grabbing_image_text_cancelled">प्रतिमा मजकूर हस्तगत करणे रद्द झाले</string>
     <string name="grant_access_generic_error">%s वापरकर्ता शोधण्याचा प्रयत्न करताना एरर. कृपया नंतर पुन्हा प्रयत्न करा.</string>
@@ -269,6 +278,7 @@
     <string name="image_content_description">प्रतिमा</string>
     <string name="image_deleted">प्रतिमा हटवली</string>
     <string name="image_text_grabbed">इमेज मजकूर मिळवला</string>
+    <string name="indent_coach_mark_header_text">समास देण्‍यासाठी तुमच्‍या सूचीच्‍या वर आयटम स्‍वाइप करा</string>
     <string name="ink_clear_canvas">कॅनव्हास साफ करा</string>
     <string name="ink_clear_dialog_cancel">रद्द करा</string>
     <string name="ink_clear_dialog_ok">साफ करा</string>
@@ -438,7 +448,6 @@
     <string name="open_source_licenses_title">मुक्त स्त्रोत परवाने</string>
     <string name="partially_checked_checkbox">चेकबॉक्स अंशत: चेक केला</string>
     <string name="pinned_note_content_description">पिन केलेली टीप</string>
-    <string name="pinning_action_button_coach_mark">आपल्या महत्त्वाच्या टिपा शीर्षस्थानी पिन करा.</string>
     <string name="place_autocomplete_clear_button">शोध साफ करा</string>
     <string name="place_autocomplete_search_hint">शोध</string>
     <string name="place_reminder_content_description">%s ठिकाणाचे स्मरणपत्र</string>
@@ -620,7 +629,6 @@
     <string name="warm_welcome_screen_two_title">काहीही कॅप्चर करा</string>
     <string name="weekly_simple">साप्ताहिक</string>
     <string name="weekly_simple_lower">साप्ताहिक</string>
-    <string name="welcome_card_got_it">समजले</string>
     <string name="whats_new_description">आपल्या महत्त्वाच्या टिपा शीर्षस्थानी पिन करा.</string>
     <string name="whats_new_in_keep">Keep मध्ये नवीन काय आहे</string>
     <string name="widget_add_note">टीप जोडा</string>

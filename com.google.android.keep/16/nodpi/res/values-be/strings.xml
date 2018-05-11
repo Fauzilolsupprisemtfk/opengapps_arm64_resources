@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="a11y_item_dedented">Зняты водступ элемента</string>
+    <string name="a11y_item_indented_under">Элемент у водступу пад тэкстам %1$s</string>
+    <string name="a11y_item_moved_above">Элемент перасунуты вышэй тэксту %1$s</string>
+    <string name="a11y_item_moved_below">Элемент перасунуты ніжэй тэксту %1$s</string>
     <string name="abc_action_bar_home_description">Перайсці на галоўную старонку</string>
     <string name="abc_action_bar_up_description">Перайсці ўверх</string>
     <string name="abc_action_menu_overflow_description">Дадатковыя параметры</string>
@@ -21,9 +25,13 @@
     <string name="account_sync_off">Сінхранізацыя адключана. Зноў уключыце сінхранізацыю, каб пераканацца ў тым, што ўсе вашы змяненні захаваліся.</string>
     <string name="acessibility_recurrence_choose_end_date_description">змяніць дату заканчэння</string>
     <string name="action">Дзеянне</string>
+    <string name="action_dedent_item">Убраць водступ</string>
     <string name="action_download_chrome">Спампаваць Chrome</string>
     <string name="action_fix">Выправіць</string>
     <string name="action_get_google_app">Атрымаць праграму</string>
+    <string name="action_indent_item">Зрабіць водступ</string>
+    <string name="action_move_item_down">Перамясціць уніз</string>
+    <string name="action_move_item_up">Перамясціць уверх</string>
     <string name="action_retry">Паўтарыць</string>
     <string name="add">Дадаць</string>
     <string name="add_checkboxes">Палі для птушкі</string>
@@ -244,6 +252,7 @@
     <string name="go_to_note">Пераход да нататкі</string>
     <string name="google_assistant_shopping_list_change">Мяняецца спіс пакупак Памочніка Google.</string>
     <string name="google_keep_document">Дакумент Google Keep</string>
+    <string name="got_it">ОК</string>
     <string name="grabbing_image_text">Захопліваецца тэкст на відарысе...</string>
     <string name="grabbing_image_text_cancelled">Тэкст, захоплены з відарыса, скасаваны</string>
     <string name="grant_access_generic_error">Памылка пры спробе пошуку карыстальніка %s. Паўтарыце спробу пазней.</string>
@@ -269,6 +278,7 @@
     <string name="image_content_description">Відарыс</string>
     <string name="image_deleted">Відарыс выдалены</string>
     <string name="image_text_grabbed">Тэкст відарыса захоплены</string>
+    <string name="indent_coach_mark_header_text">Каб зрабіць водступ, перасуньце элементы ў вашым спісе</string>
     <string name="ink_clear_canvas">Ачысціць палатно</string>
     <string name="ink_clear_dialog_cancel">Адмена</string>
     <string name="ink_clear_dialog_ok">Ачысціць</string>
@@ -438,7 +448,6 @@
     <string name="open_source_licenses_title">Ліцэнзіі на ПЗ з адкрытым зыходным кодам</string>
     <string name="partially_checked_checkbox">Часткова пазначанае поле</string>
     <string name="pinned_note_content_description">Замацаваная нататка</string>
-    <string name="pinning_action_button_coach_mark">Замацуйце важныя нататкі зверху.</string>
     <string name="place_autocomplete_clear_button">Ачысціць пошук</string>
     <string name="place_autocomplete_search_hint">Пошук</string>
     <string name="place_reminder_content_description">Напамін аб месцы \"%s\"</string>
@@ -618,7 +627,6 @@
     <string name="warm_welcome_screen_two_title">Занатоўвайце што хочаце</string>
     <string name="weekly_simple">Штотыдзень</string>
     <string name="weekly_simple_lower">штотыднёва</string>
-    <string name="welcome_card_got_it">ЗРАЗУМЕЛА</string>
     <string name="whats_new_description">Замацуйце важныя нататкі зверху.</string>
     <string name="whats_new_in_keep">Што новага ў Keep</string>
     <string name="widget_add_note">Дадаць нататку</string>
