@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.google.android.ims" platformBuildVersionCode="27" platformBuildVersionName="P">
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="com.google.android.ims" platformBuildVersionCode="28" platformBuildVersionName="9">
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
@@ -48,6 +48,7 @@
         <meta-data android:name="EnrichedCallServiceVersions" android:value="1,"/>
         <meta-data android:name="PresenceServiceVersions" android:value="1,"/>
         <meta-data android:name="SignupServiceVersions" android:value="1,2,"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
         <activity android:excludeFromRecents="true" android:exported="true" android:label="@string/settings_label" android:name="com.google.android.ims.ui.WifiCallingSettingsActivity" android:theme="@style/DialerLibSettingsStyle">
             <intent-filter>
                 <action android:name="android.telecom.action.CONNECTION_SERVICE_CONFIGURE"/>
