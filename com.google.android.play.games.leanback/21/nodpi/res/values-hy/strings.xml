@@ -11,7 +11,6 @@
     <string name="abc_searchview_description_submit">Ուղարկել հարցումը</string>
     <string name="abc_searchview_description_voice">Ձայնային որոնում</string>
     <string name="abc_toolbar_collapse_description">Թաքցնել</string>
-    <string name="arcade__error_body">Չհաջողվեց բեռնել Արկադային խաղերի էջը:</string>
     <string name="arcade__error_headline">Սխալ առաջացավ</string>
     <string name="arcade__error_retry_button">Նորից փորձել</string>
     <string name="arcade__error_send_feedback_button">Կարծիք հայտնել</string>
@@ -70,6 +69,7 @@
     <string name="datadeletion__game_list_retry_button">Նորից փորձել</string>
     <string name="datadeletion__page_content_description">Ցուցադրվում է «Ջնջել Play Խաղերի տվյալները» էջը։</string>
     <string name="game_info_cricket_name">Կրիկետ</string>
+    <string name="game_info_snake_name">Օձ</string>
     <string name="game_info_solitaire_name">Փասիանս</string>
     <string name="gamedetails__apl_achievement_content_description">Նվաճումներ` %1$s, նկարագրություն` %2$s, կարգավիճակ` %3$s, %4$s, %5$s</string>
     <string name="gamedetails__apl_achievement_hidden_description">Շարունակեք խաղալ` ավելին իմանալու համար:</string>
@@ -94,6 +94,8 @@
     <string name="games__arcade_fragment_content_description">Ցուցադրվում է «Արկադային խաղեր» էջը:</string>
     <string name="games__installbutton__install">Տեղադրել</string>
     <string name="games__installbutton__install_content_description">Տեղադրել %1$s խաղը</string>
+    <string name="games__live_op_headline">Իրական ժամանակում</string>
+    <string name="games__page_default_error_body">Սխալը մեր պատճառով է։</string>
     <string name="games__playbutton__play">Խաղալ</string>
     <string name="games__playbutton__play_content_description">Խաղալ %1$s</string>
     <string name="games__youtube__video_playback_error_toast">Չհաջողվեց նվագարկել YouTube-ի տեսանյութը:</string>
@@ -141,6 +143,8 @@
     <string name="games_dest_game_detail_leaderboards_tab">ԱՌԱՋԱՏԱՐՆԵՐ</string>
     <string name="games_dest_game_detail_menu_mute">Անտեսել</string>
     <string name="games_dest_game_detail_menu_unmute">Չանտեսել</string>
+    <string name="games_dest_google_signed_error_dialog_message">Սկզբնավորումը խափանվել է։</string>
+    <string name="games_dest_google_signed_error_dialog_title">Սխալ առաջացավ</string>
     <string name="games_dest_main_private_level_message">Խաղացողի ձեր պրոֆիլը թաքցված է</string>
     <string name="games_dest_onboard_tutorial_1_text">Google Play-ի խաղային ցանց</string>
     <string name="games_dest_onboard_tutorial_1_title">Բարի գալուստ Play Խաղեր:</string>
@@ -384,11 +388,15 @@
     <string name="games_mvp_settings_learn_more_notifications">Իմանալ ավելին խաղերի ծանուցումների մասին</string>
     <string name="games_mvp_settings_muted_games">Թաքցված խաղեր</string>
     <string name="games_mvp_settings_no_games_muted_yet">Այստեղ դեռ ոչինչ չկա</string>
-    <string name="games_mvp_settings_public_gamer_profile">Խաղացողի հրապարակային պրոֆիլ</string>
+    <string name="games_mvp_settings_public_gamer_profile">Խաղացողի հանրային պրոֆիլ</string>
     <string name="games_mvp_settings_title">Կարգավորումներ</string>
     <string name="games_mvp_share_game_card_text">Կիսվել ընկերների հետ</string>
     <string name="games_mvp_show_undo_snackbar_text">%1$s խաղը ցուցադրվում է «Իմ խաղերը» բաժնում</string>
     <string name="games_mvp_snackbar_undo_button_text">Հետարկել</string>
+    <string name="games_mvp_snippet_icon_content_liveops_description">Հիմա։ %1$s</string>
+    <string name="games_mvp_snippet_icon_content_news_description">Նորություններ: %1$s</string>
+    <string name="games_mvp_snippet_icon_content_video_description">Տեսանյութեր։ %1$s</string>
+    <string name="games_mvp_visit_arcade_button_text">Անցնել Արկադա</string>
     <string name="games_mvp_you_have_no_games_message">Ավելացրեք խաղեր</string>
     <string name="games_my_games_navigation_bar_title">Իմ խաղերը</string>
     <string name="games_nearby_players_confirm_dialog_message">Մոտակայքում խաղացողներ գտնելու համար Google-ն օգտագործում է ձեր տեղադրության տվյալները, ձեր սարքի խոսափողն ու բարձրախոսը, Wi-Fi կապակցումը և Bluetooth-ը: <u>Մանրամասն</u>":
@@ -472,7 +480,7 @@
     <string name="games_pano_profile_accept">Ընդունել</string>
     <string name="games_pano_profile_allow">Թույլատրել</string>
     <string name="games_pano_profile_cancel">Չեղարկել</string>
-    <string name="games_pano_profile_create_fine_print">"Խաղացողի ID-ով կարող եք մտնել խաղեր, որոնք աջակցում են մուտքը Google Play Խաղերի միջոցով: Խաղի մշակողը ստանում է ձեր պրոֆիլի տվյալները, գործողությունների ու գնումների պատմությունը և օգտագործում դրանք համաձայն իր գաղտնիության քաղաքականության: 
+    <string name="games_pano_profile_create_fine_print">"Խաղացողի ID-ն կարող եք օգտագործել խաղերում, որոնք աջակցում են մուտքը Google Play Խաղերի միջոցով: Խաղի մշակողը ստանում է ձեր պրոֆիլի տվյալները, գործողությունների ու գնումների պատմությունը և օգտագործում դրանք համաձայն իր գաղտնիության քաղաքականության: 
 
 Դուք կարող եք փոփոխել ձեր պրոֆիլն ու կարգավորումները կամ ջնջել Google-ում պահվող տվյալները։ Google-ի կողմից տվյալների հավաքումն ու օգտագործումը իրականացվում է համաձայն Google-ի գաղտնիության քաղաքականության։ Պայմաններն ընդունելու համար հպեք «Ընդունել»:"</string>
     <string name="games_pano_profile_create_gamer_tag_header">Ստեղծեք խաղացողի ձեր ID-ն</string>
@@ -527,20 +535,20 @@
     <string name="games_profile_button_hide_profile">Թաքցնել</string>
     <string name="games_profile_button_remain_hidden">Թաքցնել</string>
     <string name="games_profile_button_remain_public">Չթաքցնել</string>
-    <string name="games_profile_create_fine_print">Խաղացողի ID-ով կարող եք մտնել խաղեր, որոնք աջակցում են մուտքը Google Play Խաղերի միջոցով: Խաղի մշակողը ստանում է ձեր պրոֆիլի տվյալները, գործողությունների ու գնումների պատմությունը և օգտագործում դրանք համաձայն իր գաղտնիության քաղաքականության: <a href="https://support.google.com/googleplay/?p=games_signin">Իմանալ ավելին</a>"։ 
+    <string name="games_profile_create_fine_print">Խաղացողի ID-ն կարող եք օգտագործել խաղերում, որոնք աջակցում են մուտքը Google Play Խաղերի միջոցով: Խաղի մշակողը ստանում է ձեր պրոֆիլի տվյալները, գործողությունների ու գնումների պատմությունը և օգտագործում դրանք համաձայն իր գաղտնիության քաղաքականության: <a href="https://support.google.com/googleplay/?p=games_signin">Իմանալ ավելին</a>"։ 
 
 Դուք կարող եք փոփոխել ձեր պրոֆիլն ու կարգավորումները, ջնջել Google-ում պահվող տվյալները։ Google-ի կողմից տվյալների հավաքումն ու օգտագործումը իրականացվում է համաձայն "<a href="https://www.google.com/policies/privacy/">Google-ի գաղտնիության քաղաքականության</a>։ Պայմաններն ընդունելու համար հպեք «Ստեղծել»:</string>
     <string name="games_profile_edit_action_create">Ստեղծել</string>
     <string name="games_profile_edit_action_next">Առաջ</string>
     <string name="games_profile_edit_action_save">Պահել</string>
     <string name="games_profile_edit_auto_sign_in">Ավտոմատ մուտք գործել աջակցվող խաղեր</string>
-    <string name="games_profile_edit_discoverability">Թույլատրել այլ խաղացողների գտնել իմ Խաղացողին ID-ն՝ օգտագործելով իմ անունը կամ էլփոստի հասցեն</string>
+    <string name="games_profile_edit_discoverability">Թույլատրել այլ խաղացողների գտնել իմ խաղացողի ID-ն՝ օգտագործելով իմ անունը կամ էլփոստի հասցեն</string>
     <string name="games_profile_edit_error_gamer_tag_invalid">Անվավեր անուն: Փորձեք մեկ այլ անուն:</string>
     <string name="games_profile_edit_error_gamer_tag_taken">Խաղացողի ID-ն հասանելի չէ: Փորձեք մեկ այլ անուն:</string>
     <string name="games_profile_edit_error_gamer_tag_taken_with_suggestion">Խաղացողի ID-ն հասանելի չէ: Կուզե՞ք %1$s ID-ն:</string>
     <string name="games_profile_edit_error_message_prefix">Սխալ՝</string>
     <string name="games_profile_edit_error_unknown">Սխալ առաջացավ: Փորձեք նորից ավելի ուշ:</string>
-    <string name="games_profile_edit_fine_print">Խաղացողի ID-ով կարող եք մտնել խաղեր, որոնք աջակցում են մուտքը Google Play Խաղերի միջոցով: Խաղի մշակողը ստանում է ձեր պրոֆիլի տվյալները, գործողությունների ու գնումների պատմությունը և օգտագործում դրանք համաձայն իր գաղտնիության քաղաքականության: <a href="https://support.google.com/googleplay/?p=games_signin">Իմանալ ավելին</a>"։ 
+    <string name="games_profile_edit_fine_print">Խաղացողի ID-ն կարող եք օգտագործել խաղերում, որոնք աջակցում են մուտքը Google Play Խաղերի միջոցով: Խաղի մշակողը ստանում է ձեր պրոֆիլի տվյալները, գործողությունների ու գնումների պատմությունը և օգտագործում դրանք համաձայն իր գաղտնիության քաղաքականության: <a href="https://support.google.com/googleplay/?p=games_signin">Իմանալ ավելին</a>"։ 
 
 Դուք կարող եք փոփոխել ձեր պրոֆիլն ու կարգավորումները, ջնջել Google-ում պահվող տվյալները։ Google-ի կողմից տվյալների հավաքումն ու օգտագործումը իրականացվում է համաձայն "<a href="https://www.google.com/policies/privacy/">Google-ի գաղտնիության քաղաքականության</a>։ Պայմաններն ընդունելու համար հպեք «Պահել»:</string>
     <string name="games_profile_edit_gamer_tag_header">Խաղացողի ID</string>
@@ -555,7 +563,7 @@
     <string name="games_profile_edit_visibility">Թույլատրել այլ խաղացողների տեսնել իմ խաղերի պատմությունը</string>
     <string name="games_profile_info_message_1">Ավտոմատ մուտք գործեք խաղեր</string>
     <string name="games_profile_info_message_2">Ձեր լավագույն արդյունքները կցուցադրվեն առաջատարների աղյուսակում</string>
-    <string name="games_profile_info_message_3">Հավաքեք միավորներ և հետևեք ձեր ձեռքբերումներին</string>
+    <string name="games_profile_info_message_3">Հավաքեք միավորներ և հետևեք ձեր նվաճումներին</string>
     <string name="games_profile_saving_profile_dialog_title">Պրոֆիլը պահվում է</string>
     <string name="games_profile_status_message_hidden">Խաղացողի ձեր պրոֆիլն այժմ թաքցված է</string>
     <string name="games_profile_status_message_public">Խաղացողի ձեր պրոֆիլն այժմ հրապարակային է</string>
@@ -591,6 +599,7 @@
     <string name="games_request_inbox_header_wishes">Հարցումներ</string>
     <string name="games_request_inbox_null_state_text">Փորձեք որևէ մեկին նվեր անել: Մեկ էլ տեսար՝ դուք էլ նրանից նվեր ստացաք:</string>
     <string name="games_search_players_header">Խաղացողներ</string>
+    <string name="games_search_players_hint">Խաղացողների որոնում</string>
     <string name="games_search_players_no_results">Համապատասխան խաղացող չկա</string>
     <string name="games_select_opponents_title">Նոր մրցախաղ</string>
     <string name="games_select_players_add_auto_pick_item_label">Ավելացնել ավտոմատ ընտրությունը</string>

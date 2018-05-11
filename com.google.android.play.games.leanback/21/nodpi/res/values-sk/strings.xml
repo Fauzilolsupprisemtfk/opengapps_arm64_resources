@@ -11,7 +11,6 @@
     <string name="abc_searchview_description_submit">Odoslať dopyt</string>
     <string name="abc_searchview_description_voice">Hlasové vyhľadávanie</string>
     <string name="abc_toolbar_collapse_description">Zbaliť</string>
-    <string name="arcade__error_body">Zdá sa, že pri načítaní stránky Arcade došlo k chybe.</string>
     <string name="arcade__error_headline">Vyskytol sa problém.</string>
     <string name="arcade__error_retry_button">Skúsiť znova</string>
     <string name="arcade__error_send_feedback_button">Odoslať spätnú väzbu</string>
@@ -47,7 +46,7 @@
 Táto akcia sa nedá vrátiť späť."</string>
     <string name="datadeletion__delete_archived_game_data_confirm_dialog_title">Odstrániť dáta z archivovaných hier?</string>
     <string name="datadeletion__delete_archived_game_data_error">Pri odstraňovaní dát z archivovaných hier sa vyskytla chyba. Skúste to znova neskôr.</string>
-    <string name="datadeletion__delete_archived_game_data_success">Vaše dáta z archivovaných hier budú odstránené do 24 hodín.</string>
+    <string name="datadeletion__delete_archived_game_data_success">Vaše dáta z archivovaných hier budú odstránené do 24 hodín.</string>
     <string name="datadeletion__delete_data_title">Odstránenie dát Hier Play</string>
     <string name="datadeletion__delete_game_data_button">Odstrániť</string>
     <string name="datadeletion__delete_game_data_button_content_description">Odstrániť dáta hry %1$s?</string>
@@ -62,7 +61,7 @@ Táto akcia sa nedá vrátiť späť."</string>
     <string name="datadeletion__delete_game_data_header">Odstránenie dát jednotlivých hier</string>
     <string name="datadeletion__delete_game_data_success">Dáta hry %1$s budú odstránené do 24 hodín.</string>
     <string name="datadeletion__delete_profile_button">Odstrániť profil</string>
-    <string name="datadeletion__delete_profile_explanation">Odstránia sa všetky údaje Hier Play vrátane identifikátora hráča a bodov XP. Môže to tiež viesť k odstráneniu vášho skóre, postupu a nastavení v hrách, ktoré ste hrali.</string>
+    <string name="datadeletion__delete_profile_explanation">Odstránia sa všetky dáta Hier Play vrátane identifikátora hráča a bodov XP. Môže to tiež viesť k odstráneniu vášho skóre, postupu a nastavení v hrách, ktoré ste hrali.</string>
     <string name="datadeletion__delete_profile_header">Odstránenie profilu a všetkých dát</string>
     <string name="datadeletion__deleting_archived_game_button_content_description">Odstraňujú sa dáta z archivovaných hier.</string>
     <string name="datadeletion__game_list_load_error">Zoznam hier, ktoré ste hrali pomocou Hier Google Play, sa nepodarilo načítať. Skúste to znova neskôr.</string>
@@ -70,6 +69,7 @@ Táto akcia sa nedá vrátiť späť."</string>
     <string name="datadeletion__game_list_retry_button">Znova</string>
     <string name="datadeletion__page_content_description">Zobrazuje sa stránka Odstránenie dát Hier Play</string>
     <string name="game_info_cricket_name">Kriket</string>
+    <string name="game_info_snake_name">Had</string>
     <string name="game_info_solitaire_name">Solitér</string>
     <string name="gamedetails__apl_achievement_content_description">Bonus: %1$s. Popis: %2$s. Stav: %3$s. %4$s. %5$s</string>
     <string name="gamedetails__apl_achievement_hidden_description">Hrajte ďalej a dozviete sa viac.</string>
@@ -81,8 +81,8 @@ Táto akcia sa nedá vrátiť späť."</string>
     <string name="gamedetails__apl_back_content_description">Späť</string>
     <string name="gamedetails__apl_leaderboards">Rebríčky</string>
     <string name="gamedetails__apl_players">Hráči</string>
-    <string name="games__achievement_format_with_label">Bonusy: %1$d z %2$d</string>
-    <string name="games__achievement_progress_content_description">Počet odomknutých bonusov: %1$d z %2$d</string>
+    <string name="games__achievement_format_with_label">%1$d z %2$d bonusov</string>
+    <string name="games__achievement_progress_content_description">Odomkn. %1$d z %2$d bonusov</string>
     <string name="games__arcade__built_in_game__included_in_your_library">Vo vašej knižnici</string>
     <string name="games__arcade__editors_choice__editors_choice_label">Redakčný výber</string>
     <string name="games__arcade__editors_choice__preview_image_content_description_1">Preskočte na prvú hru.</string>
@@ -95,6 +95,8 @@ Táto akcia sa nedá vrátiť späť."</string>
     <string name="games__arcade_fragment_content_description">Zobrazuje sa stránka Arkáda.</string>
     <string name="games__installbutton__install">Inštalovať</string>
     <string name="games__installbutton__install_content_description">Inštalovať %1$s</string>
+    <string name="games__live_op_headline">Práve prebieha</string>
+    <string name="games__page_default_error_body">Problém nie je na vašej, ale na našej strane.</string>
     <string name="games__playbutton__play">Hrať</string>
     <string name="games__playbutton__play_content_description">Hrať hru %1$s</string>
     <string name="games__youtube__video_playback_error_toast">Video YouTube sa nepodarilo prehrať.</string>
@@ -144,6 +146,8 @@ PRE VAŠE ZARIADENIE"</string>
     <string name="games_dest_game_detail_leaderboards_tab">REBRÍČKY</string>
     <string name="games_dest_game_detail_menu_mute">Ignorovať</string>
     <string name="games_dest_game_detail_menu_unmute">Prestať ignorovať</string>
+    <string name="games_dest_google_signed_error_dialog_message">Ojoj, zrejme sa vyskytol problém s inicializáciou.</string>
+    <string name="games_dest_google_signed_error_dialog_title">Vyskytla sa chyba.</string>
     <string name="games_dest_main_private_level_message">Váš profil hráča je skrytý</string>
     <string name="games_dest_onboard_tutorial_1_text">Herná sieť pre Google Play</string>
     <string name="games_dest_onboard_tutorial_1_title">Vitajte v Hrách Play!</string>
@@ -390,6 +394,10 @@ Povedzte o nej ostatným. Keď si ju zahrajú, budete môcť porovnávať skór
     <string name="games_mvp_share_game_card_text">Zdieľajte s priateľmi</string>
     <string name="games_mvp_show_undo_snackbar_text">Hra %1$s sa nezobrazuje v Mojich hrách</string>
     <string name="games_mvp_snackbar_undo_button_text">Späť</string>
+    <string name="games_mvp_snippet_icon_content_liveops_description">Teraz, %1$s</string>
+    <string name="games_mvp_snippet_icon_content_news_description">Spravodajský úryvok, %1$s</string>
+    <string name="games_mvp_snippet_icon_content_video_description">Video úryvok, %1$s</string>
+    <string name="games_mvp_visit_arcade_button_text">Prejsť na arkádu</string>
     <string name="games_mvp_you_have_no_games_message">Poďme hrať!</string>
     <string name="games_my_games_navigation_bar_title">Moje hry</string>
     <string name="games_nearby_players_confirm_dialog_message">Keď budete vyhľadávať hráčov v okolí, Hry Google Play na účely vyhľadávania dočasne zapnú a použijú nasledujúce technológie: vašu polohu, mikrofón, reproduktor, Wi‑Fi a Bluetooth. <u>Prečítajte si viac informácií</u>".
@@ -555,7 +563,7 @@ Môžete si upraviť profil a nastavenia alebo odstrániť dáta uložené na G
     <string name="games_profile_edit_success">Váš profil bol úspešne aktualizovaný.</string>
     <string name="games_profile_edit_title">Úprava profilu</string>
     <string name="games_profile_edit_visibility">Umožniť ostatným hráčom zobraziť si moju hernú aktivitu</string>
-    <string name="games_profile_info_message_1">Automatické prihlasovanie do hier</string>
+    <string name="games_profile_info_message_1">Automaticky sa prihlasujte do hier</string>
     <string name="games_profile_info_message_2">Ukážte všetkým svoje najvyššie skóre v rebríčkoch</string>
     <string name="games_profile_info_message_3">Zbierajte body XP a sledujte svoje bonusy</string>
     <string name="games_profile_saving_profile_dialog_title">Profil sa ukladá</string>
@@ -593,6 +601,7 @@ Môžete si upraviť profil a nastavenia alebo odstrániť dáta uložené na G
     <string name="games_request_inbox_header_wishes">Žiadosti</string>
     <string name="games_request_inbox_null_state_text">Skúste niekomu poslať darček, možno potom nejaký príde aj vám.</string>
     <string name="games_search_players_header">Hráči</string>
+    <string name="games_search_players_hint">Vyhľadávanie hráčov</string>
     <string name="games_search_players_no_results">Žiadni zodpovedajúci hráči</string>
     <string name="games_select_opponents_title">Nový zápas</string>
     <string name="games_select_players_add_auto_pick_item_label">Pridať automatický výber</string>
@@ -754,7 +763,6 @@ Videá sa ukladajú do galérie fotiek v priečinku Zariadenie > Záznamy z ob
     <string name="games_wide_tile_match_players_image_content_description">Zobraziť zoznam hráčov</string>
     <string name="games_wide_tile_request_accept">Prijať</string>
     <string name="games_wide_tile_request_dismiss">Zavrieť</string>
-    <string name="hide_account_list">Skryť účty</string>
     <string name="lb_navigation_menu_contentDescription">Navigačná ponuka</string>
     <string name="lb_search_bar_hint">Hľadať</string>
     <string name="lb_search_bar_hint_speech">Hovorením spustíte vyhľadávanie</string>
@@ -779,8 +787,6 @@ Videá sa ukladajú do galérie fotiek v priečinku Zariadenie > Záznamy z ob
     <string name="play_accessibility_search_plate_voice_search_button">Hlasové vyhľadávanie</string>
     <string name="play_drawer_open">Zobraziť vysúvací panel navigácie</string>
     <string name="preferences_license_title">Licencie open source</string>
-    <string name="selected_account">Prihlásený/-á do účtu %1$s</string>
-    <string name="show_account_list">Zobraziť účty</string>
     <string name="suw_back_button_label">Späť</string>
     <string name="suw_more_button_label">Viac</string>
     <string name="suw_next_button_label">Ďalej</string>

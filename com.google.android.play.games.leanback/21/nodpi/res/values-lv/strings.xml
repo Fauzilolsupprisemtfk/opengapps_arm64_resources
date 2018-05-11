@@ -11,7 +11,6 @@
     <string name="abc_searchview_description_submit">Iesniegt vaicājumu</string>
     <string name="abc_searchview_description_voice">Meklēšana ar balsi</string>
     <string name="abc_toolbar_collapse_description">Sakļaut</string>
-    <string name="arcade__error_body">Šķiet, ka radās problēma, mēģinot ielādēt spēles lietotnē Arcade.</string>
     <string name="arcade__error_headline">Diemžēl ir radusies problēma!</string>
     <string name="arcade__error_retry_button">Mēģināt vēlreiz</string>
     <string name="arcade__error_send_feedback_button">Sūtīt atsauksmes</string>
@@ -70,6 +69,7 @@
     <string name="datadeletion__game_list_retry_button">Mēģināt vēlreiz</string>
     <string name="datadeletion__page_content_description">Tiek rādīta lapa “Play spēļu datu dzēšana”.</string>
     <string name="game_info_cricket_name">Krikets</string>
+    <string name="game_info_snake_name">Čūska</string>
     <string name="game_info_solitaire_name">Pasjanss</string>
     <string name="gamedetails__apl_achievement_content_description">Sasniegums: %1$s. Apraksts: %2$s. Statuss: %3$s. %4$s. %5$s</string>
     <string name="gamedetails__apl_achievement_hidden_description">Turpiniet spēlēt, lai uzzinātu vairāk.</string>
@@ -95,6 +95,8 @@
     <string name="games__arcade_fragment_content_description">Tiek rādīta lapa “Arkādes spēles”.</string>
     <string name="games__installbutton__install">Instalēt</string>
     <string name="games__installbutton__install_content_description">Instalēt spēli %1$s</string>
+    <string name="games__live_op_headline">Pašlaik notiek</string>
+    <string name="games__page_default_error_body">Radusies problēma mūsu vainas dēļ.</string>
     <string name="games__playbutton__play">Spēlēt</string>
     <string name="games__playbutton__play_content_description">Spēlēt spēli %1$s</string>
     <string name="games__youtube__video_playback_error_toast">Nevarēja atskaņot YouTube video.</string>
@@ -145,6 +147,8 @@ JŪSU IERĪCĒ"</string>
     <string name="games_dest_game_detail_leaderboards_tab">UZVARĒTĀJU SARAKSTI</string>
     <string name="games_dest_game_detail_menu_mute">Izslēgt skaņu</string>
     <string name="games_dest_game_detail_menu_unmute">Ieslēgt skaņu</string>
+    <string name="games_dest_google_signed_error_dialog_message">Šķiet, ka radās inicializēšanas problēma.</string>
+    <string name="games_dest_google_signed_error_dialog_title">Radās kļūda</string>
     <string name="games_dest_main_private_level_message">Jūsu spēlētāja profils ir paslēpts</string>
     <string name="games_dest_onboard_tutorial_1_text">Spēļu tīkls pakalpojumam Google Play</string>
     <string name="games_dest_onboard_tutorial_1_title">Laipni lūdzam pakalpojumā Play spēles!</string>
@@ -393,6 +397,10 @@ Pastāstiet citiem lietotājiem par šo spēli un salīdziniet rezultātus, kad 
     <string name="games_mvp_share_game_card_text">Kopīgošana ar draugiem</string>
     <string name="games_mvp_show_undo_snackbar_text">Spēle %1$s ir redzama sadaļā “Manas spēles”</string>
     <string name="games_mvp_snackbar_undo_button_text">Atsaukt</string>
+    <string name="games_mvp_snippet_icon_content_liveops_description">Tagad, %1$s</string>
+    <string name="games_mvp_snippet_icon_content_news_description">Ziņu fragments, %1$s</string>
+    <string name="games_mvp_snippet_icon_content_video_description">Video fragments, %1$s</string>
+    <string name="games_mvp_visit_arcade_button_text">Arkādes spēles</string>
     <string name="games_mvp_you_have_no_games_message">Spēlējiet kādu spēli!</string>
     <string name="games_my_games_navigation_bar_title">Manas spēles</string>
     <string name="games_nearby_players_confirm_dialog_message">Kad meklējat spēlētājus blakus, pakalpojumā Google Play spēles viņu atrašanai tiks īslaicīgi ieslēgtas un izmantotas šādas tehnoloģijas: jūsu atrašanās vieta, mikrofons, skaļruņi, Wi-Fi un Bluetooth. <u>Uzziniet vairāk</u>".
@@ -478,7 +486,7 @@ Funkcijai “Blakus spēlētāji” esot ieslēgtai, citi tuvumā esoši šīs s
     <string name="games_pano_profile_accept">Piekrist</string>
     <string name="games_pano_profile_allow">Atļaut</string>
     <string name="games_pano_profile_cancel">Atcelt</string>
-    <string name="games_pano_profile_create_fine_print">"Varat izmantot savu spēlētāja ID spēlēs, kurās tiek atbalstīta pieteikšanās pakalpojumā Play spēles. Kad jūs spēlējat spēli, tās izstrādātājs saņem jūsu profila informāciju, aktivitāšu datus un informāciju pirkumiem, kas veikti spēlē. Izstrādātāji izmanto šos datus attiecīgās spēles nodrošināšanai un uzlabošanai saskaņā ar savām konfidencialitātes politikām. 
+    <string name="games_pano_profile_create_fine_print">"Varat izmantot savu spēlētāja ID spēlēs, kurās tiek atbalstīta pieteikšanās pakalpojumā Play spēles. Kad jūs spēlējat spēli, tās izstrādātājs saņem jūsu profila informāciju, aktivitāšu datus un informāciju par pirkumiem, kas veikti spēlē. Izstrādātāji izmanto šos datus attiecīgās spēles nodrošināšanai un uzlabošanai saskaņā ar savām konfidencialitātes politikām. 
 
 Varat rediģēt savu profilu un iestatījumus vai dzēst Google tīklā saglabātos datus saskaņā ar Google konfidencialitātes politiku. Lai piekristu, atlasiet vienumu “Piekrist”."</string>
     <string name="games_pano_profile_create_gamer_tag_header">Spēlētāja ID izveide</string>
@@ -533,7 +541,7 @@ Varat rediģēt savu profilu un iestatījumus vai dzēst Google tīklā saglabā
     <string name="games_profile_button_hide_profile">Slēpt</string>
     <string name="games_profile_button_remain_hidden">Joprojām paslēpts</string>
     <string name="games_profile_button_remain_public">Joprojām publisks</string>
-    <string name="games_profile_create_fine_print">Varat izmantot savu spēlētāja ID spēlēs, kurās tiek atbalstīta pieteikšanās pakalpojumā Play spēles. Kad jūs spēlējat spēli, tās izstrādātājs saņem jūsu profila informāciju, aktivitāšu datus un informāciju pirkumiem, kas veikti spēlē. Izstrādātāji izmanto šos datus attiecīgās spēles nodrošināšanai un uzlabošanai saskaņā ar savām konfidencialitātes politikām. <a href="https://support.google.com/googleplay/?p=games_signin">Uzziniet vairāk</a>". 
+    <string name="games_profile_create_fine_print">Varat izmantot savu spēlētāja ID spēlēs, kurās tiek atbalstīta pieteikšanās pakalpojumā Play spēles. Kad jūs spēlējat spēli, tās izstrādātājs saņem jūsu profila informāciju, aktivitāšu datus un informāciju par pirkumiem, kas veikti spēlē. Izstrādātāji izmanto šos datus attiecīgās spēles nodrošināšanai un uzlabošanai saskaņā ar savām konfidencialitātes politikām. <a href="https://support.google.com/googleplay/?p=games_signin">Uzziniet vairāk</a>". 
 
 Varat rediģēt savu profilu un iestatījumus vai dzēst Google tīklā saglabātos datus saskaņā ar "<a href="https://www.google.com/policies/privacy/">Google konfidencialitātes politiku</a>. Lai piekristu, pieskarieties vienumam “Izveidot”.</string>
     <string name="games_profile_edit_action_create">Izveidot</string>
@@ -546,7 +554,7 @@ Varat rediģēt savu profilu un iestatījumus vai dzēst Google tīklā saglabā
     <string name="games_profile_edit_error_gamer_tag_taken_with_suggestion">Spēlētāja ID nav pieejams. Varbūt vēlaties izmantot “%1$s”?</string>
     <string name="games_profile_edit_error_message_prefix">Kļūda:</string>
     <string name="games_profile_edit_error_unknown">Radās problēma. Lūdzu, vēlāk mēģiniet vēlreiz.</string>
-    <string name="games_profile_edit_fine_print">Varat izmantot savu spēlētāja ID spēlēs, kurās tiek atbalstīta pieteikšanās pakalpojumā Play spēles. Kad jūs spēlējat spēli, tās izstrādātājs saņem jūsu profila informāciju, aktivitāšu datus un informāciju pirkumiem, kas veikti spēlē. Izstrādātāji izmanto šos datus attiecīgās spēles nodrošināšanai un uzlabošanai saskaņā ar savām konfidencialitātes politikām. <a href="https://support.google.com/googleplay/?p=games_signin">Uzziniet vairāk</a>". 
+    <string name="games_profile_edit_fine_print">Varat izmantot savu spēlētāja ID spēlēs, kurās tiek atbalstīta pieteikšanās pakalpojumā Play spēles. Kad jūs spēlējat spēli, tās izstrādātājs saņem jūsu profila informāciju, aktivitāšu datus un informāciju par pirkumiem, kas veikti spēlē. Izstrādātāji izmanto šos datus attiecīgās spēles nodrošināšanai un uzlabošanai saskaņā ar savām konfidencialitātes politikām. <a href="https://support.google.com/googleplay/?p=games_signin">Uzziniet vairāk</a>". 
 
 Varat rediģēt savu profilu un iestatījumus vai dzēst Google tīklā saglabātos datus saskaņā ar "<a href="https://www.google.com/policies/privacy/">Google konfidencialitātes politiku</a>. Lai piekristu, pieskarieties vienumam “Saglabāt”.</string>
     <string name="games_profile_edit_gamer_tag_header">Spēlētāja ID</string>
@@ -598,6 +606,7 @@ Varat rediģēt savu profilu un iestatījumus vai dzēst Google tīklā saglabā
     <string name="games_request_inbox_header_wishes">Pieprasījumi</string>
     <string name="games_request_inbox_null_state_text">Pamēģiniet nosūtīt dāvanu — iespējams, saņemsiet kādu pretī.</string>
     <string name="games_search_players_header">Spēlētāji</string>
+    <string name="games_search_players_hint">Meklēt spēlētājus</string>
     <string name="games_search_players_no_results">Nav neviena atbilstoša spēlētāja.</string>
     <string name="games_select_opponents_title">Jauna spēle</string>
     <string name="games_select_players_add_auto_pick_item_label">Atlasīt automātiski</string>
@@ -762,7 +771,6 @@ Videoklipi tiek saglabāti jūsu fotoattēlu galerijā, kas atrodas mapē Ierīc
     <string name="games_wide_tile_match_players_image_content_description">Skatīt spēlētāju sarakstu</string>
     <string name="games_wide_tile_request_accept">Pieņemt</string>
     <string name="games_wide_tile_request_dismiss">Noraidīt</string>
-    <string name="hide_account_list">Slēpt kontus</string>
     <string name="lb_navigation_menu_contentDescription">Navigācijas izvēlne</string>
     <string name="lb_search_bar_hint">Meklēt</string>
     <string name="lb_search_bar_hint_speech">Runāt, lai meklētu</string>
@@ -788,8 +796,6 @@ Videoklipi tiek saglabāti jūsu fotoattēlu galerijā, kas atrodas mapē Ierīc
     <string name="play_accessibility_search_plate_voice_search_button">Meklēšana ar balsi</string>
     <string name="play_drawer_open">Rādīt navigācijas atvilktni</string>
     <string name="preferences_license_title">Atklātā pirmkoda licences</string>
-    <string name="selected_account">Pierakstīts kontā %1$s</string>
-    <string name="show_account_list">Rādīt kontus</string>
     <string name="suw_back_button_label">Atpakaļ</string>
     <string name="suw_more_button_label">Vairāk</string>
     <string name="suw_next_button_label">Tālāk</string>

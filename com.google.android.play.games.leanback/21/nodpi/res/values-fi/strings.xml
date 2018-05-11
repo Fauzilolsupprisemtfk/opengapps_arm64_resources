@@ -11,7 +11,6 @@
     <string name="abc_searchview_description_submit">Lähetä kysely</string>
     <string name="abc_searchview_description_voice">Puhehaku</string>
     <string name="abc_toolbar_collapse_description">Kutista</string>
-    <string name="arcade__error_body">Näyttää siltä, että jokin meni pieleen käynnistettäessä Pelihallia.</string>
     <string name="arcade__error_headline">O-ou, jokin on vialla.</string>
     <string name="arcade__error_retry_button">Yritä uudelleen</string>
     <string name="arcade__error_send_feedback_button">Lähetä palautetta</string>
@@ -58,7 +57,7 @@ Tätä toimintoa ei voi kumota."</string>
 Tätä toimintoa ei voi kumota."</string>
     <string name="datadeletion__delete_game_data_confirm_dialog_title">Poistetaanko pelin %1$s tiedot?</string>
     <string name="datadeletion__delete_game_data_error">Pelin %1$s tietoja poistettaessa tapahtui virhe. Yritä myöhemmin uudelleen.</string>
-    <string name="datadeletion__delete_game_data_explanation">Poista sellaisten pelien yksittäiset tiedot, joita olet pelannut Google Play Peleillä. Tämä poistaa valitsemasi pelin pisteet, edistymisen ja peliasetukset.</string>
+    <string name="datadeletion__delete_game_data_explanation">Poista yksittäiset tiedot Google Play Peleillä pelaamistasi peleistä. Tämä poistaa valitsemasi pelin pisteet, edistymisen ja peliasetukset.</string>
     <string name="datadeletion__delete_game_data_header">Poista yksittäiset pelitiedot</string>
     <string name="datadeletion__delete_game_data_success">Pelin %1$s tiedot poistetaan 24 tunnin kuluessa.</string>
     <string name="datadeletion__delete_profile_button">Poista profiili</string>
@@ -94,6 +93,8 @@ Tätä toimintoa ei voi kumota."</string>
     <string name="games__arcade_fragment_content_description">Pelihallisivu on näkyvissä.</string>
     <string name="games__installbutton__install">Asenna</string>
     <string name="games__installbutton__install_content_description">Asenna %1$s</string>
+    <string name="games__live_op_headline">Nyt käynnissä</string>
+    <string name="games__page_default_error_body">Vika ei ole sinussa, vaan meissä.</string>
     <string name="games__playbutton__play">Pelaa</string>
     <string name="games__playbutton__play_content_description">Pelaa: %1$s</string>
     <string name="games__youtube__video_playback_error_toast">YouTube-videota ei voitu toistaa.</string>
@@ -142,6 +143,8 @@ LAITTEELLESI"</string>
     <string name="games_dest_game_detail_leaderboards_tab">TULOSTAULUKOT</string>
     <string name="games_dest_game_detail_menu_mute">Mykistä</string>
     <string name="games_dest_game_detail_menu_unmute">Poista mykistys</string>
+    <string name="games_dest_google_signed_error_dialog_message">O-ou, jotain meni vikaan alustuksessa.</string>
+    <string name="games_dest_google_signed_error_dialog_title">Tapahtui virhe</string>
     <string name="games_dest_main_private_level_message">Pelaajaprofiilisi on piilotettu.</string>
     <string name="games_dest_onboard_tutorial_1_text">Google Playn peliverkosto</string>
     <string name="games_dest_onboard_tutorial_1_title">Tervetuloa Play Peleihin!</string>
@@ -386,6 +389,10 @@ Kerro pelistä muille ja vertaile pisteitä heidän kanssaan, kun he aloittavat 
     <string name="games_mvp_share_game_card_text">Jaa kavereiden kanssa</string>
     <string name="games_mvp_show_undo_snackbar_text">%1$s näkyy nyt omissa peleissä</string>
     <string name="games_mvp_snackbar_undo_button_text">Kumoa</string>
+    <string name="games_mvp_snippet_icon_content_liveops_description">Nyt, %1$s</string>
+    <string name="games_mvp_snippet_icon_content_news_description">Uutiskatkelma, %1$s</string>
+    <string name="games_mvp_snippet_icon_content_video_description">Videokatkelma, %1$s</string>
+    <string name="games_mvp_visit_arcade_button_text">Siirry Pelihalliin</string>
     <string name="games_mvp_you_have_no_games_message">Pelataan!</string>
     <string name="games_my_games_navigation_bar_title">Omat pelit</string>
     <string name="games_nearby_players_confirm_dialog_message">Kun etsit lähialueen pelaajia, Google käyttää etsimiseen seuraavia keinoja: sijaintiasi, mikrofonia, kaiutinta, Wi-Fi-yhteyttä ja Bluetoothia. <u>Lisätietoja</u>".
@@ -550,7 +557,7 @@ Voit muokata profiiliasi ja asetuksiasi tai poistaa Googlen tallentamat tiedot, 
     <string name="games_profile_edit_success">Profiilisi päivittäminen onnistui.</string>
     <string name="games_profile_edit_title">Muokkaa profiiliasi</string>
     <string name="games_profile_edit_visibility">Anna muiden pelaajien nähdä pelitoimintani</string>
-    <string name="games_profile_info_message_1">Kirjaudu peleihin automaattisesti</string>
+    <string name="games_profile_info_message_1">Kirjaudu peleihin automaattisesti.</string>
     <string name="games_profile_info_message_2">Esittele ennätyksiäsi tulostaulukoissa.</string>
     <string name="games_profile_info_message_3">Kerää XP:tä ja seuraa saavutuksiasi.</string>
     <string name="games_profile_saving_profile_dialog_title">Tallennetaan profiilia</string>
@@ -588,6 +595,7 @@ Voit muokata profiiliasi ja asetuksiasi tai poistaa Googlen tallentamat tiedot, 
     <string name="games_request_inbox_header_wishes">Pyynnöt</string>
     <string name="games_request_inbox_null_state_text">Kokeile lähettää lahja – saatat saada vastalahjan.</string>
     <string name="games_search_players_header">Pelaajat</string>
+    <string name="games_search_players_hint">Hae pelaajia</string>
     <string name="games_search_players_no_results">Ei hakua vastaavia pelaajia</string>
     <string name="games_select_opponents_title">Uusi peli</string>
     <string name="games_select_players_add_auto_pick_item_label">Automaattinen</string>
@@ -749,7 +757,6 @@ Videot tallennetaan kuvagalleriaasi kohdassa Laite-kansiot > Näyttölähetykset
     <string name="games_wide_tile_match_players_image_content_description">Näytä pelaajaluettelo</string>
     <string name="games_wide_tile_request_accept">Hyväksy</string>
     <string name="games_wide_tile_request_dismiss">Ohita</string>
-    <string name="hide_account_list">Piilota tilit</string>
     <string name="lb_navigation_menu_contentDescription">Navigointivalikko</string>
     <string name="lb_search_bar_hint">Haku</string>
     <string name="lb_search_bar_hint_speech">Hae puhumalla</string>
@@ -775,8 +782,6 @@ Videot tallennetaan kuvagalleriaasi kohdassa Laite-kansiot > Näyttölähetykset
     <string name="play_accessibility_search_plate_voice_search_button">Puhehaku</string>
     <string name="play_drawer_open">Näytä navigointipaneeli</string>
     <string name="preferences_license_title">Avoimen lähdekoodin käyttöluvat</string>
-    <string name="selected_account">Olet kirjautunut tiliin %1$s</string>
-    <string name="show_account_list">Näytä tilit</string>
     <string name="suw_back_button_label">Takaisin</string>
     <string name="suw_more_button_label">Lisää</string>
     <string name="suw_next_button_label">Seuraava</string>

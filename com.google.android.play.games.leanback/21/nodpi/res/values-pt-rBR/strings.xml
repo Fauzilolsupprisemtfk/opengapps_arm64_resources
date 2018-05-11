@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="arcade__error_body">Parece que algo deu errado ao carregar o Arcade.</string>
     <string name="arcade__error_headline">Houston, temos um problema.</string>
     <string name="arcade__error_retry_button">Tentar novamente</string>
     <string name="arcade__error_send_feedback_button">Enviar feedback</string>
@@ -34,8 +33,8 @@
 
 Não será possível desfazer essa ação."</string>
     <string name="datadeletion__delete_archived_game_data_confirm_dialog_title">Você quer excluir os dados dos jogos arquivados?</string>
-    <string name="datadeletion__delete_archived_game_data_error">Ocorreu um erro ao excluir seus dados dos jogos arquivados. Tente novamente mais tarde.</string>
-    <string name="datadeletion__delete_archived_game_data_success">Seus dados dos jogos arquivados serão excluídos dentro de 24 horas.</string>
+    <string name="datadeletion__delete_archived_game_data_error">Ocorreu um erro ao excluir os dados dos seus jogos arquivados. Tente novamente mais tarde.</string>
+    <string name="datadeletion__delete_archived_game_data_success">Os dados dos seus jogos arquivados serão excluídos em 24 horas.</string>
     <string name="datadeletion__delete_data_title">Excluir dados do Play Games</string>
     <string name="datadeletion__delete_game_data_button">Excluir</string>
     <string name="datadeletion__delete_game_data_button_content_description">Excluir os dados de \"%1$s\"</string>
@@ -46,11 +45,11 @@ Não será possível desfazer essa ação."</string>
 Não será possível desfazer essa ação."</string>
     <string name="datadeletion__delete_game_data_confirm_dialog_title">Excluir dados de \"%1$s\"?</string>
     <string name="datadeletion__delete_game_data_error">Ocorreu um erro ao excluir seus dados de \"%1$s\". Tente novamente mais tarde.</string>
-    <string name="datadeletion__delete_game_data_explanation">Exclui os dados de determinados jogos usados no Google Play Games. Esta opção exclui suas pontuações, seu progresso e suas configurações do jogo selecionado.</string>
+    <string name="datadeletion__delete_game_data_explanation">Exclua os dados de determinados jogos acessados no Google Play Games. Esta opção exclui suas pontuações, seu progresso e suas configurações do jogo selecionado.</string>
     <string name="datadeletion__delete_game_data_header">Excluir dados de jogos individuais</string>
     <string name="datadeletion__delete_game_data_success">Seus dados de \"%1$s\" serão excluídos em 24 horas.</string>
     <string name="datadeletion__delete_profile_button">Excluir perfil</string>
-    <string name="datadeletion__delete_profile_explanation">Excluir todos os seus dados do Google Play Games, incluindo seu ID de jogador e seus XP. Isso também pode excluir as pontuações, o progresso e as configurações dos jogos que você tiver acessado.</string>
+    <string name="datadeletion__delete_profile_explanation">Exclua todos os seus dados do Google Play Games, incluindo seu ID de jogador e seus XP. Isso também poderá excluir as pontuações, o progresso e as configurações dos jogos que você tiver acessado.</string>
     <string name="datadeletion__delete_profile_header">Excluir perfil e todos os dados</string>
     <string name="datadeletion__deleting_archived_game_button_content_description">Excluindo dados dos jogos arquivados.</string>
     <string name="datadeletion__game_list_load_error">Ocorreu uma falha ao carregar a lista de jogos acessados no Google Play Games. Tente novamente mais tarde.</string>
@@ -58,6 +57,7 @@ Não será possível desfazer essa ação."</string>
     <string name="datadeletion__game_list_retry_button">Tentar novamente</string>
     <string name="datadeletion__page_content_description">Mostrando a página \"Excluir dados do Play Games\".</string>
     <string name="game_info_cricket_name">Críquete</string>
+    <string name="game_info_snake_name">Serpente</string>
     <string name="game_info_solitaire_name">Paciência</string>
     <string name="gamedetails__apl_achievement_content_description">Conquista: %1$s. Descrição: %2$s. Status: %3$s. %4$s. %5$s</string>
     <string name="gamedetails__apl_achievement_hidden_description">Continue jogando para saber mais.</string>
@@ -80,6 +80,8 @@ Não será possível desfazer essa ação."</string>
     <string name="games__arcade_fragment_content_description">Mostrando a página \"Arcade\".</string>
     <string name="games__installbutton__install">Instalar</string>
     <string name="games__installbutton__install_content_description">Instalar %1$s</string>
+    <string name="games__live_op_headline">Acontecendo agora</string>
+    <string name="games__page_default_error_body">Não é você, somos nós.</string>
     <string name="games__playbutton__play">Jogar</string>
     <string name="games__playbutton__play_content_description">Jogar %1$s</string>
     <string name="games__youtube__video_playback_error_toast">Não foi possível reproduzir o vídeo do YouTube.</string>
@@ -125,6 +127,8 @@ PARA SEU DISPOSITIVO"</string>
     <string name="games_dest_game_detail_leaderboards_tab">PLACARES</string>
     <string name="games_dest_game_detail_menu_mute">Silenciar</string>
     <string name="games_dest_game_detail_menu_unmute">Ativar notificações</string>
+    <string name="games_dest_google_signed_error_dialog_message">Parece que algo deu errado na inicialização.</string>
+    <string name="games_dest_google_signed_error_dialog_title">Algo deu errado.</string>
     <string name="games_dest_main_private_level_message">Seu perfil do jogador está oculto</string>
     <string name="games_dest_onboard_tutorial_1_text">Uma rede de jogos para o Google Play</string>
     <string name="games_dest_onboard_tutorial_1_title">Bem-vindo ao Google Play Games</string>
@@ -369,6 +373,10 @@ Conte para os outros sobre ele e compare pontuações quando eles jogarem."</str
     <string name="games_mvp_share_game_card_text">Compartilhe com seus amigos</string>
     <string name="games_mvp_show_undo_snackbar_text">O jogo %1$s agora é exibido em \"Meus jogos\"</string>
     <string name="games_mvp_snackbar_undo_button_text">Desfazer</string>
+    <string name="games_mvp_snippet_icon_content_liveops_description">Agora: %1$s</string>
+    <string name="games_mvp_snippet_icon_content_news_description">Snippet de notícias: %1$s</string>
+    <string name="games_mvp_snippet_icon_content_video_description">Snippet de vídeo: %1$s</string>
+    <string name="games_mvp_visit_arcade_button_text">Acessar o \"Arcade\"</string>
     <string name="games_mvp_you_have_no_games_message">Vamos jogar?</string>
     <string name="games_my_games_navigation_bar_title">Meus jogos</string>
     <string name="games_nearby_players_confirm_dialog_message">Quando você pesquisar por jogadores próximos, o Google Play Games ativará temporariamente as seguintes tecnologias para encontrá-los: seu local, microfone, alto-falante, Wi-Fi e Bluetooth. <u>Saiba mais</u>".
@@ -534,8 +542,8 @@ Você pode editar o perfil e as configurações ou excluir seus dados armazenado
     <string name="games_profile_edit_success">Seu perfil foi atualizado.</string>
     <string name="games_profile_edit_title">Editar seu perfil</string>
     <string name="games_profile_edit_visibility">Permitir que outros jogadores vejam minha atividade no jogo</string>
-    <string name="games_profile_info_message_1">Fazer login automático nos jogos</string>
-    <string name="games_profile_info_message_2">Mostrar suas maiores pontuações nos placares</string>
+    <string name="games_profile_info_message_1">Faça login automático nos jogos</string>
+    <string name="games_profile_info_message_2">Mostre suas maiores pontuações nos placares</string>
     <string name="games_profile_info_message_3">Ganhe XP e acompanhe suas conquistas</string>
     <string name="games_profile_saving_profile_dialog_title">Salvando perfil</string>
     <string name="games_profile_status_message_hidden">No momento, seu perfil do jogador está oculto</string>
@@ -572,6 +580,7 @@ Você pode editar o perfil e as configurações ou excluir seus dados armazenado
     <string name="games_request_inbox_header_wishes">Solicitações</string>
     <string name="games_request_inbox_null_state_text">Tente enviar um presente, pois talvez você também ganhe um.</string>
     <string name="games_search_players_header">Jogadores</string>
+    <string name="games_search_players_hint">Procurar jogadores</string>
     <string name="games_search_players_no_results">Nenhum jogador encontrado</string>
     <string name="games_select_opponents_title">Nova partida</string>
     <string name="games_select_players_add_auto_pick_item_label">Jogadores aleatórios</string>
@@ -609,7 +618,7 @@ Você pode editar o perfil e as configurações ou excluir seus dados armazenado
     <string name="games_settings_debug_reset_profile_settings_fail">Falha ao redefinir as configurações do perfil.</string>
     <string name="games_settings_debug_reset_profile_settings_success">As configurações do perfil foram redefinidas.</string>
     <string name="games_settings_delete_profile">Excluir perfil do Play Games</string>
-    <string name="games_settings_delete_profile_dialog_message">"Esta ação excluirá todas as informações no Google Play Games, incluindo seu ID de jogador e XP. Isso também pode excluir pontuações, progresso e configurações dos seus jogos.
+    <string name="games_settings_delete_profile_dialog_message">"Esta ação excluirá todas as informações no Google Play Games, incluindo seu ID de jogador e seus XP. Isso também pode excluir pontuações, progresso e configurações dos seus jogos.
 
 Esta ação não pode ser desfeita."</string>
     <string name="games_settings_delete_profile_dialog_title">Excluir perfil do Play Games?</string>

@@ -11,7 +11,6 @@
     <string name="abc_searchview_description_submit">ప్రశ్నని సమర్పించు</string>
     <string name="abc_searchview_description_voice">వాయిస్ శోధన</string>
     <string name="abc_toolbar_collapse_description">కుదించండి</string>
-    <string name="arcade__error_body">ఆర్కేడ్‌ని ఆన్ చేస్తున్నప్పుడు ఏదో తప్పు జరిగినట్లు కనిపిస్తోంది.</string>
     <string name="arcade__error_headline">అయ్యో, ఏదో సమస్య ఉంది.</string>
     <string name="arcade__error_retry_button">మళ్లీ ప్రయత్నించు</string>
     <string name="arcade__error_send_feedback_button">అభిప్రాయాన్ని పంపు</string>
@@ -71,6 +70,7 @@
     <string name="datadeletion__page_content_description">\"Play గేమ్‌లు డేటాను తొలగించు\" పేజీని చూపుతోంది.</string>
     <string name="game_info_cricket_name">క్రికెట్</string>
     <string name="game_info_pacman_name">ప్యాక్-మ్యాన్</string>
+    <string name="game_info_snake_name">పాము</string>
     <string name="game_info_solitaire_name">సాలిటైర్</string>
     <string name="gamedetails__apl_achievement_content_description">విజయం: %1$s. వివరణ: %2$s. స్థితి: %3$s. %4$s. %5$s</string>
     <string name="gamedetails__apl_achievement_hidden_description">మరింత తెలుసుకోవడానికి ఆడుతూ ఉండండి.</string>
@@ -95,6 +95,8 @@
     <string name="games__arcade_fragment_content_description">\"ఆర్కేడ్\" పేజీని చూపుతోంది.</string>
     <string name="games__installbutton__install">ఇన్‌స్టాల్ చేయి</string>
     <string name="games__installbutton__install_content_description">%1$sని ఇన్‌స్టాల్ చేయండి</string>
+    <string name="games__live_op_headline">ఇప్పుడు జరుగుతున్నవి</string>
+    <string name="games__page_default_error_body">ఇది మీకు కాదు, మాకు.</string>
     <string name="games__playbutton__play">ఆడండి</string>
     <string name="games__playbutton__play_content_description">%1$sని ఆడండి</string>
     <string name="games__youtube__video_playback_error_toast">YouTube వీడియోని ప్లే చేయడం సాధ్యపడలేదు.</string>
@@ -142,6 +144,8 @@
     <string name="games_dest_game_detail_leaderboards_tab">లీడర్‌బోర్డ్‌లు</string>
     <string name="games_dest_game_detail_menu_mute">మ్యూట్ చేయి</string>
     <string name="games_dest_game_detail_menu_unmute">అన్‌మ్యూట్ చేయి</string>
+    <string name="games_dest_google_signed_error_dialog_message">అయ్యో, ప్రారంభంలో ఏదో తప్పు జరిగినట్లు కనిపిస్తోంది.</string>
+    <string name="games_dest_google_signed_error_dialog_title">ఏదో తప్పు జరిగింది.</string>
     <string name="games_dest_main_private_level_message">మీ గేమ్ ఆడే వ్యక్తి ప్రొఫైల్ దాచబడింది</string>
     <string name="games_dest_onboard_tutorial_1_text">Google Play కోసం ఆట నెట్‌వర్క్</string>
     <string name="games_dest_onboard_tutorial_1_title">Play ఆటలకు స్వాగతం!</string>
@@ -385,6 +389,10 @@
     <string name="games_mvp_share_game_card_text">మీ స్నేహితులతో షేర్ చేయండి</string>
     <string name="games_mvp_show_undo_snackbar_text">%1$s ఇప్పుడు \"నా గేమ్‌లు\"లో చూపబడింది</string>
     <string name="games_mvp_snackbar_undo_button_text">చర్యరద్దు చేయి</string>
+    <string name="games_mvp_snippet_icon_content_liveops_description">ఇప్పుడు, %1$s</string>
+    <string name="games_mvp_snippet_icon_content_news_description">వార్తల స్నిప్పెట్, %1$s</string>
+    <string name="games_mvp_snippet_icon_content_video_description">వీడియో స్నిప్పెట్, %1$s</string>
+    <string name="games_mvp_visit_arcade_button_text">ఆర్కేడ్‌ను సందర్శించు</string>
     <string name="games_mvp_you_have_no_games_message">ఆడదాం!</string>
     <string name="games_my_games_navigation_bar_title">నా గేమ్‌లు</string>
     <string name="games_nearby_players_confirm_dialog_message">మీరు సమీపంలోని ఆటగాళ్ల కోసం శోధించినప్పుడు, ఆటగాళ్లను కనుగొనడానికి Google Play గేమ్‌లు తాత్కాలికంగా ఆన్ అవుతుంది మరియు మీ స్థానం, మైక్రోఫోన్, స్పీకర్, Wi-Fi మరియు బ్లూటూత్ వంటి సాంకేతికతలను ఉపయోగిస్తుంది. <u>మరింత తెలుసుకోండి</u>".
@@ -588,6 +596,7 @@
     <string name="games_request_inbox_header_wishes">అభ్యర్థనలు</string>
     <string name="games_request_inbox_null_state_text">ఒక బహుమతిని పంపండి — మీరు బదులుగా తిరిగి మరొకటి పొందవచ్చు.</string>
     <string name="games_search_players_header">ఆటగాళ్లు</string>
+    <string name="games_search_players_hint">ఆటగాళ్లను శోధించండి</string>
     <string name="games_search_players_no_results">సరిపోలే ఆటగాళ్లు ఎవరూ లేరు</string>
     <string name="games_select_opponents_title">కొత్త మ్యాచ్</string>
     <string name="games_select_players_add_auto_pick_item_label">స్వీయ-ఎంపికను జోడించండి</string>

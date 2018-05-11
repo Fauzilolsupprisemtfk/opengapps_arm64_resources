@@ -3,9 +3,7 @@
     <string name="abc_action_bar_up_description">Navegar hacia arriba</string>
     <string name="abc_searchview_description_clear">Eliminar la consulta</string>
     <string name="abc_searchview_description_search">Búsqueda</string>
-    <string name="arcade__error_body">Se produjo un error al cargar la sala de juegos.</string>
     <string name="arcade__error_headline">Ocurrió un problema.</string>
-    <string name="arcade__error_send_feedback_button">Enviar comentarios</string>
     <string name="arcade__offline_body">Los juegos de arcade no están conectados. Comprueba tu conexión a Internet.</string>
     <string name="common_google_play_services_enable_text">%1$s no funcionará a menos que habilites los servicios de Google Play.</string>
     <string name="common_google_play_services_enable_title">Habilitar servicios de Google Play</string>
@@ -34,10 +32,10 @@ Esta acción no se puede deshacer."</string>
 
 Esta acción no se puede deshacer."</string>
     <string name="datadeletion__delete_game_data_confirm_dialog_title">¿Quieres borrar los datos de \"%1$s\"?</string>
-    <string name="datadeletion__delete_game_data_error">Se produjo un error al borrar tus datos de\"%1$s\". Vuelve a intentarlo más tarde.</string>
-    <string name="datadeletion__delete_game_data_explanation">Borra datos individuales de los juegos que jugaste con Google Play Juegos. Se borrarán las puntuaciones, el progreso y la configuración del juego que hayas seleccionado.</string>
-    <string name="datadeletion__delete_game_data_header">Cómo borrar datos individuales de los juegos</string>
-    <string name="datadeletion__delete_game_data_success">Tus datos de \"%1$s\" se borrarán en un plazo de 24 horas.</string>
+    <string name="datadeletion__delete_game_data_error">No se pudieron eliminar los datos de\"%1$s\". Vuelve a intentarlo más tarde.</string>
+    <string name="datadeletion__delete_game_data_explanation">Borra datos individuales en Google Play Juegos. Se borrarán las puntuaciones, el progreso y la configuración de los juegos que hayas seleccionado.</string>
+    <string name="datadeletion__delete_game_data_header">Borrar datos individuales</string>
+    <string name="datadeletion__delete_game_data_success">En un plazo de 24 horas, se borrarán los datos de \"%1$s\".</string>
     <string name="datadeletion__delete_profile_button">Borrar perfil</string>
     <string name="datadeletion__delete_profile_explanation">Borra todos tus datos de Google Play Juegos, incluidos tu ID de jugador y los XP. Es posible que también se borren las puntuaciones, el progreso y la configuración de los juegos que jugaste.</string>
     <string name="datadeletion__delete_profile_header">Borrar el perfil y todos los datos</string>
@@ -45,6 +43,7 @@ Esta acción no se puede deshacer."</string>
     <string name="datadeletion__game_list_load_error">No se pudo cargar la lista de juegos que jugaste con Google Play Juegos. Vuelve a intentarlo más tarde.</string>
     <string name="datadeletion__game_list_load_indicator_content_description">Se está cargando la lista de juegos que jugaste con Google Play Juegos.</string>
     <string name="datadeletion__page_content_description">Se muestra la página \"Borrar datos de Play Juegos\".</string>
+    <string name="game_info_snake_name">Snake</string>
     <string name="gamedetails__apl_achievement_content_description">Logro: %1$s. Descripción: %2$s. Estado: %3$s. %4$s. %5$s.</string>
     <string name="gamedetails__apl_achievement_hidden_description">Sigue jugando para obtener más información.</string>
     <string name="gamedetails__apl_leaderboards">Tablas de clasificación</string>
@@ -58,6 +57,8 @@ Esta acción no se puede deshacer."</string>
     <string name="games__arcade__editors_choice__preview_image_content_description_4">Ir al cuarto juego</string>
     <string name="games__arcade__editors_choice__preview_image_content_description_5">Ir al quinto juego</string>
     <string name="games__arcade_fragment_content_description">Se muestra la página \"Sala de juegos\".</string>
+    <string name="games__live_op_headline">Eventos en pleno desarrollo</string>
+    <string name="games__page_default_error_body">El problema se produjo de nuestro lado.</string>
     <string name="games__playbutton__play_content_description">Jugar %1$s</string>
     <string name="games__youtube__video_playback_error_toast">No se pudo reproducir el video de YouTube.</string>
     <string name="games__youtube__video_thumbnail_content_description">Reproducir el video \"%1$s\"</string>
@@ -86,6 +87,8 @@ Esta acción no se puede deshacer."</string>
     <string name="games_dest_game_detail_about_tab">ACERCA DE</string>
     <string name="games_dest_game_detail_comparison_header">Cabeza a cabeza</string>
     <string name="games_dest_game_detail_leaderboards_tab">TABLAS DE CLASIFICACIÓN</string>
+    <string name="games_dest_google_signed_error_dialog_message">Se produjo un error durante la inicialización.</string>
+    <string name="games_dest_google_signed_error_dialog_title">Se produjo un error.</string>
     <string name="games_dest_main_private_level_message">Tu Perfil de jugador está oculto</string>
     <string name="games_dest_onboard_tutorial_2_text">Descubre a qué juegan los demás y obtén recomendaciones de los mejores juegos nuevos.</string>
     <string name="games_dest_onboard_tutorial_2_title">Descubre juegos nuevos</string>
@@ -263,6 +266,10 @@ Cuéntales a otros usuarios acerca de este juego y compara tus puntuaciones con 
     <string name="games_mvp_settings_public_gamer_profile">Perfil de gamer público</string>
     <string name="games_mvp_settings_title">Configuración</string>
     <string name="games_mvp_show_undo_snackbar_text">Ahora %1$s se muestra en \"Mis juegos\"</string>
+    <string name="games_mvp_snippet_icon_content_liveops_description">Ahora: %1$s</string>
+    <string name="games_mvp_snippet_icon_content_news_description">Fragmento de noticia: %1$s</string>
+    <string name="games_mvp_snippet_icon_content_video_description">Fragmento de video: %1$s</string>
+    <string name="games_mvp_visit_arcade_button_text">Visita la sala de juegos</string>
     <string name="games_mvp_you_have_no_games_message">¡Juguemos!</string>
     <string name="games_nearby_players_confirm_dialog_message">Cada vez que busques jugadores cercanos, Google Play Juegos activará y utilizará temporalmente las siguientes tecnologías para encontrarlos: la ubicación, el micrófono, el altavoz, Wi-Fi y Bluetooth. <u>Más información</u>"
 
@@ -489,5 +496,4 @@ Los videos se guardan en tu galería de fotos en la ubicación de carpetas del d
     <string name="pf__tagbrowse__reset_content_description">Borrar todas las selecciones de etiquetas</string>
     <string name="play_accessibility_search_plate_navigate_up_button">Navegar hacia arriba</string>
     <string name="play_drawer_open">Mostrar panel lateral de navegación</string>
-    <string name="selected_account">Accediste a %1$s.</string>
 </resources>

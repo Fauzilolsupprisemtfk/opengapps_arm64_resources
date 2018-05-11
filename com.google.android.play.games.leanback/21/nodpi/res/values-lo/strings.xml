@@ -11,7 +11,6 @@
     <string name="abc_searchview_description_submit">ສົ່ງການຊອກຫາ</string>
     <string name="abc_searchview_description_voice">ຊອກຫາດ້ວຍສຽງ</string>
     <string name="abc_toolbar_collapse_description">ຫຍໍ້</string>
-    <string name="arcade__error_body">ປາກົດວ່າມີບາງຢ່າງຜິດພາດ ໃນຂະນະທີ່ເປີດເກມອາເຂດ.</string>
     <string name="arcade__error_headline">ອຸ໋ຍ, ມີບັນຫາເກີດຂຶ້ນ.</string>
     <string name="arcade__error_retry_button">ລອງໃໝ່</string>
     <string name="arcade__error_send_feedback_button">ສົ່ງຄຳຕິຊົມ</string>
@@ -70,6 +69,7 @@
     <string name="datadeletion__page_content_description">ກຳລັງສະແດງໜ້າ \"ລຶບຂໍ້ມູນ Play Games\".</string>
     <string name="game_info_cricket_name">ຄຣິກເກັດ</string>
     <string name="game_info_pacman_name">Pac-Man</string>
+    <string name="game_info_snake_name">ເກມງູ</string>
     <string name="gamedetails__apl_achievement_content_description">ຜົນ​ສຳ​ເລັດ: %1$s. ລາຍ​ລະ​ອຽດ: %2$s. ສະ​ຖາ​ນະ: %3$s. %4$s. %5$s</string>
     <string name="gamedetails__apl_achievement_hidden_description">ສືບ​ຕໍ່​ຫຼິ້ນ ເພື່ອ​ຮຽນ​ຮູ້​ເພີ່ມ​ເຕີມ.</string>
     <string name="gamedetails__apl_achievement_hidden_name">ຄວາມ​ລັບ</string>
@@ -93,6 +93,8 @@
     <string name="games__arcade_fragment_content_description">ກຳລັງສະແດງໜ້າ \"ອາເຂດ\".</string>
     <string name="games__installbutton__install">ຕິດຕັ້ງ</string>
     <string name="games__installbutton__install_content_description">ຕິດຕັ້ງ %1$s</string>
+    <string name="games__live_op_headline">ກຳລັງເກີດຂຶ້ນຕອນນີ້</string>
+    <string name="games__page_default_error_body">ມັນບໍ່ແມ່ນຄວາມຜິດຂອງທ່ານ, ມັນແມ່ນພວກເຮົາ.</string>
     <string name="games__playbutton__play">ຫຼິ້ນ</string>
     <string name="games__playbutton__play_content_description">ຫຼິ້ນ %1$s</string>
     <string name="games__youtube__video_playback_error_toast">ບໍ່ສາມາດຫຼິ້ນວິດີໂອ YouTube ໄດ້.</string>
@@ -140,6 +142,8 @@
     <string name="games_dest_game_detail_leaderboards_tab">ກະດານຈັດອັນດັບ</string>
     <string name="games_dest_game_detail_menu_mute">ປິດສຽງ</string>
     <string name="games_dest_game_detail_menu_unmute">ເຊົາປິດສຽງ</string>
+    <string name="games_dest_google_signed_error_dialog_message">ອຸ໋ຍ, ປາກົດວ່າການລິເລີ່ມຜິດພາດ.</string>
+    <string name="games_dest_google_signed_error_dialog_title">ເກີດບາງຢ່າງຜິດພາດຂຶ້ນ.</string>
     <string name="games_dest_main_private_level_message">ໂປຣໄຟລ໌ຜູ້ຫຼິ້ນເກມຂອງທ່ານຖືກເຊື່ອງໄວ້</string>
     <string name="games_dest_onboard_tutorial_1_text">ເຄືອ​ຂ່າຍ​ເກມ​ສຳ​ລັບ Google Play</string>
     <string name="games_dest_onboard_tutorial_1_title">ຍິ້ນ​ດີ​ຕ້ອນ​ຮັບ​ສູ່​ຫຼິ້ນ​ເກມ!</string>
@@ -382,6 +386,10 @@
     <string name="games_mvp_share_game_card_text">ແບ່ງປັນກັບໝູ່ເພື່ອນຂອງທ່ານ</string>
     <string name="games_mvp_show_undo_snackbar_text">ດຽວນີ້ %1$s ປາກົດຢູ່ໃນ \"ເກມຂອງຂ້ອຍ\"</string>
     <string name="games_mvp_snackbar_undo_button_text">ຍົກເລີກ</string>
+    <string name="games_mvp_snippet_icon_content_liveops_description">ຕອນນີ້, %1$s</string>
+    <string name="games_mvp_snippet_icon_content_news_description">ຕົວຢ່າງຂ່າວ, %1$s</string>
+    <string name="games_mvp_snippet_icon_content_video_description">ຕົວຢ່າງວິດີໂອ, %1$s</string>
+    <string name="games_mvp_visit_arcade_button_text">ເຂົ້າຫາ Arcade</string>
     <string name="games_mvp_you_have_no_games_message">ຫຼິ້ນກັນເທາະ!</string>
     <string name="games_my_games_navigation_bar_title">ເກມຂອງຂ້ອຍ</string>
     <string name="games_nearby_players_confirm_dialog_message">ເມື່ອ​ໃດ​ກໍ່​ຕາມ​ທີ່​ທ່ານ​ຊອກ​ຫາ​ຜູ້​ຫຼິ້ນ​ຢູ່​ໃກ້, ເກມ Google Play ຈະ​ເປີດ​ຊົ່ວ​ຄາວ ແລະ​ໃຊ້​ເຕັກ​ໂນ​ໂລ​ຊີ​ຕໍ່​ໄປ​ນີ້ ເພື່ອ​ຊອກ​ຫາ​ຜູ້​ຫຼິ້ນ: ທີ່​ຕັ້ງ, ໄມ​ໂຄ​ຣ​ໂຟນ, ລຳ​ໂພງ, Wi-Fi ແລະ​ Bluetooth ຂອງ​ທ່ານ. <u>ຮຽນ​ຮູ້​ເພີ່ມ​ເຕີມ</u>".
@@ -584,6 +592,7 @@
     <string name="games_request_inbox_header_wishes">ການຮ້ອງຂໍ</string>
     <string name="games_request_inbox_null_state_text">ກຳ​ລັງ​ພະ​ຍາ​ຍາມ​ສົ່ງ​ຂອງ​ຂວັນ — ທ່ານ​ຫາ​ກໍ່​ໄດ້​ອັນ​ໜຶ່ງ​ໃນ​ທາງ​ກັບ​ຄືນ.</string>
     <string name="games_search_players_header">ຜູ້ຫຼິ້ນ</string>
+    <string name="games_search_players_hint">ຊອກ​ຫາ​ຜູ້​ຫຼິ້ນ</string>
     <string name="games_search_players_no_results">ບໍ່​ມີ​ຜູ້​ຫຼິ້ນ​ທີ່​ຖືກ​ຄູ່​ກັນ</string>
     <string name="games_select_opponents_title">ການ​ແຂ່ງ​ຂັນ​ນັດ​ຕໍ່​ໄປ</string>
     <string name="games_select_players_add_auto_pick_item_label">ເພີ່ມເລືອກອັດ​ຕະ​ໂນ​ມັດໃສ່</string>

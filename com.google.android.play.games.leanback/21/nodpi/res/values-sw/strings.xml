@@ -11,7 +11,6 @@
     <string name="abc_searchview_description_submit">Wasilisha hoja</string>
     <string name="abc_searchview_description_voice">Tafuta kwa kutamka</string>
     <string name="abc_toolbar_collapse_description">Kunja</string>
-    <string name="arcade__error_body">Huenda hitilafu fulani imetokea wakati wa kuwasha Ukumbi wa Michezo.</string>
     <string name="arcade__error_headline">Samahani, hitilafu imetokea.</string>
     <string name="arcade__error_retry_button">Jaribu tena</string>
     <string name="arcade__error_send_feedback_button">Tuma maoni</string>
@@ -70,6 +69,7 @@ Kitendo hiki hakiwezi kutenduliwa!"</string>
     <string name="datadeletion__game_list_retry_button">Jaribu tena</string>
     <string name="datadeletion__page_content_description">Inaonyesha ukurasa wa \"Futa Data ya Michezo ya Google Play\".</string>
     <string name="game_info_cricket_name">Kriketi</string>
+    <string name="game_info_snake_name">Nyoka</string>
     <string name="gamedetails__apl_achievement_content_description">Mafanikio: %1$s. Maelezo: %2$s. Hali: %3$s. %4$s. %5$s</string>
     <string name="gamedetails__apl_achievement_hidden_description">Endelea kucheza ili upate maelezo zaidi.</string>
     <string name="gamedetails__apl_achievement_hidden_name">Yamefichwa</string>
@@ -94,6 +94,8 @@ Kitendo hiki hakiwezi kutenduliwa!"</string>
     <string name="games__arcade_fragment_content_description">Inaonyesha \"Ukurasa wa Ukumbi wa Michezo\".</string>
     <string name="games__installbutton__install">Sakinisha</string>
     <string name="games__installbutton__install_content_description">Sakinisha %1$s</string>
+    <string name="games__live_op_headline">Inayoendelea Sasa Hivi</string>
+    <string name="games__page_default_error_body">Hitilafu imetokea upande wetu.</string>
     <string name="games__playbutton__play">Cheza</string>
     <string name="games__playbutton__play_content_description">Cheza %1$s</string>
     <string name="games__youtube__video_playback_error_toast">Imeshindwa kucheza video ya YouTube.</string>
@@ -144,6 +146,8 @@ KWA KIFAA CHAKO"</string>
     <string name="games_dest_game_detail_leaderboards_tab">BAO ZA WANAOONGOZA</string>
     <string name="games_dest_game_detail_menu_mute">Zima mchezo</string>
     <string name="games_dest_game_detail_menu_unmute">Rejesha mchezo</string>
+    <string name="games_dest_google_signed_error_dialog_message">Samahani, inaonekana kuwa hitilafu fulani imetokea.</string>
+    <string name="games_dest_google_signed_error_dialog_title">Hitilafu fulani imetokea.</string>
     <string name="games_dest_main_private_level_message">Imeficha Wasifu wako wa Mchezaji</string>
     <string name="games_dest_onboard_tutorial_1_text">Mtandao wa michezo ya Google Play</string>
     <string name="games_dest_onboard_tutorial_1_title">Karibu kwenye Michezo ya Google Play!</string>
@@ -391,6 +395,10 @@ Waambie wengine kuhusu mchezo huu na ulinganishe alama wanapocheza."</string>
     <string name="games_mvp_share_game_card_text">Shiriki na marafiki zako</string>
     <string name="games_mvp_show_undo_snackbar_text">Sasa %1$s inaonekana katika \"Michezo Yangu\"</string>
     <string name="games_mvp_snackbar_undo_button_text">Tendua</string>
+    <string name="games_mvp_snippet_icon_content_liveops_description">Sasa, %1$s</string>
+    <string name="games_mvp_snippet_icon_content_news_description">Muhtasari wa Habari, %1$s</string>
+    <string name="games_mvp_snippet_icon_content_video_description">Kijisehemu cha Video, %1$s</string>
+    <string name="games_mvp_visit_arcade_button_text">Tembelea Arcade</string>
     <string name="games_mvp_you_have_no_games_message">Huna mchezo!</string>
     <string name="games_my_games_navigation_bar_title">Michezo Yangu</string>
     <string name="games_nearby_players_confirm_dialog_message">Kila unapotafuta wachezaji walio karibu nawe, Michezo ya Google Play itawasha kwa muda na itumie teknolojia zifuatazo ili kutafuta wachezaji: Mahali ulipo, maikrofoni, spika, Wi-Fi na Bluetooth. <u>Pata maelezo zaidi</u>".
@@ -593,6 +601,7 @@ Unaweza kubadilisha mipangilio na wasifu wako au ufute data iliyohifadhiwa na Go
     <string name="games_request_inbox_header_wishes">Maombi</string>
     <string name="games_request_inbox_null_state_text">Jaribu kutuma zawadi - unaweza kupokea moja pia.</string>
     <string name="games_search_players_header">Wachezaji</string>
+    <string name="games_search_players_hint">Tafuta wachezaji</string>
     <string name="games_search_players_no_results">Hakuna wachezaji wanaolingana</string>
     <string name="games_select_opponents_title">Mchezo mpya</string>
     <string name="games_select_players_add_auto_pick_item_label">Chagua kiotomatiki</string>
@@ -756,7 +765,6 @@ Video huhifadhiwa katika matunzio yako ya picha katika folda za Kifaa > Vionyesh
     <string name="games_wide_tile_match_players_image_content_description">Angalia orodha ya wachezaji</string>
     <string name="games_wide_tile_request_accept">Kubali</string>
     <string name="games_wide_tile_request_dismiss">Ondoa</string>
-    <string name="hide_account_list">Ficha akaunti</string>
     <string name="lb_navigation_menu_contentDescription">Menyu ya kusogeza</string>
     <string name="lb_search_bar_hint">Tafuta</string>
     <string name="lb_search_bar_hint_speech">Tamka ili utafute</string>
@@ -781,8 +789,6 @@ Video huhifadhiwa katika matunzio yako ya picha katika folda za Kifaa > Vionyesh
     <string name="play_accessibility_search_plate_voice_search_button">Kutafuta kwa Kutamka</string>
     <string name="play_drawer_open">Onyesha menyu ya usogezaji</string>
     <string name="preferences_license_title">Leseni za programu huria</string>
-    <string name="selected_account">Umeingia katika akaunti %1$s</string>
-    <string name="show_account_list">Onyesha akaunti</string>
     <string name="suw_back_button_label">Rudi nyuma</string>
     <string name="suw_more_button_label">Zaidi</string>
     <string name="suw_next_button_label">Endelea</string>

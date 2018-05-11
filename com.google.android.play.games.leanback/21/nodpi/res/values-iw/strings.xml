@@ -11,7 +11,6 @@
     <string name="abc_searchview_description_submit">שלח שאילתה</string>
     <string name="abc_searchview_description_voice">חיפוש קולי</string>
     <string name="abc_toolbar_collapse_description">כווץ</string>
-    <string name="arcade__error_body">נראה שמשהו השתבש בהפעלת הארקייד.</string>
     <string name="arcade__error_headline">אוי, יש בעיה.</string>
     <string name="arcade__error_retry_button">לניסיון חוזר</string>
     <string name="arcade__error_send_feedback_button">שליחת משוב</string>
@@ -71,6 +70,7 @@
     <string name="datadeletion__page_content_description">מציג את הדף “מחיקת נתונים של Play משחקים“.</string>
     <string name="game_info_cricket_name">קריקט</string>
     <string name="game_info_pacman_name">פקמן</string>
+    <string name="game_info_snake_name">נחש</string>
     <string name="game_info_solitaire_name">סוליטר</string>
     <string name="gamedetails__apl_achievement_content_description">הישג: %1$s. תיאור: %2$s. סטטוס: %3$s‏. %4$s‏. %5$s</string>
     <string name="gamedetails__apl_achievement_hidden_description">יש להמשיך לשחק כדי לקבל מידע נוסף.</string>
@@ -95,6 +95,8 @@
     <string name="games__arcade_fragment_content_description">הצגת הדף “ארקייד“.</string>
     <string name="games__installbutton__install">התקנה</string>
     <string name="games__installbutton__install_content_description">התקנה של %1$s</string>
+    <string name="games__live_op_headline">מתרחש עכשיו</string>
+    <string name="games__page_default_error_body">זה לא קשור אליך, התקלה הייתה אצלנו.</string>
     <string name="games__playbutton__play">הפעלה</string>
     <string name="games__playbutton__play_content_description">להפעלת %1$s</string>
     <string name="games__youtube__video_playback_error_toast">לא ניתן היה להפעיל סרטון של YouTube.</string>
@@ -142,6 +144,8 @@
     <string name="games_dest_game_detail_leaderboards_tab">Leaderboards</string>
     <string name="games_dest_game_detail_menu_mute">השתק</string>
     <string name="games_dest_game_detail_menu_unmute">בטל השתקה</string>
+    <string name="games_dest_google_signed_error_dialog_message">אוי, נראה שהאתחול השתבש.</string>
+    <string name="games_dest_google_signed_error_dialog_title">משהו השתבש.</string>
     <string name="games_dest_main_private_level_message">פרופיל הגיימר שלך מוסתר</string>
     <string name="games_dest_onboard_tutorial_1_text">רשת משחקים עבור Google Play</string>
     <string name="games_dest_onboard_tutorial_1_title">ברוך הבא אל Play משחקים!</string>
@@ -291,7 +295,7 @@
     <string name="games_menu_mute_app">השתק את האפליקציה</string>
     <string name="games_menu_nearby">בקרבת מקום</string>
     <string name="games_menu_participant_list">רשימת שחקנים</string>
-    <string name="games_menu_report_abuse">דווח על פגיעה</string>
+    <string name="games_menu_report_abuse">דיווח על פגיעה</string>
     <string name="games_menu_search">חפש</string>
     <string name="games_menu_share">שתף</string>
     <string name="games_menu_view_in_store_short">חנות</string>
@@ -385,6 +389,10 @@
     <string name="games_mvp_share_game_card_text">שיתוף עם חברים</string>
     <string name="games_mvp_show_undo_snackbar_text">%1$s מוצג כעת ברשימת \"המשחקים שלי\"</string>
     <string name="games_mvp_snackbar_undo_button_text">ביטול</string>
+    <string name="games_mvp_snippet_icon_content_liveops_description">עכשיו, %1$s</string>
+    <string name="games_mvp_snippet_icon_content_news_description">קטע חדשות, %1$s</string>
+    <string name="games_mvp_snippet_icon_content_video_description">קטע וידאו, %1$s</string>
+    <string name="games_mvp_visit_arcade_button_text">כניסה לארקייד</string>
     <string name="games_mvp_you_have_no_games_message">בואו לשחק!</string>
     <string name="games_my_games_navigation_bar_title">המשחקים שלי</string>
     <string name="games_nearby_players_confirm_dialog_message">בכל פעם שאתה מחפש שחקנים בקרבת מקום, Google Play Games יופעל באופן זמני וישתמש בטכנולוגיות הבאות לאיתור שחקנים: המיקום שלך, מיקרופון, רמקול, Wi-Fi ו-Bluetooth. <u>למידע נוסף</u>".
@@ -552,7 +560,7 @@
     <string name="games_profile_edit_title">עריכת הפרופיל שלך</string>
     <string name="games_profile_edit_visibility">שחקנים אחרים יכולים לראות את פעילות המשחקים שלי</string>
     <string name="games_profile_info_message_1">כניסה אוטומטית למשחקים</string>
-    <string name="games_profile_info_message_2">הצג לראווה את התוצאות הגבוהות שלך בטבלאות הישגים</string>
+    <string name="games_profile_info_message_2">אפשר להציג לראווה את התוצאות הגבוהות שלך בטבלאות הישגים</string>
     <string name="games_profile_info_message_3">איסוף XP ומעקב אחר ההישגים שלך</string>
     <string name="games_profile_saving_profile_dialog_title">שמירת הפרופיל</string>
     <string name="games_profile_status_message_hidden">פרופיל הגיימר שלך מוסתר כעת</string>
@@ -589,6 +597,7 @@
     <string name="games_request_inbox_header_wishes">בקשות</string>
     <string name="games_request_inbox_null_state_text">נסה לשלוח מתנה - אולי תקבל מתנה בחזרה.</string>
     <string name="games_search_players_header">שחקנים</string>
+    <string name="games_search_players_hint">חפש שחקנים</string>
     <string name="games_search_players_no_results">אין שחקנים תואמים</string>
     <string name="games_select_opponents_title">משחק חדש</string>
     <string name="games_select_players_add_auto_pick_item_label">הוסף בחירה אוטומטית</string>
@@ -753,7 +762,6 @@
     <string name="games_wide_tile_match_players_image_content_description">הצג רשימת שחקנים</string>
     <string name="games_wide_tile_request_accept">קבל</string>
     <string name="games_wide_tile_request_dismiss">דחה</string>
-    <string name="hide_account_list">הסתר חשבונות</string>
     <string name="lb_navigation_menu_contentDescription">תפריט ניווט</string>
     <string name="lb_search_bar_hint">חיפוש</string>
     <string name="lb_search_bar_hint_speech">יש לדבר בקול כדי לחפש</string>
@@ -778,8 +786,6 @@
     <string name="play_accessibility_search_plate_voice_search_button">חיפוש קולי</string>
     <string name="play_drawer_open">הצג את חלונית הניווט</string>
     <string name="preferences_license_title">רישיונות קוד פתוח</string>
-    <string name="selected_account">נכנס אל %1$s</string>
-    <string name="show_account_list">הצג חשבונות</string>
     <string name="suw_back_button_label">חזרה</string>
     <string name="suw_more_button_label">עוד</string>
     <string name="suw_next_button_label">הבא</string>

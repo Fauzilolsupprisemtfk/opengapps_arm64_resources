@@ -11,7 +11,6 @@
     <string name="abc_searchview_description_submit">提交查询</string>
     <string name="abc_searchview_description_voice">语音搜索</string>
     <string name="abc_toolbar_collapse_description">收起</string>
-    <string name="arcade__error_body">启动街机游戏时好像出了点问题。</string>
     <string name="arcade__error_headline">糟糕！出问题了。</string>
     <string name="arcade__error_retry_button">重试</string>
     <string name="arcade__error_send_feedback_button">发送反馈</string>
@@ -40,14 +39,14 @@
     <string name="common_open_on_phone">在手机上打开</string>
     <string name="common_retry">重试</string>
     <string name="customer_information_title">客户信息</string>
-    <string name="datadeletion__archived_game_item_title">已归档的游戏数据</string>
+    <string name="datadeletion__archived_game_item_title">已归档游戏的数据</string>
     <string name="datadeletion__delete_archived_game_button_content_description">删除已归档的游戏数据。</string>
-    <string name="datadeletion__delete_archived_game_data_confirm_dialog_message">"删除已归档的游戏数据后，您使用 Google Play 游戏期间所产生的得分、进度和游戏设置都会遭到移除。
+    <string name="datadeletion__delete_archived_game_data_confirm_dialog_message">"删除已归档游戏的数据后，您使用 Google Play 游戏期间所产生的得分、进度和游戏设置都会遭到移除。
 
 此操作无法撤消！"</string>
-    <string name="datadeletion__delete_archived_game_data_confirm_dialog_title">要删除已归档的游戏数据吗？</string>
-    <string name="datadeletion__delete_archived_game_data_error">删除已归档的游戏数据时出错，请稍后重试。</string>
-    <string name="datadeletion__delete_archived_game_data_success">系统将在 24 小时内删除已归档的游戏数据。</string>
+    <string name="datadeletion__delete_archived_game_data_confirm_dialog_title">要删除已归档游戏的数据吗？</string>
+    <string name="datadeletion__delete_archived_game_data_error">删除已归档游戏的数据时出错，请稍后重试。</string>
+    <string name="datadeletion__delete_archived_game_data_success">系统将在 24 小时内删除已归档游戏的数据。</string>
     <string name="datadeletion__delete_data_title">删除 Play 游戏数据</string>
     <string name="datadeletion__delete_game_data_button">删除</string>
     <string name="datadeletion__delete_game_data_button_content_description">删除“%1$s”的数据</string>
@@ -58,9 +57,9 @@
 此操作无法撤消！"</string>
     <string name="datadeletion__delete_game_data_confirm_dialog_title">要删除“%1$s”的数据吗？</string>
     <string name="datadeletion__delete_game_data_error">删除您的“%1$s”数据时出错，请稍后重试。</string>
-    <string name="datadeletion__delete_game_data_explanation">使用 Google Play 游戏单个删除您玩过的游戏数据。这项操作会删除您在所选游戏中的得分、进度和游戏设置。</string>
-    <string name="datadeletion__delete_game_data_header">删除单条游戏数据</string>
-    <string name="datadeletion__delete_game_data_success">您的“%1$s”数据将在 24 小时内遭到删除。</string>
+    <string name="datadeletion__delete_game_data_explanation">使用 Google Play 游戏删除您玩过的个别游戏数据。这项操作会删除您在所选游戏中的得分、进度和游戏设置。</string>
+    <string name="datadeletion__delete_game_data_header">单独删除游戏数据</string>
+    <string name="datadeletion__delete_game_data_success">您的“%1$s”数据将在 24 小时内删除。</string>
     <string name="datadeletion__delete_profile_button">删除个人资料</string>
     <string name="datadeletion__delete_profile_explanation">删除您在 Google Play 游戏中的所有数据，包括您的玩家 ID 和 XP。您在所玩游戏中的得分、进度和设置也可能因此遭到删除。</string>
     <string name="datadeletion__delete_profile_header">删除个人资料和所有数据</string>
@@ -71,6 +70,7 @@
     <string name="datadeletion__page_content_description">目前显示的是“删除 Play 游戏数据”页面。</string>
     <string name="game_info_cricket_name">板球</string>
     <string name="game_info_pacman_name">吃豆人</string>
+    <string name="game_info_snake_name">贪吃蛇</string>
     <string name="game_info_solitaire_name">纸牌接龙</string>
     <string name="gamedetails__apl_achievement_content_description">成就：%1$s；说明：%2$s；状态：%3$s；%4$s；%5$s</string>
     <string name="gamedetails__apl_achievement_hidden_description">继续玩下去就能揭开这项成就的秘密！</string>
@@ -95,6 +95,8 @@
     <string name="games__arcade_fragment_content_description">目前显示“街机游戏”页面。</string>
     <string name="games__installbutton__install">安装</string>
     <string name="games__installbutton__install_content_description">安装“%1$s”</string>
+    <string name="games__live_op_headline">活动进行中</string>
+    <string name="games__page_default_error_body">是服务器出了问题，并不是您这边的问题。</string>
     <string name="games__playbutton__play">开始游戏</string>
     <string name="games__playbutton__play_content_description">开始玩“%1$s”</string>
     <string name="games__youtube__video_playback_error_toast">无法播放 YouTube 视频。</string>
@@ -142,6 +144,8 @@
     <string name="games_dest_game_detail_leaderboards_tab">排行榜</string>
     <string name="games_dest_game_detail_menu_mute">忽略</string>
     <string name="games_dest_game_detail_menu_unmute">取消忽略</string>
+    <string name="games_dest_google_signed_error_dialog_message">糟糕！初始化时好像出了点问题。</string>
+    <string name="games_dest_google_signed_error_dialog_title">出了点问题。</string>
     <string name="games_dest_main_private_level_message">您的玩家资料处于隐藏状态</string>
     <string name="games_dest_onboard_tutorial_1_text">这是 Google Play 用户专享的游戏平台</string>
     <string name="games_dest_onboard_tutorial_1_title">欢迎使用 Play 游戏！</string>
@@ -389,6 +393,10 @@
     <string name="games_mvp_share_game_card_text">与朋友分享</string>
     <string name="games_mvp_show_undo_snackbar_text">“%1$s”现在会显示在“我的游戏”中</string>
     <string name="games_mvp_snackbar_undo_button_text">撤消</string>
+    <string name="games_mvp_snippet_icon_content_liveops_description">进行中，%1$s</string>
+    <string name="games_mvp_snippet_icon_content_news_description">新闻摘要，%1$s</string>
+    <string name="games_mvp_snippet_icon_content_video_description">视频摘要，%1$s</string>
+    <string name="games_mvp_visit_arcade_button_text">前往街机游戏专区</string>
     <string name="games_mvp_you_have_no_games_message">来玩游戏吧！</string>
     <string name="games_my_games_navigation_bar_title">我的游戏</string>
     <string name="games_nearby_players_confirm_dialog_message">当您搜索附近的玩家时，Google Play游戏会暂时开启并使用以下技术手段来查找玩家：您的位置信息、麦克风、扬声器、WLAN网络和蓝牙。<u>了解详情</u>"。
@@ -473,7 +481,7 @@
     <string name="games_pano_profile_accept">接受</string>
     <string name="games_pano_profile_allow">允许</string>
     <string name="games_pano_profile_cancel">取消</string>
-    <string name="games_pano_profile_create_fine_print">"您可以使用您的玩家 ID 畅玩支持 Play 游戏登录功能的游戏。当您开始玩游戏后，开发者会获取您的个人资料信息、游戏活动以及游戏内购买交易信息。开发者将根据其隐私权政策使用这些数据来提供及改进游戏。
+    <string name="games_pano_profile_create_fine_print">"您可以使用自己的玩家 ID 畅玩支持 Play 游戏登录功能的游戏。开始游戏后，开发者会获取您的个人资料信息、游戏活动以及游戏内购买交易信息。开发者将根据其隐私权政策使用这些数据来提供及改进游戏。
 
 您可以修改自己的个人资料和设置，或删除 Google 根据《Google 隐私权政策》为您存储的数据。如果您同意上述内容，请选择“接受”。"</string>
     <string name="games_pano_profile_create_gamer_tag_header">创建您的玩家 ID</string>
@@ -528,7 +536,7 @@
     <string name="games_profile_button_hide_profile">隐藏</string>
     <string name="games_profile_button_remain_hidden">保持隐藏状态</string>
     <string name="games_profile_button_remain_public">保持公开状态</string>
-    <string name="games_profile_create_fine_print">您可以使用您的玩家 ID 畅玩支持 Play 游戏登录功能的游戏。当您开始玩游戏后，开发者会获取您的个人资料信息、游戏活动以及游戏内购买交易信息。开发者将根据其隐私权政策使用这些数据来提供及改进游戏。<a href="https://support.google.com/googleplay/?p=games_signin">了解详情</a>"。
+    <string name="games_profile_create_fine_print">您可以使用自己的玩家 ID 畅玩支持 Play 游戏登录功能的游戏。开始游戏后，开发者会获取您的个人资料信息、游戏活动以及游戏内购买交易信息。开发者将根据其隐私权政策使用这些数据来提供及改进游戏。<a href="https://support.google.com/googleplay/?p=games_signin">了解详情</a>"。
 
 您可以修改自己的个人资料和设置，或删除 Google 根据 "<a href="https://www.google.com/policies/privacy/">Google 隐私权政策</a>为您存储的数据。如果您同意上述内容，请点按“创建”。</string>
     <string name="games_profile_edit_action_create">创建</string>
@@ -541,7 +549,7 @@
     <string name="games_profile_edit_error_gamer_tag_taken_with_suggestion">该玩家 ID 已有玩家使用，改用“%1$s”怎么样？</string>
     <string name="games_profile_edit_error_message_prefix">错误：</string>
     <string name="games_profile_edit_error_unknown">出了点问题，请稍后重试。</string>
-    <string name="games_profile_edit_fine_print">您可以使用您的玩家 ID 畅玩支持 Play 游戏登录功能的游戏。当您开始玩游戏后，开发者会获取您的个人资料信息、游戏活动以及游戏内购买交易信息。开发者将根据其隐私权政策使用这些数据来提供及改进游戏。<a href="https://support.google.com/googleplay/?p=games_signin">了解详情</a>"。
+    <string name="games_profile_edit_fine_print">您可以使用自己的玩家 ID 畅玩支持 Play 游戏登录功能的游戏。开始游戏后，开发者会获取您的个人资料信息、游戏活动以及游戏内购买交易信息。开发者将根据其隐私权政策使用这些数据来提供及改进游戏。<a href="https://support.google.com/googleplay/?p=games_signin">了解详情</a>"。
 
 您可以修改自己的个人资料和设置，或删除 Google 根据 "<a href="https://www.google.com/policies/privacy/">Google 隐私权政策</a>为您存储的数据。如果您同意上述内容，请点按“保存”。</string>
     <string name="games_profile_edit_gamer_tag_header">玩家 ID</string>
@@ -592,6 +600,7 @@
     <string name="games_request_inbox_header_wishes">请求</string>
     <string name="games_request_inbox_null_state_text">尝试给别人发个礼物吧，没准您会得到惊喜的礼物回送呢！</string>
     <string name="games_search_players_header">玩家</string>
+    <string name="games_search_players_hint">搜索玩家</string>
     <string name="games_search_players_no_results">找不到相符的玩家</string>
     <string name="games_select_opponents_title">新对局</string>
     <string name="games_select_players_add_auto_pick_item_label">添加自动选择的玩家</string>
@@ -770,7 +779,6 @@
     <string name="hats_lib_prompt_take_our_survey">显示问题</string>
     <string name="hats_lib_submit">提交</string>
     <string name="hats_lib_thank_you_followup_message">回答更多问题，帮助我们改进产品</string>
-    <string name="hide_account_list">隐藏帐号</string>
     <string name="lb_navigation_menu_contentDescription">导航菜单</string>
     <string name="lb_search_bar_hint">搜索</string>
     <string name="lb_search_bar_hint_speech">说话即可开始搜索</string>
@@ -796,8 +804,6 @@
     <string name="play_accessibility_search_plate_voice_search_button">语音搜索</string>
     <string name="play_drawer_open">显示抽屉式导航栏</string>
     <string name="preferences_license_title">开放源代码许可</string>
-    <string name="selected_account">已登录%1$s</string>
-    <string name="show_account_list">显示帐号</string>
     <string name="suw_back_button_label">返回</string>
     <string name="suw_more_button_label">更多</string>
     <string name="suw_next_button_label">下一步</string>

@@ -11,7 +11,6 @@
     <string name="abc_searchview_description_submit">Талап жөнөтүү</string>
     <string name="abc_searchview_description_voice">Үн аркылуу издөө</string>
     <string name="abc_toolbar_collapse_description">Жыйнап коюу</string>
-    <string name="arcade__error_body">Аркаданы күчтөндүрүп жатканда ката кетти окшойт.</string>
     <string name="arcade__error_headline">Ой, көйгөй келип чыкты.</string>
     <string name="arcade__error_retry_button">Кайталоо</string>
     <string name="arcade__error_send_feedback_button">Пикир билдирүү</string>
@@ -70,6 +69,7 @@
     <string name="datadeletion__game_list_retry_button">Кайталоо</string>
     <string name="datadeletion__page_content_description">\"Play Оюндардагы дайындарды жок кылуу\" баракчасы көрсөтүлүүдө.</string>
     <string name="game_info_cricket_name">Крикет</string>
+    <string name="game_info_snake_name">Жылан</string>
     <string name="game_info_solitaire_name">Пасьянс оюну</string>
     <string name="gamedetails__apl_achievement_content_description">Жетишкендик: %1$s. Сүрөттөмө: %2$s. Абалы: %3$s. %4$s. %5$s</string>
     <string name="gamedetails__apl_achievement_hidden_description">Көбүрөөк билүү үчүн ойной бериңиз.</string>
@@ -94,6 +94,8 @@
     <string name="games__arcade_fragment_content_description">\"Аркада\" барагы көрсөтүлүүдө.</string>
     <string name="games__installbutton__install">Орнотуу</string>
     <string name="games__installbutton__install_content_description">%1$s оюнун орнотуу</string>
+    <string name="games__live_op_headline">Азыр болуп жатат</string>
+    <string name="games__page_default_error_body">Сизден эмес, бизден кетти.</string>
     <string name="games__playbutton__play">Ойноо</string>
     <string name="games__playbutton__play_content_description">%1$s оюнун ойноо</string>
     <string name="games__youtube__video_playback_error_toast">YouTube видеосу ойнотулбай койду.</string>
@@ -141,6 +143,8 @@
     <string name="games_dest_game_detail_leaderboards_tab">ЛИДЕР ТАКТАЛАРЫ</string>
     <string name="games_dest_game_detail_menu_mute">Үнсүз</string>
     <string name="games_dest_game_detail_menu_unmute">Үнүн чыгаруу</string>
+    <string name="games_dest_google_signed_error_dialog_message">Ой, өздүгүңүздү текшерүүдө ката кетти окшойт.</string>
+    <string name="games_dest_google_signed_error_dialog_title">Бир жерден ката кетти.</string>
     <string name="games_dest_main_private_level_message">Оюнчу профилиңиз жашырылган</string>
     <string name="games_dest_onboard_tutorial_1_text">Google Play үчүн оюн тармагы</string>
     <string name="games_dest_onboard_tutorial_1_title">Play Оюндарга кош келиңиз!</string>
@@ -341,7 +345,6 @@
     <string name="games_mvp_menu_help_and_feedback">Жардам жана пикир билдирүү</string>
     <string name="games_mvp_menu_hide">\"Менин оюндарымдан\" жашырылсын</string>
     <string name="games_mvp_menu_mute">Үнүн басуу</string>
-    <string name="games_mvp_menu_play_store">Play Дүкөн</string>
     <string name="games_mvp_menu_profile">Профиль</string>
     <string name="games_mvp_menu_record_gameplay">Оюнду жаздырып алуу</string>
     <string name="games_mvp_menu_settings">Жөндөөлөр</string>
@@ -385,6 +388,10 @@
     <string name="games_mvp_share_game_card_text">Досторуңуз менен бөлүшүңүз</string>
     <string name="games_mvp_show_undo_snackbar_text">%1$s оюну \"Менин оюндарымда\" көрсөтүлдү</string>
     <string name="games_mvp_snackbar_undo_button_text">Кайтаруу</string>
+    <string name="games_mvp_snippet_icon_content_liveops_description">Азыр болуп жатат, %1$s</string>
+    <string name="games_mvp_snippet_icon_content_news_description">Жаңылыктардан үзүндү, %1$s</string>
+    <string name="games_mvp_snippet_icon_content_video_description">Видеодон үзүндү, %1$s</string>
+    <string name="games_mvp_visit_arcade_button_text">Аркадага өтүү</string>
     <string name="games_mvp_you_have_no_games_message">Келиңиз ойнойлу!</string>
     <string name="games_my_games_navigation_bar_title">Менин оюндарым</string>
     <string name="games_nearby_players_confirm_dialog_message">Сиз жакынкы оюнчуларды издеген сайын, Google Play Оюндар убактылуу күйүп, оюнчуларды табуу үчүн төмөнкү технологияларды пайдаланат: Жайгашкан жериңиз, микрофон, катуу сүйлөгүч, Wi-Fi жана Bluetooth. <u>Көбүрөөк билүү</u>".
@@ -413,7 +420,7 @@
     <string name="games_only_brand_name">Оюндар</string>
     <string name="games_oob_welcome_proceed">Кийинки</string>
     <string name="games_overflow_menu_content_description">Параметрлер</string>
-    <string name="games_pano_about_build">Куралыш версиясы</string>
+    <string name="games_pano_about_build">Курама версиясы</string>
     <string name="games_pano_about_tos">Тейлөө шарттары</string>
     <string name="games_pano_achievement_comparison_action_game_details">Оюндун чоо-жайы</string>
     <string name="games_pano_achievement_comparison_action_player_details">Оюнчунун чоо-жайы</string>
@@ -587,6 +594,7 @@
     <string name="games_request_inbox_header_wishes">Өтүнүчтөр</string>
     <string name="games_request_inbox_null_state_text">Белек жөнөтүп көрүңүз – жооп катары белек алышыңыз мүмкүн.</string>
     <string name="games_search_players_header">Оюнчулар</string>
+    <string name="games_search_players_hint">Оюнчуларды издөө</string>
     <string name="games_search_players_no_results">Дал келген оюнчулар жок</string>
     <string name="games_select_opponents_title">Жаңы таймаш</string>
     <string name="games_select_players_add_auto_pick_item_label">Авто-тандоону кошуу</string>

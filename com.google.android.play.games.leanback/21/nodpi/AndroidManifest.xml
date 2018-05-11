@@ -10,7 +10,7 @@
     <uses-permission android:name="com.google.android.gms.permission.GAMES_DEBUG_SETTINGS"/>
     <uses-permission android:name="android.permission.VIBRATE"/>
     <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
-    <application android:icon="@mipmap/ic_launcher_icon" android:label="@string/games_app_name" android:name="com.google.android.gms.games.app.PowerUpApplication" android:restrictedAccountType="com.google">
+    <application android:icon="@mipmap/ic_launcher_icon" android:label="@string/games_app_name" android:name="com.google.android.gms.games.app.core.PowerUpApplication" android:restrictedAccountType="com.google">
         <meta-data android:name="com.google.android.gms.games.APP_ID" android:value="@string/games_dest_app_id"/>
         <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
         <activity android:banner="@drawable/banner_play_games" android:configChanges="keyboardHidden|navigation" android:exported="true" android:icon="@drawable/ic_pano_launcher_games" android:label="@string/games_app_launcher_name" android:name="com.google.android.gms.games.pano.activity.MainPanoActivity" android:process="com.google.android.play.games.ui" android:theme="@style/Games.DestinationLeanbackTheme">
@@ -395,6 +395,11 @@
         <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
         <meta-data android:name="com.google.android.libraries.glide.fife.module.FifeGlideModule" android:value="GlideModule"/>
         <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.libraries.hats20.SurveyPromptActivity" android:theme="@style/HatsLibPromptTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:exported="false" android:name="com.google.android.libraries.hats20.ShowSurveyActivity" android:theme="@style/TransparentActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
         <activity android:exported="true" android:label="@string/preferences_license_title" android:name="com.google.android.libraries.social.licenses.LicenseMenuActivity" android:theme="@style/Theme.AppCompat.Light"/>
         <activity android:exported="false" android:label="@string/preferences_license_title" android:name="com.google.android.libraries.social.licenses.LicenseActivity" android:theme="@style/Theme.AppCompat.Light"/>
         <provider android:authorities="com.google.android.play.games.lifecycle-trojan" android:exported="false" android:multiprocess="true" android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"/>
