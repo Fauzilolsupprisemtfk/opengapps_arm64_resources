@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:id="@id/octarine_app_bar_custom_view" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:id="@id/octarine_app_bar_google_logo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/abc_action_bar_icon_vertical_padding_material" android:layout_marginBottom="@dimen/abc_action_bar_icon_vertical_padding_material" android:adjustViewBounds="true" android:contentDescription="@string/common_google" app:srcCompat="@drawable/googlelogo_standard_color_92x30" />
-    <include android:id="@id/octarine_app_bar_title_container" layout="@layout/common_action_bar_title_item" />
-</LinearLayout>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <SwitchPreference android:title="@string/car_driving_mode_title" android:key="@string/car_pref_key_driving_mode_switch" android:summary="@string/car_driving_mode_summary" />
-    <Preference android:title="@string/car_driving_mode_behavior_title" android:key="@string/car_pref_key_driving_mode_behavior_switch" />
-    <PreferenceCategory android:title="@string/car_driving_mode_autolaunch_category_title" android:key="@string/car_pref_key_switch_to_driving_mode_category">
-        <Preference android:title="@string/car_driving_mode_bluetooth_auto_launch_title" android:key="@string/car_pref_key_settings_autolaunch_preference" />
-    </PreferenceCategory>
-</PreferenceScreen>
