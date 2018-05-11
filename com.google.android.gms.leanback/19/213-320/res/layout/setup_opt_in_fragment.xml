@@ -9,5 +9,5 @@
         <TextView android:textSize="@dimen/opt_in_text_size" android:textColor="@color/link_text" android:ellipsize="end" android:gravity="start" android:id="@id/account_picker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawableRight="@drawable/ic_arrow_drop_down" android:drawablePadding="@dimen/opt_in_account_picker_drawable_padding" android:layout_weight="0.0" />
         <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
     </LinearLayout>
-    <TextView android:theme="@style/ThemeOverlay.Text.Light.PlainLinks" android:textSize="@dimen/opt_in_text_size" android:textColorLink="@color/link_text" android:gravity="start" android:id="@id/agreement" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/opt_in_text_spacing" android:text="@string/opt_in_agreement" />
+    <TextView android:theme="@style/ThemeOverlay.Text.Light.PlainLinks" android:textSize="@dimen/opt_in_text_size" android:textColorLink="@color/link_text" android:gravity="start" android:id="@id/agreement" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/opt_in_text_spacing" />
 </LinearLayout>

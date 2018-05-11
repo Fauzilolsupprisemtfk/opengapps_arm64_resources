@@ -3,7 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout android:orientation="vertical" android:id="@id/udc_consent_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
         <view android:id="@id/udc_consent_scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0" class="com.google.android.gms.common.widget.ScrollViewWithEvents">
-            <LinearLayout android:orientation="vertical" android:id="@id/udc_consent_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:id="@id/udc_consent_container" android:layout_width="fill_parent" android:layout_height="wrap_content" style="UdcConsentContainer" />
         </view>
         <View android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" style="@style/UdcDivider" />
         <include layout="@layout/udc_consent_action_container" />

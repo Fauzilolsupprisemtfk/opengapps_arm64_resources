@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="accountsettings_error_retry_notice">Please try again later</string>
+    <string name="accountsettings_google_account_subtitle">Info, security &amp; personalisation</string>
     <string name="accountsettings_ootp_menu_subtitle">"Get a one-time code to verify that it's you"</string>
     <string name="accountsettings_outdated_data_message_other_error">Some info may be out of date. Please try again later.</string>
     <string name="accountsettings_preferences_settings_menu_subtitle">Adjust account settings, such as payment methods, languages and storage options</string>
@@ -21,6 +22,12 @@
     <string name="app_picker_no_apps_found">No apps found.</string>
     <string name="appinvite_public_search_results">Public results</string>
     <string name="appstate_sync_label">App data</string>
+    <string name="ar_high_accuracy_details">"Activity recognition allows apps and services to receive regular updates from Google on your current activity. For example, Google can determine if you’re walking, driving, cycling or stationary.
+
+If high accuracy is turned off, device sensors such as the accelerometer will be used to detect activity.
+
+Sensor and audio data are never recorded or shared with Google or apps."</string>
+    <string name="ar_high_accuracy_title">Activity recognition High accuracy mode</string>
     <string name="auth_account_module_display_name">Google accounts</string>
     <string name="auth_account_removed_default_title">Setup cancelled</string>
     <string name="auth_account_removed_dm_setup_skipped_title">Setup cancelled</string>
@@ -135,52 +142,39 @@ To use Google apps and services with a custom ROM, register this device. Learn m
 
 When you turn on automatic backup, device and app data is regularly saved remotely. App data can be any data that an app has saved (based on developer settings), including potentially sensitive data such as contacts, messages and photos."</string>
     <string name="backup_erase_dialog_message">Stop backing up your Wi‑Fi passwords, bookmarks, other settings and app data, plus delete all copies on Google Drive?</string>
-    <string name="backup_opt_in_backup_auth_setup_wizard_services_backup_dialog_text">"When you turn on automatic backup:
+    <string name="backup_now_network_error_text">Please check your Internet connection and try again</string>
+    <string name="backup_now_snackbar_error_text_format">%1$s - %2$s</string>
+    <string name="backup_opt_in_backup_auth_setup_wizard_services_backup_dialog_text">"%1$s  
 
- ● Device settings and app data are periodically saved to a private folder in Google Drive. App data can be any data that an app has saved (based on developer settings), including potentially sensitive data such as contacts, messages and photos.
+● %2$s  
 
- Large files, or files that developers have chosen to exclude from the service, will not be backed up.
+ %3$s  
 
- ● Photos and videos on this device sync to your Google Photos library so you can search, edit, delete and share from any of your devices.
+ ^1"</string>
+    <string name="backup_opt_in_backup_auth_setup_wizard_services_backup_dialog_text_no_photos">"%1$s  
 
-If original-quality photos and videos are synced to Google Photos, they may count against your Drive quota.
+ %2$s  
 
-^1"</string>
-    <string name="backup_opt_in_backup_auth_setup_wizard_services_backup_dialog_text_no_photos">"When you turn on automatic backup:
+ ^1"</string>
+    <string name="backup_opt_in_backup_auth_setup_wizard_services_backup_dialog_text_pixel">"%1$s  
 
- ● Device settings and app data are periodically saved to a private folder in Google Drive. App data can be any data that an app has saved (based on developer settings), including potentially sensitive data such as contacts, messages and photos.
+● %2$s  
 
- Large files, or files that developers have chosen to exclude from the service, will not be backed up.
+ %3$s  
 
- Backup data will not count towards your Drive storage quota.
+ %4$s  
 
-^1"</string>
-    <string name="backup_opt_in_backup_auth_setup_wizard_services_backup_dialog_text_pixel">"When you turn on automatic backup:
-
- ● Device settings and app data are periodically saved to a private folder in Google Drive. App data can be any data that an app has saved (based on developer settings), including potentially sensitive data such as contacts, messages and photos.
-
- Large files, or files that developers have chosen to exclude from the service, will not be backed up.
-
- ● Photos and videos on this device sync to your Google Photos library so you can search, edit, delete and share from any of your devices.
-
- By default, full-resolution photos and videos are uploaded. These do not count against your Drive storage quota.
-
- Backup data will not count towards your Drive storage quota.
-
-^1"</string>
-    <string name="backup_opt_in_backup_description_extra">Calendar, contacts, photos and videos are synced to your Google account and may be used across services.</string>
+ ^1"</string>
     <string name="backup_opt_in_backup_description_v2">Automatic backup ensures that you can easily restore or switch phones at any time. <annotation id="backup_opt_in_learn_more">Find out more</annotation></string>
-    <string name="backup_opt_in_backup_disable_confirmation_description_v2">"This will turn off backup for:
+    <string name="backup_opt_in_backup_main_message">"When you turn on automatic backup:
 
-Apps and app data
-Call history
-Device settings
-Photos and videos
-SMS
+ ● Device settings and app data are periodically saved to a private folder in Google Drive. App data can be any data that an app has saved (based on developer settings), including potentially sensitive data such as contacts, messages and photos.
 
-Calendar and contacts will continue to sync to your Google account. When setup is complete, you can change sync settings by going to "<annotation id="backup_opt_in_settings_instructions">Settings > Accounts > Google</annotation>.</string>
+ Large files, or files developers have chosen to exclude from the service, will not be backed up."</string>
+    <string name="backup_opt_in_backup_photos_sync">Photos and videos on this device sync to your Google Photos library so that you can search, edit, delete and share from any of your devices.</string>
     <string name="common_add_account_label">Add an account.</string>
     <string name="common_connected_apps_settings_title">Apps connected</string>
+    <string name="common_google_settings_myaccount">Google Account</string>
     <string name="common_learn_more">Find out more</string>
     <string name="common_loading">Loading …</string>
     <string name="common_missing_url_viewer">Missing viewer to show an external URL.</string>
@@ -221,6 +215,12 @@ You can turn this off in Do Not Disturb settings.
     <string name="drive_backup_apps_in_backup">Backed-up app data</string>
     <string name="drive_backup_content_devicesettings_dialog_message">Backup includes device configuration, such as wallpaper, Wi-Fi passwords and default apps.</string>
     <string name="drive_backup_content_status_never">Waiting to back up</string>
+    <string name="drive_backup_state_dialog_message">"%1$s 
+
+ %2$s "</string>
+    <string name="drive_backup_state_dialog_message_with_account">"%1$s 
+
+ %2$s "</string>
     <string name="drive_document_type_folder_with_color">Folder with colour %s</string>
     <string name="drive_document_type_ms_powerpoint">Microsoft PowerPoint</string>
     <string name="drive_document_type_text">Texts</string>
@@ -244,17 +244,14 @@ Try turning off aeroplane mode, turning on mobile data or Wi-Fi, or checking the
     <string name="games_font_roboto_medium">sans-serif</string>
     <string name="gf_error_report_battery_checkin_details">Check in details</string>
     <string name="gf_error_report_battery_usage_percent">Percentage of battery used</string>
-    <string name="gf_new_policy">Go to the %1$s to request content changes for legal reasons.&lt;br />Some %2$s may be sent to Google. We will use the information that you give us to help address technical issues and to improve our services, subject to our %3$s and %4$s.</string>
-    <string name="gh_application_info_privacy_policy_message">Some %1$s will be sent to Google. We will use the information that you give us to help address technical issues and to improve our services, subject to our %2$s and %3$s.</string>
+    <string name="gf_new_policy">"Go to the %1$s to request content changes for legal reasons.&lt;br />Some %2$s will be sent to Google. We'll use the info that you give us to address technical issues and improve our services, subject to our %3$s and %4$s."</string>
+    <string name="gh_application_info_privacy_policy_message">"Some %1$s will be sent to Google. We'll use the info that you give us to address technical issues and improve our services, subject to our %2$s and %3$s."</string>
     <string name="gh_chat_message_input_hint">Sending a message</string>
     <string name="gh_chat_queue_subtext">"You won't lose your place in the queue if you go back or go to another app."</string>
-    <string name="gh_device_signals_export_activity_title">Help – Send Device Info</string>
     <string name="gh_menu_clear_history">Clear Help history</string>
     <string name="gh_print_job_name">Help – %1$s</string>
     <string name="gh_sign_in_banner_subtitle">Get personalised help options</string>
     <string name="icing_music_recording_corpus_description">Songs, albums and playlists on your device</string>
-    <string name="icing_suggest_query_corpus_description">Cached web auto-complete queries</string>
-    <string name="icing_suggest_query_corpus_label">Web Auto-complete</string>
     <string name="icing_usage_reports_enabled_summary">"To help improve your search experience, Google can store and use links, provided by apps, to content that you've visited in apps."</string>
     <string name="learn_more">Find out more</string>
     <string name="location_settings_confirm_location_history_pause_body">"When you pause Location History, places that you go with your devices will stop being added to your Location History map. This limits functionality of some Google products over time, such as Google Maps and Google Now. 
@@ -282,8 +279,8 @@ This service is active when Location is on and High accuracy or Battery saving m
     <string name="mdm_account_title">Add Google Account?</string>
     <string name="mdm_google_search">"Search 'Find My Device'"</string>
     <string name="nearby_setup_wifi_consent_dialog_label">Wifi credential consent dialogue</string>
+    <string name="nearby_setup_wifi_consent_message">"To complete setup for your %1$s, &lt;b>&lt;xliff:g example=Chrome id=app_name>%2$s&lt;/xliff:g>&lt;/b> needs the password for %3$s. &lt;br/>&lt;br/> Make sure that the device you're setting up is the one you have with you, and not a different one nearby."</string>
     <string name="no_network_connection">Connect to the Internet for more info</string>
-    <string name="opt_in_agreement">By continuing, you accept the <a href="https://play.google.com/about/play-terms.html">Play Terms of Service</a>. <a href="https://support.google.com/googleplay/?p=instant_apps">Learn more</a></string>
     <string name="opt_in_description">"When you tap a link, Google Play checks if an instant app exists and runs it without installation. Instant apps are kept on your device temporarily.
 
 Instant apps ask for permissions as you use them. App details, including in-app purchases, can be found in the Google Play Store. App data &amp; settings are synced to devices signed in with:"</string>
@@ -364,7 +361,6 @@ You'll be notified of any security risks found."</string>
     <string name="romanesco_google_contacts_settings_summary">Your Google Contacts automatically sync to your devices</string>
     <string name="security_status_no_google_account_summary">No Google Account on this device</string>
     <string name="security_status_verify_apps_disabled">Off/Tap to turn on protection.</string>
-    <string name="setup_failure_description">"Can't set up Instant Apps. "<a href="https://support.google.com/googleplay/?p=instant_apps">Learn more</a></string>
     <string name="smartdevice_action_try_another_way">Try another way</string>
     <string name="smartdevice_action_turn_on_location">Turn on Location</string>
     <string name="smartdevice_alert_exit_setup_message">Are you sure that you want to exit the setup of your other device?</string>
@@ -397,13 +393,13 @@ You'll be notified of any security risks found."</string>
     <string name="source_copying_description">The data that you chose is being copied to your new phone</string>
     <string name="source_success_screen_title">Finished!</string>
     <string name="star_contact_content_description">Double-tap to add to favourites</string>
+    <string name="system_update_install_steps_text">Step ^1 of two</string>
     <string name="system_update_notification_learn_more">Tap to learn more</string>
     <string name="system_update_notification_learn_more_and_download">Tap to learn more and download</string>
     <string name="system_update_notification_learn_more_and_install">Tap to learn more and install</string>
     <string name="system_update_suw_restart_text">The device will restart so that your system update can be installed.</string>
     <string name="turned_off_auto_backup_dialog">Any photos &amp; videos taken while Auto-Backup is turned off will be backed up if and when you turn it back on.</string>
     <string name="udc_setting_toggle_accessibility_action">Modify</string>
-    <string name="udc_setting_write_error">Could not change some settings. Please review your settings or try again. &lt;a href=https://support.google.com/websearch/answer/6139018>Find out more.&lt;/a></string>
     <string name="unable_to_retrieve_licenses">Unable to retrieve licences</string>
     <string name="unstar_contact_content_description">Double-tap to remove from favourites</string>
     <string name="usage_and_diagnostics_consent_message">"Turning off this feature doesn't affect your device's ability to send the information that it needs to receive essential services such as system updates and security."</string>

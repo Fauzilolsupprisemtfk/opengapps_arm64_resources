@@ -16,6 +16,31 @@
     <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V22.Theme.AppCompat.Light" />
     <style name="SuwAlertDialogTheme" parent="@android:style/Theme.DeviceDefault.Dialog.Alert" />
     <style name="SuwAlertDialogTheme.Light" parent="@android:style/Theme.DeviceDefault.Light.Dialog.Alert" />
+    <style name="SuwGlifButton.Primary" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="android:theme">@style/SuwGlifButton.Primary</item>
+        <item name="android:buttonStyle">@style/SuwGlifButton.Primary</item>
+        <item name="android:paddingLeft">@dimen/suw_glif_button_padding</item>
+        <item name="android:paddingRight">@dimen/suw_glif_button_padding</item>
+        <item name="android:textAllCaps">?suwButtonAllCaps</item>
+        <item name="android:fontFamily">?suwButtonFontFamily</item>
+        <item name="android:buttonCornerRadius">?suwButtonCornerRadius</item>
+        <item name="textAllCaps">?suwButtonAllCaps</item>
+        <item name="buttonStyle">@style/SuwGlifButton.Primary</item>
+    </style>
+    <style name="SuwGlifButton.Secondary" parent="@style/Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:theme">@style/SuwGlifButton.Secondary</item>
+        <item name="android:buttonStyle">@style/SuwGlifButton.Secondary</item>
+        <item name="android:paddingLeft">@dimen/suw_glif_button_padding</item>
+        <item name="android:paddingRight">@dimen/suw_glif_button_padding</item>
+        <item name="android:minWidth">0.0dip</item>
+        <item name="android:textAllCaps">?suwButtonAllCaps</item>
+        <item name="android:fontFamily">?suwButtonFontFamily</item>
+        <item name="android:colorControlHighlight">@color/suw_flat_button_highlight</item>
+        <item name="android:buttonCornerRadius">?suwButtonCornerRadius</item>
+        <item name="textAllCaps">?suwButtonAllCaps</item>
+        <item name="colorControlHighlight">@color/suw_flat_button_highlight</item>
+        <item name="buttonStyle">@style/SuwGlifButton.Secondary</item>
+    </style>
     <style name="SuwThemeGlifV2" parent="@style/SuwThemeGlif">
         <item name="android:colorBackground">@color/suw_glif_background_color_dark</item>
         <item name="android:editTextStyle">@style/SuwEditText</item>
@@ -43,6 +68,12 @@
         <item name="suwScrollIndicators">bottom|top</item>
         <item name="suwBackgroundPatterned">false</item>
         <item name="suwBackgroundBaseColor">?android:colorBackground</item>
+    </style>
+    <style name="Widget.Design.AppBarLayout" parent="@android:style/Widget">
+        <item name="android:background">?colorPrimary</item>
+        <item name="android:stateListAnimator">@animator/design_appbar_state_list_animator</item>
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
     </style>
     <style name="Base.V22.Theme.AppCompat" parent="@style/Base.V21.Theme.AppCompat">
         <item name="actionModeShareDrawable">?android:actionModeShareDrawable</item>
