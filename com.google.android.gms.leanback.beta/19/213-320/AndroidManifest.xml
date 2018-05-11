@@ -1036,12 +1036,12 @@
             </intent-filter>
             <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/chromesync_sync_adapter"/>
         </service>
-        <receiver android:directBootAware="true" android:enabled="false" android:exported="true" android:name="com.google.android.gms.clearcut.receiver.WallClockChangedReceiver" android:process="@string/common_persistent_process">
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="true" android:name="com.google.android.gms.clearcut.receiver.WallClockChangedReceiver" android:process="@string/common_persistent_process">
             <intent-filter>
                 <action android:name="android.intent.action.TIME_SET"/>
             </intent-filter>
         </receiver>
-        <service android:directBootAware="true" android:enabled="true" android:exported="true" android:name="com.google.android.gms.clearcut.service.ClearcutLoggerService" android:process="@string/common_persistent_process" android:visibleToInstantApps="true">
+        <service android:directBootAware="false" android:enabled="true" android:exported="true" android:name="com.google.android.gms.clearcut.service.ClearcutLoggerService" android:process="@string/common_persistent_process" android:visibleToInstantApps="true">
             <meta-data android:name="instantapps.clients.allowed" android:value="true"/>
             <intent-filter>
                 <action android:name="com.google.android.gms.clearcut.service.START"/>
@@ -2761,10 +2761,10 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
-        <provider android:authorities="com.google.android.chimera;com.google.android.gms.chimera" android:directBootAware="true" android:exported="true" android:name="com.google.android.gms.chimera.container.GmsModuleProvider" android:process="@string/common_persistent_process" android:visibleToInstantApps="true">
+        <provider android:authorities="com.google.android.chimera;com.google.android.gms.chimera" android:directBootAware="false" android:exported="true" android:name="com.google.android.gms.chimera.container.GmsModuleProvider" android:process="@string/common_persistent_process" android:visibleToInstantApps="true">
             <meta-data android:name="instantapps.clients.allowed" android:value="true"/>
         </provider>
-        <receiver android:directBootAware="true" android:exported="true" android:name="com.google.android.gms.chimera.GmsIntentOperationService$GmsExternalReceiver" android:process="@string/common_persistent_process" android:visibleToInstantApps="true">
+        <receiver android:directBootAware="false" android:exported="true" android:name="com.google.android.gms.chimera.GmsIntentOperationService$GmsExternalReceiver" android:process="@string/common_persistent_process" android:visibleToInstantApps="true">
             <meta-data android:name="instantapps.clients.allowed" android:value="true"/>
             <intent-filter>
                 <action android:name="android.app.action.SYSTEM_UPDATE_POLICY_CHANGED"/>
@@ -2790,18 +2790,18 @@
                 <data android:host="com.android.calendar" android:scheme="content"/>
             </intent-filter>
         </receiver>
-        <receiver android:directBootAware="true" android:exported="true" android:name="com.google.android.gms.chimera.GmsIntentOperationService$PersistentDownloadReceiver" android:permission="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS" android:process="@string/common_persistent_process">
+        <receiver android:directBootAware="false" android:exported="true" android:name="com.google.android.gms.chimera.GmsIntentOperationService$PersistentDownloadReceiver" android:permission="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS" android:process="@string/common_persistent_process">
             <intent-filter>
                 <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
             </intent-filter>
         </receiver>
-        <receiver android:directBootAware="true" android:exported="true" android:name="com.google.android.gms.chimera.GmsIntentOperationService$SecretCodeReceiver" android:permission="android.permission.REBOOT" android:process="@string/common_persistent_process">
+        <receiver android:directBootAware="false" android:exported="true" android:name="com.google.android.gms.chimera.GmsIntentOperationService$SecretCodeReceiver" android:permission="android.permission.REBOOT" android:process="@string/common_persistent_process">
             <intent-filter android:priority="1">
                 <action android:name="android.provider.Telephony.SECRET_CODE"/>
                 <data android:host="\ 947322243" android:scheme="android_secret_code"/>
             </intent-filter>
         </receiver>
-        <receiver android:directBootAware="true" android:exported="true" android:name="com.google.android.gms.chimera.GmsIntentOperationService$PersistentTrustedReceiver" android:process="@string/common_persistent_process">
+        <receiver android:directBootAware="false" android:exported="true" android:name="com.google.android.gms.chimera.GmsIntentOperationService$PersistentTrustedReceiver" android:process="@string/common_persistent_process">
             <intent-filter>
                 <action android:name="android.intent.action.PACKAGE_ADDED"/>
                 <action android:name="android.intent.action.PACKAGE_CHANGED"/>
@@ -2847,7 +2847,7 @@
                 <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
             </intent-filter>
         </receiver>
-        <receiver android:directBootAware="true" android:exported="false" android:name="com.google.android.gms.chimera.GmsIntentOperationService$PersistentInternalReceiver" android:process="@string/common_persistent_process">
+        <receiver android:directBootAware="false" android:exported="false" android:name="com.google.android.gms.chimera.GmsIntentOperationService$PersistentInternalReceiver" android:process="@string/common_persistent_process">
             <intent-filter>
                 <action android:name="com.google.android.gms.auth.GOOGLE_ACCOUNT_CHANGE"/>
                 <category android:name="com.google.android.gms.auth.category.ACCOUNT_ADDED"/>
@@ -2900,14 +2900,14 @@
                 <action android:name="com.google.gservices.intent.action.GSERVICES_CHANGED"/>
             </intent-filter>
         </receiver>
-        <service android:directBootAware="true" android:exported="true" android:name="com.google.android.gms.chimera.container.FileApkIntentOperation$ExternalFileApkService" android:visibleToInstantApps="true">
+        <service android:directBootAware="false" android:exported="true" android:name="com.google.android.gms.chimera.container.FileApkIntentOperation$ExternalFileApkService" android:visibleToInstantApps="true">
             <meta-data android:name="instantapps.clients.allowed" android:value="true"/>
             <intent-filter>
                 <action android:name="com.google.android.gms.chimera.container.LOG_LOAD_ATTEMPT"/>
                 <action android:name="com.google.android.gms.chimera.container.STAGE_MODULE_APKS"/>
             </intent-filter>
         </service>
-        <service android:directBootAware="true" android:exported="false" android:name="com.google.android.gms.chimera.GmsIntentOperationService">
+        <service android:directBootAware="false" android:exported="false" android:name="com.google.android.gms.chimera.GmsIntentOperationService">
             <intent-filter>
                 <action android:name="com.google.android.chimera.FileApkManager.DELETE_UNUSED_FILEAPKS"/>
                 <action android:name="com.google.android.chimera.container.IntentOperationService.MODULE_SPECIFIC"/>
@@ -3019,7 +3019,7 @@
             </intent-filter>
         </service>
         <service android:exported="false" android:name="com.google.android.gms.chimera.SnetIntentOperationService" android:process="@string/common_snet_process"/>
-        <service android:directBootAware="true" android:exported="false" android:name="com.google.android.gms.chimera.PersistentIntentOperationService" android:process="@string/common_persistent_process"/>
+        <service android:directBootAware="false" android:exported="false" android:name="com.google.android.gms.chimera.PersistentIntentOperationService" android:process="@string/common_persistent_process"/>
         <service android:directBootAware="false" android:exported="true" android:name="com.google.android.gms.chimera.PersistentBoundBrokerService" android:process="@string/common_persistent_process">
             <meta-data android:name="android.net.wifi.use_open_wifi_package" android:value="com.google.android.apps.gcs"/>
             <meta-data android:name="android.net.wifi.notification_channel_id_network_available" android:value="com.google.android.gms.netrec.Notifications.WifiMessageGroup.NetworkAvailableChannel"/>
@@ -3069,7 +3069,7 @@
                 <action android:name="com.google.android.gms.auth.api.earlyupdate.service.START"/>
             </intent-filter>
         </service>
-        <service android:directBootAware="true" android:exported="false" android:name="com.google.android.gms.chimera.container.ConfigService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE">
+        <service android:directBootAware="false" android:exported="false" android:name="com.google.android.gms.chimera.container.ConfigService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE">
             <intent-filter>
                 <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"/>
             </intent-filter>
