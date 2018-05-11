@@ -127,6 +127,10 @@
         <item name="android:textColor">@color/insert_tool_normal_text</item>
         <item name="android:fontFamily">sans-serif-light</item>
     </style>
+    <style name="insert_tool_touch_focusable_heading" parent="@style/insert_tool_heading">
+        <item name="android:background">@drawable/insert_tool_fake_search_bar_background</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
     <style name="insert_tool_zero_search_card">
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>

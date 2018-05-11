@@ -711,7 +711,7 @@ IMPORTANT! După ce trimiteți feedbackul, ștergeți memoria cache a aplicație
     <string name="empty_doclist_for_pinned_view_details">Faceți fișierele „Disponibile offline” în meniul de opțiuni al fișierului</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Atingeți „Disponibil offline” în meniul unui fișier pentru a putea continua să lucrați pe el offline.</string>
     <string name="empty_doclist_for_recent_view">Nu există fișiere deschise sau editate recent.</string>
-    <string name="empty_doclist_for_search_view">Niciun rezultat.</string>
+    <string name="empty_doclist_for_search_view">Niciun rezultat</string>
     <string name="empty_doclist_for_shared_with_me_view">Fișierele la care vi s-a permis accesul vor apărea aici.</string>
     <string name="empty_doclist_for_starred_view">Nu există fișiere marcate cu stea.</string>
     <string name="empty_doclist_for_starred_view_details">Atingeți pictograma stea din meniul de opțiuni al fișierului pentru a-l adăuga la această listă.</string>
@@ -760,6 +760,7 @@ Dați clic pe + pentru a crea un document."</string>
     <string name="error_video_not_available">Videoclipul nu a fost procesat. Încercați din nou mai târziu.</string>
     <string name="excess_head_count">și încă %1$d</string>
     <string name="excess_head_count_verbalization">+ încă %1$d persoane.</string>
+    <string name="expand_button_title">Avansat</string>
     <string name="expires_future">Expiră peste %1$s</string>
     <string name="expires_today">Expiră astăzi</string>
     <string name="export_download_error_title">Eroare la descărcare</string>
@@ -776,6 +777,11 @@ Dați clic pe + pentru a crea un document."</string>
     <string name="fab_office_document">Fișier nou Word</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Rezult. căutării</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Mai vechi</string>
     <string name="fast_scroll_time_grouper_last_week">Săptămâna trecută</string>
     <string name="fast_scroll_time_grouper_this_month">Luna aceasta</string>
@@ -995,17 +1001,8 @@ Dați clic pe + pentru a crea un document."</string>
     <string name="manage_addons_playstore_link_description">Navigați la Magazin Play pentru %s</string>
     <string name="manage_members_default_members">În mod prestabilit, membrii pot să încarce/să editeze/să șteargă fișiere și să invite alți membri.</string>
     <string name="manage_members_dialog_title">Accesul membrilor</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Spațiu de stocare</string>
+    <string name="management_data_loading_failed">Această pagină nu poate fi încărcată.</string>
     <string name="menu_backup">Backupuri</string>
     <string name="menu_copy_link">Copiați linkul</string>
     <string name="menu_create_shortcut">Ad. la Ec. pornire</string>
@@ -1400,7 +1397,6 @@ Dați clic pe + pentru a crea un document."</string>
     <string name="published_access_anyone">Oricine poate vedea versiunea publicată</string>
     <string name="published_access_domain">Oricine din %s poate vedea versiunea publicată</string>
     <string name="published_access_select_people">Anumite persoane pot vedea versiunea publicată</string>
-    <string name="published_disabled_append">dezactivat,</string>
     <string name="published_message_for_anyone_can_edit">Dacă oricine poate edita, atunci oricine va putea vedea după publicare.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Dacă oricine din %1$s poate edita, atunci oricine din %1$s va putea vedea după publicare.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Dacă oricine are linkul poate edita, atunci oricine va putea vedea după publicare.</string>
@@ -1723,7 +1719,7 @@ Dați clic pe + pentru a crea un document."</string>
     <string name="spellcheck_dialog_snackbar_no_more_misspellings">Fără sugestii de ortografie</string>
     <string name="spellcheck_dialog_suggestion_hint">Schimbați %1$s în</string>
     <string name="spellcheck_dialog_suggestions_drop_down">Atingeți pentru a afișa mai multe sugestii.</string>
-    <string name="status_bar_notification_info_overflow">˃999</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stepper_button_down_arrow">Reduceți</string>
     <string name="stepper_button_up_arrow">Măriți</string>
     <string name="style_palette">Stil</string>
@@ -1735,6 +1731,7 @@ Dați clic pe + pentru a crea un document."</string>
     <string name="suggestions_add_to_dictionary">Adăugați în dicționar</string>
     <string name="suggestions_delete_text">Ștergeți</string>
     <string name="suggestions_popup_opened">Sugestii de ortografie</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_to_paginated_view">Aspect pagină imprimată</string>
     <string name="sync_failed">Eroare de sincronizare Documente Google</string>
     <string name="sync_more_error">Eroare la preluarea articolelor suplimentare</string>
@@ -1972,6 +1969,8 @@ Dați clic pe + pentru a crea un document."</string>
     <string name="upsell_negbtn">Mai târziu</string>
     <string name="upsell_okbtn">Măriți spațiul de stocare</string>
     <string name="url_typo_error_msg">Linkul nu pare corect. Greșeală de ortografie?</string>
+    <string name="v7_preference_off">DEZACTIVAT</string>
+    <string name="v7_preference_on">ACTIVAT</string>
     <string name="verbalize_opened_edit">Fișierul %1$s a fost deschis cu permisiuni de editare.</string>
     <string name="verbalize_opened_suggest">Fișierul %1$s a fost deschis cu permisiuni de comentare.</string>
     <string name="verbalize_opened_view">Fișierul %1$s a fost deschis cu permisiuni de afișare.</string>
@@ -2000,8 +1999,9 @@ Dați clic pe + pentru a crea un document."</string>
     <string name="warm_welcome_next_button">Înainte</string>
     <string name="warm_welcome_skip_button">Omiteți</string>
     <string name="warning_cannot_share_outside_domain">Setările acestui Drive în echipă nu permit trimiterea în afara %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Setările acestui Drive în echipă nu permit trimiterea către non-membri și în afara domeniului %s</string>
     <string name="warning_cannot_share_outside_domain_org">Setările organizației nu permit trimiterea în afara organizației</string>
-    <string name="warning_cannot_share_outside_team_drive">Setările acestui Drive în echipă nu permit trimiterea în afara echipei</string>
+    <string name="warning_cannot_share_outside_team_drive">Setările acestui Drive în echipă nu permit trimiterea către non-membri</string>
     <string name="welcome_button_close">Accesați Documente</string>
     <string name="welcome_button_continue">Înainte</string>
     <string name="welcome_offer_button_close">Închideți</string>
@@ -2020,15 +2020,15 @@ Dați clic pe + pentru a crea un document."</string>
     <string name="write_access_denied">Accesul pentru scriere la document nu a fost permis.</string>
     <string name="zss_accessibility_searching">Se caută %1$s</string>
     <string name="zss_date_range_header_title">Data modificării</string>
-    <string name="zss_date_range_month">În ultimele 30 de zile</string>
-    <string name="zss_date_range_three_month">În ultimele 90 de zile</string>
-    <string name="zss_date_range_today">Astăzi</string>
-    <string name="zss_date_range_week">În ultimele 7 zile</string>
+    <string name="zss_date_range_month">Ultimele 30 de zile</string>
+    <string name="zss_date_range_three_month">Ultimele 90 de zile</string>
+    <string name="zss_date_range_today">Azi</string>
+    <string name="zss_date_range_week">Ultimele 7 zile</string>
     <string name="zss_date_range_yesterday">Ieri</string>
     <string name="zss_entry_types_header_title">Tipuri de fișier</string>
     <string name="zss_no_filters">Fără filtru</string>
     <string name="zss_owner_header_title">Deținute de</string>
-    <string name="zss_owner_me">Deținute de mine</string>
+    <string name="zss_owner_me">Ale mele</string>
     <string name="zss_owner_not_me">Nedeținute de mine</string>
     <string name="zss_people_header_title">Persoane</string>
     <string name="zss_showing_list_of_filters">Se afișează lista de filtre disponibile.</string>
@@ -2041,5 +2041,5 @@ Dați clic pe + pentru a crea un document."</string>
     <string name="zss_type_pdfs">Fișiere PDF</string>
     <string name="zss_type_presentations">Prezentări</string>
     <string name="zss_type_spreadsheets">Foi de calcul</string>
-    <string name="zss_type_video">Fișiere video</string>
+    <string name="zss_type_video">Videoclipuri</string>
 </resources>

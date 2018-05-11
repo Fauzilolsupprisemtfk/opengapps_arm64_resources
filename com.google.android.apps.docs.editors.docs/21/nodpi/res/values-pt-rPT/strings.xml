@@ -711,7 +711,7 @@ Experimente carregar um ficheiro."</string>
     <string name="empty_doclist_for_pinned_view_details">Ativar a opção \"Disponível offline\" no menu de opções do ficheiro</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Toque em \"Disponível offline\" no menu de um ficheiro para que possa continuar a trabalhar no mesmo offline.</string>
     <string name="empty_doclist_for_recent_view">Não existem ficheiros abertos ou editados recentemente.</string>
-    <string name="empty_doclist_for_search_view">Nenhum resultado.</string>
+    <string name="empty_doclist_for_search_view">Sem resultados</string>
     <string name="empty_doclist_for_shared_with_me_view">Os ficheiros partilhados consigo aparecem aqui.</string>
     <string name="empty_doclist_for_starred_view">Não tem ficheiros marcados com uma estrela.</string>
     <string name="empty_doclist_for_starred_view_details">Toque no ícone de estrela no menu de opções de um ficheiro para o adicionar a esta lista.</string>
@@ -760,6 +760,7 @@ Clique em + para criar um documento novo."</string>
     <string name="error_video_not_available">O vídeo ainda não foi processado. Tente novamente mais tarde.</string>
     <string name="excess_head_count">Mais %1$d</string>
     <string name="excess_head_count_verbalization">Mais %1$d colaboradores.</string>
+    <string name="expand_button_title">Avançadas</string>
     <string name="expires_future">Expira em %1$s</string>
     <string name="expires_today">Expira hoje</string>
     <string name="export_download_error_title">Erro de transferência</string>
@@ -776,6 +777,11 @@ Clique em + para criar um documento novo."</string>
     <string name="fab_office_document">Novo ficheiro do Word</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">. da pesquisa</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Mais antigos</string>
     <string name="fast_scroll_time_grouper_last_week">Semana passada</string>
     <string name="fast_scroll_time_grouper_this_month">Ant. neste mês</string>
@@ -995,17 +1001,8 @@ Clique em + para criar um documento novo."</string>
     <string name="manage_addons_playstore_link_description">Navegar para a Play Store para obter o %s</string>
     <string name="manage_members_default_members">Por predefinição, os membros podem carregar/editar/eliminar ficheiros e convidar outros membros</string>
     <string name="manage_members_dialog_title">Acesso dos membros</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Armazenamento</string>
+    <string name="management_data_loading_failed">Não é possível carregar esta página.</string>
     <string name="menu_backup">Cópias de segurança</string>
     <string name="menu_copy_link">Copiar link</string>
     <string name="menu_create_shortcut">Adic. ecrã princi.</string>
@@ -1400,7 +1397,6 @@ Clique em + para criar um documento novo."</string>
     <string name="published_access_anyone">Qualquer pessoa pode ver quando o item for publicado</string>
     <string name="published_access_domain">Qualquer pessoa no domínio %s poderá ver o item quando for publicado</string>
     <string name="published_access_select_people">Determinadas pessoas podem ver quando o item for publicado</string>
-    <string name="published_disabled_append">desativada,</string>
     <string name="published_message_for_anyone_can_edit">Uma vez que qualquer pessoa pode editar, qualquer pessoa pode ver o item quando este for publicado.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Uma vez que qualquer pessoa no domínio %1$s pode editar, qualquer pessoa no domínio %1$s pode ver o item quando este for publicado.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Uma vez que qualquer pessoa com o link pode editar, qualquer pessoa pode ver o item quando este for publicado.</string>
@@ -1723,7 +1719,7 @@ Clique em + para criar um documento novo."</string>
     <string name="spellcheck_dialog_snackbar_no_more_misspellings">Não existem sugestões de ortografia</string>
     <string name="spellcheck_dialog_suggestion_hint">Alterar %1$s para</string>
     <string name="spellcheck_dialog_suggestions_drop_down">Mais sugestões, toque para apresentar.</string>
-    <string name="status_bar_notification_info_overflow">+999</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stepper_button_down_arrow">Diminuir</string>
     <string name="stepper_button_up_arrow">Aumentar</string>
     <string name="style_palette">Estilo</string>
@@ -1735,6 +1731,7 @@ Clique em + para criar um documento novo."</string>
     <string name="suggestions_add_to_dictionary">Adicionar ao dicionário</string>
     <string name="suggestions_delete_text">Eliminar</string>
     <string name="suggestions_popup_opened">Sugestões de ortografia</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_to_paginated_view">Esquema de impressão</string>
     <string name="sync_failed">Erro de sincronização do Documentos do Google</string>
     <string name="sync_more_error">Ocorreu um erro ao obter itens adicionais</string>
@@ -1972,6 +1969,8 @@ Clique em + para criar um documento novo."</string>
     <string name="upsell_negbtn">Mais tarde</string>
     <string name="upsell_okbtn">Atualizar</string>
     <string name="url_typo_error_msg">O link não parece estar correto. Enganou-se ao escrever?</string>
+    <string name="v7_preference_off">DESATIVADA</string>
+    <string name="v7_preference_on">ATIVADA</string>
     <string name="verbalize_opened_edit">%1$s aberto com autorizações de edição.</string>
     <string name="verbalize_opened_suggest">%1$s aberto com autorizações de comentário.</string>
     <string name="verbalize_opened_view">%1$s aberto com autorizações de visualização.</string>
@@ -2000,8 +1999,9 @@ Clique em + para criar um documento novo."</string>
     <string name="warm_welcome_next_button">Seguinte</string>
     <string name="warm_welcome_skip_button">Ignorar</string>
     <string name="warning_cannot_share_outside_domain">As definições deste Drive de equipa impedem a partilha fora do domínio %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">As definições deste Drive de equipa impedem a partilha com utilizadores que não são membros e fora do domínio %s.</string>
     <string name="warning_cannot_share_outside_domain_org">As definições da entidade impedem a partilha fora da mesma.</string>
-    <string name="warning_cannot_share_outside_team_drive">As definições deste Drive de equipa impedem a partilha fora da equipa</string>
+    <string name="warning_cannot_share_outside_team_drive">As definições deste Drive de equipa impedem a partilha com utilizadores que não são membros.</string>
     <string name="welcome_button_close">Ir para o Documentos</string>
     <string name="welcome_button_continue">Seguinte</string>
     <string name="welcome_offer_button_close">Fechar</string>
@@ -2029,7 +2029,7 @@ Clique em + para criar um documento novo."</string>
     <string name="zss_no_filters">Sem filtros</string>
     <string name="zss_owner_header_title">Propriedade de</string>
     <string name="zss_owner_me">Propriedade do utilizador</string>
-    <string name="zss_owner_not_me">O utilizador não é o proprietário</string>
+    <string name="zss_owner_not_me">Não é propriedade do utilizador</string>
     <string name="zss_people_header_title">Pessoas</string>
     <string name="zss_showing_list_of_filters">A mostrar a lista de filtros disponíveis.</string>
     <string name="zss_team_drive">Pesquisar em %1$s</string>

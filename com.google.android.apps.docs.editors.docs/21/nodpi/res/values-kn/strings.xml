@@ -692,7 +692,7 @@
     <string name="empty_doclist_for_pinned_view_details">ಫೈಲ್‌ನ ಆಯ್ಕೆಗಳ ಮೆನುನಲ್ಲಿ ಫೈಲ್‌ಗಳು \"ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಲಭ್ಯವಾಗಿಸು\" ಮಾಡಿ</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">ಮೆನುನಲ್ಲಿರುವ \"ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಲಭ್ಯವಾಗಿಸು\" ಟ್ಯಾಪ್‌ ಮಾಡಿ ಈ ಮೂಲಕ ನೀವು ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಲೇ ಇರಬಹುದು.</string>
     <string name="empty_doclist_for_recent_view">ಇತ್ತೀಚೆಗೆ ತೆರೆಯಲಾದ ಅಥವಾ ಸಂಪಾದಿಸಿದ ಯಾವುದೇ ಫೈಲ್‌ಗಳಿಲ್ಲ.</string>
-    <string name="empty_doclist_for_search_view">ಯಾವುದೇ ಫಲಿತಾಂಶಗಳಿಲ್ಲ.</string>
+    <string name="empty_doclist_for_search_view">ಯಾವುದೇ ಫಲಿತಾಂಶಗಳಿಲ್ಲ</string>
     <string name="empty_doclist_for_shared_with_me_view">ನಿಮ್ಮ ಜೊತೆ ಹಂಚಿಕೊಳ್ಳಲಾದ ಫೈಲ್‌ಗಳು ಇಲ್ಲಿ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತವೆ.</string>
     <string name="empty_doclist_for_starred_view">ನಿಮ್ಮ ಬಳಿ ಯಾವುದೇ ನಕ್ಷತ್ರ ಹಾಕಿದ ಫೈಲ್‌ಗಳಿಲ್ಲ.</string>
     <string name="empty_doclist_for_starred_view_details">ಈ ಪಟ್ಟಿಗೆ ಇದನ್ನು ಸೇರಿಸಲು ಫೈಲ್‌ನ ಆಯ್ಕೆ ಮೆನುನಲ್ಲಿನ ನಕ್ಷತ್ರ ಐಕಾನ್‌ ಟ್ಯಾಪ್‌ ಮಾಡಿ.</string>
@@ -741,6 +741,7 @@
     <string name="error_video_not_available">ವೀಡಿಯೊವನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲಾಗಿಲ್ಲ. ದಯವಿಟ್ಟು ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d ಇತರರು.</string>
+    <string name="expand_button_title">ಸುಧಾರಿತ</string>
     <string name="expires_future">%1$s ರಲ್ಲಿ ಅಂತ್ಯಗೊಳ್ಳುತ್ತದೆ</string>
     <string name="expires_today">ಇಂದು ಕೊನೆಗೊಳ್ಳುತ್ತದೆ</string>
     <string name="export_download_error_title">ಡೌನ್‌ಲೋಡ್ ದೋಷ</string>
@@ -757,6 +758,11 @@
     <string name="fab_office_document">ಹೊಸ Word ಫೈಲ್‌</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">ಹುಡುಕಾಟ ಫಲಿತಾಂಶಗಳು</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">ಹಳೆಯದು</string>
     <string name="fast_scroll_time_grouper_last_week">ಕೊನೆಯ ವಾರ</string>
     <string name="fast_scroll_time_grouper_this_month">ಈ ತಿಂಗಳ ಪ್ರಾರಂಭದಲ್ಲಿ</string>
@@ -972,17 +978,8 @@
     <string name="make_copy_spinner_message">ನಕಲಿಸಲಾಗುತ್ತಿದೆ...</string>
     <string name="manage_members_default_members">ಡಿಫಾಲ್ಟ್ ಆಗಿ, ಸದಸ್ಯರು ಫೈಲ್‌ಗಳನ್ನು ಅಪ್‌ಲೋಡ್/ಎಡಿಟ್/ಅಳಿಸಬಹುದು ಮತ್ತು ಇತರ ಸದಸ್ಯರನ್ನು ಆಹ್ವಾನಿಸಬಹುದು</string>
     <string name="manage_members_dialog_title">ಸದಸ್ಯರ ಪ್ರವೇಶ</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">ಸಂಗ್ರಹಣೆ</string>
+    <string name="management_data_loading_failed">ಈ ಪುಟ ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ</string>
     <string name="menu_backup">ಬ್ಯಾಕಪ್‌ಗಳು</string>
     <string name="menu_copy_link">ಲಿಂಕ್ ನಕಲಿಸಿ</string>
     <string name="menu_create_shortcut">ಮುಖಪುಟಕ್ಕೆ ಸೇರಿಸು</string>
@@ -1328,7 +1325,7 @@
     <string name="plus_photo_item_remove_items_dialog_text_single">%1$s ಅನ್ನು ಅನುಪಯುಕ್ತಕ್ಕೆ ಸರಿಸಲಾಗುತ್ತದೆ. ಇದನ್ನು Google ಫೋಟೋಗಳು ನಿಂದಲೂ ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ.</string>
     <string name="policy_privacy">ಗೌಪ್ಯತೆ</string>
     <string name="policy_terms">ನಿಯಮಗಳು</string>
-    <string name="preferences_license_title">ಮುಕ್ತ ಮೂಲ ಪರವಾನಗಿಗಳು</string>
+    <string name="preferences_license_title">ಓಪನ್ ಸೋರ್ಸ್ ಪರವಾನಗಿಗಳು</string>
     <string name="prefs_abuse_program_policies">ಪ್ರೋಗ್ರಾಮ್ ನೀತಿಗಳು</string>
     <string name="prefs_cache_category_title">ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳ ಸಂಗ್ರಹಣೆ</string>
     <string name="prefs_category_content_description">ವಿಭಾಗ, %1$s</string>
@@ -1337,7 +1334,7 @@
     <string name="prefs_enable_word_doc_creation_summary">ವರ್ಡ್ ಫೈಲ್‌ಗಳನ್ನು ರಚಿಸಲು Google ಡಾಕ್ಸ್ ಫೈಲ್‌ಗಳ ಜೊತೆ (.docx) ಆಯ್ಕೆಗಳನ್ನು ತೋರಿಸಿ.</string>
     <string name="prefs_enable_word_doc_creation_title">Word ಫೈಲ್‌ಗಳನ್ನು ರಚಿಸಿ</string>
     <string name="prefs_language_category">ಭಾಷೆ</string>
-    <string name="prefs_legal">ಮುಕ್ತ ಮೂಲ ಪರವಾನಗಿಗಳು</string>
+    <string name="prefs_legal">ಓಪನ್ ಸೋರ್ಸ್ ಪರವಾನಗಿಗಳು</string>
     <string name="prefs_notification_category">ಅಧಿಸೂಚನೆ</string>
     <string name="prefs_notification_settings_summary">%1$s ಇಮೇಲ್‌ಗೆ ಅಧಿಸೂಚನೆಯ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬದಲಾಯಿಸಿ</string>
     <string name="prefs_notification_settings_title">ಅಧಿಸೂಚನೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
@@ -1706,6 +1703,7 @@
     <string name="suggestions_add_to_dictionary">ನಿಘಂಟಿಗೆ ಸೇರಿಸಿ</string>
     <string name="suggestions_delete_text">ಅಳಿಸಿ</string>
     <string name="suggestions_popup_opened">ಕಾಗುಣಿತ ಸೂಚನೆಗಳು</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_to_paginated_view">ಮುದ್ರಣದ ಲೇಔಟ್</string>
     <string name="sync_failed">Google ಡಾಕ್ಸ್ ಸಿಂಕ್ರೊನೈಸೇಶನ್ ದೋಷ</string>
     <string name="sync_more_error">ಹೆಚ್ಚುವರಿ ಐಟಂಗಳನ್ನು ಮರುಪಡೆಯುವಲ್ಲಿ ದೋಷವಿದೆ</string>
@@ -1943,6 +1941,8 @@
     <string name="upsell_negbtn">ನಂತರ</string>
     <string name="upsell_okbtn">ಅಪ್‌ಗ್ರೇಡ್‌‌</string>
     <string name="url_typo_error_msg">ಲಿಂಕ್ ಸರಿಯಾಗಿರುವಂತೆ ತೋರುತ್ತಿಲ್ಲ. ಟೈಪಿಂಗ್‌‌ನಲ್ಲಿ ತಪ್ಪು ಕಂಡುಬಂದಿದೆಯೇ?</string>
+    <string name="v7_preference_off">ಆಫ್</string>
+    <string name="v7_preference_on">ಆನ್</string>
     <string name="verbalize_opened_edit">ಎಡಿಟ್ ಅನುಮತಿಗಳ ಜೊತೆಗೆ %1$s ತೆರೆಯಲಾಗಿದೆ.</string>
     <string name="verbalize_opened_suggest">ಕಾಮೆಂಟ್‌ ಮಾಡುವಿಕೆ ಅನುಮತಿಗಳ ಜೊತೆಗೆ %1$s ತೆರೆಯಲಾಗಿದೆ.</string>
     <string name="verbalize_opened_view">ವೀಕ್ಷಿಸುವಿಕೆ ಅನುಮತಿಗಳ ಜೊತೆಗೆ %1$s ತೆರೆಯಲಾಗಿದೆ.</string>
@@ -1971,8 +1971,9 @@
     <string name="warm_welcome_next_button">ಮುಂದೆ</string>
     <string name="warm_welcome_skip_button">ಸ್ಕಿಪ್‌</string>
     <string name="warning_cannot_share_outside_domain">ಈ ತಂಡದ ಡ್ರೈವ್‌ನ ಸೆಟ್ಟಿಂಗ್‌ಗಳು %s ನ ಹೊರಗೆ ಹಂಚಿಕೊಳ್ಳುವುದನ್ನು ತಡೆಯುತ್ತವೆ</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">ಸದಸ್ಯರಲ್ಲದ ಮತ್ತು ಹೊರಗಿನವರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳುವುದನ್ನು ಈ ಟೀಮ್ ಡ್ರೈವ್‌ನ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ತಡೆಯುತ್ತವೆ %s.</string>
     <string name="warning_cannot_share_outside_domain_org">ಈ ಸಂಸ್ಥೆಯ ಸೆಟ್ಟಿಂಗ್‌ಗಳು, ಸಂಸ್ಥೆಯ ಹೊರಗಿನವರೊಂದಿಗೆ ಫೈಲ್‌ಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳುವುದನ್ನು ತಡೆಯುತ್ತವೆ</string>
-    <string name="warning_cannot_share_outside_team_drive">ಈ ತಂಡದ ಡ್ರೈವ್‌ನ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ತಂಡದ ಹೊರಗೆ ಹಂಚಿಕೊಳ್ಳುವುದನ್ನು ತಡೆಯುತ್ತವೆ</string>
+    <string name="warning_cannot_share_outside_team_drive">ಈ ಟೀಮ್ ಡ್ರೈವ್‌ನ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಸದಸ್ಯರಲ್ಲದವರೊಂದಿಗೆ ಲಿಂಕ್ ಹಂಚುವುದನ್ನು ತಡೆಯುತ್ತದೆ</string>
     <string name="welcome_button_close">ಡಾಕ್ಸ್‌ಗೆ ಹೋಗಿ</string>
     <string name="welcome_button_continue">ಮುಂದೆ</string>
     <string name="welcome_offer_button_close">ಮುಚ್ಚು</string>
@@ -2001,7 +2002,7 @@
     <string name="zss_owner_header_title">ಇವರ ಮಾಲೀಕತ್ವದಲ್ಲಿದೆ</string>
     <string name="zss_owner_me">ನನ್ನ ಮಾಲೀಕತ್ವದಲ್ಲಿರುವುದು</string>
     <string name="zss_owner_not_me">ನನ್ನ ಮಾಲೀಕತ್ವದಲ್ಲಿ ಇಲ್ಲದೇ ಇರುವುದು</string>
-    <string name="zss_people_header_title">ಜನರು</string>
+    <string name="zss_people_header_title">ಜನರ</string>
     <string name="zss_showing_list_of_filters">ಲಭ್ಯವಿರುವ ಫಿಲ್ಟರ್‌ಗಳ ಪಟ್ಟಿ ತೋರಿಸಲಾಗುತ್ತಿದೆ.</string>
     <string name="zss_team_drive">%1$s ನಲ್ಲಿ ಹುಡುಕಿ</string>
     <string name="zss_type_archive">ಆರ್ಕೈವ್</string>

@@ -711,7 +711,7 @@
     <string name="empty_doclist_for_pinned_view_details">Омогућите коришћење датотека офлајн у менију са опцијама датотеке</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Додирните „Доступно офлајн“ у менију датотеке да бисте наставили да радите на њој офлајн.</string>
     <string name="empty_doclist_for_recent_view">Нема недавно отвараних ни измењених датотека.</string>
-    <string name="empty_doclist_for_search_view">Нема резултата.</string>
+    <string name="empty_doclist_for_search_view">Нема резултата</string>
     <string name="empty_doclist_for_shared_with_me_view">Датотеке које се деле са вама ће бити приказане овде.</string>
     <string name="empty_doclist_for_starred_view">Немате датотеке са звездицом.</string>
     <string name="empty_doclist_for_starred_view_details">Додирните икону звездице у менију са опцијама датотеке да бисте је додали на ову листу.</string>
@@ -760,6 +760,7 @@
     <string name="error_video_not_available">Видео није обрађен. Пробајте поново касније.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+ још %1$d.</string>
+    <string name="expand_button_title">Напредно</string>
     <string name="expires_future">Истиче за %1$s</string>
     <string name="expires_today">Истиче данас</string>
     <string name="export_download_error_title">Грешка при преузимању</string>
@@ -776,6 +777,11 @@
     <string name="fab_office_document">Нова Word датотека</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d.</string>
     <string name="fast_scroll_search_result_grouper">Резултати претраге</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">kB</string>
+    <string name="fast_scroll_size_grouper_mb">МВ</string>
     <string name="fast_scroll_time_grouper_earlier">Старије</string>
     <string name="fast_scroll_time_grouper_last_week">Прошле недеље</string>
     <string name="fast_scroll_time_grouper_this_month">Раније овог месеца</string>
@@ -995,17 +1001,8 @@
     <string name="manage_addons_playstore_link_description">Идите у Play продавницу за %s</string>
     <string name="manage_members_default_members">Чланови подразумевано могу да отпремају/измене/бришу датотеке и позивају друге чланове</string>
     <string name="manage_members_dialog_title">Приступ за чланове</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Меморијски простор</string>
+    <string name="management_data_loading_failed">Учитавање ове странице није успело</string>
     <string name="menu_backup">Резервне копије</string>
     <string name="menu_copy_link">Копирај линк</string>
     <string name="menu_create_shortcut">Додај на почетни</string>
@@ -1193,7 +1190,7 @@
     <string name="open_document_outline">Отвори структуру документа</string>
     <string name="open_folder_removed">Више не можете погледати директоријум.</string>
     <string name="open_folder_trashed">%1$s је премештен у отпад.</string>
-    <string name="open_in">Отвори у %1$s</string>
+    <string name="open_in">Отворите у %1$s</string>
     <string name="open_link">Прати линк</string>
     <string name="open_pinned_version">Отвори са уређаја</string>
     <string name="open_templates_picker_offline">Идите онлајн да бисте користили шаблоне.</string>
@@ -1400,7 +1397,6 @@
     <string name="published_access_anyone">Свако може да види објављену верзију сајта</string>
     <string name="published_access_domain">Свако на %s може да види објављену верзију сајта</string>
     <string name="published_access_select_people">Одређени људи могу да виде објављену верзију сајта</string>
-    <string name="published_disabled_append">онемогућено,</string>
     <string name="published_message_for_anyone_can_edit">Пошто свако може да измени, свако може да види објављену верзију.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Пошто свако на %1$s може да измени, свако на %1$s може да види објављену верзију.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Пошто свако са линком може да измени, свако може да види објављену верзију.</string>
@@ -1723,7 +1719,7 @@
     <string name="spellcheck_dialog_snackbar_no_more_misspellings">Нема правописних предлога</string>
     <string name="spellcheck_dialog_suggestion_hint">Промените %1$s у</string>
     <string name="spellcheck_dialog_suggestions_drop_down">Додирните да бисте приказали још предлога.</string>
-    <string name="status_bar_notification_info_overflow">>999</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stepper_button_down_arrow">Смањите</string>
     <string name="stepper_button_up_arrow">Повећајте</string>
     <string name="style_palette">Стил</string>
@@ -1735,6 +1731,7 @@
     <string name="suggestions_add_to_dictionary">Додај у речник</string>
     <string name="suggestions_delete_text">Избриши</string>
     <string name="suggestions_popup_opened">Правописни предлози</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_to_paginated_view">Изглед при штампању</string>
     <string name="sync_failed">Грешка у синхронизацији Google докумената</string>
     <string name="sync_more_error">Грешка при преузимању додатних ставки</string>
@@ -1972,6 +1969,8 @@
     <string name="upsell_negbtn">Касније</string>
     <string name="upsell_okbtn">Надогради</string>
     <string name="url_typo_error_msg">Изгледа да линк није исправан. Словна грешка?</string>
+    <string name="v7_preference_off">ИСКЉУЧЕНО</string>
+    <string name="v7_preference_on">УКЉУЧЕНО</string>
     <string name="verbalize_opened_edit">Отворена је датотека %1$s са дозволама за унос измена.</string>
     <string name="verbalize_opened_suggest">Отворена је датотека %1$s са дозволама за коментарисање.</string>
     <string name="verbalize_opened_view">Отворена је датотека %1$s са дозволама за гледање.</string>
@@ -2000,8 +1999,9 @@
     <string name="warm_welcome_next_button">Даље</string>
     <string name="warm_welcome_skip_button">Прескочи</string>
     <string name="warning_cannot_share_outside_domain">Подешавања овог Диска тима не дозвољавају дељење ван %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Подешавања овог Диска тима не дозвољавају дељење ван %s и са корисницима који нису чланови</string>
     <string name="warning_cannot_share_outside_domain_org">Подешавања организације не дозвољавају дељење ван организације</string>
-    <string name="warning_cannot_share_outside_team_drive">Подешавања овог Диска тима не дозвољавају дељење ван тима</string>
+    <string name="warning_cannot_share_outside_team_drive">Подешавања овог Диска тима не дозвољавају дељење са корисницима који нису чланови</string>
     <string name="welcome_button_close">Иди у Документе</string>
     <string name="welcome_button_continue">Даље</string>
     <string name="welcome_offer_button_close">Затвори</string>
@@ -2034,7 +2034,7 @@
     <string name="zss_showing_list_of_filters">Приказана је листа доступних филтера.</string>
     <string name="zss_team_drive">Претражите у %1$s</string>
     <string name="zss_type_archive">Архива</string>
-    <string name="zss_type_audio">Аудио</string>
+    <string name="zss_type_audio">Звук</string>
     <string name="zss_type_documents">Текстуални документи</string>
     <string name="zss_type_folder">Директоријуми</string>
     <string name="zss_type_images">Фотографије и слике</string>

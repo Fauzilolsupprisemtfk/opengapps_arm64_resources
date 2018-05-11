@@ -710,7 +710,7 @@
     <string name="empty_doclist_for_pinned_view_details">در منوی گزینه‌های فایل، تنظیم کنید فایل‌ها «در حالت آفلاین در دسترس باشند»</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">در منوی فایل روی «در حالت آفلاین در دسترس باشد» ضربه بزنید تا بتوانید همچنان در حالت آفلاین روی آن کار کنید.</string>
     <string name="empty_doclist_for_recent_view">هیچ فایلی اخیراً باز یا ویرایش نشده است.</string>
-    <string name="empty_doclist_for_search_view">نتیجه‌ای پیدا نشد.</string>
+    <string name="empty_doclist_for_search_view">نتیجه‌ای پیدا نشد</string>
     <string name="empty_doclist_for_shared_with_me_view">فایل‌های به اشتراک‌گذاشته‌شده با شما در اینجا نمایش داده می‌شوند.</string>
     <string name="empty_doclist_for_starred_view">هیچ فایل ستاره‌داری ندارید.</string>
     <string name="empty_doclist_for_starred_view_details">روی نماد ستاره در منوی گزینه فایل ضربه بزنید تا به این فهرست اضافه شود.</string>
@@ -759,6 +759,7 @@
     <string name="error_video_not_available">ویدئو پردازش نشد. لطفاً بعداً دوباره امتحان کنید.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d نفر دیگر</string>
+    <string name="expand_button_title">پیشرفته</string>
     <string name="expires_future">در %1$s منقضی می‌شود</string>
     <string name="expires_today">امروز منقضی می‌شود</string>
     <string name="export_download_error_title">خطای بارگیری</string>
@@ -775,6 +776,11 @@
     <string name="fab_office_document">‏فایل Word جدید</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">نتیجه‌های جستجو</string>
+    <string name="fast_scroll_size_grouper_b">بایت</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">گیگابایت</string>
+    <string name="fast_scroll_size_grouper_kb">کیلوبایت</string>
+    <string name="fast_scroll_size_grouper_mb">مگابایت</string>
     <string name="fast_scroll_time_grouper_earlier">قدیمی‌تر</string>
     <string name="fast_scroll_time_grouper_last_week">هفته گذشته</string>
     <string name="fast_scroll_time_grouper_this_month">اوایل این ماه</string>
@@ -993,17 +999,8 @@
     <string name="manage_addons_playstore_link_description">پیمایش به فروشگاه Play برای %s</string>
     <string name="manage_members_default_members">اعضا به‌صورت پیش‌فرض می‌توانند فایل‌ها را بارگذاری/ویرایش/حذف کنند و سایر اعضا را دعوت کنند</string>
     <string name="manage_members_dialog_title">دسترسی عضو</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">فضای ذخیره‌سازی</string>
+    <string name="management_data_loading_failed">صفحه بارگیری نشد.</string>
     <string name="menu_backup">نسخه‌های پشتیبان</string>
     <string name="menu_copy_link">کپی کردن پیوند</string>
     <string name="menu_create_shortcut">افزودن به صفحه اصلی</string>
@@ -1720,7 +1717,7 @@
     <string name="spellcheck_dialog_snackbar_no_more_misspellings">پیشنهاد املایی وجود ندارد</string>
     <string name="spellcheck_dialog_suggestion_hint">تغییر %1$s به</string>
     <string name="spellcheck_dialog_suggestions_drop_down">برای مشاهده پیشنهادهای بیشتر، ضربه بزنید</string>
-    <string name="status_bar_notification_info_overflow">۹۹۹+</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stepper_button_down_arrow">کاهش</string>
     <string name="stepper_button_up_arrow">افزایش</string>
     <string name="style_palette">سبک</string>
@@ -1732,6 +1729,7 @@
     <string name="suggestions_add_to_dictionary">افزودن به واژه‌نامه</string>
     <string name="suggestions_delete_text">حذف</string>
     <string name="suggestions_popup_opened">پیشنهادهایی برای املا</string>
+    <string name="summary_collapsed_preference_list">%1$s، %2$s</string>
     <string name="switch_to_paginated_view">چیدمان چاپ</string>
     <string name="sync_failed">‏خطا در همگام‌سازی سندنگار Google</string>
     <string name="sync_more_error">خطا در بازیابی موارد بیشتر</string>
@@ -1969,6 +1967,8 @@
     <string name="upsell_negbtn">بعداً</string>
     <string name="upsell_okbtn">ارتقا</string>
     <string name="url_typo_error_msg">پیوند درست به نظر نمی‌رسد. اشتباه تایپی دارد؟</string>
+    <string name="v7_preference_off">خاموش</string>
+    <string name="v7_preference_on">روشن</string>
     <string name="verbalize_opened_edit">‏%1$s را با اجازه‌های «ویرایش» باز کرد.</string>
     <string name="verbalize_opened_suggest">‏%1$s را با اجازه‌های «نظر گذاشتن» باز کرد.</string>
     <string name="verbalize_opened_view">‏%1$s را با اجازه‌های «مشاهده» باز کرد.</string>
@@ -1997,8 +1997,9 @@
     <string name="warm_welcome_next_button">بعدی</string>
     <string name="warm_welcome_skip_button">رد شدن</string>
     <string name="warning_cannot_share_outside_domain">تنظیمات این «درایو گروه» مانع هم‌رسانی در خارج از %s می‌شود</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">تنظیمات این درایو گروه مانع هم‌رسانی با افراد غیرعضو و خارج از %s می‌شود</string>
     <string name="warning_cannot_share_outside_domain_org">تنظیمات سازمان مانع هم‌رسانی در خارج از سازمان می‌شود</string>
-    <string name="warning_cannot_share_outside_team_drive">تنظیمات این «درایو گروه» مانع هم‌رسانی در خارج از تیم می‌شود</string>
+    <string name="warning_cannot_share_outside_team_drive">تنظیمات این درایو گروه مانع هم‌رسانی با افراد غیرعضو می‌شود</string>
     <string name="welcome_button_close">رفتن به سندنگار</string>
     <string name="welcome_button_continue">بعدی</string>
     <string name="welcome_offer_button_close">بستن</string>
@@ -2031,12 +2032,12 @@
     <string name="zss_showing_list_of_filters">نمایش فهرست فیلترهای موجود</string>
     <string name="zss_team_drive">جستجو در %1$s</string>
     <string name="zss_type_archive">بایگانی</string>
-    <string name="zss_type_audio">صوتی</string>
-    <string name="zss_type_documents">سندهای نوشتاری</string>
-    <string name="zss_type_folder">پوشه‌ها</string>
+    <string name="zss_type_audio">صوت</string>
+    <string name="zss_type_documents">سند نوشتاری</string>
+    <string name="zss_type_folder">پوشه</string>
     <string name="zss_type_images">عکس و تصویر</string>
-    <string name="zss_type_pdfs">‏فایل‌های PDF</string>
-    <string name="zss_type_presentations">ارائه‌ها</string>
-    <string name="zss_type_spreadsheets">صفحه‌گسترده‌ها</string>
-    <string name="zss_type_video">ویدئوها</string>
+    <string name="zss_type_pdfs">PDF</string>
+    <string name="zss_type_presentations">ارائه‌</string>
+    <string name="zss_type_spreadsheets">صفحه‌گسترده</string>
+    <string name="zss_type_video">ویدیو</string>
 </resources>

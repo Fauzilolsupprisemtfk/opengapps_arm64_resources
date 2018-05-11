@@ -703,7 +703,7 @@ Probajte da otpremite datoteku."</string>
     <string name="empty_doclist_for_pinned_view_details">Omogućite korišćenje datoteka oflajn u meniju sa opcijama datoteke</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Dodirnite „Dostupno oflajn“ u meniju datoteke da biste nastavili da radite na njoj oflajn.</string>
     <string name="empty_doclist_for_recent_view">Nema nedavno otvaranih ni izmenjenih datoteka.</string>
-    <string name="empty_doclist_for_search_view">Nema rezultata.</string>
+    <string name="empty_doclist_for_search_view">Nema rezultata</string>
     <string name="empty_doclist_for_shared_with_me_view">Datoteke koje se dele sa vama će biti prikazane ovde.</string>
     <string name="empty_doclist_for_starred_view">Nemate datoteke sa zvezdicom.</string>
     <string name="empty_doclist_for_starred_view_details">Dodirnite ikonu zvezdice u meniju sa opcijama datoteke da biste je dodali na ovu listu.</string>
@@ -752,6 +752,7 @@ Kliknite na + da biste napravili nov dokument."</string>
     <string name="error_video_not_available">Video nije obrađen. Probajte ponovo kasnije.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+ još %1$d.</string>
+    <string name="expand_button_title">Napredno</string>
     <string name="expires_future">Ističe za %1$s</string>
     <string name="expires_today">Ističe danas</string>
     <string name="export_download_error_title">Greška pri preuzimanju</string>
@@ -768,6 +769,11 @@ Kliknite na + da biste napravili nov dokument."</string>
     <string name="fab_office_document">Nova Word datoteka</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d.</string>
     <string name="fast_scroll_search_result_grouper">Rezultati pretrage</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">kB</string>
+    <string name="fast_scroll_size_grouper_mb">MV</string>
     <string name="fast_scroll_time_grouper_earlier">Starije</string>
     <string name="fast_scroll_time_grouper_last_week">Prošle nedelje</string>
     <string name="fast_scroll_time_grouper_this_month">Ranije ovog meseca</string>
@@ -986,17 +992,6 @@ Kliknite na + da biste napravili nov dokument."</string>
     <string name="manage_addons_playstore_link_description">Idite u Play prodavnicu za %s</string>
     <string name="manage_members_default_members">Članovi podrazumevano mogu da otpremaju/izmene/brišu datoteke i pozivaju druge članove</string>
     <string name="manage_members_dialog_title">Pristup za članove</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
     <string name="menu_backup">Rezervne kopije</string>
     <string name="menu_copy_link">Kopiraj link</string>
     <string name="menu_create_shortcut">Dodaj na početni</string>
@@ -1183,7 +1178,7 @@ Kliknite na + da biste napravili nov dokument."</string>
     <string name="open_document_outline">Otvori strukturu dokumenta</string>
     <string name="open_folder_removed">Više ne možete pogledati direktorijum.</string>
     <string name="open_folder_trashed">%1$s je premešten u otpad.</string>
-    <string name="open_in">Otvori u %1$s</string>
+    <string name="open_in">Otvorite u %1$s</string>
     <string name="open_link">Prati link</string>
     <string name="open_pinned_version">Otvori sa uređaja</string>
     <string name="open_templates_picker_offline">Idite onlajn da biste koristili šablone.</string>
@@ -1389,7 +1384,6 @@ Kliknite na + da biste napravili nov dokument."</string>
     <string name="published_access_anyone">Svako može da vidi objavljenu verziju sajta</string>
     <string name="published_access_domain">Svako na %s može da vidi objavljenu verziju sajta</string>
     <string name="published_access_select_people">Određeni ljudi mogu da vide objavljenu verziju sajta</string>
-    <string name="published_disabled_append">onemogućeno,</string>
     <string name="published_message_for_anyone_can_edit">Pošto svako može da izmeni, svako može da vidi objavljenu verziju.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Pošto svako na %1$s može da izmeni, svako na %1$s može da vidi objavljenu verziju.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Pošto svako sa linkom može da izmeni, svako može da vidi objavljenu verziju.</string>
@@ -1712,7 +1706,7 @@ Kliknite na + da biste napravili nov dokument."</string>
     <string name="spellcheck_dialog_snackbar_no_more_misspellings">Nema pravopisnih predloga</string>
     <string name="spellcheck_dialog_suggestion_hint">Promenite %1$s u</string>
     <string name="spellcheck_dialog_suggestions_drop_down">Dodirnite da biste prikazali još predloga.</string>
-    <string name="status_bar_notification_info_overflow">>999</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stepper_button_down_arrow">Smanjite</string>
     <string name="stepper_button_up_arrow">Povećajte</string>
     <string name="style_palette">Stil</string>
@@ -1724,6 +1718,7 @@ Kliknite na + da biste napravili nov dokument."</string>
     <string name="suggestions_add_to_dictionary">Dodaj u rečnik</string>
     <string name="suggestions_delete_text">Izbriši</string>
     <string name="suggestions_popup_opened">Pravopisni predlozi</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_to_paginated_view">Izgled pri štampanju</string>
     <string name="sync_failed">Greška u sinhronizaciji Google dokumenata</string>
     <string name="sync_more_error">Greška pri preuzimanju dodatnih stavki</string>
@@ -1961,6 +1956,8 @@ Kliknite na + da biste napravili nov dokument."</string>
     <string name="upsell_negbtn">Kasnije</string>
     <string name="upsell_okbtn">Nadogradi</string>
     <string name="url_typo_error_msg">Izgleda da link nije ispravan. Slovna greška?</string>
+    <string name="v7_preference_off">ISKLJUČENO</string>
+    <string name="v7_preference_on">UKLJUČENO</string>
     <string name="verbalize_opened_edit">Otvorena je datoteka %1$s sa dozvolama za unos izmena.</string>
     <string name="verbalize_opened_suggest">Otvorena je datoteka %1$s sa dozvolama za komentarisanje.</string>
     <string name="verbalize_opened_view">Otvorena je datoteka %1$s sa dozvolama za gledanje.</string>
@@ -1989,8 +1986,9 @@ Kliknite na + da biste napravili nov dokument."</string>
     <string name="warm_welcome_next_button">Dalje</string>
     <string name="warm_welcome_skip_button">Preskoči</string>
     <string name="warning_cannot_share_outside_domain">Podešavanja ovog Diska tima ne dozvoljavaju deljenje van %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Podešavanja ovog Diska tima ne dozvoljavaju deljenje van %s i sa korisnicima koji nisu članovi</string>
     <string name="warning_cannot_share_outside_domain_org">Podešavanja organizacije ne dozvoljavaju deljenje van organizacije</string>
-    <string name="warning_cannot_share_outside_team_drive">Podešavanja ovog Diska tima ne dozvoljavaju deljenje van tima</string>
+    <string name="warning_cannot_share_outside_team_drive">Podešavanja ovog Diska tima ne dozvoljavaju deljenje sa korisnicima koji nisu članovi</string>
     <string name="welcome_button_close">Idi u Dokumente</string>
     <string name="welcome_button_continue">Dalje</string>
     <string name="welcome_offer_button_close">Zatvori</string>
@@ -2023,7 +2021,7 @@ Kliknite na + da biste napravili nov dokument."</string>
     <string name="zss_showing_list_of_filters">Prikazana je lista dostupnih filtera.</string>
     <string name="zss_team_drive">Pretražite u %1$s</string>
     <string name="zss_type_archive">Arhiva</string>
-    <string name="zss_type_audio">Audio</string>
+    <string name="zss_type_audio">Zvuk</string>
     <string name="zss_type_documents">Tekstualni dokumenti</string>
     <string name="zss_type_folder">Direktorijumi</string>
     <string name="zss_type_images">Fotografije i slike</string>

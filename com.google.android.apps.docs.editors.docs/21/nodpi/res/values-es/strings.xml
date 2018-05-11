@@ -711,7 +711,7 @@ Prueba a subir un archivo."</string>
     <string name="empty_doclist_for_pinned_view_details">Haz que los archivos estén disponibles sin conexión en el menú de opciones del archivo</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Toca Disponible sin conexión en el menú de un archivo para que puedas seguir trabajando en él sin conexión.</string>
     <string name="empty_doclist_for_recent_view">No hay ningún archivo que se haya abierto o editado recientemente.</string>
-    <string name="empty_doclist_for_search_view">No hay resultados.</string>
+    <string name="empty_doclist_for_search_view">Ningún resultado</string>
     <string name="empty_doclist_for_shared_with_me_view">Los archivos compartidos contigo se mostrarán aquí.</string>
     <string name="empty_doclist_for_starred_view">No hay archivos destacados.</string>
     <string name="empty_doclist_for_starred_view_details">Toca el icono de la estrella en el menú de opciones del archivo para añadirlo a esta lista.</string>
@@ -760,6 +760,7 @@ Haz clic en + para crear un documento."</string>
     <string name="error_video_not_available">El vídeo no se ha procesado. Inténtalo de nuevo más tarde.</string>
     <string name="excess_head_count">Más de %1$d</string>
     <string name="excess_head_count_verbalization">y %1$d más.</string>
+    <string name="expand_button_title">Avanzado</string>
     <string name="expires_future">Caduca en %1$s</string>
     <string name="expires_today">Caduca hoy</string>
     <string name="export_download_error_title">Error de descarga</string>
@@ -776,6 +777,11 @@ Haz clic en + para crear un documento."</string>
     <string name="fab_office_document">Nuevo archivo de Word</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s de %2$d</string>
     <string name="fast_scroll_search_result_grouper">Resultados</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">kB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Anteriores</string>
     <string name="fast_scroll_time_grouper_last_week">La semana pasada</string>
     <string name="fast_scroll_time_grouper_this_month">Este mes antes</string>
@@ -1007,17 +1013,8 @@ Haz clic en + para crear un documento."</string>
     <string name="manage_addons_playstore_link_description">Acceder a la página de Play Store de %s</string>
     <string name="manage_members_default_members">Los miembros pueden subir, editar o eliminar archivos e invitar a otros de forma predeterminada</string>
     <string name="manage_members_dialog_title">Permisos de miembros</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Almacenamiento</string>
+    <string name="management_data_loading_failed">No se ha podido cargar esta página</string>
     <string name="menu_backup">Copias de seguridad</string>
     <string name="menu_copy_link">Copiar enlace</string>
     <string name="menu_create_shortcut">Añadir al inicio</string>
@@ -1234,8 +1231,8 @@ Haz clic en + para crear un documento."</string>
     <string name="ouch_title_sawwrie">Lo sentimos.</string>
     <string name="overwrite_confirm_dialog_message">%1$s ya existe. ¿Quieres sobrescribirlo?</string>
     <string name="overwrite_confirm_dialog_positive_button_label">Sobrescribir</string>
-    <string name="owner_not_user">No pertenecen a %1$s</string>
-    <string name="owner_user">Pertenecen a %1$s</string>
+    <string name="owner_not_user">No son propiedad de %1$s</string>
+    <string name="owner_user">Propiedad de %1$s</string>
     <string name="page_1_description">Haz tus cosas con o sin conexión a Internet.</string>
     <string name="page_1_heading_editors">Redacta desde cualquier parte</string>
     <string name="page_2_description">Escribe por tu cuenta o invita a más personas a que participen.</string>
@@ -1412,7 +1409,6 @@ Haz clic en + para crear un documento."</string>
     <string name="published_access_anyone">Cualquier usuario puede ver la versión publicada</string>
     <string name="published_access_domain">Cualquier usuario de %s puede ver la versión publicada</string>
     <string name="published_access_select_people">Solo ciertos usuarios pueden la versión publicada</string>
-    <string name="published_disabled_append">inhabilitada,</string>
     <string name="published_message_for_anyone_can_edit">Como cualquier usuario puede editar el borrador, cualquiera podrá verlo cuando se publique.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Como cualquier usuario de %1$s puede editar el borrador, cualquiera que pertenezca a %1$s podrá verlo cuando se publique.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Como cualquier usuario con el enlace puede editar el borrador, cualquiera podrá verlo cuando se publique.</string>
@@ -1747,6 +1743,7 @@ Haz clic en + para crear un documento."</string>
     <string name="suggestions_add_to_dictionary">Añadir al diccionario</string>
     <string name="suggestions_delete_text">Eliminar</string>
     <string name="suggestions_popup_opened">Sugerencias de ortografía</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_to_paginated_view">Diseño de impresión</string>
     <string name="sync_failed">Error de sincronización de Documentos de Google</string>
     <string name="sync_more_error">Error al recuperar elementos adicionales</string>
@@ -1984,6 +1981,8 @@ Haz clic en + para crear un documento."</string>
     <string name="upsell_negbtn">En otro momento</string>
     <string name="upsell_okbtn">Adquirir más almacenamiento</string>
     <string name="url_typo_error_msg">El enlace no parece correcto. ¿Está bien escrito?</string>
+    <string name="v7_preference_off">DESACTIVADO</string>
+    <string name="v7_preference_on">ACTIVADO</string>
     <string name="verbalize_opened_edit">Se ha abierto %1$s con permisos para editar.</string>
     <string name="verbalize_opened_suggest">Se ha abierto %1$s con permisos para comentar.</string>
     <string name="verbalize_opened_view">Se ha abierto %1$s con permisos para ver.</string>
@@ -2012,8 +2011,9 @@ Haz clic en + para crear un documento."</string>
     <string name="warm_welcome_next_button">Siguiente</string>
     <string name="warm_welcome_skip_button">Saltar</string>
     <string name="warning_cannot_share_outside_domain">La configuración de esta unidad de equipo impide compartir el archivo fuera de %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">La configuración de esta unidad de equipo impide compartir archivos con usuarios que no pertenezcan a ella y fuera de %s</string>
     <string name="warning_cannot_share_outside_domain_org">La configuración de la organización impide compartir archivos fuera de ella</string>
-    <string name="warning_cannot_share_outside_team_drive">La configuración de esta unidad de equipo impide compartir el archivo fuera del equipo</string>
+    <string name="warning_cannot_share_outside_team_drive">La configuración de esta unidad de equipo impide compartir archivos con usuarios que no pertenezcan a ella</string>
     <string name="welcome_button_close">Ir a Documentos</string>
     <string name="welcome_button_continue">Siguiente</string>
     <string name="welcome_offer_button_close">Cerrar</string>
@@ -2035,7 +2035,7 @@ Haz clic en + para crear un documento."</string>
     <string name="zss_date_range_month">Últimos 30 días</string>
     <string name="zss_date_range_three_month">Últimos 90 días</string>
     <string name="zss_date_range_today">Hoy</string>
-    <string name="zss_date_range_week">Últimos 7 días</string>
+    <string name="zss_date_range_week">Últimos 7 días</string>
     <string name="zss_date_range_yesterday">Ayer</string>
     <string name="zss_entry_types_header_title">Tipos de archivo</string>
     <string name="zss_no_filters">Ningún filtro</string>
@@ -2050,7 +2050,7 @@ Haz clic en + para crear un documento."</string>
     <string name="zss_type_documents">Documentos de texto</string>
     <string name="zss_type_folder">Carpetas</string>
     <string name="zss_type_images">Fotos e imágenes</string>
-    <string name="zss_type_pdfs">PDF</string>
+    <string name="zss_type_pdfs">Archivos PDF</string>
     <string name="zss_type_presentations">Presentaciones</string>
     <string name="zss_type_spreadsheets">Hojas de cálculo</string>
     <string name="zss_type_video">Vídeos</string>

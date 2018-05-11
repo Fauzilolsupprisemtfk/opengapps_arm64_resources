@@ -711,7 +711,7 @@ Intenta subir un archivo."</string>
     <string name="empty_doclist_for_pinned_view_details">Configura los archivos como \"Disponibles sin conexión\" en el menú de opciones del archivo</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Presiona \"Disponible sin conexión\" en el menú de un archivo para seguir trabajando en él aunque estés desconectado.</string>
     <string name="empty_doclist_for_recent_view">No hay archivos abiertos o editados recientemente.</string>
-    <string name="empty_doclist_for_search_view">No hay resultados.</string>
+    <string name="empty_doclist_for_search_view">No hay resultados</string>
     <string name="empty_doclist_for_shared_with_me_view">Los archivos compartidos contigo aparecerán aquí.</string>
     <string name="empty_doclist_for_starred_view">No tienes archivos destacados.</string>
     <string name="empty_doclist_for_starred_view_details">Presiona el ícono de estrella en el menú de opciones del archivo para agregarlo a esta lista.</string>
@@ -760,6 +760,7 @@ Haz clic en + para crear un documento nuevo."</string>
     <string name="error_video_not_available">El video no se ha procesado. Inténtalo de nuevo más tarde.</string>
     <string name="excess_head_count">Más de %1$d</string>
     <string name="excess_head_count_verbalization">Más de %1$d</string>
+    <string name="expand_button_title">Avanzado</string>
     <string name="expires_future">Vence en %1$s</string>
     <string name="expires_today">Vence hoy</string>
     <string name="export_download_error_title">Error de descarga</string>
@@ -776,6 +777,11 @@ Haz clic en + para crear un documento nuevo."</string>
     <string name="fab_office_document">Nuevo archivo de Word</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s de %2$d</string>
     <string name="fast_scroll_search_result_grouper">Result. de búsq.</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Antiguos</string>
     <string name="fast_scroll_time_grouper_last_week">La semana pasada</string>
     <string name="fast_scroll_time_grouper_this_month">Antes este mes</string>
@@ -1211,7 +1217,7 @@ Haz clic en + para crear un documento nuevo."</string>
     <string name="ouch_title_sawwrie">Lo sentimos</string>
     <string name="overwrite_confirm_dialog_message">%1$s ya existe. ¿Deseas sobrescribirlo?</string>
     <string name="overwrite_confirm_dialog_positive_button_label">Sobrescribir</string>
-    <string name="owner_not_user">No son propiedad de %1$s</string>
+    <string name="owner_not_user">Ajenos a %1$s</string>
     <string name="owner_user">Propiedad de %1$s</string>
     <string name="page_1_description">Trabaja con o sin conexión a Internet.</string>
     <string name="page_1_heading_editors">Escribe dondequiera que estés</string>
@@ -1723,6 +1729,7 @@ Haz clic en + para crear un documento nuevo."</string>
     <string name="suggestions_add_to_dictionary">Agregar al diccionario</string>
     <string name="suggestions_delete_text">Borrar</string>
     <string name="suggestions_popup_opened">Sugerencias de ortografía</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_to_paginated_view">Diseño de impresión</string>
     <string name="sync_failed">Error de sincronización de Documentos de Google</string>
     <string name="sync_more_error">Se produjo un error al intentar recuperar elementos adicionales.</string>
@@ -1960,6 +1967,8 @@ Haz clic en + para crear un documento nuevo."</string>
     <string name="upsell_negbtn">Más tarde</string>
     <string name="upsell_okbtn">Actualizar</string>
     <string name="url_typo_error_msg">El vínculo parece incorrecto. ¿Está bien escrito?</string>
+    <string name="v7_preference_off">DESACTIVADO</string>
+    <string name="v7_preference_on">ACTIVADO</string>
     <string name="verbalize_opened_edit">Se abrió %1$s con permisos de edición.</string>
     <string name="verbalize_opened_suggest">Se abrió %1$s con permisos de comentario.</string>
     <string name="verbalize_opened_view">Se abrió %1$s con permisos de visualización.</string>
@@ -1988,6 +1997,7 @@ Haz clic en + para crear un documento nuevo."</string>
     <string name="warm_welcome_next_button">Siguiente</string>
     <string name="warm_welcome_skip_button">Omitir</string>
     <string name="warning_cannot_share_outside_domain">La configuración de esta unidad de equipo no permite compartir elementos fuera de %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">La configuración de esta unidad de equipo no permite compartir elementos con personas ajenas a ella y a %s</string>
     <string name="warning_cannot_share_outside_domain_org">La configuración de la organización no permite compartir elementos fuera de ella</string>
     <string name="warning_cannot_share_outside_team_drive">La configuración de esta unidad de equipo no permite compartir elementos con personas ajenas a ella</string>
     <string name="welcome_button_close">Ir a Documentos</string>
@@ -2013,15 +2023,15 @@ Haz clic en + para crear un documento nuevo."</string>
     <string name="zss_date_range_today">Hoy</string>
     <string name="zss_date_range_week">Últimos 7 días</string>
     <string name="zss_date_range_yesterday">Ayer</string>
-    <string name="zss_entry_types_header_title">Tipos de archivos</string>
+    <string name="zss_entry_types_header_title">Tipos de archivo</string>
     <string name="zss_no_filters">No hay filtros</string>
     <string name="zss_owner_header_title">Propiedad de</string>
     <string name="zss_owner_me">De mi propiedad</string>
-    <string name="zss_owner_not_me">Ajenos a mi propiedad</string>
+    <string name="zss_owner_not_me">De otros usuarios</string>
     <string name="zss_people_header_title">Personas</string>
     <string name="zss_showing_list_of_filters">Se muestra la lista de filtros disponibles.</string>
     <string name="zss_team_drive">Buscar en %1$s</string>
-    <string name="zss_type_archive">Archivar</string>
+    <string name="zss_type_archive">Archivo</string>
     <string name="zss_type_audio">Audio</string>
     <string name="zss_type_documents">Documentos de texto</string>
     <string name="zss_type_folder">Carpetas</string>

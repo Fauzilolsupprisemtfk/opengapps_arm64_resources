@@ -711,7 +711,7 @@
     <string name="empty_doclist_for_pinned_view_details">Зробіть файли доступними офлайн, вибравши відповідну опцію в меню</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Торкніться опції \"Доступний офлайн\" у меню файлу, щоб мати змогу працювати з ним у режимі офлайн.</string>
     <string name="empty_doclist_for_recent_view">Останнім часом ви не відкривали й не редагували файли.</string>
-    <string name="empty_doclist_for_search_view">Результатів немає.</string>
+    <string name="empty_doclist_for_search_view">Немає результатів</string>
     <string name="empty_doclist_for_shared_with_me_view">Тут з’являтимуться файли, до яких вам надали доступ.</string>
     <string name="empty_doclist_for_starred_view">У вас немає файлів із зірочкою.</string>
     <string name="empty_doclist_for_starred_view_details">Торкніться значка зірочки в меню опцій файлу, щоб додати його в цей список.</string>
@@ -760,6 +760,7 @@
     <string name="error_video_not_available">Відео не оброблено. Повторіть спробу пізніше.</string>
     <string name="excess_head_count">і ще %1$d</string>
     <string name="excess_head_count_verbalization">Ще %1$d.</string>
+    <string name="expand_button_title">Додатково</string>
     <string name="expires_future">Термін дії закінчується за %1$s</string>
     <string name="expires_today">Закінчиться сьогодні</string>
     <string name="export_download_error_title">Помилка завантаження</string>
@@ -776,6 +777,11 @@
     <string name="fab_office_document">Створити файл Word</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Результати пошуку</string>
+    <string name="fast_scroll_size_grouper_b">Б</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">ГБ</string>
+    <string name="fast_scroll_size_grouper_kb">КБ</string>
+    <string name="fast_scroll_size_grouper_mb">МБ</string>
     <string name="fast_scroll_time_grouper_earlier">Старіші</string>
     <string name="fast_scroll_time_grouper_last_week">Минулого тижня</string>
     <string name="fast_scroll_time_grouper_this_month">Цього місяця</string>
@@ -995,17 +1001,8 @@
     <string name="manage_addons_playstore_link_description">Перейти до доповнення \"%s\" у магазині Play</string>
     <string name="manage_members_default_members">За умовчанням користувачі можуть завантажувати, змінювати й видаляти файли та запрошувати учасників</string>
     <string name="manage_members_dialog_title">Доступ учасників</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Пам’ять</string>
+    <string name="management_data_loading_failed">Не вдається завантажити цю сторінку</string>
     <string name="menu_backup">Резервні копії</string>
     <string name="menu_copy_link">Копія посилання</string>
     <string name="menu_create_shortcut">На Головний екран</string>
@@ -1400,7 +1397,6 @@
     <string name="published_access_anyone">Переглядати опубліковане можуть усі</string>
     <string name="published_access_domain">Переглядати опубліковане можуть усі користувачі домену %s</string>
     <string name="published_access_select_people">Переглядати опубліковане можуть лише певні особи</string>
-    <string name="published_disabled_append">вимкнено</string>
     <string name="published_message_for_anyone_can_edit">Оскільки редагувати можуть усі, будь-хто може переглядати опубліковане.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Оскільки редагувати можуть усі користувачі домену %1$s, будь-хто в домені %1$s може переглядати опубліковане.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Оскільки редагувати можуть усі, хто має посилання, будь-хто може переглядати опубліковане.</string>
@@ -1735,6 +1731,7 @@
     <string name="suggestions_add_to_dictionary">Додати в словник</string>
     <string name="suggestions_delete_text">Видалити</string>
     <string name="suggestions_popup_opened">Пропозиції варіантів написання</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_to_paginated_view">Попередній перегляд</string>
     <string name="sync_failed">Помилка синхронізації Google Документів</string>
     <string name="sync_more_error">Не вдалось отримати додаткові елементи</string>
@@ -1972,6 +1969,8 @@
     <string name="upsell_negbtn">Пізніше</string>
     <string name="upsell_okbtn">Збільшити</string>
     <string name="url_typo_error_msg">З посиланням щось не так. Зробили помилку?</string>
+    <string name="v7_preference_off">ВИМКНЕНО</string>
+    <string name="v7_preference_on">УВІМКНЕНО</string>
     <string name="verbalize_opened_edit">\"%1$s\" відкрито в режимі редагування.</string>
     <string name="verbalize_opened_suggest">\"%1$s\" відкрито в режимі коментування.</string>
     <string name="verbalize_opened_view">\"%1$s\" відкрито в режимі перегляду.</string>
@@ -2000,6 +1999,7 @@
     <string name="warm_welcome_next_button">Далі</string>
     <string name="warm_welcome_skip_button">Пропустити</string>
     <string name="warning_cannot_share_outside_domain">У налаштуваннях спільного Диска дозволено надавати доступ тільки користувачам із домену %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">У налаштуваннях спільного Диска заборонено надавати доступ користувачам з інших команд і доменів, окрім %s</string>
     <string name="warning_cannot_share_outside_domain_org">У налаштуваннях організації заборонено надавати доступ користувачам з інших організацій</string>
     <string name="warning_cannot_share_outside_team_drive">У налаштуваннях спільного Диска заборонено надавати доступ користувачам з інших команд</string>
     <string name="welcome_button_close">Відкрити Документи</string>
@@ -2034,7 +2034,7 @@
     <string name="zss_showing_list_of_filters">Показано список доступних фільтрів.</string>
     <string name="zss_team_drive">Пошук на спільному Диску \"%1$s\"</string>
     <string name="zss_type_archive">Архів</string>
-    <string name="zss_type_audio">Аудіо</string>
+    <string name="zss_type_audio">Звук</string>
     <string name="zss_type_documents">Текстові документи</string>
     <string name="zss_type_folder">Папки</string>
     <string name="zss_type_images">Фотографії та зображення</string>

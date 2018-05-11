@@ -760,6 +760,7 @@ Kliknutím na položku + vytvoríte nový dokument."</string>
     <string name="error_video_not_available">Video nebolo spracované. Skúste to znova neskôr.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+ ďalší (%1$d).</string>
+    <string name="expand_button_title">Rozšírené</string>
     <string name="expires_future">Vyprší o %1$s</string>
     <string name="expires_today">Platnosť vyprší dnes</string>
     <string name="export_download_error_title">Chyba pri sťahovaní</string>
@@ -776,6 +777,11 @@ Kliknutím na položku + vytvoríte nový dokument."</string>
     <string name="fab_office_document">Nový súbor programu Word</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Výsledky vyhľad.</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">kB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Staršie</string>
     <string name="fast_scroll_time_grouper_last_week">Minulý týždeň</string>
     <string name="fast_scroll_time_grouper_this_month">Tento mesiac</string>
@@ -995,17 +1001,8 @@ Kliknutím na položku + vytvoríte nový dokument."</string>
     <string name="manage_addons_playstore_link_description">Prejsť do Obchodu Play a získať doplnok %s</string>
     <string name="manage_members_default_members">Členovia môžu predvolene nahrávať, upravovať a odstraňovať súbory a pozývať ďalších členov</string>
     <string name="manage_members_dialog_title">Prístup členov</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Úložisko</string>
+    <string name="management_data_loading_failed">Táto stránka sa nedá načítať</string>
     <string name="menu_backup">Zálohy</string>
     <string name="menu_copy_link">Kopírovať odkaz</string>
     <string name="menu_create_shortcut">Pridať na plochu</string>
@@ -1400,7 +1397,6 @@ Kliknutím na položku + vytvoríte nový dokument."</string>
     <string name="published_access_anyone">Po zverejnení môže zobraziť ktokoľvek</string>
     <string name="published_access_domain">Po zverejnení môže zobraziť ktokoľvek v doméne %s</string>
     <string name="published_access_select_people">Po zverejnení môžu zobraziť konkrétni ľudia</string>
-    <string name="published_disabled_append">zakázané</string>
     <string name="published_message_for_anyone_can_edit">Keďže upravovať môže ktokoľvek, po zverejnení môže položku zobraziť ktokoľvek.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Keďže upravovať môže ktokoľvek v doméne %1$s, po zverejnení môže položku zobraziť ktokoľvek v doméne %1$s.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Keďže upravovať môže ktokoľvek s odkazom, po zverejnení môže položku zobraziť ktokoľvek.</string>
@@ -1735,6 +1731,7 @@ Kliknutím na položku + vytvoríte nový dokument."</string>
     <string name="suggestions_add_to_dictionary">Pridať do slovníka</string>
     <string name="suggestions_delete_text">Odstrániť</string>
     <string name="suggestions_popup_opened">Návrhy na opravu pravopisu</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_to_paginated_view">Rozloženie pri tlači</string>
     <string name="sync_failed">Chyba synchronizácie Dokumentov Google</string>
     <string name="sync_more_error">Chyba pri načítavaní ďalších položiek</string>
@@ -1972,6 +1969,8 @@ Kliknutím na položku + vytvoríte nový dokument."</string>
     <string name="upsell_negbtn">Neskôr</string>
     <string name="upsell_okbtn">Inovovať</string>
     <string name="url_typo_error_msg">Zdá sa, že odkaz nie je správny. Obsahuje preklep?</string>
+    <string name="v7_preference_off">VYP.</string>
+    <string name="v7_preference_on">ZAP.</string>
     <string name="verbalize_opened_edit">Súbor %1$s bol otvorený s povoleniami na úpravy.</string>
     <string name="verbalize_opened_suggest">Súbor %1$s bol otvorený s povoleniami na komentovanie.</string>
     <string name="verbalize_opened_view">Súbor %1$s bol otvorený s povoleniami na zobrazovanie.</string>
@@ -2000,8 +1999,9 @@ Kliknutím na položku + vytvoríte nový dokument."</string>
     <string name="warm_welcome_next_button">Ďalej</string>
     <string name="warm_welcome_skip_button">Preskočiť</string>
     <string name="warning_cannot_share_outside_domain">Nastavenia tohto tímového disku bránia zdieľaniu mimo domény %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Nastavenia tohto tímového disku bránia zdieľaniu s nečlenmi a používateľmi mimo domény %s</string>
     <string name="warning_cannot_share_outside_domain_org">Nastavenia organizácie bránia zdieľaniu mimo organizácie</string>
-    <string name="warning_cannot_share_outside_team_drive">Nastavenia tohto tímového disku bránia zdieľaniu mimo tímu</string>
+    <string name="warning_cannot_share_outside_team_drive">Nastavenia tohto tímového disku bránia zdieľaniu s nečlenmi</string>
     <string name="welcome_button_close">Prejsť na Dokumenty</string>
     <string name="welcome_button_continue">Ďalej</string>
     <string name="welcome_offer_button_close">Zavrieť</string>

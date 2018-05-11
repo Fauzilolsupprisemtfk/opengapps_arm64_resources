@@ -692,7 +692,7 @@
     <string name="empty_doclist_for_pinned_view_details">ගොනුවේ විකල්ප මෙනුව තුළ \"නොබැඳිව ලබා ගත හැකිය\" බවට පත් කරන්න</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">ඔබේ ගොනුව නොබැඳි විට එහි වැඩ කිරීමට ගොනුවක මෙනුවෙහි “නොබැඳිව ලබා ගත හැකිය” තට්ටු කරන්න.</string>
     <string name="empty_doclist_for_recent_view">මෑතකදී විවෘත කළ හෝ සංස්කරණය කළ ගොනු නැත.</string>
-    <string name="empty_doclist_for_search_view">ප්‍රතිඵල නැත.</string>
+    <string name="empty_doclist_for_search_view">ප්‍රතිඵල නැත</string>
     <string name="empty_doclist_for_shared_with_me_view">ඔබ සමග බෙදා ගත් ගොනු මෙහි දිස්වනු ඇත.</string>
     <string name="empty_doclist_for_starred_view">ඔබට තරු ලකුණු යෙදූ ගොනු නැත.</string>
     <string name="empty_doclist_for_starred_view_details">එය මෙම ලැයිස්තුව වෙත එක් කිරීමට ගොනුවේ විකල්ප මෙනුවේ තරු නිරූපකය තට්ටු කරන්න.</string>
@@ -741,6 +741,7 @@
     <string name="error_video_not_available">වීඩියෝව ක්‍රියාත්මක කර නැත. කරුණාකර පසුව නැවත උත්සාහ කරන්න.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">තවත් +%1$d</string>
+    <string name="expand_button_title">උසස්</string>
     <string name="expires_future">%1$s කල් ඉකුත් වේ</string>
     <string name="expires_today">අද කල් ඉකුත් වේ</string>
     <string name="export_download_error_title">බාගැනීමේ දෝෂය</string>
@@ -757,6 +758,11 @@
     <string name="fab_office_document">නව Word ගොනුව</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">සෙවීම් ප්‍රතිපල</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">පැරණි</string>
     <string name="fast_scroll_time_grouper_last_week">පසුගිය සතියෙහි</string>
     <string name="fast_scroll_time_grouper_this_month">මෙම මස මුලදී</string>
@@ -972,17 +978,8 @@
     <string name="make_copy_spinner_message">පිටපත් කරමින්...</string>
     <string name="manage_members_default_members">පෙරනිමියෙන්, සාමාජිකයන්ට ගොනු උඩුගත කිරීමට/සංස්කරණය කිරීමට/මැකීමට සහ වෙනත් සාමාජිකයන්ට ආරාධනා කිරීමට හැකිය</string>
     <string name="manage_members_dialog_title">සාමාජික ප්‍රවේශය</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">ගබඩාව</string>
+    <string name="management_data_loading_failed">මෙම පිටුව පූරණය කළ නොහැකිය</string>
     <string name="menu_backup">උපස්ථ</string>
     <string name="menu_copy_link">සබැඳිය පිටපත් කරන්න</string>
     <string name="menu_create_shortcut">මුල් තිරයට එක් කර.</string>
@@ -1375,7 +1372,6 @@
     <string name="published_access_anyone">ප්‍රකාශයට පත් කළ විට ඕනෑම අයෙකුට නැරඹිය හැකිය</string>
     <string name="published_access_domain">ප්‍රකාශයට පත් කළ විට %s වසම තුළ ඕනෑම අයෙකුට නැරඹිය හැකිය</string>
     <string name="published_access_select_people">ප්‍රකාශයට පත් කළ විට නිශ්චිත පුද්ගලයන්ට නැරඹීමට හැකිය</string>
-    <string name="published_disabled_append">අබලයි,</string>
     <string name="published_message_for_anyone_can_edit">ඕනෑම අයෙකුට සංස්කරණය කළ හැකි බැවින්, ප්‍රකාශයට පත් කළ විට ඕනෑම අයෙකුට බැලීමට හැකිය.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">%1$s හි ඕනෑම අයෙකුට සංස්කරණය කළ හැකි බැවින් %1$s හි ඕනෑම අයෙකුට බැලිය හැකිය.</string>
     <string name="published_message_for_anyone_with_link_can_edit">සබැඳිය ඇති ඕනෑම අයෙකුට සංස්කරණය කළ හැකි බැවින්, ප්‍රකාශයට පත් කළ විට ඕනෑම අයෙකුට බැලීමට හැකිය.</string>
@@ -1707,6 +1703,7 @@
     <string name="suggestions_add_to_dictionary">ශබ්ද කෝෂයට එකතු කරන්න</string>
     <string name="suggestions_delete_text">මකන්න</string>
     <string name="suggestions_popup_opened">අක්ෂර වින්‍යාස යෝජනා</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_to_paginated_view">මුද්‍රණ පිරිසැලසුම</string>
     <string name="sync_failed">Google Docs සමමුහුර්ත කිරීමේ දෝෂය</string>
     <string name="sync_more_error">අමතර අයිතම වලින් දෝෂ ලබාගනිමින්</string>
@@ -1944,6 +1941,8 @@
     <string name="upsell_negbtn">පසුව</string>
     <string name="upsell_okbtn">උත්ශ්‍රේණි කරන්න</string>
     <string name="url_typo_error_msg">සැබැඳිය නිවැරදි යැයි නොපෙනේ. ටයිප් කිරීමේ දෝෂයක් ද?</string>
+    <string name="v7_preference_off">ක්‍රියාවිරහිතයි</string>
+    <string name="v7_preference_on">ක්‍රියාත්මකයි</string>
     <string name="verbalize_opened_edit">සංස්කරණ අවසර සහිතව %1$s විවෘත කරන ලදී.</string>
     <string name="verbalize_opened_suggest">අදහස් දැක්වීමේ අවසර සහිතව %1$s විවෘත කරන ලදී.</string>
     <string name="verbalize_opened_view">බැලීමේ අවසර සහිතව %1$s විවෘත කරන ලදී.</string>
@@ -1972,8 +1971,9 @@
     <string name="warm_welcome_next_button">ඊළඟ</string>
     <string name="warm_welcome_skip_button">මඟ හරින්න</string>
     <string name="warning_cannot_share_outside_domain">මෙම කණ්ඩායම් Drive හි සැකසීම් %s වෙතින් බැහැරව බෙදා ගැනීම වළක්වයි</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">මෙම කණ්ඩායම් Drive හි සැකසීම් සාමාජිකයන් නොවන අය සමග සහ %s වෙතින් බැහැරව බෙදා ගැනීම වළක්වයි</string>
     <string name="warning_cannot_share_outside_domain_org">සංවිධානයෙහි සැකසීම් සංවිධානයෙන් බැහැරව බෙදා ගැනීම වළක්වයි</string>
-    <string name="warning_cannot_share_outside_team_drive">මෙම කණ්ඩායම් Drive හි සැකසීම් කණ්ඩායමෙන් බැහැරව බෙදා ගැනීම වළක්වයි</string>
+    <string name="warning_cannot_share_outside_team_drive">මෙම කණ්ඩායම් Drive හි සැකසීම් සාමාජිකයින් නොවන අය සමඟ බෙදා ගැනීම වළක්වයි</string>
     <string name="welcome_button_close">Docs වෙත යන්න</string>
     <string name="welcome_button_continue">මීට පසු</string>
     <string name="welcome_offer_button_close">වසන්න</string>
@@ -1995,7 +1995,7 @@
     <string name="zss_date_range_month">අවසන් දින 30</string>
     <string name="zss_date_range_three_month">අවසන් දින 90</string>
     <string name="zss_date_range_today">අද</string>
-    <string name="zss_date_range_week">අවසන් දින 7</string>
+    <string name="zss_date_range_week">පසුගිය දින 7</string>
     <string name="zss_date_range_yesterday">ඊයේ</string>
     <string name="zss_entry_types_header_title">ගොනු වර්ග</string>
     <string name="zss_no_filters">පෙරහන් නැත</string>
@@ -2005,7 +2005,7 @@
     <string name="zss_people_header_title">පුද්ගලයින්</string>
     <string name="zss_showing_list_of_filters">ලබා ගත හැකි පෙරහන් ලැයිස්තුව පෙන්වීම.</string>
     <string name="zss_team_drive">%1$s තුළ සොයන්න</string>
-    <string name="zss_type_archive">සංරක්ෂිත කරන්න</string>
+    <string name="zss_type_archive">සංරක්ෂිත</string>
     <string name="zss_type_audio">ශ්‍රව්‍ය</string>
     <string name="zss_type_documents">පෙළ ලේඛන</string>
     <string name="zss_type_folder">ෆෝල්ඩර</string>

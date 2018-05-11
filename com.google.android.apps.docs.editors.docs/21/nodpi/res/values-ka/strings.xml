@@ -741,6 +741,7 @@
     <string name="error_video_not_available">ვიდეო არ დამუშავებულა. გთხოვთ, მოგვიანებით ისევ სცადოთ.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d სხვა.</string>
+    <string name="expand_button_title">დამატებით</string>
     <string name="expires_future">ვადა ეწურება %1$s-ში</string>
     <string name="expires_today">ვადა ეწურება დღეს</string>
     <string name="export_download_error_title">ჩამოტვირთვის შეცდომა</string>
@@ -757,6 +758,11 @@
     <string name="fab_office_document">ახალი Word ფაილი</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">ძიების შედეგები</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">გბაიტი</string>
+    <string name="fast_scroll_size_grouper_kb">კბაიტი</string>
+    <string name="fast_scroll_size_grouper_mb">მბაიტი</string>
     <string name="fast_scroll_time_grouper_earlier">ძველი</string>
     <string name="fast_scroll_time_grouper_last_week">წინა კვირის</string>
     <string name="fast_scroll_time_grouper_this_month">ამ თვის დასაწყისის</string>
@@ -972,17 +978,8 @@
     <string name="make_copy_spinner_message">მიმდინარეობს კოპირება…</string>
     <string name="manage_members_default_members">ნაგულისხმევად, წევრებს შეუძლიათ ფაილების ატვირთვა/რედაქტირება/წაშლა და სხვა წევრების მოწვევა</string>
     <string name="manage_members_dialog_title">წევრების წვდომა</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">მეხსიერება</string>
+    <string name="management_data_loading_failed">ამ გვერდის ჩატვირთვა ვერ მოხერხდა</string>
     <string name="menu_backup">სარეზერვო ასლები</string>
     <string name="menu_copy_link">ბმულის კოპირება</string>
     <string name="menu_create_shortcut">მთავარ ეკრანზე დამატება</string>
@@ -1375,7 +1372,6 @@
     <string name="published_access_anyone">როდესაც გამოქვეყნდება, ნებისმიერი შეძლებს ნახვას</string>
     <string name="published_access_domain">როდესაც გამოქვეყნდება, %s-ში ნებისმიერი შეძლებს ნახვას</string>
     <string name="published_access_select_people">როდესაც გამოქვეყნდება, ნახვას კონკრეტული ადამიანები შეძლებენ</string>
-    <string name="published_disabled_append">გათიშული,</string>
     <string name="published_message_for_anyone_can_edit">რადგან ნებისმიერს შეუძლია რედაქტირება, ნებისმიერი შეძლებს ნახვას, როდესაც გამოქვეყნდება.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">რადგანაც ნებისმიერს %1$s-ზე შეუძლია რედაქტირება, ნებისმიერს %1$s-ზე შეუძლია ნახვა, როდესაც გამოქვეყნდება.</string>
     <string name="published_message_for_anyone_with_link_can_edit">რადგან ნებისმიერს ბმულით შეუძლია რედაქტირება, ნებისმიერი შეძლებს ნახვას, როდესაც გამოქვეყნდება.</string>
@@ -1707,6 +1703,7 @@
     <string name="suggestions_add_to_dictionary">ლექსიკონში დამატება</string>
     <string name="suggestions_delete_text">წაშლა</string>
     <string name="suggestions_popup_opened">მართლწერის შეთავაზებები</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_to_paginated_view">ბეჭდვის განლაგება</string>
     <string name="sync_failed">Google Docs სინქრონიზაციის შეცდომა</string>
     <string name="sync_more_error">შეცდომა დამატებითი ერთეულების მოძიებისას</string>
@@ -1944,6 +1941,8 @@
     <string name="upsell_negbtn">მოგვიანებით</string>
     <string name="upsell_okbtn">განახლება</string>
     <string name="url_typo_error_msg">როგორც ჩანს, ბმული არასწორია. ხომ არ შეგეშალათ?</string>
+    <string name="v7_preference_off">გამორთული</string>
+    <string name="v7_preference_on">ჩართული</string>
     <string name="verbalize_opened_edit">%1$s გაიხსნა რედაქტირების უფლებით.</string>
     <string name="verbalize_opened_suggest">%1$s გაიხსნა კომენტარის დატოვების უფლებით.</string>
     <string name="verbalize_opened_view">%1$s გაიხსნა ნახვის უფლებით.</string>
@@ -1972,8 +1971,9 @@
     <string name="warm_welcome_next_button">შემდეგი</string>
     <string name="warm_welcome_skip_button">გამოტოვება</string>
     <string name="warning_cannot_share_outside_domain">ამ გუნდის Drive-ის პარამეტრები ხელს უშლის %s-ის ფარგლებს გარეთ გაზიარებას</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">ამ გუნდის Drive-ის პარამეტრები ხელს უშლის არაწევრებთან და %s-ის ფარგლებს გარეთ გაზიარებას</string>
     <string name="warning_cannot_share_outside_domain_org">ორგანიზაციის პარამეტრები ხელს უშლის ორგანიზაციის ფარგლებს გარეთ გაზიარებას</string>
-    <string name="warning_cannot_share_outside_team_drive">ამ გუნდის Drive-ის პარამეტრები ხელს უშლის გუნდის ფარგლებს გარეთ გაზიარებას</string>
+    <string name="warning_cannot_share_outside_team_drive">ამ გუნდის Drive-ის პარამეტრები ხელს უშლის გაზიარებას არაწევრებთან</string>
     <string name="welcome_button_close">Docs-ზე გადასვლა</string>
     <string name="welcome_button_continue">შემდეგი</string>
     <string name="welcome_offer_button_close">დახურვა</string>
@@ -2010,7 +2010,7 @@
     <string name="zss_type_documents">ტექსტური დოკუმენტები</string>
     <string name="zss_type_folder">საქაღალდეები</string>
     <string name="zss_type_images">ფოტოები და სურათები</string>
-    <string name="zss_type_pdfs">PDF-ები</string>
+    <string name="zss_type_pdfs">PDF ფაილები</string>
     <string name="zss_type_presentations">პრეზენტაციები</string>
     <string name="zss_type_spreadsheets">ელცხრილები</string>
     <string name="zss_type_video">ვიდეოები</string>

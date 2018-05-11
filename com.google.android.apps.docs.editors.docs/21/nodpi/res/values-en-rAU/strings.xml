@@ -685,7 +685,7 @@ Try uploading a file."</string>
     <string name="empty_doclist_for_pinned_view_details">"Make files \"Available offline\" in the file's Options menu"</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">"Tap \"Available offline\" in a file's menu so that you can keep working on it offline."</string>
     <string name="empty_doclist_for_recent_view">No recently opened or edited files.</string>
-    <string name="empty_doclist_for_search_view">No results.</string>
+    <string name="empty_doclist_for_search_view">No results</string>
     <string name="empty_doclist_for_shared_with_me_view">Files shared with you will appear here.</string>
     <string name="empty_doclist_for_starred_view">You have no starred files.</string>
     <string name="empty_doclist_for_starred_view_details">"Tap the Star icon in the file's option menu to add it to this list."</string>
@@ -734,6 +734,7 @@ Click + to create a new document."</string>
     <string name="error_video_not_available">"Video hasn't been processed. Please try again later."</string>
     <string name="excess_head_count">+ %1$d</string>
     <string name="excess_head_count_verbalization">+%1$d others.</string>
+    <string name="expand_button_title">Advanced</string>
     <string name="expires_future">Expires in %1$s</string>
     <string name="expires_today">Expires today</string>
     <string name="export_download_error_title">Download error</string>
@@ -750,6 +751,11 @@ Click + to create a new document."</string>
     <string name="fab_office_document">New Word file</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Search Results</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Older</string>
     <string name="fast_scroll_time_grouper_last_week">Last week</string>
     <string name="fast_scroll_time_grouper_this_month">Earlier this month</string>
@@ -1360,7 +1366,6 @@ Click + to create a new document."</string>
     <string name="published_access_anyone">Anyone can view when published</string>
     <string name="published_access_domain">Anyone in %s can view when published</string>
     <string name="published_access_select_people">Specific people can view when published</string>
-    <string name="published_disabled_append">disabled,</string>
     <string name="published_message_for_anyone_can_edit">Since anyone can edit, anyone can view when published.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Since anyone in %1$s can edit, anyone at %1$s can view when published.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Since anyone with link can edit, anyone can view when published.</string>
@@ -1695,6 +1700,7 @@ Click + to create a new document."</string>
     <string name="suggestions_add_to_dictionary">Add to dictionary</string>
     <string name="suggestions_delete_text">Delete</string>
     <string name="suggestions_popup_opened">Spelling suggestions</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_to_paginated_view">Print layout</string>
     <string name="sync_failed">Google Docs synchronisation error</string>
     <string name="sync_more_error">Error while retrieving additional items</string>
@@ -1932,6 +1938,8 @@ Click + to create a new document."</string>
     <string name="upsell_negbtn">Later</string>
     <string name="upsell_okbtn">Upgrade</string>
     <string name="url_typo_error_msg">"Link doesn't look right. Typo?"</string>
+    <string name="v7_preference_off">OFF</string>
+    <string name="v7_preference_on">ON</string>
     <string name="verbalize_opened_edit">Opened %1$s with editing permission.</string>
     <string name="verbalize_opened_suggest">Opened %1$s with commenting permission.</string>
     <string name="verbalize_opened_view">Opened %1$s with viewing permission.</string>
@@ -1960,8 +1968,9 @@ Click + to create a new document."</string>
     <string name="warm_welcome_next_button">Next</string>
     <string name="warm_welcome_skip_button">Skip</string>
     <string name="warning_cannot_share_outside_domain">"This Team Drive's settings prevent sharing outside %s"</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">"This Team Drive's settings prevent sharing with non-members and outside of %s"</string>
     <string name="warning_cannot_share_outside_domain_org">"The organisation's settings prevent sharing outside the organisation"</string>
-    <string name="warning_cannot_share_outside_team_drive">"This Team Drive's settings prevent sharing outside the team"</string>
+    <string name="warning_cannot_share_outside_team_drive">"This Team Drive's settings prevent sharing with non-members"</string>
     <string name="welcome_button_close">Go to Docs</string>
     <string name="welcome_button_continue">Next</string>
     <string name="welcome_offer_button_close">Close</string>

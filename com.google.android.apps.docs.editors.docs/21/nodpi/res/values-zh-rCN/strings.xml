@@ -711,7 +711,7 @@
     <string name="empty_doclist_for_pinned_view_details">在文件的选项菜单中将文件设为“可离线使用”</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">在文件的菜单中点按“可离线使用”，即可在设备未联网时继续使用该文件。</string>
     <string name="empty_doclist_for_recent_view">最近未打开或编辑过任何文件。</string>
-    <string name="empty_doclist_for_search_view">没有结果。</string>
+    <string name="empty_doclist_for_search_view">无结果</string>
     <string name="empty_doclist_for_shared_with_me_view">与您共享的文件会出现在此处。</string>
     <string name="empty_doclist_for_starred_view">没有任何已加星标的文件。</string>
     <string name="empty_doclist_for_starred_view_details">点按文件的选项菜单中的“加注星标”图标即可将其添加到此列表中。</string>
@@ -760,6 +760,7 @@
     <string name="error_video_not_available">视频尚未处理，请稍后重试。</string>
     <string name="excess_head_count">+ %1$d</string>
     <string name="excess_head_count_verbalization">还有另外 %1$d 个。</string>
+    <string name="expand_button_title">高级</string>
     <string name="expires_future">%1$s后到期</string>
     <string name="expires_today">今天到期</string>
     <string name="export_download_error_title">下载错误</string>
@@ -776,6 +777,11 @@
     <string name="fab_office_document">新建 Word 文件</string>
     <string name="fast_scroll_month_and_year_grouped">%2$d 年 %1$s</string>
     <string name="fast_scroll_search_result_grouper">搜索结果</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">更早</string>
     <string name="fast_scroll_time_grouper_last_week">上周</string>
     <string name="fast_scroll_time_grouper_this_month">本月稍早</string>
@@ -1007,17 +1013,8 @@
     <string name="manage_addons_playstore_link_description">转到 Play 商店中的%s</string>
     <string name="manage_members_default_members">默认情况下，成员可以上传/编辑/删除文件和邀请其他成员</string>
     <string name="manage_members_dialog_title">成员权限</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">存储空间</string>
+    <string name="management_data_loading_failed">无法加载此页面</string>
     <string name="menu_backup">备份</string>
     <string name="menu_copy_link">复制链接</string>
     <string name="menu_create_shortcut">添加到主屏幕</string>
@@ -1412,7 +1409,6 @@
     <string name="published_access_anyone">发布后可供任何人查看</string>
     <string name="published_access_domain">发布后，%s 中的任何人都可以查看</string>
     <string name="published_access_select_people">发布后可供特定人员查看</string>
-    <string name="published_disabled_append">已停用，</string>
     <string name="published_message_for_anyone_can_edit">由于任何人都可以编辑，因此草稿网站发布后任何人均可查看。</string>
     <string name="published_message_for_anyone_in_domain_can_edit">由于 %1$s 中的任何人都可以编辑，因此网站发布后 %1$s 中的任何人都可以查看。</string>
     <string name="published_message_for_anyone_with_link_can_edit">由于知道链接的任何人都可以编辑，因此草稿网站发布后任何人均可查看。</string>
@@ -1747,6 +1743,7 @@
     <string name="suggestions_add_to_dictionary">添加到字典</string>
     <string name="suggestions_delete_text">删除</string>
     <string name="suggestions_popup_opened">拼写建议</string>
+    <string name="summary_collapsed_preference_list">当前显示了 %1$s 项（已添加 %2$s 项）</string>
     <string name="switch_to_paginated_view">打印版式</string>
     <string name="sync_failed">Google 文档同步错误</string>
     <string name="sync_more_error">检索更多内容时出错</string>
@@ -1984,6 +1981,8 @@
     <string name="upsell_negbtn">稍后</string>
     <string name="upsell_okbtn">升级</string>
     <string name="url_typo_error_msg">链接错误。是不是输错了？</string>
+    <string name="v7_preference_off">关闭</string>
+    <string name="v7_preference_on">开启</string>
     <string name="verbalize_opened_edit">已打开“%1$s”，您可以编辑文件。</string>
     <string name="verbalize_opened_suggest">已打开“%1$s”，您可以评论文件。</string>
     <string name="verbalize_opened_view">已打开“%1$s”，您可以查看文件。</string>
@@ -2012,8 +2011,9 @@
     <string name="warm_welcome_next_button">下一步</string>
     <string name="warm_welcome_skip_button">跳过</string>
     <string name="warning_cannot_share_outside_domain">根据此团队云端硬盘的设置，不得在 %s 外共享内容</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">根据此团队云端硬盘的设置，不得与非成员用户和 %s 外部用户共享内容</string>
     <string name="warning_cannot_share_outside_domain_org">根据此单位的设置，不得在单位外共享内容</string>
-    <string name="warning_cannot_share_outside_team_drive">根据此团队云端硬盘的设置，不得在此团队外共享内容</string>
+    <string name="warning_cannot_share_outside_team_drive">根据此团队云端硬盘的设置，不得与非成员用户共享内容</string>
     <string name="welcome_button_close">转到文档</string>
     <string name="welcome_button_continue">下一页</string>
     <string name="welcome_offer_button_close">关闭</string>
@@ -2042,10 +2042,10 @@
     <string name="zss_owner_header_title">所有者：</string>
     <string name="zss_owner_me">归我所有</string>
     <string name="zss_owner_not_me">不归我所有</string>
-    <string name="zss_people_header_title">人员</string>
+    <string name="zss_people_header_title">用户</string>
     <string name="zss_showing_list_of_filters">目前显示的是可用过滤器列表。</string>
     <string name="zss_team_drive">在“%1$s”中搜索</string>
-    <string name="zss_type_archive">压缩文件</string>
+    <string name="zss_type_archive">归档</string>
     <string name="zss_type_audio">音频</string>
     <string name="zss_type_documents">文本文档</string>
     <string name="zss_type_folder">文件夹</string>

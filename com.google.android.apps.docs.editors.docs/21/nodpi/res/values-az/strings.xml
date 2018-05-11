@@ -692,7 +692,7 @@ Faylı yükləməyə cəhd edin."</string>
     <string name="empty_doclist_for_pinned_view_details">Faylın seçimlər menyusunda faylı \"Oflayn əlçatan\" edin.</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Oflayn olarkən işləyə bilmək üçün \"Oflayn Saxlayın\" seçiminə basın.</string>
     <string name="empty_doclist_for_recent_view">Yenicə açılmış və ya düzəliş edilmiş fayl yoxdur.</string>
-    <string name="empty_doclist_for_search_view">Nəticə yoxdur.</string>
+    <string name="empty_doclist_for_search_view">Nəticə yoxdur</string>
     <string name="empty_doclist_for_shared_with_me_view">Sizinlə paylaşılmış fayl burada görünəcək.</string>
     <string name="empty_doclist_for_starred_view">Ulduzlanmış fayllarınız yoxdur.</string>
     <string name="empty_doclist_for_starred_view_details">Siyahıya əlavə etmək üçün faylın seçimlər menyusunda ulduz ikonasına tıklayın.</string>
@@ -741,6 +741,7 @@ Yeni sənəd yaratmaq üçün + klikləyin."</string>
     <string name="error_video_not_available">Video emal edilmədi. Sonra yenidən cəhd edin.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d digərləri.</string>
+    <string name="expand_button_title">Qabaqcıl</string>
     <string name="expires_future">%1$s tarixində bitir</string>
     <string name="expires_today">Vaxtı bugün bitir</string>
     <string name="export_download_error_title">Endirmə Xətası</string>
@@ -757,6 +758,11 @@ Yeni sənəd yaratmaq üçün + klikləyin."</string>
     <string name="fab_office_document">Yeni Word faylı</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Axtarış nəticələri</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Əvvəlki</string>
     <string name="fast_scroll_time_grouper_last_week">Keçən həftə</string>
     <string name="fast_scroll_time_grouper_this_month">Bu ayın əvvəli</string>
@@ -972,17 +978,8 @@ Yeni sənəd yaratmaq üçün + klikləyin."</string>
     <string name="make_copy_spinner_message">Kopyalanır...</string>
     <string name="manage_members_default_members">Defolt olaraq üzvlər faylları yükləyə/redaktə edə/silə bilər və digər üzvlər dəvət edə bilər</string>
     <string name="manage_members_dialog_title">Üzv girişi</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Yaddaş</string>
+    <string name="management_data_loading_failed">Bu səhifəni yükləmək mümkün deyil</string>
     <string name="menu_backup">Yedəkləmələr</string>
     <string name="menu_copy_link">Linki kopyalayın</string>
     <string name="menu_create_shortcut">Əsas ekrana əlavə edin</string>
@@ -1375,7 +1372,6 @@ Yeni sənəd yaratmaq üçün + klikləyin."</string>
     <string name="published_access_anyone">Hər kəs paylaşılmış versiyanı görə bilər</string>
     <string name="published_access_domain">%s domenində hər kəs paylaşılmış versiyanı görə bilər</string>
     <string name="published_access_select_people">Xüsusi qrup insanlar paylaşılmış versiyanı görə bilər</string>
-    <string name="published_disabled_append">deaktiv edildi,</string>
     <string name="published_message_for_anyone_can_edit">İstənilən şəxs redaktə edə bildiyi üçün hər kəs paylaşılmış versiyanı görə bilər.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">%1$s domenində istənilən şəxs redaktə edə bildiyi üçün %1$s domenində hər kəs paylaşılmış versiyanı görə bilər.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Linki bilən istənilən şəxs redaktə edə bildiyi üçün hər kəs paylaşılmış versiyanı görə bilər.</string>
@@ -1707,6 +1703,7 @@ Yeni sənəd yaratmaq üçün + klikləyin."</string>
     <string name="suggestions_add_to_dictionary">Lüğətə əlavə edin</string>
     <string name="suggestions_delete_text">Silin</string>
     <string name="suggestions_popup_opened">Orfoqrafiya təklifləri</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_to_paginated_view">Çap düzümü</string>
     <string name="sync_failed">Google Sənəd Sinxronlaşma Xətası</string>
     <string name="sync_more_error">Əlavə elementlər əldə olunan zaman xəta</string>
@@ -1944,6 +1941,8 @@ Yeni sənəd yaratmaq üçün + klikləyin."</string>
     <string name="upsell_negbtn">Sonra</string>
     <string name="upsell_okbtn">Təkmilləşdirin</string>
     <string name="url_typo_error_msg">Düzgün linkə oxşamır. Hərf səhvi var?</string>
+    <string name="v7_preference_off">DEAKTİV</string>
+    <string name="v7_preference_on">AKTİV</string>
     <string name="verbalize_opened_edit">%1$s bölməsi düzəliş icazələri ilə açıldı.</string>
     <string name="verbalize_opened_suggest">%1$s bölməsi şərhetmə icazələri ilə açıldı.</string>
     <string name="verbalize_opened_view">%1$s bölməsi baxış icazələri ilə açıldı.</string>
@@ -1972,8 +1971,9 @@ Yeni sənəd yaratmaq üçün + klikləyin."</string>
     <string name="warm_welcome_next_button">Növbəti</string>
     <string name="warm_welcome_skip_button">Ötürün</string>
     <string name="warning_cannot_share_outside_domain">Bu Komanda Diskinin ayarları %s xaricində paylaşımlara icazə vermir</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Bu Komanda Diskinin ayarları %s xaricində qeyri-üzvlərlə paylaşıma icazə vermir</string>
     <string name="warning_cannot_share_outside_domain_org">Təşkilat ayarları təşkilatdan kənar paylaşımlara icazə vermir</string>
-    <string name="warning_cannot_share_outside_team_drive">Bu Komanda Diskinin ayarları komanda xaricində paylaşımlara icazə vermir</string>
+    <string name="warning_cannot_share_outside_team_drive">Bu Komanda Diskinin ayarları qeyri-üzvlərlə paylaşıma icazə vermir</string>
     <string name="welcome_button_close">Sənədə keçin</string>
     <string name="welcome_button_continue">Növbəti</string>
     <string name="welcome_offer_button_close">Bağlayın</string>
@@ -1999,9 +1999,9 @@ Yeni sənəd yaratmaq üçün + klikləyin."</string>
     <string name="zss_date_range_yesterday">Dünən</string>
     <string name="zss_entry_types_header_title">Fayl növləri</string>
     <string name="zss_no_filters">Filtr yoxdur</string>
-    <string name="zss_owner_header_title">Sahib</string>
-    <string name="zss_owner_me">Mənə məxsus olan</string>
-    <string name="zss_owner_not_me">Mənə məxsus olmayan</string>
+    <string name="zss_owner_header_title">Sahib:</string>
+    <string name="zss_owner_me">Mənə məxsusdur</string>
+    <string name="zss_owner_not_me">Mənə məxsus deyil</string>
     <string name="zss_people_header_title">Şəxslər</string>
     <string name="zss_showing_list_of_filters">Əlçatan filtrlərin siyahısı göstərilir.</string>
     <string name="zss_team_drive">%1$s daxilində axtarın</string>
@@ -2010,7 +2010,7 @@ Yeni sənəd yaratmaq üçün + klikləyin."</string>
     <string name="zss_type_documents">Mətn sənədləri</string>
     <string name="zss_type_folder">Qovluqlar</string>
     <string name="zss_type_images">Foto və şəkillər</string>
-    <string name="zss_type_pdfs">PDF</string>
+    <string name="zss_type_pdfs">PDF-lər</string>
     <string name="zss_type_presentations">Təqdimatlar</string>
     <string name="zss_type_spreadsheets">Cədvəllər</string>
     <string name="zss_type_video">Videolar</string>

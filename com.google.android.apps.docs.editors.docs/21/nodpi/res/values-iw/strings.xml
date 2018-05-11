@@ -711,7 +711,7 @@
     <string name="empty_doclist_for_pinned_view_details">"הגדר את הקבצים כ'זמינים במצב לא מקוון' בתפריט האפשרויות של הקובץ"</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">"הקש על 'זמין במצב לא מקוון' בתפריט הקובץ כדי להמשיך לעבוד בו במצב לא מקוון."</string>
     <string name="empty_doclist_for_recent_view">אין קבצים שנפתחו או נערכו לאחרונה.</string>
-    <string name="empty_doclist_for_search_view">אין תוצאות.</string>
+    <string name="empty_doclist_for_search_view">אין תוצאות</string>
     <string name="empty_doclist_for_shared_with_me_view">קבצים שמשותפים איתך יופיעו כאן.</string>
     <string name="empty_doclist_for_starred_view">אין לך קבצים שמסומנים בכוכב.</string>
     <string name="empty_doclist_for_starred_view_details">הקש על סמל הכוכב בתפריט האפשרויות של הקובץ כדי להוסיף אותו לרשימה הזו.</string>
@@ -760,6 +760,7 @@
     <string name="error_video_not_available">עיבוד הסרטון נכשל. נסה שוב מאוחר יותר.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d נוספים.</string>
+    <string name="expand_button_title">מתקדם</string>
     <string name="expires_future">יפוג בעוד %1$s</string>
     <string name="expires_today">התוקף פג היום</string>
     <string name="export_download_error_title">שגיאת הורדה</string>
@@ -776,6 +777,11 @@
     <string name="fab_office_document">‏קובץ Word חדש</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">תוצאות חיפוש</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">ישן יותר</string>
     <string name="fast_scroll_time_grouper_last_week">בשבוע שעבר</string>
     <string name="fast_scroll_time_grouper_this_month">מוקדם יותר החודש</string>
@@ -995,17 +1001,8 @@
     <string name="manage_addons_playstore_link_description">היכנס אל ‎%s‎ בחנות Play</string>
     <string name="manage_members_default_members">כברירת מחדל, חברים יכולים להעלות, לערוך ולמחוק קבצים ולהזמין חברים אחרים</string>
     <string name="manage_members_dialog_title">גישת חברים</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">אחסון</string>
+    <string name="management_data_loading_failed">לא ניתן לטעון את הדף</string>
     <string name="menu_backup">גיבויים</string>
     <string name="menu_copy_link">העתקת קישור</string>
     <string name="menu_create_shortcut">הוספה למסך דף הבית</string>
@@ -1222,8 +1219,8 @@
     <string name="ouch_title_sawwrie">מצטערים!</string>
     <string name="overwrite_confirm_dialog_message">%1$s קיים. להחליף?</string>
     <string name="overwrite_confirm_dialog_positive_button_label">כן</string>
-    <string name="owner_not_user">לא בבעלות %1$s</string>
-    <string name="owner_user">בבעלות %1$s</string>
+    <string name="owner_not_user">לא בבעלות של %1$s</string>
+    <string name="owner_user">בבעלות של %1$s</string>
     <string name="page_1_description">בצע משימות כשאתה מחובר לאינטרנט וגם כשאתה לא מחובר לאינטרנט.</string>
     <string name="page_1_heading_editors">כתיבה בדרכים</string>
     <string name="page_2_description">כתוב בעצמך או הזמן עוד אנשים לכתוב ביחד.</string>
@@ -1400,7 +1397,6 @@
     <string name="published_access_anyone">כולם יכולים להציג במועד הפרסום</string>
     <string name="published_access_domain">אנשים בדומיין %s יכולים להציג במועד הפרסום</string>
     <string name="published_access_select_people">אנשים ספציפיים יכולים להציג את הגרסה במועד פרסומה</string>
-    <string name="published_disabled_append">מושבת,</string>
     <string name="published_message_for_anyone_can_edit">מאחר שההגדרה הנוכחית של טיוטת האתר היא שכולם יכולים לערוך, במועד הפרסום של האתר כולם יוכלו להציג אותו.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">מאחר שההגדרה הנוכחית של טיוטת האתר היא שאנשים בדומיין %1$s יכולים לערוך, במועד הפרסום כולם ב-%1$s יוכלו להציג אותו.</string>
     <string name="published_message_for_anyone_with_link_can_edit">מאחר שההגדרה הנוכחית של טיוטת האתר היא שכל מי שיש לו את הקישור יכול לערוך, במועד הפרסום של האתר כולם יוכלו להציג אותו.</string>
@@ -1723,7 +1719,7 @@
     <string name="spellcheck_dialog_snackbar_no_more_misspellings">אין הצעות לאיות</string>
     <string name="spellcheck_dialog_suggestion_hint">שנה את %1$s ל-</string>
     <string name="spellcheck_dialog_suggestions_drop_down">הקש כדי להציג הצעות נוספות.</string>
-    <string name="status_bar_notification_info_overflow">‎999+‎</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stepper_button_down_arrow">הקטן</string>
     <string name="stepper_button_up_arrow">הגדל</string>
     <string name="style_palette">סגנון</string>
@@ -1735,6 +1731,7 @@
     <string name="suggestions_add_to_dictionary">הוסף למילון</string>
     <string name="suggestions_delete_text">מחק</string>
     <string name="suggestions_popup_opened">הצעות איות</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_to_paginated_view">פריסת הדפסה</string>
     <string name="sync_failed">‏שגיאה בסנכרון של Google Docs</string>
     <string name="sync_more_error">שגיאה באחזור פריטים נוספים</string>
@@ -1972,6 +1969,8 @@
     <string name="upsell_negbtn">אחר כך</string>
     <string name="upsell_okbtn">שדרוג</string>
     <string name="url_typo_error_msg">הקישור לא נראה תקין. בדוק אם יש בו שגיאת כתיב.</string>
+    <string name="v7_preference_off">כבוי</string>
+    <string name="v7_preference_on">מופעל</string>
     <string name="verbalize_opened_edit">‏פתחת את %1$s שבו יש לך הרשאות עריכה.</string>
     <string name="verbalize_opened_suggest">‏פתחת את %1$s שבו יש לך הרשאות תגובה.</string>
     <string name="verbalize_opened_view">‏פתחת את %1$s שבו יש לך הרשאות צפייה.</string>
@@ -2000,8 +1999,9 @@
     <string name="warm_welcome_next_button">הבא</string>
     <string name="warm_welcome_skip_button">דלג</string>
     <string name="warning_cannot_share_outside_domain">ההגדרות של האחסון השיתופי הזה לא מאפשרות לשתף פריטים עם גורמים מחוץ לדומיין %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">ההגדרות של האחסון השיתופי מונעות שיתוף עם אנשים שאינם חברים בו ועם גורמים מחוץ לדומיין %s</string>
     <string name="warning_cannot_share_outside_domain_org">ההגדרות של הארגון לא מאפשרות לשתף עם גורמים מחוץ לארגון</string>
-    <string name="warning_cannot_share_outside_team_drive">ההגדרות של האחסון השיתופי הזה לא מאפשרות לשתף פריטים עם אנשים שאינם חברים בו</string>
+    <string name="warning_cannot_share_outside_team_drive">ההגדרות של האחסון השיתופי מונעות שיתוף עם אנשים שאינם חברים בו</string>
     <string name="welcome_button_close">‏עבור אל Docs</string>
     <string name="welcome_button_continue">הבא</string>
     <string name="welcome_offer_button_close">סגור</string>
@@ -2019,7 +2019,7 @@
     <string name="welcome_title_highlights">חלונית הודעות של %1$s.</string>
     <string name="write_access_denied">גישת הכתיבה למסמך נדחתה.</string>
     <string name="zss_accessibility_searching">המערכת מחפשת %1$s</string>
-    <string name="zss_date_range_header_title">תאריך שינוי</string>
+    <string name="zss_date_range_header_title">תאריך השינוי</string>
     <string name="zss_date_range_month">30 הימים האחרונים</string>
     <string name="zss_date_range_three_month">90 הימים האחרונים</string>
     <string name="zss_date_range_today">היום</string>
@@ -2028,8 +2028,8 @@
     <string name="zss_entry_types_header_title">סוגי קבצים</string>
     <string name="zss_no_filters">אין מסננים</string>
     <string name="zss_owner_header_title">בבעלות של</string>
-    <string name="zss_owner_me">בבעלות שלי</string>
-    <string name="zss_owner_not_me">לא בבעלות שלי</string>
+    <string name="zss_owner_me">בבעלותי</string>
+    <string name="zss_owner_not_me">לא בבעלותי</string>
     <string name="zss_people_header_title">אנשים</string>
     <string name="zss_showing_list_of_filters">מציג רשימה של מסננים זמינים.</string>
     <string name="zss_team_drive">חיפוש באחסון השיתופי %1$s</string>
@@ -2037,7 +2037,7 @@
     <string name="zss_type_audio">אודיו</string>
     <string name="zss_type_documents">מסמכי טקסט</string>
     <string name="zss_type_folder">תיקיות</string>
-    <string name="zss_type_images">תצלומים ותמונות</string>
+    <string name="zss_type_images">צילומים ותמונות</string>
     <string name="zss_type_pdfs">‏קובצי PDF</string>
     <string name="zss_type_presentations">מצגות</string>
     <string name="zss_type_spreadsheets">גיליונות אלקטרוניים</string>

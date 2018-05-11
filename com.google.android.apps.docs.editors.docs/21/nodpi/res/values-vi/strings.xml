@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="abc_action_bar_up_description">Điều hướng lên trên</string>
-    <string name="abc_action_menu_overflow_description">Thêm tùy chọn</string>
+    <string name="abc_action_menu_overflow_description">Tùy chọn khác</string>
     <string name="abc_action_mode_done">Xong</string>
     <string name="abc_activity_chooser_view_see_all">Xem tất cả</string>
     <string name="abc_activitychooserview_choose_application">Chọn một ứng dụng</string>
@@ -711,7 +711,7 @@ Hãy thử tải một tệp lên."</string>
     <string name="empty_doclist_for_pinned_view_details">Đặt các tệp \"Khả dụng khi ngoại tuyến\" trong menu tùy chọn của tệp</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Nhấn vào \"Khả dụng khi ngoại tuyến\" trong menu của tệp để bạn có thể tiếp tục xử lý tệp ngoại tuyến.</string>
     <string name="empty_doclist_for_recent_view">Không có tệp nào được mở hoặc chỉnh sửa gần đây.</string>
-    <string name="empty_doclist_for_search_view">Không có kết quả nào.</string>
+    <string name="empty_doclist_for_search_view">Không có kết quả nào</string>
     <string name="empty_doclist_for_shared_with_me_view">Những tệp được chia sẻ với bạn sẽ xuất hiện ở đây.</string>
     <string name="empty_doclist_for_starred_view">Bạn không có tệp được gắn dấu sao nào.</string>
     <string name="empty_doclist_for_starred_view_details">Nhấn vào biểu tượng ngôi sao trong menu tùy chọn của tệp để thêm tệp đó vào danh sách này.</string>
@@ -760,6 +760,7 @@ Nhấp vào + để tạo tài liệu mới."</string>
     <string name="error_video_not_available">Video chưa được xử lý. Vui lòng thử lại sau.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+%1$d cộng tác viên khác.</string>
+    <string name="expand_button_title">Nâng cao</string>
     <string name="expires_future">Hết hạn vào %1$s</string>
     <string name="expires_today">Hết hạn hôm nay</string>
     <string name="export_download_error_title">Lỗi tải xuống</string>
@@ -776,6 +777,11 @@ Nhấp vào + để tạo tài liệu mới."</string>
     <string name="fab_office_document">Tệp Word mới</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Kết quả tìm kiếm</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Cũ hơn</string>
     <string name="fast_scroll_time_grouper_last_week">Tuần trước</string>
     <string name="fast_scroll_time_grouper_this_month">Đầu tháng này</string>
@@ -995,17 +1001,8 @@ Nhấp vào + để tạo tài liệu mới."</string>
     <string name="manage_addons_playstore_link_description">Điều hướng đến Cửa hàng Play cho %s</string>
     <string name="manage_members_default_members">Theo mặc định, thành viên có thể tải lên/chỉnh sửa/xóa tệp và mời thành viên khác</string>
     <string name="manage_members_dialog_title">Truy cập của t.viên</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Bộ nhớ</string>
+    <string name="management_data_loading_failed">Không thể tải trang này</string>
     <string name="menu_backup">Bản sao lưu</string>
     <string name="menu_copy_link">Sao chép liên kết</string>
     <string name="menu_create_shortcut">Thêm vào Màn hình chính</string>
@@ -1734,6 +1731,7 @@ Nhấp vào + để tạo tài liệu mới."</string>
     <string name="suggestions_add_to_dictionary">Thêm vào từ điển</string>
     <string name="suggestions_delete_text">Xóa</string>
     <string name="suggestions_popup_opened">Đề xuất chính tả</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_to_paginated_view">Bố cục in</string>
     <string name="sync_failed">Lỗi đồng bộ hóa Google Tài liệu</string>
     <string name="sync_more_error">Lỗi khi truy xuất thêm mục</string>
@@ -1971,6 +1969,8 @@ Nhấp vào + để tạo tài liệu mới."</string>
     <string name="upsell_negbtn">Để sau</string>
     <string name="upsell_okbtn">Nâng cấp</string>
     <string name="url_typo_error_msg">Liên kết trông có vẻ không đúng. Lỗi đánh máy?</string>
+    <string name="v7_preference_off">TẮT</string>
+    <string name="v7_preference_on">BẬT</string>
     <string name="verbalize_opened_edit">Đã mở %1$s với quyền chỉnh sửa.</string>
     <string name="verbalize_opened_suggest">Đã mở %1$s với quyền nhận xét.</string>
     <string name="verbalize_opened_view">Đã mở %1$s với quyền xem.</string>
@@ -1999,8 +1999,9 @@ Nhấp vào + để tạo tài liệu mới."</string>
     <string name="warm_welcome_next_button">Tiếp theo</string>
     <string name="warm_welcome_skip_button">Bỏ qua</string>
     <string name="warning_cannot_share_outside_domain">Các cài đặt của Drive nhóm này ngăn chặn chia sẻ ra bên ngoài %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Các mục cài đặt của Drive nhóm này ngăn chặn chia sẻ ra bên ngoài %s và với những người không phải là thành viên</string>
     <string name="warning_cannot_share_outside_domain_org">Các cài đặt của tổ chức chặn chia sẻ ra bên ngoài tổ chức</string>
-    <string name="warning_cannot_share_outside_team_drive">Các cài đặt của Drive nhóm này ngăn chặn chia sẻ ra bên ngoài nhóm</string>
+    <string name="warning_cannot_share_outside_team_drive">Các cài đặt của Drive nhóm này ngăn chia sẻ với người không phải là thành viên</string>
     <string name="welcome_button_close">Chuyển tới Tài liệu</string>
     <string name="welcome_button_continue">Tiếp theo</string>
     <string name="welcome_offer_button_close">Đóng</string>
@@ -2027,12 +2028,12 @@ Nhấp vào + để tạo tài liệu mới."</string>
     <string name="zss_entry_types_header_title">Loại tệp</string>
     <string name="zss_no_filters">Không có bộ lọc nào</string>
     <string name="zss_owner_header_title">Thuộc sở hữu của</string>
-    <string name="zss_owner_me">Do tôi sở hữu</string>
-    <string name="zss_owner_not_me">Không do tôi sở hữu</string>
+    <string name="zss_owner_me">Thuộc sở hữu của tôi</string>
+    <string name="zss_owner_not_me">Không thuộc sở hữu của tôi</string>
     <string name="zss_people_header_title">Mọi người</string>
     <string name="zss_showing_list_of_filters">Hiển thị danh sách bộ lọc có sẵn.</string>
     <string name="zss_team_drive">Tìm kiếm trong %1$s</string>
-    <string name="zss_type_archive">Lưu trữ</string>
+    <string name="zss_type_archive">Mục lưu trữ</string>
     <string name="zss_type_audio">Âm thanh</string>
     <string name="zss_type_documents">Tài liệu văn bản</string>
     <string name="zss_type_folder">Thư mục</string>

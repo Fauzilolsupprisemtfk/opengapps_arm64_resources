@@ -8,7 +8,7 @@
             <include android:layout_width="wrap_content" android:layout_height="fill_parent" layout="@layout/insert_tool_actionbar_close_white" />
         </LinearLayout>
         <LinearLayout android:id="@id/insert_tool_zero_search_fake_search_bar" android:background="@android:color/white" style="@style/insert_tool_heading">
-            <LinearLayout android:id="@id/insert_tool_search_button" android:background="@drawable/insert_tool_fake_search_bar_background" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_weight="1.0" android:paddingEnd="@dimen/insert_tool_search_button_margin_left" style="@style/insert_tool_heading">
+            <LinearLayout android:id="@id/insert_tool_search_button" android:focusable="true" android:layout_width="0.0dip" android:layout_weight="1.0" android:paddingEnd="@dimen/insert_tool_search_button_margin_left" style="@style/insert_tool_touch_focusable_heading">
                 <ImageView android:src="@drawable/quantum_ic_search_grey600_24" style="@style/insert_tool_actionbar_icon" />
                 <TextView android:textColor="@color/insert_tool_search_text" android:id="@id/insert_tool_search_text" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_marginLeft="@dimen/insert_tool_actionbar_text_margin_left_right" android:layout_marginStart="@dimen/insert_tool_actionbar_text_margin_left_right" style="@style/insert_tool_search_bar" />
             </LinearLayout>

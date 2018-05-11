@@ -46,7 +46,7 @@
     <string name="action_bar_comments">Kommentarer</string>
     <string name="action_bar_details">Detaljer…</string>
     <string name="action_bar_find_and_replace">Søk og erstatt</string>
-    <string name="action_bar_get_more_addons">Skaff deg tillegg…</string>
+    <string name="action_bar_get_more_addons">Installer tillegg…</string>
     <string name="action_bar_help">Hjelp og tilbakemelding</string>
     <string name="action_bar_insert">Sett inn</string>
     <string name="action_bar_insert_column_left">Kolonne til venstre</string>
@@ -703,7 +703,7 @@ Prøv å laste opp en fil."</string>
     <string name="empty_doclist_for_pinned_view_details">Gjør filene «tilgjengelige uten nett» i alternativmenyen for filene</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Trykk på «Tilgjengelig uten nett» i menyen for en fil for å kunne fortsette å arbeide med den uten nettilgang.</string>
     <string name="empty_doclist_for_recent_view">Det finnes ingen filer som nylig er åpnet eller endret.</string>
-    <string name="empty_doclist_for_search_view">Ingen resultater.</string>
+    <string name="empty_doclist_for_search_view">Ingen treff</string>
     <string name="empty_doclist_for_shared_with_me_view">Filer som deles med deg, vises her.</string>
     <string name="empty_doclist_for_starred_view">Du har ingen stjernemerkede filer.</string>
     <string name="empty_doclist_for_starred_view_details">Trykk på stjerneikonet i alternativmenyen for filen for å legge til filen i denne listen.</string>
@@ -752,6 +752,7 @@ Klikk på + for å opprette et nytt dokument."</string>
     <string name="error_video_not_available">Videoen har ikke blitt behandlet. Prøv igjen senere.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">+ %1$d andre.</string>
+    <string name="expand_button_title">Avansert</string>
     <string name="expires_future">Utløper om %1$s</string>
     <string name="expires_today">Utløper i dag</string>
     <string name="export_download_error_title">Nedlastingsfeil</string>
@@ -768,6 +769,11 @@ Klikk på + for å opprette et nytt dokument."</string>
     <string name="fab_office_document">Ny Word-fil</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">Søkeresultater</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">kB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Eldre</string>
     <string name="fast_scroll_time_grouper_last_week">Forrige uke</string>
     <string name="fast_scroll_time_grouper_this_month">Tidligere denne måneden</string>
@@ -1202,8 +1208,8 @@ Klikk på + for å opprette et nytt dokument."</string>
     <string name="ouch_title_sawwrie">Beklager!</string>
     <string name="overwrite_confirm_dialog_message">%1$s finnes allerede. Vil du overskrive den?</string>
     <string name="overwrite_confirm_dialog_positive_button_label">Overskriv</string>
-    <string name="owner_not_user">Ikke eid av %1$s</string>
-    <string name="owner_user">Eid av %1$s</string>
+    <string name="owner_not_user">Eies ikke av %1$s</string>
+    <string name="owner_user">Eies av %1$s</string>
     <string name="page_1_description">Få ting gjort – med eller uten Internett-tilkobling.</string>
     <string name="page_1_heading_editors">Skriv mens du er på farten</string>
     <string name="page_2_description">Skriv på egen hånd, eller inviter andre til å bidra.</string>
@@ -1380,7 +1386,6 @@ Klikk på + for å opprette et nytt dokument."</string>
     <string name="published_access_anyone">Alle kan se nettstedet når det er publisert</string>
     <string name="published_access_domain">Alle på %s kan se den publiserte versjonen</string>
     <string name="published_access_select_people">Bestemte personer kan se nettstedet når det er publisert</string>
-    <string name="published_disabled_append">deaktivert,</string>
     <string name="published_message_for_anyone_can_edit">Siden alle kan redigere, kan alle se det når det er publisert.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Siden alle på %1$s kan redigere, kan alle på %1$s se det når det legges ut.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Siden alle med linken kan redigere, kan alle se det når det er publisert.</string>
@@ -1715,6 +1720,7 @@ Klikk på + for å opprette et nytt dokument."</string>
     <string name="suggestions_add_to_dictionary">Legg til i ordlisten</string>
     <string name="suggestions_delete_text">Slett</string>
     <string name="suggestions_popup_opened">Staveforslag</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_to_paginated_view">Utskriftsoppsett</string>
     <string name="sync_failed">Synkroniseringsfeil i Google Dokumenter</string>
     <string name="sync_more_error">Det oppsto en feil da flere elementer skulle hentes</string>
@@ -1952,6 +1958,8 @@ Klikk på + for å opprette et nytt dokument."</string>
     <string name="upsell_negbtn">Senere</string>
     <string name="upsell_okbtn">Oppgrader</string>
     <string name="url_typo_error_msg">Linken ser ikke riktig ut. Skrivefeil?</string>
+    <string name="v7_preference_off">AV</string>
+    <string name="v7_preference_on">PÅ</string>
     <string name="verbalize_opened_edit">Åpnet %1$s med redigeringstillatelser.</string>
     <string name="verbalize_opened_suggest">Åpnet %1$s med kommenteringstillatelser.</string>
     <string name="verbalize_opened_view">Åpnet %1$s med lesetillatelser.</string>
@@ -1980,8 +1988,9 @@ Klikk på + for å opprette et nytt dokument."</string>
     <string name="warm_welcome_next_button">Neste</string>
     <string name="warm_welcome_skip_button">Hopp over</string>
     <string name="warning_cannot_share_outside_domain">Innstillingene for denne teamdisken forhindrer deling utenfor %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Innstillingene for denne teamdisken forhindrer deling med brukere som ikke er medlemmer, og med brukere som ikke er tilknyttet %s.</string>
     <string name="warning_cannot_share_outside_domain_org">Organisasjonens innstillinger forhindrer deling utenfor organisasjonen</string>
-    <string name="warning_cannot_share_outside_team_drive">Innstillingene for denne teamdisken forhindrer deling utenfor teamet.</string>
+    <string name="warning_cannot_share_outside_team_drive">Innstillingene for denne teamdisken forhindrer deling med brukere som ikke er medlemmer</string>
     <string name="welcome_button_close">Gå til Dokumenter</string>
     <string name="welcome_button_continue">Neste</string>
     <string name="welcome_offer_button_close">Lukk</string>
@@ -2000,17 +2009,17 @@ Klikk på + for å opprette et nytt dokument."</string>
     <string name="write_access_denied">Skrivetilgang til dokumentet ble avvist.</string>
     <string name="zss_accessibility_searching">Søker etter %1$s</string>
     <string name="zss_date_range_header_title">Endringsdato</string>
-    <string name="zss_date_range_month">Siste 30 dager</string>
-    <string name="zss_date_range_three_month">Siste 90 dager</string>
+    <string name="zss_date_range_month">De siste 30 dagene</string>
+    <string name="zss_date_range_three_month">De siste 90 dagene</string>
     <string name="zss_date_range_today">I dag</string>
-    <string name="zss_date_range_week">Siste 7 dager</string>
+    <string name="zss_date_range_week">De siste sju dagene</string>
     <string name="zss_date_range_yesterday">I går</string>
     <string name="zss_entry_types_header_title">Filtyper</string>
     <string name="zss_no_filters">Ingen filtre</string>
     <string name="zss_owner_header_title">Eies av</string>
     <string name="zss_owner_me">Eies av meg</string>
     <string name="zss_owner_not_me">Eies ikke av meg</string>
-    <string name="zss_people_header_title">Personer</string>
+    <string name="zss_people_header_title">Folk</string>
     <string name="zss_showing_list_of_filters">Viser listen over tilgjengelige filtre.</string>
     <string name="zss_team_drive">Søk i %1$s</string>
     <string name="zss_type_archive">Arkiv</string>

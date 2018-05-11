@@ -711,7 +711,7 @@
     <string name="empty_doclist_for_pinned_view_details">Направете файлове налице офлайн от менюто им за опции.</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Докоснете „Налице офлайн“ в менюто на файла, за да можете да работите по него офлайн.</string>
     <string name="empty_doclist_for_recent_view">Няма наскоро отваряни или редактирани файлове.</string>
-    <string name="empty_doclist_for_search_view">Няма резултати.</string>
+    <string name="empty_doclist_for_search_view">Няма резултати</string>
     <string name="empty_doclist_for_shared_with_me_view">Споделените с вас файлове ще се покажат тук.</string>
     <string name="empty_doclist_for_starred_view">Нямате файлове със звезда.</string>
     <string name="empty_doclist_for_starred_view_details">Докоснете иконата на звезда в менюто за опции за файла, за да го добавите в този списък.</string>
@@ -760,6 +760,7 @@
     <string name="error_video_not_available">Видеоклипът не е обработен. Моля, опитайте отново по-късно.</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">и още %1$d души.</string>
+    <string name="expand_button_title">Разширени</string>
     <string name="expires_future">Изтича след %1$s</string>
     <string name="expires_today">Изтича днес</string>
     <string name="export_download_error_title">Грешка при изтеглянето</string>
@@ -776,6 +777,11 @@
     <string name="fab_office_document">Нов файл в Word</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d г.</string>
     <string name="fast_scroll_search_result_grouper">Резултати</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">ГБ</string>
+    <string name="fast_scroll_size_grouper_kb">КБ</string>
+    <string name="fast_scroll_size_grouper_mb">МБ</string>
     <string name="fast_scroll_time_grouper_earlier">По-стари</string>
     <string name="fast_scroll_time_grouper_last_week">Миналата седмица</string>
     <string name="fast_scroll_time_grouper_this_month">По-рано този месец</string>
@@ -995,17 +1001,8 @@
     <string name="manage_addons_playstore_link_description">Преминаване към Google Play Магазин за %s</string>
     <string name="manage_members_default_members">По подразбиране членовете могат да качват, редактират и изтриват файлове и да канят други членове</string>
     <string name="manage_members_dialog_title">Достъп на членовете</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">Хранилище</string>
+    <string name="management_data_loading_failed">Тази страница не може да се зареди</string>
     <string name="menu_backup">Резервни копия</string>
     <string name="menu_copy_link">Копиране</string>
     <string name="menu_create_shortcut">На началния екран</string>
@@ -1400,7 +1397,6 @@
     <string name="published_access_anyone">Всеки може да преглежда след публикуването</string>
     <string name="published_access_domain">Всеки от %s може да преглежда след публикуването</string>
     <string name="published_access_select_people">След публикуването могат да преглеждат конкретни хора</string>
-    <string name="published_disabled_append">деактивирано,</string>
     <string name="published_message_for_anyone_can_edit">Тъй като всеки може да редактира, след публикуването всички ще могат да преглеждат.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">Тъй като всеки от %1$s може да редактира, след публикуването всички от %1$s ще могат да преглеждат.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Тъй като всеки с връзката може да редактира, след публикуването всички ще могат да преглеждат.</string>
@@ -1735,6 +1731,7 @@
     <string name="suggestions_add_to_dictionary">Добавяне към речника</string>
     <string name="suggestions_delete_text">Изтриване</string>
     <string name="suggestions_popup_opened">Предложения за правопис</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_to_paginated_view">Печатно оформление</string>
     <string name="sync_failed">Грешка при синхронизирането на Google Документи</string>
     <string name="sync_more_error">При извличането на допълнителните елементи възникна грешка</string>
@@ -1972,6 +1969,8 @@
     <string name="upsell_negbtn">По-късно</string>
     <string name="upsell_okbtn">Надстройване</string>
     <string name="url_typo_error_msg">Връзката не изглежда както трябва. Може би има печатна грешка?</string>
+    <string name="v7_preference_off">ИЗКЛ.</string>
+    <string name="v7_preference_on">ВКЛ.</string>
     <string name="verbalize_opened_edit">Отворихте „%1$s“ с разрешения за редактиране.</string>
     <string name="verbalize_opened_suggest">Отворихте „%1$s“ с разрешения за коментиране.</string>
     <string name="verbalize_opened_view">Отворихте „%1$s“ с разрешения за преглеждане.</string>
@@ -2000,8 +1999,9 @@
     <string name="warm_welcome_next_button">Напред</string>
     <string name="warm_welcome_skip_button">Пропускане</string>
     <string name="warning_cannot_share_outside_domain">Настройките на този екипен диск не позволяват споделянето извън %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">Настройките на този екипен диск не позволяват споделяне с хора извън %s и такива, които не са членове</string>
     <string name="warning_cannot_share_outside_domain_org">Настройките за организацията не позволяват споделяне извън нея</string>
-    <string name="warning_cannot_share_outside_team_drive">Настройките на този екипен диск не позволяват споделянето извън екипа</string>
+    <string name="warning_cannot_share_outside_team_drive">Настройките на този екипен диск не позволяват споделянето с хора, които не са членове</string>
     <string name="welcome_button_close">Към Документи</string>
     <string name="welcome_button_continue">Напред</string>
     <string name="welcome_offer_button_close">Затваряне</string>
@@ -2032,7 +2032,7 @@
     <string name="zss_owner_not_me">Непритежавани от мен</string>
     <string name="zss_people_header_title">Хора</string>
     <string name="zss_showing_list_of_filters">Показан е списък с наличните филтри.</string>
-    <string name="zss_team_drive">Търсене в %1$s</string>
+    <string name="zss_team_drive">Търсене в/ъв „%1$s“</string>
     <string name="zss_type_archive">Архив</string>
     <string name="zss_type_audio">Аудио</string>
     <string name="zss_type_documents">Текстови документи</string>

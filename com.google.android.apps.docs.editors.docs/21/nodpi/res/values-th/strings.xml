@@ -760,6 +760,7 @@
     <string name="error_video_not_available">ยังไม่ได้ประมวลผลวิดีโอ โปรดลองอีกครั้งในภายหลัง</string>
     <string name="excess_head_count">+%1$d</string>
     <string name="excess_head_count_verbalization">และอีก %1$d คน</string>
+    <string name="expand_button_title">ขั้นสูง</string>
     <string name="expires_future">หมดอายุใน %1$s</string>
     <string name="expires_today">หมดอายุวันนี้</string>
     <string name="export_download_error_title">ข้อผิดพลาดในการดาวน์โหลด</string>
@@ -776,6 +777,11 @@
     <string name="fab_office_document">ไฟล์ Word ใหม่</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
     <string name="fast_scroll_search_result_grouper">ผลการค้นหา</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">เก่ากว่า</string>
     <string name="fast_scroll_time_grouper_last_week">สัปดาห์ที่แล้ว</string>
     <string name="fast_scroll_time_grouper_this_month">ต้นเดือนนี้</string>
@@ -995,17 +1001,8 @@
     <string name="manage_addons_playstore_link_description">ไปที่ Play Store สำหรับ %s</string>
     <string name="manage_members_default_members">สมาชิกสามารถอัปโหลด/แก้ไข/ลบไฟล์ และเชิญสมาชิกคนอื่นๆ ได้โดยค่าเริ่มต้น</string>
     <string name="manage_members_dialog_title">สิทธิ์เข้าถึงของสมาชิก</string>
-    <string name="management_activity_toolbar_title">Storage</string>
-    <string name="management_current_plan">Current plan</string>
-    <string name="management_data_loading_failed">Data failed to load.</string>
-    <string name="management_includes">Includes</string>
-    <string name="management_learn_more">Learn more</string>
-    <string name="management_more_options">More options</string>
-    <string name="management_recommended">Recommended</string>
-    <string name="management_show_less">Show less</string>
-    <string name="management_storage_usage_title">Current storage</string>
-    <string name="management_upgrade_tier_label">Upgrade</string>
-    <string name="management_user_storage_summary">%1$s of %2$s (%3$s%%) used</string>
+    <string name="management_activity_toolbar_title">พื้นที่เก็บข้อมูล</string>
+    <string name="management_data_loading_failed">โหลดหน้านี้ไม่ได้</string>
     <string name="menu_backup">ข้อมูลสำรอง</string>
     <string name="menu_copy_link">คัดลอกลิงก์</string>
     <string name="menu_create_shortcut">เพิ่มลงในหน้าจอหลัก</string>
@@ -1400,7 +1397,6 @@
     <string name="published_access_anyone">ทุกคนจะดูได้เมื่อเผยแพร่แล้ว</string>
     <string name="published_access_domain">ทุกคนใน %s ดูได้เมื่อเผยแพร่แล้ว</string>
     <string name="published_access_select_people">บุคคลที่ระบุจะดูได้เมื่อเผยแพร่แล้ว</string>
-    <string name="published_disabled_append">ปิดอยู่</string>
     <string name="published_message_for_anyone_can_edit">เนื่องจากทุกคนแก้ไขได้ ดังนั้นทุกคนจึงดูได้ด้วยเมื่อเผยแพร่</string>
     <string name="published_message_for_anyone_in_domain_can_edit">เนื่องจากทุกคนใน %1$s มีสิทธิ์แก้ไขได้ ดังนั้นทุกคนที่ %1$s จึงดูได้ด้วยเมื่อเผยแพร่แล้ว</string>
     <string name="published_message_for_anyone_with_link_can_edit">เนื่องจากทุกคนที่มีลิงก์สามารถแก้ไขได้ ดังนั้นทุกคนจึงดูได้ด้วยเมื่อเผยแพร่</string>
@@ -1735,6 +1731,7 @@
     <string name="suggestions_add_to_dictionary">เพิ่มในพจนานุกรม</string>
     <string name="suggestions_delete_text">ลบ</string>
     <string name="suggestions_popup_opened">คำแนะนำในการสะกดคำ</string>
+    <string name="summary_collapsed_preference_list">%1$s %2$s</string>
     <string name="switch_to_paginated_view">รูปแบบการพิมพ์</string>
     <string name="sync_failed">การซิงค์ข้อมูล Google เอกสารเกิดข้อผิดพลาด</string>
     <string name="sync_more_error">เกิดข้อผิดพลาดในการเรียกรายการเพิ่มเติม</string>
@@ -1972,6 +1969,8 @@
     <string name="upsell_negbtn">ไว้ทีหลัง</string>
     <string name="upsell_okbtn">อัปเกรด</string>
     <string name="url_typo_error_msg">ดูเหมือนลิงก์จะไม่ถูกต้อง สะกดผิดใช่ไหม</string>
+    <string name="v7_preference_off">ปิด</string>
+    <string name="v7_preference_on">เปิด</string>
     <string name="verbalize_opened_edit">เปิด %1$s โดยมีสิทธิ์แก้ไขแล้ว</string>
     <string name="verbalize_opened_suggest">เปิด %1$s โดยมีสิทธิ์แสดงความคิดเห็นแล้ว</string>
     <string name="verbalize_opened_view">เปิด %1$s โดยมีสิทธิ์ดูแล้ว</string>
@@ -2000,8 +1999,9 @@
     <string name="warm_welcome_next_button">ถัดไป</string>
     <string name="warm_welcome_skip_button">ข้าม</string>
     <string name="warning_cannot_share_outside_domain">การตั้งค่าไดรฟ์ของทีมนี้ป้องกันไม่ให้มีการแชร์กับภายนอก %s</string>
+    <string name="warning_cannot_share_outside_domain_and_team_drive">การตั้งค่าไดรฟ์ของทีมนี้ป้องกันไม่ให้แชร์กับผู้ที่ไม่ใช่สมาชิกและผู้ที่อยู่นอก %s</string>
     <string name="warning_cannot_share_outside_domain_org">การตั้งค่าขององค์กรป้องกันไม่ให้แชร์กับภายนอกองค์กร</string>
-    <string name="warning_cannot_share_outside_team_drive">การตั้งค่าไดรฟ์ของทีมนี้ป้องกันไม่ให้มีการแชร์กับภายนอกทีม</string>
+    <string name="warning_cannot_share_outside_team_drive">การตั้งค่าไดรฟ์ของทีมนี้ป้องกันการแชร์ลิงก์กับผู้ที่ไม่ใช่สมาชิก</string>
     <string name="welcome_button_close">ไปที่เอกสาร</string>
     <string name="welcome_button_continue">ต่อไป</string>
     <string name="welcome_offer_button_close">ปิด</string>
@@ -2021,9 +2021,9 @@
     <string name="zss_accessibility_searching">กำลังค้นหา %1$s</string>
     <string name="zss_date_range_header_title">วันที่แก้ไข</string>
     <string name="zss_date_range_month">30 วันที่ผ่านมา</string>
-    <string name="zss_date_range_three_month">90 วันที่ผ่านมา</string>
+    <string name="zss_date_range_three_month">90 วันล่าสุด</string>
     <string name="zss_date_range_today">วันนี้</string>
-    <string name="zss_date_range_week">7 วันที่ผ่านมา</string>
+    <string name="zss_date_range_week">7 วันล่าสุด</string>
     <string name="zss_date_range_yesterday">เมื่อวานนี้</string>
     <string name="zss_entry_types_header_title">ประเภทไฟล์</string>
     <string name="zss_no_filters">ไม่มีตัวกรอง</string>
@@ -2037,7 +2037,7 @@
     <string name="zss_type_audio">เสียง</string>
     <string name="zss_type_documents">เอกสารข้อความ</string>
     <string name="zss_type_folder">โฟลเดอร์</string>
-    <string name="zss_type_images">รูปภาพ</string>
+    <string name="zss_type_images">ภาพถ่ายและรูปภาพ</string>
     <string name="zss_type_pdfs">PDF</string>
     <string name="zss_type_presentations">งานนำเสนอ</string>
     <string name="zss_type_spreadsheets">สเปรดชีต</string>

@@ -692,7 +692,7 @@ GARRANTZITSUA! Datuak bidali ondoren, garbitu aplikazioko cachea (Ezarpenak -> A
     <string name="empty_doclist_for_pinned_view_details">Ezarri fitxategiak \"Konexiorik gabe erabilgarri\" fitxategien aukeren menuan</string>
     <string name="empty_doclist_for_pinned_view_details_can_edit">Sakatu fitxategiaren menuko \"Konexiorik gabe erabilgarri\" aukera fitxategian lanean jarraitu ahal izateko.</string>
     <string name="empty_doclist_for_recent_view">Azkenaldian ez da ireki edo editatu fitxategirik.</string>
-    <string name="empty_doclist_for_search_view">Ez da aurkitu emaitzarik.</string>
+    <string name="empty_doclist_for_search_view">Ez dago emaitzarik</string>
     <string name="empty_doclist_for_shared_with_me_view">Hemen agertuko dira zurekin partekatutako fitxategiak.</string>
     <string name="empty_doclist_for_starred_view">Ez duzu fitxategi izardunik.</string>
     <string name="empty_doclist_for_starred_view_details">Sakatu fitxategiaren aukera-menuko izarraren ikonoa zerrendan gehitzeko.</string>
@@ -741,6 +741,7 @@ Sakatu + dokumentuak sortzeko."</string>
     <string name="error_video_not_available">Ez da prozesatu bideoa. Saiatu berriro geroago.</string>
     <string name="excess_head_count">Beste %1$d</string>
     <string name="excess_head_count_verbalization">Eta beste %1$d.</string>
+    <string name="expand_button_title">Aurreratua</string>
     <string name="expires_future">%1$s barru iraungiko da</string>
     <string name="expires_today">Gaur iraungiko da</string>
     <string name="export_download_error_title">Errorea deskargatzean</string>
@@ -757,6 +758,11 @@ Sakatu + dokumentuak sortzeko."</string>
     <string name="fab_office_document">Word fitxategi berria</string>
     <string name="fast_scroll_month_and_year_grouped">%2$d %1$s</string>
     <string name="fast_scroll_search_result_grouper">Bilaketa-emaitzak</string>
+    <string name="fast_scroll_size_grouper_b">B</string>
+    <string name="fast_scroll_size_grouper_empty">----</string>
+    <string name="fast_scroll_size_grouper_gb">GB</string>
+    <string name="fast_scroll_size_grouper_kb">KB</string>
+    <string name="fast_scroll_size_grouper_mb">MB</string>
     <string name="fast_scroll_time_grouper_earlier">Zaharragoak</string>
     <string name="fast_scroll_time_grouper_last_week">Aurreko astea</string>
     <string name="fast_scroll_time_grouper_this_month">Hilabete-hasiera</string>
@@ -972,6 +978,8 @@ kargatzen"</string>
     <string name="make_copy_spinner_message">Kopiatzen…</string>
     <string name="manage_members_default_members">Modu lehenetsian, kide gehiago gonbidatu eta fitxategiak kargatu, editatu eta ezaba ditzakete kideek</string>
     <string name="manage_members_dialog_title">Kideen baimenak</string>
+    <string name="management_activity_toolbar_title">Memoria</string>
+    <string name="management_data_loading_failed">Ezin da kargatu orria</string>
     <string name="menu_backup">Babeskopiak</string>
     <string name="menu_copy_link">Kopiatu esteka</string>
     <string name="menu_create_shortcut">Gehitu hasieran</string>
@@ -1158,7 +1166,6 @@ kargatzen"</string>
     <string name="open_document_outline">Ireki dokumentuaren eskema</string>
     <string name="open_folder_removed">Jada ezin da ikusi irekitako karpeta.</string>
     <string name="open_folder_trashed">Zaborrontzira eraman da %1$s karpeta.</string>
-    <string name="open_in">Ireki %1$s aplikazioan</string>
     <string name="open_link">Ireki esteka</string>
     <string name="open_pinned_version">Ireki gailutik</string>
     <string name="open_templates_picker_offline">Konekta zaitez txantiloiak erabiltzeko.</string>
@@ -1187,8 +1194,6 @@ kargatzen"</string>
     <string name="ouch_title_sawwrie">Barkatu!</string>
     <string name="overwrite_confirm_dialog_message">Badago %1$s. Gainidatzi egin nahi duzu?</string>
     <string name="overwrite_confirm_dialog_positive_button_label">Gainidatzi</string>
-    <string name="owner_not_user">%1$s erabiltzailearenak ez direnak</string>
-    <string name="owner_user">%1$s erabiltzailearenak</string>
     <string name="page_1_description">Egin ezazu behar duzuna Internetera konektatuta edo konektatu gabe.</string>
     <string name="page_1_heading_editors">Idatzi edonoiz eta edonon</string>
     <string name="page_2_description">Idatzi zuk bakarrik edo gonbidatu jende gehiago ekarpenak egitera.</string>
@@ -1301,7 +1306,7 @@ kargatzen"</string>
     <string name="pin_paused">Pausatu da deskarga</string>
     <string name="pin_pinned_a11y">Ainguratuta</string>
     <string name="pin_sync_broadband_warning_learn_more">Lortu informazio gehiago</string>
-    <string name="pin_sync_broadband_warning_message">Datu mugikorren bidez fitxategiak transferituz gero, baliteke zerbait ordaindu behar izatea, datu mugikorren zer plan duzun.</string>
+    <string name="pin_sync_broadband_warning_message">Datu-konexio bidez fitxategiak transferituz gero, baliteke zerbait ordaindu behar izatea, datu-konexioaren planaren arabera.</string>
     <string name="pin_sync_broadband_warning_title">Datuen erabilerari buruzko abisua</string>
     <string name="pin_update">Eguneratze berria eskuragarri</string>
     <string name="pin_waiting">Deskargatzeko zain</string>
@@ -1364,7 +1369,6 @@ kargatzen"</string>
     <string name="published_access_anyone">Edonork ikus dezake, argitaratzen denean</string>
     <string name="published_access_domain">%s domeinuko edonork ikus dezake, argitaratzen denean</string>
     <string name="published_access_select_people">Pertsona jakin batzuek ikus dezakete, argitaratzen denean</string>
-    <string name="published_disabled_append">desgaituta,</string>
     <string name="published_message_for_anyone_can_edit">Edonork edita dezake; beraz, edonork ikusi ahal izango du argitaratzen denean.</string>
     <string name="published_message_for_anyone_in_domain_can_edit">%1$s domeinuko edonork edita dezake; beraz, %1$s domeinuko edonork ikusi ahal izango du argitaratzen denean.</string>
     <string name="published_message_for_anyone_with_link_can_edit">Esteka duen edonork edita dezake; beraz, edonork ikusi ahal izango du argitaratzen denean.</string>
@@ -1696,6 +1700,7 @@ kargatzen"</string>
     <string name="suggestions_add_to_dictionary">Gehitu hiztegian</string>
     <string name="suggestions_delete_text">Ezabatu</string>
     <string name="suggestions_popup_opened">Ortografia-iradokizunak</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_to_paginated_view">Inprimatze-diseinua</string>
     <string name="sync_failed">Google Dokumentuak zerbitzuaren sinkronizazio-errorea</string>
     <string name="sync_more_error">Errore bat gertatu da elementu gehiago berreskuratzean</string>
@@ -1933,6 +1938,8 @@ kargatzen"</string>
     <string name="upsell_negbtn">Geroago</string>
     <string name="upsell_okbtn">Bertsio-berritu</string>
     <string name="url_typo_error_msg">Ez dirudi esteka zuzena denik. Behar bezala idatzita dago?</string>
+    <string name="v7_preference_off">DESAKTIBATUTA</string>
+    <string name="v7_preference_on">AKTIBATUTA</string>
     <string name="verbalize_opened_edit">Editatzeko baimenarekin ireki da %1$s.</string>
     <string name="verbalize_opened_suggest">Iruzkintzeko baimenarekin ireki da %1$s.</string>
     <string name="verbalize_opened_view">Ikusteko baimenarekin ireki da %1$s.</string>
@@ -1962,7 +1969,6 @@ kargatzen"</string>
     <string name="warm_welcome_skip_button">Saltatu</string>
     <string name="warning_cannot_share_outside_domain">Taldeko unitate honen ezarpenak direla-eta, ezin da partekatu edukia %s domeinutik kanpo</string>
     <string name="warning_cannot_share_outside_domain_org">Erakundearen ezarpenak direla-eta, ezin da partekatu edukia erakundetik kanpo</string>
-    <string name="warning_cannot_share_outside_team_drive">Taldeko unitate honen ezarpenak direla-eta, ezin da partekatu edukia taldetik kanpo</string>
     <string name="welcome_button_close">Joan zerbitzura</string>
     <string name="welcome_button_continue">Hurrengoa</string>
     <string name="welcome_offer_button_close">Itxi</string>
@@ -1979,28 +1985,6 @@ kargatzen"</string>
     <string name="welcome_title_app_name">Google Dokumentuak</string>
     <string name="welcome_title_highlights">%1$s aplikazioaren Iragarpen-panela.</string>
     <string name="write_access_denied">Ukatu egin da dokumentuan idazteko baimena.</string>
-    <string name="zss_accessibility_searching">%1$s bilatzen</string>
-    <string name="zss_date_range_header_title">Aldatze-data</string>
-    <string name="zss_date_range_month">Azken 30 egunak</string>
-    <string name="zss_date_range_three_month">Azken 90 egunak</string>
-    <string name="zss_date_range_today">Gaur</string>
-    <string name="zss_date_range_week">Azken 7 egunak</string>
-    <string name="zss_date_range_yesterday">Atzo</string>
-    <string name="zss_entry_types_header_title">Fitxategi motak</string>
     <string name="zss_no_filters">Ez dago iragazkirik</string>
-    <string name="zss_owner_header_title">Elementuaren jabea:</string>
-    <string name="zss_owner_me">Nire jabetzakoak</string>
-    <string name="zss_owner_not_me">Nire jabetzakoak ez direnak</string>
-    <string name="zss_people_header_title">Jendea</string>
     <string name="zss_showing_list_of_filters">Eskuragarri dauden iragazkien zerrenda ikusgai.</string>
-    <string name="zss_team_drive">Bilatu %1$s taldeko unitatean</string>
-    <string name="zss_type_archive">Artxibatu</string>
-    <string name="zss_type_audio">Audioa</string>
-    <string name="zss_type_documents">Testu-dokumentuak</string>
-    <string name="zss_type_folder">Karpetak</string>
-    <string name="zss_type_images">Argazkiak eta irudiak</string>
-    <string name="zss_type_pdfs">PDFak</string>
-    <string name="zss_type_presentations">Aurkezpenak</string>
-    <string name="zss_type_spreadsheets">Kalkulu-orriak</string>
-    <string name="zss_type_video">Bideoak</string>
 </resources>
