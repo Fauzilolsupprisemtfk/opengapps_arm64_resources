@@ -94,7 +94,6 @@
     <string name="dream_no_photos">Inga foton har markerats.</string>
     <string name="go_to_playstore_button">Öppna Play Butik</string>
     <string name="go_to_vr_listeners_settings_button">Öppna Inställningar</string>
-    <string name="google_drive_setting_desc">Visa foton och videor från Google Drive i Foto-biblioteket. &lt;a href=help:>Läs mer&lt;/a></string>
     <string name="google_drive_setting_title">Google Drive</string>
     <string name="hats_lib_close_button_description">Stäng</string>
     <string name="hats_lib_default_prompt_title">Hjälp oss att förbättra Google.</string>
@@ -309,10 +308,10 @@ Du kan pausa platshistorik när du vill, men det tar inte bort tidigare aktivite
     <string name="mr_controller_disconnect">Koppla från</string>
     <string name="mr_controller_expand_group">Utöka</string>
     <string name="mr_controller_no_info_available">Det finns ingen information</string>
-    <string name="mr_controller_no_media_selected">Inga media har valts</string>
+    <string name="mr_controller_no_media_selected">Ingen media har valts</string>
     <string name="mr_controller_pause">Pausa</string>
     <string name="mr_controller_play">Spela upp</string>
-    <string name="mr_controller_stop">Avbryt</string>
+    <string name="mr_controller_stop">Stoppa</string>
     <string name="mr_controller_stop_casting">Sluta casta</string>
     <string name="mr_controller_volume_slider">Volymreglage</string>
     <string name="mr_user_route_category_name">Enheter</string>
@@ -698,7 +697,6 @@ Dina foton och videor finns kvar i biblioteket."</string>
     <string name="photos_burst_actionutils_set_primary_failure">Kan inte ställas in som huvudfoto. Försök igen.</string>
     <string name="photos_burst_fragment_cover_photos_indicator">Indikator för omslagsfoto med fotoserie</string>
     <string name="photos_burst_fragment_thumbnail_description">Miniatyr av fotoserie</string>
-    <string name="photos_buystorage_guno_strings_storage_upgraded_message">Googles lagringsutrymme har uppgraderats</string>
     <string name="photos_cameraassistant_archive_failed">Objektet kan inte arkiveras</string>
     <string name="photos_cameraassistant_archive_success_content_description">Arkiverat i appen Foto</string>
     <string name="photos_cameraassistant_archive_undo_content_description">Borttaget från arkiv</string>
@@ -739,6 +737,7 @@ Dina foton och videor finns kvar i biblioteket."</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_out_of_storage_description">Foton och videor har slutat säkerhetskopieras. Köp lagrinsutrymme om du vill fortsätta säkerhetskopiera i originalkvalitet eller ändra uppladdningsstorleken i inställningarna.</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_out_of_storage_title">Du har slut på lagringsutrymme på Google</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_title">Ditt lagringsutrymme på Google är %d%% fullt</string>
+    <string name="photos_cloudstorage_buystorage_guno_strings_storage_upgraded_message">Googles lagringsutrymme har uppgraderats</string>
     <string name="photos_comments_adapteritem_comments_are_off">Kommentarer har nu stängts av</string>
     <string name="photos_comments_delete_comment_removed">Kommentaren har tagits bort</string>
     <string name="photos_comments_delete_confirm_button">Ta bort kommentar</string>
@@ -748,7 +747,7 @@ Dina foton och videor finns kvar i biblioteket."</string>
     <string name="photos_comments_popupmenu_delete_comment">Ta bort kommentar</string>
     <string name="photos_comments_popupmenu_report_abuse">Anmäl otillåten användning</string>
     <string name="photos_comments_popupmenu_text_copied">Text kopierad</string>
-    <string name="photos_comments_ui_comment_list_header">Kommentarer</string>
+    <string name="photos_comments_ui_comment_list_header">Aktivitet</string>
     <string name="photos_comments_ui_commentbar_add_photos_icon_content_desc">Lägg till foton i delat album</string>
     <string name="photos_comments_ui_commentbar_comments_off_hint_text">Kommentarer har nu stängts av</string>
     <string name="photos_comments_ui_commentbar_say_something_hint_text">Säg något</string>
@@ -790,6 +789,7 @@ Dina foton och videor finns kvar i biblioteket."</string>
     <string name="photos_create_mediabundle_create_new_motion_failure">Det gick inte att skapa animeringen. Försök igen.</string>
     <string name="photos_create_mediabundle_create_new_movie">Film</string>
     <string name="photos_create_mediabundle_create_new_movie_failure">Det gick inte att skapa filmen. Försök igen.</string>
+    <string name="photos_create_mediabundle_create_new_new_album">Nytt album</string>
     <string name="photos_create_mediabundle_create_new_photo_book">Fotobok</string>
     <string name="photos_create_mediabundle_validation_error_avtype_other">Ogiltigt val.</string>
     <string name="photos_create_mediabundle_validation_error_avtype_static_images_only">Välj %1$d till %2$d foton.</string>
@@ -818,6 +818,7 @@ Dina foton och videor finns kvar i biblioteket."</string>
     <string name="photos_create_viewbinder_shared_badge">Delas</string>
     <string name="photos_create_viewbinder_subtitle_divider">•</string>
     <string name="photos_create_viewbinder_title_add_to">Lägg till</string>
+    <string name="photos_create_viewbinder_title_all_albums">Alla album</string>
     <string name="photos_create_viewbinder_title_new">Skapa ny</string>
     <string name="photos_dataplan_free_backup_notification_description_airtel">Säkerhetskopiera foton med gratis data under during Airtel Happy Hours</string>
     <string name="photos_dataplan_free_backup_notification_title_airtel">Kostnadsfri säkerhetskopiering med Airtel</string>
@@ -876,7 +877,7 @@ Dina foton och videor finns kvar i biblioteket."</string>
     <string name="photos_devicesetup_betterbackuppromo_search_promo_message">Dina foton organiseras automatiskt och blir sökbara när du aktiverar säkerhetskopiering</string>
     <string name="photos_devicesetup_betterbackuppromo_search_promo_title">Hitta foton snabbare</string>
     <string name="photos_devicesetup_conversion_sheet_account_picker_title">Välj ett konto</string>
-    <string name="photos_devicesetup_done_label">KLAR</string>
+    <string name="photos_devicesetup_done_label">BEKRÄFTA</string>
     <string name="photos_devicesetup_high_quality_storage_label">Uppladdningsstorlek: Hög kvalitet (gratis obegränsat lagringsutrymme)</string>
     <string name="photos_devicesetup_high_quality_storage_subtitle">Hög visuell kvalitet och reducerad filstorlek</string>
     <string name="photos_devicesetup_high_quality_storage_title">Hög kvalitet (gratis obegränsat lagringsutrymme)</string>
@@ -909,6 +910,8 @@ Dina foton och videor finns kvar i biblioteket."</string>
     <string name="photos_devicesetup_resources_auto_backup">Säkerhetskopiera och synkronisera</string>
     <string name="photos_devicesetup_resources_auto_backup_description">Säkerhetskopiera och synkronisera %1$s</string>
     <string name="photos_devicesetup_resources_auto_backup_settings">Säkerhetskopiera och synka inställningar</string>
+    <string name="photos_devicesetup_resources_auto_backup_title_info">Du kan ändra det här när som helst i Inställningar</string>
+    <string name="photos_devicesetup_resources_auto_backup_title_info_auto_backup_settings">Du kan ändra detta när du vill</string>
     <string name="photos_devicesetup_sign_in">Logga in</string>
     <string name="photos_devicesetup_sign_in_to_back_up">Logga in om du vill säkerhetskopiera</string>
     <string name="photos_devicesetup_turn_on">Aktivera</string>
@@ -947,7 +950,7 @@ Dina foton och videor finns kvar i biblioteket."</string>
     <string name="photos_drawermenu_remove_dialog_cancel">Behåll konto</string>
     <string name="photos_drawermenu_remove_dialog_caption">"%s
 
-Det här Google-kontot kommer inte längre att ha tillgång till Google Foto"</string>
+Det här Google-kontot kommer inte längre att ha åtkomst till Google Foto"</string>
     <string name="photos_drawermenu_remove_dialog_remove">Ta bort</string>
     <string name="photos_drawermenu_remove_dialog_title">Ta bort aktivt konto?</string>
     <string name="photos_drawermenu_util_add_account">Lägg till ett konto</string>
@@ -1016,6 +1019,7 @@ för den angivna videofilen."</string>
     <string name="photos_envelope_settings_hidename_show_email">Dölja namn och visa e-postadress i stället</string>
     <string name="photos_envelope_settings_hidename_show_number">Dölj namn och visa nummer i stället</string>
     <string name="photos_envelope_settings_load_error">Det gick inte att läsa in alternativ</string>
+    <string name="photos_envelope_settings_people_add_recipient_item_title">Bjud in andra</string>
     <string name="photos_envelope_settings_people_block_person">Blockera person</string>
     <string name="photos_envelope_settings_people_block_person_confirmation_message">De kan inte kontakta dig i Google Foto och du kan inte se deras foton och kommentarer i Google Foto. Blockeringen gäller även i vissa andra Google-produkter, till exempel Google+ och Hangouts. &lt;a href=help:>Läs mer&lt;/a></string>
     <string name="photos_envelope_settings_people_block_person_confirmation_positive_button">Blockera</string>
@@ -1086,17 +1090,17 @@ för den angivna videofilen."</string>
     <string name="photos_facegaia_optin_impl_picker_remove_dialog_title">Ta bort etiketten Jag?</string>
     <string name="photos_facegaia_optin_impl_selected">Valt</string>
     <string name="photos_facegaia_optin_impl_title">Anpassa Google Foto genom att välja ditt ansikte</string>
-    <string name="photos_favorites_promo_dialog_body_photo">Hitta enkelt det här fotot i albumet Favoriter</string>
-    <string name="photos_favorites_promo_dialog_body_video">Hitta enkelt den här videon i albumet Favoriter</string>
+    <string name="photos_favorites_promo_dialog_body_photo">Hitta enkelt dina favoriter i Album</string>
     <string name="photos_favorites_promo_dialog_negative_button">Klar</string>
     <string name="photos_favorites_promo_dialog_title">Har lagts till i Favoriter!</string>
-    <string name="photos_favorites_promo_dialogs_positive_button">Öppna Favoriter</string>
+    <string name="photos_favorites_promo_dialogs_positive_button">Visa favoriter</string>
     <string name="photos_gridlayers_empty_state_caption">"Ta en bild.
 Foton och videor visas här."</string>
     <string name="photos_gridlayers_empty_state_title">Inga foton</string>
     <string name="photos_gridlayers_floating_action_button_zoom_in_content_description">zooma in</string>
     <string name="photos_gridlayers_floating_action_button_zoom_out_content_description">zooma ut</string>
     <string name="photos_hearts_photoui_error_toggling_heart">Det går inte att ändra hjärtmarkeringen</string>
+    <string name="photos_hearts_popupmenu_delete">Radera</string>
     <string name="photos_hearts_popupmenu_error_toast">Det gick inte att radera gilla-markeringen.</string>
     <string name="photos_hearts_popupmenu_toast_deleted">Raderad</string>
     <string name="photos_hearts_viewbinder_user_liked_a_photo">%s gillar ett foto</string>
@@ -1369,7 +1373,10 @@ Foton och videor visas här."</string>
     <string name="photos_movies_ui_clipeditor_impl_unmute">Ljud på</string>
     <string name="photos_movies_ui_clipeditor_impl_video_clip_content_description">Videoklipp</string>
     <string name="photos_notificationchannels_assistant_channel">Assistent</string>
-    <string name="photos_notificationchannels_backup_channel">Säkerhetskopiering</string>
+    <string name="photos_notificationchannels_backup_alerts_channel">Alerts</string>
+    <string name="photos_notificationchannels_backup_channels_group">Säkerhetskopiera</string>
+    <string name="photos_notificationchannels_backup_progress_channel">Status</string>
+    <string name="photos_notificationchannels_backup_suggestions_channel">Förslag</string>
     <string name="photos_notificationchannels_other_channel">Övrigt</string>
     <string name="photos_notificationchannels_promotion_channel">Kampanjer</string>
     <string name="photos_notificationchannels_sharing_channel">Delas</string>
@@ -1504,10 +1511,6 @@ genom att flytta detta till Arkiv."</string>
     <string name="photos_partneraccount_assistant_promo_card_title">Spara tid, dela automatiskt</string>
     <string name="photos_partneraccount_assistant_promo_card_title_variant_1">Dela ditt bibliotek</string>
     <string name="photos_partneraccount_assistant_promo_card_title_variant_2">Lägg till partnerkonto</string>
-    <string name="photos_partneraccount_drive_share_warning_continue">Fortsätt</string>
-    <string name="photos_partneraccount_drive_share_warning_message">Du delar foton automatiskt med %s. Om du fortsätter kan foton från Drive delas automatiskt.</string>
-    <string name="photos_partneraccount_drive_share_warning_message_no_name">Du delar foton automatiskt med delade bibliotek. Om du fortsätter kan foton från Drive delas automatiskt.</string>
-    <string name="photos_partneraccount_drive_share_warning_title">Dela foton från Drive?</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_reciprocate_title">Dela tillbaka till %1$s</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_reciprocate_title_no_name">Dela tillbaka till partner</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_select">Välj foton</string>
@@ -1788,12 +1791,12 @@ Automatiskt."</string>
     <string name="photos_photobook_promotion_allphotos_subtext_1">för fotoböcker till och med Cyber Monday</string>
     <string name="photos_photobook_promotion_allphotos_subtext_2">för fotoböcker med leverans före den 24 december</string>
     <string name="photos_photobook_promotion_free_shipping">Fri frakt</string>
-    <string name="photos_photobook_promotion_free_shipping_offer_details">Information om erbjudandet</string>
     <string name="photos_photobook_promotion_general_book_cover_title">Minnen</string>
     <string name="photos_photobook_remediation_dialog_edit_selection_option">Redigera val</string>
     <string name="photos_photobook_remediation_dialog_view_preview_option">Visa förhandsgranskning av bok</string>
     <string name="photos_photobook_storefront_archive">Arkivera</string>
     <string name="photos_photobook_storefront_archive_failed">Det gick inte att arkivera beställningen</string>
+    <string name="photos_photobook_storefront_banner_dismiss_description">Stäng kampanj.</string>
     <string name="photos_photobook_storefront_buy_again">Beställ igen</string>
     <string name="photos_photobook_storefront_buy_idential_book">Köp identisk bok</string>
     <string name="photos_photobook_storefront_cancel_failure">Det gick inte att annullera beställningen</string>
@@ -1829,7 +1832,6 @@ Automatiskt."</string>
     <string name="photos_photobook_storefront_order_printing_time_notice">Din beställning kommer att skrivas ut inom 2–3 arbetsdagar från beställningsdatumet</string>
     <string name="photos_photobook_storefront_past_orders">Tidigare beställningar</string>
     <string name="photos_photobook_storefront_promo_code">Kampanjkod</string>
-    <string name="photos_photobook_storefront_promotion_general_book_cover_title">Minnen</string>
     <string name="photos_photobook_storefront_quantity">Antal: %d</string>
     <string name="photos_photobook_storefront_quantity_description">antal %d</string>
     <string name="photos_photobook_storefront_shipping">Leveransadress</string>
@@ -2233,7 +2235,7 @@ grupperade efter bekanta ansikten"</string>
     <string name="photos_search_localclusters_ui_sync_status_complete_preempted_subtitle">När säkerhetskopieringen är slutförd visas mer</string>
     <string name="photos_search_localclusters_ui_sync_status_complete_preempted_title">Detta har hittats i dina foton</string>
     <string name="photos_search_localclusters_ui_sync_status_complete_subtitle">Ordnade automatiskt för dig</string>
-    <string name="photos_search_localclusters_ui_sync_status_complete_title">På dina foton</string>
+    <string name="photos_search_localclusters_ui_sync_status_complete_title">I dina foton</string>
     <string name="photos_search_localclusters_ui_sync_status_finding_people">Söker efter personer …</string>
     <string name="photos_search_localclusters_ui_sync_status_finding_places">Söker efter platser …</string>
     <string name="photos_search_localclusters_ui_sync_status_finding_things">Söker efter saker …</string>
@@ -2367,7 +2369,7 @@ Ditt bibliotek delas. Synkroniserade objekt kan även vara tillgängliga för %s
     <string name="photos_settings_faceclustering_advanced_my_face_title">Ansikte med etiketten Jag</string>
     <string name="photos_settings_faceclustering_advanced_pets_setting">Visa husdjur med människor</string>
     <string name="photos_settings_faceclustering_advanced_setting_detailed_desc">Visa foton av personer som har grupperats efter hur lika deras ansikten är &lt;a href=help:>Läs mer&lt;/a></string>
-    <string name="photos_settings_faceclustering_face_recognition_off_dialog_message">Alla ansiktsgrupper för dina favoritpersoner tas bort</string>
+    <string name="photos_settings_faceclustering_face_recognition_off_dialog_message">Dina foton organiseras inte efter personer och görs inte om till personliga filmer och collage. Ändringar som du har gjort i dina ansiktsgrupper, som att lägga till namn, tas bort permanent.</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_negative_button">Håll funktionen aktiverad</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_positive_button">Inaktivera</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_title">Vill du inaktivera ansiktsgruppering?</string>
@@ -2420,6 +2422,7 @@ Ditt bibliotek delas. Synkroniserade objekt kan även vara tillgängliga för %s
     <string name="photos_setwallpaper_setas_wallpaper">Bakgrund</string>
     <string name="photos_share_collaborative_toggle_error">Det gick inte att ändra inställningen för samarbete</string>
     <string name="photos_share_copylink_activity_name">Hämta länk</string>
+    <string name="photos_share_direct_album_complete">Albumet har skickats</string>
     <string name="photos_share_direct_complete_icu">{count,plural, =1{Fotot har skickats}other{Fotona har skickats}}</string>
     <string name="photos_share_direct_progress_icu">{count,plural, =1{Skickar foto …}other{Skickar foton …}}</string>
     <string name="photos_share_error">Det gick inte att dela.</string>
@@ -2539,8 +2542,6 @@ Ditt bibliotek delas. Synkroniserade objekt kan även vara tillgängliga för %s
     <string name="photos_sharingtab_picker_impl_overflow_desc">Öppna fler menyalternativ</string>
     <string name="photos_sharingtab_picker_impl_overflow_select_album">Välj befintligt album</string>
     <string name="photos_sharingtab_picker_impl_overflow_select_people">Välj personer</string>
-    <string name="photos_sharingtab_picker_impl_recipient_name_separator">"\",\" "</string>
-    <string name="photos_sharingtab_picker_impl_recipients_hint_text">Skriv ett namn, telefonnummer eller en e-postadress</string>
     <string name="photos_sharingtab_picker_impl_select_more_button">Välj fler foton</string>
     <string name="photos_sharingtab_picker_impl_select_recipient_text">Vem är det här?</string>
     <string name="photos_sharingtab_picker_impl_selected_label">Valt</string>
@@ -2559,10 +2560,8 @@ Ditt bibliotek delas. Synkroniserade objekt kan även vara tillgängliga för %s
     <string name="photos_strings_undo_button">Ångra</string>
     <string name="photos_strings_untitled_title_text">Namnlös</string>
     <string name="photos_suggestedactions_archive_confirm_dialog_title">Arkivera det här fotot?</string>
-    <string name="photos_suggestedactions_archive_dialog_archive">Arkiv</string>
     <string name="photos_suggestedactions_archive_dialog_archive_photo">Arkivera foto</string>
     <string name="photos_suggestedactions_archive_dialog_cancel">Avbryt</string>
-    <string name="photos_suggestedactions_archive_dialog_ok">OK</string>
     <string name="photos_suggestedactions_archive_dialog_text">"Dölj foton i biblioteket som du inte vill se, exempelvis skärmdumpar eller kvitton.
 
 Du ser dem fortfarande i album, sökresultat och i arkivet."</string>
@@ -2579,7 +2578,6 @@ Du ser dem fortfarande i album, sökresultat och i arkivet."</string>
     <string name="photos_suggestedactions_archive_features_receipt">Arkivera detta kvitto</string>
     <string name="photos_suggestedactions_archive_features_screenshot">Arkivera denna skärmbild</string>
     <string name="photos_suggestedactions_archive_features_sketch">Arkivera denna skiss</string>
-    <string name="photos_suggestedactions_archive_help_dialog_title">Håll ordning med hjälp av arktivet</string>
     <string name="photos_suggestedactions_ui_dismiss_button_description">Stäng</string>
     <string name="photos_suggestedrotations_cancel_discard_button">AVBRYT</string>
     <string name="photos_suggestedrotations_discard_changes_button">IGNORERA</string>

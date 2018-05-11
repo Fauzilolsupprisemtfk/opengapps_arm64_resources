@@ -94,7 +94,6 @@
     <string name="dream_no_photos">No photos selected.</string>
     <string name="go_to_playstore_button">Go to the Play Store</string>
     <string name="go_to_vr_listeners_settings_button">Go to Settings</string>
-    <string name="google_drive_setting_desc">Show Google Drive photos &amp; videos in your Photos library. &lt;a href=help:>Learn more&lt;/a></string>
     <string name="google_drive_setting_title">Google Drive</string>
     <string name="home_menu_settings">Settings</string>
     <string name="image_action_shot_tooltip">Created by showing action from a batch of similar photos</string>
@@ -686,7 +685,6 @@ Your photos and videos will remain in your library."</string>
     <string name="photos_burst_actionutils_set_primary_failure">"Can't set as main photo. Try again."</string>
     <string name="photos_burst_fragment_cover_photos_indicator">Burst cover photo indicator</string>
     <string name="photos_burst_fragment_thumbnail_description">Photo burst thumbnail</string>
-    <string name="photos_buystorage_guno_strings_storage_upgraded_message">Google storage successfully upgraded</string>
     <string name="photos_cameraassistant_archive_failed">"Can't archive item"</string>
     <string name="photos_cameraassistant_archive_success_content_description">Archived in Photos app</string>
     <string name="photos_cameraassistant_archive_undo_content_description">Archive undone</string>
@@ -727,6 +725,7 @@ Your photos and videos will remain in your library."</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_out_of_storage_description">Photos &amp; videos have stopped backing up. Buy storage to continue backing up in original quality, or change upload size in Settings.</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_out_of_storage_title">"You're out of Google storage"</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_title">Your Google storage is %d%% full</string>
+    <string name="photos_cloudstorage_buystorage_guno_strings_storage_upgraded_message">Google storage successfully upgraded</string>
     <string name="photos_comments_adapteritem_comments_are_off">Comments are now off</string>
     <string name="photos_comments_delete_comment_removed">Comment removed</string>
     <string name="photos_comments_delete_confirm_button">Delete comment</string>
@@ -736,7 +735,7 @@ Your photos and videos will remain in your library."</string>
     <string name="photos_comments_popupmenu_delete_comment">Delete comment</string>
     <string name="photos_comments_popupmenu_report_abuse">Report abuse</string>
     <string name="photos_comments_popupmenu_text_copied">Text copied</string>
-    <string name="photos_comments_ui_comment_list_header">Comments</string>
+    <string name="photos_comments_ui_comment_list_header">Activity</string>
     <string name="photos_comments_ui_commentbar_add_photos_icon_content_desc">Add photos to shared album</string>
     <string name="photos_comments_ui_commentbar_comments_off_hint_text">Comments are now off</string>
     <string name="photos_comments_ui_commentbar_say_something_hint_text">Say something</string>
@@ -778,6 +777,7 @@ Your photos and videos will remain in your library."</string>
     <string name="photos_create_mediabundle_create_new_motion_failure">There was a problem while creating the animation. Please try again.</string>
     <string name="photos_create_mediabundle_create_new_movie">Movie</string>
     <string name="photos_create_mediabundle_create_new_movie_failure">There was a problem while creating the movie. Please try again.</string>
+    <string name="photos_create_mediabundle_create_new_new_album">New album</string>
     <string name="photos_create_mediabundle_create_new_photo_book">Photo book</string>
     <string name="photos_create_mediabundle_validation_error_avtype_other">Invalid selection.</string>
     <string name="photos_create_mediabundle_validation_error_avtype_static_images_only">Please select %1$d to %2$d photos.</string>
@@ -806,6 +806,7 @@ Your photos and videos will remain in your library."</string>
     <string name="photos_create_viewbinder_shared_badge">Shared</string>
     <string name="photos_create_viewbinder_subtitle_divider">•</string>
     <string name="photos_create_viewbinder_title_add_to">Add to</string>
+    <string name="photos_create_viewbinder_title_all_albums">All albums</string>
     <string name="photos_create_viewbinder_title_new">Create new</string>
     <string name="photos_dataplan_free_backup_notification_description_airtel">Back up photos using free data during Airtel Happy Hours</string>
     <string name="photos_dataplan_free_backup_notification_title_airtel">Free backup on Airtel</string>
@@ -864,7 +865,7 @@ Your photos and videos will remain in your library."</string>
     <string name="photos_devicesetup_betterbackuppromo_search_promo_message">Your photos will be auto-organised and searchable when you turn on backup</string>
     <string name="photos_devicesetup_betterbackuppromo_search_promo_title">Find photos faster</string>
     <string name="photos_devicesetup_conversion_sheet_account_picker_title">Select an account</string>
-    <string name="photos_devicesetup_done_label">DONE</string>
+    <string name="photos_devicesetup_done_label">CONFIRM</string>
     <string name="photos_devicesetup_high_quality_storage_label">Upload size: High quality (free unlimited storage)</string>
     <string name="photos_devicesetup_high_quality_storage_subtitle">Great visual quality at a reduced file size</string>
     <string name="photos_devicesetup_high_quality_storage_title">High-quality (free, unlimited storage)</string>
@@ -897,6 +898,8 @@ Your photos and videos will remain in your library."</string>
     <string name="photos_devicesetup_resources_auto_backup">Back up &amp; sync</string>
     <string name="photos_devicesetup_resources_auto_backup_description">Back up &amp; sync %1$s</string>
     <string name="photos_devicesetup_resources_auto_backup_settings">Backup &amp; Sync settings</string>
+    <string name="photos_devicesetup_resources_auto_backup_title_info">You can change this at any time in Settings</string>
+    <string name="photos_devicesetup_resources_auto_backup_title_info_auto_backup_settings">You can change this at any time</string>
     <string name="photos_devicesetup_sign_in">Sign in</string>
     <string name="photos_devicesetup_sign_in_to_back_up">Sign in to back up</string>
     <string name="photos_devicesetup_turn_on">Turn on</string>
@@ -1004,6 +1007,7 @@ for the specified video file."</string>
     <string name="photos_envelope_settings_hidename_show_email">Hide name and show email address instead</string>
     <string name="photos_envelope_settings_hidename_show_number">Hide name and show number instead</string>
     <string name="photos_envelope_settings_load_error">Error loading options</string>
+    <string name="photos_envelope_settings_people_add_recipient_item_title">Invite people</string>
     <string name="photos_envelope_settings_people_block_person">Block person</string>
     <string name="photos_envelope_settings_people_block_person_confirmation_message">"They won't be able to contact you on Google Photos, and you won't see their photos or comments in Google Photos. The block will also apply across certain Google products, such as Google+ and Hangouts. &lt;a href=help:>Learn more&lt;/a>"</string>
     <string name="photos_envelope_settings_people_block_person_confirmation_positive_button">Block</string>
@@ -1074,17 +1078,17 @@ for the specified video file."</string>
     <string name="photos_facegaia_optin_impl_picker_remove_dialog_title">Remove “Me” label?</string>
     <string name="photos_facegaia_optin_impl_selected">Selected</string>
     <string name="photos_facegaia_optin_impl_title">Personalise Google Photos by choosing your face</string>
-    <string name="photos_favorites_promo_dialog_body_photo">Find this photo easily in your Favourites album</string>
-    <string name="photos_favorites_promo_dialog_body_video">Find this video easily in your Favourites album</string>
+    <string name="photos_favorites_promo_dialog_body_photo">Easily find your favourites in Albums</string>
     <string name="photos_favorites_promo_dialog_negative_button">Done</string>
-    <string name="photos_favorites_promo_dialog_title">Added to Favourites!</string>
-    <string name="photos_favorites_promo_dialogs_positive_button">Go to favourites</string>
+    <string name="photos_favorites_promo_dialog_title">Added to favourites.</string>
+    <string name="photos_favorites_promo_dialogs_positive_button">View Favourites</string>
     <string name="photos_gridlayers_empty_state_caption">"Take a picture.
 Photos &amp; videos will appear here."</string>
     <string name="photos_gridlayers_empty_state_title">No photos</string>
     <string name="photos_gridlayers_floating_action_button_zoom_in_content_description">zoom in</string>
     <string name="photos_gridlayers_floating_action_button_zoom_out_content_description">zoom out</string>
     <string name="photos_hearts_photoui_error_toggling_heart">Trouble toggling heart</string>
+    <string name="photos_hearts_popupmenu_delete">Delete</string>
     <string name="photos_hearts_popupmenu_error_toast">Trouble removing like.</string>
     <string name="photos_hearts_popupmenu_toast_deleted">Deleted</string>
     <string name="photos_hearts_viewbinder_user_liked_a_photo">%s liked a photo</string>
@@ -1357,7 +1361,10 @@ Photos &amp; videos will appear here."</string>
     <string name="photos_movies_ui_clipeditor_impl_unmute">Unmute</string>
     <string name="photos_movies_ui_clipeditor_impl_video_clip_content_description">Video clip</string>
     <string name="photos_notificationchannels_assistant_channel">Assistant</string>
-    <string name="photos_notificationchannels_backup_channel">Backup</string>
+    <string name="photos_notificationchannels_backup_alerts_channel">Alerts</string>
+    <string name="photos_notificationchannels_backup_channels_group">Backup</string>
+    <string name="photos_notificationchannels_backup_progress_channel">Progress</string>
+    <string name="photos_notificationchannels_backup_suggestions_channel">Suggestions</string>
     <string name="photos_notificationchannels_other_channel">Other</string>
     <string name="photos_notificationchannels_promotion_channel">Promotions</string>
     <string name="photos_notificationchannels_sharing_channel">Sharing</string>
@@ -1492,10 +1499,6 @@ by moving this to Archive."</string>
     <string name="photos_partneraccount_assistant_promo_card_title">Save time. Share automatically</string>
     <string name="photos_partneraccount_assistant_promo_card_title_variant_1">Share your library</string>
     <string name="photos_partneraccount_assistant_promo_card_title_variant_2">Add partner account</string>
-    <string name="photos_partneraccount_drive_share_warning_continue">Continue</string>
-    <string name="photos_partneraccount_drive_share_warning_message">You are sharing photos automatically with %s. If you continue, photos from Drive may automatically be shared.</string>
-    <string name="photos_partneraccount_drive_share_warning_message_no_name">You are sharing photos automatically using shared libraries. If you continue, photos from Drive may be shared automatically.</string>
-    <string name="photos_partneraccount_drive_share_warning_title">Share photos from Drive?</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_reciprocate_title">Share back to %1$s</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_reciprocate_title_no_name">Share back to partner</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_select">Select photos</string>
@@ -1776,12 +1779,12 @@ Automatically."</string>
     <string name="photos_photobook_promotion_allphotos_subtext_1">on photo books through Cyber Monday</string>
     <string name="photos_photobook_promotion_allphotos_subtext_2">for photo book delivery by Dec. 24</string>
     <string name="photos_photobook_promotion_free_shipping">Free delivery</string>
-    <string name="photos_photobook_promotion_free_shipping_offer_details">Offer details</string>
     <string name="photos_photobook_promotion_general_book_cover_title">Memories</string>
     <string name="photos_photobook_remediation_dialog_edit_selection_option">Edit Selection</string>
     <string name="photos_photobook_remediation_dialog_view_preview_option">View book preview</string>
     <string name="photos_photobook_storefront_archive">Archive</string>
     <string name="photos_photobook_storefront_archive_failed">Failed to archive order</string>
+    <string name="photos_photobook_storefront_banner_dismiss_description">Dismiss promotion.</string>
     <string name="photos_photobook_storefront_buy_again">Order again</string>
     <string name="photos_photobook_storefront_buy_idential_book">Buy identical book</string>
     <string name="photos_photobook_storefront_cancel_failure">Failed to cancel order</string>
@@ -1817,7 +1820,6 @@ Automatically."</string>
     <string name="photos_photobook_storefront_order_printing_time_notice">Your order will be printed within 2–3 working days from the order date</string>
     <string name="photos_photobook_storefront_past_orders">Past orders</string>
     <string name="photos_photobook_storefront_promo_code">Promo code</string>
-    <string name="photos_photobook_storefront_promotion_general_book_cover_title">Memories</string>
     <string name="photos_photobook_storefront_quantity">Quantity: %d</string>
     <string name="photos_photobook_storefront_quantity_description">Quantity %d</string>
     <string name="photos_photobook_storefront_shipping">Delivery address</string>
@@ -2355,7 +2357,7 @@ Your library is shared. Synced items may also be available to %s."</string>
     <string name="photos_settings_faceclustering_advanced_my_face_title">Face labeled as “Me”</string>
     <string name="photos_settings_faceclustering_advanced_pets_setting">Show pets with people</string>
     <string name="photos_settings_faceclustering_advanced_setting_detailed_desc">See photos of your favourite people grouped by similar faces &lt;a href=help:>Learn more&lt;/a></string>
-    <string name="photos_settings_faceclustering_face_recognition_off_dialog_message">All face groups for your favourite people will be removed</string>
+    <string name="photos_settings_faceclustering_face_recognition_off_dialog_message">"Your photos won't be organised by people or made into some kinds of personalised movies and collages. Any changes that you've made to your face groups, such as added names, will be permanently deleted."</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_negative_button">Keep on</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_positive_button">Turn off</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_title">Turn off face grouping?</string>
@@ -2408,6 +2410,7 @@ Your library is shared. Synced items may also be available to %s."</string>
     <string name="photos_setwallpaper_setas_wallpaper">Wallpaper</string>
     <string name="photos_share_collaborative_toggle_error">Problem while toggling collaboration</string>
     <string name="photos_share_copylink_activity_name">Get link</string>
+    <string name="photos_share_direct_album_complete">Album sent</string>
     <string name="photos_share_direct_complete_icu">{count,plural, =1{Photo sent}other{Photos sent}}</string>
     <string name="photos_share_direct_progress_icu">{count,plural, =1{Sending photo…}other{Sending photos…}}</string>
     <string name="photos_share_error">An error occurred while sharing.</string>
@@ -2527,8 +2530,6 @@ Your library is shared. Synced items may also be available to %s."</string>
     <string name="photos_sharingtab_picker_impl_overflow_desc">Open Overflow Menu</string>
     <string name="photos_sharingtab_picker_impl_overflow_select_album">Select existing album</string>
     <string name="photos_sharingtab_picker_impl_overflow_select_people">Select people</string>
-    <string name="photos_sharingtab_picker_impl_recipient_name_separator">", "</string>
-    <string name="photos_sharingtab_picker_impl_recipients_hint_text">Type a name, phone number or email address</string>
     <string name="photos_sharingtab_picker_impl_select_more_button">Select more photos</string>
     <string name="photos_sharingtab_picker_impl_select_recipient_text">Who is this?</string>
     <string name="photos_sharingtab_picker_impl_selected_label">Selected</string>
@@ -2547,10 +2548,8 @@ Your library is shared. Synced items may also be available to %s."</string>
     <string name="photos_strings_undo_button">Undo</string>
     <string name="photos_strings_untitled_title_text">Untitled</string>
     <string name="photos_suggestedactions_archive_confirm_dialog_title">Archive this photo?</string>
-    <string name="photos_suggestedactions_archive_dialog_archive">Archive</string>
     <string name="photos_suggestedactions_archive_dialog_archive_photo">Archive photo</string>
     <string name="photos_suggestedactions_archive_dialog_cancel">Cancel</string>
-    <string name="photos_suggestedactions_archive_dialog_ok">OK</string>
     <string name="photos_suggestedactions_archive_dialog_text">"Hide photos in your library that you don't want to see, such as screenshots or receipts. 
 
 You'll still see them in albums, search results and your Archive."</string>
@@ -2567,7 +2566,6 @@ You'll still see them in albums, search results and your Archive."</string>
     <string name="photos_suggestedactions_archive_features_receipt">Archive this receipt</string>
     <string name="photos_suggestedactions_archive_features_screenshot">Archive this screenshot</string>
     <string name="photos_suggestedactions_archive_features_sketch">Archive this sketch</string>
-    <string name="photos_suggestedactions_archive_help_dialog_title">Archive to stay organised</string>
     <string name="photos_suggestedactions_ui_dismiss_button_description">Dismiss</string>
     <string name="photos_suggestedrotations_cancel_discard_button">CANCEL</string>
     <string name="photos_suggestedrotations_discard_changes_button">DISCARD</string>
@@ -2714,14 +2712,14 @@ You'll still see them in albums, search results and your Archive."</string>
     <string name="photos_vrviewer_v2_shared_compass_on_description">Turn on Compass Mode</string>
     <string name="photos_vrviewer_v2_shared_label">360 Video Viewer</string>
     <string name="photos_vrviewer_v2_shared_load_error_message">Could not load media</string>
-    <string name="photos_welcomescreens_creations_subtitle">Get creations made from your best photos</string>
-    <string name="photos_welcomescreens_creations_title">Collages &amp; movies automatically made for you</string>
+    <string name="photos_welcomescreens_creations_subtitle">Get creations made from your best photos</string>
+    <string name="photos_welcomescreens_creations_title">Collages and movies automatically made for you</string>
     <string name="photos_welcomescreens_done_button">done</string>
     <string name="photos_welcomescreens_next_button">next</string>
-    <string name="photos_welcomescreens_pgc_subtitle">Sign in to photos.google.com to view your photos</string>
-    <string name="photos_welcomescreens_pgc_title">Securely access your photos from any device</string>
-    <string name="photos_welcomescreens_search_subtitle">Search by people, places &amp; things in your photos</string>
-    <string name="photos_welcomescreens_search_title">Photos are automatically tagged and searchable</string>
+    <string name="photos_welcomescreens_pgc_subtitle">Sign in to photos.google.com to view your photos</string>
+    <string name="photos_welcomescreens_pgc_title">Securely access your photos from any device</string>
+    <string name="photos_welcomescreens_search_subtitle">Search by people, places and things in your photos</string>
+    <string name="photos_welcomescreens_search_title">Photos are automatically tagged and searchable</string>
     <string name="photos_welcomescreens_skip_button">skip</string>
     <string name="picker_external_all_device_folders">Device folders</string>
     <string name="picker_external_all_photos">Photos</string>

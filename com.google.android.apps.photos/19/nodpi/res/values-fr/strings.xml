@@ -94,7 +94,6 @@
     <string name="dream_no_photos">Aucune photo sélectionnée</string>
     <string name="go_to_playstore_button">Accéder au Play Store</string>
     <string name="go_to_vr_listeners_settings_button">Accéder aux paramètres</string>
-    <string name="google_drive_setting_desc">Afficher les photos et vidéos Google Drive dans votre photothèque Photos. &lt;a href=help:>En savoir plus&lt;/a></string>
     <string name="google_drive_setting_title">Google Drive</string>
     <string name="hats_lib_close_button_description">Fermer</string>
     <string name="hats_lib_default_prompt_title">Veuillez nous aider à améliorer Google.</string>
@@ -303,16 +302,16 @@ Vous pouvez à tout moment suspendre l'historique des positions (activités enre
     <string name="mr_chooser_searching">"Recherche d'appareils…"</string>
     <string name="mr_chooser_title">Caster sur</string>
     <string name="mr_controller_album_art">"Image de l'album"</string>
-    <string name="mr_controller_casting_screen">"Diffusion de l'écran en cours…"</string>
+    <string name="mr_controller_casting_screen">"Diffusion de l'écran"</string>
     <string name="mr_controller_close_description">Fermer</string>
     <string name="mr_controller_collapse_group">Réduire</string>
     <string name="mr_controller_disconnect">Déconnecter</string>
     <string name="mr_controller_expand_group">Développer</string>
     <string name="mr_controller_no_info_available">Aucune information disponible</string>
-    <string name="mr_controller_no_media_selected">Aucun média sélectionné</string>
+    <string name="mr_controller_no_media_selected">Aucun contenu multimédia sélectionné</string>
     <string name="mr_controller_pause">Pause</string>
     <string name="mr_controller_play">Lecture</string>
-    <string name="mr_controller_stop">Arrêter</string>
+    <string name="mr_controller_stop">Arrêt</string>
     <string name="mr_controller_stop_casting">Arrêter la diffusion</string>
     <string name="mr_controller_volume_slider">Curseur de volume</string>
     <string name="mr_user_route_category_name">Appareils</string>
@@ -698,7 +697,6 @@ En revanche, vos photos et vidéos restent stockées dans votre photothèque."</
     <string name="photos_burst_actionutils_set_primary_failure">"Échec de l'opération. Veuillez réessayer."</string>
     <string name="photos_burst_fragment_cover_photos_indicator">Indicateur de photo de couverture en rafale</string>
     <string name="photos_burst_fragment_thumbnail_description">Vignette de photos prises en rafale</string>
-    <string name="photos_buystorage_guno_strings_storage_upgraded_message">Votre espace de stockage Google supplémentaire a été activé</string>
     <string name="photos_cameraassistant_archive_failed">"Impossible d'archiver l'élément"</string>
     <string name="photos_cameraassistant_archive_success_content_description">"Photo archivée dans l'application Photos"</string>
     <string name="photos_cameraassistant_archive_undo_content_description">Archivage annulé</string>
@@ -739,6 +737,7 @@ En revanche, vos photos et vidéos restent stockées dans votre photothèque."</
     <string name="photos_cloudstorage_assistant_storage_near_full_card_out_of_storage_description">"Vos photos et vidéos ne sont plus sauvegardées. Achetez de l'espace de stockage pour continuer à les sauvegarder en qualité d'origine, ou modifiez la taille d'importation dans les paramètres."</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_out_of_storage_title">"Il ne vous reste plus d'espace de stockage Google"</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_title">Vous utilisez %d %% de votre espace de stockage Google</string>
+    <string name="photos_cloudstorage_buystorage_guno_strings_storage_upgraded_message">Votre espace de stockage Google supplémentaire a été activé</string>
     <string name="photos_comments_adapteritem_comments_are_off">Les commentaires sont maintenant désactivés.</string>
     <string name="photos_comments_delete_comment_removed">Commentaire supprimé</string>
     <string name="photos_comments_delete_confirm_button">Supprimer le commentaire</string>
@@ -748,7 +747,7 @@ En revanche, vos photos et vidéos restent stockées dans votre photothèque."</
     <string name="photos_comments_popupmenu_delete_comment">Supprimer le commentaire</string>
     <string name="photos_comments_popupmenu_report_abuse">Signaler un abus</string>
     <string name="photos_comments_popupmenu_text_copied">Texte copié</string>
-    <string name="photos_comments_ui_comment_list_header">Commentaires</string>
+    <string name="photos_comments_ui_comment_list_header">Activité</string>
     <string name="photos_comments_ui_commentbar_add_photos_icon_content_desc">"Ajouter des photos à l'album partagé"</string>
     <string name="photos_comments_ui_commentbar_comments_off_hint_text">Les commentaires sont maintenant désactivés.</string>
     <string name="photos_comments_ui_commentbar_say_something_hint_text">Ajoutez du texte</string>
@@ -790,6 +789,7 @@ En revanche, vos photos et vidéos restent stockées dans votre photothèque."</
     <string name="photos_create_mediabundle_create_new_motion_failure">"Un problème est survenu lors de la création de l'animation. Veuillez réessayer."</string>
     <string name="photos_create_mediabundle_create_new_movie">Film</string>
     <string name="photos_create_mediabundle_create_new_movie_failure">Un problème est survenu lors de la création du film. Veuillez réessayer.</string>
+    <string name="photos_create_mediabundle_create_new_new_album">Nouvel album</string>
     <string name="photos_create_mediabundle_create_new_photo_book">Livre photo</string>
     <string name="photos_create_mediabundle_validation_error_avtype_other">Sélection incorrecte.</string>
     <string name="photos_create_mediabundle_validation_error_avtype_static_images_only">Veuillez sélectionner entre %1$d et %2$d photos.</string>
@@ -818,6 +818,7 @@ En revanche, vos photos et vidéos restent stockées dans votre photothèque."</
     <string name="photos_create_viewbinder_shared_badge">Partagé</string>
     <string name="photos_create_viewbinder_subtitle_divider">•</string>
     <string name="photos_create_viewbinder_title_add_to">Ajouter à</string>
+    <string name="photos_create_viewbinder_title_all_albums">Tous les albums</string>
     <string name="photos_create_viewbinder_title_new">Créer</string>
     <string name="photos_dataplan_free_backup_notification_description_airtel">Sauvegardez des photos sans consommer votre forfait pendant les heures Airtel Happy Hours</string>
     <string name="photos_dataplan_free_backup_notification_title_airtel">Sauvegarde gratuite avec Airtel</string>
@@ -876,7 +877,7 @@ En revanche, vos photos et vidéos restent stockées dans votre photothèque."</
     <string name="photos_devicesetup_betterbackuppromo_search_promo_message">"Si vous activez la sauvegarde, vos photos seront organisées automatiquement et pourront faire l'objet de recherches basées sur le lieu de prise de vue"</string>
     <string name="photos_devicesetup_betterbackuppromo_search_promo_title">Trouvez plus rapidement vos photos</string>
     <string name="photos_devicesetup_conversion_sheet_account_picker_title">Sélectionner un compte</string>
-    <string name="photos_devicesetup_done_label">OK</string>
+    <string name="photos_devicesetup_done_label">CONFIRMER</string>
     <string name="photos_devicesetup_high_quality_storage_label">"Taille d'importation : haute qualité (stockage gratuit illimité)"</string>
     <string name="photos_devicesetup_high_quality_storage_subtitle">"Excellente qualité d'image et taille de fichiers réduite"</string>
     <string name="photos_devicesetup_high_quality_storage_title">Haute qualité (stockage gratuit illimité)</string>
@@ -908,7 +909,9 @@ En revanche, vos photos et vidéos restent stockées dans votre photothèque."</
     <string name="photos_devicesetup_redeem_successful_dialog_title">Espace de stockage gratuit activé !</string>
     <string name="photos_devicesetup_resources_auto_backup">Sauvegarder et synchroniser</string>
     <string name="photos_devicesetup_resources_auto_backup_description">Sauvegarder et synchroniser %1$s</string>
-    <string name="photos_devicesetup_resources_auto_backup_settings">Paramètres de sauvegarde et de synchronisation</string>
+    <string name="photos_devicesetup_resources_auto_backup_settings">Sauvegarde et synchronisation</string>
+    <string name="photos_devicesetup_resources_auto_backup_title_info">Vous pouvez à tout moment modifier cette option dans les paramètres</string>
+    <string name="photos_devicesetup_resources_auto_backup_title_info_auto_backup_settings">Vous pouvez à tout moment modifier ces paramètres</string>
     <string name="photos_devicesetup_sign_in">Se connecter</string>
     <string name="photos_devicesetup_sign_in_to_back_up">Se connecter pour sauvegarder</string>
     <string name="photos_devicesetup_turn_on">Activer</string>
@@ -1016,6 +1019,7 @@ montage vidéo sur cet appareil."</string>
     <string name="photos_envelope_settings_hidename_show_email">"Masquer le nom et afficher plutôt l'adresse e-mail"</string>
     <string name="photos_envelope_settings_hidename_show_number">Masquer le nom et afficher plutôt le numéro</string>
     <string name="photos_envelope_settings_load_error">Erreur lors du chargement des options</string>
+    <string name="photos_envelope_settings_people_add_recipient_item_title">Inviter des personnes</string>
     <string name="photos_envelope_settings_people_block_person">Bloquer la personne</string>
     <string name="photos_envelope_settings_people_block_person_confirmation_message">"La personne en question ne pourra pas vous contacter via Google Photos, et vous ne verrez pas ses photos ni ses commentaires dans Google Photos. Le blocage s'appliquera également à d'autres produits Google, tels que Google+ et Hangouts. &lt;a href=help:>En savoir plus&lt;/a>"</string>
     <string name="photos_envelope_settings_people_block_person_confirmation_positive_button">Bloquer</string>
@@ -1086,17 +1090,17 @@ montage vidéo sur cet appareil."</string>
     <string name="photos_facegaia_optin_impl_picker_remove_dialog_title">Supprimer le libellé \"Moi\" ?</string>
     <string name="photos_facegaia_optin_impl_selected">Sélectionné</string>
     <string name="photos_facegaia_optin_impl_title">Choisissez votre visage pour optimiser Google Photos</string>
-    <string name="photos_favorites_promo_dialog_body_photo">Retrouvez facilement cette photo dans votre album \"Favoris\"</string>
-    <string name="photos_favorites_promo_dialog_body_video">Retrouvez facilement cette vidéo dans votre album \"Favoris\"</string>
+    <string name="photos_favorites_promo_dialog_body_photo">Trouvez facilement vos favoris dans la section \"Albums\".</string>
     <string name="photos_favorites_promo_dialog_negative_button">OK</string>
-    <string name="photos_favorites_promo_dialog_title">Contenu ajouté aux favoris</string>
-    <string name="photos_favorites_promo_dialogs_positive_button">"Accéder à l'album \"Favoris\""</string>
+    <string name="photos_favorites_promo_dialog_title">Ajoutée aux favoris !</string>
+    <string name="photos_favorites_promo_dialogs_positive_button">Afficher les favoris</string>
     <string name="photos_gridlayers_empty_state_caption">"Prenez une photo.
 Les photos et les vidéos s'affichent ici."</string>
     <string name="photos_gridlayers_empty_state_title">Aucune photo</string>
     <string name="photos_gridlayers_floating_action_button_zoom_in_content_description">faire un zoom avant</string>
     <string name="photos_gridlayers_floating_action_button_zoom_out_content_description">faire un zoom arrière</string>
     <string name="photos_hearts_photoui_error_toggling_heart">"Problème lors de l'ajout ou du retrait du cœur"</string>
+    <string name="photos_hearts_popupmenu_delete">Supprimer</string>
     <string name="photos_hearts_popupmenu_error_toast">"Problème lors de la suppression du \"J'aime\"."</string>
     <string name="photos_hearts_popupmenu_toast_deleted">Supprimé</string>
     <string name="photos_hearts_viewbinder_user_liked_a_photo">%s a aimé une photo</string>
@@ -1369,7 +1373,10 @@ Les photos et les vidéos s'affichent ici."</string>
     <string name="photos_movies_ui_clipeditor_impl_unmute">Réactiver le son</string>
     <string name="photos_movies_ui_clipeditor_impl_video_clip_content_description">Clip vidéo</string>
     <string name="photos_notificationchannels_assistant_channel">Assistant</string>
-    <string name="photos_notificationchannels_backup_channel">Sauvegarde</string>
+    <string name="photos_notificationchannels_backup_alerts_channel">Alertes</string>
+    <string name="photos_notificationchannels_backup_channels_group">Sauvegarde</string>
+    <string name="photos_notificationchannels_backup_progress_channel">Progression</string>
+    <string name="photos_notificationchannels_backup_suggestions_channel">Suggestions</string>
     <string name="photos_notificationchannels_other_channel">Autre</string>
     <string name="photos_notificationchannels_promotion_channel">Promotions</string>
     <string name="photos_notificationchannels_sharing_channel">Partage</string>
@@ -1504,10 +1511,6 @@ en déplaçant des éléments dans la section \"Archive\"."</string>
     <string name="photos_partneraccount_assistant_promo_card_title">Gagnez du temps avec le partage automatique</string>
     <string name="photos_partneraccount_assistant_promo_card_title_variant_1">Partager votre photothèque</string>
     <string name="photos_partneraccount_assistant_promo_card_title_variant_2">Ajouter un compte partenaire</string>
-    <string name="photos_partneraccount_drive_share_warning_continue">Continuer</string>
-    <string name="photos_partneraccount_drive_share_warning_message">"Vous partagez des photos automatiquement avec %s. Si vous continuez, vos photos stockées dans Drive risquent d'être partagées automatiquement."</string>
-    <string name="photos_partneraccount_drive_share_warning_message_no_name">"Vous partagez des photos automatiquement au moyen de photothèques partagées. Si vous continuez, vos photos stockées dans Drive risquent d'être partagées automatiquement."</string>
-    <string name="photos_partneraccount_drive_share_warning_title">Partager les photos stockées dans Drive ?</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_reciprocate_title">Partager à votre tour avec %1$s</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_reciprocate_title_no_name">Partager à votre tour avec votre contact</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_select">Sélectionner des photos</string>
@@ -1788,12 +1791,12 @@ vos photos préférées."</string>
     <string name="photos_photobook_promotion_allphotos_subtext_1">"sur les livres photo jusqu'au Cyber Monday"</string>
     <string name="photos_photobook_promotion_allphotos_subtext_2">pour une livraison de votre livre photo le 24 décembre au plus tard</string>
     <string name="photos_photobook_promotion_free_shipping">Livraison gratuite</string>
-    <string name="photos_photobook_promotion_free_shipping_offer_details">"Détails de l'offre"</string>
     <string name="photos_photobook_promotion_general_book_cover_title">Souvenirs</string>
     <string name="photos_photobook_remediation_dialog_edit_selection_option">Modifier la sélection</string>
     <string name="photos_photobook_remediation_dialog_view_preview_option">"Afficher l'aperçu du livre"</string>
     <string name="photos_photobook_storefront_archive">Archiver</string>
     <string name="photos_photobook_storefront_archive_failed">"Échec de l'archivage de la commande"</string>
+    <string name="photos_photobook_storefront_banner_dismiss_description">"Ignorer l'offre promotionnelle."</string>
     <string name="photos_photobook_storefront_buy_again">Commander un autre exemplaire</string>
     <string name="photos_photobook_storefront_buy_idential_book">Commander un livre identique</string>
     <string name="photos_photobook_storefront_cancel_failure">"Échec de l'annulation de la commande"</string>
@@ -1829,7 +1832,6 @@ vos photos préférées."</string>
     <string name="photos_photobook_storefront_order_printing_time_notice">Votre commande sera imprimée sous deux à trois jours ouvrés à compter de la date de commande</string>
     <string name="photos_photobook_storefront_past_orders">Anciennes commandes</string>
     <string name="photos_photobook_storefront_promo_code">Code promotionnel</string>
-    <string name="photos_photobook_storefront_promotion_general_book_cover_title">Souvenirs</string>
     <string name="photos_photobook_storefront_quantity">Quantité : %d</string>
     <string name="photos_photobook_storefront_quantity_description">Quantité : %d</string>
     <string name="photos_photobook_storefront_shipping">Adresse de livraison</string>
@@ -2004,6 +2006,7 @@ vos photos préférées."</string>
     <string name="photos_photoeditor_presets_vista">Vista</string>
     <string name="photos_photoeditor_presets_vogue">Vogue</string>
     <string name="photos_photoeditor_presets_west">West</string>
+    <string name="photos_photoeditor_slider_a11y_filter_slider_value">Curseur défini sur %d %%.</string>
     <string name="photos_photoeditor_ui_a11y_aspect_ratio_16_9">Recadrer au format 16:9</string>
     <string name="photos_photoeditor_ui_a11y_aspect_ratio_3_2">Recadrer au format 3:2</string>
     <string name="photos_photoeditor_ui_a11y_aspect_ratio_4_3">Recadrer au format 4:3</string>
@@ -2292,7 +2295,7 @@ plus vous verrez de thèmes dans cette section"</string>
     <string name="photos_search_searchresults_empty_page_collages_title">Bien plus que la somme des parties</string>
     <string name="photos_search_searchresults_empty_page_connection_refresh">Actualiser</string>
     <string name="photos_search_searchresults_empty_page_connection_title">Connexion impossible</string>
-    <string name="photos_search_searchresults_empty_page_favorites_caption">Les photos et vidéos que vous ajoutez aux favoris apparaissent ici</string>
+    <string name="photos_search_searchresults_empty_page_favorites_caption">Les photos et vidéos que vous ajoutez aux favoris apparaissent ici.</string>
     <string name="photos_search_searchresults_empty_page_favorites_title">Aucun favori</string>
     <string name="photos_search_searchresults_empty_page_movies_caption">Créez des films à partir de vos photos, de vos vidéos et de la musique de votre choix.</string>
     <string name="photos_search_searchresults_empty_page_movies_title">Racontez votre histoire en images</string>
@@ -2366,7 +2369,7 @@ Vous partagez votre photothèque avec %s, qui aura donc peut-être également ac
     <string name="photos_settings_faceclustering_advanced_my_face_title">Visage désigné comme étant \"Moi\"</string>
     <string name="photos_settings_faceclustering_advanced_pets_setting">Afficher aussi les animaux</string>
     <string name="photos_settings_faceclustering_advanced_setting_detailed_desc">Les photos de vos proches sont regroupées par visage &lt;a href=help:>En savoir plus&lt;/a></string>
-    <string name="photos_settings_faceclustering_face_recognition_off_dialog_message">Tous les groupes de visages de vos proches seront supprimés</string>
+    <string name="photos_settings_faceclustering_face_recognition_off_dialog_message">Vos photos ne seront pas classées par personne ni intégrées à des films ou à des montages personnalisés. Toutes les modifications apportées à vos groupes de visages (ajout de noms, par exemple) seront supprimées définitivement.</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_negative_button">Ne pas désactiver</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_positive_button">Désactiver</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_title">Désactiver le regroupement des visages ?</string>
@@ -2419,6 +2422,7 @@ Vous partagez votre photothèque avec %s, qui aura donc peut-être également ac
     <string name="photos_setwallpaper_setas_wallpaper">"Fond d'écran"</string>
     <string name="photos_share_collaborative_toggle_error">"Problème lors de l'activation ou de la désactivation de la collaboration."</string>
     <string name="photos_share_copylink_activity_name">Obtenir le lien</string>
+    <string name="photos_share_direct_album_complete">Album envoyé</string>
     <string name="photos_share_direct_complete_icu">{count,plural, =1{Photo envoyée}one{Photo envoyée}other{Photos envoyées}}</string>
     <string name="photos_share_direct_progress_icu">{count,plural, =1{Envoi de la photo…}one{Envoi de la photo…}other{Envoi des photos…}}</string>
     <string name="photos_share_error">"Une erreur s'est produite lors du partage."</string>
@@ -2538,8 +2542,6 @@ Vous partagez votre photothèque avec %s, qui aura donc peut-être également ac
     <string name="photos_sharingtab_picker_impl_overflow_desc">Ouvrir le menu à développer</string>
     <string name="photos_sharingtab_picker_impl_overflow_select_album">Sélectionner un album existant</string>
     <string name="photos_sharingtab_picker_impl_overflow_select_people">Sélectionner des personnes</string>
-    <string name="photos_sharingtab_picker_impl_recipient_name_separator">", "</string>
-    <string name="photos_sharingtab_picker_impl_recipients_hint_text">Saisissez un nom, un numéro de téléphone ou une adresse e-mail</string>
     <string name="photos_sharingtab_picker_impl_select_more_button">"Sélectionner d'autres photos"</string>
     <string name="photos_sharingtab_picker_impl_select_recipient_text">Qui est-ce ?</string>
     <string name="photos_sharingtab_picker_impl_selected_label">Sélectionné</string>
@@ -2558,10 +2560,8 @@ Vous partagez votre photothèque avec %s, qui aura donc peut-être également ac
     <string name="photos_strings_undo_button">Annuler</string>
     <string name="photos_strings_untitled_title_text">Sans titre</string>
     <string name="photos_suggestedactions_archive_confirm_dialog_title">Archiver cette photo ?</string>
-    <string name="photos_suggestedactions_archive_dialog_archive">Archiver</string>
     <string name="photos_suggestedactions_archive_dialog_archive_photo">Archiver la photo</string>
     <string name="photos_suggestedactions_archive_dialog_cancel">Annuler</string>
-    <string name="photos_suggestedactions_archive_dialog_ok">OK</string>
     <string name="photos_suggestedactions_archive_dialog_text">"Masquez dans la photothèque les photos que vous ne souhaitez pas voir, par exemple les captures d'écran et les reçus. 
 
 Elles figureront toujours dans les albums, les résultats de recherche et votre archive."</string>
@@ -2578,7 +2578,6 @@ Elles figureront toujours dans les albums, les résultats de recherche et votre 
     <string name="photos_suggestedactions_archive_features_receipt">Archiver ce reçu</string>
     <string name="photos_suggestedactions_archive_features_screenshot">"Archiver cette capture d'écran"</string>
     <string name="photos_suggestedactions_archive_features_sketch">Archiver ce croquis</string>
-    <string name="photos_suggestedactions_archive_help_dialog_title">Archivez vos photos pour mieux les organiser</string>
     <string name="photos_suggestedactions_ui_dismiss_button_description">Ignorer</string>
     <string name="photos_suggestedrotations_cancel_discard_button">ANNULER</string>
     <string name="photos_suggestedrotations_discard_changes_button">SUPPRIMER</string>

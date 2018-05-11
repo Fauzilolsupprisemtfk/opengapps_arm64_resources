@@ -94,7 +94,6 @@
     <string name="dream_no_photos">写真が選択されていません。</string>
     <string name="go_to_playstore_button">Play ストアにアクセス</string>
     <string name="go_to_vr_listeners_settings_button">設定に移動</string>
-    <string name="google_drive_setting_desc">Google ドライブ内の写真や動画をフォト ライブラリに表示できます。&lt;a href=help:>詳細&lt;/a></string>
     <string name="google_drive_setting_title">Google ドライブ</string>
     <string name="hats_lib_close_button_description">閉じる</string>
     <string name="hats_lib_default_prompt_title">Google の機能改善にご協力をお願いします</string>
@@ -296,12 +295,12 @@
  （オフラインの可能性があります）"</string>
     <string name="mm_video_stream_missing_message">Google フォトはここに含まれているムービーの変更処理を行っています。処理はまもなく完了します。</string>
     <string name="mm_video_stream_missing_title">ムービーを処理しています</string>
-    <string name="mr_button_content_description">キャストアイコン</string>
+    <string name="mr_button_content_description">キャスト アイコン</string>
     <string name="mr_cast_button_connected">キャスト アイコン。接続済み</string>
     <string name="mr_cast_button_connecting">キャスト アイコン。接続中</string>
     <string name="mr_cast_button_disconnected">キャスト アイコン。接続解除済み</string>
     <string name="mr_chooser_searching">端末を検索しています</string>
-    <string name="mr_chooser_title">キャストするデバイス</string>
+    <string name="mr_chooser_title">キャスト先</string>
     <string name="mr_controller_album_art">アルバムアート</string>
     <string name="mr_controller_casting_screen">画面をキャストしています</string>
     <string name="mr_controller_close_description">閉じる</string>
@@ -309,7 +308,7 @@
     <string name="mr_controller_disconnect">接続を解除</string>
     <string name="mr_controller_expand_group">展開</string>
     <string name="mr_controller_no_info_available">情報がありません</string>
-    <string name="mr_controller_no_media_selected">メディアが選択されていません</string>
+    <string name="mr_controller_no_media_selected">メディアを選択していません</string>
     <string name="mr_controller_pause">一時停止</string>
     <string name="mr_controller_play">再生</string>
     <string name="mr_controller_stop">停止</string>
@@ -698,7 +697,6 @@
     <string name="photos_burst_actionutils_set_primary_failure">メインの写真にできません。もう一度お試しください。</string>
     <string name="photos_burst_fragment_cover_photos_indicator">バーストカバー写真インジケーター</string>
     <string name="photos_burst_fragment_thumbnail_description">フォトバースト サムネイル</string>
-    <string name="photos_buystorage_guno_strings_storage_upgraded_message">Google の保存容量がアップグレードされました</string>
     <string name="photos_cameraassistant_archive_failed">アーカイブできません</string>
     <string name="photos_cameraassistant_archive_success_content_description">フォト アプリにアーカイブしました</string>
     <string name="photos_cameraassistant_archive_undo_content_description">アーカイブ操作を元に戻しました</string>
@@ -739,6 +737,7 @@
     <string name="photos_cloudstorage_assistant_storage_near_full_card_out_of_storage_description">写真と動画のバックアップが停止されました。元のサイズでのバックアップを継続するには、ストレージをご購入になるか、[設定] でアップロード サイズを変更してください。</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_out_of_storage_title">Google の保存容量が不足しています</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_title">Google の保存容量の使用率が %d%% に達しています</string>
+    <string name="photos_cloudstorage_buystorage_guno_strings_storage_upgraded_message">Google の保存容量がアップグレードされました</string>
     <string name="photos_comments_adapteritem_comments_are_off">コメント機能は現在 OFF です</string>
     <string name="photos_comments_delete_comment_removed">コメントを削除しました</string>
     <string name="photos_comments_delete_confirm_button">コメントを削除</string>
@@ -748,7 +747,7 @@
     <string name="photos_comments_popupmenu_delete_comment">コメントを削除</string>
     <string name="photos_comments_popupmenu_report_abuse">不正行為を報告</string>
     <string name="photos_comments_popupmenu_text_copied">テキストをコピーしました</string>
-    <string name="photos_comments_ui_comment_list_header">コメント</string>
+    <string name="photos_comments_ui_comment_list_header">更新情報</string>
     <string name="photos_comments_ui_commentbar_add_photos_icon_content_desc">写真を共有アルバムに追加</string>
     <string name="photos_comments_ui_commentbar_comments_off_hint_text">コメント機能は現在 OFF です</string>
     <string name="photos_comments_ui_commentbar_say_something_hint_text">コメントを入力してください</string>
@@ -790,6 +789,7 @@
     <string name="photos_create_mediabundle_create_new_motion_failure">アニメーションの作成中に問題が発生しました。もう一度お試しください。</string>
     <string name="photos_create_mediabundle_create_new_movie">ムービー</string>
     <string name="photos_create_mediabundle_create_new_movie_failure">ムービーの作成中に問題が発生しました。もう一度お試しください。</string>
+    <string name="photos_create_mediabundle_create_new_new_album">新しいアルバム</string>
     <string name="photos_create_mediabundle_create_new_photo_book">フォトブック</string>
     <string name="photos_create_mediabundle_validation_error_avtype_other">選択したファイルは無効です。</string>
     <string name="photos_create_mediabundle_validation_error_avtype_static_images_only">%1$d～%2$d 枚の写真を選択してください。</string>
@@ -818,6 +818,7 @@
     <string name="photos_create_viewbinder_shared_badge">共有中</string>
     <string name="photos_create_viewbinder_subtitle_divider">•</string>
     <string name="photos_create_viewbinder_title_add_to">追加先</string>
+    <string name="photos_create_viewbinder_title_all_albums">すべてのアルバム</string>
     <string name="photos_create_viewbinder_title_new">新規作成</string>
     <string name="photos_dataplan_free_backup_notification_description_airtel">Airtel の Happy Hours の無料データ通信を使って自動的に写真がバックアップされます</string>
     <string name="photos_dataplan_free_backup_notification_title_airtel">Airtel で無料バックアップ</string>
@@ -876,7 +877,7 @@
     <string name="photos_devicesetup_betterbackuppromo_search_promo_message">バックアップを ON にすると、写真が自動的に整理されて検索できるようになります</string>
     <string name="photos_devicesetup_betterbackuppromo_search_promo_title">写真をもっと楽に見つけよう</string>
     <string name="photos_devicesetup_conversion_sheet_account_picker_title">アカウントを選択</string>
-    <string name="photos_devicesetup_done_label">完了</string>
+    <string name="photos_devicesetup_done_label">確認</string>
     <string name="photos_devicesetup_high_quality_storage_label">アップロード サイズ: 高画質（無料、容量無制限）</string>
     <string name="photos_devicesetup_high_quality_storage_subtitle">品質を保ちながらファイルサイズを削減します</string>
     <string name="photos_devicesetup_high_quality_storage_title">高画質（無料、容量無制限）</string>
@@ -909,6 +910,8 @@
     <string name="photos_devicesetup_resources_auto_backup">バックアップと同期</string>
     <string name="photos_devicesetup_resources_auto_backup_description">%1$s のバックアップと同期</string>
     <string name="photos_devicesetup_resources_auto_backup_settings">バックアップと同期の設定</string>
+    <string name="photos_devicesetup_resources_auto_backup_title_info">これは [設定] でいつでも変更できます</string>
+    <string name="photos_devicesetup_resources_auto_backup_title_info_auto_backup_settings">この設定はいつでも変更できます</string>
     <string name="photos_devicesetup_sign_in">ログイン</string>
     <string name="photos_devicesetup_sign_in_to_back_up">ログインしてバックアップ</string>
     <string name="photos_devicesetup_turn_on">ON にする</string>
@@ -947,7 +950,7 @@
     <string name="photos_drawermenu_remove_dialog_cancel">アカウントを削除しない</string>
     <string name="photos_drawermenu_remove_dialog_caption">"%s
 
-このアカウントでGoogleフォトにアクセスできなくなります。"</string>
+このアカウントで Google フォトにアクセスできなくなります。"</string>
     <string name="photos_drawermenu_remove_dialog_remove">削除</string>
     <string name="photos_drawermenu_remove_dialog_title">有効なアカウントを削除しますか？</string>
     <string name="photos_drawermenu_util_add_account">アカウントを追加</string>
@@ -1016,6 +1019,7 @@
     <string name="photos_envelope_settings_hidename_show_email">名前の代わりにメールアドレスを表示</string>
     <string name="photos_envelope_settings_hidename_show_number">名前の代わりに番号を表示</string>
     <string name="photos_envelope_settings_load_error">オプションの読み込み中にエラーが発生しました</string>
+    <string name="photos_envelope_settings_people_add_recipient_item_title">招待</string>
     <string name="photos_envelope_settings_people_block_person">ユーザーをブロック</string>
     <string name="photos_envelope_settings_people_block_person_confirmation_message">相手は Google フォトであなたとコミュニケーションできなくなり、あなたも Google フォトで相手の写真やコメントを表示できなくなります。ブロックは Google+ やハングアウトなどの Google サービスにも適用されます。&lt;a href=help:>詳細&lt;/a></string>
     <string name="photos_envelope_settings_people_block_person_confirmation_positive_button">ブロック</string>
@@ -1086,17 +1090,17 @@
     <string name="photos_facegaia_optin_impl_picker_remove_dialog_title">「自分」ラベルを削除しますか？</string>
     <string name="photos_facegaia_optin_impl_selected">選択済み</string>
     <string name="photos_facegaia_optin_impl_title">自分の顔を選択して Google フォトをあなた仕様に</string>
-    <string name="photos_favorites_promo_dialog_body_photo">この写真は [お気に入り] のアルバムで簡単に見つかります</string>
-    <string name="photos_favorites_promo_dialog_body_video">この動画は [お気に入り] のアルバムで簡単に見つかります</string>
+    <string name="photos_favorites_promo_dialog_body_photo">アルバムからお気に入りの写真が簡単に見つかります</string>
     <string name="photos_favorites_promo_dialog_negative_button">完了</string>
     <string name="photos_favorites_promo_dialog_title">お気に入りに追加しました</string>
-    <string name="photos_favorites_promo_dialogs_positive_button">お気に入りに移動</string>
+    <string name="photos_favorites_promo_dialogs_positive_button">お気に入りを表示</string>
     <string name="photos_gridlayers_empty_state_caption">"何か撮影してみましょう。
 写真と動画はここに表示されます。"</string>
     <string name="photos_gridlayers_empty_state_title">写真はありません</string>
     <string name="photos_gridlayers_floating_action_button_zoom_in_content_description">拡大</string>
     <string name="photos_gridlayers_floating_action_button_zoom_out_content_description">縮小</string>
     <string name="photos_hearts_photoui_error_toggling_heart">ハートを切り替えられませんでした</string>
+    <string name="photos_hearts_popupmenu_delete">削除</string>
     <string name="photos_hearts_popupmenu_error_toast">ハートを削除できません。</string>
     <string name="photos_hearts_popupmenu_toast_deleted">削除しました</string>
     <string name="photos_hearts_viewbinder_user_liked_a_photo">%s さんが写真を高く評価しました</string>
@@ -1369,7 +1373,10 @@
     <string name="photos_movies_ui_clipeditor_impl_unmute">ミュートを解除</string>
     <string name="photos_movies_ui_clipeditor_impl_video_clip_content_description">動画クリップ</string>
     <string name="photos_notificationchannels_assistant_channel">アシスタント</string>
-    <string name="photos_notificationchannels_backup_channel">バックアップ</string>
+    <string name="photos_notificationchannels_backup_alerts_channel">アラート</string>
+    <string name="photos_notificationchannels_backup_channels_group">バックアップ</string>
+    <string name="photos_notificationchannels_backup_progress_channel">進行状況</string>
+    <string name="photos_notificationchannels_backup_suggestions_channel">候補</string>
     <string name="photos_notificationchannels_other_channel">その他</string>
     <string name="photos_notificationchannels_promotion_channel">プロモーション</string>
     <string name="photos_notificationchannels_sharing_channel">共有</string>
@@ -1503,11 +1510,7 @@
     <string name="photos_partneraccount_assistant_promo_card_description_variant_4">時間の節約に共有パートナーと自動共有しましょう</string>
     <string name="photos_partneraccount_assistant_promo_card_title">自動共有で時間を節約しましょう</string>
     <string name="photos_partneraccount_assistant_promo_card_title_variant_1">ライブラリを共有</string>
-    <string name="photos_partneraccount_assistant_promo_card_title_variant_2">パートナー アカウントを追加</string>
-    <string name="photos_partneraccount_drive_share_warning_continue">続行</string>
-    <string name="photos_partneraccount_drive_share_warning_message">%s さんと写真を自動的に共有しています。続行すると、ドライブ内の写真が自動的に共有される可能性があります。</string>
-    <string name="photos_partneraccount_drive_share_warning_message_no_name">共有ライブラリを使用して写真を自動的に共有します。続行すると、ドライブ内の写真が自動的に共有される可能性があります。</string>
-    <string name="photos_partneraccount_drive_share_warning_title">ドライブ内の写真を共有しますか？</string>
+    <string name="photos_partneraccount_assistant_promo_card_title_variant_2">共有パートナー アカウントを追加</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_reciprocate_title">%1$s さんと共有</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_reciprocate_title_no_name">パートナーと共有</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_select">写真を選択</string>
@@ -1788,12 +1791,12 @@
     <string name="photos_photobook_promotion_allphotos_subtext_1">サイバー マンデーまでフォトブックがお得</string>
     <string name="photos_photobook_promotion_allphotos_subtext_2">12 月 24 日までにフォトブックをお届け</string>
     <string name="photos_photobook_promotion_free_shipping">送料無料</string>
-    <string name="photos_photobook_promotion_free_shipping_offer_details">クーポンの詳細</string>
     <string name="photos_photobook_promotion_general_book_cover_title">思い出</string>
     <string name="photos_photobook_remediation_dialog_edit_selection_option">選択内容を編集</string>
     <string name="photos_photobook_remediation_dialog_view_preview_option">フォトブックのプレビューを表示</string>
     <string name="photos_photobook_storefront_archive">アーカイブ</string>
     <string name="photos_photobook_storefront_archive_failed">注文をアーカイブできませんでした</string>
+    <string name="photos_photobook_storefront_banner_dismiss_description">プロモーションを非表示にします。</string>
     <string name="photos_photobook_storefront_buy_again">再注文</string>
     <string name="photos_photobook_storefront_buy_idential_book">同じフォトブックを購入</string>
     <string name="photos_photobook_storefront_cancel_failure">ご注文をキャンセルできませんでした</string>
@@ -1829,7 +1832,6 @@
     <string name="photos_photobook_storefront_order_printing_time_notice">ご注文のフォトブックは注文日から 2～3 営業日以内に印刷されます</string>
     <string name="photos_photobook_storefront_past_orders">ご注文履歴</string>
     <string name="photos_photobook_storefront_promo_code">プロモーション コード</string>
-    <string name="photos_photobook_storefront_promotion_general_book_cover_title">思い出</string>
     <string name="photos_photobook_storefront_quantity">数量: %d 冊</string>
     <string name="photos_photobook_storefront_quantity_description">数量: %d 冊</string>
     <string name="photos_photobook_storefront_shipping">配送先住所</string>
@@ -2332,8 +2334,8 @@
     <string name="photos_selection_cabmode_menue_copy_to_folder">フォルダにコピー</string>
     <string name="photos_selection_cabmode_menue_move_to_folder">フォルダに移動</string>
     <string name="photos_selection_cabmode_photo_picker_one_up_done_button_label">作成</string>
-    <string name="photos_selection_cabmode_picker_title_multiple_default">ファイルを選択</string>
-    <string name="photos_selection_cabmode_picker_title_single_default">ファイルを選択</string>
+    <string name="photos_selection_cabmode_picker_title_multiple_default">ファイルの選択</string>
+    <string name="photos_selection_cabmode_picker_title_single_default">ファイルの選択</string>
     <string name="photos_selection_cabmode_post_share_button_text">共有</string>
     <string name="photos_selection_cabmode_text_done">完了して保存</string>
     <string name="photos_setas_chooser_title">使用するアプリを選択</string>
@@ -2367,7 +2369,7 @@
     <string name="photos_settings_faceclustering_advanced_my_face_title">「自分」のラベルが付いた顔</string>
     <string name="photos_settings_faceclustering_advanced_pets_setting">人物とともにペットを表示</string>
     <string name="photos_settings_faceclustering_advanced_setting_detailed_desc">同一人物が写っている写真をグループ化します &lt;a href=help:>詳細&lt;/a></string>
-    <string name="photos_settings_faceclustering_face_recognition_off_dialog_message">登録されているフェイス グループがすべて削除されます</string>
+    <string name="photos_settings_faceclustering_face_recognition_off_dialog_message">人物の顔で写真が整理されることはありません。また、写真を使ってあなただけのムービーやコラージュが作成されることもありません。フェイス グループに加えた変更（名前の追加など）は完全に削除されます。</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_negative_button">有効のままにする</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_positive_button">OFF にする</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_title">フェイス グルーピングを OFF にしますか？</string>
@@ -2420,6 +2422,7 @@
     <string name="photos_setwallpaper_setas_wallpaper">壁紙</string>
     <string name="photos_share_collaborative_toggle_error">共同編集設定を切り替えられませんでした</string>
     <string name="photos_share_copylink_activity_name">リンクを取得</string>
+    <string name="photos_share_direct_album_complete">アルバムを送信しました</string>
     <string name="photos_share_direct_complete_icu">{count,plural, =1{写真を送信しました}other{写真を送信しました}}</string>
     <string name="photos_share_direct_progress_icu">{count,plural, =1{写真を送信しています…}other{写真を送信しています…}}</string>
     <string name="photos_share_error">共有中にエラーが発生しました。</string>
@@ -2539,8 +2542,6 @@
     <string name="photos_sharingtab_picker_impl_overflow_desc">オーバーフロー メニューを開く</string>
     <string name="photos_sharingtab_picker_impl_overflow_select_album">既存のアルバムを選択</string>
     <string name="photos_sharingtab_picker_impl_overflow_select_people">ユーザーを選択</string>
-    <string name="photos_sharingtab_picker_impl_recipient_name_separator">"、 "</string>
-    <string name="photos_sharingtab_picker_impl_recipients_hint_text">名前、電話番号、メールアドレスのいずれかを入力してください</string>
     <string name="photos_sharingtab_picker_impl_select_more_button">他の写真を選択</string>
     <string name="photos_sharingtab_picker_impl_select_recipient_text">この人は誰ですか？</string>
     <string name="photos_sharingtab_picker_impl_selected_label">選択済み</string>
@@ -2559,10 +2560,8 @@
     <string name="photos_strings_undo_button">元に戻す</string>
     <string name="photos_strings_untitled_title_text">無題</string>
     <string name="photos_suggestedactions_archive_confirm_dialog_title">この写真をアーカイブしますか？</string>
-    <string name="photos_suggestedactions_archive_dialog_archive">アーカイブ</string>
     <string name="photos_suggestedactions_archive_dialog_archive_photo">写真をアーカイブ</string>
     <string name="photos_suggestedactions_archive_dialog_cancel">キャンセル</string>
-    <string name="photos_suggestedactions_archive_dialog_ok">OK</string>
     <string name="photos_suggestedactions_archive_dialog_text">"スクリーンショットや領収書など、ライブラリ内の不要な写真を非表示にできます。
 
 アルバム、検索結果、アーカイブには引き続き表示されます"</string>
@@ -2579,7 +2578,6 @@
     <string name="photos_suggestedactions_archive_features_receipt">この領収書をアーカイブ</string>
     <string name="photos_suggestedactions_archive_features_screenshot">このスクリーンショットをアーカイブ</string>
     <string name="photos_suggestedactions_archive_features_sketch">このスケッチをアーカイブ</string>
-    <string name="photos_suggestedactions_archive_help_dialog_title">アーカイブを使って写真を整理</string>
     <string name="photos_suggestedactions_ui_dismiss_button_description">閉じる</string>
     <string name="photos_suggestedrotations_cancel_discard_button">破棄しない</string>
     <string name="photos_suggestedrotations_discard_changes_button">破棄</string>

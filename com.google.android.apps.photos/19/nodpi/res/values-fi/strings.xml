@@ -94,7 +94,6 @@
     <string name="dream_no_photos">Ei valittuja kuvia.</string>
     <string name="go_to_playstore_button">Siirry Play Kauppaan</string>
     <string name="go_to_vr_listeners_settings_button">Siirry asetuksiin</string>
-    <string name="google_drive_setting_desc">Näytä Google Drive ‑kuvat ja ‑videot Kuvat-kirjastossa. &lt;a href=help:>Lisätietoja&lt;/a></string>
     <string name="google_drive_setting_title">Google Drive</string>
     <string name="home_menu_settings">Asetukset</string>
     <string name="image_action_shot_tooltip">Luotu näyttämällä toiminta sarjasta samankaltaisia kuvia.</string>
@@ -296,11 +295,11 @@ Voit keskeyttää sijaintihistorian käytön milloin tahansa. Aiempia toimintoja
     <string name="mr_controller_collapse_group">Tiivistä</string>
     <string name="mr_controller_disconnect">Katkaise yhteys</string>
     <string name="mr_controller_expand_group">Laajenna</string>
-    <string name="mr_controller_no_info_available">Tietoja ei ole saatavilla</string>
-    <string name="mr_controller_no_media_selected">Ei valittua mediaa.</string>
+    <string name="mr_controller_no_info_available">Ei tietoja saatavilla</string>
+    <string name="mr_controller_no_media_selected">Ei valittua mediaa</string>
     <string name="mr_controller_pause">Keskeytä</string>
     <string name="mr_controller_play">Toista</string>
-    <string name="mr_controller_stop">Pysäytä</string>
+    <string name="mr_controller_stop">Lopeta</string>
     <string name="mr_controller_stop_casting">Lopeta suoratoisto</string>
     <string name="mr_controller_volume_slider">Äänenvoimakkuuden liukusäädin</string>
     <string name="mr_user_route_category_name">Laitteet</string>
@@ -686,7 +685,6 @@ Kuvasi ja videosi pysyvät kirjastossasi."</string>
     <string name="photos_burst_actionutils_set_primary_failure">Ei voi asettaa kansikuvaksi. Yritä uudelleen.</string>
     <string name="photos_burst_fragment_cover_photos_indicator">Kuvasarjakansikuvan tilaosoitin</string>
     <string name="photos_burst_fragment_thumbnail_description">Kuvasarjan pikkukuva</string>
-    <string name="photos_buystorage_guno_strings_storage_upgraded_message">Google-tallennustilan parannus onnistui</string>
     <string name="photos_cameraassistant_archive_failed">Kohteen arkistointi epäonnistui.</string>
     <string name="photos_cameraassistant_archive_success_content_description">Arkistoitu Kuvat-sovellukseen</string>
     <string name="photos_cameraassistant_archive_undo_content_description">Arkistointi kumottu</string>
@@ -727,6 +725,7 @@ Kuvasi ja videosi pysyvät kirjastossasi."</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_out_of_storage_description">Kuvien ja videoiden varmuuskopiointi on keskeytetty. Osta lisää tallennustilaa, jotta voit jatkaa varmuuskopiointia alkuperäisellä laadulla, tai vaihda varmuuskopioinnin laatua Asetuksista.</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_out_of_storage_title">Google-tallennustila on vähissä.</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_title">Google-tallennustilasi on %d %% täynnä</string>
+    <string name="photos_cloudstorage_buystorage_guno_strings_storage_upgraded_message">Google-tallennustilan parannus onnistui</string>
     <string name="photos_comments_adapteritem_comments_are_off">Kommentit on nyt poistettu käytöstä</string>
     <string name="photos_comments_delete_comment_removed">Kommentti poistettiin</string>
     <string name="photos_comments_delete_confirm_button">Poista kommentti</string>
@@ -736,7 +735,7 @@ Kuvasi ja videosi pysyvät kirjastossasi."</string>
     <string name="photos_comments_popupmenu_delete_comment">Poista kommentti</string>
     <string name="photos_comments_popupmenu_report_abuse">Ilmoita väärinkäytöstä</string>
     <string name="photos_comments_popupmenu_text_copied">Teksti kopioitu</string>
-    <string name="photos_comments_ui_comment_list_header">Kommentit</string>
+    <string name="photos_comments_ui_comment_list_header">Tehtävä</string>
     <string name="photos_comments_ui_commentbar_add_photos_icon_content_desc">Lisää kuvia jaettuun albumiin.</string>
     <string name="photos_comments_ui_commentbar_comments_off_hint_text">Kommentit on nyt poistettu käytöstä.</string>
     <string name="photos_comments_ui_commentbar_say_something_hint_text">Sano jotain</string>
@@ -778,6 +777,7 @@ Kuvasi ja videosi pysyvät kirjastossasi."</string>
     <string name="photos_create_mediabundle_create_new_motion_failure">Animaation luomisessa oli ongelma. Yritä uudelleen.</string>
     <string name="photos_create_mediabundle_create_new_movie">Elokuva</string>
     <string name="photos_create_mediabundle_create_new_movie_failure">Ongelma elokuvan luomisessa. Yritä uudelleen.</string>
+    <string name="photos_create_mediabundle_create_new_new_album">Uusi albumi</string>
     <string name="photos_create_mediabundle_create_new_photo_book">Valokuvakirja</string>
     <string name="photos_create_mediabundle_validation_error_avtype_other">Virheellinen valinta</string>
     <string name="photos_create_mediabundle_validation_error_avtype_static_images_only">Valitse %1$d ‒ %2$d kuvaa.</string>
@@ -806,6 +806,7 @@ Kuvasi ja videosi pysyvät kirjastossasi."</string>
     <string name="photos_create_viewbinder_shared_badge">Jaettu</string>
     <string name="photos_create_viewbinder_subtitle_divider">•</string>
     <string name="photos_create_viewbinder_title_add_to">Lisää albumiin</string>
+    <string name="photos_create_viewbinder_title_all_albums">Kaikki albumit</string>
     <string name="photos_create_viewbinder_title_new">Luo uusi</string>
     <string name="photos_dataplan_free_backup_notification_description_airtel">Varmuuskopioi kuvat ilmaisella datayhteydellä Airtelin Happy Hours ‑tarjouksen aikana.</string>
     <string name="photos_dataplan_free_backup_notification_title_airtel">Ilmainen varmuuskopiointi Airtelissä</string>
@@ -864,7 +865,7 @@ Kuvasi ja videosi pysyvät kirjastossasi."</string>
     <string name="photos_devicesetup_betterbackuppromo_search_promo_message">Kuvat järjestetään automaattisesti ja voit hakea tehdä niistä hakuja, kun otat varmuuskopioinnin käyttöön</string>
     <string name="photos_devicesetup_betterbackuppromo_search_promo_title">Löydä kuvat nopeammin</string>
     <string name="photos_devicesetup_conversion_sheet_account_picker_title">Valitse tili</string>
-    <string name="photos_devicesetup_done_label">VALMIS</string>
+    <string name="photos_devicesetup_done_label">VAHVISTA</string>
     <string name="photos_devicesetup_high_quality_storage_label">Latauksen koko: korkea laatu (ilmainen rajoittamaton tallennustila)</string>
     <string name="photos_devicesetup_high_quality_storage_subtitle">Upea visuaalinen laatu pienemmässä tiedostokoossa</string>
     <string name="photos_devicesetup_high_quality_storage_title">Korkea laatu (ilmainen rajoittamaton tallennustila)</string>
@@ -897,6 +898,8 @@ Kuvasi ja videosi pysyvät kirjastossasi."</string>
     <string name="photos_devicesetup_resources_auto_backup">Varmuuskopiointi ja synkronointi</string>
     <string name="photos_devicesetup_resources_auto_backup_description">Varmuuskopioi ja synkronoi %1$s</string>
     <string name="photos_devicesetup_resources_auto_backup_settings">Varmuuskopioinnin ja synkronoinnin asetukset</string>
+    <string name="photos_devicesetup_resources_auto_backup_title_info">Voit muuttaa tätä milloin tahansa asetuksista.</string>
+    <string name="photos_devicesetup_resources_auto_backup_title_info_auto_backup_settings">Voit muuttaa näitä asetuksia milloin tahansa</string>
     <string name="photos_devicesetup_sign_in">Kirjaudu sisään</string>
     <string name="photos_devicesetup_sign_in_to_back_up">Kirjaudu, jotta voit varmuuskopioida.</string>
     <string name="photos_devicesetup_turn_on">Ota käyttöön</string>
@@ -1004,6 +1007,7 @@ muokkausta ei tueta."</string>
     <string name="photos_envelope_settings_hidename_show_email">Piilota nimi ja näytä sen sijaan sähköpostiosoite.</string>
     <string name="photos_envelope_settings_hidename_show_number">Piilota nimi ja näytä sen sijaan puhelinnumero</string>
     <string name="photos_envelope_settings_load_error">Vaihtoehtojen lataamisessa tapahtui virhe.</string>
+    <string name="photos_envelope_settings_people_add_recipient_item_title">Kutsu ihmisiä</string>
     <string name="photos_envelope_settings_people_block_person">Estä henkilö</string>
     <string name="photos_envelope_settings_people_block_person_confirmation_message">He eivät pysty ottamaan sinuun yhteyttä Google Kuvien kautta, etkä näe heidän kuviaan tai kommenttejaan Google Kuvissa. Esto on käytössä myös joissakin muissa Googlen tuotteissa, kuten Google+:ssa ja Hangoutsissa. &lt;a href=help:>Lisätietoja&lt;/a></string>
     <string name="photos_envelope_settings_people_block_person_confirmation_positive_button">Estä</string>
@@ -1074,17 +1078,17 @@ muokkausta ei tueta."</string>
     <string name="photos_facegaia_optin_impl_picker_remove_dialog_title">Poistetaanko Minä-tunniste?</string>
     <string name="photos_facegaia_optin_impl_selected">Valittu</string>
     <string name="photos_facegaia_optin_impl_title">Räätälöi Google Kuvat valitsemalla kasvosi</string>
-    <string name="photos_favorites_promo_dialog_body_photo">Jatkossa löydät kuvan helposti Suosikit-albumistasi</string>
-    <string name="photos_favorites_promo_dialog_body_video">Jatkossa löydät videon helposti Suosikit-albumistasi</string>
+    <string name="photos_favorites_promo_dialog_body_photo">Löydä suosikkisi helposti albumeista</string>
     <string name="photos_favorites_promo_dialog_negative_button">Valmis</string>
-    <string name="photos_favorites_promo_dialog_title">Lisätty Suosikkeihin!</string>
-    <string name="photos_favorites_promo_dialogs_positive_button">Siirry suosikkeihin</string>
+    <string name="photos_favorites_promo_dialog_title">Lisätty suosikkeihin!</string>
+    <string name="photos_favorites_promo_dialogs_positive_button">Näytä suosikit</string>
     <string name="photos_gridlayers_empty_state_caption">"Ota kuva.
 Kuvat ja videot näkyvät tässä."</string>
     <string name="photos_gridlayers_empty_state_title">Ei kuvia</string>
     <string name="photos_gridlayers_floating_action_button_zoom_in_content_description">lähennä</string>
     <string name="photos_gridlayers_floating_action_button_zoom_out_content_description">loitonna</string>
     <string name="photos_hearts_photoui_error_toggling_heart">Sydämen kytkeminen päälle/pois epäonnistui</string>
+    <string name="photos_hearts_popupmenu_delete">Poista</string>
     <string name="photos_hearts_popupmenu_error_toast">Tykkäyksen poistaminen epäonnistui.</string>
     <string name="photos_hearts_popupmenu_toast_deleted">Poistettu</string>
     <string name="photos_hearts_viewbinder_user_liked_a_photo">%s tykkäsi kuvasta</string>
@@ -1357,7 +1361,10 @@ Kuvat ja videot näkyvät tässä."</string>
     <string name="photos_movies_ui_clipeditor_impl_unmute">Poista mykistys</string>
     <string name="photos_movies_ui_clipeditor_impl_video_clip_content_description">Videoleike</string>
     <string name="photos_notificationchannels_assistant_channel">Assistentti</string>
-    <string name="photos_notificationchannels_backup_channel">Varmuuskopiointi</string>
+    <string name="photos_notificationchannels_backup_alerts_channel">Ilmoitukset</string>
+    <string name="photos_notificationchannels_backup_channels_group">Varmuuskopiointi</string>
+    <string name="photos_notificationchannels_backup_progress_channel">Edistyminen</string>
+    <string name="photos_notificationchannels_backup_suggestions_channel">Ehdotukset</string>
     <string name="photos_notificationchannels_other_channel">Muu</string>
     <string name="photos_notificationchannels_promotion_channel">Tarjoukset</string>
     <string name="photos_notificationchannels_sharing_channel">Jakaminen</string>
@@ -1492,10 +1499,6 @@ siirtämällä tämä Arkistoon."</string>
     <string name="photos_partneraccount_assistant_promo_card_title">Säästä aikaa automaattisen jakamisen avulla</string>
     <string name="photos_partneraccount_assistant_promo_card_title_variant_1">Jaa kirjasto</string>
     <string name="photos_partneraccount_assistant_promo_card_title_variant_2">Lisää kumppanitili</string>
-    <string name="photos_partneraccount_drive_share_warning_continue">Jatka</string>
-    <string name="photos_partneraccount_drive_share_warning_message">%s voi katsella kuviasi automaattisesti. Jos jatkat, Drivessa olevia kuvia saatetaan jakaa automaattisesti.</string>
-    <string name="photos_partneraccount_drive_share_warning_message_no_name">Jaat kuvia automaattisesti jaettujen kirjastojen avulla. Jos jatkat, Drivessa olevia kuvia saatetaan jakaa automaattisesti.</string>
-    <string name="photos_partneraccount_drive_share_warning_title">Jaetaanko kuvia Drivesta?</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_reciprocate_title">Jaa omaa sisältöäsi henkilön %1$s kanssa</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_reciprocate_title_no_name">Jaa omaa sisältöäsi kumppanin kanssa</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_select">Valitse valokuvia</string>
@@ -1776,12 +1779,12 @@ automaattisesti"</string>
     <string name="photos_photobook_promotion_allphotos_subtext_1">valokuvakirjoista Cyber Mondayn loppuun asti</string>
     <string name="photos_photobook_promotion_allphotos_subtext_2">valokuvakirjan toimitukseen 24.12. mennessä</string>
     <string name="photos_photobook_promotion_free_shipping">Ilmainen toimitus</string>
-    <string name="photos_photobook_promotion_free_shipping_offer_details">Tarjouksen tiedot</string>
     <string name="photos_photobook_promotion_general_book_cover_title">Muistoja</string>
     <string name="photos_photobook_remediation_dialog_edit_selection_option">Muokkaa valintaa</string>
     <string name="photos_photobook_remediation_dialog_view_preview_option">Näytä kirjan esikatselu</string>
     <string name="photos_photobook_storefront_archive">Arkistoi</string>
     <string name="photos_photobook_storefront_archive_failed">Tilauksen arkistointi epäonnistui.</string>
+    <string name="photos_photobook_storefront_banner_dismiss_description">Hylkää mainos.</string>
     <string name="photos_photobook_storefront_buy_again">Tilaa uudelleen</string>
     <string name="photos_photobook_storefront_buy_idential_book">Osta samanlainen kirja</string>
     <string name="photos_photobook_storefront_cancel_failure">Tilauksen peruminen epäonnistui.</string>
@@ -1817,7 +1820,6 @@ automaattisesti"</string>
     <string name="photos_photobook_storefront_order_printing_time_notice">Tilauksesi painetaan 2‒3 arkipäivän kuluessa tilauspäivästä.</string>
     <string name="photos_photobook_storefront_past_orders">Aiemmat tilaukset</string>
     <string name="photos_photobook_storefront_promo_code">Tarjouskoodi</string>
-    <string name="photos_photobook_storefront_promotion_general_book_cover_title">Muistoja</string>
     <string name="photos_photobook_storefront_quantity">Määrä: %d</string>
     <string name="photos_photobook_storefront_quantity_description">määrä: %d</string>
     <string name="photos_photobook_storefront_shipping">Toimitusosoite</string>
@@ -2355,7 +2357,7 @@ Kirjastosi on jaettu. Myös %s voi mahdollisesti käyttää synkronoituja kohtei
     <string name="photos_settings_faceclustering_advanced_my_face_title">Kasvot, joissa on merkintä Minä</string>
     <string name="photos_settings_faceclustering_advanced_pets_setting">Näytä lemmikit ihmisten kanssa</string>
     <string name="photos_settings_faceclustering_advanced_setting_detailed_desc">Näet suosikki-ihmistesi kuvat ryhmiteltyinä samankaltaisten kasvojen mukaan. &lt;a href=help:>Lisätietoja&lt;/a></string>
-    <string name="photos_settings_faceclustering_face_recognition_off_dialog_message">Kaikki suosikki-ihmistesi kasvoryhmät poistetaan</string>
+    <string name="photos_settings_faceclustering_face_recognition_off_dialog_message">Kuviasi ei järjestellä ihmisten mukaan eikä niistä tehdä sinulle minkäänlaisia räätälöityjä elokuvia tai kollaaseja. Kasvoryhmiin tekemäsi muutokset, kuten nimien lisäykset, poistetaan pysyvästi.</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_negative_button">Pidä käytössä</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_positive_button">Poista käytöstä</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_title">Poistetaanko kasvojen ryhmittely käytöstä?</string>
@@ -2408,6 +2410,7 @@ Kirjastosi on jaettu. Myös %s voi mahdollisesti käyttää synkronoituja kohtei
     <string name="photos_setwallpaper_setas_wallpaper">Taustakuva</string>
     <string name="photos_share_collaborative_toggle_error">Virhe yhteiskäytön vaihtamisessa</string>
     <string name="photos_share_copylink_activity_name">Hae linkki</string>
+    <string name="photos_share_direct_album_complete">Albumi lähetettiin</string>
     <string name="photos_share_direct_complete_icu">{count,plural, =1{Kuva on lähetetty.}other{Kuvat on lähetetty.}}</string>
     <string name="photos_share_direct_progress_icu">{count,plural, =1{Lähetetään kuvaa…}other{Lähetetään kuvia…}}</string>
     <string name="photos_share_error">Jakamisessa tapahtui virhe.</string>
@@ -2527,8 +2530,6 @@ Kirjastosi on jaettu. Myös %s voi mahdollisesti käyttää synkronoituja kohtei
     <string name="photos_sharingtab_picker_impl_overflow_desc">Avaa ylivuotovalikko</string>
     <string name="photos_sharingtab_picker_impl_overflow_select_album">Valitse nykyinen albumi</string>
     <string name="photos_sharingtab_picker_impl_overflow_select_people">Valitse henkilöt</string>
-    <string name="photos_sharingtab_picker_impl_recipient_name_separator">", "</string>
-    <string name="photos_sharingtab_picker_impl_recipients_hint_text">Kirjoita nimi, puhelinnumero tai sähköpostiosoite.</string>
     <string name="photos_sharingtab_picker_impl_select_more_button">Valitse lisää kuvia</string>
     <string name="photos_sharingtab_picker_impl_select_recipient_text">Kuka tämä on?</string>
     <string name="photos_sharingtab_picker_impl_selected_label">Valittu</string>
@@ -2547,10 +2548,8 @@ Kirjastosi on jaettu. Myös %s voi mahdollisesti käyttää synkronoituja kohtei
     <string name="photos_strings_undo_button">Kumoa</string>
     <string name="photos_strings_untitled_title_text">Nimetön</string>
     <string name="photos_suggestedactions_archive_confirm_dialog_title">Arkistoidaanko tämä kuva?</string>
-    <string name="photos_suggestedactions_archive_dialog_archive">Arkistoi</string>
     <string name="photos_suggestedactions_archive_dialog_archive_photo">Arkistoi kuva</string>
     <string name="photos_suggestedactions_archive_dialog_cancel">Peruuta</string>
-    <string name="photos_suggestedactions_archive_dialog_ok">Ok</string>
     <string name="photos_suggestedactions_archive_dialog_text">"Piilota kirjastosta sellaiset valokuvat, joita et halua nähdä, kuten kuvakaappaukset tai kuittien kuvat.
 
 Kuvat näkyvät edelleen albumeissa, hakutuloksissa ja arkistossa."</string>
@@ -2567,7 +2566,6 @@ Kuvat näkyvät edelleen albumeissa, hakutuloksissa ja arkistossa."</string>
     <string name="photos_suggestedactions_archive_features_receipt">Arkistoi tämä kuitti</string>
     <string name="photos_suggestedactions_archive_features_screenshot">Arkistoi tämä kuvakaappaus</string>
     <string name="photos_suggestedactions_archive_features_sketch">Arkistoi tämä luonnos</string>
-    <string name="photos_suggestedactions_archive_help_dialog_title">Pidä asiat järjestyksessä arkistoimalla</string>
     <string name="photos_suggestedactions_ui_dismiss_button_description">Ohita</string>
     <string name="photos_suggestedrotations_cancel_discard_button">PERUUTA</string>
     <string name="photos_suggestedrotations_discard_changes_button">HYLKÄÄ</string>

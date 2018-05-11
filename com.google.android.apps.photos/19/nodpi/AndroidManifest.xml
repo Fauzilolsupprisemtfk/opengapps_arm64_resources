@@ -127,7 +127,6 @@
         <activity android:exported="false" android:name="com.google.android.apps.photos.backup.settings.FolderBackupSettingsActivity" android:parentActivityName="com.google.android.apps.photos.backup.settings.AutoBackupSettingsActivity" android:resizeableActivity="true" android:theme="@style/Theme.Photos.Backup.Settings.Preferences">
             <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.google.android.apps.photos.backup.settings.AutoBackupSettingsActivity"/>
         </activity>
-        <activity android:exported="false" android:launchMode="singleTop" android:name="com.google.android.apps.photos.buystorage.guno.GunoBuyFlowActivity" android:resizeableActivity="true" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity android:exported="false" android:name="com.google.android.apps.photos.cameraassistant.ShutdownServiceActivity"/>
         <receiver android:exported="true" android:name="com.google.android.apps.photos.cameraassistant.CameraAssistantBroadcastReceiver">
             <intent-filter>
@@ -157,10 +156,21 @@
         <service android:exported="false" android:name="com.google.android.libraries.gcoreclient.cast.remotedisplay.impl.CastRemoteDisplayLocalServiceDelegator">
             <meta-data android:name="gcoreclient.cast.GcoreCastRemoteDisplayLocalService" android:value="com.google.android.apps.photos.cast.impl.CastPresentationService"/>
         </service>
+        <activity android:exported="false" android:launchMode="singleTop" android:name="com.google.android.apps.photos.cloudstorage.buystorage.guno.GunoBuyFlowActivity" android:resizeableActivity="true" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <provider android:authorities="com.google.android.apps.photos.contentprovider" android:exported="false" android:grantUriPermissions="true" android:label="@string/media_content_provider_label" android:name="com.google.android.apps.photos.contentprovider.impl.MediaContentProvider" android:syncable="false"/>
         <activity android:exported="false" android:label="@string/photos_create_label_create_menu" android:name="com.google.android.apps.photos.create.CreateActivity" android:theme="@style/Theme.Photos.Expander"/>
         <activity android:exported="false" android:name="com.google.android.apps.photos.create.movie.concept.CreateConceptMovieIntroductionActivity" android:resizeableActivity="true" android:theme="@style/Theme.Photos.NoTitle"/>
-        <activity android:exported="false" android:name="com.google.android.apps.photos.create.movie.CreateNewMovieThemePickerActivity" android:resizeableActivity="true" android:theme="@style/Theme.Photos.NoTitle"/>
+        <activity android:exported="true" android:name="com.google.android.apps.photos.create.movie.deeplink.ConceptMovieDeepLinkActivity" android:parentActivityName="com.google.android.apps.photos.home.HomeActivity" android:theme="@style/Theme.Photos.NoTitle"/>
+        <activity-alias android:enabled="false" android:exported="true" android:name="com.google.android.apps.photos.create.movie.deeplink.ConceptMovieDeepLinkActivityAlias" android:parentActivityName="com.google.android.apps.photos.home.HomeActivity" android:targetActivity="com.google.android.apps.photos.create.movie.deeplink.ConceptMovieDeepLinkActivity">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="photos.google.com" android:pathPattern="/movies/create" android:scheme="http"/>
+                <data android:host="photos.google.com" android:pathPattern="/movies/create" android:scheme="https"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:exported="false" android:name="com.google.android.apps.photos.create.movie.CreateNewMovieThemePickerActivity" android:resizeableActivity="true"/>
         <service android:exported="false" android:name="com.google.android.apps.photos.dataplan.common.UpdateMobileDataPlanJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
         <activity android:exported="false" android:name="com.google.android.apps.photos.daydream.DreamSettingsActivity"/>
         <service android:exported="true" android:icon="@mipmap/photos_launcher" android:label="@string/photos_theme_google_photos" android:name="com.google.android.apps.photos.daydream.PhotosDreamService" android:permission="android.permission.BIND_DREAM_SERVICE">
@@ -431,6 +441,7 @@
         <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.google.android.apps.photos.peoplemachine.PeopleMachineActivity" android:theme="@style/Theme.Photos.Fullscreen.WhiteTitle"/>
         <activity android:exported="false" android:label="@string/photos_peoplepicker_activity_title" android:name="com.google.android.apps.photos.peoplepicker.CreationPeoplePickerActivity" android:resizeableActivity="true" android:theme="@style/Theme.Photos.PeoplePicker"/>
         <activity android:exported="false" android:name="com.google.android.apps.photos.permissions.required.NoPermissionsActivity" android:theme="@style/Theme.Photos.Fullscreen"/>
+        <activity android:exported="false" android:name="com.google.android.apps.photos.permissions.required.RequiredRuntimePermissionsCheckerActivity" android:theme="@style/Theme.Photos.Transparent"/>
         <activity android:exported="false" android:name="com.google.android.apps.photos.photobook.confirmation.OrderConfirmationActivity" android:theme="@style/Theme.PhotoBook"/>
         <activity android:exported="false" android:label="@string/photos_photobook_impl_activity_label" android:name="com.google.android.apps.photos.photobook.impl.PrintPhotoBookActivity" android:resizeableActivity="true" android:theme="@style/Theme.PhotoBook" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
         <activity android:exported="false" android:label="@string/photos_picker_impl_label_media_picker" android:name="com.google.android.apps.photos.photobook.picker.impl.PhotoBookPickerActivity" android:theme="@style/Theme.Photos.NoTitle"/>

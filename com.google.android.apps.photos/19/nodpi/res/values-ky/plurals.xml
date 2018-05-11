@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="file_too_big_for_trash_message">
-        <item quantity="other">Бул объекттер түзмөгүңүздүн таштанды кутусуна батпайт. Аларды жок кылсаңыз, алар түзмөгүңүздөн жана каттоо эсебиңизден биротоло өчүрүлөт.</item>
-        <item quantity="one">Бул объект түзмөгүңүздүн таштанды кутусуна батпайт. Аны жок кылсаңыз, ал түзмөгүңүздөн жана каттоо эсебиңизден биротоло өчүрүлөт.</item>
+        <item quantity="other">Бул объекттер көлөмдүү болгондуктан, түзмөгүңүздүн таштанды кутусуна батпайт. Аларды жок кылсаңыз, алар түзмөгүңүздөн жана аккаунтуңуздан биротоло өчөт.</item>
+        <item quantity="one">Бул объект көлөмдүү болгондуктан, түзмөгүңүздүн таштанды кутусуна батпайт. Аны жок кылсаңыз, ал түзмөгүңүздөн жана аккаунтуңуздан биротоло өчөт.</item>
     </plurals>
     <plurals name="photos_album_editalbumphotos_album_will_be_too_large_album_limit">
         <item quantity="other">Жаңы альбомдогу объекттерин саны %1$d ашпашы керек.</item>
@@ -37,8 +37,8 @@
         <item quantity="one">%d нерсе жылдырылды</item>
     </plurals>
     <plurals name="photos_album_removefromalbum_photo_pending">
-        <item quantity="other">Бул альбомдон сүрөттөр өчүрүлүүдө…</item>
-        <item quantity="one">Бул альбомдон сүрөт өчүрүлүүдө…</item>
+        <item quantity="other">Сүрөт бул альбомдон өчүрүлүүдө…</item>
+        <item quantity="one">Сүрөт бул альбомдон өчүрүлүүдө…</item>
     </plurals>
     <plurals name="photos_album_removefromalbum_video_pending">
         <item quantity="other">Бул альбомдон видеолор өчүрүлүүдө…</item>
@@ -193,16 +193,16 @@
         <item quantity="one">%d күн мурун</item>
     </plurals>
     <plurals name="photos_devicemanagement_assistant_dialog_batch_description_text_experiment2">
-        <item quantity="other">Түзмөгүңүздөн %1$d нерсе алып салынат. Кабатыр болбоңуз, алар Google Фотодо сакталып кала берет</item>
-        <item quantity="one">Түзмөгүңүздөн %1$d нерсе алып салынат. Кабатыр болбоңуз, ал Google Фотодо сакталып кала берет.</item>
+        <item quantity="other">Түзмөгүңүздөн %1$d нерсе өчүрүлөт. Кабатыр болбоңуз, алар Google Фотодо сакталып кала берет</item>
+        <item quantity="one">Түзмөгүңүздөн %1$d нерсе өчүрүлөт. Кабатыр болбоңуз, ал Google Фотодо сакталып кала берет.</item>
     </plurals>
     <plurals name="photos_devicemanagement_assistant_dialog_title_text">
         <item quantity="other">Түзмөктөн %1$d нерсени алып салуу</item>
         <item quantity="one">Түзмөктөн %1$d нерсени алып салуу</item>
     </plurals>
     <plurals name="photos_devicemanagement_assistant_dialog_title_text_experiment1">
-        <item quantity="other">Түзмөктөн %1$d сүрөт же видеону алып салуу</item>
-        <item quantity="one">Түзмөктөн %1$d сүрөт же видеону алып салуу</item>
+        <item quantity="other">Түзмөктөн %1$d сүрөт жана видео өчүрүлөт</item>
+        <item quantity="one">Түзмөктөн %1$d сүрөт жана видео өчүрүлөт</item>
     </plurals>
     <plurals name="photos_devicemanagement_assistant_freeing_up_space_subtitle">
         <item quantity="other">%1$d түпнуска сүрөт жана видео жок кылынууда</item>
@@ -241,8 +241,8 @@
         <item quantity="one">Сиз болгону %d нерсени кошо аласыз.</item>
     </plurals>
     <plurals name="photos_localmedia_ui_delete_folder_on_device">
-        <item quantity="other">Папканы жана анын ичиндеги %d нерсени өчүрүңүз</item>
-        <item quantity="one">Папканы жана анын ичиндеги %d нерсени өчүрүңүз</item>
+        <item quantity="other">Папканы жана анын ичиндеги %d нерсени өчүрүү</item>
+        <item quantity="one">Папканы жана анын ичиндеги %d нерсени өчүрүү</item>
     </plurals>
     <plurals name="photos_localmedia_ui_deleteconfirm_delete_from_device_plural">
         <item quantity="other">Түзмөктөн өчүрүү (%d)</item>
@@ -480,10 +480,6 @@
         <item quantity="other">%1$s%2$d жаңы сүрөт кошту</item>
         <item quantity="one">%1$s%2$d жаңы сүрөт кошту</item>
     </plurals>
-    <plurals name="photos_sharingtab_picker_impl_recipient_count_string">
-        <item quantity="other">%1$d киши</item>
-        <item quantity="one">%1$d киши</item>
-    </plurals>
     <plurals name="photos_tabbar_progressive_edu_people_promo">
         <item quantity="other">Сүрөттөрүңүздө %1$d адам табылды</item>
         <item quantity="one">Сүрөттөрүңүздө %1$d адам табылды</item>
@@ -529,24 +525,28 @@
         <item quantity="one">%d нерсе калыбына келтирилбейт</item>
     </plurals>
     <plurals name="photos_trash_restore_restored_from_trash_toast_text">
-        <item quantity="other">Ыргытылгандардан %d нерсе кайра калыбына келтирилди</item>
-        <item quantity="one">Ыргытылгандардан %d нерсе кайра калыбына келтирилди</item>
+        <item quantity="other">Таштандыдан %d нерсе кайра калыбына келтирилди</item>
+        <item quantity="one">Таштандыдан %d нерсе кайра калыбына келтирилди</item>
     </plurals>
     <plurals name="photos_trash_skip_trash_title">
         <item quantity="other">Объекттерди биротоло жок кыласызбы?</item>
         <item quantity="one">Объектти биротоло жок кыласызбы?</item>
     </plurals>
     <plurals name="photos_trash_ui_delete_dialog_title">
-        <item quantity="other">%d объект жок кылынсынбы?</item>
-        <item quantity="one">%d объект жок кылынсынбы?</item>
+        <item quantity="other">%d объектти өчүрөсүзбү?</item>
+        <item quantity="one">%d объектти өчүрөсүзбү?</item>
     </plurals>
     <plurals name="photos_trash_ui_empty_trash_dialog_text_with_count">
-        <item quantity="other">%d объектти биротоло жок кылуу</item>
-        <item quantity="one">%d объектти биротоло жок кылуу</item>
+        <item quantity="other">%d объектти биротоло жок кыласызбы?</item>
+        <item quantity="one">%d объектти биротоло жок кыласызбы?</item>
     </plurals>
     <plurals name="photos_update_x_days_left">
         <item quantity="other">Google Фотонун бул версиясын %d күндөн кийин пайдалана албай каласыз. Колдонууну уланткыңыз келсе, анын версиясын жаңыртыңыз.</item>
         <item quantity="one">Google Фотонун бул версиясын 1 күндөн кийин пайдалана албай каласыз. Колдонууну уланткыңыз келсе, анын версиясын жаңыртыңыз.</item>
+    </plurals>
+    <plurals name="photos_upload_background_full_multiple_items">
+        <item quantity="other">%d объект жүктөлүп берилүүдө</item>
+        <item quantity="one">%d объект жүктөлүп берилүүдө</item>
     </plurals>
     <plurals name="photos_upload_manual_data_dialog_description">
         <item quantity="other">"Бул объекттердин камдык көчүрмөлөрүн мобилдик Интернет аркылуу сактасаңыз, болжол менен %s трафик керектелет. Андыктан Wi-Fi'га туташыңыз."</item>
@@ -557,8 +557,8 @@
         <item quantity="one">"Бул объекттин камдык көчүрмөсүн мобилдик Интернет аркылуу сактасаңыз көп трафик керектелип калышы мүмкүн. Андыктан Wi-Fi'га туташыңыз."</item>
     </plurals>
     <plurals name="photos_upload_title_uploading">
-        <item quantity="other">Жүктөлүп берилүүдө…%d калды</item>
-        <item quantity="one">Жүктөлүп берилүүдө…%d калды</item>
+        <item quantity="other">Жүктөлүп берилүүдө…%d файл калды</item>
+        <item quantity="one">Жүктөлүп берилүүдө…%d файл калды</item>
     </plurals>
     <plurals name="photos_uploadtoalbum_upload_media_num_files">
         <item quantity="other">%d файл</item>
@@ -613,7 +613,7 @@
         <item quantity="one">%d мүчө тандалды</item>
     </plurals>
     <plurals name="trash_full_message">
-        <item quantity="other">Түзмөгүңүздүн таштанды кутусу толуп калды. Бул объекттерди жок кылсаңыз, алар түзмөгүңүздөн жана каттоо эсебиңизден биротоло өчүрүлөт.</item>
-        <item quantity="one">Түзмөгүңүздүн таштанды кутусу толуп калды. Бул объектти жок кылсаңыз, ал түзмөгүңүздөн жана каттоо эсебиңизден биротоло өчүрүлөт.</item>
+        <item quantity="other">Түзмөгүңүздүн таштанды кутусу толуп калды. Бул объекттерди жок кылсаңыз, алар түзмөгүңүздөн жана аккаунтуңуздан биротоло өчөт.</item>
+        <item quantity="one">Түзмөгүңүздүн таштанды кутусу толуп калды. Бул объектти жок кылсаңыз, ал түзмөгүңүздөн жана аккаунтуңуздан биротоло өчөт.</item>
     </plurals>
 </resources>

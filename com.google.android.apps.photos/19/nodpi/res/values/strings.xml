@@ -7,6 +7,16 @@
     <string name="abc_capital_off">OFF</string>
     <string name="abc_capital_on">ON</string>
     <string name="abc_font_family_title_material">sans-serif-medium</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
     <string name="abc_search_hint">Search…</string>
     <string name="abc_searchview_description_clear">Clear query</string>
     <string name="abc_searchview_description_search">Search</string>
@@ -49,6 +59,7 @@
     <string name="cast_notification_connecting_message">Connecting to %1$s</string>
     <string name="cast_notification_default_channel_name">Cast</string>
     <string name="cast_notification_disconnect">Disconnect</string>
+    <string name="character_counter_content_description">Character limit exceeded %1$d of %2$d</string>
     <string name="character_counter_pattern">%1$d / %2$d</string>
     <string name="choose_account_title">Choose account</string>
     <string name="clear">Clear</string>
@@ -117,7 +128,6 @@
     <string name="google_api_key">AIzaSyBR85VjoQ8_cDmGV-99KlwJbNsObiqF-0g</string>
     <string name="google_app_id">1:531457836147:android:0fb36a1600ce546b</string>
     <string name="google_crash_reporting_api_key">AIzaSyBR85VjoQ8_cDmGV-99KlwJbNsObiqF-0g</string>
-    <string name="google_drive_setting_desc">Show Google Drive photos &amp; videos in your Photos library. &lt;a href=help:>Learn more&lt;/a></string>
     <string name="google_drive_setting_title">Google Drive</string>
     <string name="google_storage_bucket">g-photos.appspot.com</string>
     <string name="hats_lib_close_button_description">Close</string>
@@ -360,7 +370,7 @@ You can pause Location History whenever you like, but this doesn't delete any pr
     <string name="opt_in_failure">There was a problem, please try again later!</string>
     <string name="opt_in_success">Success!</string>
     <string name="overflow_menu_button">Card Menu</string>
-    <string name="password_toggle_content_description">Toggle password visibility</string>
+    <string name="password_toggle_content_description">Show password</string>
     <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
@@ -739,7 +749,6 @@ Your photos and videos remain in your library."</string>
     <string name="photos_burst_actionutils_set_primary_failure">"Can't set as main photo. Try again."</string>
     <string name="photos_burst_fragment_cover_photos_indicator">Burst cover photo indicator</string>
     <string name="photos_burst_fragment_thumbnail_description">Photo burst thumbnail</string>
-    <string name="photos_buystorage_guno_strings_storage_upgraded_message">Google storage successfully upgraded</string>
     <string name="photos_cameraassistant_archive_failed">"Can't archive item"</string>
     <string name="photos_cameraassistant_archive_success_content_description">Archived in Photos app</string>
     <string name="photos_cameraassistant_archive_undo_content_description">Archive undone</string>
@@ -780,6 +789,7 @@ Your photos and videos remain in your library."</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_out_of_storage_description">Photos &amp; videos have stopped backing up. Buy storage to continue backing up in original quality, or change upload size in Settings.</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_out_of_storage_title">"You're out of Google storage"</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_title">Your Google storage is %d%% full</string>
+    <string name="photos_cloudstorage_buystorage_guno_strings_storage_upgraded_message">Google storage successfully upgraded</string>
     <string name="photos_comments_adapteritem_comments_are_off">Comments are now off</string>
     <string name="photos_comments_delete_comment_removed">Comment removed</string>
     <string name="photos_comments_delete_confirm_button">Delete comment</string>
@@ -789,7 +799,7 @@ Your photos and videos remain in your library."</string>
     <string name="photos_comments_popupmenu_delete_comment">Delete comment</string>
     <string name="photos_comments_popupmenu_report_abuse">Report abuse</string>
     <string name="photos_comments_popupmenu_text_copied">Text copied</string>
-    <string name="photos_comments_ui_comment_list_header">Comments</string>
+    <string name="photos_comments_ui_comment_list_header">Activity</string>
     <string name="photos_comments_ui_commentbar_add_photos_icon_content_desc">Add photos to shared album</string>
     <string name="photos_comments_ui_commentbar_comments_off_hint_text">Comments are now off</string>
     <string name="photos_comments_ui_commentbar_say_something_hint_text">Say something</string>
@@ -832,6 +842,7 @@ Your photos and videos remain in your library."</string>
     <string name="photos_create_mediabundle_create_new_motion_failure">There was a problem creating the Animation. Please try again.</string>
     <string name="photos_create_mediabundle_create_new_movie">Movie</string>
     <string name="photos_create_mediabundle_create_new_movie_failure">There was a problem creating the Movie. Please try again.</string>
+    <string name="photos_create_mediabundle_create_new_new_album">New album</string>
     <string name="photos_create_mediabundle_create_new_photo_book">Photo book</string>
     <string name="photos_create_mediabundle_validation_error_avtype_other">Invalid selection.</string>
     <string name="photos_create_mediabundle_validation_error_avtype_static_images_only">Please select %1$d to %2$d photos.</string>
@@ -860,7 +871,9 @@ Your photos and videos remain in your library."</string>
     <string name="photos_create_viewbinder_shared_badge">Shared</string>
     <string name="photos_create_viewbinder_subtitle_divider">•</string>
     <string name="photos_create_viewbinder_title_add_to">Add to</string>
+    <string name="photos_create_viewbinder_title_all_albums">All albums</string>
     <string name="photos_create_viewbinder_title_new">Create new</string>
+    <string name="photos_create_viewbinder_title_recent_albums">Recent</string>
     <string name="photos_dataplan_free_backup_notification_description_airtel">Back up photos using free data during Airtel Happy Hours</string>
     <string name="photos_dataplan_free_backup_notification_title_airtel">Free backup on Airtel</string>
     <string name="photos_dataplan_free_backup_preference_airtel_summary">Photos &amp; videos will automatically back up using free data at night. &lt;a href=\"%1$s\" >Learn more&lt;/a></string>
@@ -921,7 +934,7 @@ Your photos and videos remain in your library."</string>
     <string name="photos_devicesetup_choose_quality_error_title">Choose quality to continue</string>
     <string name="photos_devicesetup_choose_quality_title">Choose quality</string>
     <string name="photos_devicesetup_conversion_sheet_account_picker_title">Select an account</string>
-    <string name="photos_devicesetup_done_label">DONE</string>
+    <string name="photos_devicesetup_done_label">CONFIRM</string>
     <string name="photos_devicesetup_high_quality_storage_label">Upload size: High quality (free unlimited storage)</string>
     <string name="photos_devicesetup_high_quality_storage_subtitle">Great visual quality at reduced file size</string>
     <string name="photos_devicesetup_high_quality_storage_title">High quality (free unlimited storage)</string>
@@ -959,6 +972,8 @@ Your photos and videos remain in your library."</string>
     <string name="photos_devicesetup_resources_auto_backup">Back up &amp; sync</string>
     <string name="photos_devicesetup_resources_auto_backup_description">Back up &amp; sync %1$s</string>
     <string name="photos_devicesetup_resources_auto_backup_settings">Back up &amp; sync settings</string>
+    <string name="photos_devicesetup_resources_auto_backup_title_info">You can change this anytime in Settings</string>
+    <string name="photos_devicesetup_resources_auto_backup_title_info_auto_backup_settings">You can change this anytime</string>
     <string name="photos_devicesetup_sign_in">Sign in</string>
     <string name="photos_devicesetup_sign_in_to_back_up">Sign in to back up</string>
     <string name="photos_devicesetup_turn_on">Turn on</string>
@@ -1070,6 +1085,7 @@ for the specified video file."</string>
     <string name="photos_envelope_settings_hidename_show_email">Hide name and show email instead</string>
     <string name="photos_envelope_settings_hidename_show_number">Hide name and show number instead</string>
     <string name="photos_envelope_settings_load_error">Error loading options</string>
+    <string name="photos_envelope_settings_people_add_recipient_item_title">Invite people</string>
     <string name="photos_envelope_settings_people_block_person">Block person</string>
     <string name="photos_envelope_settings_people_block_person_confirmation_message">"They won't be able to contact you on Google Photos, and you won't see their photos or comments in Google Photos. The block will also apply across certain Google products, like Google+ and Hangouts. &lt;a href=help:>Learn more&lt;/a>"</string>
     <string name="photos_envelope_settings_people_block_person_confirmation_positive_button">Block</string>
@@ -1141,11 +1157,10 @@ for the specified video file."</string>
     <string name="photos_facegaia_optin_impl_picker_remove_dialog_title">Remove “Me” label?</string>
     <string name="photos_facegaia_optin_impl_selected">Selected</string>
     <string name="photos_facegaia_optin_impl_title">Personalize Google Photos by choosing your face</string>
-    <string name="photos_favorites_promo_dialog_body_photo">Easily find this photo in your Favorites album</string>
-    <string name="photos_favorites_promo_dialog_body_video">Easily find this video in your Favorites album</string>
+    <string name="photos_favorites_promo_dialog_body_photo">Easily find your favorites in Albums</string>
     <string name="photos_favorites_promo_dialog_negative_button">Done</string>
-    <string name="photos_favorites_promo_dialog_title">Added to Favorites!</string>
-    <string name="photos_favorites_promo_dialogs_positive_button">Go to favorites</string>
+    <string name="photos_favorites_promo_dialog_title">Added to favorites!</string>
+    <string name="photos_favorites_promo_dialogs_positive_button">View Favorites</string>
     <string name="photos_feedback_next_question_button">Next</string>
     <string name="photos_feedback_previous_question_button">Back</string>
     <string name="photos_feedback_specify_text">Please specify</string>
@@ -1490,7 +1505,10 @@ Photos &amp; videos appear here."</string>
     <string name="photos_movies_ui_clipeditor_impl_unmute">Unmute</string>
     <string name="photos_movies_ui_clipeditor_impl_video_clip_content_description">Video clip</string>
     <string name="photos_notificationchannels_assistant_channel">Assistant</string>
-    <string name="photos_notificationchannels_backup_channel">Backup</string>
+    <string name="photos_notificationchannels_backup_alerts_channel">Alerts</string>
+    <string name="photos_notificationchannels_backup_channels_group">Backup</string>
+    <string name="photos_notificationchannels_backup_progress_channel">Progress</string>
+    <string name="photos_notificationchannels_backup_suggestions_channel">Suggestions</string>
     <string name="photos_notificationchannels_other_channel">Other</string>
     <string name="photos_notificationchannels_promotion_channel">Promotions</string>
     <string name="photos_notificationchannels_sharing_channel">Sharing</string>
@@ -1626,10 +1644,6 @@ by moving this to Archive."</string>
     <string name="photos_partneraccount_assistant_promo_card_title">Save time, share automatically</string>
     <string name="photos_partneraccount_assistant_promo_card_title_variant_1">Share your library</string>
     <string name="photos_partneraccount_assistant_promo_card_title_variant_2">Add partner account</string>
-    <string name="photos_partneraccount_drive_share_warning_continue">Continue</string>
-    <string name="photos_partneraccount_drive_share_warning_message">You are sharing photos automatically with %s. If you continue, photos from Drive may automatically be shared.</string>
-    <string name="photos_partneraccount_drive_share_warning_message_no_name">You are sharing photos automatically using shared libraries. If you continue, photos from Drive may automatically be shared.</string>
-    <string name="photos_partneraccount_drive_share_warning_title">Share photos from Drive?</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_reciprocate_title">Share back to %1$s</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_reciprocate_title_no_name">Share back to partner</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_select">Select photos</string>
@@ -1889,6 +1903,7 @@ Automatically."</string>
     <string name="photos_photobook_preview_item_decoration_page_number">%1$d–%2$d</string>
     <string name="photos_photobook_preview_layout_switching_fragment_title">Change layout</string>
     <string name="photos_photobook_preview_load_layout_error">Unable to create photo book</string>
+    <string name="photos_photobook_preview_menu_item_add_caption">Add page caption</string>
     <string name="photos_photobook_preview_menu_item_edit_book_cover">Change book cover</string>
     <string name="photos_photobook_preview_menu_item_enter_edit_mode">Reorder and delete pages</string>
     <string name="photos_photobook_preview_menu_item_remove_photo">Remove photo from the photo book</string>
@@ -1913,12 +1928,12 @@ Automatically."</string>
     <string name="photos_photobook_promotion_allphotos_subtext_1">on photo books through Cyber Monday</string>
     <string name="photos_photobook_promotion_allphotos_subtext_2">for photo book delivery by Dec 24</string>
     <string name="photos_photobook_promotion_free_shipping">Free shipping</string>
-    <string name="photos_photobook_promotion_free_shipping_offer_details">Offer details</string>
     <string name="photos_photobook_promotion_general_book_cover_title">Memories</string>
     <string name="photos_photobook_remediation_dialog_edit_selection_option">Edit Selection</string>
     <string name="photos_photobook_remediation_dialog_view_preview_option">View book preview</string>
     <string name="photos_photobook_storefront_archive">Archive</string>
     <string name="photos_photobook_storefront_archive_failed">Failed to archive order</string>
+    <string name="photos_photobook_storefront_banner_dismiss_description">Dismiss promotion.</string>
     <string name="photos_photobook_storefront_buy_again">Order again</string>
     <string name="photos_photobook_storefront_buy_idential_book">Buy identical book</string>
     <string name="photos_photobook_storefront_cancel_failure">Failed to cancel order</string>
@@ -1954,7 +1969,6 @@ Automatically."</string>
     <string name="photos_photobook_storefront_order_printing_time_notice">Your order will be printed within 2–3 business days from your order date</string>
     <string name="photos_photobook_storefront_past_orders">Past orders</string>
     <string name="photos_photobook_storefront_promo_code">Promo code</string>
-    <string name="photos_photobook_storefront_promotion_general_book_cover_title">Memories</string>
     <string name="photos_photobook_storefront_quantity">Quantity: %d</string>
     <string name="photos_photobook_storefront_quantity_description">quantity %d</string>
     <string name="photos_photobook_storefront_shipping">Shipping address</string>
@@ -2503,7 +2517,7 @@ Your library is shared. Synced items may also be available to %s."</string>
     <string name="photos_settings_faceclustering_advanced_my_face_title">Face labeled as “Me”</string>
     <string name="photos_settings_faceclustering_advanced_pets_setting">Show pets with people</string>
     <string name="photos_settings_faceclustering_advanced_setting_detailed_desc">See photos of your favorite people grouped by similar faces &lt;a href=help:>Learn more&lt;/a></string>
-    <string name="photos_settings_faceclustering_face_recognition_off_dialog_message">All face groups for your favorite people will be removed</string>
+    <string name="photos_settings_faceclustering_face_recognition_off_dialog_message">"Your photos won't be organized by people or made into some kinds of personalized movies &amp; collages. Any changes you've made to your face groups like added names will be permanently deleted."</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_negative_button">Keep on</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_positive_button">Turn off</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_title">Turn off face grouping?</string>
@@ -2556,6 +2570,7 @@ Your library is shared. Synced items may also be available to %s."</string>
     <string name="photos_setwallpaper_setas_wallpaper">Wallpaper</string>
     <string name="photos_share_collaborative_toggle_error">Trouble toggling collaboration</string>
     <string name="photos_share_copylink_activity_name">Get link</string>
+    <string name="photos_share_direct_album_complete">Album sent</string>
     <string name="photos_share_direct_complete_icu">{count, plural, =1{Photo sent} other{Photos sent}}</string>
     <string name="photos_share_direct_progress_icu">{count, plural, =1{Sending photo…} other{Sending photos…}}</string>
     <string name="photos_share_error">An error occurred while sharing.</string>
@@ -2677,8 +2692,6 @@ Your library is shared. Synced items may also be available to %s."</string>
     <string name="photos_sharingtab_picker_impl_overflow_desc">Open Overflow Menu</string>
     <string name="photos_sharingtab_picker_impl_overflow_select_album">Select existing album</string>
     <string name="photos_sharingtab_picker_impl_overflow_select_people">Select people</string>
-    <string name="photos_sharingtab_picker_impl_recipient_name_separator">", "</string>
-    <string name="photos_sharingtab_picker_impl_recipients_hint_text">Type a name, phone number, or email</string>
     <string name="photos_sharingtab_picker_impl_select_more_button">Select more photos</string>
     <string name="photos_sharingtab_picker_impl_select_recipient_text">Who is this?</string>
     <string name="photos_sharingtab_picker_impl_selected_label">Selected</string>
@@ -2697,10 +2710,8 @@ Your library is shared. Synced items may also be available to %s."</string>
     <string name="photos_strings_undo_button">Undo</string>
     <string name="photos_strings_untitled_title_text">Untitled</string>
     <string name="photos_suggestedactions_archive_confirm_dialog_title">Archive this photo?</string>
-    <string name="photos_suggestedactions_archive_dialog_archive">Archive</string>
     <string name="photos_suggestedactions_archive_dialog_archive_photo">Archive photo</string>
     <string name="photos_suggestedactions_archive_dialog_cancel">Cancel</string>
-    <string name="photos_suggestedactions_archive_dialog_ok">OK</string>
     <string name="photos_suggestedactions_archive_dialog_text">"Hide photos in your library that you don't want to see, like screenshots or receipts. 
 
 You'll still see them in albums, search results &amp; your Archive."</string>
@@ -2717,7 +2728,6 @@ You'll still see them in albums, search results &amp; your Archive."</string>
     <string name="photos_suggestedactions_archive_features_receipt">Archive this receipt</string>
     <string name="photos_suggestedactions_archive_features_screenshot">Archive this screenshot</string>
     <string name="photos_suggestedactions_archive_features_sketch">Archive this sketch</string>
-    <string name="photos_suggestedactions_archive_help_dialog_title">Archive to stay organized</string>
     <string name="photos_suggestedactions_ui_dismiss_button_description">Dismiss</string>
     <string name="photos_suggestedrotations_cancel_discard_button">CANCEL</string>
     <string name="photos_suggestedrotations_discard_changes_button">DISCARD</string>
@@ -2878,14 +2888,14 @@ You'll still see them in albums, search results &amp; your Archive."</string>
     <string name="photos_vrviewer_v2_shared_compass_on_description">Turn on compass mode</string>
     <string name="photos_vrviewer_v2_shared_label">360 Video Viewer</string>
     <string name="photos_vrviewer_v2_shared_load_error_message">Could not load media</string>
-    <string name="photos_welcomescreens_creations_subtitle">Get creations made from your best photos</string>
-    <string name="photos_welcomescreens_creations_title">Collages &amp; movies automatically made for you</string>
+    <string name="photos_welcomescreens_creations_subtitle">Get creations made from your best photos</string>
+    <string name="photos_welcomescreens_creations_title">Collages &amp; movies automatically made for you</string>
     <string name="photos_welcomescreens_done_button">done</string>
     <string name="photos_welcomescreens_next_button">next</string>
-    <string name="photos_welcomescreens_pgc_subtitle">Sign in to photos.google.com to view your photos</string>
-    <string name="photos_welcomescreens_pgc_title">Securely access your photos from any device</string>
-    <string name="photos_welcomescreens_search_subtitle">Search by people, places &amp; things in your photos</string>
-    <string name="photos_welcomescreens_search_title">Photos are automatically tagged and searchable</string>
+    <string name="photos_welcomescreens_pgc_subtitle">Sign in to photos.google.com to view your photos</string>
+    <string name="photos_welcomescreens_pgc_title">Securely access your photos from any device</string>
+    <string name="photos_welcomescreens_search_subtitle">Search by people, places &amp; things in your photos</string>
+    <string name="photos_welcomescreens_search_title">Photos are automatically tagged and searchable</string>
     <string name="photos_welcomescreens_skip_button">skip</string>
     <string name="picker_external_all_device_folders">Device folders</string>
     <string name="picker_external_all_photos">Photos</string>
@@ -2918,7 +2928,7 @@ You'll still see them in albums, search results &amp; your Archive."</string>
     <string name="preferences_upload_stats_summary">View status of uploaded media</string>
     <string name="preferences_upload_stats_title">Media uploads</string>
     <string name="primes_marker">PrImEs</string>
-    <string name="primes_version">191528731</string>
+    <string name="primes_version">193288256</string>
     <string name="project_id">g-photos</string>
     <string name="reinstall_prompt_dialog_message">An error occurred during the installation of %1$s. Please uninstall the app and then install it again.</string>
     <string name="reinstall_prompt_dialog_title">Reinstall %1$s</string>
@@ -3045,183 +3055,195 @@ You'll still see them in albums, search results &amp; your Archive."</string>
     <item type="string" name="APKTOOL_DUMMY_11">false</item>
     <item type="string" name="APKTOOL_DUMMY_12">false</item>
     <item type="string" name="APKTOOL_DUMMY_13">false</item>
-    <item type="string" name="APKTOOL_DUMMY_17">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_28">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_41">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_61">false</item>
-    <item type="string" name="APKTOOL_DUMMY_62">false</item>
-    <item type="string" name="APKTOOL_DUMMY_63">false</item>
-    <item type="string" name="APKTOOL_DUMMY_64">false</item>
-    <item type="string" name="APKTOOL_DUMMY_68">false</item>
-    <item type="string" name="APKTOOL_DUMMY_69">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_21">false</item>
+    <item type="string" name="APKTOOL_DUMMY_25">false</item>
+    <item type="string" name="APKTOOL_DUMMY_26">false</item>
+    <item type="string" name="APKTOOL_DUMMY_32">false</item>
+    <item type="string" name="APKTOOL_DUMMY_34">false</item>
+    <item type="string" name="APKTOOL_DUMMY_35">false</item>
+    <item type="string" name="APKTOOL_DUMMY_36">false</item>
+    <item type="string" name="APKTOOL_DUMMY_46">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_55">false</item>
+    <item type="string" name="APKTOOL_DUMMY_57">false</item>
+    <item type="string" name="APKTOOL_DUMMY_5a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6c">false</item>
     <item type="string" name="APKTOOL_DUMMY_6d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6f">false</item>
     <item type="string" name="APKTOOL_DUMMY_73">false</item>
+    <item type="string" name="APKTOOL_DUMMY_74">false</item>
     <item type="string" name="APKTOOL_DUMMY_75">false</item>
-    <item type="string" name="APKTOOL_DUMMY_79">false</item>
-    <item type="string" name="APKTOOL_DUMMY_82">false</item>
-    <item type="string" name="APKTOOL_DUMMY_8b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_8c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_93">false</item>
+    <item type="string" name="APKTOOL_DUMMY_76">false</item>
+    <item type="string" name="APKTOOL_DUMMY_78">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_80">false</item>
+    <item type="string" name="APKTOOL_DUMMY_84">false</item>
+    <item type="string" name="APKTOOL_DUMMY_8d">false</item>
     <item type="string" name="APKTOOL_DUMMY_96">false</item>
     <item type="string" name="APKTOOL_DUMMY_97">false</item>
-    <item type="string" name="APKTOOL_DUMMY_98">false</item>
-    <item type="string" name="APKTOOL_DUMMY_99">false</item>
     <item type="string" name="APKTOOL_DUMMY_9e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_a7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_a1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_a2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_a3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_a4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_a9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_bd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_bf">false</item>
     <item type="string" name="APKTOOL_DUMMY_c0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_d5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_dd">false</item>
-    <item type="string" name="APKTOOL_DUMMY_de">false</item>
+    <item type="string" name="APKTOOL_DUMMY_ca">false</item>
     <item type="string" name="APKTOOL_DUMMY_df">false</item>
-    <item type="string" name="APKTOOL_DUMMY_e1">false</item>
-    <item type="string" name="APKTOOL_DUMMY_e2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_e3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_ea">false</item>
+    <item type="string" name="APKTOOL_DUMMY_e7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_e8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_e9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_eb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_ec">false</item>
     <item type="string" name="APKTOOL_DUMMY_ed">false</item>
-    <item type="string" name="APKTOOL_DUMMY_fd">false</item>
-    <item type="string" name="APKTOOL_DUMMY_134">false</item>
-    <item type="string" name="APKTOOL_DUMMY_13c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_164">false</item>
-    <item type="string" name="APKTOOL_DUMMY_198">false</item>
-    <item type="string" name="APKTOOL_DUMMY_19a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_19e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1a3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1a5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1a6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1a7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_f4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_f7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_107">false</item>
+    <item type="string" name="APKTOOL_DUMMY_13e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_146">false</item>
+    <item type="string" name="APKTOOL_DUMMY_16e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1a2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1a4">false</item>
     <item type="string" name="APKTOOL_DUMMY_1a8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1ad">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1af">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1b0">false</item>
     <item type="string" name="APKTOOL_DUMMY_1b1">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1ba">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1c3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1b2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1bb">false</item>
     <item type="string" name="APKTOOL_DUMMY_1c4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1e4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1e5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_230">false</item>
-    <item type="string" name="APKTOOL_DUMMY_23e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_26d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_28b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2a1">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2b0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2b6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2b7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2bb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1cd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1ce">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1ee">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1ef">false</item>
+    <item type="string" name="APKTOOL_DUMMY_23a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_242">false</item>
+    <item type="string" name="APKTOOL_DUMMY_243">false</item>
+    <item type="string" name="APKTOOL_DUMMY_24a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_279">false</item>
+    <item type="string" name="APKTOOL_DUMMY_297">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2ad">false</item>
     <item type="string" name="APKTOOL_DUMMY_2bc">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2c0">false</item>
     <item type="string" name="APKTOOL_DUMMY_2c2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2c3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2c7">false</item>
     <item type="string" name="APKTOOL_DUMMY_2c8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2c9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_318">false</item>
-    <item type="string" name="APKTOOL_DUMMY_33f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_340">false</item>
-    <item type="string" name="APKTOOL_DUMMY_341">false</item>
-    <item type="string" name="APKTOOL_DUMMY_342">false</item>
-    <item type="string" name="APKTOOL_DUMMY_343">false</item>
-    <item type="string" name="APKTOOL_DUMMY_344">false</item>
-    <item type="string" name="APKTOOL_DUMMY_345">false</item>
-    <item type="string" name="APKTOOL_DUMMY_346">false</item>
-    <item type="string" name="APKTOOL_DUMMY_375">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3b1">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3eb">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3ed">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3f7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3f8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3fb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2cc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2ce">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2d4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2d5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_324">false</item>
+    <item type="string" name="APKTOOL_DUMMY_34a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_34b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_34c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_34d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_34e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_34f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_350">false</item>
+    <item type="string" name="APKTOOL_DUMMY_351">false</item>
+    <item type="string" name="APKTOOL_DUMMY_381">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3be">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3fa">false</item>
     <item type="string" name="APKTOOL_DUMMY_3fc">false</item>
-    <item type="string" name="APKTOOL_DUMMY_426">false</item>
-    <item type="string" name="APKTOOL_DUMMY_452">false</item>
-    <item type="string" name="APKTOOL_DUMMY_453">false</item>
-    <item type="string" name="APKTOOL_DUMMY_454">false</item>
-    <item type="string" name="APKTOOL_DUMMY_455">false</item>
-    <item type="string" name="APKTOOL_DUMMY_456">false</item>
-    <item type="string" name="APKTOOL_DUMMY_457">false</item>
-    <item type="string" name="APKTOOL_DUMMY_458">false</item>
-    <item type="string" name="APKTOOL_DUMMY_459">false</item>
-    <item type="string" name="APKTOOL_DUMMY_45a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_45b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_473">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4c9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_536">false</item>
-    <item type="string" name="APKTOOL_DUMMY_537">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5e0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5e4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5e8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6a5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6b6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6fa">false</item>
-    <item type="string" name="APKTOOL_DUMMY_70a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_73a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_778">false</item>
-    <item type="string" name="APKTOOL_DUMMY_781">false</item>
-    <item type="string" name="APKTOOL_DUMMY_782">false</item>
-    <item type="string" name="APKTOOL_DUMMY_790">false</item>
-    <item type="string" name="APKTOOL_DUMMY_799">false</item>
-    <item type="string" name="APKTOOL_DUMMY_8f3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_8fa">false</item>
-    <item type="string" name="APKTOOL_DUMMY_8fb">false</item>
-    <item type="string" name="APKTOOL_DUMMY_908">false</item>
-    <item type="string" name="APKTOOL_DUMMY_90a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_90b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_96e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_96f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_970">false</item>
-    <item type="string" name="APKTOOL_DUMMY_971">false</item>
-    <item type="string" name="APKTOOL_DUMMY_972">false</item>
-    <item type="string" name="APKTOOL_DUMMY_973">false</item>
-    <item type="string" name="APKTOOL_DUMMY_974">false</item>
-    <item type="string" name="APKTOOL_DUMMY_975">false</item>
-    <item type="string" name="APKTOOL_DUMMY_976">false</item>
-    <item type="string" name="APKTOOL_DUMMY_977">false</item>
-    <item type="string" name="APKTOOL_DUMMY_978">false</item>
-    <item type="string" name="APKTOOL_DUMMY_979">false</item>
+    <item type="string" name="APKTOOL_DUMMY_400">false</item>
+    <item type="string" name="APKTOOL_DUMMY_407">false</item>
+    <item type="string" name="APKTOOL_DUMMY_408">false</item>
+    <item type="string" name="APKTOOL_DUMMY_40b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_40c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_438">false</item>
+    <item type="string" name="APKTOOL_DUMMY_464">false</item>
+    <item type="string" name="APKTOOL_DUMMY_465">false</item>
+    <item type="string" name="APKTOOL_DUMMY_466">false</item>
+    <item type="string" name="APKTOOL_DUMMY_467">false</item>
+    <item type="string" name="APKTOOL_DUMMY_468">false</item>
+    <item type="string" name="APKTOOL_DUMMY_469">false</item>
+    <item type="string" name="APKTOOL_DUMMY_46a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_46b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_46c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_46d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_485">false</item>
+    <item type="string" name="APKTOOL_DUMMY_486">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4dd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_549">false</item>
+    <item type="string" name="APKTOOL_DUMMY_54a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_5f3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_5f7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_5fb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6bb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6cc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_70c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_71c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_74c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_78a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_793">false</item>
+    <item type="string" name="APKTOOL_DUMMY_794">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7a2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7ab">false</item>
+    <item type="string" name="APKTOOL_DUMMY_805">false</item>
+    <item type="string" name="APKTOOL_DUMMY_82f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_907">false</item>
+    <item type="string" name="APKTOOL_DUMMY_90e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_90f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_91c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_91e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_91f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_982">false</item>
+    <item type="string" name="APKTOOL_DUMMY_983">false</item>
+    <item type="string" name="APKTOOL_DUMMY_984">false</item>
+    <item type="string" name="APKTOOL_DUMMY_985">false</item>
+    <item type="string" name="APKTOOL_DUMMY_986">false</item>
+    <item type="string" name="APKTOOL_DUMMY_987">false</item>
     <item type="string" name="APKTOOL_DUMMY_988">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9d6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_a70">false</item>
-    <item type="string" name="APKTOOL_DUMMY_a71">false</item>
-    <item type="string" name="APKTOOL_DUMMY_ab8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_ab9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_ad3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_ad4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_ae8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b08">false</item>
-    <item type="string" name="APKTOOL_DUMMY_ba5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_bb8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_989">false</item>
+    <item type="string" name="APKTOOL_DUMMY_98a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_98b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_98c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_98d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_99c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9ea">false</item>
+    <item type="string" name="APKTOOL_DUMMY_a84">false</item>
+    <item type="string" name="APKTOOL_DUMMY_a85">false</item>
+    <item type="string" name="APKTOOL_DUMMY_a8d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_ace">false</item>
+    <item type="string" name="APKTOOL_DUMMY_acf">false</item>
+    <item type="string" name="APKTOOL_DUMMY_ae9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_aea">false</item>
+    <item type="string" name="APKTOOL_DUMMY_afe">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b0b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b0c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b1e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b20">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b23">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b32">false</item>
+    <item type="string" name="APKTOOL_DUMMY_bbb">false</item>
     <item type="string" name="APKTOOL_DUMMY_bce">false</item>
-    <item type="string" name="APKTOOL_DUMMY_bcf">false</item>
-    <item type="string" name="APKTOOL_DUMMY_bd2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_bd3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_bd4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_bd5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_bf2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_bf4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_bf5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_bf7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_bf9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_c25">false</item>
-    <item type="string" name="APKTOOL_DUMMY_c2b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_c38">false</item>
-    <item type="string" name="APKTOOL_DUMMY_c3f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_c4b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_c4d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_be4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_be5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_be8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_be9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_bea">false</item>
+    <item type="string" name="APKTOOL_DUMMY_beb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c08">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c0a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c0b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c0d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c0f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c3b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c41">false</item>
     <item type="string" name="APKTOOL_DUMMY_c4e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_c53">false</item>
-    <item type="string" name="APKTOOL_DUMMY_c54">false</item>
-    <item type="string" name="APKTOOL_DUMMY_c60">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c55">false</item>
     <item type="string" name="APKTOOL_DUMMY_c61">false</item>
-    <item type="string" name="APKTOOL_DUMMY_c65">false</item>
-    <item type="string" name="APKTOOL_DUMMY_c6b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_c6c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c63">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c64">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c69">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c6a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c76">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c77">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c7b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c81">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c82">false</item>
 </resources>

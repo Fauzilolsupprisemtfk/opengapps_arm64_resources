@@ -71,7 +71,6 @@
     <string name="download_description">Fotografitë e Google</string>
     <string name="dream_accounts_header">Llogaritë e Google</string>
     <string name="dream_no_photos">Nuk janë përzgjedhur fotografi.</string>
-    <string name="google_drive_setting_desc">Shfaq fotografitë dhe videot e apl. \"Disku i Google\" në bibliotekën e apl. \"Fotografitë\". &lt;a href=help:>Mëso më shumë&lt;/a></string>
     <string name="google_drive_setting_title">Disku i Google</string>
     <string name="image_action_shot_tooltip">Krijuar duke shfaqur veprim nga një grumbull fotografish të ngjashme</string>
     <string name="image_clutter_free_tooltip">Krijuar nga objektet lëvizëse në sfond</string>
@@ -114,11 +113,11 @@ Mund ta pushosh \"Historikun e vendndodhjeve\" kurdoherë por kjo nuk e fshin ak
     <string name="mr_controller_album_art">Kopertina e albumit</string>
     <string name="mr_controller_casting_screen">Po transmeton ekranin</string>
     <string name="mr_controller_close_description">Mbyll</string>
-    <string name="mr_controller_collapse_group">Palose</string>
-    <string name="mr_controller_disconnect">Shkëpute</string>
-    <string name="mr_controller_expand_group">Zgjeroje</string>
+    <string name="mr_controller_collapse_group">Palos</string>
+    <string name="mr_controller_disconnect">Shkëput</string>
+    <string name="mr_controller_expand_group">Zgjero</string>
     <string name="mr_controller_no_info_available">Nuk jepet asnjë informacion</string>
-    <string name="mr_controller_no_media_selected">Nuk u zgjodh asnjë media</string>
+    <string name="mr_controller_no_media_selected">Nuk është zgjedhur asnjë media</string>
     <string name="mr_controller_pause">Pauzë</string>
     <string name="mr_controller_play">Luaj</string>
     <string name="mr_controller_stop">Ndalo</string>
@@ -504,7 +503,6 @@ Fotografitë dhe videot e tua mbeten në bibliotekë."</string>
     <string name="photos_burst_actionutils_set_primary_failure">Nuk u vendos si fotografi kryesore. Provo përsëri.</string>
     <string name="photos_burst_fragment_cover_photos_indicator">Treguesi i fotografive në seri të kapakut</string>
     <string name="photos_burst_fragment_thumbnail_description">Miniatura e fotografive</string>
-    <string name="photos_buystorage_guno_strings_storage_upgraded_message">\"Hapësira ruajtëse e Google\" u përmirësua me sukses</string>
     <string name="photos_cameraassistant_archive_failed">Artikulli nuk mund të arkivohet</string>
     <string name="photos_cameraassistant_archive_success_content_description">U arkivua në apl. \"Fotografitë\"</string>
     <string name="photos_cameraassistant_archive_undo_content_description">Arkivimi u zhbë</string>
@@ -545,6 +543,7 @@ Fotografitë dhe videot e tua mbeten në bibliotekë."</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_out_of_storage_description">Rezervimi i fotografive dhe videove ka ndaluar. Bli hapësirë ruajtëse për të vazhduar me rezervimin me cilësi origjinale ose ndrysho madhësinë e ngarkimit te \"Cilësimet\".</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_out_of_storage_title">Nuk ke më hapësirë ruajtëse në Google</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_title">Hapësira jote ruajtëse e Google është mbushur %d%%</string>
+    <string name="photos_cloudstorage_buystorage_guno_strings_storage_upgraded_message">Hapësira ruajtëse e Google u përmirësua me sukses</string>
     <string name="photos_comments_adapteritem_comments_are_off">Komentet janë joaktive</string>
     <string name="photos_comments_delete_comment_removed">Komenti u hoq</string>
     <string name="photos_comments_delete_confirm_button">Fshi komentin</string>
@@ -554,7 +553,7 @@ Fotografitë dhe videot e tua mbeten në bibliotekë."</string>
     <string name="photos_comments_popupmenu_delete_comment">Fshi komentin</string>
     <string name="photos_comments_popupmenu_report_abuse">Raporto abuzim</string>
     <string name="photos_comments_popupmenu_text_copied">Teksti u kopjua</string>
-    <string name="photos_comments_ui_comment_list_header">Komente</string>
+    <string name="photos_comments_ui_comment_list_header">Aktiviteti</string>
     <string name="photos_comments_ui_commentbar_add_photos_icon_content_desc">Shto fotografi tek albumi i ndarë</string>
     <string name="photos_comments_ui_commentbar_comments_off_hint_text">Komentet janë joaktive tani</string>
     <string name="photos_comments_ui_commentbar_say_something_hint_text">Thuaj diçka</string>
@@ -596,6 +595,7 @@ Fotografitë dhe videot e tua mbeten në bibliotekë."</string>
     <string name="photos_create_mediabundle_create_new_motion_failure">Ndodhi një gabim në krijimin e animacionit. Provo përsëri.</string>
     <string name="photos_create_mediabundle_create_new_movie">Film</string>
     <string name="photos_create_mediabundle_create_new_movie_failure">Pati një problem gjatë krijimit të filmit. Provo përsëri.</string>
+    <string name="photos_create_mediabundle_create_new_new_album">Album i ri</string>
     <string name="photos_create_mediabundle_create_new_photo_book">Libër fotografik</string>
     <string name="photos_create_mediabundle_validation_error_avtype_other">Përzgjedhje e pavlefshme.</string>
     <string name="photos_create_mediabundle_validation_error_avtype_static_images_only">Zgjidh nga %1$d deri në %2$d fotografi.</string>
@@ -624,6 +624,7 @@ Fotografitë dhe videot e tua mbeten në bibliotekë."</string>
     <string name="photos_create_viewbinder_shared_badge">Shpërndarë</string>
     <string name="photos_create_viewbinder_subtitle_divider">•</string>
     <string name="photos_create_viewbinder_title_add_to">Shto në</string>
+    <string name="photos_create_viewbinder_title_all_albums">Të gjitha albumet</string>
     <string name="photos_create_viewbinder_title_new">Krijo të ri</string>
     <string name="photos_dataplan_free_backup_notification_description_airtel">Rezervo fotografitë duke përdorur të dhënat falas gjatë Airtel Happy Hours</string>
     <string name="photos_dataplan_free_backup_notification_title_airtel">Rezervimi falas në Airtel</string>
@@ -671,7 +672,7 @@ Fotografitë dhe videot e tua mbeten në bibliotekë."</string>
     <string name="photos_devicesetup_betterbackuppromo_search_promo_message">Fotografitë e tua do të organizohen automatikisht dhe do të jenë të kërkueshme kur aktivizon rezervimin</string>
     <string name="photos_devicesetup_betterbackuppromo_search_promo_title">Gjej fotografitë më shpejt</string>
     <string name="photos_devicesetup_conversion_sheet_account_picker_title">Zgjidh një llogari</string>
-    <string name="photos_devicesetup_done_label">U KRYE</string>
+    <string name="photos_devicesetup_done_label">KONFIRMO</string>
     <string name="photos_devicesetup_high_quality_storage_label">Cilësi e lartë (hapësirë ruajtëse falas e pakufizuar)</string>
     <string name="photos_devicesetup_high_quality_storage_subtitle">Cilësi vizuale e lartë me përmasa të reduktuara</string>
     <string name="photos_devicesetup_high_quality_storage_title">Cilësi e lartë (hapësirë ruajtëse falas e pakufizuar)</string>
@@ -704,6 +705,8 @@ Fotografitë dhe videot e tua mbeten në bibliotekë."</string>
     <string name="photos_devicesetup_resources_auto_backup">Krijo kopje rezervë dhe sinkronizo</string>
     <string name="photos_devicesetup_resources_auto_backup_description">Rezervo dhe sinkronizo %1$s</string>
     <string name="photos_devicesetup_resources_auto_backup_settings">Cilësimet e rezervimit dhe sinkronizimit</string>
+    <string name="photos_devicesetup_resources_auto_backup_title_info">Këtë mund ta ndryshosh në çdo kohë te \"Cilësimet\"</string>
+    <string name="photos_devicesetup_resources_auto_backup_title_info_auto_backup_settings">Mund ta ndryshosh këtë në çdo kohë</string>
     <string name="photos_devicesetup_sign_in">Identifikohu</string>
     <string name="photos_devicesetup_sign_in_to_back_up">Identifikohu për të rezervuar</string>
     <string name="photos_devicesetup_turn_on">Aktivizo</string>
@@ -811,6 +814,7 @@ për skedarin e specifikuar të videos."</string>
     <string name="photos_envelope_settings_hidename_show_email">Fshih emrin dhe shfaq mail-in në vend të tij</string>
     <string name="photos_envelope_settings_hidename_show_number">Fshih emrin dhe shfaq numrin në vend të tij</string>
     <string name="photos_envelope_settings_load_error">Gabim gjatë ngarkimit të opsioneve</string>
+    <string name="photos_envelope_settings_people_add_recipient_item_title">Fto njerëz</string>
     <string name="photos_envelope_settings_people_block_person">Blloko personin</string>
     <string name="photos_envelope_settings_people_block_person_confirmation_message">Ai person nuk do të mund të kontaktojë me ty në apl. \"Fotografitë e Google\" dhe ti nuk do të mund të shikosh fotografitë ose komentet e tij në apl. \"Fotografitë e Google\". Bllokimi do të zbatohet edhe nëpër produkte të caktuara të Google, si Google+ dhe Hangouts. &lt;a href=help:>Mëso më shumë&lt;/a></string>
     <string name="photos_envelope_settings_people_block_person_confirmation_positive_button">Blloko</string>
@@ -881,17 +885,17 @@ për skedarin e specifikuar të videos."</string>
     <string name="photos_facegaia_optin_impl_picker_remove_dialog_title">Të hiqet etiketa \"Unë\"?</string>
     <string name="photos_facegaia_optin_impl_selected">E zgjedhur</string>
     <string name="photos_facegaia_optin_impl_title">Personalizo \"Fotografitë e Google\" duke zgjedhur fytyrën tënde</string>
-    <string name="photos_favorites_promo_dialog_body_photo">Gjeje me lehtësi këtë fotografi në albumin tënd \"Të preferuarat\"</string>
-    <string name="photos_favorites_promo_dialog_body_video">Gjeje me lehtësi këtë video në albumin tënd \"Të preferuarat\"</string>
+    <string name="photos_favorites_promo_dialog_body_photo">Gjeji me lehtësi të preferuarat e tua tek \"Albumet\"</string>
     <string name="photos_favorites_promo_dialog_negative_button">U krye</string>
-    <string name="photos_favorites_promo_dialog_title">U shtua te \"Të preferuarat\"</string>
-    <string name="photos_favorites_promo_dialogs_positive_button">Shko te të preferuarat</string>
+    <string name="photos_favorites_promo_dialog_title">U shtua te të preferuarat!</string>
+    <string name="photos_favorites_promo_dialogs_positive_button">Shiko \"Të preferuarat\"</string>
     <string name="photos_gridlayers_empty_state_caption">"Bëj një fotografi.
 Fotografitë dhe videot shfaqen këtu."</string>
     <string name="photos_gridlayers_empty_state_title">"S'ka fotografi"</string>
     <string name="photos_gridlayers_floating_action_button_zoom_in_content_description">zmadho</string>
     <string name="photos_gridlayers_floating_action_button_zoom_out_content_description">zvogëlo</string>
     <string name="photos_hearts_photoui_error_toggling_heart">Problem gjatë ndryshimit të zemrës</string>
+    <string name="photos_hearts_popupmenu_delete">Fshi</string>
     <string name="photos_hearts_popupmenu_error_toast">Problem gjatë heqjes së pëlqimit.</string>
     <string name="photos_hearts_popupmenu_toast_deleted">U fshi</string>
     <string name="photos_hearts_viewbinder_user_liked_a_photo">Një fotografi u pëlqye nga %s</string>
@@ -1164,7 +1168,10 @@ Fotografitë dhe videot shfaqen këtu."</string>
     <string name="photos_movies_ui_clipeditor_impl_unmute">Aktivizo audion</string>
     <string name="photos_movies_ui_clipeditor_impl_video_clip_content_description">Klip me video</string>
     <string name="photos_notificationchannels_assistant_channel">Asistenti</string>
-    <string name="photos_notificationchannels_backup_channel">Rezervimi</string>
+    <string name="photos_notificationchannels_backup_alerts_channel">Sinjalizimet</string>
+    <string name="photos_notificationchannels_backup_channels_group">Rezervo</string>
+    <string name="photos_notificationchannels_backup_progress_channel">Progresi</string>
+    <string name="photos_notificationchannels_backup_suggestions_channel">Sugjerime</string>
     <string name="photos_notificationchannels_other_channel">Të tjera</string>
     <string name="photos_notificationchannels_promotion_channel">Promocionet</string>
     <string name="photos_notificationchannels_sharing_channel">Ndarja</string>
@@ -1299,10 +1306,6 @@ duke e zhvendosur këtë tek \"Arkivi\"."</string>
     <string name="photos_partneraccount_assistant_promo_card_title">Kurse kohën, ndaj automatikisht</string>
     <string name="photos_partneraccount_assistant_promo_card_title_variant_1">Ndaj bibliotekën tënde</string>
     <string name="photos_partneraccount_assistant_promo_card_title_variant_2">Shto një llogari të partnerit</string>
-    <string name="photos_partneraccount_drive_share_warning_continue">Vazhdo</string>
-    <string name="photos_partneraccount_drive_share_warning_message">Po i ndan fotografitë automatikisht me %s. Nëse vazhdon, fotografitë nga \"Disku\" mund të ndahen automatikisht.</string>
-    <string name="photos_partneraccount_drive_share_warning_message_no_name">Po i ndan fotografitë automatikisht duke përdorur bibliotekat e ndara. Nëse vazhdon, fotografitë nga \"Disku\" mund të ndahen automatikisht.</string>
-    <string name="photos_partneraccount_drive_share_warning_title">Të ndahen fotografitë nga \"Disku\"?</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_reciprocate_title">Ndaj përsëri me %1$s</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_reciprocate_title_no_name">Ndaj përsëri me partnerin</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_select">Zgjidh fotografitë</string>
@@ -1583,12 +1586,12 @@ Automatikisht."</string>
     <string name="photos_photobook_promotion_allphotos_subtext_1">për librat fotografikë gjatë Cyber Monday</string>
     <string name="photos_photobook_promotion_allphotos_subtext_2">për dorëzimin e librave fotografikë deri në 24 dhjetor</string>
     <string name="photos_photobook_promotion_free_shipping">Transporti falas</string>
-    <string name="photos_photobook_promotion_free_shipping_offer_details">Detajet e ofertës</string>
     <string name="photos_photobook_promotion_general_book_cover_title">Kujtime</string>
     <string name="photos_photobook_remediation_dialog_edit_selection_option">Modifiko zgjedhjen</string>
     <string name="photos_photobook_remediation_dialog_view_preview_option">Shiko pamjen paraprake të librit</string>
     <string name="photos_photobook_storefront_archive">Arkivo</string>
     <string name="photos_photobook_storefront_archive_failed">Arkivimi i porosisë dështoi</string>
+    <string name="photos_photobook_storefront_banner_dismiss_description">Hiqe promovimin.</string>
     <string name="photos_photobook_storefront_buy_again">Porosit përsëri</string>
     <string name="photos_photobook_storefront_buy_idential_book">Bli një libër identik</string>
     <string name="photos_photobook_storefront_cancel_failure">Anulimi i porosisë dështoi</string>
@@ -1624,7 +1627,6 @@ Automatikisht."</string>
     <string name="photos_photobook_storefront_order_printing_time_notice">Porosia jote do të printohet në 2-3 ditë pune nga data e porosisë tënde</string>
     <string name="photos_photobook_storefront_past_orders">Porositë e kaluara</string>
     <string name="photos_photobook_storefront_promo_code">Kodi promocional</string>
-    <string name="photos_photobook_storefront_promotion_general_book_cover_title">Kujtime</string>
     <string name="photos_photobook_storefront_quantity">Sasia: %d</string>
     <string name="photos_photobook_storefront_quantity_description">sasia %d</string>
     <string name="photos_photobook_storefront_shipping">Adresa e dërgimit</string>
@@ -2162,7 +2164,7 @@ Biblioteka jote është ndarë. Artikujt e sinkronizuar mund të jenë edhe në 
     <string name="photos_settings_faceclustering_advanced_my_face_title">Fytyra e etiketuar si “Unë”</string>
     <string name="photos_settings_faceclustering_advanced_pets_setting">Shfaq kafshëzat me personat</string>
     <string name="photos_settings_faceclustering_advanced_setting_detailed_desc">Shiko fotografitë e personave të preferuar të grupuara sipas fytyrave të ngjashme &lt;a href=help:>Mëso më shumë&lt;/a></string>
-    <string name="photos_settings_faceclustering_face_recognition_off_dialog_message">Të gjitha grupet e fytyrave për personat e tu të preferuar do të hiqen</string>
+    <string name="photos_settings_faceclustering_face_recognition_off_dialog_message">Fotografitë e tua nuk do të organizohen sipas personave dhe as nuk do të krijohen disa lloje të filmave dhe kolazheve të personalizuara. Çdo ndryshim që ke bërë te grupet e fytyrave, si p.sh. shtimi i emrave, do të fshihet përgjithmonë.</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_negative_button">Mbaje aktive</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_positive_button">Çaktivizo</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_title">Të çaktivizohet grupimi i fytyrave?</string>
@@ -2215,6 +2217,7 @@ Biblioteka jote është ndarë. Artikujt e sinkronizuar mund të jenë edhe në 
     <string name="photos_setwallpaper_setas_wallpaper">Imazh sfondi</string>
     <string name="photos_share_collaborative_toggle_error">Problem gjatë aktivizimit të bashkëpunimit</string>
     <string name="photos_share_copylink_activity_name">Merr lidhjen</string>
+    <string name="photos_share_direct_album_complete">Albumi u dërgua</string>
     <string name="photos_share_direct_complete_icu">{count,plural, =1{Fotografia u dërgua}other{Fotografitë u dërguan}}</string>
     <string name="photos_share_direct_progress_icu">{count,plural, =1{Po dërgon fotografinë...}other{Po dërgon fotografitë…}}</string>
     <string name="photos_share_error">Ndodhi një gabim gjatë ndarjes.</string>
@@ -2334,8 +2337,6 @@ Biblioteka jote është ndarë. Artikujt e sinkronizuar mund të jenë edhe në 
     <string name="photos_sharingtab_picker_impl_overflow_desc">Hap \"Menynë e tejkalimit\"</string>
     <string name="photos_sharingtab_picker_impl_overflow_select_album">Zgjidh albumin ekzistues</string>
     <string name="photos_sharingtab_picker_impl_overflow_select_people">Zgjidh personat</string>
-    <string name="photos_sharingtab_picker_impl_recipient_name_separator">", "</string>
-    <string name="photos_sharingtab_picker_impl_recipients_hint_text">Shkruaj një emër, një numër telefoni ose një email</string>
     <string name="photos_sharingtab_picker_impl_select_more_button">Zgjidh më shumë fotografi</string>
     <string name="photos_sharingtab_picker_impl_select_recipient_text">Kush është ky?</string>
     <string name="photos_sharingtab_picker_impl_selected_label">I zgjedhur</string>
@@ -2354,10 +2355,8 @@ Biblioteka jote është ndarë. Artikujt e sinkronizuar mund të jenë edhe në 
     <string name="photos_strings_undo_button">Zhbëj</string>
     <string name="photos_strings_untitled_title_text">Pa titull</string>
     <string name="photos_suggestedactions_archive_confirm_dialog_title">Të arkivohet kjo fotografi?</string>
-    <string name="photos_suggestedactions_archive_dialog_archive">Arkivo</string>
     <string name="photos_suggestedactions_archive_dialog_archive_photo">Arkivo fotografinë</string>
     <string name="photos_suggestedactions_archive_dialog_cancel">Anulo</string>
-    <string name="photos_suggestedactions_archive_dialog_ok">Në rregull</string>
     <string name="photos_suggestedactions_archive_dialog_text">"Fshih në bibliotekën tënde fotografitë që nuk dëshiron t'i shikosh, si p.sh. pamjet e ekranit ose konfirmimet. 
 
 Ato do t'i shikosh përsëri tek albumet, rezultatet e kërkimit dhe arkivi yt."</string>
@@ -2374,7 +2373,6 @@ Ato do t'i shikosh përsëri tek albumet, rezultatet e kërkimit dhe arkivi yt."
     <string name="photos_suggestedactions_archive_features_receipt">Arkivo këtë faturë</string>
     <string name="photos_suggestedactions_archive_features_screenshot">Arkivo këtë pamje ekrani</string>
     <string name="photos_suggestedactions_archive_features_sketch">Arkivo këtë skicë</string>
-    <string name="photos_suggestedactions_archive_help_dialog_title">Arkivo për të qëndruar i organizuar</string>
     <string name="photos_suggestedactions_ui_dismiss_button_description">Hiq</string>
     <string name="photos_suggestedrotations_cancel_discard_button">ANULO</string>
     <string name="photos_suggestedrotations_discard_changes_button">REFUZO</string>

@@ -71,7 +71,6 @@
     <string name="download_description">Google Photos</string>
     <string name="dream_accounts_header">Google есептік жазбалары</string>
     <string name="dream_no_photos">Суреттер таңдалған жоқ.</string>
-    <string name="google_drive_setting_desc">Google Drive суреттері мен бейнелерін Photos жинағынан көрсету. &lt;a href=help:>Толығырақ ақпарат&lt;/a></string>
     <string name="google_drive_setting_title">Google Drive</string>
     <string name="image_action_shot_tooltip">Ұқсас суреттер тобының әрекетін көрсету арқылы жасалды</string>
     <string name="image_clutter_free_tooltip">Фондағы жылжитын нәрселерді алып тастау арқылы жасалды</string>
@@ -106,23 +105,23 @@
     <string name="location_settings_title">Google орналасу параметрлері</string>
     <string name="media_content_provider_label">Google Photos</string>
     <string name="mr_button_content_description">Трансляциялау түймесі</string>
-    <string name="mr_cast_button_connected">\"Трансляциялау\" түймесі. Қосылды</string>
-    <string name="mr_cast_button_connecting">\"Трансляциялау\" түймесі. Қосылуда</string>
-    <string name="mr_cast_button_disconnected">\"Трансляциялау\" түймесі. Ажыратулы</string>
-    <string name="mr_chooser_searching">Құрылғыларды табу</string>
-    <string name="mr_chooser_title">Келесіге трансляциялау</string>
-    <string name="mr_controller_album_art">Альбом шебері</string>
+    <string name="mr_cast_button_connected">Трансляциялау түймесі. Қосылды</string>
+    <string name="mr_cast_button_connecting">Трансляциялау түймесі. Қосылуда</string>
+    <string name="mr_cast_button_disconnected">Трансляциялау түймесі. Ажыратылды</string>
+    <string name="mr_chooser_searching">Құрылғылар ізделуде</string>
+    <string name="mr_chooser_title">Трансляция:</string>
+    <string name="mr_controller_album_art">Альбомның мұқабасы</string>
     <string name="mr_controller_casting_screen">Экранды трансляциялау</string>
     <string name="mr_controller_close_description">Жабу</string>
     <string name="mr_controller_collapse_group">Жию</string>
     <string name="mr_controller_disconnect">Ажырату</string>
     <string name="mr_controller_expand_group">Жаю</string>
-    <string name="mr_controller_no_info_available">Қол жетімді ақпарат жоқ</string>
-    <string name="mr_controller_no_media_selected">Ешбір тасушы таңдалмаған</string>
+    <string name="mr_controller_no_info_available">Қолжетімді ақпарат жоқ</string>
+    <string name="mr_controller_no_media_selected">Ешқандай медиафайл таңдалмаған</string>
     <string name="mr_controller_pause">Кідірту</string>
     <string name="mr_controller_play">Ойнату</string>
     <string name="mr_controller_stop">Тоқтату</string>
-    <string name="mr_controller_stop_casting">Трансляциялауды тоқтату</string>
+    <string name="mr_controller_stop_casting">Трансляцияны тоқтату</string>
     <string name="mr_controller_volume_slider">Дыбыс деңгейінің жүгірткісі</string>
     <string name="mr_user_route_category_name">Құрылғылар</string>
     <string name="nav_drawer_close">Навигация тартпасын жасыру</string>
@@ -410,10 +409,10 @@
     <string name="photos_backup_notifications_mixin_stalled_notification_dialog_cancel_button_text">Жабу</string>
     <string name="photos_backup_notifications_mixin_stalled_notification_dialog_confirm_button_text">Сақтық көшірмені қазір жасау</string>
     <string name="photos_backup_notifications_mixin_stalled_notification_dialog_message">%s ұялы дерек қолданылады</string>
-    <string name="photos_backup_notifications_mixin_stalled_notification_dialog_offline_confirm_button_text">OK</string>
+    <string name="photos_backup_notifications_mixin_stalled_notification_dialog_offline_confirm_button_text">Жарайды</string>
     <string name="photos_backup_notifications_mixin_stalled_notification_dialog_offline_message">Желіге қосылғанда жүктеп салынады</string>
     <string name="photos_backup_notifications_mixin_stalled_notification_dialog_offline_title">Желі байланысы күтілуде</string>
-    <string name="photos_backup_notifications_mixin_uploader_dialog_continue_over_cellular_button_text">OK</string>
+    <string name="photos_backup_notifications_mixin_uploader_dialog_continue_over_cellular_button_text">Жарайды</string>
     <string name="photos_backup_notifications_mixin_uploader_dialog_message">%s ұялы дерек қолданылуда</string>
     <string name="photos_backup_notifications_mixin_uploader_dialog_wait_for_wifi_button_text">Wi-Fi желісін күту</string>
     <string name="photos_backup_notifications_new_folder_negative_action">Өткізіп жіберу</string>
@@ -504,7 +503,6 @@
     <string name="photos_burst_actionutils_set_primary_failure">Негізгі сурет ретінде орнату мүмкін емес. Қайталап көріңіз.</string>
     <string name="photos_burst_fragment_cover_photos_indicator">Burst мұқаба суретінің көрсеткіші</string>
     <string name="photos_burst_fragment_thumbnail_description">Burst жинағының шағын суреті</string>
-    <string name="photos_buystorage_guno_strings_storage_upgraded_message">Google жады жаңартылды</string>
     <string name="photos_cameraassistant_archive_failed">Элемент мұрағатталмады</string>
     <string name="photos_cameraassistant_archive_success_content_description">Photos қолданбасына мұрағатталды</string>
     <string name="photos_cameraassistant_archive_undo_content_description">Мұрағаттан алу</string>
@@ -545,6 +543,7 @@
     <string name="photos_cloudstorage_assistant_storage_near_full_card_out_of_storage_description">Суреттер мен бейнелердің сақтық көшірмесін жасау тоқтады. Жад сатып алып, бастапқы сапасымен сақтық көшірме жасауды жалғастырыңыз немесе \"Параметрлер\" бөлімінен жүктеп салу өлшемін өзгертіңіз.</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_out_of_storage_title">Google жадында орын таусылды</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_title">Google жадының %d%% қолданылды</string>
+    <string name="photos_cloudstorage_buystorage_guno_strings_storage_upgraded_message">Google жады жаңартылды</string>
     <string name="photos_comments_adapteritem_comments_are_off">Пікірлер енді өшірулі</string>
     <string name="photos_comments_delete_comment_removed">Пікір жойылды</string>
     <string name="photos_comments_delete_confirm_button">Пікірді жою</string>
@@ -554,7 +553,7 @@
     <string name="photos_comments_popupmenu_delete_comment">Пікірді жою</string>
     <string name="photos_comments_popupmenu_report_abuse">Теріс әрекет туралы хабарлау</string>
     <string name="photos_comments_popupmenu_text_copied">Мәтін көшірілді</string>
-    <string name="photos_comments_ui_comment_list_header">Пікірлер</string>
+    <string name="photos_comments_ui_comment_list_header">Әрекеттер</string>
     <string name="photos_comments_ui_commentbar_add_photos_icon_content_desc">Суреттерді ортақ альбомға қосу</string>
     <string name="photos_comments_ui_commentbar_comments_off_hint_text">Пікірлер енді өшірулі</string>
     <string name="photos_comments_ui_commentbar_say_something_hint_text">Пікіл қалдырыңыз</string>
@@ -596,6 +595,7 @@
     <string name="photos_create_mediabundle_create_new_motion_failure">Анимация жасау кезінде қателік орын алды. Қайталап көріңіз.</string>
     <string name="photos_create_mediabundle_create_new_movie">Фильм</string>
     <string name="photos_create_mediabundle_create_new_movie_failure">Фильмді жасау ақаулығы орын алды. Қайталап көріңіз.</string>
+    <string name="photos_create_mediabundle_create_new_new_album">Жаңа альбом</string>
     <string name="photos_create_mediabundle_create_new_photo_book">Фотокітап</string>
     <string name="photos_create_mediabundle_validation_error_avtype_other">Таңдалған медиа файл жарамсыз.</string>
     <string name="photos_create_mediabundle_validation_error_avtype_static_images_only">%1$d және %2$d аралығындағы суреттерді таңдаңыз.</string>
@@ -624,6 +624,7 @@
     <string name="photos_create_viewbinder_shared_badge">Ортақ</string>
     <string name="photos_create_viewbinder_subtitle_divider">•</string>
     <string name="photos_create_viewbinder_title_add_to">Қосу</string>
+    <string name="photos_create_viewbinder_title_all_albums">Барлық альбомдар</string>
     <string name="photos_create_viewbinder_title_new">Жаңасын жасау</string>
     <string name="photos_dataplan_free_backup_notification_description_airtel">Airtel түнгі жеңілдіктерін пайдаланып, суреттердің сақтық көшірмесін тегін жасап алыңыз</string>
     <string name="photos_dataplan_free_backup_notification_title_airtel">Airtel тегін сақтық көшірме мүмкіндігін ұсынады</string>
@@ -671,7 +672,7 @@
     <string name="photos_devicesetup_betterbackuppromo_search_promo_message">Сақтық көшірме жасау функциясы қосылған кезде, суреттеріңіз автоматты түрде реттеліп, оларды іздеу мүмкін болады</string>
     <string name="photos_devicesetup_betterbackuppromo_search_promo_title">Суреттерді жылдам табу</string>
     <string name="photos_devicesetup_conversion_sheet_account_picker_title">Есептік жазбаны таңдаңыз</string>
-    <string name="photos_devicesetup_done_label">ДАЙЫН</string>
+    <string name="photos_devicesetup_done_label">РАСТАУ</string>
     <string name="photos_devicesetup_high_quality_storage_label">Жүктеу өлшемі: жоғары сапалы (тегін шектеусіз жад)</string>
     <string name="photos_devicesetup_high_quality_storage_subtitle">Файл өлшемі шағын болса да, визуалдық сапасы тамаша</string>
     <string name="photos_devicesetup_high_quality_storage_title">Жоғары сапалы (тегін және шектеусіз жад)</string>
@@ -704,6 +705,8 @@
     <string name="photos_devicesetup_resources_auto_backup">Сақтық көшірме жасау және синхрондау</string>
     <string name="photos_devicesetup_resources_auto_backup_description">%1$s сақтық көшірмесін жасау және синхрондау</string>
     <string name="photos_devicesetup_resources_auto_backup_settings">Сақтық көшірме жасау және синхрондау параметрлері</string>
+    <string name="photos_devicesetup_resources_auto_backup_title_info">Бұны кез келген уақытта \"Параметрлер\" бөлімінен өзгертуге болады</string>
+    <string name="photos_devicesetup_resources_auto_backup_title_info_auto_backup_settings">Бұны кез келген уақытта өзгертуге болады</string>
     <string name="photos_devicesetup_sign_in">Кіру</string>
     <string name="photos_devicesetup_sign_in_to_back_up">Сақтық көшірме жасау үшін жүйеге кіріңіз</string>
     <string name="photos_devicesetup_turn_on">Қосу</string>
@@ -811,6 +814,7 @@
     <string name="photos_envelope_settings_hidename_show_email">Аты-жөнін жасырып, оның орнына поштасын көрсету</string>
     <string name="photos_envelope_settings_hidename_show_number">Аты-жөнін жасырып, оның орнына нөмірін көрсету</string>
     <string name="photos_envelope_settings_load_error">Опцияларды жүктеу қателігі</string>
+    <string name="photos_envelope_settings_people_add_recipient_item_title">Адамдарды шақыру</string>
     <string name="photos_envelope_settings_people_block_person">Адамды бөгеу</string>
     <string name="photos_envelope_settings_people_block_person_confirmation_message">Олар сізбен Google Photos арқылы байланыса алмайды, ал сіз олардың суреттері немесе пікірлерін Google Photos арқылы көре алмайсыз. Сонымен қатар, бұл адам Google+ және Hangouts сияқты белгілі бір Google өнімдерінен де бөгеледі. &lt;a href=help:>Толығырақ ақпарат&lt;/a></string>
     <string name="photos_envelope_settings_people_block_person_confirmation_positive_button">Бөгеу</string>
@@ -881,17 +885,17 @@
     <string name="photos_facegaia_optin_impl_picker_remove_dialog_title">“Мен” белгісін жою керек пе?</string>
     <string name="photos_facegaia_optin_impl_selected">Таңдалды</string>
     <string name="photos_facegaia_optin_impl_title">Суретіңізді таңдап, Google Photos қолданбасын жекелендіріңіз</string>
-    <string name="photos_favorites_promo_dialog_body_photo">Осы суретті \"Таңдаулылар\" альбомынан оңай тауып алыңыз</string>
-    <string name="photos_favorites_promo_dialog_body_video">Осы бейнені \"Таңдаулылар\" альбомынан оңай тауып алыңыз</string>
+    <string name="photos_favorites_promo_dialog_body_photo">Таңдаулыларды \"Альбомдар\" ішінен жылдам табыңыз</string>
     <string name="photos_favorites_promo_dialog_negative_button">Жабу</string>
     <string name="photos_favorites_promo_dialog_title">\"Таңдаулылар\" жинағына қосылды!</string>
-    <string name="photos_favorites_promo_dialogs_positive_button">\"Таңдаулылар\" бетіне өту</string>
+    <string name="photos_favorites_promo_dialogs_positive_button">\"Таңдаулылар\" жинағын көру</string>
     <string name="photos_gridlayers_empty_state_caption">"Суретке түсіріңіз.
 Суреттер және бейнелер мына жерден көрсетіледі."</string>
     <string name="photos_gridlayers_empty_state_title">Суреттер жоқ</string>
     <string name="photos_gridlayers_floating_action_button_zoom_in_content_description">ұлғайту</string>
     <string name="photos_gridlayers_floating_action_button_zoom_out_content_description">кішірейту</string>
     <string name="photos_hearts_photoui_error_toggling_heart">Жүрекше белгісіне ауыстыру мүмкін болмады</string>
+    <string name="photos_hearts_popupmenu_delete">Жою</string>
     <string name="photos_hearts_popupmenu_error_toast">\"Ұнату\" белгісі алынбады.</string>
     <string name="photos_hearts_popupmenu_toast_deleted">Жойылды</string>
     <string name="photos_hearts_viewbinder_user_liked_a_photo">%s суретті ұнатты</string>
@@ -1164,7 +1168,10 @@
     <string name="photos_movies_ui_clipeditor_impl_unmute">Дыбысын қосу</string>
     <string name="photos_movies_ui_clipeditor_impl_video_clip_content_description">Бейнеклип</string>
     <string name="photos_notificationchannels_assistant_channel">Көмекші</string>
-    <string name="photos_notificationchannels_backup_channel">Сақтық көшірме</string>
+    <string name="photos_notificationchannels_backup_alerts_channel">Ескертулер</string>
+    <string name="photos_notificationchannels_backup_channels_group">Сақтық көшірме жасау</string>
+    <string name="photos_notificationchannels_backup_progress_channel">Барысы</string>
+    <string name="photos_notificationchannels_backup_suggestions_channel">Ұсыныстар</string>
     <string name="photos_notificationchannels_other_channel">Басқа</string>
     <string name="photos_notificationchannels_promotion_channel">Жарнамалар</string>
     <string name="photos_notificationchannels_sharing_channel">Ортақ</string>
@@ -1299,10 +1306,6 @@
     <string name="photos_partneraccount_assistant_promo_card_title">Автоматты түрде бөлісу функциясын пайдаланып, уақытыңызды үнемдеңіз!</string>
     <string name="photos_partneraccount_assistant_promo_card_title_variant_1">Жинақты бөлісу</string>
     <string name="photos_partneraccount_assistant_promo_card_title_variant_2">Серіктестің есептік жазбасын қосу</string>
-    <string name="photos_partneraccount_drive_share_warning_continue">Жалғастыру</string>
-    <string name="photos_partneraccount_drive_share_warning_message">Суреттерді %s есептік жазбасымен бөліскелі отырсыз. Жалғастыратын болсаңыз, Drive суреттері автоматты түрде бөлісілетін болады.</string>
-    <string name="photos_partneraccount_drive_share_warning_message_no_name">Ортақ жинақтарды пайдаланғанда суреттеріңіз автоматты түрде бөлісіледі. Әрі қарай жалғастырсаңыз, Drive суреттеріңіз автоматты түрде бөлісілетін болады.</string>
-    <string name="photos_partneraccount_drive_share_warning_title">Drive суреттерін бөлісу қажет пе?</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_reciprocate_title">%1$s есімді адаммен қайта бөлісу</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_reciprocate_title_no_name">Серіктеспен өзара бөлісу</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_select">Суреттерді таңдау</string>
@@ -1583,12 +1586,12 @@
     <string name="photos_photobook_promotion_allphotos_subtext_1">фотокітаптар үшін Кибер дүйсенбінің соңына дейін</string>
     <string name="photos_photobook_promotion_allphotos_subtext_2">фотокітапты 24 желтоқсанға дейін жеткізу үшін</string>
     <string name="photos_photobook_promotion_free_shipping">Тегін жеткізу</string>
-    <string name="photos_photobook_promotion_free_shipping_offer_details">Жеңілдік мәліметтері</string>
     <string name="photos_photobook_promotion_general_book_cover_title">Естеліктер</string>
     <string name="photos_photobook_remediation_dialog_edit_selection_option">Таңдалған параметрді өзгерту</string>
     <string name="photos_photobook_remediation_dialog_view_preview_option">Кітапты алдын ала қарау</string>
     <string name="photos_photobook_storefront_archive">Мұрағаттау</string>
     <string name="photos_photobook_storefront_archive_failed">Тапсырыс мұрағатталмады</string>
+    <string name="photos_photobook_storefront_banner_dismiss_description">Жарнаманы жабу.</string>
     <string name="photos_photobook_storefront_buy_again">Қайта тапсырыс беру</string>
     <string name="photos_photobook_storefront_buy_idential_book">Ұқсас кітап сатып алу</string>
     <string name="photos_photobook_storefront_cancel_failure">Тапсырыстан бас тартылмады</string>
@@ -1624,7 +1627,6 @@
     <string name="photos_photobook_storefront_order_printing_time_notice">Тапсырыс берілген күннен бастап, 2-3 жұмыс күні аралығында басып шығарылады</string>
     <string name="photos_photobook_storefront_past_orders">Бұрынғы тапсырыстар</string>
     <string name="photos_photobook_storefront_promo_code">Жеңілдік коды</string>
-    <string name="photos_photobook_storefront_promotion_general_book_cover_title">Естеліктер</string>
     <string name="photos_photobook_storefront_quantity">Дана: %d</string>
     <string name="photos_photobook_storefront_quantity_description">дана: %d</string>
     <string name="photos_photobook_storefront_shipping">Жеткізу мекенжайы</string>
@@ -1940,7 +1942,7 @@
     <string name="photos_search_explore_category_360">360 градустық сурет және бейне</string>
     <string name="photos_search_explore_category_animations">Анимациялар</string>
     <string name="photos_search_explore_category_collages">Коллаждар</string>
-    <string name="photos_search_explore_category_favorites">Таңдаулы суреттер</string>
+    <string name="photos_search_explore_category_favorites">Таңдаулылар</string>
     <string name="photos_search_explore_category_motion_photos">Жанды суреттер</string>
     <string name="photos_search_explore_category_movies">Фильмдер</string>
     <string name="photos_search_explore_category_people">Адамдар</string>
@@ -2088,7 +2090,7 @@
     <string name="photos_search_searchresults_empty_page_collages_title">Қосындыдан артық</string>
     <string name="photos_search_searchresults_empty_page_connection_refresh">Жаңарту</string>
     <string name="photos_search_searchresults_empty_page_connection_title">Қосылу мүмкін емес</string>
-    <string name="photos_search_searchresults_empty_page_favorites_caption">Таңдаулы ретінде белгіленген суреттер мен бейнелер осы жерден көрсетіледі</string>
+    <string name="photos_search_searchresults_empty_page_favorites_caption">Таңдаулы деп белгіленген суреттер мен бейнелер осы жерде көрсетіледі</string>
     <string name="photos_search_searchresults_empty_page_favorites_title">Таңдаулылар жоқ</string>
     <string name="photos_search_searchresults_empty_page_movies_caption">Суреттер, бейнелер және қалаған музыкаңызды пайдаланып, фильмдер жасаңыз</string>
     <string name="photos_search_searchresults_empty_page_movies_title">Оқиғаңызды жалғастырыңыз</string>
@@ -2162,7 +2164,7 @@
     <string name="photos_settings_faceclustering_advanced_my_face_title">\"Мен\" деп белгіленген бет</string>
     <string name="photos_settings_faceclustering_advanced_pets_setting">Үй жануарларын адамдармен бірге көрсету</string>
     <string name="photos_settings_faceclustering_advanced_setting_detailed_desc">Достарыңыз бен туыстарыңыздың топталған суреттерін жүздері бойынша көріңіз &lt;a href=help:>Толығырақ ақпарат&lt;/a></string>
-    <string name="photos_settings_faceclustering_face_recognition_off_dialog_message">Таңдаулы адамдар үшін барлық \"Таныстар\" топтары жойылатын болады</string>
+    <string name="photos_settings_faceclustering_face_recognition_off_dialog_message">Суреттеріңізді адамдар бойынша жинау немесе олардан фильмдер мен коллаждар жасау мүмкін болмайды. Аты-жөнін қосу сияқты таныстар топтарына жасалған барлық өзгертулер мүлдем жойылады.</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_negative_button">Қосулы күйінде қалдыру</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_positive_button">Өшіру</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_title">\"Таныстарды топтау\" функциясын өшіру керек пе?</string>
@@ -2215,6 +2217,7 @@
     <string name="photos_setwallpaper_setas_wallpaper">Тұсқағаз</string>
     <string name="photos_share_collaborative_toggle_error">Бірлесе жұмыс істеу мүмкіндігін қосу/өшіру ақаулығы</string>
     <string name="photos_share_copylink_activity_name">Сілтеме алу</string>
+    <string name="photos_share_direct_album_complete">Альбом жіберілді</string>
     <string name="photos_share_direct_complete_icu">{count,plural, =1{Сурет жіберілді}other{Суреттер жіберілді}}</string>
     <string name="photos_share_direct_progress_icu">{count,plural, =1{Сурет жіберілуде…}other{Суреттер жіберілуде…}}</string>
     <string name="photos_share_error">Бөлісу кезінде қателік орын алды.</string>
@@ -2334,8 +2337,6 @@
     <string name="photos_sharingtab_picker_impl_overflow_desc">\"Қосымша\" мәзірін ашу</string>
     <string name="photos_sharingtab_picker_impl_overflow_select_album">Бұрыннан бар альбомды таңдау</string>
     <string name="photos_sharingtab_picker_impl_overflow_select_people">Адамдарды таңдау</string>
-    <string name="photos_sharingtab_picker_impl_recipient_name_separator">", "</string>
-    <string name="photos_sharingtab_picker_impl_recipients_hint_text">Аты-жөнін, телефон нөмірін немесе электрондық пошта мекенжайын енгізіңіз</string>
     <string name="photos_sharingtab_picker_impl_select_more_button">Басқа да суреттерді таңдау</string>
     <string name="photos_sharingtab_picker_impl_select_recipient_text">Бұл кім?</string>
     <string name="photos_sharingtab_picker_impl_selected_label">Таңдалды</string>
@@ -2354,10 +2355,8 @@
     <string name="photos_strings_undo_button">Қайтару</string>
     <string name="photos_strings_untitled_title_text">Атаусыз</string>
     <string name="photos_suggestedactions_archive_confirm_dialog_title">Осы суретті мұрағаттау қажет пе?</string>
-    <string name="photos_suggestedactions_archive_dialog_archive">Мұрағаттау</string>
     <string name="photos_suggestedactions_archive_dialog_archive_photo">Суретті мұрағаттау</string>
     <string name="photos_suggestedactions_archive_dialog_cancel">Жабу</string>
-    <string name="photos_suggestedactions_archive_dialog_ok">Жарайды</string>
     <string name="photos_suggestedactions_archive_dialog_text">"Жинақтағы скриншоттар мен түбіртектер сияқты көрсетілмейтін суреттерді жасырып қойыңыз. 
 
 Олар әлі де альбомдардан, іздеу нәтижелерінен және \"Мұрағат\" бөлімінен көрсетіледі."</string>
@@ -2374,7 +2373,6 @@
     <string name="photos_suggestedactions_archive_features_receipt">Осы түбіртекті мұрағаттау</string>
     <string name="photos_suggestedactions_archive_features_screenshot">Осы скриншотты мұрағаттау</string>
     <string name="photos_suggestedactions_archive_features_sketch">Осы сызбаны мұрағаттау</string>
-    <string name="photos_suggestedactions_archive_help_dialog_title">Мұрағаттап реттеу мүмкіндігі</string>
     <string name="photos_suggestedactions_ui_dismiss_button_description">Бас тарту</string>
     <string name="photos_suggestedrotations_cancel_discard_button">БАС ТАРТУ</string>
     <string name="photos_suggestedrotations_discard_changes_button">ШЫҒУ</string>
@@ -2575,7 +2573,7 @@
     <string name="sendkit_ui_is_number_right_use_anyway_button">Жалғастыру</string>
     <string name="sendkit_ui_message_bar_hint">Хабар қосу</string>
     <string name="sendkit_ui_no_contacts">Контактілер жоқ</string>
-    <string name="sendkit_ui_ok">OK</string>
+    <string name="sendkit_ui_ok">Жарайды</string>
     <string name="sendkit_ui_phone_contacts">Телефондағы контактілер</string>
     <string name="sendkit_ui_send_button_content_description">Жіберу. %s</string>
     <string name="sendkit_ui_send_button_text">Жіберу</string>

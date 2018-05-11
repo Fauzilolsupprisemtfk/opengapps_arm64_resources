@@ -94,7 +94,6 @@
     <string name="dream_no_photos">Nije odabrana nijedna fotografija.</string>
     <string name="go_to_playstore_button">Idi na Trgovinu Play</string>
     <string name="go_to_vr_listeners_settings_button">Idi na postavke</string>
-    <string name="google_drive_setting_desc">Prikaz fotografija i videozapisa s Google diska u vašoj biblioteci Fotografija. &lt;a href=help:>Saznajte više&lt;/a></string>
     <string name="google_drive_setting_title">Google disk</string>
     <string name="home_menu_settings">Postavke</string>
     <string name="image_action_shot_tooltip">Izrađeno prikazom radnje iz skupa sličnih fotografija</string>
@@ -292,14 +291,14 @@ Povijest lokacija možete pauzirati kad god poželite, ali time nećete izbrisat
     <string name="mr_chooser_title">Emitiranje na</string>
     <string name="mr_controller_album_art">Naslovnica albuma</string>
     <string name="mr_controller_casting_screen">Emitiranje zaslona</string>
-    <string name="mr_controller_close_description">Zatvaranje</string>
-    <string name="mr_controller_collapse_group">Sažimanje</string>
-    <string name="mr_controller_disconnect">Prekini vezu</string>
-    <string name="mr_controller_expand_group">Proširivanje</string>
+    <string name="mr_controller_close_description">Zatvori</string>
+    <string name="mr_controller_collapse_group">Sažmi</string>
+    <string name="mr_controller_disconnect">Prekini</string>
+    <string name="mr_controller_expand_group">Proširi</string>
     <string name="mr_controller_no_info_available">Informacije nisu dostupne</string>
     <string name="mr_controller_no_media_selected">Nije odabran nijedan medij</string>
-    <string name="mr_controller_pause">Pauziranje</string>
-    <string name="mr_controller_play">Reprodukcija</string>
+    <string name="mr_controller_pause">Pauza</string>
+    <string name="mr_controller_play">Pokreni</string>
     <string name="mr_controller_stop">Zaustavi</string>
     <string name="mr_controller_stop_casting">Zaustavi emitiranje</string>
     <string name="mr_controller_volume_slider">Klizač za glasnoću</string>
@@ -686,7 +685,6 @@ Fotografije i videozapisi ostat će u vašoj biblioteci."</string>
     <string name="photos_burst_actionutils_set_primary_failure">Ne može se postaviti kao glavna fotografija. Pokušajte ponovno.</string>
     <string name="photos_burst_fragment_cover_photos_indicator">Pokazivač uzastpnog snimanja naslovne fotografije</string>
     <string name="photos_burst_fragment_thumbnail_description">Minijatura fotografije praska</string>
-    <string name="photos_buystorage_guno_strings_storage_upgraded_message">Google pohrana uspješno je nadograđena</string>
     <string name="photos_cameraassistant_archive_failed">Nije moguće arhivirati stavku</string>
     <string name="photos_cameraassistant_archive_success_content_description">Arhivirano u aplikaciji Fotografije</string>
     <string name="photos_cameraassistant_archive_undo_content_description">Arhiviranje je poništeno</string>
@@ -727,6 +725,7 @@ Fotografije i videozapisi ostat će u vašoj biblioteci."</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_out_of_storage_description">Fotografije i videozapisi prestali su se sigurnosno kopirati. Kupite prostor za pohranu da biste nastavili sigurnosno kopiranje originalne kvalitete ili pak promijenite veličinu prijenosa u postavkama.</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_out_of_storage_title">Ponestalo vam je prostora za pohranu na Googleu</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_title">Iskorišteno Google pohrane: %d%%</string>
+    <string name="photos_cloudstorage_buystorage_guno_strings_storage_upgraded_message">Google pohrana uspješno je nadograđena</string>
     <string name="photos_comments_adapteritem_comments_are_off">Komentari su sada isključeni</string>
     <string name="photos_comments_delete_comment_removed">Komentar je uklonjen</string>
     <string name="photos_comments_delete_confirm_button">Izbriši komentar</string>
@@ -736,7 +735,7 @@ Fotografije i videozapisi ostat će u vašoj biblioteci."</string>
     <string name="photos_comments_popupmenu_delete_comment">Brisanje komentara</string>
     <string name="photos_comments_popupmenu_report_abuse">Prijava zloupotrebe</string>
     <string name="photos_comments_popupmenu_text_copied">Tekst je kopiran</string>
-    <string name="photos_comments_ui_comment_list_header">Komentari</string>
+    <string name="photos_comments_ui_comment_list_header">Aktivnost</string>
     <string name="photos_comments_ui_commentbar_add_photos_icon_content_desc">Dodaj fotografije u dijeljeni album</string>
     <string name="photos_comments_ui_commentbar_comments_off_hint_text">Komentari su sada isključeni</string>
     <string name="photos_comments_ui_commentbar_say_something_hint_text">Recite nešto</string>
@@ -778,6 +777,7 @@ Fotografije i videozapisi ostat će u vašoj biblioteci."</string>
     <string name="photos_create_mediabundle_create_new_motion_failure">Došlo je do problema prilikom izrade animacije. Pokušajte ponovno.</string>
     <string name="photos_create_mediabundle_create_new_movie">Film</string>
     <string name="photos_create_mediabundle_create_new_movie_failure">Došlo je do problema prilikom izrade filma. Pokušajte ponovno.</string>
+    <string name="photos_create_mediabundle_create_new_new_album">Novi album</string>
     <string name="photos_create_mediabundle_create_new_photo_book">Knjiga fotografija</string>
     <string name="photos_create_mediabundle_validation_error_avtype_other">Odabir nije važeći.</string>
     <string name="photos_create_mediabundle_validation_error_avtype_static_images_only">Odaberite od %1$d do %2$d fotografija.</string>
@@ -806,6 +806,7 @@ Fotografije i videozapisi ostat će u vašoj biblioteci."</string>
     <string name="photos_create_viewbinder_shared_badge">Dijeljeno</string>
     <string name="photos_create_viewbinder_subtitle_divider">•</string>
     <string name="photos_create_viewbinder_title_add_to">Dodavanje u album/vezu</string>
+    <string name="photos_create_viewbinder_title_all_albums">Svi albumi</string>
     <string name="photos_create_viewbinder_title_new">Izrada nove stavke</string>
     <string name="photos_dataplan_free_backup_notification_description_airtel">Sigurnosno kopiranje fotografija pomoću besplatnih podataka tijekom promotivnih sati na Airtelu</string>
     <string name="photos_dataplan_free_backup_notification_title_airtel">Besplatno sigurnosno kopiranje na Airtelu</string>
@@ -840,7 +841,7 @@ Fotografije i videozapisi ostat će u vašoj biblioteci."</string>
     <string name="photos_devicemanagement_assistant_complete">Oslobođeno je %1$s</string>
     <string name="photos_devicemanagement_assistant_description">%1$s prostora za pohranu možete osloboditi tako da s ovog uređaja uklonite fotografije koje su se već sigurnosno kopirale.</string>
     <string name="photos_devicemanagement_assistant_dialog_batch_description_text">Te su se stavke sigurnosno kopirale na vaš Google račun. I dalje ćete ih moći pregledati u svakom trenutku.</string>
-    <string name="photos_devicemanagement_assistant_dialog_batch_description_text_experiment1">Ne brinite se. Ove fotografije i videozapisi sigurnosno su kopirani. Možete ih pregledati u aplikaciji Google fotografije ili photos.google.com u bilo kojem trenutku.</string>
+    <string name="photos_devicemanagement_assistant_dialog_batch_description_text_experiment1">Ne brinite se. Ove fotografije i videozapisi sigurnosno su kopirani. Možete ih pregledati u aplikaciji Google fotografije ili na photos.google.com u bilo kojem trenutku.</string>
     <string name="photos_devicemanagement_assistant_dialog_batch_subtitle">Oslobodite %s</string>
     <string name="photos_devicemanagement_assistant_dialog_batch_title">Oslobodite %s</string>
     <string name="photos_devicemanagement_assistant_dialog_batch_title_experiment2">Oslobodite %s na uređaju</string>
@@ -864,7 +865,7 @@ Fotografije i videozapisi ostat će u vašoj biblioteci."</string>
     <string name="photos_devicesetup_betterbackuppromo_search_promo_message">Vaše će se fotografije automatski organizirati i moći će se pretražiti kada uključite sigurnosno kopiranje</string>
     <string name="photos_devicesetup_betterbackuppromo_search_promo_title">Brži pronalazak fotografija</string>
     <string name="photos_devicesetup_conversion_sheet_account_picker_title">Odabir računa</string>
-    <string name="photos_devicesetup_done_label">GOTOVO</string>
+    <string name="photos_devicesetup_done_label">POTVRDI</string>
     <string name="photos_devicesetup_high_quality_storage_label">Veličina za prijenos: visoka kvaliteta (besplatan neograničen prostor za pohranu)</string>
     <string name="photos_devicesetup_high_quality_storage_subtitle">Sjajna vizualna kvaliteta uz smanjenu veličinu datoteke</string>
     <string name="photos_devicesetup_high_quality_storage_title">Visoka kvaliteta (besplatan neograničeni prostor za pohranu)</string>
@@ -897,6 +898,8 @@ Fotografije i videozapisi ostat će u vašoj biblioteci."</string>
     <string name="photos_devicesetup_resources_auto_backup">Izrada sigurnosnih kopija i sinkronizacija</string>
     <string name="photos_devicesetup_resources_auto_backup_description">Sigurnosno kopiranje i sinkronizacija %1$s</string>
     <string name="photos_devicesetup_resources_auto_backup_settings">Postavke izrade sigurnosnih kopija i sinkronizacije</string>
+    <string name="photos_devicesetup_resources_auto_backup_title_info">To možete promijeniti u Postavkama u bilo kojem trenutku</string>
+    <string name="photos_devicesetup_resources_auto_backup_title_info_auto_backup_settings">To možete promijeniti u bilo kojem trenutku</string>
     <string name="photos_devicesetup_sign_in">Prijava</string>
     <string name="photos_devicesetup_sign_in_to_back_up">Prijavi se za sigurnosno kopiranje</string>
     <string name="photos_devicesetup_turn_on">Uključi</string>
@@ -1004,6 +1007,7 @@ za određenu videodatoteku."</string>
     <string name="photos_envelope_settings_hidename_show_email">Sakrivanje imena i prikazivanje e-adrese</string>
     <string name="photos_envelope_settings_hidename_show_number">Sakrivanje imena i prikazivanje broja</string>
     <string name="photos_envelope_settings_load_error">Pogreška pri učitavanju opcija</string>
+    <string name="photos_envelope_settings_people_add_recipient_item_title">Pozivanje osoba</string>
     <string name="photos_envelope_settings_people_block_person">Blokiranje osobe</string>
     <string name="photos_envelope_settings_people_block_person_confirmation_message">Neće vam se moći obraćati u Google fotografijama, a vi nećete moći pregledavati njihove fotografije ili komentare u Google fotografijama. Blokiranje će se primijeniti i na neke druge Googleove proizvode, kao što su Google+ i Hangouts. &lt;a href=help:>Saznajte više&lt;/a></string>
     <string name="photos_envelope_settings_people_block_person_confirmation_positive_button">Blokiraj</string>
@@ -1074,17 +1078,17 @@ za određenu videodatoteku."</string>
     <string name="photos_facegaia_optin_impl_picker_remove_dialog_title">Želite li ukloniti oznaku \"Ja\"?</string>
     <string name="photos_facegaia_optin_impl_selected">Odabrano</string>
     <string name="photos_facegaia_optin_impl_title">Odaberite svoje lice i personalizirajte Google fotografije</string>
-    <string name="photos_favorites_promo_dialog_body_photo">Jednostavno pronađite ovu fotografiju u albumu Favoriti</string>
-    <string name="photos_favorites_promo_dialog_body_video">Jednostavno pronađite ovaj videozapis u albumu Favoriti</string>
+    <string name="photos_favorites_promo_dialog_body_photo">Jednostavno pronađite svoje favorite u Albumima</string>
     <string name="photos_favorites_promo_dialog_negative_button">Gotovo</string>
-    <string name="photos_favorites_promo_dialog_title">Dodano u Favorite!</string>
-    <string name="photos_favorites_promo_dialogs_positive_button">Idi na Favorite</string>
+    <string name="photos_favorites_promo_dialog_title">Dodano u favorite</string>
+    <string name="photos_favorites_promo_dialogs_positive_button">Prikaži Favorite</string>
     <string name="photos_gridlayers_empty_state_caption">"Snimite fotografiju.
 Fotografije i videozapisi prikazuju se ovdje."</string>
     <string name="photos_gridlayers_empty_state_title">Nema fotografija</string>
     <string name="photos_gridlayers_floating_action_button_zoom_in_content_description">povećaj</string>
     <string name="photos_gridlayers_floating_action_button_zoom_out_content_description">umanji</string>
     <string name="photos_hearts_photoui_error_toggling_heart">Poteškoće pri dodavanju/uklanjanju srca</string>
+    <string name="photos_hearts_popupmenu_delete">Izbriši</string>
     <string name="photos_hearts_popupmenu_error_toast">Došlo je do problema s uklanjanjem sviđanja.</string>
     <string name="photos_hearts_popupmenu_toast_deleted">Izbrisano</string>
     <string name="photos_hearts_viewbinder_user_liked_a_photo">Korisnik %s označio je fotografiju oznakom sviđa mi se</string>
@@ -1283,7 +1287,7 @@ Fotografije i videozapisi prikazuju se ovdje."</string>
     <string name="photos_microvideo_actionbar_beta_save_as_dialog_title">Spremi kao</string>
     <string name="photos_microvideo_actionbar_beta_save_as_gif_success_toast_text">GIF je spremljen</string>
     <string name="photos_microvideo_actionbar_beta_save_as_menu_item">Spremi kao</string>
-    <string name="photos_microvideo_actionbar_beta_save_as_still_photo_success_toast_text">Fotografija je spremljena</string>
+    <string name="photos_microvideo_actionbar_beta_save_as_still_photo_success_toast_text">Obična fotografija je spremljena</string>
     <string name="photos_microvideo_actionbar_beta_save_as_video_success_toast_text">Videozapis je spremljen</string>
     <string name="photos_microvideo_actionbar_beta_save_error_toast_text">Spremanje nije uspjelo</string>
     <string name="photos_microvideo_actionbar_save_as_still_photo_error_toast_text">Fotografija se ne može spremiti</string>
@@ -1357,7 +1361,10 @@ Fotografije i videozapisi prikazuju se ovdje."</string>
     <string name="photos_movies_ui_clipeditor_impl_unmute">Uključivanje zvukova</string>
     <string name="photos_movies_ui_clipeditor_impl_video_clip_content_description">Videoisječak</string>
     <string name="photos_notificationchannels_assistant_channel">Pomoćnik</string>
-    <string name="photos_notificationchannels_backup_channel">Sigurnosna kopija</string>
+    <string name="photos_notificationchannels_backup_alerts_channel">Upozorenja</string>
+    <string name="photos_notificationchannels_backup_channels_group">Sigurnosna kopija</string>
+    <string name="photos_notificationchannels_backup_progress_channel">Tijek</string>
+    <string name="photos_notificationchannels_backup_suggestions_channel">Prijedlozi</string>
     <string name="photos_notificationchannels_other_channel">Ostalo</string>
     <string name="photos_notificationchannels_promotion_channel">Promocije</string>
     <string name="photos_notificationchannels_sharing_channel">Dijeljenje</string>
@@ -1492,10 +1499,6 @@ premještanjem ovih stavki u Arhivu."</string>
     <string name="photos_partneraccount_assistant_promo_card_title">Uštedite vrijeme uz automatsko dijeljenje</string>
     <string name="photos_partneraccount_assistant_promo_card_title_variant_1">Dijeljenje biblioteke</string>
     <string name="photos_partneraccount_assistant_promo_card_title_variant_2">Dodavanje računa partnera</string>
-    <string name="photos_partneraccount_drive_share_warning_continue">Nastavi</string>
-    <string name="photos_partneraccount_drive_share_warning_message">Dijelite fotografije automatski s osobom %s. Ako nastavite, fotografije s Diska mogu se automatski podijeliti.</string>
-    <string name="photos_partneraccount_drive_share_warning_message_no_name">Dijelite fotografije automatski pomoću podijeljenih zbirki. Ako nastavite, fotografije s Diska mogu se automatski podijeliti.</string>
-    <string name="photos_partneraccount_drive_share_warning_title">Želite li podijeliti fotografije s Diska?</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_reciprocate_title">Podijelite s osobom %1$s</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_reciprocate_title_no_name">Podijelite s partnerom</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_select">Odabir fotografija</string>
@@ -1776,12 +1779,12 @@ Automatski."</string>
     <string name="photos_photobook_promotion_allphotos_subtext_1">za knjige fotografija do kraja cyber ponedjeljka</string>
     <string name="photos_photobook_promotion_allphotos_subtext_2">za dostavu knjige fotografija do 24. prosinca</string>
     <string name="photos_photobook_promotion_free_shipping">Besplatna dostava</string>
-    <string name="photos_photobook_promotion_free_shipping_offer_details">Pojedinosti o ponudi</string>
     <string name="photos_photobook_promotion_general_book_cover_title">Uspomene</string>
     <string name="photos_photobook_remediation_dialog_edit_selection_option">Uređivanje odabira</string>
     <string name="photos_photobook_remediation_dialog_view_preview_option">Prikaz pregleda knjige</string>
     <string name="photos_photobook_storefront_archive">Arhiviranje</string>
     <string name="photos_photobook_storefront_archive_failed">Arhiviranje narudžbe nije uspjelo</string>
+    <string name="photos_photobook_storefront_banner_dismiss_description">Odbaci promociju.</string>
     <string name="photos_photobook_storefront_buy_again">Ponovno naruči</string>
     <string name="photos_photobook_storefront_buy_idential_book">Kupi istu knjigu</string>
     <string name="photos_photobook_storefront_cancel_failure">Otkazivanje narudžbe nije uspjelo</string>
@@ -1817,7 +1820,6 @@ Automatski."</string>
     <string name="photos_photobook_storefront_order_printing_time_notice">Vaša će se narudžba ispisati u roku od 2 do 3 radna dana od dana narudžbe</string>
     <string name="photos_photobook_storefront_past_orders">Prethodne narudžbe</string>
     <string name="photos_photobook_storefront_promo_code">Promotivni kôd</string>
-    <string name="photos_photobook_storefront_promotion_general_book_cover_title">Uspomene</string>
     <string name="photos_photobook_storefront_quantity">Količina: %d</string>
     <string name="photos_photobook_storefront_quantity_description">količina: %d</string>
     <string name="photos_photobook_storefront_shipping">Adresa za dostavu</string>
@@ -2133,7 +2135,7 @@ Automatski."</string>
     <string name="photos_search_explore_category_360">Fotografije i videozapisi od 360°</string>
     <string name="photos_search_explore_category_animations">Animacije</string>
     <string name="photos_search_explore_category_collages">Kolaži</string>
-    <string name="photos_search_explore_category_favorites">Omiljeno</string>
+    <string name="photos_search_explore_category_favorites">Favoriti</string>
     <string name="photos_search_explore_category_motion_photos">Fotografije s videom</string>
     <string name="photos_search_explore_category_movies">Filmovi</string>
     <string name="photos_search_explore_category_people">Osobe</string>
@@ -2142,7 +2144,7 @@ Automatski."</string>
     <string name="photos_search_explore_category_places">Mjesta</string>
     <string name="photos_search_explore_category_things">Razno</string>
     <string name="photos_search_explore_collage_query">kolaž</string>
-    <string name="photos_search_explore_favorites_query">omiljeno</string>
+    <string name="photos_search_explore_favorites_query">favoriti</string>
     <string name="photos_search_explore_movie_query">film</string>
     <string name="photos_search_explore_pets_impl_notification_desc">Pregledajte svoje fotografije organizirane prema važnim mačkama i psima</string>
     <string name="photos_search_explore_pets_impl_promo_desc">Vaše fotografije važnih mačaka i pasa organiziraju se ovdje. Tu opciju možete isključiti u svakom trenutku u postavkama.</string>
@@ -2355,7 +2357,7 @@ Vaša je biblioteka podijeljena. Sinkronizirane stavke mogu biti dostupne i kori
     <string name="photos_settings_faceclustering_advanced_my_face_title">Lice je označeno kao \"Ja\"</string>
     <string name="photos_settings_faceclustering_advanced_pets_setting">Prikaz ljubimaca s osobama</string>
     <string name="photos_settings_faceclustering_advanced_setting_detailed_desc">Pregledajte fotografije svojih omiljenih osoba grupirane po sličnim licima &lt;a href=help:>Saznajte više&lt;/a></string>
-    <string name="photos_settings_faceclustering_face_recognition_off_dialog_message">Sve grupe lica za vaše omiljene osobe uklonit će se</string>
+    <string name="photos_settings_faceclustering_face_recognition_off_dialog_message">Vaše se fotografije neće organizirati prema osobama niti će se moći pretvarati u personalizirane filmove i kolaže. Sve izmjene koje ste unijeli u grupe lice, na primjer dodana imena, trajno će se izbrisati.</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_negative_button">Ostavi uključeno</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_positive_button">Isključi</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_title">Želite li isključiti grupiranje lica?</string>
@@ -2408,6 +2410,7 @@ Vaša je biblioteka podijeljena. Sinkronizirane stavke mogu biti dostupne i kori
     <string name="photos_setwallpaper_setas_wallpaper">Pozadinska slika</string>
     <string name="photos_share_collaborative_toggle_error">Poteškoće pri isključivanju/uključivanju suradnje</string>
     <string name="photos_share_copylink_activity_name">Dohvaćanje veze</string>
+    <string name="photos_share_direct_album_complete">Album je poslan</string>
     <string name="photos_share_direct_complete_icu">{count,plural, =1{Fotografija je poslana}one{Fotografije su poslane}few{Fotografije su poslane}other{Fotografije su poslane}}</string>
     <string name="photos_share_direct_progress_icu">{count,plural, =1{Slanje fotografije…}one{Slanje fotografija…}few{Slanje fotografija…}other{Slanje fotografija…}}</string>
     <string name="photos_share_error">Došlo je do pogreške prilikom dijeljenja.</string>
@@ -2527,8 +2530,6 @@ Vaša je biblioteka podijeljena. Sinkronizirane stavke mogu biti dostupne i kori
     <string name="photos_sharingtab_picker_impl_overflow_desc">Otvaranje dodatnog izbornika</string>
     <string name="photos_sharingtab_picker_impl_overflow_select_album">Odabir postojećeg albuma</string>
     <string name="photos_sharingtab_picker_impl_overflow_select_people">Odabir osoba</string>
-    <string name="photos_sharingtab_picker_impl_recipient_name_separator">"\",\" "</string>
-    <string name="photos_sharingtab_picker_impl_recipients_hint_text">Unesite ime, telefonski broj ili e-adresu</string>
     <string name="photos_sharingtab_picker_impl_select_more_button">Odaberi više fotografija</string>
     <string name="photos_sharingtab_picker_impl_select_recipient_text">Tko je to?</string>
     <string name="photos_sharingtab_picker_impl_selected_label">Odabrano</string>
@@ -2547,10 +2548,8 @@ Vaša je biblioteka podijeljena. Sinkronizirane stavke mogu biti dostupne i kori
     <string name="photos_strings_undo_button">Poništi</string>
     <string name="photos_strings_untitled_title_text">Bez naslova</string>
     <string name="photos_suggestedactions_archive_confirm_dialog_title">Želite li arhivirati ovu fotografiju?</string>
-    <string name="photos_suggestedactions_archive_dialog_archive">Arhiviraj</string>
     <string name="photos_suggestedactions_archive_dialog_archive_photo">Arhiviraj fotografiju</string>
     <string name="photos_suggestedactions_archive_dialog_cancel">Odbaci</string>
-    <string name="photos_suggestedactions_archive_dialog_ok">U redu</string>
     <string name="photos_suggestedactions_archive_dialog_text">"Sakrijte fotografije iz biblioteke koje ne želite vidjeti, na primjer snimke zaslona ili potvrde o plaćanju. 
 
 Fotografije ćete i dalje vidjeti u albumima, rezultatima pretraživanja i arhivi."</string>
@@ -2567,7 +2566,6 @@ Fotografije ćete i dalje vidjeti u albumima, rezultatima pretraživanja i arhiv
     <string name="photos_suggestedactions_archive_features_receipt">Arhivirajte ovu potvrdu o plaćanju</string>
     <string name="photos_suggestedactions_archive_features_screenshot">Arhivirajte ovu snimku zaslona</string>
     <string name="photos_suggestedactions_archive_features_sketch">Arhivirajte ovaj crtež</string>
-    <string name="photos_suggestedactions_archive_help_dialog_title">Arhivirajte da biste ostali organizirani</string>
     <string name="photos_suggestedactions_ui_dismiss_button_description">Odbaci</string>
     <string name="photos_suggestedrotations_cancel_discard_button">ODUSTANI</string>
     <string name="photos_suggestedrotations_discard_changes_button">ODBACI</string>

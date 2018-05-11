@@ -94,7 +94,6 @@
     <string name="dream_no_photos">Der er ingen valgte billeder.</string>
     <string name="go_to_playstore_button">Gå til Play Butik</string>
     <string name="go_to_vr_listeners_settings_button">Gå til Indstillinger</string>
-    <string name="google_drive_setting_desc">Se fotos og videoer fra Google Drev i din samling i Fotos. &lt;a href=help:>Få flere oplysninger&lt;/a></string>
     <string name="google_drive_setting_title">Google Drev</string>
     <string name="hats_lib_close_button_description">Luk</string>
     <string name="hats_lib_default_prompt_title">Hjælp os med at forbedre Google.</string>
@@ -309,7 +308,7 @@ Du kan sætte Placeringshistorik på pause, når du vil, men det betyder ikke, a
     <string name="mr_controller_disconnect">Afbryd</string>
     <string name="mr_controller_expand_group">Udvid</string>
     <string name="mr_controller_no_info_available">Der er ingen tilgængelige oplysninger</string>
-    <string name="mr_controller_no_media_selected">Der er ikke valgt nogen medier</string>
+    <string name="mr_controller_no_media_selected">Ingen medier er markeret</string>
     <string name="mr_controller_pause">Sæt på pause</string>
     <string name="mr_controller_play">Afspil</string>
     <string name="mr_controller_stop">Stop</string>
@@ -698,7 +697,6 @@ Dine billeder og videoer findes stadig i din samling."</string>
     <string name="photos_burst_actionutils_set_primary_failure">Kan ikke angives som primært billede. Prøv igen.</string>
     <string name="photos_burst_fragment_cover_photos_indicator">Indikator for en fotoserie med forsidebilleder</string>
     <string name="photos_burst_fragment_thumbnail_description">Miniature af billedserie</string>
-    <string name="photos_buystorage_guno_strings_storage_upgraded_message">Din Google-lagerplads blev opgraderet</string>
     <string name="photos_cameraassistant_archive_failed">Elementet kan ikke arkiveres</string>
     <string name="photos_cameraassistant_archive_success_content_description">Arkiveret i appen Fotos</string>
     <string name="photos_cameraassistant_archive_undo_content_description">Arkiveringen er annulleret</string>
@@ -739,6 +737,7 @@ Dine billeder og videoer findes stadig i din samling."</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_out_of_storage_description">Sikkerhedskopieringen af fotos og videoer er stoppet. Køb lagerplads for at fortsætte med at sikkerhedskopiere i original kvalitet, eller skift uploadstørrelse i Indstillinger.</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_out_of_storage_title">Du er løbet tør for Google-lagerplads</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_title">Du har brugt %d %% af din Google-lagerpads</string>
+    <string name="photos_cloudstorage_buystorage_guno_strings_storage_upgraded_message">Din Google-lagerplads blev opgraderet</string>
     <string name="photos_comments_adapteritem_comments_are_off">Kommentarer er nu slået fra</string>
     <string name="photos_comments_delete_comment_removed">Kommentaren blev fjernet</string>
     <string name="photos_comments_delete_confirm_button">Slet kommentar</string>
@@ -748,7 +747,7 @@ Dine billeder og videoer findes stadig i din samling."</string>
     <string name="photos_comments_popupmenu_delete_comment">Slet kommentar</string>
     <string name="photos_comments_popupmenu_report_abuse">Rapportér misbrug</string>
     <string name="photos_comments_popupmenu_text_copied">Teksten blev kopieret</string>
-    <string name="photos_comments_ui_comment_list_header">Kommentarer</string>
+    <string name="photos_comments_ui_comment_list_header">Aktivitet</string>
     <string name="photos_comments_ui_commentbar_add_photos_icon_content_desc">Føj billeder til et delt album</string>
     <string name="photos_comments_ui_commentbar_comments_off_hint_text">Kommentarer er nu slået fra</string>
     <string name="photos_comments_ui_commentbar_say_something_hint_text">Sig noget</string>
@@ -790,6 +789,7 @@ Dine billeder og videoer findes stadig i din samling."</string>
     <string name="photos_create_mediabundle_create_new_motion_failure">Der opstod et problem, da animationen skulle oprettes. Prøv igen.</string>
     <string name="photos_create_mediabundle_create_new_movie">Film</string>
     <string name="photos_create_mediabundle_create_new_movie_failure">Der opstod et problem, da filmen skulle oprettes. Prøv igen.</string>
+    <string name="photos_create_mediabundle_create_new_new_album">Nyt album</string>
     <string name="photos_create_mediabundle_create_new_photo_book">Fotobog</string>
     <string name="photos_create_mediabundle_validation_error_avtype_other">Valget er ugyldigt.</string>
     <string name="photos_create_mediabundle_validation_error_avtype_static_images_only">Vælg %1$d til %2$d billeder.</string>
@@ -818,6 +818,7 @@ Dine billeder og videoer findes stadig i din samling."</string>
     <string name="photos_create_viewbinder_shared_badge">Delte</string>
     <string name="photos_create_viewbinder_subtitle_divider">•</string>
     <string name="photos_create_viewbinder_title_add_to">Føj til</string>
+    <string name="photos_create_viewbinder_title_all_albums">Alle album</string>
     <string name="photos_create_viewbinder_title_new">Opret ny</string>
     <string name="photos_dataplan_free_backup_notification_description_airtel">Sikkerhedskopiér fotos ved hjælp af gratis data, når Airtel har Happy Hours.</string>
     <string name="photos_dataplan_free_backup_notification_title_airtel">Gratis sikkerhedskopiering på Airtel</string>
@@ -852,7 +853,7 @@ Dine billeder og videoer findes stadig i din samling."</string>
     <string name="photos_devicemanagement_assistant_complete">Der blev genoprettet %1$s</string>
     <string name="photos_devicemanagement_assistant_description">Du kan frigøre %1$s plads ved at fjerne billeder fra denne enhed, som allerede er sikkerhedskopieret</string>
     <string name="photos_devicemanagement_assistant_dialog_batch_description_text">Disse elementer er nu sikkerhedskopieret på din Google-konto. Du kan stadig se dem til enhver tid.</string>
-    <string name="photos_devicemanagement_assistant_dialog_batch_description_text_experiment1">Du kan være helt rolig. Disse fotos og videoer er blevet sikkerhedskopieret. Du kan altid se dem på photos.google.com.</string>
+    <string name="photos_devicemanagement_assistant_dialog_batch_description_text_experiment1">Du kan være helt rolig. Disse fotos og videoer er blevet sikkerhedskopieret. Du kan altid se dem i Google Fotos-appen eller på photos.google.com.</string>
     <string name="photos_devicemanagement_assistant_dialog_batch_subtitle">Frigør %s</string>
     <string name="photos_devicemanagement_assistant_dialog_batch_title">Frigør %s</string>
     <string name="photos_devicemanagement_assistant_dialog_batch_title_experiment2">Frigør %s på enheden</string>
@@ -876,7 +877,7 @@ Dine billeder og videoer findes stadig i din samling."</string>
     <string name="photos_devicesetup_betterbackuppromo_search_promo_message">Dine fotos organiseres automatisk, og du kan søge i dem, når du slår sikkerhedskopiering til</string>
     <string name="photos_devicesetup_betterbackuppromo_search_promo_title">Find fotos hurtigere</string>
     <string name="photos_devicesetup_conversion_sheet_account_picker_title">Vælg en konto</string>
-    <string name="photos_devicesetup_done_label">UDFØR</string>
+    <string name="photos_devicesetup_done_label">BEKRÆFT</string>
     <string name="photos_devicesetup_high_quality_storage_label">Uploadstørrelse: Høj kvalitet (gratis og ubegrænset lagerplads)</string>
     <string name="photos_devicesetup_high_quality_storage_subtitle">God visuel kvalitet med reduceret filstørrelse</string>
     <string name="photos_devicesetup_high_quality_storage_title">Høj kvalitet (gratis og ubegrænset lagerplads)</string>
@@ -909,6 +910,8 @@ Dine billeder og videoer findes stadig i din samling."</string>
     <string name="photos_devicesetup_resources_auto_backup">Backup og synkronisering</string>
     <string name="photos_devicesetup_resources_auto_backup_description">Sikkerhedskopiér og synkroniser %1$s</string>
     <string name="photos_devicesetup_resources_auto_backup_settings">Indstillinger for backup og synkronisering</string>
+    <string name="photos_devicesetup_resources_auto_backup_title_info">Du kan altid ændre dette under Indstillinger</string>
+    <string name="photos_devicesetup_resources_auto_backup_title_info_auto_backup_settings">Du kan aldrig ændre dine indstillinger</string>
     <string name="photos_devicesetup_sign_in">Log ind</string>
     <string name="photos_devicesetup_sign_in_to_back_up">Log ind for at sikkerhedskopiere</string>
     <string name="photos_devicesetup_turn_on">Slå til</string>
@@ -1016,6 +1019,7 @@ for den angivne videofil."</string>
     <string name="photos_envelope_settings_hidename_show_email">Skjul navn, og vis mail i stedet</string>
     <string name="photos_envelope_settings_hidename_show_number">Skjul navn, og vis nummer i stedet</string>
     <string name="photos_envelope_settings_load_error">Der opstod en fejl ved indlæsning af valgmulighederne</string>
+    <string name="photos_envelope_settings_people_add_recipient_item_title">Inviter personer</string>
     <string name="photos_envelope_settings_people_block_person">Bloker person</string>
     <string name="photos_envelope_settings_people_block_person_confirmation_message">De kan ikke kontakte dig i Fotos, og du kan ikke se deres billeder eller kommentarer i Fotos. Blokeringen gælder også i visse Google-produkter, såsom Google+ og Hangouts &lt;a href=help:>Få flere oplysninger&lt;/a></string>
     <string name="photos_envelope_settings_people_block_person_confirmation_positive_button">Bloker</string>
@@ -1086,17 +1090,17 @@ for den angivne videofil."</string>
     <string name="photos_facegaia_optin_impl_picker_remove_dialog_title">Vil du fjerne etiketten \"Mig\"?</string>
     <string name="photos_facegaia_optin_impl_selected">Valgt</string>
     <string name="photos_facegaia_optin_impl_title">Tilpas Google Fotos ved at vælge dit ansigt</string>
-    <string name="photos_favorites_promo_dialog_body_photo">Du kan nemt finde dette foto i albummet Foretrukne</string>
-    <string name="photos_favorites_promo_dialog_body_video">Du kan nemt finde denne video i albummet Foretrukne</string>
+    <string name="photos_favorites_promo_dialog_body_photo">Find nemt dine foretrukne i Album</string>
     <string name="photos_favorites_promo_dialog_negative_button">Udfør</string>
     <string name="photos_favorites_promo_dialog_title">Føjet til foretrukne</string>
-    <string name="photos_favorites_promo_dialogs_positive_button">Gå til Foretrukne</string>
+    <string name="photos_favorites_promo_dialogs_positive_button">Se foretrukne</string>
     <string name="photos_gridlayers_empty_state_caption">"Tag et billede.
 Billeder og videoer vises her."</string>
     <string name="photos_gridlayers_empty_state_title">Der er ingen billeder</string>
     <string name="photos_gridlayers_floating_action_button_zoom_in_content_description">zoom ind</string>
     <string name="photos_gridlayers_floating_action_button_zoom_out_content_description">zoom ud</string>
     <string name="photos_hearts_photoui_error_toggling_heart">Der opstod problemer med at give eller fjerne hjertet</string>
+    <string name="photos_hearts_popupmenu_delete">Slet</string>
     <string name="photos_hearts_popupmenu_error_toast">Dit like kunne ikke slettes.</string>
     <string name="photos_hearts_popupmenu_toast_deleted">Slettet</string>
     <string name="photos_hearts_viewbinder_user_liked_a_photo">%s gav et foto et like</string>
@@ -1369,7 +1373,10 @@ Billeder og videoer vises her."</string>
     <string name="photos_movies_ui_clipeditor_impl_unmute">Slå lyden til</string>
     <string name="photos_movies_ui_clipeditor_impl_video_clip_content_description">Filmklip</string>
     <string name="photos_notificationchannels_assistant_channel">Assistent</string>
-    <string name="photos_notificationchannels_backup_channel">Sikkerhedskopiering</string>
+    <string name="photos_notificationchannels_backup_alerts_channel">Underretninger</string>
+    <string name="photos_notificationchannels_backup_channels_group">Sikkerhedskopiering</string>
+    <string name="photos_notificationchannels_backup_progress_channel">Status</string>
+    <string name="photos_notificationchannels_backup_suggestions_channel">Forslag</string>
     <string name="photos_notificationchannels_other_channel">Andet</string>
     <string name="photos_notificationchannels_promotion_channel">Kampagner</string>
     <string name="photos_notificationchannels_sharing_channel">Deling</string>
@@ -1504,10 +1511,6 @@ ved at flytte fotoet til Arkiv."</string>
     <string name="photos_partneraccount_assistant_promo_card_title">Spar tid. Del automatisk.</string>
     <string name="photos_partneraccount_assistant_promo_card_title_variant_1">Del din samling</string>
     <string name="photos_partneraccount_assistant_promo_card_title_variant_2">Tilføj partnerkonto</string>
-    <string name="photos_partneraccount_drive_share_warning_continue">Fortsæt</string>
-    <string name="photos_partneraccount_drive_share_warning_message">Du deler automatisk fotos med %s. Hvis du fortsætter, deles fotos fra Drev muligvis automatisk.</string>
-    <string name="photos_partneraccount_drive_share_warning_message_no_name">Du deler automatisk fotos ved hjælp af delte samlinger. Hvis du fortsætter, deles fotos fra Drev muligvis automatisk.</string>
-    <string name="photos_partneraccount_drive_share_warning_title">Vil du dele fotos fra Drev?</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_reciprocate_title">Del også med %1$s</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_reciprocate_title_no_name">Del også med din partner</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_select">Vælg fotos</string>
@@ -1788,12 +1791,12 @@ Automatisk."</string>
     <string name="photos_photobook_promotion_allphotos_subtext_1">på fotobøger til og med Cyber Monday</string>
     <string name="photos_photobook_promotion_allphotos_subtext_2">for fotobøger med levering inden juleaften</string>
     <string name="photos_photobook_promotion_free_shipping">Gratis forsendelse</string>
-    <string name="photos_photobook_promotion_free_shipping_offer_details">Oplysninger om tilbud</string>
     <string name="photos_photobook_promotion_general_book_cover_title">Minder</string>
     <string name="photos_photobook_remediation_dialog_edit_selection_option">Rediger valg</string>
     <string name="photos_photobook_remediation_dialog_view_preview_option">Se eksempel på bog</string>
     <string name="photos_photobook_storefront_archive">Arkivér</string>
     <string name="photos_photobook_storefront_archive_failed">Ordren kunne ikke arkiveres</string>
+    <string name="photos_photobook_storefront_banner_dismiss_description">Afvis promovering.</string>
     <string name="photos_photobook_storefront_buy_again">Bestil igen</string>
     <string name="photos_photobook_storefront_buy_idential_book">Køb identisk bog</string>
     <string name="photos_photobook_storefront_cancel_failure">Ordren kunne ikke annulleres</string>
@@ -1829,7 +1832,6 @@ Automatisk."</string>
     <string name="photos_photobook_storefront_order_printing_time_notice">Din ordre behandles 2-3 hverdage efter ordredatoen</string>
     <string name="photos_photobook_storefront_past_orders">Tidligere ordrer</string>
     <string name="photos_photobook_storefront_promo_code">Kampagnekode</string>
-    <string name="photos_photobook_storefront_promotion_general_book_cover_title">Minder</string>
     <string name="photos_photobook_storefront_quantity">Antal: %d</string>
     <string name="photos_photobook_storefront_quantity_description">antal %d</string>
     <string name="photos_photobook_storefront_shipping">Leveringsadresse</string>
@@ -2293,7 +2295,7 @@ Automatisk."</string>
     <string name="photos_search_searchresults_empty_page_collages_title">Flere billeder til din historie</string>
     <string name="photos_search_searchresults_empty_page_connection_refresh">Opdater</string>
     <string name="photos_search_searchresults_empty_page_connection_title">Der kan ikke oprettes forbindelse</string>
-    <string name="photos_search_searchresults_empty_page_favorites_caption">De fotos og videoer, du angiver som foretrukken, vises her</string>
+    <string name="photos_search_searchresults_empty_page_favorites_caption">De fotos og videoer, du angiver som foretrukne, vises her</string>
     <string name="photos_search_searchresults_empty_page_favorites_title">Der er ingen foretrukne</string>
     <string name="photos_search_searchresults_empty_page_movies_caption">Lav film med dine billeder, videoer og valgfri musik</string>
     <string name="photos_search_searchresults_empty_page_movies_title">Fortæl os mere om din historie</string>
@@ -2367,7 +2369,7 @@ Din samling er delt. Synkroniserede elementer er muligvis også tilgængelige fo
     <string name="photos_settings_faceclustering_advanced_my_face_title">Ansigt med etiketten \"Mig\"</string>
     <string name="photos_settings_faceclustering_advanced_pets_setting">Vis kæledyr med personer</string>
     <string name="photos_settings_faceclustering_advanced_setting_detailed_desc">Se billeder af dine yndlingspersoner grupperet efter lignende ansigter&lt;a href=help:>Få flere oplysninger&lt;/a></string>
-    <string name="photos_settings_faceclustering_face_recognition_off_dialog_message">Alle ansigtsgrupper med dine yndlingspersoner vil blive fjernet</string>
+    <string name="photos_settings_faceclustering_face_recognition_off_dialog_message">Dine fotos organiseres ikke efter personer, og de laves ikke til tilpassede film og collager. Eventuelle ændringer af dine ansigtsgrupper, for eksempel tilføjede navne, slettes permanent.</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_negative_button">Slå ikke fra</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_positive_button">Slå fra</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_title">Vil du slå ansigtsgruppering fra?</string>
@@ -2420,6 +2422,7 @@ Din samling er delt. Synkroniserede elementer er muligvis også tilgængelige fo
     <string name="photos_setwallpaper_setas_wallpaper">Baggrund</string>
     <string name="photos_share_collaborative_toggle_error">Der opstod problemer med at slå samarbejde til eller fra</string>
     <string name="photos_share_copylink_activity_name">Hent link</string>
+    <string name="photos_share_direct_album_complete">Albummet blev sendt</string>
     <string name="photos_share_direct_complete_icu">{count,plural, =1{Billedet blev sendt}one{Billedet blev sendt}other{Billederne blev sendt}}</string>
     <string name="photos_share_direct_progress_icu">{count,plural, =1{Sender billedet…}one{Sender billedet…}other{Sender billederne…}}</string>
     <string name="photos_share_error">Der opstod en fejl ved deling.</string>
@@ -2539,8 +2542,6 @@ Din samling er delt. Synkroniserede elementer er muligvis også tilgængelige fo
     <string name="photos_sharingtab_picker_impl_overflow_desc">Åbn prikmenu</string>
     <string name="photos_sharingtab_picker_impl_overflow_select_album">Vælg eksisterende album</string>
     <string name="photos_sharingtab_picker_impl_overflow_select_people">Vælg kontaktpersoner</string>
-    <string name="photos_sharingtab_picker_impl_recipient_name_separator">", "</string>
-    <string name="photos_sharingtab_picker_impl_recipients_hint_text">Angiv et navn, et telefonnummer eller en mailadresse</string>
     <string name="photos_sharingtab_picker_impl_select_more_button">Vælg flere fotos</string>
     <string name="photos_sharingtab_picker_impl_select_recipient_text">Hvem er det?</string>
     <string name="photos_sharingtab_picker_impl_selected_label">Valgt</string>
@@ -2559,10 +2560,8 @@ Din samling er delt. Synkroniserede elementer er muligvis også tilgængelige fo
     <string name="photos_strings_undo_button">Fortryd</string>
     <string name="photos_strings_untitled_title_text">Unavngivet</string>
     <string name="photos_suggestedactions_archive_confirm_dialog_title">Vil du arkivere dette foto?</string>
-    <string name="photos_suggestedactions_archive_dialog_archive">Arkivér</string>
     <string name="photos_suggestedactions_archive_dialog_archive_photo">Arkivér foto</string>
     <string name="photos_suggestedactions_archive_dialog_cancel">Annuller</string>
-    <string name="photos_suggestedactions_archive_dialog_ok">OK</string>
     <string name="photos_suggestedactions_archive_dialog_text">"Skjul fotos i din samling, som du ikke ønsker at se, for eksempel screenshots eller kvitteringer. 
 
 Du kan stadig se dem i album, søgeresultater og dit arkiv."</string>
@@ -2579,7 +2578,6 @@ Du kan stadig se dem i album, søgeresultater og dit arkiv."</string>
     <string name="photos_suggestedactions_archive_features_receipt">Arkivér denne kvittering</string>
     <string name="photos_suggestedactions_archive_features_screenshot">Arkivér dette screenshot</string>
     <string name="photos_suggestedactions_archive_features_sketch">Arkivér denne tegning</string>
-    <string name="photos_suggestedactions_archive_help_dialog_title">Arkivér for at holde orden</string>
     <string name="photos_suggestedactions_ui_dismiss_button_description">Afvis</string>
     <string name="photos_suggestedrotations_cancel_discard_button">ANNULLER</string>
     <string name="photos_suggestedrotations_discard_changes_button">KASSÉR</string>
@@ -2727,13 +2725,13 @@ Du kan stadig se dem i album, søgeresultater og dit arkiv."</string>
     <string name="photos_vrviewer_v2_shared_label">VR-fremviser til 360-video</string>
     <string name="photos_vrviewer_v2_shared_load_error_message">Mediet kunne ikke indlæses</string>
     <string name="photos_welcomescreens_creations_subtitle">Få indhold, der er lavet af dine bedste fotos</string>
-    <string name="photos_welcomescreens_creations_title">Collager og film oprettet automatisk til dig</string>
+    <string name="photos_welcomescreens_creations_title">Collager og film oprettes automatisk til dig</string>
     <string name="photos_welcomescreens_done_button">udfør</string>
     <string name="photos_welcomescreens_next_button">næste</string>
     <string name="photos_welcomescreens_pgc_subtitle">Log ind på photos.google.com for at se dine fotos</string>
-    <string name="photos_welcomescreens_pgc_title">Få sikker adgang til dine fotos på alle enheder</string>
+    <string name="photos_welcomescreens_pgc_title">Få sikker adgang til dine fotos fra alle enheder</string>
     <string name="photos_welcomescreens_search_subtitle">Søg efter personer, steder og ting på dine fotos</string>
-    <string name="photos_welcomescreens_search_title">Fotos tagges automatisk, og der kan søges i dem</string>
+    <string name="photos_welcomescreens_search_title">Fotos tagges automatisk, og du kan søge efter dem</string>
     <string name="photos_welcomescreens_skip_button">spring over</string>
     <string name="picker_external_all_device_folders">Mapper på enheden</string>
     <string name="picker_external_all_photos">Fotos</string>

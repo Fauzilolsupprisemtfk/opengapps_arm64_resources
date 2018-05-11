@@ -94,7 +94,6 @@
     <string name="dream_no_photos">Nejsou vybrány žádné fotky.</string>
     <string name="go_to_playstore_button">Přejít do obchodu Play</string>
     <string name="go_to_vr_listeners_settings_button">Přejít na nastavení</string>
-    <string name="google_drive_setting_desc">Zobrazovat fotky a videa z Disku Google ve vaší knihovně Fotek. &lt;a href=help:>Další informace&lt;/a></string>
     <string name="google_drive_setting_title">Disk Google</string>
     <string name="home_menu_settings">Nastavení</string>
     <string name="image_action_shot_tooltip">Vytvořeno zobrazením pohybu ze série podobných fotek</string>
@@ -289,7 +288,7 @@ Sledování Historie polohy můžete kdykoli pozastavit, ale předchozí aktivit
     <string name="mr_cast_button_connecting">Tlačítko odesílání. Připojování</string>
     <string name="mr_cast_button_disconnected">Tlačítko odesílání. Odpojeno</string>
     <string name="mr_chooser_searching">Hledání zařízení</string>
-    <string name="mr_chooser_title">Odesílat do</string>
+    <string name="mr_chooser_title">Odeslat do zařízení</string>
     <string name="mr_controller_album_art">Obal alba</string>
     <string name="mr_controller_casting_screen">Odesílání obsahu obrazovky</string>
     <string name="mr_controller_close_description">Zavřít</string>
@@ -297,10 +296,10 @@ Sledování Historie polohy můžete kdykoli pozastavit, ale předchozí aktivit
     <string name="mr_controller_disconnect">Odpojit</string>
     <string name="mr_controller_expand_group">Rozbalit</string>
     <string name="mr_controller_no_info_available">Nejsou k dispozici žádné informace</string>
-    <string name="mr_controller_no_media_selected">Nebyla vybrána žádná média</string>
+    <string name="mr_controller_no_media_selected">Není vybrán žádný mediální obsah</string>
     <string name="mr_controller_pause">Pozastavit</string>
     <string name="mr_controller_play">Přehrát</string>
-    <string name="mr_controller_stop">Zastavit</string>
+    <string name="mr_controller_stop">Ukončit</string>
     <string name="mr_controller_stop_casting">Zastavit odesílání</string>
     <string name="mr_controller_volume_slider">Posuvník hlasitosti</string>
     <string name="mr_user_route_category_name">Zařízení</string>
@@ -686,7 +685,6 @@ Vaše fotky a videa však zůstanou ve vaší knihovně."</string>
     <string name="photos_burst_actionutils_set_primary_failure">Hlavní fotku nešlo nastavit. Zkuste to znovu.</string>
     <string name="photos_burst_fragment_cover_photos_indicator">Indikátor titulní série fotek</string>
     <string name="photos_burst_fragment_thumbnail_description">Náhled série fotek</string>
-    <string name="photos_buystorage_guno_strings_storage_upgraded_message">Úložiště Google bylo úspěšně upgradováno</string>
     <string name="photos_cameraassistant_archive_failed">Položku se nepodařilo archivovat</string>
     <string name="photos_cameraassistant_archive_success_content_description">Archivováno v aplikaci Fotky</string>
     <string name="photos_cameraassistant_archive_undo_content_description">Archivace byla vrácena</string>
@@ -727,6 +725,7 @@ Vaše fotky a videa však zůstanou ve vaší knihovně."</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_out_of_storage_description">Zálohování fotek a videí bylo zastaveno. Přikupte další úložiště, abyste mohli dál zálohovat v původní kvalitě, nebo v nastavení změňte velikost nahrávaných souborů.</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_out_of_storage_title">Došel vám úložný prostor na Googlu</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_title">Vaše úložiště Google je z %d %% plné</string>
+    <string name="photos_cloudstorage_buystorage_guno_strings_storage_upgraded_message">Úložiště Google bylo úspěšně upgradováno</string>
     <string name="photos_comments_adapteritem_comments_are_off">Komentáře jsou teď vypnuty</string>
     <string name="photos_comments_delete_comment_removed">Komentář byl odebrán</string>
     <string name="photos_comments_delete_confirm_button">Smazat komentář</string>
@@ -736,7 +735,7 @@ Vaše fotky a videa však zůstanou ve vaší knihovně."</string>
     <string name="photos_comments_popupmenu_delete_comment">Smazat komentář</string>
     <string name="photos_comments_popupmenu_report_abuse">Nahlásit zneužití</string>
     <string name="photos_comments_popupmenu_text_copied">Text byl zkopírován</string>
-    <string name="photos_comments_ui_comment_list_header">Komentáře</string>
+    <string name="photos_comments_ui_comment_list_header">Aktivita</string>
     <string name="photos_comments_ui_commentbar_add_photos_icon_content_desc">Přidat fotky do sdíleného alba</string>
     <string name="photos_comments_ui_commentbar_comments_off_hint_text">Komentáře jsou teď vypnuty</string>
     <string name="photos_comments_ui_commentbar_say_something_hint_text">Napište něco</string>
@@ -778,6 +777,7 @@ Vaše fotky a videa však zůstanou ve vaší knihovně."</string>
     <string name="photos_create_mediabundle_create_new_motion_failure">Při vytváření animace došlo k potížím. Zkuste to prosím znovu.</string>
     <string name="photos_create_mediabundle_create_new_movie">Film</string>
     <string name="photos_create_mediabundle_create_new_movie_failure">Při vytváření filmu došlo k potížím. Zkuste to prosím znovu.</string>
+    <string name="photos_create_mediabundle_create_new_new_album">Nové album</string>
     <string name="photos_create_mediabundle_create_new_photo_book">Fotokniha</string>
     <string name="photos_create_mediabundle_validation_error_avtype_other">Neplatný výběr.</string>
     <string name="photos_create_mediabundle_validation_error_avtype_static_images_only">Vyberte prosím několik fotek (%1$d až %2$d).</string>
@@ -806,6 +806,7 @@ Vaše fotky a videa však zůstanou ve vaší knihovně."</string>
     <string name="photos_create_viewbinder_shared_badge">Sdílené</string>
     <string name="photos_create_viewbinder_subtitle_divider">•</string>
     <string name="photos_create_viewbinder_title_add_to">Přidat do</string>
+    <string name="photos_create_viewbinder_title_all_albums">Všechna alba</string>
     <string name="photos_create_viewbinder_title_new">Vytvořit</string>
     <string name="photos_dataplan_free_backup_notification_description_airtel">Zálohujte si fotky přes bezplatná noční data Airtel Happy Hours</string>
     <string name="photos_dataplan_free_backup_notification_title_airtel">Bezplatné zálohování s Airtelem</string>
@@ -841,7 +842,7 @@ Vaše fotky a videa však zůstanou ve vaší knihovně."</string>
     <string name="photos_devicemanagement_assistant_description">Pokud ze zařízení odstraníte fotky, které už jsou bezpečně zazálohované, můžete uvolnit %1$s.</string>
     <string name="photos_devicemanagement_assistant_dialog_batch_description_text">Tyto položky byly bezpečně zazálohovány do vašeho účtu Google. Stále je budete moci kdykoli zobrazit.</string>
     <string name="photos_devicemanagement_assistant_dialog_batch_description_text_experiment1">Buďte bez obav, tyto fotky a videa byly bezpečně zazálohovány. Kdykoli je můžete zobrazit v aplikaci Fotky Google a na adrese photos.google.com.</string>
-    <string name="photos_devicemanagement_assistant_dialog_batch_subtitle">Uvolněte %s</string>
+    <string name="photos_devicemanagement_assistant_dialog_batch_subtitle">Uvolnit %s</string>
     <string name="photos_devicemanagement_assistant_dialog_batch_title">Uvolněte %s</string>
     <string name="photos_devicemanagement_assistant_dialog_batch_title_experiment2">Uvolnit v zařízení %s</string>
     <string name="photos_devicemanagement_assistant_dialog_negative_button_experiment1">Ne, díky</string>
@@ -864,7 +865,7 @@ Vaše fotky a videa však zůstanou ve vaší knihovně."</string>
     <string name="photos_devicesetup_betterbackuppromo_search_promo_message">Když zapnete zálohování, budou vaše fotky automaticky uspořádané a vyhledatelné</string>
     <string name="photos_devicesetup_betterbackuppromo_search_promo_title">Hledejte fotky rychleji</string>
     <string name="photos_devicesetup_conversion_sheet_account_picker_title">Vyberte účet</string>
-    <string name="photos_devicesetup_done_label">HOTOVO</string>
+    <string name="photos_devicesetup_done_label">POTVRDIT</string>
     <string name="photos_devicesetup_high_quality_storage_label">Velikost nahrávaných fotek: ve vysoké kvalitě (neomezený úložný prostor zdarma)</string>
     <string name="photos_devicesetup_high_quality_storage_subtitle">Skvělá kvalita obrazu při menší velikosti souboru</string>
     <string name="photos_devicesetup_high_quality_storage_title">Ve vysoké kvalitě (neomezený úložný prostor zdarma)</string>
@@ -897,6 +898,8 @@ Vaše fotky a videa však zůstanou ve vaší knihovně."</string>
     <string name="photos_devicesetup_resources_auto_backup">Zálohování a synchronizace</string>
     <string name="photos_devicesetup_resources_auto_backup_description">Zálohovat a synchronizovat s účtem %1$s</string>
     <string name="photos_devicesetup_resources_auto_backup_settings">Nastavení zálohování a synchronizace</string>
+    <string name="photos_devicesetup_resources_auto_backup_title_info">Volbu můžete kdykoli změnit v nastavení</string>
+    <string name="photos_devicesetup_resources_auto_backup_title_info_auto_backup_settings">Toto nastavení můžete kdykoli změnit</string>
     <string name="photos_devicesetup_sign_in">Přihlásit se</string>
     <string name="photos_devicesetup_sign_in_to_back_up">Přihlásit se a zálohovat</string>
     <string name="photos_devicesetup_turn_on">Zapnout</string>
@@ -1004,6 +1007,7 @@ není podporována."</string>
     <string name="photos_envelope_settings_hidename_show_email">Skrýt jméno a zobrazit místo něj e-mail</string>
     <string name="photos_envelope_settings_hidename_show_number">Skrýt jméno a zobrazovat místo něj číslo</string>
     <string name="photos_envelope_settings_load_error">Možnosti se nepodařilo načíst</string>
+    <string name="photos_envelope_settings_people_add_recipient_item_title">Pozvat lidi</string>
     <string name="photos_envelope_settings_people_block_person">Zablokovat uživatele</string>
     <string name="photos_envelope_settings_people_block_person_confirmation_message">Tento člověk vás nebude moci kontaktovat ve Fotkách Google a vy neuvidíte jeho fotky a komentáře ve Fotkách Google. Zablokování bude platit také v některých dalších službách Google, jako jsou Google+ a Hangouts. &lt;a href=help:>Další informace&lt;/a></string>
     <string name="photos_envelope_settings_people_block_person_confirmation_positive_button">Zablokovat</string>
@@ -1074,17 +1078,17 @@ není podporována."</string>
     <string name="photos_facegaia_optin_impl_picker_remove_dialog_title">Odebrat označení „Já“?</string>
     <string name="photos_facegaia_optin_impl_selected">Vybráno</string>
     <string name="photos_facegaia_optin_impl_title">Vyberte svůj obličej a získejte osobnější Fotky Google</string>
-    <string name="photos_favorites_promo_dialog_body_photo">Tuto fotku snadno najdete v albu Oblíbené</string>
-    <string name="photos_favorites_promo_dialog_body_video">Toto video snadno najdete v albu Oblíbené</string>
+    <string name="photos_favorites_promo_dialog_body_photo">Své oblíbené položky snadno najdete v Albech</string>
     <string name="photos_favorites_promo_dialog_negative_button">Hotovo</string>
     <string name="photos_favorites_promo_dialog_title">Přidáno mezi oblíbené</string>
-    <string name="photos_favorites_promo_dialogs_positive_button">Přejít na oblíbené</string>
+    <string name="photos_favorites_promo_dialogs_positive_button">Zobrazit oblíbené</string>
     <string name="photos_gridlayers_empty_state_caption">"Vyfoťte něco.
-Fotky a videa se objeví tady."</string>
+Fotky a videa se pak objeví tady."</string>
     <string name="photos_gridlayers_empty_state_title">Žádné fotky</string>
     <string name="photos_gridlayers_floating_action_button_zoom_in_content_description">přiblížit</string>
     <string name="photos_gridlayers_floating_action_button_zoom_out_content_description">oddálit</string>
     <string name="photos_hearts_photoui_error_toggling_heart">Srdíčko se nepodařilo přepnout</string>
+    <string name="photos_hearts_popupmenu_delete">Smazat</string>
     <string name="photos_hearts_popupmenu_error_toast">Lajk se nepodařilo odebrat.</string>
     <string name="photos_hearts_popupmenu_toast_deleted">Smazáno</string>
     <string name="photos_hearts_viewbinder_user_liked_a_photo">%s olajkoval(a) fotku</string>
@@ -1357,7 +1361,10 @@ Fotky a videa se objeví tady."</string>
     <string name="photos_movies_ui_clipeditor_impl_unmute">Zapnout zvuk</string>
     <string name="photos_movies_ui_clipeditor_impl_video_clip_content_description">Klip z videa</string>
     <string name="photos_notificationchannels_assistant_channel">Asistent</string>
-    <string name="photos_notificationchannels_backup_channel">Zálohování</string>
+    <string name="photos_notificationchannels_backup_alerts_channel">Upozornění</string>
+    <string name="photos_notificationchannels_backup_channels_group">Zálohování</string>
+    <string name="photos_notificationchannels_backup_progress_channel">Průběh</string>
+    <string name="photos_notificationchannels_backup_suggestions_channel">Návrhy</string>
     <string name="photos_notificationchannels_other_channel">Jiné</string>
     <string name="photos_notificationchannels_promotion_channel">Promoakce</string>
     <string name="photos_notificationchannels_sharing_channel">Sdílení</string>
@@ -1492,10 +1499,6 @@ Fotky a videa se objeví tady."</string>
     <string name="photos_partneraccount_assistant_promo_card_title">Šetřete čas, sdílejte automaticky</string>
     <string name="photos_partneraccount_assistant_promo_card_title_variant_1">Sdílejte svou knihovnu</string>
     <string name="photos_partneraccount_assistant_promo_card_title_variant_2">Přidejte partnerský účet</string>
-    <string name="photos_partneraccount_drive_share_warning_continue">Pokračovat</string>
-    <string name="photos_partneraccount_drive_share_warning_message">S uživatelem %s sdílíte fotky automaticky. Pokud budete pokračovat, fotky z Disku mohou být také automaticky sdíleny.</string>
-    <string name="photos_partneraccount_drive_share_warning_message_no_name">Sdílíte fotky automaticky pomocí sdílených knihoven. Pokud budete pokračovat, fotky z Disku mohou být také automaticky sdíleny.</string>
-    <string name="photos_partneraccount_drive_share_warning_title">Sdílet fotky s Disku?</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_reciprocate_title">Sdílet s uživatelem %1$s taky</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_reciprocate_title_no_name">Sdílet s partnerem taky</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_select">Vybrat fotky</string>
@@ -1776,12 +1779,12 @@ Automaticky."</string>
     <string name="photos_photobook_promotion_allphotos_subtext_1">na fotoknihy až do 27. listopadu včetně</string>
     <string name="photos_photobook_promotion_allphotos_subtext_2">na doručení fotoknih do 24. prosince</string>
     <string name="photos_photobook_promotion_free_shipping">Doprava zdarma</string>
-    <string name="photos_photobook_promotion_free_shipping_offer_details">Podrobnosti nabídky</string>
     <string name="photos_photobook_promotion_general_book_cover_title">Vzpomínky</string>
     <string name="photos_photobook_remediation_dialog_edit_selection_option">Upravit výběr</string>
     <string name="photos_photobook_remediation_dialog_view_preview_option">Zobrazit náhled knihy</string>
     <string name="photos_photobook_storefront_archive">Archivovat</string>
     <string name="photos_photobook_storefront_archive_failed">Objednávku se nepodařilo archivovat</string>
+    <string name="photos_photobook_storefront_banner_dismiss_description">Zavřít nabídku.</string>
     <string name="photos_photobook_storefront_buy_again">Objednat znovu</string>
     <string name="photos_photobook_storefront_buy_idential_book">Koupit stejnou knihu</string>
     <string name="photos_photobook_storefront_cancel_failure">Objednávku se nepodařilo zrušit</string>
@@ -1817,7 +1820,6 @@ Automaticky."</string>
     <string name="photos_photobook_storefront_order_printing_time_notice">Vaše objednávka bude vytištěna během 2–3 pracovních dní od data objednání</string>
     <string name="photos_photobook_storefront_past_orders">Předchozí objednávky</string>
     <string name="photos_photobook_storefront_promo_code">Slevový kód</string>
-    <string name="photos_photobook_storefront_promotion_general_book_cover_title">Vzpomínky</string>
     <string name="photos_photobook_storefront_quantity">Počet: %d</string>
     <string name="photos_photobook_storefront_quantity_description">počet: %d</string>
     <string name="photos_photobook_storefront_shipping">Dodací adresa</string>
@@ -2237,7 +2239,7 @@ Automaticky."</string>
     <string name="photos_search_menu_remove_results">Odebrat z výsledků…</string>
     <string name="photos_search_menu_suggestions_hide_action">Skrýt</string>
     <string name="photos_search_menu_suggestions_hide_show_people_menu">Skrýt a zobrazit lidi</string>
-    <string name="photos_search_peoplegroupingonboarding_existing_body_and_learn_more">Fotky Google nyní podporují technologii seskupování obličejů. Tuto funkci můžete kdykoli vypnout v nastavení. &lt;a href=help:>Další informace&lt;/a></string>
+    <string name="photos_search_peoplegroupingonboarding_existing_body_and_learn_more">Fotky Google teď podporují technologii seskupování obličejů. Tuto funkci můžete kdykoli vypnout v nastavení. &lt;a href=help:>Další informace&lt;/a></string>
     <string name="photos_search_peoplegroupingonboarding_existing_optin_allow_button">POVOLIT</string>
     <string name="photos_search_peoplegroupingonboarding_existing_optin_body_and_learn_more">Najděte rychle fotky, na nichž jsou vaši přátelé. &lt;a href=help:>Další informace&lt;/a></string>
     <string name="photos_search_peoplegroupingonboarding_existing_optin_body_and_learn_more_v2">Fotky s vašimi přáteli se automaticky seskupí podle podobných obličejů. &lt;a href=help:>Další informace&lt;/a></string>
@@ -2355,7 +2357,7 @@ Vaše knihovna byla nasdílena. Synchronizované položky mohou být dostupné t
     <string name="photos_settings_faceclustering_advanced_my_face_title">Obličej označený jako „Já“</string>
     <string name="photos_settings_faceclustering_advanced_pets_setting">Zobrazovat kromě lidí i domácí zvířata</string>
     <string name="photos_settings_faceclustering_advanced_setting_detailed_desc">Nechte si fotky s přáteli seskupovat podle podobných obličejů &lt;a href=help:>Další informace&lt;/a></string>
-    <string name="photos_settings_faceclustering_face_recognition_off_dialog_message">Všechny seskupené obličeje vašich přátel budou odstraněny</string>
+    <string name="photos_settings_faceclustering_face_recognition_off_dialog_message">Fotky nebudou uspořádané podle lidí ani se vám z nich nebudou vytvářet některé typy osobních filmů a koláží. Všechny změny, které jste u skupin obličejů provedli (například přidaná jména), budou trvale smazány.</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_negative_button">Nechat zapnuté</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_positive_button">Vypnout</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_title">Vypnout seskupování obličejů?</string>
@@ -2408,6 +2410,7 @@ Vaše knihovna byla nasdílena. Synchronizované položky mohou být dostupné t
     <string name="photos_setwallpaper_setas_wallpaper">Tapeta</string>
     <string name="photos_share_collaborative_toggle_error">Spolupráci se nepodařilo přepnout</string>
     <string name="photos_share_copylink_activity_name">Získat odkaz</string>
+    <string name="photos_share_direct_album_complete">Album bylo odesláno</string>
     <string name="photos_share_direct_complete_icu">{count,plural, =1{Fotka byla odeslána}few{Fotky byly odeslány}many{Fotky byly odeslány}other{Fotky byly odeslány}}</string>
     <string name="photos_share_direct_progress_icu">{count,plural, =1{Odesílání fotky…}few{Odesílání fotek…}many{Odesílání fotek…}other{Odesílání fotek…}}</string>
     <string name="photos_share_error">Při sdílení došlo k chybě.</string>
@@ -2527,8 +2530,6 @@ Vaše knihovna byla nasdílena. Synchronizované položky mohou být dostupné t
     <string name="photos_sharingtab_picker_impl_overflow_desc">Otevřít rozbalovací nabídku</string>
     <string name="photos_sharingtab_picker_impl_overflow_select_album">Vybrat existující album</string>
     <string name="photos_sharingtab_picker_impl_overflow_select_people">Vybrat lidi</string>
-    <string name="photos_sharingtab_picker_impl_recipient_name_separator">", "</string>
-    <string name="photos_sharingtab_picker_impl_recipients_hint_text">Zadejte jméno, telefonní číslo nebo e-mailovou adresu</string>
     <string name="photos_sharingtab_picker_impl_select_more_button">Vybrat více fotek</string>
     <string name="photos_sharingtab_picker_impl_select_recipient_text">Kdo to je?</string>
     <string name="photos_sharingtab_picker_impl_selected_label">Vybráno</string>
@@ -2547,10 +2548,8 @@ Vaše knihovna byla nasdílena. Synchronizované položky mohou být dostupné t
     <string name="photos_strings_undo_button">Vrátit zpět</string>
     <string name="photos_strings_untitled_title_text">Bez názvu</string>
     <string name="photos_suggestedactions_archive_confirm_dialog_title">Archivovat tuto fotku?</string>
-    <string name="photos_suggestedactions_archive_dialog_archive">Archivovat</string>
     <string name="photos_suggestedactions_archive_dialog_archive_photo">Archivovat fotku</string>
     <string name="photos_suggestedactions_archive_dialog_cancel">Zrušit</string>
-    <string name="photos_suggestedactions_archive_dialog_ok">OK</string>
     <string name="photos_suggestedactions_archive_dialog_text">"Skryjte si z knihovny fotky, které nechcete vidět, například snímky obrazovky nebo účtenky. 
 
 Stále je uvidíte v albech, výsledcích vyhledávání a archivu."</string>
@@ -2567,7 +2566,6 @@ Stále je uvidíte v albech, výsledcích vyhledávání a archivu."</string>
     <string name="photos_suggestedactions_archive_features_receipt">Archivovat tuto účtenku</string>
     <string name="photos_suggestedactions_archive_features_screenshot">Archivovat tento snímek obrazovky</string>
     <string name="photos_suggestedactions_archive_features_sketch">Archivovat tento nákres</string>
-    <string name="photos_suggestedactions_archive_help_dialog_title">Udělejte si ve fotkách pořádek pomocí archivace</string>
     <string name="photos_suggestedactions_ui_dismiss_button_description">Zavřít</string>
     <string name="photos_suggestedrotations_cancel_discard_button">ZRUŠIT</string>
     <string name="photos_suggestedrotations_discard_changes_button">ZAHODIT</string>
@@ -2626,7 +2624,7 @@ Stále je uvidíte v albech, výsledcích vyhledávání a archivu."</string>
     <string name="photos_trash_ui_delete_negative_button">Zrušit</string>
     <string name="photos_trash_ui_delete_positive_button">Smazat</string>
     <string name="photos_trash_ui_empty_state_caption">Položky jsou z koše po 60 dnech trvale odstraněny</string>
-    <string name="photos_trash_ui_empty_state_caption_default_and_non_default_gallery">Zobrazí se tady jen položky smazané ve Fotkách Google. Po 60 dnech budou trvale smazány.</string>
+    <string name="photos_trash_ui_empty_state_caption_default_and_non_default_gallery">Tady se zobrazí jen položky smazané ve Fotkách Google. Po 60 dnech budou trvale smazány.</string>
     <string name="photos_trash_ui_empty_state_default_gallery_help">Další informace</string>
     <string name="photos_trash_ui_empty_state_non_default_gallery_help">&lt;a href=help:>Hledáte položky z galerie nebo jiných aplikací?&lt;/a></string>
     <string name="photos_trash_ui_empty_state_title">Nemáte nic v koši</string>

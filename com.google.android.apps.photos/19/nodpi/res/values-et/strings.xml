@@ -81,7 +81,6 @@
     <string name="download_description">Google Photos</string>
     <string name="dream_accounts_header">Google’i kontod</string>
     <string name="dream_no_photos">Valitud ei ole ühtegi fotot.</string>
-    <string name="google_drive_setting_desc">"Kuva Google Drive'i fotod ja videod minu teenuse Photos kogus. &lt;a href=help:>Lisateave&lt;/a>"</string>
     <string name="google_drive_setting_title">Google Drive</string>
     <string name="home_menu_settings">Seaded</string>
     <string name="image_action_shot_tooltip">Loodi sarnaste fotode komplekti tegevuse näitamisega</string>
@@ -147,11 +146,11 @@ Saate asukohaajaloo igal ajal peatada, kuid see ei kustuta varasemaid tegevusi. 
     <string name="mr_controller_collapse_group">Ahendamine</string>
     <string name="mr_controller_disconnect">Katkesta ühendus</string>
     <string name="mr_controller_expand_group">Laiendamine</string>
-    <string name="mr_controller_no_info_available">Teave puudub</string>
+    <string name="mr_controller_no_info_available">Teave pole saadaval</string>
     <string name="mr_controller_no_media_selected">Meediat pole valitud</string>
     <string name="mr_controller_pause">Peatamine</string>
     <string name="mr_controller_play">Esitamine</string>
-    <string name="mr_controller_stop">Peata</string>
+    <string name="mr_controller_stop">Peatamine</string>
     <string name="mr_controller_stop_casting">Peata ülekandmine</string>
     <string name="mr_controller_volume_slider">Helitugevuse liugur</string>
     <string name="mr_user_route_category_name">Seadmed</string>
@@ -536,7 +535,6 @@ Teie fotod ja videod jäävad teie teeki alles."</string>
     <string name="photos_burst_actionutils_set_primary_failure">Ei saa põhifotoks määrata. Proovige uuesti.</string>
     <string name="photos_burst_fragment_cover_photos_indicator">Sarivõtte kaanefoto näidik</string>
     <string name="photos_burst_fragment_thumbnail_description">Sarivõtte pisipilt</string>
-    <string name="photos_buystorage_guno_strings_storage_upgraded_message">Google’i salvestusruumi täiendamine õnnestus</string>
     <string name="photos_cameraassistant_archive_failed">Üksust ei saa arhiivida</string>
     <string name="photos_cameraassistant_archive_success_content_description">Arhiivitud rakenduses Photos</string>
     <string name="photos_cameraassistant_archive_undo_content_description">Arhiivimine on tagasi võetud</string>
@@ -577,6 +575,7 @@ Teie fotod ja videod jäävad teie teeki alles."</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_out_of_storage_description">Fotode ja videote varundamine lõpetati. Ostke salvestusruumi, et jätkata varundamist algse kvaliteediga, või muutke üleslaadimise suurust menüüs Seaded.</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_out_of_storage_title">Teie Google’i salvestusruum on otsas</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_title">Teie Google’i salvestusruum on %d%% täis</string>
+    <string name="photos_cloudstorage_buystorage_guno_strings_storage_upgraded_message">Google’i salvestusruumi täiendamine õnnestus</string>
     <string name="photos_comments_adapteritem_comments_are_off">Kommentaarid on nüüd välja lülitatud</string>
     <string name="photos_comments_delete_comment_removed">Kommentaar on eemaldatud</string>
     <string name="photos_comments_delete_confirm_button">Kustuta kommentaar</string>
@@ -586,7 +585,7 @@ Teie fotod ja videod jäävad teie teeki alles."</string>
     <string name="photos_comments_popupmenu_delete_comment">Kustuta kommentaar</string>
     <string name="photos_comments_popupmenu_report_abuse">Teata väärkasutusest</string>
     <string name="photos_comments_popupmenu_text_copied">Tekst on kopeeritud</string>
-    <string name="photos_comments_ui_comment_list_header">Kommentaarid</string>
+    <string name="photos_comments_ui_comment_list_header">Tegevus</string>
     <string name="photos_comments_ui_commentbar_add_photos_icon_content_desc">Lisa fotosid jagatud albumisse</string>
     <string name="photos_comments_ui_commentbar_comments_off_hint_text">Kommentaarid on nüüd välja lülitatud</string>
     <string name="photos_comments_ui_commentbar_say_something_hint_text">Öelge midagi</string>
@@ -628,6 +627,7 @@ Teie fotod ja videod jäävad teie teeki alles."</string>
     <string name="photos_create_mediabundle_create_new_motion_failure">Animatsiooni loomisel tekkis probleem. Proovige uuesti.</string>
     <string name="photos_create_mediabundle_create_new_movie">Film</string>
     <string name="photos_create_mediabundle_create_new_movie_failure">Filmi loomisel tekkis probleem. Proovige uuesti.</string>
+    <string name="photos_create_mediabundle_create_new_new_album">Uus album</string>
     <string name="photos_create_mediabundle_create_new_photo_book">Fotoraamat</string>
     <string name="photos_create_mediabundle_validation_error_avtype_other">Sobimatu valik.</string>
     <string name="photos_create_mediabundle_validation_error_avtype_static_images_only">Valige %1$d kuni %2$d fotot.</string>
@@ -656,6 +656,7 @@ Teie fotod ja videod jäävad teie teeki alles."</string>
     <string name="photos_create_viewbinder_shared_badge">Jagatud</string>
     <string name="photos_create_viewbinder_subtitle_divider">•</string>
     <string name="photos_create_viewbinder_title_add_to">Lisa albumisse</string>
+    <string name="photos_create_viewbinder_title_all_albums">Kõik albumid</string>
     <string name="photos_create_viewbinder_title_new">Loo uus</string>
     <string name="photos_dataplan_free_backup_notification_description_airtel">Varundage fotosid, kasutades Airteli õnnetundide ajal tasuta andmesidet</string>
     <string name="photos_dataplan_free_backup_notification_title_airtel">Tasuta varundamine Airtelis</string>
@@ -690,7 +691,7 @@ Teie fotod ja videod jäävad teie teeki alles."</string>
     <string name="photos_devicemanagement_assistant_complete">%1$s on taastatud</string>
     <string name="photos_devicemanagement_assistant_description">Teil on võimalik vabastada %1$s ruumi, eemaldades sellest seadmest fotod, mis on juba turvaliselt varundatud</string>
     <string name="photos_devicemanagement_assistant_dialog_batch_description_text">Need üksused varundati turvaliselt teie Google’i kontole. Saate neid igal ajal vaadata.</string>
-    <string name="photos_devicemanagement_assistant_dialog_batch_description_text_experiment1">vaadata.</string>
+    <string name="photos_devicemanagement_assistant_dialog_batch_description_text_experiment1">Ärge muretsege. Need fotod ja videod on turvaliselt varundatud. Saate neid igal ajal rakenduses Google Photos või aadressil photos.google.com vaadata.</string>
     <string name="photos_devicemanagement_assistant_dialog_batch_subtitle">Vabastage %s</string>
     <string name="photos_devicemanagement_assistant_dialog_batch_title">Vabastage %s</string>
     <string name="photos_devicemanagement_assistant_dialog_batch_title_experiment2">Seadmes %s vabastamine</string>
@@ -704,7 +705,7 @@ Teie fotod ja videod jäävad teie teeki alles."</string>
     <string name="photos_devicesetup_back_up_your_photos_description">Saate fotosid privaatselt aadressile photos.google.com varundada, et näeksite neid kõigis oma seadmetes</string>
     <string name="photos_devicesetup_backup_and_sync_label">Varundamise ja sünkroonimise seaded</string>
     <string name="photos_devicesetup_backup_and_sync_mandatory_backup_label">Varundamise valikud</string>
-    <string name="photos_devicesetup_backup_is_free">Varundamine on kõrge kvaliteediga tasuta ja piiramatu</string>
+    <string name="photos_devicesetup_backup_is_free">Kõrge kvaliteediga varundamine on tasuta ja piiramatu</string>
     <string name="photos_devicesetup_backup_to_keep_safe">Varundage, et hoida oma fotosid ja videoid turvalises kohas</string>
     <string name="photos_devicesetup_backup_transferred_items_cancel_label">Mitte praegu</string>
     <string name="photos_devicesetup_backup_transferred_items_confirm_label">Varunda</string>
@@ -714,7 +715,7 @@ Teie fotod ja videod jäävad teie teeki alles."</string>
     <string name="photos_devicesetup_betterbackuppromo_search_promo_message">Teie fotod korraldatakse automaatselt ja need on otsitavad, kui lülitate varundamise sisse</string>
     <string name="photos_devicesetup_betterbackuppromo_search_promo_title">Fotode kiiremini leidmine</string>
     <string name="photos_devicesetup_conversion_sheet_account_picker_title">Valige konto</string>
-    <string name="photos_devicesetup_done_label">VALMIS</string>
+    <string name="photos_devicesetup_done_label">KINNITA</string>
     <string name="photos_devicesetup_high_quality_storage_label">Üleslaadimissuurus: kõrge kvaliteet (tasuta piiramatu salvestusruum)</string>
     <string name="photos_devicesetup_high_quality_storage_subtitle">Suurepärane visuaalne kvaliteet vähendatud failisuurusega</string>
     <string name="photos_devicesetup_high_quality_storage_title">Kõrge kvaliteet (tasuta piiramatu salvestusruum)</string>
@@ -747,6 +748,8 @@ Teie fotod ja videod jäävad teie teeki alles."</string>
     <string name="photos_devicesetup_resources_auto_backup">Varundamine ja sünkroonimine</string>
     <string name="photos_devicesetup_resources_auto_backup_description">Varunda ja sünkrooni %1$s</string>
     <string name="photos_devicesetup_resources_auto_backup_settings">Varundamise ja sünkroonimise seaded</string>
+    <string name="photos_devicesetup_resources_auto_backup_title_info">Saate seda igal ajal seadetes muuta</string>
+    <string name="photos_devicesetup_resources_auto_backup_title_info_auto_backup_settings">Saate seda igal ajal muuta</string>
     <string name="photos_devicesetup_sign_in">Logi sisse</string>
     <string name="photos_devicesetup_sign_in_to_back_up">Logige varundamiseks sisse</string>
     <string name="photos_devicesetup_turn_on">Lülita sisse</string>
@@ -785,7 +788,7 @@ Teie fotod ja videod jäävad teie teeki alles."</string>
     <string name="photos_drawermenu_remove_dialog_cancel">Hoia konto alles</string>
     <string name="photos_drawermenu_remove_dialog_caption">"%s
 
-Sellel Google’i kontol ei ole enam teenusele Google Photos juurdepääsu"</string>
+Pärast seda pole sellel Google’i kontol enam juurdepääsu teenusele Google Photos"</string>
     <string name="photos_drawermenu_remove_dialog_remove">Eemalda</string>
     <string name="photos_drawermenu_remove_dialog_title">Kas eemaldada aktiivne konto?</string>
     <string name="photos_drawermenu_util_add_account">Lisa konto</string>
@@ -854,6 +857,7 @@ määratletud videofaili puhul toetatud."</string>
     <string name="photos_envelope_settings_hidename_show_email">Peida nimi ja kuva selle asemel e-posti aadress</string>
     <string name="photos_envelope_settings_hidename_show_number">Peida nimi ja kuva selle asemel number</string>
     <string name="photos_envelope_settings_load_error">Valikute laadimisel tekkis viga</string>
+    <string name="photos_envelope_settings_people_add_recipient_item_title">Inimeste kutsumine</string>
     <string name="photos_envelope_settings_people_block_person">Blokeeri inimene</string>
     <string name="photos_envelope_settings_people_block_person_confirmation_message">Ta ei saa teiega teenuses Google Photos ühendust võtta ja te ei näe teenuses Google Photos tema fotosid ega kommentaare. Blokeerimine rakendub ka teatud teistes Google’i toodetes, nagu Google+ ja Hangouts. &lt;a href=help:>Lisateave&lt;/a></string>
     <string name="photos_envelope_settings_people_block_person_confirmation_positive_button">Blokeeri</string>
@@ -924,17 +928,17 @@ määratletud videofaili puhul toetatud."</string>
     <string name="photos_facegaia_optin_impl_picker_remove_dialog_title">Kas eemaldada silt „Mina”?</string>
     <string name="photos_facegaia_optin_impl_selected">Valitud</string>
     <string name="photos_facegaia_optin_impl_title">Isikupärastage teenust Google Photos, valides enda näo</string>
-    <string name="photos_favorites_promo_dialog_body_photo">Leiate selle foto hõlpsalt oma lemmikute albumist</string>
-    <string name="photos_favorites_promo_dialog_body_video">Leiate selle video hõlpsalt oma lemmikute albumist</string>
+    <string name="photos_favorites_promo_dialog_body_photo">Oma lemmikud leiate hõlpsalt albumite jaotisest</string>
     <string name="photos_favorites_promo_dialog_negative_button">Valmis</string>
     <string name="photos_favorites_promo_dialog_title">Lemmikutesse lisatud!</string>
-    <string name="photos_favorites_promo_dialogs_positive_button">Ava lemmikud</string>
+    <string name="photos_favorites_promo_dialogs_positive_button">Kuva lemmikud</string>
     <string name="photos_gridlayers_empty_state_caption">"Jäädvustage pilt.
 Fotod ja videod kuvatakse siin."</string>
     <string name="photos_gridlayers_empty_state_title">Fotosid pole</string>
     <string name="photos_gridlayers_floating_action_button_zoom_in_content_description">sissesuumimine</string>
     <string name="photos_gridlayers_floating_action_button_zoom_out_content_description">väljasuumimine</string>
     <string name="photos_hearts_photoui_error_toggling_heart">Südame lisamisel/eemaldamisel tekkis probleem</string>
+    <string name="photos_hearts_popupmenu_delete">Kustuta</string>
     <string name="photos_hearts_popupmenu_error_toast">Valiku Meeldib eemaldamisel tekkis probleem.</string>
     <string name="photos_hearts_popupmenu_toast_deleted">Kustutatud</string>
     <string name="photos_hearts_viewbinder_user_liked_a_photo">%s märkis foto meeldivaks</string>
@@ -1207,7 +1211,10 @@ Fotod ja videod kuvatakse siin."</string>
     <string name="photos_movies_ui_clipeditor_impl_unmute">Tühista vaigistus</string>
     <string name="photos_movies_ui_clipeditor_impl_video_clip_content_description">Videoklipp</string>
     <string name="photos_notificationchannels_assistant_channel">Assistent</string>
-    <string name="photos_notificationchannels_backup_channel">Varundamine</string>
+    <string name="photos_notificationchannels_backup_alerts_channel">Teatised</string>
+    <string name="photos_notificationchannels_backup_channels_group">Varundamine</string>
+    <string name="photos_notificationchannels_backup_progress_channel">Edenemine</string>
+    <string name="photos_notificationchannels_backup_suggestions_channel">Soovitused</string>
     <string name="photos_notificationchannels_other_channel">Muu</string>
     <string name="photos_notificationchannels_promotion_channel">Pakkumised</string>
     <string name="photos_notificationchannels_sharing_channel">Jagamine</string>
@@ -1342,10 +1349,6 @@ teisaldades selle arhiivi."</string>
     <string name="photos_partneraccount_assistant_promo_card_title">Automaatne jagamine, mis säästab aega</string>
     <string name="photos_partneraccount_assistant_promo_card_title_variant_1">Jagage oma kogu</string>
     <string name="photos_partneraccount_assistant_promo_card_title_variant_2">Lisage partnerikonto</string>
-    <string name="photos_partneraccount_drive_share_warning_continue">Jätka</string>
-    <string name="photos_partneraccount_drive_share_warning_message">Jagate fotosid automaatselt kasutajaga %s. Kui valite Jätka, võidakse Drive’i fotosid automaatselt jagada.</string>
-    <string name="photos_partneraccount_drive_share_warning_message_no_name">Jagate fotosid automaatselt, kasutades jagatud kogusid. Kui jätkate, võidakse Drive’i fotosid automaatselt jagada.</string>
-    <string name="photos_partneraccount_drive_share_warning_title">Kas jagada fotosid Drive’ist?</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_reciprocate_title">Jaga kasutajaga %1$s vastu</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_reciprocate_title_no_name">Jaga partneriga vastu</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_select">Valige fotod</string>
@@ -1626,12 +1629,12 @@ Automaatselt."</string>
     <string name="photos_photobook_promotion_allphotos_subtext_1">fotoraamatute puhul kuni küberesmaspäeva lõpuni</string>
     <string name="photos_photobook_promotion_allphotos_subtext_2">fotoraamatu kohaletoimetamiseks hiljemalt 24. detsembriks</string>
     <string name="photos_photobook_promotion_free_shipping">Tasuta kohaletoimetamine</string>
-    <string name="photos_photobook_promotion_free_shipping_offer_details">Pakkumise üksikasjad</string>
     <string name="photos_photobook_promotion_general_book_cover_title">Mälestused</string>
     <string name="photos_photobook_remediation_dialog_edit_selection_option">Muuda valikut</string>
     <string name="photos_photobook_remediation_dialog_view_preview_option">Kuva raamatu eelvaade</string>
     <string name="photos_photobook_storefront_archive">Arhiivi</string>
     <string name="photos_photobook_storefront_archive_failed">Tellimuse arhiivimine ebaõnnestus</string>
+    <string name="photos_photobook_storefront_banner_dismiss_description">Saate pakkumisest loobuda.</string>
     <string name="photos_photobook_storefront_buy_again">Telli uuesti</string>
     <string name="photos_photobook_storefront_buy_idential_book">Osta identne raamat</string>
     <string name="photos_photobook_storefront_cancel_failure">Tellimuse tühistamine ebaõnnestus</string>
@@ -1667,7 +1670,6 @@ Automaatselt."</string>
     <string name="photos_photobook_storefront_order_printing_time_notice">Teie tellimus prinditakse 2–3 tööpäeva jooksul pärast tellimuse esitamise kuupäeva</string>
     <string name="photos_photobook_storefront_past_orders">Varasemad tellimused</string>
     <string name="photos_photobook_storefront_promo_code">Sooduskood</string>
-    <string name="photos_photobook_storefront_promotion_general_book_cover_title">Mälestused</string>
     <string name="photos_photobook_storefront_quantity">Kogus: %d</string>
     <string name="photos_photobook_storefront_quantity_description">kogus: %d</string>
     <string name="photos_photobook_storefront_shipping">Kohaletoimetamisaadress</string>
@@ -2205,7 +2207,7 @@ Teie kogu on jagatud. Sünkroonitud üksused võivad ka kasutajale %s saadaval o
     <string name="photos_settings_faceclustering_advanced_my_face_title">Nägu, millel on silt „Mina”</string>
     <string name="photos_settings_faceclustering_advanced_pets_setting">Kuva lemmikloomad koos inimestega</string>
     <string name="photos_settings_faceclustering_advanced_setting_detailed_desc">Näete fotosid oma lemmikinimestest grupeerituna sarnaste nägude alusel &lt;a href=help:>Lisateave&lt;/a></string>
-    <string name="photos_settings_faceclustering_face_recognition_off_dialog_message">Kõik teie lemmikinimeste näogrupid eemaldatakse</string>
+    <string name="photos_settings_faceclustering_face_recognition_off_dialog_message">Teie fotosid ei korraldata inimeste alusel ja neist ei tehta isikupärastatud filme ega kollaaže. Näogruppidele tehtud muudatused, nagu lisatud nimed, kustutatakse jäädavalt.</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_negative_button">Hoia sisselülitatuna</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_positive_button">Lülita välja</string>
     <string name="photos_settings_faceclustering_face_recognition_off_dialog_title">Kas lülitada nägude grupeerimine välja?</string>
@@ -2258,6 +2260,7 @@ Teie kogu on jagatud. Sünkroonitud üksused võivad ka kasutajale %s saadaval o
     <string name="photos_setwallpaper_setas_wallpaper">Taustapilt</string>
     <string name="photos_share_collaborative_toggle_error">Koostöö sisse-/väljalülitamisel tekkis probleem</string>
     <string name="photos_share_copylink_activity_name">Hangi link</string>
+    <string name="photos_share_direct_album_complete">Album on saadetud</string>
     <string name="photos_share_direct_complete_icu">{count,plural, =1{Foto on saadetud}other{Fotod on saadetud}}</string>
     <string name="photos_share_direct_progress_icu">{count,plural, =1{Foto saatmine…}other{Fotode saatmine…}}</string>
     <string name="photos_share_error">Jagamisel tekkis viga.</string>
@@ -2377,8 +2380,6 @@ Teie kogu on jagatud. Sünkroonitud üksused võivad ka kasutajale %s saadaval o
     <string name="photos_sharingtab_picker_impl_overflow_desc">Ava ületäitemenüü</string>
     <string name="photos_sharingtab_picker_impl_overflow_select_album">Valige olemasolev album</string>
     <string name="photos_sharingtab_picker_impl_overflow_select_people">Valige inimesed</string>
-    <string name="photos_sharingtab_picker_impl_recipient_name_separator">", "</string>
-    <string name="photos_sharingtab_picker_impl_recipients_hint_text">Sisestage nimi, telefoninumber või e-posti aadress</string>
     <string name="photos_sharingtab_picker_impl_select_more_button">Valige veel fotosid</string>
     <string name="photos_sharingtab_picker_impl_select_recipient_text">Kes see on?</string>
     <string name="photos_sharingtab_picker_impl_selected_label">Valitud</string>
@@ -2397,10 +2398,8 @@ Teie kogu on jagatud. Sünkroonitud üksused võivad ka kasutajale %s saadaval o
     <string name="photos_strings_undo_button">Võta tagasi</string>
     <string name="photos_strings_untitled_title_text">Pealkirjata</string>
     <string name="photos_suggestedactions_archive_confirm_dialog_title">Kas arhiivida see foto?</string>
-    <string name="photos_suggestedactions_archive_dialog_archive">Arhiivi</string>
     <string name="photos_suggestedactions_archive_dialog_archive_photo">Arhiivi foto</string>
     <string name="photos_suggestedactions_archive_dialog_cancel">Tühista</string>
-    <string name="photos_suggestedactions_archive_dialog_ok">OK</string>
     <string name="photos_suggestedactions_archive_dialog_text">"Saate peita oma kogust fotod, mida te ei soovi näha, nagu ekraanipildid või kviitungid. 
 
 Näete neid endiselt albumites, otsingutulemustes ja oma arhiivis."</string>
@@ -2417,7 +2416,6 @@ Näete neid endiselt albumites, otsingutulemustes ja oma arhiivis."</string>
     <string name="photos_suggestedactions_archive_features_receipt">Arhiivi see kviitung</string>
     <string name="photos_suggestedactions_archive_features_screenshot">Arhiivi see ekraanipilt</string>
     <string name="photos_suggestedactions_archive_features_sketch">Arhiivi see visand</string>
-    <string name="photos_suggestedactions_archive_help_dialog_title">Arhiivige üksusi, et tagada kord</string>
     <string name="photos_suggestedactions_ui_dismiss_button_description">Loobu</string>
     <string name="photos_suggestedrotations_cancel_discard_button">TÜHISTA</string>
     <string name="photos_suggestedrotations_discard_changes_button">LOOBU</string>
@@ -2444,7 +2442,7 @@ Näete neid endiselt albumites, otsingutulemustes ja oma arhiivis."</string>
     <string name="photos_tabbar_assistant_label">Abimees</string>
     <string name="photos_tabbar_people_grouping_album_promo_subtitle">Tulge peagi tagasi, et näha oma inimesi korraldatuna</string>
     <string name="photos_tabbar_people_grouping_album_promo_title">Leidke albumites oma inimesi</string>
-    <string name="photos_tabbar_photos_label">Photos</string>
+    <string name="photos_tabbar_photos_label">Fotod</string>
     <string name="photos_tabbar_sharing_label">Jagamine</string>
     <string name="photos_theme_google_photos">Fotod</string>
     <string name="photos_theme_logo_lockup_first">Google</string>
