@@ -4,6 +4,7 @@
     <item type="id" name="account_instructions_button" />
     <item type="id" name="action_bar_activity_content" />
     <item type="id" name="action_bar_menu_item_add_chat_participants" />
+    <item type="id" name="action_bar_menu_item_edit_chat_name" />
     <item type="id" name="action_bar_menu_item_mute_or_unmute_chat" />
     <item type="id" name="action_bar_menu_item_remove_chat" />
     <item type="id" name="action_bar_menu_item_view_chat_participants" />
@@ -58,6 +59,7 @@
     <item type="id" name="controls_overlay_menu_vr" />
     <item type="id" name="create_group" />
     <item type="id" name="dummy_placeholder" />
+    <item type="id" name="elements_image" />
     <item type="id" name="elephants_command_long_press" />
     <item type="id" name="elephants_command_tap" />
     <item type="id" name="elephants_command_touch_delegate" />
@@ -67,10 +69,12 @@
     <item type="id" name="elephants_view_release_function" />
     <item type="id" name="elephants_view_yoga_node" />
     <item type="id" name="exo_artwork" />
+    <item type="id" name="exo_buffering" />
     <item type="id" name="exo_content_frame" />
     <item type="id" name="exo_controller" />
     <item type="id" name="exo_controller_placeholder" />
     <item type="id" name="exo_duration" />
+    <item type="id" name="exo_error_message" />
     <item type="id" name="exo_ffwd" />
     <item type="id" name="exo_next" />
     <item type="id" name="exo_overlay" />
@@ -337,10 +341,6 @@
     <item type="id" name="snackbar" />
     <item type="id" name="loading_layout" />
     <item type="id" name="lists" />
-    <item type="id" name="body" />
-    <item type="id" name="link_container" />
-    <item type="id" name="link_copy_button" />
-    <item type="id" name="link" />
     <item type="id" name="webview" />
     <item type="id" name="close" />
     <item type="id" name="album_header" />
@@ -394,6 +394,9 @@
     <item type="id" name="play" />
     <item type="id" name="cancel" />
     <item type="id" name="paused_text" />
+    <item type="id" name="autonav_title" />
+    <item type="id" name="autonav_toggle_title" />
+    <item type="id" name="autonav_toggle" />
     <item type="id" name="body_text" />
     <item type="id" name="secondary_button" />
     <item type="id" name="access_restriction_background" />
@@ -706,6 +709,8 @@
     <item type="id" name="comment_avatar_heart_overlay" />
     <item type="id" name="comment_action_item" />
     <item type="id" name="header_text" />
+    <item type="id" name="caption_text" />
+    <item type="id" name="caption_divider" />
     <item type="id" name="comment_prologue" />
     <item type="id" name="comment" />
     <item type="id" name="send_button" />
@@ -835,6 +840,8 @@
     <item type="id" name="short_byline" />
     <item type="id" name="long_byline" />
     <item type="id" name="bottom_title_standalone_red_badge" />
+    <item type="id" name="compact_station_item" />
+    <item type="id" name="station_thumbnail" />
     <item type="id" name="video" />
     <item type="id" name="headline" />
     <item type="id" name="view_count" />
@@ -872,6 +879,7 @@
     <item type="id" name="connection_shelf" />
     <item type="id" name="top_divider" />
     <item type="id" name="connection_shelf_header" />
+    <item type="id" name="link" />
     <item type="id" name="connections_list" />
     <item type="id" name="bottom_divider" />
     <item type="id" name="empty_contents" />
@@ -898,7 +906,6 @@
     <item type="id" name="bottom_sheet_header_large_text" />
     <item type="id" name="bottom_sheet_header_medium_text" />
     <item type="id" name="video_divider" />
-    <item type="id" name="overlay" />
     <item type="id" name="top_bar" />
     <item type="id" name="menu_container" />
     <item type="id" name="conversation_reply_container" />
@@ -1069,6 +1076,7 @@
     <item type="id" name="expire_button" />
     <item type="id" name="expire_metadata_button" />
     <item type="id" name="randomize_expiration_time_button" />
+    <item type="id" name="force_refresh_player_response_button" />
     <item type="id" name="logs_scroll_view" />
     <item type="id" name="logs_text_view" />
     <item type="id" name="encryption_key_text" />
@@ -1231,6 +1239,8 @@
     <item type="id" name="vertical_drawer_stub" />
     <item type="id" name="horizontal_drawer_stub" />
     <item type="id" name="edit_activity_layout" />
+    <item type="id" name="edit_chat_name_layout" />
+    <item type="id" name="edit_chat_name" />
     <item type="id" name="edit_conversation_name_text_input_layout" />
     <item type="id" name="edit_conversation_name_edit_text" />
     <item type="id" name="view_animator" />
@@ -1298,6 +1308,8 @@
     <item type="id" name="reply_count" />
     <item type="id" name="action_menu_button" />
     <item type="id" name="season_picker" />
+    <item type="id" name="exo_track_selection_view" />
+    <item type="id" name="icon_frame" />
     <item type="id" name="link_text" />
     <item type="id" name="link_icon" />
     <item type="id" name="message_text" />
@@ -1487,6 +1499,7 @@
     <item type="id" name="audio_indicator" />
     <item type="id" name="countdown_badge" />
     <item type="id" name="inline_muted_metadata" />
+    <item type="id" name="subscribe_section" />
     <item type="id" name="watched_overlay_stub" />
     <item type="id" name="offline_thumbnail_badge" />
     <item type="id" name="resume_playback_overlay" />
@@ -1505,6 +1518,7 @@
     <item type="id" name="layout_container" />
     <item type="id" name="foreground" />
     <item type="id" name="scroll_view" />
+    <item type="id" name="body" />
     <item type="id" name="branding_watermark" />
     <item type="id" name="promo_website_expanded" />
     <item type="id" name="promo_website_thumbnail_expanded" />
@@ -1590,9 +1604,7 @@
     <item type="id" name="live_chat_fragment_container" />
     <item type="id" name="live_stream_controls" />
     <item type="id" name="chat_hidden_indicator" />
-    <item type="id" name="zoom_indicator_container" />
     <item type="id" name="muted_indicator" />
-    <item type="id" name="zoom_indicator" />
     <item type="id" name="choose_filter_view_wrapper" />
     <item type="id" name="choose_filter_view" />
     <item type="id" name="controls_menu" />
@@ -1737,6 +1749,8 @@
     <item type="id" name="license_activity_textview" />
     <item type="id" name="license_menu_fragment_container" />
     <item type="id" name="license_list" />
+    <item type="id" name="master_layout" />
+    <item type="id" name="detail_layout" />
     <item type="id" name="licenses_webview" />
     <item type="id" name="add_to_playlist_button" />
     <item type="id" name="toggle_button_icon" />
@@ -1777,16 +1791,25 @@
     <item type="id" name="live_chat_vem_text" />
     <item type="id" name="live_chat_vem_button" />
     <item type="id" name="purchase_flow_container" />
+    <item type="id" name="purchase_flow_body_container" />
+    <item type="id" name="purchase_flow_header_container" />
     <item type="id" name="help_button" />
-    <item type="id" name="ticker_duration" />
+    <item type="id" name="heading_title" />
+    <item type="id" name="heading_description" />
+    <item type="id" name="purchase_flow_message_meta_container" />
     <item type="id" name="message_ticker_duration" />
     <item type="id" name="character_count" />
+    <item type="id" name="purchase_flow_input_panel_container" />
     <item type="id" name="message_header" />
     <item type="id" name="author_image" />
+    <item type="id" name="author_name_and_price_container" />
     <item type="id" name="author_name" />
     <item type="id" name="purchase_amount" />
+    <item type="id" name="input_panel_done_button" />
     <item type="id" name="message_body" />
     <item type="id" name="edit_message" />
+    <item type="id" name="input_panel_character_count" />
+    <item type="id" name="purchase_flow_message_settings_container" />
     <item type="id" name="currency_symbol" />
     <item type="id" name="buy_price" />
     <item type="id" name="currency_code" />
@@ -1802,6 +1825,7 @@
     <item type="id" name="live_chat_third_party_link_button_container" />
     <item type="id" name="emoji_container" />
     <item type="id" name="emoji" />
+    <item type="id" name="purchase_flow_header_bottom_line" />
     <item type="id" name="live_chat_overlay_frame" />
     <item type="id" name="more_comments_icon_container" />
     <item type="id" name="top_line" />
@@ -1936,6 +1960,9 @@
     <item type="id" name="message_thumbnail" />
     <item type="id" name="message_subtext" />
     <item type="id" name="message_button_layout" />
+    <item type="id" name="metadata_badge" />
+    <item type="id" name="badge_icon" />
+    <item type="id" name="badge_label" />
     <item type="id" name="loading_view" />
     <item type="id" name="container_upcoming" />
     <item type="id" name="center_upcoming" />
@@ -2167,6 +2194,8 @@
     <item type="id" name="legend_free" />
     <item type="id" name="preview_video_image" />
     <item type="id" name="preview_text" />
+    <item type="id" name="seekbar_value" />
+    <item type="id" name="switchWidget" />
     <item type="id" name="prefilled_input" />
     <item type="id" name="prefilled_input_text" />
     <item type="id" name="edit_icon" />
@@ -2255,16 +2284,22 @@
     <item type="id" name="text_color_picker" />
     <item type="id" name="text_background_color_toggle" />
     <item type="id" name="text_background_color_toggle_image" />
+    <item type="id" name="seekBar" />
     <item type="id" name="text_input_container" />
     <item type="id" name="add_text_input" />
     <item type="id" name="reel_container" />
+    <item type="id" name="reel_camera_circle_time_limit_progress_bar" />
+    <item type="id" name="reel_camera_outer_white_ring" />
+    <item type="id" name="reel_camera_record_button_touch_area" />
+    <item type="id" name="reel_camera_record_button" />
+    <item type="id" name="reel_camera_record_button_animation_inner_red" />
     <item type="id" name="reel_camera_layout" />
     <item type="id" name="reel_camera_view_container" />
     <item type="id" name="reel_camera_view" />
     <item type="id" name="reel_camera_focus_overlay" />
     <item type="id" name="reel_camera_time_limit_progress_bar" />
     <item type="id" name="reel_switch_camera_button" />
-    <item type="id" name="gallery_button" />
+    <item type="id" name="reel_camera_gallery_button" />
     <item type="id" name="reel_camera_header" />
     <item type="id" name="reel_camera_close" />
     <item type="id" name="reel_camera_flashlight_on_off" />
@@ -2273,10 +2308,9 @@
     <item type="id" name="reel_gallery_back" />
     <item type="id" name="reel_gallery_title" />
     <item type="id" name="reel_media_grid_fragment_container" />
-    <item type="id" name="reel_camera_record_button_touch_area" />
-    <item type="id" name="reel_camera_record_button" />
+    <item type="id" name="reel_camera_effects_button" />
+    <item type="id" name="reel_camera_settings" />
     <item type="id" name="reel_camera_record_button_animation_outer_white" />
-    <item type="id" name="reel_camera_record_button_animation_inner_red" />
     <item type="id" name="upload_edit_video_container" />
     <item type="id" name="video_view_container" />
     <item type="id" name="video_view" />
@@ -2316,6 +2350,8 @@
     <item type="id" name="trash_container" />
     <item type="id" name="trash_bg" />
     <item type="id" name="trash_icon" />
+    <item type="id" name="reel_post_button_layout" />
+    <item type="id" name="reel_post_button_background" />
     <item type="id" name="reel_item_container" />
     <item type="id" name="reel_item_channel_avatar" />
     <item type="id" name="reel_item_title" />
@@ -2401,6 +2437,7 @@
     <item type="id" name="reel_welcome_content" />
     <item type="id" name="reel_welcome_learn_more" />
     <item type="id" name="reel_welcome_continue" />
+    <item type="id" name="reel_avatar" />
     <item type="id" name="reel_avatar_view_status" />
     <item type="id" name="reel_channel_avatar" />
     <item type="id" name="reel_rounded_video_avatar" />
@@ -2435,6 +2472,7 @@
     <item type="id" name="rental_activation_message" />
     <item type="id" name="reply_box_author" />
     <item type="id" name="attachment" />
+    <item type="id" name="attachment_title" />
     <item type="id" name="remove_attachment_button" />
     <item type="id" name="attachment_button" />
     <item type="id" name="report_form_top_level_item" />
@@ -2470,6 +2508,9 @@
     <item type="id" name="search_filter_upload_date" />
     <item type="id" name="search_filter_duration" />
     <item type="id" name="features_cloud" />
+    <item type="id" name="cloud" />
+    <item type="id" name="dialog_spinners" />
+    <item type="id" name="dialog_clouds" />
     <item type="id" name="search_type_icon" />
     <item type="id" name="edit_suggestion" />
     <item type="id" name="section_heading" />
@@ -2515,6 +2556,7 @@
     <item type="id" name="set_list" />
     <item type="id" name="label_start" />
     <item type="id" name="label_end" />
+    <item type="id" name="overlay" />
     <item type="id" name="copy_url_button" />
     <item type="id" name="share_target_container" />
     <item type="id" name="promo_image" />
@@ -2524,9 +2566,6 @@
     <item type="id" name="select_message" />
     <item type="id" name="native_share_checkbox" />
     <item type="id" name="native_share_checkbox_text" />
-    <item type="id" name="autonav_toggle_title" />
-    <item type="id" name="autonav_title" />
-    <item type="id" name="autonav_toggle" />
     <item type="id" name="merchant_name" />
     <item type="id" name="product_container" />
     <item type="id" name="product_text_container" />
@@ -2570,6 +2609,7 @@
     <item type="id" name="red_badge_label" />
     <item type="id" name="ypc_badge_discount" />
     <item type="id" name="ypc_badge_text" />
+    <item type="id" name="sticker" />
     <item type="id" name="sticker_catalog" />
     <item type="id" name="sticker_catalog_container" />
     <item type="id" name="sticker_catalog_back" />
@@ -2614,6 +2654,7 @@
     <item type="id" name="interstitial_logo" />
     <item type="id" name="interstitial_text" />
     <item type="id" name="interstitial_start_button" />
+    <item type="id" name="swipe_to_camera_container" />
     <item type="id" name="player_overlays_container" />
     <item type="id" name="title_and_summary" />
     <item type="id" name="switch_button" />
@@ -2747,7 +2788,6 @@
     <item type="id" name="context" />
     <item type="id" name="top_padding" />
     <item type="id" name="text_red_badge_container" />
-    <item type="id" name="subscribe_section" />
     <item type="id" name="video_thumbnail_sub" />
     <item type="id" name="bottom_margin" />
     <item type="id" name="live_chat_button" />
@@ -2771,6 +2811,8 @@
     <item type="id" name="continue_button" />
     <item type="id" name="dont_have_viewer" />
     <item type="id" name="notice" />
+    <item type="id" name="hours_picker" />
+    <item type="id" name="minutes_picker" />
     <item type="id" name="card_content" />
     <item type="id" name="extra_padding" />
     <item type="id" name="album_layout" />
@@ -2845,6 +2887,7 @@
     <item type="id" name="mdx_fragment_container" />
     <item type="id" name="pivot_bar" />
     <item type="id" name="slim_status_bar_browse_container" />
+    <item type="id" name="navigation_bar_divider_frame" />
     <item type="id" name="slim_status_bar_player_container" />
     <item type="id" name="fab" />
     <item type="id" name="watch_info_watch_list" />
@@ -2900,12 +2943,8 @@
     <item type="id" name="expanded_offers" />
     <item type="id" name="offer_info_header" />
     <item type="id" name="additional_offer_info_list_container" />
-    <item type="id" name="badge_icon" />
-    <item type="id" name="perk_check" />
     <item type="id" name="perk_description" />
-    <item type="id" name="item_list_bullet" />
     <item type="id" name="perk_title" />
-    <item type="id" name="toggle_expand_icon" />
     <item type="id" name="perk_public_description" />
     <item type="id" name="sponsors_only_icon" />
     <item type="id" name="perk_sponsors_description" />
