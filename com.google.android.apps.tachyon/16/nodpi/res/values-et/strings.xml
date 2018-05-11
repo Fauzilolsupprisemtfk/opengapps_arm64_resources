@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">Sissetulev videokõne kasutajalt %1$s. Vastamiseks pühkige kahe sõrmega üles. Keeldumiseks pühkige kahe sõrmega alla.</string>
     <string name="action_send_feedback">Abi ja tagasiside</string>
     <string name="action_settings">Seaded</string>
+    <string name="adjust_bokeh_effect_blur_button">Reguleeri teravussügavuse efekti hägusust</string>
     <string name="ahd_alert_dismiss_action_label">Loobu</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">Lülita video välja</string>
     <string name="ahd_alert_low_battery_description">Kauem rääkimiseks lülitage video välja</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">TÜHISTA</string>
     <string name="blocked_numbers_unblock_yes">DEBLOKEERI</string>
     <string name="blocked_numbers_undo">VÕTA TAGASI</string>
-    <string name="bokeh_effect_off">Teravussügavuse efekt on väljas</string>
-    <string name="bokeh_effect_on">Teravussügavuse efekt on sees</string>
+    <string name="bokeh_effect_blur_heavy">Tugevalt hägustatud</string>
+    <string name="bokeh_effect_blur_light">Kergelt hägustatud</string>
+    <string name="bokeh_effect_blur_medium">Keskmiselt hägustatud</string>
+    <string name="bokeh_effect_blur_off">Hägusus on väljas</string>
     <string name="button_disconnect_call">Lõpeta kõne</string>
     <string name="button_re_record_message">Salvesta uuesti</string>
     <string name="button_record_message">Salvesta</string>
@@ -132,7 +135,9 @@
     <string name="contact_action_send_voice_message">Saada häälsõnum</string>
     <string name="contact_action_video_call">Alusta videokõnet</string>
     <string name="contact_action_view_message">Kuva sõnum</string>
-    <string name="contact_card_audio_action_detail_format">Duo häälkõne – %1$s</string>
+    <string name="contact_badge_seen">Nähtud</string>
+    <string name="contact_badge_sent">Saadetud</string>
+    <string name="contact_card_audio_action_detail_format">Duo häälkõne numbrile %1$s</string>
     <string name="contact_card_audio_action_summary_text">Duo häälkõne</string>
     <string name="contact_card_video_action_detail_format">Duo videokõne numbrile %1$s</string>
     <string name="contact_card_video_action_summary_text">Duo videokõne</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">Tagasilüke</string>
     <string name="knock_knock_setting_activity_label">Funktsioon Koputus</string>
     <string name="learn_more_link">Lisateave</string>
+    <string name="leave_audio_message_snackbar_text">Jätke kasutajale %s häälsõnum</string>
+    <string name="leave_message_snackbar_action_text">Salvesta</string>
     <string name="leave_message_text">Jätke sõnum.</string>
+    <string name="leave_video_message_snackbar_text">Jätke kasutajale %s videosõnum</string>
     <string name="link_gaia_account_unexpected_error">Ootamatu viga. Kontrollige ühendust.</string>
     <string name="link_gaia_choose_account">Vali konto</string>
     <string name="link_gaia_choose_account_title">Valige konto</string>
@@ -447,8 +455,6 @@ Funktsioon Koputus töötab siis, kui olete selle inimese kontaktide hulgas, kel
     <string name="switch_camera_button_back">Lülita tagakaamerale</string>
     <string name="switch_camera_button_front">Lülita esikaamerale</string>
     <string name="toggle_screensharing">Ekraani jagamise alustamine või peatamine</string>
-    <string name="turn_bokeh_effect_off_button">Lülita teravussügavuse efekt välja</string>
-    <string name="turn_bokeh_effect_on_button">Lülita teravussügavuse efekt sisse</string>
     <string name="unblock_user_failed">Kasutajat ei saa deblokeerida. Kontrollige ühendust ja proovige uuesti.</string>
     <string name="unblocked_notification_description">Nautige oma piirkonnas kvaliteetseid kõnesid ja täiustatud teenust</string>
     <string name="unblocked_notification_title">Duo on parem kui kunagi varem</string>
@@ -496,7 +502,6 @@ Funktsioon Koputus on sisse lülitatud"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">Privaatsuseeskirjad</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">Teenusetingimused</string>
     <string name="welcome_activity_intro_primary">Kvaliteetsed videokõned</string>
-    <string name="welcome_activity_menu_select_label">Ülevaatamiseks valimine</string>
     <string name="welcome_activity_menu_select_privacy">"Google'i privaatsuseeskirjad"</string>
     <string name="welcome_activity_menu_select_tos">"Google'i teenusetingimused"</string>
     <string name="welcome_activity_silent_reg_unreg_abort">EI SOOVI</string>

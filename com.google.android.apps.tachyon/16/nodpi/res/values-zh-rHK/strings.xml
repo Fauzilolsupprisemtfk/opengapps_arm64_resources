@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">來自%1$s的視像通話。兩指向上滑動即可接聽，兩指向下滑動則可拒絕。</string>
     <string name="action_send_feedback">說明和意見反映</string>
     <string name="action_settings">設定</string>
+    <string name="adjust_bokeh_effect_blur_button">調整散景效果模糊</string>
     <string name="ahd_alert_dismiss_action_label">關閉</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">關閉視像</string>
     <string name="ahd_alert_low_battery_description">若要延長通話時間，建議您關閉視像</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">取消</string>
     <string name="blocked_numbers_unblock_yes">解除封鎖</string>
     <string name="blocked_numbers_undo">復原</string>
-    <string name="bokeh_effect_off">已關閉散景效果</string>
-    <string name="bokeh_effect_on">已開啟散景效果</string>
+    <string name="bokeh_effect_blur_heavy">重度模糊</string>
+    <string name="bokeh_effect_blur_light">輕度模糊</string>
+    <string name="bokeh_effect_blur_medium">中度模糊</string>
+    <string name="bokeh_effect_blur_off">關閉模糊效果</string>
     <string name="button_disconnect_call">結束通話</string>
     <string name="button_re_record_message">重錄</string>
     <string name="button_record_message">錄製</string>
@@ -132,6 +135,8 @@
     <string name="contact_action_send_voice_message">傳送語音訊息</string>
     <string name="contact_action_video_call">開始視像通話</string>
     <string name="contact_action_view_message">查看訊息</string>
+    <string name="contact_badge_seen">已閱讀</string>
+    <string name="contact_badge_sent">已傳送</string>
     <string name="contact_card_audio_action_detail_format">Duo 語音通話 %1$s</string>
     <string name="contact_card_audio_action_summary_text">Duo 語音通話</string>
     <string name="contact_card_video_action_detail_format">Duo 視像通話 %1$s</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">Backspace</string>
     <string name="knock_knock_setting_activity_label">看看是誰</string>
     <string name="learn_more_link">瞭解詳情</string>
+    <string name="leave_audio_message_snackbar_text">留下語音訊息給%s</string>
+    <string name="leave_message_snackbar_action_text">錄製</string>
     <string name="leave_message_text">請留言。</string>
+    <string name="leave_video_message_snackbar_text">留下視像訊息給%s</string>
     <string name="link_gaia_account_unexpected_error">發生未預期的錯誤，請檢查連線。</string>
     <string name="link_gaia_choose_account">選擇帳戶</string>
     <string name="link_gaia_choose_account_title">選擇帳戶</string>
@@ -446,8 +454,6 @@
     <string name="switch_camera_button_back">切換為後置鏡頭</string>
     <string name="switch_camera_button_front">切換為前置鏡頭</string>
     <string name="toggle_screensharing">開始或停止分享畫面</string>
-    <string name="turn_bokeh_effect_off_button">關閉散景效果</string>
-    <string name="turn_bokeh_effect_on_button">開啟散景效果</string>
     <string name="unblock_user_failed">無法解除封鎖使用者。請檢查連線，然後再試一次。</string>
     <string name="unblocked_notification_description">改善您當地的通話品質，並推出更進步的服務</string>
     <string name="unblocked_notification_title">Duo 功能更上一層樓</string>
@@ -495,7 +501,6 @@
     <string name="welcome_activity_intro_agreements_clickable_privacy">私隱權政策</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">服務條款</string>
     <string name="welcome_activity_intro_primary">優質視像通話</string>
-    <string name="welcome_activity_menu_select_label">選取以查看</string>
     <string name="welcome_activity_menu_select_privacy">Google 私隱權政策</string>
     <string name="welcome_activity_menu_select_tos">Google 服務條款</string>
     <string name="welcome_activity_silent_reg_unreg_abort">不要取消註冊</string>

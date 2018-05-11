@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">Prichádzajúci videohovor od kontaktu %1$s. Prejdením dvomi prstami nahor ho môžete prijať, prejdením dvomi prstami nadol zase odmietnuť.</string>
     <string name="action_send_feedback">Pomocník a spätná väzba</string>
     <string name="action_settings">Nastavenia</string>
+    <string name="adjust_bokeh_effect_blur_button">Upraviť rozmazanie efektu bokeh</string>
     <string name="ahd_alert_dismiss_action_label">Zrušiť</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">Vypnúť video</string>
     <string name="ahd_alert_low_battery_description">Ak sa chcete rozprávať dlhšie, skúste vypnúť video</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">ZRUŠIŤ</string>
     <string name="blocked_numbers_unblock_yes">ODBLOKOVAŤ</string>
     <string name="blocked_numbers_undo">SPÄŤ</string>
-    <string name="bokeh_effect_off">Efekt bokeh je vypnutý</string>
-    <string name="bokeh_effect_on">Efekt bokeh je zapnutý</string>
+    <string name="bokeh_effect_blur_heavy">Silné rozmazanie</string>
+    <string name="bokeh_effect_blur_light">Mierne rozmazanie</string>
+    <string name="bokeh_effect_blur_medium">Stredné rozmazanie</string>
+    <string name="bokeh_effect_blur_off">Vypnuté rozmazanie</string>
     <string name="button_disconnect_call">Zložiť</string>
     <string name="button_re_record_message">Nahrať znova</string>
     <string name="button_record_message">Nahrávať</string>
@@ -132,10 +135,12 @@
     <string name="contact_action_send_voice_message">Odoslať hlasovú správu</string>
     <string name="contact_action_video_call">Začať videohovor</string>
     <string name="contact_action_view_message">Zobraziť správu</string>
+    <string name="contact_badge_seen">Zobrazené</string>
+    <string name="contact_badge_sent">Odoslané</string>
     <string name="contact_card_audio_action_detail_format">Hlasový hovor v aplikácii Duo na číslo %1$s</string>
     <string name="contact_card_audio_action_summary_text">Hlasový hovor v aplikácii Duo</string>
-    <string name="contact_card_video_action_detail_format">Videohovor Duo %1$s</string>
-    <string name="contact_card_video_action_summary_text">Videohovor Duo</string>
+    <string name="contact_card_video_action_detail_format">Videohovor v aplikácii Duo na číslo %1$s</string>
+    <string name="contact_card_video_action_summary_text">Videohovor v aplikácii Duo</string>
     <string name="contact_item_description">Zavolať kontaktu %1$s na číslo %2$s</string>
     <string name="contact_item_description_clip">Prehrať správu od kontaktu %1$s</string>
     <string name="contact_item_description_invite">Pozvať kontakt %1$s na používanie aplikácie Duo</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">Backspace</string>
     <string name="knock_knock_setting_activity_label">Klop klop</string>
     <string name="learn_more_link">Ďalšie informácie</string>
+    <string name="leave_audio_message_snackbar_text">Zanechajte kontaktu %s hlasovú správu</string>
+    <string name="leave_message_snackbar_action_text">Nahrať</string>
     <string name="leave_message_text">Zanechajte správu.</string>
+    <string name="leave_video_message_snackbar_text">Zanechajte kontaktu %s videosprávu</string>
     <string name="link_gaia_account_unexpected_error">Vyskytla sa neočakávaná chyba, skontrolujte pripojenie.</string>
     <string name="link_gaia_choose_account">Vybrať účet</string>
     <string name="link_gaia_choose_account_title">Vyberte účet</string>
@@ -447,8 +455,6 @@ Funkcia Klop klop funguje, ak vás má osoba, ktorej voláte, vo svojich kontakt
     <string name="switch_camera_button_back">Prepnúť na zadnú kameru</string>
     <string name="switch_camera_button_front">Prepnúť na prednú kameru</string>
     <string name="toggle_screensharing">Spustiť alebo zastaviť zdieľanie obrazovky</string>
-    <string name="turn_bokeh_effect_off_button">Vypnúť efekt bokeh</string>
-    <string name="turn_bokeh_effect_on_button">Zapnúť efekt bokeh</string>
     <string name="unblock_user_failed">Používateľ sa nedá odblokovať. Skontrolujte pripojenie a skúste to znova.</string>
     <string name="unblocked_notification_description">Vychutnajte si hovory vo vyššej kvalite a vylepšené služby aj vo svojej oblasti</string>
     <string name="unblocked_notification_title">Aplikácia Duo je teraz lepšia ako kedykoľvek predtým</string>
@@ -496,7 +502,6 @@ Je zapnutá funkcia Klop klop"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">Pravidlá ochrany súkromia</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">Zmluvné podmienky</string>
     <string name="welcome_activity_intro_primary">Videohovory vo vysokej kvalite</string>
-    <string name="welcome_activity_menu_select_label">Vybrať na posúdenie</string>
     <string name="welcome_activity_menu_select_privacy">Pravidlá ochrany súkromia spoločnosti Google</string>
     <string name="welcome_activity_menu_select_tos">Zmluvné podmienky Google</string>
     <string name="welcome_activity_silent_reg_unreg_abort">RADŠEJ NIE</string>

@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">Inkomende video-oproep van %1$s af. Tweevingerswiep opwaarts om te antwoord. Tweevingerswiep afwaarts om te weier.</string>
     <string name="action_send_feedback">Hulp en terugvoer</string>
     <string name="action_settings">Instellings</string>
+    <string name="adjust_bokeh_effect_blur_button">Pas die Bokeh-effek se wasigheid aan</string>
     <string name="ahd_alert_dismiss_action_label">Weier</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">Skakel video af</string>
     <string name="ahd_alert_low_battery_description">Skakel jou video af as jy langer wil praat</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">KANSELLEER</string>
     <string name="blocked_numbers_unblock_yes">DEBLOKKEER</string>
     <string name="blocked_numbers_undo">ONTDOEN</string>
-    <string name="bokeh_effect_off">Bokeh-effek is af</string>
-    <string name="bokeh_effect_on">Bokeh-effek is aan</string>
+    <string name="bokeh_effect_blur_heavy">Donker wasigheid</string>
+    <string name="bokeh_effect_blur_light">Ligte wasigheid</string>
+    <string name="bokeh_effect_blur_medium">Medium wasigheid</string>
+    <string name="bokeh_effect_blur_off">Wasigheid af</string>
     <string name="button_disconnect_call">Lui af</string>
     <string name="button_re_record_message">Neem weer op</string>
     <string name="button_record_message">Neem op</string>
@@ -132,9 +135,11 @@
     <string name="contact_action_send_voice_message">Stuur stemboodskap</string>
     <string name="contact_action_video_call">Begin video-oproep</string>
     <string name="contact_action_view_message">Bekyk boodskap</string>
-    <string name="contact_card_audio_action_detail_format">Duo-stemoproep na %1$s</string>
+    <string name="contact_badge_seen">Gesien</string>
+    <string name="contact_badge_sent">Het gestuur</string>
+    <string name="contact_card_audio_action_detail_format">Duo-stembel %1$s</string>
     <string name="contact_card_audio_action_summary_text">Duo-stemoproep</string>
-    <string name="contact_card_video_action_detail_format">Duo-video-oproep %1$s</string>
+    <string name="contact_card_video_action_detail_format">Duo-videobel %1$s</string>
     <string name="contact_card_video_action_summary_text">Duo-video-oproep</string>
     <string name="contact_item_description">Bel %1$s by %2$s</string>
     <string name="contact_item_description_clip">Speel boodskap van %1$s af</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">Backspace</string>
     <string name="knock_knock_setting_activity_label">Tok-tok</string>
     <string name="learn_more_link">Kom meer te wete</string>
+    <string name="leave_audio_message_snackbar_text">"Los 'n stemboodskap vir %s"</string>
+    <string name="leave_message_snackbar_action_text">Neem op</string>
     <string name="leave_message_text">"Los 'n boodskap."</string>
+    <string name="leave_video_message_snackbar_text">"Los 'n videoboodskap vir %s"</string>
     <string name="link_gaia_account_unexpected_error">Onverwagse fout. Gaan asseblief jou verbinding na.</string>
     <string name="link_gaia_choose_account">Kies rekening</string>
     <string name="link_gaia_choose_account_title">"Kies 'n rekening"</string>
@@ -447,8 +455,6 @@ Tok-tok werk as die persoon wat jy bel jou as 'n kontak het. Jy sal ook net vide
     <string name="switch_camera_button_back">Wissel na agterste kamera</string>
     <string name="switch_camera_button_front">Wissel na voorste kamera</string>
     <string name="toggle_screensharing">Begin of hou op om skerm te deel</string>
-    <string name="turn_bokeh_effect_off_button">Skakel Bokeh-effek af</string>
-    <string name="turn_bokeh_effect_on_button">Skakel Bokeh-effek aan</string>
     <string name="unblock_user_failed">Kan nie gebruiker deblokkeer nie. Gaan asseblief die verbinding na en probeer weer.</string>
     <string name="unblocked_notification_description">Geniet oproepe van hoër gehalte en verbeterde diens in jou area</string>
     <string name="unblocked_notification_title">Duo is nou beter as ooit</string>
@@ -496,7 +502,6 @@ Tok-tok is aan"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">Privaatheidsbeleid</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">Diensbepalings</string>
     <string name="welcome_activity_intro_primary">Hoëgehalte-video-oproepe</string>
-    <string name="welcome_activity_menu_select_label">Kies om te lees</string>
     <string name="welcome_activity_menu_select_privacy">Google se privaatheidsbeleid</string>
     <string name="welcome_activity_menu_select_tos">Google se diensbepalings</string>
     <string name="welcome_activity_silent_reg_unreg_abort">TOEMAAR</string>

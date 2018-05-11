@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">Dolazni video poziv od %1$s. Prevucite nagore pomoću dva prsta da biste odgovorili. Prevucite nadole pomoću dva prsta da biste odbili.</string>
     <string name="action_send_feedback">Pomoć i povratne informacije</string>
     <string name="action_settings">Podešavanja</string>
+    <string name="adjust_bokeh_effect_blur_button">Podesite zamagljivanje efekta Boke</string>
     <string name="ahd_alert_dismiss_action_label">Odbaci</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">Isključi video</string>
     <string name="ahd_alert_low_battery_description">Probajte da isključite video da biste razgovarali duže</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">OTKAŽI</string>
     <string name="blocked_numbers_unblock_yes">DEBLOKIRAJ</string>
     <string name="blocked_numbers_undo">OPOZOVI</string>
-    <string name="bokeh_effect_off">Efekat Boke je isključen</string>
-    <string name="bokeh_effect_on">Efekat Boke je uključen</string>
+    <string name="bokeh_effect_blur_heavy">Jako zamagljivanje</string>
+    <string name="bokeh_effect_blur_light">Blago zamagljivanje</string>
+    <string name="bokeh_effect_blur_medium">Srednje zamagljivanje</string>
+    <string name="bokeh_effect_blur_off">Zamagljivanje je isključeno</string>
     <string name="button_disconnect_call">Prekini vezu</string>
     <string name="button_re_record_message">Ponovno snimajte</string>
     <string name="button_record_message">Snimi</string>
@@ -132,10 +135,12 @@
     <string name="contact_action_send_voice_message">Pošalji govornu poruku</string>
     <string name="contact_action_video_call">Započni video poziv</string>
     <string name="contact_action_view_message">Prikaži poruku</string>
+    <string name="contact_badge_seen">Pregledano je</string>
+    <string name="contact_badge_sent">Poslato je</string>
     <string name="contact_card_audio_action_detail_format">Uputi Duo audio poziv na %1$s</string>
-    <string name="contact_card_audio_action_summary_text">Duo audio poziv</string>
-    <string name="contact_card_video_action_detail_format">Duo video poziv %1$s</string>
-    <string name="contact_card_video_action_summary_text">Video poziv u Duo-u</string>
+    <string name="contact_card_audio_action_summary_text">Uputi Duo audio poziv</string>
+    <string name="contact_card_video_action_detail_format">Uputi Duo video poziv na %1$s</string>
+    <string name="contact_card_video_action_summary_text">Uputi Duo video poziv</string>
     <string name="contact_item_description">Pozovite %1$s na %2$s</string>
     <string name="contact_item_description_clip">Reprodukuj poruku od: %1$s</string>
     <string name="contact_item_description_invite">Pozovite %1$s da koristi Duo</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">Backspace</string>
     <string name="knock_knock_setting_activity_label">Kuc kuc</string>
     <string name="learn_more_link">Saznajte više</string>
+    <string name="leave_audio_message_snackbar_text">Ostavite govornu poruku za: %s</string>
+    <string name="leave_message_snackbar_action_text">Snimi</string>
     <string name="leave_message_text">Ostavite poruku.</string>
+    <string name="leave_video_message_snackbar_text">Ostavite video poruku za: %s</string>
     <string name="link_gaia_account_unexpected_error">Neočekivana greška. Proverite vezu.</string>
     <string name="link_gaia_choose_account">Izaberite nalog</string>
     <string name="link_gaia_choose_account_title">Izaberite nalog</string>
@@ -446,8 +454,6 @@ Kuc kuc funkcioniše ako ste u kontaktima osobe koju zovete. Isto tako, vi ćete
     <string name="switch_camera_button_back">Prebacite na zadnju kameru</string>
     <string name="switch_camera_button_front">Prebacite na prednju kameru</string>
     <string name="toggle_screensharing">Započnite ili zaustavite deljenje ekrana</string>
-    <string name="turn_bokeh_effect_off_button">Isključite efekat Boke</string>
-    <string name="turn_bokeh_effect_on_button">Uključite efekat Boke</string>
     <string name="unblock_user_failed">Nismo uspeli da odblokiramo korisnika. Proverite vezu i probajte ponovo.</string>
     <string name="unblocked_notification_description">Uživajte u kvalitetnijim pozivima i poboljšanoj usluzi u vašoj ovlasti</string>
     <string name="unblocked_notification_title">Duo je bolji nego ikad</string>
@@ -495,7 +501,6 @@ Kuc kuc je uključen."</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">Politiku privatnosti</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">Uslove korišćenja usluge</string>
     <string name="welcome_activity_intro_primary">Video pozivi visokog kvaliteta</string>
-    <string name="welcome_activity_menu_select_label">Izaberite da biste pregledali</string>
     <string name="welcome_activity_menu_select_privacy">Google politika privatnosti</string>
     <string name="welcome_activity_menu_select_tos">Google uslovi korišćenja usluge</string>
     <string name="welcome_activity_silent_reg_unreg_abort">IPAK NE</string>

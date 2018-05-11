@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">%1$s ਤੋਂ ਇਨਕਮਿੰਗ ਵੀਡੀਓ ਕਾਲ। ਜਵਾਬ ਦੇਣ ਲਈ ਦੋ ਉਂਗਲਾਂ ਨਾਲ ਉੱਪਰ ਵੱਲ ਸਵਾਈਪ ਕਰੋ। ਅਸਵੀਕਾਰ ਕਰਨ ਲਈ ਦੋ ਉਂਗਲਾਂ ਨਾਲ ਹੇਠਾਂ ਨੂੰ ਸਵਾਈਪ ਕਰੋ।</string>
     <string name="action_send_feedback">ਮਦਦ ਅਤੇ ਪ੍ਰਤੀਕਰਮ</string>
     <string name="action_settings">ਸੈਟਿੰਗਾਂ</string>
+    <string name="adjust_bokeh_effect_blur_button">ਬੋਕੇਹ ਧੁੰਦਲੇ ਪ੍ਰਭਾਵ ਨੂੰ ਵਿਵਸਥਿਤ ਕਰੋ</string>
     <string name="ahd_alert_dismiss_action_label">ਖਾਰਜ ਕਰੋ</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">ਵੀਡੀਓ ਬੰਦ ਕਰੋ</string>
     <string name="ahd_alert_low_battery_description">ਜ਼ਿਆਦਾ ਦੇਰ ਗੱਲ ਕਰਨ ਲਈ, ਆਪਣੇ ਵੀਡੀਓ ਬੰਦ ਕਰਕੇ ਦੇਖੋ</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">ਰੱਦ ਕਰੋ</string>
     <string name="blocked_numbers_unblock_yes">ਅਣਬਲੌਕ ਕਰੋ</string>
     <string name="blocked_numbers_undo">ਅਣਕੀਤਾ ਕਰੋ</string>
-    <string name="bokeh_effect_off">ਬੋਕ ਪ੍ਰਭਾਵ ਬੰਦ ਹੈ</string>
-    <string name="bokeh_effect_on">ਬੋਕ ਪ੍ਰਭਾਵ ਚਾਲੂ ਹੈ</string>
+    <string name="bokeh_effect_blur_heavy">ਭਾਰੀ ਧੁੰਦਲਾ</string>
+    <string name="bokeh_effect_blur_light">ਹਲਕਾ ਧੁੰਦਲਾ</string>
+    <string name="bokeh_effect_blur_medium">ਦਰਮਿਆਨਾ ਧੁੰਦਲਾ</string>
+    <string name="bokeh_effect_blur_off">ਧੁੰਦਲਾ ਮੋਡ ਬੰਦ</string>
     <string name="button_disconnect_call">ਕਾਲ ਸਮਾਪਤ ਕਰੋ</string>
     <string name="button_re_record_message">ਮੁੜ-ਰਿਕਾਰਡ ਕਰੋ</string>
     <string name="button_record_message">ਰਿਕਾਰਡ ਕਰੋ</string>
@@ -132,6 +135,8 @@
     <string name="contact_action_send_voice_message">ਅਵਾਜ਼ੀ ਸੁਨੇਹਾ ਭੇਜੋ</string>
     <string name="contact_action_video_call">ਵੀਡੀਓ ਕਾਲ ਸ਼ੁਰੂ ਕਰੋ</string>
     <string name="contact_action_view_message">ਸੁਨੇਹਾ ਦੇਖੋ</string>
+    <string name="contact_badge_seen">ਦੇਖਿਆ ਗਿਆ</string>
+    <string name="contact_badge_sent">ਭੇਜਿਆ ਗਿਆ</string>
     <string name="contact_card_audio_action_detail_format">Duo ਅਵਾਜ਼ੀ ਕਾਲ %1$s</string>
     <string name="contact_card_audio_action_summary_text">Duo ਅਵਾਜ਼ੀ ਕਾਲ</string>
     <string name="contact_card_video_action_detail_format">Duo ਵੀਡੀਓ ਕਾਲ %1$s</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">ਬੈਕਸਪੇਸ</string>
     <string name="knock_knock_setting_activity_label">ਠਕ ਠਕ</string>
     <string name="learn_more_link">ਹੋਰ ਜਾਣੋ</string>
+    <string name="leave_audio_message_snackbar_text">%s ਦੇ ਲਈ ਕੋਈ ਅਵਾਜ਼ੀ ਸੁਨੇਹਾ ਦਿਓ</string>
+    <string name="leave_message_snackbar_action_text">ਰਿਕਾਰਡ ਕਰੋ</string>
     <string name="leave_message_text">ਕੋਈ ਸੁਨੇਹਾ ਦਿਓ।</string>
+    <string name="leave_video_message_snackbar_text">%s ਦੇ ਲਈ ਕੋਈ ਵੀਡੀਓ ਸੁਨੇਹਾ ਦਿਓ</string>
     <string name="link_gaia_account_unexpected_error">ਅਚਾਨਕ ਗੜਬੜ, ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਕਨੈਕਸ਼ਨ ਦੀ ਜਾਂਚ ਕਰੋ।</string>
     <string name="link_gaia_choose_account">ਖਾਤਾ ਚੁਣੋ</string>
     <string name="link_gaia_choose_account_title">ਇੱਕ ਖਾਤਾ ਚੁਣੋ</string>
@@ -446,8 +454,6 @@
     <string name="switch_camera_button_back">"ਬਦਲਕੇ ਪਿਛਲੇ ਕੈਮਰੇ 'ਤੇ ਜਾਓ"</string>
     <string name="switch_camera_button_front">"ਬਦਲਕੇ ਮੂਹਰਲੇ ਕੈਮਰੇ 'ਤੇ ਜਾਓ"</string>
     <string name="toggle_screensharing">ਸਕ੍ਰੀਨ ਸਾਂਝਾਕਰਨ ਸ਼ੁਰੂ ਕਰੋ ਜਾਂ ਬੰਦ ਕਰੋ</string>
-    <string name="turn_bokeh_effect_off_button">ਬੋਕ ਪ੍ਰਭਾਵ ਬੰਦ ਕਰੋ</string>
-    <string name="turn_bokeh_effect_on_button">ਬੋਕ ਪ੍ਰਭਾਵ ਚਾਲੂ ਕਰੋ</string>
     <string name="unblock_user_failed">ਵਰਤੋਂਕਾਰ ਨੂੰ ਅਣਬਲਾਕ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ। ਕਿਰਪਾ ਕਰਕੇ ਕਨੈਕਸ਼ਨ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
     <string name="unblocked_notification_description">ਆਪਣੇ ਖੇਤਰ ਵਿੱਚ ਉੱਚ-ਗੁਣਵੱਤਾ ਵਾਲੀਆਂ ਕਾਲਾਂ ਅਤੇ ਬਿਹਤਰ ਸੇਵਾ ਦਾ ਆਨੰਦ ਮਾਣੋ</string>
     <string name="unblocked_notification_title">Duo ਪਹਿਲਾਂ ਨਾਲੋਂ ਬਿਹਤਰ ਹੈ</string>
@@ -495,7 +501,6 @@
     <string name="welcome_activity_intro_agreements_clickable_privacy">ਪਰਦੇਦਾਰੀ ਨੀਤੀ</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">ਸੇਵਾ ਦੀਆਂ ਮਦਾਂ</string>
     <string name="welcome_activity_intro_primary">ਉੱਚ ਗੁਣਵੱਤਾ ਵੀਡੀਓ ਕਾਲਿੰਗ</string>
-    <string name="welcome_activity_menu_select_label">ਸਮੀਖਿਆ ਲਈ ਚੁਣੋ</string>
     <string name="welcome_activity_menu_select_privacy">Google ਦੀ ਪਰਦੇਦਾਰੀ ਨੀਤੀ</string>
     <string name="welcome_activity_menu_select_tos">Google ਦੀਆਂ ਸੇਵਾ ਦੀਆਂ ਮਦਾਂ</string>
     <string name="welcome_activity_silent_reg_unreg_abort">ਕੋਈ ਗੱਲ ਨਹੀਂ</string>

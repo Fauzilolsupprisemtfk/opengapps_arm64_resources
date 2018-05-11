@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">Ikholi engenayo kusukela ku-%1$s. Ukuswayipha kweminwe emibili ukuze uphendule. Ukuswayipha kweminwe emibili phansi ukuze wenqabe.</string>
     <string name="action_send_feedback">Usizo nempendulo</string>
     <string name="action_settings">Izilungiselelo</string>
+    <string name="adjust_bokeh_effect_blur_button">Lungisa ukufiphala komphumela we-Bokeh</string>
     <string name="ahd_alert_dismiss_action_label">Cashisa</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">Vala ividiyo</string>
     <string name="ahd_alert_low_battery_description">Khuluma isikhathi eside, zama ukuvala ividiyo yakho</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">KHANSELA</string>
     <string name="blocked_numbers_unblock_yes">VULELA</string>
     <string name="blocked_numbers_undo">HLEHLISA</string>
-    <string name="bokeh_effect_off">Umphumela we-Bokeh uvaliwe</string>
-    <string name="bokeh_effect_on">Umphumela we-Bokeh uvuliwe</string>
+    <string name="bokeh_effect_blur_heavy">Ukufiphala okuningi</string>
+    <string name="bokeh_effect_blur_light">Ukufiphala okukhanyayo</string>
+    <string name="bokeh_effect_blur_medium">Ukufiphala okumaphakathi</string>
+    <string name="bokeh_effect_blur_off">Ukufiphala kuvaliwe</string>
     <string name="button_disconnect_call">Vala ikholi</string>
     <string name="button_re_record_message">Phinda urekhode</string>
     <string name="button_record_message">Rekhoda</string>
@@ -132,7 +135,9 @@
     <string name="contact_action_send_voice_message">Thumela umlayezo wezwi</string>
     <string name="contact_action_video_call">Qalisa ikholi yevidiyo</string>
     <string name="contact_action_view_message">Buka umlayezo</string>
-    <string name="contact_card_audio_action_detail_format">Ikholi yezwi ye-Duo %1$s</string>
+    <string name="contact_badge_seen">Kuboniwe</string>
+    <string name="contact_badge_sent">Kuthunyelwe</string>
+    <string name="contact_card_audio_action_detail_format">Ikholi yezwi ye-Google Duo engu-%1$s</string>
     <string name="contact_card_audio_action_summary_text">Ikholi yezwi ye-Duo</string>
     <string name="contact_card_video_action_detail_format">Ikholi yevidiyo ye-Duo engu-%1$s</string>
     <string name="contact_card_video_action_summary_text">Ikholi yevidiyo ye-Duo</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">I-Backspace</string>
     <string name="knock_knock_setting_activity_label">I-Knock Knock</string>
     <string name="learn_more_link">Funda kabanzi</string>
+    <string name="leave_audio_message_snackbar_text">Shiyela u-%s umlayezo wezwi</string>
+    <string name="leave_message_snackbar_action_text">Qopha</string>
     <string name="leave_message_text">Shiya umlayezo.</string>
+    <string name="leave_video_message_snackbar_text">Shiyela u-%s umlayezo wevidiyo</string>
     <string name="link_gaia_account_unexpected_error">Iphutha elingalindelwe, sicela uhlole ukuxhumeka kwakho.</string>
     <string name="link_gaia_choose_account">Khetha i-akhawunti</string>
     <string name="link_gaia_choose_account_title">Khetha i-akhawunti</string>
@@ -447,8 +455,6 @@ I-Knock Knock isebenza uma umuntu anawe njengomuntu axhumana naye. Futhi uzobona
     <string name="switch_camera_button_back">Shintshela kukhamera engemuva</string>
     <string name="switch_camera_button_front">Shintshela kukhamera engaphambili</string>
     <string name="toggle_screensharing">Qala noma misa ukwabelana ngesikrini</string>
-    <string name="turn_bokeh_effect_off_button">Vala umphumela we-Bokeh</string>
-    <string name="turn_bokeh_effect_on_button">Vula umphumela we-Bokeh</string>
     <string name="unblock_user_failed">Ayikwazi ukuvulela umsebenzisi. Sicela uhlole ukuxhumeka uphinde uzame futhi.</string>
     <string name="unblocked_notification_description">Jabulela amakholi ekhwalithi ephezulu nesevisi ethuthukisiwe endaweni yakho</string>
     <string name="unblocked_notification_title">I-Duo ingcono kunangaphambilini</string>
@@ -496,7 +502,6 @@ I-Knock Knock ivulekile"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">Inqubomgomo Yobumfihlo</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">Imigomo Yensizakalo</string>
     <string name="welcome_activity_intro_primary">Ukushaya kwevidiyo kwekhwalithi ephezulu</string>
-    <string name="welcome_activity_menu_select_label">Khetha ukuze ubuke</string>
     <string name="welcome_activity_menu_select_privacy">Inqubomgomo yemfihlo ye-Google</string>
     <string name="welcome_activity_menu_select_tos">Imigomo yesevisi ye-Google</string>
     <string name="welcome_activity_silent_reg_unreg_abort">UNGAKHATHAZEKI</string>

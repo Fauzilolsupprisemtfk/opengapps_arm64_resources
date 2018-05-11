@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">%1$s నుండి ఇన్‌కమింగ్ వీడియో కాల్. సమాధానమివ్వడానికి రెండు వేళ్లతో పైకి స్వైప్ చేయండి. నిరాకరించడానికి రెండు వేళ్లతో క్రిందికి స్వైప్ చేయండి.</string>
     <string name="action_send_feedback">సహాయం &amp; అభిప్రాయం</string>
     <string name="action_settings">సెట్టింగ్‌లు</string>
+    <string name="adjust_bokeh_effect_blur_button">బొకే ప్రభావం అస్పష్టత సర్దుబాటు చేయండి</string>
     <string name="ahd_alert_dismiss_action_label">విస్మరించు</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">వీడియోను ఆఫ్ చేయి</string>
     <string name="ahd_alert_low_battery_description">ఎక్కువసేపు మాట్లాడటానికి, మీ వీడియోను ఆఫ్ చేయండి</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">రద్దు చేయి</string>
     <string name="blocked_numbers_unblock_yes">అన్‌బ్లాక్ చేయి</string>
     <string name="blocked_numbers_undo">చర్యరద్దు చేయి</string>
-    <string name="bokeh_effect_off">బొకే ప్రభావం ఆఫ్ చేయబడింది</string>
-    <string name="bokeh_effect_on">బొకే ప్రభావం ఆన్ చేయబడింది</string>
+    <string name="bokeh_effect_blur_heavy">ఎక్కువ అస్పష్టత</string>
+    <string name="bokeh_effect_blur_light">తక్కువ అస్పష్టత</string>
+    <string name="bokeh_effect_blur_medium">మధ్యస్థ అస్పష్టత</string>
+    <string name="bokeh_effect_blur_off">అస్పష్టత ఆఫ్‌లో ఉంది</string>
     <string name="button_disconnect_call">కాల్‌ను ముగించు</string>
     <string name="button_re_record_message">మళ్లీ రికార్డ్ చేయండి</string>
     <string name="button_record_message">రికార్డ్ చేయండి</string>
@@ -132,6 +135,8 @@
     <string name="contact_action_send_voice_message">వాయిస్ సందేశాన్ని పంపండి</string>
     <string name="contact_action_video_call">వీడియో కాల్‌ని ప్రారంభించు</string>
     <string name="contact_action_view_message">సందేశాన్ని చూడండి</string>
+    <string name="contact_badge_seen">చూసారు</string>
+    <string name="contact_badge_sent">పంపబడింది</string>
     <string name="contact_card_audio_action_detail_format">%1$sకి Duo వాయిస్ కాల్ చేయండి</string>
     <string name="contact_card_audio_action_summary_text">Duo వాయిస్ కాల్</string>
     <string name="contact_card_video_action_detail_format">%1$sకి Duo వీడియో కాల్ చేయండి</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">బ్యాక్‌స్పేస్</string>
     <string name="knock_knock_setting_activity_label">టక్ టక్ లక్షణం</string>
     <string name="learn_more_link">మరింత తెలుసుకోండి</string>
+    <string name="leave_audio_message_snackbar_text">%sకు ఒక వాయిస్ సందేశాన్ని పంపండి</string>
+    <string name="leave_message_snackbar_action_text">రికార్డ్ చేయండి</string>
     <string name="leave_message_text">సందేశాన్ని పంపండి.</string>
+    <string name="leave_video_message_snackbar_text">%sకు ఒక వీడియో సందేశాన్ని పంపండి</string>
     <string name="link_gaia_account_unexpected_error">ఊహించని ఎర్రర్, దయచేసి మీ కనెక్షన్‌ను తనిఖీ చేయండి.</string>
     <string name="link_gaia_choose_account">ఖాతాను ఎంచుకోండి</string>
     <string name="link_gaia_choose_account_title">ఖాతాను ఎంచుకోండి</string>
@@ -447,8 +455,6 @@
     <string name="switch_camera_button_back">వెనుక కెమెరాకు మార్చు</string>
     <string name="switch_camera_button_front">ముందు కెమెరాకు మార్చు</string>
     <string name="toggle_screensharing">స్క్రీన్ షేర్ చేయడాన్ని ప్రారంభించండి లేదా ఆపివేయండి</string>
-    <string name="turn_bokeh_effect_off_button">బొకే ప్రభావాన్ని ఆఫ్ చేయి</string>
-    <string name="turn_bokeh_effect_on_button">బొకే ప్రభావాన్ని ఆన్ చేయి</string>
     <string name="unblock_user_failed">వినియోగదారుని అన్‌బ్లాక్ చేయడం సాధ్యపడలేదు. దయచేసి కనెక్షన్‌ను తనిఖీ చేసి, మళ్లీ ప్రయత్నించండి.</string>
     <string name="unblocked_notification_description">మీ ప్రాంతంలో అధిక-నాణ్యత గల కాల్‌లు &amp; మెరుగైన సేవను ఆస్వాదించండి</string>
     <string name="unblocked_notification_title">Duo మునుపటి కంటే మెరుగైనది</string>
@@ -496,7 +502,6 @@
     <string name="welcome_activity_intro_agreements_clickable_privacy">గోప్యతా విధానం</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">సేవా నిబంధనలు</string>
     <string name="welcome_activity_intro_primary">అధిక నాణ్యత వీడియో కాలింగ్</string>
-    <string name="welcome_activity_menu_select_label">సమీక్షించడానికి ఎంచుకోండి</string>
     <string name="welcome_activity_menu_select_privacy">Google గోప్యతా విధానం</string>
     <string name="welcome_activity_menu_select_tos">Google సేవా నిబంధనలు</string>
     <string name="welcome_activity_silent_reg_unreg_abort">వద్దు</string>

@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">"Video chiamata in arrivo da %1$s. Scorri verso l'alto con due dita per rispondere. Scorri verso il basso con due dita per rifiutare."</string>
     <string name="action_send_feedback">Guida e feedback</string>
     <string name="action_settings">Impostazioni</string>
+    <string name="adjust_bokeh_effect_blur_button">Regola sfocatura effetto Bokeh</string>
     <string name="ahd_alert_dismiss_action_label">Ignora</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">Disattiva video</string>
     <string name="ahd_alert_low_battery_description">Per parlare più a lungo, prova a disattivare il video</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">ANNULLA</string>
     <string name="blocked_numbers_unblock_yes">SBLOCCA</string>
     <string name="blocked_numbers_undo">ANNULLA</string>
-    <string name="bokeh_effect_off">Effetto Bokeh disattivato</string>
-    <string name="bokeh_effect_on">Effetto Bokeh attivato</string>
+    <string name="bokeh_effect_blur_heavy">Sfocatura forte</string>
+    <string name="bokeh_effect_blur_light">Sfocatura leggera</string>
+    <string name="bokeh_effect_blur_medium">Sfocatura media</string>
+    <string name="bokeh_effect_blur_off">Disattiva sfocatura</string>
     <string name="button_disconnect_call">Chiudi chiamata</string>
     <string name="button_re_record_message">Registra di nuovo</string>
     <string name="button_record_message">Registra</string>
@@ -132,7 +135,9 @@
     <string name="contact_action_send_voice_message">Invia messaggio vocale</string>
     <string name="contact_action_video_call">Avvia una videochiamata</string>
     <string name="contact_action_view_message">Vedi messaggio</string>
-    <string name="contact_card_audio_action_detail_format">Chiama %1$s con Duo</string>
+    <string name="contact_badge_seen">Visto</string>
+    <string name="contact_badge_sent">Inviato</string>
+    <string name="contact_card_audio_action_detail_format">Chiamata vocale Duo %1$s</string>
     <string name="contact_card_audio_action_summary_text">Chiamata vocale Duo</string>
     <string name="contact_card_video_action_detail_format">Videochiamata Duo %1$s</string>
     <string name="contact_card_video_action_summary_text">Videochiamata Duo</string>
@@ -271,7 +276,10 @@
     <string name="keypad_backspace">Backspace</string>
     <string name="knock_knock_setting_activity_label">Toc Toc</string>
     <string name="learn_more_link">Ulteriori informazioni</string>
+    <string name="leave_audio_message_snackbar_text">Lascia un messaggio vocale per %s</string>
+    <string name="leave_message_snackbar_action_text">Registra</string>
     <string name="leave_message_text">Lascia un messaggio.</string>
+    <string name="leave_video_message_snackbar_text">Lascia un videomessaggio per %s</string>
     <string name="link_gaia_account_unexpected_error">Errore imprevisto. Controlla la connessione.</string>
     <string name="link_gaia_choose_account">Scegli account</string>
     <string name="link_gaia_choose_account_title">Scegli un account</string>
@@ -459,8 +467,6 @@ Toc Toc funziona solo se l'altra persona ti ha tra i suoi contatti. Inoltre potr
     <string name="switch_camera_button_back">Passa alla fotocamera posteriore</string>
     <string name="switch_camera_button_front">Passa alla telecamera anteriore</string>
     <string name="toggle_screensharing">Avvia o interrompi la condivisione dello schermo</string>
-    <string name="turn_bokeh_effect_off_button">Disattiva effetto Bokeh</string>
-    <string name="turn_bokeh_effect_on_button">Attiva effetto Bokeh</string>
     <string name="unblock_user_failed">"Impossibile sbloccare l'utente. Verifica la connessione e riprova."</string>
     <string name="unblocked_notification_description">Chiamate di qualità più elevata e miglioramento del servizio nella tua zona</string>
     <string name="unblocked_notification_title">"Duo come non l'avevi mai visto"</string>
@@ -508,7 +514,6 @@ Toc Toc è attivo"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">Norme sulla privacy</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">Termini di servizio</string>
     <string name="welcome_activity_intro_primary">Videochiamate di alta qualità</string>
-    <string name="welcome_activity_menu_select_label">Seleziona per consultare</string>
     <string name="welcome_activity_menu_select_privacy">Norme sulla privacy di Google</string>
     <string name="welcome_activity_menu_select_tos">Termini di servizio di Google</string>
     <string name="welcome_activity_silent_reg_unreg_abort">IGNORA</string>

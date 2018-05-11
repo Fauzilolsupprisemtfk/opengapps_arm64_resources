@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">%1$s шалған кіріс бейне қоңырауы. Жауап беру үшін, екі саусақпен жоғары сырғытыңыз. Қабылдамау үшін, екі саусағыңызбен төмен сырғытыңыз.</string>
     <string name="action_send_feedback">Анықтама және пікір</string>
     <string name="action_settings">Параметрлер</string>
+    <string name="adjust_bokeh_effect_blur_button">\"Боке\" әсерінің түсін реттеу</string>
     <string name="ahd_alert_dismiss_action_label">Жабу</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">Бейнені өшіру</string>
     <string name="ahd_alert_low_battery_description">Ұзағырақ сөйлесу үшін бейнені өшіріп көріңіз</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">БАС ТАРТУ</string>
     <string name="blocked_numbers_unblock_yes">БӨГЕУІН АЛУ</string>
     <string name="blocked_numbers_undo">КЕРІ ҚАЙТАРУ</string>
-    <string name="bokeh_effect_off">\"Боке\" әсері өшірулі</string>
-    <string name="bokeh_effect_on">\"Боке\" әсері қосулы</string>
+    <string name="bokeh_effect_blur_heavy">Қою бұлыңғыр</string>
+    <string name="bokeh_effect_blur_light">Ашық бұлыңғыр</string>
+    <string name="bokeh_effect_blur_medium">Орташа бұлыңғыр</string>
+    <string name="bokeh_effect_blur_off">\"Боке\" әсерін өшіру</string>
     <string name="button_disconnect_call">Қоңырауды аяқтау</string>
     <string name="button_re_record_message">Қайта жазу</string>
     <string name="button_record_message">Жазу</string>
@@ -132,9 +135,11 @@
     <string name="contact_action_send_voice_message">Дауыстық хабар жіберу</string>
     <string name="contact_action_video_call">Бейне қоңырауды бастау</string>
     <string name="contact_action_view_message">Хабарды көру</string>
+    <string name="contact_badge_seen">Қаралды</string>
+    <string name="contact_badge_sent">Жіберілді</string>
     <string name="contact_card_audio_action_detail_format">Duo дауыстық қоңырауы: %1$s</string>
     <string name="contact_card_audio_action_summary_text">Duo дауыстық қоңырауы</string>
-    <string name="contact_card_video_action_detail_format">Duo бейне қоңырауы %1$s</string>
+    <string name="contact_card_video_action_detail_format">Duo бейне қоңырауы: %1$s</string>
     <string name="contact_card_video_action_summary_text">Duo бейне қоңырауы</string>
     <string name="contact_item_description">%1$s %2$s нөміріне қоңырау шалу</string>
     <string name="contact_item_description_clip">%1$s жіберген хабарды ойнату</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">Backspace</string>
     <string name="knock_knock_setting_activity_label">Knock Knock</string>
     <string name="learn_more_link">Толығырақ ақпарат</string>
+    <string name="leave_audio_message_snackbar_text">%s үшін дауыстық хабар қалдыру</string>
+    <string name="leave_message_snackbar_action_text">Жазу</string>
     <string name="leave_message_text">Хабар қалдырыңыз.</string>
+    <string name="leave_video_message_snackbar_text">%s үшін бейне хабар қалдыру</string>
     <string name="link_gaia_account_unexpected_error">Күтпеген қате орын алды, байланысты тексеріңіз.</string>
     <string name="link_gaia_choose_account">Есептік жазба таңдау</string>
     <string name="link_gaia_choose_account_title">Есептік жазбаны таңдау</string>
@@ -446,8 +454,6 @@ Knock Knock жұмыс істеуі үшін, сіз телефон шалған
     <string name="switch_camera_button_back">Артқы камераға ауысу</string>
     <string name="switch_camera_button_front">Алдыңғы камераға ауысу</string>
     <string name="toggle_screensharing">Экранды бөлісуді бастау немесе тоқтату</string>
-    <string name="turn_bokeh_effect_off_button">\"Боке\" әсерін өшіру</string>
-    <string name="turn_bokeh_effect_on_button">\"Боке\" әсерін қосу</string>
     <string name="unblock_user_failed">Пайдаланушының бөгеуі алынбады. Байланысты тексеріп, қайталап көріңіз.</string>
     <string name="unblocked_notification_description">Аймағыңыздан ұсынылған жоғары сапалы қоңыраулар мен жақсартылған қызметтерді пайдаланыңыз</string>
     <string name="unblocked_notification_title">Жақсартылған Duo</string>
@@ -495,7 +501,6 @@ Knock Knock қосулы"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">Құпиялылық саясаты</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">Қызмет көрсету шарттары</string>
     <string name="welcome_activity_intro_primary">Жоғары сапалы бейне қоңырау</string>
-    <string name="welcome_activity_menu_select_label">Оқитын құжатты таңдаңыз:</string>
     <string name="welcome_activity_menu_select_privacy">Google құпиялылық саясаты</string>
     <string name="welcome_activity_menu_select_tos">Google қызмет көрсету шарттары</string>
     <string name="welcome_activity_silent_reg_unreg_abort">ҚАЛДЫРУ</string>

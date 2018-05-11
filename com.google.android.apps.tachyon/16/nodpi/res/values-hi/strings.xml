@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">%1$s से वीडियो कॉल आ रहा है. उत्तर देने के लिए दो अंगुलियों से ऊपर स्वाइप करें. अस्वीकार करने के लिए दो अंगुलियों से नीचे स्वाइप करें.</string>
     <string name="action_send_feedback">सहायता और फ़ीडबैक</string>
     <string name="action_settings">सेटिंग</string>
+    <string name="adjust_bokeh_effect_blur_button">Bokeh इफ़ेक्ट का धुंधलापन एडजस्ट करें</string>
     <string name="ahd_alert_dismiss_action_label">खारिज करें</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">वीडियो बंद करें</string>
     <string name="ahd_alert_low_battery_description">अगर आप ज़्यादा देर तक बात करना चाहते हैं, तो वीडियो बंद कर दें</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">अभी नहीं</string>
     <string name="blocked_numbers_unblock_yes">अनवरोधित करें</string>
     <string name="blocked_numbers_undo">पूर्ववत करें</string>
-    <string name="bokeh_effect_off">Bokeh इफ़ेक्ट बंद हुआ</string>
-    <string name="bokeh_effect_on">Bokeh इफ़ेक्ट चालू हुआ</string>
+    <string name="bokeh_effect_blur_heavy">धुंधलापन ज़्यादा</string>
+    <string name="bokeh_effect_blur_light">धुंधलापन कम</string>
+    <string name="bokeh_effect_blur_medium">धुंधलापन मध्यम</string>
+    <string name="bokeh_effect_blur_off">धुंधलापन बंद</string>
     <string name="button_disconnect_call">कॉल समाप्त करें</string>
     <string name="button_re_record_message">फिर से रिकॉर्ड करें</string>
     <string name="button_record_message">रिकॉर्ड करें</string>
@@ -132,9 +135,11 @@
     <string name="contact_action_send_voice_message">वॉइस संदेश भेजें</string>
     <string name="contact_action_video_call">वीडियो कॉल शुरू करें</string>
     <string name="contact_action_view_message">संदेश देखें</string>
+    <string name="contact_badge_seen">देखा गया</string>
+    <string name="contact_badge_sent">भेजा गया</string>
     <string name="contact_card_audio_action_detail_format">%1$s पर Duo से वॉइस कॉल करें</string>
-    <string name="contact_card_audio_action_summary_text">Duo से वॉइस कॉल करें</string>
-    <string name="contact_card_video_action_detail_format">Duo वीडियो कॉल %1$s</string>
+    <string name="contact_card_audio_action_summary_text">Duo वॉइस कॉल</string>
+    <string name="contact_card_video_action_detail_format">%1$s पर Duo से वीडियो कॉल करें</string>
     <string name="contact_card_video_action_summary_text">Duo वीडियो कॉल</string>
     <string name="contact_item_description">%1$s को %2$s पर कॉल करें</string>
     <string name="contact_item_description_clip">%1$s का मैसेज चलाएं</string>
@@ -271,7 +276,10 @@
     <string name="keypad_backspace">Backspace</string>
     <string name="knock_knock_setting_activity_label">सुनिए सुनिए</string>
     <string name="learn_more_link">अधिक जानें</string>
+    <string name="leave_audio_message_snackbar_text">%s के लिए एक वॉइस मैसेज दें</string>
+    <string name="leave_message_snackbar_action_text">रिकॉर्ड करें</string>
     <string name="leave_message_text">कोई संदेश दें.</string>
+    <string name="leave_video_message_snackbar_text">%s के लिए एक वीडियो मैसेज दें</string>
     <string name="link_gaia_account_unexpected_error">इस गड़बड़ी की उम्मीद नहीं थी, कृपया अपने कनेक्शन की जांच करें.</string>
     <string name="link_gaia_choose_account">खाता चुनें</string>
     <string name="link_gaia_choose_account_title">एक खाता चुनें</string>
@@ -459,8 +467,6 @@ Googler या बीटा प्रोग्राम में भाग ल�
     <string name="switch_camera_button_back">पीछे वाले कैमरे में बदलें</string>
     <string name="switch_camera_button_front">सामने वाले कैमरे पर जाएं</string>
     <string name="toggle_screensharing">स्क्रीन साझाकरण शुरू या बंद करें</string>
-    <string name="turn_bokeh_effect_off_button">Bokeh इफ़ेक्ट बंद करें</string>
-    <string name="turn_bokeh_effect_on_button">Bokeh इफ़ेक्ट चालू करें</string>
     <string name="unblock_user_failed">उपयोगकर्ता को अनवरोधित नहीं किया जा सकता. कृपया कनेक्शन की जाँच करके फिर से कोशिश करें.</string>
     <string name="unblocked_notification_description">अपने क्षेत्र में कॉल की बेहतर गुणवत्ता और बेहतर सेवा का मज़ा लें</string>
     <string name="unblocked_notification_title">Duo पहले से कहीं बेहतर है</string>
@@ -508,7 +514,6 @@ Googler या बीटा प्रोग्राम में भाग ल�
     <string name="welcome_activity_intro_agreements_clickable_privacy">निजता नीति</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">सेवा की शर्तें</string>
     <string name="welcome_activity_intro_primary">अच्छी क्वालिटी की वीडियो कॉलिंग</string>
-    <string name="welcome_activity_menu_select_label">समीक्षा करने के लिए चुनें</string>
     <string name="welcome_activity_menu_select_privacy">Google निजता नीति</string>
     <string name="welcome_activity_menu_select_tos">Google सेवा की शर्तें</string>
     <string name="welcome_activity_silent_reg_unreg_abort">कोई बात नहीं</string>

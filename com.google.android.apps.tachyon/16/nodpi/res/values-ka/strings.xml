@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">შემომავალი ვიდეოზარი %1$s-ისგან. პასუხის გასაცემად გადაფურცლეთ ორი თითით ზემოთ. უარყოფისთვის გადაფურცლეთ ორი თითით ქვემოთ.</string>
     <string name="action_send_feedback">დახმარება და გამოხმაურება</string>
     <string name="action_settings">პარამეტრები</string>
+    <string name="adjust_bokeh_effect_blur_button">ბოკეს ეფექტის გაბუნდოვნების კორექტირება</string>
     <string name="ahd_alert_dismiss_action_label">უარყოფა</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">ვიდეოს გამორთვა</string>
     <string name="ahd_alert_low_battery_description">უფრო დიდხანს სალაპარაკოდ სცადეთ ვიდეოს გამორთვა</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">გაუქმება</string>
     <string name="blocked_numbers_unblock_yes">განბლოკვა</string>
     <string name="blocked_numbers_undo">მოქმედების გაუქმება</string>
-    <string name="bokeh_effect_off">ბოკეს ეფექტი გამორთულია</string>
-    <string name="bokeh_effect_on">ბოკეს ეფექტი ჩართულია</string>
+    <string name="bokeh_effect_blur_heavy">ძლიერი გაბუნდოვნება</string>
+    <string name="bokeh_effect_blur_light">შუქის გაბუნდოვნება</string>
+    <string name="bokeh_effect_blur_medium">საშუალო გაბუნდოვნება</string>
+    <string name="bokeh_effect_blur_off">გაბუნდოვნება გამორთულია</string>
     <string name="button_disconnect_call">გათიშვა</string>
     <string name="button_re_record_message">ხელახლა ჩაწერა</string>
     <string name="button_record_message">ჩაწერა</string>
@@ -132,9 +135,11 @@
     <string name="contact_action_send_voice_message">ხმოვანი შეტყობინების გაგზავნა</string>
     <string name="contact_action_video_call">ვიდეოზარის დაწყება</string>
     <string name="contact_action_view_message">შეტყობინების ნახვა</string>
-    <string name="contact_card_audio_action_detail_format">Duo-ს ხმოვანი ზარი %1$s-ზე</string>
-    <string name="contact_card_audio_action_summary_text">Duo-ს ხმოვანი ზარი</string>
-    <string name="contact_card_video_action_detail_format">Duo ვიდეოზარი: %1$s</string>
+    <string name="contact_badge_seen">ნანახია</string>
+    <string name="contact_badge_sent">გაიგზავნა</string>
+    <string name="contact_card_audio_action_detail_format">Duo ხმოვანი ზარი %1$s-ზე</string>
+    <string name="contact_card_audio_action_summary_text">Duo ხმოვანი ზარი</string>
+    <string name="contact_card_video_action_detail_format">Duo ვიდეოზარი %1$s-ზე</string>
     <string name="contact_card_video_action_summary_text">Duo ვიდეოზარი</string>
     <string name="contact_item_description">ზარი %1$s-თან (%2$s)</string>
     <string name="contact_item_description_clip">%1$s-ისგან მიღებული შეტყობინების დაკვრა</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">უკუშლა</string>
     <string name="knock_knock_setting_activity_label">Knock Knock</string>
     <string name="learn_more_link">შეიტყვეთ მეტი</string>
+    <string name="leave_audio_message_snackbar_text">ხმოვანი შეტყობინების დატოვება %s-ისთვის</string>
+    <string name="leave_message_snackbar_action_text">ჩაწერა</string>
     <string name="leave_message_text">დატოვეთ შეტყობინება.</string>
+    <string name="leave_video_message_snackbar_text">ვიდეო შეტყობინების დატოვება %s-ისთვის</string>
     <string name="link_gaia_account_unexpected_error">მოხდა მოულოდნელი შეცდომა, გთხოვთ, შეამოწმოთ კავშირი.</string>
     <string name="link_gaia_choose_account">აირჩიეთ ანგარიში</string>
     <string name="link_gaia_choose_account_title">აირჩიეთ ანგარიში</string>
@@ -446,8 +454,6 @@ Knock Knock მუშაობს, თუ იმ ადამიანის კ
     <string name="switch_camera_button_back">უკანა კამერაზე გადართვა</string>
     <string name="switch_camera_button_front">წინა კამერაზე გადართვა</string>
     <string name="toggle_screensharing">ეკრანის გაზიარების დაწყება ან შეწყვეტა</string>
-    <string name="turn_bokeh_effect_off_button">ბოკეს ეფექტის გამორთვა</string>
-    <string name="turn_bokeh_effect_on_button">ბოკეს ეფექტის ჩართვა</string>
     <string name="unblock_user_failed">მომხმარებლის განბლოკვა ვერ ხერხდება. გთხოვთ, შეამოწმოთ კავშირი და სცადოთ ხელახლა.</string>
     <string name="unblocked_notification_description">ისიამოვნეთ მაღალი ხარისხის ზარებით და გაუმჯობესებული სერვისით თქვენს რეგიონში</string>
     <string name="unblocked_notification_title">Duo ახლა უკეთესია, ვიდრე ოდესმე</string>
@@ -495,7 +501,6 @@ Knock Knock ჩართულია"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">კონფიდენციალურობის დებულება</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">მომსახურების პირობები</string>
     <string name="welcome_activity_intro_primary">მაღალი ხარისხის ვიდეო დარეკვა</string>
-    <string name="welcome_activity_menu_select_label">აირჩიეთ განსახილველად</string>
     <string name="welcome_activity_menu_select_privacy">Google-ის კონფიდენციალურობის დებულება</string>
     <string name="welcome_activity_menu_select_tos">Google-ის მომსახურების პირობები</string>
     <string name="welcome_activity_silent_reg_unreg_abort">არა უშავს</string>

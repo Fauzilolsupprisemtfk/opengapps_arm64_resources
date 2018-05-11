@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">Cuộc gọi video đến từ %1$s. Vuốt lên bằng hai ngón tay để trả lời. Vuốt xuống bằng hai ngón tay để từ chối.</string>
     <string name="action_send_feedback">Trợ giúp và phản hồi</string>
     <string name="action_settings">Cài đặt</string>
+    <string name="adjust_bokeh_effect_blur_button">Điều chỉnh độ mờ trong hiệu ứng Bokeh</string>
     <string name="ahd_alert_dismiss_action_label">Bỏ qua</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">Tắt video</string>
     <string name="ahd_alert_low_battery_description">Để trò chuyện lâu hơn, hãy thử tắt video của bạn</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">HỦY</string>
     <string name="blocked_numbers_unblock_yes">BỎ CHẶN</string>
     <string name="blocked_numbers_undo">HOÀN TÁC</string>
-    <string name="bokeh_effect_off">Hiệu ứng Bokeh hiện đang tắt</string>
-    <string name="bokeh_effect_on">Hiệu ứng Bokeh hiện đang bật</string>
+    <string name="bokeh_effect_blur_heavy">Mờ hẳn</string>
+    <string name="bokeh_effect_blur_light">Mờ nhẹ</string>
+    <string name="bokeh_effect_blur_medium">Mờ bình thường</string>
+    <string name="bokeh_effect_blur_off">Hiệu ứng làm mờ đang tắt</string>
     <string name="button_disconnect_call">Kết thúc cuộc gọi</string>
     <string name="button_re_record_message">Ghi âm lại</string>
     <string name="button_record_message">Ghi lại</string>
@@ -132,8 +135,10 @@
     <string name="contact_action_send_voice_message">Gửi tin nhắn thoại</string>
     <string name="contact_action_video_call">Bắt đầu cuộc gọi điện video</string>
     <string name="contact_action_view_message">Xem tin nhắn</string>
-    <string name="contact_card_audio_action_detail_format">Cuộc gọi thoại trên Duo tới %1$s</string>
-    <string name="contact_card_audio_action_summary_text">Cuộc gọi thoại trên Duo</string>
+    <string name="contact_badge_seen">Đã xem</string>
+    <string name="contact_badge_sent">Đã gửi</string>
+    <string name="contact_card_audio_action_detail_format">Cuộc gọi thoại trong Duo %1$s</string>
+    <string name="contact_card_audio_action_summary_text">Cuộc gọi thoại trong Duo</string>
     <string name="contact_card_video_action_detail_format">Cuộc gọi video trong Duo %1$s</string>
     <string name="contact_card_video_action_summary_text">Cuộc gọi video trong Duo</string>
     <string name="contact_item_description">Gọi %1$s theo số %2$s</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">Xóa lùi</string>
     <string name="knock_knock_setting_activity_label">Knock Knock</string>
     <string name="learn_more_link">Tìm hiểu thêm</string>
+    <string name="leave_audio_message_snackbar_text">Để lại tin nhắn thoại cho %s</string>
+    <string name="leave_message_snackbar_action_text">Quay video/ghi âm</string>
     <string name="leave_message_text">Hãy để lại tin nhắn.</string>
+    <string name="leave_video_message_snackbar_text">Để lại tin nhắn video cho %s</string>
     <string name="link_gaia_account_unexpected_error">Đã xảy ra lỗi không mong muốn, vui lòng kiểm tra kết nối của bạn.</string>
     <string name="link_gaia_choose_account">Chọn tài khoản</string>
     <string name="link_gaia_choose_account_title">Chọn tài khoản</string>
@@ -447,8 +455,6 @@ Knock Knock sẽ hoạt động nếu người mà bạn gọi có bạn trong d
     <string name="switch_camera_button_back">Chuyển sang máy ảnh mặt sau</string>
     <string name="switch_camera_button_front">Chuyển sang máy ảnh mặt trước</string>
     <string name="toggle_screensharing">Bắt đầu hoặc dừng chia sẻ màn hình</string>
-    <string name="turn_bokeh_effect_off_button">Tắt hiệu ứng Bokeh</string>
-    <string name="turn_bokeh_effect_on_button">Bật hiệu ứng Bokeh</string>
     <string name="unblock_user_failed">Không thể bỏ chặn người dùng. Vui lòng kiểm tra kết nối và thử lại.</string>
     <string name="unblocked_notification_description">Tận hưởng các cuộc gọi chất lượng cao hơn và dịch vụ được cải tiến trong khu vực của bạn</string>
     <string name="unblocked_notification_title">Duo tốt hơn bao giờ hết</string>
@@ -496,7 +502,6 @@ Knock Knock đang bật"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">Chính sách bảo mật</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">Điều khoản dịch vụ</string>
     <string name="welcome_activity_intro_primary">Gọi điện video chất lượng cao</string>
-    <string name="welcome_activity_menu_select_label">Chọn để xem lại</string>
     <string name="welcome_activity_menu_select_privacy">Chính sách bảo mật của Google</string>
     <string name="welcome_activity_menu_select_tos">Điều khoản dịch vụ của Google</string>
     <string name="welcome_activity_silent_reg_unreg_abort">BỎ QUA</string>

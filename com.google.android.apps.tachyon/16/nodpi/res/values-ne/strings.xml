@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">%1$s बाट आएको भिडियो कल। जवाफ फर्काउन दुईवटा औंलाले माथितिर स्वाइप गर्नुहोस्। अस्वीकार गर्न दुईवटा औंलाले तलतिर स्वाइप गर्नुहोस्।</string>
     <string name="action_send_feedback">मद्दत र प्रतिक्रिया</string>
     <string name="action_settings">सेटिङहरू</string>
+    <string name="adjust_bokeh_effect_blur_button">Bokeh  प्रभावको अस्पष्टता समायोजन गर्नुहोस्</string>
     <string name="ahd_alert_dismiss_action_label">खारेज गर्नुहोस्</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">भिडियो निष्क्रिय पार्नुहोस्</string>
     <string name="ahd_alert_low_battery_description">लामो कुराकानी गर्न आफ्नो भिडियो निष्क्रिय पारेर हेर्नुहोस्</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">रद्द गर्नुहोस्</string>
     <string name="blocked_numbers_unblock_yes">रोक हटाउनुहोस्</string>
     <string name="blocked_numbers_undo">अनडू गर्नुहोस्</string>
-    <string name="bokeh_effect_off">Bokeh प्रभाव निष्क्रिय छ</string>
-    <string name="bokeh_effect_on">Bokeh प्रभाव सक्रिय छ</string>
+    <string name="bokeh_effect_blur_heavy">अत्यधिक अस्पष्टता</string>
+    <string name="bokeh_effect_blur_light">हल्का अस्पष्टता</string>
+    <string name="bokeh_effect_blur_medium">मध्यम अस्पष्टता</string>
+    <string name="bokeh_effect_blur_off">अस्पष्ट पार्ने प्रभाव निष्क्रिय छ</string>
     <string name="button_disconnect_call">राख्नुहोस्</string>
     <string name="button_re_record_message">पुनः रेकर्ड गर्नुहोस्</string>
     <string name="button_record_message">रेकर्ड गर्नुहोस्</string>
@@ -132,10 +135,12 @@
     <string name="contact_action_send_voice_message">भ्वाइस सन्देश पठाउनुहोस्</string>
     <string name="contact_action_video_call">भिडियो कल सुरु गर्नुहोस्</string>
     <string name="contact_action_view_message">सन्देश हेर्नुहोस्</string>
+    <string name="contact_badge_seen">हेरियो</string>
+    <string name="contact_badge_sent">पठाइयो</string>
     <string name="contact_card_audio_action_detail_format">%1$s मा Duo मार्फत भ्वाइस कल गर्नुहोस्</string>
-    <string name="contact_card_audio_action_summary_text">Duo मार्फत भ्वाइस कल</string>
-    <string name="contact_card_video_action_detail_format">Duo भिडियो कल नम्बर %1$s</string>
-    <string name="contact_card_video_action_summary_text">Duo भिडियो कल</string>
+    <string name="contact_card_audio_action_summary_text">Duo मार्फत भ्वाइस कल गर्नुहोस्</string>
+    <string name="contact_card_video_action_detail_format">%1$s मा Duo मार्फत भिडियो कल गर्नुहोस्</string>
+    <string name="contact_card_video_action_summary_text">Duo मार्फत भिडियो कल गर्नुहोस्</string>
     <string name="contact_item_description">%1$s लाई %2$s मा कल गर्नुहोस्</string>
     <string name="contact_item_description_clip">%1$s ले पठाउनुभएको सन्देश प्ले गर्नुहोस्</string>
     <string name="contact_item_description_invite">%1$s लाई Duo प्रयोग गर्न आमन्त्रण गर्नुहोस्</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">ब्याकस्पेस</string>
     <string name="knock_knock_setting_activity_label">Knock Knock</string>
     <string name="learn_more_link">थप जान्नुहोस्</string>
+    <string name="leave_audio_message_snackbar_text">%s लाई भ्वाइस सन्देश छाड्नुहोस्</string>
+    <string name="leave_message_snackbar_action_text">रेकर्ड गर्नुहोस्</string>
     <string name="leave_message_text">कुनै सन्देश छोड्नुहोस्।</string>
+    <string name="leave_video_message_snackbar_text">%s का लागि एउटा भिडियो सन्देश छाड्नुहोस्</string>
     <string name="link_gaia_account_unexpected_error">अनुपेक्षित त्रुटि, कृपया आफ्नो इन्टरनेट जाँच गर्नुहोस्।</string>
     <string name="link_gaia_choose_account">खाता छान्नुहोस्</string>
     <string name="link_gaia_choose_account_title">कुनै खाता छनौट गर्नुहोस्</string>
@@ -301,7 +309,7 @@
     <string name="notification_title_audio_message">नयाँ भ्वाइस सन्देश</string>
     <string name="notification_title_for_failed_message">%s ले नयाँ सन्देश पठाउनुभयो</string>
     <string name="notification_title_video_message">नयाँ भिडियो सन्देश</string>
-    <string name="ok">ठीक छ</string>
+    <string name="ok">ठिक छ</string>
     <string name="onboarding_desc">"यो अनुप्रयोग प्रकाशन हुनु अघिको उत्पादन हो।
 
 यस बिटाको कार्यक्रममा सहभागी हुने Google प्रयोगकर्ता वा साथी तथा परिवार बाहेक कसैसँग यस बारे कुरा नगर्नुहोस् वा कसैलाई यो न देखाउनुहोस्।"</string>
@@ -446,8 +454,6 @@
     <string name="switch_camera_button_back">पछाडिको क्यामेरा प्रयोग गर्न थाल्नुहोस्</string>
     <string name="switch_camera_button_front">अगाडिको क्यामेरा प्रयोग गर्न थाल्नुहोस्</string>
     <string name="toggle_screensharing">स्क्रिनको आदान प्रदान सुरु वा बन्द गर्नुहोस्</string>
-    <string name="turn_bokeh_effect_off_button">Bokeh प्रभावलाई निष्क्रिय पार्नुहोस्</string>
-    <string name="turn_bokeh_effect_on_button">Bokeh प्रभावलाई सक्रिय गर्नुहोस्</string>
     <string name="unblock_user_failed">प्रयोगकर्तामाथिको रोक हटाउन सकिएन। कृपया इन्टरनेट जाँच गराी फेरि प्रयास गर्नुहोस्।</string>
     <string name="unblocked_notification_description">आफ्नो क्षेत्रमा उच्च गुणस्तरको कल र सुधारिएको सेवाको आनन्द लिनुहोस्‌</string>
     <string name="unblocked_notification_title">Duo पहिलेको भन्दा धेरै राम्रो छ</string>
@@ -495,7 +501,6 @@ Knock Knock सुविधा सक्रिय छ"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">गोपनीयता नीति</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">सेवाका सर्तहरू</string>
     <string name="welcome_activity_intro_primary">उच्च गुणस्तरीय भिडियो कल गर्ने सुविधा</string>
-    <string name="welcome_activity_menu_select_label">समीक्षा गर्न चयन गर्नुहोस्</string>
     <string name="welcome_activity_menu_select_privacy">Google को गोपनीयता नीति</string>
     <string name="welcome_activity_menu_select_tos">Google का सेवाका सर्तहरू</string>
     <string name="welcome_activity_silent_reg_unreg_abort">चिन्ता नलिनुहोस्</string>
@@ -504,7 +509,7 @@ Knock Knock सुविधा सक्रिय छ"</string>
     <string name="welcome_activity_silent_reg_unreg_title">Duo कलहरूबाट दर्ता रद्द गर्ने हो</string>
     <string name="welcome_permissions_warmup">SMS पढ्न दिएर Duo लाई तपाईंको फोन नम्बर प्रमाणित गर्न सहज बनाउनुहोस्।</string>
     <string name="welcome_pre_reg_accept_button_variation_1_3">जारी राख्नुहोस्</string>
-    <string name="welcome_pre_reg_accept_button_variation_2_4">ठीक छ!</string>
+    <string name="welcome_pre_reg_accept_button_variation_2_4">ठिक छ!</string>
     <string name="welcome_pre_reg_title_variation_1">भिडियो कलहरूको सेटअप प्राप्त गर्नुहोस्</string>
     <string name="welcome_pre_reg_title_variation_2">भिडियो कलसम्बन्धी चाँडो तथा सजिलो सेटअप</string>
     <string name="welcome_pre_reg_title_variation_3">उच्च गुणस्तरीय भिडियो कलहरूमार्फत सुरु गर्नुहोस्</string>

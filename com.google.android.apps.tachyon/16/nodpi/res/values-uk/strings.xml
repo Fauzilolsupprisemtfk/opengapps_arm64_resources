@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">Вхідний відеодзвінок від користувача %1$s. Проведіть двома пальцями вгору, щоб прийняти виклик, або вниз, щоб відхилити його.</string>
     <string name="action_send_feedback">Довідка та відгуки</string>
     <string name="action_settings">Налаштування</string>
+    <string name="adjust_bokeh_effect_blur_button">Налаштувати розмивання з ефектом боке</string>
     <string name="ahd_alert_dismiss_action_label">Закрити</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">Вимкнути відео</string>
     <string name="ahd_alert_low_battery_description">Щоб розмовляти довше, вимкніть відео</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">СКАСУВАТИ</string>
     <string name="blocked_numbers_unblock_yes">РОЗБЛОКУВАТИ</string>
     <string name="blocked_numbers_undo">СКАСУВАТИ</string>
-    <string name="bokeh_effect_off">Ефект боке вимкнено</string>
-    <string name="bokeh_effect_on">Ефект боке ввімкнено</string>
+    <string name="bokeh_effect_blur_heavy">Сильне розмивання</string>
+    <string name="bokeh_effect_blur_light">Легке розмивання</string>
+    <string name="bokeh_effect_blur_medium">Середнє розмивання</string>
+    <string name="bokeh_effect_blur_off">Розмивання вимкнено</string>
     <string name="button_disconnect_call">Завершити розмову</string>
     <string name="button_re_record_message">Відновити записування</string>
     <string name="button_record_message">Записати</string>
@@ -132,9 +135,11 @@
     <string name="contact_action_send_voice_message">Надіслати голосове повідомлення</string>
     <string name="contact_action_video_call">Почати відеодзвінок</string>
     <string name="contact_action_view_message">Переглянути повідомлення</string>
-    <string name="contact_card_audio_action_detail_format">Голосовий виклик у Duo: %1$s</string>
-    <string name="contact_card_audio_action_summary_text">Голосовий виклик у Duo</string>
-    <string name="contact_card_video_action_detail_format">Відеодзвінок Duo користувачу %1$s</string>
+    <string name="contact_badge_seen">Переглянуто</string>
+    <string name="contact_badge_sent">Надіслано</string>
+    <string name="contact_card_audio_action_detail_format">Голосовий виклик Duo на номер %1$s</string>
+    <string name="contact_card_audio_action_summary_text">Голосовий виклик Duo</string>
+    <string name="contact_card_video_action_detail_format">Відеодзвінок Duo на номер %1$s</string>
     <string name="contact_card_video_action_summary_text">Відеодзвінок Duo</string>
     <string name="contact_item_description">Зателефонувати абоненту %1$s за номером %2$s</string>
     <string name="contact_item_description_clip">Відтворити повідомлення від абонента %1$s</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">Backspace</string>
     <string name="knock_knock_setting_activity_label">Knock Knock</string>
     <string name="learn_more_link">Докладніше</string>
+    <string name="leave_audio_message_snackbar_text">Залишити голосове повідомлення для користувача %s</string>
+    <string name="leave_message_snackbar_action_text">Записати</string>
     <string name="leave_message_text">Залиште повідомлення.</string>
+    <string name="leave_video_message_snackbar_text">Залишити відеоповідомлення для користувача %s</string>
     <string name="link_gaia_account_unexpected_error">Неочікувана помилка. Перевірте підключення.</string>
     <string name="link_gaia_choose_account">Вибрати обліковий запис</string>
     <string name="link_gaia_choose_account_title">Вибрати обліковий запис</string>
@@ -447,8 +455,6 @@
     <string name="switch_camera_button_back">Увімкнути основну камеру</string>
     <string name="switch_camera_button_front">Увімкнути фронтальну камеру</string>
     <string name="toggle_screensharing">Надати або скасувати спільний доступ до екрана</string>
-    <string name="turn_bokeh_effect_off_button">Вимкнути ефект боке</string>
-    <string name="turn_bokeh_effect_on_button">Увімкнути ефект боке</string>
     <string name="unblock_user_failed">Не вдалося розблокувати користувача. Перевірте підключення та спробуйте ще раз.</string>
     <string name="unblocked_notification_description">Висока якість зв’язку та покращений сервіс у вашому регіоні</string>
     <string name="unblocked_notification_title">Duo кращий, ніж будь-коли</string>
@@ -496,7 +502,6 @@
     <string name="welcome_activity_intro_agreements_clickable_privacy">Політика конфіденційності</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">Умови використання</string>
     <string name="welcome_activity_intro_primary">Відеодзвінки високої якості</string>
-    <string name="welcome_activity_menu_select_label">Виберіть, щоб переглянути</string>
     <string name="welcome_activity_menu_select_privacy">Політика конфіденційності Google</string>
     <string name="welcome_activity_menu_select_tos">Загальні положення та умови Google</string>
     <string name="welcome_activity_silent_reg_unreg_abort">НЕ СКАСОВУВАТИ</string>

@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">%1$s වෙතින් එන වීඩියෝ ඇමතුම. පිළිතුරු දීමට ඇඟිලි දෙකින් ඉහළට ස්වයිප් කරන්න. ප්‍රතික්ෂේප කිරීමට ඇඟිලි දෙකින් පහළට ස්වයිප් කරන්න.</string>
     <string name="action_send_feedback">උදවු සහ ප්‍රතිපෝෂණ</string>
     <string name="action_settings">සැකසීම්</string>
+    <string name="adjust_bokeh_effect_blur_button">Bokeh ප්‍රයෝග නොපැහැදිලි කිරීම ගළපන්න</string>
     <string name="ahd_alert_dismiss_action_label">ඉවතලන්න</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">වීඩියෝව ක්‍රියාවිරහිත කරන්න</string>
     <string name="ahd_alert_low_battery_description">වැඩියෙන් කථා කිරීමට, ඔබගේ වීඩියෝව ක්‍රියාවිරහිත කිරීම උත්සාහ කරන්න</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">අවලංගු කරන්න</string>
     <string name="blocked_numbers_unblock_yes">අවහිර කිරීම ඉවත් කරන්න</string>
     <string name="blocked_numbers_undo">පසුගමනය කරන්න</string>
-    <string name="bokeh_effect_off">Bokeh ප්‍රයෝගය ක්‍රියාවිරහිතයි</string>
-    <string name="bokeh_effect_on">Bokeh ප්‍රයෝගය ක්‍රියාත්මකයි</string>
+    <string name="bokeh_effect_blur_heavy">තද නොපැහැදිලි කිරීම</string>
+    <string name="bokeh_effect_blur_light">ළා නොපැහැදිලි කිරීම</string>
+    <string name="bokeh_effect_blur_medium">මධ්‍යම නොපැහැදිලි කිරීම</string>
+    <string name="bokeh_effect_blur_off">නොපැහැදිලි කිරීම ක්‍රියාවිරහිතයි</string>
     <string name="button_disconnect_call">ප්‍රමාද කරන්න</string>
     <string name="button_re_record_message">නැවත පටිගත කරන්න</string>
     <string name="button_record_message">පටිගත කරන්න</string>
@@ -132,6 +135,8 @@
     <string name="contact_action_send_voice_message">හඬ පණිවිඩය යවන්න</string>
     <string name="contact_action_video_call">වීඩියෝ ඇමතුම ආරම්භ කරන්න</string>
     <string name="contact_action_view_message">පණිවිඩය නරඹන්න</string>
+    <string name="contact_badge_seen">දකින ලදී</string>
+    <string name="contact_badge_sent">යවන ලදී</string>
     <string name="contact_card_audio_action_detail_format">Duo හඬ ඇමතුම %1$s</string>
     <string name="contact_card_audio_action_summary_text">Duo හඬ ඇමතුම</string>
     <string name="contact_card_video_action_detail_format">Duo වීඩියෝ ඇමතුම %1$s</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">Backspace</string>
     <string name="knock_knock_setting_activity_label">ටක් ටක්</string>
     <string name="learn_more_link">තව දැන ගන්න</string>
+    <string name="leave_audio_message_snackbar_text">%s සඳහා හඬ පණිවිඩයක් තබන්න</string>
+    <string name="leave_message_snackbar_action_text">පටිගත කරන්න</string>
     <string name="leave_message_text">පණිවිඩයක් තියන්න.</string>
+    <string name="leave_video_message_snackbar_text">%s සඳහා වීඩියෝ පණිවිඩයක් තබන්න</string>
     <string name="link_gaia_account_unexpected_error">අනපේක්ෂිත දෝෂයකි. කරුණාකර ඔබේ සම්බන්ධතාව පරීක්ෂා කරන්න.</string>
     <string name="link_gaia_choose_account">ගිණුම තෝරන්න</string>
     <string name="link_gaia_choose_account_title">ගිණුමක් තෝරන්න</string>
@@ -446,8 +454,6 @@
     <string name="switch_camera_button_back">පසුපස කැමරාවට මාරු වන්න</string>
     <string name="switch_camera_button_front">ඉදිරිපස කැමරාවට මාරු වන්න</string>
     <string name="toggle_screensharing">තිර බෙදා ගැනීම ආරම්භ කරන්න නැතහොත් නතර කරන්න</string>
-    <string name="turn_bokeh_effect_off_button">Bokeh ප්‍රයෝගය ක්‍රියාවිරහිත කරන්න</string>
-    <string name="turn_bokeh_effect_on_button">Bokeh ප්‍රයෝගය ක්‍රියාත්මක කරන්න</string>
     <string name="unblock_user_failed">පරිශීලක අවහිර කිරීමෙන් ඉවත් කිරීමට නොහැකිය. කරුණාකර සම්බන්ධතාව පරීක්ෂා කර නැවත උත්සාහ කරන්න.</string>
     <string name="unblocked_notification_description">ඔබේ ප්‍රදේශය තුළ වඩාත් ඉහළ-ගුණත්වයේ ඇමතුම් සහ වැඩිදියුණු කළ සේවාව භුක්ති විඳින්න</string>
     <string name="unblocked_notification_title">Duo පෙර කවරදාටත් වඩා හොඳය</string>
@@ -495,7 +501,6 @@ Knock Knock ක්‍රියාත්මකයි"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">රහස්‍යතා ප්‍රතිපත්තිය</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">සේවා නියම</string>
     <string name="welcome_activity_intro_primary">උසස් තත්ත්වයේ වීඩියෝ ඇමතුම්</string>
-    <string name="welcome_activity_menu_select_label">සමාලෝචනය කිරීමට තෝරන්න</string>
     <string name="welcome_activity_menu_select_privacy">Google රහස්‍යතා ප්‍රතිපත්තිය</string>
     <string name="welcome_activity_menu_select_tos">Google සේවා නියම</string>
     <string name="welcome_activity_silent_reg_unreg_abort">ගණන් ගන්න එපා</string>

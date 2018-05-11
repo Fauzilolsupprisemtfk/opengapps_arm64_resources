@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">%1$s வீடியோவில் அழைக்கிறார். பதிலளிக்க, இரு விரல்களால் மேலே ஸ்வைப் செய்யவும். நிராகரிக்க, இரு விரல்களால் கீழே ஸ்வைப் செய்யவும்.</string>
     <string name="action_send_feedback">உதவி &amp; கருத்து</string>
     <string name="action_settings">அமைப்புகள்</string>
+    <string name="adjust_bokeh_effect_blur_button">Bokeh விளைவை மங்கலாக மாற்றும்</string>
     <string name="ahd_alert_dismiss_action_label">நிராகரி</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">வீடியோவை ஆஃப் செய்</string>
     <string name="ahd_alert_low_battery_description">நீண்ட நேரம் பேச, வீடியோவை ஆஃப் செய்து பார்க்கவும்</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">ரத்துசெய்</string>
     <string name="blocked_numbers_unblock_yes">அனுமதி</string>
     <string name="blocked_numbers_undo">செயல்தவிர்</string>
-    <string name="bokeh_effect_off">Bokeh விளைவு முடக்கத்தில் உள்ளது</string>
-    <string name="bokeh_effect_on">Bokeh விளைவு இயக்கத்தில் உள்ளது</string>
+    <string name="bokeh_effect_blur_heavy">அதிக மங்கல்</string>
+    <string name="bokeh_effect_blur_light">குறைவான மங்கல்</string>
+    <string name="bokeh_effect_blur_medium">நடுத்தர மங்கல்</string>
+    <string name="bokeh_effect_blur_off">மங்கல்தன்மையை முடக்கும்</string>
     <string name="button_disconnect_call">துண்டி</string>
     <string name="button_re_record_message">மீண்டும் ரெக்கார்டு செய்</string>
     <string name="button_record_message">ரெக்கார்டு செய்</string>
@@ -132,9 +135,11 @@
     <string name="contact_action_send_voice_message">குரல் செய்தியை அனுப்பு</string>
     <string name="contact_action_video_call">வீடியோ அழைப்பைத் தொடங்கு</string>
     <string name="contact_action_view_message">செய்தியைக் காட்டு</string>
-    <string name="contact_card_audio_action_detail_format">Duo குரல் அழைப்பு %1$s</string>
+    <string name="contact_badge_seen">பார்த்தது</string>
+    <string name="contact_badge_sent">அனுப்பப்பட்டது</string>
+    <string name="contact_card_audio_action_detail_format">Duo இல் %1$sக்குக் குரல் அழைப்பைச் செய்</string>
     <string name="contact_card_audio_action_summary_text">Duo குரல் அழைப்பு</string>
-    <string name="contact_card_video_action_detail_format">Duo வீடியோ அழைப்பு %1$s</string>
+    <string name="contact_card_video_action_detail_format">Duo இல் %1$sக்கு வீடியோ அழைப்பைச் செய்</string>
     <string name="contact_card_video_action_summary_text">Duo வீடியோ அழைப்பு</string>
     <string name="contact_item_description">%2$s இல் %1$sஐ அழை</string>
     <string name="contact_item_description_clip">%1$s இன் செய்தியை இயக்கு</string>
@@ -226,7 +231,7 @@
     <string name="in_call_audio_calling">இவருடனான குரல் அழைப்பு</string>
     <string name="in_call_full_screen_video_view_label">சாதன நிலைப் பட்டியைக் காட்டு</string>
     <string name="in_call_local_video_view_switch_label">லோக்கல் வீடியோ ஊட்டத்தை முழுத் திரைக்கு மாற்று</string>
-    <string name="in_call_mobile_usage_prompt">வைஃபை வேகம் குறைவாக உள்ளதால், மொபைல் தரவைப் பயன்படுத்துகிறது.</string>
+    <string name="in_call_mobile_usage_prompt">வைஃபை வேகம் குறைவாக உள்ளதால், மொபைல் டேட்டாவைப் பயன்படுத்துகிறது.</string>
     <string name="in_call_remote_video_view_switch_label">ரிமோட் வீடியோ ஊட்டத்தை முழுத் திரைக்கு மாற்று</string>
     <string name="in_call_timer_desc">அழைப்பின் காலஅளவு</string>
     <string name="in_call_timer_desc_with_duration">அழைப்பின் காலஅளவு: %s</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">பேக்ஸ்பேஸ்</string>
     <string name="knock_knock_setting_activity_label">நாக் நாக்</string>
     <string name="learn_more_link">மேலும் அறிக</string>
+    <string name="leave_audio_message_snackbar_text">%sக்கு குரல் செய்தியை அனுப்பவும்</string>
+    <string name="leave_message_snackbar_action_text">ரெக்கார்டு செய்</string>
     <string name="leave_message_text">செய்தியை ரெக்கார்டு செய்யவும்.</string>
+    <string name="leave_video_message_snackbar_text">%sக்கு வீடியோ செய்தியை அனுப்பவும்</string>
     <string name="link_gaia_account_unexpected_error">எதிர்பாராத பிழை, உங்கள் இணைப்பைச் சரிபார்க்கவும்.</string>
     <string name="link_gaia_choose_account">கணக்கைத் தேர்வு செய்க</string>
     <string name="link_gaia_choose_account_title">கணக்கைத் தேர்வுசெய்யவும்</string>
@@ -335,7 +343,7 @@ Google பணியாளர்கள் அல்லது பீட்டா �
     <string name="pref_delete_account_text_no">ரத்துசெய்</string>
     <string name="pref_delete_account_text_yes">நீக்கு</string>
     <string name="pref_delete_account_title">Duo கணக்கை நீக்கவா?</string>
-    <string name="pref_limit_mobile_data_title">மொபைல் தரவுப் பயன்பாட்டை வரம்பிடு</string>
+    <string name="pref_limit_mobile_data_title">மொபைல் டேட்டா உபயோகத்தை வரம்பிடு</string>
     <string name="pref_linked_gaia_account_none">எதுவுமில்லை</string>
     <string name="pref_linked_gaia_account_title">Google கணக்கு</string>
     <string name="pref_live_ring_detail">"அழைப்பிற்குப் பதிலளிக்கும் முன்பே, அழைப்பவரின் வீடியோவைப் பார்க்கலாம். நீங்கள் பிறரை அழைக்கும் போது, அவர்களால் உங்கள் வீடியோவைப் பார்க்க முடியும்.
@@ -447,8 +455,6 @@ Google பணியாளர்கள் அல்லது பீட்டா �
     <string name="switch_camera_button_back">பின்புறக் கேமராவிற்கு மாறு</string>
     <string name="switch_camera_button_front">முன்புறக் கேமராவிற்கு மாறு</string>
     <string name="toggle_screensharing">திரைப் பகிர்வைத் தொடங்கு/நிறுத்து</string>
-    <string name="turn_bokeh_effect_off_button">Bokeh விளைவை முடக்கு</string>
-    <string name="turn_bokeh_effect_on_button">Bokeh விளைவை இயக்கு</string>
     <string name="unblock_user_failed">பயனரை அனுமதிக்க முடியவில்லை. இணைப்பைச் சரிபார்த்து, மீண்டும் முயலவும்.</string>
     <string name="unblocked_notification_description">உங்கள் பகுதியில் உயர்தர அழைப்புகளையும் மேம்பட்ட சேவையையும் பயன்படுத்தி மகிழுங்கள்</string>
     <string name="unblocked_notification_title">முன்பைவிட Duo இப்போது மேம்பட்டுள்ளது</string>
@@ -496,7 +502,6 @@ Google பணியாளர்கள் அல்லது பீட்டா �
     <string name="welcome_activity_intro_agreements_clickable_privacy">தனியுரிமைக் கொள்கை</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">சேவை விதிமுறைகள்</string>
     <string name="welcome_activity_intro_primary">உயர்தர வீடியோ அழைப்பு</string>
-    <string name="welcome_activity_menu_select_label">மதிப்பாய்வு செய்ய, தேர்ந்தெடு</string>
     <string name="welcome_activity_menu_select_privacy">Google தனியுரிமைக் கொள்கை</string>
     <string name="welcome_activity_menu_select_tos">Google சேவை விதிமுறைகள்</string>
     <string name="welcome_activity_silent_reg_unreg_abort">ரத்துசெய்</string>

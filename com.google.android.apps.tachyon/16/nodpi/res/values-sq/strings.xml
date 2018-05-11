@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">"Telefonatë hyrëse nga %1$s. Rrëshqit lart për t'u përgjigjur. Rrëshqit poshtë për të refuzuar."</string>
     <string name="action_send_feedback">Ndihma dhe komentet</string>
     <string name="action_settings">Cilësimet</string>
+    <string name="adjust_bokeh_effect_blur_button">Përshtat turbullimin e efektit \"Bokeh\"</string>
     <string name="ahd_alert_dismiss_action_label">Hiq</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">Çaktivizo videon</string>
     <string name="ahd_alert_low_battery_description">Për të folur më gjatë, provo të çaktivizosh videon</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">ANULO</string>
     <string name="blocked_numbers_unblock_yes">ZHBLLOKO</string>
     <string name="blocked_numbers_undo">ZHBËJ</string>
-    <string name="bokeh_effect_off">Efekti \"Bokeh\" është joaktiv</string>
-    <string name="bokeh_effect_on">Efekti \"Bokeh\" është aktiv</string>
+    <string name="bokeh_effect_blur_heavy">Turbullimi i lartë</string>
+    <string name="bokeh_effect_blur_light">Turbullimi i lehtë</string>
+    <string name="bokeh_effect_blur_medium">Turbullimi mesatar</string>
+    <string name="bokeh_effect_blur_off">Turbullimi joaktiv</string>
     <string name="button_disconnect_call">Mbyll</string>
     <string name="button_re_record_message">Regjistro përsëri</string>
     <string name="button_record_message">Regjistro</string>
@@ -132,10 +135,12 @@
     <string name="contact_action_send_voice_message">Dërgo një mesazh zanor</string>
     <string name="contact_action_video_call">Fillo një telefonatë me video</string>
     <string name="contact_action_view_message">Shiko mesazhin</string>
+    <string name="contact_badge_seen">Shikuar</string>
+    <string name="contact_badge_sent">U dërgua</string>
     <string name="contact_card_audio_action_detail_format">Telefonatë zanore në Duo me %1$s</string>
     <string name="contact_card_audio_action_summary_text">Telefonatë zanore në Duo</string>
     <string name="contact_card_video_action_detail_format">Telefonatë me video në Duo me %1$s</string>
-    <string name="contact_card_video_action_summary_text">Telefonatë me video në Duo</string>
+    <string name="contact_card_video_action_summary_text">Telefonatë me video e Duo</string>
     <string name="contact_item_description">Telefono %1$s në %2$s</string>
     <string name="contact_item_description_clip">Luaj mesazhin nga %1$s</string>
     <string name="contact_item_description_invite">Fto %1$s për të përdorur Duo</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">Hapësirë prapa</string>
     <string name="knock_knock_setting_activity_label">Tak-tak</string>
     <string name="learn_more_link">Mëso më shumë</string>
+    <string name="leave_audio_message_snackbar_text">Lër një mesazh zanor për %s</string>
+    <string name="leave_message_snackbar_action_text">Regjistro</string>
     <string name="leave_message_text">Lër një mesazh.</string>
+    <string name="leave_video_message_snackbar_text">Lër një mesazh me video për %s</string>
     <string name="link_gaia_account_unexpected_error">Gabim i papritur. Kontrollo lidhjen.</string>
     <string name="link_gaia_choose_account">Zgjidh llogarinë</string>
     <string name="link_gaia_choose_account_title">Zgjidh një llogari</string>
@@ -446,8 +454,6 @@ Tak-tak funksionon nëse personi të ka si kontakt. Do të shikosh video vetëm 
     <string name="switch_camera_button_back">Kalo te kamera e pasme</string>
     <string name="switch_camera_button_front">Kalo te kamera e përparme</string>
     <string name="toggle_screensharing">Nis dhe ndalo ndarjen e ekranit</string>
-    <string name="turn_bokeh_effect_off_button">Çaktivizo efektin \"Bokeh\"</string>
-    <string name="turn_bokeh_effect_on_button">Aktivizo efektin \"Bokeh\"</string>
     <string name="unblock_user_failed">Përdoruesi nuk mund të zhbllokohet. Kontrollo lidhjen dhe provo përsëri.</string>
     <string name="unblocked_notification_description">Provo telefonatat me cilësi më të lartë dhe shërbimin e përmirësuar në zonën tënde</string>
     <string name="unblocked_notification_title">Duo është më i mirë se kurdoherë më parë</string>
@@ -495,7 +501,6 @@ Tak-tak është aktiv"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">Politika e privatësisë</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">Kushtet e shërbimit</string>
     <string name="welcome_activity_intro_primary">Telefonata me video me cilësi të lartë</string>
-    <string name="welcome_activity_menu_select_label">Zgjidh për të lexuar</string>
     <string name="welcome_activity_menu_select_privacy">Privatësia e Google</string>
     <string name="welcome_activity_menu_select_tos">Kushtet e shërbimit të Google</string>
     <string name="welcome_activity_silent_reg_unreg_abort">INJORO</string>

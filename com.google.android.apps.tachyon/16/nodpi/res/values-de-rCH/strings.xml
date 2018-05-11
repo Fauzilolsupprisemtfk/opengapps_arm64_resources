@@ -10,6 +10,7 @@
     <string name="acc_incoming_call_from">Eingehender Videoanruf von %1$s. Zum Annehmen mit zwei Fingern nach oben wischen, zum Ablehnen mit zwei Fingern nach unten wischen.</string>
     <string name="action_send_feedback">Hilfe und Feedback</string>
     <string name="action_settings">Einstellungen</string>
+    <string name="adjust_bokeh_effect_blur_button">Weichzeichnung durch Bokeh-Effekt anpassen</string>
     <string name="ahd_alert_dismiss_action_label">Schliessen</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">Video deaktivieren</string>
     <string name="ahd_alert_low_battery_description">Wenn du dich länger unterhalten möchtest, wechsle zu einem Sprachanruf ohne Video</string>
@@ -48,8 +49,10 @@
     <string name="blocked_numbers_unblock_no">ABBRECHEN</string>
     <string name="blocked_numbers_unblock_yes">BLOCKIERUNG AUFHEBEN</string>
     <string name="blocked_numbers_undo">RÜCKGÄNGIG</string>
-    <string name="bokeh_effect_off">Bokeh-Effekt deaktiviert</string>
-    <string name="bokeh_effect_on">Bokeh-Effekt aktiviert</string>
+    <string name="bokeh_effect_blur_heavy">Weichzeichnen (stark)</string>
+    <string name="bokeh_effect_blur_light">Weichzeichnen (leicht)</string>
+    <string name="bokeh_effect_blur_medium">Weichzeichnen (mittel)</string>
+    <string name="bokeh_effect_blur_off">Weichzeichnen aus</string>
     <string name="button_disconnect_call">Auflegen</string>
     <string name="button_re_record_message">Noch einmal aufnehmen</string>
     <string name="button_record_message">Aufnehmen</string>
@@ -106,9 +109,11 @@
     <string name="contact_action_send_voice_message">Sprachnachricht senden</string>
     <string name="contact_action_video_call">Videoanruf starten</string>
     <string name="contact_action_view_message">Nachricht ansehen</string>
+    <string name="contact_badge_seen">Gesehen</string>
+    <string name="contact_badge_sent">Gesendet</string>
     <string name="contact_card_audio_action_detail_format">Mit %1$s per Duo-Sprachanruf telefonieren</string>
     <string name="contact_card_audio_action_summary_text">Duo-Sprachanruf</string>
-    <string name="contact_card_video_action_detail_format">Duo-Videoanruf: %1$s</string>
+    <string name="contact_card_video_action_detail_format">Mit %1$s per Duo-Videoanruf telefonieren</string>
     <string name="contact_card_video_action_summary_text">Duo-Videoanruf</string>
     <string name="contact_item_description">%1$s unter %2$s anrufen</string>
     <string name="contact_item_description_clip">Nachricht von %1$s abspielen</string>
@@ -233,7 +238,10 @@
     <string name="keypad_backspace">Rücktaste</string>
     <string name="knock_knock_setting_activity_label">Kuckuck</string>
     <string name="learn_more_link">Weitere Informationen</string>
+    <string name="leave_audio_message_snackbar_text">Sprachnachricht für %s hinterlassen</string>
+    <string name="leave_message_snackbar_action_text">Aufnehmen</string>
     <string name="leave_message_text">Nachricht aufnehmen.</string>
+    <string name="leave_video_message_snackbar_text">Videonachricht für %s hinterlassen</string>
     <string name="link_gaia_account_unexpected_error">Unerwarteter Fehler. Bitte überprüfe die Verbindung.</string>
     <string name="link_gaia_choose_account">Konto auswählen</string>
     <string name="link_gaia_choose_account_title">Konto auswählen</string>
@@ -420,8 +428,6 @@ Sprich nicht darüber und zeige sie nur Google-Mitarbeitern und Freunden, die am
     <string name="switch_camera_button_back">Zur Rückkamera wechseln</string>
     <string name="switch_camera_button_front">Zur Frontkamera wechseln</string>
     <string name="toggle_screensharing">Bildschirmfreigabe starten oder beenden</string>
-    <string name="turn_bokeh_effect_off_button">Bokeh-Effekt deaktivieren</string>
-    <string name="turn_bokeh_effect_on_button">Bokeh-Effekt aktivieren</string>
     <string name="unblock_user_failed">Die Blockierung des Nutzers kann nicht aufgehoben werden. Überprüfe die Verbindung und versuche es noch einmal.</string>
     <string name="unblocked_notification_description">Du kannst jetzt auch in deiner Region Anrufe mit hoher Qualität und einen besseren Service nutzen</string>
     <string name="unblocked_notification_title">Duo ist jetzt besser als je zuvor</string>
@@ -469,7 +475,6 @@ Die Live-Videovorschau ist aktiviert"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">Datenschutzerklärung</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">Nutzungsbedingungen</string>
     <string name="welcome_activity_intro_primary">Videoanrufe in hoher Qualität</string>
-    <string name="welcome_activity_menu_select_label">Zum Lesen öffnen</string>
     <string name="welcome_activity_menu_select_privacy">Google-Datenschutzerklärung</string>
     <string name="welcome_activity_menu_select_tos">Nutzungsbedingungen von Google</string>
     <string name="welcome_activity_silent_reg_unreg_abort">ABBRECHEN</string>

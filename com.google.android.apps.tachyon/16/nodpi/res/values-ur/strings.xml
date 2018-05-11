@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">%1$s کی جانب سے ویڈیو کال آ رہی ہے۔ جواب دینے کیلئے دو انگلیوں سے اوپر سوائپ کریں۔ مسترد کرنے کیلئے دو انگلیوں سے نیچے سوائپ کریں۔</string>
     <string name="action_send_feedback">مدد اور تاثرات</string>
     <string name="action_settings">ترتیبات</string>
+    <string name="adjust_bokeh_effect_blur_button">Bokeh کے دھندلے اثر کو ایڈجسٹ کریں</string>
     <string name="ahd_alert_dismiss_action_label">برخاست کریں</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">ویڈیو بند کریں</string>
     <string name="ahd_alert_low_battery_description">لمبی بات کرنے کے لیے، اپنی ویڈیو بند کریں</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">منسوخ کریں</string>
     <string name="blocked_numbers_unblock_yes">غیر مسدود کریں</string>
     <string name="blocked_numbers_undo">کالعدم کریں</string>
-    <string name="bokeh_effect_off">Bokeh کا اثر آف ہے</string>
-    <string name="bokeh_effect_on">Bokeh کا اثر آن ہے</string>
+    <string name="bokeh_effect_blur_heavy">زیادہ دھندلا</string>
+    <string name="bokeh_effect_blur_light">ہلکا دھندلا</string>
+    <string name="bokeh_effect_blur_medium">متوسط دھندلا</string>
+    <string name="bokeh_effect_blur_off">دھندلاپن آف ہے</string>
     <string name="button_disconnect_call">کال منقطع کریں</string>
     <string name="button_re_record_message">دوبارہ ریکارڈ کریں</string>
     <string name="button_record_message">ریکارڈ کریں</string>
@@ -132,6 +135,8 @@
     <string name="contact_action_send_voice_message">صوتی پیغام بھیجیں</string>
     <string name="contact_action_video_call">ویڈیو کال شروع کریں</string>
     <string name="contact_action_view_message">پیغام دیکھیں</string>
+    <string name="contact_badge_seen">دیکھا گیا</string>
+    <string name="contact_badge_sent">بھیجا گیا</string>
     <string name="contact_card_audio_action_detail_format">Duo صوتی کال %1$s</string>
     <string name="contact_card_audio_action_summary_text">Duo صوتی کال</string>
     <string name="contact_card_video_action_detail_format">Duo ویڈیو کال %1$s</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">Backspace</string>
     <string name="knock_knock_setting_activity_label">Knock Knock</string>
     <string name="learn_more_link">مزید جانیں</string>
+    <string name="leave_audio_message_snackbar_text">%s کیلئے ایک صوتی پیغام دیں</string>
+    <string name="leave_message_snackbar_action_text">ریکارڈ کریں</string>
     <string name="leave_message_text">ایک پیغام چھوڑیں۔</string>
+    <string name="leave_video_message_snackbar_text">%s کیلئے ایک ویڈیو پیغام دیں</string>
     <string name="link_gaia_account_unexpected_error">غیر متوقع خرابی۔ براہ کرم اپنا کنکشن چیک کریں۔</string>
     <string name="link_gaia_choose_account">اکاؤنٹ منتخب کریں</string>
     <string name="link_gaia_choose_account_title">ایک اکاؤنٹ منتخب کریں</string>
@@ -447,8 +455,6 @@ Knock Knock صرف اس صورت میں کام کرتا ہے جب کال موص�
     <string name="switch_camera_button_back">بیک کیمرا پر سوئچ کریں</string>
     <string name="switch_camera_button_front">فرنٹ کیمرا پر سوئچ کریں</string>
     <string name="toggle_screensharing">اسکرین کا اشتراک شروع یا بند کریں</string>
-    <string name="turn_bokeh_effect_off_button">Bokeh کا اثر آف کریں</string>
-    <string name="turn_bokeh_effect_on_button">Bokeh کا اثر آن کریں</string>
     <string name="unblock_user_failed">صارف کو غیر مسدود کرنے سے قاصر۔ براہ کرم کنکشن چیک کر کے دوبارہ کوشش کریں۔</string>
     <string name="unblocked_notification_description">اپنے علاقے میں بہتر سروس اور اعلی معیاری کالز سے لطف اندوز ہوں</string>
     <string name="unblocked_notification_title">Duo پہلے سے کہیں زیادہ بہتر ہے</string>
@@ -496,7 +502,6 @@ Knock Knock صرف اس صورت میں کام کرتا ہے جب کال موص�
     <string name="welcome_activity_intro_agreements_clickable_privacy">رازداری کی پالیسی</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">سروس کی شرائط</string>
     <string name="welcome_activity_intro_primary">اعلی معیاری ویڈیو کالنگ</string>
-    <string name="welcome_activity_menu_select_label">جائزہ لینے کیلئے منتخب کریں</string>
     <string name="welcome_activity_menu_select_privacy">Google کی رازداری کی پالیسی</string>
     <string name="welcome_activity_menu_select_tos">Google کی سروس کی شرائط</string>
     <string name="welcome_activity_silent_reg_unreg_abort">کوئی بات نہیں</string>

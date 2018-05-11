@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">Մուտքային տեսազանգ %1$s-ից: Պատասխանելու համար երկու մատով սահեցրեք վերև, մերժելու համար՝ ներքև:</string>
     <string name="action_send_feedback">Օգնություն և հետադարձ կապ</string>
     <string name="action_settings">Կարգավորումներ</string>
+    <string name="adjust_bokeh_effect_blur_button">Կարգավորել բոկե էֆեկտի շաղումը</string>
     <string name="ahd_alert_dismiss_action_label">Փակել</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">Անջատել տեսապատկերը</string>
     <string name="ahd_alert_low_battery_description">Երկար խոսելու համար խորհուրդ ենք տալիս անջատել տեսապատկերը</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">ՉԵՂԱՐԿԵԼ</string>
     <string name="blocked_numbers_unblock_yes">ԱՐԳԵԼԱԲԱՑԵԼ</string>
     <string name="blocked_numbers_undo">ՀԵՏԱՐԿԵԼ</string>
-    <string name="bokeh_effect_off">Բոկե էֆեկտն անջատած է</string>
-    <string name="bokeh_effect_on">Բոկե էֆեկտը միացված է</string>
+    <string name="bokeh_effect_blur_heavy">Ուժեղ շաղում</string>
+    <string name="bokeh_effect_blur_light">Թույլ շաղում</string>
+    <string name="bokeh_effect_blur_medium">Միջին շաղում</string>
+    <string name="bokeh_effect_blur_off">Շաղումն անջատած է</string>
     <string name="button_disconnect_call">Ավարտել զանգը</string>
     <string name="button_re_record_message">Վերսկսել ձայնագրումը</string>
     <string name="button_record_message">Ձայնագրել</string>
@@ -132,6 +135,8 @@
     <string name="contact_action_send_voice_message">Ուղարկել ձայնային հաղորդագրություն</string>
     <string name="contact_action_video_call">Սկսել տեսազանգ</string>
     <string name="contact_action_view_message">Դիտել հաղորդագրությունը</string>
+    <string name="contact_badge_seen">Կարդացվել է</string>
+    <string name="contact_badge_sent">Ուղարկվել է</string>
     <string name="contact_card_audio_action_detail_format">Duo զանգ %1$s համարին</string>
     <string name="contact_card_audio_action_summary_text">Duo զանգ</string>
     <string name="contact_card_video_action_detail_format">Duo տեսազանգ %1$s համարին</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">Backspace</string>
     <string name="knock_knock_setting_activity_label">Թըխկ-թըխկ</string>
     <string name="learn_more_link">Մանրամասն</string>
+    <string name="leave_audio_message_snackbar_text">Հաղորդագրություն թողեք %s-ի համար</string>
+    <string name="leave_message_snackbar_action_text">Ձայնագրել</string>
     <string name="leave_message_text">Հաղորդագրություն թողեք:</string>
+    <string name="leave_video_message_snackbar_text">Տեսահաղորդագրություն թողեք %s-ի համար</string>
     <string name="link_gaia_account_unexpected_error">Անսպասելի սխալ առաջացավ: Ստուգեք կապը:</string>
     <string name="link_gaia_choose_account">Ընտրել հաշիվ</string>
     <string name="link_gaia_choose_account_title">Ընտրեք հաշիվը</string>
@@ -446,8 +454,6 @@
     <string name="switch_camera_button_back">Միացնել հետևի տեսախցիկը</string>
     <string name="switch_camera_button_front">Միացնել առջևի տեսախցիկը</string>
     <string name="toggle_screensharing">Սկսել կամ դադարեցնել էկրանի ցուցադրումը</string>
-    <string name="turn_bokeh_effect_off_button">Անջատել բոկե էֆեկտը</string>
-    <string name="turn_bokeh_effect_on_button">Միացնել բոկե էֆեկտը</string>
     <string name="unblock_user_failed">Չհաջողվեց արգելաբացել օգտատիրոջը: Ստուգեք կապը և նորից փորձեք:</string>
     <string name="unblocked_notification_description">Զանգերի բարձր որակ և բարելավված ծառայություն ձեր տարածաշրջանում</string>
     <string name="unblocked_notification_title">Duo-ն կամուրջներ է կառուցում</string>
@@ -495,7 +501,6 @@
     <string name="welcome_activity_intro_agreements_clickable_privacy">Գաղտնիության քաղաքականություն</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">Օգտագործման պայմաններ</string>
     <string name="welcome_activity_intro_primary">Բարձր որակի տեսազանգեր</string>
-    <string name="welcome_activity_menu_select_label">Ընտրեք փաստաթուղթը՝ ծանոթանալու համար</string>
     <string name="welcome_activity_menu_select_privacy">Google-ի գաղտնիության քաղաքականությունը</string>
     <string name="welcome_activity_menu_select_tos">Google-ի օգտագործման պայմանները</string>
     <string name="welcome_activity_silent_reg_unreg_abort">ԱՆՏԵՍԵԼ</string>

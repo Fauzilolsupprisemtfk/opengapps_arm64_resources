@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">Saapuva videopuhelu: %1$s. Vastaa pyyhkäisemällä kahdella sormella ylöspäin. Hylkää pyyhkäisemällä kahdella sormella alaspäin.</string>
     <string name="action_send_feedback">Ohje ja palaute</string>
     <string name="action_settings">Asetukset</string>
+    <string name="adjust_bokeh_effect_blur_button">Säädä boke-tehosteen sumennusta</string>
     <string name="ahd_alert_dismiss_action_label">Hylkää</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">Sammuta video</string>
     <string name="ahd_alert_low_battery_description">Jos haluat puhua pidempään, kokeile sammuttaa video</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">PERUUTA</string>
     <string name="blocked_numbers_unblock_yes">KUMOA ESTO</string>
     <string name="blocked_numbers_undo">KUMOA</string>
-    <string name="bokeh_effect_off">Boke-tehoste pois päältä</string>
-    <string name="bokeh_effect_on">Boke-tehoste päällä</string>
+    <string name="bokeh_effect_blur_heavy">Voimakas sumennus</string>
+    <string name="bokeh_effect_blur_light">Kevyt sumennus</string>
+    <string name="bokeh_effect_blur_medium">Normaali sumennus</string>
+    <string name="bokeh_effect_blur_off">Sumennus ei käytössä</string>
     <string name="button_disconnect_call">Katkaise puhelu</string>
     <string name="button_re_record_message">Tallenna uudelleen</string>
     <string name="button_record_message">Nauhoita</string>
@@ -132,9 +135,11 @@
     <string name="contact_action_send_voice_message">Lähetä ääniviesti</string>
     <string name="contact_action_video_call">Aloita videopuhelu</string>
     <string name="contact_action_view_message">Näytä viesti</string>
-    <string name="contact_card_audio_action_detail_format">Duo-äänipuhelu %1$s</string>
+    <string name="contact_badge_seen">Luettu</string>
+    <string name="contact_badge_sent">Lähetetty</string>
+    <string name="contact_card_audio_action_detail_format">Duo-äänipuhelu %1$s</string>
     <string name="contact_card_audio_action_summary_text">Duo-äänipuhelu</string>
-    <string name="contact_card_video_action_detail_format">Duo-videopuhelu %1$s</string>
+    <string name="contact_card_video_action_detail_format">Duo-videopuhelu %1$s</string>
     <string name="contact_card_video_action_summary_text">Duo-videopuhelu</string>
     <string name="contact_item_description">Soita: %1$s, %2$s</string>
     <string name="contact_item_description_clip">Toista viesti, jonka lähettäjä on %1$s</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">Askelpalautin</string>
     <string name="knock_knock_setting_activity_label">Kop kop</string>
     <string name="learn_more_link">Lisätietoja</string>
+    <string name="leave_audio_message_snackbar_text">Jätä ääniviesti käyttäjälle %s</string>
+    <string name="leave_message_snackbar_action_text">Nauhoita</string>
     <string name="leave_message_text">Jätä viesti.</string>
+    <string name="leave_video_message_snackbar_text">Jätä videoviesti käyttäjälle %s</string>
     <string name="link_gaia_account_unexpected_error">Odottamaton virhe. Tarkista yhteys.</string>
     <string name="link_gaia_choose_account">Valitse tili</string>
     <string name="link_gaia_choose_account_title">Valitse tili</string>
@@ -447,8 +455,6 @@ Kop kop on käytössä, jos henkilö on lisännyt sinut yhteystietoihinsa. Sinä
     <string name="switch_camera_button_back">Vaihda takakameraan</string>
     <string name="switch_camera_button_front">Vaihda etukameraan</string>
     <string name="toggle_screensharing">Aloita tai lopeta näytön jakaminen</string>
-    <string name="turn_bokeh_effect_off_button">Poista boke-tehoste käytöstä</string>
-    <string name="turn_bokeh_effect_on_button">Ota boke-tehoste käyttöön</string>
     <string name="unblock_user_failed">Käyttäjän eston kumoaminen epäonnistui. Tarkista yhteys ja yritä uudelleen.</string>
     <string name="unblocked_notification_description">Nauti laadukkaista puheluista ja entistä paremmista palveluista alueellasi.</string>
     <string name="unblocked_notification_title">Duo on nyt entistäkin parempi</string>
@@ -496,7 +502,6 @@ Kop kop on käytössä"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">Tietosuojakäytäntö</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">Käyttöehdot</string>
     <string name="welcome_activity_intro_primary">Korkealaatuiset videopuhelut</string>
-    <string name="welcome_activity_menu_select_label">Valitse tarkasteltavaksi</string>
     <string name="welcome_activity_menu_select_privacy">Googlen tietosuojakäytäntö</string>
     <string name="welcome_activity_menu_select_tos">Googlen käyttöehdot</string>
     <string name="welcome_activity_silent_reg_unreg_abort">EI SITTENKÄÄN</string>

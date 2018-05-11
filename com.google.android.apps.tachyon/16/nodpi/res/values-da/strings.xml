@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">Indgående videoopkald fra %1$s. Stryg op med to fingre for at besvare. Stryg ned med to fingre for at afvise.</string>
     <string name="action_send_feedback">Hjælp og feedback</string>
     <string name="action_settings">Indstillinger</string>
+    <string name="adjust_bokeh_effect_blur_button">Juster sløring for effekten Bokeh</string>
     <string name="ahd_alert_dismiss_action_label">Afvis</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">Slå video fra</string>
     <string name="ahd_alert_low_battery_description">Slå video fra for at tale i længere tid</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">ANNULLER</string>
     <string name="blocked_numbers_unblock_yes">FJERN BLOKERING</string>
     <string name="blocked_numbers_undo">FORTRYD</string>
-    <string name="bokeh_effect_off">Effekten Bokeh er slået fra</string>
-    <string name="bokeh_effect_on">Effekten Bokeh er slået til</string>
+    <string name="bokeh_effect_blur_heavy">Stærk sløring</string>
+    <string name="bokeh_effect_blur_light">Let sløring</string>
+    <string name="bokeh_effect_blur_medium">Mellemstærk sløring</string>
+    <string name="bokeh_effect_blur_off">Sløring deaktiveret</string>
     <string name="button_disconnect_call">Læg på</string>
     <string name="button_re_record_message">Genoptag optagelse</string>
     <string name="button_record_message">Optag</string>
@@ -132,6 +135,8 @@
     <string name="contact_action_send_voice_message">Send talebesked</string>
     <string name="contact_action_video_call">Start videoopkald</string>
     <string name="contact_action_view_message">Åbn besked</string>
+    <string name="contact_badge_seen">Set</string>
+    <string name="contact_badge_sent">Sendt</string>
     <string name="contact_card_audio_action_detail_format">Foretag et taleopkald i Duo til %1$s</string>
     <string name="contact_card_audio_action_summary_text">Taleopkald i Duo</string>
     <string name="contact_card_video_action_detail_format">Duo-videoopkald %1$s</string>
@@ -271,7 +276,10 @@
     <string name="keypad_backspace">Tilbage</string>
     <string name="knock_knock_setting_activity_label">Knock Knock</string>
     <string name="learn_more_link">Få flere oplysninger</string>
+    <string name="leave_audio_message_snackbar_text">Optag en talebesked til %s</string>
+    <string name="leave_message_snackbar_action_text">Optag</string>
     <string name="leave_message_text">Indtal en besked.</string>
+    <string name="leave_video_message_snackbar_text">Optag en videobesked til %s</string>
     <string name="link_gaia_account_unexpected_error">Der opstod en uventet fejl. Tjek din forbindelse.</string>
     <string name="link_gaia_choose_account">Vælg konto</string>
     <string name="link_gaia_choose_account_title">Vælg en konto</string>
@@ -459,8 +467,6 @@ Knock Knock fungerer, hvis den person, du ringer til, har dig i sine kontaktpers
     <string name="switch_camera_button_back">Skift til kameraet på bagsiden</string>
     <string name="switch_camera_button_front">Skift til kameraet på forsiden</string>
     <string name="toggle_screensharing">Start eller stop skærmdeling</string>
-    <string name="turn_bokeh_effect_off_button">Slå effekten Bokeh fra</string>
-    <string name="turn_bokeh_effect_on_button">Slå effekten Bokeh til</string>
     <string name="unblock_user_failed">Blokeringen af brugeren kunne ikke fjernes. Tjek forbindelsen, og prøv igen.</string>
     <string name="unblocked_notification_description">Få glæde af samtaler i høj kvalitet og forbedret dækning i dit område</string>
     <string name="unblocked_notification_title">Duo er bedre end nogensinde</string>
@@ -508,7 +514,6 @@ Knock Knock er slået til"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">Privatlivspolitik</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">Servicevilkår</string>
     <string name="welcome_activity_intro_primary">Videoopkald i høj kvalitet</string>
-    <string name="welcome_activity_menu_select_label">Vælg det, du vil se</string>
     <string name="welcome_activity_menu_select_privacy">Googles privatlivspolitik</string>
     <string name="welcome_activity_menu_select_tos">Google Servicevilkår</string>
     <string name="welcome_activity_silent_reg_unreg_abort">ANNULLER</string>

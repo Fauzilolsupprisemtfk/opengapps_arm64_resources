@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">Входящо видеообаждане от %1$s. Плъзнете нагоре с два пръста, за да отговорите. Плъзнете надолу с два пръста, за да откажете.</string>
     <string name="action_send_feedback">Помощ и отзиви</string>
     <string name="action_settings">Настройки</string>
+    <string name="adjust_bokeh_effect_blur_button">Корекция на замъгляването на ефекта на размазване</string>
     <string name="ahd_alert_dismiss_action_label">Отхвърляне</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">Изключване на картината</string>
     <string name="ahd_alert_low_battery_description">За да говорите по-дълго, опитайте да изключите картината</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">ОТКАЗ</string>
     <string name="blocked_numbers_unblock_yes">ОТБЛОКИРАНЕ</string>
     <string name="blocked_numbers_undo">ОТМЯНА</string>
-    <string name="bokeh_effect_off">Ефектът на размазване е изключен</string>
-    <string name="bokeh_effect_on">Ефектът на размазване е включен</string>
+    <string name="bokeh_effect_blur_heavy">Силно замъгляване</string>
+    <string name="bokeh_effect_blur_light">Слабо замъгляване</string>
+    <string name="bokeh_effect_blur_medium">Средно замъгляване</string>
+    <string name="bokeh_effect_blur_off">Замъгляването е изключено</string>
     <string name="button_disconnect_call">Затваряне</string>
     <string name="button_re_record_message">Презапис</string>
     <string name="button_record_message">Запис</string>
@@ -132,6 +135,8 @@
     <string name="contact_action_send_voice_message">Изпращане на гласово съобщение</string>
     <string name="contact_action_video_call">Започване на видеообаждане</string>
     <string name="contact_action_view_message">Преглед на съобщението</string>
+    <string name="contact_badge_seen">Видяно</string>
+    <string name="contact_badge_sent">Изпратено</string>
     <string name="contact_card_audio_action_detail_format">Гласово обаждане в Duo до %1$s</string>
     <string name="contact_card_audio_action_summary_text">Гласово обаждане в Duo</string>
     <string name="contact_card_video_action_detail_format">Видеообаждане в Duo до %1$s</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">Backspace</string>
     <string name="knock_knock_setting_activity_label">Knock Knock</string>
     <string name="learn_more_link">Научете повече</string>
+    <string name="leave_audio_message_snackbar_text">Оставете гласово съобщение за %s</string>
+    <string name="leave_message_snackbar_action_text">Запис</string>
     <string name="leave_message_text">Оставете съобщение.</string>
+    <string name="leave_video_message_snackbar_text">Оставете видеосъобщение за %s</string>
     <string name="link_gaia_account_unexpected_error">Неочаквана грешка. Моля, проверете връзката си.</string>
     <string name="link_gaia_choose_account">Избиране на профил</string>
     <string name="link_gaia_choose_account_title">Избор на профил</string>
@@ -447,8 +455,6 @@ Knock Knock работи, ако сте сред контактите на чо�
     <string name="switch_camera_button_back">Превключване към задната камера</string>
     <string name="switch_camera_button_front">Превключване към предната камера</string>
     <string name="toggle_screensharing">Стартиране или спиране на споделянето на екрана</string>
-    <string name="turn_bokeh_effect_off_button">Изключване на ефекта на размазване</string>
-    <string name="turn_bokeh_effect_on_button">Включване на ефекта на размазване</string>
     <string name="unblock_user_failed">Отблокирането на потребителя не е възможно. Моля, проверете връзката си и опитайте отново.</string>
     <string name="unblocked_notification_description">Наслаждавайте се на обаждания с по-високо качество и на подобрени услуги в района ви</string>
     <string name="unblocked_notification_title">Duo е по-добро от всякога</string>
@@ -496,7 +502,6 @@ Knock Knock е включено"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">Декларация за поверителност</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">Общи условия</string>
     <string name="welcome_activity_intro_primary">Висококачествени видеообаждания</string>
-    <string name="welcome_activity_menu_select_label">Изберете, за да прегледате</string>
     <string name="welcome_activity_menu_select_privacy">Декларация за поверителност на Google</string>
     <string name="welcome_activity_menu_select_tos">Общи условия на Google</string>
     <string name="welcome_activity_silent_reg_unreg_abort">НЯМА ЗНАЧЕНИЕ</string>

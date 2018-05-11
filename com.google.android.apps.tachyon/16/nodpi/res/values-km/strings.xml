@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">ការ​ហៅ​វីដេអូ​ចូល​ពី %1$s។ អូស​ម្រាម​ដៃ​ពីរ​ឡើងលើ​ដើម្បី​ឆ្លើយ។ អូស​ម្រាមដៃ​ពីរ​ចុះក្រោម​ដើម្បី​បដិសេធ។</string>
     <string name="action_send_feedback">ជំនួយ &amp; មតិ​ស្ថាបនា</string>
     <string name="action_settings">ការកំណត់</string>
+    <string name="adjust_bokeh_effect_blur_button">កែតម្រូវភាពព្រាល​​ឥទ្ធិពល Bokeh</string>
     <string name="ahd_alert_dismiss_action_label">ច្រានចោល</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">បិទ​វីដេអូ</string>
     <string name="ahd_alert_low_battery_description">ដើម្បី​និយាយ​បាន​កាន់​តែ​យូរ សូម​សាក​ល្បង​បិទ​វីដេអូ​របស់​អ្នក</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">បោះបង់</string>
     <string name="blocked_numbers_unblock_yes">ឈប់​បិទ</string>
     <string name="blocked_numbers_undo">មិនធ្វើវិញ</string>
-    <string name="bokeh_effect_off">ឥទ្ធិពល Bokeh ត្រូវបាន​បិទ</string>
-    <string name="bokeh_effect_on">ឥទ្ធិពល Bokeh ត្រូវ​បាន​បើក</string>
+    <string name="bokeh_effect_blur_heavy">ព្រាល​ខ្លាំង</string>
+    <string name="bokeh_effect_blur_light">ព្រាល​ស្រាល</string>
+    <string name="bokeh_effect_blur_medium">ព្រាល​មធ្យម</string>
+    <string name="bokeh_effect_blur_off">បិទ​ព្រាល</string>
     <string name="button_disconnect_call">បញ្ចប់​ការ​សន្ទនា</string>
     <string name="button_re_record_message">ថត​ឡើង​វិញ</string>
     <string name="button_record_message">ថត</string>
@@ -132,10 +135,12 @@
     <string name="contact_action_send_voice_message">ផ្ញើ​សារ​ជា​សំឡេង</string>
     <string name="contact_action_video_call">ចាប់ផ្តើមការហៅវីដេអូ</string>
     <string name="contact_action_view_message">មើល​សារ</string>
+    <string name="contact_badge_seen">បាន​ឃើញ</string>
+    <string name="contact_badge_sent">បាន​ផ្ញើ​</string>
     <string name="contact_card_audio_action_detail_format">ការហៅ​​ជា​សំឡេង​តាម Duo ទៅ​កាន់ %1$s</string>
     <string name="contact_card_audio_action_summary_text">ការហៅ​​ជា​សំឡេង​តាម Duo</string>
     <string name="contact_card_video_action_detail_format">ការហៅ​ជា​វីដេអូ​លើ Duo ទៅ​កាន់ %1$s</string>
-    <string name="contact_card_video_action_summary_text">ការហៅជា​​វីដេអូ​លើ Duo</string>
+    <string name="contact_card_video_action_summary_text">ការហៅ​វីដេអូ​លើ Duo</string>
     <string name="contact_item_description">ហៅ​ទៅកាន់ %1$s តាម​លេខ %2$s</string>
     <string name="contact_item_description_clip">លេង​​​សារ​​ពី %1$s</string>
     <string name="contact_item_description_invite">អញ្ជើញ %1$s ប្រើប្រាស់ Duo</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">លុបថយក្រោយ</string>
     <string name="knock_knock_setting_activity_label">មើល​វីដេអូ​បន្តផ្ទាល់​អ្នក​ហៅ​ផ្សេង</string>
     <string name="learn_more_link">ស្វែងយល់បន្ថែម</string>
+    <string name="leave_audio_message_snackbar_text">ផ្ដល់​សារ​ជា​សំឡេង​មួយ​សម្រាប់ %s</string>
+    <string name="leave_message_snackbar_action_text">ថត</string>
     <string name="leave_message_text">ផ្ញើ​សារ​មួយ។</string>
+    <string name="leave_video_message_snackbar_text">ផ្ដល់​សារ​ជា​វីដេអូ​មួយ​សម្រាប់ %s</string>
     <string name="link_gaia_account_unexpected_error">មាន​បញ្ហា​ដែលមិនបានរំពឹងទុក សូម​ពិនិត្យ​មើល​ការតភ្ជាប់​របស់​អ្នក។</string>
     <string name="link_gaia_choose_account">ជ្រើសរើស​គណនី</string>
     <string name="link_gaia_choose_account_title">ជ្រើសរើស​គណនី</string>
@@ -446,8 +454,6 @@ Knock Knock ដំណើរការ បើ​មនុស្ស​ដែល​�
     <string name="switch_camera_button_back">ប្ដូរ​ទៅ​កាមេរ៉ា​​​ក្រោយ</string>
     <string name="switch_camera_button_front">ប្តូរទៅកាមេរ៉ា​មុខ</string>
     <string name="toggle_screensharing">ចាប់​ផ្ដើម ឬ​បញ្ឈប់​ការចែក​រំលែក​អេក្រង់</string>
-    <string name="turn_bokeh_effect_off_button">បិទ​​ឥទ្ធិពល Bokeh</string>
-    <string name="turn_bokeh_effect_on_button">បើក​ឥទ្ធិពល Bokeh</string>
     <string name="unblock_user_failed">មិន​អាច​ឈប់ទប់ស្កាត់​​អ្នក​ប្រើប្រាស់​បាន​ទេ។ សូម​ពិនិត្យមើល​ការតភ្ជាប់ រួច​ព្យាយាម​ម្ដង​ទៀត។</string>
     <string name="unblocked_notification_description">រីករាយ​ការហៅ​ប្រកបដោយ​គុណភាព​ខ្ពស់ និង​សេវាកម្ម​កាន់តែប្រសើរ​នៅ​ក្នុង​តំបន់​របស់​អ្នក</string>
     <string name="unblocked_notification_title">Duo ឥឡូវ​ប្រសើរ​ជាង​ពេលមុនៗទាំងអស់</string>
@@ -495,7 +501,6 @@ Knock Knock ត្រូវបាន​បើក"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">គោល​ការណ៍​​ឯកជនភាព</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">លក្ខខណ្ឌ​ប្រើប្រាស់</string>
     <string name="welcome_activity_intro_primary">ការហៅ​វីដេអូ​មាន​គុណភាព​ខ្ពស់</string>
-    <string name="welcome_activity_menu_select_label">ជ្រើសរើស ដើម្បីពិនិត្យមើល</string>
     <string name="welcome_activity_menu_select_privacy">គោល​ការណ៍​​ឯកជនភាព​​របស់ Google</string>
     <string name="welcome_activity_menu_select_tos">លក្ខខណ្ឌ​ប្រើប្រាស់​របស់ Google</string>
     <string name="welcome_activity_silent_reg_unreg_abort">មិន​អី​ទេ</string>

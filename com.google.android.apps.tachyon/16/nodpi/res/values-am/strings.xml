@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">ገቢ የቪዲዮ ጥሪ ከ %1$s። ለመመለስ በሁለት ጣት ወደላይ ይጥረጉ። ላለመቀበል በሁለት ጣት ወደታች ይጥረጉ።</string>
     <string name="action_send_feedback">እገዛ እና ግብረመልስ</string>
     <string name="action_settings">ቅንብሮች</string>
+    <string name="adjust_bokeh_effect_blur_button">የቦካህ ተጽዕኖ ብዥታን አስተካክል</string>
     <string name="ahd_alert_dismiss_action_label">አሰናብት</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">ቪዲዮን አጥፋ</string>
     <string name="ahd_alert_low_battery_description">ረዘም ላለ ጊዜ ለማውራት፣ ቪዲዮዎን ለማጥፋት ይሞክሩ</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">ይቅር</string>
     <string name="blocked_numbers_unblock_yes">እገዳውን አንሳ</string>
     <string name="blocked_numbers_undo">ቀልብስ</string>
-    <string name="bokeh_effect_off">የቦካህ ተጽዕኖ ጠፍቷል</string>
-    <string name="bokeh_effect_on">የቦካህ ተጽዕኖ በርቷል</string>
+    <string name="bokeh_effect_blur_heavy">ከበድ ያለ ብዥታ</string>
+    <string name="bokeh_effect_blur_light">ቀላል ብዥታ</string>
+    <string name="bokeh_effect_blur_medium">መካከለኛ ብዥታ</string>
+    <string name="bokeh_effect_blur_off">ብዥታ ጠፍቷል</string>
     <string name="button_disconnect_call">ዝጋ</string>
     <string name="button_re_record_message">እንደገና-ይቅረጹ</string>
     <string name="button_record_message">ቅዳ</string>
@@ -132,6 +135,8 @@
     <string name="contact_action_send_voice_message">የድምፅ መልዕክት ላክ</string>
     <string name="contact_action_video_call">የቪዲዮ ጥሪ ጀምር</string>
     <string name="contact_action_view_message">መልዕክት አሳይ</string>
+    <string name="contact_badge_seen">ታይቷል</string>
+    <string name="contact_badge_sent">ተልኳል</string>
     <string name="contact_card_audio_action_detail_format">የDuo የድምጽ ጥሪ %1$s</string>
     <string name="contact_card_audio_action_summary_text">የDuo የድምጽ ጥሪ</string>
     <string name="contact_card_video_action_detail_format">የDuo የቪዲዮ ጥሪ %1$s</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">የኋሊት ደምሳሽ</string>
     <string name="knock_knock_setting_activity_label">ኖክ ኖክ</string>
     <string name="learn_more_link">የበለጠ ለመረዳት</string>
+    <string name="leave_audio_message_snackbar_text">ለ%s የድምጽ መልዕክት ይተዉ</string>
+    <string name="leave_message_snackbar_action_text">ቅዳ</string>
     <string name="leave_message_text">መልዕክት ይተዉ።</string>
+    <string name="leave_video_message_snackbar_text">ለ%s የቪዲዮ መልዕክት ይተዉ</string>
     <string name="link_gaia_account_unexpected_error">ያልተጠበቀ ስህተት፣ እባክዎ ግንኙነትዎን ይፈትሹ።</string>
     <string name="link_gaia_choose_account">መለያ ምረጥ</string>
     <string name="link_gaia_choose_account_title">መለያን ይምረጡ</string>
@@ -447,8 +455,6 @@
     <string name="switch_camera_button_back">ወደ የኋላ ካሜራ ቀይር</string>
     <string name="switch_camera_button_front">ወደ የፊት ካሜራ ቀይር</string>
     <string name="toggle_screensharing">ማያ ገጽን ማጋራት ጀምር ወይም አቁም</string>
-    <string name="turn_bokeh_effect_off_button">የቦካህ ተጽዕኖን አጥፋ</string>
-    <string name="turn_bokeh_effect_on_button">የቦካህ ተጽዕኖን አብራ</string>
     <string name="unblock_user_failed">የተጠቃሚን እገዳ ማንሳት አልተቻለም። እባክዎ ግንኙነቱ መኖሩን ያረጋግጡና እንደገና ይሞክሩ።</string>
     <string name="unblocked_notification_description">በእርስዎ አካባቢ ከፍተኛ-ጥራት ባላቸው ጥሪዎች እና የተሻሻለ አገልግሎት ይደሰቱ</string>
     <string name="unblocked_notification_title">Duo ከመቼውም በበለጠ ተሻሽሏል</string>
@@ -496,7 +502,6 @@
     <string name="welcome_activity_intro_agreements_clickable_privacy">የግላዊነት መመሪያ</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">የአገልግሎት ውል</string>
     <string name="welcome_activity_intro_primary">ከፍተኛ ጥራት ያለው የቪዲዮ ጥሪ</string>
-    <string name="welcome_activity_menu_select_label">ለመገምገም ይምረጡ</string>
     <string name="welcome_activity_menu_select_privacy">የGoogle የግላዊነት መመሪያ</string>
     <string name="welcome_activity_menu_select_tos">የGoogle የአገልግሎት ውል</string>
     <string name="welcome_activity_silent_reg_unreg_abort">በቃ ተወው</string>

@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">%1$s님의 화상 통화를 수신 중입니다. 받으려면 두 손가락으로 위로 스와이프하고, 거부하려면 두 손가락으로 아래로 스와이프하세요.</string>
     <string name="action_send_feedback">도움말 및 의견</string>
     <string name="action_settings">설정</string>
+    <string name="adjust_bokeh_effect_blur_button">보케 효과의 블러 조정</string>
     <string name="ahd_alert_dismiss_action_label">닫기</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">화상 끄기</string>
     <string name="ahd_alert_low_battery_description">오래 통화하려면 화상을 꺼보세요.</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">취소</string>
     <string name="blocked_numbers_unblock_yes">차단 해제</string>
     <string name="blocked_numbers_undo">실행취소</string>
-    <string name="bokeh_effect_off">보케 효과 사용 중지됨</string>
-    <string name="bokeh_effect_on">보케 효과 사용 설정됨</string>
+    <string name="bokeh_effect_blur_heavy">강한 블러</string>
+    <string name="bokeh_effect_blur_light">약한 블러</string>
+    <string name="bokeh_effect_blur_medium">보통의 블러</string>
+    <string name="bokeh_effect_blur_off">블러 사용 안함</string>
     <string name="button_disconnect_call">통화 종료</string>
     <string name="button_re_record_message">다시 녹음</string>
     <string name="button_record_message">녹화/녹음</string>
@@ -132,9 +135,11 @@
     <string name="contact_action_send_voice_message">음성 메시지 전송</string>
     <string name="contact_action_video_call">화상 통화 시작</string>
     <string name="contact_action_view_message">메시지 보기</string>
-    <string name="contact_card_audio_action_detail_format">%1$s(으)로 Duo 음성 통화 걸기</string>
+    <string name="contact_badge_seen">읽음</string>
+    <string name="contact_badge_sent">전송됨</string>
+    <string name="contact_card_audio_action_detail_format">%1$s번으로 Duo 음성 통화 걸기</string>
     <string name="contact_card_audio_action_summary_text">Duo 음성 통화</string>
-    <string name="contact_card_video_action_detail_format">Duo 화상 통화 %1$s</string>
+    <string name="contact_card_video_action_detail_format">%1$s번으로 Duo 화상 통화 걸기</string>
     <string name="contact_card_video_action_summary_text">Duo 화상 통화</string>
     <string name="contact_item_description">%1$s님(%2$s)에게 전화 걸기</string>
     <string name="contact_item_description_clip">%1$s의 메시지 재생</string>
@@ -271,7 +276,10 @@
     <string name="keypad_backspace">Backspace</string>
     <string name="knock_knock_setting_activity_label">Knock Knock</string>
     <string name="learn_more_link">자세히 알아보기</string>
+    <string name="leave_audio_message_snackbar_text">%s님에게 음성 메시지 남기기</string>
+    <string name="leave_message_snackbar_action_text">녹음</string>
     <string name="leave_message_text">메시지를 남겨주세요.</string>
+    <string name="leave_video_message_snackbar_text">%s님에게 동영상 메시지 남기기</string>
     <string name="link_gaia_account_unexpected_error">예기치 않은 오류가 발생했습니다. 연결을 확인하세요.</string>
     <string name="link_gaia_choose_account">계정 선택</string>
     <string name="link_gaia_choose_account_title">계정 선택</string>
@@ -459,8 +467,6 @@ Knock Knock은 내가 전화를 건 사람의 연락처에 내가 있으면 작�
     <string name="switch_camera_button_back">후면 카메라로 전환</string>
     <string name="switch_camera_button_front">전면 카메라로 전환</string>
     <string name="toggle_screensharing">화면 공유 시작 또는 중지</string>
-    <string name="turn_bokeh_effect_off_button">보케 효과 사용 중지</string>
-    <string name="turn_bokeh_effect_on_button">보케 효과 사용</string>
     <string name="unblock_user_failed">사용자를 차단 해제할 수 없습니다. 연결을 확인하고 다시 시도하세요.</string>
     <string name="unblocked_notification_description">내가 거주하는 지역에서 고품질 통화 등 더욱 개선된 서비스를 즐겨보세요.</string>
     <string name="unblocked_notification_title">그 어느 때보다 좋아진 Duo</string>
@@ -508,7 +514,6 @@ Knock Knock이 켜져 있습니다"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">개인정보처리방침</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">서비스 약관</string>
     <string name="welcome_activity_intro_primary">고화질 화상 통화</string>
-    <string name="welcome_activity_menu_select_label">검토할 항목 선택</string>
     <string name="welcome_activity_menu_select_privacy">Google 개인정보처리방침</string>
     <string name="welcome_activity_menu_select_tos">Google 서비스 약관</string>
     <string name="welcome_activity_silent_reg_unreg_abort">닫기</string>

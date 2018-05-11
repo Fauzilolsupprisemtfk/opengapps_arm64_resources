@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">Dohodni videoklic stika %1$s. S prstoma povlecite navzgor, da sprejmete klic. S prstoma povlecite navzdol, da ga zavrnete.</string>
     <string name="action_send_feedback">Pomoč in povratne informacije</string>
     <string name="action_settings">Nastavitve</string>
+    <string name="adjust_bokeh_effect_blur_button">Prilagodi zameglitev za učinek bokeh</string>
     <string name="ahd_alert_dismiss_action_label">Opusti</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">Izklopi video</string>
     <string name="ahd_alert_low_battery_description">Če želite nadaljevati pogovor, izklopite video</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">PREKLIČI</string>
     <string name="blocked_numbers_unblock_yes">ODBLOKIRAJ</string>
     <string name="blocked_numbers_undo">RAZVELJAVI</string>
-    <string name="bokeh_effect_off">Učinek bokeh je izklopljen</string>
-    <string name="bokeh_effect_on">Učinek bokeh je vklopljen</string>
+    <string name="bokeh_effect_blur_heavy">Močna zameglitev</string>
+    <string name="bokeh_effect_blur_light">Rahla zameglitev</string>
+    <string name="bokeh_effect_blur_medium">Srednja zameglitev</string>
+    <string name="bokeh_effect_blur_off">Zameglitev je izklopljena</string>
     <string name="button_disconnect_call">Prekini klic</string>
     <string name="button_re_record_message">Znova posnemi</string>
     <string name="button_record_message">Snemaj</string>
@@ -132,9 +135,11 @@
     <string name="contact_action_send_voice_message">Pošlji glasovno sporočilo</string>
     <string name="contact_action_video_call">Začni videoklic</string>
     <string name="contact_action_view_message">Prikaži sporočilo</string>
-    <string name="contact_card_audio_action_detail_format">Glasovni klic Duo na številko %1$s</string>
+    <string name="contact_badge_seen">Ogledano</string>
+    <string name="contact_badge_sent">Poslano</string>
+    <string name="contact_card_audio_action_detail_format">Glasovni klic Duo na %1$s</string>
     <string name="contact_card_audio_action_summary_text">Glasovni klic Duo</string>
-    <string name="contact_card_video_action_detail_format">Videoklic Duo na številko %1$s</string>
+    <string name="contact_card_video_action_detail_format">Videoklic Duo na %1$s</string>
     <string name="contact_card_video_action_summary_text">Videoklic Duo</string>
     <string name="contact_item_description">Pokliči osebo %1$s na %2$s</string>
     <string name="contact_item_description_clip">Predvajaj sporočilo stika %1$s</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">Vračalka</string>
     <string name="knock_knock_setting_activity_label">Knock Knock</string>
     <string name="learn_more_link">Več o tem</string>
+    <string name="leave_audio_message_snackbar_text">Pustite glasovno sporočilo za osebo %s</string>
+    <string name="leave_message_snackbar_action_text">Snemaj</string>
     <string name="leave_message_text">Pustite sporočilo.</string>
+    <string name="leave_video_message_snackbar_text">Pustite videosporočilo za osebo %s</string>
     <string name="link_gaia_account_unexpected_error">Nepričakovana napaka. Preverite povezavo.</string>
     <string name="link_gaia_choose_account">Izberite račun</string>
     <string name="link_gaia_choose_account_title">Izberite račun</string>
@@ -447,8 +455,6 @@ Funkcija Knock Knock deluje, če ste na seznamu stikov osebe, ki jo kličete. Pr
     <string name="switch_camera_button_back">Preklopi na kamero na zadnji strani</string>
     <string name="switch_camera_button_front">Preklopi na kamero na sprednji strani</string>
     <string name="toggle_screensharing">Začni ali ustavi skupno rabo vsebine na zaslonu</string>
-    <string name="turn_bokeh_effect_off_button">Izklopi učinek bokeh</string>
-    <string name="turn_bokeh_effect_on_button">Vklopi učinek bokeh</string>
     <string name="unblock_user_failed">Uporabnika ni mogoče odblokirati. Preverite povezavo in poskusite znova.</string>
     <string name="unblocked_notification_description">Uživajte v visokokakovostnih klicih in izboljšanih storitvah na svojem območju</string>
     <string name="unblocked_notification_title">Duo je boljši kot kdaj koli prej</string>
@@ -496,7 +502,6 @@ Funkcija Knock Knock je vklopljena."</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">Pravilnik o zasebnosti</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">Pogoji storitve</string>
     <string name="welcome_activity_intro_primary">Visokokakovostni videoklici</string>
-    <string name="welcome_activity_menu_select_label">Izberite za pregled</string>
     <string name="welcome_activity_menu_select_privacy">Googlov pravilnik o zasebnosti</string>
     <string name="welcome_activity_menu_select_tos">Googlovi pogoji storitve</string>
     <string name="welcome_activity_silent_reg_unreg_abort">NE PREKLIČI</string>

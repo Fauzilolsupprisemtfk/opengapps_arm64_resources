@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">%1$s कडून येणारा व्हिडिओ कॉल. उत्तर देण्यासाठी दोन बोटांनी वर स्वाइप करा. नकार देण्यासाठी दोन बोटांनी खाली स्वाइप करा.</string>
     <string name="action_send_feedback">मदत आणि अभिप्राय</string>
     <string name="action_settings">सेटिंग्ज</string>
+    <string name="adjust_bokeh_effect_blur_button">Bokeh इफेक्‍ट ब्‍लर अॅडजस्‍ट करा</string>
     <string name="ahd_alert_dismiss_action_label">डिसमिस करा</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">व्हिडिओ बंद करा</string>
     <string name="ahd_alert_low_battery_description">जास्त वेळ बोलण्यासाठी, तुमचा व्हिडिओ बंद करून पहा</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">रद्द करा</string>
     <string name="blocked_numbers_unblock_yes">अनावरोधित करा</string>
     <string name="blocked_numbers_undo">पूर्ववत करा</string>
-    <string name="bokeh_effect_off">Bokeh बंद केले</string>
-    <string name="bokeh_effect_on">Bokeh इफेक्‍ट सुरू केले</string>
+    <string name="bokeh_effect_blur_heavy">जास्‍त ब्‍लर</string>
+    <string name="bokeh_effect_blur_light">सौम्‍य ब्‍लर</string>
+    <string name="bokeh_effect_blur_medium">मध्‍यम ब्‍लर</string>
+    <string name="bokeh_effect_blur_off">ब्‍लर बंद</string>
     <string name="button_disconnect_call">बंद करा</string>
     <string name="button_re_record_message">पुन्हा रेकॉर्ड करा</string>
     <string name="button_record_message">रेकॉर्ड करा</string>
@@ -132,6 +135,8 @@
     <string name="contact_action_send_voice_message">व्हॉइस संदेश पाठवा</string>
     <string name="contact_action_video_call">व्हिडिओ कॉल प्रारंभ करा</string>
     <string name="contact_action_view_message">संदेश पहा</string>
+    <string name="contact_badge_seen">पाहिला</string>
+    <string name="contact_badge_sent">पाठवला</string>
     <string name="contact_card_audio_action_detail_format">%1$s वर Duo व्हॉइस कॉल करा</string>
     <string name="contact_card_audio_action_summary_text">Duo व्हॉइस कॉल</string>
     <string name="contact_card_video_action_detail_format">Duo व्हिडिओ कॉल %1$s</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">बॅकस्पेस</string>
     <string name="knock_knock_setting_activity_label">नॉक नॉक</string>
     <string name="learn_more_link">अधिक जाणून घ्या</string>
+    <string name="leave_audio_message_snackbar_text">%s साठी व्‍हॉइस संदेश सोडा</string>
+    <string name="leave_message_snackbar_action_text">रेकॉर्ड करा</string>
     <string name="leave_message_text">एक संदेश सोडा</string>
+    <string name="leave_video_message_snackbar_text">%s साठी व्हिडिओ संदेश सोडा</string>
     <string name="link_gaia_account_unexpected_error">अनपेक्षित एरर, कृपया तुमचे नेटवर्क तपासा.</string>
     <string name="link_gaia_choose_account">खाते निवडा</string>
     <string name="link_gaia_choose_account_title">एखादे खाते निवडा</string>
@@ -447,8 +455,6 @@ Googlers किंवा बीटा प्रोग्राम मध्य�
     <string name="switch_camera_button_back">मागील कॅमेर्‍यावर स्‍विच करा</string>
     <string name="switch_camera_button_front">समोरील कॅमऱ्यावर स्विच करा</string>
     <string name="toggle_screensharing">स्क्रीन शेअर करणे सुरू करा किंवा थांबवा</string>
-    <string name="turn_bokeh_effect_off_button">Bokeh इफेक्‍ट बंद करा</string>
-    <string name="turn_bokeh_effect_on_button">Bokeh इफेक्‍ट सुरू करा</string>
     <string name="unblock_user_failed">वापरकर्त्याला अनब्लॉक करू शकत नाही. कृपया कनेक्शन तपासा आणि पुन्हा प्रयत्न करा.</string>
     <string name="unblocked_notification_description">तुमच्या क्षेत्रात उच्च दर्जाचे कॉल आणि सुधारित सेवांचा आनंद घ्या</string>
     <string name="unblocked_notification_title">Duo हे नेहमीपेक्षा चांगले आहे</string>
@@ -496,7 +502,6 @@ Googlers किंवा बीटा प्रोग्राम मध्य�
     <string name="welcome_activity_intro_agreements_clickable_privacy">गोपनीयता धोरण</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">सेवा अटी</string>
     <string name="welcome_activity_intro_primary">उच्च गुणवत्ता व्हिडिओ कॉलिंग</string>
-    <string name="welcome_activity_menu_select_label">पुनरावलोकन करण्यासाठी निवडा</string>
     <string name="welcome_activity_menu_select_privacy">Google गोपनीयता धोरण</string>
     <string name="welcome_activity_menu_select_tos">Google सेवा अटी</string>
     <string name="welcome_activity_silent_reg_unreg_abort">काही हरकत नाही</string>

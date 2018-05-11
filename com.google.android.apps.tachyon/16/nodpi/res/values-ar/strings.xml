@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">مكالمة فيديو واردة من %1$s. مرر لأعلى بأصبعين للرد. مرر لأسفل بأصبعين للرفض.</string>
     <string name="action_send_feedback">المساعدة والتعليقات</string>
     <string name="action_settings">الإعدادات</string>
+    <string name="adjust_bokeh_effect_blur_button">ضبط تعتيم التأثير \"ضبابي\"</string>
     <string name="ahd_alert_dismiss_action_label">رفض</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">إيقاف الفيديو</string>
     <string name="ahd_alert_low_battery_description">للتحدث لفترة أطول، جرّب إيقاف الفيديو</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">إلغاء</string>
     <string name="blocked_numbers_unblock_yes">إلغاء الحظر</string>
     <string name="blocked_numbers_undo">تراجع</string>
-    <string name="bokeh_effect_off">تم إيقاف التأثير \"ضبابي\"</string>
-    <string name="bokeh_effect_on">تم تفعيل التأثير \"ضبابي\"</string>
+    <string name="bokeh_effect_blur_heavy">تعتيم كثيف</string>
+    <string name="bokeh_effect_blur_light">تعتيم خفيف</string>
+    <string name="bokeh_effect_blur_medium">تعتيم متوسط</string>
+    <string name="bokeh_effect_blur_off">إيقاف التعتيم</string>
     <string name="button_disconnect_call">قطع الاتصال</string>
     <string name="button_re_record_message">إعادة التسجيل</string>
     <string name="button_record_message">تسجيل</string>
@@ -132,9 +135,11 @@
     <string name="contact_action_send_voice_message">إرسال رسالة صوتية</string>
     <string name="contact_action_video_call">بدء مكالمة فيديو</string>
     <string name="contact_action_view_message">عرض الرسالة</string>
-    <string name="contact_card_audio_action_detail_format">مكالمة صوتية على Duo %1$s</string>
+    <string name="contact_badge_seen">تم الاطّلاع</string>
+    <string name="contact_badge_sent">تمّ الإرسال</string>
+    <string name="contact_card_audio_action_detail_format">إجراء مكالمة صوتية على Duo مع %1$s</string>
     <string name="contact_card_audio_action_summary_text">مكالمة صوتية على Duo</string>
-    <string name="contact_card_video_action_detail_format">مكالمة فيديو على Duo %1$s</string>
+    <string name="contact_card_video_action_detail_format">إجراء مكالمة فيديو على Duo مع %1$s</string>
     <string name="contact_card_video_action_summary_text">مكالمة فيديو على Duo</string>
     <string name="contact_item_description">الاتصال بـ %1$s على %2$s</string>
     <string name="contact_item_description_clip">تشغيل الرسالة من %1$s</string>
@@ -171,10 +176,10 @@
     <string name="delete_message_toast">تمّ حذف الرسالة.</string>
     <string name="delete_message_undo">تراجع</string>
     <string name="duo_account_added_message">نجحت إضافة حساب Duo</string>
-    <string name="duo_account_disabled_message">تم تعطيل حسابات Duo</string>
+    <string name="duo_account_disabled_message">تم إيقاف حسابات Duo</string>
     <string name="duo_account_exists_message">حساب Duo موجود فعلاً</string>
     <string name="edit_box_string_deleted">تم حذف %s.</string>
-    <string name="enable_bluetooth">تمكين ميزة بلوتوث أو تعطيلها</string>
+    <string name="enable_bluetooth">تفعيل ميزة بلوتوث أو إيقافها</string>
     <string name="export_call_direction">الاتجاه</string>
     <string name="export_call_duration">المدة</string>
     <string name="export_call_history_title">تصدير سجل المكالمات</string>
@@ -233,33 +238,36 @@
     <string name="in_call_wifi_usage_prompt">استخدام Wi-Fi الآن</string>
     <string name="incoming_duo_audio_call">مكالمة صوتية واردة على Duo</string>
     <string name="incoming_duo_video_call">مكالمة فيديو واردة على Duo</string>
-    <string name="invitation_message_base_1">احصل على Duo حتى نتمكن من إجراء دردشة بالفيديو مع بعضنا البعض بسهولة! URL01</string>
-    <string name="invitation_message_base_10">أضفني على Duo حتى يمكننا الدردشة بالفيديو. استخدم هذا الرابط URL05</string>
-    <string name="invitation_message_base_2">احصل على Duo حتى نتمكن من إجراء دردشة بالفيديو مع بعضنا البعض بسهولة! URL02</string>
-    <string name="invitation_message_base_3">احصل على Duo حتى نتمكن من إجراء دردشة بالفيديو مع بعضنا البعض بسهولة! URL03</string>
-    <string name="invitation_message_base_4">احصل على Duo حتى نتمكن من إجراء دردشة بالفيديو مع بعضنا البعض بسهولة! URL04</string>
-    <string name="invitation_message_base_5">احصل على Duo حتى نتمكن من إجراء دردشة بالفيديو مع بعضنا البعض بسهولة! URL05</string>
-    <string name="invitation_message_base_6">أضفني على Duo حتى يمكننا الدردشة بالفيديو. استخدم هذا الرابط URL01</string>
-    <string name="invitation_message_base_7">أضفني على Duo حتى يمكننا الدردشة بالفيديو. استخدم هذا الرابط URL02</string>
-    <string name="invitation_message_base_8">أضفني على Duo حتى يمكننا الدردشة بالفيديو. استخدم هذا الرابط URL03</string>
-    <string name="invitation_message_base_9">أضفني على Duo حتى يمكننا الدردشة بالفيديو. استخدم هذا الرابط URL04</string>
-    <string name="invitation_message_invite_1">لقد حاولت مكالمتك على Duo ولكنك لا تستخدمه بعد! احصل عليه حتى يمكننا إجراء دردشة بالفيديو: URL01</string>
-    <string name="invitation_message_invite_10">جرّب دردشة الفيديو على Duo معي. استخدم هذا الرابط: URL05</string>
+    <string name="invitation_message_base_1">احصل على Duo حتى نتمكن من إجراء محادثة بالفيديو مع بعضنا البعض بسهولة! URL01</string>
+    <string name="invitation_message_base_10">أضفني على Duo حتى يمكننا المحادثة بالفيديو. استخدم هذا الرابط URL05</string>
+    <string name="invitation_message_base_2">احصل على Duo حتى نتمكن من إجراء محادثة بالفيديو مع بعضنا البعض بسهولة! URL02</string>
+    <string name="invitation_message_base_3">احصل على Duo حتى نتمكن من إجراء محادثة بالفيديو مع بعضنا البعض بسهولة! URL03</string>
+    <string name="invitation_message_base_4">احصل على Duo حتى نتمكن من إجراء محادثة بالفيديو مع بعضنا البعض بسهولة! URL04</string>
+    <string name="invitation_message_base_5">احصل على Duo حتى نتمكن من إجراء محادثة بالفيديو مع بعضنا البعض بسهولة! URL05</string>
+    <string name="invitation_message_base_6">أضفني على Duo حتى يمكننا المحادثة بالفيديو. استخدم هذا الرابط URL01</string>
+    <string name="invitation_message_base_7">أضفني على Duo حتى يمكننا المحادثة بالفيديو. استخدم هذا الرابط URL02</string>
+    <string name="invitation_message_base_8">أضفني على Duo حتى يمكننا المحادثة بالفيديو. استخدم هذا الرابط URL03</string>
+    <string name="invitation_message_base_9">أضفني على Duo حتى يمكننا المحادثة بالفيديو. استخدم هذا الرابط URL04</string>
+    <string name="invitation_message_invite_1">لقد حاولت مكالمتك على Duo ولكنك لا تستخدمه بعد! احصل عليه حتى يمكننا إجراء محادثة بالفيديو: URL01</string>
+    <string name="invitation_message_invite_10">جرّب محادثة الفيديو على Duo معي. استخدم هذا الرابط: URL05</string>
     <string name="invitation_message_invite_2">دعنا ندردش بالفيديو على Duo. احصل عليه الآن! URL02</string>
-    <string name="invitation_message_invite_3">أضفني على Duo حتى يمكننا الدردشة بالفيديو. استخدم هذا الرابط: URL03</string>
-    <string name="invitation_message_invite_4">احصل على Duo حتى يمكننا الدردشة بالفيديو على Android وiOS في أي وقت. URL04</string>
-    <string name="invitation_message_invite_5">لقد سمعت لتوي عن Google Duo لإجراء الدردشة بالفيديو. لتجربه URL05</string>
+    <string name="invitation_message_invite_3">أضفني على Duo حتى يمكننا المحادثة بالفيديو. استخدم هذا الرابط: URL03</string>
+    <string name="invitation_message_invite_4">احصل على Duo حتى يمكننا المحادثة بالفيديو على Android وiOS في أي وقت. URL04</string>
+    <string name="invitation_message_invite_5">لقد سمعت لتوي عن Google Duo لإجراء المحادثة بالفيديو. لتجربه URL05</string>
     <string name="invitation_message_invite_6">دعنا ندردش بالفيديو على Duo. استخدم هذا الرابط: URL01</string>
-    <string name="invitation_message_invite_7">هل تريد إجراء دردشة فيديو على Duo؟ احصل عليه من هنا: URL02</string>
-    <string name="invitation_message_invite_8">أضفني على Google Duo حتى يمكننا الدردشة بالفيديو. استخدم هذا الرابط: URL03</string>
-    <string name="invitation_message_invite_9">هل حان الوقت للدردشة معي بالفيديو؟ استخدم هذا الرابط للحصول على Duo: URL04</string>
-    <string name="invite_message_control_1">أضفني على Duo حتى يمكننا الدردشة بالفيديو. استخدم هذا الرابط: URL00</string>
+    <string name="invitation_message_invite_7">هل تريد إجراء محادثة فيديو على Duo؟ احصل عليه من هنا: URL02</string>
+    <string name="invitation_message_invite_8">أضفني على Google Duo حتى يمكننا المحادثة بالفيديو. استخدم هذا الرابط: URL03</string>
+    <string name="invitation_message_invite_9">هل حان الوقت للمحادثة معي بالفيديو؟ استخدم هذا الرابط للحصول على Duo: URL04</string>
+    <string name="invite_message_control_1">أضفني على Duo حتى يمكننا المحادثة بالفيديو. استخدم هذا الرابط: URL00</string>
     <string name="invite_screen_no_contacts_placeholder_subtitle">إدخال رقم هاتف لدعوة شخص جديد</string>
     <string name="invite_screen_no_contacts_placeholder_title">جهات اتصالك موجودة مسبقًا على Duo 🎉</string>
     <string name="keypad_backspace">مسافة للخلف</string>
     <string name="knock_knock_setting_activity_label">ميزة المعاينة</string>
     <string name="learn_more_link">مزيد من المعلومات</string>
+    <string name="leave_audio_message_snackbar_text">إرسال رسالة صوتية إلى %s</string>
+    <string name="leave_message_snackbar_action_text">تسجيل</string>
     <string name="leave_message_text">كتابة رسالة.</string>
+    <string name="leave_video_message_snackbar_text">إرسال رسالة فيديو إلى %s</string>
     <string name="link_gaia_account_unexpected_error">حدث خطأ غير متوقع، يُرجى التحقق من اتصالك بالإنترنت.</string>
     <string name="link_gaia_choose_account">اختيار حساب</string>
     <string name="link_gaia_choose_account_title">اختر حسابًا</string>
@@ -320,11 +328,11 @@
     <string name="permission_settings_button_label">منح حق الدخول</string>
     <string name="phone_number_intro_agreements">يمكن للأشخاص الذين لديهم رقمك الوصول إليك عبر خدمات Google. بالإضافة إلى ذلك، يمكنك تسهيل البحث عن أصدقائك عن طريق السماح لتطبيق Duo بمزامنة جهات اتصالك. سيرسل إليك Duo رسالة SMS تُستخدم لمرة واحدة، وقد يتم فرض رسوم من قِبل مشغل شبكة الجوّال.</string>
     <string name="play_clip_button_text">تشغيل الرسالة</string>
-    <string name="power_save_prompt_battery_high_description">لم تعد طاقة جهازك منخفضة. هل تريد تمكين الفيديو؟</string>
-    <string name="power_save_prompt_battery_low_description">طاقة بطاريتك منخفضة. قد تحتاج إلى تعطيل الفيديو لتوفير الطاقة.</string>
+    <string name="power_save_prompt_battery_high_description">لم تعد طاقة جهازك منخفضة. هل تريد تفعيل الفيديو؟</string>
+    <string name="power_save_prompt_battery_low_description">طاقة بطاريتك منخفضة. قد تحتاج إلى إيقاف الفيديو لتوفير الطاقة.</string>
     <string name="power_save_prompt_ignore">تجاهل</string>
-    <string name="power_save_prompt_turn_off_camera">تعطيل الفيديو</string>
-    <string name="power_save_prompt_turn_on_camera">تمكين الفيديو</string>
+    <string name="power_save_prompt_turn_off_camera">إيقاف الفيديو</string>
+    <string name="power_save_prompt_turn_on_camera">تفعيل الفيديو</string>
     <string name="pref_blocked_numbers_title">الأرقام المحظورة</string>
     <string name="pref_call_notifications_title">إشعارات المكالمات</string>
     <string name="pref_contacts_notifications_enabled_summary">الحصول على تنبيهات عندما تنضم جهات اتصالك إلى Duo</string>
@@ -367,8 +375,8 @@
     <string name="reconnecting">إعادة الاتصال</string>
     <string name="recording_failed">عذرًا، حدث خطأ.</string>
     <string name="registration_accessibility_keypad_shown">عرض لوحة مفاتيح الأرقام</string>
-    <string name="registration_accessibility_next_disabled">تم تعطيل زر التالي</string>
-    <string name="registration_accessibility_next_enabled">تم تمكين زر التالي</string>
+    <string name="registration_accessibility_next_disabled">تم إيقاف زر التالي</string>
+    <string name="registration_accessibility_next_enabled">تم تفعيل زر التالي</string>
     <string name="registration_country_code_description">رمز البلد</string>
     <string name="registration_country_code_format">%1$s ‭(+%2$s)</string>
     <string name="registration_country_code_format_small">%1$s (+%2$s)</string>
@@ -447,8 +455,6 @@
     <string name="switch_camera_button_back">التبديل إلى الكاميرا الخلفية</string>
     <string name="switch_camera_button_front">التبديل إلى الكاميرا الأمامية</string>
     <string name="toggle_screensharing">بدء مشاركة الشاشة أو إيقافها</string>
-    <string name="turn_bokeh_effect_off_button">إيقاف التأثير \"ضبابي\"</string>
-    <string name="turn_bokeh_effect_on_button">تفعيل التأثير \"ضبابي\"</string>
     <string name="unblock_user_failed">تتعذر إزالة حظر المستخدم. يُرجى التحقق من الاتصال والمحاولة مرة أخرى.</string>
     <string name="unblocked_notification_description">تمتع بمكالمات ذات جودة أعلى وخدمات محسَّنة في منطقتك</string>
     <string name="unblocked_notification_title">أصبح Duo أفضل من أي وقت مضى</string>
@@ -496,7 +502,6 @@
     <string name="welcome_activity_intro_agreements_clickable_privacy">سياسة الخصوصية</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">بنود الخدمة</string>
     <string name="welcome_activity_intro_primary">مكالمة فيديو عالية الجودة</string>
-    <string name="welcome_activity_menu_select_label">تحديد للمراجعة</string>
     <string name="welcome_activity_menu_select_privacy">سياسة خصوصية Google‎</string>
     <string name="welcome_activity_menu_select_tos">بنود خدمة Google</string>
     <string name="welcome_activity_silent_reg_unreg_abort">تجاهل ذلك</string>

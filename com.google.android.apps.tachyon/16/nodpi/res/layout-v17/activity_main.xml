@@ -7,6 +7,7 @@
         <FrameLayout android:id="@id/home_screen_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
     </FrameLayout>
     <com.google.android.apps.tachyon.shared.proximitywakelock.ProximityCoverView android:id="@id/proximity_cover_view" android:background="@android:color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/light_background" android:background="@color/common_light_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
     <com.google.android.apps.tachyon.ui.views.ShadowedView android:id="@id/verification_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/TachyonShadowedFragment" />
     <FrameLayout android:id="@id/country_code_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
     <com.google.android.apps.tachyon.ui.views.ShadowedView android:id="@id/registration_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/TachyonShadowedFragment" />
@@ -20,7 +21,7 @@
     <FrameLayout android:id="@id/call_feedback_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
     <FrameLayout android:id="@id/update_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
     <FrameLayout android:id="@id/verification_success_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <FrameLayout android:id="@id/invite_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.google.android.apps.tachyon.ui.views.ShadowedView android:id="@id/invite_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/TachyonShadowedFragment" />
     <FrameLayout android:id="@id/video_clip_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
     <FrameLayout android:id="@id/send_message_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
     <FrameLayout android:id="@id/clip_background_scrim" android:background="@color/outgoing_call_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />

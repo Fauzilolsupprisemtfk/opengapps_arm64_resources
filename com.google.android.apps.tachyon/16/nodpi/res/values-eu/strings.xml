@@ -17,10 +17,11 @@
     <string name="abc_searchview_description_voice">Ahozko bilaketa</string>
     <string name="abc_toolbar_collapse_description">Tolestu</string>
     <string name="acc_call_ended">Amaitu da deia</string>
-    <string name="acc_incoming_audio_call_from">%1$s erabiltzailearen ahots-deia. Deia hartzeko, pasatu bi hatz gorantz eta baztertzeko, berriz, pasatu bi hatz beherantz.</string>
-    <string name="acc_incoming_call_from">Bideo-dei bat egiten ari zaizu %1$s. Deia hartzeko, pasatu bi hatz gorantz eta baztertzeko, berriz, pasatu bi hatzak beherantz.</string>
+    <string name="acc_incoming_audio_call_from">%1$s erabiltzailearen ahots-deia. Deia hartzeko, pasatu bi hatz gora eta baztertzeko, berriz, pasatu bi hatz behera.</string>
+    <string name="acc_incoming_call_from">Bideo-dei bat egiten ari zaizu %1$s. Deia hartzeko, pasatu bi hatz gora eta baztertzeko, berriz, pasatu bi hatzak behera.</string>
     <string name="action_send_feedback">Laguntza eta iritziak</string>
     <string name="action_settings">Ezarpenak</string>
+    <string name="adjust_bokeh_effect_blur_button">Doitu bokeh efektuaren lausotzea</string>
     <string name="ahd_alert_dismiss_action_label">Baztertu</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">Desaktibatu bideoa</string>
     <string name="ahd_alert_low_battery_description">Denbora luzeagoz hitz egiteko, desaktibatu bideoa</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">UTZI</string>
     <string name="blocked_numbers_unblock_yes">DESBLOKEATU</string>
     <string name="blocked_numbers_undo">DESEGIN</string>
-    <string name="bokeh_effect_off">Desaktibatu da bokeh efektua</string>
-    <string name="bokeh_effect_on">Aktibatu da bokeh efektua</string>
+    <string name="bokeh_effect_blur_heavy">Lausotze handia</string>
+    <string name="bokeh_effect_blur_light">Lausotze txikia</string>
+    <string name="bokeh_effect_blur_medium">Lausotze ertaina</string>
+    <string name="bokeh_effect_blur_off">Lausotzea desaktibatuta</string>
     <string name="button_disconnect_call">Amaitu deia</string>
     <string name="button_re_record_message">Grabatu berriro</string>
     <string name="button_record_message">Grabatu</string>
@@ -76,9 +79,9 @@
     <string name="call_incoming_accept">ONARTU</string>
     <string name="call_incoming_audio_call">Honen ahots-deia:</string>
     <string name="call_incoming_decline">BAZTERTU</string>
-    <string name="call_incoming_swipe_down_to_decline">Baztertzeko, berriz, pasatu hatza beherantz</string>
-    <string name="call_incoming_swipe_to_answer">Erantzuteko, pasatu hatza gorantz</string>
-    <string name="call_incoming_swipe_to_unlock">Telefonoa desblokeatzeko, pasatu hatza gorantz</string>
+    <string name="call_incoming_swipe_down_to_decline">Baztertzeko, berriz, pasatu hatza behera</string>
+    <string name="call_incoming_swipe_to_answer">Erantzuteko, pasatu hatza gora</string>
+    <string name="call_incoming_swipe_to_unlock">Telefonoa desblokeatzeko, pasatu hatza gora</string>
     <string name="call_incoming_video_call">Bideo-deia</string>
     <string name="call_rating_feedback_include_call_diagnostics">Hartu barnean deien diagnostikoak</string>
     <string name="call_rating_feedback_option_bad_audio">Audioaren kalitatea</string>
@@ -132,6 +135,8 @@
     <string name="contact_action_send_voice_message">Bidali ahots-mezu bat</string>
     <string name="contact_action_video_call">Egin bideo-deia</string>
     <string name="contact_action_view_message">Ikusi mezua</string>
+    <string name="contact_badge_seen">Ikusi da</string>
+    <string name="contact_badge_sent">Bidali da</string>
     <string name="contact_card_audio_action_detail_format">Duo ahots-deia (%1$s)</string>
     <string name="contact_card_audio_action_summary_text">Duo ahots-deia</string>
     <string name="contact_card_video_action_detail_format">Egin Duo bideo-deia honekin: %1$s</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">Atzera tekla</string>
     <string name="knock_knock_setting_activity_label">Kax-kax</string>
     <string name="learn_more_link">Lortu informazio gehiago</string>
+    <string name="leave_audio_message_snackbar_text">Utzi audio-mezu bat %s erabiltzailearentzat</string>
+    <string name="leave_message_snackbar_action_text">Grabatu</string>
     <string name="leave_message_text">Utzi mezu bat.</string>
+    <string name="leave_video_message_snackbar_text">Utzi bideo-mezu bat %s erabiltzailearentzat</string>
     <string name="link_gaia_account_unexpected_error">Ustekabeko errorea. Egiaztatu konektatuta zaudela.</string>
     <string name="link_gaia_choose_account">Aukeratu kontua</string>
     <string name="link_gaia_choose_account_title">Aukeratu kontua</string>
@@ -446,8 +454,6 @@ Zure deia jasotzen duen pertsonak kontaktu gisa gordeta zaituenean bakarrik funt
     <string name="switch_camera_button_back">Erabili atzeko kamera</string>
     <string name="switch_camera_button_front">Erabili aurreko kamera</string>
     <string name="toggle_screensharing">Hasi edo utzi pantaila partekatzeari</string>
-    <string name="turn_bokeh_effect_off_button">Desaktibatu bokeh efektua</string>
-    <string name="turn_bokeh_effect_on_button">Aktibatu bokeh efektua</string>
     <string name="unblock_user_failed">Ezin da desblokeatu erabiltzailea. Ziurtatu konektatuta zaudela eta saiatu berriro.</string>
     <string name="unblocked_notification_description">Gozatu kalitate handiagoko deiez eta zerbitzu hobeaz zure inguruan</string>
     <string name="unblocked_notification_title">Duo, inoiz baino hobea</string>
@@ -495,7 +501,6 @@ Aktibatuta dago Kax-kax eginbidea"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">Pribatutasun-gidalerroak</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">Zerbitzu-baldintzak</string>
     <string name="welcome_activity_intro_primary">Kalitate handiko bideo-deiak</string>
-    <string name="welcome_activity_menu_select_label">Hautatu berrikusteko</string>
     <string name="welcome_activity_menu_select_privacy">Google Pribatutasun-gidalerroak</string>
     <string name="welcome_activity_menu_select_tos">Google Zerbitzu-baldintzak</string>
     <string name="welcome_activity_silent_reg_unreg_abort">UTZI</string>

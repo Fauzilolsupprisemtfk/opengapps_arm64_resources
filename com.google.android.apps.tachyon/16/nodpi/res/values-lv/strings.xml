@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">Ienākošs videozvans no: %1$s. Velciet ar diviem pirkstiem augšup, lai atbildētu. Velciet ar diviem pirkstiem lejup, lai noraidītu.</string>
     <string name="action_send_feedback">Palīdzība un atsauksmes</string>
     <string name="action_settings">Iestatījumi</string>
+    <string name="adjust_bokeh_effect_blur_button">Pielāgot bokē efekta aizmiglojumu</string>
     <string name="ahd_alert_dismiss_action_label">Nerādīt</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">Izslēgt video</string>
     <string name="ahd_alert_low_battery_description">Lai runātu ilgāk, izslēdziet savu video</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">ATCELT</string>
     <string name="blocked_numbers_unblock_yes">ATBLOĶĒT</string>
     <string name="blocked_numbers_undo">ATSAUKT</string>
-    <string name="bokeh_effect_off">Bokē efekts izslēgts</string>
-    <string name="bokeh_effect_on">Bokē efekts ieslēgts</string>
+    <string name="bokeh_effect_blur_heavy">Stiprs aizmiglojums</string>
+    <string name="bokeh_effect_blur_light">Viegls aizmiglojums</string>
+    <string name="bokeh_effect_blur_medium">Vidējs aizmiglojums</string>
+    <string name="bokeh_effect_blur_off">Aizmiglojums izslēgts</string>
     <string name="button_disconnect_call">Beigt zvanu</string>
     <string name="button_re_record_message">Atkārtoti ierakstīt</string>
     <string name="button_record_message">Ierakstīt</string>
@@ -132,6 +135,8 @@
     <string name="contact_action_send_voice_message">Sūtīt balss ziņojumu</string>
     <string name="contact_action_video_call">Sākt videozvanu</string>
     <string name="contact_action_view_message">Skatīt ziņojumu</string>
+    <string name="contact_badge_seen">Izlasīts</string>
+    <string name="contact_badge_sent">Nosūtīts</string>
     <string name="contact_card_audio_action_detail_format">Duo balss zvans: %1$s</string>
     <string name="contact_card_audio_action_summary_text">Duo balss zvans</string>
     <string name="contact_card_video_action_detail_format">Duo videozvans: %1$s</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">Atpakaļatkāpe</string>
     <string name="knock_knock_setting_activity_label">Tuk-tuk</string>
     <string name="learn_more_link">Uzzināt vairāk</string>
+    <string name="leave_audio_message_snackbar_text">Nosūtīt balss ziņojumu lietotājam %s</string>
+    <string name="leave_message_snackbar_action_text">Ierakstīt</string>
     <string name="leave_message_text">Ierakstiet ziņojumu.</string>
+    <string name="leave_video_message_snackbar_text">Nosūtīt video ziņojumu lietotājam %s</string>
     <string name="link_gaia_account_unexpected_error">Neparedzēta kļūda. Lūdzu, pārbaudiet savienojumu.</string>
     <string name="link_gaia_choose_account">Izvēlēties kontu</string>
     <string name="link_gaia_choose_account_title">Konta izvēle</string>
@@ -447,8 +455,6 @@ Funkcija Tuk-tuk darbojas, ja esat pievienots tā lietotāja kontaktpersonām, k
     <string name="switch_camera_button_back">Pārslēgties uz aizmugurējo kameru</string>
     <string name="switch_camera_button_front">Pārslēgties uz priekšējo kameru</string>
     <string name="toggle_screensharing">Sākt vai pārtraukt ekrāna kopīgošanu</string>
-    <string name="turn_bokeh_effect_off_button">Izslēgt bokē efektu</string>
-    <string name="turn_bokeh_effect_on_button">Ieslēgt bokē efektu</string>
     <string name="unblock_user_failed">Neizdevās atbloķēt lietotāju. Lūdzu, pārbaudiet savienojumu un mēģiniet vēlreiz.</string>
     <string name="unblocked_notification_description">Izbaudiet augstākas kvalitātes zvanus un uzlabotu pakalpojuma pieejamību jūsu apgabalā.</string>
     <string name="unblocked_notification_title">Uzlabota lietotne Duo</string>
@@ -496,7 +502,6 @@ Ir ieslēgta funkcija Tuk-tuk"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">Konfidencialitātes politika</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">Pakalpojumu sniegšanas noteikumi</string>
     <string name="welcome_activity_intro_primary">Augstas kvalitātes videozvani</string>
-    <string name="welcome_activity_menu_select_label">Atlasīt, lai pārskatītu</string>
     <string name="welcome_activity_menu_select_privacy">Google konfidencialitātes politika</string>
     <string name="welcome_activity_menu_select_tos">Google pakalpojumu sniegšanas noteikumi</string>
     <string name="welcome_activity_silent_reg_unreg_abort">ATCELT</string>

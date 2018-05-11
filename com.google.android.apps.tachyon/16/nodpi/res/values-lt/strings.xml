@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">Gaunamas vaizdo skambutis nuo %1$s. Dviem pirštais perbraukite aukštyn, kad atsilieptumėte. Dviem pirštais perbraukite žemyn, kad atmestumėte.</string>
     <string name="action_send_feedback">Pagalba ir atsiliepimai</string>
     <string name="action_settings">Nustatymai</string>
+    <string name="adjust_bokeh_effect_blur_button">Koreguoti „Bokeh“ efekto suliejimą</string>
     <string name="ahd_alert_dismiss_action_label">Atsisakyti</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">Išjungti vaizdą</string>
     <string name="ahd_alert_low_battery_description">Jei norite kalbėti ilgiau, pabandykite išjungti vaizdą</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">ATŠAUKTI</string>
     <string name="blocked_numbers_unblock_yes">ATBLOKUOTI</string>
     <string name="blocked_numbers_undo">ANULIUOTI</string>
-    <string name="bokeh_effect_off">„Bokeh“ efektas išjungtas</string>
-    <string name="bokeh_effect_on">„Bokeh“ efektas įjungtas</string>
+    <string name="bokeh_effect_blur_heavy">Žymus suliejimas</string>
+    <string name="bokeh_effect_blur_light">Nežymus suliejimas</string>
+    <string name="bokeh_effect_blur_medium">Vidutinis suliejimas</string>
+    <string name="bokeh_effect_blur_off">Suliejimas išjungtas</string>
     <string name="button_disconnect_call">Baigti skambutį</string>
     <string name="button_re_record_message">Įrašyti pakartotinai</string>
     <string name="button_record_message">Įrašyti</string>
@@ -132,6 +135,8 @@
     <string name="contact_action_send_voice_message">Siųsti balso pranešimą</string>
     <string name="contact_action_video_call">Pradėti vaizdo skambutį</string>
     <string name="contact_action_view_message">Žr. pranešimą</string>
+    <string name="contact_badge_seen">Peržiūrėta</string>
+    <string name="contact_badge_sent">Išsiųsta</string>
     <string name="contact_card_audio_action_detail_format">„Duo“ balso skambutis numeriu %1$s</string>
     <string name="contact_card_audio_action_summary_text">„Duo“ balso skambutis</string>
     <string name="contact_card_video_action_detail_format">„Duo“ vaizdo skambutis numeriu %1$s</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">Grįžties klavišas</string>
     <string name="knock_knock_setting_activity_label">Knock Knock</string>
     <string name="learn_more_link">Sužinoti daugiau</string>
+    <string name="leave_audio_message_snackbar_text">Palikite balso pranešimą, skirtą %s</string>
+    <string name="leave_message_snackbar_action_text">Įrašyti</string>
     <string name="leave_message_text">Palikite pranešimą.</string>
+    <string name="leave_video_message_snackbar_text">Palikite vaizdo pranešimą, skirtą %s</string>
     <string name="link_gaia_account_unexpected_error">Netikėta klaida, patikrinkite ryšį.</string>
     <string name="link_gaia_choose_account">Pasirinkti paskyrą</string>
     <string name="link_gaia_choose_account_title">Pasirinkti paskyrą</string>
@@ -447,8 +455,6 @@ Nekalbėkite apie ją su jokiais kitais asmenimis ir nerodykite jos niekam, išs
     <string name="switch_camera_button_back">Perjungti užpakalinį fotoaparatą</string>
     <string name="switch_camera_button_front">Perjungti priekinį fotoaparatą</string>
     <string name="toggle_screensharing">Pradėti arba sustabdyti ekrano bendrinimą</string>
-    <string name="turn_bokeh_effect_off_button">Išjungti „Bokeh“ efektą</string>
-    <string name="turn_bokeh_effect_on_button">Įjungti „Bokeh“ efektą</string>
     <string name="unblock_user_failed">Nepavyksta atblokuoti naudotojo. Patikrinkite ryšį ir bandykite dar kartą.</string>
     <string name="unblocked_notification_description">Mėgaukitės aukštesnės kokybės skambučiais ir pagerintomis paslaugomis jūsų regione</string>
     <string name="unblocked_notification_title">„Duo“ geresnė nei kada nors anksčiau</string>
@@ -496,7 +502,6 @@ Nekalbėkite apie ją su jokiais kitais asmenimis ir nerodykite jos niekam, išs
     <string name="welcome_activity_intro_agreements_clickable_privacy">Privatumo politika</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">Paslaugų teikimo sąlygos</string>
     <string name="welcome_activity_intro_primary">Aukštos kokybės vaizdo skambučių programa</string>
-    <string name="welcome_activity_menu_select_label">Pasirinkite, kad peržiūrėtumėte</string>
     <string name="welcome_activity_menu_select_privacy">„Google“ privatumo politika</string>
     <string name="welcome_activity_menu_select_tos">„Google“ paslaugų teikimo sąlygos</string>
     <string name="welcome_activity_silent_reg_unreg_abort">ATŠAUKTI</string>

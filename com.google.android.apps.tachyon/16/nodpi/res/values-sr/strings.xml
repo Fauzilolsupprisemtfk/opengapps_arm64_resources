@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">Долазни видео позив од %1$s. Превуците нагоре помоћу два прста да бисте одговорили. Превуците надоле помоћу два прста да бисте одбили.</string>
     <string name="action_send_feedback">Помоћ и повратне информације</string>
     <string name="action_settings">Подешавања</string>
+    <string name="adjust_bokeh_effect_blur_button">Подесите замагљивање ефекта Боке</string>
     <string name="ahd_alert_dismiss_action_label">Одбаци</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">Искључи видео</string>
     <string name="ahd_alert_low_battery_description">Пробајте да искључите видео да бисте разговарали дуже</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">ОТКАЖИ</string>
     <string name="blocked_numbers_unblock_yes">ДЕБЛОКИРАЈ</string>
     <string name="blocked_numbers_undo">ОПОЗОВИ</string>
-    <string name="bokeh_effect_off">Ефекат Боке је искључен</string>
-    <string name="bokeh_effect_on">Ефекат Боке је укључен</string>
+    <string name="bokeh_effect_blur_heavy">Јако замагљивање</string>
+    <string name="bokeh_effect_blur_light">Благо замагљивање</string>
+    <string name="bokeh_effect_blur_medium">Средње замагљивање</string>
+    <string name="bokeh_effect_blur_off">Замагљивање је искључено</string>
     <string name="button_disconnect_call">Прекини везу</string>
     <string name="button_re_record_message">Поновно снимајте</string>
     <string name="button_record_message">Сними</string>
@@ -132,10 +135,12 @@
     <string name="contact_action_send_voice_message">Пошаљи говорну поруку</string>
     <string name="contact_action_video_call">Започни видео позив</string>
     <string name="contact_action_view_message">Прикажи поруку</string>
+    <string name="contact_badge_seen">Прегледано је</string>
+    <string name="contact_badge_sent">Послато је</string>
     <string name="contact_card_audio_action_detail_format">Упути Duo аудио позив на %1$s</string>
-    <string name="contact_card_audio_action_summary_text">Duo аудио позив</string>
-    <string name="contact_card_video_action_detail_format">Duo видео позив %1$s</string>
-    <string name="contact_card_video_action_summary_text">Видео позив у Duo-у</string>
+    <string name="contact_card_audio_action_summary_text">Упути Duo аудио позив</string>
+    <string name="contact_card_video_action_detail_format">Упути Duo видео позив на %1$s</string>
+    <string name="contact_card_video_action_summary_text">Упути Duo видео позив</string>
     <string name="contact_item_description">Позовите %1$s на %2$s</string>
     <string name="contact_item_description_clip">Репродукуј поруку од: %1$s</string>
     <string name="contact_item_description_invite">Позовите %1$s да користи Duo</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">Backspace</string>
     <string name="knock_knock_setting_activity_label">Куц куц</string>
     <string name="learn_more_link">Сазнајте више</string>
+    <string name="leave_audio_message_snackbar_text">Оставите говорну поруку за: %s</string>
+    <string name="leave_message_snackbar_action_text">Сними</string>
     <string name="leave_message_text">Оставите поруку.</string>
+    <string name="leave_video_message_snackbar_text">Оставите видео поруку за: %s</string>
     <string name="link_gaia_account_unexpected_error">Неочекивана грешка. Проверите везу.</string>
     <string name="link_gaia_choose_account">Изаберите налог</string>
     <string name="link_gaia_choose_account_title">Изаберите налог</string>
@@ -447,8 +455,6 @@
     <string name="switch_camera_button_back">Пребаците на задњу камеру</string>
     <string name="switch_camera_button_front">Пребаците на предњу камеру</string>
     <string name="toggle_screensharing">Започните или зауставите дељење екрана</string>
-    <string name="turn_bokeh_effect_off_button">Искључите ефекат Боке</string>
-    <string name="turn_bokeh_effect_on_button">Укључите ефекат Боке</string>
     <string name="unblock_user_failed">Нисмо успели да одблокирамо корисника. Проверите везу и пробајте поново.</string>
     <string name="unblocked_notification_description">Уживајте у квалитетнијим позивима и побољшаној услузи у вашој овласти</string>
     <string name="unblocked_notification_title">Duo је бољи него икад</string>
@@ -496,7 +502,6 @@
     <string name="welcome_activity_intro_agreements_clickable_privacy">Политику приватности</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">Услове коришћења услуге</string>
     <string name="welcome_activity_intro_primary">Видео позиви високог квалитета</string>
-    <string name="welcome_activity_menu_select_label">Изаберите да бисте прегледали</string>
     <string name="welcome_activity_menu_select_privacy">Google политика приватности</string>
     <string name="welcome_activity_menu_select_tos">Google услови коришћења услуге</string>
     <string name="welcome_activity_silent_reg_unreg_abort">ИПАК НЕ</string>

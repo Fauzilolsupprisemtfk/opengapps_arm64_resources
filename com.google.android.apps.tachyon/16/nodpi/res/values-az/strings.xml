@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">%1$s nömrəsindən gələn video zəng. Cavablandırmaq üçün iki barmaqla yuxarı sürüşdürün. Ləğv etmək üçün iki barmaqla aşağı sürüşdürün.</string>
     <string name="action_send_feedback">Yardım və əks əlaqə</string>
     <string name="action_settings">Ayarlar</string>
+    <string name="adjust_bokeh_effect_blur_button">Bokeh bulanıqlıq effektini tənzimləyin</string>
     <string name="ahd_alert_dismiss_action_label">Rədd edin</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">Videonu deaktiv edin</string>
     <string name="ahd_alert_low_battery_description">Daha çox danışmaq üçün videonu deaktiv edin</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">LƏĞV EDİN</string>
     <string name="blocked_numbers_unblock_yes">BLOKDAN ÇIXARIN</string>
     <string name="blocked_numbers_undo">QAYTARIN</string>
-    <string name="bokeh_effect_off">Bokeh effekti deaktivdir</string>
-    <string name="bokeh_effect_on">Bokeh effekti deaktivdir</string>
+    <string name="bokeh_effect_blur_heavy">Çox bulanıqlıq dərəcəsi</string>
+    <string name="bokeh_effect_blur_light">Az bulanıqlıq dərəcəsi</string>
+    <string name="bokeh_effect_blur_medium">Orta bulanıqlıq dərəcəsi</string>
+    <string name="bokeh_effect_blur_off">Bulanıqlıq deaktivdir</string>
     <string name="button_disconnect_call">Dəstəyi qoyun</string>
     <string name="button_re_record_message">Yenidən yazın</string>
     <string name="button_record_message">Qeydə alın</string>
@@ -132,10 +135,12 @@
     <string name="contact_action_send_voice_message">Səsli mesaj göndərin</string>
     <string name="contact_action_video_call">Video zəngə başlayın</string>
     <string name="contact_action_view_message">Mesaja baxın</string>
+    <string name="contact_badge_seen">Oxunub</string>
+    <string name="contact_badge_sent">Göndərildi</string>
     <string name="contact_card_audio_action_detail_format">Duo səsli zəngi %1$s</string>
     <string name="contact_card_audio_action_summary_text">Duo səsli zəngi</string>
     <string name="contact_card_video_action_detail_format">Duo video zəngi %1$s</string>
-    <string name="contact_card_video_action_summary_text">Duo video zəngi</string>
+    <string name="contact_card_video_action_summary_text">Duo video zəng</string>
     <string name="contact_item_description">%2$s üzərində %1$s zəng edin</string>
     <string name="contact_item_description_clip">%1$s adlı kontaktın mesajını oxudun</string>
     <string name="contact_item_description_invite">%1$s adlı istifadəçini Duo istifadə etməyə dəvət edin</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">Backspace düyməsi</string>
     <string name="knock_knock_setting_activity_label">Knock Knock</string>
     <string name="learn_more_link">Ətraflı məlumat</string>
+    <string name="leave_audio_message_snackbar_text">%s üçün səsli mesaj göndərin</string>
+    <string name="leave_message_snackbar_action_text">Qeydə alın</string>
     <string name="leave_message_text">Mesaj yazın.</string>
+    <string name="leave_video_message_snackbar_text">%s üçün video mesaj göndərin</string>
     <string name="link_gaia_account_unexpected_error">Gözlənilməz xəta baş verdi, bağlantını yoxlayın.</string>
     <string name="link_gaia_choose_account">Hesab seçin</string>
     <string name="link_gaia_choose_account_title">Hesab seçin</string>
@@ -446,8 +454,6 @@ Zəng etdiyiniz nömrənin kontaktında olduğunuz halda, Tak Tak işləyir. Və
     <string name="switch_camera_button_back">Arxa kameraya keçid edin</string>
     <string name="switch_camera_button_front">Ön kameraya keçid edin</string>
     <string name="toggle_screensharing">Ekran paylaşımını başladın və ya dayandırın</string>
-    <string name="turn_bokeh_effect_off_button">Bokeh effektini deaktiv edin</string>
-    <string name="turn_bokeh_effect_on_button">Bokeh effektini aktiv edin</string>
     <string name="unblock_user_failed">İstifadəçini blokdan çıxarmaq alınmadı. Bağlantını yoxlayıb yenidən cəhd edin.</string>
     <string name="unblocked_notification_description">Ərazidəki yüksək keyfiyyətli zənglərdən və təkmilləşdirilmiş xidmətdən zövq alın</string>
     <string name="unblocked_notification_title">Duo indi daha yaxşıdır</string>
@@ -495,7 +501,6 @@ Tak Tak aktivdir!"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">Məxfilik Siyasəti</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">Xidmət Şərtləri</string>
     <string name="welcome_activity_intro_primary">Yüksək keyfiyyətli video zəng</string>
-    <string name="welcome_activity_menu_select_label">Nəzərdən keçirmək üçün seçin</string>
     <string name="welcome_activity_menu_select_privacy">Google Məxfilik Siyasəti</string>
     <string name="welcome_activity_menu_select_tos">Google Xidmət Şərtləri</string>
     <string name="welcome_activity_silent_reg_unreg_abort">EYBİ YOX</string>

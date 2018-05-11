@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">Mayroong papasok na video call mula kay %1$s. I-swipe nang pataas gamit ang dalawang daliri upang sagutin. I-swipe nang pababa gamit ang dalawang daliri upang tanggihan.</string>
     <string name="action_send_feedback">Tulong at feedback</string>
     <string name="action_settings">Mga Setting</string>
+    <string name="adjust_bokeh_effect_blur_button">Ayusin ang Bokeh effect na pag-blur</string>
     <string name="ahd_alert_dismiss_action_label">I-dismiss</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">I-off ang video</string>
     <string name="ahd_alert_low_battery_description">Upang mag-usap nang mas mahaba, subukang i-off ang iyong video</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">KANSELAHIN</string>
     <string name="blocked_numbers_unblock_yes">I-UNBLOCK</string>
     <string name="blocked_numbers_undo">I-UNDO</string>
-    <string name="bokeh_effect_off">Naka-off ang Bokeh effect</string>
-    <string name="bokeh_effect_on">Naka-on ang Bokeh effect</string>
+    <string name="bokeh_effect_blur_heavy">Makapal na blur</string>
+    <string name="bokeh_effect_blur_light">Manipis na blur</string>
+    <string name="bokeh_effect_blur_medium">Katamtamang blur</string>
+    <string name="bokeh_effect_blur_off">I-off ang blur</string>
     <string name="button_disconnect_call">I-hang up</string>
     <string name="button_re_record_message">Muling i-record</string>
     <string name="button_record_message">I-record</string>
@@ -132,6 +135,8 @@
     <string name="contact_action_send_voice_message">Magpadala ng mensaheng boses</string>
     <string name="contact_action_video_call">Simulan ang video call</string>
     <string name="contact_action_view_message">Tingnan ang mensahe</string>
+    <string name="contact_badge_seen">Nakita</string>
+    <string name="contact_badge_sent">Naipadala</string>
     <string name="contact_card_audio_action_detail_format">Voice call sa Duo %1$s</string>
     <string name="contact_card_audio_action_summary_text">Voice call sa Duo</string>
     <string name="contact_card_video_action_detail_format">Video call sa Duo %1$s</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">Backspace</string>
     <string name="knock_knock_setting_activity_label">Knock Knock</string>
     <string name="learn_more_link">Matuto pa</string>
+    <string name="leave_audio_message_snackbar_text">Mag-iwan ng voice message para kay %s</string>
+    <string name="leave_message_snackbar_action_text">I-record</string>
     <string name="leave_message_text">Mag-iwan ng mensahe.</string>
+    <string name="leave_video_message_snackbar_text">Mag-iwan ng video message para kay %s</string>
     <string name="link_gaia_account_unexpected_error">Hindi inaasahang error, pakitingnan ang iyong koneksyon.</string>
     <string name="link_gaia_choose_account">Pumili ng account</string>
     <string name="link_gaia_choose_account_title">Pumili ng isang account</string>
@@ -447,8 +455,6 @@ Gumagana ang Knock Knock kung nasa contact ka ng taong tinatawagan mo. At makiki
     <string name="switch_camera_button_back">Lumipat sa camera sa likod</string>
     <string name="switch_camera_button_front">Lumipat sa camera sa harap</string>
     <string name="toggle_screensharing">Simulan o ihinto ang pagbabahagi ng screen</string>
-    <string name="turn_bokeh_effect_off_button">I-off ang Bokeh effect</string>
-    <string name="turn_bokeh_effect_on_button">I-on ang Bokeh effect</string>
     <string name="unblock_user_failed">Hindi na-unblock ang user. Pakitingnan ang koneksyon at subukang muli.</string>
     <string name="unblocked_notification_description">I-enjoy ang mga tawag na mas mataas ang kalidad at pinahusay na serbisyo sa iyong lugar</string>
     <string name="unblocked_notification_title">Mas maganda na ngayon ang Duo kaysa sa dati</string>
@@ -496,7 +502,6 @@ Naka-on ang Knock Knock"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">Patakaran sa Privacy</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">Mga Tuntunin ng Serbisyo</string>
     <string name="welcome_activity_intro_primary">Mataas na kalidad na pakikipag-video call</string>
-    <string name="welcome_activity_menu_select_label">Piliin upang suriin</string>
     <string name="welcome_activity_menu_select_privacy">Patakaran sa Privacy ng Google</string>
     <string name="welcome_activity_menu_select_tos">Mga Tuntunin ng Serbisyo ng Google</string>
     <string name="welcome_activity_silent_reg_unreg_abort">DI BALE NA LANG</string>

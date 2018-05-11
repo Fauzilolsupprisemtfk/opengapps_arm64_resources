@@ -10,6 +10,7 @@
     <string name="acc_incoming_call_from">שיחת וידאו נכנסת מאת %1$s. החלק עם שתי אצבעות למעלה כדי לענות או למטה כדי לדחות.</string>
     <string name="action_send_feedback">עזרה ומשוב</string>
     <string name="action_settings">הגדרות</string>
+    <string name="adjust_bokeh_effect_blur_button">כיוון הטשטוש של אפקט בוקה</string>
     <string name="ahd_alert_dismiss_action_label">סגירה</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">השבתת הווידאו</string>
     <string name="ahd_alert_low_battery_description">מומלץ להשבית את הווידאו כדי שאפשר יהיה לשוחח יותר זמן</string>
@@ -48,8 +49,10 @@
     <string name="blocked_numbers_unblock_no">ביטול</string>
     <string name="blocked_numbers_unblock_yes">בטל חסימה</string>
     <string name="blocked_numbers_undo">בטל</string>
-    <string name="bokeh_effect_off">אפקט בוקה מושבת</string>
-    <string name="bokeh_effect_on">אפקט בוקה מופעל</string>
+    <string name="bokeh_effect_blur_heavy">טשטוש כבד</string>
+    <string name="bokeh_effect_blur_light">טשטוש עדין</string>
+    <string name="bokeh_effect_blur_medium">טשטוש בינוני</string>
+    <string name="bokeh_effect_blur_off">השבתת הטשטוש</string>
     <string name="button_disconnect_call">נתק</string>
     <string name="button_re_record_message">הקלטה מחדש</string>
     <string name="button_record_message">הקלטה</string>
@@ -106,10 +109,12 @@
     <string name="contact_action_send_voice_message">שליחת הודעה קולית</string>
     <string name="contact_action_video_call">התחל שיחת וידאו</string>
     <string name="contact_action_view_message">הצגת ההודעה</string>
+    <string name="contact_badge_seen">נקראה</string>
+    <string name="contact_badge_sent">נשלחה</string>
     <string name="contact_card_audio_action_detail_format">שיחה קולית ב-Duo עם %1$s</string>
     <string name="contact_card_audio_action_summary_text">שיחה קולית ב-Duo</string>
-    <string name="contact_card_video_action_detail_format">שיחת וידאו באמצעות Duo %1$s</string>
-    <string name="contact_card_video_action_summary_text">שיחת וידאו של Duo</string>
+    <string name="contact_card_video_action_detail_format">שיחת וידאו ב-Duo עם %1$s</string>
+    <string name="contact_card_video_action_summary_text">שיחת וידאו ב-Duo</string>
     <string name="contact_item_description">התקשר אל %1$s בטלפון %2$s</string>
     <string name="contact_item_description_clip">השמעת ההודעה שנשלחה על ידי %1$s</string>
     <string name="contact_item_description_invite">הזמן את %1$s להשתמש ב-Duo</string>
@@ -233,7 +238,10 @@
     <string name="keypad_backspace">מקש Backspace</string>
     <string name="knock_knock_setting_activity_label">מי זה דופק בדלת?</string>
     <string name="learn_more_link">למידע נוסף</string>
+    <string name="leave_audio_message_snackbar_text">רוצה להשאיר הודעה קולית עבור %s?</string>
+    <string name="leave_message_snackbar_action_text">הקלטה</string>
     <string name="leave_message_text">רוצה להשאיר הודעה?</string>
+    <string name="leave_video_message_snackbar_text">רוצה להשאיר הודעת וידאו עבור %s?</string>
     <string name="link_gaia_account_unexpected_error">שגיאה בלתי צפויה. מומלץ לבדוק את החיבור לרשת.</string>
     <string name="link_gaia_choose_account">בחירת חשבון</string>
     <string name="link_gaia_choose_account_title">בחירת חשבון</string>
@@ -420,8 +428,6 @@
     <string name="switch_camera_button_back">מעבר למצלמה האחורית</string>
     <string name="switch_camera_button_front">מעבר למצלמה הקדמית</string>
     <string name="toggle_screensharing">התחלה או הפסקה של שיתוף המסך</string>
-    <string name="turn_bokeh_effect_off_button">השבתת אפקט בוקה</string>
-    <string name="turn_bokeh_effect_on_button">הפעלת אפקט בוקה</string>
     <string name="unblock_user_failed">לא הצלחנו לבטל את החסימה של המשתמש. מומלץ לבדוק את החיבור ולנסות שוב.</string>
     <string name="unblocked_notification_description">ניתן ליהנות משיחות באיכות גבוהה יותר ושירות טוב יותר באזורך</string>
     <string name="unblocked_notification_title">עכשיו, אפליקציית Duo טובה מאי פעם</string>
@@ -469,7 +475,6 @@
     <string name="welcome_activity_intro_agreements_clickable_privacy">מדיניות הפרטיות</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">תנאים ולהגבלות</string>
     <string name="welcome_activity_intro_primary">שיחות וידאו באיכות גבוהה</string>
-    <string name="welcome_activity_menu_select_label">בחר כדי לעיין:</string>
     <string name="welcome_activity_menu_select_privacy">מדיניות הפרטיות של Google</string>
     <string name="welcome_activity_menu_select_tos">התנאים וההגבלות של Google</string>
     <string name="welcome_activity_silent_reg_unreg_abort">אני רוצה להישאר</string>

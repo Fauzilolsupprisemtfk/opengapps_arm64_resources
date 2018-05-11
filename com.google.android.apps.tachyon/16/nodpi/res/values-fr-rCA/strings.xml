@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">Appel vidéo entrant de %1$s. Faites glisser deux doigts vers le haut pour répondre. Faites glisser deux doigts vers le bas pour refuser.</string>
     <string name="action_send_feedback">Aide et commentaires</string>
     <string name="action_settings">Paramètres</string>
+    <string name="adjust_bokeh_effect_blur_button">"Ajuster le flou de l'effet Bokeh"</string>
     <string name="ahd_alert_dismiss_action_label">Ignorer</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">Désactiver la vidéo</string>
     <string name="ahd_alert_low_battery_description">Pour parler plus longtemps, essayez de désactiver la vidéo</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">ANNULER</string>
     <string name="blocked_numbers_unblock_yes">DÉBLOQUER</string>
     <string name="blocked_numbers_undo">ANNULER</string>
-    <string name="bokeh_effect_off">Effet bokeh désactivé</string>
-    <string name="bokeh_effect_on">Effet bokeh activé</string>
+    <string name="bokeh_effect_blur_heavy">Flou prononcé</string>
+    <string name="bokeh_effect_blur_light">Flou léger</string>
+    <string name="bokeh_effect_blur_medium">Flou moyen</string>
+    <string name="bokeh_effect_blur_off">Flou désactivé</string>
     <string name="button_disconnect_call">Raccrocher</string>
     <string name="button_re_record_message">Réenregistrer</string>
     <string name="button_record_message">Enregistrer</string>
@@ -132,9 +135,11 @@
     <string name="contact_action_send_voice_message">Envoyer un message vocal</string>
     <string name="contact_action_video_call">Démarrer un appel vidéo</string>
     <string name="contact_action_view_message">Afficher le message</string>
-    <string name="contact_card_audio_action_detail_format">Faire un appel vocal Duo au %1$s</string>
+    <string name="contact_badge_seen">Vu</string>
+    <string name="contact_badge_sent">Envoyé</string>
+    <string name="contact_card_audio_action_detail_format">Faire un appel vocal Duo au %1$s</string>
     <string name="contact_card_audio_action_summary_text">Appel vocal Duo</string>
-    <string name="contact_card_video_action_detail_format">Appel vidéo Duo : %1$s</string>
+    <string name="contact_card_video_action_detail_format">Faire un appel vidéo Duo au %1$s</string>
     <string name="contact_card_video_action_summary_text">Appel vidéo Duo</string>
     <string name="contact_item_description">Appeler %1$s, au %2$s</string>
     <string name="contact_item_description_clip">Faire jouer le message de %1$s</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">Retour arrière</string>
     <string name="knock_knock_setting_activity_label">Toc Toc</string>
     <string name="learn_more_link">En savoir plus</string>
+    <string name="leave_audio_message_snackbar_text">Laisser un message vocal pour %s</string>
+    <string name="leave_message_snackbar_action_text">Enregistrer</string>
     <string name="leave_message_text">Laisser un message.</string>
+    <string name="leave_video_message_snackbar_text">Laisser un message vidéo pour %s</string>
     <string name="link_gaia_account_unexpected_error">Erreur inattendue. Veuillez vérifier votre connexion.</string>
     <string name="link_gaia_choose_account">Sélectionner un compte</string>
     <string name="link_gaia_choose_account_title">Sélectionner un compte</string>
@@ -446,8 +454,6 @@ Toc Toc fonctionne si vous figurez parmi les contacts de la personne que vous ap
     <string name="switch_camera_button_back">Passer à la caméra arrière</string>
     <string name="switch_camera_button_front">Passer à la caméra avant</string>
     <string name="toggle_screensharing">"Commencer ou arrêter le partage d'écran"</string>
-    <string name="turn_bokeh_effect_off_button">"Désactiver l'effet bokeh"</string>
-    <string name="turn_bokeh_effect_on_button">"Activer l'effet bokeh"</string>
     <string name="unblock_user_failed">"Impossible de débloquer l'utilisateur. Veuillez vérifier la connexion, puis réessayer."</string>
     <string name="unblocked_notification_description">"Profitez de l'amélioration des appels et du service dans votre région"</string>
     <string name="unblocked_notification_title">Duo est meilleur que jamais</string>
@@ -495,7 +501,6 @@ La fonctionnalité Toc Toc est activée"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">Politique de confidentialité</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">"Conditions d'utilisation"</string>
     <string name="welcome_activity_intro_primary">Appels vidéo de haute qualité</string>
-    <string name="welcome_activity_menu_select_label">Sélectionnez une politique à examiner</string>
     <string name="welcome_activity_menu_select_privacy">Politique de confidentialité de Google</string>
     <string name="welcome_activity_menu_select_tos">"Conditions d'utilisation de Google"</string>
     <string name="welcome_activity_silent_reg_unreg_abort">ANNULER</string>

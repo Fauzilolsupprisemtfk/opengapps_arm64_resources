@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">Tens una videotrucada entrant de: %1$s. Amb dos dits, llisca cap amunt per respondre-hi o cap avall per rebutjar-la.</string>
     <string name="action_send_feedback">Ajuda i suggeriments</string>
     <string name="action_settings">Configuració</string>
+    <string name="adjust_bokeh_effect_blur_button">"Ajusta el desenfocament de l'efecte Bokeh"</string>
     <string name="ahd_alert_dismiss_action_label">Ignora</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">Desactiva el vídeo</string>
     <string name="ahd_alert_low_battery_description">Per poder parlar més estona, prova de desactivar el vídeo</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">CANCEL·LA</string>
     <string name="blocked_numbers_unblock_yes">DESBLOQUEJA</string>
     <string name="blocked_numbers_undo">DESFÉS</string>
-    <string name="bokeh_effect_off">"L'efecte Bokeh està desactivat"</string>
-    <string name="bokeh_effect_on">"L'efecte Bokeh està activat"</string>
+    <string name="bokeh_effect_blur_heavy">Desenfocament espès</string>
+    <string name="bokeh_effect_blur_light">Desenfocament suau</string>
+    <string name="bokeh_effect_blur_medium">Desenfocament mitjà</string>
+    <string name="bokeh_effect_blur_off">Desenfocament desactivat</string>
     <string name="button_disconnect_call">Penja</string>
     <string name="button_re_record_message">Torna a gravar</string>
     <string name="button_record_message">Grava</string>
@@ -132,6 +135,8 @@
     <string name="contact_action_send_voice_message">Envia un missatge de veu</string>
     <string name="contact_action_video_call">Inicia una videotrucada</string>
     <string name="contact_action_view_message">Mostra el missatge</string>
+    <string name="contact_badge_seen">Vist</string>
+    <string name="contact_badge_sent">Enviat</string>
     <string name="contact_card_audio_action_detail_format">Fes una trucada de veu de Duo al %1$s</string>
     <string name="contact_card_audio_action_summary_text">Trucada de veu de Duo</string>
     <string name="contact_card_video_action_detail_format">Videotrucada de Duo %1$s</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">Retrocés</string>
     <string name="knock_knock_setting_activity_label">Toc Toc</string>
     <string name="learn_more_link">Més informació</string>
+    <string name="leave_audio_message_snackbar_text">Deixa un missatge de veu per a %s</string>
+    <string name="leave_message_snackbar_action_text">Grava</string>
     <string name="leave_message_text">Deixa un missatge.</string>
+    <string name="leave_video_message_snackbar_text">Deixa un missatge de vídeo per a %s</string>
     <string name="link_gaia_account_unexpected_error">"S'ha produït un error inesperat, comprova la connexió."</string>
     <string name="link_gaia_choose_account">Tria un compte</string>
     <string name="link_gaia_choose_account_title">Tria un compte</string>
@@ -447,8 +455,6 @@ Toc Toc funciona si la persona a qui truques et té com a contacte. I tu només 
     <string name="switch_camera_button_back">Canvia a la càmera posterior</string>
     <string name="switch_camera_button_front">Canvia a la càmera frontal</string>
     <string name="toggle_screensharing">Comparteix o deixa de compartir la pantalla</string>
-    <string name="turn_bokeh_effect_off_button">"Desactiva l'efecte Bokeh"</string>
-    <string name="turn_bokeh_effect_on_button">"Activa l'efecte Bokeh"</string>
     <string name="unblock_user_failed">"No s'ha pogut desbloquejar l'usuari. Comprova la connexió i torna-ho a provar."</string>
     <string name="unblocked_notification_description">"Gaudeix de trucades de més qualitat i d'un servei millorat a la teva zona"</string>
     <string name="unblocked_notification_title">Duo és millor que mai</string>
@@ -496,7 +502,6 @@ La funció Toc Toc està activada"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">Política de privadesa</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">Condicions del servei</string>
     <string name="welcome_activity_intro_primary">"Videotrucades d'alta qualitat"</string>
-    <string name="welcome_activity_menu_select_label">Selecciona què vols consultar</string>
     <string name="welcome_activity_menu_select_privacy">Política de privadesa de Google</string>
     <string name="welcome_activity_menu_select_tos">Condicions del servei de Google</string>
     <string name="welcome_activity_silent_reg_unreg_abort">NO CAL</string>

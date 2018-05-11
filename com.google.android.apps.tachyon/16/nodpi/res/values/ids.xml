@@ -129,12 +129,15 @@
     <item type="id" name="call_rating_feedback_skip" />
     <item type="id" name="call_rating_feedback_submit" />
     <item type="id" name="knock_knock_layout_wrapper" />
+    <item type="id" name="divider" />
+    <item type="id" name="bottom_section" />
     <item type="id" name="knock_knock_setting_summary" />
     <item type="id" name="knock_knock_setting_switch" />
     <item type="id" name="home_screen_view" />
     <item type="id" name="video_container" />
     <item type="id" name="home_screen_container" />
     <item type="id" name="proximity_cover_view" />
+    <item type="id" name="light_background" />
     <item type="id" name="verification_fragment_container" />
     <item type="id" name="country_code_fragment_container" />
     <item type="id" name="registration_fragment_container" />
@@ -158,9 +161,6 @@
     <item type="id" name="prerelease_confirm_button" />
     <item type="id" name="prerelease_settings_button" />
     <item type="id" name="settings_layout_wrapper" />
-    <item type="id" name="welcome_activity_menu_select_label" />
-    <item type="id" name="welcome_select_review_button_tos" />
-    <item type="id" name="welcome_select_review_button_privacy" />
     <item type="id" name="av_toggle_2_icons_wrapper" />
     <item type="id" name="camera_icon" />
     <item type="id" name="camera_underline" />
@@ -192,11 +192,6 @@
     <item type="id" name="time_stamp_bar" />
     <item type="id" name="expire_time" />
     <item type="id" name="received_timestamp" />
-    <item type="id" name="contact_joined_dialog" />
-    <item type="id" name="contact_joined_photo" />
-    <item type="id" name="contact_joined_dialog_title" />
-    <item type="id" name="contact_joined_dialog_body" />
-    <item type="id" name="contact_joined_pointer" />
     <item type="id" name="contacts_card_search_header" />
     <item type="id" name="contacts_card_search_header_inner_view" />
     <item type="id" name="contacts_card_search_header_shadow" />
@@ -212,8 +207,6 @@
     <item type="id" name="av_toggle_2_shadow" />
     <item type="id" name="bottom_av_toggle_bar" />
     <item type="id" name="top_av_toggle_bar" />
-    <item type="id" name="contacts_context_menu_header_text_top" />
-    <item type="id" name="contacts_context_menu_header_text_bottom" />
     <item type="id" name="fav_grid_wrapper" />
     <item type="id" name="round_search_bar_placeholder" />
     <item type="id" name="padding_view" />
@@ -254,9 +247,6 @@
     <item type="id" name="floating_menu" />
     <item type="id" name="contact_avatar" />
     <item type="id" name="contact_option_header_text" />
-    <item type="id" name="contact_option_sub_header" />
-    <item type="id" name="contact_option_sub_header_contact_type" />
-    <item type="id" name="contact_option_sub_header_phone_number" />
     <item type="id" name="contact_action_container_add_contact" />
     <item type="id" name="contact_option_add_contact" />
     <item type="id" name="contact_action_container_video_call" />
@@ -341,17 +331,18 @@
     <item type="id" name="video_call_text" />
     <item type="id" name="other_name" />
     <item type="id" name="camera_live" />
-    <item type="id" name="call_history_list_view" />
     <item type="id" name="country_code_header" />
     <item type="id" name="country_code_back" />
     <item type="id" name="country_code_header_dropshadow" />
     <item type="id" name="country_code_list" />
     <item type="id" name="country_code_spinning_wheel" />
     <item type="id" name="gaia_onboarding_content_screen" />
-    <item type="id" name="main_content" />
-    <item type="id" name="gaia_onboarding_account_item" />
-    <item type="id" name="intro_text" />
     <item type="id" name="bottom_bar" />
+    <item type="id" name="gaia_onboarding_title_wrapper" />
+    <item type="id" name="gaia_onboarding_title" />
+    <item type="id" name="gaia_onboarding_content_wrapper" />
+    <item type="id" name="gaia_onboarding_description_wrapper" />
+    <item type="id" name="intro_text" />
     <item type="id" name="gaia_onboarding_skip_button" />
     <item type="id" name="gaia_onboarding_confirm_button" />
     <item type="id" name="gaia_onboarding_next_text" />
@@ -463,6 +454,8 @@
     <item type="id" name="welcome_activity_silent_reg_container" />
     <item type="id" name="welcome_activity_silent_reg_text_header" />
     <item type="id" name="welcome_single_screen_view" />
+    <item type="id" name="gaia_onboarding_account_item" />
+    <item type="id" name="gaia_onboarding_account_item_large" />
     <item type="id" name="gaia_reg_country_code_wrapper" />
     <item type="id" name="registration_country_code_text_wrapper" />
     <item type="id" name="registration_country_code_text" />
@@ -477,12 +470,9 @@
     <item type="id" name="fav_grid_name" />
     <item type="id" name="phone_info_wrapper" />
     <item type="id" name="contact_label_text" />
-    <item type="id" name="missed_call_block" />
-    <item type="id" name="missed_call_badge" />
-    <item type="id" name="fav_grid_missed_call_time" />
-    <item type="id" name="video_clip_block" />
-    <item type="id" name="video_clip_badge" />
-    <item type="id" name="fav_grid_video_clip_time" />
+    <item type="id" name="badge_block" />
+    <item type="id" name="badge_image" />
+    <item type="id" name="badge_time" />
     <item type="id" name="digit_key_backspace" />
     <item type="id" name="digit_key_number" />
     <item type="id" name="pin_code_digit" />
@@ -536,10 +526,6 @@
     <item type="id" name="license_activity_textview" />
     <item type="id" name="license_menu_fragment_container" />
     <item type="id" name="license_list" />
-    <item type="id" name="call_record_action_sign" />
-    <item type="id" name="call_record_video_enabled_sign" />
-    <item type="id" name="call_record_others_name" />
-    <item type="id" name="call_record_time" />
     <item type="id" name="list_item_contact" />
     <item type="id" name="section_header_container" />
     <item type="id" name="section_header_name" />
@@ -550,10 +536,8 @@
     <item type="id" name="account_name" />
     <item type="id" name="account_email" />
     <item type="id" name="choose_account_button" />
-    <item type="id" name="divider" />
     <item type="id" name="contact_list_permission_prompt_container" />
     <item type="id" name="permission_prompt_view" />
-    <item type="id" name="permission_prompt_image" />
     <item type="id" name="missing_contact_permission_settings_button" />
     <item type="id" name="loading_account_info_screen" />
     <item type="id" name="microphone_check_container" />
@@ -589,17 +573,19 @@
     <item type="id" name="oobe_dialog_flow_contacts_icon_name" />
     <item type="id" name="phone_info" />
     <item type="id" name="contact_phone_type" />
+    <item type="id" name="dot_separator" />
     <item type="id" name="contact_phone_number" />
     <item type="id" name="contacts_menu_settings" />
     <item type="id" name="contacts_menu_invite_friends" />
     <item type="id" name="contacts_menu_send_feedback" />
     <item type="id" name="round_search_bar" />
     <item type="id" name="background" />
+    <item type="id" name="search_bar_wrapper" />
+    <item type="id" name="inner_search_bar_wrapper" />
     <item type="id" name="search_icon" />
-    <item type="id" name="inner_view" />
-    <item type="id" name="contacts_card_clear_search" />
     <item type="id" name="search_text_placeholder" />
     <item type="id" name="search_text" />
+    <item type="id" name="contacts_card_clear_search" />
     <item type="id" name="stop_button" />
     <item type="id" name="pause_button" />
     <item type="id" name="root_container" />

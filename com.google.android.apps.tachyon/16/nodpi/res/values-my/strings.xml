@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">%1$s ထံမှ ဗီဒီယိုခေါ်ဆိုမှု ဝင်လာပါသည်။ ဖြေကြားရန် လက်နှစ်ချောင်းဖြင့် အပေါ်သို့ ပွတ်ဆွဲပါ။ ငြင်းပယ်ရန် လက်နှစ်ချောင်းဖြင့် အောက်သို့ ပွတ်ဆွဲပါ။</string>
     <string name="action_send_feedback">အကူအညီနှင့် အကြံပြုချက်</string>
     <string name="action_settings">ဆက်တင်များ</string>
+    <string name="adjust_bokeh_effect_blur_button">"'ဘိုကေးမှုန်ဝါးမှု' အထူးပြုလုပ်ချက်ကို ချိန်ညှိရန်"</string>
     <string name="ahd_alert_dismiss_action_label">ပယ်ရန်</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">ဗီဒီယို ပိတ်ရန်</string>
     <string name="ahd_alert_low_battery_description">အချိန်ကြာကြာ ပြောနိုင်ရန် သင့်ဗီဒီယိုကို ပိတ်ထားကြည့်ပါ</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">မလုပ်တော့</string>
     <string name="blocked_numbers_unblock_yes">ပိတ်ဆို့မှုပြန်ဖွင့်ပါ</string>
     <string name="blocked_numbers_undo">တစ်ဆင့်နောက်သို့</string>
-    <string name="bokeh_effect_off">"'မှုန်ဝါးမှု' အထူးပြုလုပ်ချက်ကို ပိတ်ထားသည်"</string>
-    <string name="bokeh_effect_on">"'မှုန်ဝါးမှု' အထူးပြုလုပ်ချက်ကို ဖွင့်ထားသည်"</string>
+    <string name="bokeh_effect_blur_heavy">အများအပြား မှုန်ဝါးရန်</string>
+    <string name="bokeh_effect_blur_light">အနည်းငယ် မှုန်ဝါးရန်</string>
+    <string name="bokeh_effect_blur_medium">အလယ်အလတ် မှုန်ဝါးရန်</string>
+    <string name="bokeh_effect_blur_off">မှုန်ဝါးမှု ပိတ်ရန်</string>
     <string name="button_disconnect_call">ဖုန်းချရန်</string>
     <string name="button_re_record_message">ထပ်မံမှတ်တမ်းတင်ရန်</string>
     <string name="button_record_message">အသံသွင်းရန်</string>
@@ -132,9 +135,11 @@
     <string name="contact_action_send_voice_message">အသံမက်ဆေ့ဂျ် ပို့ရန်</string>
     <string name="contact_action_video_call">ဗီဒီယိုခေါ်ဆိုမှု စတင်ရန်</string>
     <string name="contact_action_view_message">မက်ဆေ့ဂျ် ကြည့်ရန်</string>
+    <string name="contact_badge_seen">ဖတ်ပြီးပြီ</string>
+    <string name="contact_badge_sent">ပို့လိုက်ပါပြီ</string>
     <string name="contact_card_audio_action_detail_format">%1$s ထံသို့ Duo ဖုန်းခေါ်ဆိုရန်</string>
-    <string name="contact_card_audio_action_summary_text">Duo ဖုန်းခေါ်ဆိုရန်</string>
-    <string name="contact_card_video_action_detail_format">Duo ဗီဒီယိုခေါ်ဆိုရန် %1$s</string>
+    <string name="contact_card_audio_action_summary_text">Duo အသံခေါ်ဆိုမှု</string>
+    <string name="contact_card_video_action_detail_format">%1$s ထံသို့ Duo ဗီဒီယိုခေါ်ဆိုရန်</string>
     <string name="contact_card_video_action_summary_text">Duo ဗီဒီယိုခေါ်ဆိုမှု</string>
     <string name="contact_item_description">%2$s ဖြင့် %1$s ကို ခေါ်ရန်</string>
     <string name="contact_item_description_clip">%1$s ထံမှ မက်ဆေ့ဂျ်ကို ဖွင့်ရန်</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">Backspace</string>
     <string name="knock_knock_setting_activity_label">ဒေါက်ဒေါက်</string>
     <string name="learn_more_link">ပိုမိုလေ့လာရန်</string>
+    <string name="leave_audio_message_snackbar_text">%s အတွက် အသံမက်ဆေ့ဂျ် ထားရန်</string>
+    <string name="leave_message_snackbar_action_text">ကူးရန်</string>
     <string name="leave_message_text">မက်ဆေ့ဂျ် ချန်ထားပါ။</string>
+    <string name="leave_video_message_snackbar_text">%s အတွက် ဗီဒီယိုမက်ဆေ့ဂျ် ထားရန်</string>
     <string name="link_gaia_account_unexpected_error">မျှော်လင့်မထားသော အမှားအယွင်း ဖြစ်သွားပါသည်၊ အင်တာနက်ချိတ်ဆက်မှုကို စစ်ဆေးပါ။</string>
     <string name="link_gaia_choose_account">အကောင့် ရွေးရန်</string>
     <string name="link_gaia_choose_account_title">အကောင့်တစ်ခု ရွေးခြင်း</string>
@@ -446,8 +454,6 @@ Google ဝန်ထမ်းများ (သို့) စမ်းသပ်ဆ
     <string name="switch_camera_button_back">နောက်ကင်မရာသို့ ပြောင်းရန်</string>
     <string name="switch_camera_button_front">ရှေ့ကင်မရာသို့ ပြောင်းရန်</string>
     <string name="toggle_screensharing">မျက်နှာပြင်မျှဝေခြင်းကို စရန် သို့မဟုတ် ရပ်ရန်</string>
-    <string name="turn_bokeh_effect_off_button">"'မှုန်ဝါးမှု' အထူးပြုလုပ်ချက်ကို ပိတ်ရန်"</string>
-    <string name="turn_bokeh_effect_on_button">"'မှုန်ဝါးမှု' အထူးပြုလုပ်ချက်ကို ဖွင့်ရန်"</string>
     <string name="unblock_user_failed">အသုံးပြုသူကို ပြန်ဖွင့်၍မရပါ။ အင်တာနက်ချိတ်ဆက်မှုကို စစ်ဆေးပြီး ထပ်လုပ်ကြည့်ပါ။</string>
     <string name="unblocked_notification_description">သင့်ဒေသတွင် အရည်အသွေးမြင့်ခေါ်ဆိုမှုများနှင့် ပိုမိုကောင်းမွန်လာသောဝန်ဆောင်မှုကို သုံးကြည့်လိုက်ပါ</string>
     <string name="unblocked_notification_title">Duo သည် ယခင်ကထက် ပိုမိုကောင်းမွန်လာပါပြီ</string>
@@ -495,7 +501,6 @@ Google ဝန်ထမ်းများ (သို့) စမ်းသပ်ဆ
     <string name="welcome_activity_intro_agreements_clickable_privacy">ပုဂ္ဂိုလ်ရေးဆိုင်ရာမူဝါဒ</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">ဝန်ဆောင်မှုစည်းမျဉ်းများ</string>
     <string name="welcome_activity_intro_primary">အရည်အသွေးမြင့် ဗီဒီယိုခေါ်ဆိုခြင်း</string>
-    <string name="welcome_activity_menu_select_label">ဖတ်ရှုရန် ရွေးချယ်ပါ</string>
     <string name="welcome_activity_menu_select_privacy">Google ပုဂ္ဂိုလ်ရေးဆိုင်ရာမူဝါဒ</string>
     <string name="welcome_activity_menu_select_tos">Google ဝန်ဆောင်မှုစည်းမျဉ်းများ</string>
     <string name="welcome_activity_silent_reg_unreg_abort">မလုပ်တော့ပါ</string>

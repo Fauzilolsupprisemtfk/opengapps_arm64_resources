@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">Příchozí videohovor od uživatele %1$s. Přejetím dvěma prsty nahoru hovor přijmete. Přejetím dvěma prsty dolů hovor odmítnete.</string>
     <string name="action_send_feedback">Nápověda a zpětná vazba</string>
     <string name="action_settings">Nastavení</string>
+    <string name="adjust_bokeh_effect_blur_button">Upravit rozmazání u efektu bokeh</string>
     <string name="ahd_alert_dismiss_action_label">Zavřít</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">Vypnout video</string>
     <string name="ahd_alert_low_battery_description">Pokud si chcete povídat déle, zkuste vypnout video</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">ZRUŠIT</string>
     <string name="blocked_numbers_unblock_yes">ODBLOKOVAT</string>
     <string name="blocked_numbers_undo">VRÁTIT ZPĚT</string>
-    <string name="bokeh_effect_off">Efekt bokeh je vypnutý</string>
-    <string name="bokeh_effect_on">Efekt bokeh je zapnutý</string>
+    <string name="bokeh_effect_blur_heavy">Silné rozmazání</string>
+    <string name="bokeh_effect_blur_light">Mírné rozmazání</string>
+    <string name="bokeh_effect_blur_medium">Střední rozmazání</string>
+    <string name="bokeh_effect_blur_off">Vypnuté rozmazání</string>
     <string name="button_disconnect_call">Zavěsit</string>
     <string name="button_re_record_message">Nahrát znovu</string>
     <string name="button_record_message">Nahrávat</string>
@@ -132,6 +135,8 @@
     <string name="contact_action_send_voice_message">Poslat hlasovou zprávu</string>
     <string name="contact_action_video_call">Zahájit videohovor</string>
     <string name="contact_action_view_message">Zobrazit zprávu</string>
+    <string name="contact_badge_seen">Zobrazeno</string>
+    <string name="contact_badge_sent">Odesláno</string>
     <string name="contact_card_audio_action_detail_format">Provést hlasový hovor Duo na číslo %1$s</string>
     <string name="contact_card_audio_action_summary_text">Hlasový hovor Duo</string>
     <string name="contact_card_video_action_detail_format">Videohovor Duo na číslo %1$s</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">Backspace</string>
     <string name="knock_knock_setting_activity_label">Ťuk ťuk</string>
     <string name="learn_more_link">Další informace</string>
+    <string name="leave_audio_message_snackbar_text">Nechat kontaktu %s hlasovou zprávu</string>
+    <string name="leave_message_snackbar_action_text">Nahrát</string>
     <string name="leave_message_text">Nechat zprávu.</string>
+    <string name="leave_video_message_snackbar_text">Nechat kontaktu %s videozprávu</string>
     <string name="link_gaia_account_unexpected_error">Neočekávaná chyba. Zkontrolujte prosím připojení.</string>
     <string name="link_gaia_choose_account">Vybrat účet</string>
     <string name="link_gaia_choose_account_title">Vybrat účet</string>
@@ -447,8 +455,6 @@ Funkce Ťuk ťuk funguje, pokud vás člověk, kterému voláte, má v kontakte
     <string name="switch_camera_button_back">Přepnout na zadní kameru</string>
     <string name="switch_camera_button_front">Přepnout na přední kameru</string>
     <string name="toggle_screensharing">Začít nebo přestat sdílet obrazovku</string>
-    <string name="turn_bokeh_effect_off_button">Vypnout efekt bokeh</string>
-    <string name="turn_bokeh_effect_on_button">Zapnout efekt bokeh</string>
     <string name="unblock_user_failed">Uživatele se nepodařilo blokovat. Zkontrolujte připojení a zkuste to znovu.</string>
     <string name="unblocked_notification_description">Využijte hovory ve vysoké kvalitě a vylepšené služby i ve své zemi</string>
     <string name="unblocked_notification_title">Aplikace Duo je teď lepší než kdy dřív</string>
@@ -496,7 +502,6 @@ je zapnuta funkce Ťuk ťuk"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">zásadami ochrany soukromí</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">smluvními podmínkami</string>
     <string name="welcome_activity_intro_primary">Videohovory ve vysoké kvalitě</string>
-    <string name="welcome_activity_menu_select_label">Vyberte, co si chcete přečíst</string>
     <string name="welcome_activity_menu_select_privacy">Zásady ochrany soukromí Google</string>
     <string name="welcome_activity_menu_select_tos">Smluvní podmínky Google</string>
     <string name="welcome_activity_silent_reg_unreg_abort">NERUŠIT</string>

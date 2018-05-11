@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">ມີສາຍວິດີໂອໂທເຂົ້າຈາກ %1$s. ໃຊ້ສອງນິ້ວປັດຂຶ້ນເພື່ອຮັບສາຍ ຫຼື ສອງນິ້ວປັດລົງເພື່ອປະຕິເສດສາຍ.</string>
     <string name="action_send_feedback">ຊ່ວຍເຫຼືອ ແລະ ຄຳຕິຊົມ</string>
     <string name="action_settings">ການຕັ້ງຄ່າ</string>
+    <string name="adjust_bokeh_effect_blur_button">ປັບແຕ່ງການມົວເອັບເຟັກໂບເກ້</string>
     <string name="ahd_alert_dismiss_action_label">ປິດໄວ້</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">ປິດວິດີໂອ</string>
     <string name="ahd_alert_low_battery_description">ເພື່ອລົມໃຫ້ດົນຂຶ້ນ, ໃຫ້ປິດວິດີໂອໄວ້</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">ຍົກ​ເລີກ</string>
     <string name="blocked_numbers_unblock_yes">​ປົດບລັອກ</string>
     <string name="blocked_numbers_undo">ຍົກເລີກ</string>
-    <string name="bokeh_effect_off">ປິດເອັບເຟັກໂບເກ້ແລ້ວ</string>
-    <string name="bokeh_effect_on">ເປີດເອັບເຟັກໂບເກ້ແລ້ວ</string>
+    <string name="bokeh_effect_blur_heavy">ມົວຫຼາຍ</string>
+    <string name="bokeh_effect_blur_light">ມົວໜ້ອຍ</string>
+    <string name="bokeh_effect_blur_medium">ມົວປານກາງ</string>
+    <string name="bokeh_effect_blur_off">ປິດການມົວ</string>
     <string name="button_disconnect_call">ວາງສາຍ</string>
     <string name="button_re_record_message">ບັນທຶກຄືນໃໝ່</string>
     <string name="button_record_message">ບັນທຶກ</string>
@@ -132,6 +135,8 @@
     <string name="contact_action_send_voice_message">ສົ່ງຂໍ້ຄວາມສຽງ</string>
     <string name="contact_action_video_call">ເລີ່ມການໂທແບບວິດີໂອ</string>
     <string name="contact_action_view_message">ເບິ່ງຂໍ້ຄວາມ</string>
+    <string name="contact_badge_seen">ອ່ານແລ້ວ</string>
+    <string name="contact_badge_sent">ສົ່ງແລ້ວ</string>
     <string name="contact_card_audio_action_detail_format">ໂທ Duo ຫາ %1$s</string>
     <string name="contact_card_audio_action_summary_text">ສາຍ Duo</string>
     <string name="contact_card_video_action_detail_format">ໂທວິດີໂອ Duo ຫາ %1$s</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">Backspace</string>
     <string name="knock_knock_setting_activity_label">ກັອກ ກັອກ</string>
     <string name="learn_more_link">ສຶກສາເພີ່ມເຕີມ</string>
+    <string name="leave_audio_message_snackbar_text">ຝາກຂໍ້ຄວາມສຽງໃຫ້ %s</string>
+    <string name="leave_message_snackbar_action_text">ບັນທຶກ</string>
     <string name="leave_message_text">ຂຽນຂໍ້ຄວາມ.</string>
+    <string name="leave_video_message_snackbar_text">ຝາກຂໍ້ຄວາມວິດີໂອໃຫ້ %s</string>
     <string name="link_gaia_account_unexpected_error">ເກີດຄວາມຜິດພາດທີ່ບໍ່ຄາດຄິດຂຶ້ນ, ກະລຸນາກວດສອບການເຊື່ອມຕໍ່ຂອງທ່ານ.</string>
     <string name="link_gaia_choose_account">ເລືອກບັນຊີ</string>
     <string name="link_gaia_choose_account_title">ເລືອກບັນຊີ</string>
@@ -446,8 +454,6 @@
     <string name="switch_camera_button_back">ສະຫຼັບໄປໃຊ້ກ້ອງຫຼັງ</string>
     <string name="switch_camera_button_front">ສະຫຼັບໄປໃຊ້ກ້ອງໜ້າ</string>
     <string name="toggle_screensharing">ເລີ່ມ ຫຼື ຢຸດການແບ່ງປັນໜ້າຈໍ</string>
-    <string name="turn_bokeh_effect_off_button">ປິດເອັບເຟັກໂບເກ້</string>
-    <string name="turn_bokeh_effect_on_button">ເປີດເອັບເຟັກໂບເກ້</string>
     <string name="unblock_user_failed">ບໍ່ສາມາດປົດບລັອກຜູ້ໃຊ້ໄດ້. ກະລຸນາກວດສອບການເຊື່ອມຕໍ່ແລ້ວລອງໃໝ່.</string>
     <string name="unblocked_notification_description">ເພີດເພີນໄປກັບການໂທແບບຄຸນນະພາບທີ່ສູງຂຶ້ນ ແລະ ການປັບປຸງບໍລິການໃນພື້ນທີ່ຂອງທ່ານ</string>
     <string name="unblocked_notification_title">Duo ດີຂຶ້ນກວ່າທີ່ເຄີຍເປັນ</string>
@@ -495,7 +501,6 @@
     <string name="welcome_activity_intro_agreements_clickable_privacy">ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">ຂໍ້ກຳນົດບໍລິການ</string>
     <string name="welcome_activity_intro_primary">ການໂທວິດີໂອຄຸນນະພາບສູງ</string>
-    <string name="welcome_activity_menu_select_label">ເລືອກເພື່ອກວດສອບ</string>
     <string name="welcome_activity_menu_select_privacy">ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວຂອງ Google</string>
     <string name="welcome_activity_menu_select_tos">ຂໍ້ກຳນົດບໍລິການ Google</string>
     <string name="welcome_activity_silent_reg_unreg_abort">ບໍ່ເປັນຫຍັງ</string>

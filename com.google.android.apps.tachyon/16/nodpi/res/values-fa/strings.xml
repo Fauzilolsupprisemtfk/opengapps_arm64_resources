@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">تماس ویدئویی ورودی از %1$s. برای پاسخ‌گویی به تماس، دو انگشتتان را سریع به بالا بکشید. برای رد کردن، دو انگشتتان را سریع به پایین بکشید.</string>
     <string name="action_send_feedback">راهنما و بازخورد</string>
     <string name="action_settings">تنظیمات</string>
+    <string name="adjust_bokeh_effect_blur_button">تنظیم محو کردن جلوه بوکه</string>
     <string name="ahd_alert_dismiss_action_label">رد کردن</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">خاموش کردن ویدیو</string>
     <string name="ahd_alert_low_battery_description">ویدیو را خاموش کنید تا بتوانید مدت طولانی‌تری صحبت کنید</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">لغو</string>
     <string name="blocked_numbers_unblock_yes">گشودن</string>
     <string name="blocked_numbers_undo">واگرد</string>
-    <string name="bokeh_effect_off">جلوه بوکه غیرفعال است</string>
-    <string name="bokeh_effect_on">جلوه بوکه فعال است</string>
+    <string name="bokeh_effect_blur_heavy">محو کردن شدید</string>
+    <string name="bokeh_effect_blur_light">محو کردن خفیف</string>
+    <string name="bokeh_effect_blur_medium">محو کردن متوسط</string>
+    <string name="bokeh_effect_blur_off">محو کردن خاموش است</string>
     <string name="button_disconnect_call">قطع تماس</string>
     <string name="button_re_record_message">دوباره ضبط کردن</string>
     <string name="button_record_message">ضبط</string>
@@ -132,10 +135,12 @@
     <string name="contact_action_send_voice_message">ارسال پیام صوتی</string>
     <string name="contact_action_video_call">شروع تماس ویدیویی</string>
     <string name="contact_action_view_message">مشاهده پیام</string>
+    <string name="contact_badge_seen">مشاهده‌شده</string>
+    <string name="contact_badge_sent">ارسال شد</string>
     <string name="contact_card_audio_action_detail_format">تماس صوتی Duo با %1$s</string>
     <string name="contact_card_audio_action_summary_text">تماس صوتی Duo</string>
     <string name="contact_card_video_action_detail_format">تماس ویدیویی Duo با %1$s</string>
-    <string name="contact_card_video_action_summary_text">تماس ویدئویی Duo</string>
+    <string name="contact_card_video_action_summary_text">تماس ویدیویی Duo</string>
     <string name="contact_item_description">تماس با %1$s با شماره %2$s</string>
     <string name="contact_item_description_clip">پخش پیام از %1$s</string>
     <string name="contact_item_description_invite">دعوت از %1$s برای استفاده از Duo</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">برگشت به عقب</string>
     <string name="knock_knock_setting_activity_label">تق‌تق</string>
     <string name="learn_more_link">بیشتر بدانید</string>
+    <string name="leave_audio_message_snackbar_text">گذاشتن پیام صوتی برای %s</string>
+    <string name="leave_message_snackbar_action_text">ضبط</string>
     <string name="leave_message_text">پیام بگذارید.</string>
+    <string name="leave_video_message_snackbar_text">گذاشتن پیام ویدیویی برای %s</string>
     <string name="link_gaia_account_unexpected_error">خطای غیرمنتظره؛ لطفاً اتصالتان را بررسی کنید.</string>
     <string name="link_gaia_choose_account">انتخاب حساب</string>
     <string name="link_gaia_choose_account_title">انتخاب حساب کاربری</string>
@@ -447,8 +455,6 @@
     <string name="switch_camera_button_back">جابه‌جایی به دوربین عقب</string>
     <string name="switch_camera_button_front">جابه‌جایی به دوربین جلو</string>
     <string name="toggle_screensharing">شروع یا توقف هم‌رسانی صفحه‌نمایش</string>
-    <string name="turn_bokeh_effect_off_button">غیرفعال کردن جلوه بوکه</string>
-    <string name="turn_bokeh_effect_on_button">فعال کردن جلوه بوکه</string>
     <string name="unblock_user_failed">مسدود بودن کاربر لغو نشد. لطفاً اتصال را بررسی و دوباره امتحان کنید.</string>
     <string name="unblocked_notification_description">از تماس‌های با کیفیت بالاتر و سرویس بهبودیافته در منطقه‌تان لذت ببرید</string>
     <string name="unblocked_notification_title">Duo بهتر از همیشه است</string>
@@ -496,7 +502,6 @@
     <string name="welcome_activity_intro_agreements_clickable_privacy">خط‌مشی رازداری</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">شرایط و ضوابط</string>
     <string name="welcome_activity_intro_primary">تماس ویدئویی با کیفیت بالا</string>
-    <string name="welcome_activity_menu_select_label">برای بررسی، انتخاب کنید</string>
     <string name="welcome_activity_menu_select_privacy">خط‌مشی رازداری Google</string>
     <string name="welcome_activity_menu_select_tos">شرایط و ضوابط Google</string>
     <string name="welcome_activity_silent_reg_unreg_abort">مهم نیست</string>

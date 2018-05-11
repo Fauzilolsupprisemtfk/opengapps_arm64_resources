@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">%1$s તરફથી ઇનકમિંગ વિડિઓ કૉલ. જવાબ આપવા માટે બે આંગળી વડે ઉપર સ્વાઇપ કરો. નકારવા માટે બે આંગળી વડે નીચે સ્વાઇપ કરો.</string>
     <string name="action_send_feedback">સહાય અને પ્રતિસાદ</string>
     <string name="action_settings">સેટિંગ્સ</string>
+    <string name="adjust_bokeh_effect_blur_button">Bokeh પ્રભાવને ઝાંખા કરવાની ગોઠવણ કરો</string>
     <string name="ahd_alert_dismiss_action_label">છોડી દો</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">વીડિઓ બંધ કરો</string>
     <string name="ahd_alert_low_battery_description">લાંબો સમય વાત કરવા માટે, તમારો વીડિઓ બંધ કરીને પ્રયાસ કરો</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">રદ કરો</string>
     <string name="blocked_numbers_unblock_yes">અનાવરોધિત કરો</string>
     <string name="blocked_numbers_undo">પૂર્વવત્ કરો</string>
-    <string name="bokeh_effect_off">Bokeh પ્રભાવ બંધ છે</string>
-    <string name="bokeh_effect_on">Bokeh પ્રભાવ ચાલુ છે</string>
+    <string name="bokeh_effect_blur_heavy">ભારે ઝાંખું કરો</string>
+    <string name="bokeh_effect_blur_light">ઓછું ઝાંખું કરો</string>
+    <string name="bokeh_effect_blur_medium">મધ્યમ ઝાંખું કરો</string>
+    <string name="bokeh_effect_blur_off">ઝાંખું કરવું બંધ કરો</string>
     <string name="button_disconnect_call">સમાપ્ત કરો</string>
     <string name="button_re_record_message">ફરીથી રેકોર્ડ કરો</string>
     <string name="button_record_message">રેકોર્ડ કરો</string>
@@ -132,8 +135,10 @@
     <string name="contact_action_send_voice_message">વૉઇસ સંદેશ મોકલો</string>
     <string name="contact_action_video_call">વિડિઓ કૉલ શરૂ કરો</string>
     <string name="contact_action_view_message">સંદેશ જુઓ</string>
-    <string name="contact_card_audio_action_detail_format">%1$s પર Duo વૉઇસ કૉલ કરો</string>
-    <string name="contact_card_audio_action_summary_text">Duo વૉઇસ કૉલ કરો</string>
+    <string name="contact_badge_seen">જોવાયેલા સંદેશ</string>
+    <string name="contact_badge_sent">મોકલેલા સંદેશ</string>
+    <string name="contact_card_audio_action_detail_format">Duo વૉઇસ કૉલ %1$s</string>
+    <string name="contact_card_audio_action_summary_text">Duo વૉઇસ કૉલ</string>
     <string name="contact_card_video_action_detail_format">Duo વીડિઓ કૉલ %1$s</string>
     <string name="contact_card_video_action_summary_text">Duo વીડિઓ કૉલ</string>
     <string name="contact_item_description">%1$s ને %2$s પર કૉલ કરો</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">બેકસ્પેસ</string>
     <string name="knock_knock_setting_activity_label">વિડિઓ પૂર્વાવલોકન</string>
     <string name="learn_more_link">વધુ જાણો</string>
+    <string name="leave_audio_message_snackbar_text">%s માટે એક વૉઇસ સંદેશ મૂકો</string>
+    <string name="leave_message_snackbar_action_text">રેકોર્ડ કરો</string>
     <string name="leave_message_text">એક સંદેશ મૂકો.</string>
+    <string name="leave_video_message_snackbar_text">%s માટે એક વીડિઓ સંદેશ મૂકો</string>
     <string name="link_gaia_account_unexpected_error">અનપેક્ષિત ભૂલ. કૃપા કરીને તમારું કનેક્શન ચેક કરો.</string>
     <string name="link_gaia_choose_account">એકાઉન્ટ પસંદ કરો</string>
     <string name="link_gaia_choose_account_title">એક એકાઉન્ટ પસંદ કરો</string>
@@ -447,8 +455,6 @@
     <string name="switch_camera_button_back">પાછળના કૅમેરા પર સ્વિચ કરો</string>
     <string name="switch_camera_button_front">આગળના કૅમેરા પર સ્વિચ કરો</string>
     <string name="toggle_screensharing">સ્ક્રીન શેરિંગ શરૂ કરો અથવા બંધ કરો</string>
-    <string name="turn_bokeh_effect_off_button">Bokeh પ્રભાવ બંધ કરો</string>
-    <string name="turn_bokeh_effect_on_button">Bokeh પ્રભાવ ચાલુ કરો</string>
     <string name="unblock_user_failed">વપરાશકર્તાને અનબ્લૉક કરવામાં અસમર્થ. કૃપા કરીને કનેક્શન તપાસો અને ફરી પ્રયાસ કરો.</string>
     <string name="unblocked_notification_description">તમારા વિસ્તારમાં ઉચ્ચ-ગુણવત્તાવાળા કૉલ અને સુધારેલી સેવાઓનો આંનદ લો</string>
     <string name="unblocked_notification_title">Duo પહેલાં કરતા પણ વધારે સારું છે</string>
@@ -496,7 +502,6 @@ Knock Knock ચાલુ છે"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">ગોપનીયતા નીતિ</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">સેવાની શરતો</string>
     <string name="welcome_activity_intro_primary">ઉચ્ચ ગુણવત્તાની વીડિઓ કૉલ સેવા</string>
-    <string name="welcome_activity_menu_select_label">સમીક્ષા કરવા માટે પસંદ કરો</string>
     <string name="welcome_activity_menu_select_privacy">Google ગોપનીયતા નીતિ</string>
     <string name="welcome_activity_menu_select_tos">Google સેવાની શરતો</string>
     <string name="welcome_activity_silent_reg_unreg_abort">કોઈ વાંધો નહીં</string>

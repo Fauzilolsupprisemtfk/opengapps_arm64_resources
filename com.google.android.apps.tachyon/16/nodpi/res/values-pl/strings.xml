@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">Przychodząca rozmowa wideo od: %1$s. Przesuń dwoma palcami w górę, aby odebrać. Przesuń dwoma palcami w dół, aby ją odrzucić.</string>
     <string name="action_send_feedback">Pomoc i opinie</string>
     <string name="action_settings">Ustawienia</string>
+    <string name="adjust_bokeh_effect_blur_button">Dostosuj efekt rozmycia bokeh</string>
     <string name="ahd_alert_dismiss_action_label">Zamknij</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">Wyłącz film</string>
     <string name="ahd_alert_low_battery_description">Aby móc porozmawiać dłużej, spróbuj wyłączyć film</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">ANULUJ</string>
     <string name="blocked_numbers_unblock_yes">ODBLOKUJ</string>
     <string name="blocked_numbers_undo">COFNIJ</string>
-    <string name="bokeh_effect_off">Efekt bokeh wyłączony</string>
-    <string name="bokeh_effect_on">Efekt bokeh włączony</string>
+    <string name="bokeh_effect_blur_heavy">Duże rozmycie</string>
+    <string name="bokeh_effect_blur_light">Niewielkie rozmycie</string>
+    <string name="bokeh_effect_blur_medium">Średnie rozmycie</string>
+    <string name="bokeh_effect_blur_off">Rozmycie wyłączone</string>
     <string name="button_disconnect_call">Rozłącz się</string>
     <string name="button_re_record_message">Nagraj ponownie</string>
     <string name="button_record_message">Nagraj</string>
@@ -132,7 +135,9 @@
     <string name="contact_action_send_voice_message">Wyślij wiadomość głosową</string>
     <string name="contact_action_video_call">Rozpocznij rozmowę wideo</string>
     <string name="contact_action_view_message">Wyświetl wiadomość</string>
-    <string name="contact_card_audio_action_detail_format">Połączenie głosowe w Duo z %1$s</string>
+    <string name="contact_badge_seen">Wyświetlona</string>
+    <string name="contact_badge_sent">Wysłana</string>
+    <string name="contact_card_audio_action_detail_format">Rozmowa głosowa w Duo z numerem %1$s</string>
     <string name="contact_card_audio_action_summary_text">Rozmowa głosowa w Duo</string>
     <string name="contact_card_video_action_detail_format">Rozmowa wideo w Duo z numerem %1$s</string>
     <string name="contact_card_video_action_summary_text">Rozmowa wideo w Duo</string>
@@ -271,7 +276,10 @@
     <string name="keypad_backspace">Backspace</string>
     <string name="knock_knock_setting_activity_label">Puk, puk</string>
     <string name="learn_more_link">Więcej informacji</string>
+    <string name="leave_audio_message_snackbar_text">Zostaw wiadomość głosową dla użytkownika %s</string>
+    <string name="leave_message_snackbar_action_text">Nagraj</string>
     <string name="leave_message_text">Zostaw wiadomość.</string>
+    <string name="leave_video_message_snackbar_text">Zostaw wiadomość wideo dla użytkownika %s</string>
     <string name="link_gaia_account_unexpected_error">Nieoczekiwany błąd. Sprawdź połączenie.</string>
     <string name="link_gaia_choose_account">Wybierz konto</string>
     <string name="link_gaia_choose_account_title">Wybierz konto</string>
@@ -459,8 +467,6 @@ Funkcja Puk, puk działa, jeśli osoba, do której dzwonisz, ma Cię w kontaktac
     <string name="switch_camera_button_back">Przełącz na tylny aparat</string>
     <string name="switch_camera_button_front">Przełącz na przedni aparat</string>
     <string name="toggle_screensharing">Zacznij lub przestań udostępniać ekran</string>
-    <string name="turn_bokeh_effect_off_button">Wyłącz efekt bokeh</string>
-    <string name="turn_bokeh_effect_on_button">Włącz efekt bokeh</string>
     <string name="unblock_user_failed">Nie można odblokować użytkownika. Sprawdź połączenie i spróbuj ponownie.</string>
     <string name="unblocked_notification_description">Korzystaj z lepszej jakości rozmów i udoskonalonej obsługi w swoim kraju</string>
     <string name="unblocked_notification_title">Aplikacja Duo teraz na wyciągnięcie ręki</string>
@@ -508,7 +514,6 @@ Funkcja Puk, puk jest włączona"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">Politykę prywatności</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">Warunki korzystania z usługi</string>
     <string name="welcome_activity_intro_primary">Rozmowy wideo o wysokiej jakości</string>
-    <string name="welcome_activity_menu_select_label">Wybierz, aby przejrzeć</string>
     <string name="welcome_activity_menu_select_privacy">Polityka prywatności Google</string>
     <string name="welcome_activity_menu_select_tos">Warunki korzystania z usług Google</string>
     <string name="welcome_activity_silent_reg_unreg_abort">ANULUJ</string>

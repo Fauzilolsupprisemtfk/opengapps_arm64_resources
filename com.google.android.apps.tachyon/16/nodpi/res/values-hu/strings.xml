@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">Bejövő videóhívás a következőtől: %1$s. Csúsztassa két ujját felfelé a hívás fogadásához és lefelé az elutasításhoz.</string>
     <string name="action_send_feedback">Súgó és visszajelzés</string>
     <string name="action_settings">Beállítások</string>
+    <string name="adjust_bokeh_effect_blur_button">Bokeh effektus homályosításának módosítása</string>
     <string name="ahd_alert_dismiss_action_label">Elvetés</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">Videó kikapcsolása</string>
     <string name="ahd_alert_low_battery_description">Ha hosszabb ideig szeretne beszélni, kapcsolja ki a videoképet.</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">MÉGSE</string>
     <string name="blocked_numbers_unblock_yes">FELOLDÁS</string>
     <string name="blocked_numbers_undo">VISSZAVONÁS</string>
-    <string name="bokeh_effect_off">Bokeh effektus kikapcsolva</string>
-    <string name="bokeh_effect_on">Bokeh effektus bekapcsolva</string>
+    <string name="bokeh_effect_blur_heavy">Erős homályosítás</string>
+    <string name="bokeh_effect_blur_light">Enyhe homályosítás</string>
+    <string name="bokeh_effect_blur_medium">Közepes homályosítás</string>
+    <string name="bokeh_effect_blur_off">Homályosítás ki</string>
     <string name="button_disconnect_call">Hívás befejezése</string>
     <string name="button_re_record_message">Újrafelvétel</string>
     <string name="button_record_message">Rögzítés</string>
@@ -132,6 +135,8 @@
     <string name="contact_action_send_voice_message">Hangüzenet küldése</string>
     <string name="contact_action_video_call">Videohívás indítása</string>
     <string name="contact_action_view_message">Üzenet megtekintése</string>
+    <string name="contact_badge_seen">Olvasta</string>
+    <string name="contact_badge_sent">Elküldve</string>
     <string name="contact_card_audio_action_detail_format">Duo-hanghívás %1$s</string>
     <string name="contact_card_audio_action_summary_text">Duo-hanghívás</string>
     <string name="contact_card_video_action_detail_format">Duo-videohívás: %1$s</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">Backspace</string>
     <string name="knock_knock_setting_activity_label">Videó-előnézet</string>
     <string name="learn_more_link">További információ</string>
+    <string name="leave_audio_message_snackbar_text">Hagyjon hangüzenetet a következőnek: %s</string>
+    <string name="leave_message_snackbar_action_text">Rögzítés</string>
     <string name="leave_message_text">Hagyjon üzenetet.</string>
+    <string name="leave_video_message_snackbar_text">Hagyjon videoüzenetet a következőnek: %s</string>
     <string name="link_gaia_account_unexpected_error">Váratlan hiba. Ellenőrizze az internetkapcsolatot.</string>
     <string name="link_gaia_choose_account">Fiók kiválasztása</string>
     <string name="link_gaia_choose_account_title">Fiók kiválasztása</string>
@@ -447,8 +455,6 @@ A video-előnézet csak akkor működik, ha a személy szerepel a címjegyzéké
     <string name="switch_camera_button_back">Váltás a hátsó kamerára</string>
     <string name="switch_camera_button_front">Váltás az első kamerára</string>
     <string name="toggle_screensharing">Képernyőmegosztás indítása vagy leállítása</string>
-    <string name="turn_bokeh_effect_off_button">A Bokeh effektus kikapcsolása</string>
-    <string name="turn_bokeh_effect_on_button">A Bokeh effektus bekapcsolása</string>
     <string name="unblock_user_failed">Nem sikerült feloldani a felhasználó letiltását. Ellenőrizze a kapcsolatot, és próbálkozzon újra.</string>
     <string name="unblocked_notification_description">Jobb minőségű hívások és továbbfejlesztett szolgáltatás</string>
     <string name="unblocked_notification_title">A Duo jobb, mint valaha</string>
@@ -496,7 +502,6 @@ A video-előnézet be van kapcsolva"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">Adatvédelmi irányelvek</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">ÁSZF</string>
     <string name="welcome_activity_intro_primary">Kiváló minőségű videohívások</string>
-    <string name="welcome_activity_menu_select_label">Válassza ki az elolvasni kívánt irányelveket</string>
     <string name="welcome_activity_menu_select_privacy">Google adatvédelmi irányelvek</string>
     <string name="welcome_activity_menu_select_tos">Google Általános Szerződési Feltételek</string>
     <string name="welcome_activity_silent_reg_unreg_abort">INKÁBB MÉGSE</string>

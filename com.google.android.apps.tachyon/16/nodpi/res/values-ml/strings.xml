@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">%1$s എന്നയാളിൽ നിന്നുള്ള ഇൻകമിംഗ് വീഡിയോ കോൾ. മറുപടി നൽകാൻ രണ്ടുവിരലുകൾ ഉപയോഗിച്ച് മുകളിലേക്ക് സ്വൈപ്പുചെയ്യുക.നിരസിക്കാൻ രണ്ടുവിരലുകൾ ഉപയോഗിച്ച് താഴേക്ക് സ്വൈപ്പുചെയ്യുക.</string>
     <string name="action_send_feedback">സഹായവും ഫീഡ്‌ബാക്കും</string>
     <string name="action_settings">ക്രമീകരണം</string>
+    <string name="adjust_bokeh_effect_blur_button">ബൊക്കേ ഇഫക്റ്റ് മങ്ങിക്കൽ ക്രമീകരിക്കുക</string>
     <string name="ahd_alert_dismiss_action_label">ഒഴിവാക്കുക</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">വീഡിയോ ഓഫാക്കുക</string>
     <string name="ahd_alert_low_battery_description">കൂടുതൽ സമയം സംസാരിക്കാൻ, വീഡിയോ ഓഫാക്കി ശ്രമിച്ചുനോക്കുക</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">റദ്ദാക്കുക</string>
     <string name="blocked_numbers_unblock_yes">അൺബ്ലോക്കുചെയ്യുക</string>
     <string name="blocked_numbers_undo">പഴയപടിയാക്കുക</string>
-    <string name="bokeh_effect_off">ബൊക്കേ ഇഫക്റ്റ് ഓഫാണ്</string>
-    <string name="bokeh_effect_on">ബൊക്കേ ഇഫക്റ്റ് ഓണാണ്</string>
+    <string name="bokeh_effect_blur_heavy">കടുത്ത മങ്ങിക്കൽ</string>
+    <string name="bokeh_effect_blur_light">ചെറുതായി മങ്ങിക്കൽ</string>
+    <string name="bokeh_effect_blur_medium">മിതമായി മങ്ങിക്കൽ</string>
+    <string name="bokeh_effect_blur_off">മങ്ങിക്കൽ ഓഫാക്കുക</string>
     <string name="button_disconnect_call">ഹാംഗ് അപ്പ് ചെയ്യുക</string>
     <string name="button_re_record_message">വീണ്ടും റെക്കോർഡ് ചെയ്യുക</string>
     <string name="button_record_message">റെക്കോർഡ് ചെയ്യുക</string>
@@ -132,6 +135,8 @@
     <string name="contact_action_send_voice_message">ശബ്‌ദ സന്ദേശം അയയ്‌ക്കുക</string>
     <string name="contact_action_video_call">വീഡിയോ കോൾ ആരംഭിക്കുക</string>
     <string name="contact_action_view_message">സന്ദേശം കാണുക</string>
+    <string name="contact_badge_seen">കണ്ടത്</string>
+    <string name="contact_badge_sent">അയച്ചു</string>
     <string name="contact_card_audio_action_detail_format">Duo വോയ്‌സ് കോൾ %1$s</string>
     <string name="contact_card_audio_action_summary_text">Duo വോയ്‌സ് കോൾ</string>
     <string name="contact_card_video_action_detail_format">%1$s-ലേക്ക് Duo വീഡിയോ കോൾ ചെയ്യുക</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">ബാക്ക്‌സ്‌പെയ്‌സ്</string>
     <string name="knock_knock_setting_activity_label">കോളർ പ്രിവ്യൂ</string>
     <string name="learn_more_link">കൂടുതലറിയുക</string>
+    <string name="leave_audio_message_snackbar_text">%s എന്നയാൾക്ക് ഒരു ശബ്‌ദ സന്ദേശം അയയ്ക്കുക</string>
+    <string name="leave_message_snackbar_action_text">റെക്കോർഡ് ചെയ്യുക</string>
     <string name="leave_message_text">ഒരു സന്ദേശം അയയ്ക്കുക.</string>
+    <string name="leave_video_message_snackbar_text">%s എന്നയാൾക്ക് ഒരു വീഡിയോ സന്ദേശം അയയ്ക്കുക</string>
     <string name="link_gaia_account_unexpected_error">അപ്രതീക്ഷിതമായ പിശക്, നിങ്ങളുടെ കണക്ഷന്‍ പരിശോധിക്കുക</string>
     <string name="link_gaia_choose_account">അക്കൗണ്ട് തിരഞ്ഞെടുക്കുക</string>
     <string name="link_gaia_choose_account_title">അക്കൗണ്ട് തിരഞ്ഞെടുക്കുക</string>
@@ -447,8 +455,6 @@ BREAK_1Googler-മാർ അല്ലെങ്കിൽ ബീറ്റ പ്�
     <string name="switch_camera_button_back">പിന്നിലെ ക്യാമറയിലേക്ക് മാറുക</string>
     <string name="switch_camera_button_front">മുന്നിലെ ക്യാമറയിലേക്ക് മാറുക</string>
     <string name="toggle_screensharing">സ്ക്രീൻ പങ്കിടൽ ആരംഭിക്കുകയോ അവസാനിപ്പിക്കുകയോ ചെയ്യുക</string>
-    <string name="turn_bokeh_effect_off_button">ബൊക്കേ ഇഫക്റ്റ് ഓഫാക്കുക</string>
-    <string name="turn_bokeh_effect_on_button">ബൊക്കേ ഇഫക്റ്റ് ഓണാക്കുക</string>
     <string name="unblock_user_failed">ഉപയോക്താവിനെ അൺബ്ലോക്ക് ചെയ്യാനായില്ല. കണക്ഷൻ പരിശോധിച്ച് വീണ്ടും ശ്രമിക്കുക.</string>
     <string name="unblocked_notification_description">നിങ്ങളുടെ പ്രദേശത്ത് ഉയർന്ന നിലവാരമുള്ള കോളുകളും മെച്ചപ്പെടുത്തിയ സേവനവും ആസ്വദിക്കൂ</string>
     <string name="unblocked_notification_title">Duo മുമ്പത്തേക്കാൾ മികച്ചതായിരിക്കുന്നു</string>
@@ -496,7 +502,6 @@ Knock Knock ഓണാണ്"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">സ്വകാര്യതാ നയം</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">സേവന നിബന്ധനകൾ</string>
     <string name="welcome_activity_intro_primary">ഉയർന്ന നിലവാരമുള്ള വീഡിയോ കോളിംഗ്</string>
-    <string name="welcome_activity_menu_select_label">അവലോകനം ചെയ്യുന്നതിന് തിരഞ്ഞെടുക്കുക</string>
     <string name="welcome_activity_menu_select_privacy">Google സ്വകാര്യതാ നയം</string>
     <string name="welcome_activity_menu_select_tos">Google സേവന നിബന്ധനകൾ</string>
     <string name="welcome_activity_silent_reg_unreg_abort">കാര്യമാക്കേണ്ടതില്ല</string>

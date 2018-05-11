@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">「%1$s」的視訊通話來電。用雙指向上滑動可接聽，向下滑動可拒接。</string>
     <string name="action_send_feedback">說明與意見回饋</string>
     <string name="action_settings">設定</string>
+    <string name="adjust_bokeh_effect_blur_button">調整散景模糊效果</string>
     <string name="ahd_alert_dismiss_action_label">關閉</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">關閉視訊功能</string>
     <string name="ahd_alert_low_battery_description">如要長時間通話，請關閉視訊功能</string>
@@ -28,7 +29,7 @@
     <string name="ahd_alert_low_volume_action_turn_up_volume">調高音量</string>
     <string name="ahd_alert_low_volume_description">聽不到聲音嗎？請嘗試調高音量</string>
     <string name="ahd_alert_low_volume_title">音量過低</string>
-    <string name="ask_call_perm_dialog_body">如要將你的 Duo 通話紀錄加入手機通話紀錄中，請允許 Duo 管理通話及撥打電話。</string>
+    <string name="ask_call_perm_dialog_body">如要將你的 Duo 通話記錄加入手機通話記錄中，請允許 Duo 管理通話及撥打電話。</string>
     <string name="ask_call_perm_dialog_no">不用了，謝謝</string>
     <string name="ask_call_perm_dialog_title">記錄你的 Duo 通話</string>
     <string name="ask_call_perm_dialog_yes">允許</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">取消</string>
     <string name="blocked_numbers_unblock_yes">解除封鎖</string>
     <string name="blocked_numbers_undo">復原</string>
-    <string name="bokeh_effect_off">已關閉散景效果</string>
-    <string name="bokeh_effect_on">已開啟散景效果</string>
+    <string name="bokeh_effect_blur_heavy">重度模糊</string>
+    <string name="bokeh_effect_blur_light">輕度模糊</string>
+    <string name="bokeh_effect_blur_medium">中度模糊</string>
+    <string name="bokeh_effect_blur_off">關閉模糊效果</string>
     <string name="button_disconnect_call">掛斷</string>
     <string name="button_re_record_message">重新錄製</string>
     <string name="button_record_message">錄製訊息</string>
@@ -69,8 +72,8 @@
     <string name="button_send_video_message">留下影片訊息</string>
     <string name="call_back_button_text">致電</string>
     <string name="call_continuing_in_audio_mode">通話將在暫停視訊的情況下繼續進行</string>
-    <string name="call_diagnostic_log_missing">沒有任何通話診斷紀錄。</string>
-    <string name="call_diagnostic_log_title">通話診斷紀錄</string>
+    <string name="call_diagnostic_log_missing">沒有任何通話診斷記錄。</string>
+    <string name="call_diagnostic_log_title">通話診斷記錄</string>
     <string name="call_ended_ice_disconnect">網路發生錯誤，請再試一次。</string>
     <string name="call_from">%s的來電</string>
     <string name="call_incoming_accept">接聽</string>
@@ -80,7 +83,7 @@
     <string name="call_incoming_swipe_to_answer">向上滑動即可接聽</string>
     <string name="call_incoming_swipe_to_unlock">向上滑動即可將手機解鎖</string>
     <string name="call_incoming_video_call">視訊通話來電</string>
-    <string name="call_rating_feedback_include_call_diagnostics">附上通話診斷紀錄</string>
+    <string name="call_rating_feedback_include_call_diagnostics">附上通話診斷記錄</string>
     <string name="call_rating_feedback_option_bad_audio">音訊品質</string>
     <string name="call_rating_feedback_option_bad_video">視訊品質</string>
     <string name="call_rating_feedback_option_detailed">其他</string>
@@ -132,6 +135,8 @@
     <string name="contact_action_send_voice_message">傳送語音訊息</string>
     <string name="contact_action_video_call">發起視訊通話</string>
     <string name="contact_action_view_message">查看訊息</string>
+    <string name="contact_badge_seen">已讀</string>
+    <string name="contact_badge_sent">已傳送</string>
     <string name="contact_card_audio_action_detail_format">撥打 Duo 語音通話給 %1$s</string>
     <string name="contact_card_audio_action_summary_text">Duo 語音通話</string>
     <string name="contact_card_video_action_detail_format">撥打 Duo 視訊通話給 %1$s</string>
@@ -271,7 +276,10 @@
     <string name="keypad_backspace">Backspace 鍵</string>
     <string name="knock_knock_setting_activity_label">是誰來電</string>
     <string name="learn_more_link">瞭解詳情</string>
+    <string name="leave_audio_message_snackbar_text">錄製語音訊息給%s</string>
+    <string name="leave_message_snackbar_action_text">錄製</string>
     <string name="leave_message_text">請留言。</string>
+    <string name="leave_video_message_snackbar_text">錄製影片訊息給%s</string>
     <string name="link_gaia_account_unexpected_error">發生未預期的錯誤，請檢查網路連線。</string>
     <string name="link_gaia_choose_account">選擇帳戶</string>
     <string name="link_gaia_choose_account_title">選擇帳戶</string>
@@ -279,7 +287,7 @@
     <string name="link_gaia_dialog_secondary_description_reachability">你現在可以選擇搭配 Google 帳戶使用 Duo。新增你的 Google 帳戶，即表示知道你 Google 帳戶的使用者，都將能使用你的電子郵件地址或電話號碼，透過 Duo 撥打電話給你。</string>
     <string name="link_gaia_header">使用你的 Google 帳戶登入</string>
     <string name="link_gaia_intro_agreements">你可以選擇搭配 Google 帳戶使用 Duo。使用你的 Google 帳戶，即表示知道你 Google 帳戶或電話號碼的使用者，都能透過各項 Google 服務與你聯絡。</string>
-    <string name="link_gaia_intro_phone_number">知道你電話號碼的使用者可以透過各項 Google 服務與你聯絡。此外，請允許 Duo 同步處理你的聯絡人資料，方便你找到好友。Duo 將傳送一次性簡訊給你。你可能需要支付行動通訊費用。</string>
+    <string name="link_gaia_intro_phone_number">知道你電話號碼的使用者可以透過各項 Google 服務與你聯絡。此外，只要讓 Duo 同步處理你的聯絡人資料，就能輕鬆找到好友。Duo 將傳送一次性簡訊給你。你可能需要支付行動通訊費用。</string>
     <string name="link_gaia_intro_revokability">你可以前往 Duo 設定變更或移除你的 Google 帳戶。</string>
     <string name="link_gaia_registration_disclaimer">系統將傳送一次性簡訊給您以驗證您的號碼。您可能需要支付行動通訊費用。</string>
     <string name="link_gaia_remove_account">移除帳戶</string>
@@ -459,8 +467,6 @@
     <string name="switch_camera_button_back">切換為後置鏡頭</string>
     <string name="switch_camera_button_front">切換為前置鏡頭</string>
     <string name="toggle_screensharing">開始或停止分享螢幕畫面</string>
-    <string name="turn_bokeh_effect_off_button">關閉散景效果</string>
-    <string name="turn_bokeh_effect_on_button">開啟散景效果</string>
     <string name="unblock_user_failed">無法解除封鎖使用者。請檢查網路連線，然後再試一次。</string>
     <string name="unblocked_notification_description">在你的所在區域享受更高品質的通話功能與更完善的服務</string>
     <string name="unblocked_notification_title">體驗更好用的 Duo</string>
@@ -508,7 +514,6 @@
     <string name="welcome_activity_intro_agreements_clickable_privacy">隱私權政策</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">服務條款</string>
     <string name="welcome_activity_intro_primary">高品質的視訊通話服務</string>
-    <string name="welcome_activity_menu_select_label">選取要查看的項目</string>
     <string name="welcome_activity_menu_select_privacy">Google 隱私權政策</string>
     <string name="welcome_activity_menu_select_tos">Google 服務條款</string>
     <string name="welcome_activity_silent_reg_unreg_abort">不用了</string>

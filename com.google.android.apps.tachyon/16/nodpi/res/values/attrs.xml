@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <attr name="bottomAppBarStyle" format="reference" />
     <attr name="bottomNavigationStyle" format="reference" />
     <attr name="bottomSheetDialogTheme" format="reference" />
     <attr name="bottomSheetStyle" format="reference" />
@@ -272,6 +273,15 @@
     <attr name="tooltipForegroundColor" format="reference|color" />
     <attr name="colorError" format="reference|color" />
     <attr name="viewInflaterClass" format="string" />
+    <attr name="fabAlignmentMode">
+        <enum name="center" value="0" />
+        <enum name="end" value="1" />
+    </attr>
+    <attr name="fabAttached" format="boolean" />
+    <attr name="fabCradleDiameter" format="dimension" />
+    <attr name="fabCradleRoundedCornerRadius" format="dimension" />
+    <attr name="fabCradleVerticalOffset" format="dimension" />
+    <attr name="hideOnScroll" format="boolean" />
     <attr name="labelVisibilityMode">
         <enum name="auto" value="-1" />
         <enum name="labeled" value="1" />
@@ -343,11 +353,11 @@
     <attr name="scrimVisibleHeightTrigger" format="dimension" />
     <attr name="scrimAnimationDuration" format="integer" />
     <attr name="collapsedTitleGravity">
-        <flag name="bottom" value="0x00000050" />
         <flag name="center" value="0x00000011" />
+        <flag name="end" value="0x00800005" />
+        <flag name="bottom" value="0x00000050" />
         <flag name="center_horizontal" value="0x00000001" />
         <flag name="center_vertical" value="0x00000010" />
-        <flag name="end" value="0x00800005" />
         <flag name="fill_vertical" value="0x00000070" />
         <flag name="left" value="0x00000003" />
         <flag name="right" value="0x00000005" />
@@ -355,11 +365,11 @@
         <flag name="top" value="0x00000030" />
     </attr>
     <attr name="expandedTitleGravity">
-        <flag name="bottom" value="0x00000050" />
         <flag name="center" value="0x00000011" />
+        <flag name="end" value="0x00800005" />
+        <flag name="bottom" value="0x00000050" />
         <flag name="center_horizontal" value="0x00000001" />
         <flag name="center_vertical" value="0x00000010" />
-        <flag name="end" value="0x00800005" />
         <flag name="fill_vertical" value="0x00000070" />
         <flag name="left" value="0x00000003" />
         <flag name="right" value="0x00000005" />
@@ -393,11 +403,11 @@
     <attr name="layout_anchor" format="reference" />
     <attr name="layout_keyline" format="integer" />
     <attr name="layout_anchorGravity">
-        <flag name="bottom" value="0x00000050" />
         <flag name="center" value="0x00000011" />
+        <flag name="end" value="0x00800005" />
+        <flag name="bottom" value="0x00000050" />
         <flag name="center_horizontal" value="0x00000001" />
         <flag name="center_vertical" value="0x00000010" />
-        <flag name="end" value="0x00800005" />
         <flag name="fill_vertical" value="0x00000070" />
         <flag name="left" value="0x00000003" />
         <flag name="right" value="0x00000005" />
@@ -410,8 +420,8 @@
     </attr>
     <attr name="layout_insetEdge">
         <enum name="none" value="0" />
-        <enum name="bottom" value="80" />
         <enum name="end" value="8388613" />
+        <enum name="bottom" value="80" />
         <enum name="left" value="3" />
         <enum name="right" value="5" />
         <enum name="start" value="8388611" />
@@ -419,8 +429,8 @@
     </attr>
     <attr name="layout_dodgeInsetEdges">
         <flag name="none" value="0x00000000" />
-        <flag name="bottom" value="0x00000050" />
         <flag name="end" value="0x00800005" />
+        <flag name="bottom" value="0x00000050" />
         <flag name="left" value="0x00000003" />
         <flag name="right" value="0x00000005" />
         <flag name="start" value="0x00800003" />
@@ -496,19 +506,19 @@
     <attr name="layout_flexGrow" format="float" />
     <attr name="layout_flexShrink" format="float" />
     <attr name="layout_flexBasisPercent" format="fraction" />
-    <attr name="layout_minWidth" format="dimension" />
-    <attr name="layout_minHeight" format="dimension" />
-    <attr name="layout_maxWidth" format="dimension" />
-    <attr name="layout_maxHeight" format="dimension" />
-    <attr name="layout_wrapBefore" format="boolean" />
     <attr name="layout_alignSelf">
-        <enum name="auto" value="-1" />
         <enum name="center" value="2" />
+        <enum name="auto" value="-1" />
         <enum name="flex_end" value="1" />
         <enum name="flex_start" value="0" />
         <enum name="baseline" value="3" />
         <enum name="stretch" value="4" />
     </attr>
+    <attr name="layout_minWidth" format="dimension" />
+    <attr name="layout_minHeight" format="dimension" />
+    <attr name="layout_maxWidth" format="dimension" />
+    <attr name="layout_maxHeight" format="dimension" />
+    <attr name="layout_wrapBefore" format="boolean" />
     <attr name="fabSize">
         <enum name="normal" value="0" />
         <enum name="auto" value="-1" />
@@ -541,6 +551,15 @@
     <attr name="fontVariationSettings" format="string" />
     <attr name="ttcIndex" format="integer" />
     <attr name="foregroundInsidePadding" format="boolean" />
+    <attr name="bottomPaddingMin" format="dimension" />
+    <attr name="childMarginXMin" format="dimension" />
+    <attr name="childWidthMax" format="dimension" />
+    <attr name="contentMarginTopMin" format="dimension" />
+    <attr name="contentMarginTopPercent" format="float" />
+    <attr name="descriptionMarginTopMin" format="dimension" />
+    <attr name="descriptionMarginTopPercent" format="float" />
+    <attr name="titleMarginTopMin" format="dimension" />
+    <attr name="titleMarginTopPercent" format="float" />
     <attr name="measureWithLargestChild" format="boolean" />
     <attr name="showDividers">
         <flag name="none" value="0x00000000" />
@@ -574,6 +593,7 @@
     <attr name="additionalPaddingLeftForIcon" format="dimension" />
     <attr name="additionalPaddingRightForIcon" format="dimension" />
     <attr name="cornerRadius" format="dimension" />
+    <attr name="maxWidth" format="dimension" />
     <attr name="alphabeticModifiers">
         <flag name="ALT" value="0x00000002" />
         <flag name="CTRL" value="0x00001000" />
@@ -691,8 +711,8 @@
     <attr name="tabBackground" format="reference" />
     <attr name="tabIndicator" format="reference" />
     <attr name="tabIndicatorGravity">
-        <enum name="bottom" value="0" />
         <enum name="center" value="1" />
+        <enum name="bottom" value="0" />
         <enum name="top" value="2" />
         <enum name="stretch" value="3" />
     </attr>

@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">Inkommande videosamtal från %1$s. Svep uppåt med två fingrar för att svara. Svep nedåt med två fingrar för att avvisa.</string>
     <string name="action_send_feedback">Hjälp och feedback</string>
     <string name="action_settings">Inställningar</string>
+    <string name="adjust_bokeh_effect_blur_button">Justera Bokeh-effektens oskärpa</string>
     <string name="ahd_alert_dismiss_action_label">Stäng</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">Stäng av video</string>
     <string name="ahd_alert_low_battery_description">Tala längre genom att stänga av videon</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">AVBRYT</string>
     <string name="blocked_numbers_unblock_yes">AVBLOCKERA</string>
     <string name="blocked_numbers_undo">ÅNGRA</string>
-    <string name="bokeh_effect_off">Bokeh-effekt av</string>
-    <string name="bokeh_effect_on">Bokeh-effekt på</string>
+    <string name="bokeh_effect_blur_heavy">Stor oskärpa</string>
+    <string name="bokeh_effect_blur_light">Liten oskärpa</string>
+    <string name="bokeh_effect_blur_medium">Medelstor oskärpa</string>
+    <string name="bokeh_effect_blur_off">Ingen oskärpa</string>
     <string name="button_disconnect_call">Lägg på</string>
     <string name="button_re_record_message">Spela in på nytt</string>
     <string name="button_record_message">Spela in</string>
@@ -132,6 +135,8 @@
     <string name="contact_action_send_voice_message">Skicka röstmeddelande</string>
     <string name="contact_action_video_call">Starta videosamtal</string>
     <string name="contact_action_view_message">Visa meddelande</string>
+    <string name="contact_badge_seen">Visat</string>
+    <string name="contact_badge_sent">Har skickats</string>
     <string name="contact_card_audio_action_detail_format">Duo röstsamtal till %1$s</string>
     <string name="contact_card_audio_action_summary_text">Duo röstsamtal</string>
     <string name="contact_card_video_action_detail_format">Duo videosamtal %1$s</string>
@@ -271,7 +276,10 @@
     <string name="keypad_backspace">Backsteg</string>
     <string name="knock_knock_setting_activity_label">Knack-knack</string>
     <string name="learn_more_link">Läs mer</string>
+    <string name="leave_audio_message_snackbar_text">Lämna ett röstmeddelande till %s</string>
+    <string name="leave_message_snackbar_action_text">Spela in</string>
     <string name="leave_message_text">Lämna ett meddelande.</string>
+    <string name="leave_video_message_snackbar_text">Lämna ett videomeddelande till %s</string>
     <string name="link_gaia_account_unexpected_error">Oväntat fel, kontrollera anslutningen.</string>
     <string name="link_gaia_choose_account">Välj konto</string>
     <string name="link_gaia_choose_account_title">Välj ett konto</string>
@@ -459,8 +467,6 @@ Knack-knack fungerar om personen du ringer till har dig som kontakt och du ser e
     <string name="switch_camera_button_back">Byt till bakåtvänd kamera</string>
     <string name="switch_camera_button_front">Byt till framåtvänd kamera</string>
     <string name="toggle_screensharing">Starta eller stoppa skärmdelning</string>
-    <string name="turn_bokeh_effect_off_button">Stäng av Bokeh-effekt</string>
-    <string name="turn_bokeh_effect_on_button">Aktivera Bokeh-effekt</string>
     <string name="unblock_user_failed">Det går inte att återaktivera användaren. Kontrollera anslutningen och försök igen.</string>
     <string name="unblocked_notification_description">Dra nytta av samtal med hög kvalitet och förbättrad tjänst i ditt område</string>
     <string name="unblocked_notification_title">Duo är bättre än någonsin</string>
@@ -508,7 +514,6 @@ Knack-knack är på"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">Sekretesspolicy</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">Användarvillkor</string>
     <string name="welcome_activity_intro_primary">Högkvalitativa videosamtal</string>
-    <string name="welcome_activity_menu_select_label">Välj att granska</string>
     <string name="welcome_activity_menu_select_privacy">Googles sekretesspolicy</string>
     <string name="welcome_activity_menu_select_tos">Googles användarvillkor</string>
     <string name="welcome_activity_silent_reg_unreg_abort">ÅNGRA</string>

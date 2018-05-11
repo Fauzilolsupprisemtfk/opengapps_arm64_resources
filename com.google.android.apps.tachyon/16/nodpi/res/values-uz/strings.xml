@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">%1$s sizga videoqo‘ng‘iroq qilmoqda. Unga javob berish uchun ekranni ikki barmoq bilan tepaga, rad etish uchun esa pastga suring.</string>
     <string name="action_send_feedback">Yordam va fikr-mulohaza</string>
     <string name="action_settings">Sozlamalar</string>
+    <string name="adjust_bokeh_effect_blur_button">Bokeh effekti uchun xiralashtirish darajasini moslash</string>
     <string name="ahd_alert_dismiss_action_label">Yopish</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">Videoni o‘chirib qo‘yish</string>
     <string name="ahd_alert_low_battery_description">Quvvatni tejash uchun videoni o‘chirib qo‘ying.</string>
@@ -29,7 +30,7 @@
     <string name="ahd_alert_low_volume_description">Hech narsa eshitilmayaptimi? Tovush balandligini ko‘tarib ko‘ring.</string>
     <string name="ahd_alert_low_volume_title">Tovush past</string>
     <string name="ask_call_perm_dialog_body">Duo suhbatlari tarixini telefon qo‘ng‘iroqlari tarixiga qo‘shish uchun Duo ilovasiga telefon qo‘ng‘iroqlarini amalga oshirish va ularni boshqarishiga ruxsat bering.</string>
-    <string name="ask_call_perm_dialog_no">Yo‘q, kerak emas</string>
+    <string name="ask_call_perm_dialog_no">Kerak emas</string>
     <string name="ask_call_perm_dialog_title">Duo suhbatlaringizni kuzatib boring</string>
     <string name="ask_call_perm_dialog_yes">Ruxsat berish</string>
     <string name="audio_call_mode_description">Ovozli chaqiruv rejimi</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">BEKOR QILISH</string>
     <string name="blocked_numbers_unblock_yes">BLOKDAN CHIQARILSIN</string>
     <string name="blocked_numbers_undo">BEKOR QILISH</string>
-    <string name="bokeh_effect_off">Boke effekti faolsizlantirildi</string>
-    <string name="bokeh_effect_on">Boke effekti faollashtirildi</string>
+    <string name="bokeh_effect_blur_heavy">Juda xiralashtirish</string>
+    <string name="bokeh_effect_blur_light">Yengil xiralashtirish</string>
+    <string name="bokeh_effect_blur_medium">O‘rtacha xiralashtirish</string>
+    <string name="bokeh_effect_blur_off">Xiralashtirish effekti o‘chirib qo‘yilgan</string>
     <string name="button_disconnect_call">Tugatish</string>
     <string name="button_re_record_message">Yozishni davom etish</string>
     <string name="button_record_message">Yozib olish</string>
@@ -87,7 +90,7 @@
     <string name="call_rating_feedback_option_disconnect">Aloqa tasodifan uzilib qoldi</string>
     <string name="call_rating_feedback_option_echo">Aks sado</string>
     <string name="call_rating_feedback_option_list_header">Muammo nimada edi?</string>
-    <string name="call_rating_feedback_preview">OLDINDAN KO‘RISH</string>
+    <string name="call_rating_feedback_preview">RAZM SOLISH</string>
     <string name="call_rating_feedback_skip">O‘TKAZIB YUBORISH</string>
     <string name="call_rating_feedback_submit">KEYINGISI</string>
     <string name="call_rating_fragment_rating_bad">YOMON</string>
@@ -132,10 +135,12 @@
     <string name="contact_action_send_voice_message">Ovozli xabar yuborish</string>
     <string name="contact_action_video_call">Video qo‘ng‘iroq qilish</string>
     <string name="contact_action_view_message">Xabarni ko‘rish</string>
-    <string name="contact_card_audio_action_detail_format">Duo ovozli chaqiruvi: %1$s</string>
+    <string name="contact_badge_seen">Ko‘rildi</string>
+    <string name="contact_badge_sent">Yuborildi</string>
+    <string name="contact_card_audio_action_detail_format">%1$s raqamiga Duo orqali ovozli chaqiruvni amalga oshirish</string>
     <string name="contact_card_audio_action_summary_text">Duo ovozli chaqiruvi</string>
-    <string name="contact_card_video_action_detail_format">%1$s raqamiga Duo orqali video qo‘ng‘iroq qilish</string>
-    <string name="contact_card_video_action_summary_text">Duo orqali video suhbat boshlash</string>
+    <string name="contact_card_video_action_detail_format">%1$s raqamiga Duo orqali video chaqiruvni amalga oshirish</string>
+    <string name="contact_card_video_action_summary_text">Duo video chaqiruvi</string>
     <string name="contact_item_description">%2$s raqamli abonentga (%1$s) qo‘ng‘iroq qilish</string>
     <string name="contact_item_description_clip">%1$s xabarini ijro etish</string>
     <string name="contact_item_description_invite">%1$s – Duo xizmatiga taklif qiling</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">Backspace</string>
     <string name="knock_knock_setting_activity_label">Knock Knock</string>
     <string name="learn_more_link">Batafsil</string>
+    <string name="leave_audio_message_snackbar_text">%s uchun ovozli xabar qoldirish</string>
+    <string name="leave_message_snackbar_action_text">Yozib olish</string>
     <string name="leave_message_text">Xabar yuborish</string>
+    <string name="leave_video_message_snackbar_text">%s uchun video xabar qoldirish</string>
     <string name="link_gaia_account_unexpected_error">Kutilmagan xato. Internet aloqasini tekshiring.</string>
     <string name="link_gaia_choose_account">Hisobni tanlash</string>
     <string name="link_gaia_choose_account_title">Hisobni tanlang</string>
@@ -446,8 +454,6 @@ Knock Knock funksiyasi ishlashi uchun telefon raqamingiz qo‘ng‘iroq qilinayo
     <string name="switch_camera_button_back">Orqa kamerani yoqish</string>
     <string name="switch_camera_button_front">Old kamerani yoqish</string>
     <string name="toggle_screensharing">Ekranga kirishga ruxsat berish yoki rad etish</string>
-    <string name="turn_bokeh_effect_off_button">Boke effektini faollsizlantirish</string>
-    <string name="turn_bokeh_effect_on_button">Boke effektini faollashtirish</string>
     <string name="unblock_user_failed">Foydalanuvchini blokdan chiqarib bo‘lmadi. Internet aloqasini tekshiring va qayta urining.</string>
     <string name="unblocked_notification_description">Endi sizning hududingizda yuqori sifatli qo‘ng‘iroqlarni amalga oshirish hamda yaxshilangan xizmatdan foydalanish imkoniyati paydo bo‘ldi.</string>
     <string name="unblocked_notification_title">Duo – barkamollik sari!</string>
@@ -495,7 +501,6 @@ Knock Knock funksiyasi yoniq."</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">Maxfiylik siyosati</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">Foydalanish shartlari</string>
     <string name="welcome_activity_intro_primary">Yuqori sifatli video suhbat</string>
-    <string name="welcome_activity_menu_select_label">Tanishib chiqish uchun hujjatni tanlang</string>
     <string name="welcome_activity_menu_select_privacy">Google maxfiylik siyosati</string>
     <string name="welcome_activity_menu_select_tos">Google xizmatlaridan foydalanish shartlari</string>
     <string name="welcome_activity_silent_reg_unreg_abort">RO‘YXATDAN CHIQARILMASIN</string>

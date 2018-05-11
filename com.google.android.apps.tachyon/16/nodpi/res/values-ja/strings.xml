@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">%1$s から着信です。応答するには上に、拒否するには下に 2 本の指でスワイプします。</string>
     <string name="action_send_feedback">ヘルプとフィードバック</string>
     <string name="action_settings">設定</string>
+    <string name="adjust_bokeh_effect_blur_button">ぼかし効果の強度を調整</string>
     <string name="ahd_alert_dismiss_action_label">閉じる</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">ビデオを OFF にする</string>
     <string name="ahd_alert_low_battery_description">電池の消費を抑えて通話時間を延ばすには、ビデオを OFF にしてみてください</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">キャンセル</string>
     <string name="blocked_numbers_unblock_yes">ブロックを解除</string>
     <string name="blocked_numbers_undo">取り消す</string>
-    <string name="bokeh_effect_off">ぼかし効果が OFF になっています</string>
-    <string name="bokeh_effect_on">ぼかし効果が ON になっています</string>
+    <string name="bokeh_effect_blur_heavy">ぼかし強度: 強</string>
+    <string name="bokeh_effect_blur_light">ぼかし強度: 弱</string>
+    <string name="bokeh_effect_blur_medium">ぼかし強度: 中</string>
+    <string name="bokeh_effect_blur_off">ぼかし: オフ</string>
     <string name="button_disconnect_call">通話終了</string>
     <string name="button_re_record_message">録画または録音をやり直す</string>
     <string name="button_record_message">録画</string>
@@ -132,9 +135,11 @@
     <string name="contact_action_send_voice_message">音声メッセージを送信</string>
     <string name="contact_action_video_call">ビデオ通話を開始</string>
     <string name="contact_action_view_message">メッセージを表示</string>
+    <string name="contact_badge_seen">既読</string>
+    <string name="contact_badge_sent">送信済み</string>
     <string name="contact_card_audio_action_detail_format">%1$s 宛に Duo の音声通話を発信</string>
     <string name="contact_card_audio_action_summary_text">Duo の音声通話</string>
-    <string name="contact_card_video_action_detail_format">%1$s に Duo のビデオ通話を発信</string>
+    <string name="contact_card_video_action_detail_format">%1$s 宛に Duo のビデオ通話を発信</string>
     <string name="contact_card_video_action_summary_text">Duo のビデオ通話</string>
     <string name="contact_item_description">%1$s さん（%2$s）に発信</string>
     <string name="contact_item_description_clip">%1$s からのメッセージを再生</string>
@@ -271,7 +276,10 @@
     <string name="keypad_backspace">Backspace</string>
     <string name="knock_knock_setting_activity_label">ノック機能</string>
     <string name="learn_more_link">詳細</string>
+    <string name="leave_audio_message_snackbar_text">%s さんに音声メッセージを残しましょう</string>
+    <string name="leave_message_snackbar_action_text">録画 / 録音</string>
     <string name="leave_message_text">メッセージを残してください。</string>
+    <string name="leave_video_message_snackbar_text">%s さんに動画メッセージを残しましょう</string>
     <string name="link_gaia_account_unexpected_error">予期しないエラーが発生しました。接続を確認してください。</string>
     <string name="link_gaia_choose_account">アカウントを選択</string>
     <string name="link_gaia_choose_account_title">アカウントを選択してください</string>
@@ -459,8 +467,6 @@ Google 社員やベータ版プログラムへの参加者以外に、このア�
     <string name="switch_camera_button_back">背面カメラに切り替える</string>
     <string name="switch_camera_button_front">前面カメラに切り替える</string>
     <string name="toggle_screensharing">画面の共有を開始または停止</string>
-    <string name="turn_bokeh_effect_off_button">ぼかし効果を OFF にする</string>
-    <string name="turn_bokeh_effect_on_button">ぼかし効果を ON にする</string>
     <string name="unblock_user_failed">ユーザーのブロックを解除できません。接続を確認して、もう一度お試しください。</string>
     <string name="unblocked_notification_description">高品質の通話、向上したサービスをお住まいの地域でお楽しみいただけます</string>
     <string name="unblocked_notification_title">Duo - これまでにない通話体験</string>
@@ -508,7 +514,6 @@ Google 社員やベータ版プログラムへの参加者以外に、このア�
     <string name="welcome_activity_intro_agreements_clickable_privacy">プライバシー ポリシー</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">利用規約</string>
     <string name="welcome_activity_intro_primary">高品質のビデオ通話</string>
-    <string name="welcome_activity_menu_select_label">選択して内容を確認</string>
     <string name="welcome_activity_menu_select_privacy">Google プライバシー ポリシー</string>
     <string name="welcome_activity_menu_select_tos">Google 利用規約</string>
     <string name="welcome_activity_silent_reg_unreg_abort">キャンセル</string>

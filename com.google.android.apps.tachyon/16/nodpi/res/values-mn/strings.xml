@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">%1$s-с видео дуудлага ирж байна. Хариулах бол хоёр хуруугаар дээш шудрах. Таслах бол хоёр хуруугаар доош шудрах.</string>
     <string name="action_send_feedback">Тусламж, санал хүсэлт</string>
     <string name="action_settings">Тохиргоо</string>
+    <string name="adjust_bokeh_effect_blur_button">Bokeh эффектийн бүдэгрүүлэлт тохируулах</string>
     <string name="ahd_alert_dismiss_action_label">Хаах</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">Видеог унтрах</string>
     <string name="ahd_alert_low_battery_description">Удаан ярихын тулд видеогоо унтрааж үзнэ үү</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">ЦУЦЛАХ</string>
     <string name="blocked_numbers_unblock_yes">ХОРИГИЙГ ЦУЦЛАХ</string>
     <string name="blocked_numbers_undo">БУЦААХ</string>
-    <string name="bokeh_effect_off">Bokeh эффект унтраалттай</string>
-    <string name="bokeh_effect_on">Bokeh эффект асаалттай</string>
+    <string name="bokeh_effect_blur_heavy">Их бүдэгрүүлэлт</string>
+    <string name="bokeh_effect_blur_light">Бага зэргийн бүдэгрүүлэлт</string>
+    <string name="bokeh_effect_blur_medium">Дунд зэргийн бүдэгрүүлэлт</string>
+    <string name="bokeh_effect_blur_off">Бүдэгрүүлэлт идэвхгүй</string>
     <string name="button_disconnect_call">Таслах</string>
     <string name="button_re_record_message">Дахин бичих</string>
     <string name="button_record_message">Бичлэг хийх</string>
@@ -132,6 +135,8 @@
     <string name="contact_action_send_voice_message">Дуут зурвас илгээх</string>
     <string name="contact_action_video_call">Видео дуудлага эхлүүлэх</string>
     <string name="contact_action_view_message">Зурвасыг үзэх</string>
+    <string name="contact_badge_seen">Үзсэн</string>
+    <string name="contact_badge_sent">Илгээсэн</string>
     <string name="contact_card_audio_action_detail_format">Duo дуудлага %1$s</string>
     <string name="contact_card_audio_action_summary_text">Duo дуудлага</string>
     <string name="contact_card_video_action_detail_format">Duo видео дуудлага %1$s</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">Backspace</string>
     <string name="knock_knock_setting_activity_label">Knock Knock</string>
     <string name="learn_more_link">Дэлгэрэнгүй үзэх</string>
+    <string name="leave_audio_message_snackbar_text">%s-д дуут зурвас үлдээх</string>
+    <string name="leave_message_snackbar_action_text">Бичлэг хийх</string>
     <string name="leave_message_text">Зурвас үлдээнэ үү.</string>
+    <string name="leave_video_message_snackbar_text">%s-д видео зурвас үлдээх</string>
     <string name="link_gaia_account_unexpected_error">Гэнэтийн алдаа, холболтоо шалгана уу.</string>
     <string name="link_gaia_choose_account">Бүртгэл сонгоно уу</string>
     <string name="link_gaia_choose_account_title">Бүртгэл сонгоно уу</string>
@@ -270,7 +278,7 @@
     <string name="link_gaia_intro_phone_number">Таны дугаарыг мэддэг хүмүүс Google үйлчилгээнүүд дээр тантай холбогдох боломжтой. Мөн дээр нь Duo-д харилцагчдаа синк хийхийг зөвшөөрснөөр хүмүүст өөрийн найз нарыг олоход хялбар болгоно. Duo танд нэг удаагийн SMS мессеж илгээх бөгөөд үүрэн холбооны төлбөр тооцогдож магадгүй.</string>
     <string name="link_gaia_intro_revokability">Та дуртай үедээ Google бүртгэлээ Duo тохиргоо дотроос өөрчлөх эсвэл хасах боломжтой.</string>
     <string name="link_gaia_registration_disclaimer">Бид танд нэг удаагийн SMS мессеж илгээн таны дугаарыг баталгаажуулах болно. Үүрэн холбооны төлбөр тооцогдож магадгүй.</string>
-    <string name="link_gaia_remove_account">Акаунтыг арилгах</string>
+    <string name="link_gaia_remove_account">Бүртгэлийг хасах</string>
     <string name="link_gaia_secondary_description_revokability">Та дуртай үедээ Google бүртгэлээ Duo тохиргоо дотроос өөрчлөх эсвэл хасах боломжтой.</string>
     <string name="link_gaia_signin">Нэвтрэх</string>
     <string name="link_gaia_skip">АЛГАСАХ</string>
@@ -446,8 +454,6 @@ Knock Knock таны залгасан хүний харилцагчид дото
     <string name="switch_camera_button_back">Арын камер руу сэлгэх</string>
     <string name="switch_camera_button_front">Урд камер руу сэлгэх</string>
     <string name="toggle_screensharing">Дэлгэц хуваалцахыг эхлүүлэх буюу зогсоох</string>
-    <string name="turn_bokeh_effect_off_button">Bokeh эффект унтраах</string>
-    <string name="turn_bokeh_effect_on_button">Bokeh эффект асаах</string>
     <string name="unblock_user_failed">Хэрэглэгчийн хоригыг авах боломжгүй. Холболтоо шалгаад дахин оролдоно уу.</string>
     <string name="unblocked_notification_description">Өөрийн байгаа газраас өндөр чанартай яриа, сайжруулсан үйлчилгээ аваарай</string>
     <string name="unblocked_notification_title">Duo улам сайн болсон</string>
@@ -495,7 +501,6 @@ Knock Knock ассана"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">Нууцлалын бодлого</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">Үйлчилгээний нөхцөл</string>
     <string name="welcome_activity_intro_primary">Өндөр чанартай видео дуудлага</string>
-    <string name="welcome_activity_menu_select_label">Шалгахын тулд сонгоно уу</string>
     <string name="welcome_activity_menu_select_privacy">Google-н Нууцлалын бодлого</string>
     <string name="welcome_activity_menu_select_tos">Google-н Үйлчилгээний нөхцөл</string>
     <string name="welcome_activity_silent_reg_unreg_abort">БОЛИХ</string>

@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">%1$s adlı kullanıcıdan gelen video görüşmesi isteği. Cevaplamak için iki parmağınızla yukarı doğru hızlıca kaydırın. Reddetmek içinse iki parmağınızla aşağı doğru hızlıca kaydırın.</string>
     <string name="action_send_feedback">Yardım ve geri bildirim</string>
     <string name="action_settings">Ayarlar</string>
+    <string name="adjust_bokeh_effect_blur_button">Boke bulanıklaştırma efektini ayarla</string>
     <string name="ahd_alert_dismiss_action_label">Kapat</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">Görüntüyü kapat</string>
     <string name="ahd_alert_low_battery_description">Daha uzun süre konuşmak için görüntünüzü kapatmayı deneyin</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">İPTAL</string>
     <string name="blocked_numbers_unblock_yes">ENGELLEMEYİ KALDIR</string>
     <string name="blocked_numbers_undo">GERİ AL</string>
-    <string name="bokeh_effect_off">Boke efekti kapalı</string>
-    <string name="bokeh_effect_on">Boke efekti açık</string>
+    <string name="bokeh_effect_blur_heavy">Yoğun bulanıklaştırma</string>
+    <string name="bokeh_effect_blur_light">Hafif bulanıklaştırma</string>
+    <string name="bokeh_effect_blur_medium">Orta seviyede bulanıklaştırma</string>
+    <string name="bokeh_effect_blur_off">Bulanıklaştırma efekti kapalı</string>
     <string name="button_disconnect_call">Görüşmeyi bitir</string>
     <string name="button_re_record_message">Yeniden kaydet</string>
     <string name="button_record_message">Kaydet</string>
@@ -132,6 +135,8 @@
     <string name="contact_action_send_voice_message">Sesli mesaj gönder</string>
     <string name="contact_action_video_call">Görüntülü görüşme başlat</string>
     <string name="contact_action_view_message">Mesajı göster</string>
+    <string name="contact_badge_seen">Görüldü</string>
+    <string name="contact_badge_sent">Gönderildi</string>
     <string name="contact_card_audio_action_detail_format">%1$s numaralı telefona Duo sesli araması yapın</string>
     <string name="contact_card_audio_action_summary_text">Duo sesli araması</string>
     <string name="contact_card_video_action_detail_format">%1$s numaralı telefona Duo görüntülü görüşmesi yapın</string>
@@ -271,7 +276,10 @@
     <string name="keypad_backspace">Geri sil tuşu</string>
     <string name="knock_knock_setting_activity_label">Tık Tık</string>
     <string name="learn_more_link">Daha fazla bilgi</string>
+    <string name="leave_audio_message_snackbar_text">%s için sesli mesaj bırakın</string>
+    <string name="leave_message_snackbar_action_text">Kaydet</string>
     <string name="leave_message_text">Mesaj bırakın.</string>
+    <string name="leave_video_message_snackbar_text">%s için görüntülü mesaj bırakın</string>
     <string name="link_gaia_account_unexpected_error">Beklenmeyen bir hata oluştu. Lütfen bağlantınızı kontrol edin.</string>
     <string name="link_gaia_choose_account">Hesap seç</string>
     <string name="link_gaia_choose_account_title">Bir hesap seçin</string>
@@ -459,8 +467,6 @@ Tık Tık, aradığınız kullanıcının kişileri arasındaysanız çalışır
     <string name="switch_camera_button_back">Arka kameraya geç</string>
     <string name="switch_camera_button_front">Ön kameraya geç</string>
     <string name="toggle_screensharing">Ekran paylaşımını başlat veya durdur</string>
-    <string name="turn_bokeh_effect_off_button">Boke efektini devre dışı bırak</string>
-    <string name="turn_bokeh_effect_on_button">Boke efektini etkinleştir</string>
     <string name="unblock_user_failed">Kullanıcının engellemesi kaldırılamadı. Lütfen bağlantınızı kontrol edip tekrar deneyin.</string>
     <string name="unblocked_notification_description">Bulunduğunuz bölgede yüksek kaliteli görüşmelerin ve iyileştirilmiş hizmetin tadını çıkarın</string>
     <string name="unblocked_notification_title">Duo her zamankinden daha iyi</string>
@@ -508,7 +514,6 @@ Tık Tık etkin"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">Gizlilik Politikası</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">Hizmet Şartları</string>
     <string name="welcome_activity_intro_primary">Yüksek kaliteli görüntülü görüşme</string>
-    <string name="welcome_activity_menu_select_label">İncelemek için seçin</string>
     <string name="welcome_activity_menu_select_privacy">Google Gizlilik Politikası</string>
     <string name="welcome_activity_menu_select_tos">Google Hizmet Şartları</string>
     <string name="welcome_activity_silent_reg_unreg_abort">BOŞVER</string>

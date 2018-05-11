@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">Входящий видеовызов от пользователя %1$s. Чтобы ответить, проведите двумя пальцами по экрану вверх. Чтобы отклонить, проведите двумя пальцами по экрану вниз.</string>
     <string name="action_send_feedback">Справка/отзыв</string>
     <string name="action_settings">Настройки</string>
+    <string name="adjust_bokeh_effect_blur_button">Настроить размытие для эффекта боке</string>
     <string name="ahd_alert_dismiss_action_label">Закрыть</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">Отключить</string>
     <string name="ahd_alert_low_battery_description">Для экономии заряда отключите видео</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">ОТМЕНА</string>
     <string name="blocked_numbers_unblock_yes">РАЗБЛОКИРОВАТЬ</string>
     <string name="blocked_numbers_undo">ОТМЕНИТЬ</string>
-    <string name="bokeh_effect_off">Эффект боке отключен</string>
-    <string name="bokeh_effect_on">Эффект боке включен</string>
+    <string name="bokeh_effect_blur_heavy">Сильное размытие</string>
+    <string name="bokeh_effect_blur_light">Слабое размытие</string>
+    <string name="bokeh_effect_blur_medium">Среднее размытие</string>
+    <string name="bokeh_effect_blur_off">Размытие выключено</string>
     <string name="button_disconnect_call">Завершить вызов</string>
     <string name="button_re_record_message">Повторить запись</string>
     <string name="button_record_message">Записать</string>
@@ -132,8 +135,10 @@
     <string name="contact_action_send_voice_message">Отправить голосовое сообщение</string>
     <string name="contact_action_video_call">Выполнить видеовызов</string>
     <string name="contact_action_view_message">Посмотреть сообщение</string>
-    <string name="contact_card_audio_action_detail_format">Голосовой вызов Duo: %1$s</string>
-    <string name="contact_card_audio_action_summary_text">Голосовой вызов Duo</string>
+    <string name="contact_badge_seen">Прочитано</string>
+    <string name="contact_badge_sent">Отправлено</string>
+    <string name="contact_card_audio_action_detail_format">Начать голосовой вызов Duo: %1$s</string>
+    <string name="contact_card_audio_action_summary_text">Начать голосовой вызов Duo</string>
     <string name="contact_card_video_action_detail_format">Duo (видео) %1$s</string>
     <string name="contact_card_video_action_summary_text">Duo (видео)</string>
     <string name="contact_item_description">Позвонить пользователю %1$s по номеру %2$s</string>
@@ -271,7 +276,10 @@
     <string name="keypad_backspace">Backspace</string>
     <string name="knock_knock_setting_activity_label">Тук-Тук</string>
     <string name="learn_more_link">Подробнее…</string>
+    <string name="leave_audio_message_snackbar_text">Оставить голосовое сообщение для пользователя %s</string>
+    <string name="leave_message_snackbar_action_text">Начать запись</string>
     <string name="leave_message_text">Оставьте сообщение.</string>
+    <string name="leave_video_message_snackbar_text">Оставить видеосообщение для пользователя %s</string>
     <string name="link_gaia_account_unexpected_error">Произошла непредвиденная ошибка. Проверьте подключение.</string>
     <string name="link_gaia_choose_account">Выбрать аккаунт</string>
     <string name="link_gaia_choose_account_title">Выберите аккаунт</string>
@@ -459,8 +467,6 @@
     <string name="switch_camera_button_back">Переключиться на основную камеру</string>
     <string name="switch_camera_button_front">Переключиться на фронтальную камеру</string>
     <string name="toggle_screensharing">Начать или прекратить показ экрана</string>
-    <string name="turn_bokeh_effect_off_button">Отключить эффект боке</string>
-    <string name="turn_bokeh_effect_on_button">Включить эффект боке</string>
     <string name="unblock_user_failed">Не удается разблокировать пользователя. Проверьте подключение к Интернету и повторите попытку.</string>
     <string name="unblocked_notification_description">Высокое качество связи и улучшенный сервис в вашей стране</string>
     <string name="unblocked_notification_title">Duo: на пути к совершенству</string>
@@ -508,7 +514,6 @@
     <string name="welcome_activity_intro_agreements_clickable_privacy">Политику конфиденциальности</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">Условия использования</string>
     <string name="welcome_activity_intro_primary">Видеочат с высоким разрешением</string>
-    <string name="welcome_activity_menu_select_label">Выберите документ, чтобы с ним ознакомиться</string>
     <string name="welcome_activity_menu_select_privacy">Политика конфиденциальности Google</string>
     <string name="welcome_activity_menu_select_tos">Условия использования Google</string>
     <string name="welcome_activity_silent_reg_unreg_abort">НЕ ОТМЕНЯТЬ</string>

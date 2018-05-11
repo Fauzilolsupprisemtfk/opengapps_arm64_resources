@@ -21,6 +21,7 @@
     <string name="acc_incoming_call_from">สายวิดีโอเรียกเข้าจาก %1$s ใช้สองนิ้วกวาดขึ้นเพื่อรับสาย กวาดลงเพื่อตัดสาย</string>
     <string name="action_send_feedback">ความช่วยเหลือและความคิดเห็น</string>
     <string name="action_settings">การตั้งค่า</string>
+    <string name="adjust_bokeh_effect_blur_button">ปรับเอฟเฟกต์เบลอ Bokeh</string>
     <string name="ahd_alert_dismiss_action_label">ปิด</string>
     <string name="ahd_alert_low_battery_action_turn_off_video">ปิดวิดีโอ</string>
     <string name="ahd_alert_low_battery_description">หากต้องการคุยได้นานขึ้น ให้ลองปิดวิดีโอ</string>
@@ -59,8 +60,10 @@
     <string name="blocked_numbers_unblock_no">ยกเลิก</string>
     <string name="blocked_numbers_unblock_yes">เลิกบล็อก</string>
     <string name="blocked_numbers_undo">เลิกทำ</string>
-    <string name="bokeh_effect_off">เอฟเฟกต์โบเก้ปิดอยู่</string>
-    <string name="bokeh_effect_on">เอฟเฟกต์โบเก้เปิดอยู่</string>
+    <string name="bokeh_effect_blur_heavy">เบลอมาก</string>
+    <string name="bokeh_effect_blur_light">เบลอเล็กน้อย</string>
+    <string name="bokeh_effect_blur_medium">เบลอปานกลาง</string>
+    <string name="bokeh_effect_blur_off">การเบลอปิดอยู่</string>
     <string name="button_disconnect_call">วางสาย</string>
     <string name="button_re_record_message">บันทึกใหม่</string>
     <string name="button_record_message">บันทึก</string>
@@ -132,6 +135,8 @@
     <string name="contact_action_send_voice_message">ส่งข้อความเสียง</string>
     <string name="contact_action_video_call">เริ่มการโทรแบบวิดีโอ</string>
     <string name="contact_action_view_message">ดูข้อความ</string>
+    <string name="contact_badge_seen">อ่านแล้ว</string>
+    <string name="contact_badge_sent">ส่งแล้ว</string>
     <string name="contact_card_audio_action_detail_format">โทรด้วยเสียงไปที่ %1$s</string>
     <string name="contact_card_audio_action_summary_text">การโทรด้วยเสียงแบบ Duo</string>
     <string name="contact_card_video_action_detail_format">โทรวิดีโอคอลไป %1$s</string>
@@ -259,7 +264,10 @@
     <string name="keypad_backspace">Backspace</string>
     <string name="knock_knock_setting_activity_label">Knock Knock</string>
     <string name="learn_more_link">เรียนรู้เพิ่มเติม</string>
+    <string name="leave_audio_message_snackbar_text">ฝากข้อความเสียงไว้ให้ %s</string>
+    <string name="leave_message_snackbar_action_text">บันทึก</string>
     <string name="leave_message_text">ฝากข้อความ</string>
+    <string name="leave_video_message_snackbar_text">ฝากข้อความวิดีโอไว้ให้ %s</string>
     <string name="link_gaia_account_unexpected_error">เกิดข้อผิดพลาดที่ไม่คาดคิด โปรดตรวจสอบการเชื่อมต่อ</string>
     <string name="link_gaia_choose_account">เลือกบัญชี</string>
     <string name="link_gaia_choose_account_title">เลือกบัญชี</string>
@@ -447,8 +455,6 @@ Knock Knock จะทำงานถ้าคนที่คุณโทรห�
     <string name="switch_camera_button_back">เปลี่ยนเป็นกล้องหลัง</string>
     <string name="switch_camera_button_front">เปลี่ยนเป็นกล้องหน้า</string>
     <string name="toggle_screensharing">เริ่มหรือหยุดการแชร์หน้าจอ</string>
-    <string name="turn_bokeh_effect_off_button">ปิดเอฟเฟกต์โบเก้</string>
-    <string name="turn_bokeh_effect_on_button">เปิดเอฟเฟกต์โบเก้</string>
     <string name="unblock_user_failed">เลิกบล็อกผู้ใช้ไม่ได้ โปรดตรวจสอบการเชื่อมต่อและลองอีกครั้ง</string>
     <string name="unblocked_notification_description">เพลิดเพลินไปกับการโทรที่มีคุณภาพสูงขึ้นและบริการที่ปรับปรุงให้ดียิ่งขึ้นในพื้นที่ของคุณ</string>
     <string name="unblocked_notification_title">Duo ดียิ่งกว่าที่เคย</string>
@@ -496,7 +502,6 @@ Knock Knock เปิดอยู่"</string>
     <string name="welcome_activity_intro_agreements_clickable_privacy">นโยบายความเป็นส่วนตัว</string>
     <string name="welcome_activity_intro_agreements_clickable_tos">ข้อกำหนดในการให้บริการ</string>
     <string name="welcome_activity_intro_primary">วิดีโอคอลคุณภาพสูง</string>
-    <string name="welcome_activity_menu_select_label">เลือกเพื่อตรวจสอบ</string>
     <string name="welcome_activity_menu_select_privacy">นโยบายความเป็นส่วนตัวของ Google</string>
     <string name="welcome_activity_menu_select_tos">ข้อกำหนดในการให้บริการของ Google</string>
     <string name="welcome_activity_silent_reg_unreg_abort">ไม่เป็นไร</string>
