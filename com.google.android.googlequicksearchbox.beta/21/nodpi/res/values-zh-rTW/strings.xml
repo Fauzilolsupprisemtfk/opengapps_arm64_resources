@@ -355,7 +355,7 @@
     <string name="app_history_suggestion_message">應用程式中的這個部分與您所輸入的內容有關。點選 [瞭解詳情] 即可管理您的個人記錄。</string>
     <string name="app_name">Google App</string>
     <string name="app_not_available">沒有任何可執行這項動作的應用程式</string>
-    <string name="app_result_suggestion_content_description" formatted="false">在「%s」中開啟%s。</string>
+    <string name="app_result_suggestion_content_description">在「%2$s」中開啟%1$s。</string>
     <string name="app_shortcut_desc">在主螢幕上加入 Google 助理</string>
     <string name="app_shortcut_title">輕鬆存取你的 Google 助理</string>
     <string name="app_suggestions_header">應用程式</string>
@@ -1054,6 +1054,7 @@
     <string name="confirm_remove_all_dialog_message">這會移除所有已下載的集數。這項操作無法復原。</string>
     <string name="confirm_remove_all_dialog_title">確定嗎？</string>
     <string name="confirm_unsubscribe_button_label">取消訂閱</string>
+    <string name="confirm_unsubscribe_message">確定要取消訂閱嗎？</string>
     <string name="confirm_unsubscribe_title">要取消訂閱這個節目嗎？</string>
     <string name="confirm_work_query_string">將這裡設為每日通勤地點？</string>
     <string name="confirm_work_yes_text">設為工作場所</string>
@@ -1221,6 +1222,8 @@
     <string name="device_setup_cancel_dialog_negative_button">繼續進行設定</string>
     <string name="device_setup_cancel_dialog_positive_button">離開設定程序</string>
     <string name="device_setup_cancel_dialog_title">要離開設定程序嗎？</string>
+    <string name="device_setup_confirmation_code_does_not_match_button">否</string>
+    <string name="device_setup_confirmation_code_matches_button">是</string>
     <string name="device_setup_error_action_button">再試一次</string>
     <string name="device_setup_error_cancel_button">取得說明</string>
     <string name="device_setup_error_content">發生錯誤</string>
@@ -1390,7 +1393,6 @@
     <string name="eyes_no_permission_camera">我的權限不足，無法使用相機</string>
     <string name="eyes_no_permission_write_external_storage">我的權限不足，無法儲存檔案</string>
     <string name="eyes_offline">你的手機目前為離線狀態，因此我無法提供任何協助</string>
-    <string name="eyes_onboarding_brand_name">Google 智慧鏡頭</string>
     <string name="eyes_onboarding_button_continue">繼續</string>
     <string name="eyes_onboarding_button_sign_in">登入即可試用智慧鏡頭</string>
     <string name="eyes_onboarding_camera_permission_denied_dismiss_button">關閉</string>
@@ -1670,6 +1672,7 @@ Google 智慧鏡頭並非無所不知且仍在學習中。你必須自行承擔�
     <string name="hotword_enrollment_enroll_cancel_glif">取消</string>
     <string name="hotword_enrollment_enroll_complete">完成</string>
     <string name="hotword_enrollment_enroll_glif_footer_text">個人助理會使用這些錄音內容和你的語音要求來建立及更新你的語音模型，而且只會將相關內容儲存在你已開啟 Voice Match 功能的裝置中。如要查看或刪除語音活動，請前往「%1$s.」</string>
+    <string name="hotword_enrollment_enroll_glif_non_opa_footer_text">Google 會使用這些錄音內容和你的語音要求來建立及更新你的語音模型，而且只會將相關內容儲存在你已開啟 Voice Match 功能的裝置中。如要查看或刪除語音活動，請前往「%1$s.」</string>
     <string name="hotword_enrollment_enroll_google_home_footer_text">個人助理會使用這些錄音內容和你的語音要求來建立及更新你的語音模型，而且只會在你已開啟 Voice Match 功能的裝置上儲存相關內容。如要查看或刪除語音活動，請前往「%1$s」。</string>
     <string name="hotword_enrollment_enroll_header_title_non_opa">訓練裝置辨識你的聲音</string>
     <string name="hotword_enrollment_enroll_header_title_opa">訓練 Google 助理辨識你的聲音</string>
@@ -1687,6 +1690,7 @@ Google 智慧鏡頭並非無所不知且仍在學習中。你必須自行承擔�
     <string name="hotword_enrollment_enroll_say_prompt">請直接說出「%1$s」三次</string>
     <string name="hotword_enrollment_enroll_start">開始錄製</string>
     <string name="hotword_enrollment_enroll_text">您可以讓 Google 記住您的聲音，協助裝置對您的語音指令做出回應。</string>
+    <string name="hotword_enrollment_enroll_text_non_opa_talkback">啟動下方的 [%1$s] 按鈕，然後說出「%2$s」讓 Google 辨識你的聲音。</string>
     <string name="hotword_enrollment_enroll_text_opa_talkback">啟動下方的 [%1$s] 按鈕，然後說出「%2$s」以訓練 Google 助理辨識你的聲音。</string>
     <string name="hotword_enrollment_enroll_text_opa_talkback_assistant_device">"如要訓練 Google 助理辨識你的聲音，請輕觸下方的 [開始錄製] 按鈕，然後在系統提示時說出以下詞句：
 %1$s"</string>
@@ -1796,6 +1800,8 @@ Google 智慧鏡頭並非無所不知且仍在學習中。你必須自行承擔�
     <string name="hotword_enrollment_trustedvoice_header_title">使用 Voice Match 將你的手機解鎖</string>
     <string name="hotword_enrollment_trustedvoice_learn_more">&lt;a href=%1$s>瞭解詳情&lt;/a></string>
     <string name="hotword_enrollment_trustedvoice_next_glif">下一步</string>
+    <string name="hotword_enrollment_trustedvoice_summary_item1">啟用 Voice Match 功能後，當你在螢幕鎖定時說出「%1$s」，裝置就會自動識別你的身分並解鎖。</string>
+    <string name="hotword_enrollment_trustedvoice_summary_item1_glif">啟用 Voice Match 功能後，即使手機處於鎖定狀態，你仍可使用「%1$s」。</string>
     <string name="hotword_enrollment_trustedvoice_summary_item2">這項功能可讓您在螢幕鎖定時執行語音操作，只要說出指令即可，例如「%1$s，設定計時器」。</string>
     <string name="hotword_enrollment_trustedvoice_switch_text">裝置會在你說出「%1$s」時自動識別你的身分並解鎖。</string>
     <string name="hotword_enrollment_trustedvoice_switch_text_opa">只要說出「%1$s」就能將你的裝置解鎖，並直接存取你的 Google 助理。</string>
@@ -1837,7 +1843,7 @@ Google 智慧鏡頭並非無所不知且仍在學習中。你必須自行承擔�
     <string name="hotword_pref_title_lock_screen_2_opa">使用 Voice Match 功能解鎖</string>
     <string name="hotword_pref_title_locked_personal_results">個人化搜尋結果</string>
     <string name="hotword_pref_title_opa">使用 Voice Match 存取</string>
-    <string name="hotword_prefs_voice_everywhere_subtitle">在螢幕處於開啟狀態時，只要說出「%1$s」，就能隨時存取你的 Google</string>
+    <string name="hotword_prefs_voice_everywhere_subtitle">回應你的語音指令。可在螢幕開啟時運作。</string>
     <string name="hotword_prefs_voice_everywhere_subtitle_no_account">請登入您的 Google 帳戶以啟用這項功能</string>
     <string name="hotword_prefs_voice_everywhere_title">在所有畫面中偵測語音</string>
     <string name="hotword_setup_wizard_connection_error_message">請檢查您的連線狀態，然後再試一次。</string>
@@ -1973,7 +1979,6 @@ Google 智慧鏡頭並非無所不知且仍在學習中。你必須自行承擔�
     <string name="immersive_actions_search_error">抱歉打擾，你的裝置連線已中斷。系統必須等到連上網路後再試一次。</string>
     <string name="immersive_actions_unknown_provider_short">？</string>
     <string name="immersive_contact_disambiguation_header_label">%1$s...</string>
-    <string name="inactive_state_text">遊戲資訊並非最新內容。</string>
     <string name="indexing_not_ready">暫無內容可顯示。請連上網際網路，並於數分鐘後再試一次。</string>
     <string name="inferred_event_created">活動已加入日曆</string>
     <string name="inferred_event_error">無法建立活動</string>
@@ -2075,6 +2080,7 @@ Google 智慧鏡頭並非無所不知且仍在學習中。你必須自行承擔�
     <string name="leave_alert_scheduled_header">系統會在該出發時提醒您。</string>
     <string name="leave_from">出發地點</string>
     <string name="legal_documents">法律</string>
+    <string name="lens_back_button_description">返回</string>
     <string name="lens_education_card_barcodes_heading">條碼</string>
     <string name="lens_education_card_barcodes_paragraph">掃描條碼並尋找產品詳細資料</string>
     <string name="lens_education_card_media_heading">書籍與媒體</string>
@@ -2089,6 +2095,7 @@ Google 智慧鏡頭並非無所不知且仍在學習中。你必須自行承擔�
     <string name="lens_info_panel_header_preview_tag">預覽</string>
     <string name="lens_info_panel_live_camera_title">輕觸物件和文字</string>
     <string name="lens_info_panel_loading_message">正在尋找結果…</string>
+    <string name="lens_quit_button_description">結束</string>
     <string name="lens_title">Google 智慧鏡頭</string>
     <string name="less_contact_apps">顯示較少聯絡人應用程式</string>
     <string name="less_than_one_minute_left">還剩不到 1 分鐘</string>
@@ -2501,6 +2508,8 @@ Google 智慧鏡頭並非無所不知且仍在學習中。你必須自行承擔�
     <string name="opa_assist_app_screen_explanation">如要存取 Google 助理，請在「小幫手與語音輸入」設定頁面中選擇 Google app</string>
     <string name="opa_assist_app_screen_title">Google app 不是你預設的小幫手應用程式</string>
     <string name="opa_assistant_logo_content_description">語音搜尋</string>
+    <string name="opa_consent_check_error_button">關閉</string>
+    <string name="opa_consent_check_error_button_notavailable">切換帳戶</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">根據你的帳戶設定，Google 助理可能只能提供部分服務，像是進行網頁搜尋、講笑話和提供當地資訊。</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_text">不用了，謝謝</string>
     <string name="opa_consent_check_error_confirmreject_personalize_radio_button_show_less">顯示較少</string>
@@ -2547,9 +2556,11 @@ Google 智慧鏡頭並非無所不知且仍在學習中。你必須自行承擔�
     <string name="opa_error_consent_retry_message_conn_error">請檢查你的連線狀態，然後再試一次</string>
     <string name="opa_error_consent_retry_negative">取消</string>
     <string name="opa_error_consent_retry_positive">再試一次</string>
+    <string name="opa_error_gaia_button">登入</string>
     <string name="opa_error_gaia_message">只要登入 Google 帳戶， Google 助理就能識別你的身分，並為你提供日曆、通勤路況和其他個人化資訊。</string>
     <string name="opa_error_gaia_skip_button">不用了，謝謝</string>
     <string name="opa_error_gaia_title">登入帳戶即可取得你專屬的 Google 助理</string>
+    <string name="opa_error_network_button">網路設定</string>
     <string name="opa_error_network_message">必須連上網路才能使用 Google 助理。請檢查連線狀態，然後再試一次。</string>
     <string name="opa_error_network_title">您似乎處於離線狀態</string>
     <string name="opa_error_udc_spinner_content">可能需要一兩分鐘的時間才能完成</string>
@@ -2561,6 +2572,7 @@ Google 智慧鏡頭並非無所不知且仍在學習中。你必須自行承擔�
     <string name="opa_error_unsupported_locale_button">變更語言</string>
     <string name="opa_error_unsupported_locale_message">如要存取你的 Google 助理，請前往「語言」部分變更「系統設定」。</string>
     <string name="opa_error_unsupported_locale_title">Google 助理目前不提供%1$s版</string>
+    <string name="opa_error_update_playstore_button">前往 Play 商店更新</string>
     <string name="opa_error_update_playstore_message">請前往 Play 商店並更新 Google app，以取得最新的改善功能</string>
     <string name="opa_error_update_required_title">請更新 Google 助理</string>
     <string name="opa_error_update_started_message">這項程序很快就能完成。然後， Google 助理就能立即協助你處理生活大小事。</string>
@@ -2597,6 +2609,11 @@ Google 智慧鏡頭並非無所不知且仍在學習中。你必須自行承擔�
     <string name="opa_gearhead_opt_in_notification_body">在駕駛期間，你可以利用語音與 Google 助理交談</string>
     <string name="opa_gearhead_opt_in_notification_title">在駕駛期間使用 Google 助理</string>
     <string name="opa_gearhead_opt_in_speech">請先在不影響安全的情況下輕觸通知，才能在駕駛期間使用 Google 助理。</string>
+    <string name="opa_gmscore_unavailable_button_disabled">設定</string>
+    <string name="opa_gmscore_unavailable_button_missing">安裝</string>
+    <string name="opa_gmscore_unavailable_button_no_recovery">關閉</string>
+    <string name="opa_gmscore_unavailable_button_permissions">更新</string>
+    <string name="opa_gmscore_unavailable_button_update">更新</string>
     <string name="opa_gmscore_unavailable_message_disabled">必須在裝置設定中啟用 Google Play 服務，才能開始使用 Google 助理。</string>
     <string name="opa_gmscore_unavailable_message_invalid">你的裝置不支援 Google Play 服務。</string>
     <string name="opa_gmscore_unavailable_message_missing">必須先安裝 Google Play 服務，才能開始使用 Google 助理。</string>
@@ -2711,6 +2728,7 @@ Google 智慧鏡頭並非無所不知且仍在學習中。你必須自行承擔�
     <string name="opa_value_proposition_skip">略過</string>
     <string name="opa_value_proposition_title">你好，需要什麼協助嗎？</string>
     <string name="opa_value_proposition_title_loading">檢查中…</string>
+    <string name="opa_voice_search_listening">聽取中…</string>
     <string name="opa_warm_welcome_greeting_0">你好！我是你專屬的 Google 助理。</string>
     <string name="opa_warm_welcome_greeting_1">我可以協助您尋找所需內容、處理大小事。如需任何協助，請直接說出「你可以做些什麼？」。</string>
     <string name="opa_warm_welcome_greeting_1_backup_0">我可以協助您尋找所需內容、處理大小事，還能為您的生活增添樂趣。</string>
@@ -2951,21 +2969,21 @@ Google 智慧鏡頭並非無所不知且仍在學習中。你必須自行承擔�
     <string name="prefTitle_language">語言</string>
     <string name="prefTitle_profanityFilter">封鎖粗俗字眼</string>
     <string name="prefTitle_ttsMode">語音輸出</string>
-    <string name="pref_default_expanded_additional" formatted="false">預設主要語言：%s 其他語言：%s</string>
+    <string name="pref_default_expanded_additional">預設主要語言：%1$s 其他語言：%2$s</string>
     <string name="pref_default_expanded_no_additional">預設語言：%s</string>
-    <string name="pref_default_title_prefix_multiple_language" formatted="false">預設語言：%s – %d 種其他語言</string>
+    <string name="pref_default_title_prefix_multiple_language">預設語言：%1$s – %2$d 種其他語言</string>
     <string name="pref_default_title_prefix_no_additional_language">預設語言：%s – 無其他語言</string>
-    <string name="pref_expanded_additional" formatted="false">主要語言：%s 其他語言：%s</string>
+    <string name="pref_expanded_additional">主要語言：%1$s 其他語言：%2$s</string>
     <string name="pref_expanded_no_additional">語言：%s</string>
     <string name="pref_multilang_override_detail_hotword">• 透過 Google app 使用「Ok Google」啟動字詞</string>
     <string name="pref_multilang_override_detail_speakerid">• 在任何畫面中使用「Ok Google」啟動字詞偵測功能</string>
     <string name="pref_multilang_override_dialog_title">要變更主要語言嗎？</string>
     <string name="pref_multilang_override_doit">是，確認變更</string>
     <string name="pref_multilang_override_dont">不用了，謝謝</string>
-    <string name="pref_multilang_override_message" formatted="false">"建議你將主要語言從%s 切換成%s，以取得更精確的搜尋結果。
+    <string name="pref_multilang_override_message">"建議你將主要語言從%1$s 切換成%2$s，以取得更精確的搜尋結果。
 
 執行這項變更即可使用以下功能："</string>
-    <string name="pref_regular_title_prefix_multiple_language" formatted="false">%s – %d 種其他語言</string>
+    <string name="pref_regular_title_prefix_multiple_language">%1$s – %2$d 種其他語言</string>
     <string name="pref_regular_title_prefix_no_additional_language">%s – 無其他語言</string>
     <string name="preferences_license_summary">開放原始碼軟體的授權詳細資料</string>
     <string name="preferences_license_title">開放原始碼授權</string>
@@ -3033,6 +3051,13 @@ Google 智慧鏡頭並非無所不知且仍在學習中。你必須自行承擔�
     <string name="recent_webpage_category">網頁</string>
     <string name="recently">最近</string>
     <string name="recently_app_name">最近</string>
+    <string name="recently_clear_data_button">Clear data</string>
+    <string name="recently_clear_data_read_later_articles">Read later articles (%d articles)</string>
+    <string name="recently_clear_data_read_later_articles_subtext">"Clears all read later articles
+Estimated size: %s"</string>
+    <string name="recently_clear_data_recently_visited_pages">Recently visited pages (%d pages)</string>
+    <string name="recently_clear_data_recently_visited_pages_subtext">"Clears all visited pages, not read later articles
+Estimated size: %s"</string>
     <string name="recently_disabled_card_button_text">前往設定頁面</string>
     <string name="recently_disabled_card_header">追蹤近期記錄</string>
     <string name="recently_disabled_card_text">在設定頁面開啟「最近」即可記錄你所造訪的網頁，方便日後快速查閱。</string>
@@ -3543,11 +3568,11 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="subscribe_button_label">訂閱</string>
     <string name="subscribe_to_see_new_episodes">訂閱 Podcast 即可查看最新劇集</string>
     <string name="suggest">自動完成</string>
-    <string name="suggest_contact_removal_body" formatted="false">這個動作將從你的常用聯絡人清單中移除&lt;b>%s&lt;/b>。你仍可透過搜尋來找出&lt;b>%s&lt;/b>。</string>
+    <string name="suggest_contact_removal_body">這個動作將從你的常用聯絡人清單中移除&lt;b>%1$s&lt;/b>。你仍可透過搜尋來找出&lt;b>%2$s&lt;/b>。</string>
     <string name="suggest_contact_removal_cancel">取消</string>
     <string name="suggest_contact_removal_confirm">隱藏</string>
     <string name="suggest_contact_removal_title">要隱藏%s嗎？</string>
-    <string name="suggest_contact_unhide_body" formatted="false">系統已將&lt;b>%s&lt;/b>設為隱藏。將&lt;b>%s&lt;/b>取消隱藏，就會讓對方顯示在你的常用聯絡人中。</string>
+    <string name="suggest_contact_unhide_body">系統已將&lt;b>%1$s&lt;/b>設為隱藏。將&lt;b>%2$s&lt;/b>取消隱藏，就會讓對方顯示在你的常用聯絡人中。</string>
     <string name="suggest_contact_unhide_cancel">取消</string>
     <string name="suggest_contact_unhide_confirm">取消隱藏</string>
     <string name="suggest_contact_unhide_title">要取消隱藏%s嗎？</string>
@@ -4055,6 +4080,8 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="your_bus_reservation">您的客運訂票</string>
     <string name="your_location_search_menu_text">您的位置</string>
     <string name="your_train_reservation">您的列車訂票</string>
+    <string name="zero_state_generic_error_toast_message">抱歉，出了點小狀況。</string>
+    <string name="zero_state_network_error_toast_message">目前無法連線至 Google。</string>
     <string name="zerostate_explore_section_more">更多</string>
     <string name="zerostate_explore_section_title">探索 Google 助理功能</string>
 </resources>

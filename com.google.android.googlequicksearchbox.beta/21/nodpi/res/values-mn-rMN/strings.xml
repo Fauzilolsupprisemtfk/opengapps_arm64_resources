@@ -266,7 +266,7 @@
     <string name="app_history_suggestion_message">Энэ нь таны бичиж байгаа зүйлтэй холбоотой апп-н хэсэг юм. Хувийн түүхээ удирдахын тулд дэлгэрэнгүй үзэхийг дарна уу.</string>
     <string name="app_name">Google Апп</string>
     <string name="app_not_available">Үүнийг гүйцэтгэх боломжтой апп байхгүй</string>
-    <string name="app_result_suggestion_content_description" formatted="false">%s-г %s дотор нээнэ үү.</string>
+    <string name="app_result_suggestion_content_description">%1$s-г %2$s дотор нээнэ үү.</string>
     <string name="app_shortcut_desc">Туслахыг үндсэн нүүрэндээ нэмэх</string>
     <string name="app_shortcut_title">Туслахдаа хялбархнаар хандах</string>
     <string name="app_suggestions_header">АПП</string>
@@ -1065,6 +1065,8 @@
     <string name="device_setup_cancel_dialog_negative_button">Тохируулгыг үргэлжлүүлэх</string>
     <string name="device_setup_cancel_dialog_positive_button">Тохируулгыг орхих</string>
     <string name="device_setup_cancel_dialog_title">Тохируулгыг орхих уу?</string>
+    <string name="device_setup_confirmation_code_does_not_match_button">Үгүй</string>
+    <string name="device_setup_confirmation_code_matches_button">Тийм</string>
     <string name="device_setup_error_action_button">Дахин оролдох</string>
     <string name="device_setup_error_cancel_button">Тусламж авах</string>
     <string name="device_setup_error_content">Алдаа гарлаа</string>
@@ -1205,24 +1207,23 @@
     <string name="eyes_no_permission_camera">Надад камер ашиглах зөвшөөрөл байхгүй</string>
     <string name="eyes_no_permission_write_external_storage">Надад файл хадгалах зөвшөөрөл байхгүй</string>
     <string name="eyes_offline">Таны утас офлайн байгаа тул танд одоогоор туслах боломжгүй байна</string>
-    <string name="eyes_onboarding_brand_name">Google Дуран</string>
     <string name="eyes_onboarding_button_continue">Үргэлжлүүлэх</string>
     <string name="eyes_onboarding_button_sign_in">Дуранг туршиж үзэхийн тулд нэвтрэх</string>
     <string name="eyes_onboarding_camera_permission_denied_dismiss_button">Үл хэрэгсэх</string>
     <string name="eyes_onboarding_camera_permission_denied_message">Дуран нь зөв ажиллахын тулд зураг дарж, бичлэг хийх шаардлагатай. Зөвшөөрөл олгохын тулд Тохиргоо хэсэгт очно уу.</string>
     <string name="eyes_onboarding_camera_permission_denied_settings_button">Тохиргоо</string>
     <string name="eyes_onboarding_camera_permission_denied_title">Дурангийн алдаа</string>
-    <string name="eyes_onboarding_legal_body">"Ta Google дурангийн viewfinder-г нээх үед дуран танд бодит цагийн илэрцийг харуулахын тулд таны харж буй зүйлийг анализ хийх болно.
+    <string name="eyes_onboarding_legal_body">"Таныг Google дурангийн viewfinder-г нээхэд Дуран танд бодит цагийн илэрцийг харуулахын тулд таны харж буй зүйлийг тасралтгүй шинжилнэ.
 
-Хэрэв таны Вэб, Аппын үйл ажиллагааны тохиргоо асаалттай бол таны Дурангаар ашигладаг зураг зэрэг таны Google дурангийн үйл ажиллагааг Дуранг Google Зураг, Google Туслах буюу эсвэл өөр бүтээгдэхүүнд ашиглаж байгаагаас үл шалтгаалан таны Google Бүртгэлд хадгална. Та account.google.com-д өгөгдлөө харах, устгах болон бүртгэлийнхээ тохиргоог өөрчилж болно.
+Хэрэв таны Вэб, Аппын үйл ажиллагааны тохиргоо асаалттай бол таны Дурангаар ашигладаг зураг зэрэг Google Дурангийн үйл ажиллагааг таны Google Бүртгэлд хадгална. Энэ нь Дуранг Google Зураг, Google Туслах буюу эсвэл өөр бүтээгдэхүүнд ашиглаж байгаагаас үл шалтгаална. Та account.google.com-д өгөгдлөө харж, устгаж, мөн бүртгэлийнхээ тохиргоог өөрчилж болно.
 
-Google Дуран нь төгс биш бөгөөд бид үүнийг боловсруулсаар байна. Google Дурангийн ашиглалт болон гарч болох үр дагаврыг нь та бүрэн хариуцах болно."</string>
+Google Дуран нь төгс биш бөгөөд бид үүнийг боловсруулсаар байна. Google Дуранг та өөрөө эрсдлээ үүрч ашиглах бөгөөд өөрийн үйлдэл, түүнээс үүсэх үр дагаврыг та хариуцана."</string>
     <string name="eyes_onboarding_legal_title">Google Дуранд тавтай морилно уу!</string>
     <string name="eyes_onboarding_subtitle_places">Анхаарал татсан газрын талаар мэдээлэл авах</string>
-    <string name="eyes_onboarding_subtitle_products">Бүтээгдэхүүн хайх, үнэ харьцуулах</string>
+    <string name="eyes_onboarding_subtitle_products">Бүтээгдэхүүн хайж, үнэ харьцуулах</string>
     <string name="eyes_onboarding_subtitle_products_tier_3">Юу болохыг нь харах</string>
     <string name="eyes_onboarding_subtitle_text">Үг хайх, харилцагчийн мэдээлэл хадгалах</string>
-    <string name="eyes_onboarding_title_places">Шинэ газар хайх</string>
+    <string name="eyes_onboarding_title_places">Шинэ газартай танилцах</string>
     <string name="eyes_onboarding_title_products">Илүү ухаалгаар дэлгүүр хэсэх</string>
     <string name="eyes_onboarding_title_products_tier_3">Объектын талаар нэмэлт мэдээлэл авах</string>
     <string name="eyes_onboarding_title_text">Текстийг скан хийх</string>
@@ -1442,6 +1443,7 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="hotword_enrollment_enroll_cancel_glif">Цуцлах</string>
     <string name="hotword_enrollment_enroll_complete">Дууссан</string>
     <string name="hotword_enrollment_enroll_glif_footer_text">Таны Туслах эдгээр бичлэг болон хэлсэн хүсэлтийг дуу хоолойны өвөрмөц загвар бүтээх буюу эсвэл шинэчлэхэд ашигладаг бөгөөд үүнийг зөвхөн Voice Match-г асаасан төхөөрөмжид хадгалдаг. Дуу хоолойны үйл ажиллагааг %1$s.-с харах буюу эсвэл устгаж болно.</string>
+    <string name="hotword_enrollment_enroll_glif_non_opa_footer_text">Google эдгээр бичлэг болон таны хэлсэн хүсэлтийг таны дуу хоолойн загварыг үүсгэх буюу эсвэл шинэчлэхэд ашигладаг бөгөөд үүнийг зөвхөн Voice Match-г асаасан төхөөрөмжид хадгалдаг. Дуу хоолойн үйл ажиллагааг %1$s.-с харах буюу эсвэл устгана уу</string>
     <string name="hotword_enrollment_enroll_google_home_footer_text">Таны Туслах зөвхөн таны Voice Match-г асаасан төхөөрөмжид хадгалсан эдгээр бичлэг болон хэлсэн хүслийг таны дуу хоолойны загварыг үүсгэж, шинэчлэхийн тулд ашигладаг. Дуу хоолойны үйл ажиллагааг %1$s-с харах буюу эсвэл устгана уу.</string>
     <string name="hotword_enrollment_enroll_header_title_non_opa">Төхөөрөмжөө таны дуу хоолойг танихад сургана уу</string>
     <string name="hotword_enrollment_enroll_header_title_opa">Туслахаа таны дуу хоолойг танихад сургана уу</string>
@@ -1459,6 +1461,7 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="hotword_enrollment_enroll_say_prompt">Зүгээр \"%1$s\" гэж гурван удаа хэлнэ үү</string>
     <string name="hotword_enrollment_enroll_start">Бичиж эхлэх</string>
     <string name="hotword_enrollment_enroll_text">Төхөөрөмжийнхөө хариу үйлдлийг сайжруулахын тулд та Google-д өөрийн дуу хоолойг зааж өгөх боломжтой.</string>
+    <string name="hotword_enrollment_enroll_text_non_opa_talkback">Google-г таны дуу хоолойг танихад сургахын тулд доорх %1$s товчлуурыг идэвхжүүлээд \"%2$s\" гэж хэлнэ үү.</string>
     <string name="hotword_enrollment_enroll_text_opa_talkback">Туслахаа таны дуу хоолойг танихад сургахын тулд доорх %1$s товчлуурыг идэвхжүүлж, \"%2$s\" гэж хэлнэ үү.</string>
     <string name="hotword_enrollment_enroll_text_opa_talkback_assistant_device">"Туслахдаа хоолойгоо таниулахын тулд доорх БИЧИЖ ЭХЛЭХ товчлуурыг товшоод сануулсан үед дараахыг хэлнэ үү:
 %1$s"</string>
@@ -1521,7 +1524,7 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="hotword_enrollment_optin_udc_summary_item2">Энэ Google-д таны дуу хоолойг таних, яриа, аудио танилтыг сайжруулж, илүү хурдан, алдаагүй үр дүн гаргахад туслана.</string>
     <string name="hotword_enrollment_optin_udc_summary_item3">Та энэ тохиргоог, эсвэл хувийн өгөгдлөө %1$s-д хүссэн үедээ удирдах боломжтой. Дуу хоолой, аудио идэвхжүүлэлт асаалттай үед энэ өгөгдлийг таны нэвтэрсэн төхөөрөмжид хадгалахыг санана уу.</string>
     <string name="hotword_enrollment_optin_udc_title">Дуу хоолой &amp; Аудио Ашиглалт</string>
-    <string name="hotword_enrollment_parent_intro_summary">{GENDER,select, male{{PERSON}Google Туслахын тусламжтайгаар тоглоом тоглох буюу эсвэл Календариас ангийн үдэшлэгээ хэзээ болохыг харах зэрэг зүйлсийг хийх боломжтой. Зарим агуулгыг хүүхдэд зориулсан хэдий ч ихэнх агуулгыг бүх насны үзэгчдэд зориулсан байдаг. &lt;a href=\"{LINK}\">Нэмэлт мэдээлэл авах&lt;/a>&lt;br>&lt;br>Voice Match нь энэ төхөөрөмж дээр {PERSON}-н дуу хоолойны өвөрмөц загварыг үүсгэх байдлаар Туслахад таны хүүхдийн дуу хоолойг таньж бусдаас ялгахад тусалдаг. &lt;br>&lt;br>Санамж: Төстэй дуу хоолой эсвэл дуу хоолойны бичлэгээр {PERSON}-н хувийн илэрцэд мөн адил хандах боломжтой байж болзошгүй. Та Voice Match-г дараа нь Туслахын тохиргоо эсвэл Family Link аппад унтрааснаар зөвшөөрлийг нь устгах боломжтой.}female{{PERSON}Google Туслахын тусламжтайгаар тоглоом тоглох буюу эсвэл Календариас ангийн үдэшлэгээ хэзээ болохыг харах зэрэг зүйлсийг хийх боломжтой. Зарим агуулгыг хүүхдэд зориулсан хэдий ч ихэнх агуулгыг бүх насны үзэгчдэд зориулсан байдаг. &lt;a href=\"{LINK}\">Нэмэлт мэдээлэл авах&lt;/a>&lt;br>&lt;br>Voice Match нь энэ төхөөрөмж дээр {PERSON}-н дуу хоолойны өвөрмөц загварыг үүсгэх байдлаар Туслахад таны хүүхдийн дуу хоолойг таньж бусдаас ялгахад тусалдаг. &lt;br>&lt;br>Санамж: Төстэй дуу хоолой эсвэл дуу хоолойны бичлэгээр {PERSON}-н хувийн илэрцэд мөн адил хандах боломжтой байж болзошгүй. Та Voice Match-г дараа нь Туслахын тохиргоо эсвэл Family Link аппад унтрааснаар зөвшөөрлийг нь устгах боломжтой.}other{{PERSON}Google Туслахын тусламжтайгаар тоглоом тоглох буюу эсвэл Календариас ангийн үдэшлэгээ хэзээ болохыг харах зэрэг зүйлсийг хийх боломжтой. Зарим агуулгыг хүүхдэд зориулсан хэдий ч ихэнх агуулгыг бүх насны үзэгчдэд зориулсан байдаг. &lt;a href=\"{LINK}\">Нэмэлт мэдээлэл авах&lt;/a>&lt;br>&lt;br>Voice Match нь энэ төхөөрөмж дээр {PERSON}-н дуу хоолойны өвөрмөц загварыг үүсгэх байдлаар Туслахад таны хүүхдийн дуу хоолойг таньж бусдаас ялгахад тусалдаг. &lt;br>&lt;br>Санамж: Төстэй дуу хоолой эсвэл дуу хоолойны бичлэгээр {PERSON}-н хувийн илэрцэд мөн адил хандах боломжтой байж болзошгүй. Та Voice Match-г дараа нь Туслахын тохиргоо эсвэл Family Link аппад унтрааснаар зөвшөөрлийг нь устгах боломжтой.}}</string>
+    <string name="hotword_enrollment_parent_intro_summary">{GENDER,select, male{{PERSON}Google Туслахын тусламжтайгаар тоглоом тоглох буюу эсвэл Календариас ангийн үдэшлэгээ хэзээ болохыг харах зэрэг зүйлсийг хийх боломжтой. Зарим агуулгыг хүүхдэд зориулсан хэдий ч ихэнх агуулгыг бүх насны үзэгчдэд зориулсан байдаг. &lt;a href=\"{LINK}\">Нэмэлт мэдээлэл авах&lt;/a>&lt;br>&lt;br>Voice Match нь энэ төхөөрөмж дээр {PERSON}-н дуу хоолойн өвөрмөц загварыг үүсгэх байдлаар Туслахад таны хүүхдийн дуу хоолойг таньж бусдаас ялгахад тусалдаг. &lt;br>&lt;br>Санамж: Төстэй дуу хоолой эсвэл дуу хоолойн бичлэгээр {PERSON}-н хувийн илэрцэд мөн адил хандах боломжтой байж болзошгүй. Та Voice Match-г дараа нь Туслахын тохиргоо эсвэл Family Link аппад унтрааснаар зөвшөөрлийг нь устгах боломжтой.}female{{PERSON}Google Туслахын тусламжтайгаар тоглоом тоглох буюу эсвэл Календариас ангийн үдэшлэгээ хэзээ болохыг харах зэрэг зүйлсийг хийх боломжтой. Зарим агуулгыг хүүхдэд зориулсан хэдий ч ихэнх агуулгыг бүх насны үзэгчдэд зориулсан байдаг. &lt;a href=\"{LINK}\">Нэмэлт мэдээлэл авах&lt;/a>&lt;br>&lt;br>Voice Match нь энэ төхөөрөмж дээр {PERSON}-н дуу хоолойн өвөрмөц загварыг үүсгэх байдлаар Туслахад таны хүүхдийн дуу хоолойг таньж бусдаас ялгахад тусалдаг. &lt;br>&lt;br>Санамж: Төстэй дуу хоолой эсвэл дуу хоолойн бичлэгээр {PERSON}-н хувийн илэрцэд мөн адил хандах боломжтой байж болзошгүй. Та Voice Match-г дараа нь Туслахын тохиргоо эсвэл Family Link аппад унтрааснаар зөвшөөрлийг нь устгах боломжтой.}other{{PERSON}Google Туслахын тусламжтайгаар тоглоом тоглох буюу эсвэл Календариас ангийн үдэшлэгээ хэзээ болохыг харах зэрэг зүйлсийг хийх боломжтой. Зарим агуулгыг хүүхдэд зориулсан хэдий ч ихэнх агуулгыг бүх насны үзэгчдэд зориулсан байдаг. &lt;a href=\"{LINK}\">Нэмэлт мэдээлэл авах&lt;/a>&lt;br>&lt;br>Voice Match нь энэ төхөөрөмж дээр {PERSON}-н дуу хоолойн өвөрмөц загварыг үүсгэх байдлаар Туслахад таны хүүхдийн дуу хоолойг таньж бусдаас ялгахад тусалдаг. &lt;br>&lt;br>Санамж: Төстэй дуу хоолой эсвэл дуу хоолойн бичлэгээр {PERSON}-н хувийн илэрцэд мөн адил хандах боломжтой байж болзошгүй. Та Voice Match-г дараа нь Туслахын тохиргоо эсвэл Family Link аппад унтрааснаар зөвшөөрлийг нь устгах боломжтой.}}</string>
     <string name="hotword_enrollment_parent_intro_summary_learn_more_link">https://support.google.com/families/answer/7521263</string>
     <string name="hotword_enrollment_parent_intro_title">Туслахаа %1$s-н дуу хоолойг танихад сургана уу</string>
     <string name="hotword_enrollment_parent_selector_family_fetch_failed">Гэр бүлийг ачааллахад алдаа гарлаа.</string>
@@ -1568,6 +1571,8 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="hotword_enrollment_trustedvoice_header_title">Утасныхаа түгжээг Voice Match-р тайлах</string>
     <string name="hotword_enrollment_trustedvoice_learn_more">&lt;a href=%1$s>Дэлгэрэнгүй үзэх&lt;/a></string>
     <string name="hotword_enrollment_trustedvoice_next_glif">Дараах</string>
+    <string name="hotword_enrollment_trustedvoice_summary_item1">Voice Match-н тусламжтайгаар таны төхөөрөмж таны дуу хоолойг автоматаар таних бөгөөд таныг түгжидсэн дэлгэцэд \"%1$s\" гэж хэлэхэд түгжээг тайлах болно.</string>
+    <string name="hotword_enrollment_trustedvoice_summary_item1_glif">Voice Match-н тусламжтайгаар та утсаа түгжээтэй байсан ч \"%1$s\"-г ашиглах боломжтой.</string>
     <string name="hotword_enrollment_trustedvoice_summary_item2">Энэ нь дэлгэц түгжээтэй үед \"%1$s, цаг тоологч тохируул\" гэх зэргээр дуу хоолойн үйлдлийг гүйцэтгэх боломжийг олгоно.</string>
     <string name="hotword_enrollment_trustedvoice_switch_text">Таны төхөөрөмж таны дуу хоолойг автоматаар таних бөгөөд \"%1$s\" гэж хэлснээр түгжээ нь тайлагдах болно.</string>
     <string name="hotword_enrollment_trustedvoice_switch_text_opa">Төхөөрөмжийнхөө түгжээг тайлж, Туслахад шууд хандахын тулд \"%1$s\"-г ашиглана уу.</string>
@@ -1609,7 +1614,7 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="hotword_pref_title_lock_screen_2_opa">Voice Match-р түгжээ тайлаарай</string>
     <string name="hotword_pref_title_locked_personal_results">Хувийн илэрцүүд</string>
     <string name="hotword_pref_title_opa">Voice Match-р хандах</string>
-    <string name="hotword_prefs_voice_everywhere_subtitle">Таны дэлгэц асаалттай үед Google-д хүссэн үедээ хандахын тулд \"%1$s\" гэж хэлээрэй</string>
+    <string name="hotword_prefs_voice_everywhere_subtitle">Таны дуу хоолойнд хариу үйлдэл үзүүлдэг. Дэлгэц асаалттай үед ажиллана.</string>
     <string name="hotword_prefs_voice_everywhere_subtitle_no_account">Энэ функцийг идэвхжүүлэхийн тулд өөрийн Google бүртгэлээр нэвтэрнэ үү</string>
     <string name="hotword_prefs_voice_everywhere_title">Дурын дэлгэцнээс</string>
     <string name="hotword_setup_wizard_connection_error_message">Холболтоо шалгаад дахин оролдоно уу.</string>
@@ -1677,7 +1682,6 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="immersive_actions_search_error">Тасалдуулсанд уучлаарай. Таны төхөөрөмж офлайн болсон тул сүлжээнд холбогдсоны дараа дахин оролдох хэрэгтэй.</string>
     <string name="immersive_actions_unknown_provider_short">\?</string>
     <string name="immersive_contact_disambiguation_header_label">%1$s...</string>
-    <string name="inactive_state_text">Тоглоомын мэдээллийг шинэчлээгүй байна.</string>
     <string name="inferred_event_created">Хуанлид үйл явдал нэмэгдсэн</string>
     <string name="inferred_event_error">Үйл явдаж үүсгэж чадсангүй</string>
     <string name="inferred_from_gmail">Gmail дотор \"%1$s\" гэгддэг</string>
@@ -1755,6 +1759,7 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="leave_alert_scheduled_header">Хөдлөх цаг нь болох үед танд мэдэгдэнэ.</string>
     <string name="leave_from">Хэнээс</string>
     <string name="legal_documents">Хууль эрх зүй</string>
+    <string name="lens_back_button_description">Буцах</string>
     <string name="lens_education_card_barcodes_heading">Зураасан код</string>
     <string name="lens_education_card_barcodes_paragraph">Зураасан кодыг скан хийж бүтээгдэхүүний дэлгэрэнгүй мэдээллийг олох</string>
     <string name="lens_education_card_media_heading">Ном, медиа</string>
@@ -1769,6 +1774,7 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="lens_info_panel_header_preview_tag">урьдчилан үзэх</string>
     <string name="lens_info_panel_live_camera_title">Объект болон текстийг товших</string>
     <string name="lens_info_panel_loading_message">Илэрцийг хайж байна…</string>
+    <string name="lens_quit_button_description">Гарах</string>
     <string name="lens_title">Google дуран</string>
     <string name="license_activity_title">Нээлттэй Эхийн Лиценз</string>
     <string name="light_traffic">Хөдөлгөөн бага</string>
@@ -2095,6 +2101,8 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="opa_assist_app_screen_explanation">Google туслахдаа хандахын тулд туслах болон дуут оролтын тохиргоо хэсэгт Google аппыг сонгоно уу</string>
     <string name="opa_assist_app_screen_title">Google апп таны өгөгдмөл туслах апп биш</string>
     <string name="opa_assistant_logo_content_description">Дуун хайлт</string>
+    <string name="opa_consent_check_error_button">Хаах</string>
+    <string name="opa_consent_check_error_button_notavailable">Бүртгэл сэлгэх</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">Таны бүртгэлийн тохиргооноос шалтгаалан та Туслахаа вэбийн илэрц, хошигнол болон дотоод мэдээлэл авах зэргээр ашиглах боломжгүй.</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_text">Үгүй, баярлалаа</string>
     <string name="opa_consent_check_error_confirmreject_personalize_radio_button_show_less">Хураангуй харуулах</string>
@@ -2142,9 +2150,11 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="opa_error_consent_retry_message_conn_error">Холболтоо шалгаад дахин оролдоно уу</string>
     <string name="opa_error_consent_retry_negative">Цуцлах</string>
     <string name="opa_error_consent_retry_positive">Дахин оролдоно уу</string>
+    <string name="opa_error_gaia_button">Нэвтрэх</string>
     <string name="opa_error_gaia_message">Таны туслах таныг Google бүртгэлээр таних бөгөөд таны хуанли, ажилдаа очих зам болон бусад зүйлд туслах болно.</string>
     <string name="opa_error_gaia_skip_button">Үгүй, баярлалаа</string>
     <string name="opa_error_gaia_title">Google туслахыг өөрийн болгохын тулд нэвтэрнэ үү</string>
+    <string name="opa_error_network_button">Сүлжээний тохиргоо</string>
     <string name="opa_error_network_message">Ta Google туслахыг ашиглахын тулд интернэтэд холбогдох шаардлагатай. Холболтоо шалгаад, дахин оролдоно уу.</string>
     <string name="opa_error_network_title">Та офлайн байна</string>
     <string name="opa_error_udc_spinner_content">Үүнд хэдэн хором шаардлагатай</string>
@@ -2156,6 +2166,7 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="opa_error_unsupported_locale_button">ХЭЛ СОЛИХ</string>
     <string name="opa_error_unsupported_locale_message">Google туслахдаа хандахын тулд Хэл хэсгээс Системийн тохиргоог өөрчилнө үү.</string>
     <string name="opa_error_unsupported_locale_title">Одоогоор Google туслахыг %1$s хэлээр ашиглах боломжгүй байна</string>
+    <string name="opa_error_update_playstore_button">Play Store-д шинэчлэх</string>
     <string name="opa_error_update_playstore_message">Play Store-д орж, сүүлийн үеийн сайжруулалт авахын тулд Google апп-г шинэчилнэ үү</string>
     <string name="opa_error_update_required_title">Таны туслахад шинэ чадвар хэрэгтэй байна</string>
     <string name="opa_error_update_started_message">Энэ удахгүй бөгөөд таны туслах тун удахгүй бүтэн өдрийн турш танд туслахад бэлэн болно.</string>
@@ -2192,6 +2203,11 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="opa_gearhead_opt_in_notification_body">Жолоо барьж байхдаа Google Туслахтай дуу хоолойгоороо ярих боломжтой</string>
     <string name="opa_gearhead_opt_in_notification_title">Жолоо барьж байхдаа Google Туслахыг ашиглах</string>
     <string name="opa_gearhead_opt_in_speech">Та аюулгүй үед мэдэгдлийг товшсоноор жолоо барьж байхдаа Google Туслахыг ашиглах боломжтой.</string>
+    <string name="opa_gmscore_unavailable_button_disabled">Тохиргоо</string>
+    <string name="opa_gmscore_unavailable_button_missing">Суулгах</string>
+    <string name="opa_gmscore_unavailable_button_no_recovery">Хаах</string>
+    <string name="opa_gmscore_unavailable_button_permissions">Шинэчлэх</string>
+    <string name="opa_gmscore_unavailable_button_update">Шинэчлэх</string>
     <string name="opa_gmscore_unavailable_message_disabled">Туслахтайгаа ажиллахын тулд эхлээд Google Play үйлчилгээг төхөөрөмжийн тохиргоонд асаана уу.</string>
     <string name="opa_gmscore_unavailable_message_invalid">Таны төхөөрөмж Google Play үйлчилгээг дэмждэггүй.</string>
     <string name="opa_gmscore_unavailable_message_missing">Туслахтайгаа ажиллахын тулд эхлээд Google Play үйлчилгээг суулгана уу.</string>
@@ -2306,6 +2322,7 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="opa_value_proposition_skip">Алгасах</string>
     <string name="opa_value_proposition_title">Сайн байна уу, танд хэрхэн туслах вэ?</string>
     <string name="opa_value_proposition_title_loading">Шалгаж байна…</string>
+    <string name="opa_voice_search_listening">Сонсож байна…</string>
     <string name="opa_warm_welcome_greeting_0">Сайн байна уу! Би таны Google туслах байна.</string>
     <string name="opa_warm_welcome_greeting_1">Би танд хэрэгтэй зүйлийг олоход тусалж, тушаал гүйцэтгэж чадна. Танд тусламж хэрэгтэй үед \"Та юу хийж чадах вэ?\" гэж асууна уу.</string>
     <string name="opa_warm_welcome_greeting_1_backup_0">Би таны хэрэгтэй зүйлийг олох, тушаалыг гүйцэтгэх, мөн таныг хөгжөөхөд тусална.</string>
@@ -2513,21 +2530,21 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="prefTitle_language">Хэл</string>
     <string name="prefTitle_profanityFilter">Доромжилсон үгсийг хаах</string>
     <string name="prefTitle_ttsMode">Дууны гаралт</string>
-    <string name="pref_default_expanded_additional" formatted="false">Өгөдмөл үндсэн: %s Бусад: %s</string>
+    <string name="pref_default_expanded_additional">Өгөдмөл үндсэн: %1$s Бусад: %2$s</string>
     <string name="pref_default_expanded_no_additional">Өгөгдмөл хэл: %s</string>
-    <string name="pref_default_title_prefix_multiple_language" formatted="false">Өгөгдмөл: Нэмэлт %s - %d</string>
+    <string name="pref_default_title_prefix_multiple_language">Өгөгдмөл: Нэмэлт %1$s - %2$d</string>
     <string name="pref_default_title_prefix_no_additional_language">Үндсэн: %s - нэмэлт байхгүй</string>
-    <string name="pref_expanded_additional" formatted="false">Үндсэн: %s Бусад: %s</string>
+    <string name="pref_expanded_additional">Үндсэн: %1$s Бусад: %2$s</string>
     <string name="pref_expanded_no_additional">Хэл: %s</string>
     <string name="pref_multilang_override_detail_hotword">Google аппаас \"Оk Google\"</string>
     <string name="pref_multilang_override_detail_speakerid">• Дурын дэлгэцээс \"Оk Google\" илрүүлэлт</string>
     <string name="pref_multilang_override_dialog_title">Үндсэн хэлийг өөрчлөх үү?</string>
     <string name="pref_multilang_override_doit">Тийм, өөрчилнө</string>
     <string name="pref_multilang_override_dont">Үгүй, баярлалаа</string>
-    <string name="pref_multilang_override_message" formatted="false">"Та үндсэн хэлээ %s-с %s болгон өөрчилбөл илэрц сайжирна.
+    <string name="pref_multilang_override_message">"Та үндсэн хэлээ %1$s-с %2$s болгон өөрчилбөл илэрц сайжирна.
 
 Хэрэв та тус өөрчлөлтийг хийвэл дараахыг авна:"</string>
-    <string name="pref_regular_title_prefix_multiple_language" formatted="false">%s - %d нэмэлт</string>
+    <string name="pref_regular_title_prefix_multiple_language">%1$s - %2$d нэмэлт</string>
     <string name="pref_regular_title_prefix_no_additional_language">%s - нэмэлт байхгүй</string>
     <string name="preinstalled">Өмнө суулгасан</string>
     <string name="preinstalled_details">%1$s хувилбарыг урьдчилан суулгасан байна, багтаамжийн хэмжээ %2$s</string>
@@ -2923,11 +2940,11 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="streaming_text_recognizing">Таниулж байна…</string>
     <string name="street_address_label">Гудамжны хаяг</string>
     <string name="suggest">Автомат гүйцээлт</string>
-    <string name="suggest_contact_removal_body" formatted="false">&lt;b>%s&lt;/b>-г таны Шилдэг харилцагчийн жагсаалтаас устгана. Та &lt;b>%s&lt;/b>-г хайж олох боломжтой хэвээр байна.</string>
+    <string name="suggest_contact_removal_body">&lt;b>%1$s&lt;/b>-г таны Шилдэг харилцагчийн жагсаалтаас устгана. Та &lt;b>%2$s&lt;/b>-г хайж олох боломжтой хэвээр байна.</string>
     <string name="suggest_contact_removal_cancel">ЦУЦЛАХ</string>
     <string name="suggest_contact_removal_confirm">НУУХ</string>
     <string name="suggest_contact_removal_title">%s-г нуух уу?</string>
-    <string name="suggest_contact_unhide_body" formatted="false">&lt;b>%s&lt;/b>-г нуусан. Шилдэг харилцагчдаа харуулах бол &lt;b>%s&lt;/b>-г ил болгоно уу.</string>
+    <string name="suggest_contact_unhide_body">&lt;b>%1$s&lt;/b>-г нуусан. Шилдэг харилцагчдаа харуулах бол &lt;b>%2$s&lt;/b>-г ил болгоно уу.</string>
     <string name="suggest_contact_unhide_cancel">ЦУЦЛАХ</string>
     <string name="suggest_contact_unhide_confirm">ИЛ БОЛГОХ</string>
     <string name="suggest_contact_unhide_title">%s-г ил болгох уу?</string>
@@ -3377,6 +3394,8 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="your_bus_reservation">Таны автобусны захиалга</string>
     <string name="your_location_search_menu_text">Таны байршил</string>
     <string name="your_train_reservation">Таны галт тэрэгний захиалга</string>
+    <string name="zero_state_generic_error_toast_message">Уучлаарай, алдаа гарлаа.</string>
+    <string name="zero_state_network_error_toast_message">Одоогоор Google-тэй холбогдох боломжгүй байна.</string>
     <string name="zerostate_explore_section_more">Дэлгэрэнгүй</string>
     <string name="zerostate_explore_section_title">Туслахыг хэрхэн ашиглах талаар судлах</string>
 </resources>
